@@ -1,0 +1,21 @@
+﻿l_russian:
+ #ACCOLADE NAME COMPONENTS 
+  
+ accolade_griffon: "Грифон"  #Машинный перевод 28.10.23!
+ accolade_hippogriff: "Гиппогриф"  #Машинный перевод 28.10.23!
+  
+ accolade_the_impure: "нечистый"  #Машинный перевод 28.10.23!
+ accolade_nonhumans: "Нелюди"  #Машинный перевод 28.10.23!
+ accolade_voidspawn: "Нелюди"  #Машинный перевод 28.10.23!
+ accolade_imperials: "Имперцы"  #Машинный перевод 28.10.23!
+ accolade_the_empire: "империя"  #Машинный перевод 28.10.23!
+  
+ accolade_bloodcrystal: "Кровавый Кристалл"  #Машинный перевод 28.10.23!
+ accolade_magi_steel: "Маги Сталь"  #Машинный перевод 28.10.23!
+  
+ mammothry_attribute_modifier: "$mammothry_attribute$ [acclaimed_knight|E]"  #Машинный перевод 28.10.23!
+ mammothry_attribute: "Мамонтовый всадник"  #Машинный перевод 28.10.23!
+ accolade_mammoth_riding: "Верховая езда на мамонте"  #Машинный перевод 28.10.23!
+ accolade_mammotheer: "Мамонтовый всадник"  #Машинный перевод 28.10.23!
+ accolade_maa_mammothiers_only_available_on_primary: "#color_red НЕ: [GetMaA('accolade_maa_mammothiers').GetName] (требуется основной [accolade_type|E])#!"  #Машинный перевод 28.10.23!
+ accolade_mammoths: "Мамонты"  #Машинный перевод 28.10.23!
