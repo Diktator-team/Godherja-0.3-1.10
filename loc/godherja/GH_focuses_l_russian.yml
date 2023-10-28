@@ -1,0 +1,16 @@
+﻿l_russian:
+  
+  # Enrichment 
+ adventure_lifestyle_name: "Обогащение"  #Машинный перевод 28.10.23!
+ adventure_lifestyle_desc: "Сосредоточьтесь на углублении и обогащении души... или своего кармана посредством личных усилий."  #Машинный перевод 28.10.23!
+ adventure_lifestyle_highlight_desc: "Благодаря вашему [adventurer|E] [trait|E] вы получаете #P [GetPlayer.Custom('GetEducationLifestylePercentageBoost')]#! ещё [experience|E] в этом образе жизни."  #Машинный перевод 28.10.23!
+  
+ adventure_glory_focus: "Слава Фокус"  #Машинный перевод 28.10.23!
+ adventure_glory_focus_desc: "Иметь имя, которое будут помнить – вот истинное призвание жизни."  #Машинный перевод 28.10.23!
+ adventure_glory_focus_effect_desc: "Фокус на грантах славы:\n\n#!Gain [dynasty_prestige|E] из [journeys|E]"  #Машинный перевод 28.10.23!
+ adventure_fortune_focus: "Фортуна Фокус"  #Машинный перевод 28.10.23!
+ adventure_fortune_focus_desc: "[aeras|E] полон богатств, которые готовы собрать те, кто желает испачкать руки."  #Машинный перевод 28.10.23!
+ adventure_fortune_focus_effect_desc: "Сосредоточение внимания на грантах Фортуны:\n\n#!Gain дополнительных [gold|E] из [journeys|E]"  #Машинный перевод 28.10.23!
+ adventure_enlightenment_focus: "Просвещение Фокус"  #Машинный перевод 28.10.23!
+ adventure_enlightenment_focus_desc: "Самая большая радость – это познать глубину мира."  #Машинный перевод 28.10.23!
+ adventure_enlightenment_focus_effect_desc: "Фокус на грантах Просвещения:\n\n#!Can получает [skills|E] от [journeys|E]\n[guest|E] Стоимость найма: [gold_i]#P -15%#!"  #Машинный перевод 28.10.23!

@@ -1,0 +1,12 @@
+﻿l_russian:
+ pdi_imperrech_warpath: "Под угрозой завоевания в [sjalvolki_migrations|E]"  #Машинный перевод 28.10.23!
+ pdi_last_stand: "На [war|E] против [Concept('sjalvolki_migrations','Witch-Breaker')|E]"  #Машинный перевод 28.10.23!
+ pdi_legacy_of_elysia: "[modifier|E]: [GetModifier('legacy_of_elysia').GetNameWithTooltip] до 1304 IS"  #Машинный перевод 28.10.23!
+ pdi_legacy_of_icw: "[modifier|E]: [GetModifier('legacy_of_icw').GetNameWithTooltip] до 1286 IS"  #Машинный перевод 28.10.23!
+ pdi_malcoisiac_anarchy: "[modifier|E]: [GetModifier('malcoisiac_anarchy').GetNameWithTooltip] до тех пор, пока не будет сформирован [kingdom|E] или [empire|E]."  #Машинный перевод 28.10.23!
+ pdi_reliant_on_vampirism: "[trait|E]: существует риск $action_dying$ без признака [GetTrait('gh_vampiric').GetName( GetNullCharacter )]."  #Машинный перевод 28.10.23!
+ pdi_killed_the_world: "[modifier|E]: [GetModifier('aeschraes_pissed_on_my_wife').GetNameWithTooltip]"  #Машинный перевод 28.10.23!
+ #pdi_puppet: "[trait|E]: [GetTrait('gh_puppet').GetName( GetNullCharacter )]"  #Машинный перевод 28.10.23!
+ pdi_magic_is_shunned: "Вера избегает [magic|E]"  #Машинный перевод 28.10.23!
+ pdi_magic_is_criminal: "Вера криминализирует [magic|E]"  #Машинный перевод 28.10.23!
+ pdi_aftermath_of_the_ash_war: "[modifier|E]: [GetModifier('aftermath_of_the_ash_war').GetNameWithTooltip] до 1264 IS"  #Машинный перевод 28.10.23!

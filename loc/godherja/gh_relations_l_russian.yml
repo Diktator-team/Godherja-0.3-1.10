@@ -1,0 +1,18 @@
+﻿l_russian:
+ relation_magic_tutor_female: "[court_magi|E]"  #Машинный перевод 28.10.23!
+ relation_magic_tutor_male: "[court_magi|E]"  #Машинный перевод 28.10.23!
+ relation_magic_tutor_female_possessive: "[court_magi|E]"  #Машинный перевод 28.10.23!
+ relation_magic_tutor_male_possessive: "[court_magi|E]"  #Машинный перевод 28.10.23!
+  
+ magic_tutor: "[magic_tutor|E]"  #Машинный перевод 28.10.23!
+  
+ killed_my_mother: "[CHARACTER.GetShortUIName|U] всю жизнь начал поиски мести после того, как его заставили смотреть, как [TARGET_CHARACTER.GetShortUIName|U] казнит мать [CHARACTER.GetShortUINamePossessiveNoTooltip]."  #Машинный перевод 28.10.23!
+ killed_my_mother_corresponding: "[CHARACTER.GetShortUIName|U] был помечен [TARGET_CHARACTER.GetShortUIName|U] для мести после казни матери [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]."  #Машинный перевод 28.10.23!
+ soulmate_pirates: "[CHARACTER.GetShortUIName|U] соблазнил [TARGET_CHARACTER.GetShortUIName|U] после того, как спас их от пиратов."  #Машинный перевод 28.10.23!
+ soulmate_pirates_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] соблазнил [CHARACTER.GetShortUIName|U] после того, как спас их от пиратов."  #Машинный перевод 28.10.23!
+  
+ # GH versions of BP custom loc 
+ relation_pathfellow: "попутчик"  #Машинный перевод 28.10.23!
+ relation_pactkin: "пакетик"  #Машинный перевод 28.10.23!
+ relation_blood_brother: "брат по крови"  #Машинный перевод 28.10.23!
+ relation_blood_sister: "кровная сестра"  #Машинный перевод 28.10.23!

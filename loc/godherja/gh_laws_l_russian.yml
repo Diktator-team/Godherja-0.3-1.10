@@ -1,0 +1,11 @@
+﻿l_russian:
+  
+ pirate_authority: "#E Сплоченность#!"  #Машинный перевод 28.10.23!
+ pirate_authority_0: "Беззаконная коммуна"  #Машинный перевод 28.10.23!
+ pirate_authority_0_effects_not_in_prev: "$EFFECT_LIST_BULLET$Правители могут переезжать в новые регионы\n$EFFECT_LIST_BULLET$Правители могут назначать свои [heir|E]\n$EFFECT_LIST_BULLET$[vassals|E] и [courtiers|E] могут бросить вызов лидерству\n$EFFECT_LIST_BULLET$[realm|E] может распасться #N#! на $EFFECT_LIST_BULLET$0"  #Машинный перевод 28.10.23!
+ pirate_authority_1: "Низкая сплоченность"  #Машинный перевод 28.10.23!
+ pirate_authority_1_effects_not_in_prev: "$EFFECT_LIST_BULLET$Правители могут переезжать в новые регионы\n$EFFECT_LIST_BULLET$Правители могут назначать свои [heir|E]\n$EFFECT_LIST_BULLET$[vassals|E] и [courtiers|E] могут бросить вызов лидерству"  #Машинный перевод 28.10.23!
+ pirate_authority_2: "Средняя сплоченность"  #Машинный перевод 28.10.23!
+ pirate_authority_3: "Высокая сплоченность"  #Машинный перевод 28.10.23!
+  
+ monasteries_must_not_be_on_cooldown_trigger: "Монастыри не должны находиться в режиме восстановления."  #Машинный перевод 28.10.23!

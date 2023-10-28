@@ -1,0 +1,50 @@
+﻿l_russian:
+  ################# 
+  # HOLDING TYPES # 
+  ################# 
+  
+ military_district_holding: "Военный округ"  #Машинный перевод 28.10.23!
+ palatial_district_holding: "Дворцовый район"  #Машинный перевод 28.10.23!
+ maritime_district_holding: "Приморский округ"  #Машинный перевод 28.10.23!
+ academic_district_holding: "Академический район"  #Машинный перевод 28.10.23!
+ trade_district_holding: "Торговый район"  #Машинный перевод 28.10.23!
+ temple_district_holding: "Храмовый район"  #Машинный перевод 28.10.23!
+ urban_district_holding: "Городской округ"  #Машинный перевод 28.10.23!
+ workshop_district_holding: "Мастерский район"  #Машинный перевод 28.10.23!
+ ruined_district_holding: "Разрушенный район"  #Машинный перевод 28.10.23!
+  
+ ruined_military_district_holding: "Разрушенный военный округ"  #Машинный перевод 28.10.23!
+ ruined_palatial_district_holding: "Разрушенный дворцовый район"  #Машинный перевод 28.10.23!
+ ruined_maritime_district_holding: "Разрушенный морской район"  #Машинный перевод 28.10.23!
+ ruined_academic_district_holding: "Академический район"  #Машинный перевод 28.10.23!
+ ruined_trade_district_holding: "Разрушенный торговый район"  #Машинный перевод 28.10.23!
+ ruined_temple_district_holding: "Разрушенный храмовый район"  #Машинный перевод 28.10.23!
+ ruined_urban_district_holding: "Разрушенный городской район"  #Машинный перевод 28.10.23!
+ ruined_workshop_district_holding: "Разрушенный район мастерских"  #Машинный перевод 28.10.23!
+  
+ wasteland_empty_holding: "Пустошь"  #Машинный перевод 28.10.23!
+ wasteland_empty_holding_concept_key: "Пустошь"  #Машинный перевод 28.10.23!
+  
+ necropolis_holding: "Некрополь"  #Машинный перевод 28.10.23!
+  
+  ################ 
+  # CONCEPT KEYS # 
+  ################ 
+ military_district_holding_concept_key: "[military_district|E]"  #Машинный перевод 28.10.23!
+ palatial_district_holding_concept_key: "[palatial_district|E]"  #Машинный перевод 28.10.23!
+ maritime_district_holding_concept_key: "[maritime_district|E]"  #Машинный перевод 28.10.23!
+ academic_district_holding_concept_key: "[academic_district|E]"  #Машинный перевод 28.10.23!
+ trade_district_holding_concept_key: "[trade_district|E]"  #Машинный перевод 28.10.23!
+ temple_district_holding_concept_key: "[temple_district|E]"  #Машинный перевод 28.10.23!
+ urban_district_holding_concept_key: "[urban_district|E]"  #Машинный перевод 28.10.23!
+ workshop_district_holding_concept_key: "[workshop_district|E]"  #Машинный перевод 28.10.23!
+ ruined_district_holding_concept_key: "[ruined_district|E]"  #Машинный перевод 28.10.23!
+ necropolis_holding_concept_key: "[necropolis|E]"  #Машинный перевод 28.10.23!
+  
+ ruined_military_district_holding_concept_key: "[ruined_military_district|E]"  #Машинный перевод 28.10.23!
+ ruined_palatial_district_holding_concept_key: "[ruined_palatial_district|E]"  #Машинный перевод 28.10.23!
+ ruined_maritime_district_holding_concept_key: "[ruined_maritime_district|E]"  #Машинный перевод 28.10.23!
+ ruined_trade_district_holding_concept_key: "[ruined_trade_district|E]"  #Машинный перевод 28.10.23!
+ ruined_temple_district_holding_concept_key: "[ruined_temple_district|E]"  #Машинный перевод 28.10.23!
+ ruined_urban_district_holding_concept_key: "[ruined_urban_district|E]"  #Машинный перевод 28.10.23!
+ ruined_workshop_district_holding_concept_key: "[ruined_workshop_district|E]"  #Машинный перевод 28.10.23!

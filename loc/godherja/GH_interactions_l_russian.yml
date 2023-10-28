@@ -1,0 +1,8 @@
+﻿l_russian:
+ gh_duelist_faith_tt: "[recipient.GetHerHis|U] [faith|E] поощряет [single_combat_duel_plural|E]: $VALUE|=+0$"  #Машинный перевод 28.10.23!
+ gh_bloodlusted_faith_tt: "[recipient.GetHerHis|U] [faith|E] настоятельно рекомендует [single_combat_duel_plural|E]: $VALUE|=+0$"  #Машинный перевод 28.10.23!
+  
+ IS_ALLOWED_TO_IMPRISON_ANY_CRIMINAL_DESC: "#weak Поскольку [Select_CString( imprisoner.IsLocalPlayer, 'I', imprisoner.GetShortUIName )] [Select_CString( imprisoner.IsLocalPlayer, 'am', 'is' )] способен наказывать преступников по своему желанию [Select_CString( imprisoner.IsLocalPlayer, 'I', 'they' )], никто не подумает [Select_CString( imprisoner.IsLocalPlayer, 'me', 'them' )] а [tyrant|E]#!"  #Машинный перевод 28.10.23!
+ IS_ALLOWED_TO_EXECUTE_ANY_CRIMINAL_DESC: "#weak Поскольку вы можете наказывать преступников так, как пожелаете, никто не будет считать вас [tyrant|E]#!"  #Машинный перевод 28.10.23!
+ IS_ALLOWED_TO_REVOKE_VASSAL_ANY_CRIMINAL_DESC: "#weak Поскольку вы можете наказывать преступников так, как пожелаете, никто не будет считать вас [tyrant|E]#!"  #Машинный перевод 28.10.23!
+ IS_ALLOWED_TO_REVOKE_TITLE_ANY_CRIMINAL_DESC: "#weak Поскольку [Select_CString( recipient.IsLocalPlayer, 'I', recipient.GetShortUIName )] [Select_CString( recipient.IsLocalPlayer, 'am', 'is' )] способен наказывать преступников по своему желанию [Select_CString( recipient.IsLocalPlayer, 'I', 'they' )], никто не подумает [Select_CString( recipient.IsLocalPlayer, 'me', 'them' )] а [tyrant|E]#!"  #Машинный перевод 28.10.23!

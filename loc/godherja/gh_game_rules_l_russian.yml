@@ -1,0 +1,107 @@
+﻿l_russian:
+ setting_1653_end_date: "None"  #Машинный перевод 28.10.23!
+ setting_1653_end_date_desc: "Игра закончится в 1653 году."  #Машинный перевод 28.10.23!
+  
+ rule_gedeora: "[gedeora|E]"  #Машинный перевод 28.10.23!
+ setting_gedeora_enabled: "Включено"  #Машинный перевод 28.10.23!
+ setting_gedeora_enabled_desc: "[gedeora|E] будет случайным образом сотрясать мир, вызывая множество непредсказуемых эффектов примерно раз в 5 лет."  #Машинный перевод 28.10.23!
+ setting_gedeora_rare: "Редкий"  #Машинный перевод 28.10.23!
+ setting_gedeora_rare_desc: "[gedeora|E] будет появляться редко — примерно раз в 20 лет."  #Машинный перевод 28.10.23!
+ setting_gedeora_disabled: "Неполноценный"  #Машинный перевод 28.10.23!
+ setting_gedeora_disabled_desc: "[gedeora|E] не появится."  #Машинный перевод 28.10.23!
+  
+ rule_fogeater_invasion: "[fogeater|E] Вторжение"  #Машинный перевод 28.10.23!
+ setting_default_fogeater_invasion: "По умолчанию"  #Машинный перевод 28.10.23!
+ setting_default_fogeater_invasion_desc: "[fogeaters|E] вторгнется в конце 14 века."  #Машинный перевод 28.10.23!
+ setting_never_fogeater_invasion: "#high Никогда#!"  #Машинный перевод 28.10.23!
+ setting_never_fogeater_invasion_desc: "[fogeaters|E] не вторгнется."  #Машинный перевод 28.10.23!
+ setting_random_fogeater_invasion: "#high Случайный#!"  #Машинный перевод 28.10.23!
+ setting_random_fogeater_invasion_desc: "[fogeaters|E] вторгнется в случайную дату."  #Машинный перевод 28.10.23!
+  
+ rule_adabyss_invasion: "Вторжение Адабисса"  #Машинный перевод 28.10.23!
+ setting_default_adabyss_invasion: "По умолчанию"  #Машинный перевод 28.10.23!
+ setting_default_adabyss_invasion_desc: "Адабиссское вторжение начнется через 50-80 лет после старта игры."  #Машинный перевод 28.10.23!
+ setting_never_adabyss_invasion: "#high Никогда#!"  #Машинный перевод 28.10.23!
+ setting_never_adabyss_invasion_desc: "Адабисс не вторгнется на север."  #Машинный перевод 28.10.23!
+  
+ rule_cenware_conquest_extent: "Завоевание Cenware: масштабы"  #Машинный перевод 28.10.23!
+ setting_cenware_conquest_mainland_etepezea: "Материк Этепезеа"  #Машинный перевод 28.10.23!
+ setting_cenware_conquest_mainland_etepezea_desc: "ИИ Сенвар завершит свое великое завоевание, захватив материковую Этепезею, но Тауэрский остров и южная империя не будут захвачены."  #Машинный перевод 28.10.23!
+ setting_cenware_conquest_greater_etepezea: "Большая Этепезеа"  #Машинный перевод 28.10.23!
+ setting_cenware_conquest_greater_etepezea_desc: "ИИ Сенвар завершит свое завоевание после завоевания всей Этепезеи, включая Тауэрский остров, но не вторгнется в южную империю."  #Машинный перевод 28.10.23!
+ setting_cenware_conquest_opakhasia: "Опахасия"  #Машинный перевод 28.10.23!
+ setting_cenware_conquest_opakhasia_desc: "ИИ Сенвар завершит свое великое завоевание, захватив Опахазию, но Айроной и Малкойа не будут захвачены."  #Машинный перевод 28.10.23!
+ setting_cenware_conquest_entire_empire: "Аверсария"  #Машинный перевод 28.10.23!
+ setting_cenware_conquest_entire_empire_desc: "ИИ Cenware вторгнется до Айрони или, реже, даже до Малкойса."  #Машинный перевод 28.10.23!
+  
+ #rule_cenware_conquest_randomness: "Завоевание Cenware: Случайность"  #Машинный перевод 28.10.23!
+ #setting_cenware_conquest_randomness_off: "Случайность отключена"  #Машинный перевод 28.10.23!
+ #setting_cenware_conquest_randomness_off_desc: "Cenware всегда будет брать точные де-юре очертания империй по правилу экстента, а не отдельного графства в большей или меньшей степени."  #Машинный перевод 28.10.23!
+ #setting_cenware_conquest_randomness_on: "Случайность включена"  #Машинный перевод 28.10.23!
+ #setting_cenware_conquest_randomness_on_desc: "Завоевание Сенвара может игнорировать второстепенные острова, а иногда даже всю Башню и архипелаг Ититейя. Он также может преждевременно прекратить свое завоевание Южной империи, если Имперрех начнет терять темп."  #Машинный перевод 28.10.23!
+  
+ rule_destroy_imperrech: "Сялволки Имперрех"  #Машинный перевод 28.10.23!
+ setting_imperrech_intact: "По умолчанию"  #Машинный перевод 28.10.23!
+ setting_imperrech_intact_desc: "Как и предполагалось, Сялволки Имперрех существует с самого начала."  #Машинный перевод 28.10.23!
+ setting_imperrech_destroyed: "#high Уничтожен#!"  #Машинный перевод 28.10.23!
+ setting_imperrech_destroyed_desc: "Некоторым игрокам не нравится существование Имперреха, поэтому это игровое правило (если оно выполнено до выхода на карту) уничтожит титул. (Обратите внимание, эта функция находится в стадии разработки)"  #Машинный перевод 28.10.23!
+  
+ rule_opening_events: "Открытие мероприятий"  #Машинный перевод 28.10.23!
+ setting_opening_events_enabled: "По умолчанию"  #Машинный перевод 28.10.23!
+ setting_opening_events_enabled_desc: "Открытие событий включено."  #Машинный перевод 28.10.23!
+ setting_opening_events_disabled: "#high Отключено#!"  #Машинный перевод 28.10.23!
+ setting_opening_events_disabled_desc: "Открытие событий отключено."  #Машинный перевод 28.10.23!
+  
+ rule_story_content: "Содержание истории"  #Машинный перевод 28.10.23!
+ setting_story_content_enabled: "По умолчанию"  #Машинный перевод 28.10.23!
+ setting_story_content_enabled_desc: "Содержимое истории включено."  #Машинный перевод 28.10.23!
+ setting_story_content_disabled: "#high Отключено#!"  #Машинный перевод 28.10.23!
+ setting_story_content_disabled_desc: "Для игроков, которые чувствуют, что вступительные события нарушают их канон, ролевую игру и т. д., сюжетный контент отключается."  #Машинный перевод 28.10.23!
+  
+ rule_fog_speed: "[fog|E] Скорость распространения"  #Машинный перевод 28.10.23!
+ setting_fog_speed_disabled: "Неполноценный"  #Машинный перевод 28.10.23!
+ setting_fog_speed_disabled_desc: "[fog|E] не будет распространяться."  #Машинный перевод 28.10.23!
+ setting_fog_speed_glacial: "ледниковый"  #Машинный перевод 28.10.23!
+ setting_fog_speed_glacial_desc: "[fog|E] не может распространяться быстрее, чем на один округ за 30 лет."  #Машинный перевод 28.10.23!
+ setting_fog_speed_slow: "Медленный"  #Машинный перевод 28.10.23!
+ setting_fog_speed_slow_desc: "[fog|E] не может распространяться быстрее, чем на один округ в 10 лет."  #Машинный перевод 28.10.23!
+ setting_fog_speed_default: "По умолчанию"  #Машинный перевод 28.10.23!
+ setting_fog_speed_default_desc: "[fog|E] не может распространяться быстрее, чем на один округ в 5 лет."  #Машинный перевод 28.10.23!
+ setting_fog_speed_fast: "Быстрый"  #Машинный перевод 28.10.23!
+ setting_fog_speed_fast_desc: "[fog|E] не может распространяться быстрее, чем один округ за 2,5 года."  #Машинный перевод 28.10.23!
+ setting_fog_speed_apocalypse: "Апокалипсис"  #Машинный перевод 28.10.23!
+ setting_fog_speed_apocalypse_desc: "Конец близок, поскольку [fog|E] может распространяться на два округа в год!"  #Машинный перевод 28.10.23!
+  
+ rule_aervalr_shard: "[aervalr|E] осколков"  #Машинный перевод 28.10.23!
+ setting_aervalr_shard_enabled: "Включено"  #Машинный перевод 28.10.23!
+ setting_aervalr_shard_enabled_desc: "Фрагменты разбитого [aervalr|E] разного размера будут случайным образом падать на землю, сея хаос."  #Машинный перевод 28.10.23!
+ setting_aervalr_shard_disabled: "Неполноценный"  #Машинный перевод 28.10.23!
+ setting_aervalr_shard_disabled_desc: "Осколки [aervalr|E] не упадут в мир."  #Машинный перевод 28.10.23!
+  
+ rule_fog_spread_sarradon: "[fog|E] Распространение: [sarradon|E]"  #Машинный перевод 28.10.23!
+ setting_fog_spread_sarradon_enabled: "Включено"  #Машинный перевод 28.10.23!
+ setting_fog_spread_sarradon_enabled_desc: "[fog|E] может и пересечет море и прибудет к берегам [sarradon|E]."  #Машинный перевод 28.10.23!
+ setting_fog_spread_sarradon_disabled: "Неполноценный"  #Машинный перевод 28.10.23!
+ setting_fog_spread_sarradon_disabled_desc: "[fog|E] не сможет перейти в [sarradon|E]."  #Машинный перевод 28.10.23!
+  
+ rule_hammarts_wild_ride: "Дикая поездка Хаммарта"  #Машинный перевод 28.10.23!
+ setting_hammarts_wild_ride_enabled: "Включено"  #Машинный перевод 28.10.23!
+ setting_hammarts_wild_ride_enabled_desc: "Каждый живой персонаж за пределами [chevalie|E], а также Хаммарта, станет 20-го уровня [magi|E] с образованием во всех формах [magic|E]. Это просто настройка для развлечения, производительность не гарантирована."  #Машинный перевод 28.10.23!
+ setting_hammarts_wild_ride_disabled: "Неполноценный"  #Машинный перевод 28.10.23!
+ setting_hammarts_wild_ride_disabled_desc: "Распределение магических черт будет таким же, как в обычной игре."  #Машинный перевод 28.10.23!
+  
+ rule_wasteland_color: "Цвет пустоши"  #Машинный перевод 28.10.23!
+ setting_wasteland_color_gray: "Серый"  #Машинный перевод 28.10.23!
+ setting_wasteland_color_gray_desc: "Пустые округа будут на карте серыми."  #Машинный перевод 28.10.23!
+ setting_wasteland_color_white: "Белый"  #Машинный перевод 28.10.23!
+ setting_wasteland_color_white_desc: "Пустые округа будут на карте белыми."  #Машинный перевод 28.10.23!
+ setting_wasteland_color_black: "Черный"  #Машинный перевод 28.10.23!
+ setting_wasteland_color_black_desc: "Пустые округа будут на карте черными."  #Машинный перевод 28.10.23!
+  
+  ############## 
+  # CATEGORIES # 
+  ############## 
+ general_category_name: "Общий"  #Машинный перевод 28.10.23!
+ borders_category_name: "Границы"  #Машинный перевод 28.10.23!
+ magic_category_name: "Магия"  #Машинный перевод 28.10.23!
+ story_content_category_name: "Содержание сюжета #X (МОЖЕТ СОДЕРЖАТЬ СПОЙЛЕРЫ)#!"  #Машинный перевод 28.10.23!
