@@ -1,0 +1,6 @@
+﻿l_russian:
+  
+ activity_elephant_race: "Слоновьи гонки"  #Машинный перевод 28.10.23!
+ activity_elephant_race_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Слоновьи гонки"  #Машинный перевод 28.10.23!
+ activity_elephant_race_desc: "[ACTIVITY.GetOwner.GetTitledFirstName] отправился на трассу, чтобы насладиться гонками на слонах."  #Машинный перевод 28.10.23!
+ activity_elephant_race_owner: "Покровитель"  #Машинный перевод 28.10.23!

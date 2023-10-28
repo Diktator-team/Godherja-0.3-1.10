@@ -1,0 +1,130 @@
+﻿l_russian:
+ philantrianist.0011.t: "Прошение милостыни"  #Машинный перевод 28.10.23!
+ philantrianist.0011.intro.philantrianist: "Я послал сборщикам приказы собирать милостыню любыми необходимыми способами на благо ордена и тех несчастных, которых мы должны обеспечить. Хотя некоторые туземцы высмеивают Коллекционеров как головорезов и скотов, это просто необоснованно. На самом деле Коллекционеры невероятно трепетно ​​и бережно относятся к своим самым ценным вещам, не оставляя на них даже царапины. Клянусь Филантросом, они даже оказывают им любезность, сохраняя для них свои вещи, пока мы не убедим их сделать пожертвование в пользу ордена!\n\nВозможно, это правда, что они могут начать буйствовать, но что из этого? И это только из-за их рвения помочь тем, кому повезло меньше! Вот они и идут сейчас, в зеленых доспехах и с дубинками и булавами, чтобы убедить горожан внести свой вклад."  #Машинный перевод 28.10.23!
+ philantrianist.0011.intro.non_philantrianist: "Я разрешил собирателям Ордена Золотой Руки доступ в один из моих городов, где они могут свободно собирать «пожертвования» от горожан в течение следующих нескольких дней. В обмен на свою щедрость я сам получу довольно значительную часть выручки. Если местным жителям посчастливится быть незнакомыми с клептиаками и их методами, они очень скоро потеряют эту привилегию.\n\nВ любом случае, это вряд ли моя проблема. [clique_member_scope.GetFirstName], [clique_member_scope.Custom('GetHolyOrderBrotherOrSister')], присвоенный этой конкретной группе филантросианитов, приветствует меня перед тем, как [clique_member_scope.GetHerHis] войти в поселение."  #Машинный перевод 28.10.23!
+ philantrianist.0011.a: "Удачи!"  #Машинный перевод 28.10.23!
+  
+ philantrianist.0012.t: "Прошение милостыни"  #Машинный перевод 28.10.23!
+ philantrianist.0012.intro.kleptiakos: "Как набожный филантросианит и [ROOT.Char.Custom('GetHolyOrderBrotherOrSister')] собирателей, я имею право отправлять и собирать милостыню по собственному желанию. У меня есть довольно большая свобода действий в отношении того, как именно я буду подходить к этой задаче."  #Машинный перевод 28.10.23!
+ philantrianist.0012.intro.non_kleptiakos: "Как преданный филантросианит и член [ROOT.Char.Custom('GetHolyOrderBrotherOrSister')] сборщиков, орден повелел мне помогать [interaction_requester.GetTitledFirstName] в сборе милостыни для нуждающихся на территории, находящейся под юрисдикцией [interaction_requester.GetHerHis], и я обязан выполнить их просьбу. Хотя это может быть правдой, способ удовлетворения этих требований зависит от моего усмотрения."  #Машинный перевод 28.10.23!
+ philantrianist.0012.middle.compassionate: "\n\nЯ могу только надеяться, что местные жители [fundraising_county.GetNameNoTier] будут достаточно сотрудничать и не заставят мою руку сделать то, чего я бы предпочел избежать. Насколько мы помним, милостыня не была полностью добровольной, и некоторые из моих братьев и сестер были... чрезмерно усердны в своих обязанностях. Понятно, что наших подданных возмущает такое положение дел, но если я готов быть разумным по отношению к ним и брать только то, что им действительно не нужно, я уверен, что они с радостью проявят такую ​​же любезность."  #Машинный перевод 28.10.23!
+ philantrianist.0012.middle.neutral: "\n\nМестные жители часто пытаются уклониться от уплаты своих взносов, но в таких случаях у меня есть широкий выбор вариантов, чтобы получить то, что по праву принадлежит нам, как, вероятно, обнаружат жители [fundraising_county.GetNameNoTier]. Нежелание расставаться с избыточным богатством не является достаточной причиной для отказа в поддержке наиболее нуждающихся, а скупые будут унижены и наказаны, если потребуется.\n\nИногда известно, что особенно жадные пытаются напасть на нас — оскорблениями, ударами или даже мечами, — но я поощряю истреблять ту мразь, которая готова наложить руку на уважаемого [ROOT.Char.Custom('GetHolyOrderBrotherOrSister')] самого нищего и самоотверженного из орденов."  #Машинный перевод 28.10.23!
+ philantrianist.0012.middle.sadistic: "\n\nЖалкие языческие свиньи, обитающие на этой проклятой земле, часто сопротивляются нашим призывам о милостыне, но, естественно, мы придумали способы убедить их, что они заблуждаются. Честно говоря, кооперативные вызывают у меня большое разочарование — так или иначе, мы получим свое, но немного развлечься при выполнении этого задания не вредно. В конце концов, мы их лучше, и разве мы не имеем права поступать с ними, как нам заблагорассудится?\n\nКалечу ли я их, расчленяю их, забиваю их, как свиней, это все для нищих и добрых святых Филантрос, благослови его имя, и поэтому никто не сможет назвать меня неправедным. Если пайнимы [fundraising_county.GetNameNoTier] откажут нам в уплате взносов, то они пожалеют о том дне, когда подстегнули бедняков."  #Машинный перевод 28.10.23!
+ philantrianist.0012.a.compassionate: "Неужели купцы могут пожалеть немного монеты?"  #Машинный перевод 28.10.23!
+ philantrianist.0012.a.neutral: "Жадные торговцы на этот раз могут оказаться полезными."  #Машинный перевод 28.10.23!
+ philantrianist.0012.a.sadistic: "Пришло время сломать ноги нескольким торговцам."  #Машинный перевод 28.10.23!
+ philantrianist.0012.b.compassionate: "Времена тяжелые, всем придется внести свой вклад."  #Машинный перевод 28.10.23!
+ philantrianist.0012.b.neutral: "Отделите четверть и отберите все несерьезное."  #Машинный перевод 28.10.23!
+ philantrianist.0012.b.sadistic: "Пусть обыщут всю эту несчастную палату."  #Машинный перевод 28.10.23!
+ philantrianist.0012.c.compassionate: "У меня нет другого выбора, кроме как быть тщательным."  #Машинный перевод 28.10.23!
+ philantrianist.0012.c.neutral: "Здешние подонки достаточно долго жили в роскоши!"  #Машинный перевод 28.10.23!
+ philantrianist.0012.c.sadistic: "Кого я шучу? Убейте их всех и заберите все!"  #Машинный перевод 28.10.23!
+  
+ philantrianist.0013.t.success: "Радость нищего"  #Машинный перевод 28.10.23!
+ philantrianist.0013.t.failure: "Бедственное положение бедного нищего"  #Машинный перевод 28.10.23!
+ philantrianist.0013.desc.success: "Наконец [clique_member_scope.GetFirstName] выходит из города с добычей в руке. Группа не столкнулась с проблемами и очень благодарна за возможность собирать милостыню от «таких щедрых людей». Настолько благодарен, что [clique_member_scope.GetSheHe] предлагает мне часть выручки в знак признательности ордена!\n\nКонечно, сами горожане... вряд ли оценили бы визит Коллекционеров. Однако, по крайней мере в ближайшем будущем, они, скорее всего, будут больше озабочены тем, как поставить еду на свои столы, чем чем-либо еще."  #Машинный перевод 28.10.23!
+ philantrianist.0013.desc.failure: "Спутники [clique_member_scope.GetFirstName] и [clique_member_scope.GetHerHis] выходят из города быстрее, чем ожидалось, хотя по мере их приближения становится все более очевидным, что они на самом деле убегают. Когда [clique_member_scope.GetFirstName] переводит дыхание [clique_member_scope.GetHerHis], [clique_member_scope.GetSheHe] начинает проклинать "леденящую кровь алчность" местных жителей и клянется никогда больше не ступать в эту несчастную деревню.\n\nМои попытки убедить филантрозианцев остаться терпят неудачу уши — город, по их мнению, слишком испорчен жадностью и ненавистью к таким же обездоленным, как они сами. Они бормочут что-то о том, что какие-то другие ордена здесь полезнее, и ускакивают прочь."  #Машинный перевод 28.10.23!
+ philantrianist.0013.a.success: "Такова сила милосердия."  #Машинный перевод 28.10.23!
+ philantrianist.0013.a.failure: "Бесполезные и никчемные бандиты!"  #Машинный перевод 28.10.23!
+  
+ philantrianist.0021.t: "Предложение, от которого невозможно отказаться"  #Машинный перевод 28.10.23!
+ philantrianist.0021.desc: "Известно, что наши честные пути и самоотверженная борьба за улучшение положения обездоленных растапливают сердца даже самых суровых правителей. Иногда нам приходится искажать правду и скрывать, кто мы есть на самом деле, опасаясь расправы жадных угнетателей, это правда, но разве сам святой Филантр не говорил, что нищий, укравший буханку хлеба, честнее власти, притеснявшей его? \n\nЯ считаю, что [recipient.GetTitledFirstName] может быть восприимчив к нашим просьбам о милостыне – хотя они могут даже не осознавать, что помогают бедным, пока мы не уйдем с их пожертвованием. Если бы я мог сочинить достаточно убедительную историю, чтобы заставить [recipient.GetHerHim] расстаться с золотом [recipient.GetHerHis], то бедняки повсюду закричали бы от радости, и сердце [recipient.GetFirstName] освободилось бы от алчности."  #Машинный перевод 28.10.23!
+ philantrianist.0021.a: "Эта штуковина гарантированно отразит [fog|E]!"  #Машинный перевод 28.10.23!
+ philantrianist.0021.b: "Я адабиссинский принц, и у меня есть предложение."  #Машинный перевод 28.10.23!
+ philantrianist.0021.c: "Поделитесь монеткой для голодающих детей Кемсари?"  #Машинный перевод 28.10.23!
+ philantrianist.0022.t: "План действий"  #Машинный перевод 28.10.23!
+ philantrianist.0022.desc: "До поздней ночи я и мои соотечественники строят планы и строят планы, ища возможности сделать наш план более надежным и, возможно, амбициозным. Обмениваются приглушенным шепотом, письма от сомнительных соратников из двора нашей добычи читаются при бледном свете свечей, и наш заговор сплетается, как паутина.\n\nЯ могу дать команду привести план в действие в любое время, хотя я наверное, не стоит торопиться. Однако более сложная схема может оказаться более рискованной из-за более высокой вероятности поворота какой-либо ее части в неожиданном направлении, поэтому мне следует быть осторожным."  #Машинный перевод 28.10.23!
+ philantrianist.0022.a: "Хорошо, давай сделаем это."  #Машинный перевод 28.10.23!
+ philantrianist.0022.b: "У этого курса есть потенциал."  #Машинный перевод 28.10.23!
+ philantrianist.0022.c: "Здесь нам придется переосмыслить наш подход."  #Машинный перевод 28.10.23!
+ philantrianist.0022.d: "Это может сработать с небольшими изменениями."  #Машинный перевод 28.10.23!
+ philantrianist.0022.cancel: "Это не сработает. Я сокращаю свои потери."  #Машинный перевод 28.10.23!
+  
+  ############ 
+  # TOOLTIPS # 
+  ############ 
+ will_recruit_kleptiakos_enforcer_tt: "Наймём #positive_value Клептиакоса-инфорсера#!, и @skill_stewardship_icon! [stewardship|E] и @skill_prowess_icon! [prowess|E] сосредоточен [courtier|E]"  #Машинный перевод 28.10.23!
+ will_do_urgent_fundraising_personally_tt: "Лично вымогает переменную сумму [gold|E] у случайного [domain|E] [county|E]."  #Машинный перевод 28.10.23!
+ will_do_urgent_fundraising_tt: "Наймет Клептиакоса, чтобы вымогать переменную сумму [gold|E] у случайного [domain|E] [county|E]."  #Машинный перевод 28.10.23!
+ kleptiakos_will_take_fee_tt: "Клептиакос оставят [GetPlayer.MakeScope.ScriptValue('urgent_fundraising_service_fee_percentage')|V0]% выручки себе."  #Машинный перевод 28.10.23!
+ philantrianist.0012.a.tt_success: "Вы извлекаете [gold|E] без проблем."  #Машинный перевод 28.10.23!
+ philantrianist.0012.a.tt_partial_failure: "Разгневанные местные жители прогоняют вас."  #Машинный перевод 28.10.23!
+ philantrianist.0012.a.tt_failure: "Вы загнаны в угол и убиты толпой"  #Машинный перевод 28.10.23!
+ pick_scam_tt: "Вы начнете планировать обман против [recipient.GetFirstName]. Эта уловка в основном будет использовать навык [scam_being_executed.MakeScope.Var('scam_skill').GetFlagName] и будет более эффективна против:"  #Машинный перевод 28.10.23!
+ planning_scam_tt: "Вы строите график [scam_being_executed.MakeScope.Var('scam_base_difficulty').GetFlagName] против [recipient.GetFirstName]. Эта уловка в основном будет использовать навык [scam_being_executed.MakeScope.Var('scam_skill').GetFlagName] и будет более эффективна против:"  #Машинный перевод 28.10.23!
+ scam_first_attribute_tt: "Символы [SelectLocalization(scam_being_executed.MakeScope.Var('first_trait').IsSet, GetTrait(scam_being_executed.MakeScope.Var('first_trait').GetFlagName).GetName( GetNullCharacter ), scam_being_executed.MakeScope.Var('first_ai_value').GetFlagName)]"  #Машинный перевод 28.10.23!
+ scam_second_attribute_tt: "Символы [SelectLocalization(scam_being_executed.MakeScope.Var('second_trait').IsSet, GetTrait(scam_being_executed.MakeScope.Var('second_trait').GetFlagName).GetName( GetNullCharacter ), scam_being_executed.MakeScope.Var('second_ai_value').GetFlagName)]"  #Машинный перевод 28.10.23!
+ scam_third_attribute_tt: "Символы [SelectLocalization(scam_being_executed.MakeScope.Var('third_trait').IsSet, GetTrait(scam_being_executed.MakeScope.Var('third_trait').GetFlagName).GetName( GetNullCharacter ), scam_being_executed.MakeScope.Var('third_ai_value').GetFlagName)]"  #Машинный перевод 28.10.23!
+ planning_phase_tt: "На этапе планирования вы сможете изменить или усложнить уловку #positive_value [GetPlayer.MakeScope.ScriptValue('scam_starting_development_points')|V0]#! раза благодаря вашему @skill_intrigue_icon!# [intrigue|E] навыку и особенностям."  #Машинный перевод 28.10.23!
+ hoodwink.success_tt: "Вы успешно обманули [recipient.GetFirstName]"  #Машинный перевод 28.10.23!
+ hoodwink.failure_tt: "Ваша уловка не удалась"  #Машинный перевод 28.10.23!
+ hoodwink.catastrophic_failure_tt: "Ваша уловка катастрофически проваливается"  #Машинный перевод 28.10.23!
+  
+  ####################### 
+  # CUSTOM LOCALIZATION # 
+  ####################### 
+ holy_order_brother: "брат"  #Машинный перевод 28.10.23!
+ holy_order_sister: "сестра"  #Машинный перевод 28.10.23!
+  
+  ######### 
+  # FLAGS # 
+  ######### 
+  
+ very_easy_scam: "#difficulty_easy тривиальная уловка#!"  #Машинный перевод 28.10.23!
+ easy_scam: "#difficulty_easy простая уловка#!"  #Машинный перевод 28.10.23!
+ medium_scam: "#difficulty_medium умелый обман#!"  #Машинный перевод 28.10.23!
+ hard_scam: "#difficulty_hard сложная схема#!"  #Машинный перевод 28.10.23!
+ very_hard_scam: "#difficulty_hard лабиринтный заговор#!"  #Машинный перевод 28.10.23!
+  
+ boldness_direct: "смелый и импульсивный"  #Машинный перевод 28.10.23!
+ boldness_inverse: "осторожный или трусливый"  #Машинный перевод 28.10.23!
+ compassion_direct: "чуткий"  #Машинный перевод 28.10.23!
+ compassion_inverse: "недобрый или человеконенавистнический"  #Машинный перевод 28.10.23!
+ energy_direct: "энергичный и инициативный"  #Машинный перевод 28.10.23!
+ energy_inverse: "вялый"  #Машинный перевод 28.10.23!
+ honor_direct: "почетный"  #Машинный перевод 28.10.23!
+ honor_inverse: "бесчестный"  #Машинный перевод 28.10.23!
+ rationality_direct: "рациональный и расчетливый"  #Машинный перевод 28.10.23!
+ rationality_inverse: "иррационален и управляется эмоциями"  #Машинный перевод 28.10.23!
+ sociability_direct: "общительный и общительный"  #Машинный перевод 28.10.23!
+ sociability_inverse: "замкнутый и затворнический"  #Машинный перевод 28.10.23!
+ vengefulness_direct: "злобный"  #Машинный перевод 28.10.23!
+ vengefulness_inverse: "великодушный"  #Машинный перевод 28.10.23!
+ greed_direct: "властолюбивый и хваткий"  #Машинный перевод 28.10.23!
+ greed_inverse: "альтруистичный и благотворительный"  #Машинный перевод 28.10.23!
+ zeal_direct: "духовно мыслящий"  #Машинный перевод 28.10.23!
+ zeal_inverse: "не духовно настроенный"  #Машинный перевод 28.10.23!
+  
+ scam_brave_counter_tooltip: "Уловка становится более эффективной против [GetTrait('brave').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_craven_counter_tooltip: "Уловка становится более эффективной против [GetTrait('craven').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_calm_counter_tooltip: "Уловка становится более эффективной против [GetTrait('calm').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_wrathful_counter_tooltip: "Уловка становится более эффективной против [GetTrait('wrathful').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_chaste_counter_tooltip: "Уловка становится более эффективной против [GetTrait('chaste').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_lustful_counter_tooltip: "Уловка становится более эффективной против [GetTrait('lustful').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_content_counter_tooltip: "Уловка становится более эффективной против [GetTrait('content').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_ambitious_counter_tooltip: "Уловка становится более эффективной против [GetTrait('ambitious').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_diligent_counter_tooltip: "Уловка становится более эффективной против [GetTrait('diligent').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_lazy_counter_tooltip: "Уловка становится более эффективной против [GetTrait('lazy').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_fickle_counter_tooltip: "Уловка становится более эффективной против [GetTrait('fickle').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_stubborn_counter_tooltip: "Уловка становится более эффективной против [GetTrait('stubborn').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_forgiving_counter_tooltip: "Уловка становится более эффективной против [GetTrait('forgiving').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_vengeful_counter_tooltip: "Уловка становится более эффективной против [GetTrait('vengeful').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_generous_counter_tooltip: "Уловка становится более эффективной против [GetTrait('generous').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_greedy_counter_tooltip: "Уловка становится более эффективной против [GetTrait('greedy').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_gregarious_counter_tooltip: "Уловка становится более эффективной против [GetTrait('gregarious').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_shy_counter_tooltip: "Уловка становится более эффективной против [GetTrait('shy').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_honest_counter_tooltip: "Уловка становится более эффективной против [GetTrait('honest').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_deceitful_counter_tooltip: "Уловка становится более эффективной против [GetTrait('deceitful').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_humble_counter_tooltip: "Уловка становится более эффективной против [GetTrait('humble').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_arrogant_counter_tooltip: "Уловка становится более эффективной против [GetTrait('arrogant').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_just_counter_tooltip: "Уловка становится более эффективной против [GetTrait('just').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_arbitrary_counter_tooltip: "Уловка становится более эффективной против [GetTrait('arbitrary').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_patient_counter_tooltip: "Уловка становится более эффективной против [GetTrait('patient').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_impatient_counter_tooltip: "Уловка становится более эффективной против [GetTrait('impatient').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_temperate_counter_tooltip: "Уловка становится более эффективной против [GetTrait('temperate').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_gluttonous_counter_tooltip: "Уловка становится более эффективной против [GetTrait('gluttonous').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_trusting_counter_tooltip: "Уловка становится более эффективной против [GetTrait('trusting').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_paranoid_counter_tooltip: "Уловка становится более эффективной против [GetTrait('paranoid').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_compassionate_counter_tooltip: "Уловка становится более эффективной против [GetTrait('compassionate').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_callous_counter_tooltip: "Уловка становится более эффективной против [GetTrait('callous').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
+ scam_sadistic_counter_tooltip: "Уловка становится более эффективной против [GetTrait('sadistic').GetName( GetNullCharacter )] [trait|E]."  #Машинный перевод 28.10.23!
