@@ -1,0 +1,6 @@
+﻿l_russian:
+ court_magic: "Магический суд" #Машинный перевод 28.10.23
+ court_magic_desc: "#low Мудрость и знания [magi|E] нашего королевства приведут землю к еще большим высотам." #Машинный перевод 28.10.23
+ court_magic_tooltip_desc: "$court_magic$ — это [court|E], посвященный практикам [magi|E]." #Машинный перевод 28.10.23
+ cheaper_court_magi_desc: "[magi|E] дешевле нанять в свой [court|E]." #Машинный перевод 28.10.23
+ better_spell_success_chance_desc: "Шанс на успех заклинания #positive_value 10% #!" #Машинный перевод 28.10.23

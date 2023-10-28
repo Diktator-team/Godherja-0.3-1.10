@@ -1,0 +1,14 @@
+﻿l_russian:
+ FAITH_MAMURAMAT: "Мамурамат"  #Машинный перевод 28.10.23!
+ FAITH_MAMURAMAT_HEADING: "Мамуры"  #Машинный перевод 28.10.23!
+ FAITH_WARDENITE_HIGH_JUDGES_HEADING: "Верховный суд"  #Машинный перевод 28.10.23!
+ MAMUR_NOT_RECOGNISED: "Не признан"  #Машинный перевод 28.10.23!
+  
+ MAMURAMAT_SCHISM_NAME: "[GetPlayer.GetFirstNameNoTooltip]"  #Машинный перевод 28.10.23!
+ MAMURAMAT_UNIFIED_NAME: "Мамурамат"  #Машинный перевод 28.10.23!
+ e_western_mamuramat_shorthand_name: "Западный"  #Машинный перевод 28.10.23!
+ e_central_mamuramat_shorthand_name: "Центральный"  #Машинный перевод 28.10.23!
+ e_eastern_mamuramat_shorthand_name: "Восточный"  #Машинный перевод 28.10.23!
+ e_far_eastern_mamuramat_shorthand_name: "Дальневосточный"  #Машинный перевод 28.10.23!
+ e_southern_mamuramat_shorthand_name: "Южный"  #Машинный перевод 28.10.23!
+ e_continental_mamuramat_shorthand_name: "Континентальный"  #Машинный перевод 28.10.23!

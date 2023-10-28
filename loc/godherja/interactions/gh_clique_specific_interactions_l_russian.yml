@@ -1,0 +1,4 @@
+﻿l_russian:
+  
+ hoodwink_interaction: "обман"  #Машинный перевод 28.10.23!
+ hoodwink_interaction_desc: "Попытка выкрасть [recipient.GetShortUINameNoTooltip] из части [recipient.GetHerHis] [gold|E]"  #Машинный перевод 28.10.23!

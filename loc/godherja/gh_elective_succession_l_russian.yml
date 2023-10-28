@@ -1,0 +1,24 @@
+﻿l_russian:
+ #Clique Elective AI behavior 
+ tooltip_same_clique_election: "[candidate.GetSheHe|U] является членом моей клики: $VALUE|=+0$"  #Машинный перевод 28.10.23!
+ tooltip_same_clique_leader: "[candidate.GetSheHe|U] — лидер моей клики: $VALUE|=+0$"  #Машинный перевод 28.10.23!
+ tooltip_clique_skilltraits: "уважение [candidate.GetFirstName|U] в моей клике: $VALUE|=+0$"  #Машинный перевод 28.10.23!
+ tooltip_clique_skilltraits_myself: "Уважение моей клики ко мне: $VALUE|=+0$"  #Машинный перевод 28.10.23!
+ tooltip_clique_elector_vote_myself_clique_leader: "Как лидер моей клики, я заслуживаю править: $VALUE|=+0$"  #Машинный перевод 28.10.23!
+ tooltip_nonclique_skillsvalues: "Способности [candidate.GetFirstName|U] в важных навыках моей клики: $VALUE|=+0$"  #Машинный перевод 28.10.23!
+ tooltip_nonclique_prestige_value: "Моя клика ценит престижный уровень посторонних: $VALUE|=+0$"  #Машинный перевод 28.10.23!
+ tooltip_nonclique_piety_value: "Моя клика ценит уровень благочестия посторонних: $VALUE|=+0$"  #Машинный перевод 28.10.23!
+ tooltip_nonclique_renown_value: "Моя клика ценит уровень славы аутсайдеров: $VALUE|=+0$"  #Машинный перевод 28.10.23!
+ tooltip_nonclique_gold_value: "Моя клика ценит богатство (золото) посторонних: $VALUE|=+0$"  #Машинный перевод 28.10.23!
+ tooltip_nonclique_magic_value: "Моя клика ценит Магические способности посторонних: $VALUE|=+0$"  #Машинный перевод 28.10.23!
+  
+  #Clique Elective AI behavior 
+ tooltip_military_unit_martial: "Боевые способности: $VALUE|=+0$"  #Машинный перевод 28.10.23!
+ tooltip_magocracy_magic_voting_modifier: "Магическая способность: $VALUE|=+0$"  #Машинный перевод 28.10.23!
+  
+  #Clique Voting Strength 
+ tooltip_clique_political_power_elector_strength: "Политическое влияние: $VALUE|=+0$"  #Машинный перевод 28.10.23!
+  
+ #Imperial Elective, Voting Strength 
+ tooltip_imperial_vote_strength_quartermaster_stewardship: "[ROOT.Char.GetSheHe|U] — проницательный [ROOT.Char.GetCouncilTitle]: $VALUE|=+0$"  #Машинный перевод 28.10.23!
+ tooltip_imperial_vote_strength_court_magi_learning: "[ROOT.Char.GetSheHe|U] — мощный [ROOT.Char.GetCouncilTitle]: $VALUE|=+0$"  #Машинный перевод 28.10.23!

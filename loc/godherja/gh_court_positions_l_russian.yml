@@ -1,0 +1,6 @@
+﻿l_russian:
+ visvasavrak_court_position: "Вишвасаврак" #Машинный перевод 28.10.23
+ visvasavrak_employer_custom_effect_description: "Снижает риск умереть или попасть в плен в битвах, в которых вы оба сражаетесь." #Машинный перевод 28.10.23
+ visvasavrak_court_position_desc: "Этот рыцарь поклялся выполнить волю своего сюзерена или умереть, пытаясь. Подобно тому, как Вишвасавра стойко противостоял ужасным духам и нежити, стражи $visvasavrak_court_position$ защищают верховную власть монарха." #Машинный перевод 28.10.23
+  
+ court_position_lifestyle_gh_steppe_queen_trait: "[GetTrait('lifestyle_gh_steppe_queen').GetName( ROOT.Char )]" #Машинный перевод 28.10.23

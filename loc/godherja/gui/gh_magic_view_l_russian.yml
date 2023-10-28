@@ -1,0 +1,1042 @@
+﻿l_russian:
+  ############### 
+  # SPELL NAMES # 
+  ############### 
+  
+ spell_name_format_unique: "[Localize(Concatenate(ROOT.Story.MakeScope.Var('unique_spell_identifier').GetFlagName, '_name'))]"  #Машинный перевод 28.10.23!
+  
+  ###################### 
+  # UNIQUE SPELL NAMES # 
+  ###################### 
+  
+  # Lifestyle cantrips 
+ ritual_sacrifice_desc: "Каждая смерть вызывает небольшой выброс тайной энергии, поэтому теоретически даже самое элементарное убийство человека может служить ритуальным жертвоприношением. Однако на практике это само по себе крайне неэффективно, но определенные методы, повышающие эффективность этого процесса, были известны почти во всех культурах с начала истории."  #Машинный перевод 28.10.23!
+ fire_magick_desc: "Скромный огненный шар, пожалуй, самое распространенное заклинание во всем [aeras|E]. Хотя это требует небольшой подготовки и почти никакой подготовки для применения, существует множество методов, позволяющих [magi|E] «предварительно заряжать» более сильные снаряды в течение определенного периода времени."  #Машинный перевод 28.10.23!
+ arcane_meditation_name: "Тайная медитация"  #Машинный перевод 28.10.23!
+ arcane_meditation_desc: "Практика входа в состояние блаженства и уверенности с помощью магии выполнялась как религиозными созерцателями, так и артистами на протяжении тысячелетий, хотя большинство практикующих избегают чрезмерного использования этой способности из-за пагубного воздействия на психику после длительного использования."  #Машинный перевод 28.10.23!
+ magistrength_name: "магистратура"  #Машинный перевод 28.10.23!
+ magistrength_desc: ""
+ hemorrhage_name: "Кровотечение"  #Машинный перевод 28.10.23!
+ hemorrhage_desc: ""
+ haruspicy_name: "Гаруспиция"  #Машинный перевод 28.10.23!
+ haruspicy_desc: ""
+ aervalrsight_name: "Аэрвалрсайт"  #Машинный перевод 28.10.23!
+ aervalrsight_desc: "Среди наиболее простых видов ясновидения, известных человечеству, Аэрвалзрение требует лишь того, чтобы практикующий позволил своим глазам приспособиться к полной темноте в течение нескольких дней, выполняя при этом лишь несколько весьма элементарных ритуальных шагов. Впоследствии они смогут заметить различные тайные влияния, пронизывающие мир при освещении светом [aervalr|E]."  #Машинный перевод 28.10.23!
+ skeletalcraft_name: "Скелетное усиление"  #Машинный перевод 28.10.23!
+ skeletalcraft_desc: "Говорят, что кости содержат то самое волокно магии, которое связывает душу с ее телом, и известно, что многие маги используют их для усиления своих способностей."  #Машинный перевод 28.10.23!
+ skeletalartifact_name: "Создание скелетов"  #Машинный перевод 28.10.23!
+ skeletalartifact_desc: "Силу костей можно изменить, усилить и преобразовать в новые формы."  #Машинный перевод 28.10.23!
+ siphon_rift_power_name: "Рифтовый сифон"  #Машинный перевод 28.10.23!
+ siphon_rift_power_desc: "Заклинание, позволяющее заклинателю черпать силу, исходящую из [rift|E]."  #Машинный перевод 28.10.23!
+  # Pearls and Pits of Gold artifact 
+ gold_plague_name: "Золотая чума"  #Машинный перевод 28.10.23!
+ gold_plague_desc: "Проклятие, пожирающее драгоценные металлы, мало чем отличается от того, как ужасная чума разъедает человека. Его гниение начинается с легкого размазывания, а затем медленно превращает любой зараженный драгоценный предмет в тусклый, сланцево-серый металл с запахом акрила и консистенцией запекшейся почвы. Хуже того, он распространяется при контакте, от монеты к монете и из кармана в карман. Все известные драгоценные металлы уязвимы, даже обычно неактивное золото. Хотя он неизбежно выгорит сам себя, прежде чем это сделать, он может привести к обеднению десятков торговых сообществ."  #Машинный перевод 28.10.23!
+ ancestral_betrayal_name: "Предательство предков"  #Машинный перевод 28.10.23!
+ ancestral_betrayal_desc: "Злокачественное заклинание, которое почти всегда вызывает у невольного призрака убийственную ярость, направленную специально против его собственных детей. Духовное смятение внутри бедного духа обычно разрывает его на части и оставляет его разум нечувствительным и постоянно кататоническим, но не раньше, чем он убивает, ранит или эмоционально травмирует одного или нескольких его напуганных отпрысков."  #Машинный перевод 28.10.23!
+ # High-Level Blood Spells 
+ cradles_blessing_name: "Благословение Колыбели"  #Машинный перевод 28.10.23!
+ cradles_blessing_desc: ""
+ devouring_curse_name: "Пожирающее проклятие"  #Машинный перевод 28.10.23!
+ devouring_curse_desc: ""
+ blood_conduit_spell_name: "Кровопровод"  #Машинный перевод 28.10.23!
+ blood_conduit_spell_desc: ""
+ revenge_from_beyond_name: "Месть из-за пределов"  #Машинный перевод 28.10.23!
+ revenge_from_beyond_desc: ""
+  # Other 
+ summon_precious_meteor_name: "Призвать драгоценный метеор"  #Машинный перевод 28.10.23!
+ summon_precious_meteor_desc: ""
+ precious_metal_transmutation_name: "Трансмутация драгоценных металлов"  #Машинный перевод 28.10.23!
+ precious_metal_transmutation_desc: ""
+ cloud_mind_name: "Облачный разум"  #Машинный перевод 28.10.23!
+ cloud_mind_desc: ""
+ extract_lucrative_secrets_name: "Раскройте прибыльные секреты"  #Машинный перевод 28.10.23!
+ extract_lucrative_secrets_desc: "Погрузитесь в мечты нескольких богатых людей и, возможно, найдите способы использовать их для получения [gold|E] и других наград."  #Машинный перевод 28.10.23!
+ spoils_of_the_dead_name: "Трофеи мертвых"  #Машинный перевод 28.10.23!
+ spoils_of_the_dead_desc: ""
+ haunting_power_desc: "Заклинатель призывает мстительных духов к своей цели."  #Машинный перевод 28.10.23!
+ ward_of_the_ancestors_desc: "Заклинатель призывает на помощь волю своих Предков."  #Машинный перевод 28.10.23!
+ auspex_of_temptation_name: "Прорицание искушения"  #Машинный перевод 28.10.23!
+ auspex_of_temptation_desc: "Заклинатель использует магию [aspect_blood], чтобы осознать язык тела и другие тонкие сигналы объекта своего желания. Однако на более высоких уровнях заклинание может сделать заклинателя более склонным к стрессу из-за внешних событий."  #Машинный перевод 28.10.23!
+ veil_of_nightmarish_illusions_name: "Покров кошмарных иллюзий"  #Машинный перевод 28.10.23!
+ veil_of_nightmarish_illusions_desc: ""
+ dark_illusions_magic_name: "Теневые фигуры"  #Машинный перевод 28.10.23!
+ dark_illusions_magic_desc: "Магия [aspect_dark] и [aspect_nature] используется для изменения теней в лесу и предоставления врагам измененного представления о числах и позициях."  #Машинный перевод 28.10.23!
+ auspex_of_war_name: "Прорицание войны"  #Машинный перевод 28.10.23!
+ auspex_of_war_desc: "Заклинатель использует магию [aspect_fire], чтобы улучшить время реакции и агрессию, что позволяет улучшить искусство войны. Однако на более высоких уровнях заклинание может сделать заклинателя более склонным к стрессу из-за внешних событий."  #Машинный перевод 28.10.23!
+ auspex_of_stewardship_name: "Прорицание математического ума"  #Машинный перевод 28.10.23!
+ auspex_of_stewardship_desc: "Заклинатель использует магию [aspect_celestial], чтобы улучшить свою способность решать проблемы своих миров. Однако на более высоких уровнях заклинание может сделать заклинателя более склонным к стрессу из-за внешних событий."  #Машинный перевод 28.10.23!
+ auspex_of_diplomacy_name: "Прорицание текущей жизни"  #Машинный перевод 28.10.23!
+ auspex_of_diplomacy_desc: "Заклинатель использует магию [aspect_water], чтобы лучше справляться с постоянно меняющимся миром дипломатии, что делает его гораздо более активным. Однако на более высоких уровнях заклинание может сделать заклинателя более склонным к стрессу из-за внешних событий."  #Машинный перевод 28.10.23!
+ auspex_of_learning_name: "Прорицание вселенского разума"  #Машинный перевод 28.10.23!
+ auspex_of_learning_desc: "Заклинатель использует магию [aspect_light], чтобы лучше понять тонкости Вселенной. Однако на более высоких уровнях заклинание может сделать заклинателя более склонным к стрессу из-за внешних событий."  #Машинный перевод 28.10.23!
+ favorable_winds_name: "Благоприятные ветры"  #Машинный перевод 28.10.23!
+ favorable_winds_desc: "[aspect_air] магия дает благоприятный ветер для флота и лучников в армии"  #Машинный перевод 28.10.23!
+ fair_weather_name: "Улучшить погоду"  #Машинный перевод 28.10.23!
+ fair_weather_desc: "Используя магию [aspect_air], серия воздушных потоков перенаправляется, чтобы принести влажный воздух и дождь к посевам."  #Машинный перевод 28.10.23!
+ fleet_footed_name: "Флотские ветры"  #Машинный перевод 28.10.23!
+ fleet_footed_desc: "Заклинатель использует [aspect_air] и [aspect_water], чтобы путешествовать дальше и быстрее, чем он мог бы достичь в противном случае."  #Машинный перевод 28.10.23!
+ drought_name: "Уезжай Дождь"  #Машинный перевод 28.10.23!
+ drought_desc: "Используя магию [aspect_air], все облака удаляются из этого региона, уничтожая урожай."  #Машинный перевод 28.10.23!
+ magic_archer_cavalry_improvement_modifier: "Улучшите бой конных лучников"  #Машинный перевод 28.10.23!
+ magic_archer_cavalry_improvement_modifier_desc: ""
+ magic_archers_improvement_modifier: "Улучшите бой лучников"  #Машинный перевод 28.10.23!
+ magic_archers_improvement_modifier_desc: ""
+ magic_skirmishers_improvement_modifier: "Улучшите бой застрельщиков"  #Машинный перевод 28.10.23!
+ magic_skirmishers_improvement_modifier_desc: ""
+ sailing_magic_advantage_magic_modifier: "Улучшенный парусный спорт"  #Машинный перевод 28.10.23!
+ sailing_magic_advantage_magic_modifier_desc: "Благоприятные ветры"  #Машинный перевод 28.10.23!
+ water_strider_name: "Водяной долгоног"  #Машинный перевод 28.10.23!
+ water_strider_desc: "Улучшены боевые возможности вблизи воды."  #Машинный перевод 28.10.23!
+ blind_all_name: "Ослепляющие тени"  #Машинный перевод 28.10.23!
+ blind_all_desc: "Убрать из виду человека"  #Машинный перевод 28.10.23!
+ increase_blind_magic_name: "Ослепляющие тени"  #Машинный перевод 28.10.23!
+ increase_blind_magic_desc: "Шанс вызвать близорукость, почти слепоту или слепоту."  #Машинный перевод 28.10.23!
+ vampirism_name: "Вампиризм"  #Машинный перевод 28.10.23!
+ vampirism_desc: ""
+ raise_skeletal_host_name: "Поднимите скелетного хозяина"  #Машинный перевод 28.10.23!
+ raise_skeletal_host_desc: ""
+ raise_bloodthralls_name: "Поднимите Кровавых Рабов"  #Машинный перевод 28.10.23!
+ raise_bloodthralls_desc: ""
+ firestorm_name: "Огненный шторм"  #Машинный перевод 28.10.23!
+ firestorm_desc: ""
+ arcane_virility_name: "Тайная мужественность"  #Машинный перевод 28.10.23!
+ arcane_virility_desc: "Дает временное увеличение до [fertility|E]"  #Машинный перевод 28.10.23!
+ inter_in_ice_name: "Интер во льду"  #Машинный перевод 28.10.23!
+ freeze_the_earth_name: "Очищающий мороз"  #Машинный перевод 28.10.23!
+ freeze_target_character_name: "Заморозить цель"  #Машинный перевод 28.10.23!
+ freeze_target_character_desc: "Замораживает целевого пленника, превращая его в твердый [aspect_ice] и создавая [artifact|E]."  #Машинный перевод 28.10.23!
+ petrify_target_character_name: "Окаменение цели"  #Машинный перевод 28.10.23!
+ petrify_target_character_desc: "Окамените целевого пленника, превратив его в твердый [aspect_stone] и создав [artifact|E]."  #Машинный перевод 28.10.23!
+ summonfog_name: "Призвать туман"  #Машинный перевод 28.10.23!
+ desertify_name: "Смертельные пески"  #Машинный перевод 28.10.23!
+ immunity_destruction_magic_name: "Разрушение иммунитета"  #Машинный перевод 28.10.23!
+ immunity_destruction_magic_desc: "Уничтожает способность организма бороться с болезнями."  #Машинный перевод 28.10.23!
+ bloodblight_magic_name: "Кровавый упадок"  #Машинный перевод 28.10.23!
+ bloodblight_magic_desc: "Это заклинание может вызвать у получателя Кровавую порчу."  #Машинный перевод 28.10.23!
+ pox_magic_name: "Магия оспы"  #Машинный перевод 28.10.23!
+ pox_magic_desc: "Это заклинание имеет шанс вызвать оспу у получателя."  #Машинный перевод 28.10.23!
+  
+ light_fortress_name: "Укрепленная крепость"  #Машинный перевод 28.10.23!
+ light_fortress_desc: "С помощью [aspect_light] внутренние детали крепости упорядочиваются и укрепляются до все большего совершенства."  #Машинный перевод 28.10.23!
+  
+ laser_beam_name: "Ненависть Солнца"  #Машинный перевод 28.10.23!
+ laser_beam_desc: "Лучи [aspect_light] вырвались из кончиков пальцев этого [magi|E], легко испепелив их противников."  #Машинный перевод 28.10.23!
+  
+ prismatic_ward_name: "Призматический оберег"  #Машинный перевод 28.10.23!
+ prismatic_ward_desc: "Разноцветный свет сходится к заклинателю, защищая его от враждебных заклинаний."  #Машинный перевод 28.10.23!
+  
+ dispelling_blade_name: "Рассеивающий клинок Фреуэна"  #Машинный перевод 28.10.23!
+ dispelling_blade_desc: "Заклинатель призывает светящееся лезвие света, рассеивающее магическую защиту врагов, в которых оно вонзается."  #Машинный перевод 28.10.23!
+  
+ revealing_blade_name: "Выявляющий клинок Фреуэна"  #Машинный перевод 28.10.23!
+ revealing_blade_desc: "Маленький меч света появляется на голове тех, кто имеет злые намерения против заклинателя."  #Машинный перевод 28.10.23!
+  
+ lucent_reconstruction_name: "Люсент Реконструкция"  #Машинный перевод 28.10.23!
+ lucent_reconstruction_desc: "Лучи света окружают цель, заставляя ее тело восстанавливать порядок, заживляя как раны, так и болезни."  #Машинный перевод 28.10.23!
+  
+ water_healing_name: "Лечение водой"  #Машинный перевод 28.10.23!
+ water_healing_desc: "Маги, обученные магии воды, могут использовать этот аспект, чтобы исцелить субъекта за определенную плату."  #Машинный перевод 28.10.23!
+ fire_healing_name: "Противопожарный ремонт"  #Машинный перевод 28.10.23!
+ fire_healing_desc: "Огненное восстановление включает в себя прижигание причиняющей вред травмы и использование полученной энергии и магии для восстановления тела."  #Машинный перевод 28.10.23!
+ stone_boon_name: "Горный дар"  #Машинный перевод 28.10.23!
+ stone_boon_desc: "Заклинатель настраивает свое тело так, чтобы оно больше напоминало камень, улучшая здоровье, но сокращая продолжительность жизни."  #Машинный перевод 28.10.23!
+ vitalize_livestock_name: "Оживить животноводство"  #Машинный перевод 28.10.23!
+ vitalize_livestock_desc: "[aspect_fire] Магия увеличивает плодовитость скота в этом графстве, увеличивая урожайность."  #Машинный перевод 28.10.23!
+  
+ drought_water_name: "Чистое небо"  #Машинный перевод 28.10.23!
+ drought_water_desc: "Это заклинание перенаправляет все осадки и влажность с неба целевого округа, вызывая в этом районе период засухи."  #Машинный перевод 28.10.23!
+  
+ drought_fire_name: "Палящее солнце"  #Машинный перевод 28.10.23!
+ drought_fire_desc: "Используя магию [aspect_fire], температура резко возрастает, и колодцы высыхают."  #Машинный перевод 28.10.23!
+  
+ drought_light_name: "Обжигающее солнце"  #Машинный перевод 28.10.23!
+ drought_light_desc: "Используя магию [aspect_light], солнце светит ярче, выжигая землю и тех, кто снаружи, губя урожай."  #Машинный перевод 28.10.23!
+  
+ iceskin_name: "ледяная шкура"  #Машинный перевод 28.10.23!
+ iceskin_desc: "Кожа заклинателя покрыта защитным слоем [aspect_ice]."  #Машинный перевод 28.10.23!
+  
+ melt_armor_name: "Расплавить броню"  #Машинный перевод 28.10.23!
+ melt_armor_desc: "Когда заклинатель направляет [aspect_fire], заставляя броню цели плавиться и пузыриться, вызывая панику и причиняя травмы."  #Машинный перевод 28.10.23!
+  
+ freeze_armor_name: "Замораживающая броня"  #Машинный перевод 28.10.23!
+ freeze_armor_desc: "Броня цели становится хрупкой, и она получает обморожение в результате произнесения заклинателем [aspect_ice]."  #Машинный перевод 28.10.23!
+  
+ poison_armor_name: "Ядовитая броня"  #Машинный перевод 28.10.23!
+ poison_armor_desc: "Заклинатель направляет магию [aspect_nature], и броня цели наполняется незаметным ядом, медленно ослабляя ее."  #Машинный перевод 28.10.23!
+  
+ poison_blood_name: "Ядовитая кровь"  #Машинный перевод 28.10.23!
+ poison_blood_desc: ""
+  
+ poison_nature_name: "Ядовитое тело"  #Машинный перевод 28.10.23!
+ poison_nature_desc: ""
+  
+ corrupt_armor_name: "Порченная броня"  #Машинный перевод 28.10.23!
+ corrupt_armor_desc: "Заклинатель направляет [aspect_dark], чтобы наполнить броню цели темной магией, искажая ее мысли и нанося вред ее здоровью."  #Машинный перевод 28.10.23!
+  
+ thin_armor_name: "Тонкая броня"  #Машинный перевод 28.10.23!
+ thin_armor_desc: "Заклинатель использует [aspect_air], чтобы превратить части доспехов противника в бестелесные, обнажая их, но облегчая их нагрузку."  #Машинный перевод 28.10.23!
+  
+ air_blessed_weapons_name: "Скоростное оружие"  #Машинный перевод 28.10.23!
+ air_blessed_weapons_desc: "При использовании [air_aspect] скорость солдат увеличивается, что позволяет им лучше сражаться."  #Машинный перевод 28.10.23!
+  
+ guiding_light_name: "Путеводный свет"  #Машинный перевод 28.10.23!
+ guiding_light_desc: "Управляя универсальным порядком [aspect_light], заклинатель может улучшить свои собственные естественные способности или способности другого человека."  #Машинный перевод 28.10.23!
+  
+ nourishing_radiance_name: "Питательное сияние"  #Машинный перевод 28.10.23!
+ nourishing_radiance_desc: "Совместив [aspect_nature] и [aspect_light], можно значительно повысить плодородие региона."  #Машинный перевод 28.10.23!
+  
+ nature_wrath_name: "Гнев природы"  #Машинный перевод 28.10.23!
+ nature_wrath_desc: "С помощью силы [aspect_nature] заклинатель приказывает растительности мира атаковать своих врагов."  #Машинный перевод 28.10.23!
+  
+ woodland_inferno_name: "Лесной ад"  #Машинный перевод 28.10.23!
+ woodland_inferno_desc: "Используя силу [aspect_nature] в качестве топлива для ада [aspect_fire], заклинатель испепеляет своих врагов."  #Машинный перевод 28.10.23!
+  
+ tornado_name: "Массивный Торнадо"  #Машинный перевод 28.10.23!
+ tornado_desc: "Используя силу [aspect_air] в качестве источника, ветры этого региона превращаются в торнадо, опустошающее округ."  #Машинный перевод 28.10.23!
+  
+ lightning_blades_name: "Молниеносные клинки"  #Машинный перевод 28.10.23!
+ lightning_blades_desc: ""
+  
+  # Wood-Law Spells 
+ create_wooden_walls_name: "Создать деревянные стены"  #Машинный перевод 28.10.23!
+ wall_of_twisted_thorns_name: "Стена искривленных шипов"  #Машинный перевод 28.10.23!
+ sporecloud_spell_name: "Споровое облако"  #Машинный перевод 28.10.23!
+ barkskin_name: "Дубовая кожа"  #Машинный перевод 28.10.23!
+ thornskin_name: "шипованная кожа"  #Машинный перевод 28.10.23!
+ entangling_vines_name: "Опутывающие лозы"  #Машинный перевод 28.10.23!
+ photosynthesis_name: "Фотосинтез"  #Машинный перевод 28.10.23!
+  
+ arcane_irrigation_name: "Чародейское орошение"  #Машинный перевод 28.10.23!
+ arcane_irrigation_desc: ""
+ panoply_of_steel_name: "Стальной доспех"  #Машинный перевод 28.10.23!
+ panoply_of_steel_desc: "Магическим образом усиливает броню ваших войск, значительно улучшая их способности в бою."  #Машинный перевод 28.10.23!
+ blood_rage_spell_name: "Кровавая ярость"  #Машинный перевод 28.10.23!
+ blood_rage_spell_desc: "Заклинатель использует [aspect_blood], чтобы увеличить свирепость своих войск."  #Машинный перевод 28.10.23!
+  
+  ############## 
+  # SPELL TAGS # 
+  ############## 
+  
+  # Effect Tags 
+ spread_to_additional_targets_name: "Распространяемый"  #Машинный перевод 28.10.23!
+ spread_to_additional_targets_desc: "Это заклинание может повлиять на другие округа, близкие к основной цели."  #Машинный перевод 28.10.23!
+  
+ dream_glimpse_reality_name: "Взгляд на реальность"  #Машинный перевод 28.10.23!
+ dream_glimpse_reality_desc: "Следуйте по серебряной нити своей мечты к секретам, которые давно считались утерянными."  #Машинный перевод 28.10.23!
+ death_chance_name: "Шанс убить цель"  #Машинный перевод 28.10.23!
+ death_chance_desc: "Имеет значительный шанс убить или, по крайней мере, ранить цель, против которой применяется."  #Машинный перевод 28.10.23!
+ death_chance_no_injury_name: "Шанс убить цель"  #Машинный перевод 28.10.23!
+ death_chance_no_injury_desc: "Имеет шанс убить цель."  #Машинный перевод 28.10.23!
+ increase_magic_wounds_name: "Причина травмы"  #Машинный перевод 28.10.23!
+ increase_magic_wounds_desc: "Имеет значительный шанс ранить цель, против которой он применен, и небольшой шанс убить достаточно раненую цель."  #Машинный перевод 28.10.23!
+ decrease_magic_wounds_name: "Исцелить травму"  #Машинный перевод 28.10.23!
+ decrease_magic_wounds_desc: "Полностью или частично излечит физические травмы цели."  #Машинный перевод 28.10.23!
+ add_gold_positive_name: "Прибыль золота"  #Машинный перевод 28.10.23!
+ add_gold_positive_desc: "Мгновенно дает определенное количество золота и ценностей."  #Машинный перевод 28.10.23!
+ remove_gold_negative_name: "Потеря золота"  #Машинный перевод 28.10.23!
+ remove_gold_negative_desc: "Мгновенно заставляет цель терять определенное количество золота и ценностей."  #Машинный перевод 28.10.23!
+ generate_magic_name: "Магическое поколение"  #Машинный перевод 28.10.23!
+ generate_magic_desc: "Мгновенно генерирует определенное количество Магической Силы."  #Машинный перевод 28.10.23!
+ generate_magic_from_target_baseline_name: "Магический настой регенерации"  #Машинный перевод 28.10.23!
+ generate_magic_from_target_baseline_desc: "Генерирует #E Магии#!, равную [magic_baseline|E], даже выше [extended_magic_baseline|E]. Более эффективен в более высоких масштабах."  #Машинный перевод 28.10.23!
+ generate_magic_from_components_name: "Магический настой регенерации"  #Машинный перевод 28.10.23!
+ generate_magic_from_components_desc: "Мгновенно генерирует определенное количество Магической Силы на основе входных данных компонентов заклинания."  #Машинный перевод 28.10.23!
+ add_character_modifier_magic_boneshaping_prowess_name: "Усиленные кости"  #Машинный перевод 28.10.23!
+ add_character_modifier_magic_boneshaping_prowess_desc: "Навсегда увеличивает ваше сопротивление [prowess_i][prowess|E], [advantage|E] и [hostile_scheme|E]."  #Машинный перевод 28.10.23!
+ increase_riftmark_name: "Рифтмарк"  #Машинный перевод 28.10.23!
+ increase_riftmark_desc: "Либо добавляет к цели Разлом, либо усиливает существующий Разлом, ослабляя цель и делая ее более уязвимой для Эфирной магии."  #Машинный перевод 28.10.23!
+ create_skeletal_artifact_name: "Создание скелетного артефакта"  #Машинный перевод 28.10.23!
+ create_skeletal_artifact_desc: "Позволяет вам создать скелетный артефакт из костяных артефактов, находящихся в вашем распоряжении."  #Машинный перевод 28.10.23!
+ dominate_character_name: "Доминировать над целью"  #Машинный перевод 28.10.23!
+ dominate_character_desc: "Позволяет получить @hook_icon! [hook|E] от цели."  #Машинный перевод 28.10.23!
+ sporecloud_name: "Споровое облако"  #Машинный перевод 28.10.23!
+ sporecloud_desc: "Выбрасывает в цель ядовитые споры, вызывающие различные негативные эффекты."  #Машинный перевод 28.10.23!
+ add_mental_illness_name: "Психическое заболевание"  #Машинный перевод 28.10.23!
+ add_mental_illness_desc: "Имеет значительный шанс вызвать у цели психическое заболевание."  #Машинный перевод 28.10.23!
+ generate_moon_phase_magical_power_name: "Лунная сила"  #Машинный перевод 28.10.23!
+ generate_moon_phase_magical_power_desc: "Генерирует #E Магическую Силу#! в зависимости от #E Фазы Луны#!. Можно использовать только один раз за #E Фазу Луны#!."  #Машинный перевод 28.10.23!
+ teleport_army_name: "Телепорт Армия"  #Машинный перевод 28.10.23!
+ teleport_army_desc: "Телепортируйте [army|E], которым вы в данный момент командуете, к цели [county|E]."  #Машинный перевод 28.10.23!
+ add_character_modifier_travel_improvement_name: "Свифт-Трэвел"  #Машинный перевод 28.10.23!
+ add_character_modifier_travel_improvement_desc: "Увеличивает скорость передвижения"  #Машинный перевод 28.10.23!
+  
+ add_character_modifier_diplomacy_positive_name: "Жуткое красноречие"  #Машинный перевод 28.10.23!
+ add_character_modifier_diplomacy_positive_desc: "Дает временное увеличение до [diplomacy_i] [diplomacy|E]."  #Машинный перевод 28.10.23!
+ add_character_modifier_intrigue_positive_name: "Теневая мудрость"  #Машинный перевод 28.10.23!
+ add_character_modifier_intrigue_positive_desc: "Дает временное увеличение до [intrigue_i] [intrigue|E]."  #Машинный перевод 28.10.23!
+ add_character_modifier_intrigue_negative_name: "Притупленные чувства"  #Машинный перевод 28.10.23!
+ add_character_modifier_intrigue_negative_desc: "Дает временное снижение до [intrigue_i] [intrigue|E]."  #Машинный перевод 28.10.23!
+ add_character_modifier_learning_positive_name: "Освещение"  #Машинный перевод 28.10.23!
+ add_character_modifier_learning_positive_desc: "Дает временное увеличение до [learning_i] [learning|E]."  #Машинный перевод 28.10.23!
+ add_character_modifier_martial_positive_name: "Сверхъестественная стратегия"  #Машинный перевод 28.10.23!
+ add_character_modifier_martial_positive_desc: "Дает временное увеличение до [martial_i] [martial|E]."  #Машинный перевод 28.10.23!
+ add_character_modifier_stewardship_positive_name: "Тайная Администрация"  #Машинный перевод 28.10.23!
+ add_character_modifier_stewardship_positive_desc: "Дает временное увеличение до [stewardship_i] [stewardship|E]."  #Машинный перевод 28.10.23!
+ add_character_modifier_prowess_positive_name: "Усиленное мастерство"  #Машинный перевод 28.10.23!
+ add_character_modifier_prowess_positive_desc: "Дает временное увеличение до [prowess_i] [prowess|E]."  #Машинный перевод 28.10.23!
+ add_character_modifier_health_positive_name: "Укрепленное здоровье"  #Машинный перевод 28.10.23!
+ add_character_modifier_health_positive_desc: "Дает временное увеличение до [health|E]."  #Машинный перевод 28.10.23!
+ add_character_modifier_health_resistance_positive_name: "Сила выжившего"  #Машинный перевод 28.10.23!
+ add_character_modifier_health_resistance_positive_desc: "Дает временное повышение #E устойчивости к болезням#!.."  #Машинный перевод 28.10.23!
+ add_character_modifier_health_negative_name: "Ослабленное здоровье"  #Машинный перевод 28.10.23!
+ add_character_modifier_health_negative_desc: "Дает временное снижение до [health|E]."  #Машинный перевод 28.10.23!
+ add_character_modifier_prowess_negative_name: "Ослабленное мастерство"  #Машинный перевод 28.10.23!
+ add_character_modifier_prowess_negative_desc: "Дает временное снижение до [prowess_i] [prowess|E]."  #Машинный перевод 28.10.23!
+ add_character_modifier_magic_unnatural_shaping_name: "Неестественное формирование"  #Машинный перевод 28.10.23!
+ add_character_modifier_magic_unnatural_shaping_desc: "Дает временное снижение до [attraction|E] [opinion|E], Общее [opinion|E] и [health|E], а также бонус к @dread_icon![dread|E]."  #Машинный перевод 28.10.23!
+ add_character_modifier_magic_unnatural_shaping_single_stack_name: "Неестественное формирование"  #Машинный перевод 28.10.23!
+ add_character_modifier_magic_unnatural_shaping_single_stack_desc: "Дает постоянное снижение до [attraction|E] [opinion|E], Общее [opinion|E] и [health|E], а также бонус к @dread_icon![dread|E]."  #Машинный перевод 28.10.23!
+  
+ add_character_modifier_magic_viagra_modifier_name: "мужественность"  #Машинный перевод 28.10.23!
+ add_character_modifier_magic_viagra_modifier_desc: "Дает прибавку до [fertility|E] и плодородные годы."  #Машинный перевод 28.10.23!
+ add_character_modifier_magic_life_extension_modifier_name: "Расширенный срок службы"  #Машинный перевод 28.10.23!
+ add_character_modifier_magic_life_extension_modifier_desc: "Дает постоянное увеличение до [health|E], эффективно продлевая продолжительность жизни."  #Машинный перевод 28.10.23!
+ add_character_modifier_diplomacy_magic_modifier_seduction_positive_name: "Соблазнительное присутствие"  #Машинный перевод 28.10.23!
+ add_character_modifier_diplomacy_magic_modifier_seduction_positive_desc: "Дает временное усиление соблазнения [scheme_success_chance|E] и [attraction|E] [opinion|E]."  #Машинный перевод 28.10.23!
+ add_character_modifier_diplomacy_magic_modifier_seduction_negative_name: "Соблазнительная неумелость"  #Машинный перевод 28.10.23!
+ add_character_modifier_diplomacy_magic_modifier_seduction_negative_desc: "Дает временное снижение соблазнения [scheme_success_chance|E] и [attraction|E] [opinion|E]."  #Машинный перевод 28.10.23!
+ add_character_modifier_battle_magic_name: "Боевая магия"  #Машинный перевод 28.10.23!
+ add_character_modifier_battle_magic_desc: "Увеличивает врага [dead_soldiers|E] и [advantage|E]."  #Машинный перевод 28.10.23!
+ add_character_modifier_dry_terrain_advantage_name: "Преимущество легковоспламеняющейся местности"  #Машинный перевод 28.10.23!
+ add_character_modifier_dry_terrain_advantage_desc: "Дает [advantage|E] при бою на легковоспламеняющейся местности, например [GetTerrain('forest').GetName] и [GetTerrain('drylands').GetName]."  #Машинный перевод 28.10.23!
+ add_character_modifier_rocky_terrain_advantage_name: "Преимущество каменистой местности"  #Машинный перевод 28.10.23!
+ add_character_modifier_rocky_terrain_advantage_desc: "Дает [advantage|E] при бою на каменистой местности, например [GetTerrain('mountains').GetName] и [GetTerrain('hills').GetName]."  #Машинный перевод 28.10.23!
+ add_character_modifier_forest_advantage_name: "Преимущество лесной местности"  #Машинный перевод 28.10.23!
+ add_character_modifier_forest_advantage_desc: "Дает [advantage|E] при бою на местности, такой как [GetTerrain('forest').GetName] и [GetTerrain('jungle').GetName]."  #Машинный перевод 28.10.23!
+ add_character_modifier_magi_siege_value_name: "Магическое осадное дело"  #Машинный перевод 28.10.23!
+ add_character_modifier_magi_siege_value_desc: "Увеличивает способность магов вносить свой вклад в [siege|E]."  #Машинный перевод 28.10.23!
+ add_character_modifier_undead_improvement_name: "Тактика нежити"  #Машинный перевод 28.10.23!
+ add_character_modifier_undead_improvement_desc: "Увеличивает общие способности [gh_general_undead|E] в бою."  #Машинный перевод 28.10.23!
+ add_character_modifier_constructs_improvement_name: "Ремесленные конструкции"  #Машинный перевод 28.10.23!
+ add_character_modifier_constructs_improvement_desc: "Увеличивает общие способности всех [constructs|E] в бою."  #Машинный перевод 28.10.23!
+ add_character_modifier_monsters_improvement_name: "Свирепые монстры"  #Машинный перевод 28.10.23!
+ add_character_modifier_monsters_improvement_desc: "Увеличивает общие способности всех [monsters|E] в бою."  #Машинный перевод 28.10.23!
+ add_character_modifier_negate_enemy_terrain_advantage_name: "Форма местности"  #Машинный перевод 28.10.23!
+ add_character_modifier_negate_enemy_terrain_advantage_desc: "Уменьшает защиту [advantage|E] врагов, получаемых от боя на благоприятной местности."  #Машинный перевод 28.10.23!
+ add_character_modifier_knight_effectiveness_name: "Зачаровать чемпионов"  #Машинный перевод 28.10.23!
+ add_character_modifier_knight_effectiveness_desc: "Увеличивает [knight_effectiveness|E] вашего [knights|E]."  #Машинный перевод 28.10.23!
+ add_character_modifier_army_damage_mult_name: "Чары для оружия"  #Машинный перевод 28.10.23!
+ add_character_modifier_army_damage_mult_desc: "Увеличьте #E урон#! ваших войск."  #Машинный перевод 28.10.23!
+ add_character_modifier_army_damage_negative_name: "Ослабление вооружения"  #Машинный перевод 28.10.23!
+ add_character_modifier_army_damage_negative_desc: "Уменьшите #E Урон#! войск цели."  #Машинный перевод 28.10.23!
+ add_character_modifier_army_toughness_mult_name: "Чары для брони"  #Машинный перевод 28.10.23!
+ add_character_modifier_army_toughness_mult_desc: "Увеличьте #E Стойкость#! своих войск."  #Машинный перевод 28.10.23!
+ add_character_modifier_enemy_knight_kill_chance_name: "Магия убийства рыцарей"  #Машинный перевод 28.10.23!
+ add_character_modifier_enemy_knight_kill_chance_desc: "Увеличивает шанс убить врага [knights|E] в бою."  #Машинный перевод 28.10.23!
+ add_character_modifier_intrigue_resistance_positive_name: "Схема сопротивления"  #Машинный перевод 28.10.23!
+ add_character_modifier_intrigue_resistance_positive_desc: "Повышает защиту от схем."  #Машинный перевод 28.10.23!
+ Scheme_Resistence_desc: "Повышает защиту от схем."  #Машинный перевод 28.10.23!
+  
+ add_character_modifier_mind_fog_name: "Разумный туман"  #Машинный перевод 28.10.23!
+ add_character_modifier_mind_fog_desc: "Затуманивает разум цели, накладывая штраф на все [skills|E]."  #Машинный перевод 28.10.23!
+ add_character_modifier_mind_fog_chance_name: "Туман разума (Шанс)"  #Машинный перевод 28.10.23!
+ add_character_modifier_mind_fog_chance_desc: "Имеет шанс затуманить разум, наложив штраф на все [skills|E]."  #Машинный перевод 28.10.23!
+  
+ add_character_modifier_magic_unnatural_husk_name: "Неестественная энергия"  #Машинный перевод 28.10.23!
+ add_character_modifier_magic_unnatural_husk_desc: "Хотя это заклинание может увеличить продолжительность жизни заклинателя, его внешний вид и движения будут казаться неестественными."  #Машинный перевод 28.10.23!
+ add_character_modifier_magic_unnatural_husk_single_stack_name: "Неестественная энергия"  #Машинный перевод 28.10.23!
+ add_character_modifier_magic_unnatural_husk_single_stack_desc: "Хотя это заклинание может увеличить продолжительность жизни заклинателя, его внешний вид и движения будут казаться неестественными, хотя этот эффект будет сравнительно менее заметным, если заклинание наложено на более высоком уровне."  #Машинный перевод 28.10.23!
+  
+ add_or_increase_character_variable_life_extension_name: "Вызов смерти"  #Машинный перевод 28.10.23!
+ add_or_increase_character_variable_life_extension_desc: "С каждым заклинателем, увеличивающим продолжительность жизни этого заклинания, увеличивается его стоимость."  #Машинный перевод 28.10.23!
+  
+ add_character_modifier_levy_reinforcement_rate_gain_name: "Обновление Войск"  #Машинный перевод 28.10.23!
+ add_character_modifier_levy_reinforcement_rate_gain_desc: "Увеличивает #E уровень пополнения #! ваших войск."  #Машинный перевод 28.10.23!
+ add_character_modifier_coastal_improvement_name: "Улучшенное водное транспортное средство"  #Машинный перевод 28.10.23!
+ add_character_modifier_coastal_improvement_desc: "Улучшает способность сражаться и передвигаться по воде и вблизи воды."  #Машинный перевод 28.10.23!
+ add_character_modifier_sailing_improvement_name: "Улучшенный парусный спорт"  #Машинный перевод 28.10.23!
+ add_character_modifier_sailing_improvement_desc: "Увеличивает скорость плавания и снижает стоимость посадки."  #Машинный перевод 28.10.23!
+ add_character_modifier_archers_improvement_name: "Улучшенный бой лучников"  #Машинный перевод 28.10.23!
+ add_character_modifier_archers_improvement_desc: ""
+ add_character_modifier_archer_cavalry_improvement_name: "Улучшенный бой конных лучников"  #Машинный перевод 28.10.23!
+ add_character_modifier_archer_cavalry_improvement_desc: ""
+ add_character_modifier_skirmishers_improvement_name: "Улучшите застрельщиков"  #Машинный перевод 28.10.23!
+ add_character_modifier_skirmishers_improvement_desc: "Улучшает общую производительность [skirmishers|E] в бою."  #Машинный перевод 28.10.23!
+ add_character_modifier_battle_magic_losses_name: "Омолаживающая боевая магия"  #Машинный перевод 28.10.23!
+ add_character_modifier_battle_magic_losses_desc: "Уменьшает #E смертельных потерь#!."  #Машинный перевод 28.10.23!
+ add_character_modifier_battle_magic_losses_negative_name: "Рискованная боевая магия"  #Машинный перевод 28.10.23!
+ add_character_modifier_battle_magic_losses_negative_desc: "Увеличение #E потерь со смертельным исходом#!."  #Машинный перевод 28.10.23!
+  
+ add_character_modifier_magic_resistance_magic_modifier_name: "Сопротивление магии"  #Машинный перевод 28.10.23!
+ add_character_modifier_magic_resistance_magic_modifier_desc: "Сопротивление этого персонажа магии было повышено с помощью тайных средств."  #Машинный перевод 28.10.23!
+ add_character_modifier_magic_penetration_magic_modifier_name: "Магическое проникновение"  #Машинный перевод 28.10.23!
+ add_character_modifier_magic_penetration_magic_modifier_desc: "Сопротивление этого персонажа магии было снижено с помощью тайных средств."  #Машинный перевод 28.10.23!
+ add_character_modifier_hostile_scheme_resistance_add_modifier_name: "Повышенная защита"  #Машинный перевод 28.10.23!
+ add_character_modifier_hostile_scheme_resistance_add_modifier_desc: "Улучшает вашу защиту от [hostile_schemes|E]."  #Машинный перевод 28.10.23!
+ add_character_modifier_haunting_power_name: "Призрачная сила"  #Машинный перевод 28.10.23!
+ add_character_modifier_haunting_power_desc: "Затемняет разум, порождая мстительных духов."  #Машинный перевод 28.10.23!
+ add_character_modifier_haunting_power_improved_name: "Улучшена призрачная сила"  #Машинный перевод 28.10.23!
+ add_character_modifier_haunting_power_improved_desc: "Более сильное применение Призрачной силы, пожирающей разум."  #Машинный перевод 28.10.23!
+ add_character_modifier_hostile_scheme_discovery_positive_name: "Бдительные глаза"  #Машинный перевод 28.10.23!
+ add_character_modifier_hostile_scheme_discovery_positive_desc: "Повышает ваш шанс обнаружить [hostile_schemes|E]."  #Машинный перевод 28.10.23!
+  
+ add_character_modifier_stress_gain_mult_negative_name: "Ослабление психики"  #Машинный перевод 28.10.23!
+ add_character_modifier_stress_gain_mult_negative_desc: "Делает цель более восприимчивой к [stress|E]."  #Машинный перевод 28.10.23!
+  
+ add_character_modifier_magic_life_corruption_single_stack_name: "Оккультное расслабление"  #Машинный перевод 28.10.23!
+ add_character_modifier_magic_life_corruption_single_stack_desc: "Дает постоянное снижение до [health|E], эффективно уменьшая продолжительность жизни."  #Машинный перевод 28.10.23!
+ add_character_modifier_magic_life_corruption_name: "Оккультное расслабление"  #Машинный перевод 28.10.23!
+ add_character_modifier_magic_life_corruption_desc: "Дает постоянное снижение до [health|E], эффективно уменьшая продолжительность жизни."  #Машинный перевод 28.10.23!
+  
+ add_character_modifier_magic_general_boost_name: "Общая помощь"  #Машинный перевод 28.10.23!
+ add_character_modifier_magic_general_boost_desc: "Немного повышает мастерство всех навыков."  #Машинный перевод 28.10.23!
+  
+ add_character_modifier_shape_change_magic_modifier_name: "Магия изменения формы"  #Машинный перевод 28.10.23!
+ add_character_modifier_shape_change_magic_modifier_desc: "Заклинатель трансформируется в более мощную чудовищную форму."  #Машинный перевод 28.10.23!
+  
+ add_immunity_destruction_magic_name: "Случайная болезнь"  #Машинный перевод 28.10.23!
+ add_immunity_destruction_magic_desc: "Разрушает способность организма бороться с болезнями"  #Машинный перевод 28.10.23!
+ add_bloodblight_magic_name: "Кровавый упадок"  #Машинный перевод 28.10.23!
+ add_bloodblight_magic_desc: "Это заклинание может вызвать у получателя Кровавую порчу."  #Машинный перевод 28.10.23!
+ add_pox_magic_name: "Магия оспы"  #Машинный перевод 28.10.23!
+ add_pox_magic_desc: "Это заклинание имеет шанс вызвать оспу у получателя."  #Машинный перевод 28.10.23!
+  
+ spawn_undead_skirmishers_name: "Поднимите Орду Нежити"  #Машинный перевод 28.10.23!
+ spawn_undead_skirmishers_desc: "Собирает армию [gh_general_undead|E] [skirmishers|E]."  #Машинный перевод 28.10.23!
+ spawn_elite_undead_name: "Поднимите элитную нежить"  #Машинный перевод 28.10.23!
+ spawn_elite_undead_desc: "Собирает армию [gh_general_undead|E] [heavy_infantry|E]."  #Машинный перевод 28.10.23!
+ spawn_golem_army_name: "Оживить големов"  #Машинный перевод 28.10.23!
+ spawn_golem_army_desc: "Создает армию големов [constructs|E]."  #Машинный перевод 28.10.23!
+ spawn_siege_golems_name: "Создать осадного голема"  #Машинный перевод 28.10.23!
+ spawn_siege_golems_desc: "Создает несколько мощных големов."  #Машинный перевод 28.10.23!
+ spawn_fogbeast_army_name: "Появление туманных зверей"  #Машинный перевод 28.10.23!
+ spawn_fogbeast_army_desc: "Создает орду [fogbeasts|E]."  #Машинный перевод 28.10.23!
+ add_character_modifier_random_divination_modifier_name: "Гадание"  #Машинный перевод 28.10.23!
+ add_character_modifier_random_divination_modifier_desc: "Дает случайный, обычно полезный модификатор в зависимости от полученного видения."  #Машинный перевод 28.10.23!
+ divination_effect_tooltip: "Получит случайный положительный или, реже, отрицательный модификатор в зависимости от полученного видения."  #Машинный перевод 28.10.23!
+ spawn_metal_golem_army_name: "Металлические големы"  #Машинный перевод 28.10.23!
+ spawn_metal_golem_army_desc: "Призывает металлических големов"  #Машинный перевод 28.10.23!
+ birth_boon_name: "Прирост характеристик новорожденного"  #Машинный перевод 28.10.23!
+ birth_boon_desc: "После рождения новорожденному цели навсегда будут предоставлены дополнительные базовые характеристики. Новорожденные также будут иметь шанс получить положительную статистику."  #Машинный перевод 28.10.23!
+ add_character_modifier_magic_significantly_drained_single_stack_name: "Постоянная потеря навыков"  #Машинный перевод 28.10.23!
+ add_character_modifier_magic_significantly_drained_single_stack_desc: "Приводит к безвозвратной потере всех [skills|E] и [health|E]."  #Машинный перевод 28.10.23!
+ death_on_childbirth_chance_name: "Опасные роды"  #Машинный перевод 28.10.23!
+ death_on_childbirth_chance_desc: "Повышенные шансы матери и ребенка погибнуть после рождения."  #Машинный перевод 28.10.23!
+  
+ wound_curse_name: "Ранящее проклятие"  #Машинный перевод 28.10.23!
+ wound_curse_desc: "В течение нескольких лет цель постепенно накапливает раны, становится калекой и в конечном итоге умирает."  #Машинный перевод 28.10.23!
+ curse_name: "Проклинать"  #Машинный перевод 28.10.23!
+ curse_desc: "Эффекты не могут быть отменены, кроме как при наличии очень специфических условий."  #Машинный перевод 28.10.23!
+ return_to_sender_name: "Вернуть отправителю"  #Машинный перевод 28.10.23!
+ return_to_sender_desc: "Если долгосрочным эффектам заклинания не удастся достичь своего завершения, они вернутся обратно к заклинателю."  #Машинный перевод 28.10.23!
+  
+ blood_conduit_name: "Кровопровод"  #Машинный перевод 28.10.23!
+ blood_conduit_desc: "Любые вредные или полезные события, происходящие с целью, могут также повлиять на прямое кровное родство. Шансы значительно возрастают, если другой член семьи также является проводником крови."  #Машинный перевод 28.10.23!
+  
+ protector_spirit_name: "Дух-защитник"  #Машинный перевод 28.10.23!
+ protector_spirit_desc: "Если цель серьезно ранена, появится дух, который бросит вызов зачинщику на смертельную дуэль. Это произойдет только один раз."  #Машинный перевод 28.10.23!
+  
+ spawn_stone_mount_name: "Каменный конь"  #Машинный перевод 28.10.23!
+ spawn_stone_mount_desc: "Дает камню копию жизни, создавая #E Каменного Голема#! как [artifact|E], качество которого зависит от уровня, на котором было применено заклинание."  #Машинный перевод 28.10.23!
+  
+ add_character_modifier_travel_advantage_name: "Быстроногий"  #Машинный перевод 28.10.23!
+ add_character_modifier_travel_advantage_desc: "Увеличивает скорость передвижения целевого персонажа."  #Машинный перевод 28.10.23!
+  
+ add_character_modifier_travel_disadvantage_name: "Замедлено"  #Машинный перевод 28.10.23!
+ add_character_modifier_travel_disadvantage_desc: "Уменьшает скорость передвижения целевого персонажа."  #Машинный перевод 28.10.23!
+  
+  # Effect Tags (County Modifiers) 
+ add_county_modifier_magic_fallout_modifier_name: "Волшебный осадок"  #Машинный перевод 28.10.23!
+ add_county_modifier_magic_fallout_modifier_desc: "Оставляет область со значительным долгосрочным увеличением окружающей среды [magic|E]."  #Машинный перевод 28.10.23!
+  
+ add_county_modifier_defensive_county_magic_name: "Защитная боевая магия"  #Машинный перевод 28.10.23!
+ add_county_modifier_defensive_county_magic_desc: "Усиливает [garrison|E] в цели [county|E]."  #Машинный перевод 28.10.23!
+  
+ add_county_modifier_fort_creation_name: "Улучшить укрепления"  #Машинный перевод 28.10.23!
+ add_county_modifier_fort_creation_desc: "Улучшает укрепления цели [county|E] на несколько лет."  #Машинный перевод 28.10.23!
+  
+ add_county_modifier_fort_creation_long_term_name: "Поднимите крепость"  #Машинный перевод 28.10.23!
+ add_county_modifier_fort_creation_long_term_desc: "Улучшает укрепления цели на десятилетия."  #Машинный перевод 28.10.23!
+  
+ add_county_modifier_building_construction_name: "Строительная конструкция"  #Машинный перевод 28.10.23!
+ add_county_modifier_building_construction_desc: "Уменьшает #E Скорость строительства#! и #E Стоимость строительства#! у цели этого заклинания примерно на десятилетие."  #Машинный перевод 28.10.23!
+  
+ add_county_modifier_improve_agriculture_name: "Улучшить сельское хозяйство"  #Машинный перевод 28.10.23!
+ add_county_modifier_improve_agriculture_desc: "Улучшает [development|E] #E Рост#!, #E Налог#! и #E Предел предложения#!."  #Машинный перевод 28.10.23!
+  
+ add_county_modifier_resource_exotic_metals_modifier_name: "Создайте небольшую экзотическую металлическую жилку"  #Машинный перевод 28.10.23!
+ add_county_modifier_resource_exotic_metals_modifier_desc: "Создает небольшую жилу экзотического металла, которая, вероятно, истощится в течение нескольких десятилетий."  #Машинный перевод 28.10.23!
+  
+ add_county_modifier_resource_exotic_metals_modifier_permanent_name: "Создать залежи экзотического металла"  #Машинный перевод 28.10.23!
+ add_county_modifier_resource_exotic_metals_modifier_permanent_desc: "Создает большое месторождение экзотического металла, которое никогда не будет истощено."  #Машинный перевод 28.10.23!
+  
+ add_county_modifier_resource_abundant_stone_modifier_name: "Создать запас камня"  #Машинный перевод 28.10.23!
+ add_county_modifier_resource_abundant_stone_modifier_desc: "Создает запасы высококачественного камня, которые, вероятно, будут исчерпаны в течение десятилетия."  #Машинный перевод 28.10.23!
+  
+ add_county_modifier_resource_abundant_stone_modifier_long_term_name: "Создать большой запас камня"  #Машинный перевод 28.10.23!
+ add_county_modifier_resource_abundant_stone_modifier_long_term_desc: "Создает большой запас высококачественного камня, который не будет исчерпан в течение столетия."  #Машинный перевод 28.10.23!
+  
+ add_county_modifier_resource_excellent_soil_name: "Улучшить почву"  #Машинный перевод 28.10.23!
+ add_county_modifier_resource_excellent_soil_desc: "Улучшает почву цели этого заклинания, делая ее более плодородной на некоторое время."  #Машинный перевод 28.10.23!
+  
+ add_county_modifier_resource_verdant_plant_growth_name: "Зеленый рост"  #Машинный перевод 28.10.23!
+ add_county_modifier_resource_verdant_plant_growth_desc: "Улучшает рост растений в целевой области этого заклинания, заставляя всю растительную жизнь расти с поистине необычайной скоростью."  #Машинный перевод 28.10.23!
+  
+ add_county_modifier_magic_destroyed_buildings_name: "Разрушительные постройки"  #Машинный перевод 28.10.23!
+ add_county_modifier_magic_destroyed_buildings_desc: "Вызывает масштабные разрушения городов, увеличивая #E Скорость строительства#! и #E Стоимость строительства#! зданий, построенных в целевом округе."  #Машинный перевод 28.10.23!
+  
+ add_county_modifier_magic_ruined_agriculture_name: "Уничтожить урожай"  #Машинный перевод 28.10.23!
+ add_county_modifier_magic_ruined_agriculture_desc: "Разрушает сельскохозяйственное производство в цели [county|E], уменьшая [development|E] #E Рост#!, #E Налог#! и #E Предел предложения#!."  #Машинный перевод 28.10.23!
+  
+ add_county_modifier_gold_income_mult_negative_name: "Ослабление экономики"  #Машинный перевод 28.10.23!
+ add_county_modifier_gold_income_mult_negative_desc: "Ослабляет экономику при целевом [county|E], снижая #E Налог#!."  #Машинный перевод 28.10.23!
+  
+ add_county_modifier_defender_advantage_name: "Увеличение преимущества защитника"  #Машинный перевод 28.10.23!
+ add_county_modifier_defender_advantage_desc: "Увеличивает защиту [advantage|E] в цели [county|E]."  #Машинный перевод 28.10.23!
+  
+ county_lower_control_modifier: "Уменьшить контроль"  #Машинный перевод 28.10.23!
+ county_lower_control_modifier_desc: "В результате заклинания регион начал терять контроль."  #Машинный перевод 28.10.23!
+ county_lower_control_modifier_livestock: "Буйные существа"  #Машинный перевод 28.10.23!
+ county_lower_control_modifier_livestock_desc: "[magic|E] разжег страсти домашнего скота этой области, увеличив его энергию и повысив плодовитость."  #Машинный перевод 28.10.23!
+  
+  # Effect Tags (County Effects) 
+ gain_arcane_fallout_name: "Чародейский осадок"  #Машинный перевод 28.10.23!
+ gain_arcane_fallout_desc: "Увеличивает окружающее [magic|E], в результате чего цель [county|E] становится все более враждебной к мирской жизни."  #Машинный перевод 28.10.23!
+ gain_lichdom_sorrow_name: "Печаль"  #Машинный перевод 28.10.23!
+ gain_lichdom_sorrow_desc: "Высасывает [magic|E] и жизнь из земли, в результате чего цель [county|E] становится все более враждебной к самой жизни."  #Машинный перевод 28.10.23!
+ gain_arcane_desert_name: "Чародейские пески"  #Машинный перевод 28.10.23!
+ gain_arcane_desert_desc: "Земля полностью высыхает, вызывая опустынивание цели [county|E]."  #Машинный перевод 28.10.23!
+ gain_frozen_wasteland_name: "Чародейский мороз"  #Машинный перевод 28.10.23!
+ gain_frozen_wasteland_desc: "Замораживает землю и все, что по ней ходит, превращая [county|E] в замерзшую пустошь."  #Машинный перевод 28.10.23!
+ reduce_development_name: "Сокращение развития"  #Машинный перевод 28.10.23!
+ reduce_development_desc: "Вызывает опустошение и уменьшает [development|E] в цели [county]."  #Машинный перевод 28.10.23!
+ summon_fog_name: "Призвать [fog|E]"  #Машинный перевод 28.10.23!
+ summon_fog_desc: "Направляет ужасающий [fog|E] в цель [county|E], постепенно подавляя ее."  #Машинный перевод 28.10.23!
+ add_county_modifier_drought_name: "Засуха"  #Машинный перевод 28.10.23!
+ add_county_modifier_drought_desc: "Разрушает сельскохозяйственное производство в цели [county|E]."  #Машинный перевод 28.10.23!
+ reduce_agriculture_magic_modifier: "Магия, вызывающая засуху"  #Машинный перевод 28.10.23!
+  # Effect Tags (Province Modifiers) 
+ add_province_modifier_magic_shattered_defenses_name: "Разрушает оборону"  #Машинный перевод 28.10.23!
+ add_province_modifier_magic_shattered_defenses_desc: "Вызывает ухудшение уровня форта [holding|E]."  #Машинный перевод 28.10.23!
+  
+ restore_kemsar_name: "Восстановить Мертвую реку"  #Машинный перевод 28.10.23!
+ restore_kemsar_desc: "Возвращает воду на земли Кемсара, меняя [terrain|E] и поднимая [development|E]."  #Машинный перевод 28.10.23!
+ kemsar_restores_terrain: "Заменяет [terrain|E] с засушливого, повышая уровень воды и делая экологию более умеренной."  #Машинный перевод 28.10.23!
+ kemsar_restores_counties: "Повышает [development|E] каждого [county|E] в Кемсаре."  #Машинный перевод 28.10.23!
+  # Non-Effect Tags 
+ requires_target_deceased_parent_name: "Падший прародитель"  #Машинный перевод 28.10.23!
+ requires_target_deceased_parent_desc: "Может быть применено только к целям, у которых есть хотя бы один умерший родитель."  #Машинный перевод 28.10.23!
+ requires_target_pregnant_name: "Требуется беременность"  #Машинный перевод 28.10.23!
+ requires_target_pregnant_desc: "Цель должна быть [GetTrait('pregnant').GetName( GetNullCharacter )]"  #Машинный перевод 28.10.23!
+  
+ #kill_switch_name: "Аварийная кнопка"  #Машинный перевод 28.10.23!
+ #kill_switch_desc: "Эффекты активируются только тогда, когда цель умирает."  #Машинный перевод 28.10.23!
+  
+  
+  # Stress Tags 
+ sadistic_effects_name: "Жестокие эффекты"  #Машинный перевод 28.10.23!
+ sadistic_effects_desc: "Имеет особенно жестокие и бесчеловечные эффекты — на некоторые [traits|E] будут воздействовать эффекты [stress|E] при применении."  #Машинный перевод 28.10.23!
+ increase_stress_pain_name: "Болезненный опыт"  #Машинный перевод 28.10.23!
+ increase_stress_pain_desc: "Использование этого заклинания чрезвычайно болезненно физически — при его применении будет начислен [stress|E]."  #Машинный перевод 28.10.23!
+  
+  #################### 
+  # SPELL COMPONENTS # 
+  #################### 
+  
+ pay_gold_name: "Инвестируйте [gold_i][gold|E]"  #Машинный перевод 28.10.23!
+ pay_gold_desc: "Различные мелочи, не особо ценные по отдельности, но в совокупности все равно составляющие значительную цену."  #Машинный перевод 28.10.23!
+ pay_wounds_name: "Жертвовать кровью"  #Машинный перевод 28.10.23!
+ pay_wounds_desc: "Заклинание требует принесения в жертву собственной крови, причем в таком количестве, что для его получения потребуются значительные раны."  #Машинный перевод 28.10.23!
+ character_prisoner_name: "Укажите [prisoner|E]"  #Машинный перевод 28.10.23!
+ character_prisoner_desc: "Требуется помощь не желающего этого субъекта — роль, которую он выполняет, вряд ли будет приятной."  #Машинный перевод 28.10.23!
+ character_cabal_name: "Выполнить обряд"  #Машинный перевод 28.10.23!
+ character_cabal_desc: "Сложный и, возможно, длительный процесс, который желательно выполнять человеком с необходимым опытом."  #Машинный перевод 28.10.23!
+ character_herbalist_blood_draining_poultice_name: "Изготовьте кровоостанавливающую припарку"  #Машинный перевод 28.10.23!
+ character_herbalist_blood_draining_poultice_desc: "Можно значительно улучшить процесс кровопускания, используя определенные припарки, однако для их изготовления потребуется хорошее знание местных трав и их алхимических свойств."  #Машинный перевод 28.10.23!
+ artifact_spell_component_name: "Укажите [artifact|E]"  #Машинный перевод 28.10.23!
+ artifact_spell_component_desc: "Инструмент или ингредиент, который может быть не повседневным или легкодоступным."  #Машинный перевод 28.10.23!
+ sacrificial_dagger_spell_component_name: "Предоставьте жертвенный кинжал"  #Машинный перевод 28.10.23!
+ sacrificial_dagger_spell_component_desc: "Обычный клинок может просто не подойти для этой задачи — необходим клинок, на котором выгравированы соответствующие руны и наделен нужной магической энергией."  #Машинный перевод 28.10.23!
+ bone_spell_component_name: "Предоставить кости"  #Машинный перевод 28.10.23!
+ bone_spell_component_desc: "Кости могут быть мощным источником энергии, хотя это и не гарантировано."  #Машинный перевод 28.10.23!
+ essence_spell_component_name: "Доставить эссенцию элементаля"  #Машинный перевод 28.10.23!
+ essence_spell_component_desc: "Эссенция, собранная у могущественного элементаля, может дать опытному [magi|E] множество преимуществ."  #Машинный перевод 28.10.23!
+ bone_sacrifice_spell_component_name: "Предоставить кости"  #Машинный перевод 28.10.23!
+ bone_sacrifice_spell_component_desc: "Кости могут быть мощным источником энергии, хотя это и не гарантировано."  #Машинный перевод 28.10.23!
+ gemstone_spell_component_name: "Предоставить драгоценные камни"  #Машинный перевод 28.10.23!
+ gemstone_spell_component_desc: "Драгоценные камни часто используются в ритуалах либо как источник силы, либо как строительный материал для магических конструкций."  #Машинный перевод 28.10.23!
+  
+  
+  # Ingredient Spell Components 
+  
+ sedative_spell_component_name: "Седативное"  #Машинный перевод 28.10.23!
+ sedative_spell_component_desc: "Вещество, притупляющее боль и расслабляющее возбужденный ум, было бы здесь весьма полезно."  #Машинный перевод 28.10.23!
+ poison_spell_component_name: "Яд"  #Машинный перевод 28.10.23!
+ poison_spell_component_desc: "Яды, столь же смертоносные как в ритуальной чаше, так и в напитке противника, тем не менее, часто различаются по своим свойствам при использовании в [magic|E] по сравнению с непосредственным использованием."  #Машинный перевод 28.10.23!
+ bone_ingredient_spell_component_name: "Кости"  #Машинный перевод 28.10.23!
+ bone_ingredient_spell_component_desc: "Кости, даже их фрагменты, могут удерживать мощную энергию [magic|E] столетий после прошлой жизни кости."  #Машинный перевод 28.10.23!
+  
+  # Ingredient Rarity 
+  
+ ingredient_rarity_common: "#V Общее#!"  #Машинный перевод 28.10.23!
+ ingredient_rarity_uncommon: "#color:{0.72,0.9,0.92} Необычный#!"  #Машинный перевод 28.10.23!
+ ingredient_rarity_rare: "#color:{0.65,0.15,0.86} Редкий#!"  #Машинный перевод 28.10.23!
+ ingredient_rarity_very_rare: "#color:{0.90,0.75,0.30} Очень редко#!"  #Машинный перевод 28.10.23!
+  
+  ##################################### 
+  # SPELL COMPONENT BONUSES AND COSTS # 
+  ##################################### 
+  
+ inherits_aspects_spell_component_prefix_positive: "#size:1"  #Машинный перевод 28.10.23!
+ inherits_aspects_spell_component_prefix_negative: "#size:1"  #Машинный перевод 28.10.23!
+ inherits_aspects_spell_component_suffix: "#!Inherits Аспекты"  #Машинный перевод 28.10.23!
+ success_chance_spell_component_prefix_positive: "#positive_value +"  #Машинный перевод 28.10.23!
+ success_chance_spell_component_prefix_negative: "#negative_value +"  #Машинный перевод 28.10.23!
+ success_chance_spell_component_suffix: "#! @scheme_icon!"  #Машинный перевод 28.10.23!
+ magic_add_spell_component_prefix_positive: "#positive_value +"  #Машинный перевод 28.10.23!
+ magic_add_spell_component_prefix_negative: "#negative_value -"  #Машинный перевод 28.10.23!
+ magic_add_spell_component_suffix: "#! @magic_icon! согласно пригодности"  #Машинный перевод 28.10.23!
+ magic_mult_spell_component_prefix_positive: "#positive_value +"  #Машинный перевод 28.10.23!
+ magic_mult_spell_component_prefix_negative: "#negative_value -"  #Машинный перевод 28.10.23!
+ magic_mult_spell_component_suffix: "%#! @magic_icon! согласно пригодности"  #Машинный перевод 28.10.23!
+ wound_chance_mult_component_prefix_positive: "#negative_value +"  #Машинный перевод 28.10.23!
+ wound_chance_mult_component_prefix_negative: "#positive_value -"  #Машинный перевод 28.10.23!
+ wound_chance_mult_component_suffix: "%#! [GetTrait('wounded_1').GetName( GetNullCharacter )] шанс прогресса за пригодность"  #Машинный перевод 28.10.23!
+ gold_spell_component_prefix_positive: "#positive_value"  #Машинный перевод 28.10.23!
+ gold_spell_component_prefix_negative: "#negative_value"  #Машинный перевод 28.10.23!
+ gold_spell_component_suffix: "#! [gold_i]"  #Машинный перевод 28.10.23!
+ bloods_spell_component_prefix_positive: "#negative_value +"  #Машинный перевод 28.10.23!
+ bloods_spell_component_prefix_negative: "#positive_value"  #Машинный перевод 28.10.23!
+ bloods_spell_component_suffix: "#! [GetTrait('wounded_1').GetName( GetNullCharacter )]"  #Машинный перевод 28.10.23!
+ wounds_spell_component_suffix: ""
+ wounds_spell_component_prefix_positive: ""
+ wounds_spell_component_prefix_negative: ""
+ blood_spell_component_prefix_positive: "#negative_value +"  #Машинный перевод 28.10.23!
+ blood_spell_component_prefix_negative: "#positive_value"  #Машинный перевод 28.10.23!
+ blood_spell_component_suffix: "#! [GetTrait('wounded_1').GetName( GetNullCharacter )]"  #Машинный перевод 28.10.23!
+ fire_spell_component_prefix_positive: "$fire_coloring$ +"  #Машинный перевод 28.10.23!
+ fire_spell_component_prefix_negative: "$fire_coloring$ -"  #Машинный перевод 28.10.23!
+ fire_spell_component_suffix: "Огонь#!"  #Машинный перевод 28.10.23!
+ water_spell_component_prefix_positive: "$water_coloring$ +"  #Машинный перевод 28.10.23!
+ water_spell_component_prefix_negative: "$water_coloring$ -"  #Машинный перевод 28.10.23!
+ water_spell_component_suffix: "Вода#!"  #Машинный перевод 28.10.23!
+ death_spell_component_prefix_positive: "$death_coloring$ +"  #Машинный перевод 28.10.23!
+ death_spell_component_prefix_negative: "$death_coloring$ -"  #Машинный перевод 28.10.23!
+ death_spell_component_suffix: "Смерть#!"  #Машинный перевод 28.10.23!
+ ice_spell_component_prefix_positive: "$ice_coloring$ +"  #Машинный перевод 28.10.23!
+ ice_spell_component_prefix_negative: "$ice_coloring$ -"  #Машинный перевод 28.10.23!
+ ice_spell_component_suffix: "Лед#!"  #Машинный перевод 28.10.23!
+ stone_spell_component_prefix_positive: "$stone_coloring$ +"  #Машинный перевод 28.10.23!
+ stone_spell_component_prefix_negative: "$stone_coloring$ ="  #Машинный перевод 28.10.23!
+ stone_spell_component_suffix: "Камень#!"  #Машинный перевод 28.10.23!
+  
+  ############# 
+  # MODIFIERS # 
+  ############# 
+  
+ battle_magic_magic_modifier: "Боевая магия"  #Машинный перевод 28.10.23!
+ battle_magic_magic_modifier_desc: "Враги и противники падут перед тайной доблестью этого персонажа."  #Машинный перевод 28.10.23!
+ fire_magick_terrain_advantage_magic_modifier: "Магия поджигания огня"  #Машинный перевод 28.10.23!
+ fire_magick_terrain_advantage_magic_modifier_desc: "Даже самая влажная зелень легко воспламеняется созданным пламенем этого персонажа."  #Машинный перевод 28.10.23!
+ dry_terrain_advantage_magic_modifier: "Боевая магия сухой местности"  #Машинный перевод 28.10.23!
+ dry_terrain_advantage_magic_modifier_desc: "Заклинания этого персонажа усугубляют недостаток влаги в местности, нанося ущерб врагам."  #Машинный перевод 28.10.23!
+ rocky_terrain_advantage_magic_modifier: "Боевая магия каменистой местности"  #Машинный перевод 28.10.23!
+ rocky_terrain_advantage_magic_modifier_desc: "Заклинания этого персонажа позволяют ему легко преодолевать скалы, что позволяет им легко преодолевать пересеченную местность."  #Машинный перевод 28.10.23!
+ forest_terrain_advantage_magic_modifier: "Боевая магия лесной местности"  #Машинный перевод 28.10.23!
+ forest_terrain_advantage_magic_modifier_desc: "У этого персонажа улучшены навыки управления флорой, что является мощным преимуществом на зеленом поле битвы."  #Машинный перевод 28.10.23!
+ magi_siege_value_add_magic_modifier: "Разрушающая стены магия"  #Машинный перевод 28.10.23!
+ magi_siege_value_add_magic_modifier_desc: "Чистая сила заклинаний этого персонажа пробивает даже самые непроницаемые стены."  #Машинный перевод 28.10.23!
+ enemy_knight_kill_chance_magic_modifier_1: "Магия убийства рыцарей"  #Машинный перевод 28.10.23!
+ enemy_knight_kill_chance_magic_modifier_1_desc: "Навыки этого персонажа в магии сбивают с толку даже самых стойких бойцов.\n\nВраг [knight|E] Шанс смерти: #positive_value +10%!"  #Машинный перевод 28.10.23!
+ enemy_knight_kill_chance_magic_modifier_2: "Магия убийства рыцарей"  #Машинный перевод 28.10.23!
+ enemy_knight_kill_chance_magic_modifier_2_desc: "Опытные чемпионы легко уничтожаются заклинаниями этого персонажа.\n\nВраг [knight|E] Шанс смерти: #positive_value +20%#!"  #Машинный перевод 28.10.23!
+ enemy_knight_kill_chance_magic_modifier_3: "Магия убийства рыцарей"  #Машинный перевод 28.10.23!
+ enemy_knight_kill_chance_magic_modifier_3_desc: "Мощные заклинания этого персонажа побеждают даже самых великих и прославленных воинов.\n\nВраг [knight|E] Шанс смерти: #positive_value +30%#!"  #Машинный перевод 28.10.23!
+ battle_magic_losses_modifier: "Омолаживающая боевая магия"  #Машинный перевод 28.10.23!
+ battle_magic_losses_modifier_desc: "Раны и другие травмы легко залечиваются заклинаниями этого персонажа."  #Машинный перевод 28.10.23!
+ battle_magic_losses_negative_modifier: "Рискованная боевая магия"  #Машинный перевод 28.10.23!
+ battle_magic_losses_modifier_negative_desc: "Использование заклинаний этим персонажем в бою опасно даже для его собственных войск."  #Машинный перевод 28.10.23!
+ water_magic_advantage_magic_modifier: "Магия формирования воды"  #Машинный перевод 28.10.23!
+ water_magic_advantage_magic_modifier_desc: "Этот персонаж способен манипулировать окружающими водами, чтобы добиться больших результатов против своих врагов."  #Машинный перевод 28.10.23!
+ #water_magic_advantage_magic_modifier: "Улучшенное водное транспортное средство"  #Машинный перевод 28.10.23!
+ #water_magic_advantage_magic_modifier_desc: "Улучшены боевые возможности вблизи воды."  #Машинный перевод 28.10.23!
+  
+  
+  
+ negate_enemy_advantage_magic_modifier: "Магия формирования ландшафта"  #Машинный перевод 28.10.23!
+ negate_enemy_advantage_magic_modifier_desc: "Заклинания этого персонажа позволяют ему формировать любые виды материи, что позволяет им легко преодолевать даже самую сложную местность."  #Машинный перевод 28.10.23!
+ knight_effectiveness_magic_modifier: "Зачарованные рыцари"  #Машинный перевод 28.10.23!
+ knight_effectiveness_magic_modifier_desc: "Воины этого персонажа движутся со сверхъестественной грацией, которую можно было получить только тайными средствами."  #Машинный перевод 28.10.23!
+ army_damage_magic_modifier: "Чародейское оружие"  #Машинный перевод 28.10.23!
+ army_damage_magic_modifier_desc: "Оружие воинов этого персонажа сияет сверхъестественным светом — явный признак тайных манипуляций."  #Машинный перевод 28.10.23!
+ army_damage_negative_magic_modifier: "Ослабленные воины"  #Машинный перевод 28.10.23!
+ army_damage_negative_magic_modifier_desc: "Не дает воинам этого персонажа сражаться в полную силу."  #Машинный перевод 28.10.23!
+ army_toughness_magic_modifier: "Чародейская броня"  #Машинный перевод 28.10.23!
+ army_toughness_magic_modifier_desc: "Доспехи воинов этого персонажа сияют сверхъестественным светом — явный признак тайных манипуляций."  #Машинный перевод 28.10.23!
+  
+ magic_omen_diplomacy_modifier: "Дипломатические видения"  #Машинный перевод 28.10.23!
+ magic_omen_diplomacy_modifier_desc: "Этот персонаж получил видения, которые открыли секретные способы влияния на других с помощью слов."  #Машинный перевод 28.10.23!
+ magic_omen_intrigue_modifier: "Интрига Видения"  #Машинный перевод 28.10.23!
+ magic_omen_intrigue_modifier_desc: "Этот персонаж получил видения, которые раскрыли секретные методы создания планов, скрытых от глаз врагов."  #Машинный перевод 28.10.23!
+ magic_omen_martial_modifier: "Боевые видения"  #Машинный перевод 28.10.23!
+ magic_omen_martial_modifier_desc: "Этот персонаж получил видения, которые раскрыли секретные стратегии, позволяющие переломить ход войны."  #Машинный перевод 28.10.23!
+ magic_omen_stewardship_modifier: "Видения управления"  #Машинный перевод 28.10.23!
+ magic_omen_stewardship_modifier_desc: "Этот персонаж получил видения, которые раскрыли секретные методы умелого управления своим царством."  #Машинный перевод 28.10.23!
+ magic_omen_learning_modifier: "Видения обучения"  #Машинный перевод 28.10.23!
+ magic_omen_learning_modifier_desc: "Этот персонаж получил видения, раскрывающие секретные методы эффективного усвоения знаний."  #Машинный перевод 28.10.23!
+  
+ diplomacy_magic_modifier_positive: "Гламур"  #Машинный перевод 28.10.23!
+ diplomacy_magic_modifier_positive_desc: "У этого персонажа неестественная, хотя и очаровательная аура."  #Машинный перевод 28.10.23!
+ diplomacy_magic_modifier_positive_permanent: "Гламур (постоянный)"  #Машинный перевод 28.10.23!
+ diplomacy_magic_modifier_positive_permanent_desc: "У этого персонажа неестественная, хотя и очаровательная аура."  #Машинный перевод 28.10.23!
+ diplomacy_magic_modifier_seduction_positive: "Гламур искушения"  #Машинный перевод 28.10.23!
+ diplomacy_magic_modifier_seduction_positive_desc: "Слова этого персонажа чарующе сладки и соблазнительны."  #Машинный перевод 28.10.23!
+ diplomacy_magic_modifier_vassal_opinion_positive: "Гламур господства"  #Машинный перевод 28.10.23!
+ diplomacy_magic_modifier_vassal_opinion_positive_desc: "Этот персонаж излучает уверенность и властность, его громкий голос заставляет окружающих почти подсознательно опускать взгляды."  #Машинный перевод 28.10.23!
+ diplomacy_magic_modifier_personal_scheme_hook_positive: "Непреодолимое очарование"  #Машинный перевод 28.10.23!
+ diplomacy_magic_modifier_personal_scheme_hook_positive_desc: "Шанс получить @weak_hook_icon! [weak_hook|E] за успешные [GetScheme('seduce').GetTypeName] и [GetScheme('befriend').GetTypeName] [schemes|E]:#positive_value +20%#!\nChance при получении @strong_hook_icon! [strong_hook|E] из успешных [GetScheme('seduce').GetTypeName] и [GetScheme('befriend').GetTypeName] [schemes|E]:#positive_value +5%[GetScheme('seduce').GetTypeName]1"  #Машинный перевод 28.10.23!
+  
+ magic_resistance_magic_modifier_1: "Магический оберег (1)"  #Машинный перевод 28.10.23!
+ magic_resistance_magic_modifier_1_desc: "Сопротивление этого персонажа магии было увеличено с помощью тайных средств.\n\n#E Сопротивление магии#!: #positive_value +10#!"  #Машинный перевод 28.10.23!
+ magic_resistance_magic_modifier_2: "Магический оберег (2)"  #Машинный перевод 28.10.23!
+ magic_resistance_magic_modifier_2_desc: "Благодаря своим оберегам этот персонаж способен игнорировать большинство основных заговоров и заклинаний.\n\n#E Сопротивление магии#!: #positive_value +20#!"  #Машинный перевод 28.10.23!
+ magic_resistance_magic_modifier_3: "Магический оберег (3)"  #Машинный перевод 28.10.23!
+ magic_resistance_magic_modifier_3_desc: "Попытка атаковать этого персонажа магическими средствами является тщетным занятием.\n\n#E Сопротивление магии#!: #positive_value +30#!"  #Машинный перевод 28.10.23!
+ magic_resistance_magic_modifier_4: "Магический оберег (4)"  #Машинный перевод 28.10.23!
+ magic_resistance_magic_modifier_4_desc: "Даже самые мощные заклинания отскакивают от защиты этого персонажа, как стрелы, выпущенные в каменные стены.\n\n#E Сопротивление магии#!: #positive_value +40#!"  #Машинный перевод 28.10.23!
+ magic_resistance_magic_modifier_5: "Магический оберег (5)"  #Машинный перевод 28.10.23!
+ magic_resistance_magic_modifier_5_desc: "Сила тайной защиты этого персонажа позволяет ему пройти через все магические бедствия невредимым.\n\n#E Сопротивление магии#!: #positive_value +50#!"  #Машинный перевод 28.10.23!
+  
+ magic_penetration_magic_modifier_1: "Заклинание клочья (1)"  #Машинный перевод 28.10.23!
+ magic_penetration_magic_modifier_1_desc: "Сопротивление этого персонажа магии было уменьшено тайными средствами.\n\n#E Сопротивление магии#!: #negative_value -10#!"  #Машинный перевод 28.10.23!
+ magic_penetration_magic_modifier_2: "Заклинание клочья (2)"  #Машинный перевод 28.10.23!
+ magic_penetration_magic_modifier_2_desc: "Сопротивление этого персонажа магии было уменьшено тайными средствами.\n\n#E Сопротивление магии#!: #negative_value -20#!"  #Машинный перевод 28.10.23!
+ magic_penetration_magic_modifier_3: "Заклинание клочья (3)"  #Машинный перевод 28.10.23!
+ magic_penetration_magic_modifier_3_desc: "Сопротивление этого персонажа магии было уменьшено тайными средствами.\n\n#E Сопротивление магии#!: #negative_value -30#!"  #Машинный перевод 28.10.23!
+ magic_penetration_magic_modifier_4: "Заклинание клочья (4)"  #Машинный перевод 28.10.23!
+ magic_penetration_magic_modifier_4_desc: "Сопротивление этого персонажа магии было уменьшено тайными средствами.\n\n#E Сопротивление магии#!: #negative_value -40#!"  #Машинный перевод 28.10.23!
+ magic_penetration_magic_modifier_5: "Заклинание клочья (5)"  #Машинный перевод 28.10.23!
+ magic_penetration_magic_modifier_5_desc: "Сопротивление этого персонажа магии было уменьшено тайными средствами.\n\n#E Сопротивление магии#!: #negative_value -50#!"  #Машинный перевод 28.10.23!
+ shape_change_name: "Магия изменения формы"  #Машинный перевод 28.10.23!
+ shape_change_desc: "Заклинатель трансформируется в более мощную чудовищную форму."  #Машинный перевод 28.10.23!
+  
+  
+ shape_change_magic_modifier_1: "Странная форма"  #Машинный перевод 28.10.23!
+ shape_change_magic_modifier_1_desc: "Этот персонаж выглядит так же, но что-то не так с его поведением, они выросли?"  #Машинный перевод 28.10.23!
+  
+ shape_change_magic_modifier_2: "Немного чудовищная форма"  #Машинный перевод 28.10.23!
+ shape_change_magic_modifier_2_desc: "В глазах этого персонажа появился определенный голод, в них есть необычная сила."  #Машинный перевод 28.10.23!
+  
+ shape_change_magic_modifier_3: "Заметно чудовищная форма"  #Машинный перевод 28.10.23!
+ shape_change_magic_modifier_3_desc: "Этот персонаж заметно увеличился в размерах, его мускулы набухли, в нем появилась неестественная сила."  #Машинный перевод 28.10.23!
+  
+ shape_change_magic_modifier_4: "Совершенно чудовищная форма"  #Машинный перевод 28.10.23!
+ shape_change_magic_modifier_4_desc: "Этот персонаж развил чудовищную ауру и силу, все боятся им противостоять."  #Машинный перевод 28.10.23!
+  
+ hostile_scheme_resistance_add_modifier: "Сопротивление тайным замыслам"  #Машинный перевод 28.10.23!
+ hostile_scheme_resistance_add_modifier_desc: "Инстинкты и рефлексы этого персонажа магически усилены."  #Машинный перевод 28.10.23!
+  
+ magic_health_gain_modifier: "Укрепленное здоровье"  #Машинный перевод 28.10.23!
+ magic_health_gain_modifier_desc: "Здоровье и энергия этого персонажа были улучшены с помощью тайных средств."  #Машинный перевод 28.10.23!
+ magic_health_resistance_gain_modifier: "Магическое лечение"  #Машинный перевод 28.10.23!
+ magic_health_resistance_gain_modifier_desc: "Устойчивость этого персонажа к болезням была повышена с помощью тайных средств."  #Машинный перевод 28.10.23!
+ magic_health_loss_modifier: "Ослабленное здоровье"  #Машинный перевод 28.10.23!
+ magic_health_loss_modifier_desc: "Здоровье и энергия этого персонажа были ослаблены тайными средствами."  #Машинный перевод 28.10.23!
+ magic_health_loss_major_modifier: "Ослабленное здоровье (значительное)"  #Машинный перевод 28.10.23!
+ magic_health_loss_severe_modifier: "Ослабленное здоровье (серьезное)"  #Машинный перевод 28.10.23!
+  
+ magic_viagra_modifier: "Тайная мужественность"  #Машинный перевод 28.10.23!
+ magic_viagra_modifier_desc: "Плодородие и плодородные годы этого персонажа были увеличены с помощью тайных средств."  #Машинный перевод 28.10.23!
+ magic_life_extension_modifier: "Расширенный срок службы"  #Машинный перевод 28.10.23!
+ magic_life_extension_modifier_desc: "Этот персонаж продлил свою жизнь с помощью паразитической магии, потребляя жизненную энергию других для поддержания своего неестественного существования."  #Машинный перевод 28.10.23!
+ magic_life_corruption_modifier: "Оккультное расслабление"  #Машинный перевод 28.10.23!
+ magic_life_corruption_modifier_desc: "Продолжительность жизни этого персонажа была истощена из-за постоянного воздействия исцеляющей магии."  #Машинный перевод 28.10.23!
+  
+ magic_prowess_gain_modifier: "Усиленное мастерство"  #Машинный перевод 28.10.23!
+ magic_prowess_gain_modifier_desc: "Навыки владения оружием этого персонажа были улучшены с помощью тайных средств."  #Машинный перевод 28.10.23!
+ magic_prowess_resistance_gain_modifier: "Повышенная устойчивость к травмам"  #Машинный перевод 28.10.23!
+ magic_prowess_loss_modifier: "Ослабленное мастерство"  #Машинный перевод 28.10.23!
+ magic_prowess_loss_modifier_desc: "Навыки владения оружием этого персонажа были ослаблены тайными средствами."  #Машинный перевод 28.10.23!
+  
+ magic_diplomacy_gain_modifier: "Жуткое красноречие"  #Машинный перевод 28.10.23!
+ magic_diplomacy_gain_modifier_desc: "Владение словами этого персонажа было улучшено с помощью тайных средств."  #Машинный перевод 28.10.23!
+ magic_diplomacy_resistance_gain_modifier: "Сопротивляющаяся дипломатия"  #Машинный перевод 28.10.23!
+ magic_diplomacy_loss_modifier: "Ослабленная дипломатия"  #Машинный перевод 28.10.23!
+ magic_diplomacy_loss_modifier_desc: "Владение словами этого персонажа было ослаблено тайными средствами."  #Машинный перевод 28.10.23!
+  
+ magic_martial_gain_modifier: "Сверхъестественная стратегия"  #Машинный перевод 28.10.23!
+ magic_martial_gain_modifier_desc: "Стратегические способности этого персонажа были улучшены с помощью тайных средств."  #Машинный перевод 28.10.23!
+ magic_martial_resistance_gain_modifier: "Устойчивый Боевой"  #Машинный перевод 28.10.23!
+ magic_martial_loss_modifier: "Ослабленный боевой"  #Машинный перевод 28.10.23!
+ magic_martial_loss_modifier_desc: "Стратегические способности этого персонажа были ослаблены тайными средствами."  #Машинный перевод 28.10.23!
+  
+ magic_stewardship_gain_modifier: "Тайная Администрация"  #Машинный перевод 28.10.23!
+ magic_stewardship_gain_modifier_desc: "Административные способности этого персонажа были улучшены с помощью тайных средств."  #Машинный перевод 28.10.23!
+ magic_stewardship_resistance_gain_modifier: "Устойчивое управление"  #Машинный перевод 28.10.23!
+ magic_stewardship_loss_modifier: "Ослабленное управление"  #Машинный перевод 28.10.23!
+ magic_stewardship_loss_modifier_desc: "Административные способности этого персонажа были ослаблены тайными средствами."  #Машинный перевод 28.10.23!
+  
+ magic_intrigue_gain_modifier: "Теневая мудрость"  #Машинный перевод 28.10.23!
+ magic_intrigue_gain_modifier_desc: "Мастерство этого персонажа в убийстве черепов было улучшено с помощью тайных средств."  #Машинный перевод 28.10.23!
+ magic_intrigue_resistance_gain_modifier: "Устойчивая интрига"  #Машинный перевод 28.10.23!
+ magic_intrigue_loss_modifier: "Притупленные чувства"  #Машинный перевод 28.10.23!
+ magic_intrigue_loss_modifier_desc: "Мастерство этого персонажа в махинациях с черепами было ослаблено тайными средствами."  #Машинный перевод 28.10.23!
+  
+ magic_learning_gain_modifier: "Усиленное обучение"  #Машинный перевод 28.10.23!
+ magic_learning_gain_modifier_desc: "Познания этого персонажа были улучшены с помощью тайных средств."  #Машинный перевод 28.10.23!
+ magic_learning_resistance_gain_modifier: "Устойчивое обучение"  #Машинный перевод 28.10.23!
+ magic_learning_loss_modifier: "Ослабленное обучение"  #Машинный перевод 28.10.23!
+ magic_learning_loss_modifier_desc: "Познания этого персонажа были ослаблены тайными средствами."  #Машинный перевод 28.10.23!
+  
+ magic_mind_fog_modifier: "Разумный туман"  #Машинный перевод 28.10.23!
+ magic_mind_fog_modifier_desc: "Разум этого персонажа затуманен густым Туманом, что затрудняет выполнение сложных задач."  #Машинный перевод 28.10.23!
+  
+ magic_unnatural_husk_modifier: "Неестественная оболочка"  #Машинный перевод 28.10.23!
+ magic_unnatural_husk_modifier_desc: "Этот персонаж явно продлил свою жизнь с помощью магии, которая нанесла ущерб его разуму и телу. И их внешний вид, и движения кажутся жесткими и неестественными, подпитываемыми магией, а не самим телом."  #Машинный перевод 28.10.23!
+  
+ magic_unnatural_shaping_modifier: "Неестественная структура костей"  #Машинный перевод 28.10.23!
+ magic_unnatural_shaping_modifier_desc: "Этот персонаж тревожным образом изменил структуру своих костей."  #Машинный перевод 28.10.23!
+  
+ magic_boneshaping_modifier: "Усиленные кости"  #Машинный перевод 28.10.23!
+ magic_boneshaping_modifier_desc: "Скелетная структура этого персонажа была изменена, чтобы лучше подходить для боя."  #Машинный перевод 28.10.23!
+  
+ magic_levy_reinforcement_rate_gain_modifier: "Обновление Войск"  #Машинный перевод 28.10.23!
+ magic_levy_reinforcement_rate_gain_modifier_desc: "Воины этого персонажа магически усилены, чтобы всегда быть в пике здоровья и быть готовыми к бою."  #Машинный перевод 28.10.23!
+  
+ magic_hostile_scheme_discovery_gain_modifier: "Бдительные глаза"  #Машинный перевод 28.10.23!
+ magic_hostile_scheme_discovery_gain_modifier_desc: "Этот персонаж сверхъестественным образом осознает каждую деталь своего окружения."  #Машинный перевод 28.10.23!
+  
+ poison_magic_modifier: "Магиалмия"  #Машинный перевод 28.10.23!
+ poison_magic_modifier_desc: "Кровоток этого персонажа недавно подвергся воздействию значительного количества магии."  #Машинный перевод 28.10.23!
+  
+ health_magic_modifier_positive: "Магия здоровья"  #Машинный перевод 28.10.23!
+ health_magic_modifier_blood_positive: "Сангвиническая жизненная сила"  #Машинный перевод 28.10.23!
+  
+ health_magic_resistance_positive: "Магия сопротивления урону"  #Машинный перевод 28.10.23!
+ health_magic_resistance_modifier_earth_positive: "Каменная плоть"  #Машинный перевод 28.10.23!
+  
+ magic_general_boost: "Направляющая магия"  #Машинный перевод 28.10.23!
+  
+ backfire_county_debuff_modifier: "Магическая неудача"  #Машинный перевод 28.10.23!
+ backfire_county_debuff_modifier_desc: "Эта земля подверглась неблагоприятному воздействию миазмов магической природы."  #Машинный перевод 28.10.23!
+ backfire_county_debuff_earth_modifier: "Безудержный щебень"  #Машинный перевод 28.10.23!
+ backfire_county_debuff_earth_modifier_desc: "Камни на этой земле, кажется, движутся сами по себе, и их постоянное перемещение причиняет немало хлопот осажденным жителям."  #Машинный перевод 28.10.23!
+ backfire_province_debuff_fire_modifier: "Выжженные поля"  #Машинный перевод 28.10.23!
+ backfire_province_debuff_fire_modifier_desc: "Эти земли были опалены пламенем тайного происхождения, в результате чего земля почернела и растрескалась от жара пожара."  #Машинный перевод 28.10.23!
+  
+ county_ground_positive_modifier: "Усиленная земля"  #Машинный перевод 28.10.23!
+ county_ground_positive_modifier_desc: "Маленькие золотые жилы волшебным образом появились на этой земле в одночасье, предоставив ее жителям новый источник дохода."  #Машинный перевод 28.10.23!
+ county_ground_positive_earth_modifier: "Минеральная лихорадка"  #Машинный перевод 28.10.23!
+ county_ground_positive_earth_modifier_desc: "Жила экзотического металла волшебным образом появилась на этой земле в одночасье, вызвав внезапный приток потенциальных горняков."  #Машинный перевод 28.10.23!
+ county_ground_positive_earth_long_modifier: "Месторождения полезных ископаемых"  #Машинный перевод 28.10.23!
+ county_ground_positive_earth_long_modifier_desc: "На этой земле в одночасье появилось большое месторождение драгоценных камней и драгоценных металлов, обеспечившее процветание ее жителям на долгие годы вперед."  #Машинный перевод 28.10.23!
+ county_positive_build_modifier: "Строительная магия"  #Машинный перевод 28.10.23!
+ county_positive_build_modifier_desc: "Камни этой земли волшебным образом кажутся уже сформированными в геометрические образования и легко разделяются на части, идеальные для строительства."  #Машинный перевод 28.10.23!
+  
+ defensive_county_magic_modifier: "Магическая защита"  #Машинный перевод 28.10.23!
+ defensive_county_magic_modifier_desc: "Защита этого владения усилена защитными заклинаниями."  #Машинный перевод 28.10.23!
+  
+ fort_creation_county_magic_modifier: "Магия возведения крепости"  #Машинный перевод 28.10.23!
+ fort_creation_county_magic_modifier_desc: "Эта земля защищена стойкой крепостью. Неестественно гладкая поверхность строения и идеально ровные стены говорят о его волшебном происхождении."  #Машинный перевод 28.10.23!
+  
+ long_term_fort_creation_county_magic_modifier: "Устойчивая магия, повышающая крепость"  #Машинный перевод 28.10.23!
+ long_term_fort_creation_county_magic_modifier_desc: "Эта земля защищена стойкой крепостью. Помимо неестественно совершенной конструкции, сам фундамент сооружения, кажется, укоренен в самой земле."  #Машинный перевод 28.10.23!
+  
+ improve_agriculture_magic_modifier: "Магия, улучшающая сельское хозяйство"  #Машинный перевод 28.10.23!
+ improve_agriculture_magic_modifier_desc: "Эта земля была зачарована, чтобы дать жизнь даже в суровых условиях."  #Машинный перевод 28.10.23!
+  
+ county_defender_advantage_modifier: "Усиленные защитники"  #Машинный перевод 28.10.23!
+ county_defender_advantage_modifier_desc: "Защитники этого владения защищены магическими средствами."  #Машинный перевод 28.10.23!
+  
+ building_construction_county_magic_modifier: "Строительная магия"  #Машинный перевод 28.10.23!
+ building_construction_county_magic_modifier_desc: "Камни, добытые на этой земле, волшебным образом образуют геометрические образования и легко разделяются на части, идеальные для строительства."  #Машинный перевод 28.10.23!
+  
+ weather_negative_magic_modifier: "Магическое опустошение"  #Машинный перевод 28.10.23!
+ weather_negative_magic_modifier_desc: "Эта земля испытывает экстремальные погодные условия: из ясного неба появляются молнии, а из прерывистых облаков льется кипящий дождь."  #Машинный перевод 28.10.23!
+ weather_negative_fire_magic_modifier: "Выжженные земли"  #Машинный перевод 28.10.23!
+ weather_negative_fire_magic_modifier_desc: "Эти земли были опалены пламенем тайного происхождения, в результате чего земля почернела и растрескалась от жара пожара."  #Машинный перевод 28.10.23!
+  
+ magic_fallout_modifier: "Волшебный осадок"  #Машинный перевод 28.10.23!
+ magic_fallout_modifier_desc: "Какое-то прошлое бедствие оставило эту область с высокой степенью окружающего [magic|E], вызвав пагубные последствия для местной мирской жизни (если таковая еще сохранилась)."  #Машинный перевод 28.10.23!
+  
+ magic_shattered_defenses_modifier: "Разрушенная защита"  #Машинный перевод 28.10.23!
+ magic_shattered_defenses_modifier_desc: "Защита этого владения была разрушена мощным заклинанием."  #Машинный перевод 28.10.23!
+ magic_ruined_agriculture_modifier: "Испорченный урожай"  #Машинный перевод 28.10.23!
+ magic_ruined_agriculture_modifier_desc: "Магия отравила эту землю, уничтожив ее посевы и не давая возможности вырасти новой жизни."  #Машинный перевод 28.10.23!
+ magic_destroyed_buildings_modifier: "Городское опустошение"  #Машинный перевод 28.10.23!
+ magic_destroyed_buildings_modifier_desc: "Сама земля была разорвана на части бедствием, порожденным магией. Эти жители этой земли практически уничтожены, и немногие выжившие просто ждут сладкого освобождения смерти."  #Машинный перевод 28.10.23!
+  
+ magic_fogswept_modifier: "Недавно"  #Машинный перевод 28.10.23!
+ magic_fogswept_modifier_desc: "Эта область была захвачена [fog|E] посредством мощной магии, но со временем она исчезнет."  #Машинный перевод 28.10.23!
+  
+ magic_stress_gain_mult_modifier: "Ослабленная психика"  #Машинный перевод 28.10.23!
+ magic_stress_gain_mult_modifier_desc: "Этот персонаж становится более восприимчивым к стрессу с помощью тайных средств."  #Машинный перевод 28.10.23!
+ diplomacy_magic_modifier_seduction_negative: "Соблазнительная неумелость"  #Машинный перевод 28.10.23!
+ diplomacy_magic_modifier_seduction_negative_desc: "Дает временное снижение соблазнения [scheme_success_chance|E] и [attraction|E] [opinion|E]."  #Машинный перевод 28.10.23!
+  
+ magic_significantly_drained_modifier: "Магически истощенный"  #Машинный перевод 28.10.23!
+ magic_significantly_drained_modifier_desc: "Этот персонаж пожертвовал значительной частью себя в магическом ритуале, и в результате теперь он напоминает бледную тень своего прежнего «я»."  #Машинный перевод 28.10.23!
+  
+  # MAA improvements 
+  
+ magic_undead_improvement_modifier: "Улучшенная нежить"  #Машинный перевод 28.10.23!
+  
+ magic_constructs_improvement_modifier: "Улучшенные конструкции"  #Машинный перевод 28.10.23!
+  
+ magic_monsters_improvement_modifier: "Улучшенные монстры"  #Машинный перевод 28.10.23!
+  
+  # Resource Modifiers (Move this elsewhere later) 
+ resource_exotic_metals_modifier: "Экзотические металлы"  #Машинный перевод 28.10.23!
+ resource_exotic_metals_modifier_desc: "То ли из-за [magic|E], то ли из-за природы, в этой области имеются значительные залежи экзотических металлов."  #Машинный перевод 28.10.23!
+  
+ resource_abundant_stone_modifier: "Обильный камень"  #Машинный перевод 28.10.23!
+ resource_abundant_stone_modifier_desc: "То ли из-за [magic|E], то ли из-за природы, в этой местности много высококачественного камня."  #Машинный перевод 28.10.23!
+  
+ resource_excellent_soil_modifier: "Отличная почва"  #Машинный перевод 28.10.23!
+ resource_excellent_soil_modifier_desc: "Будь то [magic|E] или природа, почва в этой местности действительно превосходна для сельского хозяйства."  #Машинный перевод 28.10.23!
+  
+ resource_verdant_plant_growth_modifier: "Зеленый рост растений"  #Машинный перевод 28.10.23!
+ resource_verdant_plant_growth_modifier_desc: "Будь то [magic|E] или природа, растительная жизнь в этой области растет с поистине необычайной скоростью."  #Машинный перевод 28.10.23!
+  
+  # Travel-Related Modifiers 
+ travel_advantage_magic_modifier: "Быстроногий"  #Машинный перевод 28.10.23!
+ travel_advantage_magic_modifier_desc: "Этот персонаж способен преодолевать огромные расстояния в рекордно короткие сроки."  #Машинный перевод 28.10.23!
+  
+ travel_disadvantage_magic_modifier: "Замедлено"  #Машинный перевод 28.10.23!
+ travel_disadvantage_magic_modifier_desc: "Этому персонажу мешают путешествовать магическими средствами."  #Машинный перевод 28.10.23!
+  
+  ############ 
+  # TOOLTIPS # 
+  ############ 
+  
+ spell_backfire_tt: "Заклинание дает обратный эффект!"  #Машинный перевод 28.10.23!
+ ritual_sacrifice_crime_warning_tooltip: "@warning_icon! #X Человеческое жертвоприношение рассматривается вашим [faith] как [crime], рассмотрите возможность проведения ритуала тайно.#!"  #Машинный перевод 28.10.23!
+ bonecraft_artifact_cost_tooltip: "@warning_icon! #X Этот [artifact] будет использован в ходе этого ритуала.#!"  #Машинный перевод 28.10.23!
+  
+ magic_decrease_physical_wounds_tooltip.tt: "Лечит раны и другие физические повреждения в зависимости от уровня Крови #E Аспекта#!."  #Машинный перевод 28.10.23!
+ fire_cleansing_tooltip.tt: "Может вылечить оспу и другие нечистые недуги в зависимости от уровня Огня #E Аспекта#!."  #Машинный перевод 28.10.23!
+  
+ can_wound_county_characters.tt: "Может ранить или убить персонажей в цели [county|E]."  #Машинный перевод 28.10.23!
+ can_wound_neighbouring_county_characters.tt: "Может ранить или убить персонажей в графствах, соседних с [county|E]."  #Машинный перевод 28.10.23!
+  
+ summon_natural_creature_mount.tt: "Призывает естественное существо, которое будет служить вам #E ездовым животным#! [artifact|E]"  #Машинный перевод 28.10.23!
+  
+ summon_natural_creature_familiar.tt: "Призывает природное существо, которое будет служить вам #E Фамилиаром#!"  #Машинный перевод 28.10.23!
+  
+ required_spell_components_not_fulfilled_tooltip: "#X Требуемые компоненты заклинания не выполнены#!"  #Машинный перевод 28.10.23!
+ requires_dead_parent_tooltip: "#X У цели должен быть хотя бы один умерший родитель#!"  #Машинный перевод 28.10.23!
+ requires_target_pregnant_tooltip: "#X Цель должна быть беременна#!"  #Машинный перевод 28.10.23!
+  
+ inter_in_ice_tooltip: "[inter_in_ice_prisoner_scope.GetFirstName] превращается в [Concept('court_artifact','ice sculpture')|E]."  #Машинный перевод 28.10.23!
+  
+ generated_magic_from_current_moon_phase.tooltip: "#X Вы уже получили магическую силу из этой #! #E Фаза Луны#!"  #Машинный перевод 28.10.23!
+ will_give_stats_on_birth_tooltip: "Любые родившиеся дети вырастут [skills|E]"  #Машинный перевод 28.10.23!
+ will_give_strong_on_birth_tooltip: "Все рожденные дети получают [GetTrait('strong').GetName(GetNullCharacter)]"  #Машинный перевод 28.10.23!
+ will_give_shrewd_on_birth_tooltip: "Все рожденные дети получают [GetTrait('shrewd').GetName(GetNullCharacter)]"  #Машинный перевод 28.10.23!
+ magic_will_die_with_children_tooltip: "Она умрет вместе со своим ребенком"  #Машинный перевод 28.10.23!
+  
+  ############### 
+  # TRIGGER LOC # 
+  ############### 
+  
+ HAS_MAGIC_COUNTER_TRIGGER: "Достаточно @magic_icon!Магии"  #Машинный перевод 28.10.23!
+ NOT_HAS_MAGIC_COUNTER_TRIGGER: "Не хватает @magic_icon!Магии"  #Машинный перевод 28.10.23!
+ I_HAVE_MAGIC_COUNTER_TRIGGER: "С тебя хватит @magic_icon!Магии"  #Машинный перевод 28.10.23!
+ #NOT_I_HAVE_MAGIC_COUNTER_TRIGGER: "У вас есть #bold, а не #!, @magic_icon!$VALUE|V0$"  #Машинный перевод 28.10.23!
+ NOT_I_HAVE_MAGIC_COUNTER_TRIGGER: "Тебе достаточно #bold, а не#! @magic_icon!Магия"  #Машинный перевод 28.10.23!
+ THEY_HAVE_MAGIC_COUNTER_TRIGGER: "[CHARACTER.GetShortUIName|V] достаточно @magic_icon!Магия"  #Машинный перевод 28.10.23!
+ NOT_THEY_HAVE_MAGIC_COUNTER_TRIGGER: "[CHARACTER.GetShortUIName|V] достаточно ли #bold или #! @magic_icon!Magic"  #Машинный перевод 28.10.23!
+  
+  ################ 
+  # MISC EFFECTS # 
+  ################ 
+  
+ set_stacking_modifier_to_level_character_effect_tooltip: "[THIS.Char.GetName] получает [GetModifier(SCOPE.GetFlagName('modifier')).GetNameWithTooltip] до уровня [SCOPE.GetValue('level')] на [SCOPE.GetValue('years')] года."  #Машинный перевод 28.10.23!
+ set_stacking_modifier_to_level_permanently_character_effect_tooltip: "[THIS.Char.GetName] навсегда получает [GetModifier(SCOPE.GetFlagName('modifier')).GetNameWithTooltip] до уровня [SCOPE.GetValue('level')]."  #Машинный перевод 28.10.23!
+ set_stacking_modifier_to_level_county_effect_tooltip: "[THIS.GetLandedTitle.GetName] получает [GetModifier(SCOPE.GetFlagName('modifier')).GetNameWithTooltip] до уровня [SCOPE.GetValue('level')] на [SCOPE.GetValue('years')] года."  #Машинный перевод 28.10.23!
+ set_stacking_modifier_to_level_permanently_county_effect_tooltip: "[THIS.GetLandedTitle.GetName] навсегда получает [GetModifier(SCOPE.GetFlagName('modifier')).GetNameWithTooltip] до уровня [SCOPE.GetValue('level')]."  #Машинный перевод 28.10.23!
+ set_stacking_modifier_to_level_province_effect_tooltip: "[THIS.Province.GetName] получает [GetModifier(SCOPE.GetFlagName('modifier')).GetNameWithTooltip] до уровня [SCOPE.GetValue('level')] на [SCOPE.GetValue('years')] года."  #Машинный перевод 28.10.23!
+ set_stacking_modifier_to_level_permanently_province_effect_tooltip: "[THIS.Province.GetName] навсегда получает [GetModifier(SCOPE.GetFlagName('modifier')).GetNameWithTooltip] до уровня [SCOPE.GetValue('level')]."  #Машинный перевод 28.10.23!
+ upgrade_stacking_modifier_by_level_character_effect_tooltip: "[THIS.Char.GetName] увеличивает уровень [GetModifier(SCOPE.GetFlagName('modifier')).GetNameWithTooltip] на [SCOPE.GetValue('level')] на [SCOPE.GetValue('years')] года."  #Машинный перевод 28.10.23!
+ upgrade_stacking_modifier_by_level_permanently_character_effect_tooltip: "[THIS.Char.GetName] навсегда повышает уровень [GetModifier(SCOPE.GetFlagName('modifier')).GetNameWithTooltip] на [SCOPE.GetValue('level')]."  #Машинный перевод 28.10.23!
+ upgrade_stacking_modifier_by_level_county_effect_tooltip: "[THIS.GetLandedTitle.GetName] увеличивает уровень [GetModifier(SCOPE.GetFlagName('modifier')).GetNameWithTooltip] на [SCOPE.GetValue('level')] на [SCOPE.GetValue('years')] года."  #Машинный перевод 28.10.23!
+ upgrade_stacking_modifier_by_level_permanently_county_effect_tooltip: "[THIS.GetLandedTitle.GetName] навсегда повышает уровень [GetModifier(SCOPE.GetFlagName('modifier')).GetNameWithTooltip] на [SCOPE.GetValue('level')]."  #Машинный перевод 28.10.23!
+ upgrade_stacking_modifier_by_level_province_effect_tooltip: "[THIS.Province.GetName] увеличивает уровень [GetModifier(SCOPE.GetFlagName('modifier')).GetNameWithTooltip] на [SCOPE.GetValue('level')] на [SCOPE.GetValue('years')] года."  #Машинный перевод 28.10.23!
+ upgrade_stacking_modifier_by_level_permanently_province_effect_tooltip: "[THIS.Province.GetName] навсегда повышает уровень [GetModifier(SCOPE.GetFlagName('modifier')).GetNameWithTooltip] на [SCOPE.GetValue('level')]."  #Машинный перевод 28.10.23!
+ spawn_army_with_maa_tooltip: "Эта армия будет состоять из [GetMaA(SCOPE.GetFlagName('maa')).GetName]."  #Машинный перевод 28.10.23!
+ learn_spell_effect_tooltip: "[THIS.Char.GetName] изучает #underline [spell_to_learn_scope.Custom('SpellName')]#! [ritual|E]."  #Машинный перевод 28.10.23!
+ aspect_display_bulletpoint_tooltip: "[Localize(Concatenate('$',Concatenate(SCOPE.GetFlagName('aspect_name'), '_coloring$')))] [Localize(Concatenate('$',Concatenate(SCOPE.GetFlagName('aspect_name'), '_name$')))]: [THIS.ScriptValue(Concatenate(SCOPE.GetFlagName('aspect_name'), '_aspect_spellcasting_value'))|0]#!"  #Машинный перевод 28.10.23!
+ successful_magic_resistance_tooltip: "Успешно противостоит [ritual|E]"  #Машинный перевод 28.10.23!
+  
+  ################# 
+  # NOTIFICATIONS # 
+  ################# 
+  
+ learned_spell_notification.title: "[ritual|E] Изучено"  #Машинный перевод 28.10.23!
+ learned_spell_notification.desc: "Я научился произносить #underline [spell_to_learn_scope.Custom('SpellName')]#!"  #Машинный перевод 28.10.23!
+ learned_spell_notification_relation.desc: "[spell_learner.GetFirstName] научился произносить #underline [spell_to_learn_scope.Custom('SpellName')]#!"  #Машинный перевод 28.10.23!
+ learned_magic_school_notification.title: "[magic_type|E] Изучено"  #Машинный перевод 28.10.23!
+ learned_magic_school_notification.desc: "Я изучил основы #underline [Localize(Concatenate(learned_magic_school_scope.MakeScope.Var('unique_magic_school_identifier').GetFlagName, '_name'))]#!"  #Машинный перевод 28.10.23!
+ learned_magic_school_notification_relation.desc: "[magic_school_learner.GetFirstName], изучил основы #underline [Localize(Concatenate(learned_magic_school_scope.MakeScope.Var('unique_magic_school_identifier').GetFlagName, '_name'))]"  #Машинный перевод 28.10.23!
+  
+  ##################### 
+  # OPINION MODIFIERS # 
+  ##################### 
+  
+ casted_unwanted_magic_close_family_crime: "Наложить враждебную магию на члена семьи"  #Машинный перевод 28.10.23!
+ casted_unwanted_magic_me_crime: "Наложил на меня враждебную магию"  #Машинный перевод 28.10.23!
+ casted_unwanted_magic_someone_close_to_me_crime: "Наложить враждебную магию на близкого мне человека"  #Машинный перевод 28.10.23!
+ scheme_arcana_theory_modifier: "[GetPerk('arcana_erudition_perk1_tree3').GetName(GetPlayer)] [perk|E]"  #Машинный перевод 28.10.23!
+ scheme_arcana_erudition_perk8: "[GetPerk('arcana_erudition_perk5_tree3').GetName(GetPlayer)] [perk|E]"  #Машинный перевод 28.10.23!
+  
+  #################### 
+  # TERRAIN OVERRIDE # 
+  #################### 
+  
+ desert_terrain_override: "пустыня"  #Машинный перевод 28.10.23!
+ desert_mountains_terrain_override: "пустыни_горы"  #Машинный перевод 28.10.23!
+  
+  ########### 
+  # GUI LOC # 
+  ########### 
+  
+ SPELL_EFFECT_EFFECT_BULLETPOINT: "$EFFECT_LIST_BULLET$ #BOL [Localize(Concatenate(Scope.Var('spell_tag_name').GetFlagName, '_name'))]#!: #low [Localize(Concatenate(Scope.Var('spell_tag_name').GetFlagName, '_desc'))]#!"  #Машинный перевод 28.10.23!
+ ASSIGN_SPELL_COMPONENT: "Назначить компонент заклинания"  #Машинный перевод 28.10.23!
+ GENERATION: "Поколение"  #Машинный перевод 28.10.23!
+ SPELLS: "Заклинания"  #Машинный перевод 28.10.23!
+ PER_LEVEL: "за уровень"  #Машинный перевод 28.10.23!
+ ENERGY: "Энергия"  #Машинный перевод 28.10.23!
+ POSITIVE_RITUAL: "#positive_value Не буду считать это [hostile_ritual] и не буду пытаться этому сопротивляться#!"  #Машинный перевод 28.10.23!
+ HOSTILE_RITUAL: "@warning_icon! #X Считаю это [hostile_ritual]#!"  #Машинный перевод 28.10.23!
+ CONSUMED: "@warning_icon! #X Израсходовано#!"  #Машинный перевод 28.10.23!
+ DETAILS_TAB_SPELLS: "Заклинания"  #Машинный перевод 28.10.23!
+ exposure_decay_value: "Распад экспозиции"  #Машинный перевод 28.10.23!
+ exposure_decay_value_desc: "Наивысшее из следующих двух значений: 150% вашей ежемесячной регенерации магии или 10% вашей подверженности заклинаниям."  #Машинный перевод 28.10.23!
+  
+ AMBIENT_MAGIC: "[ambient_magic|E]:"  #Машинный перевод 28.10.23!
+ AMBIENT_MAGIC_TOOLTIP: "#T Ambient Magic#![HoldingView.GetCountyTitle.MakeScope.GetScriptValueDesc('total_ambient_magic_value')|0]\n\nDecays по [HoldingView.GetCountyTitle.MakeScope.ScriptValue('arcane_fallout_decay_value')|1] каждые 10 лет из-за следующих факторов:\n[HoldingView.GetCountyTitle.MakeScope.GetScriptValueDesc('arcane_fallout_decay_value')]"  #Машинный перевод 28.10.23!
+  
+ HOSTILE_SPELL_DISCOVERY_TOOLTIP: "#T Шанс обнаружения#!\n[GuiScope.SetRoot(GetPlayer.MakeScope.Var('selected_spell').Story.MakeScope).AddScope('caster', GetPlayer.MakeScope).AddScope('spell_organizer', GetPlayer.MakeScope).AddScope('spell_defender', Character.MakeScope).GetScriptValueDesc('spellcasting_discovery_chance_value')]"  #Машинный перевод 28.10.23!
+ SPELL_GOLD_COST_TOOLTIP: "#T Стоимость золота#!\n[GetPlayer.MakeScope.Var('selected_spell').GetScriptValueDesc('total_spell_gold_cost')|V0]\n\n#help Большая часть [rituals|E] стоит [gold|E]. Вы можете разблокировать [perks|E] и получить [modifiers|E], чтобы снизить стоимость. #!\n\n#weak Ритуальные ножи, сверкающие драгоценные камни и всевидящие амулеты; в большинстве сказок не говорится о том, насколько дорого может стоить быть [magi|E].#!"  #Машинный перевод 28.10.23!
+ SPELL_MAGIC_COST_TOOLTIP: "#T [magic|E] Стоимость#!"  #Машинный перевод 28.10.23!
+ SPELL_SUCCESS_CHANCE_TOOLTIP: "#T Шанс успеха#!\n[GuiScope.SetRoot(Story.MakeScope).AddScope('caster', GetPlayer.MakeScope).AddScope('spell_organizer', GetPlayer.MakeScope).AddScope('spell_preparation_story_cycle_scope', GetPlayer.MakeScope.Var('spell_preparation_story_cycle').Story.MakeScope).GetScriptValueDesc('spell_success_chance') ]"  #Машинный перевод 28.10.23!
+  
+  # Value Breakdown 
+ CHARACTER_MAGIC_BASELINE_TOOLTIP: "#T [magic_baseline|E]#!\n[GetPlayer.MakeScope.GetScriptValueDesc('character_magic_baseline_value')|0]"  #Машинный перевод 28.10.23!
+ CHARACTER_EXTENDED_MAGIC_BASELINE_TOOLTIP: "#T [extended_magic_baseline|E]#!\n[GetPlayer.MakeScope.GetScriptValueDesc('character_extended_magic_baseline_value')|0]"  #Машинный перевод 28.10.23!
+ CHARACTER_MAGIC_REGENERATION_TOOLTIP: "#T [mana_regeneration|E]#!\n[GetPlayer.MakeScope.GetScriptValueDesc('character_mana_regeneration_ratio_percentage_value')|0]"  #Машинный перевод 28.10.23!
+ CHARACTER_EXPOSURE_TOOLTIP: "#T [magic_exposure|E]#!\n[GetPlayer.MakeScope.GetScriptValueDesc('exposure_total_value')|0]"  #Машинный перевод 28.10.23!
+ CHARACTER_UNCAP_MAGIC_TOOLTIP: "#T Снятие ограничений с генерации магии#!\n#flavor Снятие ограничения с генерации [magic|E] позволит персонажу сохранить магию выше [magic_baseline|E], как за счет пассивного усиления их [extended_magic_baseline|E], так и за счет активных мер, таких как некоторые #E Ритуалы#!.. Однако это также означает, что они будут получать все большее количество [exposure_sickness|E] по мере того, как превысят свои естественные пределы."  #Машинный перевод 28.10.23!
+ SPELLCASTING_ABILITY_TOOLTIP: "#T;E Способность колдовства#!\n[Character.MakeScope.GetScriptValueDesc('spellcasting_value')|0]"  #Машинный перевод 28.10.23!
+ ASPECT_CASTING_GRID_TOOLTIP: "#T Aspect#!\n[GuiScope.SetRoot(Story.MakeScope).AddScope('spell_preparation_story_cycle_scope', GetPlayer.MakeScope.Var('spell_preparation_story_cycle').Story.MakeScope).AddScope('spell_organizer', GetPlayer.MakeScope).GetScriptValueDesc(Concatenate(Scope.GetFlagName, '_aspect_total_spell_level_value'))]\n\n #help Увеличьте или уменьшите свою потенциальную силу с помощью [aspects|E] выбранного [ritual|E].#!."  #Машинный перевод 28.10.23!
+  
+ ARCANA_SKILL_TOOLTIP: "#T [arcana|E]: $ARCANA_SKILL_AND_LEVEL_VALUE$#!\n$ARCANA_VALUE_BREAKDOWN$\n\n#S Эффекты:#!\nIncreased [artifact|E] Качество и богатство\nУвеличенная вероятность того, что [artifacts|E] окажется #E магически наполненным#!"  #Машинный перевод 28.10.23!
+  
+ ARCANA_SKILL_AND_LEVEL_VALUE: "$ARCANA_SKILL$ $ARCANA_LEVEL$"  #Машинный перевод 28.10.23!
+ ARCANA_SKILL: "#V [Character.MakeScope.ScriptValue('character_arcana_baseline_value')|0] #!"  #Машинный перевод 28.10.23!
+ ARCANA_LEVEL: "#weak ([Character.Custom('arcana_skill_level')|U]) #!"  #Машинный перевод 28.10.23!
+  
+ ARCANA_VALUE_BREAKDOWN: "[Character.MakeScope.GetScriptValueDesc('character_arcana_baseline_value')|0]"  #Машинный перевод 28.10.23!
+  
+ MAGIC_RESISTANCE_TOOLTIP: "#T;E Сопротивление магии#!\n[Character.MakeScope.GetScriptValueDesc('magic_resistance_value')|]"  #Машинный перевод 28.10.23!
+ COURT_MAGI: "[court_magi|E]"  #Машинный перевод 28.10.23!
+ NO_COURT_MAGI: "@warning_icon! #X У вас нет [court_magi|E] #!"  #Машинный перевод 28.10.23!
+ MAGIC_HEADER: "[magic|E]:"  #Машинный перевод 28.10.23!
+ MAGIC_SCHOOL_DESCRIPTION_TOOLTIP: "#T;E [Localize(Concatenate(Character.MakeScope.Var('primary_magic_school').Var('unique_magic_school_identifier').GetFlagName, '_name'))]#!\n$MAGIC_SCHOOL_DESCRIPTION_NO_HEADER$"  #Машинный перевод 28.10.23!
+ MAGIC_SCHOOL_DESCRIPTION_NO_HEADER: "[Localize(Concatenate(Character.MakeScope.Var('primary_magic_school').Var('unique_magic_school_identifier').GetFlagName, '_desc'))]"  #Машинный перевод 28.10.23!
+  
+ ARCANA_VALUE_FORMAT: "$KEY$: @skill_arcana_icon!$VALUE|=+0$"  #Машинный перевод 28.10.23!
+ SPELL_GOLD_COST_VALUE_FORMAT: "$KEY$: @gold_icon!$VALUE|=+0$"  #Машинный перевод 28.10.23!
+ ASPECT_VALUE_FORMAT: "$KEY$: $VALUE|=+0$"  #Машинный перевод 28.10.23!
+  
+ MAGIC_SCHOOL_COOLTIP_CLICK: "#I Нажмите, чтобы просмотреть [Localize(Concatenate(Character.MakeScope.Var('primary_magic_school').Var('unique_magic_school_identifier').GetFlagName, '_name'))]#!"  #Машинный перевод 28.10.23!

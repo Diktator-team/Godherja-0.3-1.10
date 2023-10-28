@@ -1,0 +1,53 @@
+﻿l_russian:
+  
+ game_concept_rite_wars_south_struggle: "Южные обрядовые войны"  #Машинный перевод 28.10.23!
+ game_concept_rite_wars_south_struggle_desc: "$game_concept_rite_wars_south_struggle$ изображает конфликты и расколы Сялволки, живущих в Опакасии, после смерти Сенвара-Разрушителя ведьм. Рожденный в результате великой миграции на Расколотый берег, [struggle|E] переключается между [struggle_phase_phases|E] насилия, осторожного перемирия и прагматического сотрудничества. Постоянных союзников немного, и [rulers|E] следует опасаться полагаться исключительно на общие [faith|E] или [culture|E]."  #Машинный перевод 28.10.23!
+  
+ game_concept_rite_wars_south: "Южные обрядовые войны"  #Машинный перевод 28.10.23!
+ game_concept_rite_wars_south_desc: "$game_concept_rite_wars_south_struggle$ изображает конфликты и расколы Сялволки, живущих в Опакасии, после смерти Сенвара-Разрушителя ведьм. Рожденный в результате великой миграции на Расколотый берег, [struggle|E] переключается между [struggle_phase_phases|E] насилия, осторожного перемирия и прагматического сотрудничества. Постоянных союзников немного, и [rulers|E] следует опасаться полагаться исключительно на общие [faith|E] или [culture|E]."  #Машинный перевод 28.10.23!
+  
+ game_concept_struggle_phase_rite_wars_south_opportunity: "Фаза возможностей"  #Машинный перевод 28.10.23!
+ game_concept_struggle_phase_rite_wars_south_opportunity_desc: "После длительного периода относительно мирного сосуществования в [struggle_phase_rite_wars_south_conciliation|E] начинает наступать самоуспокоенность. И крестьянство, и дворянство одинаково довольны тем, что вещи, просто #EMP, работают#!,, позволяя более проницательным [characters|E] воспользоваться их наивностью.\n\nВ конце концов, новые злоупотребления либо приведут к эскалации ситуации в [struggle_phase_rite_wars_south_hostility|E], либо хитрая политиканство достигнет непростого равновесия в [struggle_phase_rite_wars_south_conciliation|E]."  #Машинный перевод 28.10.23!
+  
+ game_concept_struggle_phase_rite_wars_south_hostility: "Фаза враждебности"  #Машинный перевод 28.10.23!
+ game_concept_struggle_phase_rite_wars_south_hostility_desc: "В этом $game_concept_struggle_phase_phase$ нарастает напряжение и накал страстей. Повторяющиеся злонамеренные действия и обострение недопонимания во время [struggle_phase_rite_wars_south_opportunity|E] привели к росту ненависти к [characters|E], отличающемуся от [cultures|E], [faiths|E] или #EMP, хуже #!:.\n\nОднако такое кровопролитие не может продолжаться вечно. В конце концов, либо хладнокровие, либо простое утомление приводят полуостров к [struggle_phase_rite_wars_south_compromise|E]."  #Машинный перевод 28.10.23!
+  
+ game_concept_struggle_phase_rite_wars_south_compromise: "Фаза компромисса"  #Машинный перевод 28.10.23!
+ game_concept_struggle_phase_rite_wars_south_compromise_desc: "Будь то болезнь, вызванная раздорами [struggle_phase_rite_wars_south_hostility|E], или ловкая эскалация во время [struggle_phase_rite_wars_south_conciliation|E], $game_concept_struggle_phase_rite_wars_south_compromise$ представляет собой растущее согласие между народами Опакасии. Разногласия отходят на второй план, а общая история и наследие связывают бывших врагов вместе.\n\nПолуостров стоит на перепутье: если конфликты возобновятся, то их ждет [struggle_phase_rite_wars_south_opportunity|E]."  #Машинный перевод 28.10.23!
+  
+ game_concept_struggle_phase_rite_wars_south_conciliation: "Фаза примирения"  #Машинный перевод 28.10.23!
+ game_concept_struggle_phase_rite_wars_south_conciliation_desc: "В результате примечательного [struggle_phase_rite_wars_south_compromise|E], в течение этого $game_concept_struggle_phase_phase$ отношения между народами Опакасии становятся настолько сердечными, что посторонним трудно понять их вседозволенность. Интер-[faith|E] [marriages|E] особенно распространены.\n\nОднако это не может продолжаться вечно, и злоупотребление доверием в конечном итоге вернет [rite_wars_south_struggle|E] обратно к [struggle_phase_rite_wars_south_compromise|E]."  #Машинный перевод 28.10.23!
+  
+ rite_wars_south_struggle: "Южные обрядовые войны"  #Машинный перевод 28.10.23!
+ rite_wars_south_struggle_desc: "$game_concept_rite_wars_south_struggle$"  #Машинный перевод 28.10.23!
+ struggle_rite_wars_south_phase_opportunity: "Возможность"  #Машинный перевод 28.10.23!
+ struggle_rite_wars_south_phase_opportunity_desc: "$game_concept_struggle_phase_rite_wars_south_opportunity_desc$"  #Машинный перевод 28.10.23!
+ struggle_rite_wars_south_phase_hostility: "Враждебность"  #Машинный перевод 28.10.23!
+ struggle_rite_wars_south_phase_hostility_desc: "$game_concept_struggle_phase_rite_wars_south_hostility_desc$"  #Машинный перевод 28.10.23!
+ #struggle_rite_wars_south_phase_tension: "Напряжение"  #Машинный перевод 28.10.23!
+ struggle_rite_wars_south_phase_compromise: "Компромисс"  #Машинный перевод 28.10.23!
+ struggle_rite_wars_south_phase_compromise_desc: "$game_concept_struggle_phase_rite_wars_south_compromise_desc$"  #Машинный перевод 28.10.23!
+ struggle_rite_wars_south_phase_conciliation: "Примирение"  #Машинный перевод 28.10.23!
+ struggle_rite_wars_south_phase_conciliation_desc: "$game_concept_struggle_phase_rite_wars_south_conciliation_desc$"  #Машинный перевод 28.10.23!
+  
+ controls_rite_wars_holy_sites_all: "Вы контролируете как минимум 5 [holy_sites|E]"  #Машинный перевод 28.10.23!
+ controls_rite_wars_holy_sites_one: "Вы контролируете как минимум 1 [holy_site|E]"  #Машинный перевод 28.10.23!
+ controls_rite_wars_holy_sites_some: "Вы контролируете как минимум 3 [holy_sites|E]"  #Машинный перевод 28.10.23!
+  
+ shatteredcoast_footholder_transfer_tt: "[THIS] [THIS.Title.GetName] [THIS.GetName]"  #Машинный перевод 28.10.23!
+  
+ gh_other_decisions.1000.t: "$secure_ritewars_foothold_decision_title$: [ritewars_footholder.GetPrimaryTitle.GetAdjectiveNoTooltip] Консолидация"  #Машинный перевод 28.10.23!
+ gh_other_decisions.1000.involved_religion: "Войны капризных княжеств Расколотого Берега почти поставили на колени королевства [ROOT.Char.GetFaith.GetReligion.GetAdjective] региона.\n\nБез нашего вмешательства верующие [ROOT.Char.GetFaith.HighGodNamePossessive] в конечном итоге были бы изгнаны с побережья властными неверными.\n\n"  #Машинный перевод 28.10.23!
+ gh_other_decisions.1000.desc: "Разделенные религии и народы Расколотого Берега предоставили нам прекрасную возможность, поскольку мы слишком заняты борьбой друг с другом, чтобы противостоять вторжению [ROOT.Char.GetFaith.GetReligion.GetAdjective] на побережье."  #Машинный перевод 28.10.23!
+ gh_other_decisions.1000.involved_faith: "Мы законные защитники [ROOT.Char.GetFaith.GetAdherentNamePlural] запада, находящегося теперь в безопасности под защитой [ROOT.Char.GetPrimaryTitle.GetDefinitiveName]."  #Машинный перевод 28.10.23!
+ gh_other_decisions.1000.uninvolved_faith: "Нам выпало принести свет [ROOT.Char.GetFaith.GetName]; в рамках [ROOT.Char.GetPrimaryTitle.GetDefinitiveName] эти земли снова станут процветающими и мирными."  #Машинный перевод 28.10.23!
+ gh_other_decisions.1000.closing: "\n\nСо временем они увидят, что время их ложных богов закончилось, и возрадуются тому, что [ROOT.Char.GetFaith.HighGodName] привел [ROOT.Char.GetPrimaryTitle.GetDefinitiveName] к спасению региона."  #Машинный перевод 28.10.23!
+ gh_other_decisions.1000.a: "На Расколотом Берегу требовалась новая кровь."  #Машинный перевод 28.10.23!
+  
+ gh_other_decisions.1001.involved_religion: "После столетий войны между Обрядами нашей борьбой воспользовались властные нарушители [ritewars_footholder.GetPrimaryTitle.GetAdjective].\n\n"  #Машинный перевод 28.10.23!
+ gh_other_decisions.1001.desc: "Из-за отвлечения внимания, зависти и небрежности мы, Шялволки, позволили нарушителям [ritewars_footholder.GetPrimaryTitle.GetAdjective] воспользоваться разделением нашей родины и вторгнуться в исторические королевства побережья."  #Машинный перевод 28.10.23!
+ gh_other_decisions.1001.involved_faith: "[ritewars_footholder.GetTitledFirstName] объявил [ritewars_footholder.GetHerselfHimself] законным лидером [ritewars_footholder.GetFaith.GetAdjectiveNoTooltip] побережья, используя победы [ritewars_footholder.GetHerHis] как доказательство легитимности [ritewars_footholder.GetHerHis] над больными королевствами [ritewars_footholder.GetFaith.GetReligion.GetAdjective] Расколотого Берега."  #Машинный перевод 28.10.23!
+ gh_other_decisions.1001.same_uninvolved_faith: "Они утверждают, что наши неудачи были [ROOT.Char.GetFaith.HighGodNamePossessive] наказанием за отклонение от праведного пути [ritewars_footholder.GetFaith.GetName], и что [ritewars_footholder.GetTitledFirstName] является законным лидером [ROOT.Char.GetFaith.GetReligion.GetAdjective] Расколотого Берега..."  #Машинный перевод 28.10.23!
+ gh_other_decisions.1001.uninvolved_faith: "Имея в качестве доказательства победы [ritewars_footholder.GetHerHis], [ritewars_footholder.GetTitledFirstName] провозгласил веру [ritewars_footholder.GetHerHis] [ritewars_footholder.GetFaith.GetAdjective] истинным путем [ritewars_footholder.GetFaith.GetReligion.GetAdjective]; тот, который объединит все побережье под [ritewars_footholder.GetFaith.HighGodName]."  #Машинный перевод 28.10.23!
+ gh_other_decisions.1001.closing: "\n\nПоскольку [ritewars_footholder.GetTitledFirstName] консолидирует владения [ritewars_footholder.GetHerHis], прошлые разногласия Сялволков и Аверсариев кажутся меркнущими по сравнению с этой оккупацией [ritewars_footholder.GetFaith.GetAdjective]..."  #Машинный перевод 28.10.23!
+ gh_other_decisions.1001.a: "Проклятые нарушители."  #Машинный перевод 28.10.23!
