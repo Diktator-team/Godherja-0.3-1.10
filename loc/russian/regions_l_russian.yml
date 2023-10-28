@@ -1,0 +1,47 @@
+﻿l_russian:
+ world_innovation_elephants: "Каширья или Северо-Восточный Саррадон"
+ world_innovation_camels: "Великая пустыня, побережье Сирвали, Хенемхат или Кемсар"
+  
+  #FP1 
+ dlc_fp1_region_core_north_sea: "Центральные земли Северного моря"
+ dlc_fp1_region_core_mainland_scandinavia: "Материковая Скандинавия"
+ dlc_fp1_region_non_scandinavian_southern_baltic: "Южное и восточное побережье Балтики"
+ dlc_fp1_achievement_far_from_home: "Острова Индийского океана"
+ dlc_fp1_achievement_king_of_all_the_isles: "Острова Атлантического океана и Средиземноморья"
+ dlc_fp1_achievement_vladimirs_second_choice: "Русь"
+  
+  #FP2 
+ dlc_fp2_old_vasconia: "Старая Васкония"
+ dlc_fp2_old_vasconia_pushed: "Старая Васкония"
+ dlc_fp2_dlc_fp2_caucasian_iberia: "Кавказская Иберия"
+  
+  #EP1 
+ dlc_ep1_achievement_rise_of_the_ghurids: "Исторический Гуридский султанат"
+  
+  # Seazones 
+ sea_atlantic_ocean: "Атлантический океан"
+ sea_north_atlantic: "Север Атлантического океана"
+ sea_baltic_sea: "Балтийское море"
+ #sea_north_sea: "the North Sea"
+ #sea_english_channel: "the English Channel"
+ sea_irish_sea: "Ирландское море"
+ sea_bay_of_biscay: "Бискайский залив"
+ sea_macaronesia: "Макаронезия"
+ sea_mediterranean_sea: "Средиземное море"
+ sea_western_mediterranean_sea: "Запад Средиземного моря"
+ sea_ionian_sea: "Ионическое море"
+ #sea_adriatic_sea: "the Adriatic Sea"
+ sea_aegean_sea: "Эгейское море"
+ sea_black_sea: "Черное море"
+ sea_south_atlantic: "Юг Атлантического океана"
+ sea_gulf_of_guinea: "Гвинейский залив"
+ sea_indian_ocean: "Индийский океан"
+ sea_bay_of_somalia: "Сомалийский залив"
+ #sea_red_sea: "the Red Sea"
+ sea_gulf_of_aden: "Аденский залив"
+ #sea_persian_gulf: "the Persian Gulf"
+ #sea_arabian_sea: "the Arabian Sea"
+ #sea_bay_of_bengal: "the Bay of Bengal"
+ sea_inland_steppe_seas: "Арало-Каспийские моря"
+ sea_caspian_sea: "Каспийское море"
+ sea_aral_sea: "Аральское море"
