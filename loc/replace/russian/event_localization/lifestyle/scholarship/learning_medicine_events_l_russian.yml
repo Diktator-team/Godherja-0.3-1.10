@@ -1,0 +1,7 @@
+﻿l_russian:
+  #A vassal (or your liege) wants to eat some chort while visiting your capital, by Ewan Cowhig Croft. 
+ learning_medicine.2110.desc_good_terms: ""Ах, [ROOT.Char.GetFirstNameNoTooltip]! Я надеялся, что наткнусь на вас. Пойдемте, я нашел прекраснейшую маленькую таверну совсем недалеко отсюда. Не могли бы вы присоединиться ко мне на какой-нибудь [ROOT.Char.Custom('GetExpensiveDrink')] с каплей чорт- вода?""
+ learning_medicine.2110.desc_bad_terms: "Напряжение в воздухе ощутимо, оба наших охранника рвутся в бой. «Мой сеньор», — щебечет нервный молодой солдат позади меня, — «может быть, мы все могли бы успокоиться под педалями аккордов в той маленькой таверне?»\n\nНа две наши группы наступает тишина, пока [hashish_vassal_or_liege.GetFirstNameNoTooltip] ждет моего ответа."
+ learning_medicine.2110.desc_neutral_terms: "Застигнутые врасплох, несколько мгновений неловкой тишины проходят, прежде чем [hashish_vassal_or_liege.GetFirstNamePossessiveNoTooltip] взгляд останавливается на чем-то позади меня.\n\n"Ах, мой [hashish_vassal_or_liege.Custom2('RelationToMe', ROOT.Char)], может быть, вы присоединитесь ко мне, чтобы забыть об этом из-за какого-нибудь [ROOT.Char.Custom('GetExpensiveDrink')] с всплеском хорт- вода?""
+ cosmic_insights_modifier_desc: "Долгая ночь потребления чорта действительно дала этому персонажу понимание природы реальности."
+ learning_medicine.2110.c.tt_success: "Чорт заставляет [hashish_vassal_or_liege.GetHerHim] говорить слишком свободно"

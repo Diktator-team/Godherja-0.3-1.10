@@ -1,0 +1,31 @@
+﻿l_russian:
+ # common 
+ st_davids_morsel: "Кусочек Уэйсент-Дэвиана"
+ # uncommon 
+ st_davids_taper: "Тонкий конус Waysaint Davian"
+ # Books 
+ feature_book_title_voynich: "$artifact_name_prefix_artifact_scope$ Оккультный кодекс"
+ # diplomacy 
+ feature_book_title_diplomacy_cicero: "$artifact_name_prefix_artifact_scope$ Цивинон"
+ feature_book_topic_diplomacy_cicero: "[Artifact.GetOwner.Custom('ArtifactAdverbWealth')] иллюминированное собрание речей Цивинона, древнего оратора из древней этепесской культуры Виликарикс. Несмотря на то, что его люди были очищены [aversaria|E], а Цивинон был случайно убит аверсарианскими солдатами, несмотря на приказы защищать его, Цивинон остается уважаемым и любимым писателем среди имперцев."
+ feature_book_title_diplomacy_hitopadesa: "$artifact_name_prefix_artifact_scope$ Дравиада"
+ feature_book_topic_diplomacy_hitopadesa: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U], [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] сборник свитков, содержащих собрание древних дравидийских басен, известных как Дравиада."
+ feature_book_title_diplomacy_kalila: "$artifact_name_prefix_artifact_scope$ Кандаха валра-Димна"
+ feature_book_topic_diplomacy_kalila: "Иллюминированная [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] рукопись, содержащая собрание ритуальных молитв малоизвестной секты ритуалистов, в основном во славу симурга, известного как Кандаха валра-Димна."
+ feature_book_title_diplomacy_edda: "$artifact_name_prefix_artifact_scope$ Вогра"
+ feature_book_topic_diplomacy_edda: "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] работа по сбору поэзии и традиционных знаний скальдов Сьялволки."
+ feature_book_title_diplomacy_orkneyinga: "$artifact_name_prefix_artifact_scope$ Замороженные саги"
+ feature_book_topic_diplomacy_orkneyinga: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] рукопись, подробно описывающая историю авантюристов Сьялволки, которые, как говорят, отправились на север дальше, чем любая другая живая душа тысячи лет назад, и замерзшее царство, которое они нашли в ужасающем разложении."
+  
+ # stewardship 
+ feature_book_title_stewardship_speculum: "$artifact_name_prefix_artifact_scope$ Katherethex go Praxkípaxos"
+ feature_book_title_stewardship_digest: "$artifact_name_prefix_artifact_scope$ Сто семь законов"
+ feature_book_topic_stewardship_digest: "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] копия «Сто семи законов святого Дикайноса об управлении и налогообложении юго-западных опахасских конюшен в отношении Диритийских соглашений и согласованных законов Горы-Солнца 4-го века IS», 6-е издание."
+  
+  # learning 
+ feature_book_title_learning_aristotle: "$artifact_name_prefix_artifact_scope$ Шесть мирских [magi|E]"
+ feature_book_topic_learning_aristotle: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] копия всемирно известных шести комедийных пьес древнего аверсарского философа Фетиксони'иникса, [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')] с разделом только для надлежащего костюмирования, чтобы передать модный юмор."
+  
+ # misc 
+ feature_book_topic_lunatic_lunatic: "правда, правда, ты знал, что однажды увидишь правду"
+ feature_book_topic_lunatic_voynich: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] замысловато детализированный и прекрасно написанный манускрипт, как будто написанный кровью, содержащий десятки страниц странных ритуалов и подробные записи на языке, который так и не был расшифрован, несмотря на бесконечные попытки [mayikprolollans|E]."

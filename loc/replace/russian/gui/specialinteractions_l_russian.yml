@@ -1,0 +1,6 @@
+﻿l_russian:
+ CONTRACT_LOW_TAXES_REASON: "Низкие дворянские обязательства: $VALUE|=+0$"
+ CONTRACT_HIGH_TAXES_REASON: "Высокие дворянские обязанности: $VALUE|=+0$"
+ high_obligations: "Высокий дворянин [obligations|E]"
+ normal_obligations: "Обычный дворянин [obligations|E]"
+ low_obligations: "Низкий дворянин [obligations|E]"
