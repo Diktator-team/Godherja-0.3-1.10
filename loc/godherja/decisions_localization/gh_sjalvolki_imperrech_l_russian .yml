@@ -1,0 +1,12 @@
+﻿l_russian:
+ gh_disband_the_imperrech_decision: "Расформировать Имперрех"  #Машинный перевод 28.10.23!
+ gh_disband_the_imperrech_decision_desc: "Миграция завершилась. Я разгромил остатки [aversaria|E] и заселил народы Имперреха на плодородных новых землях, свободных от угрозы [fog|E]. В Высоком Королевстве больше нет необходимости, и поэтому оно должно быть распущено, чтобы племена могли сами определять свою судьбу."  #Машинный перевод 28.10.23!
+ gh_disband_the_imperrech_decision_tooltip: "Я соберу вождей, чтобы объявить о конце Имперреха."  #Машинный перевод 28.10.23!
+ gh_disband_the_imperrech_decision_effect_tt: "Все не созданные де-юре королевства в вашем королевстве будут переданы самому могущественному правителю королевства."  #Машинный перевод 28.10.23!
+ gh_disband_the_imperrech_decision_effect2_tt: "Все королевства Империи получат всех своих вассалов де-юре."  #Машинный перевод 28.10.23!
+ gh_disband_the_imperrech_decision_effect3_tt: "Все ваши не-де-юре вассалы станут независимыми."  #Машинный перевод 28.10.23!
+ gh_disband_the_imperrech_decision_confirm: "Расформировать Имперрех"  #Машинный перевод 28.10.23!
+  
+ gh_disband_the_imperrech_must_be_liege_of_oraispol_desc: "Любой вассал владеет [GetTitleByKey('c_oraispol').GetNameNoTier]"  #Машинный перевод 28.10.23!
+ gh_disband_the_imperrech_must_be_liege_of_tinitida_desc: "Любой вассал владеет [GetTitleByKey('c_tinitida').GetNameNoTier]"  #Машинный перевод 28.10.23!
+ gh_disband_the_imperrech_must_be_liege_of_asiupoli_desc: "Любой вассал владеет [GetTitleByKey('c_asiupoli').GetNameNoTier]"  #Машинный перевод 28.10.23!

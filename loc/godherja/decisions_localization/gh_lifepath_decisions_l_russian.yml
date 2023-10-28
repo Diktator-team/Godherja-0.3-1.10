@@ -1,0 +1,7 @@
+﻿l_russian:
+ # return_raocourt_decision: "Возврат $c_arubosc$"  #Машинный перевод 28.10.23!
+ # return_raocourt_decision_tooltip: "Совет Раокура должен заседать в $c_arubosc$, ему должен быть возвращен титул."  #Машинный перевод 28.10.23!
+ # return_raocourt_decision_desc: "Совет Раокура был свергнут со своего места в $c_arubosc$. Мой священный долг как [ROOT.Char.GetFaith.GetReligion.GetAdherentNameNoTooltip|U] — вернуть это святейшее из мест законному владельцу."  #Машинный перевод 28.10.23!
+ # return_raocourt_decision_confirm: "Вернуть $c_arubosc"  #Машинный перевод 28.10.23!
+ # 
+ # # GH : Rewrite of the Return Rome decision needs this. 
