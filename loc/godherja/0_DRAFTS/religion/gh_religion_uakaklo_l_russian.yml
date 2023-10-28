@@ -1,0 +1,78 @@
+﻿l_russian:
+  
+ #uakaklo Loc 
+ uakaklo_religion: "Уакакло" #Машинный перевод 28.10.23
+ uakaklo_religion_adj: "Уакакло" #Машинный перевод 28.10.23
+ uakaklo_religion_adherent: "Уакаклохан" #Машинный перевод 28.10.23
+ uakaklo_religion_adherent_plural: "Уакаклоханс" #Машинный перевод 28.10.23
+ uakaklo_religion_desc: "Вера Уакаклохан — это сложная серия из тридцати богов и тридцати одного демона (Текотлакецуэтспаллок — относительно недавнее добавление), которая становится очень запутанной из-за веры в то, что боги могут иметь одинаковые имена, иметь несколько форм разного пола или вида и могут регулярно сливаться. или разделить. Однако больше всего они поклоняются [aervalr|E], который, как они утверждают, является глазом бога-создателя Тенсезе ​​(«Первого»), который породил всех остальных и отправил их в [aeras|E], в то время как их один глаз наблюдал за человечеством." #Машинный перевод 28.10.23
+ uakaklo_high_god_name: "напряженный" #Машинный перевод 28.10.23
+ uakaklo_high_god_name_possessive: "Тенсезе" #Машинный перевод 28.10.23
+ uakaklo_high_god_name_alternate: "Первый" #Машинный перевод 28.10.23
+ uakaklo_high_god_name_alternate_possessive: "Первый" #Машинный перевод 28.10.23
+ uakaklo_devil_name: "Текотлакецуетпаллок" #Машинный перевод 28.10.23
+ uakaklo_devil_name_possessive: "Текотлакецуетпаллок'с" #Машинный перевод 28.10.23
+ uakaklo_death_deity_name: "Малтекутла" #Машинный перевод 28.10.23
+ uakaklo_death_deity_name_possessive: "Мальтекутла" #Машинный перевод 28.10.23
+  
+ uakaklo_house_of_worship: "Текалл" #Машинный перевод 28.10.23
+ uakaklo_house_of_worship_plural: "Текалли" #Машинный перевод 28.10.23
+ uakaklo_religious_symbol: "Текалл из Тенсезе" #Машинный перевод 28.10.23
+ uakaklo_religious_text: "Сказки о шестидесяти" #Машинный перевод 28.10.23
+  
+ uakaklo_religious_head_title: "Кутак Тепиксик" #Машинный перевод 28.10.23
+ uakaklo_religious_head_title_name: "Кутакица Тепиксикон" #Машинный перевод 28.10.23
+ uakaklo_devotee_male: "Текатотль" #Машинный перевод 28.10.23
+ uakaklo_devotee_male_plural: "Текатотли" #Машинный перевод 28.10.23
+ uakaklo_devotee_female: "Текатотль" #Машинный перевод 28.10.23
+ uakaklo_devotee_female_plural: "Текатотли" #Машинный перевод 28.10.23
+ uakaklo_devotee_neuter: "Текатотль" #Машинный перевод 28.10.23
+ uakaklo_devotee_neuter_plural: "Текатотли" #Машинный перевод 28.10.23
+ uakaklo_priest_male: "Тепиксик" #Машинный перевод 28.10.23
+ uakaklo_priest_male_plural: "Тепиксики" #Машинный перевод 28.10.23
+ uakaklo_priest_female: "Тепиксик" #Машинный перевод 28.10.23
+ uakaklo_priest_female_plural: "Тепиксики" #Машинный перевод 28.10.23
+ uakaklo_priest_neuter: "Тепиксик" #Машинный перевод 28.10.23
+ uakaklo_priest_neuter_plural: "Тепиксики" #Машинный перевод 28.10.23
+ uakaklo_priest_alternate_plural: "Тепиксикизани" #Машинный перевод 28.10.23
+ uakaklo_bishop: "Икнотль" #Машинный перевод 28.10.23
+ uakaklo_bishop_plural: "Икнотли" #Машинный перевод 28.10.23
+ uakaklo_positive_afterlife: "Kuatlan" #Машинный перевод 28.10.23
+ uakaklo_negative_afterlife: "Тотоакуатлан" #Машинный перевод 28.10.23
+  
+ uakaklo_creator_god_name: "$uakaklo_high_god_name$" #Машинный перевод 28.10.23
+ uakaklo_creator_god_name_possessive: "$uakaklo_high_god_name_possessive$" #Машинный перевод 28.10.23
+ uakaklo_health_god_name: "Тлиёсолотль" #Машинный перевод 28.10.23
+ uakaklo_health_god_name_possessive: "Тлиёсолотля" #Машинный перевод 28.10.23
+ uakaklo_fertility_god_name: "Токикуа" #Машинный перевод 28.10.23
+ uakaklo_fertility_god_name_possessive: "Токикуа" #Машинный перевод 28.10.23
+ uakaklo_wealth_god_name: "Каликоммо" #Машинный перевод 28.10.23
+ uakaklo_wealth_god_name_possessive: "Каликоммо" #Машинный перевод 28.10.23
+ uakaklo_household_god_name: "Ктемица" #Машинный перевод 28.10.23
+ uakaklo_household_god_name_possessive: "Ктемицы" #Машинный перевод 28.10.23
+ uakaklo_fate_god_name: "$uakaklo_devil_name$" #Машинный перевод 28.10.23
+ uakaklo_fate_god_name_possessive: "$uakaklo_devil_name_possessive$" #Машинный перевод 28.10.23
+ uakaklo_knowledge_god_name: "Мохлах" #Машинный перевод 28.10.23
+ uakaklo_knowledge_god_name_possessive: "Мокслаха" #Машинный перевод 28.10.23
+ uakaklo_war_god_name: "Лаксемальтесс" #Машинный перевод 28.10.23
+ uakaklo_war_god_name_possessive: "Лаксемальтесс'" #Машинный перевод 28.10.23
+ uakaklo_trickster_god_name: "$uakaklo_devil_name$" #Машинный перевод 28.10.23
+ uakaklo_trickster_god_name_possessive: "$uakaklo_devil_name_possessive$" #Машинный перевод 28.10.23
+ uakaklo_night_god_name: "$uakaklo_high_god_name$" #Машинный перевод 28.10.23
+ uakaklo_night_god_name_possessive: "$uakaklo_high_god_name_possessive$" #Машинный перевод 28.10.23
+ uakaklo_water_god_name: "Чолокар" #Машинный перевод 28.10.23
+ uakaklo_water_god_name_possessive: "Чолокара" #Машинный перевод 28.10.23
+ uakaklo_witch_god_name: "$uakaklo_death_deity_name$" #Машинный перевод 28.10.23
+ uakaklo_witch_god_name_possessive: "$uakaklo_death_deity_name_possessive$" #Машинный перевод 28.10.23
+  
+ uakaklo: "Уакакло" #Машинный перевод 28.10.23
+ uakaklo_adj: "Уакакло" #Машинный перевод 28.10.23
+ uakaklo_adherent: "Уакаклохан" #Машинный перевод 28.10.23
+ uakaklo_adherent_plural: "Уакаклоханс" #Машинный перевод 28.10.23
+ uakaklo_desc: "Вера Уакаклохан — это сложная серия из тридцати богов и тридцати одного демона (Текотлакецуэтспаллок — относительно недавнее добавление), которая становится очень запутанной из-за веры в то, что боги могут иметь одинаковые имена, иметь несколько форм разного пола или вида и могут регулярно сливаться. или разделить. Однако больше всего они поклоняются [aervalr|E], который, как они утверждают, является глазом бога-создателя Тенсезе ​​(«Первого»), который породил всех остальных и отправил их в [aeras|E], в то время как их один глаз наблюдал за человечеством." #Машинный перевод 28.10.23
+  
+ mitikaka: "Митикака Токоллатица" #Машинный перевод 28.10.23
+ mitikaka_adj: "Митикака Токоллатизан" #Машинный перевод 28.10.23
+ mitikaka_adherent: "Митикака Токоллатизан" #Машинный перевод 28.10.23
+ mitikaka_adherent_plural: "Митикака Токоллатитцанс" #Машинный перевод 28.10.23
+ mitikaka_desc: "Несмотря на то, что практика жертвоприношений всегда была способом гарантировать, что Тенсезе ​​никогда не останется одиноким, несмотря на то, что его дети уходят, и уакаклоханцы верят, что жертвоприношения желающих и подготовленных позволят их душам присоединиться к своему богу на небесах, чтобы составить им компанию в их одиноком бдении. , [frodbrokna|E] и огромный ущерб, нанесенный [aervalr|E], были восприняты митикака-токоллатитцами как апокалиптические. Смерть большинства [magi|E]-королей Уакаклоханов и их народов еще больше усилила это, и митикака Токоллатицаны начали признавать, что окончательная смерть их народа является неизбежной, теперь, когда у них отнят даже их главный бог." #Машинный перевод 28.10.23

@@ -1,0 +1,72 @@
+﻿l_russian:
+  
+ nolosaanyo_religion: "Нолосааньо" #Машинный перевод 28.10.23
+ nolosaanyo_religion_adj: "Нолосааньо" #Машинный перевод 28.10.23
+ nolosaanyo_religion_adherent: "Нолосааньо" #Машинный перевод 28.10.23
+ nolosaanyo_religion_adherent_plural: "Нолосааньо" #Машинный перевод 28.10.23
+ nolosaanyo_religion_desc: "Нолосааньо верят в святость и сохранение жизни, чтобы она могла прибывать и отбываться вместе с приливами мира. Единственное время года, когда верующие едят мясо, — это сезонные праздники, которые определяют духовный цикл Нолосааньо. Нередко самые набожные последователи дают обет пацифизма, навсегда отказываясь от насилия, даже перед лицом смерти." #Машинный перевод 28.10.23
+ nolosaanyo_high_god_name: "Мама" #Машинный перевод 28.10.23
+ nolosaanyo_high_god_name_possessive: "Мама'" #Машинный перевод 28.10.23
+ nolosaanyo_high_god_name_alternate: "Мировой прилив" #Машинный перевод 28.10.23
+ nolosaanyo_high_god_name_alternate_possessive: "Мировой прилив" #Машинный перевод 28.10.23
+ nolosaanyo_devil_name: "Мама" #Машинный перевод 28.10.23
+ nolosaanyo_devil_name_possessive: "Матери" #Машинный перевод 28.10.23
+ nolosaanyo_death_deity_name: "Баалальт Гебак" #Машинный перевод 28.10.23
+ nolosaanyo_death_deity_name_possessive: "Баалальт Гебак" #Машинный перевод 28.10.23
+  
+  
+  
+ nolosaanyo_house_of_worship: "храм" #Машинный перевод 28.10.23
+ nolosaanyo_house_of_worship_plural: "храмы" #Машинный перевод 28.10.23
+ nolosaanyo_religious_symbol: "Океанский прилив" #Машинный перевод 28.10.23
+ nolosaanyo_religious_text: "Воля жизни и смерти" #Машинный перевод 28.10.23
+  
+ nolosaanyo_religious_head_title: "Великое путешествие" #Машинный перевод 28.10.23
+ nolosaanyo_religious_head_title_name: "Приливный ходок" #Машинный перевод 28.10.23
+ nolosaanyo_devotee_male: "Путешественник" #Машинный перевод 28.10.23
+ nolosaanyo_devotee_male_plural: "Путешественники" #Машинный перевод 28.10.23
+ nolosaanyo_devotee_female: "Путешественник" #Машинный перевод 28.10.23
+ nolosaanyo_devotee_female_plural: "Путешественники" #Машинный перевод 28.10.23
+ nolosaanyo_devotee_neuter: "Путешественник" #Машинный перевод 28.10.23
+ nolosaanyo_devotee_neuter_plural: "Путешественники" #Машинный перевод 28.10.23
+ nolosaanyo_priest_male: "Первосвященник" #Машинный перевод 28.10.23
+ nolosaanyo_priest_male_plural: "Первосвященники" #Машинный перевод 28.10.23
+ nolosaanyo_priest_female: "Верховная жрица" #Машинный перевод 28.10.23
+ nolosaanyo_priest_female_plural: "Верховные жрицы" #Машинный перевод 28.10.23
+ nolosaanyo_priest_alternate: "Первосвященник" #Машинный перевод 28.10.23
+ nolosaanyo_priest_alternate_plural: "Первосвященники" #Машинный перевод 28.10.23
+ nolosaanyo_bishop: "Первосвященник" #Машинный перевод 28.10.23
+ nolosaanyo_bishop_plural: "Первосвященники" #Машинный перевод 28.10.23
+ nolosaanyo_positive_afterlife: "Божественный цикл" #Машинный перевод 28.10.23
+ nolosaanyo_negative_afterlife: "Божественный цикл" #Машинный перевод 28.10.23
+  
+ nolosaanyo_creator_god_name: "$nolosaanyo_high_god_name$" #Машинный перевод 28.10.23
+ nolosaanyo_creator_god_name_possessive: "$nolosaanyo_high_god_name_possessive$" #Машинный перевод 28.10.23
+ nolosaanyo_health_god_name: "Мама" #Машинный перевод 28.10.23
+ nolosaanyo_health_god_name_possessive: "Матери" #Машинный перевод 28.10.23
+ nolosaanyo_fertility_god_name: "Мама" #Машинный перевод 28.10.23
+ nolosaanyo_fertility_god_name_possessive: "Матери" #Машинный перевод 28.10.23
+ nolosaanyo_wealth_god_name: "Мама" #Машинный перевод 28.10.23
+ nolosaanyo_wealth_god_name_possessive: "Матери" #Машинный перевод 28.10.23
+ nolosaanyo_household_god_name: "Мама" #Машинный перевод 28.10.23
+ nolosaanyo_household_god_name_possessive: "Матери" #Машинный перевод 28.10.23
+ nolosaanyo_fate_god_name: "$nolosaanyo_high_god_name$" #Машинный перевод 28.10.23
+ nolosaanyo_fate_god_name_possessive: "$nolosaanyo_high_god_name_possessive$" #Машинный перевод 28.10.23
+ nolosaanyo_knowledge_god_name: "Мама" #Машинный перевод 28.10.23
+ nolosaanyo_knowledge_god_name_possessive: "Матери" #Машинный перевод 28.10.23
+ nolosaanyo_war_god_name: "Мама" #Машинный перевод 28.10.23
+ nolosaanyo_war_god_name_possessive: "Матери" #Машинный перевод 28.10.23
+ nolosaanyo_trickster_god_name: "Мама" #Машинный перевод 28.10.23
+ nolosaanyo_trickster_god_name_possessive: "Матери" #Машинный перевод 28.10.23
+ nolosaanyo_night_god_name: "Мама" #Машинный перевод 28.10.23
+ nolosaanyo_night_god_name_possessive: "Матери" #Машинный перевод 28.10.23
+ nolosaanyo_water_god_name: "$nolosaanyo_health_god_name$" #Машинный перевод 28.10.23
+ nolosaanyo_water_god_name_possessive: "$nolosaanyo_health_god_name_possessive$" #Машинный перевод 28.10.23
+ nolosaanyo_witch_god_name: "Мама" #Машинный перевод 28.10.23
+ nolosaanyo_witch_god_name_possessive: "Матери" #Машинный перевод 28.10.23
+  
+ nolosaanyo: "Нолосааньо" #Машинный перевод 28.10.23
+ nolosaanyo_adj: "Нолосааньо" #Машинный перевод 28.10.23
+ nolosaanyo_adherent: "Нолосааньо" #Машинный перевод 28.10.23
+ nolosaanyo_adherent_plural: "Нолосааньо" #Машинный перевод 28.10.23
+ nolosaanyo_desc: "Нолосааньо верят в святость и сохранение жизни, чтобы она могла прибывать и отбываться вместе с приливами мира. Единственное время года, когда верующие едят мясо, — это сезонные праздники, которые определяют духовный цикл Нолосааньо. Наиболее набожные последователи нередко принимают обеты пасифизма, навсегда отказываясь от насилия, даже перед лицом смерти." #Машинный перевод 28.10.23

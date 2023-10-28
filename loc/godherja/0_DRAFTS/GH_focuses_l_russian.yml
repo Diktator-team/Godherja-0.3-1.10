@@ -1,0 +1,65 @@
+﻿l_russian:
+ education_arcana: "Аркана Образование"  #Машинный перевод 28.10.23!
+ education_arcana_desc: "Изучение тайных, сверхъестественных и магических тайн [aeras|E]."  #Машинный перевод 28.10.23!
+ education_arcana_tt.affinity: "\n\n#P [ROOT.Char.Custom('ChildhoodPersonalityTrait')] дети часто преуспевают в обучении Арканам.#!"  #Машинный перевод 28.10.23!
+ education_arcana_tt.disaffinity: "\n\n#N [ROOT.Char.Custom('ChildhoodPersonalityTrait')] дети могут столкнуться с трудностями при обучении Тайнам.#!"  #Машинный перевод 28.10.23!
+ education_arcana_effect_desc: "Выбор этого [education_focus|E] также будет иметь следующие эффекты:\n\n#P +1#! @skill_arcana_icon![arcana|E]"  #Машинный перевод 28.10.23!
+ education_arcana_modifier: "Аркана Образование"  #Машинный перевод 28.10.23!
+  
+ arcana_lifestyle_name: "Арканы"  #Машинный перевод 28.10.23!
+ arcana_lifestyle_desc: "Сосредоточьтесь на раскрытии тайн [aeras|E]."  #Машинный перевод 28.10.23!
+ arcana_lifestyle_highlight_desc: "Благодаря вашему Аркану [education|E] вы получаете #P [GetPlayer.Custom('GetEducationLifestylePercentageBoost')]#! больше [experience|E] в этом Образе жизни."  #Машинный перевод 28.10.23!
+ arcana_actuation_focus: "Фокус срабатывания"  #Машинный перевод 28.10.23!
+ arcana_actuation_focus_modifier: "[GetFocus('arcana_actuation_focus').GetName]"  #Машинный перевод 28.10.23!
+ arcana_actuation_focus_desc: "Действие и реакция. Понимание скрытых истин."  #Машинный перевод 28.10.23!
+ arcana_actuation_focus_effect_desc: "Сосредоточение внимания на тайных экспериментах:\n\n#P +1#! @skill_arcana_icon![arcana|E]\n#P от +5#! до #E шанса на успех заклинания#!"  #Машинный перевод 28.10.23!
+ arcana_erudition_focus: "Эрудиция Фокус"  #Машинный перевод 28.10.23!
+ arcana_erudition_focus_modifier: "[GetFocus('arcana_erudition_focus').GetName]"  #Машинный перевод 28.10.23!
+ arcana_erudition_focus_desc: "Познание сил древних и новых."  #Машинный перевод 28.10.23!
+ arcana_erudition_focus_effect_desc: "Сосредоточимся на тайных исследованиях:\n\n#P +3#! @skill_arcana_icon![arcana|E]"  #Машинный перевод 28.10.23!
+ arcana_cognition_focus: "Когнитивный фокус"  #Машинный перевод 28.10.23!
+ arcana_cognition_focus_modifier: "[GetFocus('arcana_cognition_focus').GetName]"  #Машинный перевод 28.10.23!
+ arcana_cognition_focus_desc: "Тайны, сокрытые затерянными книгами и древними камнями, опасные, как никогда."  #Машинный перевод 28.10.23!
+ arcana_cognition_focus_effect_desc: "Сосредоточение внимания на исследованиях материалов:\n\n#P +2#! @skill_arcana_icon![arcana|E]\n#P +25%#! [magic|E] #E Регенерация#!"  #Машинный перевод 28.10.23!
+  
+ arcana_prowess_potential_tt: "#P +3#! @magic_icon!#E Магическое мастерство#!"  #Машинный перевод 28.10.23!
+ arcane_defense_tt: "#P +10#! @magic_icon!#E Сопротивление магии#!"  #Машинный перевод 28.10.23!
+ arcane_relief_tt: "Потеряйте [stress|E], получив @magic_icon![magic|E] от заклинаний."  #Машинный перевод 28.10.23!
+ arcana_spellcasting_success_bonus_tt: "#P +8#! #E Шанс на успех заклинания#!"  #Машинный перевод 28.10.23!
+ arcana_extended_baseline_bonus_tt: "@magic_icon! #P от +25#! до [extended_magic_baseline|E] за [title_tier|E]"  #Машинный перевод 28.10.23!
+ arcana_secret_knowledge_perk_effect: "#P +10#! #E Шанс открытия заклинаний#!"  #Машинный перевод 28.10.23!
+  
+  
+  # ARCANA PERKS 
+ arcana_tree1_name: "Активация"  #Машинный перевод 28.10.23!
+ arcana_actuation_perk1_tree1_name: "Целенаправленный кастинг"  #Машинный перевод 28.10.23!
+ arcana_actuation_perk2_tree1_name: "Заклинания"  #Машинный перевод 28.10.23!
+ arcana_actuation_perk3_tree1_name: "Медитативные трансы"  #Машинный перевод 28.10.23!
+ arcana_actuation_perk4_tree1_name: "Дополненные заклинания"  #Машинный перевод 28.10.23!
+ arcana_actuation_perk5_tree1_name: "Мощное сопротивление"  #Машинный перевод 28.10.23!
+ arcana_actuation_perk6_tree1_name: "Сверхъестественное открытие"  #Машинный перевод 28.10.23!
+ arcana_actuation_perk7_tree1_name: "Неукротимый"  #Машинный перевод 28.10.23!
+ arcana_actuation_perk8_tree1_name: "Спящие мутации"  #Машинный перевод 28.10.23!
+ arcana_actuation_perk9_tree1_name: "Трансмутург"  #Машинный перевод 28.10.23!
+  
+ arcana_tree2_name: "Познание"  #Машинный перевод 28.10.23!
+ arcana_cognition_perk1_tree2_name: "Глаз Пловца"  #Машинный перевод 28.10.23!
+ arcana_cognition_perk2_tree2_name: "Места силы"  #Машинный перевод 28.10.23!
+ arcana_cognition_perk3_tree2_name: "Мистическое восприятие"  #Машинный перевод 28.10.23!
+ arcana_cognition_perk4_tree2_name: "Эффективная Теургия"  #Машинный перевод 28.10.23!
+ arcana_cognition_perk5_tree2_name: "Настроенное оборудование"  #Машинный перевод 28.10.23!
+ arcana_cognition_perk6_tree2_name: "Сохранение ауры"  #Машинный перевод 28.10.23!
+ arcana_cognition_perk7_tree2_name: "Парейдолическое поглощение"  #Машинный перевод 28.10.23!
+ arcana_cognition_perk8_tree2_name: "Эфирные наручники"  #Машинный перевод 28.10.23!
+ arcana_cognition_perk9_tree2_name: "Арканист"  #Машинный перевод 28.10.23!
+  
+ arcana_tree3_name: "Эрудиция"  #Машинный перевод 28.10.23!
+ arcana_erudition_perk1_tree3_name: "Волшебная стипендия"  #Машинный перевод 28.10.23!
+ arcana_erudition_perk2_tree3_name: "Чародейские стрессоры"  #Машинный перевод 28.10.23!
+ arcana_erudition_perk3_tree3_name: "Глаз для таланта"  #Машинный перевод 28.10.23!
+ arcana_erudition_perk4_tree3_name: "Ораторское искусство"  #Машинный перевод 28.10.23!
+ arcana_erudition_perk5_tree3_name: "Заклинатель"  #Машинный перевод 28.10.23!
+ arcana_erudition_perk6_tree3_name: "Тауматургические инструкции"  #Машинный перевод 28.10.23!
+ arcana_erudition_perk7_tree3_name: "Усиленный Магистр"  #Машинный перевод 28.10.23!
+ arcana_erudition_perk8_tree3_name: "Доктор Магии"  #Машинный перевод 28.10.23!
+ arcana_erudition_perk9_tree3_name: "Мудрец"  #Машинный перевод 28.10.23!

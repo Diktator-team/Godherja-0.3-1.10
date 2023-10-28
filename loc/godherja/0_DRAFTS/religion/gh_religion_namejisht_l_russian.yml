@@ -1,0 +1,66 @@
+﻿l_russian:
+  
+ #namejisht Loc 
+ namejisht_religion: "Намеджишта" #Машинный перевод 28.10.23
+ namejisht_religion_adj: "Намеджишт" #Машинный перевод 28.10.23
+ namejisht_religion_adjerent: "Намеджишт" #Машинный перевод 28.10.23
+ namejisht_religion_adherent_plural: "Намежиштц" #Машинный перевод 28.10.23
+ namejisht_religion_desc: "Коренным образом изменившаяся из-за того, что на протяжении тысячелетий она существовала как тайное общество среди рабов Малкойзиака, вера Намеджишт теперь является религией, в значительной степени сосредоточенной на поклонении идее свободы, или Намедж. В свободных общинах Намеджишт к свободе относятся почти обожественно: ее отмечают регулярными фестивалями, а лишение свободы другого через рабство рассматривается как кощунство. Есть некоторые признаки того, что Намеджишта происходит из другой веры до порабощения ее последователей, при этом некоторые фестивали, посвященные «Намеджу», по-видимому, не имеют ничего общего со свободой, но мало что можно сказать о принципах этой первоначальной веры." #Машинный перевод 28.10.23
+ namejisht_high_god_name: "Намедж" #Машинный перевод 28.10.23
+ namejisht_high_god_name_possessive: "Намеджа" #Машинный перевод 28.10.23
+ namejisht_high_god_name_alternate: "Свобода" #Машинный перевод 28.10.23
+ namejisht_high_god_name_alternate_possessive: "Свобода" #Машинный перевод 28.10.23
+ namejisht_devil_name: "Поработители" #Машинный перевод 28.10.23
+ namejisht_devil_name_possessive: "Поработители" #Машинный перевод 28.10.23
+ namejisht_death_deity_name: "$namejisht_high_god_name$" #Машинный перевод 28.10.23
+ namejisht_death_deity_name_possessive: "$namejisht_high_god_name_possessive$" #Машинный перевод 28.10.23
+  
+ namejisht_house_of_worship: "поле" #Машинный перевод 28.10.23
+ namejisht_house_of_worship_plural: "поля" #Машинный перевод 28.10.23
+ namejisht_religious_symbol: "птица" #Машинный перевод 28.10.23
+ namejisht_religious_text: "сказки" #Машинный перевод 28.10.23
+  
+ namejisht_religious_head_title: "Земля Намеджа" #Машинный перевод 28.10.23
+ namejisht_religious_head_title_name: "Сосуд Намеджа" #Машинный перевод 28.10.23
+ namejisht_devotee: "Намеджишт" #Машинный перевод 28.10.23
+ namejisht_devotee_plural: "Намежиштц" #Машинный перевод 28.10.23
+ namejisht_priest: "Амара" #Машинный перевод 28.10.23
+ namejisht_priest_plural: "Амарас" #Машинный перевод 28.10.23
+ namejisht_bishop: "Тесу Амара" #Машинный перевод 28.10.23
+ namejisht_bishop_plural: "Тесу Амарас" #Машинный перевод 28.10.23
+ namejisht_positive_afterlife: "Вечная свобода" #Машинный перевод 28.10.23
+ namejisht_negative_afterlife: "Заточение смерти" #Машинный перевод 28.10.23
+  
+ namejisht_pantheon_term: "$namejisht_high_god_name$" #Машинный перевод 28.10.23
+ namejisht_creator_god_name: "$namejisht_high_god_name$" #Машинный перевод 28.10.23
+ namejisht_creator_god_name_possessive: "$namejisht_high_god_name_possessive$" #Машинный перевод 28.10.23
+ namejisht_health_god_name: "$namejisht_high_god_name$" #Машинный перевод 28.10.23
+ namejisht_health_god_name_possessive: "$namejisht_high_god_name_possessive$" #Машинный перевод 28.10.23
+ namejisht_fertility_god_name: "$namejisht_high_god_name$" #Машинный перевод 28.10.23
+ namejisht_fertility_god_name_possessive: "$namejisht_high_god_name_possessive$" #Машинный перевод 28.10.23
+ namejisht_wealth_god_name: "$namejisht_high_god_name$" #Машинный перевод 28.10.23
+ namejisht_wealth_god_name_possessive: "$namejisht_high_god_name_possessive$" #Машинный перевод 28.10.23
+ namejisht_household_god_name: "$namejisht_high_god_name$" #Машинный перевод 28.10.23
+ namejisht_household_god_name_possessive: "$namejisht_high_god_name_possessive$" #Машинный перевод 28.10.23
+ namejisht_fate_god_name: "$namejisht_devil_name$" #Машинный перевод 28.10.23
+ namejisht_fate_god_name_possessive: "$namejisht_devil_name_possessive$" #Машинный перевод 28.10.23
+ namejisht_knowledge_god_name: "$namejisht_high_god_name$" #Машинный перевод 28.10.23
+ namejisht_knowledge_god_name_possessive: "$namejisht_high_god_name_possessive$" #Машинный перевод 28.10.23
+ namejisht_war_god_name: "$namejisht_high_god_name$" #Машинный перевод 28.10.23
+ namejisht_war_god_name_possessive: "$namejisht_high_god_name_possessive$" #Машинный перевод 28.10.23
+ namejisht_trickster_god_name: "$namejisht_high_god_name$" #Машинный перевод 28.10.23
+ namejisht_trickster_god_name_possessive: "$namejisht_high_god_name_possessive$" #Машинный перевод 28.10.23
+ namejisht_night_god_name: "$namejisht_high_god_name$" #Машинный перевод 28.10.23
+ namejisht_night_god_name_possessive: "$namejisht_high_god_name_possessive$" #Машинный перевод 28.10.23
+ namejisht_water_god_name: "$namejisht_high_god_name$" #Машинный перевод 28.10.23
+ namejisht_water_god_name_possessive: "$namejisht_high_god_name_possessive$" #Машинный перевод 28.10.23
+ namejisht_witch_god_name: "$namejisht_high_god_name$" #Машинный перевод 28.10.23
+ namejisht_witch_god_name_possessive: "$namejisht_high_god_name_possessive$" #Машинный перевод 28.10.23
+  
+ ghw_namejisht: "Война за свободу" #Машинный перевод 28.10.23
+ ghw_namejisht_plural: "Войны за свободу" #Машинный перевод 28.10.23
+  
+ namejisht: "Намеджишта" #Машинный перевод 28.10.23
+ namejisht_adj: "Намеджишт" #Машинный перевод 28.10.23
+ namejisht_adjerent: "Намеджишт" #Машинный перевод 28.10.23
+ namejisht_adherent_plural: "Намежиштц" #Машинный перевод 28.10.23

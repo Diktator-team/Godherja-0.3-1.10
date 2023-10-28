@@ -1,0 +1,1193 @@
+﻿l_russian:
+  
+  ######################## 
+  # HISTORICAL NICKNAMES # 
+  ######################## 
+  
+  # AVERSARIA # 
+ nick_little_prick_maxios: "Литтл-Прик" #Машинный перевод 28.10.23
+ nick_little_prick_maxios_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] слишком часто настаивает на [_s(CHARACTER)], что это имя относится к [CharYourHerHis(CHARACTER)] невысокому росту и плохому характеру." #Машинный перевод 28.10.23
+  
+ nick_skin_muncher: "пожиратель шкур" #Машинный перевод 28.10.23
+  
+ nick_black_braxos: "Черный" #Машинный перевод 28.10.23
+  
+ nick_flamecaller: "призыватель огня" #Машинный перевод 28.10.23
+ nick_flamecaller_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] прославился тем, что вызывал массовые пожары, поджигая [CharYourHerHis(CHARACTER)] врагов." #Машинный перевод 28.10.23
+  
+ nick_stone_fist: "Каменный Кулак" #Машинный перевод 28.10.23
+  
+ nick_one_eye_prefix: "Один глаз" #Машинный перевод 28.10.23
+  
+ nick_frostblood: "Ледяная кровь" #Машинный перевод 28.10.23
+  
+ nick_kindblood: "доброкровный" #Машинный перевод 28.10.23
+ nick_kindblood_desc: "Названный так крестьянством за [CharYourHerHis(CHARACTER)] великой щедрости, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] рассматривается многими как Аавтократир, спасший [aversaria|E]." #Машинный перевод 28.10.23
+  
+ nick_little_wailer: "Маленький Плакальщик" #Машинный перевод 28.10.23
+ nick_little_wailer_desc: "Как и сестра [CharYourHerHis(CHARACTER)], [CHARACTER.GetShortUINameNoTooltipNoFormat] также громко бросается в бой[_s(CHARACTER)]. К сожалению, высокий тон [CharYourHerHis(CHARACTER)] визгов лишь сбивает с толку, а не пугает противников [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+  
+ nick_big_wailer: "Большой Плакальщик" #Машинный перевод 28.10.23
+ nick_big_wailer_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] бросается в бой[_s(CHARACTER)], издавая гортанный рев такой силы, что часто удивляет тех, кто видел [CharYourHerHis(CHARACTER)] маленького кадра." #Машинный перевод 28.10.23
+  
+ nick_the_frigid: "Холодный" #Машинный перевод 28.10.23
+ nick_the_frigid_desc: "Подаренные многими, кто устал от безумного хвастовства и провозглашений [CharYourHerHis(CHARACTER)], [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] и [CHARACTER.GetWomanMan], застывшие во времена, когда [Concept('aversaria','empire')|E] правил безраздельно." #Машинный перевод 28.10.23
+  
+ nick_firedrake: "Огненный дракон" #Машинный перевод 28.10.23
+ nick_firedrake_desc: "О мастерстве [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] в использовании магии огня ходят легенды, и он прославился тем, что убил дракона, подавив его пламя собственным [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+  
+ nick_the_blood_sparrow: "Кровавый Воробей" #Машинный перевод 28.10.23
+ nick_the_blood_sparrow_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] известен своей ловкостью [CharYourHerHis(CHARACTER)] на поле боя, появляется в виде красного пятна для противников [CharYourHerHis(CHARACTER)], когда [CharYouSheHe(CHARACTER)] владеет [_s(CHARACTER)] знаменитым копьем Дома [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+  
+ nick_the_black_sun: "Черное Солнце" #Машинный перевод 28.10.23
+ nick_the_black_sun_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] предположительно родился, когда солнце сгорело до черноты, а мир погрузился во тьму — утверждение, используемое последователями [CharYourHerHis(CHARACTER)] для доказательства статуса [CharYourHerHis(CHARACTER)] как спасителя, посланного [CHARACTER.GetFaith.HighGodName]." #Машинный перевод 28.10.23
+  
+ nick_skybane: "Скайбейн" #Машинный перевод 28.10.23
+ nick_skybane_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] прославился победой над могучей виверной, несмотря на то, что в жилах [CharYourHerHis(CHARACTER)] не было ни капли магии." #Машинный перевод 28.10.23
+  
+ nick_skull_taker: "Собиратель Черепов" #Машинный перевод 28.10.23
+ nick_skull_taker_desc: "Абсолютный ужас эпохи [CharYourHerHis(CHARACTER)], [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)], печально известный накоплением огромной коллекции черепов и [CharYourHerHis(CHARACTER)] жестокими способами увеличения ее количества." #Машинный перевод 28.10.23
+  
+ nick_the_most_fair_and_beautiful_ruler: "Самый справедливый и красивый правитель" #Машинный перевод 28.10.23
+ nick_the_most_fair_and_beautiful_ruler_desc: "Все [aeras|E] с трепетом смотрят на Мегистоса, ибо единственное существо, на которое стоит смотреть, — это Мегистос, а созерцать Мегистоса — значит созерцать саму божественность." #Машинный перевод 28.10.23
+  
+ nick_the_last_iyrossi: "Последний Ийросси" #Машинный перевод 28.10.23
+ nick_the_last_iyrossi_desc: "Сражаясь до последнего, [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] удостоен чести Ийросси, которые стремятся подражать [CharYouHerHim(CHARACTER)] в своем стремлении к освобождению." #Машинный перевод 28.10.23
+  
+ nick_the_silver_blood: "Серебряная Кровь" #Машинный перевод 28.10.23
+ nick_the_silver_blood_desc: "Когда-то почетное имя предков [CharYourHerHis(CHARACTER)] стало свидетельством [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] обращения с жизнью как с товаром." #Машинный перевод 28.10.23
+  
+ nick_the_silverblood: "Серебряная Кровь" #Машинный перевод 28.10.23
+ nick_the_silverblood_desc: "Когда-то почетное имя предков [CharYourHerHis(CHARACTER)] стало свидетельством [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] обращения с жизнью как с товаром." #Машинный перевод 28.10.23
+  
+ nick_the_last_legionnaire: "Последний легионер" #Машинный перевод 28.10.23
+ nick_the_last_legionnaire_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] один из последних оставшихся легионеров, служивших и сражавшихся в [imperial_civil_war|E], переживший даже империю, которой служил [CharYouSheHe(CHARACTER)]." #Машинный перевод 28.10.23
+  
+ nick_chosen_of_the_purest: "Избранный из чистейших" #Машинный перевод 28.10.23
+ nick_chosen_of_the_purest_desc: "Выбран случайно и воспитан как марионетка. Некоторые надеются, что [CHARACTER.GetShortUINameNoTooltipNoFormat] когда-нибудь сможет оправдать это имя, но многие сомневаются в шансах [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+  
+ nick_blackguard: "Черный страж" #Машинный перевод 28.10.23
+ nick_blackguard_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] повернул [CharYourHerHis(CHARACTER)] против империи, которой когда-то служил [CharYouSheHe(CHARACTER)], заслужив ненависть бывших товарищей [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+  
+ nick_lord_of_the_ashes: "Лорд Пепла" #Машинный перевод 28.10.23
+ nick_lord_of_the_ashes_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] вызвал [frodbrokna|E], предоставив [Concept('imperial_civil_war','victory')], которого давно желал [CharYouSheHe(CHARACTER)], но ценой разрушения самого [aeras|E]." #Машинный перевод 28.10.23
+  
+ nick_I: "я" #Машинный перевод 28.10.23
+ nick_I_desc: "Названный в честь великого Мегистоса, Мегистос только надеется, что Мегистос сможет оправдать его великолепие." #Машинный перевод 28.10.23
+  
+ nick_II: "II" #Машинный перевод 28.10.23
+ nick_II_desc: "Также названный в честь отца Мегистоса, Мегистоса, Мегистос знает, что Мегистос так же великолепен, как и Мегистос, но выглядит гораздо лучше." #Машинный перевод 28.10.23
+  
+ nick_III_the_older_Megistos: "III старший Мегист" #Машинный перевод 28.10.23
+ nick_III_the_older_Megistos_desc: "Мегистос назван так, чтобы отличить Мегистоса от младшего Мегистоса, к ужасу старшего Мегистоса." #Машинный перевод 28.10.23
+  
+ nick_III_the_younger_Megistos: "III младший Мегист" #Машинный перевод 28.10.23
+ nick_III_the_younger_Megistos_desc: "К этому моменту некоторые начинают задаваться вопросом, было ли имя Мегистос дано из-за тщеславия или отсутствия воображения." #Машинный перевод 28.10.23
+  
+ nick_bane_of_azzykrazz: "Проклятие Аззи'краза" #Машинный перевод 28.10.23
+ nick_bane_of_azzykrazz_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] посвятил [CharYourHerHis(CHARACTER)] жизнь охоте на демона Аззи'кразза, принесшего [fog|E]" #Машинный перевод 28.10.23
+  
+ nick_the_heart_eater: "Пожиратель сердец" #Машинный перевод 28.10.23
+ nick_the_heart_eater_desc: "Многие шепчутся, что [CHARACTER.GetShortUINameNoTooltipNoFormat] практикуют[_s(CHARACTER)] мерзкие обычаи северных варваров, поедая плоть как врагов, так и друзей." #Машинный перевод 28.10.23
+  
+ nick_five_lives: "Пять жизней" #Машинный перевод 28.10.23
+ nick_five_lives_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] снова и снова обманывал смерть, к недоумению и ужасу врагов [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+  
+ nick_the_sea_sword: "Морской Меч" #Машинный перевод 28.10.23
+  
+ nick_ash_killer: "Пепельный убийца" #Машинный перевод 28.10.23
+  
+ nick_tharnaz_garnaz: "Самый Амагейский" #Машинный перевод 28.10.23
+ nick_tharnaz_garnaz_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] олицетворяет [_s(CHARACTER)] идеального Амагея, построенного как гора, обладающего соответствующей гордостью и способностью к насилию." #Машинный перевод 28.10.23
+  
+ nick_iron_spike: "Железный Шип" #Машинный перевод 28.10.23
+ nick_iron_spike_desc: "Названный так в честь [CharYourHerHis(CHARACTER)] жестокой практики сажания на кол диссидентов и мятежников, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)], которого многие боятся, но никто не считает другом." #Машинный перевод 28.10.23
+  
+ nick_black_of_eyes: "Черные глаза" #Машинный перевод 28.10.23
+ nick_black_of_eyes_desc: "Некоторые [magi|E] получают глаза, которые светятся силой после постоянного произнесения заклинаний. Иначе обстоит дело с [CHARACTER.GetShortUINameNoTooltipNoFormat], глаза которого нарисованы в темноте, лишенной света." #Машинный перевод 28.10.23
+  
+ nick_glassblade: "Стеклянный клинок" #Машинный перевод 28.10.23
+ nick_glassblade_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] известен своим стеклянным мечом [CharYouSheHe(CHARACTER)] медведь[_s(CHARACTER)], орудием войны, созданным мирной культурой в разгар перемен." #Машинный перевод 28.10.23
+  
+ nick_splinter: "Осколок" #Машинный перевод 28.10.23
+ nick_splinter_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] доказал, что даже самый маленький удар может сразить грозного противника." #Машинный перевод 28.10.23
+  
+ nick_smiling_axe: "Улыбающийся Топор" #Машинный перевод 28.10.23
+ nick_smiling_axe_desc: "Мало что приносит [CHARACTER.GetShortUINameNoTooltipNoFormat] столько радости, как битва, и на лице [CharYourHerHis(CHARACTER)] всегда присутствует улыбка, когда [CharYouSheHe(CHARACTER)] рубит [_s(CHARACTER)] врагов [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+  
+ nick_bleak_speaker: "Мрачный оратор" #Машинный перевод 28.10.23
+ nick_bleak_speaker_desc: "Много было сказано об ораторском мастерстве [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] и о том, как аргументы [CharYourHerHis(CHARACTER)] могут легко привести в отчаяние даже самого опытного оппонента." #Машинный перевод 28.10.23
+  
+ nick_sub_aautokratia: "«Субавтократия»" #Машинный перевод 28.10.23
+ nick_sub_aautokratia_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] объявил [CharYourHerHimself(CHARACTER)] «Суб-автократией», наглая попытка взять на себя полномочия, выходящие далеко за пределы станции [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+  
+ nick_silverbane: "Сильвер-Бейн" #Машинный перевод 28.10.23
+ nick_silverbane_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] полностью уничтожил Легио XLV «Серебрянокровные» во время Восстания Синих Мантий, положив конец его легендарному наследию." #Машинный перевод 28.10.23
+  
+ nick_blackmask: "Черная маска" #Машинный перевод 28.10.23
+ nick_blackmask_desc: "Отличительная маска [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] внушает страх среди Олтени, которые видят в ней символ [CHARACTER.GetWomanMan], организовавшего завоевание сотни кланов." #Машинный перевод 28.10.23
+  
+ nick_voice_kaigan: "Голос Кайгана" #Машинный перевод 28.10.23
+ nick_voice_kaigan_desc: "Говорят, что сам Кайган выбрал этого [CHARACTER.GetWomanMan] своим пророком, и верующие в масках не осмеливаются оспаривать слова [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat]." #Машинный перевод 28.10.23
+  
+ nick_storm_whisper: "Шторм-Шепот" #Машинный перевод 28.10.23
+ nick_storm_whisper_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] известен [CharYourHerHis(CHARACTER)] мастерством [aspect_air|E] магии и [CharAreIs(CHARACTER)] известен тем, что способен вызывать целые бури одним лишь вздохом." #Машинный перевод 28.10.23
+  
+ nick_the_adventurer: "авантюрист" #Машинный перевод 28.10.23
+ nick_the_adventurer_desc: "От морей юга до пустыни севера [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharHaveHas(CHARACTER)] путешествовал по всей широте [aeras|E], становясь свидетелем чудес, невидимых для большинства людей [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+  
+ nick_black_adriax: "Черный" #Машинный перевод 28.10.23
+ nick_black_adriax_desc: "«Адриакс, Адриакс, весь в черном. Знай свое место, чтобы он не восстал обратно." #Машинный перевод 28.10.23
+  
+ nick_ironclad: "Броненосец" #Машинный перевод 28.10.23
+ nick_ironclad_desc: "Мало кто когда-либо видел [CHARACTER.GetShortUINameNoTooltipNoFormat] вне доспехов [CharYourHerHis(CHARACTER)], и как подчиненные, так и противники часто принимали [CharYouHerHim(CHARACTER)] за человека из-за телосложения [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+  
+ nick_the_old_guard: "Старая гвардия" #Машинный перевод 28.10.23
+  
+ nick_the_free_one: "свободный" #Машинный перевод 28.10.23
+  
+ nick_glorious_esterax: "Славный" #Машинный перевод 28.10.23
+  
+ nick_dragos_the_dragon: "дракон" #Машинный перевод 28.10.23
+  
+ nick_the_metal_mask_krenverso: "Металлической Маски" #Машинный перевод 28.10.23
+  
+ nick_the_white_lion_akakih: "Белый Лев" #Машинный перевод 28.10.23
+  
+ nick_the_bloody_vakhtan: "Кровавый" #Машинный перевод 28.10.23
+  
+ nick_the_great_parnaz: "Великий" #Машинный перевод 28.10.23
+  
+ nick_the_black_sheep_nikoloz: "Черная овца" #Машинный перевод 28.10.23
+  
+ nick_the_heartless_mikheil: "Бессердечный" #Машинный перевод 28.10.23
+  
+ nick_the_mountain_that_strikes_gabrieli: "Гора, которая поражает" #Машинный перевод 28.10.23
+  
+ nick_king_of_kings_hirakle: "король королей" #Машинный перевод 28.10.23
+  
+ nick_the_greatclaw_tenex: "Великий Коготь" #Машинный перевод 28.10.23
+  
+ nick_the_old_dukon: "Старый" #Машинный перевод 28.10.23
+  
+ nick_tiny_meletios: "Крошечный" #Машинный перевод 28.10.23
+  
+ nick_the_victorious_orbeli: "Победоносный" #Машинный перевод 28.10.23
+  
+ nick_the_silly_makarios: "Глупый" #Машинный перевод 28.10.23
+  
+ nick_the_sly_iordanes: "хитрый" #Машинный перевод 28.10.23
+  
+ nick_the_flash_zekos: "Вспышка" #Машинный перевод 28.10.23
+  
+ nick_the_eager_sebastianos: "Стремящийся" #Машинный перевод 28.10.23
+  
+ nick_the_quick_theodoulos: "Быстрый" #Машинный перевод 28.10.23
+  
+ nick_the_enlightened_rhesus: "Просвещенный" #Машинный перевод 28.10.23
+  
+ nick_the_glorious_dexios: "Славный" #Машинный перевод 28.10.23
+  
+ nick_the_lavender_knight_zeraul: "Лавандовый рыцарь" #Машинный перевод 28.10.23
+  
+ nick_the_marked_archolo: "отмеченный" #Машинный перевод 28.10.23
+  
+ nick_the_liberator_virja: "Освободитель" #Машинный перевод 28.10.23
+  
+ nick_the_betrayer_mirajla: "Предатель" #Машинный перевод 28.10.23
+  
+ nick_the_free_vlejin: "Свобода" #Машинный перевод 28.10.23
+  
+ nick_shackle_breaker: "Разрушитель кандалов" #Машинный перевод 28.10.23
+  
+ nick_the_dull_balkumagan: "скучный" #Машинный перевод 28.10.23
+  
+ nick_magi_bane_samjek: "Маги-Бейн" #Машинный перевод 28.10.23
+  
+ nick_savior_of_the_deeps: "Спаситель глубин" #Машинный перевод 28.10.23
+  
+ nick_redblade_radosaj: "Красный Клинок" #Машинный перевод 28.10.23
+  
+ nick_the_architect_thasios: "архитектор" #Машинный перевод 28.10.23
+  
+ nick_greatspear: "Большое Копье" #Машинный перевод 28.10.23
+  
+ nick_the_feathered: "Пернатый" #Машинный перевод 28.10.23
+  
+ nick_the_old_one_dexos: "Старый" #Машинный перевод 28.10.23
+  
+ nick_reeve_reaver: "Рив Ривер" #Машинный перевод 28.10.23
+  
+ nick_heathen_lover: "Любитель-язычник" #Машинный перевод 28.10.23
+  
+ nick_the_bloodletter_of_lesus: "Кровопускатель Лесуса" #Машинный перевод 28.10.23
+  
+ nick_the_whisperer_agionist: "Шепчущийся" #Машинный перевод 28.10.23
+  
+ nick_darkblood: "Темная кровь" #Машинный перевод 28.10.23
+  
+ nick_the_pure_of_pure: "Чистый из Чистых" #Машинный перевод 28.10.23
+  
+ nick_bled_bane: "Блед-Бейн" #Машинный перевод 28.10.23
+  
+ nick_the_heathen_pascos: "язычник" #Машинный перевод 28.10.23
+  
+ nick_bloodiest: "Самый кровавый" #Машинный перевод 28.10.23
+  
+ nick_bane_star: "Бэйн-Звезда" #Машинный перевод 28.10.23
+  
+  # SARRADON # 
+ nick_ironheart: "Железное сердце" #Машинный перевод 28.10.23
+ nick_ironheart_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] руководите [_s(CHARACTER)] [CharYourHerHis(CHARACTER)] порядком с жестокой эффективностью, причем как друзья, так и враги одинаково опасаются [CharYourHerHis(CHARACTER)] бессмысленной жестокости." #Машинный перевод 28.10.23
+  
+ nick_butcher_of_kahdavraka: "Мясник из Кахдавраки" #Машинный перевод 28.10.23
+ nick_butcher_of_kahdavraka_desc: "Оскорбляемый за организацию печально известных [kahdavrakan_supper|E], [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)], который его жители считают врагом всего [sarradon|E]." #Машинный перевод 28.10.23
+  
+ nick_the_forgotten_saint: "Забытый святой" #Машинный перевод 28.10.23
+ nick_the_forgotten_saint_desc: "Титул, присвоенный тем, кого считают безымянными. Наиболее ярые из их последователей полагают, что даже произнесение этого эпитета уже является большим оскорблением, приравниваемым к кощунству." #Машинный перевод 28.10.23
+  
+ nick_seaking: "Морской король" #Машинный перевод 28.10.23
+ nick_seaking_desc: "О позорной пиратской славе [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] ходят легенды, и рассказы о дерзких набегах [CharYourHerHis(CHARACTER)] эхом разносятся по морям [aeras|E]." #Машинный перевод 28.10.23
+  
+ nick_the_pale_sphinx: "Бледный Сфинкс" #Машинный перевод 28.10.23
+ nick_the_pale_sphinx_desc: "Названный так из-за необычного цвета лица [CharYourHerHis(CHARACTER)] и проницательного поведения, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] считается большинством столь же опасным, как и тезка [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+  
+ nick_the_grim: "мрачный" #Машинный перевод 28.10.23
+  nick_the_grim_desc:0 "Stern in both action and word, [CHARACTER.GetShortUINameNoTooltipNoFormat] find[_s(CHARACTER)] it difficult to enjoy what life has to offer. 
+  
+ nick_the_father_of_sarradon: "Отец Саррадона" #Машинный перевод 28.10.23
+ nick_the_father_of_sarradon_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] объединил большую часть [sarradon|E] под правилом [CharYourHerHis(CHARACTER)], поклявшись, что [CharYouSheHe(CHARACTER)] не успокоится до тех пор, пока «семья» [CharYourHerHis(CHARACTER)] не будет полностью освобождена от ига [aversarians|E]." #Машинный перевод 28.10.23
+  
+ nick_the_younger_harthah: "младший" #Машинный перевод 28.10.23
+  
+ nick_the_proud_zarthosht: "Гордый" #Машинный перевод 28.10.23
+  
+ nick_the_cannibal_bakheperuneb: "каннибал" #Машинный перевод 28.10.23
+  
+ nick_the_ferocious_giant_imhotep: "Свирепый гигант" #Машинный перевод 28.10.23
+  
+ nick_the_liberator_atim: "Освободитель" #Машинный перевод 28.10.23
+  
+ nick_the_glorious_nuru: "Славный" #Машинный перевод 28.10.23
+  
+ nick_the_inevitable_takhat: "Неизбежный" #Машинный перевод 28.10.23
+  
+ nick_the_accursed_aschsepsen: "Проклятый" #Машинный перевод 28.10.23
+  
+ nick_the_pariah_uzaffard: "изгой" #Машинный перевод 28.10.23
+  
+ nick_the_noble_tepafhosep: "Благородный" #Машинный перевод 28.10.23
+  
+ nick_the_philosopher_nviv: "Философ" #Машинный перевод 28.10.23
+  
+ nick_the_aggressive_dwarf_khephosep: "Агрессивный гном" #Машинный перевод 28.10.23
+  
+ nick_the_brute_draknab: "Брут" #Машинный перевод 28.10.23
+  
+ nick_the_silent_heteph: "Тихий" #Машинный перевод 28.10.23
+  
+ nick_the_unrelenting_henutaht: "Безжалостный" #Машинный перевод 28.10.23
+  
+ nick_the_just_amunahket: "Справедливый" #Машинный перевод 28.10.23
+  
+  # SJALVOLKI # 
+ nick_witch_breaker: "Ведьма-разрушитель" #Машинный перевод 28.10.23
+ nick_witch_breaker_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] сделал невозможное, взобравшись на непроницаемые стены [mayikrata|E] вместе с [CharYourHerHis(CHARACTER)] самыми надежными воинами и ворвавшись в его хранилища, завладев хранившимися там бесценными знаниями и артефактами." #Машинный перевод 28.10.23
+  
+ nick_giantlayer: "Гигантский слой" #Машинный перевод 28.10.23
+ nick_giantlayer_desc: "Говорят, что он спал с великаном во время охоты, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)], известный своими [CharYourHerHis(CHARACTER)] непристойными приключениями, из-за которых [CharYouHerHim(CHARACTER)] стало предметом многих непристойных песен." #Машинный перевод 28.10.23
+  
+ nick_the_acolyte: "Послушник" #Машинный перевод 28.10.23
+ nick_the_acolyte_desc: "Будучи знатоком заклинаний и заклинаний, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharHaveHas(CHARACTER)] умело оказывал магические услуги мастерам [CharYourHerHis(CHARACTER)] на протяжении многих лет." #Машинный перевод 28.10.23
+  
+ nick_mad_dog: "Бешеная собака" #Машинный перевод 28.10.23
+ nick_mad_dog_desc: "Яростные в битвах и вечно жаждущие славы, никого не удивляет, что [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] сравнивают со знаменитыми боевыми псами севера." #Машинный перевод 28.10.23
+  
+ nick_serpent_speaker: "Змееговорящий" #Машинный перевод 28.10.23
+ nick_serpent_speaker_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat] окружает атмосфера ненадежности, и люди знают, что нельзя доверять сладким словам [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+  
+ nick_axe_in_the_hand: "Топор в руке" #Машинный перевод 28.10.23
+ nick_axe_in_the_hand_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] наслаждается [_s(CHARACTER)] азартом битвы, а [CharAreIs(CHARACTER)] никогда не появляется без одного-двух топоров со стороны [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+  
+ nick_the_black_shaman: "Черный Шаман" #Машинный перевод 28.10.23
+ nick_the_black_shaman_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] получает удовольствие[_s(CHARACTER)] от использования способностей [CharYourHerHis(CHARACTER)] против других, часто не делая различия между другом и врагом в пылу битвы." #Машинный перевод 28.10.23
+  
+ nick_ironskull: "Железный череп" #Машинный перевод 28.10.23
+ nick_ironskull_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] без особых усилий выдерживает [_s(CHARACTER)] даже самые сокрушительные удары по голове [CharYourHerHis(CHARACTER)], хотя некоторые скажут, что это потому, что внутри нет ничего, что можно было бы повредить." #Машинный перевод 28.10.23
+  
+ nick_the_empty_handed: "с пустыми руками" #Машинный перевод 28.10.23
+ nick_the_empty_handed_desc: "Желая завоевать собственное царство [CharYourHerHis(CHARACTER)], [CHARACTER.GetShortUINameNoTooltipNoFormat] опрометчиво вторгся в [aversaria|E] впереди Имперреха, но был отброшен назад, не имея при этом никаких результатов." #Машинный перевод 28.10.23
+  
+ nick_the_old_dog: "Старый пес" #Машинный перевод 28.10.23
+ nick_the_old_dog_desc: "Дарованный [CharYouHerHim(CHARACTER)] соперником [CharYourHerHis(CHARACTER)], Равмиром «Пожирателем Щитов», [CHARACTER.GetShortUINameNoTooltipNoFormat] превратил этот оскорбительный эпитет в угрозу после того, как якобы откусил Равмиру голову [CharYourHerHis(CHARACTER)] зубами." #Машинный перевод 28.10.23
+  
+ nick_shapechanger: "Преобразователь формы" #Машинный перевод 28.10.23
+ nick_shapechanger_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] участвовал в знаменитом рейде Разрушителя ведьм на [mayikrata|E], получив возможность свободно менять принимаемую форму [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+  
+ nick_crow_eye: "Вороний Глаз" #Машинный перевод 28.10.23
+ nick_crow_eye_desc: "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] глаза [CharAreIs(CHARACTER)] глубочайшей черноты, и многие шепчут, что взгляд [CharYourHerHis(CHARACTER)] проникает даже насквозь [fog|E]." #Машинный перевод 28.10.23
+  
+ nick_earthshaker: "Землетрясатель" #Машинный перевод 28.10.23
+ nick_earthshaker_desc: "Воспользовавшись упавшим осколком [aervalr|E], [CHARACTER.GetShortUINameNoTooltipNoFormat] усилил и без того значительные полномочия [CharYourHerHis(CHARACTER)] для завоевания гоанских племен." #Машинный перевод 28.10.23
+  
+ nick_rosewolf: "Розовый Волк" #Машинный перевод 28.10.23
+ nick_rosewolf_desc: "Назван так ученым [chevalien|E] Митеуксом Хридидом, который описал [CHARACTER.GetShortUINameNoTooltipNoFormat] как «Розу среди волков», которая позже была адаптирована самими Шялволки в ее нынешней форме." #Машинный перевод 28.10.23
+  
+ nick_bloodbeard: "Кровавая Борода" #Машинный перевод 28.10.23
+ nick_bloodbeard_desc: ""
+  
+ nick_witch_lover: "ведьма-любовница" #Машинный перевод 28.10.23
+ nick_witch_lover_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] обладает почти детским увлечением магией [_es(CHARACTER)], посвятив [CharYourHerHimself(CHARACTER)] ее изучению, несмотря на отсутствие к ней способностей." #Машинный перевод 28.10.23
+  
+ nick_silver_speaker: "Серебряный Говорящий" #Машинный перевод 28.10.23
+ nick_silver_speaker_desc: "Даже будучи ребенком, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharWereWas(CHARACTER)] умел влиять на сердца людей, легко собирая многочисленных последователей, несмотря на [CharYourHerHis(CHARACTER)] низкое происхождение." #Машинный перевод 28.10.23
+  
+ nick_bitter_root: "Горький корень" #Машинный перевод 28.10.23
+ nick_bitter_root_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] не питает к [_s(CHARACTER)] ничего, кроме презрения к происхождению [CharYourHerHis(CHARACTER)], а [CharHaveHas(CHARACTER)] никогда не оглядывался назад на прошлое, полное сожалений." #Машинный перевод 28.10.23
+  
+ nick_above_the_eye: "Выше глаз" #Машинный перевод 28.10.23
+ nick_above_the_eye_desc: "Возвышаясь над большинством, многие шепчут, что [CHARACTER.GetShortUINameNoTooltipNoFormat] — это часть Миджотнара, хотя никто не осмеливается сказать это в лицо [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+  
+ nick_shield_eater: "Пожиратель щитов" #Машинный перевод 28.10.23
+ nick_shield_eater_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] печально известен [CharYourHerHis(CHARACTER)] неортодоксальными способами прорыва защиты [CharYourHerHis(CHARACTER)] противника." #Машинный перевод 28.10.23
+  
+ nick_silent_tongue_mergos: "Безмолвный язык" #Машинный перевод 28.10.23
+  
+ nick_the_hunter_odda: "охотник" #Машинный перевод 28.10.23
+  
+ nick_the_twin_mimirsmir: "близнец" #Машинный перевод 28.10.23
+  
+ nick_the_wife_thief_krihoj: "Жена-воровка" #Машинный перевод 28.10.23
+  
+ nick_the_sly_irvoln: "хитрый" #Машинный перевод 28.10.23
+  
+ nick_iron_oak: "Железо-Дуб" #Машинный перевод 28.10.23
+  
+ nick_water_lover: "Любитель воды" #Машинный перевод 28.10.23
+  
+ nick_eagle_arrow: "Орел-Стрела" #Машинный перевод 28.10.23
+  
+ nick_water_drinker: "Пьющий воду" #Машинный перевод 28.10.23
+  
+ nick_shout_maker: "Кричащий" #Машинный перевод 28.10.23
+  
+ nick_of_the_queer_eyes: "странных глаз" #Машинный перевод 28.10.23
+  
+ nick_lover_killer: "Любовник-убийца" #Машинный перевод 28.10.23
+  
+ nick_man_slayer: "Человекоубийца" #Машинный перевод 28.10.23
+  
+ nick_metal_maker: "Металлург" #Машинный перевод 28.10.23
+  
+ nick_iron_hewer: "Железный рубщик" #Машинный перевод 28.10.23
+  
+ nick_love_another: "Любовь-Другая" #Машинный перевод 28.10.23
+  
+ nick_the_aversarian_uloven: "аверсарианец" #Машинный перевод 28.10.23
+  
+  # PIRATE COAST # 
+ nick_blackrock: "Блэк Рок" #Машинный перевод 28.10.23
+ nick_blackrock_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] стал опасаться во всем открытом море из-за [CharYourHerHis(CHARACTER)] чудовищной власти над глубоким океаном." #Машинный перевод 28.10.23
+  
+ nick_wind_blade: "Клинок ветра" #Машинный перевод 28.10.23
+ nick_wind_blade_desc: "Несмотря на недуг [CharYourHerHis(CHARACTER)], [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] считается мастером меча быстрее ветра." #Машинный перевод 28.10.23
+  
+ nick_empty_heart: "Пустое сердце" #Машинный перевод 28.10.23
+ nick_empty_heart_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] всегда был известен своей жестокостью и бессердечием по отношению к страданиям других." #Машинный перевод 28.10.23
+  
+ nick_the_wildfire: "Лесной пожар" #Машинный перевод 28.10.23
+ nick_the_wildfire_desc: "Начиная с [CharYourHerHis(CHARACTER)] юноша [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharHaveHas(CHARACTER)] обладал вспыльчивым и хаотичным темпераментом, с которым нелегко справиться." #Машинный перевод 28.10.23
+  
+ nick_burning_star: "Горящая звезда" #Машинный перевод 28.10.23
+ nick_burning_star_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] победил соперников [CharYourHerHis(CHARACTER)] во время бушующей огненной бури в разгар последнего [Concept('five_captains_war','great pirate war')|E]." #Машинный перевод 28.10.23
+  
+ nick_sick_rat: "Больная Крыса" #Машинный перевод 28.10.23
+ nick_sick_rat_desc: "Неприятный кашель и зловещий цвет лица сопровождают [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] каждый момент бодрствования." #Машинный перевод 28.10.23
+  
+ nick_rahksasa_maw: "Утроба Раксасы" #Машинный перевод 28.10.23
+  
+ nick_mutterblade: "Мутерблейд" #Машинный перевод 28.10.23
+  
+ nick_the_mad_blade: "Безумный клинок" #Машинный перевод 28.10.23
+  
+ nick_gutterblade: "Гатерблейд" #Машинный перевод 28.10.23
+  
+ nick_unlucky_ravivarman: "Невезучий" #Машинный перевод 28.10.23
+  
+ nick_the_bull_yohannaan: "бык" #Машинный перевод 28.10.23
+  
+  # KASHIRYA # 
+ nick_scar_bound: "Окованный шрамом" #Машинный перевод 28.10.23
+ nick_scar_bound_desc: "Шрамы, украшающие тело [CharYourHerHis(CHARACTER)], словно ритуальные знаки, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] призваны честью освободить народ Танумарей." #Машинный перевод 28.10.23
+  
+ nick_krakeneater: "Кракен-Пожиратель" #Машинный перевод 28.10.23
+ nick_krakeneater_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] однажды защищал корабль, вонзив зубы [CharYourHerHis(CHARACTER)] в щупальце ужасного кракена, чем заслужил большую известность среди людей [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+  
+ nick_scourge_of_death: "Бич смерти" #Машинный перевод 28.10.23
+ nick_scourge_of_death_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] принес объятия смерти многим гнусным культам смерти в Каширии, очищая землю, словно бич самой смерти." #Машинный перевод 28.10.23
+  
+ nick_the_spider_morthor: "паук" #Машинный перевод 28.10.23
+ nick_the_spider_morthor_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] умеет расставлять ловушки против [CharYourHerHis(CHARACTER)] противников, делая их беспомощными, как мухи в паутине." #Машинный перевод 28.10.23
+  
+ nick_son_of_many_suns: "сын многих солнц" #Машинный перевод 28.10.23
+ nick_son_of_many_suns_desc: "Легенды гласят, что при рождении [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharWereWas(CHARACTER)] небо над Каширией раскололось на части, в результате чего свет Солнца отразился в десять раз." #Машинный перевод 28.10.23
+  
+ nick_the_hand_that_bites: "Рука, которая кусает" #Машинный перевод 28.10.23
+  
+ nick_the_sun_prince: "Солнечный принц" #Машинный перевод 28.10.23
+  
+ nick_skyhammer: "Скайхаммер" #Машинный перевод 28.10.23
+  
+ nick_the_hollow_digbhanja: "Пустота" #Машинный перевод 28.10.23
+  
+ nick_the_magnificent_solyana: "Великолепный" #Машинный перевод 28.10.23
+  
+ nick_the_worm_goggiraja: "Червь" #Машинный перевод 28.10.23
+  
+ nick_the_watchfire_pyusawhti: "Дозорный огонь" #Машинный перевод 28.10.23
+  
+ nick_the_king_of_thorns_payang: "Король Тернов" #Машинный перевод 28.10.23
+  
+ nick_the_tactician_narathu: "Тактик" #Машинный перевод 28.10.23
+  
+ nick_weak_legs_nandavarman: "Слабые ноги" #Машинный перевод 28.10.23
+  
+ nick_the_resplendent_thawdar: "Великолепный" #Машинный перевод 28.10.23
+  
+  # CHEVALIE # 
+ nick_the_black_bastard: "Черный ублюдок" #Машинный перевод 28.10.23
+ nick_the_black_bastard_desc: "Вся [CharYourHerHis(CHARACTER)] жизнь [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharHaveHas(CHARACTER)] отмечена темными волосами [CharYourHerHis(CHARACTER)] биологической матери." #Машинный перевод 28.10.23
+  
+ nick_good_king: "Добрый король" #Машинный перевод 28.10.23
+ nick_good_king_desc: "Ни один из них не воплощал в себе достоинства короля, подобного [CHARACTER.GetShortUINameNoTooltipNoFormat], хотя с тех пор многие пытались." #Машинный перевод 28.10.23
+  
+ nick_the_ogre: "огр" #Машинный перевод 28.10.23
+ nick_the_ogre_desc: "Как безымянный воин, товарищи [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] шутили по поводу размера [CharYourHerHis(CHARACTER)] и подходящего имени. Мало кто уже осмеливается смеяться." #Машинный перевод 28.10.23
+  
+ nick_twisttongue: "Твист-Язык" #Машинный перевод 28.10.23
+ nick_twisttongue_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] с детства высмеивали за то, что он говорил так, как будто воюет с [CharYourHerHis(CHARACTER)] собственным языком." #Машинный перевод 28.10.23
+  
+ nick_blackclaw: "Черный коготь" #Машинный перевод 28.10.23
+ nick_blackclaw_desc: "Облачённый в чёрные доспехи верхом на чёрном грифоне, облик [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] внушает страх врагам [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+  
+ nick_rose_of_the_north: "Роза Севера" #Машинный перевод 28.10.23
+ nick_rose_of_the_north_desc: "Известный [CharYourHerHis(CHARACTER)] красотой, [CHARACTER.GetShortUINameNoTooltipNoFormat] удивляет [_s(CHARACTER)] многих тем, что он также обладает потрясающим мастерством обращения с клинком." #Машинный перевод 28.10.23
+  
+ nick_seaglide: "Сиглайд" #Машинный перевод 28.10.23
+ nick_seaglide_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] подарил Валадекам моря, и они никогда этого не забывали." #Машинный перевод 28.10.23
+  
+ nick_good_father: "Хороший отец" #Машинный перевод 28.10.23
+ nick_good_father_desc: "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] добрая репутация все еще предшествует [_s(CHARACTER)] [CharYouHerHim(CHARACTER)] как способ[CHARACTER.GetMotherFather|U]." #Машинный перевод 28.10.23
+  
+ nick_king_of_varrdevet: "король Варрдевета" #Машинный перевод 28.10.23
+ nick_king_of_varrdevet_desc: "Впервые названный так по собственному настоянию [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat], этот титул продолжал жестокими насмешками преследовать изгнанного графа Жиссеня." #Машинный перевод 28.10.23
+  
+ nick_solstice_scourge: "Бич Солнцестояния" #Машинный перевод 28.10.23
+ nick_solstice_scourge_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] бесчисленные годы преследовал эту землю, убивая ровно двенадцать мужчин и двенадцать женщин в двадцать пятый день двенадцатого месяца каждые двенадцать лет." #Машинный перевод 28.10.23
+  
+ nick_wisestar: "Wisestar" #Машинный перевод 28.10.23
+ nick_wisestar_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] правит [_s(CHARACTER)], обладая мудростью и интеллектом, а [CharAreIs(CHARACTER)] славится тем, что обманом заставил злых Галликадеров раскрыть свою злобу." #Машинный перевод 28.10.23
+  
+ nick_illspeaker: "неговорящий" #Машинный перевод 28.10.23
+  
+ nick_deathrender: "Смерторез" #Машинный перевод 28.10.23
+  
+ nick_hate_heart: "Сердце-Ненависть" #Машинный перевод 28.10.23
+  
+ nick_the_godtouched: "тронутый Богом" #Машинный перевод 28.10.23
+  
+ nick_the_mad_maadlauw: "Безумный" #Машинный перевод 28.10.23
+  
+ nick_the_maiden_fair_iesdtte: "Девичья ярмарка" #Машинный перевод 28.10.23
+  
+ nick_the_old_lauwe: "Старый" #Машинный перевод 28.10.23
+  
+ nick_the_dull_baudte: "скучный" #Машинный перевод 28.10.23
+  
+ nick_the_last_causen: "последний" #Машинный перевод 28.10.23
+  
+ nick_the_black_jorvik: "черный" #Машинный перевод 28.10.23
+  
+ nick_the_bitter_liusscarn: "Горький" #Машинный перевод 28.10.23
+  
+ nick_the_apostate_ribaal: "Отступник" #Машинный перевод 28.10.23
+  
+ nick_of_the_rose_and_swan: "о Розе и Лебеде" #Машинный перевод 28.10.23
+  
+ nick_of_the_quick_fingers: "из быстрых пальцев" #Машинный перевод 28.10.23
+  
+ nick_the_luminous: "Светящийся" #Машинный перевод 28.10.23
+  
+ nick_the_fortenorn: "Фортенорн" #Машинный перевод 28.10.23
+  
+ nick_the_able_ansfrei: "Способный" #Машинный перевод 28.10.23
+  
+ nick_the_opulent_odel: "Роскошный" #Машинный перевод 28.10.23
+  
+  # MISC # 
+ nick_the_rebuker: "обличитель" #Машинный перевод 28.10.23
+  
+ nick_of_the_claylands: "из Клейлендов" #Машинный перевод 28.10.23
+  
+ nick_the_face_sculptor: "Скульптор лица" #Машинный перевод 28.10.23
+  
+ nick_the_onion_knight: "луковый рыцарь" #Машинный перевод 28.10.23
+  
+ nick_the_glass_renseb: "[CHARACTER.GetWomanMan|U] стекла" #Машинный перевод 28.10.23
+  
+  
+  ################### 
+  # EVENT NICKNAMES # 
+  ################### 
+ nick_motherfather_of_iyrossi: "[CHARACTER.GetMotherFather|U] Ийросси" #Машинный перевод 28.10.23
+ nick_motherfather_of_iyrossi_desc: ""
+  
+ nick_avenger_of_elysia: "Мститель из Элизии" #Машинный перевод 28.10.23
+  
+ nick_true_heir_of_asojiva: "Истинный наследник Асодживы" #Машинный перевод 28.10.23
+  
+ nick_the_dreamer: "мечтатель" #Машинный перевод 28.10.23
+ nick_the_dreamer_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] рассматривается многими как [CHARACTER.GetWomanMan] полусонный, [CharYourHerHis(CHARACTER)] разум, вечно блуждающий в пророческих снах." #Машинный перевод 28.10.23
+  
+ nick_all_seeing: "Всевидящий" #Машинный перевод 28.10.23
+ nick_all_seeing_desc: "Люди шепчутся, что [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] всматривался в туман и видел видения того, что было и что будет." #Машинный перевод 28.10.23
+  
+ nick_mistseeker: "Искатель тумана" #Машинный перевод 28.10.23
+ nick_mistseeker_desc: "Там, где многие боятся [fog|E], [CHARACTER.GetShortUINameNoTooltipNoFormat] вместо этого принимает [_s(CHARACTER)], даже исчезая на целые дни в землях, ныне покрытых его туманами." #Машинный перевод 28.10.23
+  
+ nick_the_milehigh: "Майлхай" #Машинный перевод 28.10.23
+  
+ nick_statuebreaker: "Разрушитель статуй" #Машинный перевод 28.10.23
+  
+ nick_liso_inareberit_damotada: "Лисо Инареберит Дамотада" #Машинный перевод 28.10.23
+  
+ nick_the_redeemer: "Искупитель" #Машинный перевод 28.10.23
+  
+ nick_gatecrasher: "Незваный гость" #Машинный перевод 28.10.23
+ nick_gatecrasher_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] сделал невозможное, разбив [GetBuilding('01_nagom_kakezihi').GetName] и разгромив его могучий гарнизон, доказав, что южная империя не является непобедимым колоссом." #Машинный перевод 28.10.23
+  
+ nick_mat_ertomaxvor: "Мат Эртмомаксвор" #Машинный перевод 28.10.23
+  
+ nick_aryvann_zerkyy: "Арыванн Зеркий" #Машинный перевод 28.10.23
+  
+ nick_tehet_aruvasuen: "Техет Арувасуен" #Машинный перевод 28.10.23
+  
+ nick_al_anani: "Аль-Анани" #Машинный перевод 28.10.23
+ nick_al_anani_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] сделал последний шаг святого пути, славно поднявшись к святой земле Анаан." #Машинный перевод 28.10.23
+  
+ nick_skycrowned: "Венценосный Небесами" #Машинный перевод 28.10.23
+  
+ nick_archon_killer: "Архонт-убийца" #Машинный перевод 28.10.23
+  
+ nick_the_last_aautokratir: "Последний Аутократир" #Машинный перевод 28.10.23
+  
+ nick_homefinder: "Homefinder" #Машинный перевод 28.10.23
+  
+ nick_the_pirate_king: "Король пиратов" #Машинный перевод 28.10.23
+  
+ nick_the_uniter: "Объединитель" #Машинный перевод 28.10.23
+  
+ nick_mountain_king: "Горный Хранитель" #Машинный перевод 28.10.23
+  
+ nick_the_scourge_of_rovarska: "Бич Роварски" #Машинный перевод 28.10.23
+  
+ nick_the_waymaker: "Путеводитель" #Машинный перевод 28.10.23
+ nick_the_waymaker_desc: "Благодаря настойчивости и решимости [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharHaveHas(CHARACTER)] основал Орден, призванный вести народы [Concept('sjalvolki_migrations','great migration')|E] в их новый мир." #Машинный перевод 28.10.23
+  
+  # REFORM AVERSARIA # 
+ nick_o_apokatastasis_ton_aversaria: "o Апокатастасис тон Аверсария" #Машинный перевод 28.10.23
+ nick_o_apokatastasis_ton_aversaria_desc: "Несмотря ни на что, [CHARACTER.GetShortUINameNoTooltipNoFormat] восстановил Аверсарию, а [CharAreIs(CHARACTER)] теперь почитается ее гражданами как «Восстановитель мира»." #Машинный перевод 28.10.23
+  
+ nick_epephanis: "Эпефанис" #Машинный перевод 28.10.23
+ nick_epephanis_desc: "Несмотря ни на что, [CHARACTER.GetShortUINameNoTooltipNoFormat] восстановил Аверсарию, а [CharAreIs(CHARACTER)] теперь почитается ее гражданами как явный Бог." #Машинный перевод 28.10.23
+  
+ nick_theios_kai_daskalon: "Тейос Кай Даскалон" #Машинный перевод 28.10.23
+ nick_theios_kai_daskalon_desc: "Несмотря ни на что, [CHARACTER.GetShortUINameNoTooltipNoFormat] восстановил Аверсарию, а [CharAreIs(CHARACTER)] теперь почитается ее гражданами как их Бог и Повелитель." #Машинный перевод 28.10.23
+  
+ nick_o_agnokratir: "о Агнократир" #Машинный перевод 28.10.23
+ nick_o_agnokratir_desc: "Несмотря ни на что, [CHARACTER.GetShortUINameNoTooltipNoFormat] восстановил Аверсарию, доказав [CharYourselfHerselfHimself(CHARACTER)] как «Чистейшее воплощение»." #Машинный перевод 28.10.23
+  
+ nick_o_ekdikitos: "о Экдикитос" #Машинный перевод 28.10.23
+ nick_o_ekdikitos_desc: "Несмотря ни на что, [CHARACTER.GetShortUINameNoTooltipNoFormat] восстановил Аверсарию, отомстив как за империю, так и за падшую Автократию Аксиаотею." #Машинный перевод 28.10.23
+  
+ nick_o_theios_ton_stachyon: "о Тейос тон Стахион" #Машинный перевод 28.10.23
+ nick_o_theios_ton_stachyon_desc: "Несмотря ни на что, [CHARACTER.GetShortUINameNoTooltipNoFormat] восстановил Аверсарию, а [CharAreIs(CHARACTER)] теперь поклоняется подданным [CharYourHerHis(CHARACTER)] как «Богу Пепла»." #Машинный перевод 28.10.23
+  
+ nick_polyagapomanos_ton_agnokratiron: "Полиагапоманос тон Агнократирон" #Машинный перевод 28.10.23
+ nick_polyagapomanos_ton_agnokratiron_desc: "Несмотря ни на что, [CHARACTER.GetShortUINameNoTooltipNoFormat] восстановил Аверсарию, а [CharAreIs(CHARACTER)] теперь почитается ее гражданами как «Возлюбленный из чистейших»." #Машинный перевод 28.10.23
+  
+ nick_o_aittitos_hilios: "о Аиттитос Хилиос" #Машинный перевод 28.10.23
+ nick_o_aittitos_hilios_desc: "Несмотря ни на что, [CHARACTER.GetShortUINameNoTooltipNoFormat] восстановил Аверсарию, а [CharAreIs(CHARACTER)] теперь провозглашается ее гражданами «Непобедимым Солнцем»." #Машинный перевод 28.10.23
+  
+ nick_o_theios_ton_aihaemos: "о Теос тон Айгемос" #Машинный перевод 28.10.23
+ nick_o_theios_ton_aihaemos_desc: "Несмотря ни на что, [CHARACTER.GetShortUINameNoTooltipNoFormat] восстановил Аверсарию, а [CharAreIs(CHARACTER)] теперь поклоняется подданным [CharYourHerHis(CHARACTER)] как «Богу Крови»." #Машинный перевод 28.10.23
+  
+ nick_trismegistos: "Трисмегист" #Машинный перевод 28.10.23
+ nick_trismegistos_desc: "Несмотря ни на что, [CHARACTER.GetShortUINameNoTooltipNoFormat] восстановил Аверсарию, а [CharAreIs(CHARACTER)] теперь почитался ее гражданами как трижды великий, чем они уже были." #Машинный перевод 28.10.23
+  
+ nick_o_apelatherotos: "о Апелатеротос" #Машинный перевод 28.10.23
+ nick_o_apelatherotos_desc: "Несмотря ни на что, [CHARACTER.GetShortUINameNoTooltipNoFormat] восстановил Аверсарию, а [CharAreIs(CHARACTER)] теперь почитается ее гражданами как освободитель империи." #Машинный перевод 28.10.23
+  
+ nick_o_kirex_ton_vathion: "о Кирекс тон Ватион" #Машинный перевод 28.10.23
+ nick_o_kirex_ton_vathion_desc: "Несмотря ни на что, [CHARACTER.GetShortUINameNoTooltipNoFormat] восстановил Аверсарию, а [CharAreIs(CHARACTER)] теперь почитается ее гражданами как «Вестник Глубин»." #Машинный перевод 28.10.23
+  
+ nick_o_agios: "о Агиос" #Машинный перевод 28.10.23
+ nick_o_agios_desc: "Несмотря ни на что, [CHARACTER.GetShortUINameNoTooltipNoFormat] восстановил Аверсарию, а [CharAreIs(CHARACTER)] теперь почитается ее гражданами как один из Святых-Агионистов." #Машинный перевод 28.10.23
+  
+ nick_o_apokostastasis_ton_entolon: "o Апокатастасис тон Энтолон" #Машинный перевод 28.10.23
+ nick_o_apokostastasis_ton_entolon_desc: "Несмотря ни на что, [CHARACTER.GetShortUINameNoTooltipNoFormat] восстановил Аверсарию, а [CharAreIs(CHARACTER)] теперь почитается ее гражданами как «Восстановитель Мандата»." #Машинный перевод 28.10.23
+  
+ nick_epeisodos_ton_barbaron: "Эпейсодос тон Барбарон" #Машинный перевод 28.10.23
+ nick_epeisodos_ton_barbaron_desc: "Несмотря ни на что, [CHARACTER.GetShortUINameNoTooltipNoFormat] восстановил Аверсарию, а [CharAreIs(CHARACTER)] теперь почитается ее гражданами как «Укротитель варваров»." #Машинный перевод 28.10.23
+  
+ nick_o_apelatherotos_ton_iyrossion: "o Апелатеротос тон Ироссион" #Машинный перевод 28.10.23
+ nick_o_apelatherotos_ton_iyrossion_desc: "Несмотря ни на что, [CHARACTER.GetShortUINameNoTooltipNoFormat] восстановил Аверсарию, а [CharAreIs(CHARACTER)] теперь почитается ее гражданами как «Освободитель Ийросси»." #Машинный перевод 28.10.23
+  
+ nick_dolofonis_ton_theion: "Долофонис тон Тион" #Машинный перевод 28.10.23
+ nick_dolofonis_ton_theion_desc: "Несмотря ни на что, [CHARACTER.GetShortUINameNoTooltipNoFormat] восстановил Аверсарию, а [CharAreIs(CHARACTER)] теперь почитается ее гражданами как «Убийца Богов»." #Машинный перевод 28.10.23
+  
+ nick_dexeirix_tes_aersodiax: "Дексейрикс тес Аэрсодиакс" #Машинный перевод 28.10.23
+ nick_dexeirix_tes_aersodiax_desc: "Несмотря ни на что, [CHARACTER.GetShortUINameNoTooltipNoFormat] восстановил Аверсарию, а [CharAreIs(CHARACTER)] теперь почитается ее гражданами как «Наместник Аэрсодиакса»." #Машинный перевод 28.10.23
+  
+ nick_epilexmenoi_apos_ton_theioi: "Epilexmenoi apos ton Theioi" #Машинный перевод 28.10.23
+ nick_epilexmenoi_apos_ton_theioi_desc: "Несмотря ни на что, [CHARACTER.GetShortUINameNoTooltipNoFormat] восстановил Аверсарию, а [CharAreIs(CHARACTER)] теперь почитается ее гражданами как «Избранник Богов»." #Машинный перевод 28.10.23
+  
+  # RITE WARS # 
+ nick_rite_slayer: "Обрядовый убийца" #Машинный перевод 28.10.23
+ nick_rite_slayer_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] славно положил конец Обрядовым войнам благодаря превосходящей силе и завоеваниям, имя [CharYourHerHis(CHARACTER)] теперь пропитано кровью врагов [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+  
+ nick_peace_maker: "Миротворец" #Машинный перевод 28.10.23
+ nick_peace_maker_desc: "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] умелые переговоры остановили Обрядовые войны и принесли мир [Concept('shattered_coast','sjalvolki coast')|E]." #Машинный перевод 28.10.23
+  
+ nick_rite_lover: "Обряд-Любовник" #Машинный перевод 28.10.23
+  
+ nick_rite_breaker: "Нарушитель обрядов" #Машинный перевод 28.10.23
+  
+  ##################### 
+  # HUNTING NICKNAMES # 
+  ##################### 
+  
+  # LEGENDARY HUNTS # 
+ nick_apep_ibizan_slayer: "Апеп-Ибизанский убийца" #Машинный перевод 28.10.23
+ nick_vendarja_slayer: "Вендарья Бэйн" #Машинный перевод 28.10.23
+ nick_simurgh_slayer: "Огонь Симурга" #Машинный перевод 28.10.23
+ nick_tarasque_slayer: "Убийца гор" #Машинный перевод 28.10.23
+ nick_akapura_slayer: "Убийца Акапуры" #Машинный перевод 28.10.23
+ nick_shahmaran_slayer: "Гнев Шахмарана" #Машинный перевод 28.10.23
+ nick_aboleth_slayer: "Убийца Аболета" #Машинный перевод 28.10.23
+ nick_fogbeast_slayer: "Туманный охотник" #Машинный перевод 28.10.23
+ nick_fogbeast_slayer_2: "Туманный ходок" #Машинный перевод 28.10.23
+  
+  # OTHER HUNTS # 
+ nick_the_radiant: "Сияющий" #Машинный перевод 28.10.23
+ nick_night_lover: "Ночной любовник" #Машинный перевод 28.10.23
+ nick_nightsbane: "Ночная погибель" #Машинный перевод 28.10.23
+ nick_shadowsbane: "Погибель теней" #Машинный перевод 28.10.23
+ nick_the_giant_slayer: "Гигант убийца" #Машинный перевод 28.10.23
+ nick_crystal_wisp_slayer: "Кристалл-убийца" #Машинный перевод 28.10.23
+ nick_valien_diamond_slayer: "Алмазный охотник" #Машинный перевод 28.10.23
+ nick_the_snake_slayer: "истребитель змей" #Машинный перевод 28.10.23
+ nick_karkadann_slayer: "Каркаданнский убийца" #Машинный перевод 28.10.23
+ nick_werewolf_slayer: "Охотник на оборотней" #Машинный перевод 28.10.23
+ nick_urmahlullu_slayer: "Убийца Урмахлуллу" #Машинный перевод 28.10.23
+ nick_chimera_slayer: "Убийца химеры" #Машинный перевод 28.10.23
+ nick_daggertusk_slayer: "Кинжалбивень" #Машинный перевод 28.10.23
+ nick_peluda_slayer: "Убийца Пелуды" #Машинный перевод 28.10.23
+ nick_dire_griffon_slayer: "Грифон-охотник" #Машинный перевод 28.10.23
+ nick_zilant_slayer: "Зилант Убийца" #Машинный перевод 28.10.23
+ nick_hieracosphinx_slayer: "сфинкс" #Машинный перевод 28.10.23
+ nick_naga_slayer: "Naga Slayer" #Машинный перевод 28.10.23
+ nick_coatl_slayer: "Змеиный гнев" #Машинный перевод 28.10.23
+ nick_hydra_slayer: "Убийца гидры" #Машинный перевод 28.10.23
+ nick_running_raptor_slayer: "Убийца ящеров" #Машинный перевод 28.10.23
+ nick_twin_serpent_slayer: "Змеиный охотник" #Машинный перевод 28.10.23
+ nick_roaring_lizard_slayer: "Ревущий убийца ящеров" #Машинный перевод 28.10.23
+ nick_myrmeke_slayer: "Мирмеке-убийца" #Машинный перевод 28.10.23
+ nick_pyralis_slayer: "Убийца Пиралиса" #Машинный перевод 28.10.23
+ nick_false_hydra_slayer: "Гидра-охотник" #Машинный перевод 28.10.23
+ nick_wyrm_slayer: "Убийца Змей" #Машинный перевод 28.10.23
+ nick_merbeast_slayer: "Убийца Мера" #Машинный перевод 28.10.23
+ nick_karankoncolos_slayer: "Убийца каранконколосов" #Машинный перевод 28.10.23
+ nick_nagual_slayer: "Убийца Нагваля" #Машинный перевод 28.10.23
+ nick_ochokochi_slayer: "Ochokochi Slayer" #Машинный перевод 28.10.23
+ nick_ubir_slayer: "Убир Хантер" #Машинный перевод 28.10.23
+ nick_gaunt_slayer: "Гонт-убийца" #Машинный перевод 28.10.23
+ nick_vampire_slayer: "Охотник на вампиров" #Машинный перевод 28.10.23
+ nick_almas_slayer: "Алмас-убийца" #Машинный перевод 28.10.23
+ nick_devi_slayer: "Деви-убийца" #Машинный перевод 28.10.23
+ nick_shetani_slayer: "Шетани Хантер" #Машинный перевод 28.10.23
+ nick_wildhunt_slayer: "Дикий Охотник" #Машинный перевод 28.10.23
+ nick_djinn_slayer: "Убийца Джиннов" #Машинный перевод 28.10.23
+ nick_cor_slayer: "Убийца Огня" #Машинный перевод 28.10.23
+ nick_banshee_slayer: "Убийца банши" #Машинный перевод 28.10.23
+ nick_fortune_eater_slayer: "Счастливчик" #Машинный перевод 28.10.23
+ nick_leshen_slayer: "Leshen Hunter" #Машинный перевод 28.10.23
+ nick_rock_giant_slayer: "Убийца каменных гигантов" #Машинный перевод 28.10.23
+ nick_manzasiri_slayer: "Бог-убийца" #Машинный перевод 28.10.23
+ nick_living_blizzard_slayer: "Ледяной Ветер" #Машинный перевод 28.10.23
+ nick_whisperwind_slayer: "Охотник за шепотом" #Машинный перевод 28.10.23
+ nick_ghost_hater: "Призрак-Ненавистник" #Машинный перевод 28.10.23
+ nick_hauntsbane: "Призрачное проклятие" #Машинный перевод 28.10.23
+ nick_wish_stealer: "Похититель желаний" #Машинный перевод 28.10.23
+ nick_the_woodsman: "Лесник" #Машинный перевод 28.10.23
+ nick_tree_hater: "Ненавистник деревьев" #Машинный перевод 28.10.23
+ nick_weed_killer: "Гербицидов" #Машинный перевод 28.10.23
+  
+  ############################################ 
+  # NICKNAMES COURTESY OF NICKNAMES EXPANDED # 
+  ############################################ 
+  
+ nick_thunder_fury: "Громовая Ярость" #Машинный перевод 28.10.23
+ #nick_thunder_fury: "Громовая Ярость" #Машинный перевод 28.10.23
+ nick_silversword: "Серебряный меч" #Машинный перевод 28.10.23
+ #nick_silversword: "Серебряный меч" #Машинный перевод 28.10.23
+ nick_the_pariah: "изгой" #Машинный перевод 28.10.23
+ nick_the_gentle_giant: "Нежный великан" #Машинный перевод 28.10.23
+ nick_the_golden_giant: "Золотой Гигант" #Машинный перевод 28.10.23
+ nick_the_war_giant: "Боевой Гигант" #Машинный перевод 28.10.23
+ nick_the_warrior_giant: "Воин-Гигант" #Машинный перевод 28.10.23
+ nick_the_cordial_giant: "сердечный великан" #Машинный перевод 28.10.23
+ nick_the_shadow_giant: "Теневой Гигант" #Машинный перевод 28.10.23
+ nick_the_gracious_dwarf: "Милостивый гном" #Машинный перевод 28.10.23
+ nick_the_opulent_dwarf: "богатый гном" #Машинный перевод 28.10.23
+ nick_the_little_conqueror: "Маленький Завоеватель" #Машинный перевод 28.10.23
+ nick_the_sturdy_dwarf: "крепкий гном" #Машинный перевод 28.10.23
+ nick_the_sharp_dwarf: "Острый гном" #Машинный перевод 28.10.23
+ nick_the_skulking_dwarf: "крадущийся гном" #Машинный перевод 28.10.23
+ nick_the_imp: "Бес" #Машинный перевод 28.10.23
+ nick_the_white_wolf: "Белый Волк" #Машинный перевод 28.10.23
+ nick_the_white_shadow: "Белая Тень" #Машинный перевод 28.10.23
+ nick_the_white_death: "Белая Смерть" #Машинный перевод 28.10.23
+ nick_the_white_rose: "Белая Роза" #Машинный перевод 28.10.23
+ nick_the_noble_lion: "Благородный Лев" #Машинный перевод 28.10.23
+ nick_the_gilded_lion: "позолоченный лев" #Машинный перевод 28.10.23
+ nick_the_lion_heart: "Львиное Сердце" #Машинный перевод 28.10.23
+ nick_the_mauler_lion: "Лев-мучитель" #Машинный перевод 28.10.23
+ nick_the_lion_the_shadows: "Теневой лев" #Машинный перевод 28.10.23
+ nick_the_gentle_lion: "Нежный Лев" #Машинный перевод 28.10.23
+ nick_the_white_bear: "Белый Медведь" #Машинный перевод 28.10.23
+ nick_the_red_bear: "Читающий Медведь" #Машинный перевод 28.10.23
+ nick_the_black_bear: "Черный Медведь" #Машинный перевод 28.10.23
+ nick_the_broken_bear: "Сломанный Медведь" #Машинный перевод 28.10.23
+ nick_the_wicked_bear: "Злой Медведь" #Машинный перевод 28.10.23
+ nick_the_kraken: "Кракен" #Машинный перевод 28.10.23
+ #nick_the_kraken: "Кракен" #Машинный перевод 28.10.23
+ nick_son_of_thor: "Сын Тиргана" #Машинный перевод 28.10.23
+ nick_son_of_odin: "Сын Велоса" #Машинный перевод 28.10.23
+ nick_daughter_freya: "Дочь Уреды" #Машинный перевод 28.10.23
+ nick_sword_of_justice: "Меч Справедливости" #Машинный перевод 28.10.23
+ nick_sword_of_vengeance: "Меч мести" #Машинный перевод 28.10.23
+ nick_the_heathen_sword: "языческий меч" #Машинный перевод 28.10.23
+ nick_the_cruel_sword: "Жестокий меч" #Машинный перевод 28.10.23
+ nick_the_humble_sword: "Скромный меч" #Машинный перевод 28.10.23
+ nick_the_sword_of_love: "Меч любви" #Машинный перевод 28.10.23
+ nick_the_sword_of_order: "Меч Порядка" #Машинный перевод 28.10.23
+ nick_the_holy_sword: "Святой Меч" #Машинный перевод 28.10.23
+ nick_the_widowmaker: "вдова" #Машинный перевод 28.10.23
+ nick_the_oathkeeper: "Хранитель Клятвы" #Машинный перевод 28.10.23
+ nick_axe_of_justice: "Топор Справедливости" #Машинный перевод 28.10.23
+ nick_axe_of_vengeance: "Топор мести" #Машинный перевод 28.10.23
+ nick_the_heathen_axe: "языческий топор" #Машинный перевод 28.10.23
+ nick_the_cruel_axe: "Жестокий Топор" #Машинный перевод 28.10.23
+ nick_the_humble_axe: "Скромный топор" #Машинный перевод 28.10.23
+ nick_the_axe_of_love: "Топор любви" #Машинный перевод 28.10.23
+ nick_the_axe_of_order: "Топор Порядка" #Машинный перевод 28.10.23
+ nick_the_holy_axe: "Святой Топор" #Машинный перевод 28.10.23
+ nick_bloodfury: "Кровавая Ярость" #Машинный перевод 28.10.23
+ nick_the_hammer_of_justice: "Молот правосудия" #Машинный перевод 28.10.23
+ nick_the_hammer_of_vengeance: "Молот мести" #Машинный перевод 28.10.23
+ nick_the_cruel_hammer: "Жестокий молот" #Машинный перевод 28.10.23
+ nick_the_humble_hammer: "Скромный молот" #Машинный перевод 28.10.23
+ nick_the_hammer_of_lust: "Молот похоти" #Машинный перевод 28.10.23
+ nick_the_hammer_of_order: "Хамемр Порядка" #Машинный перевод 28.10.23
+ nick_the_hammer_of_wrath: "Молот Гнева" #Машинный перевод 28.10.23
+ nick_shield_of_justice: "Щит Справедливости" #Машинный перевод 28.10.23
+ nick_shield_of_vengeance: "Щит мести" #Машинный перевод 28.10.23
+ nick_the_heathen_shield: "Языческий Щит" #Машинный перевод 28.10.23
+ nick_the_cruel_shield: "Жестокий Щит" #Машинный перевод 28.10.23
+ nick_the_humble_shield: "Скромный Щит" #Машинный перевод 28.10.23
+ nick_the_indecent_shield: "Непристойный Щит" #Машинный перевод 28.10.23
+ nick_the_shield_of_order: "Щит Порядка" #Машинный перевод 28.10.23
+ nick_the_holy_shield: "Святой Щит" #Машинный перевод 28.10.23
+ nick_the_slayer: "Истребительница" #Машинный перевод 28.10.23
+ nick_the_legionnaire: "Легионер" #Машинный перевод 28.10.23
+ nick_the_behemoth: "Бегемот" #Машинный перевод 28.10.23
+ nick_the_serpent: "Змей" #Машинный перевод 28.10.23
+ nick_the_fierce: "свирепый" #Машинный перевод 28.10.23
+ nick_the_rabid: "Бешеный" #Машинный перевод 28.10.23
+ nick_the_silencer: "Глушитель" #Машинный перевод 28.10.23
+ nick_the_phantom: "Фантом" #Машинный перевод 28.10.23
+ nick_the_beast: "зверь" #Машинный перевод 28.10.23
+ nick_the_greatclaw: "Великий Коготь" #Машинный перевод 28.10.23
+ nick_death_claw: "Коготь смерти" #Машинный перевод 28.10.23
+ nick_strong_fang: "Сильный Клык" #Машинный перевод 28.10.23
+ nick_the_gravekeeper: "могильщик" #Машинный перевод 28.10.23
+ nick_the_invincible: "Непобедимый" #Машинный перевод 28.10.23
+ nick_the_tempest: "буря" #Машинный перевод 28.10.23
+ nick_the_night_blade: "Ночной Клинок" #Машинный перевод 28.10.23
+ nick_night_hide: "Ночная шкура" #Машинный перевод 28.10.23
+ nick_nightfury: "Ночная ярость" #Машинный перевод 28.10.23
+ nick_stormroar: "Рев бури" #Машинный перевод 28.10.23
+ nick_ironhair: "Железноволосый" #Машинный перевод 28.10.23
+ nick_ironflayer: "Железный живодер" #Машинный перевод 28.10.23
+ nick_boneblade: "Костяной клинок" #Машинный перевод 28.10.23
+ nick_gorehammer: "Кровавый Молот" #Машинный перевод 28.10.23
+ nick_dragonheart: "Сердце дракона" #Машинный перевод 28.10.23
+ nick_stonecleaver: "Камнетес" #Машинный перевод 28.10.23
+ nick_true_mane: "Истинная Грива" #Машинный перевод 28.10.23
+ nick_the_worm: "Червь" #Машинный перевод 28.10.23
+ nick_three_fingers: "Три пальца" #Машинный перевод 28.10.23
+ nick_two_fingers: "Два пальца" #Машинный перевод 28.10.23
+ nick_the_scarred: "Израненный" #Машинный перевод 28.10.23
+ nick_the_bloodied: "окровавленный" #Машинный перевод 28.10.23
+ nick_the_marked: "отмеченный" #Машинный перевод 28.10.23
+ nick_the_stiched: "Сшитый" #Машинный перевод 28.10.23
+ nick_fingerless: "Без пальцев" #Машинный перевод 28.10.23
+ nick_marred: "Испорченный" #Машинный перевод 28.10.23
+ nick_the_carved: "Резной" #Машинный перевод 28.10.23
+ nick_the_metal_mask: "Металлической Маски" #Машинный перевод 28.10.23
+ nick_the_masked_one: "в маске" #Машинный перевод 28.10.23
+ nick_the_half_man: "Получеловек" #Машинный перевод 28.10.23
+ nick_the_half_woman: "Полуженщина" #Машинный перевод 28.10.23
+ nick_the_undead: "Бессмертный" #Машинный перевод 28.10.23
+ nick_the_armless: "Безрукий" #Машинный перевод 28.10.23
+ nick_one_arm: "Одна рука" #Машинный перевод 28.10.23
+ nick_the_broken: "сломан" #Машинный перевод 28.10.23
+ nick_the_mauled: "Изувеченный" #Машинный перевод 28.10.23
+ nick_the_injured: "Раненые" #Машинный перевод 28.10.23
+ nick_the_broken_knight: "Сломанный рыцарь" #Машинный перевод 28.10.23
+ nick_the_holy_knight: "Святой Рыцарь" #Машинный перевод 28.10.23
+ nick_the_beggar_knight: "нищий рыцарь" #Машинный перевод 28.10.23
+ nick_the_knight_of_the_blades: "Рыцарь Клинков" #Машинный перевод 28.10.23
+ nick_knight_of_the_roses: "Рыцарь Роз" #Машинный перевод 28.10.23
+ nick_knight_of_the_swamp: "Рыцарь Болота" #Машинный перевод 28.10.23
+ nick_the_jewelled_knight: "Драгоценный рыцарь" #Машинный перевод 28.10.23
+ nick_the_desert_knight: "Рыцарь пустыни" #Машинный перевод 28.10.23
+ nick_the_crimson_knight: "Багровый Рыцарь" #Машинный перевод 28.10.23
+ nick_the_emerald_knight: "Изумрудный рыцарь" #Машинный перевод 28.10.23
+ nick_the_golden_knight: "Золотой рыцарь" #Машинный перевод 28.10.23
+ nick_the_dark_knight: "темный рыцарь" #Машинный перевод 28.10.23
+ nick_the_azure_knight: "Лазурный рыцарь" #Машинный перевод 28.10.23
+ nick_the_ginger_knight: "Джинджер Рыцарь" #Машинный перевод 28.10.23
+ nick_the_indigo_knight: "Рыцарь Индиго" #Машинный перевод 28.10.23
+ nick_the_silver_knight: "Серебряный рыцарь" #Машинный перевод 28.10.23
+ nick_the_lavender_knight: "Лавандовый рыцарь" #Машинный перевод 28.10.23
+ nick_the_ebony_knight: "Эбеновый рыцарь" #Машинный перевод 28.10.23
+ nick_the_onix_knight: "Ониксовый Рыцарь" #Машинный перевод 28.10.23
+ nick_the_amethyst_knight: "Аметистовый рыцарь" #Машинный перевод 28.10.23
+ nick_the_knight_of_the_mountains: "Рыцарь гор" #Машинный перевод 28.10.23
+ nick_the_knight_of_the_lakes: "Рыцарь озер" #Машинный перевод 28.10.23
+ nick_the_knight_of_the_forests: "Рыцарь Лесов" #Машинный перевод 28.10.23
+ nick_the_knight_of_the_north: "Рыцарь Севера" #Машинный перевод 28.10.23
+ nick_the_knight_of_the_south: "Рыцарь Юга" #Машинный перевод 28.10.23
+ nick_the_knight_of_the_west: "Рыцарь Запада" #Машинный перевод 28.10.23
+ nick_the_knight_of_the_east: "Рыцарь Востока" #Машинный перевод 28.10.23
+ nick_the_knight_of_the_dawn: "Рыцарь Зари" #Машинный перевод 28.10.23
+ nick_the_hollow_knight: "Полый рыцарь" #Машинный перевод 28.10.23
+ nick_the_moon_knight: "Лунный Рыцарь" #Машинный перевод 28.10.23
+ nick_the_sun_knight: "Рыцарь Солнца" #Машинный перевод 28.10.23
+ nick_the_winter_knight: "Зимний рыцарь" #Машинный перевод 28.10.23
+ nick_the_summer_knight: "Летний рыцарь" #Машинный перевод 28.10.23
+ nick_the_autumn_knight: "Осенний рыцарь" #Машинный перевод 28.10.23
+ nick_the_spring_knight: "Весенний рыцарь" #Машинный перевод 28.10.23
+ nick_the_holy_giant: "Святой Великан" #Машинный перевод 28.10.23
+ nick_the_sacred_mountain: "Священная гора" #Машинный перевод 28.10.23
+ nick_the_silver_giant: "Серебряный гигант" #Машинный перевод 28.10.23
+ nick_the_affluent_mountain: "Богатая Гора" #Машинный перевод 28.10.23
+ nick_the_warmongering_giant: "воинственный гигант" #Машинный перевод 28.10.23
+ nick_the_mountain_that_strikes: "Гора, которая поражает" #Машинный перевод 28.10.23
+ nick_the_giant_soldier: "Гигантский Солдат" #Машинный перевод 28.10.23
+ nick_the_mountain_that_rides: "Гора, которая едет" #Машинный перевод 28.10.23
+ nick_the_pleasant_giant: "Приятный великан" #Машинный перевод 28.10.23
+ nick_the_warm_mountain: "Теплая гора" #Машинный перевод 28.10.23
+ nick_the_giant_spider: "Гигантский паук" #Машинный перевод 28.10.23
+ nick_the_hidden_mountain: "Скрытая гора" #Машинный перевод 28.10.23
+ nick_the_pleasant_dwarf: "Приятный гном" #Машинный перевод 28.10.23
+ nick_the_short_friend: "Короткий друг" #Машинный перевод 28.10.23
+ nick_the_affluent_dwarf: "Богатый гном" #Машинный перевод 28.10.23
+ nick_the_gold_touched_dwarf: "Тронутый золотом гном" #Машинный перевод 28.10.23
+ nick_the_vanquisher_dwarf: "гном-покоритель" #Машинный перевод 28.10.23
+ nick_the_agressive_dwarf: "Агрессивный гном" #Машинный перевод 28.10.23
+ nick_the_iron_dwarf: "Железный Карлик" #Машинный перевод 28.10.23
+ nick_the_slayer_dwarf: "убийца гномов" #Машинный перевод 28.10.23
+ nick_the_bright_dwarf: "Яркий Карлик" #Машинный перевод 28.10.23
+ nick_the_keen_dwarf: "Острый гном" #Машинный перевод 28.10.23
+ nick_the_spider_dwarf: "гном-паук" #Машинный перевод 28.10.23
+ nick_the_cunning_dwarf: "хитрый гном" #Машинный перевод 28.10.23
+ nick_the_white_lion: "Белый Лев" #Машинный перевод 28.10.23
+ nick_the_white_conqueror: "Белый Завоеватель" #Машинный перевод 28.10.23
+ nick_the_white_spider: "Белый Паук" #Машинный перевод 28.10.23
+ nick_the_white_dagger: "Белый Кинжал" #Машинный перевод 28.10.23
+ nick_the_white_sword: "Белый Меч" #Машинный перевод 28.10.23
+ nick_the_white_slayer: "Белый Убийца" #Машинный перевод 28.10.23
+ nick_the_white_beauty: "Белая красавица" #Машинный перевод 28.10.23
+ nick_the_snow_touched: "Заснеженный" #Машинный перевод 28.10.23
+ nick_the_crazy_bear: "Сумасшедший Медведь" #Машинный перевод 28.10.23
+ nick_the_she_bear: "Медведица" #Машинный перевод 28.10.23
+ nick_the_little_bear: "Маленький Медведь" #Машинный перевод 28.10.23
+ nick_the_ale_lover: "Эль-Ловер" #Машинный перевод 28.10.23
+ nick_leather_neck: "Кожаная шея" #Машинный перевод 28.10.23
+ nick_troll_burster: "Тролль-Берстер" #Машинный перевод 28.10.23
+ nick_squint_eyed: "косоглазый" #Машинный перевод 28.10.23
+ nick_moss_neck: "Моссовая шея" #Машинный перевод 28.10.23
+ nick_blue_cheek: "Синещекий" #Машинный перевод 28.10.23
+ nick_fast_sailing: "Быстрое плавание" #Машинный перевод 28.10.23
+ nick_coal_brow: "Угольные брови" #Машинный перевод 28.10.23
+ nick_war_tooth: "Зуб войны" #Машинный перевод 28.10.23
+ nick_the_shape_shifting: "Изменение формы" #Машинный перевод 28.10.23
+ nick_son_of_balder: "Сын Эйдара" #Машинный перевод 28.10.23
+ nick_son_of_loki: "Сын Пикьельде" #Машинный перевод 28.10.23
+ nick_son_of_heimdall: "Сын Таргана" #Машинный перевод 28.10.23
+ nick_daughter_frigg: "Дочь Замистрады" #Машинный перевод 28.10.23
+ nick_the_cordial_snake: "Сердечная Змея" #Машинный перевод 28.10.23
+ nick_the_gilded_snake: "позолоченная змея" #Машинный перевод 28.10.23
+ nick_the_venom_snake: "Ядовитая змея" #Машинный перевод 28.10.23
+ nick_the_deadly_snake: "Смертоносная Змея" #Машинный перевод 28.10.23
+ nick_the_tricky_snake: "хитрая змея" #Машинный перевод 28.10.23
+ nick_the_calm_snake: "спокойная змея" #Машинный перевод 28.10.23
+ nick_the_fragile: "Хрупкий" #Машинный перевод 28.10.23
+ nick_the_puny: "Маленький" #Машинный перевод 28.10.23
+ nick_the_delicate: "Деликатный" #Машинный перевод 28.10.23
+ nick_the_decrepit: "Дряхлый" #Машинный перевод 28.10.23
+  
+  #################################### 
+  # NICKNAMES COURTESY OF NICKNAMES+ # 
+  #################################### 
+  
+ rule_nicknames_plus_frequency: "#Y Псевдонимы+:#! Псевдонимы" #Машинный перевод 28.10.23
+ setting_fewer_nicknames_plus_frequency: "Меньше" #Машинный перевод 28.10.23
+ setting_fewer_nicknames_plus_frequency_desc: "Никнеймы будут появляться реже." #Машинный перевод 28.10.23
+ setting_default_nicknames_plus_frequency: "По умолчанию" #Машинный перевод 28.10.23
+ setting_default_nicknames_plus_frequency_desc: "Псевдонимы будут отображаться как обычно." #Машинный перевод 28.10.23
+ setting_more_nicknames_plus_frequency: "Более" #Машинный перевод 28.10.23
+ setting_more_nicknames_plus_frequency_desc: "Прозвища будут появляться чаще.\nОбратите внимание, что это приведет к тому, что в начале правления больше правителей будут получать прозвища, поэтому прозвища, требующие благочестия или престижа, будут менее распространены." #Машинный перевод 28.10.23
+ rule_nicknames_plus_cheats: "#Y Никнеймы+:#! Коды" #Машинный перевод 28.10.23
+ setting_on_nicknames_plus_cheats: "На" #Машинный перевод 28.10.23
+ setting_on_nicknames_plus_cheats_desc: "Игроки могут использовать взаимодействие по предоставлению и удалению псевдонима." #Машинный перевод 28.10.23
+ setting_off_nicknames_plus_cheats: "Выключенный" #Машинный перевод 28.10.23
+ setting_off_nicknames_plus_cheats_desc: "Игроки не могут использовать взаимодействие с предоставлением и удалением никнейма." #Машинный перевод 28.10.23
+ nicknames_plus_give_nickname_interaction: "Дайте псевдоним" #Машинный перевод 28.10.23
+ nicknames_plus_remove_nickname_interaction: "Удалить псевдоним" #Машинный перевод 28.10.23
+ nick_a_random_nickname: "случайное прозвище" #Машинный перевод 28.10.23
+ nick_the_ashamed: "стыдно" #Машинный перевод 28.10.23
+ nick_the_thoroughbred: "Чистокровный" #Машинный перевод 28.10.23
+  
+ nick_the_bull: "бык" #Машинный перевод 28.10.23
+ nick_the_bulwark: "Оплот" #Машинный перевод 28.10.23
+ nick_the_hollow: "Пустота" #Машинный перевод 28.10.23
+ nick_the_mule: "Мул" #Машинный перевод 28.10.23
+ nick_the_tenacious: "Упорный" #Машинный перевод 28.10.23
+ nick_the_tower: "башня" #Машинный перевод 28.10.23
+ nick_the_wealthy: "Богатые" #Машинный перевод 28.10.23
+ the_big_halberd: "Большая Алебарда" #Машинный перевод 28.10.23
+ the_ferocious_giant: "свирепый гигант" #Машинный перевод 28.10.23
+ the_jade_unicorn: "Нефритовый единорог" #Машинный перевод 28.10.23
+ the_prodigy: "Prodigy" #Машинный перевод 28.10.23
+ the_thunderbolt: "Громовержец" #Машинный перевод 28.10.23
+ the_timely_rain: "своевременный дождь" #Машинный перевод 28.10.23
+ the_turbulent_river_dragon: "Бурный Речной Дракон" #Машинный перевод 28.10.23
+ the_unrestrained: "Безудержный" #Машинный перевод 28.10.23
+ the_whirlwind: "Вихрь" #Машинный перевод 28.10.23
+ the_winged_tiger: "Крылатый Тигр" #Машинный перевод 28.10.23
+ the_wizard: "Мастер" #Машинный перевод 28.10.23
+ nick_the_duke_of_death: "герцог смерти" #Машинный перевод 28.10.23
+ nick_the_duchess_of_pain: "Леди Боли" #Машинный перевод 28.10.23
+ nick_the_bitten: "Укушенный" #Машинный перевод 28.10.23
+ nick_the_mangled: "Искалеченный" #Машинный перевод 28.10.23
+ nick_the_leprous: "прокаженный" #Машинный перевод 28.10.23
+ nick_count_of_counts: "граф графов" #Машинный перевод 28.10.23
+ nick_duke_of_dukes: "герцог герцогов" #Машинный перевод 28.10.23
+ nick_the_siegemaster: "мастер осады" #Машинный перевод 28.10.23
+ nick_the_potbelly: "Буржуйка" #Машинный перевод 28.10.23
+ nick_the_peculiar: "необычный" #Машинный перевод 28.10.23
+ nick_the_stern: "Штерн" #Машинный перевод 28.10.23
+ nick_the_idiot: "Идиот" #Машинный перевод 28.10.23
+ nick_the_short_changer: "Короткообменник" #Машинный перевод 28.10.23
+ nick_the_trembler: "Тремблер" #Машинный перевод 28.10.23
+ nick_the_crazy: "Сумасшедший" #Машинный перевод 28.10.23
+ nick_the_mild: "Мягкий" #Машинный перевод 28.10.23
+ nick_the_lousy: "паршивый" #Машинный перевод 28.10.23
+ nick_the_incompetent: "Некомпетентный" #Машинный перевод 28.10.23
+ nick_the_skeleton: "скелет" #Машинный перевод 28.10.23
+ nick_the_luxurious: "Роскошный" #Машинный перевод 28.10.23
+ nick_the_good_for_nothing: "Ни на что не годный" #Машинный перевод 28.10.23
+ nick_the_tidbit: "лакомый кусочек" #Машинный перевод 28.10.23
+ nick_the_elbow_high: "локоть высокий" #Машинный перевод 28.10.23
+ nick_the_kneecap: "коленная чашечка" #Машинный перевод 28.10.23
+ nick_the_cripple: "Калека" #Машинный перевод 28.10.23
+ nick_the_hoary: "Седой" #Машинный перевод 28.10.23
+ nick_the_stark: "Старк" #Машинный перевод 28.10.23
+ nick_the_lawful: "Законный" #Машинный перевод 28.10.23
+ nick_the_frank: "Франк" #Машинный перевод 28.10.23
+ nick_the_black_prince: "Черный принц" #Машинный перевод 28.10.23
+ nick_the_blameless: "Непорочный" #Машинный перевод 28.10.23
+ nick_the_uninvolved: "Невовлеченный" #Машинный перевод 28.10.23
+ nick_the_mountain: "гора" #Машинный перевод 28.10.23
+ nick_the_keen: "Острый" #Машинный перевод 28.10.23
+ nick_the_competent: "Способный" #Машинный перевод 28.10.23
+ nick_the_commoner: "Простолюдин" #Машинный перевод 28.10.23
+ nick_the_dapper: "щеголеватый" #Машинный перевод 28.10.23
+ nick_the_hospitable: "Гостеприимный" #Машинный перевод 28.10.23
+ nick_the_plain: "простой" #Машинный перевод 28.10.23
+ nick_the_wine_barrel: "Винная бочка" #Машинный перевод 28.10.23
+ nick_the_wine_bather: "винный купальщик" #Машинный перевод 28.10.23
+ nick_the_breaker_of_chains: "Разрушитель цепей" #Машинный перевод 28.10.23
+ nick_the_aggressor: "Агрессор" #Машинный перевод 28.10.23
+ nick_the_lusty_leper: "Похотливый прокаженный" #Машинный перевод 28.10.23
+ nick_the_vicious_viper: "Злобная Змея" #Машинный перевод 28.10.23
+ nick_the_wife_thief: "Жена вор" #Машинный перевод 28.10.23
+ nick_the_enchantress: "Чародейка" #Машинный перевод 28.10.23
+ nick_the_omniscient: "Всеведущий" #Машинный перевод 28.10.23
+ nick_the_cold: "простуда" #Машинный перевод 28.10.23
+ nick_the_gullible: "доверчивый" #Машинный перевод 28.10.23
+ nick_the_spineless: "Бесхребетный" #Машинный перевод 28.10.23
+ nick_the_green_thumb: "Зеленый палец" #Машинный перевод 28.10.23
+ nick_the_defiler: "Осквернитель" #Машинный перевод 28.10.23
+ nick_the_all_consuming: "Всепоглощающий" #Машинный перевод 28.10.23
+ nick_midas_reborn: "Мидас Возрождается" #Машинный перевод 28.10.23
+ nick_iron_unbent: "железо разогнулось" #Машинный перевод 28.10.23
+ nick_pretty_copper: "Симпатичная медь" #Машинный перевод 28.10.23
+ nick_true_steel: "Настоящая Сталь" #Машинный перевод 28.10.23
+ nick_king_of_kings: "король королей" #Машинный перевод 28.10.23
+ nick_the_unyielding: "Непреклонный" #Машинный перевод 28.10.23
+ nick_the_sarcastic: "Саркастический" #Машинный перевод 28.10.23
+ nick_the_hound: "собака" #Машинный перевод 28.10.23
+ nick_the_soldier: "солдат" #Машинный перевод 28.10.23
+ nick_minus_a_quarter: "Минус четверть" #Машинный перевод 28.10.23
+ nick_the_damned: "проклятый" #Машинный перевод 28.10.23
+ nick_the_unsleeping: "Неспящий" #Машинный перевод 28.10.23
+ nick_the_wife_beater: "избиватель жен" #Машинный перевод 28.10.23
+ nick_the_child_beater: "избиватель детей" #Машинный перевод 28.10.23
+ nick_the_money_pincher: "денежный щипец" #Машинный перевод 28.10.23
+ nick_the_nice: "приятно" #Машинный перевод 28.10.23
+ nick_the_bowing: "Поклон" #Машинный перевод 28.10.23
+ nick_the_kneeler: "Коленопреклоненный" #Машинный перевод 28.10.23
+ nick_the_giving: "Дарение" #Машинный перевод 28.10.23
+ nick_the_wordsmith: "Мастер Слова" #Машинный перевод 28.10.23
+ nick_leatherneck: "Лезернек" #Машинный перевод 28.10.23
+ nick_scatter_brain: "Рассеянный мозг" #Машинный перевод 28.10.23
+ nick_the_lewd_lunatic: "непристойный сумасшедший" #Машинный перевод 28.10.23
+ nick_the_bean_counter: "счетчик бобов" #Машинный перевод 28.10.23
+ nick_the_bookworm: "Книжный червь" #Машинный перевод 28.10.23
+ nick_the_king_of_thorns: "Король Тернов" #Машинный перевод 28.10.23
+ nick_the_queen_of_thorns: "Королева Тернов" #Машинный перевод 28.10.23
+ nick_the_judge_of_men: "Судья мужчин" #Машинный перевод 28.10.23
+ nick_the_fearful: "Страшный" #Машинный перевод 28.10.23
+ nick_the_mockingbird: "пересмешник" #Машинный перевод 28.10.23
+ nick_the_schemer: "интриган" #Машинный перевод 28.10.23
+ nick_the_untrusted: "Ненадежный" #Машинный перевод 28.10.23
+ nick_the_arbiter: "арбитр" #Машинный перевод 28.10.23
+ nick_the_daft: "глупый" #Машинный перевод 28.10.23
+ nick_the_mute: "Немой" #Машинный перевод 28.10.23
+ nick_the_riddle: "загадка" #Машинный перевод 28.10.23
+ nick_the_twin: "близнец" #Машинный перевод 28.10.23
+ nick_the_lefthand: "Левая рука" #Машинный перевод 28.10.23
+ nick_the_withered: "Иссохший" #Машинный перевод 28.10.23
+ nick_the_halfman: "получеловек" #Машинный перевод 28.10.23
+ nick_twist_foot: "Витая нога" #Машинный перевод 28.10.23
+ nick_short_shadow: "Короткая тень" #Машинный перевод 28.10.23
+ nick_the_appeaser: "Умиротворитель" #Машинный перевод 28.10.23
+ nick_the_cunt: "Пизда" #Машинный перевод 28.10.23
+ nick_the_squanderer: "расточитель" #Машинный перевод 28.10.23
+ nick_the_late_lord: "Покойный Лорд" #Машинный перевод 28.10.23
+ nick_the_doctor: "хирург" #Машинный перевод 28.10.23
+ nick_the_huntmaster: "Охотник" #Машинный перевод 28.10.23
+ nick_the_pirate: "пират" #Машинный перевод 28.10.23
+ nick_the_weasel: "ласка" #Машинный перевод 28.10.23
+ nick_the_dagger: "Кинжал" #Машинный перевод 28.10.23
+ #nick_the_silver_blood: "Серебряная Кровь" #Машинный перевод 28.10.23
+ nick_the_northerner: "северянин" #Машинный перевод 28.10.23
+ nick_the_vicar: "викарий" #Машинный перевод 28.10.23
+ nick_the_friar: "Монах" #Машинный перевод 28.10.23
+ nick_the_preacher: "Проповедник" #Машинный перевод 28.10.23
+ nick_the_unfading: "Неувядающий" #Машинный перевод 28.10.23
+ nick_the_maiden_fair: "Девичья ярмарка" #Машинный перевод 28.10.23
+ nick_the_bitter: "Горький" #Машинный перевод 28.10.23
+ nick_the_unfit: "непригодный" #Машинный перевод 28.10.23
+ nick_the_misbegotten: "Незаконнорожденный" #Машинный перевод 28.10.23
+ nick_the_harelip: "Заячья Губа" #Машинный перевод 28.10.23
+ nick_the_stutter: "заикание" #Машинный перевод 28.10.23
+ nick_the_misshapen: "деформированный" #Машинный перевод 28.10.23
+ nick_the_faltering: "Нерешительный" #Машинный перевод 28.10.23
+ nick_the_barely_grown: "Едва выросший" #Машинный перевод 28.10.23
+ nick_the_dean: "декан" #Машинный перевод 28.10.23
+ nick_the_combatant: "Дуэлянт" #Машинный перевод 28.10.23
+ nick_the_braggart: "Хвастун" #Машинный перевод 28.10.23
+ nick_the_pawn: "Пешка" #Машинный перевод 28.10.23
+ nick_the_talker: "Говорящий" #Машинный перевод 28.10.23
+ nick_the_enigmatic: "загадочный" #Машинный перевод 28.10.23
+ nick_the_unreliable: "Ненадежный" #Машинный перевод 28.10.23
+ nick_the_kingfish: "Королевская рыба" #Машинный перевод 28.10.23
+ nick_the_subdued: "Покоренный" #Машинный перевод 28.10.23
+ nick_the_wayfarer: "Путник" #Машинный перевод 28.10.23
+ nick_the_suspicious: "Подозрительный" #Машинный перевод 28.10.23
+ nick_the_rich: "богатые" #Машинный перевод 28.10.23
+ nick_the_templar: "Тамплиер" #Машинный перевод 28.10.23
+ nick_the_sympathetic: "Сочувствующий" #Машинный перевод 28.10.23
+ nick_the_kinslayer: "Родоубийца" #Машинный перевод 28.10.23
+ nick_skull_splitter: "Череп-Дробитель" #Машинный перевод 28.10.23
+ nick_the_skeptic: "Скептик" #Машинный перевод 28.10.23
+ nick_bloodteeth: "Кровавый Зуб" #Машинный перевод 28.10.23
+ nick_the_puppetmaster: "Кукольник" #Машинный перевод 28.10.23
+ nick_the_vegetable: "растительное" #Машинный перевод 28.10.23
+ nick_the_jew: "еврей" #Машинный перевод 28.10.23
+ nick_of_the_ashes: "из пепла" #Машинный перевод 28.10.23
+ nick_the_corinthian: "Коринфский" #Машинный перевод 28.10.23
+ nick_the_singing_halfman: "Поющий получеловек" #Машинный перевод 28.10.23
+ nick_the_suicidal: "Суицидальный" #Машинный перевод 28.10.23
+ nick_dungeon_dweller: "Обитатель подземелий" #Машинный перевод 28.10.23
+ nick_the_weird: "Странный" #Машинный перевод 28.10.23
+ nick_the_cuckold: "рогоносец" #Машинный перевод 28.10.23
+ nick_the_blasphemer: "богохульник" #Машинный перевод 28.10.23
+ nick_the_boring: "скучный" #Машинный перевод 28.10.23
+ nick_the_lapdog: "болонка" #Машинный перевод 28.10.23
+ nick_silent_tongue: "Тихий язык" #Машинный перевод 28.10.23
+ nick_limpfoot: "Хромота" #Машинный перевод 28.10.23
+ nick_the_snitch: "снитч" #Машинный перевод 28.10.23
+ nick_the_buffoon: "шут" #Машинный перевод 28.10.23
+ nick_mumbling_mouth: "Бормочащий рот" #Машинный перевод 28.10.23
+ nick_the_stout: "Стаут" #Машинный перевод 28.10.23
+ nick_the_oaf: "придурок" #Машинный перевод 28.10.23
+ nick_the_gutless: "безжалостный" #Машинный перевод 28.10.23
+ nick_little_orphan: "Маленький сирота" #Машинный перевод 28.10.23
+ nick_weak_legs: "Слабые ноги" #Машинный перевод 28.10.23
+ nick_the_barefoot: "Босиком" #Машинный перевод 28.10.23
+ nick_the_freckled: "веснушчатый" #Машинный перевод 28.10.23
+ nick_the_indecisive: "Нерешительный" #Машинный перевод 28.10.23
+ nick_the_purple_born: "Пурпурнорожденный" #Машинный перевод 28.10.23
+ nick_the_pale: "Бледность" #Машинный перевод 28.10.23
+ nick_the_incorruptible: "Неподкупный" #Машинный перевод 28.10.23
+ nick_the_tranquil: "Спокойный" #Машинный перевод 28.10.23
+ nick_the_pacific: "Тихоокеанский" #Машинный перевод 28.10.23
+ nick_the_restless: "Беспокойный" #Машинный перевод 28.10.23
+ nick_the_immovable: "Недвижимость" #Машинный перевод 28.10.23
+ nick_the_bookish: "книжный" #Машинный перевод 28.10.23
+ nick_the_apathetic: "Апатичный" #Машинный перевод 28.10.23
+ nick_the_irresolute: "нерешительный" #Машинный перевод 28.10.23
+ nick_the_guru: "Гуру" #Машинный перевод 28.10.23
+ nick_the_rambunctious: "буйный" #Машинный перевод 28.10.23
+ nick_the_medium: "средний" #Машинный перевод 28.10.23
+ nick_the_pointless_pervert: "бессмысленный извращенец" #Машинный перевод 28.10.23
+ nick_the_chosen: "избранный" #Машинный перевод 28.10.23
+ nick_the_last: "последний" #Машинный перевод 28.10.23
+ nick_the_loved_and_killed: "Любимые и убитые" #Машинный перевод 28.10.23
+ nick_the_slaughtered: "убитый" #Машинный перевод 28.10.23
+ nick_the_executed: "Казненный" #Машинный перевод 28.10.23
+ nick_the_posthumous: "Посмертный" #Машинный перевод 28.10.23
+ nick_the_exhaustless: "Неутомимый" #Машинный перевод 28.10.23
+ nick_the_watchfire: "Дозорный огонь" #Машинный перевод 28.10.23
+ nick_the_incubus: "инкуб" #Машинный перевод 28.10.23
+ nick_the_succubus: "Суккуб" #Машинный перевод 28.10.23
+ nick_unlucky: "Невезучий" #Машинный перевод 28.10.23
+  
+  ############### 
+  # DEBUG / WIP # 
+  ############### 
+  
+ nick_custom_nickname: "[CHARACTER.Custom( RandomFirstNickname )] [CHARACTER.Custom( RandomSecondNickname )]" #Машинный перевод 28.10.23
+ custom_first_name_sacred: "Священный" #Машинный перевод 28.10.23
+ custom_first_name_big: "Большой" #Машинный перевод 28.10.23
+ custom_first_name_small: "Маленький" #Машинный перевод 28.10.23
+ custom_second_name_killer: "Убийца" #Машинный перевод 28.10.23
+ custom_second_name_sword: "Меч" #Машинный перевод 28.10.23
+ custom_second_name_pupil: "Ученик" #Машинный перевод 28.10.23

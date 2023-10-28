@@ -1,0 +1,58 @@
+﻿l_russian:
+  
+  # Combat Move Options 
+ single_combat.0001.scourge_of_the_steppes: "Вы всего лишь #EMP добыча#! для когтей сокола!" #Машинный перевод 28.10.23
+  
+  ## Combat Move Option Tooltips 
+ single_combat.0001.tt.scourge_of_the_steppes: "#BOL Бич степей:#! вы обрушиваете на противника стальной вихрь со скоростью сокола." #Машинный перевод 28.10.23
+  
+  # Combat Descs 
+  ## Own Combat Move Feedback 
+ single_combat.0001.desc.my_feedback.scourge_of_the_steppes: "С привычной легкостью я загоняю [my_foe.GetFirstNameNoTooltip] своим [myself.Custom('signature_weapon')], отсекая любые пути побега [my_foe.GetHerHis] точными [myself.Custom('SignatureWeaponAttemptedLightPlural')]." #Машинный перевод 28.10.23
+  
+  ## Opponent Combat Move Feedback 
+ single_combat.0001.desc.opponent_response.scourge_of_the_steppes: "[my_foe.GetFirstNamePossessiveNoTooltip] взгляд сверкает хищным взглядом, вызывая дрожь по моей спине, как если бы я был каким-то маленьким дичью." #Машинный перевод 28.10.23
+  
+  # Outcome Event: Loser 
+  ## Defender Lost, Own Combat Move Feedback 
+ single_combat.0031.desc.sc_defender.scourge_of_the_steppes: "Мой противник сопротивляется всем моим попыткам контролировать темп боя." #Машинный перевод 28.10.23
+  
+  ## Defender Lost, Opponent Finishing Move Feedback 
+ single_combat.0031.desc.opponent_response.scourge_of_the_steppes: "Серией жирных [sc_victor.Custom('SignatureWeaponAttemptedLightPlural')], [sc_victor.GetFirstNameNoTooltip] полностью меняет темп боя в пользу [sc_victor.GetHerHis], заставляя меня отступить и сломав мою защиту.\n\n" #Машинный перевод 28.10.23
+  
+  ## Defender Lost, Opponent Finishing Move Injury 
+ single_combat.0031.desc.opponent_response.scourge_of_the_steppes.injury: "Подобно соколу, преследующему свою добычу, [sc_victor.GetFirstNameNoTooltip] лишает меня возможностей с каждым [sc_victor.Custom('SignatureWeaponAttemptedHeavy')] из [sc_victor.GetHerHis] [sc_victor.Custom('signature_weapon')]. Наконец, особенно яростный натиск [sc_victor.GetHersHis] сокрушает меня, и мой [sc_loser.Custom('signature_weapon')] с грохотом вылетает из моих рук." #Машинный перевод 28.10.23
+  
+  ## Defender Lost, Opponent Finishing Move Fatality 
+ single_combat.0031.desc.opponent_response.scourge_of_the_steppes.fatality: "Пока меня избивает, загоняет в угол и подталкивает к забвению дикий [sc_victor.Custom('SignatureWeaponTipType')] из [sc_victor.GetFirstNamePossessiveNoTooltip] [sc_victor.Custom('signature_weapon')], биение моего сердца достигает крещендо, а затем внезапно прекращается. Я смотрю вниз как раз вовремя, чтобы увидеть, как [sc_victor.Custom('SignatureWeaponArticle')] [sc_victor.Custom('signature_weapon')] покидает мой разрушенный сундук, истощая вместе с ним все мои силы. Упав на колени, я все еще чувствую только надвигающийся холод." #Машинный перевод 28.10.23
+  
+  ## Aggressor Lost, Own Combat Move Feedback 
+ single_combat.0031.desc.sc_attacker.scourge_of_the_steppes: "Я продолжаю проверять защиту противника, быстро обходя [sc_loser.Custom('SignatureWeaponAttemptedLightPlural')] моего верного [sc_loser.Custom('signature_weapon')] в попытке обойти защиту [sc_victor.GetHerHis]. И все же, несмотря на все мои усилия, [sc_victor.GetFirstNamePossessiveNoTooltip] [sc_victor.Custom('signature_weapon')] наносит мне удар за ударом, пока наше оружие яростно сталкивается друг с другом.\n\n" #Машинный перевод 28.10.23
+  
+  ## Aggressor Lost, Own Combat Move Injury 
+ single_combat.0031.desc.sc_attacker.scourge_of_the_steppes.injury: "После хаотичного шквала ударов я оказываюсь в перенапряжении, и решающий удар заставляет [sc_loser.Custom('signature_weapon')] вылетать из моего [sc_loser.Custom('ArmArms')], решая исход этого боя." #Машинный перевод 28.10.23
+  
+  ## Aggressor Lost, Own Combat Move Fatality 
+ single_combat.0031.desc.sc_attacker.scourge_of_the_steppes.fatality: "Когда мой последний несбалансированный [sc_loser.Custom('SignatureWeaponAttemptedLight')] промахивается, меня отбрасывает назад сила ответного [sc_victor.Custom('SignatureWeaponAttemptedHeavy')], которую мне едва удается заблокировать. Жидкий страх продолжает непроизвольно распространяться по моим венам, парализуя мои мышцы и сковывая мои движения.\n\nПочему я не могу поднять [sc_loser.Custom('ArmArms')]? Почему я должен, застыв, смотреть, как [sc_victor.GetFirstNamePossessiveNoTooltip] [sc_victor.Custom('signature_weapon')] обрушивается на меня, словно готовый расколоть меня пополам? #EMP — это #! то, что чувствует сапсан в когтях орла?" #Машинный перевод 28.10.23
+  
+  # Outcome Event: Victor 
+  ## Defender Won, Own Combat Move Feedback 
+ single_combat.0041.desc.sc_defender.scourge_of_the_steppes: "Я не даю пощады моему противнику, как сокол не проявляет ее к своей жертве." #Машинный перевод 28.10.23
+  
+  ## Defender Won, Opponent Finishing Move Feedback 
+ single_combat.0041.desc.opponent_response.scourge_of_the_steppes: "Хотя [sc_loser.GetFirstNameNoTooltip] постоянно пытается поставить меня в невыгодное положение, [sc_loser.GetSheHe] не имеет большого успеха. Вскоре мой [sc_victor.Custom('signature_weapon')] наносит кровавую рану моему противнику, проливая кровь и отбрасывая [sc_victor.GetHerHim] назад.\n\n" #Машинный перевод 28.10.23
+  
+  ## Defender Won, Opponent Finishing Move Injury 
+ single_combat.0041.desc.opponent_response.scourge_of_the_steppes.injury: "Поскольку удары [sc_loser.GetFirstNamePossessiveNoTooltip] становятся все более отчаянными и беспорядочными, мне не требуется много усилий, чтобы воспользоваться брешью и проскользнуть мимо защиты [sc_loser.GetHerHis], парируя скользящий [sc_loser.Custom('SignatureWeaponAttemptedLight')] и нанося решающий [sc_victor.Custom('SignatureWeaponAttemptedHeavy')] мой собственный.\n\nМой противник отправлен на землю силой моего удара, и [sc_loser.GetHerHim] не занимает много времени, чтобы наконец сдаться." #Машинный перевод 28.10.23
+  
+  ## Defender Lost, Opponent Finishing Move Fatality 
+ single_combat.0041.desc.opponent_response.scourge_of_the_steppes.fatality: "Если это должно вызывать страх, то меня это не впечатляет. Хотя, безусловно, замечательно, что [sc_loser.GetFirstNameNoTooltip] продолжает сражаться, несмотря на тяжесть ран, которые я нанес [sc_loser.GetHerHim], пришло время мне положить конец этому фараду.\n\nНесмотря на всю предполагаемую доблесть [sc_loser.GetHerHis], мне оказывается удивительно легко проскользнуть мимо охранника [sc_loser.GetHerHis] и погрузить свой [sc_victor.Custom('signature_weapon')] в туловище моего противника, вызвав удовлетворенный визг, прежде чем тело [sc_loser.GetFirstNamePossessiveNoTooltip] рухнет на землю." #Машинный перевод 28.10.23
+  
+  ## Aggressor Won, Own Combat Move Feedback 
+ single_combat.0041.desc.sc_attacker.scourge_of_the_steppes: "Я провожу удары своего [sc_victor.Custom('signature_weapon')] сквозь защиту противника, разрывая его плоть каждым ударом." #Машинный перевод 28.10.23
+  
+  ## Aggressor Won, Own Combat Move Injury 
+ single_combat.0041.desc.sc_attacker.scourge_of_the_steppes.injury: "Поскольку [sc_loser.GetFirstNameNoTooltip] охвачен моей неумолимой атакой, [sc_victor.Custom('SignatureWeaponAttemptedHeavy')] в правильное время отправляет [sc_loser.GetHerHim] на землю.\n\nКогда я подтягиваю [sc_victor.Custom('SignatureWeaponTipType')] своего [sc_victor.Custom('signature_weapon')] к шее [sc_loser.GetHerHis], [sc_loser.GetSheHe] сглатывает и быстро сдается." #Машинный перевод 28.10.23
+  
+  ## Aggressor Won, Own Combat Move Injury 
+ single_combat.0041.desc.sc_attacker.scourge_of_the_steppes.fatality: "Зловещим выпадом я отбиваю [sc_loser.GetFirstNamePossessiveNoTooltip] [sc_loser.Custom('signature_weapon')] и разрываю туловище [sc_loser.GetHerHis].\n\nЯ продолжаю смотреть [sc_loser.GetHerHim] прямо в [sc_loser.Custom('EyeEyes')], пока [sc_loser.GetSheHe] истекает кровью, не отпуская хватку, пока [sc_loser.GetHerHis] не прекращает борьбу и не бросает взгляд глазурь." #Машинный перевод 28.10.23

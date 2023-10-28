@@ -1,0 +1,12 @@
+﻿l_russian:
+ godherja_generic_adventurer_conquest: "авантюрист" #Машинный перевод 28.10.23
+ godherja_war.summaries.family_transfer: "[landed|E] [family|E] получит запасные завоеванные [counties|E]" #Машинный перевод 28.10.23
+ godherja_war.summaries.old_domains: "Все старые [titles|E] будут уничтожены или получат независимость." #Машинный перевод 28.10.23
+ godherja_war.summaries.landed_family_old_domains: "Все старые [landed|E] [family|E] [titles|E] будут уничтожены или получат независимость." #Машинный перевод 28.10.23
+ godherja_war.summaries.old_vassals: "Всем старым [vassals|E] будет предоставлена ​​независимость" #Машинный перевод 28.10.23
+ GODHERJA_WAR_INDEPENDENCE_TRUCE_NAME: "[SCOPE.sC('truce_loc').GetUINameNotMe|U] после того, как [SCOPE.sC('attacker').GetUINameNotMe|U] покинул земли [attacker.GetHerHis]" #Машинный перевод 28.10.23
+ fogeater_invasion_cb: "Вторжение фогитеров" #Машинный перевод 28.10.23
+ FOGEATER_INVASION_CB_NAME: "Вторжение фогитеров [kingdom|E]" #Машинный перевод 28.10.23
+ FOGEATER_INVASION_WAR_NAME: "Вторжение фогитеров [TITLE.GetNameNoTier]" #Машинный перевод 28.10.23
+ fogeater_invasion_cb_victory_desc_attacker: "Вы захватываете все титулы в целевом королевстве." #Машинный перевод 28.10.23
+ fogeater_invasion_cb_victory_desc: "[attacker.GetShortUIName|U] захватывает все титулы в целевом королевстве." #Машинный перевод 28.10.23

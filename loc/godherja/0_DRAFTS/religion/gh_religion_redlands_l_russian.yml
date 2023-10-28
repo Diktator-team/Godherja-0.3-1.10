@@ -1,0 +1,734 @@
+﻿l_russian:
+  #generics, will only be used as a fallback for custom faiths probably. This pantheon is kind of a "baseline" Pantheon "базовый уровень" #Машинный перевод 28.10.23
+ redland_cults_religion: "Культы Редленда" #Машинный перевод 28.10.23
+ redland_cults_religion_desc: "В глубинах многочисленных извилистых каньонов Редленда процветает множество культов, поклоняющихся таинственным и зачастую темным богам. Часто противоречивые по своей природе, со своими мотивами, часто покрытыми тайной, они иногда действуют в согласии, например, когда каждый культ приветствует [aversaria|E] на своем берегу." #Машинный перевод 28.10.23
+ redland_cults_religion_adj: "Редлендер" #Машинный перевод 28.10.23
+ redland_cult: "Редленд Культ" #Машинный перевод 28.10.23
+ redland_cult_desc: ""
+ redland_cult_adj: "Редленд Культ" #Машинный перевод 28.10.23
+ redland_cult_adherent: "культист" #Машинный перевод 28.10.23
+ redland_cult_adherent_plural: "Культисты" #Машинный перевод 28.10.23
+ redland_cult_high_god_name: "Пылающее заклинание" #Машинный перевод 28.10.23
+ redland_cult_high_god_name_possessive: "Горящее заклинание" #Машинный перевод 28.10.23
+ redland_cult_high_god_name_alternate: "Бич" #Машинный перевод 28.10.23
+ redland_cult_high_god_name_alternate_possessive: "Плеть" #Машинный перевод 28.10.23
+ redland_cult_creator_god_name: "Вилхор" #Машинный перевод 28.10.23
+ redland_cult_creator_god_name_possessive: "Вилхора" #Машинный перевод 28.10.23
+ redland_cult_health_god_name: "Месеф" #Машинный перевод 28.10.23
+ redland_cult_health_god_name_possessive: "Месефа" #Машинный перевод 28.10.23
+ redland_cult_fertility_god_name: "Толторотот" #Машинный перевод 28.10.23
+ redland_cult_fertility_god_name_possessive: "Толторотота" #Машинный перевод 28.10.23
+ redland_cult_wealth_god_name: "Мин" #Машинный перевод 28.10.23
+ redland_cult_wealth_god_name_possessive: "Мин" #Машинный перевод 28.10.23
+ redland_cult_household_god_name: "Блазерт" #Машинный перевод 28.10.23
+ redland_cult_household_god_name_possessive: "Блазерта" #Машинный перевод 28.10.23
+ redland_cult_fate_god_name: "Мимниосин" #Машинный перевод 28.10.23
+ redland_cult_fate_god_name_possessive: "Мимниосина" #Машинный перевод 28.10.23
+ redland_cult_knowledge_god_name: "Тальт" #Машинный перевод 28.10.23
+ redland_cult_knowledge_god_name_possessive: "Тальта" #Машинный перевод 28.10.23
+ redland_cult_war_god_name: "Кышт" #Машинный перевод 28.10.23
+ redland_cult_war_god_name_possessive: "Кышта" #Машинный перевод 28.10.23
+ redland_cult_trickster_god_name: "Марбор" #Машинный перевод 28.10.23
+ redland_cult_trickster_god_name_possessive: "Марбора" #Машинный перевод 28.10.23
+ redland_cult_night_god_name: "Асаха" #Машинный перевод 28.10.23
+ redland_cult_night_god_name_possessive: "Асаха" #Машинный перевод 28.10.23
+ redland_cult_water_god_name: "Беллхор" #Машинный перевод 28.10.23
+ redland_cult_water_god_name_possessive: "Беллхор" #Машинный перевод 28.10.23
+ redland_cult_death_deity_name: "Мимниосин" #Машинный перевод 28.10.23
+ redland_cult_death_deity_name_possessive: "Мимниосина" #Машинный перевод 28.10.23
+ redland_cult_devil_name: "Улкынз Тортар" #Машинный перевод 28.10.23
+ redland_cult_devil_name_possessive: "Улькинз Тортар" #Машинный перевод 28.10.23
+ redland_cult_witch_god_name: "Вулкинз Тортар" #Машинный перевод 28.10.23
+ redland_cult_witch_god_name_possessive: "Вулкинз Тортар" #Машинный перевод 28.10.23
+ redland_cult_house_of_worship: "Кирх" #Машинный перевод 28.10.23
+ redland_cult_house_of_worship_plural: "Кирхи" #Машинный перевод 28.10.23
+ redland_cult_religious_symbol: "Крылатый вихрь" #Машинный перевод 28.10.23
+ redland_cult_religious_text: "Завещание Изта" #Машинный перевод 28.10.23
+ redland_cult_religious_head_title: "Верховный Жрец" #Машинный перевод 28.10.23
+ redland_cult_religious_head_title_name: "Верховный жрец" #Машинный перевод 28.10.23
+ redland_cult_devotee_male: "Связанный искатель" #Машинный перевод 28.10.23
+ redland_cult_devotee_male_plural: "Связанные искатели" #Машинный перевод 28.10.23
+ redland_cult_devotee_female: "Связанный искатель" #Машинный перевод 28.10.23
+ redland_cult_devotee_female_plural: "Связанные искатели" #Машинный перевод 28.10.23
+ redland_cult_devotee_neuter: "Связанный искатель" #Машинный перевод 28.10.23
+ redland_cult_devotee_neuter_plural: "Связанные искатели" #Машинный перевод 28.10.23
+ redland_cult_priest_alternate_plural: "Священники" #Машинный перевод 28.10.23
+ redland_cult_bishop: "Диакон" #Машинный перевод 28.10.23
+ redland_cult_bishop_plural: "Дьяконы" #Машинный перевод 28.10.23
+ redland_cult_positive_afterlife: "Первобытный рай" #Машинный перевод 28.10.23
+ redland_cult_negative_afterlife: "Царство внизу" #Машинный перевод 28.10.23
+  
+  #Black martyr 
+ black_martyr: "Культ Черного мученика" #Машинный перевод 28.10.23
+ black_martyr_desc: "Даже другие жители Редленда считают членов культа Чёрного Мученика извращенцами и чрезмерно эксцентричными. Секта, посвященная почитанию легендарного «Черного мученика», который многим пожертвовал в поисках знаний. В конце концов, достижение понимания Эраса и его внутреннего устройства свело Черного Мученика с ума и оставило его невнятную оболочку, требующую помощи многочисленных священных хранителей. Эти хранители облачают своего подопечного в черные мантии и пытаются разделить его безумные, но зачастую пророческие бредни, на те, которые непонятны нашему смертному пониманию, и те, которые можно расшифровать с огромным усилием. Однако эти хранители и в лучшие времена неточны, и им редко удавалось предсказать будущие события. Большинство полагает, что это происходит из-за их некомпетентности, а беспорядочное поведение хранителей мало что может развеять их сомнения. Некоторые избранные придерживаются мнения, что это связано с тем, что способности Черного мученика не являются по-настоящему пророческими, а вместо этого позволяют безумцу предвидеть все возможные варианты будущего. Еще более зловеще то, что в последнее время бессвязные речи Черного Мученика стали концентрироваться почти исключительно на катастрофических событиях, а сам Мученик все больше и больше расстраивался, временами даже крича от боли, прежде чем впасть в кататоническое состояние. Даже обезумевший мученик остается в отчаянии от ужасной гибели, которая ждет его впереди." #Машинный перевод 28.10.23
+ black_martyr_adj: "Черный мученик" #Машинный перевод 28.10.23
+ black_martyr_adherent: "Мартирит" #Машинный перевод 28.10.23
+ black_martyr_adherent_plural: "мученики" #Машинный перевод 28.10.23
+ black_martyr_high_god_name: "Черный мученик" #Машинный перевод 28.10.23
+ black_martyr_high_god_name_possessive: "Черный мученик" #Машинный перевод 28.10.23
+ black_martyr_high_god_name_alternate: "Его пророчества" #Машинный перевод 28.10.23
+ black_martyr_high_god_name_alternate_possessive: "Его пророчества»" #Машинный перевод 28.10.23
+ black_martyr_creator_god_name: "Шрифт" #Машинный перевод 28.10.23
+ black_martyr_creator_god_name_possessive: "Шрифт" #Машинный перевод 28.10.23
+ black_martyr_health_god_name: "Месеф" #Машинный перевод 28.10.23
+ black_martyr_health_god_name_possessive: "Месефа" #Машинный перевод 28.10.23
+ black_martyr_fertility_god_name: "Толторотот" #Машинный перевод 28.10.23
+ black_martyr_fertility_god_name_possessive: "Толторотота" #Машинный перевод 28.10.23
+ black_martyr_wealth_god_name: "Мин" #Машинный перевод 28.10.23
+ black_martyr_wealth_god_name_possessive: "Мин" #Машинный перевод 28.10.23
+ black_martyr_household_god_name: "Блазерт" #Машинный перевод 28.10.23
+ black_martyr_household_god_name_possessive: "Блазерта" #Машинный перевод 28.10.23
+ black_martyr_fate_god_name: "Мимниосин" #Машинный перевод 28.10.23
+ black_martyr_fate_god_name_possessive: "Мимниосина" #Машинный перевод 28.10.23
+ black_martyr_knowledge_god_name: "Тальт" #Машинный перевод 28.10.23
+ black_martyr_knowledge_god_name_possessive: "Тальта" #Машинный перевод 28.10.23
+ black_martyr_war_god_name: "Кышт" #Машинный перевод 28.10.23
+ black_martyr_war_god_name_possessive: "Кышта" #Машинный перевод 28.10.23
+ black_martyr_trickster_god_name: "Марбор" #Машинный перевод 28.10.23
+ black_martyr_trickster_god_name_possessive: "Марбора" #Машинный перевод 28.10.23
+ black_martyr_night_god_name: "Асаха" #Машинный перевод 28.10.23
+ black_martyr_night_god_name_possessive: "Асаха" #Машинный перевод 28.10.23
+ black_martyr_water_god_name: "Беллхор" #Машинный перевод 28.10.23
+ black_martyr_water_god_name_possessive: "Беллхор" #Машинный перевод 28.10.23
+ black_martyr_death_deity_name: "Мимниосин" #Машинный перевод 28.10.23
+ black_martyr_death_deity_name_possessive: "Мимниосина" #Машинный перевод 28.10.23
+ black_martyr_devil_name: "Улкынз Тортар" #Машинный перевод 28.10.23
+ black_martyr_devil_name_possessive: "Улькинз Тортар" #Машинный перевод 28.10.23
+ black_martyr_witch_god_name: "Вулкинз Тортар" #Машинный перевод 28.10.23
+ black_martyr_witch_god_name_possessive: "Вулкинз Тортар" #Машинный перевод 28.10.23
+ black_martyr_house_of_worship: "Кирх" #Машинный перевод 28.10.23
+ black_martyr_house_of_worship_plural: "Кирхи" #Машинный перевод 28.10.23
+ black_martyr_religious_symbol: "Крылатый вихрь" #Машинный перевод 28.10.23
+ black_martyr_religious_text: "Завещание Изта" #Машинный перевод 28.10.23
+ black_martyr_religious_head_title: "Верховный Жрец" #Машинный перевод 28.10.23
+ black_martyr_religious_head_title_name: "Верховный жрец" #Машинный перевод 28.10.23
+ black_martyr_devotee_male: "Связанный искатель" #Машинный перевод 28.10.23
+ black_martyr_devotee_male_plural: "Связанные искатели" #Машинный перевод 28.10.23
+ black_martyr_devotee_female: "Связанный искатель" #Машинный перевод 28.10.23
+ black_martyr_devotee_female_plural: "Связанные искатели" #Машинный перевод 28.10.23
+ black_martyr_devotee_neuter: "Связанный искатель" #Машинный перевод 28.10.23
+ black_martyr_devotee_neuter_plural: "Связанные искатели" #Машинный перевод 28.10.23
+ black_martyr_priest_alternate_plural: "Священники" #Машинный перевод 28.10.23
+ black_martyr_bishop: "Диакон" #Машинный перевод 28.10.23
+ black_martyr_bishop_plural: "Дьяконы" #Машинный перевод 28.10.23
+ black_martyr_positive_afterlife: "Рай" #Машинный перевод 28.10.23
+ black_martyr_negative_afterlife: "Демоническое царство" #Машинный перевод 28.10.23
+  
+  #Spider Feast 
+  
+ spider_feast: "Паучий праздник" #Машинный перевод 28.10.23
+ spider_feast_desc: "Культ, поклоняющийся гигантским паукам по всему Редленду, считается посланниками богини-паука Араннии. Их [Concept('giant_spiders_and_humans','symbiotic relationship')|E] распространяется на их религиозные и общинные традиции." #Машинный перевод 28.10.23
+ spider_feast_adj: "Паучий праздник" #Машинный перевод 28.10.23
+ spider_feast_adherent: "Слуга" #Машинный перевод 28.10.23
+ spider_feast_adherent_plural: "Слуги" #Машинный перевод 28.10.23
+ spider_feast_high_god_name: "Аранния" #Машинный перевод 28.10.23
+ spider_feast_high_god_name_possessive: "Араннии" #Машинный перевод 28.10.23
+ spider_feast_high_god_name_alternate: "Ее паукообразная слава" #Машинный перевод 28.10.23
+ spider_feast_high_god_name_alternate_possessive: "Ее паукообразная слава" #Машинный перевод 28.10.23
+ spider_feast_creator_god_name: "Аранния" #Машинный перевод 28.10.23
+ spider_feast_creator_god_name_possessive: "Араннии" #Машинный перевод 28.10.23
+ spider_feast_devil_name: "Аутсайдер" #Машинный перевод 28.10.23
+ spider_feast_devil_name_possessive: "Неудачники" #Машинный перевод 28.10.23
+ spider_feast_witch_god_name: "Оса" #Машинный перевод 28.10.23
+ spider_feast_witch_god_name_possessive: "Осы" #Машинный перевод 28.10.23
+ spider_feast_house_of_worship: "Дом кормления" #Машинный перевод 28.10.23
+ spider_feast_house_of_worship_plural: "Дома кормления" #Машинный перевод 28.10.23
+ spider_feast_religious_symbol: "Восьминогий символ" #Машинный перевод 28.10.23
+ spider_feast_religious_text: "Священные тексты" #Машинный перевод 28.10.23
+ spider_feast_religious_head_title: "Мастер Восьми" #Машинный перевод 28.10.23
+ spider_feast_religious_head_title_name: "Мастер Восьми" #Машинный перевод 28.10.23
+ spider_feast_devotee_male: "Фидер" #Машинный перевод 28.10.23
+ spider_feast_devotee_male_plural: "Кормушки" #Машинный перевод 28.10.23
+ spider_feast_devotee_female: "Фидер" #Машинный перевод 28.10.23
+ spider_feast_devotee_female_plural: "Кормушки" #Машинный перевод 28.10.23
+ spider_feast_devotee_neuter: "Фидер" #Машинный перевод 28.10.23
+ spider_feast_devotee_neuter_plural: "Кормушки" #Машинный перевод 28.10.23
+ spider_feast_priest_alternate_plural: "Кормушки" #Машинный перевод 28.10.23
+ spider_feast_bishop: "Высокий фидер" #Машинный перевод 28.10.23
+ spider_feast_bishop_plural: "Высокие кормушки" #Машинный перевод 28.10.23
+ spider_feast_positive_afterlife: "Паутина" #Машинный перевод 28.10.23
+ spider_feast_negative_afterlife: "Тьма" #Машинный перевод 28.10.23
+  
+  #Fallen Star 
+ fallen_star: "Культ упавшей звезды" #Машинный перевод 28.10.23
+ fallen_star_desc: "Загадочный культ, сосредоточенный вокруг существа [fallen_star|E], которое проповедует, что просветления можно достичь только через осознание бессмысленности жизни на [aeras|E], утверждая, что истинный смысл можно получить только через поклонение самой Упавшей Звезде, а те, кто не принимает, должны быть измельчены в пыль и удалены из этого мира, поскольку они являются пропагандистами нынешнего состояния человечества." #Машинный перевод 28.10.23
+ fallen_star_adj: "Культ Упавшей Звезды" #Машинный перевод 28.10.23
+ fallen_star_adherent: "Просвещенный" #Машинный перевод 28.10.23
+ fallen_star_adherent_plural: "Просвещенный" #Машинный перевод 28.10.23
+ fallen_star_high_god_name: "Упавшая звезда" #Машинный перевод 28.10.23
+ fallen_star_high_god_name_possessive: "Упавшая звезда" #Машинный перевод 28.10.23
+ fallen_star_high_god_name_alternate: "Трансцендентный" #Машинный перевод 28.10.23
+ fallen_star_high_god_name_alternate_possessive: "Трансцендентный" #Машинный перевод 28.10.23
+ fallen_star_creator_god_name: "Безумный Демиург" #Машинный перевод 28.10.23
+ fallen_star_creator_god_name_possessive: "Безумный Демиург" #Машинный перевод 28.10.23
+ fallen_star_health_god_name: "Правда в Звезде" #Машинный перевод 28.10.23
+ fallen_star_health_god_name_possessive: "Правда в Звезде" #Машинный перевод 28.10.23
+ fallen_star_fertility_god_name: "Ложное распространение" #Машинный перевод 28.10.23
+ fallen_star_fertility_god_name_possessive: "Ложное распространение" #Машинный перевод 28.10.23
+ fallen_star_wealth_god_name: "Цель для бедняков" #Машинный перевод 28.10.23
+ fallen_star_wealth_god_name_possessive: "Цель для бедняков" #Машинный перевод 28.10.23
+ fallen_star_household_god_name: "Значение для всех" #Машинный перевод 28.10.23
+ fallen_star_household_god_name_possessive: "Значение для всех" #Машинный перевод 28.10.23
+ fallen_star_fate_god_name: "Директива звезды" #Машинный перевод 28.10.23
+ fallen_star_fate_god_name_possessive: "Директивы звезды" #Машинный перевод 28.10.23
+ fallen_star_knowledge_god_name: "Трансцендентные учения" #Машинный перевод 28.10.23
+ fallen_star_knowledge_god_name_possessive: "Трансцендентные учения" #Машинный перевод 28.10.23
+ fallen_star_war_god_name: "Владычество над негодяями" #Машинный перевод 28.10.23
+ fallen_star_war_god_name_possessive: "Владычество над негодяями" #Машинный перевод 28.10.23
+ fallen_star_trickster_god_name: "Ложь для недостойных" #Машинный перевод 28.10.23
+ fallen_star_trickster_god_name_possessive: "Ложь для недостойных" #Машинный перевод 28.10.23
+ fallen_star_night_god_name: "Тень упавшей звезды" #Машинный перевод 28.10.23
+ fallen_star_night_god_name_possessive: "Тень упавшей звезды" #Машинный перевод 28.10.23
+ fallen_star_death_deity_name: "Конец цели" #Машинный перевод 28.10.23
+ fallen_star_death_deity_name_possessive: "Конец цели" #Машинный перевод 28.10.23
+  
+ fallen_star_devil_name: "Бесцельность" #Машинный перевод 28.10.23
+ fallen_star_devil_name_possessive: "Бесцельность" #Машинный перевод 28.10.23
+ fallen_star_witch_god_name: "Секрет" #Машинный перевод 28.10.23
+ fallen_star_witch_god_name_possessive: "Секреты" #Машинный перевод 28.10.23
+ fallen_star_house_of_worship: "работный дом" #Машинный перевод 28.10.23
+ fallen_star_house_of_worship_plural: "Работные дома" #Машинный перевод 28.10.23
+ fallen_star_religious_symbol: "Знак Звезды" #Машинный перевод 28.10.23
+ fallen_star_religious_text: "Направления" #Машинный перевод 28.10.23
+ fallen_star_religious_head_title: "Высокий уровень обучения" #Машинный перевод 28.10.23
+ fallen_star_religious_head_title_name: "Высокий уровень обучения" #Машинный перевод 28.10.23
+ fallen_star_devotee_male: "Режиссер" #Машинный перевод 28.10.23
+ fallen_star_devotee_male_plural: "Режиссер" #Машинный перевод 28.10.23
+ fallen_star_devotee_female: "Режиссер" #Машинный перевод 28.10.23
+ fallen_star_devotee_female_plural: "Режиссер" #Машинный перевод 28.10.23
+ fallen_star_devotee_neuter: "Режиссер" #Машинный перевод 28.10.23
+ fallen_star_devotee_neuter_plural: "Режиссер" #Машинный перевод 28.10.23
+ fallen_star_priest_alternate_plural: "Директор" #Машинный перевод 28.10.23
+ fallen_star_bishop: "Директор" #Машинный перевод 28.10.23
+ fallen_star_bishop_plural: "Директора" #Машинный перевод 28.10.23
+ fallen_star_positive_afterlife: "Истинная цель [aeras|E]" #Машинный перевод 28.10.23
+ fallen_star_negative_afterlife: "Бессмысленная земля" #Машинный перевод 28.10.23
+  
+  #Devourer of All 
+ devourer_of_all: "Культ Всепожирателя" #Машинный перевод 28.10.23
+ devourer_of_all_desc: "Культ полагает, что их мир находится в постоянном цикле разрушения и возрождения, и каждые десять тысяч лет его богиня-покровительница вечно пожирает его, если его считают слишком гнилым и испорченным. Первоначально надеясь предотвратить такое будущее, культ теперь принял статус обреченности этого мира." #Машинный перевод 28.10.23
+ devourer_of_all_adj: "Культ Всепожирателя" #Машинный перевод 28.10.23
+ devourer_of_all_adherent: "культист" #Машинный перевод 28.10.23
+ devourer_of_all_adherent_plural: "Культисты" #Машинный перевод 28.10.23
+ devourer_of_all_high_god_name: "Акпеселя Мать" #Машинный перевод 28.10.23
+ devourer_of_all_high_god_name_possessive: "Акпеселя" #Машинный перевод 28.10.23
+ devourer_of_all_high_god_name_alternate: "Богиня-Пожиратель" #Машинный перевод 28.10.23
+ devourer_of_all_high_god_name_alternate_possessive: "Богиня-Пожирательница" #Машинный перевод 28.10.23
+ devourer_of_all_devil_name: "Извращение" #Машинный перевод 28.10.23
+ devourer_of_all_devil_name_possessive: "Извращение" #Машинный перевод 28.10.23
+ devourer_of_all_witch_god_name: "Танцор в ночи" #Машинный перевод 28.10.23
+ devourer_of_all_witch_god_name_possessive: "Танцор в ночи" #Машинный перевод 28.10.23
+ devourer_of_all_house_of_worship: "Место созерцания" #Машинный перевод 28.10.23
+ devourer_of_all_house_of_worship_plural: "Места созерцания" #Машинный перевод 28.10.23
+ devourer_of_all_religious_symbol: "Утроба Матери" #Машинный перевод 28.10.23
+ devourer_of_all_religious_text: "Пути матери" #Машинный перевод 28.10.23
+ devourer_of_all_religious_head_title: "Оратор" #Машинный перевод 28.10.23
+ devourer_of_all_religious_head_title_name: "Оратор" #Машинный перевод 28.10.23
+ devourer_of_all_devotee_male: "Поклонник" #Машинный перевод 28.10.23
+ devourer_of_all_devotee_male_plural: "Прихожане" #Машинный перевод 28.10.23
+ devourer_of_all_devotee_female: "Поклонник" #Машинный перевод 28.10.23
+ devourer_of_all_devotee_female_plural: "Прихожане" #Машинный перевод 28.10.23
+ devourer_of_all_devotee_neuter: "Поклонник" #Машинный перевод 28.10.23
+ devourer_of_all_devotee_neuter_plural: "Прихожане" #Машинный перевод 28.10.23
+ devourer_of_all_priest_alternate_plural: "Молитвенный лидер" #Машинный перевод 28.10.23
+ devourer_of_all_bishop: "Маленький спикер" #Машинный перевод 28.10.23
+ devourer_of_all_bishop_plural: "Маленькие колонки" #Машинный перевод 28.10.23
+ devourer_of_all_positive_afterlife: "Объятия Матери" #Машинный перевод 28.10.23
+ devourer_of_all_negative_afterlife: "Место покинутости" #Машинный перевод 28.10.23
+  
+  #Eternal Flame 
+ flame_eternal: "Культ Вечного Пламени" #Машинный перевод 28.10.23
+ flame_eternal_desc: "Приверженцы этого культа почитают некое Вечное Пламя, поддерживая огонь в грандиозных храмах для установления общения и веря, что Вечное Пламя однажды обрушится на [aeras|E], вознаграждая верных последователей и уничтожая неверных. Однако в последнее время пламя начало то вспыхивать, то гаснуть, что привело к всплеску ужасных действий со стороны культистов, которые хотят поджечь все, чтобы сохранить небесное пламя, не заботясь о последствиях." #Машинный перевод 28.10.23
+ flame_eternal_adj: "Культ Вечного Пламени" #Машинный перевод 28.10.23
+ flame_eternal_adherent: "Огненосец" #Машинный перевод 28.10.23
+ flame_eternal_adherent_plural: "Огненосцы" #Машинный перевод 28.10.23
+ flame_eternal_high_god_name: "Вечное пламя" #Машинный перевод 28.10.23
+ flame_eternal_high_god_name_possessive: "Пламя Вечного Пламени" #Машинный перевод 28.10.23
+ flame_eternal_high_god_name_alternate: "Небесное пламя" #Машинный перевод 28.10.23
+ flame_eternal_high_god_name_alternate_possessive: "Небесное пламя" #Машинный перевод 28.10.23
+ flame_eternal_creator_god_name: "Белое Пламя" #Машинный перевод 28.10.23
+ flame_eternal_creator_god_name_possessive: "Белое Пламя" #Машинный перевод 28.10.23
+ flame_eternal_health_god_name: "Красное пламя" #Машинный перевод 28.10.23
+ flame_eternal_health_god_name_possessive: "Красное Пламя" #Машинный перевод 28.10.23
+ flame_eternal_fertility_god_name: "Красное пламя" #Машинный перевод 28.10.23
+ flame_eternal_fertility_god_name_possessive: "Красное Пламя" #Машинный перевод 28.10.23
+ flame_eternal_wealth_god_name: "Зеленое пламя" #Машинный перевод 28.10.23
+ flame_eternal_wealth_god_name_possessive: "Зеленое пламя" #Машинный перевод 28.10.23
+ flame_eternal_household_god_name: "Черное пламя" #Машинный перевод 28.10.23
+ flame_eternal_household_god_name_possessive: "Черное Пламя" #Машинный перевод 28.10.23
+ flame_eternal_fate_god_name: "Желтое пламя" #Машинный перевод 28.10.23
+ flame_eternal_fate_god_name_possessive: "Желтое Пламя" #Машинный перевод 28.10.23
+ flame_eternal_knowledge_god_name: "Странствующее пламя" #Машинный перевод 28.10.23
+ flame_eternal_knowledge_god_name_possessive: "Странствующее пламя" #Машинный перевод 28.10.23
+ flame_eternal_war_god_name: "Пламя войны" #Машинный перевод 28.10.23
+ flame_eternal_war_god_name_possessive: "Пламя войны" #Машинный перевод 28.10.23
+ flame_eternal_trickster_god_name: "Мерцающее пламя" #Машинный перевод 28.10.23
+ flame_eternal_trickster_god_name_possessive: "Мерцающее пламя" #Машинный перевод 28.10.23
+ flame_eternal_night_god_name: "Пламя, которого нет" #Машинный перевод 28.10.23
+ flame_eternal_night_god_name_possessive: "Пламя, которого нет" #Машинный перевод 28.10.23
+ flame_eternal_water_god_name: "Кипение" #Машинный перевод 28.10.23
+ flame_eternal_water_god_name_possessive: "Кипение" #Машинный перевод 28.10.23
+ flame_eternal_death_deity_name: "Вечное пламя" #Машинный перевод 28.10.23
+ flame_eternal_death_deity_name_possessive: "Пламя Вечного Пламени" #Машинный перевод 28.10.23
+ flame_eternal_devil_name: "Демпфер" #Машинный перевод 28.10.23
+ flame_eternal_devil_name_possessive: "Демпфер" #Машинный перевод 28.10.23
+ flame_eternal_witch_god_name: "Демпфер" #Машинный перевод 28.10.23
+ flame_eternal_witch_god_name_possessive: "Демпфер" #Машинный перевод 28.10.23
+ flame_eternal_house_of_worship: "Храм Огня" #Машинный перевод 28.10.23
+ flame_eternal_house_of_worship_plural: "Храмы Огня" #Машинный перевод 28.10.23
+ flame_eternal_religious_symbol: "Золотая жаровня" #Машинный перевод 28.10.23
+ flame_eternal_religious_text: "Факел" #Машинный перевод 28.10.23
+ flame_eternal_religious_head_title: "Великий поджигатель" #Машинный перевод 28.10.23
+ flame_eternal_religious_head_title_name: "Великий поджигатель" #Машинный перевод 28.10.23
+ flame_eternal_devotee_male: "Поджигатель" #Машинный перевод 28.10.23
+ flame_eternal_devotee_male_plural: "Поджигатели" #Машинный перевод 28.10.23
+ flame_eternal_devotee_female: "Поджигатель" #Машинный перевод 28.10.23
+ flame_eternal_devotee_female_plural: "Поджигатели" #Машинный перевод 28.10.23
+ flame_eternal_devotee_neuter: "Поджигатель" #Машинный перевод 28.10.23
+ flame_eternal_devotee_neuter_plural: "Поджигатели" #Машинный перевод 28.10.23
+ flame_eternal_priest_alternate_plural: "Распространитель пламени" #Машинный перевод 28.10.23
+ flame_eternal_bishop: "Распространитель пламени" #Машинный перевод 28.10.23
+ flame_eternal_bishop_plural: "Распределители пламени" #Машинный перевод 28.10.23
+ flame_eternal_positive_afterlife: "Всепоглощающее пламя" #Машинный перевод 28.10.23
+ flame_eternal_negative_afterlife: "Холодная тьма" #Машинный перевод 28.10.23
+  
+  #Speaking Moon 
+ speaking_moon: "Говорящий лунный культ" #Машинный перевод 28.10.23
+ speaking_moon_desc: "Эзотерический культ, состоящий из многих верований, прежде всего заключается в том, что [aervalr|E] обращается к немногим избранным, настроенным на божественность, которые могут воспринимать и понимать ее божественные речи в отличие от простых смертных. Их догмы представляют собой множество противоречий священников по поводу самых простых и бессмысленных интерпретаций, что на протяжении веков приводило к множеству [Concept('schism_of_moon_cult','schism')|E]." #Машинный перевод 28.10.23
+ speaking_moon_adj: "Культ говорящей луны" #Машинный перевод 28.10.23
+ speaking_moon_adherent: "Ученик" #Машинный перевод 28.10.23
+ speaking_moon_adherent_plural: "Ученики" #Машинный перевод 28.10.23
+ speaking_moon_high_god_name: "Аэрвалр" #Машинный перевод 28.10.23
+ speaking_moon_high_god_name_possessive: "Аэрвалра" #Машинный перевод 28.10.23
+ speaking_moon_high_god_name_alternate: "Говорящая луна" #Машинный перевод 28.10.23
+ speaking_moon_high_god_name_alternate_possessive: "Говорящая Луна" #Машинный перевод 28.10.23
+ speaking_moon_house_of_worship: "Дом слушания" #Машинный перевод 28.10.23
+ speaking_moon_house_of_worship_plural: "Дома слушания" #Машинный перевод 28.10.23
+ speaking_moon_religious_symbol: "Сигил Аэрвалра" #Машинный перевод 28.10.23
+ speaking_moon_religious_text: "Знаки Луны" #Машинный перевод 28.10.23
+ speaking_moon_religious_head_title: "Высокий переводчик" #Машинный перевод 28.10.23
+ speaking_moon_religious_head_title_name: "Высокий переводчик" #Машинный перевод 28.10.23
+ speaking_moon_devotee_male: "Слушатель" #Машинный перевод 28.10.23
+ speaking_moon_devotee_male_plural: "Слушатели" #Машинный перевод 28.10.23
+ speaking_moon_devotee_female: "Слушатель" #Машинный перевод 28.10.23
+ speaking_moon_devotee_female_plural: "Слушатели" #Машинный перевод 28.10.23
+ speaking_moon_devotee_neuter: "Слушатель" #Машинный перевод 28.10.23
+ speaking_moon_devotee_neuter_plural: "Слушатели" #Машинный перевод 28.10.23
+ speaking_moon_priest_alternate_plural: "Устный переводчик" #Машинный перевод 28.10.23
+ speaking_moon_bishop: "Высокий слушатель" #Машинный перевод 28.10.23
+ speaking_moon_bishop_plural: "Высокие слушатели" #Машинный перевод 28.10.23
+ speaking_moon_positive_afterlife: "Серебристые равнины" #Машинный перевод 28.10.23
+ speaking_moon_negative_afterlife: "Ничто" #Машинный перевод 28.10.23
+  
+  #bloody feast 
+ bloody_feast: "Культ Кровавого пира" #Машинный перевод 28.10.23
+ bloody_feast_desc: "Культ, основанный на инструкциях [Concept('being_of_the_bloody_feast','heavenly being')|E], проповедующий концепцию так называемого [bloody_feast|E]. Считается, что благодаря использованию человеческой крови на Празднике можно подняться над человечеством и перевоплотиться в нечто большее." #Машинный перевод 28.10.23
+ bloody_feast_adj: "Культ Кровавого пира" #Машинный перевод 28.10.23
+ bloody_feast_adherent: "Праздник" #Машинный перевод 28.10.23
+ bloody_feast_adherent_plural: "Праздники" #Машинный перевод 28.10.23
+ bloody_feast_high_god_name: "Тот, кто спустился" #Машинный перевод 28.10.23
+ bloody_feast_high_god_name_possessive: "Тот, кто спустился" #Машинный перевод 28.10.23
+ bloody_feast_high_god_name_alternate: "Лицо" #Машинный перевод 28.10.23
+ bloody_feast_high_god_name_alternate_possessive: "Сущности" #Машинный перевод 28.10.23
+ bloody_feast_creator_god_name: "Тот, кто спустился" #Машинный перевод 28.10.23
+ bloody_feast_creator_god_name_possessive: "Тот, кто спустился" #Машинный перевод 28.10.23
+ bloody_feast_health_god_name: "Скрывающийся в крови" #Машинный перевод 28.10.23
+ bloody_feast_health_god_name_possessive: "Скрывающийся в Крови" #Машинный перевод 28.10.23
+ bloody_feast_fertility_god_name: "Шепот во вздохе" #Машинный перевод 28.10.23
+ bloody_feast_fertility_god_name_possessive: "Шепот во вздохе" #Машинный перевод 28.10.23
+ bloody_feast_wealth_god_name: "Тень монеты" #Машинный перевод 28.10.23
+ bloody_feast_wealth_god_name_possessive: "Тень монеты" #Машинный перевод 28.10.23
+ bloody_feast_household_god_name: "Обновитель" #Машинный перевод 28.10.23
+ bloody_feast_household_god_name_possessive: "Обновление" #Машинный перевод 28.10.23
+ bloody_feast_fate_god_name: "Наблюдатель в углах" #Машинный перевод 28.10.23
+ bloody_feast_fate_god_name_possessive: "Наблюдатель в углах" #Машинный перевод 28.10.23
+ bloody_feast_knowledge_god_name: "Праздник мысли" #Машинный перевод 28.10.23
+ bloody_feast_knowledge_god_name_possessive: "Мысль Фестера" #Машинный перевод 28.10.23
+ bloody_feast_war_god_name: "Захватчик" #Машинный перевод 28.10.23
+ bloody_feast_war_god_name_possessive: "Захватчика" #Машинный перевод 28.10.23
+ bloody_feast_trickster_god_name: "Мерцание" #Машинный перевод 28.10.23
+ bloody_feast_trickster_god_name_possessive: "Фликера" #Машинный перевод 28.10.23
+ bloody_feast_night_god_name: "Плащ" #Машинный перевод 28.10.23
+ bloody_feast_night_god_name_possessive: "Плащ" #Машинный перевод 28.10.23
+ bloody_feast_water_god_name: "Дом Глубин" #Машинный перевод 28.10.23
+ bloody_feast_water_god_name_possessive: "Дом Глубин" #Машинный перевод 28.10.23
+ bloody_feast_death_deity_name: "Коллектор" #Машинный перевод 28.10.23
+ bloody_feast_death_deity_name_possessive: "Коллекционер" #Машинный перевод 28.10.23
+ bloody_feast_devil_name: "Тот, кто сбивается с пути" #Машинный перевод 28.10.23
+ bloody_feast_devil_name_possessive: "Тот, кто сбивается»" #Машинный перевод 28.10.23
+ bloody_feast_witch_god_name: "Танцор" #Машинный перевод 28.10.23
+ bloody_feast_witch_god_name_possessive: "Танцора" #Машинный перевод 28.10.23
+ bloody_feast_house_of_worship: "Праздничный зал" #Машинный перевод 28.10.23
+ bloody_feast_house_of_worship_plural: "Праздничные залы" #Машинный перевод 28.10.23
+ bloody_feast_religious_symbol: "Фонтан крови" #Машинный перевод 28.10.23
+ bloody_feast_religious_text: "Кричащие свитки" #Машинный перевод 28.10.23
+ bloody_feast_religious_head_title: "Мастер праздника" #Машинный перевод 28.10.23
+ bloody_feast_religious_head_title_name: "Мастер праздника" #Машинный перевод 28.10.23
+ bloody_feast_devotee_male: "Праздник" #Машинный перевод 28.10.23
+ bloody_feast_devotee_male_plural: "Праздники" #Машинный перевод 28.10.23
+ bloody_feast_devotee_female: "Праздник" #Машинный перевод 28.10.23
+ bloody_feast_devotee_female_plural: "Праздники" #Машинный перевод 28.10.23
+ bloody_feast_devotee_neuter: "Праздник" #Машинный перевод 28.10.23
+ bloody_feast_devotee_neuter_plural: "Праздники" #Машинный перевод 28.10.23
+ bloody_feast_priest_alternate_plural: "Главный праздник" #Машинный перевод 28.10.23
+ bloody_feast_bishop: "Главный праздник" #Машинный перевод 28.10.23
+ bloody_feast_bishop_plural: "Головные праздники" #Машинный перевод 28.10.23
+ bloody_feast_positive_afterlife: "Восхождение" #Машинный перевод 28.10.23
+ bloody_feast_negative_afterlife: "Котел" #Машинный перевод 28.10.23
+  
+  #Great Unknown One 
+ great_unknown_one: "Культ Великого Неизвестного" #Машинный перевод 28.10.23
+ great_unknown_one_desc: "Культ, лишенный каких-либо реальных догматов, верований в богов или какой-либо философии, за исключением одноименного Великого Неизвестного, который, как известно, странствовал по [aeras|E] в течение бесчисленных веков, ненадолго появляясь преданным во снах или в реальном мире. Имея бесчисленные записи и книги встреч, их единственной целью является одержимость раскрытием тайн Великого Неизвестного." #Машинный перевод 28.10.23
+ great_unknown_one_adj: "Культ Великого Неизвестного" #Машинный перевод 28.10.23
+ great_unknown_one_adherent: "Последователь" #Машинный перевод 28.10.23
+ great_unknown_one_adherent_plural: "Последователи" #Машинный перевод 28.10.23
+ great_unknown_one_high_god_name: "Великий Неизвестный" #Машинный перевод 28.10.23
+ great_unknown_one_high_god_name_possessive: "Великий Неизвестный" #Машинный перевод 28.10.23
+ great_unknown_one_high_god_name_alternate: "Путешественник в капюшоне" #Машинный перевод 28.10.23
+ great_unknown_one_high_god_name_alternate_possessive: "Путешественник в капюшоне" #Машинный перевод 28.10.23
+ great_unknown_one_creator_god_name: "Тайна творения" #Машинный перевод 28.10.23
+ great_unknown_one_creator_god_name_possessive: "Тайна творения" #Машинный перевод 28.10.23
+ great_unknown_one_health_god_name: "Секрет вечной жизни" #Машинный перевод 28.10.23
+ great_unknown_one_health_god_name_possessive: "Секрет жизни вечной" #Машинный перевод 28.10.23
+ great_unknown_one_fertility_god_name: "Секрет умножения" #Машинный перевод 28.10.23
+ great_unknown_one_fertility_god_name_possessive: "Секрет умножения" #Машинный перевод 28.10.23
+ great_unknown_one_wealth_god_name: "Секрет трансмутации" #Машинный перевод 28.10.23
+ great_unknown_one_wealth_god_name_possessive: "Секрет трансмутации" #Машинный перевод 28.10.23
+ great_unknown_one_household_god_name: "Секрет укрепления" #Машинный перевод 28.10.23
+ great_unknown_one_household_god_name_possessive: "Секрет укрепления здоровья" #Машинный перевод 28.10.23
+ great_unknown_one_fate_god_name: "Тайна предвидения" #Машинный перевод 28.10.23
+ great_unknown_one_fate_god_name_possessive: "Тайна предвидения" #Машинный перевод 28.10.23
+ great_unknown_one_knowledge_god_name: "Тайна скрытых знаний" #Машинный перевод 28.10.23
+ great_unknown_one_knowledge_god_name_possessive: "Тайна скрытых знаний" #Машинный перевод 28.10.23
+ great_unknown_one_war_god_name: "Секрет насилия" #Машинный перевод 28.10.23
+ great_unknown_one_war_god_name_possessive: "Секрет насилия" #Машинный перевод 28.10.23
+ great_unknown_one_trickster_god_name: "Секрет лжи" #Машинный перевод 28.10.23
+ great_unknown_one_trickster_god_name_possessive: "Тайна лжи»" #Машинный перевод 28.10.23
+ great_unknown_one_night_god_name: "Секрет транспорта" #Машинный перевод 28.10.23
+ great_unknown_one_night_god_name_possessive: "Секрет транспорта" #Машинный перевод 28.10.23
+ great_unknown_one_water_god_name: "Секрет вечной поддержки" #Машинный перевод 28.10.23
+ great_unknown_one_water_god_name_possessive: "Секрет вечной поддержки" #Машинный перевод 28.10.23
+ great_unknown_one_death_deity_name: "Секрет выхода за пределы" #Машинный перевод 28.10.23
+ great_unknown_one_death_deity_name_possessive: "Секрет выхода за пределы" #Машинный перевод 28.10.23
+ great_unknown_one_devil_name: "Великий Неизвестный" #Машинный перевод 28.10.23
+ great_unknown_one_devil_name_possessive: "Великий Неизвестный" #Машинный перевод 28.10.23
+ great_unknown_one_witch_god_name: "Вражеские маги" #Машинный перевод 28.10.23
+ great_unknown_one_witch_god_name_possessive: "Вражеские маги" #Машинный перевод 28.10.23
+ great_unknown_one_house_of_worship: "Рекорд-Холл" #Машинный перевод 28.10.23
+ great_unknown_one_house_of_worship_plural: "Залы Рекордов" #Машинный перевод 28.10.23
+ great_unknown_one_religious_symbol: "Знак путешественника" #Машинный перевод 28.10.23
+ great_unknown_one_religious_text: "Записи путешественника в капюшоне" #Машинный перевод 28.10.23
+ great_unknown_one_religious_head_title: "Главный каталогизатор" #Машинный перевод 28.10.23
+ great_unknown_one_religious_head_title_name: "Главный каталогизатор" #Машинный перевод 28.10.23
+ great_unknown_one_devotee_male: "Искатель" #Машинный перевод 28.10.23
+ great_unknown_one_devotee_male_plural: "Искатели" #Машинный перевод 28.10.23
+ great_unknown_one_devotee_female: "Искатель" #Машинный перевод 28.10.23
+ great_unknown_one_devotee_female_plural: "Искатели" #Машинный перевод 28.10.23
+ great_unknown_one_devotee_neuter: "Искатель" #Машинный перевод 28.10.23
+ great_unknown_one_devotee_neuter_plural: "Искатели" #Машинный перевод 28.10.23
+ great_unknown_one_priest_alternate_plural: "Главный Искатель" #Машинный перевод 28.10.23
+ great_unknown_one_bishop: "Главный Искатель" #Машинный перевод 28.10.23
+ great_unknown_one_bishop_plural: "Главные искатели" #Машинный перевод 28.10.23
+ great_unknown_one_positive_afterlife: "Главный секрет" #Машинный перевод 28.10.23
+ great_unknown_one_negative_afterlife: "Смерть Вечная" #Машинный перевод 28.10.23
+  
+  #Zegarillian Dance 
+ zegarillian_dance: "Круг Зегариллийского танца" #Машинный перевод 28.10.23
+ zegarillian_dance_desc: "Культ, рабски поклоняющийся [magi|E] и рассматривающий [magic|E] как послание так называемого [hidden_kings|E]. Одноименный «Танец» представляет собой сумму загадочных движений, скрытых как в тайном, так и в обыденном. Их [Concept('origins_of_the_cult_of_zagrillion_dance','origins')|E] интригуют, а их одержимость магией сделала их привлекательным местом для мошенников [aversarian|E] Магов." #Машинный перевод 28.10.23
+ zegarillian_dance_adj: "Круг Зегариллийского танца" #Машинный перевод 28.10.23
+ zegarillian_dance_adherent: "Искатель" #Машинный перевод 28.10.23
+ zegarillian_dance_adherent_plural: "Искатели" #Машинный перевод 28.10.23
+ zegarillian_dance_high_god_name: "Первый и Высший" #Машинный перевод 28.10.23
+ #zegarillian_dance_high_god_name: "Повелители" #Машинный перевод 28.10.23
+ zegarillian_dance_high_god_name_possessive: "Первый и Высший" #Машинный перевод 28.10.23
+ zegarillian_dance_high_god_name_alternate: "Атокир Центра" #Машинный перевод 28.10.23
+ zegarillian_dance_high_god_name_alternate_possessive: "Атокир Центра" #Машинный перевод 28.10.23
+ zegarillian_dance_creator_god_name: "Первый из сыновей" #Машинный перевод 28.10.23
+ zegarillian_dance_creator_god_name_possessive: "Первый из сыновей" #Машинный перевод 28.10.23
+ zegarillian_dance_health_god_name: "Клептаск" #Машинный перевод 28.10.23
+ zegarillian_dance_health_god_name_possessive: "Клептаска" #Машинный перевод 28.10.23
+ zegarillian_dance_fertility_god_name: "Лоле" #Машинный перевод 28.10.23
+ zegarillian_dance_fertility_god_name_possessive: "Лоле" #Машинный перевод 28.10.23
+ zegarillian_dance_wealth_god_name: "Патос" #Машинный перевод 28.10.23
+ zegarillian_dance_wealth_god_name_possessive: "Патос" #Машинный перевод 28.10.23
+ zegarillian_dance_household_god_name: "Маколеа" #Машинный перевод 28.10.23
+ zegarillian_dance_household_god_name_possessive: "Маколеа" #Машинный перевод 28.10.23
+ zegarillian_dance_fate_god_name: "Рефонус" #Машинный перевод 28.10.23
+ zegarillian_dance_fate_god_name_possessive: "Рефонус" #Машинный перевод 28.10.23
+ zegarillian_dance_knowledge_god_name: "Нессетер" #Машинный перевод 28.10.23
+ zegarillian_dance_knowledge_god_name_possessive: "Нессетера" #Машинный перевод 28.10.23
+ zegarillian_dance_war_god_name: "Нотерикс" #Машинный перевод 28.10.23
+ zegarillian_dance_war_god_name_possessive: "Нотерикс'" #Машинный перевод 28.10.23
+ zegarillian_dance_trickster_god_name: "Оэной" #Машинный перевод 28.10.23
+ zegarillian_dance_trickster_god_name_possessive: "Оэноя" #Машинный перевод 28.10.23
+ zegarillian_dance_night_god_name: "Иктнар" #Машинный перевод 28.10.23
+ zegarillian_dance_night_god_name_possessive: "Икнара" #Машинный перевод 28.10.23
+ zegarillian_dance_water_god_name: "Ласстела" #Машинный перевод 28.10.23
+ zegarillian_dance_water_god_name_possessive: "Ласстелы" #Машинный перевод 28.10.23
+ zegarillian_dance_death_deity_name: "Фанкорар" #Машинный перевод 28.10.23
+ zegarillian_dance_death_deity_name_possessive: "Фанкорара" #Машинный перевод 28.10.23
+ zegarillian_dance_devil_name: "Все еще один" #Машинный перевод 28.10.23
+ zegarillian_dance_devil_name_possessive: "Все еще один" #Машинный перевод 28.10.23
+ zegarillian_dance_witch_god_name: "Ворота" #Машинный перевод 28.10.23
+ zegarillian_dance_witch_god_name_possessive: "Ворота" #Машинный перевод 28.10.23
+ zegarillian_dance_house_of_worship: "Танцевальный зал" #Машинный перевод 28.10.23
+ zegarillian_dance_house_of_worship_plural: "Танцевальные залы" #Машинный перевод 28.10.23
+ zegarillian_dance_religious_symbol: "Круг" #Машинный перевод 28.10.23
+ zegarillian_dance_religious_text: "Секретные тексты" #Машинный перевод 28.10.23
+ zegarillian_dance_religious_head_title: "Читатель танца" #Машинный перевод 28.10.23
+ zegarillian_dance_religious_head_title_name: "Читатель танца" #Машинный перевод 28.10.23
+ zegarillian_dance_devotee_male: "Слуга" #Машинный перевод 28.10.23
+ zegarillian_dance_devotee_male_plural: "Слуги" #Машинный перевод 28.10.23
+ zegarillian_dance_devotee_female: "Слуга" #Машинный перевод 28.10.23
+ zegarillian_dance_devotee_female_plural: "Слуги" #Машинный перевод 28.10.23
+ zegarillian_dance_devotee_neuter: "Слуга" #Машинный перевод 28.10.23
+ zegarillian_dance_devotee_neuter_plural: "Слуги" #Машинный перевод 28.10.23
+ zegarillian_dance_priest_alternate_plural: "Верховный Слуга" #Машинный перевод 28.10.23
+ zegarillian_dance_bishop: "Верховный Слуга" #Машинный перевод 28.10.23
+ zegarillian_dance_bishop_plural: "Высшие Слуги" #Машинный перевод 28.10.23
+ zegarillian_dance_positive_afterlife: "Полое Королевство" #Машинный перевод 28.10.23
+ zegarillian_dance_negative_afterlife: "Холодное небо" #Машинный перевод 28.10.23
+  
+  #Infinite Feast 
+ infinite_feast: "Культ бесконечного пира" #Машинный перевод 28.10.23
+ infinite_feast_desc: "Гротескный культ, считающий мир трупом мертвого бога, вечно пожираемым чудовищными личинками, живущими под поверхностью. Говорят, что этот бесконечный пир божественности и даже реальности является истинной причиной [gedeora|E], причем некоторые утверждают, что личинки медленно пробираются на поверхность по мере того, как труп остывает." #Машинный перевод 28.10.23
+ infinite_feast_adj: "Культ бесконечного пира" #Машинный перевод 28.10.23
+ infinite_feast_adherent: "культист" #Машинный перевод 28.10.23
+ infinite_feast_adherent_plural: "Культисты" #Машинный перевод 28.10.23
+ infinite_feast_high_god_name: "Мертвый Бог" #Машинный перевод 28.10.23
+ infinite_feast_high_god_name_possessive: "Мертвый Бог" #Машинный перевод 28.10.23
+ infinite_feast_high_god_name_alternate: "Они, прошедшие" #Машинный перевод 28.10.23
+ infinite_feast_high_god_name_alternate_possessive: "Те, кто прошел" #Машинный перевод 28.10.23
+ infinite_feast_creator_god_name: "Мертвый" #Машинный перевод 28.10.23
+ infinite_feast_creator_god_name_possessive: "Мертвый" #Машинный перевод 28.10.23
+ infinite_feast_health_god_name: "Извивающаяся личинка" #Машинный перевод 28.10.23
+ infinite_feast_health_god_name_possessive: "Извивающаяся личинка" #Машинный перевод 28.10.23
+ infinite_feast_fertility_god_name: "Плодородная личинка" #Машинный перевод 28.10.23
+ infinite_feast_fertility_god_name_possessive: "Плодородная личинка" #Машинный перевод 28.10.23
+ infinite_feast_wealth_god_name: "Драгоценный личинка" #Машинный перевод 28.10.23
+ infinite_feast_wealth_god_name_possessive: "Драгоценный личинка" #Машинный перевод 28.10.23
+ infinite_feast_fate_god_name: "Знающая личинка" #Машинный перевод 28.10.23
+ infinite_feast_fate_god_name_possessive: "Знающая Личинка" #Машинный перевод 28.10.23
+ infinite_feast_war_god_name: "Извивающаяся личинка" #Машинный перевод 28.10.23
+ infinite_feast_war_god_name_possessive: "Извивающаяся личинка" #Машинный перевод 28.10.23
+ infinite_feast_night_god_name: "Звездный личинка" #Машинный перевод 28.10.23
+ infinite_feast_night_god_name_possessive: "Звездный личинка" #Машинный перевод 28.10.23
+ infinite_feast_water_god_name: "Огромная личинка" #Машинный перевод 28.10.23
+ infinite_feast_water_god_name_possessive: "Огромная Личинка" #Машинный перевод 28.10.23
+ infinite_feast_death_deity_name: "Последняя личинка" #Машинный перевод 28.10.23
+ infinite_feast_death_deity_name_possessive: "Последняя личинка" #Машинный перевод 28.10.23
+  
+ infinite_feast_devil_name: "Ненавистная личинка" #Машинный перевод 28.10.23
+ infinite_feast_devil_name_possessive: "Ненавистная личинка" #Машинный перевод 28.10.23
+ infinite_feast_witch_god_name: "Шепчущий личинка" #Машинный перевод 28.10.23
+ infinite_feast_witch_god_name_possessive: "Шепчущий личинка" #Машинный перевод 28.10.23
+ infinite_feast_house_of_worship: "Приют" #Машинный перевод 28.10.23
+ infinite_feast_house_of_worship_plural: "Приюты" #Машинный перевод 28.10.23
+ infinite_feast_religious_symbol: "Ротсайн" #Машинный перевод 28.10.23
+ infinite_feast_religious_text: "Отчеты" #Машинный перевод 28.10.23
+ infinite_feast_religious_head_title: "Первосвященник" #Машинный перевод 28.10.23
+ infinite_feast_religious_head_title_name: "Первосвященник" #Машинный перевод 28.10.23
+ infinite_feast_devotee_male: "культист" #Машинный перевод 28.10.23
+ infinite_feast_devotee_male_plural: "Культисты" #Машинный перевод 28.10.23
+ infinite_feast_devotee_female: "культист" #Машинный перевод 28.10.23
+ infinite_feast_devotee_female_plural: "Культисты" #Машинный перевод 28.10.23
+ infinite_feast_devotee_neuter: "культист" #Машинный перевод 28.10.23
+ infinite_feast_devotee_neuter_plural: "Культисты" #Машинный перевод 28.10.23
+ infinite_feast_priest_alternate_plural: "Священник" #Машинный перевод 28.10.23
+ infinite_feast_bishop: "Главный священник" #Машинный перевод 28.10.23
+ infinite_feast_bishop_plural: "Первосвященники" #Машинный перевод 28.10.23
+ infinite_feast_positive_afterlife: "Скрытая роща" #Машинный перевод 28.10.23
+ infinite_feast_negative_afterlife: "Холодный труп" #Машинный перевод 28.10.23
+  
+  #Elated Victim 
+ elated_victim: "Культ восторженной жертвы" #Машинный перевод 28.10.23
+ elated_victim_desc: "Культ поклоняется женщине, известной как [elated_victim], которая проповедует святость потребления, снисходительность и образованность. Они также превозносят смерть, боль и все формы страданий и считают наиболее измученных людей святыми." #Машинный перевод 28.10.23
+ elated_victim_adj: "Культ восторженной жертвы" #Машинный перевод 28.10.23
+ elated_victim_adherent: "восторженный" #Машинный перевод 28.10.23
+ elated_victim_adherent_plural: "Экстатики" #Машинный перевод 28.10.23
+ elated_victim_high_god_name: "Ликующая жертва" #Машинный перевод 28.10.23
+ elated_victim_high_god_name_possessive: "Ликующая жертва" #Машинный перевод 28.10.23
+ elated_victim_high_god_name_alternate: "Ликующая жертва" #Машинный перевод 28.10.23
+ elated_victim_high_god_name_alternate_possessive: "Ликующая жертва" #Машинный перевод 28.10.23
+ elated_victim_devil_name: "Враг" #Машинный перевод 28.10.23
+ elated_victim_devil_name_possessive: "Враг" #Машинный перевод 28.10.23
+ elated_victim_witch_god_name: "Искривленный гигант" #Машинный перевод 28.10.23
+ elated_victim_witch_god_name_possessive: "Искривленный гигант" #Машинный перевод 28.10.23
+ elated_victim_house_of_worship: "Дом экстаза" #Машинный перевод 28.10.23
+ elated_victim_house_of_worship_plural: "Дома экстаза" #Машинный перевод 28.10.23
+ elated_victim_religious_symbol: "Экстатическая звезда" #Машинный перевод 28.10.23
+ elated_victim_religious_text: "Экстази" #Машинный перевод 28.10.23
+ elated_victim_religious_head_title: "Верховный жрец" #Машинный перевод 28.10.23
+ elated_victim_religious_head_title_name: "Верховный жрец" #Машинный перевод 28.10.23
+ elated_victim_devotee_male: "Празднующий" #Машинный перевод 28.10.23
+ elated_victim_devotee_male_plural: "Празднующие" #Машинный перевод 28.10.23
+ elated_victim_devotee_female: "Празднующий" #Машинный перевод 28.10.23
+ elated_victim_devotee_female_plural: "Празднующие" #Машинный перевод 28.10.23
+ elated_victim_devotee_neuter: "Празднующий" #Машинный перевод 28.10.23
+ elated_victim_devotee_neuter_plural: "Празднующие" #Машинный перевод 28.10.23
+ elated_victim_priest_alternate_plural: "жертвующий" #Машинный перевод 28.10.23
+ elated_victim_bishop: "жертвующий" #Машинный перевод 28.10.23
+ elated_victim_bishop_plural: "жертвующий" #Машинный перевод 28.10.23
+ elated_victim_positive_afterlife: "Царство снисходительности" #Машинный перевод 28.10.23
+ elated_victim_negative_afterlife: "Серые туманы" #Машинный перевод 28.10.23
+  
+  #Burning Maiden 
+ burning_maiden: "Культ Пылающей Девы" #Машинный перевод 28.10.23
+ burning_maiden_desc: "Культ, который верит в [Concept('burning_maiden','being')|E], который может дать мудрость ограниченным образом, если последователи выполнят сложный ритуал, включающий сожжение живой девушки, хотя во многих обстоятельствах (в основном политических) используются заменяющие изображения." #Машинный перевод 28.10.23
+ burning_maiden_adj: "Культ Пылающей Девы" #Машинный перевод 28.10.23
+ burning_maiden_adherent: "культист" #Машинный перевод 28.10.23
+ burning_maiden_adherent_plural: "Культисты" #Машинный перевод 28.10.23
+ burning_maiden_high_god_name: "Пылающая дева" #Машинный перевод 28.10.23
+ burning_maiden_high_god_name_possessive: "Пылающая дева" #Машинный перевод 28.10.23
+ burning_maiden_high_god_name_alternate: "Девушка в огне" #Машинный перевод 28.10.23
+ burning_maiden_high_god_name_alternate_possessive: "Девушка в огне" #Машинный перевод 28.10.23
+ burning_maiden_creator_god_name: "Толторотот" #Машинный перевод 28.10.23
+ burning_maiden_creator_god_name_possessive: "Толторотота" #Машинный перевод 28.10.23
+ burning_maiden_wealth_god_name: "Блазерт" #Машинный перевод 28.10.23
+ burning_maiden_wealth_god_name_possessive: "Блазерта" #Машинный перевод 28.10.23
+ burning_maiden_fate_god_name: "Асах" #Машинный перевод 28.10.23
+ burning_maiden_fate_god_name_possessive: "Асаха" #Машинный перевод 28.10.23
+ burning_maiden_knowledge_god_name: "Вилхор" #Машинный перевод 28.10.23
+ burning_maiden_knowledge_god_name_possessive: "Вилхора" #Машинный перевод 28.10.23
+ burning_maiden_war_god_name: "Вулкинз" #Машинный перевод 28.10.23
+ burning_maiden_war_god_name_possessive: "Вулкинза" #Машинный перевод 28.10.23
+ burning_maiden_trickster_god_name: "Тотор" #Машинный перевод 28.10.23
+ burning_maiden_trickster_god_name_possessive: "Тотора" #Машинный перевод 28.10.23
+ burning_maiden_night_god_name: "Король ночи" #Машинный перевод 28.10.23
+ burning_maiden_night_god_name_possessive: "Король Ночи" #Машинный перевод 28.10.23
+ burning_maiden_water_god_name: "Вилхор" #Машинный перевод 28.10.23
+ burning_maiden_water_god_name_possessive: "Вилхора" #Машинный перевод 28.10.23
+ burning_maiden_death_deity_name: "Улькинз" #Машинный перевод 28.10.23
+ burning_maiden_death_deity_name_possessive: "Улькинза" #Машинный перевод 28.10.23
+ burning_maiden_devil_name: "Мимниосин" #Машинный перевод 28.10.23
+ burning_maiden_devil_name_possessive: "Мимниосина" #Машинный перевод 28.10.23
+ burning_maiden_witch_god_name: "Ведьма" #Машинный перевод 28.10.23
+ burning_maiden_witch_god_name_possessive: "Ведьмы" #Машинный перевод 28.10.23
+ burning_maiden_house_of_worship: "Храм" #Машинный перевод 28.10.23
+ burning_maiden_house_of_worship_plural: "Храмы" #Машинный перевод 28.10.23
+ burning_maiden_religious_symbol: "Девичий костер" #Машинный перевод 28.10.23
+ burning_maiden_religious_text: "Священные записи" #Машинный перевод 28.10.23
+ burning_maiden_religious_head_title: "Верховный Жрец" #Машинный перевод 28.10.23
+ burning_maiden_religious_head_title_name: "Верховный Жрец" #Машинный перевод 28.10.23
+ burning_maiden_devotee_male: "культист" #Машинный перевод 28.10.23
+ burning_maiden_devotee_male_plural: "Культисты" #Машинный перевод 28.10.23
+ burning_maiden_devotee_female: "Весталка" #Машинный перевод 28.10.23
+ burning_maiden_devotee_female_plural: "Весталки" #Машинный перевод 28.10.23
+ burning_maiden_devotee_neuter: "культист" #Машинный перевод 28.10.23
+ burning_maiden_devotee_neuter_plural: "Культисты" #Машинный перевод 28.10.23
+ burning_maiden_priest_alternate_plural: "Священники" #Машинный перевод 28.10.23
+ burning_maiden_bishop: "Первосвященник" #Машинный перевод 28.10.23
+ burning_maiden_bishop_plural: "Первосвященники" #Машинный перевод 28.10.23
+ burning_maiden_positive_afterlife: "Преисподняя" #Машинный перевод 28.10.23
+ burning_maiden_negative_afterlife: "Обреченный костер" #Машинный перевод 28.10.23
+  
+  #Screaming host 
+ screaming_host: "Церковь Кричащего Воинства" #Машинный перевод 28.10.23
+ screaming_host_desc: "Культ, который считает Асаха своим божественным защитником и небесным хранителем — крылатые демоны забрали его в свое логово глубоко под землей, и таким образом они вырыли «ямы провидцев» размером с человека, чтобы спасти их. Члены Церкви печально известны своими захватывающими песнопениями и гимнами, которые якобы имитируют вопли их бога, дающего указания спасти его." #Машинный перевод 28.10.23
+ screaming_host_adj: "Церковь Кричащего Воинства" #Машинный перевод 28.10.23
+ screaming_host_adherent: "Искатель" #Машинный перевод 28.10.23
+ screaming_host_adherent_plural: "Искатели" #Машинный перевод 28.10.23
+ screaming_host_high_god_name: "Асах" #Машинный перевод 28.10.23
+ screaming_host_high_god_name_possessive: "Асаха" #Машинный перевод 28.10.23
+ screaming_host_high_god_name_alternate: "Хранитель" #Машинный перевод 28.10.23
+ screaming_host_high_god_name_alternate_possessive: "Гардиан" #Машинный перевод 28.10.23
+ screaming_host_creator_god_name: "Вилхор" #Машинный перевод 28.10.23
+ screaming_host_creator_god_name_possessive: "Вилхора" #Машинный перевод 28.10.23
+ screaming_host_health_god_name: "Месеф" #Машинный перевод 28.10.23
+ screaming_host_health_god_name_possessive: "Месефа" #Машинный перевод 28.10.23
+ screaming_host_fertility_god_name: "Толторотот" #Машинный перевод 28.10.23
+ screaming_host_fertility_god_name_possessive: "Толторотота" #Машинный перевод 28.10.23
+ screaming_host_wealth_god_name: "Мин" #Машинный перевод 28.10.23
+ screaming_host_wealth_god_name_possessive: "Мин" #Машинный перевод 28.10.23
+ screaming_host_household_god_name: "Блазерт" #Машинный перевод 28.10.23
+ screaming_host_household_god_name_possessive: "Блазерта" #Машинный перевод 28.10.23
+ screaming_host_fate_god_name: "Мимниосин" #Машинный перевод 28.10.23
+ screaming_host_fate_god_name_possessive: "Мимниосина" #Машинный перевод 28.10.23
+ screaming_host_knowledge_god_name: "Тальт" #Машинный перевод 28.10.23
+ screaming_host_knowledge_god_name_possessive: "Тальта" #Машинный перевод 28.10.23
+ screaming_host_war_god_name: "Кышт" #Машинный перевод 28.10.23
+ screaming_host_war_god_name_possessive: "Кышта" #Машинный перевод 28.10.23
+ screaming_host_trickster_god_name: "Марбор" #Машинный перевод 28.10.23
+ screaming_host_trickster_god_name_possessive: "Марбора" #Машинный перевод 28.10.23
+ screaming_host_night_god_name: "Асаха" #Машинный перевод 28.10.23
+ screaming_host_night_god_name_possessive: "Асаха" #Машинный перевод 28.10.23
+ screaming_host_water_god_name: "Беллхор" #Машинный перевод 28.10.23
+ screaming_host_water_god_name_possessive: "Беллхор" #Машинный перевод 28.10.23
+ screaming_host_death_deity_name: "Мимниосин" #Машинный перевод 28.10.23
+ screaming_host_death_deity_name_possessive: "Мимниосина" #Машинный перевод 28.10.23
+ screaming_host_devil_name: "Улкынз Тортар" #Машинный перевод 28.10.23
+ screaming_host_devil_name_possessive: "Улькинз Тортар" #Машинный перевод 28.10.23
+ screaming_host_witch_god_name: "Вулкинз Тортар" #Машинный перевод 28.10.23
+ screaming_host_witch_god_name_possessive: "Вулкинз Тортар" #Машинный перевод 28.10.23
+ screaming_host_house_of_worship: "Кирх" #Машинный перевод 28.10.23
+ screaming_host_house_of_worship_plural: "Кирхи" #Машинный перевод 28.10.23
+ screaming_host_religious_symbol: "Крылатый вихрь" #Машинный перевод 28.10.23
+ screaming_host_religious_text: "Завещание Изта" #Машинный перевод 28.10.23
+ screaming_host_religious_head_title: "Верховный Жрец" #Машинный перевод 28.10.23
+ screaming_host_religious_head_title_name: "Верховный жрец" #Машинный перевод 28.10.23
+ screaming_host_devotee_male: "Связанный искатель" #Машинный перевод 28.10.23
+ screaming_host_devotee_male_plural: "Связанные искатели" #Машинный перевод 28.10.23
+ screaming_host_devotee_female: "Связанный искатель" #Машинный перевод 28.10.23
+ screaming_host_devotee_female_plural: "Связанные искатели" #Машинный перевод 28.10.23
+ screaming_host_devotee_neuter: "Связанный искатель" #Машинный перевод 28.10.23
+ screaming_host_devotee_neuter_plural: "Связанные искатели" #Машинный перевод 28.10.23
+ screaming_host_priest_alternate_plural: "Священники" #Машинный перевод 28.10.23
+ screaming_host_bishop: "Диакон" #Машинный перевод 28.10.23
+ screaming_host_bishop_plural: "Дьяконы" #Машинный перевод 28.10.23
+ screaming_host_positive_afterlife: "Рай Асаха" #Машинный перевод 28.10.23
+ screaming_host_negative_afterlife: "Демоническое царство" #Машинный перевод 28.10.23
+  
+ yalgabaot: "Культ Ялгабаоти" #Машинный перевод 28.10.23
+ yalgabaot_desc: "Ялгабаоти поклоняются [yalgabaot|E] и многим другим богам, веря, что они обретут знание и понимание физического мира. К богам молятся, изучая природные и неестественные явления, принося жертвы Ялгабаоту и его слугам и участвуя в ритуалах [magic|E] в честь богов." #Машинный перевод 28.10.23
+ yalgabaot_adj: "Культ Ялгабаоти" #Машинный перевод 28.10.23
+ yalgabaot_adherent: "культист" #Машинный перевод 28.10.23
+ yalgabaot_adherent_plural: "Культисты" #Машинный перевод 28.10.23
+ yalgabaot_high_god_name: "Ялгабаот" #Машинный перевод 28.10.23
+ yalgabaot_high_god_name_possessive: "Ялгабаот" #Машинный перевод 28.10.23
+ yalgabaot_high_god_name_alternate: "Универсальная ось" #Машинный перевод 28.10.23
+ yalgabaot_high_god_name_alternate_possessive: "Универсальная ось" #Машинный перевод 28.10.23
+ yalgabaot_creator_god_name: "Невыразимый Бог" #Машинный перевод 28.10.23
+ yalgabaot_creator_god_name_possessive: "Невыразимый Бог" #Машинный перевод 28.10.23
+ yalgabaot_health_god_name: "Месеф" #Машинный перевод 28.10.23
+ yalgabaot_health_god_name_possessive: "Месефа" #Машинный перевод 28.10.23
+ yalgabaot_fertility_god_name: "Толторотот" #Машинный перевод 28.10.23
+ yalgabaot_fertility_god_name_possessive: "Толторотота" #Машинный перевод 28.10.23
+ yalgabaot_wealth_god_name: "Мин" #Машинный перевод 28.10.23
+ yalgabaot_wealth_god_name_possessive: "Мин" #Машинный перевод 28.10.23
+ yalgabaot_household_god_name: "Блазерт" #Машинный перевод 28.10.23
+ yalgabaot_household_god_name_possessive: "Блазерта" #Машинный перевод 28.10.23
+ yalgabaot_fate_god_name: "Мимниосин" #Машинный перевод 28.10.23
+ yalgabaot_fate_god_name_possessive: "Мимниосина" #Машинный перевод 28.10.23
+ yalgabaot_knowledge_god_name: "Тальт" #Машинный перевод 28.10.23
+ yalgabaot_knowledge_god_name_possessive: "Тальта" #Машинный перевод 28.10.23
+ yalgabaot_war_god_name: "Кышт" #Машинный перевод 28.10.23
+ yalgabaot_war_god_name_possessive: "Кышта" #Машинный перевод 28.10.23
+ yalgabaot_trickster_god_name: "Марбор" #Машинный перевод 28.10.23
+ yalgabaot_trickster_god_name_possessive: "Марбора" #Машинный перевод 28.10.23
+ yalgabaot_night_god_name: "Асаха" #Машинный перевод 28.10.23
+ yalgabaot_night_god_name_possessive: "Асаха" #Машинный перевод 28.10.23
+ yalgabaot_water_god_name: "Беллхор" #Машинный перевод 28.10.23
+ yalgabaot_water_god_name_possessive: "Беллхор" #Машинный перевод 28.10.23
+ yalgabaot_death_deity_name: "Мимниосин" #Машинный перевод 28.10.23
+ yalgabaot_death_deity_name_possessive: "Мимниосина" #Машинный перевод 28.10.23
+ yalgabaot_devil_name: "Улкынз Тортар" #Машинный перевод 28.10.23
+ yalgabaot_devil_name_possessive: "Улькинз Тортар" #Машинный перевод 28.10.23
+ yalgabaot_witch_god_name: "Вулкинз Тортар" #Машинный перевод 28.10.23
+ yalgabaot_witch_god_name_possessive: "Вулкинз Тортар" #Машинный перевод 28.10.23
+ yalgabaot_house_of_worship: "Кирх" #Машинный перевод 28.10.23
+ yalgabaot_house_of_worship_plural: "Кирхи" #Машинный перевод 28.10.23
+ yalgabaot_religious_symbol: "Крылатый вихрь" #Машинный перевод 28.10.23
+ yalgabaot_religious_text: "Завещание Изта" #Машинный перевод 28.10.23
+ yalgabaot_religious_head_title: "Верховный Жрец" #Машинный перевод 28.10.23
+ yalgabaot_religious_head_title_name: "Верховный жрец" #Машинный перевод 28.10.23
+ yalgabaot_devotee_male: "Связанный искатель" #Машинный перевод 28.10.23
+ yalgabaot_devotee_male_plural: "Связанные искатели" #Машинный перевод 28.10.23
+ yalgabaot_devotee_female: "Связанный искатель" #Машинный перевод 28.10.23
+ yalgabaot_devotee_female_plural: "Связанные искатели" #Машинный перевод 28.10.23
+ yalgabaot_devotee_neuter: "Связанный искатель" #Машинный перевод 28.10.23
+ yalgabaot_devotee_neuter_plural: "Связанные искатели" #Машинный перевод 28.10.23
+ yalgabaot_priest_alternate_plural: "Священники" #Машинный перевод 28.10.23
+ yalgabaot_bishop: "Диакон" #Машинный перевод 28.10.23
+ yalgabaot_bishop_plural: "Дьяконы" #Машинный перевод 28.10.23
+ yalgabaot_positive_afterlife: "Тишина после этого" #Машинный перевод 28.10.23
+ yalgabaot_negative_afterlife: "Кричащее место" #Машинный перевод 28.10.23

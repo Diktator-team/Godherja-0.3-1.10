@@ -1,0 +1,159 @@
+﻿l_russian:
+  
+ #aruvasue Loc 
+ aruvasue_religion: "Арувасу" #Машинный перевод 28.10.23
+ aruvasue_religion_adj: "Арувасуен" #Машинный перевод 28.10.23
+ aruvasue_religion_adjerent: "Арувасуен" #Машинный перевод 28.10.23
+ aruvasue_religion_adherent_plural: "Арувасуени" #Машинный перевод 28.10.23
+ aruvasue_religion_desc: "Названный в честь Короля Луны-Солнца Аруваса, Того-Кто-Один-Но-Три, Арувасуэ — это состояние ума, впервые обнаруженное на юге Айроноя. Арувасуэни верят, что материальный мир так же священн, как и духовный, и ставят дом и очаг превыше всего остального." #Машинный перевод 28.10.23
+ aruvasue_high_god_name: "Арува Цере" #Машинный перевод 28.10.23
+ aruvasue_high_god_name_possessive: "Арува Цере" #Машинный перевод 28.10.23
+ aruvasue_high_god_name_alternate: "Солнце Судьбы" #Машинный перевод 28.10.23
+ aruvasue_high_god_name_alternate_possessive: "Солнце Судьбы" #Машинный перевод 28.10.23
+ aruvasue_devil_name: "Арува Нилуд" #Машинный перевод 28.10.23
+ aruvasue_devil_name_possessive: "Арува Нилуд" #Машинный перевод 28.10.23
+ aruvasue_death_deity_name: "Арува Агат" #Машинный перевод 28.10.23
+ aruvasue_death_deity_name_possessive: "Арува Агата" #Машинный перевод 28.10.23
+  
+  
+  
+ aruvasue_house_of_worship: "Вайбар" #Машинный перевод 28.10.23
+ aruvasue_house_of_worship_plural: "Вайбарс" #Машинный перевод 28.10.23
+ aruvasue_religious_symbol: "Арувасуен Сан" #Машинный перевод 28.10.23
+ aruvasue_religious_text: "Сто проповедей Короля Луны-Солнца" #Машинный перевод 28.10.23
+  
+ aruvasue_religious_head_title: "Зар Экадри" #Машинный перевод 28.10.23
+ aruvasue_religious_head_title_name: "Зарибат Экадри" #Машинный перевод 28.10.23
+ aruvasue_devotee: "Арувасуен" #Машинный перевод 28.10.23
+ aruvasue_devotee_plural: "Арувасуен" #Машинный перевод 28.10.23
+ aruvasue_priest: "Тарлус" #Машинный перевод 28.10.23
+ aruvasue_priest_plural: "Тарлуси" #Машинный перевод 28.10.23
+ aruvasue_priest_alternate_plural: "Тарлусы" #Машинный перевод 28.10.23
+ aruvasue_bishop: "Миджикал" #Машинный перевод 28.10.23
+ aruvasue_bishop_plural: "Mijikali" #Машинный перевод 28.10.23
+ aruvasue_positive_afterlife: "Метонай" #Машинный перевод 28.10.23
+ aruvasue_negative_afterlife: "Йирг Кише" #Машинный перевод 28.10.23
+  
+ aruvasue_creator_god_name: "$aruvasue_high_god_name$" #Машинный перевод 28.10.23
+ aruvasue_creator_god_name_possessive: "$aruvasue_high_god_name_possessive$" #Машинный перевод 28.10.23
+ aruvasue_health_god_name: "$aruvasue_high_god_name$" #Машинный перевод 28.10.23
+ aruvasue_health_god_name_possessive: "$aruvasue_high_god_name_possessive$" #Машинный перевод 28.10.23
+ aruvasue_fertility_god_name: "$aruvasue_devil_name$" #Машинный перевод 28.10.23
+ aruvasue_fertility_god_name_possessive: "$aruvasue_devil_name_possessive$" #Машинный перевод 28.10.23
+ aruvasue_wealth_god_name: "$aruvasue_death_deity_name$" #Машинный перевод 28.10.23
+ aruvasue_wealth_god_name_possessive: "$aruvasue_death_deity_name_possessive$" #Машинный перевод 28.10.23
+ aruvasue_household_god_name: "$aruvasue_death_deity_name$" #Машинный перевод 28.10.23
+ aruvasue_household_god_name_possessive: "$aruvasue_death_deity_name_possessive$" #Машинный перевод 28.10.23
+ aruvasue_fate_god_name: "$aruvasue_high_god_name$" #Машинный перевод 28.10.23
+ aruvasue_fate_god_name_possessive: "$aruvasue_high_god_name_possessive$" #Машинный перевод 28.10.23
+ aruvasue_knowledge_god_name: "$aruvasue_high_god_name$" #Машинный перевод 28.10.23
+ aruvasue_knowledge_god_name_possessive: "$aruvasue_high_god_name_possessive$" #Машинный перевод 28.10.23
+ aruvasue_war_god_name: "$aruvasue_high_god_name$" #Машинный перевод 28.10.23
+ aruvasue_war_god_name_possessive: "$aruvasue_high_god_name_possessive$" #Машинный перевод 28.10.23
+ aruvasue_trickster_god_name: "$aruvasue_death_deity_name$" #Машинный перевод 28.10.23
+ aruvasue_trickster_god_name_possessive: "$aruvasue_death_deity_name_possessive$" #Машинный перевод 28.10.23
+ aruvasue_night_god_name: "$aruvasue_devil_name$" #Машинный перевод 28.10.23
+ aruvasue_night_god_name_possessive: "$aruvasue_devil_name$" #Машинный перевод 28.10.23
+ aruvasue_water_god_name: "$aruvasue_devil_name$" #Машинный перевод 28.10.23
+ aruvasue_water_god_name_possessive: "$aruvasue_devil_name_possessive$" #Машинный перевод 28.10.23
+ aruvasue_witch_god_name: "$aruvasue_high_god_name$" #Машинный перевод 28.10.23
+ aruvasue_witch_god_name_possessive: "$aruvasue_high_god_name_possessive$" #Машинный перевод 28.10.23
+  
+ aruvasue: "Арувасу" #Машинный перевод 28.10.23
+ aruvasue_adj: "Арувасуен" #Машинный перевод 28.10.23
+ aruvasue_adherent: "Арувасуен" #Машинный перевод 28.10.23
+ aruvasue_adherent_plural: "Арувасуени" #Машинный перевод 28.10.23
+ aruvasue_desc: "Построенные на [Concept('aruvas_myth','myth of Aruvas')|E], Арувасуэни верят, что праздник - самое священное из всех дел, и что в почетном госте обитает дух Арува Агата, который будет говорить от их имени в [oskinjer|E]. Прохождение его гарантировало бы святость, их статуи гордо стояли бы среди ангелов, служащих трем царствам Аруваса в их храмах." #Машинный перевод 28.10.23
+  
+ rutbay: "Рут'Бей" #Машинный перевод 28.10.23
+ rutbay_adj: "Рут'Баян" #Машинный перевод 28.10.23
+ rutbay_adherent: "Рут'Баян" #Машинный перевод 28.10.23
+ rutbay_adherent_plural: "Рут'Баяни" #Машинный перевод 28.10.23
+ rutbay_desc: "Рут'Бэй («Двенадцать братьев») — это кодекс двенадцати инакомыслящих, которые при жизни убили первого «святого», добившегося успеха в Ос Кинджер. Полагая, что Ос Кинджер не может быть понят живыми священниками или что на пиру присутствует дух Арува Агата, а не гостя, верующие также избегают магии, поскольку считают это подарком, украденным у Аруваса. Их кредо подчеркивает [Concept('rutbay_prophesy','weary prophesy')|E]." #Машинный перевод 28.10.23
+  
+ sarmuyr: "Сар'муйр" #Машинный перевод 28.10.23
+ sarmuyr_adj: "Сар'муйран" #Машинный перевод 28.10.23
+ sarmuyr_adherent: "Сар'муйран" #Машинный перевод 28.10.23
+ sarmuyr_adherent_plural: "Сармуйрани" #Машинный перевод 28.10.23
+ sarmuyr_desc: "Мать Меча, пользующаяся большим уважением в большинстве конфессий Арувасуэн, поэтому высоко ценится Сар'мюрами, которые считают себя ее детьми. Подчеркивая ее как [Concept('sword_mother','Queen of the Dead')|E], они посвящают свою смертную жизнь уничтожению тех, кто осмелится отречься от нее. Они отказываются принять [oskinjer|E], пока не встретятся с ней." #Машинный перевод 28.10.23
+ sarmuyr_high_god_name: "Арува Нилуд" #Машинный перевод 28.10.23
+ sarmuyr_high_god_name_possessive: "Арува Нилуд" #Машинный перевод 28.10.23
+ sarmuyr_high_god_name_alternate: "Луна изобилия" #Машинный перевод 28.10.23
+ sarmuyr_high_god_name_alternate_possessive: "Луна изобилия" #Машинный перевод 28.10.23
+ sarmuyr_devil_name: "Арува Цере" #Машинный перевод 28.10.23
+ sarmuyr_devil_name_possessive: "Арува Цере" #Машинный перевод 28.10.23
+ sarmuyr_death_deity_name: "Арува Агат" #Машинный перевод 28.10.23
+ sarmuyr_death_deity_name_possessive: "Арува Агата" #Машинный перевод 28.10.23
+ sarmuyr_creator_god_name: "$sarmuyr_high_god_name$" #Машинный перевод 28.10.23
+ sarmuyr_creator_god_name_possessive: "$sarmuyr_high_god_name_possessive$" #Машинный перевод 28.10.23
+ sarmuyr_health_god_name: "$sarmuyr_devil_name$" #Машинный перевод 28.10.23
+ sarmuyr_health_god_name_possessive: "$sarmuyr_devil_name_possessive$" #Машинный перевод 28.10.23
+ sarmuyr_fertility_god_name: "$sarmuyr_high_god_name$" #Машинный перевод 28.10.23
+ sarmuyr_fertility_god_name_possessive: "$sarmuyr_high_god_name_possessive$" #Машинный перевод 28.10.23
+ sarmuyr_wealth_god_name: "$sarmuyr_death_deity_name$" #Машинный перевод 28.10.23
+ sarmuyr_wealth_god_name_possessive: "$sarmuyr_death_deity_name_possessive$" #Машинный перевод 28.10.23
+ sarmuyr_household_god_name: "$sarmuyr_death_deity_name$" #Машинный перевод 28.10.23
+ sarmuyr_household_god_name_possessive: "$sarmuyr_death_deity_name_possessive$" #Машинный перевод 28.10.23
+ sarmuyr_fate_god_name: "$sarmuyr_devil_name$" #Машинный перевод 28.10.23
+ sarmuyr_fate_god_name_possessive: "$sarmuyr_devil_name_possessive$" #Машинный перевод 28.10.23
+ sarmuyr_knowledge_god_name: "$sarmuyr_devil_name$" #Машинный перевод 28.10.23
+ sarmuyr_knowledge_god_name_possessive: "$sarmuyr_devil_name_possessive$" #Машинный перевод 28.10.23
+ sarmuyr_war_god_name: "$sarmuyr_devil_name$" #Машинный перевод 28.10.23
+ sarmuyr_war_god_name_possessive: "$sarmuyr_devil_name_possessive$" #Машинный перевод 28.10.23
+ sarmuyr_trickster_god_name: "$sarmuyr_death_deity_name$" #Машинный перевод 28.10.23
+ sarmuyr_trickster_god_name_possessive: "$sarmuyr_death_deity_name_possessive$" #Машинный перевод 28.10.23
+ sarmuyr_night_god_name: "$sarmuyr_high_god_name$" #Машинный перевод 28.10.23
+ sarmuyr_night_god_name_possessive: "$sarmuyr_high_god_name_possessive$" #Машинный перевод 28.10.23
+ sarmuyr_water_god_name: "$sarmuyr_high_god_name$" #Машинный перевод 28.10.23
+ sarmuyr_water_god_name_possessive: "$sarmuyr_high_god_name_possessive$" #Машинный перевод 28.10.23
+ sarmuyr_witch_god_name: "$sarmuyr_high_god_name$" #Машинный перевод 28.10.23
+ sarmuyr_witch_god_name_possessive: "$sarmuyr_high_god_name_possessive$" #Машинный перевод 28.10.23
+  
+  
+ blorivok: "Блоривок" #Машинный перевод 28.10.23
+ blorivok_adj: "Блоривокен" #Машинный перевод 28.10.23
+ blorivok_adherent: "Блоривокен" #Машинный перевод 28.10.23
+ blorivok_adherent_plural: "Блоривокени" #Машинный перевод 28.10.23
+ blorivok_desc: "Веря в стремление Аруваса к единству человечества, Блоривок подчеркивают тривиальность таких отвлекающих факторов, как война, а не вечное спасение. Умеренная реакция на многие враждебные религии вокруг них, особенно на эртомаксизм, истоки веры Блоривокенов носят чисто прагматический характер." #Машинный перевод 28.10.23
+  
+ ertomax: "Эртомаксизм" #Машинный перевод 28.10.23
+ ertomax_adj: "Эртомаксист" #Машинный перевод 28.10.23
+ ertomax_adherent: "Эртомаксист" #Машинный перевод 28.10.23
+ ertomax_adherent_plural: "Эртомаксисты" #Машинный перевод 28.10.23
+ ertomax_desc: "Основанный на идее, что дух Короля Луны-Солнца существует только в душах верующих, он назван в честь [ertomax|E], который считал себя самым верным из всех. Убивая неверующих, чтобы получить шанс провести Ос Кинджер с Эртомаксом, его [Concept('fate_of_ertomaxism','death')|E] не угасил пламя пыла среди его сторонников, которые просто ждали его возвращения." #Машинный перевод 28.10.23
+ ertomax_high_god_name: "Эртомакс" #Машинный перевод 28.10.23
+ ertomax_high_god_name_possessive: "Эртомакс" #Машинный перевод 28.10.23
+ ertomax_high_god_name_alternate: "Тот-Кто-Один-Но-Три" #Машинный перевод 28.10.23
+ ertomax_high_god_name_alternate_possessive: "Тот-Кто-Один-Но-Три" #Машинный перевод 28.10.23
+ ertomax_devil_name: "$ertomax_high_god_name$" #Машинный перевод 28.10.23
+ ertomax_devil_name_possessive: "$ertomax_high_god_name_possessive$" #Машинный перевод 28.10.23
+ ertomax_death_deity_name: "$ertomax_high_god_name$" #Машинный перевод 28.10.23
+ ertomax_death_deity_name_possessive: "$ertomax_high_god_name_possessive$" #Машинный перевод 28.10.23
+ ertomax_creator_god_name: "$ertomax_high_god_name$" #Машинный перевод 28.10.23
+ ertomax_creator_god_name_possessive: "$ertomax_high_god_name_possessive$" #Машинный перевод 28.10.23
+ ertomax_health_god_name: "$ertomax_high_god_name$" #Машинный перевод 28.10.23
+ ertomax_health_god_name_possessive: "$ertomax_high_god_name_possessive$" #Машинный перевод 28.10.23
+ ertomax_fertility_god_name: "$ertomax_devil_name$" #Машинный перевод 28.10.23
+ ertomax_fertility_god_name_possessive: "$ertomax_devil_name_possessive$" #Машинный перевод 28.10.23
+ ertomax_wealth_god_name: "$ertomax_death_deity_name$" #Машинный перевод 28.10.23
+ ertomax_wealth_god_name_possessive: "$ertomax_death_deity_name_possessive$" #Машинный перевод 28.10.23
+ ertomax_household_god_name: "$ertomax_death_deity_name$" #Машинный перевод 28.10.23
+ ertomax_household_god_name_possessive: "$ertomax_death_deity_name_possessive$" #Машинный перевод 28.10.23
+ ertomax_fate_god_name: "$ertomax_high_god_name$" #Машинный перевод 28.10.23
+ ertomax_fate_god_name_possessive: "$ertomax_high_god_name_possessive$" #Машинный перевод 28.10.23
+ ertomax_knowledge_god_name: "$ertomax_high_god_name$" #Машинный перевод 28.10.23
+ ertomax_knowledge_god_name_possessive: "$ertomax_high_god_name_possessive$" #Машинный перевод 28.10.23
+ ertomax_war_god_name: "$ertomax_high_god_name$" #Машинный перевод 28.10.23
+ ertomax_war_god_name_possessive: "$ertomax_high_god_name_possessive$" #Машинный перевод 28.10.23
+ ertomax_trickster_god_name: "$ertomax_death_deity_name$" #Машинный перевод 28.10.23
+ ertomax_trickster_god_name_possessive: "$ertomax_death_deity_name_possessive$" #Машинный перевод 28.10.23
+ ertomax_night_god_name: "$ertomax_devil_name$" #Машинный перевод 28.10.23
+ ertomax_night_god_name_possessive: "$ertomax_devil_name$" #Машинный перевод 28.10.23
+ ertomax_water_god_name: "$ertomax_devil_name$" #Машинный перевод 28.10.23
+ ertomax_water_god_name_possessive: "$ertomax_devil_name_possessive$" #Машинный перевод 28.10.23
+ ertomax_witch_god_name: "$ertomax_high_god_name$" #Машинный перевод 28.10.23
+ ertomax_witch_god_name_possessive: "$ertomax_high_god_name_possessive$" #Машинный перевод 28.10.23
+ ertomax_religious_symbol: "Солнце Эртомакса" #Машинный перевод 28.10.23
+ ertomax_religious_text: "Эртомаксианские свитки" #Машинный перевод 28.10.23
+ ertomax_house_of_worship: "Храм" #Машинный перевод 28.10.23
+ ertomax_house_of_worship_plural: "Храмы" #Машинный перевод 28.10.23

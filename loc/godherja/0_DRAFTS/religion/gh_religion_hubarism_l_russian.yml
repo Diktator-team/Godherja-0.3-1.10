@@ -1,0 +1,77 @@
+﻿l_russian:
+  
+ #hubarism Loc 
+ hubarism_religion: "Хубаризм" #Машинный перевод 28.10.23
+ hubarism_religion_adj: "Хубарист" #Машинный перевод 28.10.23
+ hubarism_religion_adherent: "Хубарист" #Машинный перевод 28.10.23
+ hubarism_religion_adherent_plural: "Хубаристы" #Машинный перевод 28.10.23
+ hubarism_religion_desc: "Хубаристы являются частью древней веры в [sarradon|E], которая практиковалась [living_magi|E] еще в письменной истории. В центре веры находится Солнце, источник всего сущего, благословения которого нисходят на [magi|E] как лучи света, сияющие на посевы. Путешествуя по небу, Солнце переправляет души умерших в свое царство, где оно вершит свой суд всю ночь. Антагонист Солнца - Олюм, который отправляет своего аватара - [Concept('aervalr','Moon')|E] - охотиться на Солнце ночью." #Машинный перевод 28.10.23
+ hubarism_high_god_name: "Шамса" #Машинный перевод 28.10.23
+ hubarism_high_god_name_possessive: "Шамса" #Машинный перевод 28.10.23
+ hubarism_high_god_name_alternate: "Великое Солнце" #Машинный перевод 28.10.23
+ hubarism_high_god_name_alternate_possessive: "Великое Солнце" #Машинный перевод 28.10.23
+ hubarism_devil_name: "$hubarism_death_deity_name$" #Машинный перевод 28.10.23
+ hubarism_devil_name_possessive: "$hubarism_death_deity_name_possessive$" #Машинный перевод 28.10.23
+ hubarism_death_deity_name: "Пустота" #Машинный перевод 28.10.23
+ hubarism_death_deity_name_possessive: "Пустота" #Машинный перевод 28.10.23
+  
+  
+  
+ hubarism_house_of_worship: "Храм" #Машинный перевод 28.10.23
+ hubarism_house_of_worship_plural: "Храмы" #Машинный перевод 28.10.23
+ hubarism_religious_symbol: "Сияние Солнца" #Машинный перевод 28.10.23
+ hubarism_religious_text: "Свитки Шамсы" #Машинный перевод 28.10.23
+  
+ hubarism_religious_head_title: "Сияющий маг-судья" #Машинный перевод 28.10.23
+ hubarism_religious_head_title_name: "Двор Великого Солнца" #Машинный перевод 28.10.23
+ hubarism_devotee_male: "Хубарист" #Машинный перевод 28.10.23
+ hubarism_devotee_male_plural: "Хубаристы" #Машинный перевод 28.10.23
+ hubarism_devotee_female: "Хубарист" #Машинный перевод 28.10.23
+ hubarism_devotee_female_plural: "Хубаристы" #Машинный перевод 28.10.23
+ hubarism_devotee_neuter: "Хубарист" #Машинный перевод 28.10.23
+ hubarism_devotee_neuter_plural: "Хубарист" #Машинный перевод 28.10.23
+ hubarism_priest_male: "Волхв-Судья" #Машинный перевод 28.10.23
+ hubarism_priest_male_plural: "Волхвы-судьи" #Машинный перевод 28.10.23
+ hubarism_priest_female: "Волхв-Судья" #Машинный перевод 28.10.23
+ hubarism_priest_female_plural: "Волхвы-судьи" #Машинный перевод 28.10.23
+ hubarism_priest_alternate: "Волхв-Судья" #Машинный перевод 28.10.23
+ hubarism_priest_alternate_plural: "Волхвы-судьи" #Машинный перевод 28.10.23
+ hubarism_bishop: "Блестящий маг-судья" #Машинный перевод 28.10.23
+ hubarism_bishop_plural: "Блестящие маги-судьи" #Машинный перевод 28.10.23
+ hubarism_positive_afterlife: "Колледж Шамса" #Машинный перевод 28.10.23
+ hubarism_negative_afterlife: "Пустота" #Машинный перевод 28.10.23
+  
+ hubarism_creator_god_name: "$hubarism_high_god_name$" #Машинный перевод 28.10.23
+ hubarism_creator_god_name_possessive: "$hubarism_high_god_name_possessive$" #Машинный перевод 28.10.23
+ hubarism_health_god_name: "$hubarism_high_god_name$" #Машинный перевод 28.10.23
+ hubarism_health_god_name_possessive: "$hubarism_fertility_god_name_possessive$" #Машинный перевод 28.10.23
+ hubarism_fertility_god_name: "$hubarism_high_god_name$" #Машинный перевод 28.10.23
+ hubarism_fertility_god_name_possessive: "$hubarism_high_god_name_possessive$" #Машинный перевод 28.10.23
+ hubarism_wealth_god_name: "$hubarism_high_god_name$" #Машинный перевод 28.10.23
+ hubarism_wealth_god_name_possessive: "$hubarism_high_god_name_possessive$" #Машинный перевод 28.10.23
+ hubarism_household_god_name: "$hubarism_high_god_name_alternate$" #Машинный перевод 28.10.23
+ hubarism_household_god_name_possessive: "$hubarism_high_god_name_alternate_possessive$" #Машинный перевод 28.10.23
+ hubarism_fate_god_name: "$hubarism_high_god_name$" #Машинный перевод 28.10.23
+ hubarism_fate_god_name_possessive: "$hubarism_high_god_name_possessive$" #Машинный перевод 28.10.23
+ hubarism_knowledge_god_name: "$hubarism_high_god_name$" #Машинный перевод 28.10.23
+ hubarism_knowledge_god_name_possessive: "$hubarism_high_god_name_possessive$" #Машинный перевод 28.10.23
+ hubarism_war_god_name: "$hubarism_high_god_name_alternate$" #Машинный перевод 28.10.23
+ hubarism_war_god_name_possessive: "$hubarism_high_god_name_alternate_possessive$"" #Машинный перевод 28.10.23
+ hubarism_trickster_god_name: "$hubarism_death_deity_name$" #Машинный перевод 28.10.23
+ hubarism_trickster_god_name_possessive: "$hubarism_death_deity_name_possessive$" #Машинный перевод 28.10.23
+ hubarism_night_god_name: "$hubarism_trickster_god_name$" #Машинный перевод 28.10.23
+ hubarism_night_god_name_possessive: "$hubarism_trickster_god_name$" #Машинный перевод 28.10.23
+ hubarism_water_god_name: "$hubarism_high_god_name_alternate$" #Машинный перевод 28.10.23
+ hubarism_water_god_name_possessive: "$hubarism_high_god_name_alternate_possessive$" #Машинный перевод 28.10.23
+ hubarism_witch_god_name: "$hubarism_death_deity_name$" #Машинный перевод 28.10.23
+ hubarism_witch_god_name_possessive: "$hubarism_death_deity_name_possessive$" #Машинный перевод 28.10.23
+  
+  
+ #hubarism loc 
+ hubarism: "Хубаризм" #Машинный перевод 28.10.23
+ hubarism_adj: "Губарит" #Машинный перевод 28.10.23
+ hubarism_adherent: "Хубарист" #Машинный перевод 28.10.23
+ hubarism_adherent_plural: "Хубаристы" #Машинный перевод 28.10.23
+ hubarism_desc: "Хубаристы рассматривают [magi|E], получивших свои дары от Солнца, как хранителей его воли и исполнителей закона. Эта система магов-судей действовала с незапамятных времен, но недавно ее судьба изменилась. Столетия религиозных конфликтов с [wardenites|E], [ritualists|E] и, наконец, с Агионистами значительно уменьшили их власть, и Хубаристы теперь являются тенью того, чем они когда-то были." #Машинный перевод 28.10.23
+  
+ holy_order_mekter_netaru: "Мектер Нетару" #Машинный перевод 28.10.23
