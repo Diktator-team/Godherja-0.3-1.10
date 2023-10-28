@@ -1,4 +1,4 @@
 ﻿l_russian:
- trait_tahariat_evader: "Тахариат Эвадер"  #Машинный перевод 28.10.23!
- trait_tahariat_evader_desc: "Этот человек был разоблачен как уклонист [tahariat|E]!, отказавшийся от своего законного статуса законного язычника!"  #Машинный перевод 28.10.23!
- trait_tahariat_evader_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] разоблачен как уклоняющийся от налога [tahariat|E], отказавшийся от своего законного статуса законного язычника!"  #Машинный перевод 28.10.23!
+trait_tahariat_evader:0 "Уклонист от Тахариата"
+ trait_tahariat_evader_desc:0 "Этот человек был разоблачен как [Concept('tahariat','Тахариатский')|E] уклонист! Он оставил свой законный статус законного язычника!"
+ trait_tahariat_evader_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] был разоблачен как уклоняющийся от [Concept('tahariat','Тахариатских')|E] налогов, оставив свой законный статус законного язычника!"

@@ -1,20 +1,20 @@
 ﻿l_russian:
   ##TO BE SORTED LATER## 
- PIRATE_RELOCATION_WAR_NAME: "[ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] Переезд в [DEFENDER.GetPrimaryTitle.GetAdjectiveNoTooltip]"  #Машинный перевод 28.10.23!
- PIRATE_RELOCATION_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"  #Машинный перевод 28.10.23!
- PIRATE_RELOCATION_CB_NAME: "Переезд"  #Машинный перевод 28.10.23!
+ PIRATE_RELOCATION_WAR_NAME: "[ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] Переезд в [DEFENDER.GetPrimaryTitle.GetAdjectiveNoTooltip]"  
+ PIRATE_RELOCATION_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"  
+ PIRATE_RELOCATION_CB_NAME: "Переезд"  
   
- antipiracy_cb: "Борьба с пиратством"  #Машинный перевод 28.10.23!
- ANTIPIRACY_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] Действия по борьбе с пиратством в [TITLE.GetBaseNameNoTooltip]"  #Машинный перевод 28.10.23!
- ANTIPIRACY_CB_NAME: "Борьба с пиратством"  #Машинный перевод 28.10.23!
- ANTIPIRACY_CB_SPECIFIC_NAME: "Борьба с пиратством в [TITLE.GetBaseName]"  #Машинный перевод 28.10.23!
- ANTIPIRACY_WAR_NAME_FALLBACK: "Борьба с пиратством"  #Машинный перевод 28.10.23!
+ antipiracy_cb: "Борьба с пиратством"  
+ ANTIPIRACY_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] Действия по борьбе с пиратством в [TITLE.GetBaseNameNoTooltip]"  
+ ANTIPIRACY_CB_NAME: "Борьба с пиратством"  
+ ANTIPIRACY_CB_SPECIFIC_NAME: "Борьба с пиратством в [TITLE.GetBaseName]"  
+ ANTIPIRACY_WAR_NAME_FALLBACK: "Борьба с пиратством"  
   
- ISLES_CLAIM_CONQUEST_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] Завоевание островов в [TITLE.GetBaseNameNoTooltip]"  #Машинный перевод 28.10.23!
- ISLES_CLAIM_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"  #Машинный перевод 28.10.23!
- ISLES_CLAIM_CONQUEST_CB_NAME: "Завоевание островов"  #Машинный перевод 28.10.23!
- isles_retribution_cb: "Превосходство островитян"  #Машинный перевод 28.10.23!
- isles_claimant_conquest_cb: "Истец с островов"  #Машинный перевод 28.10.23!
+ ISLES_CLAIM_CONQUEST_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] Завоевание островов в [TITLE.GetBaseNameNoTooltip]"  
+ ISLES_CLAIM_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"  
+ ISLES_CLAIM_CONQUEST_CB_NAME: "Завоевание островов"  
+ isles_retribution_cb: "Превосходство островитян"  
+ isles_claimant_conquest_cb: "Претендующий на острова"  
   
- isles_claimant_war.involved_notif: "[isles_claimant.GetPrimaryTitle.GetBaseName] Превосходство островов"  #Машинный перевод 28.10.23!
- isles_claimant_war.involved_notif_desc: "[isles_claimant.GetPrimaryTitle.GetBaseName] предъявил права на острова и все моря между ними."  #Машинный перевод 28.10.23!
+ isles_claimant_war.involved_notif: "[isles_claimant.GetPrimaryTitle.GetBaseName] Превосходство островов"  
+ isles_claimant_war.involved_notif_desc: "[isles_claimant.GetPrimaryTitle.GetBaseName] предъявил права на острова и все моря между ними."  

@@ -1,18 +1,18 @@
 ﻿l_russian:
- HUNTING_WINDOW_TITLE: "Бестиарий"  #Машинный перевод 28.10.23!
- HUNTING_WINDOW_MONSTERS: "[monsters]"  #Машинный перевод 28.10.23!
- HUNTING_WINDOW_BIOZONES: "Зоны"  #Машинный перевод 28.10.23!
- OPEN_BESTIARY: "#T Откройте Бестиарий#!\nLook до зон [monsters|E] и #E#! в Бестиарии."  #Машинный перевод 28.10.23!
+ HUNTING_WINDOW_TITLE: "Бестиарий"  
+ HUNTING_WINDOW_MONSTERS: "[monsters]"  
+ HUNTING_WINDOW_BIOZONES: "Зоны"  
+ OPEN_BESTIARY: "#T Open Bestiary#!\nСмотри, [Concept('monsters','монстры')|E] и #E зоны#! в бестиарии"  
   
- mundane_tier_color_prefix: "#color_white"  #Машинный перевод 28.10.23!
- low_tier_color_prefix: "#difficulty_easy"  #Машинный перевод 28.10.23!
- medium_tier_color_prefix: "#difficulty_medium"  #Машинный перевод 28.10.23!
- high_tier_color_prefix: "#difficulty_hard"  #Машинный перевод 28.10.23!
- Legendary_tier_color_prefix: "#difficulty_hard"  #Машинный перевод 28.10.23!
+ mundane_tier_color_prefix: "#color_white"  
+ low_tier_color_prefix: "#difficulty_easy"  
+ medium_tier_color_prefix: "#difficulty_medium"  
+ high_tier_color_prefix: "#difficulty_hard"  
+ Legendary_tier_color_prefix: "#difficulty_hard"  
   
- unlanded_danger_tier_color_prefix: "#difficulty_easy"  #Машинный перевод 28.10.23!
- none_danger_tier_color_prefix: "#color_white"  #Машинный перевод 28.10.23!
- low_danger_tier_color_prefix: "#difficulty_easy"  #Машинный перевод 28.10.23!
- medium_danger_tier_color_prefix: "#difficulty_medium"  #Машинный перевод 28.10.23!
- high_danger_tier_color_prefix: "#difficulty_hard"  #Машинный перевод 28.10.23!
- extreme_danger_tier_color_prefix: "#difficulty_hard"  #Машинный перевод 28.10.23!
+ unlanded_danger_tier_color_prefix: "#difficulty_easy"  
+ none_danger_tier_color_prefix: "#color_white"  
+ low_danger_tier_color_prefix: "#difficulty_easy"  
+ medium_danger_tier_color_prefix: "#difficulty_medium"  
+ high_danger_tier_color_prefix: "#difficulty_hard"  
+ extreme_danger_tier_color_prefix: "#difficulty_hard"  
