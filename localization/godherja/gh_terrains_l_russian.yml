@@ -1,0 +1,126 @@
+﻿l_russian:
+  
+ deadlands: "Мертвые земли"  #Машинный перевод 28.10.23!
+  
+ antimagic_terrain: "[antimagic_terrain|E]"  #Машинный перевод 28.10.23!
+ marcher_farmlands: "[antimagic_terrain_basic|E] Сельскохозяйственные угодья"  #Машинный перевод 28.10.23!
+ marcher_forest: "[antimagic_terrain_basic|E] Лес"  #Машинный перевод 28.10.23!
+ marcher_hills: "[antimagic_terrain_basic|E] Холмы"  #Машинный перевод 28.10.23!
+ marcher_mountains: "[antimagic_terrain_basic|E] Горы"  #Машинный перевод 28.10.23!
+ marcher_plains: "[antimagic_terrain_basic|E] Равнины"  #Машинный перевод 28.10.23!
+ marcher_floodplains: "[antimagic_terrain_basic|E] поймы"  #Машинный перевод 28.10.23!
+ marcher_wetlands: "[antimagic_terrain_basic|E] Водно-болотные угодья"  #Машинный перевод 28.10.23!
+ combat_marcher_forest: "Защита в лесу [antimagic_terrain_basic|E]"  #Машинный перевод 28.10.23!
+ combat_marcher_hills: "Оборона на холмах [antimagic_terrain_basic|E]"  #Машинный перевод 28.10.23!
+ combat_marcher_mountain: "Оборона в горах [antimagic_terrain_basic|E]"  #Машинный перевод 28.10.23!
+ combat_marcher_wetlands: "Оборона в [antimagic_terrain_basic|E] Болотных угодьях"  #Машинный перевод 28.10.23!
+ marcher_farmlands_advantage: "[command_modifier_i|E][advantage|E] в [antimagic_terrain_basic|E] Сельхозугодья"  #Машинный перевод 28.10.23!
+ marcher_farmlands_attrition_mult: "[command_modifier_i|E][attrition|E] Снято на [antimagic_terrain_basic|E] сельскохозяйственных угодьях"  #Машинный перевод 28.10.23!
+ marcher_farmlands_cancel_negative_supply: "[command_modifier_i|E]Отменить [supply_limit|E] штраф на [antimagic_terrain_basic|E] сельскохозяйственных угодьях"  #Машинный перевод 28.10.23!
+ marcher_farmlands_max_combat_roll: "[command_modifier_i|E]Максимум [combat_roll|E] на [antimagic_terrain_basic|E] сельскохозяйственных угодьях"  #Машинный перевод 28.10.23!
+ marcher_farmlands_min_combat_roll: "[command_modifier_i|E]Минимум [combat_roll|E] на [antimagic_terrain_basic|E] сельскохозяйственных угодьях"  #Машинный перевод 28.10.23!
+ marcher_forest_advantage: "[command_modifier_i|E][advantage|E] в [antimagic_terrain_basic|E] Лесу"  #Машинный перевод 28.10.23!
+ marcher_forest_attrition_mult: "[command_modifier_i|E][attrition|E] Снято в [antimagic_terrain_basic|E] Лесу"  #Машинный перевод 28.10.23!
+ marcher_forest_cancel_negative_supply: "[command_modifier_i|E]Отменить [supply_limit|E] штраф в [antimagic_terrain_basic|E] лесу"  #Машинный перевод 28.10.23!
+ marcher_forest_max_combat_roll: "[command_modifier_i|E]Максимум [combat_roll|E] в [antimagic_terrain_basic|E] лесу"  #Машинный перевод 28.10.23!
+ marcher_forest_min_combat_roll: "[command_modifier_i|E]Минимум [combat_roll|E] в [antimagic_terrain_basic|E] Лесу"  #Машинный перевод 28.10.23!
+ marcher_hills_advantage: "[command_modifier_i|E][advantage|E] в [antimagic_terrain_basic|E] Холмах"  #Машинный перевод 28.10.23!
+ marcher_hills_attrition_mult: "[command_modifier_i|E][attrition|E] Снято на холмах [antimagic_terrain_basic|E]"  #Машинный перевод 28.10.23!
+ marcher_hills_cancel_negative_supply: "[command_modifier_i|E]Отмена штрафа [supply_limit|E] в [antimagic_terrain_basic|E] Hills"  #Машинный перевод 28.10.23!
+ marcher_hills_max_combat_roll: "[command_modifier_i|E]Максимум [combat_roll|E] в [antimagic_terrain_basic|E] Холмах"  #Машинный перевод 28.10.23!
+ marcher_hills_min_combat_roll: "[command_modifier_i|E]Минимум [combat_roll|E] в [antimagic_terrain_basic|E] Холмах"  #Машинный перевод 28.10.23!
+ marcher_mountains_advantage: "[command_modifier_i|E][advantage|E] в горах [antimagic_terrain_basic|E]"  #Машинный перевод 28.10.23!
+ marcher_mountains_attrition_mult: "[command_modifier_i|E][attrition|E] Снято в [antimagic_terrain_basic|E] Горах"  #Машинный перевод 28.10.23!
+ marcher_mountains_cancel_negative_supply: "[command_modifier_i|E]Отменить [supply_limit|E] штраф в [antimagic_terrain_basic|E] горах"  #Машинный перевод 28.10.23!
+ marcher_mountains_max_combat_roll: "[command_modifier_i|E]Максимум [combat_roll|E] в [antimagic_terrain_basic|E] Горах"  #Машинный перевод 28.10.23!
+ marcher_mountains_min_combat_roll: "[command_modifier_i|E]Минимум [combat_roll|E] в [antimagic_terrain_basic|E] Горах"  #Машинный перевод 28.10.23!
+ antimagic_terrain_advantage: "[command_modifier_i|E][advantage|E] в [antimagic_terrain_basic|E]"  #Машинный перевод 28.10.23!
+ marcher_plains_advantage: "[command_modifier_i|E][advantage|E] на равнинах [antimagic_terrain_basic|E]"  #Машинный перевод 28.10.23!
+ marcher_plains_attrition_mult: "[command_modifier_i|E][attrition|E] Снято на равнинах [antimagic_terrain_basic|E]"  #Машинный перевод 28.10.23!
+ marcher_plains_cancel_negative_supply: "[command_modifier_i|E]Отменить штраф [supply_limit|E] на равнинах [antimagic_terrain_basic|E]"  #Машинный перевод 28.10.23!
+ marcher_plains_max_combat_roll: "[command_modifier_i|E]Максимум [combat_roll|E] на равнинах [antimagic_terrain_basic|E]"  #Машинный перевод 28.10.23!
+ marcher_plains_min_combat_roll: "[command_modifier_i|E]Минимум [combat_roll|E] на равнинах [antimagic_terrain_basic|E]"  #Машинный перевод 28.10.23!
+ marcher_floodplains_advantage: "[command_modifier_i|E][advantage|E] в [antimagic_terrain_basic|E] поймах"  #Машинный перевод 28.10.23!
+ marcher_floodplains_attrition_mult: "[command_modifier_i|E][attrition|E] Снято в [antimagic_terrain_basic|E] поймах"  #Машинный перевод 28.10.23!
+ marcher_floodplains_cancel_negative_supply: "[command_modifier_i|E]Отменить [supply_limit|E] штраф в [antimagic_terrain_basic|E] поймах"  #Машинный перевод 28.10.23!
+ marcher_floodplains_max_combat_roll: "[command_modifier_i|E]Максимум [combat_roll|E] в [antimagic_terrain_basic|E] поймах"  #Машинный перевод 28.10.23!
+ marcher_floodplains_min_combat_roll: "[command_modifier_i|E]Минимум [combat_roll|E] в [antimagic_terrain_basic|E] поймах"  #Машинный перевод 28.10.23!
+ marcher_wetlands_advantage: "[command_modifier_i|E][advantage|E] в [antimagic_terrain_basic|E] водно-болотных угодий"  #Машинный перевод 28.10.23!
+ marcher_wetlands_attrition_mult: "[command_modifier_i|E][attrition|E] Снято в [antimagic_terrain_basic|E] водно-болотных угодий"  #Машинный перевод 28.10.23!
+ marcher_wetlands_cancel_negative_supply: "[command_modifier_i|E]Отменить штраф [supply_limit|E] на [antimagic_terrain_basic|E] водно-болотных угодьях"  #Машинный перевод 28.10.23!
+ marcher_wetlands_max_combat_roll: "[command_modifier_i|E]Максимум [combat_roll|E] в [antimagic_terrain_basic|E] водно-болотных угодьях"  #Машинный перевод 28.10.23!
+ marcher_wetlands_min_combat_roll: "[command_modifier_i|E]Минимум [combat_roll|E] в [antimagic_terrain_basic|E] водно-болотных угодий"  #Машинный перевод 28.10.23!
+ marcher_plains_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ на [antimagic_terrain_basic|E] Равнинах"  #Машинный перевод 28.10.23!
+ marcher_farmlands_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ в [antimagic_terrain_basic|E] Сельхозугодья"  #Машинный перевод 28.10.23!
+ marcher_hills_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ в [antimagic_terrain_basic|E] Холмах"  #Машинный перевод 28.10.23!
+ marcher_mountains_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ в [antimagic_terrain_basic|E] Горах"  #Машинный перевод 28.10.23!
+ marcher_forest_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ в [antimagic_terrain_basic|E] лесу"  #Машинный перевод 28.10.23!
+ marcher_wetlands_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ в [antimagic_terrain_basic|E] водно-болотных угодий"  #Машинный перевод 28.10.23!
+ marcher_floodplains_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ в [antimagic_terrain_basic|E] поймах"  #Машинный перевод 28.10.23!
+ marcher_plains_construction_prestige_cost: "$plains_construction_gold_cost$"  #Машинный перевод 28.10.23!
+ marcher_farmlands_construction_prestige_cost: "$farmlands_construction_gold_cost$"  #Машинный перевод 28.10.23!
+ marcher_hills_construction_prestige_cost: "$hills_construction_gold_cost$"  #Машинный перевод 28.10.23!
+ marcher_mountains_construction_prestige_cost: "$mountains_construction_gold_cost$"  #Машинный перевод 28.10.23!
+ marcher_forest_construction_prestige_cost: "$forest_construction_gold_cost$"  #Машинный перевод 28.10.23!
+ marcher_wetlands_construction_prestige_cost: "$wetlands_construction_gold_cost$"  #Машинный перевод 28.10.23!
+ marcher_floodplains_construction_prestige_cost: "$floodplains_construction_gold_cost$"  #Машинный перевод 28.10.23!
+ marcher_plains_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ на равнинах [antimagic_terrain_basic|E] ([terrain|E])"  #Машинный перевод 28.10.23!
+ marcher_farmlands_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в [antimagic_terrain_basic|E] Сельхозугодья ([terrain|E])"  #Машинный перевод 28.10.23!
+ marcher_farmlands_development_growth: "$farmlands_development_growth_factor$"  #Машинный перевод 28.10.23!
+ marcher_hills_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в [antimagic_terrain_basic|E] Холмах ([terrain|E])"  #Машинный перевод 28.10.23!
+ marcher_mountains_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в [antimagic_terrain_basic|E] Горах ([terrain|E])"  #Машинный перевод 28.10.23!
+ marcher_forest_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в [antimagic_terrain_basic|E] лесу ([terrain|E])"  #Машинный перевод 28.10.23!
+ marcher_wetlands_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в [antimagic_terrain_basic|E] водно-болотных угодий ([terrain|E])"  #Машинный перевод 28.10.23!
+ marcher_floodplains_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в [antimagic_terrain_basic|E] поймах ([terrain|E])"  #Машинный перевод 28.10.23!
+ marcher_plains_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ на [antimagic_terrain_basic|E] Равнинах"  #Машинный перевод 28.10.23!
+ marcher_farmlands_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в [antimagic_terrain_basic|E] Сельхозугодья"  #Машинный перевод 28.10.23!
+ marcher_hills_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в [antimagic_terrain_basic|E] Холмах"  #Машинный перевод 28.10.23!
+ marcher_mountains_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в [antimagic_terrain_basic|E] Горах"  #Машинный перевод 28.10.23!
+ marcher_forest_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в [antimagic_terrain_basic|E] лесу"  #Машинный перевод 28.10.23!
+ marcher_wetlands_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в [antimagic_terrain_basic|E] водно-болотных угодий"  #Машинный перевод 28.10.23!
+ marcher_floodplains_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в [antimagic_terrain_basic|E] поймах"  #Машинный перевод 28.10.23!
+ marcher_plains_holding_construction_prestige_cost: "$plains_holding_construction_gold_cost$"  #Машинный перевод 28.10.23!
+ marcher_farmlands_holding_construction_prestige_cost: "$farmlands_holding_construction_gold_cost$"  #Машинный перевод 28.10.23!
+ marcher_hills_holding_construction_prestige_cost: "$hills_holding_construction_gold_cost$"  #Машинный перевод 28.10.23!
+ marcher_mountains_holding_construction_prestige_cost: "$mountains_holding_construction_gold_cost$"  #Машинный перевод 28.10.23!
+ marcher_forest_holding_construction_prestige_cost: "$forest_holding_construction_gold_cost$"  #Машинный перевод 28.10.23!
+ marcher_wetlands_holding_construction_prestige_cost: "$wetlands_holding_construction_gold_cost$"  #Машинный перевод 28.10.23!
+ marcher_floodplains_holding_construction_prestige_cost: "$floodplains_holding_construction_gold_cost$"  #Машинный перевод 28.10.23!
+ marcher_plains_tax_mult: "$MOD_TAX_MULT$ на [antimagic_terrain_basic|E] Равнинах"  #Машинный перевод 28.10.23!
+ marcher_farmlands_tax_mult: "$MOD_TAX_MULT$ в [antimagic_terrain_basic|E] Сельхозугодья"  #Машинный перевод 28.10.23!
+ marcher_hills_tax_mult: "$MOD_TAX_MULT$ в [antimagic_terrain_basic|E] Холмах"  #Машинный перевод 28.10.23!
+ marcher_mountains_tax_mult: "$MOD_TAX_MULT$ в [antimagic_terrain_basic|E] Горах"  #Машинный перевод 28.10.23!
+ marcher_forest_tax_mult: "$MOD_TAX_MULT$ в [antimagic_terrain_basic|E] лесу"  #Машинный перевод 28.10.23!
+ marcher_wetlands_tax_mult: "$MOD_TAX_MULT$ в [antimagic_terrain_basic|E] водно-болотных угодий"  #Машинный перевод 28.10.23!
+ marcher_floodplains_tax_mult: "$MOD_TAX_MULT$ в [antimagic_terrain_basic|E] поймах"  #Машинный перевод 28.10.23!
+ marcher_plains_levy_size: "$MOD_LEVY_SIZE$ на [antimagic_terrain_basic|E] Равнинах"  #Машинный перевод 28.10.23!
+ marcher_farmlands_levy_size: "$MOD_LEVY_SIZE$ в [antimagic_terrain_basic|E] Сельхозугодья"  #Машинный перевод 28.10.23!
+ marcher_hills_levy_size: "$MOD_LEVY_SIZE$ в [antimagic_terrain_basic|E] Холмах"  #Машинный перевод 28.10.23!
+ marcher_mountains_levy_size: "$MOD_LEVY_SIZE$ в [antimagic_terrain_basic|E] Горах"  #Машинный перевод 28.10.23!
+ marcher_forest_levy_size: "$MOD_LEVY_SIZE$ в [antimagic_terrain_basic|E] лесу"  #Машинный перевод 28.10.23!
+ marcher_wetlands_levy_size: "$MOD_LEVY_SIZE$ в [antimagic_terrain_basic|E] водно-болотных угодий"  #Машинный перевод 28.10.23!
+ marcher_floodplains_levy_size: "$MOD_LEVY_SIZE$ в [antimagic_terrain_basic|E] поймах"  #Машинный перевод 28.10.23!
+ marcher_plains_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ на [antimagic_terrain_basic|E] Равнинах"  #Машинный перевод 28.10.23!
+ marcher_farmlands_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в [antimagic_terrain_basic|E] Сельхозугодья"  #Машинный перевод 28.10.23!
+ marcher_hills_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в [antimagic_terrain_basic|E] Холмах"  #Машинный перевод 28.10.23!
+ marcher_mountains_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в [antimagic_terrain_basic|E] Горах"  #Машинный перевод 28.10.23!
+ marcher_forest_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в [antimagic_terrain_basic|E] лесу"  #Машинный перевод 28.10.23!
+ marcher_wetlands_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в [antimagic_terrain_basic|E] водно-болотных угодий"  #Машинный перевод 28.10.23!
+ marcher_floodplains_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в [antimagic_terrain_basic|E] поймах"  #Машинный перевод 28.10.23!
+  
+ mayik_caverns: "Подземная пещера"  #Машинный перевод 28.10.23!
+ mayik_caverns_advantage: "[command_modifier_i|E][advantage|E] в подземных пещерах"  #Машинный перевод 28.10.23!
+ mayik_caverns_levy_size: "$MOD_LEVY_SIZE$ в подземных пещерах"  #Машинный перевод 28.10.23!
+ mayik_caverns_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в подземных пещерах"  #Машинный перевод 28.10.23!
+ mayik_chamber: "Подземная палата"  #Машинный перевод 28.10.23!
+ mayik_chamber_advantage: "[command_modifier_i|E][advantage|E] в подземных камерах"  #Машинный перевод 28.10.23!
+ mayik_chamber_levy_size: "$MOD_LEVY_SIZE$ в подземных камерах"  #Машинный перевод 28.10.23!
+ mayik_chamber_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в подземных камерах"  #Машинный перевод 28.10.23!
+ mayik_corridors: "Подземный коридор"  #Машинный перевод 28.10.23!
+ mayik_corridors_advantage: "[command_modifier_i|E][advantage|E] в подземных коридорах"  #Машинный перевод 28.10.23!
+ mayik_corridors_levy_size: "$MOD_LEVY_SIZE$ в подземных коридорах"  #Машинный перевод 28.10.23!
+ mayik_corridors_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в подземных коридорах"  #Машинный перевод 28.10.23!
+ mayik_tunnels: "Подземные туннели"  #Машинный перевод 28.10.23!
+ mayik_tunnels_advantage: "[command_modifier_i|E][advantage|E] в подземных туннелях"  #Машинный перевод 28.10.23!
+ mayik_tunnels_levy_size: "$MOD_LEVY_SIZE$ в подземных туннелях"  #Машинный перевод 28.10.23!
+ mayik_tunnels_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в подземных туннелях"  #Машинный перевод 28.10.23!

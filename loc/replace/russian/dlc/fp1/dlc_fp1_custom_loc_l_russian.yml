@@ -1,3 +1,0 @@
-﻿l_russian:
- SteleCommemoratesAncestors_Inappetetic: "$SteleCommemoratesAncestors_Intro$. Мы надеемся, что она найдет утешение в [second.MakeScope.Var('stele_container').Char.GetFaith.PositiveAfterLife], которого не хватало [second.MakeScope.Var('stele_container').Char.GetSheHe] в [aeras|E]. $SteleCommemoratesCarver$."
- SteleCommemoratesAncestors_Reincarnation: "$SteleCommemoratesAncestors_Intro$. Это не было [second.MakeScope.Var('stele_container').Char.GetHerHis] в первый раз в [aeras|E] и не будет [second.MakeScope.Var('stele_container').Char.GetHerHis] в последний раз. $SteleCommemoratesCarver$."

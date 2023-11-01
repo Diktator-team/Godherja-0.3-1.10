@@ -1,0 +1,36 @@
+﻿l_russian:
+  
+  ########### 
+  # General # 
+  ########### 
+  
+ SMALL_FAITH_CONVERSION_PENALTY: "Целевая вера имеет менее 6 округов."  #Машинный перевод 28.10.23!
+ TRIBAL_SETTLEMENT_BONUS: "Цель племенного поселения"  #Машинный перевод 28.10.23!
+ COURT_CHAPLAIN_CONVERSION_SPREAD_THE_LIGHT_MODIFIER: "[councillor.GetFaith.GetName] — [GetFaithDoctrine('tenet_spread_the_light').GetBaseName]"  #Машинный перевод 28.10.23!
+  
+  ################# 
+  # Quartermaster # 
+  ################# 
+  
+ QUARTERMASTER_PROGRESS_BASE: "База"  #Машинный перевод 28.10.23!
+ ESTABLISH_SHADOW_PORT_DYNASTY_PERK_BONUS_VALUE: "[GetDynastyPerk('erudition_legacy_5').GetName]"  #Машинный перевод 28.10.23!
+ CULTURE_CONVERSION_COUNTY_FAITH_TRIGGER: "Можно конвертировать только культурные округа вашего [faith|E]."  #Машинный перевод 28.10.23!
+ CULTURE_CONVERSATION_COUNTY_CONDITIONS_TRIGGER: "Можно конвертировать культуру только тех графств, которые являются либо столицей независимого правителя, либо соседствуют с другим графством вашей культуры, либо прибрежными и близкими к прибрежному графству вашей культуры."  #Машинный перевод 28.10.23!
+  
+  ################### 
+  # Wardenism Perks # 
+  ################### 
+  
+ INTEGRATE_TITLE_JUDICIAL_COUNCIL_DYNASTY_PERK_BONUS_VALUE: "[GetDynastyPerk('wardenite_legacy_3').GetName]"  #Машинный перевод 28.10.23!
+ FABRICATE_CLAIM_LEGALISM_DYNASTY_PERK_BONUS_VALUE: "[GetDynastyPerk('wardenite_legacy_3').GetName]"  #Машинный перевод 28.10.23!
+ CONVERSION_LEGALISM_DYNASTY_PERK_BONUS_VALUE: "[GetDynastyPerk('wardenite_legacy_3').GetName]"  #Машинный перевод 28.10.23!
+ JUDICIAL_COUNCIL_DYNASTY_PERK_BONUS_VALUE: "[GetDynastyPerk('wardenite_legacy_3').GetName]"  #Машинный перевод 28.10.23!
+  
+ task_religious_relations_effect_desc_wardenite_legacy_bonus_opinion: "\n$TAB$[GetDynastyPerk('wardenite_legacy_3').GetName]: #P +#![SCOPE.ScriptValue('court_chaplain_religious_relations_opinion_max_legalism_modifier')|P]"  #Машинный перевод 28.10.23!
+ task_religious_relations_effect_desc_wardenite_legacy_bonus_piety: "\n$TAB$[GetDynastyPerk('wardenite_legacy_3').GetName]: #P +[SCOPE.ScriptValue('court_chaplain_religious_relations_legalism_legacy_3_bonus_modifier')]#!"  #Машинный перевод 28.10.23!
+  
+ task_collect_taxes_judicial_council_bonus_desc: "\n$TAB$[GetDynastyPerk('wardenite_legacy_3').GetName]: #P +[SCOPE.ScriptValue('steward_collect_taxes_judicial_council_bonus_scale')|2]%#!"  #Машинный перевод 28.10.23!
+  
+ task_domestic_affairs_judicial_council_bonus_desc: "\n$TAB$[GetDynastyPerk('wardenite_legacy_3').GetName]: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_judicial_council_bonus')|2]#!"  #Машинный перевод 28.10.23!
+ task_foreign_affairs_effect_desc_judicial_council_bonus_opinion: "\n$TAB$[GetDynastyPerk('wardenite_legacy_3').GetName]: #P +#![SCOPE.ScriptValue('chancellor_foreign_affairs_opinion_max_judicial_council_modifier')|P]"  #Машинный перевод 28.10.23!
+ task_foreign_affairs_effect_desc_judicial_council_bonus_prestige: "\n$TAB$[GetDynastyPerk('wardenite_legacy_3').GetName]: #P +#![SCOPE.ScriptValue('chancellor_foreign_affairs_prestige_gain_judicial_council_modifier')|P]"  #Машинный перевод 28.10.23!

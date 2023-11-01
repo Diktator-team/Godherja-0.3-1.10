@@ -1,6 +1,0 @@
-﻿l_russian:
- health.2101.bubonic_plague_outbreak.desc: "[ROOT.Char.GetFaith.DeathDeityName|U] поднял косу [ROOT.Char.GetFaith.DeathDeityHerHis] над моим царством — обнаружен случай страшного [bloodblight|E]!"
- health.2101.bubonic_plague_spreads.desc: "Еще одна душа стоит у дверей Смерти, ужасные красные вены портят кожу [sick_character.GetHerHis]."
- disease_bubonic_plague: "[bloodblight|E]."
- health.2102.bubonic_plague.desc: "[bloodblight|E]"
- health_bubonic_plague_spreads_message: "[bloodblight|E] Вспышка"

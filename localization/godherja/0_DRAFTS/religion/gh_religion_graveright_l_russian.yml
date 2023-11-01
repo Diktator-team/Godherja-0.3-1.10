@@ -1,0 +1,77 @@
+﻿l_russian:
+  
+ graveright_religion: "Мрогилпрано" #Машинный перевод 28.10.23
+ graveright_religion_adj: "Мрогилпрано" #Машинный перевод 28.10.23
+ graveright_religion_adherent: "Мрогилопик" #Машинный перевод 28.10.23
+ graveright_religion_adherent_plural: "Мрогилопике" #Машинный перевод 28.10.23
+ graveright_religion_desc: "Мрогилпрано, часто переводимое как «Могильное право», — это древняя вера ойчанцев северных земель. Когда-то доминирующая вера в том, что сейчас называется [lichdoms|E], Право Могилы сосредотачивается на вере в то, что душа остается со своим телом в загробной жизни. Когда душа движется дальше, она смотрит на окружающих и защищает их, пока тело тоже защищено и к нему относятся с уважением. В лучшие времена почитатели Права Могилы хранили бы тела умерших в огромных комплексах некрополей в городах севера, гарантируя, что все жители города, которые ушли, могли навсегда служить стражами для своих потомков, как это делали бы живые. для них.\n\nЭто, конечно, [Concept('sorrowing_of_oejeynica','proved to be a powder keg')|E], а сейчас Право Могилы - почти мертвая религия. Даже там, где он выживает, его принципы редко соблюдаются, идея хранить мертвых вместо того, чтобы сжигать их, считалась безумием." #Машинный перевод 28.10.23
+ graveright_high_god_name: "Ушедшие" #Машинный перевод 28.10.23
+ graveright_high_god_name_possessive: "Ушедшие" #Машинный перевод 28.10.23
+ graveright_high_god_name_alternate: "Те, кто был раньше" #Машинный перевод 28.10.23
+ graveright_high_god_name_alternate_possessive: "Те, кто был раньше" #Машинный перевод 28.10.23
+ graveright_devil_name: "Лычи" #Машинный перевод 28.10.23
+ graveright_devil_name_possessive: "Лычи" #Машинный перевод 28.10.23
+ graveright_death_deity_name: "Смерть" #Машинный перевод 28.10.23
+ graveright_death_deity_name_possessive: "Летальные исходы" #Машинный перевод 28.10.23
+  
+  
+  
+ graveright_house_of_worship: "Змалигрод" #Машинный перевод 28.10.23
+ graveright_house_of_worship_plural: "Змалигродье" #Машинный перевод 28.10.23
+ graveright_religious_symbol: "Украшенные кости" #Машинный перевод 28.10.23
+ graveright_religious_text: "Писмо Смиери" #Машинный перевод 28.10.23
+  
+ graveright_religious_head_title: "Велький Мрогилопик" #Машинный перевод 28.10.23
+ graveright_religious_head_title_name: "Велкий Мрогилопики" #Машинный перевод 28.10.23
+ graveright_devotee_male: "Могильщик" #Машинный перевод 28.10.23
+ graveright_devotee_male_plural: "Могильщики" #Машинный перевод 28.10.23
+ graveright_devotee_female: "Могильщик" #Машинный перевод 28.10.23
+ graveright_devotee_female_plural: "Могильщики" #Машинный перевод 28.10.23
+ graveright_devotee_neuter: "Могильщик" #Машинный перевод 28.10.23
+ graveright_devotee_neuter_plural: "Могильщики" #Машинный перевод 28.10.23
+ graveright_priest_male: "бальзамировщик" #Машинный перевод 28.10.23
+ graveright_priest_male_plural: "Бальзамировщики" #Машинный перевод 28.10.23
+ graveright_priest_female: "бальзамировщик" #Машинный перевод 28.10.23
+ graveright_priest_female_plural: "Бальзамировщики" #Машинный перевод 28.10.23
+ graveright_priest_alternate_plural: "Бальзамировщики" #Машинный перевод 28.10.23
+ graveright_bishop: "Смотритель" #Машинный перевод 28.10.23
+ graveright_bishop_plural: "Стражи" #Машинный перевод 28.10.23
+ graveright_positive_afterlife: "Кролидуш" #Машинный перевод 28.10.23
+ graveright_negative_afterlife: "Запомнить" #Машинный перевод 28.10.23
+  
+ graveright_creator_god_name: "$graveright_high_god_name$" #Машинный перевод 28.10.23
+ graveright_creator_god_name_possessive: "$graveright_high_god_name_possessive$" #Машинный перевод 28.10.23
+ graveright_health_god_name: "$graveright_high_god_name$" #Машинный перевод 28.10.23
+ graveright_health_god_name_possessive: "$graveright_high_god_name_possessive$" #Машинный перевод 28.10.23
+ graveright_fertility_god_name: "$graveright_high_god_name$" #Машинный перевод 28.10.23
+ graveright_fertility_god_name_possessive: "$graveright_high_god_name_possessive$" #Машинный перевод 28.10.23
+ graveright_wealth_god_name: "$graveright_high_god_name$" #Машинный перевод 28.10.23
+ graveright_wealth_god_name_possessive: "$graveright_high_god_name_possessive$" #Машинный перевод 28.10.23
+ graveright_household_god_name: "$graveright_health_god_name$" #Машинный перевод 28.10.23
+ graveright_household_god_name_possessive: "$graveright_health_god_name_possessive$" #Машинный перевод 28.10.23
+ graveright_fate_god_name: "$graveright_high_god_name$" #Машинный перевод 28.10.23
+ graveright_fate_god_name_possessive: "$graveright_high_god_name_possessive$" #Машинный перевод 28.10.23
+ graveright_knowledge_god_name: "$graveright_high_god_name$" #Машинный перевод 28.10.23
+ graveright_knowledge_god_name_possessive: "$graveright_high_god_name_possessive$" #Машинный перевод 28.10.23
+ graveright_war_god_name: "$graveright_high_god_name$" #Машинный перевод 28.10.23
+ graveright_war_god_name_possessive: "$graveright_high_god_name_possessive$" #Машинный перевод 28.10.23
+ graveright_trickster_god_name: "$graveright_devil_name$" #Машинный перевод 28.10.23
+ graveright_trickster_god_name_possessive: "$graveright_devil_name_possessive$" #Машинный перевод 28.10.23
+ graveright_night_god_name: "$graveright_high_god_name$" #Машинный перевод 28.10.23
+ graveright_night_god_name_possessive: "$graveright_high_god_name_possessive$" #Машинный перевод 28.10.23
+ graveright_water_god_name: "$graveright_health_god_name$" #Машинный перевод 28.10.23
+ graveright_water_god_name_possessive: "$graveright_health_god_name_possessive$" #Машинный перевод 28.10.23
+ graveright_witch_god_name: "$graveright_devil_name$" #Машинный перевод 28.10.23
+ graveright_witch_god_name_possessive: "$graveright_devil_name_possessive$" #Машинный перевод 28.10.23
+  
+ graveright: "Грейверайт" #Машинный перевод 28.10.23
+ graveright_adj: "Грейверайт" #Машинный перевод 28.10.23
+ graveright_adherent: "могильщик" #Машинный перевод 28.10.23
+ graveright_adherent_plural: "Смотрители могил" #Машинный перевод 28.10.23
+ graveright_desc: "Право Могилы — древняя вера Ойчайнз северных земель. Когда-то доминирующая вера того, что сейчас называется [lichdoms|E], Могильного права (или Мрогилпрано для Ойчайнц), фокусировалась на вере в то, что душа остается со своим телом в загробной жизни. Когда душа движется дальше, она смотрит на окружающих и защищает их, пока тело тоже защищено и к нему относятся с уважением. В лучшие времена почитатели Права Могилы хранили бы тела умерших в огромных комплексах некрополей в городах севера, гарантируя, что все жители города, которые ушли, могли навсегда служить стражами для своих потомков, как это делали бы живые. для них.\n\nЭто, конечно, [Concept('sorrowing_of_oejeynica','proved to be a powder keg')|E], а сейчас Право Могилы - почти мертвая религия. Даже там, где он выживает, его принципы редко соблюдаются, идея хранить мертвых вместо того, чтобы сжигать их, считалась безумием." #Машинный перевод 28.10.23
+  
+ gravewatch: "Могила" #Машинный перевод 28.10.23
+ gravewatch_adj: "Надгробие" #Машинный перевод 28.10.23
+ gravewatch_adherent: "Надгробие" #Машинный перевод 28.10.23
+ gravewatch_adherent_plural: "Стражи могил" #Машинный перевод 28.10.23
+ gravewatch_desc: "Стражи могил — это те, кто поклоняется модернизированной версии права могил, созданной в попытке обеспечить выживание права могил в современном мире. Вместо комплексов некрополей, где хранятся умершие, и построек из их костей, за умершими неделю присматривают, пока жрецы совершают ритуалы очищения и отдыха. Смотрители могил утверждают, что эти обряды по-прежнему позволяют душе защищать территорию, пока они продолжают помнить и строить маркеры в память о них после смерти. Эти могилы тщательно охраняются храмовыми стражами, каждое отдельное тело осматривается группой стражников, которые следят за тем, чтобы их не беспокоили.\n\nХотя это гораздо более приемлемо для современных глаз, оно изо всех сил пытается найти новообращенных среди Марков или убедить староверы своего видения и изо всех сил пытались закрепиться." #Машинный перевод 28.10.23

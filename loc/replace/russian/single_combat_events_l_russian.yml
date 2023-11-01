@@ -1,3 +1,0 @@
-﻿l_russian:
- single_combat.0001.desc.opponent_response.raaargh: "[my_foe.GetFirstNameNoTooltip], кажется, вибрирует в течение секунды, затем [my_foe.GetSheHe] взрывается от ярости, крича так громко, что весь [aeras|E] сотрясается, и швыряет в меня [my_foe.GetHerselfHimself] с редкой для #EMP жестокостью#!."
- single_combat.0031.desc.opponent_response.tire_opponent: "[sc_victor.GetFirstNameNoTooltip] борется с инерцией самого мира, доводя меня до изнеможения снова и снова, пока"

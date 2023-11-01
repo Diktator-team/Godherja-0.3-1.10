@@ -1,0 +1,24 @@
+﻿l_russian:
+  
+ travel_danger_type_marcher_forest: "[antimagic_terrain_basic|E] Лес"  #Машинный перевод 28.10.23!
+ travel_danger_type_marcher_forest_desc: "$travel_danger_type_forest_desc$"  #Машинный перевод 28.10.23!
+ travel_danger_type_marcher_hills: "[antimagic_terrain_basic|E] Холмы"  #Машинный перевод 28.10.23!
+ travel_danger_type_marcher_hills_desc: "$travel_danger_type_hills_desc$"  #Машинный перевод 28.10.23!
+ travel_danger_type_marcher_mountains: "[antimagic_terrain_basic|E] Горы"  #Машинный перевод 28.10.23!
+ travel_danger_type_marcher_mountains_desc: "$travel_danger_type_mountains_desc$"  #Машинный перевод 28.10.23!
+ travel_danger_type_marcher_plains: "[antimagic_terrain_basic|E] Равнины"  #Машинный перевод 28.10.23!
+ travel_danger_type_marcher_plains_desc: "$travel_danger_type_plains_desc$"  #Машинный перевод 28.10.23!
+ travel_danger_type_marcher_floodplains: "[antimagic_terrain_basic|E] поймы"  #Машинный перевод 28.10.23!
+ travel_danger_type_marcher_floodplains_desc: "$travel_danger_type_floodplains_desc$"  #Машинный перевод 28.10.23!
+ travel_danger_type_marcher_wetlands: "[antimagic_terrain_basic|E] Водно-болотные угодья"  #Машинный перевод 28.10.23!
+ travel_danger_type_marcher_wetlands_desc: "$travel_danger_type_wetlands_desc$"  #Машинный перевод 28.10.23!
+  
+ travel_danger_type_deadlands: "Мертвые земли"  #Машинный перевод 28.10.23!
+ travel_danger_type_deadlands_desc: "Живым не рады в стране мертвых."  #Машинный перевод 28.10.23!
+  
+ travel_danger_type_mayik_caverns: "Подземная пещера"  #Машинный перевод 28.10.23!
+ travel_danger_type_mayik_caverns_desc: "Кажется, что-то движется в темноте."  #Машинный перевод 28.10.23!
+ travel_danger_type_mayik_chamber: "Подземная палата"  #Машинный перевод 28.10.23!
+ travel_danger_type_mayik_chamber_desc: "Кто знает, что может наблюдать за тобой из темноты?"  #Машинный перевод 28.10.23!
+ travel_danger_type_mayik_corridors: "Подземный коридор"  #Машинный перевод 28.10.23!
+ travel_danger_type_mayik_corridors_desc: "Даже приглушенный шепот бесконечно эхом отдается от этих стен."  #Машинный перевод 28.10.23!

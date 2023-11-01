@@ -1,6 +1,0 @@
-﻿l_russian:
- tradition_hereditary_hierarchy_desc: "В этой культуре укоренилось то, что лидерство передается по крови, дворянство сковано камнями в замках, а власть аристократов непоколебима. Они не легко забывают тех, кто нарушает законы благородства."
- tradition_desert_nomads_name: "Саррадонские кочевники пустыни"
- tradition_desert_nomads_desc: "Эта культура тесно связана с саррадонской пустыней, которую она пересекала веками, соединяя Имперское море с царствами центрального и южного Саррадона."
- culture_in_camel_region_desc: "[culture|E] отсутствует в [GetGeographicalRegion('world_es_desert').GetName]"
- culture_in_camel_region_percentage_desc: "[culture|E] не имеет #V [EmptyScope.ScriptValue('camel_percentage_trigger_value_desc')|0]%#! своего [counties|E] в [GetGeographicalRegion('world_es_desert').GetName]"

@@ -1,0 +1,181 @@
+﻿l_russian:
+ magic_lifestyle_blood_name: "Магия крови"  #Машинный перевод 28.10.23!
+ magic_lifestyle_blood_desc: "Сосредоточьтесь на раскрытии секретов магии. Абсолютная власть достижима лишь немногими избранными, и все они [magi|E]."  #Машинный перевод 28.10.23!
+ magic_lifestyle_blood_highlight_desc: "Благодаря вашей Магии [education|E] вы получаете #P [GetPlayer.Custom('GetMagicEducationLifestylePercentageBoost')]#! ещё [experience|E] в этом Образе жизни."  #Машинный перевод 28.10.23!
+  
+ magic_lifestyle_dead_name: "Мертвая магия"  #Машинный перевод 28.10.23!
+ magic_lifestyle_dead_desc: "Сосредоточьтесь на раскрытии секретов магии. Абсолютная власть достижима лишь немногими избранными, и все они [magi|E]."  #Машинный перевод 28.10.23!
+ magic_lifestyle_dead_highlight_desc: "Благодаря вашей Магии [education|E] вы получаете #P [GetPlayer.Custom('GetMagicEducationLifestylePercentageBoost')]#! ещё [experience|E] в этом Образе жизни."  #Машинный перевод 28.10.23!
+  
+ magic_lifestyle_mixed_name: "Смешанная магия"  #Машинный перевод 28.10.23!
+ magic_lifestyle_mixed_desc: "Сосредоточьтесь на раскрытии секретов магии. Абсолютная власть достижима лишь немногими избранными, и все они [magi|E]."  #Машинный перевод 28.10.23!
+ magic_lifestyle_mixed_highlight_desc: "Благодаря вашей Магии [education|E] вы получаете #P [GetPlayer.Custom('GetMagicEducationLifestylePercentageBoost')]#! ещё [experience|E] в этом Образе жизни."  #Машинный перевод 28.10.23!
+  
+ monthly_magic_lifestyle_living_xp_gain_mult: "Ежемесячный [living_magic|E] [lifestyle|E] Опыт"  #Машинный перевод 28.10.23!
+ monthly_magic_lifestyle_dead_xp_gain_mult: "Ежемесячный [dead_magic|E] [lifestyle|E] Опыт"  #Машинный перевод 28.10.23!
+ monthly_magic_lifestyle_mixed_xp_gain_mult: "Ежемесячный [mixed_magic|E] [lifestyle|E] Опыт"  #Машинный перевод 28.10.23!
+  
+ monthly_arcana_lifestyle_xp_gain_mult: "Ежемесячный [arcana|E] [lifestyle|E] Опыт"  #Машинный перевод 28.10.23!
+ monthly_adventure_lifestyle_xp_gain_mult: "Ежемесячное #E Расширение #! [lifestyle|E] Опыт"  #Машинный перевод 28.10.23!
+  
+ magic_scholarship_focus_living: "Арканология Фокус"  #Машинный перевод 28.10.23!
+ magic_scholarship_focus_living_desc: "Магию лучше всего изучать для достижения знаний."  #Машинный перевод 28.10.23!
+ magic_scholarship_focus_desc: "Магию лучше всего изучать для достижения знаний."  #Машинный перевод 28.10.23!
+ magic_scholarship_focus_living_effect_desc: "Фокус на грантах по арканологии:"  #Машинный перевод 28.10.23!
+  
+ haemomancy_focus: "Гемомантия Фокус"  #Машинный перевод 28.10.23!
+ haemomancy_focus_desc: "Изучение родословных и собственно манипулирование витэ."  #Машинный перевод 28.10.23!
+ haemomancy_focus_effect_desc: "Фокус на грантах на гемомантию:"  #Машинный перевод 28.10.23!
+ magic_power_focus_living: "Силовой фокус"  #Машинный перевод 28.10.23!
+ magic_power_focus_living_desc: "Магия — это лучший путь к власти… и разрушению."  #Машинный перевод 28.10.23!
+ magic_power_focus_desc: "Магия — это лучший путь к власти… и разрушению."  #Машинный перевод 28.10.23!
+ magic_power_focus_living_effect_desc: "Сосредоточение на силе дает:\n\n#E Магия#!:@magic_icon!#positive_value; +20%#!"  #Машинный перевод 28.10.23!
+ magic_sustainment_focus_living: "Поддержка"  #Машинный перевод 28.10.23!
+ magic_sustainment_focus_living_desc: "Настоящие мастера тайн должны быть всегда бдительны в отношении его развращающей ласки."  #Машинный перевод 28.10.23!
+ magic_sustainment_focus_desc: "Настоящие мастера тайн должны быть всегда бдительны в отношении его развращающей ласки."  #Машинный перевод 28.10.23!
+ magic_sustainment_focus_living_effect_desc: "Сосредоточение внимания на грантах на устойчивое развитие:"  #Машинный перевод 28.10.23!
+  
+ magic_scholarship_focus_dead: "Арканология Фокус"  #Машинный перевод 28.10.23!
+ magic_scholarship_focus_dead_desc: "Магию лучше всего изучать для достижения знаний."  #Машинный перевод 28.10.23!
+ magic_scholarship_focus_dead_effect_desc: "Фокус на грантах по арканологии:"  #Машинный перевод 28.10.23!
+ magic_power_focus_dead: "Силовой фокус"  #Машинный перевод 28.10.23!
+ magic_power_focus_dead_desc: "Магия — это лучший путь к власти… и разрушению."  #Машинный перевод 28.10.23!
+ magic_power_focus_dead_effect_desc: "Сосредоточение на силе дает:\n\n#E Магия#!:@magic_icon!#positive_value; +20%#!"  #Машинный перевод 28.10.23!
+ magic_sustainment_focus_dead: "Поддержка"  #Машинный перевод 28.10.23!
+ magic_sustainment_focus_dead_desc: "Настоящие мастера тайн должны быть всегда бдительны в отношении его развращающей ласки."  #Машинный перевод 28.10.23!
+ magic_sustainment_focus_dead_effect_desc: "Сосредоточение внимания на грантах на устойчивое развитие:"  #Машинный перевод 28.10.23!
+  
+ magic_scholarship_focus_mixed: "Арканология Фокус"  #Машинный перевод 28.10.23!
+ magic_scholarship_focus_mixed_desc: "Магию лучше всего изучать для достижения знаний."  #Машинный перевод 28.10.23!
+ magic_scholarship_focus_mixed_effect_desc: "Фокус на грантах по арканологии:"  #Машинный перевод 28.10.23!
+ magic_power_focus_mixed: "Силовой фокус"  #Машинный перевод 28.10.23!
+ magic_power_focus_mixed_desc: "Магия — это лучший путь к власти… и разрушению."  #Машинный перевод 28.10.23!
+ magic_power_focus_mixed_effect_desc: "Фокус на грантах Power:"  #Машинный перевод 28.10.23!
+ magic_sustainment_focus_mixed: "Поддержка"  #Машинный перевод 28.10.23!
+ magic_sustainment_focus_mixed_desc: "Настоящие мастера тайн должны быть всегда бдительны в отношении его развращающей ласки."  #Машинный перевод 28.10.23!
+ magic_sustainment_focus_mixed_effect_desc: "Сосредоточение внимания на грантах на устойчивое развитие:"  #Машинный перевод 28.10.23!
+  
+ has_living_magic_education_prereq: "Требуется образование в [living_magic|E]."  #Машинный перевод 28.10.23!
+ has_dead_magic_education_prereq: "Требуется образование в [dead_magic|E]."  #Машинный перевод 28.10.23!
+ has_mixed_magic_education_prereq: "Требуется образование в [mixed_magic|E]."  #Машинный перевод 28.10.23!
+  
+ bloodmagic_tree1_name: "гемомантия"  #Машинный перевод 28.10.23!
+ resonance_theory_perk_name: "Резонансная теория"  #Машинный перевод 28.10.23!
+ phlebotomy_perk_name: "флеботомия"  #Машинный перевод 28.10.23!
+ blood_surge_perk_name: "Прилив крови"  #Машинный перевод 28.10.23!
+ blood_surge_perk_effect: "[magic|E] #E Базовый уровень#!:@magic_icon!#positive_value +25#!"  #Машинный перевод 28.10.23!
+ phylacteria_perk_name: "Филактерия"  #Машинный перевод 28.10.23!
+ crimson_whip_perk_name: "Багровый кнут"  #Машинный перевод 28.10.23!
+ crimson_whip_perk_effect: "Получите #positive_value 1#! #E Магического мастерства#! за каждые [aspect_blood_i]#V0 5#!"  #Машинный перевод 28.10.23!
+ blood_wards_perk_name: "Кровавые обереги"  #Машинный перевод 28.10.23!
+ blood_wards_perk_effect: "Получите #positive_value 1#! [magic_resistance|E] за каждые [aspect_blood_i]#V0 5#!"  #Машинный перевод 28.10.23!
+ tracking_by_proxy_perk_name: "Отслеживание по прокси"  #Машинный перевод 28.10.23!
+ tracking_by_proxy_perk_effect: "#positive_value +30%#! [hostile_scheme|E] [success_chance|E], если член [extended_family|E] цели является [agent|E]"  #Машинный перевод 28.10.23!
+ bloodmagic_perk8_tree1_name: ""
+ bloodmagic_perk9_tree1_name: "гемомант"  #Машинный перевод 28.10.23!
+  
+ vivisection_perk_name: "Вивисекция"  #Машинный перевод 28.10.23!
+  
+ livingmagic_tree2_name: "Живое разрушение"  #Машинный перевод 28.10.23!
+ livingmagic_perk1_tree2_name: "Дыхание Дракона"  #Машинный перевод 28.10.23!
+ livingmagic_perk2_tree2_name: "Истончение жизни"  #Машинный перевод 28.10.23!
+ livingmagic_perk3_tree2_name: "Природная сила"  #Машинный перевод 28.10.23!
+ livingmagic_perk4_tree2_name: "Дар сангвинической жизненной силы"  #Машинный перевод 28.10.23!
+ livingmagic_perk5_tree2_name: "Настоящая сила"  #Машинный перевод 28.10.23!
+ livingmagic_perk6_tree2_name: "Садистские достижения"  #Машинный перевод 28.10.23!
+ livingmagic_perk7_tree2_name: "Мастер войны"  #Машинный перевод 28.10.23!
+ livingmagic_perk8_tree2_name: "Ярость воина"  #Машинный перевод 28.10.23!
+ livingmagic_perk9_tree2_name: "Уничтожение"  #Машинный перевод 28.10.23!
+  
+ livingmagic_tree3_name: "Природная магия"  #Машинный перевод 28.10.23!
+ livingmagic_perk1_tree3_name: "Плодородное литье"  #Машинный перевод 28.10.23!
+ livingmagic_perk2_tree3_name: "Дар природы"  #Машинный перевод 28.10.23!
+ livingmagic_perk3_tree3_name: "Гадание"  #Машинный перевод 28.10.23!
+ livingmagic_perk4_tree3_name: "Обереги жизни"  #Машинный перевод 28.10.23!
+ livingmagic_perk5_tree3_name: "Богатство плоти"  #Машинный перевод 28.10.23!
+ livingmagic_perk6_tree3_name: "Очищающая вода"  #Машинный перевод 28.10.23!
+ livingmagic_perk7_tree3_name: "Власть немытых масс"  #Машинный перевод 28.10.23!
+ livingmagic_perk8_tree3_name: "Места силы"  #Машинный перевод 28.10.23!
+ livingmagic_perk9_tree3_name: "Мастер природы"  #Машинный перевод 28.10.23!
+  
+ deadmagic_tree1_name: "Темная магия"  #Машинный перевод 28.10.23!
+ deadmagic_perk1_tree1_name: "Тело"  #Машинный перевод 28.10.23!
+ deadmagic_perk2_tree1_name: "Некромантические Ритуалы"  #Машинный перевод 28.10.23!
+ deadmagic_perk3_tree1_name: "Кости [aeras|E]"  #Машинный перевод 28.10.23!
+ deadmagic_perk4_tree1_name: "Дары мертвых"  #Машинный перевод 28.10.23!
+ deadmagic_perk5_tree1_name: "Скелетная трансфигурация"  #Машинный перевод 28.10.23!
+ deadmagic_perk6_tree1_name: "Сила смерти"  #Машинный перевод 28.10.23!
+ deadmagic_perk7_tree1_name: "Больше мертв, чем жив"  #Машинный перевод 28.10.23!
+ deadmagic_perk8_tree1_name: "Тело из камня"  #Машинный перевод 28.10.23!
+ deadmagic_perk9_tree1_name: "Мастер Смерти"  #Машинный перевод 28.10.23!
+  
+ deadmagic_tree2_name: "Магия Аэрвалара"  #Машинный перевод 28.10.23!
+ deadmagic_perk1_tree2_name: "Диаграмма Аэрвалра"  #Машинный перевод 28.10.23!
+ deadmagic_perk2_tree2_name: "Дробление металла"  #Машинный перевод 28.10.23!
+ deadmagic_perk3_tree2_name: "Квинтэссенция Аэрвалра"  #Машинный перевод 28.10.23!
+ deadmagic_perk4_tree2_name: "Чары Лунного камня"  #Машинный перевод 28.10.23!
+ deadmagic_perk5_tree2_name: "Арканические традиции"  #Машинный перевод 28.10.23!
+ deadmagic_perk6_tree2_name: "Воины Луны"  #Машинный перевод 28.10.23!
+ deadmagic_perk7_tree2_name: "Метеор Буревестник"  #Машинный перевод 28.10.23!
+ deadmagic_perk8_tree2_name: "Вестники Аэрвалра"  #Машинный перевод 28.10.23!
+ deadmagic_perk9_tree2_name: "Мастер Аэрвалра"  #Машинный перевод 28.10.23!
+  
+ deadmagic_tree3_name: "Магия Земли"  #Машинный перевод 28.10.23!
+ deadmagic_perk1_tree3_name: "Копайте магию с Земли"  #Машинный перевод 28.10.23!
+ deadmagic_perk2_tree3_name: "Нести горы"  #Машинный перевод 28.10.23!
+ deadmagic_perk3_tree3_name: "Железокожий"  #Машинный перевод 28.10.23!
+ deadmagic_perk4_tree3_name: "Укрепить Землю"  #Машинный перевод 28.10.23!
+ deadmagic_perk5_tree3_name: "Превратите их в пыль"  #Машинный перевод 28.10.23!
+ deadmagic_perk6_tree3_name: "Архитектура пещер"  #Машинный перевод 28.10.23!
+ deadmagic_perk7_tree3_name: "Трансмутация"  #Машинный перевод 28.10.23!
+ deadmagic_perk8_tree3_name: "Богатство [aeras|E]"  #Машинный перевод 28.10.23!
+ deadmagic_perk9_tree3_name: "Перерыв [aeras|E]"  #Машинный перевод 28.10.23!
+  
+ mixedmagic_tree1_name: "Пограничная магия"  #Машинный перевод 28.10.23!
+ mixedmagic_perk1_tree1_name: "Рифт Кран"  #Машинный перевод 28.10.23!
+ mixedmagic_perk2_tree1_name: "Достичь сквозь туман"  #Машинный перевод 28.10.23!
+ mixedmagic_perk3_tree1_name: "Бездонное наступление"  #Машинный перевод 28.10.23!
+ mixedmagic_perk4_tree1_name: "Странник Туманов"  #Машинный перевод 28.10.23!
+ mixedmagic_perk5_tree1_name: "Распутывание"  #Машинный перевод 28.10.23!
+ mixedmagic_perk6_tree1_name: "Необычные идеи"  #Машинный перевод 28.10.23!
+ mixedmagic_perk7_tree1_name: "Умоляй туман"  #Машинный перевод 28.10.23!
+ mixedmagic_perk8_tree1_name: "Рифт-связь"  #Машинный перевод 28.10.23!
+ mixedmagic_perk9_tree1_name: "Один с туманом"  #Машинный перевод 28.10.23!
+  
+ mixedmagic_tree2_name: "Туманное предзнаменование"  #Машинный перевод 28.10.23!
+ mixedmagic_perk1_tree2_name: "Заглянуть в глубину"  #Машинный перевод 28.10.23!
+ mixedmagic_perk2_tree2_name: "Ужасающая травма"  #Машинный перевод 28.10.23!
+ mixedmagic_perk3_tree2_name: "Обдумывать видения"  #Машинный перевод 28.10.23!
+ mixedmagic_perk4_tree2_name: "Вот истина"  #Машинный перевод 28.10.23!
+ mixedmagic_perk5_tree2_name: "Расшифровать Рол"  #Машинный перевод 28.10.23!
+ mixedmagic_perk6_tree2_name: "Постичь видения"  #Машинный перевод 28.10.23!
+ mixedmagic_perk7_tree2_name: "Истинное зрение"  #Машинный перевод 28.10.23!
+ mixedmagic_perk8_tree2_name: "Примите видения"  #Машинный перевод 28.10.23!
+ mixedmagic_perk9_tree2_name: "Бледный провидец"  #Машинный перевод 28.10.23!
+  
+ mixedmagic_tree3_name: "Онейрическая магия"  #Машинный перевод 28.10.23!
+ mixedmagic_perk1_tree3_name: "Сновидец"  #Машинный перевод 28.10.23!
+ mixedmagic_perk2_tree3_name: "Просеивать песок"  #Машинный перевод 28.10.23!
+ mixedmagic_perk3_tree3_name: "Остатки"  #Машинный перевод 28.10.23!
+ mixedmagic_perk4_tree3_name: "Ткач снов"  #Машинный перевод 28.10.23!
+ mixedmagic_perk5_tree3_name: "Лепить разум"  #Машинный перевод 28.10.23!
+ mixedmagic_perk6_tree3_name: "Проводник запредельного мира"  #Машинный перевод 28.10.23!
+ mixedmagic_perk7_tree3_name: "Рожденный заново"  #Машинный перевод 28.10.23!
+ mixedmagic_perk8_tree3_name: "Погрузиться в мечты"  #Машинный перевод 28.10.23!
+ mixedmagic_perk9_tree3_name: "Рейфер"  #Машинный перевод 28.10.23!
+  
+ adventure_lifestyle_tree1_name: "авантюрист"  #Машинный перевод 28.10.23!
+  
+ adventure_lifestyle_tree2_name: "Ремесленник"  #Машинный перевод 28.10.23!
+  
+ adventure_lifestyle_tree3_name: "убийца"  #Машинный перевод 28.10.23!
+ beasthunter_perk_name: "Охотник на зверей"  #Машинный перевод 28.10.23!
+ home_turf_perk_name: "Старые топающие площадки"  #Машинный перевод 28.10.23!
+ adept_tracker_perk_name: "Адепт-следопыт"  #Машинный перевод 28.10.23!
+ grizzled_perk_name: "Седой"  #Машинный перевод 28.10.23!
+ skilled_forager_perk_name: "Опытный собиратель"  #Машинный перевод 28.10.23!
+ proficiency_perk_name: "Мастерство"  #Машинный перевод 28.10.23!
+ trophy_collector_perk_name: "Коллекционер трофеев"  #Машинный перевод 28.10.23!
+ unconventional_game_perk_name: "Нетрадиционная игра"  #Машинный перевод 28.10.23!
+ professional_monster_slayer_perk_name: "Профессиональный истребитель монстров"  #Машинный перевод 28.10.23!
+ falconer_perk_name: "Дрессировщик Соколов"  #Машинный перевод 28.10.23!

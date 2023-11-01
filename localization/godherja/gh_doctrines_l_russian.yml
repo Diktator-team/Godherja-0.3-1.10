@@ -1,0 +1,4 @@
+﻿l_russian:
+  # Interactions 
+ IS_ALLOWED_TO_IMPRISON_MANDATE_OF_PURITY_DESC: "#weak Поскольку [Select_CString( imprisoner.IsLocalPlayer, 'my', imprisoner.GetShortUIName )] [faith|E] имеет [GetFaithDoctrine('tenet_superiority_in_bloodshed').GetBaseName] [doctrine|E], никто не подумает, что [Select_CString( imprisoner.IsLocalPlayer, 'me', imprisoner.GetShortUIName )] - [tyrant|E]#!"  #Машинный перевод 28.10.23!
+ IS_ALLOWED_TO_EXECUTE_MANDATE_OF_PURITY_DESC: "$IS_ALLOWED_TO_IMPRISON_MANDATE_OF_PURITY_DESC$"  #Машинный перевод 28.10.23!

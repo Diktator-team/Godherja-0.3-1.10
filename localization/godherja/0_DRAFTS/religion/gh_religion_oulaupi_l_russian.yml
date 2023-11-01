@@ -1,0 +1,133 @@
+﻿l_russian:
+  
+ oulaupi_religion: "Улаупи" #Машинный перевод 28.10.23
+ oulaupi_religion_adj: "Улаупи" #Машинный перевод 28.10.23
+ oulaupi_religion_adjerent: "Улаупия" #Машинный перевод 28.10.23
+ oulaupi_religion_adherent_plural: "Улаупия" #Машинный перевод 28.10.23
+ oulaupi_religion_desc: "Улаупи верят, что восемь самых высоких вершин Северных гор символизируют восемь богов и их небеса, и считают восхождение на них высшим актом преданности." #Машинный перевод 28.10.23
+ oulaupi_high_god_name: "Наврег" #Машинный перевод 28.10.23
+ oulaupi_high_god_name_possessive: "Наврега" #Машинный перевод 28.10.23
+ oulaupi_high_god_name_alternate: "Самый Высокий" #Машинный перевод 28.10.23
+ oulaupi_high_god_name_alternate_possessive: "Всевышнего" #Машинный перевод 28.10.23
+ oulaupi_devil_name: "Блаурун" #Машинный перевод 28.10.23
+ oulaupi_devil_name_possessive: "Блауруна" #Машинный перевод 28.10.23
+ oulaupi_death_deity_name: "$oulaupi_devil_name$" #Машинный перевод 28.10.23
+ oulaupi_death_deity_name_possessive: "$oulaupi_devil_name_possessive$" #Машинный перевод 28.10.23
+  
+ oulaupi_house_of_worship: "Любугн" #Машинный перевод 28.10.23
+ oulaupi_house_of_worship_plural: "Лукбугнс" #Машинный перевод 28.10.23
+ oulaupi_religious_symbol: "Горы" #Машинный перевод 28.10.23
+ oulaupi_religious_text: "73 песни восьми небесам" #Машинный перевод 28.10.23
+  
+ oulaupi_religious_head_title: "Гролюкань" #Машинный перевод 28.10.23
+ oulaupi_religious_head_title_name: "Гролюкан" #Машинный перевод 28.10.23
+ oulaupi_devotee: "Альпинист" #Машинный перевод 28.10.23
+ oulaupi_devotee_plural: "Альпинисты" #Машинный перевод 28.10.23
+ oulaupi_priest: "Старейшина" #Машинный перевод 28.10.23
+ oulaupi_priest_plural: "Старейшины" #Машинный перевод 28.10.23
+ oulaupi_priest_alternate_plural: "Старейшина" #Машинный перевод 28.10.23
+ oulaupi_bishop: "Небесный Старейшина" #Машинный перевод 28.10.23
+ oulaupi_bishop_plural: "Небесные старейшины" #Машинный перевод 28.10.23
+ oulaupi_positive_afterlife: "$oulaupi_high_god_name$" #Машинный перевод 28.10.23
+ oulaupi_negative_afterlife: "$oulaupi_devil_name$" #Машинный перевод 28.10.23
+  
+ oulaupi_creator_god_name: "$oulaupi_high_god_name$" #Машинный перевод 28.10.23
+ oulaupi_creator_god_name_possessive: "$oulaupi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ oulaupi_health_god_name: "$oulaupi_high_god_name$" #Машинный перевод 28.10.23
+ oulaupi_health_god_name_possessive: "$oulaupi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ oulaupi_fertility_god_name: "$oulaupi_high_god_name$" #Машинный перевод 28.10.23
+ oulaupi_fertility_god_name_possessive: "$oulaupi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ oulaupi_wealth_god_name: "$oulaupi_high_god_name$" #Машинный перевод 28.10.23
+ oulaupi_wealth_god_name_possessive: "$oulaupi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ oulaupi_household_god_name: "$oulaupi_health_god_name$" #Машинный перевод 28.10.23
+ oulaupi_household_god_name_possessive: "$oulaupi_health_god_name_possessive$" #Машинный перевод 28.10.23
+ oulaupi_fate_god_name: "$oulaupi_high_god_name$" #Машинный перевод 28.10.23
+ oulaupi_fate_god_name_possessive: "$oulaupi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ oulaupi_knowledge_god_name: "$oulaupi_high_god_name$" #Машинный перевод 28.10.23
+ oulaupi_knowledge_god_name_possessive: "$oulaupi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ oulaupi_war_god_name: "$oulaupi_high_god_name$" #Машинный перевод 28.10.23
+ oulaupi_war_god_name_possessive: "$oulaupi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ oulaupi_trickster_god_name: "$oulaupi_devil_name$" #Машинный перевод 28.10.23
+ oulaupi_trickster_god_name_possessive: "$oulaupi_devil_name_possessive$" #Машинный перевод 28.10.23
+ oulaupi_night_god_name: "$oulaupi_high_god_name$" #Машинный перевод 28.10.23
+ oulaupi_night_god_name_possessive: "$oulaupi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ oulaupi_water_god_name: "$oulaupi_health_god_name$" #Машинный перевод 28.10.23
+ oulaupi_water_god_name_possessive: "$oulaupi_health_god_name_possessive$" #Машинный перевод 28.10.23
+ oulaupi_witch_god_name: "$oulaupi_devil_name$" #Машинный перевод 28.10.23
+ oulaupi_witch_god_name_possessive: "$oulaupi_devil_name_possessive$" #Машинный перевод 28.10.23
+  
+ oulaupi: "Улаупи" #Машинный перевод 28.10.23
+ oulaupi_adj: "Улаупи" #Машинный перевод 28.10.23
+ oulaupi_adherent: "Улаупия" #Машинный перевод 28.10.23
+ oulaupi_adherent_plural: "Улаупия" #Машинный перевод 28.10.23
+ oulaupi_desc: "Для Улаупи восемь самых высоких вершин Северных гор олицетворяют восемь богов и их небеса, причем самая высокая вершина «Науврег» является последней и величайшей. Восхождение на восемь вершин считается высшим актом преданности, и только те, кто поднялся до пятого неба, считаются достойными стать вождями. Их почитание больших высот побудило улаупи практиковать своеобразный обычай вывешивать гробы своих умерших на склоне горы, и они категорически запрещают всем посторонним приближаться к этим возвышенным кладбищам." #Машинный перевод 28.10.23
+  
+ solungvend: "Солунгвенд" #Машинный перевод 28.10.23
+ solungvend_adj: "Солунгвенд" #Машинный перевод 28.10.23
+ solungvend_adherent: "Солунгвенди" #Машинный перевод 28.10.23
+ solungvend_adherent_plural: "Солунгвендии" #Машинный перевод 28.10.23
+ solungvend_desc: "Солунгвенди придают большое значение чистоте души, которой они стремятся достичь посредством глубокой медитации. Приверженцы часто ищут изолированные вершины и пропасти, предпочтительно с минимальными точками опоры, поскольку они считают, что освобождение от физической привязанности к [aeras|E] необходимо для достижения истинного спокойствия. Их транс часто длится целыми днями, и только холодный ветер составляет им компанию." #Машинный перевод 28.10.23
+  
+ solungvend_high_god_name_alternate: "Пики и пропасти" #Машинный перевод 28.10.23
+ solungvend_high_god_name_alternate_possessive: "Вершины и пропасти»" #Машинный перевод 28.10.23
+ solungvend_devotee: "странник" #Машинный перевод 28.10.23
+ solungvend_devotee_plural: "Странники" #Машинный перевод 28.10.23
+ solungvend_bishop: "Великий Старейшина" #Машинный перевод 28.10.23
+ solungvend_bishop_plural: "Великие старейшины" #Машинный перевод 28.10.23
+  
+ cosnaupi: "Коснаупи" #Машинный перевод 28.10.23
+ cosnaupi_adj: "Коснаупи" #Машинный перевод 28.10.23
+ cosnaupi_adherent: "Коснаупи" #Машинный перевод 28.10.23
+ cosnaupi_adherent_plural: "Коснаупии" #Машинный перевод 28.10.23
+ cosnaupi_desc: "После того, как [Concept('frodbrokna','great disaster')|E] оторвал большую часть вершины Наврега, некоторые горные племена перестали считать ее величайшим раем, вместо этого почитая то, что когда-то было второй по высоте вершиной, Коснфрегл. Приверженцы веры имеют склонность приносить в жертву пленников на алтарях, построенных вокруг горы, полагая, что эти ритуалы пополнят [Concept('bloodcrystal','red ore')|E], который они часто добывают в глубинах Коснфрегля." #Машинный перевод 28.10.23
+  
+ cosnaupi_high_god_name: "Коснфрегль" #Машинный перевод 28.10.23
+ cosnaupi_high_god_name_possessive: "Коснфрегля" #Машинный перевод 28.10.23
+ cosnaupi_high_god_name_alternate: "Самый Высокий" #Машинный перевод 28.10.23
+ cosnaupi_high_god_name_alternate_possessive: "Всевышнего" #Машинный перевод 28.10.23
+ cosnaupi_devil_name: "Блаурун" #Машинный перевод 28.10.23
+ cosnaupi_devil_name_possessive: "Блауруна" #Машинный перевод 28.10.23
+ cosnaupi_death_deity_name: "$cosnaupi_high_god_name$" #Машинный перевод 28.10.23
+ cosnaupi_death_deity_name_possessive: "$cosnaupi_high_god_name_possessive$" #Машинный перевод 28.10.23
+  
+ cosnaupi_house_of_worship: "Любугн" #Машинный перевод 28.10.23
+ cosnaupi_house_of_worship_plural: "Лукбугнс" #Машинный перевод 28.10.23
+ cosnaupi_religious_symbol: "Горы" #Машинный перевод 28.10.23
+ cosnaupi_religious_text: "8 песнопений Красному принцу" #Машинный перевод 28.10.23
+  
+ cosnaupi_religious_head_title: "Гролюкань" #Машинный перевод 28.10.23
+ cosnaupi_religious_head_title_name: "Гролюкан" #Машинный перевод 28.10.23
+ cosnaupi_devotee: "Альпинист" #Машинный перевод 28.10.23
+ cosnaupi_devotee_plural: "Альпинисты" #Машинный перевод 28.10.23
+ cosnaupi_priest: "Старейшина" #Машинный перевод 28.10.23
+ cosnaupi_priest_plural: "Старейшины" #Машинный перевод 28.10.23
+ cosnaupi_priest_alternate_plural: "Старейшина" #Машинный перевод 28.10.23
+ cosnaupi_bishop: "Красный Старейшина" #Машинный перевод 28.10.23
+ cosnaupi_bishop_plural: "Красные Старейшины" #Машинный перевод 28.10.23
+ cosnaupi_positive_afterlife: "$cosnaupi_high_god_name$" #Машинный перевод 28.10.23
+ cosnaupi_negative_afterlife: "$cosnaupi_devil_name$" #Машинный перевод 28.10.23
+  
+ cosnaupi_creator_god_name: "$cosnaupi_high_god_name$" #Машинный перевод 28.10.23
+ cosnaupi_creator_god_name_possessive: "$cosnaupi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ cosnaupi_health_god_name: "$cosnaupi_high_god_name$" #Машинный перевод 28.10.23
+ cosnaupi_health_god_name_possessive: "$cosnaupi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ cosnaupi_fertility_god_name: "$cosnaupi_high_god_name$" #Машинный перевод 28.10.23
+ cosnaupi_fertility_god_name_possessive: "$cosnaupi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ cosnaupi_wealth_god_name: "$cosnaupi_high_god_name$" #Машинный перевод 28.10.23
+ cosnaupi_wealth_god_name_possessive: "$cosnaupi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ cosnaupi_household_god_name: "$cosnaupi_health_god_name$" #Машинный перевод 28.10.23
+ cosnaupi_household_god_name_possessive: "$cosnaupi_health_god_name_possessive$" #Машинный перевод 28.10.23
+ cosnaupi_fate_god_name: "$cosnaupi_high_god_name$" #Машинный перевод 28.10.23
+ cosnaupi_fate_god_name_possessive: "$cosnaupi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ cosnaupi_knowledge_god_name: "$cosnaupi_high_god_name$" #Машинный перевод 28.10.23
+ cosnaupi_knowledge_god_name_possessive: "$cosnaupi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ cosnaupi_war_god_name: "$cosnaupi_high_god_name$" #Машинный перевод 28.10.23
+ cosnaupi_war_god_name_possessive: "$cosnaupi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ cosnaupi_trickster_god_name: "$cosnaupi_high_god_name$" #Машинный перевод 28.10.23
+ cosnaupi_trickster_god_name_possessive: "$cosnaupi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ cosnaupi_night_god_name: "$cosnaupi_high_god_name$" #Машинный перевод 28.10.23
+ cosnaupi_night_god_name_possessive: "$cosnaupi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ cosnaupi_water_god_name: "$cosnaupi_health_god_name$" #Машинный перевод 28.10.23
+ cosnaupi_water_god_name_possessive: "$cosnaupi_health_god_name_possessive$" #Машинный перевод 28.10.23
+ cosnaupi_witch_god_name: "$cosnaupi_devil_name$" #Машинный перевод 28.10.23
+ cosnaupi_witch_god_name_possessive: "$cosnaupi_devil_name_possessive$" #Машинный перевод 28.10.23

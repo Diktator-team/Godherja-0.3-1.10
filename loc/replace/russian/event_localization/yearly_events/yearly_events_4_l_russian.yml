@@ -1,4 +1,0 @@
-﻿l_russian:
- yearly.4091.t: "Ученые Эль-Кулаты"
- yearly.4091.desc_opening: "[ward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] и я гуляли по [GetTitleByKey('c_el_qulatha').GetNameNoTier], когда наткнулись"
- yearly.4091.desc_house: "[GetBuilding('greattempleofelqulatha').GetName]."

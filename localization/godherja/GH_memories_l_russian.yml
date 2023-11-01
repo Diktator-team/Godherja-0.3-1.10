@@ -1,0 +1,113 @@
+﻿l_russian:
+  #Descs 
+ enrolled_at_mayikprolollan_desc: "Я начал свое образование [mayikprolollan|B] в школе [ROOT.Var('landed_title').Title.GetNameNoTier]."  #Машинный перевод 28.10.23!
+ enrolled_at_mayikprolollan_desc_second_perspective: "вы начали свое образование [mayikprolollan|B] в [ROOT.Var('landed_title').Title.GetNameNoTier]"  #Машинный перевод 28.10.23!
+ enrolled_at_mayikprolollan_desc_third_perspective: "[owner.GetName] начал свое образование [mayikprolollan|B] в [ROOT.Var('landed_title').Title.GetNameNoTier]"  #Машинный перевод 28.10.23!
+  
+ joined_legion_desc: "Я присоединился к [ROOT.Var('landed_title').Title.GetNameNoTier]"  #Машинный перевод 28.10.23!
+ joined_legion_desc_second_perspective: "вы присоединились к [ROOT.Var('landed_title').Title.GetNameNoTier]"  #Машинный перевод 28.10.23!
+ joined_legion_desc_third_perspective: "[owner.GetName] присоединился к [ROOT.Var('landed_title').Title.GetNameNoTier]"  #Машинный перевод 28.10.23!
+  
+ sacrificed_family_for_spell_desc: "Я пожертвовал [sacrificed_family_member_1.GetFirstName], [sacrificed_family_member_2.GetFirstName], [sacrificed_family_member_3.GetFirstName] и [sacrificed_family_member_4.GetFirstName] в ритуале [magical|B]."  #Машинный перевод 28.10.23!
+ sacrificed_family_for_spell_desc_second_perspective: "вы пожертвовали [sacrificed_family_member_1.GetFirstName], [sacrificed_family_member_2.GetFirstName], [sacrificed_family_member_3.GetFirstName] и [sacrificed_family_member_4.GetFirstName] в ритуале [magical|B]"  #Машинный перевод 28.10.23!
+ sacrificed_family_for_spell_desc_third_perspective: "[owner.GetName] принес в жертву [sacrificed_family_member_1.GetFirstName], [sacrificed_family_member_2.GetFirstName], [sacrificed_family_member_3.GetFirstName] и [sacrificed_family_member_4.GetFirstName] в ритуале [magical|B]."  #Машинный перевод 28.10.23!
+  
+ casted_srbm_desc: "Я использую [selfreplicating_blood_magic|B]"  #Машинный перевод 28.10.23!
+ casted_srbm_desc_second_perspective: "ты разыгрываешь [selfreplicating_blood_magic|B]"  #Машинный перевод 28.10.23!
+ casted_srbm_desc_third_perspective: "[owner.GetName] каст [selfreplicating_blood_magic|B]"  #Машинный перевод 28.10.23!
+  
+ launched_palace_coup_desc: "Я успешно совершил дворцовый переворот [ROOT.Var('landed_title').Title.GetNameNoTier] против [couped_character.GetTitledFirstName]."  #Машинный перевод 28.10.23!
+ launched_palace_coup_desc_second_perspective: "Вы успешно устроили дворцовый переворот [ROOT.Var('landed_title').Title.GetNameNoTier] против [couped_character.GetTitledFirstName]."  #Машинный перевод 28.10.23!
+ launched_palace_coup_desc_third_perspective: "[owner.GetName] успешно организовал дворцовый переворот [ROOT.Var('landed_title').Title.GetNameNoTier] против [couped_character.GetTitledFirstName]"  #Машинный перевод 28.10.23!
+  
+ lost_title_to_palace_coup_desc: "Я проиграл [ROOT.Var('landed_title').Title.GetNameNoTier] в дворцовом перевороте против вероломного [couping_character.GetTitledFirstName]"  #Машинный перевод 28.10.23!
+ lost_title_to_palace_coup_desc_second_perspective: "Вы проиграли [ROOT.Var('landed_title').Title.GetNameNoTier] в дворцовом перевороте против коварного [couping_character.GetTitledFirstName]"  #Машинный перевод 28.10.23!
+ lost_title_to_palace_coup_desc_third_perspective: "[owner.GetName] проиграл [ROOT.Var('landed_title').Title.GetNameNoTier] в дворцовом перевороте против вероломного [couping_character.GetTitledFirstName]"  #Машинный перевод 28.10.23!
+  
+ friend_died_known_killer_desc_1: "мой друг [dead_relation.GetName] [dead_relation.GetDeathReason]"  #Машинный перевод 28.10.23!
+ friend_died_known_killer_desc_2: "Я потерял друга, [dead_relation.GetName], [dead_relation.GetDeathReason]"  #Машинный перевод 28.10.23!
+ friend_died_known_killer_desc_3: "[dead_relation.GetName], друг мой, [dead_relation.GetDeathReason]"  #Машинный перевод 28.10.23!
+  
+ friend_died_known_killer_desc_second_perspective_1: "твой друг [dead_relation.GetName] [dead_relation.GetDeathReason]"  #Машинный перевод 28.10.23!
+ friend_died_known_killer_desc_second_perspective_2: "ты потерял моего друга, [dead_relation.GetName], [dead_relation.GetDeathReason]"  #Машинный перевод 28.10.23!
+ friend_died_known_killer_desc_second_perspective_3: "[dead_relation.GetName], твой друг, [dead_relation.GetDeathReason]"  #Машинный перевод 28.10.23!
+  
+ friend_died_known_killer_desc_third_perspective_1: "[owner.GetNamePossessive] друг [dead_relation.GetName] [dead_relation.GetDeathReason]"  #Машинный перевод 28.10.23!
+ friend_died_known_killer_desc_third_perspective_2: "[owner.GetNamePossessive] потерял друга, [dead_relation.GetName], [dead_relation.GetDeathReason]"  #Машинный перевод 28.10.23!
+ friend_died_known_killer_desc_third_perspective_3: "[dead_relation.GetName], [owner.GetNamePossessive] друг, [dead_relation.GetDeathReason]"  #Машинный перевод 28.10.23!
+  
+ personality_altered_depravity_gedeora_desc: "Этот персонаж подвергся нападению Гедеоры, в результате чего он впал в разврат, что, по их мнению, было бы к лучшему."  #Машинный перевод 28.10.23!
+ personality_altered_zeal_gedeora_desc: "Этот персонаж был поражен Гедеорой, в результате чего у него появился мощный религиозный опыт, которого они никогда не получат."  #Машинный перевод 28.10.23!
+ personality_altered_bloodlust_gedeora_desc: "Этот персонаж был ранен Гедеорой, из-за чего он жаждал пролитой крови."  #Машинный перевод 28.10.23!
+ personality_altered_ambition_gedeora_desc: "Этот персонаж подвергся нападению Гедеоры, из-за чего у него внезапно появились большие планы и амбиции."  #Машинный перевод 28.10.23!
+ personality_altered_generic_evil_gedeora_desc: ""
+ personality_altered_apostasy_gedeora_desc: "Этот персонаж был атакован Гедеорой, из-за чего они сказали, что [ROOT.Char.GetFaith.HighGodName] мертв, и потеряли всякую ценность жизни."  #Машинный перевод 28.10.23!
+ resisted_gederoa_desc: "Этот персонаж подвергся нападению Гедеоры, но у него хватило духа противостоять мощной магии, стремящейся изменить его личность."  #Машинный перевод 28.10.23!
+  
+ fell_into_coma_desc: "Я погрузился в глубокий сон"  #Машинный перевод 28.10.23!
+ fell_into_coma_desc_second_perspective: "ты погрузился в глубокий сон"  #Машинный перевод 28.10.23!
+ fell_into_coma_desc_third_perspective: "[owner.GetName] погрузился в глубокий сон"  #Машинный перевод 28.10.23!
+  
+ woke_up_from_coma_desc: "Я проснулся от глубокого сна"  #Машинный перевод 28.10.23!
+ woke_up_from_coma_desc_second_perspective: "ты проснулся от глубокого сна"  #Машинный перевод 28.10.23!
+ woke_up_from_coma_desc_third_perspective: "[owner.GetName] проснулся от глубокого сна"  #Машинный перевод 28.10.23!
+  
+ slew_lich_desc: "Я победил ужас [lich|B] [dead_relation.GetFullNameNicknamed]"  #Машинный перевод 28.10.23!
+ slew_lich_desc_second_perspective: "ты победил ужас [lich|B] [dead_relation.GetFullNameNicknamed]"  #Машинный перевод 28.10.23!
+ slew_lich_desc_third_perspective: "[owner.GetName] победил ужас [lich|B] [dead_relation.GetFullNameNicknamed]"  #Машинный перевод 28.10.23!
+  
+ fought_in_ten_trees_desc: "Я воевал в [battle_of_ten_trees|B]"  #Машинный перевод 28.10.23!
+ fought_in_ten_trees_desc_second_perspective: "ты сражался в [battle_of_ten_trees|B]"  #Машинный перевод 28.10.23!
+ fought_in_ten_trees_desc_third_perspective: "[owner.GetName] воевал в [battle_of_ten_trees|B]"  #Машинный перевод 28.10.23!
+  
+ fought_in_elysian_pass_sjalvolki_desc: "Я сражался в битве у Елисейского перевала на стороне Шялволки."  #Машинный перевод 28.10.23!
+ fought_in_elysian_pass_sjalvolki_desc_second_perspective: "вы сражались в битве у Елисейского перевала на стороне Шялволки"  #Машинный перевод 28.10.23!
+ fought_in_elysian_pass_sjalvolki_desc_third_perspective: "[owner.GetName] сражался в битве у Елисейского перевала на стороне Шялволки."  #Машинный перевод 28.10.23!
+  
+ fought_in_elysian_pass_aversarian_desc: "Я сражался в битве у Елисейского перевала на стороне Аверсариев."  #Машинный перевод 28.10.23!
+ fought_in_elysian_pass_aversarian_desc_second_perspective: "вы сражались в битве у Елисейского перевала на стороне аверсариев"  #Машинный перевод 28.10.23!
+ fought_in_elysian_pass_aversarian_desc_third_perspective: "[owner.GetName] сражался в битве у Елисейского перевала на стороне аверсариев."  #Машинный перевод 28.10.23!
+  
+ fought_in_elysian_pass_marcher_desc: "Я сражался в битве у Елисейского перевала как независимый наемник Марша."  #Машинный перевод 28.10.23!
+ fought_in_elysian_pass_marcher_desc_second_perspective: "вы сражались в битве у Елисейского перевала как независимый наемник Марша"  #Машинный перевод 28.10.23!
+ fought_in_elysian_pass_marcher_desc_third_perspective: "[owner.GetName] участвовал в битве у Елисейского перевала как независимый наемник Марчера."  #Машинный перевод 28.10.23!
+  
+ fought_in_black_mountain_war_desc: "Я воевал в [black_mountain_war|B]"  #Машинный перевод 28.10.23!
+ fought_in_black_mountain_war_desc_second_perspective: "ты сражался в [black_mountain_war|B]"  #Машинный перевод 28.10.23!
+ fought_in_black_mountain_war_desc_third_perspective: "[owner.GetName] воевал в [black_mountain_war|B]"  #Машинный перевод 28.10.23!
+  
+ fought_in_ash_war_desc: "Я воевал в [ash_war|B]"  #Машинный перевод 28.10.23!
+ fought_in_ash_war_desc_second_perspective: "ты сражался в [ash_war|B]"  #Машинный перевод 28.10.23!
+ fought_in_ash_war_desc_third_perspective: "[owner.GetName] воевал в [ash_war|B]"  #Машинный перевод 28.10.23!
+  
+ fought_in_black_gold_war_desc: "Я воевал в [black_gold_war|B]"  #Машинный перевод 28.10.23!
+ fought_in_black_gold_war_desc_second_perspective: "ты сражался в [black_gold_war|B]"  #Машинный перевод 28.10.23!
+ fought_in_black_gold_war_desc_third_perspective: "[owner.GetName] воевал в [black_gold_war|B]"  #Машинный перевод 28.10.23!
+  
+  #Titles 
+ enrolled_at_mayikprolollan: "начал учиться в [ROOT.Var('landed_title').Title.GetNameNoTier]"  #Машинный перевод 28.10.23!
+ joined_legion: "присоединился к [ROOT.Var('landed_title').Title.GetNameNoTier]"  #Машинный перевод 28.10.23!
+ sacrificed_family_for_spell: "семья принесена в жертву ради ритуала [magical|E]"  #Машинный перевод 28.10.23!
+ launched_palace_coup: "отлит [selfreplicating_blood_magic|E]"  #Машинный перевод 28.10.23!
+ lost_title_to_palace_coup: "отлит [selfreplicating_blood_magic|E]"  #Машинный перевод 28.10.23!
+ friend_died_known_killer: "смерть друга"  #Машинный перевод 28.10.23!
+ casted_srbm: "актерский состав [selfreplicating_blood_magic|E]"  #Машинный перевод 28.10.23!
+ fell_into_coma: "впал в кому"  #Машинный перевод 28.10.23!
+ woke_up_from_coma: "проснулся от комы"  #Машинный перевод 28.10.23!
+ slew_lich: "убил [lich|E]"  #Машинный перевод 28.10.23!
+ personality_altered_depravity_gedeora: "ударил Гедеора"  #Машинный перевод 28.10.23!
+ personality_altered_zeal_gedeora: "ударил Гедеора"  #Машинный перевод 28.10.23!
+ personality_altered_bloodlust_gedeora: "ударил Гедеора"  #Машинный перевод 28.10.23!
+ personality_altered_ambition_gedeora: "ударил Гедеора"  #Машинный перевод 28.10.23!
+ personality_altered_generic_evil_gedeora: "ударил Гедеора"  #Машинный перевод 28.10.23!
+ personality_altered_apostasy_gedeora: "ударил Гедеора"  #Машинный перевод 28.10.23!
+ personality_resisted_gederoa: "сопротивлялся Гедероа"  #Машинный перевод 28.10.23!
+ fought_in_ten_trees: "воевал в [battle_of_ten_trees|E]"  #Машинный перевод 28.10.23!
+ fought_in_elysian_pass_sjalvolki: "участвовал в битве у Елисейского перевала"  #Машинный перевод 28.10.23!
+ fought_in_elysian_pass_aversarian: "участвовал в битве у Елисейского перевала"  #Машинный перевод 28.10.23!
+ fought_in_elysian_pass_marcher: "участвовал в битве у Елисейского перевала"  #Машинный перевод 28.10.23!
+ fought_in_black_mountain_war: "воевал в [black_mountain_war|E]"  #Машинный перевод 28.10.23!
+ fought_in_black_gold_war: "воевал в [black_gold_war|E]"  #Машинный перевод 28.10.23!
+ fought_in_ash_war: "воевал в [ash_war|E]"  #Машинный перевод 28.10.23!
+ became_lovers_public: "стали любовниками"  #Машинный перевод 28.10.23!
+ lover_died_public: "смерть любовника"  #Машинный перевод 28.10.23!

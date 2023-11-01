@@ -1,3 +1,0 @@
-﻿l_russian:
- learning_theology.3021.desc_opening: "Мои недавние усилия в области богословия дали мне больше признательности представителям [ROOT.Char.GetFaith.HighGodNamePossessive] в [aeras|E]. Пытаясь выразить некоторые из этих чувств, я напишу письмо в [compliment_receiver.GetTitleAsName], [compliment_receiver.GetFirstName].\n\n"
- learning_theology.3003.b: "Вы правы, мне следует сосредоточиться на более приземленных вещах."

@@ -1,0 +1,29 @@
+﻿l_russian:
+ #General names: 
+ baron: "Барон"
+ baron_female: "Баронесса"
+ barony: "Баронство"
+ count: "Граф"
+ count_female: "Графиня"
+ county: "Графство"
+ duke: "Герцог"
+ duke_female: "Герцогиня"
+ duchy: "Герцогство"
+  
+ baron_plural: "Бароны"
+ count_plural: "Графы"
+ duke_plural: "Герцоги"
+  
+  #Default Feudal tiers 
+ baron_feudal_male: "Барон"
+ baron_feudal_female: "Баронесса"
+ barony_feudal: "Баронство"
+ count_feudal_male: "Граф"
+ count_feudal_female: "Графиня"
+ county_feudal: "Графство"
+ duke_feudal_male: "Герцог"
+ duke_feudal_female: "Герцогиня"
+ duchy_feudal: "Герцогство"
+ duke_feudal_independent: "Король"
+ duke_feudal_independent_female: "Королева"
+ duchy_feudal_independent: "Малое королевство"

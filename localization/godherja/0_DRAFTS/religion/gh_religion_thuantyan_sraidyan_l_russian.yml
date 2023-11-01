@@ -1,0 +1,74 @@
+﻿l_russian:
+  
+ #thuantyan_sraidyan Loc 
+ thuantyan_sraidyan_religion: "Туатян Срайдян" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_religion_adj: "Туатян Срайдянян" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_religion_adjerent: "Срайдян" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_religion_adherent_plural: "Срайдяны" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_religion_desc: "Возникшая в долинах Сяйдан, на северо-восточной границе Катун-Кай, Туантьян Срайдьян – или Вечная Коммуна – учит, что вселенная была построена усилиями полдюжины Вечных Управляющих, каждый из которых когда-то был смертным мужчиной и женщиной, вознесшимися из Аэры, чтобы оставить свой след на небесах. Подражая Управителю при жизни, достаточно добродетельный и внимательный прихожанин может достичь бессмертия, буквально став этим Управителем после смерти.\n\nПо мере того как миссионеры веры следовали по торговым путям на юго-запад, в Катун-Кай, вера укоренилась в этом великая империя, процветающая, несмотря на периоды преследований со стороны правительства." #Машинный перевод 28.10.23
+ thuantyan_sraidyan_high_god_name: "Великий управляющий" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_high_god_name_possessive: "Великие стюарды" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_religion_high_god_name_possessive: ""
+ thuantyan_sraidyan_high_god_name_alternate: ""
+ thuantyan_sraidyan_high_god_name_alternate_possessive: ""
+ thuantyan_sraidyan_devil_name: ""
+ thuantyan_sraidyan_devil_name_possessive: ""
+ thuantyan_sraidyan_death_deity_name: ""
+ thuantyan_sraidyan_death_deity_name_possessive: ""
+  
+ thuantyan_sraidyan_housholdgodpossesive: ""
+ thuantyan_sraidyan_housholdgodshe: ""
+  
+ thuantyan_sraidyan_house_of_worship: ""
+ thuantyan_sraidyan_house_of_worship_plural: ""
+ thuantyan_sraidyan_religious_symbol: ""
+ thuantyan_sraidyan_religious_text: ""
+  
+ thuantyan_sraidyan_religious_head_title: ""
+ thuantyan_sraidyan_religious_head_title_name: ""
+ thuantyan_sraidyan_devotee_male: ""
+ thuantyan_sraidyan_devotee_male_plural: ""
+ thuantyan_sraidyan_devotee_female: ""
+ thuantyan_sraidyan_devotee_female_plural: ""
+ thuantyan_sraidyan_devotee_neuter: ""
+ thuantyan_sraidyan_devotee_neuter_plural: ""
+ thuantyan_sraidyan_priest_male: ""
+ thuantyan_sraidyan_priest_male_plural: ""
+ thuantyan_sraidyan_priest_female: ""
+ thuantyan_sraidyan_priest_female_plural: ""
+ thuantyan_sraidyan_priest_alternate_plural: ""
+ thuantyan_sraidyan_bishop: ""
+ thuantyan_sraidyan_bishop_plural: ""
+ thuantyan_sraidyan_positive_afterlife: ""
+ thuantyan_sraidyan_negative_afterlife: ""
+  
+ thuantyan_sraidyan_creator_god_name: "$thuantyan_sraidyan_high_god_name$" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_creator_god_name_possessive: "$thuantyan_sraidyan_high_god_name_possessive$" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_health_god_name: ""
+ thuantyan_sraidyan_health_god_name_possessive: ""
+ thuantyan_sraidyan_fertility_god_name: "$thuantyan_sraidyan_high_god_name$" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_fertility_god_name_possessive: "$thuantyan_sraidyan_high_god_name_possessive$" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_wealth_god_name: "$thuantyan_sraidyan_high_god_name$" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_wealth_god_name_possessive: "$thuantyan_sraidyan_high_god_name_possessive$" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_household_god_name: "$thuantyan_sraidyan_health_god_name$" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_household_god_name_possessive: "$thuantyan_sraidyan_health_god_name_possessive$" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_fate_god_name: "$thuantyan_sraidyan_high_god_name$" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_fate_god_name_possessive: "$thuantyan_sraidyan_high_god_name_possessive$" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_knowledge_god_name: "$thuantyan_sraidyan_high_god_name$" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_knowledge_god_name_possessive: "$thuantyan_sraidyan_high_god_name_possessive$" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_war_god_name: "$thuantyan_sraidyan_high_god_name$" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_war_god_name_possessive: "$thuantyan_sraidyan_high_god_name_possessive$" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_trickster_god_name: "Фортуна" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_trickster_god_name_possessive: "Фортуны" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_night_god_name: "$thuantyan_sraidyan_high_god_name$" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_night_god_name_possessive: "$thuantyan_sraidyan_high_god_name_possessive$" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_water_god_name: "$thuantyan_sraidyan_health_god_name$" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_water_god_name_possessive: "$thuantyan_sraidyan_health_god_name_possessive$" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_religion_household_god_name: ""
+ thuantyan_sraidyan_witchgodname: "Йохан" #Машинный перевод 28.10.23
+  
+ thuantyan_sraidyan: "Туантян Срайдян" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_desc: "Возникшая в долинах Сяйдан, на северо-восточной границе Катун-Кай, Туантьян Срайдьян – или Вечная Коммуна – учит, что вселенная была построена усилиями полдюжины Вечных Управляющих, каждый из которых когда-то был смертным мужчиной и женщиной, вознесшимися из Аэры, чтобы оставить свой след на небесах. Подражая Управителю при жизни, достаточно добродетельный и внимательный прихожанин может достичь бессмертия, буквально став этим Управителем после смерти.\n\nПо мере того как миссионеры веры следовали по торговым путям на юго-запад, в Катун-Кай, вера укоренилась в этом великая империя, процветающая, несмотря на периоды преследований со стороны правительства." #Машинный перевод 28.10.23
+ thuantyan_sraidyan_adj: "Туантян Срайдян" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_adherent: "Стюард" #Машинный перевод 28.10.23
+ thuantyan_sraidyan_adherent_plural: "Стюарды" #Машинный перевод 28.10.23

@@ -1,9 +1,0 @@
-﻿l_russian:
- trait_august: "магический"
- trait_bubonic_plague: "[bloodblight|E]"
- trait_bubonic_plague_desc: "Этот персонаж окружен пульсирующими малиновыми венами и обильным кровотечением из глаз; им недолго осталось в этом мире."
- trait_bubonic_plague_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] окружен пульсирующими малиновыми венами и обильным кровотечением из глаз; [ROOT.GetCharacter.GetSheHe] не долго для этого мира."
-  
- trait_hashishiyah: "Хортосон"
- trait_hashishiyah_desc: "Этот персонаж зависит от потребления хорта, чтобы справиться со стрессом повседневной жизни."
- trait_hashishiyah_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] зависит от потребления хорта, чтобы справиться со стрессом повседневной жизни."

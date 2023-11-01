@@ -1,0 +1,100 @@
+﻿l_russian:
+ AI_PERSONALITY_ADJECTIVE_NOUN: "$ADJECTIVE$ $NOUN$"
+ AI_PERSONALITY_NEUTRAL: "Уравновешенная"
+ AI_PERSONALITY_NEUTRAL_EXPLANATION: "У этого персонажа сбалансированная личность, и его поведение не будет выделяться."
+ AI_PERSONALITY_TOOLTIP: "#T Личность\n#!Личность персонажа влияет на принимаемые им решения. Главным образом ее определяют [traits|El].\n\nУ персонажей под управлением игроков нет личностей, поскольку их поведением управляют игроки."
+ AI_PERSONALITY_IS_PLAYER_TOOLTIP: "#T Личность\n#!Этим персонажем управляет другой игрок."
+ AI_ECONOMIC_ARCHETYPE_TT: "\n$EFFECT_LIST_BULLET$[economical_archetype|E]: [Character.Custom( 'AIEconomicPersonality' )]"
+ AI_VASSAL_STANCE_TT: "\n$EFFECT_LIST_BULLET$[vassal_stance|E]: [Character.GetVassalStance.GetTextIcon][Character.GetVassalStance.GetName]"
+ AI_PERSONALITY_CONCEPT_TT: "#weak Личность определяет, как [Character.GetShortUINameNoTooltip] будет поступать в отношении вашего и других персонажей. На поведение, в первую очередь, влияют [Concept( 'personality_traits', 'личностные свойства' )|E]#!"
+ AI_PERSONALITY_TT: "#T Личные данные:#!\n$EFFECT_LIST_BULLET$[character_personality|E]: [personality_i] [Character.GetAIPersonality][AddLocalizationIf( Character.IsRuler, 'AI_ECONOMIC_ARCHETYPE_TT' )][AddLocalizationIf( And( Not( Character.IsIndependentRuler ), Character.IsRuler ), 'AI_VASSAL_STANCE_TT' )]\n\n$AI_PERSONALITY_CONCEPT_TT$."
+  
+ honor_noun: "[Select_CString( CHARACTER.IsFemale, 'дворянка', 'дворянин' )]"
+ honor_adj: "[Select_CString( CHARACTER.IsFemale, 'Благородная', 'Благородный' )]"
+ honor_neg_noun: "[Select_CString( CHARACTER.IsFemale, 'негодяйка', 'негодяй' )]"
+ honor_neg_adj: "[Select_CString( CHARACTER.IsFemale, 'Бесчестная', 'Бесчестный' )]"
+ honor_strong_noun: "[Select_CString( CHARACTER.IsFemale, 'мечта', 'образец' )]"
+ honor_strong_adj: "[Select_CString( CHARACTER.IsFemale, 'Добродетельная', 'Добродетельный' )]"
+ honor_strong_neg_noun: "[Select_CString( CHARACTER.IsFemale, 'мерзавка', 'мерзавец' )]"
+ honor_strong_neg_adj: "[Select_CString( CHARACTER.IsFemale, 'Вероломная', 'Вероломный' )]"
+ honor_explanation: "Этот персонаж #Bold в некоторой степени благороден#!, и ему можно доверять больше, чем большинству, в том, что он соблюдает [secrets|E], следует [laws|E], выполняет свою работу как [regent|E] и выполняет обязательства, такие как [alliances|E]. Они вряд ли начнут [blackmail|E], начнут [hostile_schemes|E] или станут [agents|E]." #Машинный перевод 28.10.23
+ honor_neg_explanation: "Этот персонаж #Bold несколько бесчестен#! и с большей вероятностью начнет [hostile_schemes|E], злоупотребит своим положением [regent|E], отправит [blackmail|E], использует $task_find_secrets$ [councillor_task|E] и предаст свои [friends|E] и [spouses|E]. Они с меньшей вероятностью выполнят свои обязательства и могут опускаться ниже для достижения своих целей." #Машинный перевод 28.10.23
+ honor_strong_explanation: "Этот персонаж #Bold очень почетен#!, и ему можно смело доверять, чтобы он соблюдал [secrets|E], следовал [laws|E], выполнял свою работу как [regent|E] и выполнял обязательства, такие как [alliances|E]. Они вряд ли начнут [blackmail|E], начнут [hostile_schemes|E] или станут [agents|E]." #Машинный перевод 28.10.23
+ honor_strong_neg_explanation: "Этот персонаж #Bold очень бесчестен#! и значительно чаще начинает [hostile_schemes|E], злоупотребляет своим положением [regent|E], отправляет [blackmail|E], использует $task_find_secrets$ [councillor_task|E] и предает свои [friends|E] и [spouses|E]. Они с гораздо меньшей вероятностью выполнят свои обязательства и могут опуститься невероятно низко для достижения своих целей." #Машинный перевод 28.10.23
+ greed_noun: "[Select_CString( CHARACTER.IsFemale, 'воровка', 'вор' )]"
+ greed_adj: "[Select_CString( CHARACTER.IsFemale, 'Алчная', 'Алчный' )]"
+ greed_neg_noun: "[Select_CString( CHARACTER.IsFemale, 'последовательница', 'последователь' )]"
+ greed_neg_adj: "[Select_CString( CHARACTER.IsFemale, 'Непримечательная', 'Непримечательный' )]"
+ greed_strong_noun: "[Select_CString( CHARACTER.IsFemale, 'жадюга', 'жадюга' )]"
+ greed_strong_adj: "[Select_CString( CHARACTER.IsFemale, 'Ненасытная', 'Ненасытный' )]"
+ greed_strong_neg_noun: "[Select_CString( CHARACTER.IsFemale, 'лизоблюдка', 'лизоблюд' )]"
+ greed_strong_neg_adj: "[Select_CString( CHARACTER.IsFemale, 'Непримечательная', 'Непримечательный' )]"
+ greed_explanation: "Этот персонаж #Bold несколько жадный#! и с большей вероятностью выберет краткосрочную выгоду, пойдет на [raids|E], присвоит [gold|E], пока [regent|E], использует $task_collect_taxes$ [councillor_task|E] и предает свои [friends|E] и [family|E] ради Золота и [titles|E]. Они с меньшей вероятностью заплатят выкуп за #!0, отправят #!1, примут #!2 и #!3 и примут #!4." #Машинный перевод 28.10.23
+ greed_neg_explanation: "Этот персонаж #Bold несколько щедр #! и склонен тратить больше, чем может себе позволить, отправлять [gifts|E], требовать выкуп [prisoners|E], принимать [revocations|E] и [retractions|E] и размещать [activities|E]. Они с меньшей вероятностью поддадутся взяткам или подаркам [gold|E]." #Машинный перевод 28.10.23
+ greed_strong_explanation: "Этот персонаж #Bold очень жадный#! и с гораздо большей вероятностью выберет краткосрочную выгоду, пойдет на [raids|E], присвоит [gold|E], пока [regent|E], использует $task_collect_taxes$ [councillor_task|E] и предаст свои [friends|E] и [family|E] ради золота. и [titles|E]. У них гораздо меньше шансов заплатить выкуп за #!0, отправить #!1, принять #!2 и #!3 и принять #!4." #Машинный перевод 28.10.23
+ greed_strong_neg_explanation: "Этот персонаж #Bold очень щедр #! и очень часто тратит больше, чем может себе позволить, отправляет [gifts|E], требует выкуп [prisoners|E], принимает [revocations|E] и [retractions|E] и принимает [activities|E]. На них гораздо меньше шансов поддаться взяткам или подаркам [gold|E]." #Машинный перевод 28.10.23
+ rationality_noun: "[Select_CString( CHARACTER.IsFemale, 'мыслительница', 'мыслитель' )]"
+ rationality_adj: "[Select_CString( CHARACTER.IsFemale, 'Мудрая', 'Мудрый' )]"
+ rationality_neg_noun: "[Select_CString( CHARACTER.IsFemale, 'дура', 'дурак' )]"
+ rationality_neg_adj: "[Select_CString( CHARACTER.IsFemale, 'Неразумная', 'Неразумный' )]"
+ rationality_strong_noun: "[Select_CString( CHARACTER.IsFemale, 'устроительница', 'устроитель' )]"
+ rationality_strong_adj: "[Select_CString( CHARACTER.IsFemale, 'Рассудительная', 'Рассудительный' )]"
+ rationality_strong_neg_noun: "[Select_CString( CHARACTER.IsFemale, 'маньячка', 'маньяк' )]"
+ rationality_strong_neg_adj: "[Select_CString( CHARACTER.IsFemale, 'Безумная', 'Безумный' )]"
+ rationality_explanation: "Этот персонаж #Bold в некоторой степени рационален#! и с большей вероятностью будет избегать [tyranny|E], использовать [councillor_tasks|E] для защиты и избегать [offensive_war_opinion|E]. Они, как правило, с большей вероятностью сделают то, что объективно лучше всего подходит для ситуации, в которой они находятся, например, убьют [tyrannical|E] [liege|E] или урежут расходы, находясь в [debt|E]." #Машинный перевод 28.10.23
+ rationality_neg_explanation: "Этот персонаж #Bold довольно иррационален#! и будет чаще совершать [Concept( 'tyrannical', 'тиранические' )|E] действия, развязывать несвоевременные [wars|El] и накапливать [Concept( 'offensive_war_opinion', 'мнение от наступательных войн' )|E]. Такие персонажи непредсказуемы и часто встревают в неприятности."
+ rationality_strong_explanation: "Этот персонаж #Bold очень рационален#! и значительно чаще избегает [tyranny|E], использует [councillor_tasks|E] для защиты и избегает [offensive_war_opinion|E]. Обычно они с гораздо большей вероятностью сделают то, что объективно лучше всего подходит для ситуации, в которой они находятся, например, убьют [tyrannical|E] [liege|E] или урежут расходы, находясь в [debt|E]." #Машинный перевод 28.10.23
+ rationality_strong_neg_explanation: "Этот персонаж #Bold крайне иррационален#! и будет намного чаще совершать [Concept( 'tyrannical', 'тиранические' )|E] действия, развязывать несвоевременные [wars|El] и накапливать [Concept( 'offensive_war_opinion', 'мнение от наступательных войн' )|E]. Такие персонажи непредсказуемы и регулярно встревают в неприятности."
+ boldness_noun: "[Select_CString( CHARACTER.IsFemale, 'любительница игр', 'любитель игр' )]"
+ boldness_adj: "[Select_CString( CHARACTER.IsFemale, 'Храбрая', 'Храбрый' )]"
+ boldness_neg_noun: "[Select_CString( CHARACTER.IsFemale, 'трусиха', 'трус' )]"
+ boldness_neg_adj: "[Select_CString( CHARACTER.IsFemale, 'Трусливая', 'Трусливый' )]"
+ boldness_strong_noun: "[Select_CString( CHARACTER.IsFemale, 'авантюристка', 'авантюрист' )]"
+ boldness_strong_adj: "[Select_CString( CHARACTER.IsFemale, 'Бесстрашная', 'Бесстрашный' )]"
+ boldness_strong_neg_noun: "[Select_CString( CHARACTER.IsFemale, 'слабачка', 'слабак' )]"
+ boldness_strong_neg_adj: "[Select_CString( CHARACTER.IsFemale, 'Бесхребетная', 'Бесхребетный' )]"
+ boldness_explanation: "Этот персонаж #Bold довольно отважен#! и с большей вероятностью начнет [Concept( 'war', 'войну' )|E] с равным по силе [Concept( 'ruler', 'правителем' )|E], охотнее соглашается и предлагает [single_combat_duel_plural|El], а также охотнее рискует (например, получая [Concept( 'medical_treatments', 'лечение' )|E]). [dread|E] менее эффективен против таких персонажей."
+ boldness_neg_explanation: "Этот персонаж #Bold несколько труслив #! и с большей вероятностью объявит [war|E] на более слабом [rulers|E], уступит [factions|E] без боя, избегает [agent|E], избегает [imprisoning|E], сильного [vassals|E] или рискует [health|E] или [realm|E] в целом. #!0 оказывает на них большее влияние." #Машинный перевод 28.10.23
+ boldness_strong_explanation: "Этот персонаж #Bold крайне отважен#! и с куда большей вероятностью начнет [Concept( 'war', 'войну' )|E] с равным по силе [Concept( 'ruler', 'правителем' )|E], охотнее соглашается и предлагает [single_combat_duel_plural|El], а также охотнее рискует (например, получая [Concept( 'medical_treatments', 'лечение' )|E]). [dread|E] практически не влияет на таких персонажей."
+ boldness_strong_neg_explanation: "Этот персонаж #Bold очень труслив #! и с гораздо большей вероятностью объявит [war|E] на значительно более слабом [rulers|E], уступит [factions|E] без боя, избегает быть [agent|E], избегает [imprisoning|E] сильного [vassals|E] или рискует § _8 или вообще [realm|E]. #!0 оказывает на них значительно большее влияние." #Машинный перевод 28.10.23
+ zeal_noun: "[Select_CString( CHARACTER.IsFemale, 'верующая', 'верующий' )]"
+ zeal_adj: "[Select_CString( CHARACTER.IsFemale, 'Благочестивая', 'Благочестивый' )]"
+ zeal_neg_noun: "[Select_CString( CHARACTER.IsFemale, 'неверующая', 'неверующий' )]"
+ zeal_neg_adj: "[Select_CString( CHARACTER.IsFemale, 'Циничная', 'Циничный' )]"
+ zeal_strong_noun: "[Select_CString( CHARACTER.IsFemale, 'ревнительница', 'ревнитель' )]"
+ zeal_strong_adj: "[Select_CString( CHARACTER.IsFemale, 'Фанатичная', 'Фанатичный' )]"
+ zeal_strong_neg_noun: "[Select_CString( CHARACTER.IsFemale, 'безбожница', 'безбожник' )]"
+ zeal_strong_neg_adj: "[Select_CString( CHARACTER.IsFemale, 'Безбожная', 'Безбожный' )]"
+ zeal_explanation: "Этот персонаж #Bold несколько рьяный#! и чаще будет защищаться от [holy_wars|E], давать обещания или делать пожертвования в пользу [great_holy_wars|E], конвертировать [counties|E] или [vassals|E], продолжать [pilgrimage|E] [activities|E] и предпринимать общие действия, способствующие развитию их [faith|E] (например как при использовании $seek_indulgences_interaction$ #!0). Они с меньшей вероятностью примут обращение в другую веру." #Машинный перевод 28.10.23
+ zeal_neg_explanation: "Этот персонаж #Bold довольно циничен#! и с большей вероятностью будет игнорировать [Concept( 'faith', 'конфессию' )|E] в вопросах политики, может принять требования религиозных [Concept( 'factions', 'фракций' )|E] и использовать веру в качестве инструмента для достижения своих целей. Такие персонажи не слишком заботятся о [Concept( 'piety', 'благочестии' )|E] и реже поддерживают религиозных деятелей."
+ zeal_strong_explanation: "Этот персонаж #Bold очень ревностный#! и значительно чаще будет защищаться против [holy_wars|E], давать обещания или делать пожертвования в пользу [great_holy_wars|E], конвертировать [counties|E] или [vassals|E], переходить к [pilgrimage|E] [activities|E] и предпринимать общие действия, способствующие развитию их [faith|E] ( например, использование $seek_indulgences_interaction$ #!0). Крайне маловероятно, что они согласятся принять другую веру." #Машинный перевод 28.10.23
+ zeal_strong_neg_explanation: "Этот персонаж #Bold крайне циничен#! и с куда большей вероятностью будет игнорировать [Concept( 'faith', 'конфессию' )|E] в вопросах политики, может легко принять требования религиозных [Concept( 'factions', 'фракций' )|E] и использовать веру в качестве инструмента для достижения своих целей. Такие персонажи не заботятся о [Concept( 'piety', 'благочестии' )|E] и почти никогда не поддерживают религиозных деятелей."
+ vengefulness_noun: "[Select_CString( CHARACTER.IsFemale, 'смутьянка', 'смутьян' )]"
+ vengefulness_adj: "[Select_CString( CHARACTER.IsFemale, 'Злопамятная', 'Злопамятный' )]"
+ vengefulness_neg_noun: "[Select_CString( CHARACTER.IsFemale, 'примирительница', 'примиритель' )]"
+ vengefulness_neg_adj: "[Select_CString( CHARACTER.IsFemale, 'Незлобливая', 'Незлобливый' )]"
+ vengefulness_strong_noun: "[Select_CString( CHARACTER.IsFemale, 'мстительница', 'мститель' )]"
+ vengefulness_strong_adj: "[Select_CString( CHARACTER.IsFemale, 'Мстительная', 'Мстительный' )]"
+ vengefulness_strong_neg_noun: "[Select_CString( CHARACTER.IsFemale, 'оправдательница', 'оправдатель' )]"
+ vengefulness_strong_neg_adj: "[Select_CString( CHARACTER.IsFemale, 'Великодушная', 'Великодушный' )]"
+ vengefulness_explanation: "Этот персонаж #Bold довольно мстителен#! и с большей вероятностью предпримет действия против [Concept( 'rivals', 'соперников' )|E], неверных [Concept( 'spouses', 'супругов' )|E], станет [Concept( 'agents', 'соучастником' )|E] в происках против своих обидчиков, попросит об [Concept( 'excommunication', 'отлучении' )|E], накажет [Concept( 'criminals', 'преступников' )|E] и с меньшей вероятностью простит обиды или преступления. Обычно у таких персонажей больше соперников."
+ vengefulness_neg_explanation: "Этот персонаж #Bold довольно незлобив#! и с большей вероятностью закроет глаза на причиненные обиды, не станет наказывать [Concept( 'prisoners', 'узников' )|E] и может простить [Concept( 'criminals', 'преступников' )|E]. Такие персонажи реже начинают [hostile_schemes|El] против [Concept( 'rivals', 'соперников' )|E]."
+ vengefulness_strong_explanation: "Этот персонаж #Bold крайне мстителен#! и почти наверняка предпримет действия против [Concept( 'rivals', 'соперников' )|E], неверных [Concept( 'spouses', 'супругов' )|E], станет [Concept( 'agents', 'соучастником' )|E] в происках против своих обидчиков, попросит об [Concept( 'excommunication', 'отлучении' )|E], накажет [Concept( 'criminals', 'преступников' )|E] и с куда меньшей вероятностью простит обиды или преступления. Обычно у таких персонажей много соперников."
+ vengefulness_strong_neg_explanation: "Этот персонаж #Bold крайне незлобив#! и чаще всего закроет глаза на причиненные обиды, не станет наказывать [Concept( 'prisoners', 'узников' )|E] и может простить [Concept( 'criminals', 'преступников' )|E]. Такие персонажи очень редко начинают [hostile_schemes|El] против [Concept( 'rivals', 'соперников' )|E]."
+ compassion_noun: "[Select_CString( CHARACTER.IsFemale, 'альтруистка', 'альтруист' )]"
+ compassion_adj: "[Select_CString( CHARACTER.IsFemale, 'Сострадательная', 'Сострадательный' )]"
+ compassion_neg_noun: "[Select_CString( CHARACTER.IsFemale, 'мерзавка', 'мерзавец' )]"
+ compassion_neg_adj: "[Select_CString( CHARACTER.IsFemale, 'Бесчувственная', 'Бесчувственный' )]"
+ compassion_strong_noun: "[Select_CString( CHARACTER.IsFemale, 'эмпатка', 'эмпат' )]"
+ compassion_strong_adj: "[Select_CString( CHARACTER.IsFemale, 'Милостивая', 'Милостивый' )]"
+ compassion_strong_neg_noun: "[Select_CString( CHARACTER.IsFemale, 'злодейка', 'злодей' )]"
+ compassion_strong_neg_adj: "[Select_CString( CHARACTER.IsFemale, 'Злая', 'Злой' )]"
+ compassion_explanation: "Этот персонаж #Bold в некоторой степени сострадателен #! и, скорее всего, не причинит вреда другим, освободит [prisoners|E] (особенно детей), продвигает [cultural_acceptance|E], позволит людям [marry|E] из любви и сделает [friends|E]. Они менее вероятны для [GetScheme('murder').GetTypeName], [execute|E] или [torture|E] других символов." #Машинный перевод 28.10.23
+ compassion_neg_explanation: "Этот персонаж #Bold довольно жесток#! и с большей вероятностью причинит вред другим, начнет [hostile_schemes|El], например, [GetScheme('murder').GetTypeName|l], накажет [Concept( 'prisoners', 'узников' )|E] [Concept( 'execution', 'казнью' )|E] или [Concept( 'torture', 'пытками' )|E] и охотнее присоединится к проискам в качестве [Concept( 'agents', 'соучастника' )|E]. Таких персонажей редко волнуют чужие страдания."
+ compassion_strong_explanation: "Этот персонаж #Bold очень сострадателен#! и значительно чаще не причиняет вреда другим, освобождает [prisoners|E] (особенно детей), продвигает [cultural_acceptance|E], позволяет людям [marry|E] из любви и делает [friends|E]. Они почти никогда не содержат других символов [GetScheme('murder').GetTypeName], [execute|E] или [torture|E]." #Машинный перевод 28.10.23
+ compassion_strong_neg_explanation: "Этот персонаж #Bold крайне жесток#! и с куда большей вероятностью причинит вред другим, начнет [hostile_schemes|El], например, [GetScheme('murder').GetTypeName|l], накажет [Concept( 'prisoners', 'узников' )|E] [Concept( 'execution', 'казнью' )|E] или [Concept( 'torture', 'пытками' )|E] и намного охотнее присоединится к проискам в качестве [Concept( 'agents', 'соучастника' )|E]. Таким персонажам нет дела до чужих страданий."
+  
+ ai_warlike_personality: "[warlike_i] [ai_warlike_personality|L]"
+ ai_cautious_personality: "[cautious_i][ai_cautious_personality|L]"
+ ai_economical_boom_personality: "[builder_i][ai_economical_boom_personality|L]"
+ ai_economical_unpredictable_personality: "[unpredictable_i][ai_economical_unpredictable_personality|L]"

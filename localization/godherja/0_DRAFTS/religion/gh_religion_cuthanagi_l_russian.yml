@@ -1,0 +1,70 @@
+﻿l_russian:
+  
+ cuthanagi: "Кутанаги" #Машинный перевод 28.10.23
+ cuthanagi_adj: "Кутанагии" #Машинный перевод 28.10.23
+ cuthanagi_adherent: "Кутанаги" #Машинный перевод 28.10.23
+ cuthanagi_adherent_plural: "Кутанагии" #Машинный перевод 28.10.23
+ cuthanagi_desc: "Кутанаги верят, что Касирьят - это смертное зеркало реки, присутствующей в царстве божественного, с непознаваемыми богами, без форм и имен. Вместо этого состояние реки рассматривается как способ божественного пророчества; заявляя о радостном настроении богов, когда Касирьят разливается, оставляя после себя великое плодородие, и о наступлении апокалипсиса, когда наступает засуха. В первую очередь это выражается в больших празднованиях во время паводков, когда по реке плывут тысячи бумажных свечей." #Машинный перевод 28.10.23
+ cuthanagi_religion: "Касир Поклонение" #Машинный перевод 28.10.23
+ cuthanagi_religion_adj: "Касир Поклонение" #Машинный перевод 28.10.23
+ cuthanagi_religion_adjerent: ""
+ cuthanagi_religion_adherent_plural: ""
+ cuthanagi_religion_desc: "Поклонение Касиру сосредоточено на вере в божественную природу великой реки Касирьят, которая образует традиционную границу между Айроноем и Каширией." #Машинный перевод 28.10.23
+ cuthanagi_high_god_name: "Касирьят" #Машинный перевод 28.10.23
+ cuthanagi_high_god_name_possessive: "Касирьята" #Машинный перевод 28.10.23
+ cuthanagi_high_god_name_alternate: "Небесная река" #Машинный перевод 28.10.23
+ cuthanagi_high_god_name_alternate_possessive: "Небесная река" #Машинный перевод 28.10.23
+ cuthanagi_devil_name: "$cuthanagi_high_god_name$" #Машинный перевод 28.10.23
+ cuthanagi_devil_name_possessive: "$cuthanagi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ cuthanagi_death_deity_name: "$cuthanagi_high_god_name$" #Машинный перевод 28.10.23
+ cuthanagi_death_deity_name_possessive: "$cuthanagi_high_god_name_possessive$" #Машинный перевод 28.10.23
+  
+  
+  
+ cuthanagi_house_of_worship: "зиккурат" #Машинный перевод 28.10.23
+ cuthanagi_house_of_worship_plural: "зиккураты" #Машинный перевод 28.10.23
+ cuthanagi_religious_symbol: "Небесная река" #Машинный перевод 28.10.23
+ cuthanagi_religious_text: "Саги" #Машинный перевод 28.10.23
+  
+ cuthanagi_religious_head_title: "Главный прорицатель" #Машинный перевод 28.10.23
+ cuthanagi_religious_head_title_name: "Главный прорицатель" #Машинный перевод 28.10.23
+ cuthanagi_devotee_male: "поклонник" #Машинный перевод 28.10.23
+ cuthanagi_devotee_male_plural: "поклонники" #Машинный перевод 28.10.23
+ cuthanagi_devotee_female: "поклонник" #Машинный перевод 28.10.23
+ cuthanagi_devotee_female_plural: "поклонники" #Машинный перевод 28.10.23
+ cuthanagi_devotee_neuter: "поклонник" #Машинный перевод 28.10.23
+ cuthanagi_devotee_neuter_plural: "поклонники" #Машинный перевод 28.10.23
+ cuthanagi_priest_male: "священник" #Машинный перевод 28.10.23
+ cuthanagi_priest_male_plural: "священники" #Машинный перевод 28.10.23
+ cuthanagi_priest_female: "жрица" #Машинный перевод 28.10.23
+ cuthanagi_priest_female_plural: "жрицы" #Машинный перевод 28.10.23
+ cuthanagi_priest_alternate_plural: "священники" #Машинный перевод 28.10.23
+ cuthanagi_bishop: "прорицатель" #Машинный перевод 28.10.23
+ cuthanagi_bishop_plural: "прорицатели" #Машинный перевод 28.10.23
+ cuthanagi_positive_afterlife: "Место за пределами" #Машинный перевод 28.10.23
+ cuthanagi_negative_afterlife: "Вечная засуха" #Машинный перевод 28.10.23
+  
+ cuthanagi_creator_god_name: "$cuthanagi_high_god_name$" #Машинный перевод 28.10.23
+ cuthanagi_creator_god_name_possessive: "$cuthanagi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ cuthanagi_health_god_name: "$cuthanagi_high_god_name$" #Машинный перевод 28.10.23
+ cuthanagi_health_god_name_possessive: "$cuthanagi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ cuthanagi_fertility_god_name: "$cuthanagi_high_god_name$" #Машинный перевод 28.10.23
+ cuthanagi_fertility_god_name_possessive: "$cuthanagi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ cuthanagi_wealth_god_name: "$cuthanagi_high_god_name$" #Машинный перевод 28.10.23
+ cuthanagi_wealth_god_name_possessive: "$cuthanagi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ cuthanagi_household_god_name: "$cuthanagi_health_god_name$" #Машинный перевод 28.10.23
+ cuthanagi_household_god_name_possessive: "$cuthanagi_health_god_name_possessive$" #Машинный перевод 28.10.23
+ cuthanagi_fate_god_name: "$cuthanagi_high_god_name$" #Машинный перевод 28.10.23
+ cuthanagi_fate_god_name_possessive: "$cuthanagi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ cuthanagi_knowledge_god_name: "$cuthanagi_high_god_name$" #Машинный перевод 28.10.23
+ cuthanagi_knowledge_god_name_possessive: "$cuthanagi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ cuthanagi_war_god_name: "$cuthanagi_high_god_name$" #Машинный перевод 28.10.23
+ cuthanagi_war_god_name_possessive: "$cuthanagi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ cuthanagi_trickster_god_name: "$cuthanagi_high_god_name$" #Машинный перевод 28.10.23
+ cuthanagi_trickster_god_name_possessive: "$cuthanagi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ cuthanagi_night_god_name: "$cuthanagi_high_god_name$" #Машинный перевод 28.10.23
+ cuthanagi_night_god_name_possessive: "$cuthanagi_high_god_name_possessive$" #Машинный перевод 28.10.23
+ cuthanagi_water_god_name: "$cuthanagi_health_god_name$" #Машинный перевод 28.10.23
+ cuthanagi_water_god_name_possessive: "$cuthanagi_health_god_name_possessive$" #Машинный перевод 28.10.23
+ cuthanagi_witch_god_name: "Йохан" #Машинный перевод 28.10.23
+ cuthanagi_witch_god_name_possessive: "Йохана" #Машинный перевод 28.10.23

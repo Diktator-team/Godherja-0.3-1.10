@@ -1,0 +1,76 @@
+﻿l_russian:
+  
+  #bozarian Loc 
+ izaerto_bosar_religion: "Изаэрто Бошар" #Машинный перевод 28.10.23
+ izaerto_bosar_religion_adj: "Изаэрто Бошарен" #Машинный перевод 28.10.23
+ izaerto_bosar_religion_adherent: "Изаэрто Бошарян" #Машинный перевод 28.10.23
+ izaerto_bosar_religion_adherent_plural: "Изаэрто Бошарянс" #Машинный перевод 28.10.23
+ izaerto_bosar_religion_desc: "Изаэрто Бошарянс верит, что мир обречен с тех пор, как человечество убило его создателя, существо, известное как Великая Пустота. Однако считается, что божество, известное как «Пернатое», придает миру цвет и дарует смертным отсрочку в вечном раю, чтобы они могли пережить [aeras|E]. Адепты обычно не верят во вмешательство богов в смертную сферу, но не сомневаются, что Пернатый наблюдает за ними." #Машинный перевод 28.10.23
+ izaerto_bosar_high_god_name: "Пернатый" #Машинный перевод 28.10.23
+ izaerto_bosar_high_god_name_possessive: "Пернатый" #Машинный перевод 28.10.23
+ izaerto_bosar_high_god_name_alternate: "Читдада" #Машинный перевод 28.10.23
+ izaerto_bosar_high_god_name_alternate_possessive: "Читдада" #Машинный перевод 28.10.23
+ izaerto_bosar_devil_name: "Великая Пустота" #Машинный перевод 28.10.23
+ izaerto_bosar_devil_name_possessive: "Великая Пустота" #Машинный перевод 28.10.23
+ izaerto_bosar_death_deity_name: "Пернатый" #Машинный перевод 28.10.23
+ izaerto_bosar_death_deity_name_possessive: "Пернатый" #Машинный перевод 28.10.23
+  
+ izaerto_bosar_house_of_worship: "Ливислот" #Машинный перевод 28.10.23
+ izaerto_bosar_house_of_worship_plural: "Ливислотен" #Машинный перевод 28.10.23
+ izaerto_bosar_religious_symbol: "Лицо Пернатого" #Машинный перевод 28.10.23
+ izaerto_bosar_religious_text: "Читдаригнен" #Машинный перевод 28.10.23
+  
+ izaerto_bosar_religious_head_title: "Менахит" #Машинный перевод 28.10.23
+ izaerto_bosar_religious_head_title_name: "Буливисло Менахитнен" #Машинный перевод 28.10.23
+ izaerto_bosar_devotee: "Немдевар" #Машинный перевод 28.10.23
+ izaerto_bosar_devotee_plural: "Немдеварс" #Машинный перевод 28.10.23
+ izaerto_bosar_priest: "Мунестри" #Машинный перевод 28.10.23
+ izaerto_bosar_priest_plural: "Монустыри" #Машинный перевод 28.10.23
+ izaerto_bosar_priest_alternate_plural: "Мунэстрениес" #Машинный перевод 28.10.23
+ izaerto_bosar_bishop: "Тетренан" #Машинный перевод 28.10.23
+ izaerto_bosar_bishop_plural: "Тетренаны" #Машинный перевод 28.10.23
+ izaerto_bosar_positive_afterlife: "Куч Швед" #Машинный перевод 28.10.23
+ izaerto_bosar_negative_afterlife: "Эренпер" #Машинный перевод 28.10.23
+  
+ izaerto_bosar_creator_god_name: "$izaerto_bosar_devil_name$" #Машинный перевод 28.10.23
+ izaerto_bosar_creator_god_name_possessive: "$izaerto_bosar_devil_name_possessive$" #Машинный перевод 28.10.23
+ izaerto_bosar_health_god_name: "Когтистый" #Машинный перевод 28.10.23
+ izaerto_bosar_health_god_name_possessive: "Когтистый" #Машинный перевод 28.10.23
+ izaerto_bosar_fertility_god_name: "Крылатый" #Машинный перевод 28.10.23
+ izaerto_bosar_fertility_god_name_possessive: "Крылатые»" #Машинный перевод 28.10.23
+ izaerto_bosar_wealth_god_name: "Золотой" #Машинный перевод 28.10.23
+ izaerto_bosar_wealth_god_name_possessive: "Золотой" #Машинный перевод 28.10.23
+ izaerto_bosar_household_god_name: "Бдительный" #Машинный перевод 28.10.23
+ izaerto_bosar_household_god_name_possessive: "Бдительный" #Машинный перевод 28.10.23
+ izaerto_bosar_fate_god_name: "$izaerto_bosar_high_god_name$" #Машинный перевод 28.10.23
+ izaerto_bosar_fate_god_name_possessive: "$izaerto_bosar_high_god_name_possessive$" #Машинный перевод 28.10.23
+ izaerto_bosar_knowledge_god_name: "Древний" #Машинный перевод 28.10.23
+ izaerto_bosar_knowledge_god_name_possessive: "Древний" #Машинный перевод 28.10.23
+ izaerto_bosar_war_god_name: "$izaerto_bosar_devil_name$" #Машинный перевод 28.10.23
+ izaerto_bosar_war_god_name_possessive: "$izaerto_bosar_devil_name_possessive$" #Машинный перевод 28.10.23
+ izaerto_bosar_trickster_god_name: "Скрытый мастер" #Машинный перевод 28.10.23
+ izaerto_bosar_trickster_god_name_possessive: "Тайный мастер" #Машинный перевод 28.10.23
+ izaerto_bosar_night_god_name: "$izaerto_bosar_devil_name$" #Машинный перевод 28.10.23
+ izaerto_bosar_night_god_name_possessive: "$izaerto_bosar_devil_name$притяжательный$" #Машинный перевод 28.10.23
+ izaerto_bosar_water_god_name: "Рыбалка" #Машинный перевод 28.10.23
+ izaerto_bosar_water_god_name_possessive: "Рыбалка" #Машинный перевод 28.10.23
+ izaerto_bosar_witch_god_name: "$izaerto_bosar_devil_name$" #Машинный перевод 28.10.23
+ izaerto_bosar_witch_god_name_possessive: "$izaerto_bosar_devil_name_possessive$" #Машинный перевод 28.10.23
+  
+ izaerto_bosar: "Изаэрто Бошар" #Машинный перевод 28.10.23
+ izaerto_bosar_adj: "Изаэрто Бошарен" #Машинный перевод 28.10.23
+ izaerto_bosar_adherent: "Изаэрто Бошарян" #Машинный перевод 28.10.23
+ izaerto_bosar_adherent_plural: "Изаэрто Бошарянс" #Машинный перевод 28.10.23
+ izaerto_bosar_desc: "Изаэрто Бошар, что означает «Тысяча Мастеров», — это вера, основанная на вере в то, что много веков назад тысяча темнокожих королей-богов была ниспослана равнодушным и жутким главным богом по имени «Великая Пустота». Хотя их сложный [Concept('izaerto_bosar_creation_myth','creation myth')|E] часто является источником многих иностранных оскорблений, святые мужчины и женщины не обращают на это внимания. После смерти Великий Пернатый заберет их души в рай, поэтому никакие смертные насмешки не смогут сломить дух верующих." #Машинный перевод 28.10.23
+  
+ khourtaul: "Хуртаул" #Машинный перевод 28.10.23
+ khourtaul_adj: "Хуртаулян" #Машинный перевод 28.10.23
+ khourtaul_adherent: "Хуртаулян" #Машинный перевод 28.10.23
+ khourtaul_adherent_plural: "хуртаульцы" #Машинный перевод 28.10.23
+ khourtaul_desc: "Хуртаульцы верят, что Пернатый не переправит их души напрямую в Рай. Вместо этого они верят, что сначала нужно съесть плоть мертвого, чтобы душа могла попасть в Рай и в объятия Читдады. Традиционно они были небольшой и агрессивной сектой и часто относились к своим более распространенным родственникам как к отступникам, которые решили забыть правду." #Машинный перевод 28.10.23
+  
+ hurimak: "Хуримак" #Машинный перевод 28.10.23
+ hurimak_adj: "Хуримаки" #Машинный перевод 28.10.23
+ hurimak_adherent: "Хуримаки" #Машинный перевод 28.10.23
+ hurimak_adherent_plural: "Хуримакис" #Машинный перевод 28.10.23
+ hurimak_desc: "Группы хуримаки являются результатом многовекового рабства со стороны соседей земель Изаэрто Бошарена. Эти скрытные группы восхваляют Скрытого Мастера, а не ненавидят его, поскольку именно он научил их скрывать свою веру и планы в тени. Неумолимые и ненадежные, Хуримаки за время своего существования приобрели мало друзей." #Машинный перевод 28.10.23

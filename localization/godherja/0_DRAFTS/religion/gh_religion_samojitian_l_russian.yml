@@ -1,0 +1,86 @@
+﻿l_russian:
+  
+ #samojitian Loc 
+ samojitian_religion: "Samojitian" #Машинный перевод 28.10.23
+ samojitian_religion_adj: "Samojitian" #Машинный перевод 28.10.23
+ samojitian_religion_adherent: "Samojitian" #Машинный перевод 28.10.23
+ samojitian_religion_adherent_plural: "Жемоджитяне" #Машинный перевод 28.10.23
+ samojitian_religion_desc: "Самоджитская вера возникла из бесчисленных тысяч северных рабов, которые были схвачены [aversarians|E] и вынуждены работать в залах своего уважаемого [mayikrata|E]. Различные верования, которые они принесли с собой и к которым обратились во время страданий, начали сливаться воедино. Со временем адские условия труда породили новые религии, сформированные их множественным происхождением и общей болью." #Машинный перевод 28.10.23
+ samojitian_high_god_name: "Samoji" #Машинный перевод 28.10.23
+ samojitian_high_god_name_possessive: "Самоджи" #Машинный перевод 28.10.23
+ samojitian_high_god_name_alternate: "Защитник слабых" #Машинный перевод 28.10.23
+ samojitian_high_god_name_alternate_possessive: "Защитник слабых" #Машинный перевод 28.10.23
+ samojitian_devil_name: "Аагия" #Машинный перевод 28.10.23
+ samojitian_devil_name_possessive: "Аагия" #Машинный перевод 28.10.23
+ samojitian_death_deity_name: "смерть" #Машинный перевод 28.10.23
+ samojitian_death_deity_name_possessive: "летальные исходы" #Машинный перевод 28.10.23
+  
+  
+  
+ samojitian_house_of_worship: "анклав" #Машинный перевод 28.10.23
+ samojitian_house_of_worship_plural: "анклав" #Машинный перевод 28.10.23
+ samojitian_religious_symbol: "сломанные наручники" #Машинный перевод 28.10.23
+ samojitian_religious_text: "Шепотное слово" #Машинный перевод 28.10.23
+  
+ samojitian_religious_head_title: "Памария" #Машинный перевод 28.10.23
+ samojitian_religious_head_title_name: "Глубочайший анклав" #Машинный перевод 28.10.23
+ samojitian_devotee_male: "вольноотпущенник" #Машинный перевод 28.10.23
+ samojitian_devotee_male_plural: "вольноотпущенники" #Машинный перевод 28.10.23
+ samojitian_devotee_female: "вольноотпущенница" #Машинный перевод 28.10.23
+ samojitian_devotee_female_plural: "вольноотпущенницы" #Машинный перевод 28.10.23
+ samojitian_devotee_neuter: "освободил одного" #Машинный перевод 28.10.23
+ samojitian_devotee_neuter_plural: "освобожденные" #Машинный перевод 28.10.23
+ samojitian_priest_male: "Конжиас" #Машинный перевод 28.10.23
+ samojitian_priest_male_plural: "Конжиас" #Машинный перевод 28.10.23
+ samojitian_priest_female: "Конжиас" #Машинный перевод 28.10.23
+ samojitian_priest_female_plural: "Конжиас" #Машинный перевод 28.10.23
+ samojitian_priest_alternate_plural: "Конжиас" #Машинный перевод 28.10.23
+ samojitian_bishop: "Ископиас" #Машинный перевод 28.10.23
+ samojitian_bishop_plural: "Ископиас" #Машинный перевод 28.10.23
+ samojitian_positive_afterlife: "Epijon" #Машинный перевод 28.10.23
+ samojitian_negative_afterlife: "Pekijon" #Машинный перевод 28.10.23
+  
+ samojitian_creator_god_name: "$samojitian_religion_high_god_name$" #Машинный перевод 28.10.23
+ samojitian_creator_god_name_possessive: "$samojitian_religion_high_god_name_possessive$" #Машинный перевод 28.10.23
+ samojitian_health_god_name: "Аматоний" #Машинный перевод 28.10.23
+ samojitian_health_god_name_possessive: "Аматония" #Машинный перевод 28.10.23
+ samojitian_fertility_god_name: "$samojitian_religion_high_god_name$" #Машинный перевод 28.10.23
+ samojitian_fertility_god_name_possessive: "$samojitian_religion_high_god_name_possessive$" #Машинный перевод 28.10.23
+ samojitian_wealth_god_name: "$samojitian_religion_high_god_name$" #Машинный перевод 28.10.23
+ samojitian_wealth_god_name_possessive: "$samojitian_religion_high_god_name_possessive$" #Машинный перевод 28.10.23
+ samojitian_household_god_name: "$samojitian_religion_health_god_name$" #Машинный перевод 28.10.23
+ samojitian_household_god_name_possessive: "$samojitian_religion_health_god_name_possessive$" #Машинный перевод 28.10.23
+ samojitian_fate_god_name: "$samojitian_religion_high_god_name$" #Машинный перевод 28.10.23
+ samojitian_fate_god_name_possessive: "$samojitian_religion_high_god_name_possessive$" #Машинный перевод 28.10.23
+ samojitian_knowledge_god_name: "$samojitian_religion_high_god_name$" #Машинный перевод 28.10.23
+ samojitian_knowledge_god_name_possessive: "$samojitian_religion_high_god_name_possessive$" #Машинный перевод 28.10.23
+ samojitian_war_god_name: "$samojitian_religion_high_god_name$" #Машинный перевод 28.10.23
+ samojitian_war_god_name_possessive: "$samojitian_religion_high_god_name_possessive$" #Машинный перевод 28.10.23
+ samojitian_trickster_god_name: "Салон" #Машинный перевод 28.10.23
+ samojitian_trickster_god_name_possessive: "Салон" #Машинный перевод 28.10.23
+ samojitian_night_god_name: "$samojitian_religion_high_god_name$" #Машинный перевод 28.10.23
+ samojitian_night_god_name_possessive: "$samojitian_religion_high_god_name_possessive$" #Машинный перевод 28.10.23
+ samojitian_water_god_name: "$samojitian_religion_health_god_name$" #Машинный перевод 28.10.23
+ samojitian_water_god_name_possessive: "$samojitian_religion_health_god_name_possessive$" #Машинный перевод 28.10.23
+ samojitian_witch_god_name: "$samojitian_religion_devil_name$" #Машинный перевод 28.10.23
+ samojitian_witch_god_name_possessive: "$samojitian_religion_devil_name_possessive$" #Машинный перевод 28.10.23
+  
+ dejorig: "Дейориг" #Машинный перевод 28.10.23
+ dejorig_adj: "Дейориг" #Машинный перевод 28.10.23
+ dejorig_adherent: "Деджориган" #Машинный перевод 28.10.23
+ dejorig_adherent_plural: "Дежориганс" #Машинный перевод 28.10.23
+ dejorig_desc: "Религия северных рабов бывшего [mayikrata|E], верования Деджорига в первую очередь происходят от тех рабов, которых заставляли раскапывать и исследовать темные туннели, проходящие по всему [mayikrata|E], - задача, которая убила бы почти каждого второго мужчину и женщину, отправленных туда. . Его последователи полностью отвергают [magic|E], считая его отвратительным злом и резко шепчут о его влиянии на то, что находится под Цитаделью. Для Дежорига [magic|E] является источником мирового зла и может быть путем к его концу." #Машинный перевод 28.10.23
+ dejorig_religion_old: "Старый Деджориг" #Машинный перевод 28.10.23
+ dejorig_religion_old_adj: "Старый Деджориг" #Машинный перевод 28.10.23
+ dejorig_religion_old_adherent: "Старый Деджориган" #Машинный перевод 28.10.23
+ dejorig_religion_old_adherent_plural: "Старые Деджориганы" #Машинный перевод 28.10.23
+  
+ oirigan: "Ойриган" #Машинный перевод 28.10.23
+ oirigan_adj: "Ойриган" #Машинный перевод 28.10.23
+ oirigan_adherent: "Ойригиан" #Машинный перевод 28.10.23
+ oirigan_adherent_plural: "Ойригане" #Машинный перевод 28.10.23
+ oirigan_desc: "Ойриган — религия южной [mayikrata|E] креольской культуры самоджитов. Происходившие от рабов, которые служили в залах и башнях [mayikrata|E] по приказу [magi|E], рабы годами медленно собирали украденные знания [magical|E] и изучали силу Магии для себя. Когда Ценвар из Сьялволки вторгся в Майикрату и разрушил силу волхвов, они восстали с собственными дарами волхвов, чтобы уничтожить их. Ойригийцы поклоняются множеству богов, вдохновленных их украденными фолиантами, и рассматривают Магию как инструмент, необходимый для обеспечения свободы их народа." #Машинный перевод 28.10.23
+ oirigan_religion_old: "Старый Ойриган" #Машинный перевод 28.10.23
+ oirigan_religion_old_adj: "Старый Ойриган" #Машинный перевод 28.10.23
+ oirigan_religion_old_adherent: "Старый Ойригиан" #Машинный перевод 28.10.23
+ oirigan_religion_old_adherent_plural: "Старый Ойригиан" #Машинный перевод 28.10.23

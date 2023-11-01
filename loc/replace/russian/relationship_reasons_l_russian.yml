@@ -1,3 +1,0 @@
-﻿l_russian:
- friend_let_off_the_hook: "[CHARACTER.GetShortUIName|U] освобождает [TARGET_CHARACTER.GetShortUIName] от ответственности за нарушение их благородного контракта."
- friend_let_off_the_hook_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] освобождает [CHARACTER.GetShortUIName] от ответственности за нарушение их благородного контракта."

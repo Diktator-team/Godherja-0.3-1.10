@@ -1,0 +1,15 @@
+﻿l_russian:
+ province_modifier_barrow_unfinished: "Незаконченный курган"  #Машинный перевод 28.10.23!
+ province_modifier_barrow_unfinished_custom_desc: "[ROOT.Char.Custom2_Title('BarrowConstructionProgress', SCOPE.sProvince('barrow_province').GetTitle)]"  #Машинный перевод 28.10.23!
+ province_modifier_barrow_small: "Маленький курган"  #Машинный перевод 28.10.23!
+ province_modifier_barrow_medium: "Средний курган"  #Машинный перевод 28.10.23!
+ province_modifier_barrow_large: "Большой курган"  #Машинный перевод 28.10.23!
+ province_modifier_barrow_huge: "Огромный курган"  #Машинный перевод 28.10.23!
+ province_modifier_barrow_custom_desc: "[ROOT.Char.Custom2_Title('BarrowIntro', SCOPE.sProvince('barrow_province').GetTitle)]"  #Машинный перевод 28.10.23!
+  
+ BarrowConstruction: "Здесь строится курган, на этапе [second.GetProvince.MakeScope.GetVariable('barrow_construction_stage').GetValue|0]/[second.GetProvince.MakeScope.GetVariable('barrow_construction_final_stage').GetValue|0] строительства."  #Машинный перевод 28.10.23!
+  
+ BarrowIntroSmall: "Этот небольшой скромный курган был построен [ROOT.Char.GetName] и является местом последнего упокоения [ROOT.Char.GetHerHis]."  #Машинный перевод 28.10.23!
+ BarrowIntroMedium: "Этот курган приличных размеров был построен [ROOT.Char.GetName] и служит местом последнего упокоения [ROOT.Char.GetHerHis]."  #Машинный перевод 28.10.23!
+ BarrowIntroLarge: "Этот довольно большой курган был построен [ROOT.Char.GetName] и является местом последнего упокоения [ROOT.Char.GetHerHis]."  #Машинный перевод 28.10.23!
+ BarrowIntroHuge: "Этот огромный курган был построен [ROOT.Char.GetName] и является местом последнего упокоения [ROOT.Char.GetHerHis]."  #Машинный перевод 28.10.23!

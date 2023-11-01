@@ -1,0 +1,27 @@
+﻿l_russian:
+ INCOMPABIBLE_TENET_ONLY_ONE_AGIONIST_TENET_TRIGGER: "Вы можете выбрать только одного особого Агиониста [core_tenet|E] для своего [faith|E]." #Машинный перевод 28.10.23
+ INCOMPATIBLE_TENET_BLOODRIGHT_TRIGGER: "Несовместимо с [core_tenet|E] Кровавым правом." #Машинный перевод 28.10.23
+ INCOMPATIBLE_TENET_CITIZENSHIP_TRIGGER: "Несовместимо с [core_tenet|E] «Гражданство через службу»." #Машинный перевод 28.10.23
+  
+ CANNOT_HAVE_KINSLAYING_AND_WARDENITE_MAINSTREAM: "Вера не может быть частью Мейнстрима [wardenism|E] и одновременно принимать [kinslayers|E]!" #Машинный перевод 28.10.23
+ CANNOT_HAVE_KINSLAYING_AND_WARDENITE_IDEALIST: "Вера не может быть частью Идеалиста [wardenism|E] и одновременно принимать [kinslayers|E]!" #Машинный перевод 28.10.23
+ CANNOT_HAVE_KINSLAYING_AND_WARDENITE_TRADITIONALIST: "Вера не может быть частью Традиционалиста [wardenism|E] и одновременно принимать [kinslayers|E]!" #Машинный перевод 28.10.23
+  
+ INCOMPATIBLE_DOCTRINE_MAGIC_ACCEPTED: "Несовместимо с [doctrine|E] [magic|E] Принято" #Машинный перевод 28.10.23
+ INCOMPATIBLE_DOCTRINE_MAGIC_SUPREMACY: "Несовместимо с [doctrine|E] [magic|E] Превосходством" #Машинный перевод 28.10.23
+ INCOMPATIBLE_DOCTRINE_DEVIANCY_ACCEPTED: "Несовместимо с [doctrine|E]. Отклонения приняты." #Машинный перевод 28.10.23
+ INCOMPATIBLE_DOCTRINE_CONSANGUINITY_UNRESTRICTED: "Несовместимо с [doctrine|E] неограниченного брака" #Машинный перевод 28.10.23
+ INCOMPATIBLE_DOCTRINE_ADULTERY_WOMEN_ACCEPTED: "Несовместимо с [doctrine|E]. Женская измена допускается." #Машинный перевод 28.10.23
+ INCOMPATIBLE_DOCTRINE_ADULTERY_MEN_ACCEPTED: "Несовместимо с [doctrine|E] Мужская прелюбодеяние допускается." #Машинный перевод 28.10.23
+  
+ INCOMPATIBLE_TENET_CARNAL_EXALTATION: "Несовместимо с [core_tenet|E] [GetFaithDoctrine('tenet_carnal_exaltation').GetName( GetPlayer.GetFaith )]" #Машинный перевод 28.10.23
+ INCOMPATIBLE_TENET_DIVINE_MARRIAGE: "Несовместимо с [core_tenet|E] [GetFaithDoctrine('tenet_divine_marriage').GetName( GetPlayer.GetFaith )]" #Машинный перевод 28.10.23
+ INCOMPATIBLE_TENET_NATURAL_PRIMITIVISM: "Несовместимо с [core_tenet|E] [GetFaithDoctrine('tenet_natural_primitivism').GetName( GetPlayer.GetFaith )]" #Машинный перевод 28.10.23
+ INCOMPATIBLE_TENET_RITUAL_CANNIBALISM: "Несовместимо с [core_tenet|E] [GetFaithDoctrine('tenet_ritual_cannibalism').GetName( GetPlayer.GetFaith )]" #Машинный перевод 28.10.23
+ INCOMPATIBLE_TENET_GEDEORA_VENERATION: "Несовместимо с [core_tenet|E] [GetFaithDoctrine('tenet_gedeora_veneration').GetName( GetPlayer.GetFaith )]" #Машинный перевод 28.10.23
+ INCOMPATIBLE_tenet_aversarinas_aagiokrata_religion_syncretism: "Несовместимо с [core_tenet|E] [GetFaithDoctrine('tenet_aversarinas_aagiokrata_religion_syncretism').GetName( GetPlayer.GetFaith )]" #Машинный перевод 28.10.23
+ INCOMPATIBLE_tenet_ritualist_religion_syncretism: "Несовместимо с [core_tenet|E] [GetFaithDoctrine('tenet_ritualist_religion_syncretism').GetName( GetPlayer.GetFaith )]" #Машинный перевод 28.10.23
+ INCOMPATIBLE_TENET_WORSHIPS_DEATH: "Несовместимо с [core_tenet|E] [GetFaithDoctrine('tenet_worships_death').GetName( GetPlayer.GetFaith )]" #Машинный перевод 28.10.23
+ INCOMPATIBLE_TENET_GRUESOME_FESTIVALS: "Несовместимо с [core_tenet|E] [GetFaithDoctrine('tenet_gruesome_festivals').GetName( GetPlayer.GetFaith )]" #Машинный перевод 28.10.23
+ INCOMPATIBLE_TENET_BLOODRIGHT: "Несовместимо с [core_tenet|E] [GetFaithDoctrine('tenet_the_bloodright').GetName( GetPlayer.GetFaith )]" #Машинный перевод 28.10.23
+ INCOMPATIBLE_TENET_CITIZENSHIP: "Несовместимо с [core_tenet|E] [GetFaithDoctrine('tenet_citizenship_through_service').GetName( GetPlayer.GetFaith )]" #Машинный перевод 28.10.23

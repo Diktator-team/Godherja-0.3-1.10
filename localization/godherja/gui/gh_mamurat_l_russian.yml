@@ -1,0 +1,14 @@
+﻿l_russian:
+ FAITH_MAMURAMAT: "Мамурамат"  
+ FAITH_MAMURAMAT_HEADING: "Мамуры"  
+ FAITH_WARDENITE_HIGH_JUDGES_HEADING: "Верховный суд"  
+ MAMUR_NOT_RECOGNISED: "Не признан"  
+  
+ MAMURAMAT_SCHISM_NAME: "[GetPlayer.GetFirstNameNoTooltip]"  
+ MAMURAMAT_UNIFIED_NAME: "Мамурамат"  
+ e_western_mamuramat_shorthand_name: "Западный"  
+ e_central_mamuramat_shorthand_name: "Центральный"  
+ e_eastern_mamuramat_shorthand_name: "Восточный"  
+ e_far_eastern_mamuramat_shorthand_name: "Дальневосточный"  
+ e_southern_mamuramat_shorthand_name: "Южный"  
+ e_continental_mamuramat_shorthand_name: "Континентальный"  

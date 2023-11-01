@@ -1,7 +1,0 @@
-﻿l_russian:
-  
- activity_hunt_province_desc_falcon_roost_minor: "#P + $building_type_falcon_roost_01$#! ([building|E])\n"  #Машинный перевод 28.10.23!
- activity_hunt_province_desc_falcon_roost_medium: "#P ++ $building_type_falcon_roost_01$#! ([building|E])\n"  #Машинный перевод 28.10.23!
- activity_hunt_province_desc_falcon_roost_major: "#P +++ $building_type_falcon_roost_01$#! ([building|E])\n"  #Машинный перевод 28.10.23!
-  
- activity_hunt_outside_realm_valid_tt: "Для охоты за пределами [realm|E] необходим [GetFaithDoctrine('tenet_sjalvolki_hunt').GetBaseName] или [GetPerk('adept_tracker_perk').GetName(GetPlayer)]."  #Машинный перевод 28.10.23!
