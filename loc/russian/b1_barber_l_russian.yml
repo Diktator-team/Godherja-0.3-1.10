@@ -1,0 +1,31 @@
+﻿l_russian:
+ laugh_barber_name: "Смех" #NT!
+ lantern_barber_name: "фонарь" #NT!
+ eyeroll_barber_name: "закатка глаз" #NT!
+ eavesdrop_barber_name: "Подслушивать" #NT!
+ assassin_barber_name: "Убийца" #NT!
+ toast_barber_name: "Тост" #NT!
+ toast_goblet_barber_name: "Тост с кубком" #NT!
+ drink_barber_name: "Напиток" #NT!
+ drink_goblet_barber_name: "Пить из кубка" #NT!
+ bp1_bgs: "Друзья и враги" #NT!
+  
+ bp1_indian_corridor_day: "Коридор Индийский" #NT!
+ bp1_indian_corridor_night: "Коридор Индийская ночь" #NT!
+ bp1_relaxing_room_western: "Номер «Вестерн»" #NT!
+ bp1_relaxing_room_mena: "Номер МЕНА" #NT!
+ bp1_kitchen_western: "Кухня в стиле вестерн" #NT!
+ bp1_bonfire: "Костер"
+ bp1_courtyard_mena: "Двор МЕНА" #NT!
+ bp1_courtyard_indian: "Двор Индийский" #NT!
+ bp1_crossroads_inn: "гостиница" #NT!
+ bp1_wine_cellar: "Винный погреб" #NT!
+ bp1_wetlands: "Болота"
+ bp1_jungle: "Джунгли"
+ bp1_plains: "Равнины"
+ bp1_desert: "Пустыня"
+  
+ fp2_fullscreen_intro: "Борьба" #NT!
+ fp2_fullscreen_hostility: "Враждебность" #NT!
+ fp2_fullscreen_compromise: "Компромисс" #NT!
+ fp2_fullscreen_conciliation: "Примирение" #NT!

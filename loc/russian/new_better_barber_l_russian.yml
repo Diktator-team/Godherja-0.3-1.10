@@ -1,0 +1,14 @@
+﻿l_russian:
+ 	#new, 1.9 
+ muscle_changes: "Все изменения чисто визуальные" #NT!
+ BARBERSHOP_SCREENSHOT_TT_loc: "$BARBERSHOP_SCREENSHOT_TT$\nСкриншоты сохраняются в Documents/Paradox Interactive/Crusader Kings III/screenshots/barbershop." #NT!
+ cm: "см" #NT!
+ feet: "ноги" #NT!
+ keep_zoom: "Сохранять уровень масштабирования" #NT!
+ ignore_gui_scaling: "Игнорировать масштабирование графического интерфейса" #NT!
+ reset_positions: "Сбросить позиции" #NT!
+ save_exit: "Сохранить и выйти, #medium Enter" #NT!
+ shadows: "Тени" #NT!
+ names: "Имена" #NT!
+ controls: "Органы управления, 4" #NT!
+  
