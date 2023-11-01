@@ -12,8 +12,7 @@
  world_ga_aironoi: "Айроной"  #Машинный перевод 28.10.23!
  world_ga_aironoi_formable: "Айроной"  #Машинный перевод 28.10.23!
  world_ga_aversarian_homelands: "[aversarian|E] Родина"  #Машинный перевод 28.10.23!
- world_ga_aversarian_isles: "[aversarian|E] [Concept('shatteredisles','Isles')|E]"  #Машинный перевод 28.10.23!
- world_ga_central_aversaria: "Большой [aversaria|E]"  #Машинный перевод 28.10.23!
+ world_ga_aversarian_isles: "[aversarian|E] [Concept('shatteredisles','Острова')|E]"   
  world_ga_clanlands: "Клановые земли"  #Машинный перевод 28.10.23!
  world_ga_eastern_clanlands: "Восточные клановые земли"  #Машинный перевод 28.10.23!
  world_ga_eastern_marcher_kingdoms: "Восточные марки"  #Машинный перевод 28.10.23!
@@ -43,7 +42,7 @@
  world_ws_amsari: "Амсари"  #Машинный перевод 28.10.23!
  world_ws_ayyar: "Айяр"  #Машинный перевод 28.10.23!
  world_ws_kamsaria: "Камсария"  #Машинный перевод 28.10.23!
- the_western_isles: "Вестерн [Concept('shatteredisles','Isles')|E]"  #Машинный перевод 28.10.23!
+ the_western_isles: "Вестерн [Concept('shatteredisles','Острова')|E]"  
  world_es_ayule_decision: "Аюле"  #Машинный перевод 28.10.23!
  world_ga_black_pass: "Черные проходы"  #Машинный перевод 28.10.23!
  world_ga_east_shattered_coast: "Восточное Расколотое побережье"  #Машинный перевод 28.10.23!
