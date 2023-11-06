@@ -137,8 +137,8 @@
   
   ### Magi Robes ### 
   
- PORTRAIT_MODIFIER_gh_clothes_male_clothes_robes_generic: "Одеяния волхва"  #Машинный перевод 28.10.23!
- PORTRAIT_MODIFIER_gh_clothes_female_clothes_robes_generic: "Одеяния волхва"  #Машинный перевод 28.10.23!
+ PORTRAIT_MODIFIER_gh_clothes_male_clothes_robes_generic: "Одеяния Мага"  #Машинный перевод 28.10.23!
+ PORTRAIT_MODIFIER_gh_clothes_female_clothes_robes_generic: "Одеяния Мага"  #Машинный перевод 28.10.23!
   
  PORTRAIT_MODIFIER_gh_clothes_male_clothes_robes_aversarian: "Одеяния аверсарианского мага"  #Машинный перевод 28.10.23!
  PORTRAIT_MODIFIER_gh_clothes_female_clothes_robes_aversarian: "Одеяния аверсарианского мага"  #Машинный перевод 28.10.23!
@@ -170,14 +170,14 @@
  PORTRAIT_MODIFIER_custom_gh_hoods_female_hood_aversarian_down: "Капюшон аверсарианского мага (вниз)"  #Машинный перевод 28.10.23!
  PORTRAIT_MODIFIER_custom_gh_hoods_female_hood_aversarian_liches_down: "Порванный капюшон аверсарианского мага (вниз)"  #Машинный перевод 28.10.23!
   
- PORTRAIT_MODIFIER_custom_gh_hoods_hood_generic: "Капюшон волхва"  #Машинный перевод 28.10.23!
- PORTRAIT_MODIFIER_custom_gh_hoods_hood_generic_liches: "Порванный капюшон волхва"  #Машинный перевод 28.10.23!
- PORTRAIT_MODIFIER_custom_gh_hoods_female_hood_generic: "Капюшон волхва"  #Машинный перевод 28.10.23!
- PORTRAIT_MODIFIER_custom_gh_hoods_female_hood_generic_liches: "Порванный капюшон волхва"  #Машинный перевод 28.10.23!
- PORTRAIT_MODIFIER_custom_gh_hoods_hood_generic_down: "Капюшон волхва (вниз)"  #Машинный перевод 28.10.23!
- PORTRAIT_MODIFIER_custom_gh_hoods_hood_generic_liches_down: "Порванный капюшон волхва (вниз)"  #Машинный перевод 28.10.23!
- PORTRAIT_MODIFIER_custom_gh_hoods_female_hood_generic_down: "Капюшон волхва (вниз)"  #Машинный перевод 28.10.23!
- PORTRAIT_MODIFIER_custom_gh_hoods_female_hood_generic_liches_down: "Порванный капюшон волхва (вниз)"  #Машинный перевод 28.10.23!
+ PORTRAIT_MODIFIER_custom_gh_hoods_hood_generic: "Капюшон Мага"  #Машинный перевод 28.10.23!
+ PORTRAIT_MODIFIER_custom_gh_hoods_hood_generic_liches: "Порванный капюшон Мага"  #Машинный перевод 28.10.23!
+ PORTRAIT_MODIFIER_custom_gh_hoods_female_hood_generic: "Капюшон Мага"  #Машинный перевод 28.10.23!
+ PORTRAIT_MODIFIER_custom_gh_hoods_female_hood_generic_liches: "Порванный капюшон Мага"  #Машинный перевод 28.10.23!
+ PORTRAIT_MODIFIER_custom_gh_hoods_hood_generic_down: "Капюшон Мага (вниз)"  #Машинный перевод 28.10.23!
+ PORTRAIT_MODIFIER_custom_gh_hoods_hood_generic_liches_down: "Порванный капюшон Мага (вниз)"  #Машинный перевод 28.10.23!
+ PORTRAIT_MODIFIER_custom_gh_hoods_female_hood_generic_down: "Капюшон Мага (вниз)"  #Машинный перевод 28.10.23!
+ PORTRAIT_MODIFIER_custom_gh_hoods_female_hood_generic_liches_down: "Порванный капюшон Мага (вниз)"  #Машинный перевод 28.10.23!
   
  PORTRAIT_MODIFIER_custom_gh_hoods_hood_aversarian_black: "Капюшон черного практикующего мага"  #Машинный перевод 28.10.23!
  PORTRAIT_MODIFIER_custom_gh_hoods_hood_aversarian_black_liches: "Разорванный черный капюшон практикующего мага"  #Машинный перевод 28.10.23!
@@ -635,8 +635,8 @@
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_male_empty: "Без аксессуара"  #Машинный перевод 28.10.23!
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_female_empty: "Без аксессуара"  #Машинный перевод 28.10.23!
   
- PORTRAIT_MODIFIER_custom_gh_neck_accessories_magi_half_mask_bare: "Полумаска волхва голая"  #Машинный перевод 28.10.23!
- PORTRAIT_MODIFIER_custom_gh_neck_accessories_magi_half_mask_common_01: "Полумаска волхва, простолюдин 1"  #Машинный перевод 28.10.23!
+ PORTRAIT_MODIFIER_custom_gh_neck_accessories_magi_half_mask_bare: "Полумаска Мага голая"  #Машинный перевод 28.10.23!
+ PORTRAIT_MODIFIER_custom_gh_neck_accessories_magi_half_mask_common_01: "Полумаска Мага, простолюдин 1"  #Машинный перевод 28.10.23!
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_magi_half_mask_common_02: "Полумаска мага-простолюдина 2"  #Машинный перевод 28.10.23!
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_magi_half_mask_low_nobility_01: "Полумаска мага Низкое дворянство 1"  #Машинный перевод 28.10.23!
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_magi_half_mask_low_nobility_02: "Полумаска мага Низкое дворянство 2"  #Машинный перевод 28.10.23!
@@ -645,7 +645,7 @@
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_magi_half_mask_high_nobility_02: "Полумаска мага Высшая знать 2"  #Машинный перевод 28.10.23!
   
  # PORTRAIT_MODIFIER_custom_gh_neck_accessories_magi_half_mask_dead_magi_01: "Полумаска мертвого мага 1"  #Машинный перевод 28.10.23!
- PORTRAIT_MODIFIER_custom_gh_neck_accessories_magi_half_mask_living_magi_01: "Полумаска живого волхва 1"  #Машинный перевод 28.10.23!
+ PORTRAIT_MODIFIER_custom_gh_neck_accessories_magi_half_mask_living_magi_01: "Полумаска живого Мага 1"  #Машинный перевод 28.10.23!
  # PORTRAIT_MODIFIER_custom_gh_neck_accessories_magi_half_mask_mixed_magi_01: "Смешанная полумаска магов 1"  #Машинный перевод 28.10.23!
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_magi_half_mask_pattern_green_low_nobility_01: "Полумаска мертвого мага 2"  #Машинный перевод 28.10.23!
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_magi_half_mask_pattern_red_low_nobility_01: "Полумаска живого мага 2"  #Машинный перевод 28.10.23!

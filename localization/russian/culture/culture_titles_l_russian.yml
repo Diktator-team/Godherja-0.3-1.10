@@ -372,7 +372,7 @@
  # Slavic 
  count_theocracy_male_slavic_religion: "Жрец"
  count_theocracy_female_slavic_religion: "Жрица"
- duke_theocracy_male_slavic_religion: "Волхв"
+ duke_theocracy_male_slavic_religion: "Маг"
  duke_theocracy_female_slavic_religion: "Ворожея"
   
  # Finno-Ugric 
