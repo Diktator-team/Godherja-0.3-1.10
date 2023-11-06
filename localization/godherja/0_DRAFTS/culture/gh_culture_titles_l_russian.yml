@@ -4,446 +4,446 @@
   #General names: 
   
   #Default Viceroyalty tiers 
- baron_viceroyalty_male: "Губернатор" #Машинный перевод 28.10.23
- baron_viceroyalty_female: "Губернатор" #Машинный перевод 28.10.23
- barony_viceroyalty: "Губернаторство" #Машинный перевод 28.10.23
- count_viceroyalty_male: "Виконт" #Машинный перевод 28.10.23
- count_viceroyalty_female: "Виконтесса" #Машинный перевод 28.10.23
- county_viceroyalty: "Провинция" #Машинный перевод 28.10.23
- duke_viceroyalty_male: "Верховный виконт" #Машинный перевод 28.10.23
- duke_viceroyalty_female: "Верховная виконтесса" #Машинный перевод 28.10.23
- duchy_viceroyalty: "Гранд Провинция" #Машинный перевод 28.10.23
- king_viceroyalty_male: "вице-король" #Машинный перевод 28.10.23
- king_viceroyalty_female: "вице-королева" #Машинный перевод 28.10.23
- kingdom_viceroyalty: "вице-королевство" #Машинный перевод 28.10.23
- emperor_viceroyalty_male: "Соправитель" #Машинный перевод 28.10.23
- emperor_viceroyalty_female: "Соправительница Императрицы" #Машинный перевод 28.10.23
- empire_viceroyalty: "Империя" #Машинный перевод 28.10.23
+ baron_viceroyalty_male: "Губернатор" #Pfalz /спорно
+ baron_viceroyalty_female: "Губернатор" #Pfalz /спорно
+ barony_viceroyalty: "Губернаторство" #Pfalz /спорно
+ count_viceroyalty_male: "Виконт" #Pfalz
+ count_viceroyalty_female: "Виконтесса" #Pfalz
+ county_viceroyalty: "Провинция" #Pfalz
+ duke_viceroyalty_male: "Верховный виконт" #Pfalz
+ duke_viceroyalty_female: "Верховная виконтесса" #Pfalz
+ duchy_viceroyalty: "Великая провинция" #Pfalz
+ king_viceroyalty_male: "Наместник" #Pfalz
+ king_viceroyalty_female: "Наместник" #Pfalz
+ kingdom_viceroyalty: "Наместничество" #Pfalz
+ emperor_viceroyalty_male: "Со-Император" #Pfalz
+ emperor_viceroyalty_female: "Со-Императрица" #Pfalz
+ empire_viceroyalty: "Империя" #Pfalz
   
   ############################################## 
   # Special cultural titles (sorted by culture, then government type). 
   
   ### Marcher ### 
- emperor_holy_order_marcher: "Верховный главнокомандующий" #Машинный перевод 28.10.23
- emperor_holy_order_marcher_high_king: "Верховный главнокомандующий-регент" #Машинный перевод 28.10.23
- emperor_magocracy_marcher: "Высшие маги" #Машинный перевод 28.10.23
- emperor_magocracy_marcher_high_king: "Верховный Маг-Регент" #Машинный перевод 28.10.23
- emperor_mercenary_marcher: "Королевский командующий" #Машинный перевод 28.10.23
- emperor_mercenary_marcher_high_king: "Королевский командующий-регент" #Машинный перевод 28.10.23
- emperor_peasant_republic_marcher: "Первый представитель" #Машинный перевод 28.10.23
- emperor_peasant_republic_marcher_high_king: "Первый представитель" #Машинный перевод 28.10.23
- emperor_pirate_male_marcher_high_king: "Верховный король пиратов" #Машинный перевод 28.10.23
- emperor_pirate_female_marcher_high_king: "Верховная королева пиратов" #Машинный перевод 28.10.23
- emperor_republic_marcher: "Архиканцлер" #Машинный перевод 28.10.23
- emperor_republic_male_marcher_high_king: "Первый пэр" #Машинный перевод 28.10.23
- emperor_republic_female_marcher_high_king: "Первая Пересса" #Машинный перевод 28.10.23
- emperor_theocracy_marcher: "Иерократ" #Машинный перевод 28.10.23
- emperor_theocracy_male_marcher_lifepath: "Арх-Путешественник" #Машинный перевод 28.10.23
- emperor_theocracy_female_marcher_lifepath: "Архи-Путешественница" #Машинный перевод 28.10.23
- emperor_theocracy_marcher_high_king: "Верховный Иерократ" #Машинный перевод 28.10.23
- emperor_theocracy_male_marcher_high_king_lifepath: "Хайуокер" #Машинный перевод 28.10.23
- emperor_theocracy_female_marcher_high_king_lifepath: "Highwalkeress" #Машинный перевод 28.10.23
- emperor_tribal_male_marcher_high_king: "Верховный вождь" #Машинный перевод 28.10.23
- emperor_tribal_female_marcher_high_king: "Верховная вождь" #Машинный перевод 28.10.23
- emperor_other_male_ojyczaynz_high_king: "Великий принц-регент" #Машинный перевод 28.10.23
- emperor_other_female_ojyczaynz_high_king: "Великая принцесса-регент" #Машинный перевод 28.10.23
- emperor_other_male_rejection_high_king: "Черный король" #Машинный перевод 28.10.23
- emperor_other_female_rejection_high_king: "Черная Королева" #Машинный перевод 28.10.23
- emperor_other_male_aversarian_high_king: "Архархексир" #Машинный перевод 28.10.23
- emperor_other_female_aversarian_high_king: "Арка-Архекса" #Машинный перевод 28.10.23
- emperor_other_male_konijkmener_high_king: "Опперводер" #Машинный перевод 28.10.23
- emperor_other_female_konijkmener_high_king: "Опперводрин" #Машинный перевод 28.10.23
- emperor_republic_konijkmener_high_king: "Альреканзелер" #Машинный перевод 28.10.23
- emperor_marcher_male: "Высокий король" #Машинный перевод 28.10.23
- emperor_marcher_female: "Высокая Королева" #Машинный перевод 28.10.23
- emperor_other_male_high_king: "Высокий король" #Машинный перевод 28.10.23
- emperor_other_female_high_king: "Высокая Королева" #Машинный перевод 28.10.23
- king_marcher_arch_marquis_oudemarches: "Архимаркиз" #Машинный перевод 28.10.23
- king_marcher_arch_marquise_oudemarches: "Архимаркиза" #Машинный перевод 28.10.23
- duke_other_male_marcher: "Дык" #Машинный перевод 28.10.23
- duke_other_female_marcher: "Дукесса" #Машинный перевод 28.10.23
- count_other_male_marcher: "Конт" #Машинный перевод 28.10.23
- count_other_female_marcher: "Графиня" #Машинный перевод 28.10.23
- baron_feudal_male_marcher: "Маркиз" #Машинный перевод 28.10.23
- baron_feudal_female_marcher: "Маркиза" #Машинный перевод 28.10.23
- baron_other_male_marcher: "барон" #Машинный перевод 28.10.23
- baron_other_female_marcher: "Баронесса" #Машинный перевод 28.10.23
+ emperor_holy_order_marcher: "Верховный главнокомандующий" #Pfalz
+ emperor_holy_order_marcher_high_king: "Верховный главнокомандующий-регент" #Pfalz
+ emperor_magocracy_marcher: "Высший маг" #Pfalz
+ emperor_magocracy_marcher_high_king: "Высший маг-регент" #Pfalz
+ emperor_mercenary_marcher: "Королевский командующий" #Pfalz
+ emperor_mercenary_marcher_high_king: "Королевский командующий-регент" #Pfalz
+ emperor_peasant_republic_marcher: "Первый представитель" #Pfalz
+ emperor_peasant_republic_marcher_high_king: "Первый представитель" #Pfalz
+ emperor_pirate_male_marcher_high_king: "Верховный король пиратов" #Pfalz
+ emperor_pirate_female_marcher_high_king: "Верховная королева пиратов" #Pfalz
+ emperor_republic_marcher: "Архиканцлер" #Pfalz
+ emperor_republic_male_marcher_high_king: "Первый пэр" #Pfalz
+ emperor_republic_female_marcher_high_king: "Первый пэр" #Pfalz
+ emperor_theocracy_marcher: "Иерократ" #Pfalz
+ emperor_theocracy_male_marcher_lifepath: "Arch-Wayfather" #Заглушка
+ emperor_theocracy_female_marcher_lifepath: "Arch-Waymother" #Заглушка
+ emperor_theocracy_marcher_high_king: "Верховный иерократ" #Pfalz
+ emperor_theocracy_male_marcher_high_king_lifepath: "Верховный служитель" #Pfalz /спорно
+ emperor_theocracy_female_marcher_high_king_lifepath: "Верховная служительница" #Pfalz /спорно
+ emperor_tribal_male_marcher_high_king: "Верховный вождь" #Pfalz
+ emperor_tribal_female_marcher_high_king: "Верховный вождь" #Pfalz
+ emperor_other_male_ojyczaynz_high_king: "Великий принц-регент" #Pfalz
+ emperor_other_female_ojyczaynz_high_king: "Великая принцесса-регент" #Pfalz
+ emperor_other_male_rejection_high_king: "Черный король" #Pfalz
+ emperor_other_female_rejection_high_king: "Черная королева" #Pfalz
+ emperor_other_male_aversarian_high_king: "Верховный архексир" #Pfalz /спорно
+ emperor_other_female_aversarian_high_king: "Верховная архекса" #Pfalz /спорно
+ emperor_other_male_konijkmener_high_king: "Opperwoder" #Заглушка
+ emperor_other_female_konijkmener_high_king: "Opperwodrin" #Заглушка
+ emperor_republic_konijkmener_high_king: "Alrekanzeler" #Заглушка
+ emperor_marcher_male: "Верховный король" #Pfalz
+ emperor_marcher_female: "Верховная королева" #Pfalz
+ emperor_other_male_high_king: "Верховный король" #Pfalz
+ emperor_other_female_high_king: "Верховная королева" #Pfalz
+ king_marcher_arch_marquis_oudemarches: "Архимаркиз" #Pfalz
+ king_marcher_arch_marquise_oudemarches: "Архимаркиза" #Pfalz
+ duke_other_male_marcher: "Герцог" #Pfalz
+ duke_other_female_marcher: "Герцогиня" #Pfalz
+ count_other_male_marcher: "Граф" #Pfalz
+ count_other_female_marcher: "Графиня" #Pfalz
+ baron_feudal_male_marcher: "Маркиз" #Pfalz
+ baron_feudal_female_marcher: "Маркиза" #Pfalz
+ baron_other_male_marcher: "Барон" #Pfalz
+ baron_other_female_marcher: "Баронесса" #Pfalz
   
   
   
- band_of_bastards_commander: "Командир" #Машинный перевод 28.10.23
- anti_magic_order_warden: "Смотритель" #Машинный перевод 28.10.23
- anti_magic_order_commander: "Командир" #Машинный перевод 28.10.23
- anti_magic_order_sir: "Сеньор" #Машинный перевод 28.10.23
+ band_of_bastards_commander: "Командир" #Pfalz
+ anti_magic_order_warden: "Смотритель" #Pfalz
+ anti_magic_order_commander: "Командир" #Pfalz
+ anti_magic_order_sir: "Сеньор" #Pfalz
   
- title_empire_marcher: "Мелкое Высокое Королевство" #Машинный перевод 28.10.23
- title_empire_marcher_holy_order: "Великий Орден" #Машинный перевод 28.10.23
- title_empire_marcher_holy_order_high_kingdom: "Орден-Регентство" #Машинный перевод 28.10.23
- title_empire_marcher_magocracy: "Магидом" #Машинный перевод 28.10.23
- title_empire_marcher_magocracy_high_kingdom: "Высший Магидом" #Машинный перевод 28.10.23
- title_empire_marcher_mercenary: "Корона Компания" #Машинный перевод 28.10.23
- title_empire_marcher_mercenary_high_kingdom: "Верховный регент-командование" #Машинный перевод 28.10.23
- title_empire_marcher_peasant_republic: "Великие коммуны" #Машинный перевод 28.10.23
- title_empire_marcher_peasant_republic_high_kingdom: "Высокие коммуны" #Машинный перевод 28.10.23
- title_empire_marcher_pirate_high_kingdom: "Верховный пиратский марш - Республиканское королевство" #Машинный перевод 28.10.23
- title_empire_marcher_republic: "Великая Республика" #Машинный перевод 28.10.23
- title_empire_marcher_republic_high_kingdom: "Высокое звание пэра" #Машинный перевод 28.10.23
- title_empire_marcher_theocracy: "Иерократия" #Машинный перевод 28.10.23
- title_empire_marcher_theocracy_high_kingdom: "Высшая Иерократия" #Машинный перевод 28.10.23
- title_empire_marcher_theocracy_lifepath: "Уэйкраун" #Машинный перевод 28.10.23
- title_empire_marcher_theocracy_high_kingdom_lifepath: "Хай Вэйкраун" #Машинный перевод 28.10.23
- title_empire_aversarian_high_kingdom: "Архархексат" #Машинный перевод 28.10.23
- title_empire_konijkmener_republic_high_kingdom: "Алреканзелерий" #Машинный перевод 28.10.23
- title_empire_konijkmener_high_kingdom: "Опперводрик" #Машинный перевод 28.10.23
- title_empire_ojyczaynz_high_kingdom: "Герцог-Регентство" #Машинный перевод 28.10.23
- title_empire_oejeynican_high_kingdom: "Герцог-Регентство" #Машинный перевод 28.10.23
- title_empire_high_kingdom: "Высокое Королевство" #Машинный перевод 28.10.23
- title_empire_high_kingdom_rejection: "Черное Королевство" #Машинный перевод 28.10.23
- #title_kingdom_marcher_aautokrata: "Великий марш" #Машинный перевод 28.10.23
- title_duchy_marcher: "Дусе" #Машинный перевод 28.10.23
- title_county_marcher: "Конте" #Машинный перевод 28.10.23
- title_baron_feudal_marcher: "Марчис" #Машинный перевод 28.10.23
- title_baron_marcher: "Баронство" #Машинный перевод 28.10.23
+ title_empire_marcher: "Petty High Kingdom" #Заглушка
+ title_empire_marcher_holy_order: "Великий орден" #Pfalz
+ title_empire_marcher_holy_order_high_kingdom: "Орден-регентство" #Pfalz
+ title_empire_marcher_magocracy: "Magidom" #Заглушка
+ title_empire_marcher_magocracy_high_kingdom: "High Magidom" #Заглушка
+ title_empire_marcher_mercenary: "Королевская компания" #Pfalz
+ title_empire_marcher_mercenary_high_kingdom: "High Regent-Commandery" #Pfalz
+ title_empire_marcher_peasant_republic: "Великая коммуна" #Pfalz
+ title_empire_marcher_peasant_republic_high_kingdom: "Верховная коммуна" #Pfalz
+ title_empire_marcher_pirate_high_kingdom: "High Pirate March-Republican Kingdom" #Заглушка
+ title_empire_marcher_republic: "Великая республика" #Pfalz
+ title_empire_marcher_republic_high_kingdom: "Верховное пэрство" #Pfalz
+ title_empire_marcher_theocracy: "Иерократия" #Pfalz
+ title_empire_marcher_theocracy_high_kingdom: "Верховная иерократия" #Pfalz
+ title_empire_marcher_theocracy_lifepath: "Waycrown" #Заглушка
+ title_empire_marcher_theocracy_high_kingdom_lifepath: "High Waycrown" #Заглушка
+ title_empire_aversarian_high_kingdom: "Arch-Archexate" #Заглушка
+ title_empire_konijkmener_republic_high_kingdom: "Alrekanzelerij" #Заглушка
+ title_empire_konijkmener_high_kingdom: "Opperwodriek" #Заглушка
+ title_empire_ojyczaynz_high_kingdom: "Герцогство-регентство" #Pfalz
+ title_empire_oejeynican_high_kingdom: "Герцогство-регентство" #Pfalz
+ title_empire_high_kingdom: "Верховное королевство" #Pfalz
+ title_empire_high_kingdom_rejection: "Черное королевство" #Pfalz
+ #title_kingdom_marcher_aautokrata: "Great March" #Заглушка
+ title_duchy_marcher: "Герцогство" #Pfalz
+ title_county_marcher: "Графство" #Pfalz
+ title_baron_feudal_marcher: "Маркизство" #Pfalz
+ title_baron_marcher: "Баронство" #Pfalz
   
   ##Ojyczayn## 
- emperor_male_ojyczaynz: "Бардазан" #Машинный перевод 28.10.23
- emperor_female_ojyczaynz: "Бардазана" #Машинный перевод 28.10.23
- king_male_ojyczaynz: "Высурол" #Машинный перевод 28.10.23
- king_female_ojyczaynz: "Высурола" #Машинный перевод 28.10.23
- duke_male_ojyczaynz: "Янкал" #Машинный перевод 28.10.23
- duke_female_ojyczaynz: "Янкала" #Машинный перевод 28.10.23
- count_male_ojyczaynz: "Грикаст" #Машинный перевод 28.10.23
- count_female_ojyczaynz: "Грикаста" #Машинный перевод 28.10.23
- baron_male_ojyczaynz: "Мильст" #Машинный перевод 28.10.23
- baron_female_ojyczaynz: "Мильста" #Машинный перевод 28.10.23
- empire_ojyczaynz: "Бардивон" #Машинный перевод 28.10.23
- kingdom_ojyczaynz: "Вайсорон" #Машинный перевод 28.10.23
- duchy_ojyczaynz: "Янист" #Машинный перевод 28.10.23
- county_ojyczaynz: "Милвон" #Машинный перевод 28.10.23
- barony_ojyczaynz: "Грион" #Машинный перевод 28.10.23
- prince_male_ojyczaynz: "Закрист" #Машинный перевод 28.10.23
- prince_female_ojyczaynz: "Закриста" #Машинный перевод 28.10.23
- prince_male_ojyczaynz_empire: "Закрист" #Машинный перевод 28.10.23
- prince_female_ojyczaynz_empire: "Закриста" #Машинный перевод 28.10.23
+ emperor_male_ojyczaynz: "Бардазан" #Pfalz
+ emperor_female_ojyczaynz: "Бардазана" #Pfalz
+ king_male_ojyczaynz: "Вайсурол" #Pfalz
+ king_female_ojyczaynz: "Вайсурола" #Pfalz
+ duke_male_ojyczaynz: "Янкал" #Pfalz
+ duke_female_ojyczaynz: "Янкала" #Pfalz
+ count_male_ojyczaynz: "Грикаст" #Pfalz
+ count_female_ojyczaynz: "Грикаста" #Pfalz
+ baron_male_ojyczaynz: "Миэльст" #Pfalz
+ baron_female_ojyczaynz: "Миэльста" #Pfalz
+ empire_ojyczaynz: "Бардивон" #Pfalz
+ kingdom_ojyczaynz: "Вайсорон" #Pfalz
+ duchy_ojyczaynz: "Янист" #Pfalz
+ county_ojyczaynz: "Миэльвон" #Заглушка/Возможно ошибка, перепутаны местами 122 и 123
+ barony_ojyczaynz: "Грион" #Заглушка/Возможно ошибка, перепутаны местами 122 и 123
+ prince_male_ojyczaynz: "Закрист" #Pfalz
+ prince_female_ojyczaynz: "Закриста" #Pfalz
+ prince_male_ojyczaynz_empire: "Закрист" #Pfalz
+ prince_female_ojyczaynz_empire: "Закриста" #Pfalz
   
   #Ziemojycz# 
- title_kingdom_ziemojycz_male_grand_duke_oejeynican: "Великий Герцог" #Машинный перевод 28.10.23
- title_kingdom_ziemojycz_female_grand_duke_oejeynican: "Великая Княгиня" #Машинный перевод 28.10.23
- title_kingdom_ziemojycz_male_grand_duke_ojyczaynz: "Великий Герцог" #Машинный перевод 28.10.23
- title_kingdom_ziemojycz_female_grand_duke_ojyczaynz: "Великая Княгиня" #Машинный перевод 28.10.23
- king_ziemojycz_male_grand_duchy_oejeynican: "Великое Герцогство" #Машинный перевод 28.10.23
- king_ziemojycz_female_grand_duchy_oejeynican: "Великое Герцогство" #Машинный перевод 28.10.23
- king_ziemojycz_male_grand_duchy_ojyczaynz: "Великое Герцогство" #Машинный перевод 28.10.23
- king_ziemojycz_female_grand_duchy_ojyczaynz: "Великое Герцогство" #Машинный перевод 28.10.23
+ title_kingdom_ziemojycz_male_grand_duke_oejeynican: "Великий герцог" #Pfalz
+ title_kingdom_ziemojycz_female_grand_duke_oejeynican: "Великая герцогиня" #Pfalz
+ title_kingdom_ziemojycz_male_grand_duke_ojyczaynz: "Великий герцог" #Pfalz
+ title_kingdom_ziemojycz_female_grand_duke_ojyczaynz: "Великая герцогиня" #Pfalz
+ king_ziemojycz_male_grand_duchy_oejeynican: "Великое герцогство" #Pfalz
+ king_ziemojycz_female_grand_duchy_oejeynican: "Великое герцогство" #Pfalz
+ king_ziemojycz_male_grand_duchy_ojyczaynz: "Великое герцогство" #Pfalz
+ king_ziemojycz_female_grand_duchy_ojyczaynz: "Великое герцогство" #Pfalz
   
- title_kingdom_ziemojycz_oejeynican_grand_duchy: "Великое Герцогство" #Машинный перевод 28.10.23
- title_kingdom_ziemojycz_ojyczaynz_grand_duchy: "Великое Герцогство" #Машинный перевод 28.10.23
+ title_kingdom_ziemojycz_oejeynican_grand_duchy: "Великое герцогство" #Pfalz
+ title_kingdom_ziemojycz_ojyczaynz_grand_duchy: "Великое герцогство" #Pfalz
   
   ### Agionist ### 
   # Landed Holy Order 
- agionist_order_empire_male: "Архи-орденмастер" #Машинный перевод 28.10.23
- agionist_order_empire_female: "Архи-орденмастер" #Машинный перевод 28.10.23
- agionist_order_kingdom_male: "Орденмастер" #Машинный перевод 28.10.23
- agionist_order_kingdom_female: "Орденмастер" #Машинный перевод 28.10.23
- agionist_order_duchy_male: "Магистр ордена" #Машинный перевод 28.10.23
- agionist_order_duchy_female: "Магистр ордена" #Машинный перевод 28.10.23
- agionist_order_county_male: "Командир" #Машинный перевод 28.10.23
- agionist_order_county_female: "Командир" #Машинный перевод 28.10.23
- agionist_order_barony_male: "Леталагос" #Машинный перевод 28.10.23
- agionist_order_barony_female: "Летагас" #Машинный перевод 28.10.23
- empire_landed_holy_order: "Большой Орден" #Машинный перевод 28.10.23
- kingdom_landed_holy_order: "Великий Орден" #Машинный перевод 28.10.23
- duchy_landed_holy_order: "Заказ" #Машинный перевод 28.10.23
- county_landed_holy_order: "Заказ" #Машинный перевод 28.10.23
- barony_landed_holy_order: "Администрирование заказов" #Машинный перевод 28.10.23
- agionist_empire_landed_holy_order: "Архи-Милитант" #Машинный перевод 28.10.23
- agionist_kingdom_landed_holy_order: "Орден Милитант" #Машинный перевод 28.10.23
- agionist_duchy_landed_holy_order: "Заказать район" #Машинный перевод 28.10.23
- agionist_county_landed_holy_order: "Глава заказа" #Машинный перевод 28.10.23
- agionist_barony_landed_holy_order: "Орденская епархия" #Машинный перевод 28.10.23
+ agionist_order_empire_male: "Архимагистр ордена" #Pfalz /спорно
+ agionist_order_empire_female: "Архимагистр ордена" #Pfalz /спорно
+ agionist_order_kingdom_male: "Магистр ордена" #Pfalz /спорно
+ agionist_order_kingdom_female: "Магистр ордена" #Pfalz /спорно
+ agionist_order_duchy_male: "Магистр округа" #Pfalz /спорно
+ agionist_order_duchy_female: "Магистр округа" #Pfalz /спорно
+ agionist_order_county_male: "Коммандор" #Pfalz
+ agionist_order_county_female: "Коммандор" #Pfalz
+ agionist_order_barony_male: "Леталагос" #Pfalz
+ agionist_order_barony_female: "Леталагас" #Pfalz
+ empire_landed_holy_order: "Великий орден" #Pfalz /спорно
+ kingdom_landed_holy_order: "Великий орден" #Pfalz /спорно
+ duchy_landed_holy_order: "Орден" #Pfalz
+ county_landed_holy_order: "Орден" #Pfalz
+ barony_landed_holy_order: "Администрация ордена" #Pfalz /спорно
+ agionist_empire_landed_holy_order: "Великий воинствующий орден" #Pfalz /спорно
+ agionist_kingdom_landed_holy_order: "Воинствующий орден" #Pfalz /спорно
+ agionist_duchy_landed_holy_order: "Орденский округ" #Pfalz /спорно
+ agionist_county_landed_holy_order: "Орденский капитул" #Pfalz /спорно
+ agionist_barony_landed_holy_order: "Орденская епархия" #Pfalz /спорно
   
   ### Konijkmener ### 
   # Republic 
- emperor_republic_male_konijkmener_group: "Альредрогт" #Машинный перевод 28.10.23
- emperor_republic_female_konijkmener_group: "Альредрогин" #Машинный перевод 28.10.23
- emperor_republic_male_konijkmener_group_consort: "Иеркиер" #Машинный перевод 28.10.23
- emperor_republic_female_konijkmener_group_consort: "Эркинне" #Машинный перевод 28.10.23
- empire_republic_konijkmener_group: "Альредрогтидж" #Машинный перевод 28.10.23
- emperor_feudal_male_konijkmener_group: "Альреводер" #Машинный перевод 28.10.23
- emperor_feudal_female_konijkmener_group: "Алреводрин" #Машинный перевод 28.10.23
- empire_feudal_konijkmener_group: "Альреводрик" #Машинный перевод 28.10.23
- king_chancellery_republic_male_konijkmener: "Канзелер" #Машинный перевод 28.10.23
- king_chancellery_republic_female_konijkmener: "Канзельрин" #Машинный перевод 28.10.23
- kingdom_chancellery_republic_konijkmener: "Канзелерий" #Машинный перевод 28.10.23
- king_republic_male_konijkmener_group: "Дрогт" #Машинный перевод 28.10.23
- king_republic_female_konijkmener_group: "Дрогин" #Машинный перевод 28.10.23
- kingdom_republic_konijkmener_group: "Дрогтидж" #Машинный перевод 28.10.23
- king_republic_male_konijkmener_group_consort: "Кир" #Машинный перевод 28.10.23
- king_republic_female_konijkmener_group_consort: "Кинне" #Машинный перевод 28.10.23
- king_feudal_male_konijkmener_group: "Водер" #Машинный перевод 28.10.23
- king_feudal_female_konijkmener_group: "Водрин" #Машинный перевод 28.10.23
- kingdom_feudal_konijkmener_group: "Водрик" #Машинный перевод 28.10.23
- duke_republic_male_konijkmener_group: "Эрст" #Машинный перевод 28.10.23
- duke_republic_female_konijkmener_group: "Эрште" #Машинный перевод 28.10.23
- duchy_republic_konijkmener_group: "Гаув" #Машинный перевод 28.10.23
- duke_republic_male_konijkmener_group_consort: "Вридж" #Машинный перевод 28.10.23
- duke_republic_female_konijkmener_group_consort: "Врое" #Машинный перевод 28.10.23
- duke_feudal_male_konijkmener_group: "Хиердрогт" #Машинный перевод 28.10.23
- duke_feudal_female_konijkmener_group: "Иердрогин" #Машинный перевод 28.10.23
- duchy_feudal_konijkmener_group: "Дрогдом" #Машинный перевод 28.10.23
- duke_feudal_male_konijkmener_group_consort: "Дрогт" #Машинный перевод 28.10.23
- duke_feudal_female_konijkmener_group_consort: "Дрогин" #Машинный перевод 28.10.23
- count_republic_male_konijkmener_group: "Вридж" #Машинный перевод 28.10.23
- count_republic_female_konijkmener_group: "Врое" #Машинный перевод 28.10.23
- county_republic_konijkmener_group: "Врейхийдт" #Машинный перевод 28.10.23
- count_feudal_male_konijkmener_group: "Хаар" #Машинный перевод 28.10.23
- count_feudal_female_konijkmener_group: "Харре" #Машинный перевод 28.10.23
- county_feudal_konijkmener_group: "Хаардт" #Машинный перевод 28.10.23
- count_feudal_female_konijkmener_group_consort: "Харвро" #Машинный перевод 28.10.23
- baron_feudal_male_konijkmener_group: "Маарсер" #Машинный перевод 28.10.23
- baron_feudal_female_konijkmener_group: "Маарсрин" #Машинный перевод 28.10.23
- barony_feudal_konijkmener_group: "Маарсидж" #Машинный перевод 28.10.23
- king_chancellery_republic_male: "Канзелер" #Машинный перевод 28.10.23
- king_chancellery_republic_female: "Канзельрин" #Машинный перевод 28.10.23
- king_chancellery_republic_male_marcher: "Шалёр" #Машинный перевод 28.10.23
- king_chancellery_republic_female_marcher: "Шалез" #Машинный перевод 28.10.23
- kingdom_chancellery_republic: "Канзелерий" #Машинный перевод 28.10.23
+ emperor_republic_male_konijkmener_group: "Альредрогт" #Pfalz
+ emperor_republic_female_konijkmener_group: "Альредрогин" #Pfalz
+ emperor_republic_male_konijkmener_group_consort: "Иеркиер" #Pfalz /спорно
+ emperor_republic_female_konijkmener_group_consort: "Иеркинне" #Pfalz /спорно
+ empire_republic_konijkmener_group: "Альредрогтидж" #Pfalz
+ emperor_feudal_male_konijkmener_group: "Альреводер" #Pfalz
+ emperor_feudal_female_konijkmener_group: "Альреводрин" #Pfalz
+ empire_feudal_konijkmener_group: "Альреводрик" #Pfalz
+ king_chancellery_republic_male_konijkmener: "Канзелер" #Pfalz
+ king_chancellery_republic_female_konijkmener: "Канзельрин" #Pfalz
+ kingdom_chancellery_republic_konijkmener: "Канзелерий" #Pfalz
+ king_republic_male_konijkmener_group: "Дрогт" #Pfalz
+ king_republic_female_konijkmener_group: "Дрогин" #Pfalz
+ kingdom_republic_konijkmener_group: "Дрогтидж" #Pfalz
+ king_republic_male_konijkmener_group_consort: "Кир" #Pfalz /спорно
+ king_republic_female_konijkmener_group_consort: "Кинне" #Pfalz
+ king_feudal_male_konijkmener_group: "Водер" #Pfalz
+ king_feudal_female_konijkmener_group: "Водрин" #Pfalz
+ kingdom_feudal_konijkmener_group: "Водриек" #Pfalz
+ duke_republic_male_konijkmener_group: "Эрст" #Pfalz /спорно
+ duke_republic_female_konijkmener_group: "Эрстте" #Pfalz /спорно
+ duchy_republic_konijkmener_group: "Гаув" #Pfalz
+ duke_republic_male_konijkmener_group_consort: "Врий" #Pfalz
+ duke_republic_female_konijkmener_group_consort: "Врое" #Pfalz
+ duke_feudal_male_konijkmener_group: "Хирдрогт" #Pfalz
+ duke_feudal_female_konijkmener_group: "Хирдрогин" #Pfalz
+ duchy_feudal_konijkmener_group: "Дрогдом" #Pfalz
+ duke_feudal_male_konijkmener_group_consort: "Дрогт" #Pfalz
+ duke_feudal_female_konijkmener_group_consort: "Дрогин" #Pfalz
+ count_republic_male_konijkmener_group: "Врий" #Pfalz
+ count_republic_female_konijkmener_group: "Врое" #Pfalz
+ county_republic_konijkmener_group: "Врийхийдт" #Pfalz /спорно
+ count_feudal_male_konijkmener_group: "Хаар" #Pfalz
+ count_feudal_female_konijkmener_group: "Хаарре" #Pfalz
+ county_feudal_konijkmener_group: "Хаардт" #Pfalz
+ count_feudal_female_konijkmener_group_consort: "Хаарврое" #Pfalz /спорно
+ baron_feudal_male_konijkmener_group: "Маарсер" #Pfalz
+ baron_feudal_female_konijkmener_group: "Маарсрин" #Pfalz
+ barony_feudal_konijkmener_group: "Маарсидж" #Pfalz
+ king_chancellery_republic_male: "Канзелер" #Pfalz
+ king_chancellery_republic_female: "Канзельрин" #Pfalz
+ king_chancellery_republic_male_marcher: "Шалёр" #Pfalz
+ king_chancellery_republic_female_marcher: "Шалёз" #Pfalz /спорно
+ kingdom_chancellery_republic: "Канзелерий" #Pfalz
   
   ### Sjalvolki ### 
   # Feudal 
- baron_feudal_male_sjalvolki: "Светник" #Машинный перевод 28.10.23
- baron_feudal_female_sjalvolki: "Светница" #Машинный перевод 28.10.23
- count_feudal_male_sjalvolki: "Вольник" #Машинный перевод 28.10.23
- count_feudal_female_sjalvolki: "Вольница" #Машинный перевод 28.10.23
- county_feudal_sjalvolki: "Вольст" #Машинный перевод 28.10.23
- duke_feudal_male_sjalvolki: "Надрой" #Машинный перевод 28.10.23
- duke_feudal_female_sjalvolki: "Надрайца" #Машинный перевод 28.10.23
- duchy_feudal_sjalvolki: "Подреч" #Машинный перевод 28.10.23
- duchy_feudal_sjalvolki_independent: "Надречь" #Машинный перевод 28.10.23
- emperor_feudal_male_e_opakasija_sjalvolki: "Высокий король" #Машинный перевод 28.10.23
- emperor_feudal_female_e_eopakasija_sjalvolki: "Высокая Королева" #Машинный перевод 28.10.23
- opakasija_feudal_high_kingdom: "Высокое Королевство" #Машинный перевод 28.10.23
- high_kingdom_opakasija_feudal_empire: "Высокое Королевство" #Машинный перевод 28.10.23
+ baron_feudal_male_sjalvolki: "Светник" #Pfalz
+ baron_feudal_female_sjalvolki: "Светница" #Pfalz /спорно
+ count_feudal_male_sjalvolki: "Вольник" #Pfalz
+ count_feudal_female_sjalvolki: "Вольница" #Pfalz /спорно
+ county_feudal_sjalvolki: "Вольст" #Pfalz
+ duke_feudal_male_sjalvolki: "Надрой" #Pfalz
+ duke_feudal_female_sjalvolki: "Надрайца" #Pfalz
+ duchy_feudal_sjalvolki: "Подреч" #Pfalz
+ duchy_feudal_sjalvolki_independent: "Надреч" #Pfalz
+ emperor_feudal_male_e_opakasija_sjalvolki: "Верховный король" #Pfalz
+ emperor_feudal_female_e_eopakasija_sjalvolki: "Верховная королева" #Pfalz
+ opakasija_feudal_high_kingdom: "Верховное королевство" #Pfalz
+ high_kingdom_opakasija_feudal_empire: "Верховное королевство" #Pfalz
   
   # Tribal 
- emperor_imperrech_tribal_sjalvolki: "Высокий король" #Машинный перевод 28.10.23
- baron_tribal_male_sjalvolki: "Водж" #Машинный перевод 28.10.23
- baron_tribal_female_sjalvolki: "Водка" #Машинный перевод 28.10.23
- barony_tribal_sjalvolki: "Вас" #Машинный перевод 28.10.23
- count_tribal_male_sjalvolki: "Светник" #Машинный перевод 28.10.23
- count_tribal_female_sjalvolki: "Светникя" #Машинный перевод 28.10.23
- count_tribal_male_sjalvolki_independent: "Водцланев" #Машинный перевод 28.10.23
- count_tribal_female_sjalvolki_independent: "Водцланава" #Машинный перевод 28.10.23
- county_tribal_sjalvolki: "Васреч" #Машинный перевод 28.10.23
- duke_tribal_male_sjalvolki: "Водцланев" #Машинный перевод 28.10.23
- duke_tribal_female_sjalvolki: "Водцланава" #Машинный перевод 28.10.23
- duke_tribal_male_sjalvolki_independent: "Крал" #Машинный перевод 28.10.23
- duke_tribal_female_sjalvolki_independent: "Кралча" #Машинный перевод 28.10.23
- duchy_tribal_sjalvolki: "Кланрех" #Машинный перевод 28.10.23
- king_tribal_male_sjalvolki: "Крал" #Машинный перевод 28.10.23
- king_tribal_female_sjalvolki: "Кралча" #Машинный перевод 28.10.23
- kingdom_tribal_sjalvolki: "Подрокреч" #Машинный перевод 28.10.23
- emperor_tribal_male_sjalvolki: "Рекрал" #Машинный перевод 28.10.23
- emperor_tribal_female_sjalvolki: "Рекральца" #Машинный перевод 28.10.23
+ emperor_imperrech_tribal_sjalvolki: "Верховный король" #Pfalz
+ baron_tribal_male_sjalvolki: "Водж" #Pfalz
+ baron_tribal_female_sjalvolki: "Воджца" #Pfalz /спорно
+ barony_tribal_sjalvolki: "Вас" #Pfalz
+ count_tribal_male_sjalvolki: "Светник" #Pfalz
+ count_tribal_female_sjalvolki: "Светникжа" #Pfalz /спорно
+ count_tribal_male_sjalvolki_independent: "Воджцланев" #Pfalz /спорно
+ count_tribal_female_sjalvolki_independent: "Воджцланава" #Pfalz /спорно
+ county_tribal_sjalvolki: "Васреч" #Pfalz
+ duke_tribal_male_sjalvolki: "Воджцланев" #Pfalz
+ duke_tribal_female_sjalvolki: "Воджцланава" #Pfalz
+ duke_tribal_male_sjalvolki_independent: "Крал" #Pfalz
+ duke_tribal_female_sjalvolki_independent: "Кралча" #Pfalz /спорно
+ duchy_tribal_sjalvolki: "Кланрех" #Pfalz /спорно
+ king_tribal_male_sjalvolki: "Крал" #Pfalz
+ king_tribal_female_sjalvolki: "Кралча" #Pfalz /спорно
+ kingdom_tribal_sjalvolki: "Подрокреч" #Pfalz /спорно
+ emperor_tribal_male_sjalvolki: "Рекрал" #Pfalz /спорно
+ emperor_tribal_female_sjalvolki: "Рекральца" #Pfalz /спорно
   
   #Kholmvolki 
- baron_male_kholmvolki: "Вот" #Машинный перевод 28.10.23
- baron_female_kholmvolki: "Вотна" #Машинный перевод 28.10.23
- count_male_kholmvolki: "Могила" #Машинный перевод 28.10.23
- count_female_kholmvolki: "Груна" #Машинный перевод 28.10.23
- county_kholmvolki: "Гравас" #Машинный перевод 28.10.23
- duke_male_kholmvolki: "Улькар" #Машинный перевод 28.10.23
- duke_female_kholmvolki: "Курна" #Машинный перевод 28.10.23
- duke_tribal_female_kholmvolki_independent: "Крална" #Машинный перевод 28.10.23
- duchy_kholmvolki: "Дотрех" #Машинный перевод 28.10.23
- king_female_kholmvolki: "Крална" #Машинный перевод 28.10.23
- emperor_male_kholmvolki: "Высокий король" #Машинный перевод 28.10.23
- emperor_female_kholmvolki: "Высокая Королева" #Машинный перевод 28.10.23
+ baron_male_kholmvolki: "Вот" #Pfalz
+ baron_female_kholmvolki: "Вотна" #Pfalz
+ count_male_kholmvolki: "Грав" #Pfalz
+ count_female_kholmvolki: "Груна" #Pfalz
+ county_kholmvolki: "Гравас" #Pfalz
+ duke_male_kholmvolki: "Улькар" #Pfalz
+ duke_female_kholmvolki: "Курна" #Pfalz
+ duke_tribal_female_kholmvolki_independent: "Крална" #Pfalz
+ duchy_kholmvolki: "Дотрех" #Pfalz
+ king_female_kholmvolki: "Крална" #Pfalz
+ emperor_male_kholmvolki: "Верховный король" #Pfalz
+ emperor_female_kholmvolki: "Верховная королева" #Pfalz
   
   ### Partic ### 
   # Tribal 
- emperor_tribal_partic: "Высокий Оверкинг" #Машинный перевод 28.10.23
- empress_tribal_partic: "Верховная Сверхкоролева" #Машинный перевод 28.10.23
- empire_tribal_partic: "Высшее Сверхкоролевство" #Машинный перевод 28.10.23
- king_tribal_partic: "Оверкинг" #Машинный перевод 28.10.23
- queen_tribal_partic: "Сверхкоролева" #Машинный перевод 28.10.23
- kingdom_tribal_partic: "Сверхкоролевство" #Машинный перевод 28.10.23
- duke_tribal_partic: "Король" #Машинный перевод 28.10.23
- duchess_tribal_partic: "Королева" #Машинный перевод 28.10.23
- duchy_tribal_partic_independent: "Королевство" #Машинный перевод 28.10.23
- duchy_tribal_partic: "Малое Королевство" #Машинный перевод 28.10.23
- count_male_tribal_partic: "Главный" #Машинный перевод 28.10.23
- count_female_tribal_partic: "Вождь" #Машинный перевод 28.10.23
- baron_tribal_partic: "Земельный лидер" #Машинный перевод 28.10.23
- calagonic_chief: "Король кабанов" #Машинный перевод 28.10.23
- calagonic_chieftess: "Королева кабанов" #Машинный перевод 28.10.23
+ emperor_tribal_partic: "Высший верховный король" #Pfalz /спорно
+ empress_tribal_partic: "Высшая верховная королева" #Pfalz /спорно
+ empire_tribal_partic: "Высшее верховное королевство" #Pfalz /спорно
+ king_tribal_partic: "Верховный король" #Pfalz /спорно
+ queen_tribal_partic: "Верховная королева" #Pfalz /спорно
+ kingdom_tribal_partic: "Верховное королевство" #Pfalz /спорно
+ duke_tribal_partic: "Король" #Pfalz
+ duchess_tribal_partic: "Королева" #Pfalz
+ duchy_tribal_partic_independent: "Королевство" #Pfalz
+ duchy_tribal_partic: "Малое королевство" #Pfalz
+ count_male_tribal_partic: "Вождь" #Pfalz
+ count_female_tribal_partic: "Предводительница" #Pfalz /спорно
+ baron_tribal_partic: "Землевладелец" #Pfalz /спорно
+ calagonic_chief: "Кабаний король" #Pfalz
+ calagonic_chieftess: "Кабанья королева" #Pfalz
   
   # Magocracy 
- emperor_tribal_partic_magic: "Фиосгайр" #Машинный перевод 28.10.23
- king_tribal_partic_magic: "Фарнмей" #Машинный перевод 28.10.23
- duke_tribal_partic_magic: "Оратор" #Машинный перевод 28.10.23
- count_tribal_partic_magic: "Верховный Провидец" #Машинный перевод 28.10.23
- baron_tribal_partic_magic: "Провидец" #Машинный перевод 28.10.23
+ emperor_tribal_partic_magic: "Фиосгайр" #Pfalz /спорно3
+ king_tribal_partic_magic: "Фарнмей" #Pfalz /спорно
+ duke_tribal_partic_magic: "Оратор" #Pfalz /спорно
+ count_tribal_partic_magic: "Высший провидец" #Pfalz
+ baron_tribal_partic_magic: "Провидец" #Pfalz
   
   ### Aversarian ### 
   #Titular 
- aautokratirgovernorarchlegon: "Аутократир Кивернир АрхиЛегон" #Машинный перевод 28.10.23
- aautokratiagovernorarchlegan: "Аутократия Кивернир Архи-Леган" #Машинный перевод 28.10.23
- pretenderaautokratir: "Аавтократир" #Машинный перевод 28.10.23
- pretenderaautokratia: "Автократия" #Машинный перевод 28.10.23
- pretender_aautokrata: "Аавтократа" #Машинный перевод 28.10.23
- duchylegon: "Легон" #Машинный перевод 28.10.23
- duchylegan: "Леган" #Машинный перевод 28.10.23
+ aautokratirgovernorarchlegon: "Аавтократир Кивернир Архилегон" #Pfalz /спорно
+ aautokratiagovernorarchlegan: "Аавтократия Кивернир Архилеган" #Pfalz /спорно
+ pretenderaautokratir: "Аавтократир" #Pfalz /спорно
+ pretenderaautokratia: "Аавтократия" #Pfalz /спорно
+ pretender_aautokrata: "Аавтократа" #Pfalz /спорно
+ duchylegon: "Легон" #Pfalz
+ duchylegan: "Леган" #Pfalz
   
   # Feudal 
- baron_feudal_male_aversarian: "Кратоксон" #Машинный перевод 28.10.23
- baron_feudal_female_aversarian: "Кратоксан" #Машинный перевод 28.10.23
- barony_feudal_aversarian: "Полис" #Машинный перевод 28.10.23
- count_feudal_male_aversarian: "Котексир" #Машинный перевод 28.10.23
- count_feudal_female_aversarian: "Котекса" #Машинный перевод 28.10.23
- county_feudal_aversarian: "Котекс" #Машинный перевод 28.10.23
- duke_feudal_male_aversarian: "Деспексир" #Машинный перевод 28.10.23
- duke_feudal_female_aversarian: "Деспекса" #Машинный перевод 28.10.23
- duchy_feudal_aversarian: "Деспекс" #Машинный перевод 28.10.23
- king_feudal_male_aversarian: "Архексир" #Машинный перевод 28.10.23
- king_feudal_female_aversarian: "Аркекса" #Машинный перевод 28.10.23
- king_landed_order_aversarian: "Орденмастер" #Машинный перевод 28.10.23
- kingdom_feudal_aversarian: "Архекс" #Машинный перевод 28.10.23
- emperor_feudal_male_aversarian: "Аавтократир" #Машинный перевод 28.10.23
- emperor_feudal_female_aversarian: "Автократия" #Машинный перевод 28.10.23
- empire_feudal_aversarian: "Аавтократа" #Машинный перевод 28.10.23
+ baron_feudal_male_aversarian: "Кратоксон" #Pfalz
+ baron_feudal_female_aversarian: "Кратоксан" #Pfalz
+ barony_feudal_aversarian: "Полис" #Pfalz
+ count_feudal_male_aversarian: "Котексир" #Pfalz /спорно
+ count_feudal_female_aversarian: "Котекса" #Pfalz /спорно
+ county_feudal_aversarian: "Котекс" #Pfalz /спорно
+ duke_feudal_male_aversarian: "Деспексир" #Pfalz /спорно
+ duke_feudal_female_aversarian: "Деспекса" #Pfalz /спорно
+ duchy_feudal_aversarian: "Деспекс" #Pfalz /спорно
+ king_feudal_male_aversarian: "Архексир" #Pfalz /спорно
+ king_feudal_female_aversarian: "Аркекса" #Pfalz /спорно
+ king_landed_order_aversarian: "Магистр ордена" #Pfalz /спорно
+ kingdom_feudal_aversarian: "Архекс" #Pfalz /спорно
+ emperor_feudal_male_aversarian: "Аавтократир" #Pfalz /спорно
+ emperor_feudal_female_aversarian: "Аавтократия" #Pfalz /спорно
+ empire_feudal_aversarian: "Аавтократа" #Pfalz /спорно
   
- title_aversarian_governorate: "провинция" #Машинный перевод 28.10.23
- aversarian_governor_male: "Губернатор" #Машинный перевод 28.10.23
- aversarian_governor_female: "Губернаторша" #Машинный перевод 28.10.23
+ title_aversarian_governorate: "Губернаторство" #Pfalz /спорно
+ aversarian_governor_male: "Губернатор" #Pfalz /спорно
+ aversarian_governor_female: "Губернатор" #Pfalz /спорно
   
- aversarian_archaes: "Арх-Легон" #Машинный перевод 28.10.23
- archlegon: "Арх-Легон" #Машинный перевод 28.10.23
- archlegan: "Арч-Леган" #Машинный перевод 28.10.23
- legon: "Легон" #Машинный перевод 28.10.23
- legan: "Леган" #Машинный перевод 28.10.23
- archexir: "Архексир" #Машинный перевод 28.10.23
- archexa: "Аркекса" #Машинный перевод 28.10.23
- aversarian_legon: "Легон" #Машинный перевод 28.10.23
- aversarian_arch_letalagos: "Арка Леталагос" #Машинный перевод 28.10.23
- aversarian_letalagos: "Леталагос" #Машинный перевод 28.10.23
- aversarian_archaes_female: "Арч-Леган" #Машинный перевод 28.10.23
- aversarian_legon_female: "Леган" #Машинный перевод 28.10.23
- aversarian_arch_letalagos_female: "Арка Леталагас" #Машинный перевод 28.10.23
- aversarian_letalagos_female: "Летагас" #Машинный перевод 28.10.23
+ aversarian_archaes: "Архилегон" #Pfalz
+ archlegon: "Архилегон" #Pfalz
+ archlegan: "Архилеган" #Pfalz
+ legon: "Легон" #Pfalz
+ legan: "Леган" #Pfalz
+ archexir: "Архексир" #Pfalz /спорно
+ archexa: "Архекса" #Pfalz /спорно
+ aversarian_legon: "Легон" #Pfalz
+ aversarian_arch_letalagos: "Архилеталагос" #Pfalz
+ aversarian_letalagos: "Леталагос" #Pfalz
+ aversarian_archaes_female: "Архилеган" #Pfalz
+ aversarian_legon_female: "Леган" #Pfalz
+ aversarian_arch_letalagos_female: "Архилеталагас" #Pfalz
+ aversarian_letalagos_female: "Леталагас" #Pfalz
   
- magocratic_male_archmagi_empire: "Архимаги" #Машинный перевод 28.10.23
- magocratic_male_archmagi_kingdom: "Архимаги" #Машинный перевод 28.10.23
- magocratic_male_firstmagi_empire: "ПервоМаги" #Машинный перевод 28.10.23
- magocratic_male_firstmagi_kingdom: "ПервоМаги" #Машинный перевод 28.10.23
- magocratic_male_duchy_landed: "Мацистирекс" #Машинный перевод 28.10.23
- magocratic_female_archmagi_empire: "Архимаги" #Машинный перевод 28.10.23
- magocratic_female_archmagi_kingdom: "Архимаги" #Машинный перевод 28.10.23
- magocratic_female_firstmagi_empire: "ПервоМаги" #Машинный перевод 28.10.23
- magocratic_female_firstmagi_kingdom: "ПервоМаги" #Машинный перевод 28.10.23
- magocratic_female_duchy_landed: "Мацистиракс" #Машинный перевод 28.10.23
+ magocratic_male_archmagi_empire: "Архимаг" #Pfalz
+ magocratic_male_archmagi_kingdom: "Архимаг" #Pfalz
+ magocratic_male_firstmagi_empire: "Первый маг" #Pfalz /спорно
+ magocratic_male_firstmagi_kingdom: "Первый маг" #Pfalz /спорно
+ magocratic_male_duchy_landed: "Мацистирекс" #Pfalz /спорно
+ magocratic_female_archmagi_empire: "Архимаг" #Pfalz
+ magocratic_female_archmagi_kingdom: "Архимаг" #Pfalz
+ magocratic_female_firstmagi_empire: "Первый маг" #Pfalz /спорно
+ magocratic_female_firstmagi_kingdom: "Первый маг" #Pfalz /спорно
+ magocratic_female_duchy_landed: "Мацистиракс" #Pfalz /спорно
   
- aversarian_legon_female_lxi: "Леган" #Машинный перевод 28.10.23
- aversarian_legon_lxi: "Легон" #Машинный перевод 28.10.23
+ aversarian_legon_female_lxi: "Леган" #Pfalz
+ aversarian_legon_lxi: "Легон" #Pfalz
   
- emperor_feudal_male_e_mountain_sun_concordat_aversarian: "Кивернир" #Машинный перевод 28.10.23
- emperor_feudal_female_e_mountain_sun_concordat_aversarian: "Кивернир" #Машинный перевод 28.10.23
+ emperor_feudal_male_e_mountain_sun_concordat_aversarian: "Кивернир" #Pfalz
+ emperor_feudal_female_e_mountain_sun_concordat_aversarian: "Кивернир" #Pfalz
   
- d_warden_title: "Мамур" #Машинный перевод 28.10.23
+ d_warden_title: "Мамур" #Pfalz
   
   ### Kikarsagi ### 
   # Aversarianized 
- baron_male_kikarsagi: "Keyakexir" #Машинный перевод 28.10.23
- baron_female_kikarsagi: "Keyakexira" #Машинный перевод 28.10.23
- barony_kikarsagi: "Кейкекс" #Машинный перевод 28.10.23
- count_male_kikarsagi: "Танбейексир" #Машинный перевод 28.10.23
- count_female_kikarsagi: "Танбейексира" #Машинный перевод 28.10.23
- county_kikarsagi: "Танбейекс" #Машинный перевод 28.10.23
- duke_male_kikarsagi: "Бейексир" #Машинный перевод 28.10.23
- duke_female_kikarsagi: "Бейешира" #Машинный перевод 28.10.23
- duchy_kikarsagi: "Бейекс" #Машинный перевод 28.10.23
- king_male_kikarsagi: "Хатир" #Машинный перевод 28.10.23
- king_female_kikarsagi: "Хатира" #Машинный перевод 28.10.23
- kingdom_kikarsagi: "Хата" #Машинный перевод 28.10.23
- emperor_male_kikarsagi: "Ааутохатир" #Машинный перевод 28.10.23
- emperor_female_kikarsagi: "Ааутохатира" #Машинный перевод 28.10.23
- empire_kikarsagi: "Аавтохата" #Машинный перевод 28.10.23
+ baron_male_kikarsagi: "Кейкексир" #Pfalz /спорно
+ baron_female_kikarsagi: "Кейкексира" #Pfalz /спорно
+ barony_kikarsagi: "Кейкекс" #Pfalz /спорно
+ count_male_kikarsagi: "Танбейксир" #Pfalz /спорно
+ count_female_kikarsagi: "Танбейксира" #Pfalz /спорно
+ county_kikarsagi: "Танбейкс" #Pfalz /спорно
+ duke_male_kikarsagi: "Бейксир" #Pfalz /спорно
+ duke_female_kikarsagi: "Бейксира" #Pfalz /спорно
+ duchy_kikarsagi: "Бейкс" #Pfalz /спорно
+ king_male_kikarsagi: "Кхатир" #Pfalz /спорно
+ king_female_kikarsagi: "Кхатира" #Pfalz /спорно
+ kingdom_kikarsagi: "Кхата" #Pfalz /спорно
+ emperor_male_kikarsagi: "Аавтокхатир" #Pfalz /спорно
+ emperor_female_kikarsagi: "Аавтокхатира" #Pfalz /спорно
+ empire_kikarsagi: "Аавтокхата" #Pfalz /спорно
   
   ### Vhanavhid ### 
- baron_male_vhanavhid: "Каяян" #Машинный перевод 28.10.23
- baron_female_vhanavhid: "Каяхун" #Машинный перевод 28.10.23
- barony_vhanavhid: "Каяянатэ" #Машинный перевод 28.10.23
- count_male_vhanavhid: "Танбей" #Машинный перевод 28.10.23
- count_female_vhanavhid: "Танбейтун" #Машинный перевод 28.10.23
- county_vhanavhid: "Tanbeiyan" #Машинный перевод 28.10.23
- duke_male_vhanavhid: "Бэй" #Машинный перевод 28.10.23
- duke_female_vhanavhid: "Beiytun" #Машинный перевод 28.10.23
- duchy_vhanavhid: "Beiyan" #Машинный перевод 28.10.23
- king_male_vhanavhid: "Хатан" #Машинный перевод 28.10.23
- king_female_vhanavhid: "Хатун" #Машинный перевод 28.10.23
- kingdom_vhanavhid: "Хатанат" #Машинный перевод 28.10.23
- emperor_male_vhanavhid: "Хайяхатан" #Машинный перевод 28.10.23
- emperor_female_vhanavhid: "Хаяхатун" #Машинный перевод 28.10.23
- empire_vhanavhid: "Хаяхатанате" #Машинный перевод 28.10.23
+ baron_male_vhanavhid: "Кайан" #Pfalz /спорно
+ baron_female_vhanavhid: "Кайхун" #Pfalz /спорно
+ barony_vhanavhid: "Кайанат" #Pfalz /спорно
+ count_male_vhanavhid: "Танбей" #Pfalz /спорно
+ count_female_vhanavhid: "Танбейтун" #Pfalz /спорно
+ county_vhanavhid: "Танбейн" #Pfalz /спорно
+ duke_male_vhanavhid: "Бэй" #Pfalz
+ duke_female_vhanavhid: "Бэйтун" #Pfalz /спорно
+ duchy_vhanavhid: "Бейн" #Pfalz /спорно
+ king_male_vhanavhid: "Кхатан" #Pfalz /спорно
+ king_female_vhanavhid: "Хатун" #Pfalz
+ kingdom_vhanavhid: "Кхатанат" #Pfalz /спорно
+ emperor_male_vhanavhid: "Хайкхатан" #Pfalz /спорно
+ emperor_female_vhanavhid: "Хайхатун" #Pfalz /спорно
+ empire_vhanavhid: "Хайкхатанат" #Pfalz /спорно
   
   ### Goans ### 
- count_male_goan: "Сагар" #Машинный перевод 28.10.23
- count_female_goan: "Саганра" #Машинный перевод 28.10.23
- county_goan: "Ганах" #Машинный перевод 28.10.23
- duke_male_goan: "Сахукар" #Машинный перевод 28.10.23
- duke_female_goan: "Сахукра" #Машинный перевод 28.10.23
- duchy_goan: "Хукран" #Машинный перевод 28.10.23
- king_male_goan: "Сарах" #Машинный перевод 28.10.23
- king_female_goan: "Сарха" #Машинный перевод 28.10.23
- kingdom_goan: "Ракхаг" #Машинный перевод 28.10.23
- emperor_male_goan: "Самрах" #Машинный перевод 28.10.23
- emperor_female_goan: "Самрахна" #Машинный перевод 28.10.23
- empire_goan: "Рахан" #Машинный перевод 28.10.23
+ count_male_goan: "Сагар" #Pfalz
+ count_female_goan: "Саганра" #Pfalz
+ county_goan: "Ганакх" #Pfalz
+ duke_male_goan: "Сахукар" #Pfalz
+ duke_female_goan: "Сахукра" #Pfalz
+ duchy_goan: "Хукран" #Pfalz
+ king_male_goan: "Саракх" #Pfalz
+ king_female_goan: "Саркха" #Pfalz
+ kingdom_goan: "Ракхаг" #Pfalz
+ emperor_male_goan: "Самракх" #Pfalz
+ emperor_female_goan: "Самракхна" #Pfalz
+ empire_goan: "Ракхан" #Pfalz
   
   ### Damotans ### 
- baron_male_damotan: "Акая" #Машинный перевод 28.10.23
- baron_female_damotan: "Акая" #Машинный перевод 28.10.23
- barony_damotan: "Акаяви" #Машинный перевод 28.10.23
- count_male_damotan: "Голка" #Машинный перевод 28.10.23
- count_female_damotan: "Голка" #Машинный перевод 28.10.23
- county_damotan: "Голкави" #Машинный перевод 28.10.23
- duke_male_damotan: "Яркиее" #Машинный перевод 28.10.23
- duke_female_damotan: "Яркиее" #Машинный перевод 28.10.23
- duchy_damotan: "Яркиет" #Машинный перевод 28.10.23
- king_male_damotan: "Талькар" #Машинный перевод 28.10.23
- king_female_damotan: "Талькара" #Машинный перевод 28.10.23
- kingdom_damotan: "Талкарут" #Машинный перевод 28.10.23
- emperor_male_damotan: "Боккар" #Машинный перевод 28.10.23
- emperor_female_damotan: "Боккара" #Машинный перевод 28.10.23
- empire_damotan: "Боккарут" #Машинный перевод 28.10.23
- prince_male_damotan: "Талькерет" #Машинный перевод 28.10.23
- prince_female_damotan: "Талькерета" #Машинный перевод 28.10.23
- prince_male_damotan_empire: "Боккарет" #Машинный перевод 28.10.23
- prince_female_damotan_empire: "Боккарета" #Машинный перевод 28.10.23
+ baron_male_damotan: "Акая" #Pfalz /спорно
+ baron_female_damotan: "Акая" #Pfalz /спорно
+ barony_damotan: "Акаяви" #Pfalz /спорно
+ count_male_damotan: "Голка" #Pfalz
+ count_female_damotan: "Голка" #Pfalz
+ county_damotan: "Голкави" #Pfalz
+ duke_male_damotan: "Яркиее" #Pfalz /спорно
+ duke_female_damotan: "Яркиее" #Pfalz /спорно
+ duchy_damotan: "Яркиет" #Pfalz /спорно
+ king_male_damotan: "Талкар" #Pfalz /спорно
+ king_female_damotan: "Талкара" #Pfalz /спорно
+ kingdom_damotan: "Талкарут" #Pfalz /спорно
+ emperor_male_damotan: "Боккар" #Pfalz /спорно
+ emperor_female_damotan: "Боккара" #Pfalz /спорно
+ empire_damotan: "Боккарут" #Pfalz /спорно
+ prince_male_damotan: "Талкерет" #Pfalz /спорно
+ prince_female_damotan: "Талкерета" #Pfalz /спорно
+ prince_male_damotan_empire: "Боккарет" #Pfalz /спорно
+ prince_female_damotan_empire: "Боккарета" #Pfalz /спорно
   
   ## Damotan Guard Captain## 
- kabtiyk: "Кабтыйк" #Машинный перевод 28.10.23
+ kabtiyk: "Кабтийк" #Pfalz /спорно
   
   ## Mogowai ### 
- #realm_priest_mogowai: "Аминет" #Машинный перевод 28.10.23
- emperor_mogowai_religious: "Кихинет" #Машинный перевод 28.10.23
- empire_mogowai_religious: "Кихинети" #Машинный перевод 28.10.23
- king_mogowai_religious: "Этами Аминет" #Машинный перевод 28.10.23
- kingdom_mogowai_religious: "Этами Аминети" #Машинный перевод 28.10.23
- duke_mogowai_religious: "Аминет" #Машинный перевод 28.10.23
- duchy_mogowai_religious: "Аминети" #Машинный перевод 28.10.23
- count_mogowai_religious: "Экагиб" #Машинный перевод 28.10.23
- county_mogowai_religious: "Экагиби" #Машинный перевод 28.10.23
- baron_mogowai_religious: "Сиирет" #Машинный перевод 28.10.23
- barony_mogowai_religious: "Сирети" #Машинный перевод 28.10.23
+ #realm_priest_mogowai: "Аминет" #Pfalz
+ emperor_mogowai_religious: "Кихинет" #Pfalz
+ empire_mogowai_religious: "Кихинети" #Pfalz
+ king_mogowai_religious: "Этами Аминет" #Pfalz
+ kingdom_mogowai_religious: "Этами Аминети" #Pfalz
+ duke_mogowai_religious: "Аминет" #Pfalz
+ duchy_mogowai_religious: "Аминети" #Pfalz
+ count_mogowai_religious: "Экагиб" #Pfalz
+ county_mogowai_religious: "Экагиби" #Pfalz
+ baron_mogowai_religious: "Сиирет" #Pfalz
+ barony_mogowai_religious: "Сиирети" #Pfalz
   
   ## Adabyss (Will one day be Military only ## 
- emperor_male_adabyssian: "Лелманд" #Машинный перевод 28.10.23
- emperor_female_adabyssian: "Лелманд" #Машинный перевод 28.10.23
- empire_adabyssian: "Лимпегейл" #Машинный перевод 28.10.23
- king_male_adabyssian: "Кудель Масуван" #Машинный перевод 28.10.23
- king_female_adabyssian: "Кудель Масуван" #Машинный перевод 28.10.23
- kingdom_adabyssian: "Масуванат" #Машинный перевод 28.10.23
+ emperor_male_adabyssian: "Лелманд" #Pfalz /спорно
+ emperor_female_adabyssian: "Лелманд" #Pfalz /спорно
+ empire_adabyssian: "Лимпегейл" #Pfalz /спорно
+ king_male_adabyssian: "Кудель Масуван" #Pfalz /спорно
+ king_female_adabyssian: "Кудель Масуван" #Pfalz /спорно
+ kingdom_adabyssian: "Масуванат" #Pfalz /спорно
   
   ## Mondecny ## 
  emperor_male_mondecny: "Стадкавар" #Машинный перевод 28.10.23
@@ -456,54 +456,54 @@
  duke_female_mondecny: "Херрнвадки" #Машинный перевод 28.10.23
  count_male_mondecny: "Севар" #Машинный перевод 28.10.23
  count_female_mondecny: "Севдки" #Машинный перевод 28.10.23
- baron_mondecny_male: "Вадар" #Машинный перевод 28.10.23
- baron_mondecny_female: "Ватки" #Машинный перевод 28.10.23
+ baron_mondecny_male: "Ватар" #Pfalz /спорно
+ baron_mondecny_female: "Ватки" #Pfalz /спорно
  kingdom_mondecny: "Каврадка" #Машинный перевод 28.10.23
  duchy_mondecny: "Херрнвадрадка" #Машинный перевод 28.10.23
  county_mondecny: "Севрадка" #Машинный перевод 28.10.23
  barony_mondecny: "Варадка" #Машинный перевод 28.10.23
   
   ## Clanlander ## 
- emperor_male_clanlander: "Арх-Король" #Машинный перевод 28.10.23
- emperor_female_clanlander: "Арх-Королева" #Машинный перевод 28.10.23
- king_male_clanlander: "Король" #Машинный перевод 28.10.23
- king_female_clanlander: "Королева" #Машинный перевод 28.10.23
- duke_male_clanlander: "Принц" #Машинный перевод 28.10.23
- duke_female_clanlander: "Принцесса" #Машинный перевод 28.10.23
- count_male_clanlander: "Господин" #Машинный перевод 28.10.23
- count_female_clanlander: "Леди" #Машинный перевод 28.10.23
- baron_male_clanlander: "Господин" #Машинный перевод 28.10.23
- baron_female_clanlander: "Леди" #Машинный перевод 28.10.23
- empire_clanlander: "Высокое Королевство" #Машинный перевод 28.10.23
- kingdom_clanlander: "Королевство" #Машинный перевод 28.10.23
- duchy_clanlander: "Княжество" #Машинный перевод 28.10.23
- county_clanlander: "Светлость" #Машинный перевод 28.10.23
- barony_clanlander: "Светлость" #Машинный перевод 28.10.23
- prince_male_clanlander: "Принц" #Машинный перевод 28.10.23
- prince_female_clanlander: "Принцесса" #Машинный перевод 28.10.23
- prince_male_clanlander_empire: "Принц" #Машинный перевод 28.10.23
- prince_female_clanlander_empire: "Принцесса" #Машинный перевод 28.10.23
+ emperor_male_clanlander: "Верховный король" #Pfalz /спорно
+ emperor_female_clanlander: "Верховная королева" #Pfalz /спорно
+ king_male_clanlander: "Король" #Pfalz 
+ king_female_clanlander: "Королева" #Pfalz 
+ duke_male_clanlander: "Принц" #Pfalz 
+ duke_female_clanlander: "Принцесса" #Pfalz 
+ count_male_clanlander: "Лорд" #Pfalz 
+ count_female_clanlander: "Леди" #Pfalz 
+ baron_male_clanlander: "Лорд" #Pfalz /спорно 
+ baron_female_clanlander: "Леди" #Pfalz /спорно
+ empire_clanlander: "Верховное королевство" #Pfalz 
+ kingdom_clanlander: "Королевство" #Pfalz 
+ duchy_clanlander: "Княжество" #Pfalz 
+ county_clanlander: "Лордство" #Pfalz /спорно
+ barony_clanlander: "Лордство" #Pfalz /спорно
+ prince_male_clanlander: "Принц" #Pfalz 
+ prince_female_clanlander: "Принцесса" #Pfalz 
+ prince_male_clanlander_empire: "Принц" #Pfalz 
+ prince_female_clanlander_empire: "Принцесса" #Pfalz 
   
   ## Sarridian ## 
- emperor_male_sarridian: "Оуткратир" #Машинный перевод 28.10.23
- emperor_female_sarridian: "Ократья" #Машинный перевод 28.10.23
- king_male_sarridian: "Куннур" #Машинный перевод 28.10.23
- king_female_sarridian: "Кунджа" #Машинный перевод 28.10.23
- duke_male_sarridian: "Херкир" #Машинный перевод 28.10.23
- duke_female_sarridian: "Герка" #Машинный перевод 28.10.23
- count_male_sarridian: "Арчар" #Машинный перевод 28.10.23
- count_female_sarridian: "Арча" #Машинный перевод 28.10.23
- baron_male_sarridian: "Дэррок" #Машинный перевод 28.10.23
- baron_female_sarridian: "Даррока" #Машинный перевод 28.10.23
- empire_sarridian: "Оуткрата" #Машинный перевод 28.10.23
- kingdom_sarridian: "Родственник" #Машинный перевод 28.10.23
- duchy_sarridian: "Херкате" #Машинный перевод 28.10.23
- county_sarridian: "Архат" #Машинный перевод 28.10.23
- barony_sarridian: "Даррокейт" #Машинный перевод 28.10.23
- prince_male_sarridian: "Сомнир" #Машинный перевод 28.10.23
- prince_female_sarridian: "Саумна" #Машинный перевод 28.10.23
- prince_male_sarridian_empire: "Сомнир" #Машинный перевод 28.10.23
- prince_female_sarridian_empire: "Саумна" #Машинный перевод 28.10.23
+ emperor_male_sarridian: "Оуткратир" #Pfalz /спорно
+ emperor_female_sarridian: "Оуткратия" #Pfalz /спорно
+ king_male_sarridian: "Куннур" #Pfalz 
+ king_female_sarridian: "Кунжа" #Pfalz 
+ duke_male_sarridian: "Херкир" #Pfalz 
+ duke_female_sarridian: "Херка" #Pfalz 
+ count_male_sarridian: "Арчар" #Pfalz 
+ count_female_sarridian: "Арча" #Pfalz 
+ baron_male_sarridian: "Даррок" #Pfalz 
+ baron_female_sarridian: "Даррока" #Pfalz 
+ empire_sarridian: "Оуткрата" #Pfalz /спорно
+ kingdom_sarridian: "Кин" #Pfalz /спорно
+ duchy_sarridian: "Херкат" #Pfalz /спорно
+ county_sarridian: "Архат" #Pfalz /спорно
+ barony_sarridian: "Даррокат" #Pfalz /спорно
+ prince_male_sarridian: "Саумнир" #Pfalz /спорно
+ prince_female_sarridian: "Саумна" #Pfalz /спорно
+ prince_male_sarridian_empire: "Саумнир" #Pfalz /спорно
+ prince_female_sarridian_empire: "Саумна" #Pfalz /спорно
   
   ## Aupagn ## 
  emperor_male_aupagn: "Опорень" #Машинный перевод 28.10.23
@@ -511,7 +511,7 @@
  king_male_aupagn: "Регн" #Машинный перевод 28.10.23
  king_female_aupagn: "Реньи" #Машинный перевод 28.10.23
  duke_male_aupagn: "Верховный вождь" #Машинный перевод 28.10.23
- duke_female_aupagn: "Верховная вождь" #Машинный перевод 28.10.23
+ duke_female_aupagn: "Верховный вождь" #Машинный перевод 28.10.23
  count_male_aupagn: "Вождь" #Машинный перевод 28.10.23
  count_female_aupagn: "Вождь" #Машинный перевод 28.10.23
  baron_male_aupagn: "Стоунвладелец" #Машинный перевод 28.10.23
@@ -978,68 +978,68 @@
  prince_female_kashirya_empire: "Юврапатни" #Машинный перевод 28.10.23
   
   ##Madikirib## 
- emperor_male_madikirib: "Ибирельион" #Машинный перевод 28.10.23
- emperor_female_madikirib: "Ибасторет" #Машинный перевод 28.10.23
- king_male_madikirib: "Marilun" #Машинный перевод 28.10.23
- king_female_madikirib: "Масурид" #Машинный перевод 28.10.23
- duke_male_madikirib: "Rilun" #Машинный перевод 28.10.23
- duke_female_madikirib: "Сурид" #Машинный перевод 28.10.23
- count_male_madikirib: "Ибирилун" #Машинный перевод 28.10.23
- count_female_madikirib: "Ибисурид" #Машинный перевод 28.10.23
- baron_male_madikirib: "Ибилун" #Машинный перевод 28.10.23
- baron_female_madikirib: "Ибурид" #Машинный перевод 28.10.23
- empire_madikirib: "Роха" #Машинный перевод 28.10.23
- kingdom_madikirib: "Эрами" #Машинный перевод 28.10.23
- duchy_madikirib: "Тега" #Машинный перевод 28.10.23
- county_madikirib: "Лунишжи" #Машинный перевод 28.10.23
- barony_madikirib: "Анчи" #Машинный перевод 28.10.23
- prince_madikirib: "Лук" #Машинный перевод 28.10.23
- prince_madikirib_empire: "Эбелокан" #Машинный перевод 28.10.23
+ emperor_male_madikirib: "Ибирельион" #Pfalz /спорно
+ emperor_female_madikirib: "Ибасторет" #Pfalz
+ king_male_madikirib: "Марилун" #Pfalz
+ king_female_madikirib: "Масурид" #Pfalz
+ duke_male_madikirib: "Рилун" #Pfalz
+ duke_female_madikirib: "Сурид" #Pfalz
+ count_male_madikirib: "Ибирилун" #Pfalz
+ count_female_madikirib: "Ибисурид" #Pfalz
+ baron_male_madikirib: "Ибилун" #Pfalz
+ baron_female_madikirib: "Ибурид" #Pfalz
+ empire_madikirib: "Роха" #Pfalz
+ kingdom_madikirib: "Эрами" #Pfalz
+ duchy_madikirib: "Тега" #Pfalz
+ county_madikirib: "Лунишжи" #Pfalz
+ barony_madikirib: "Анчи" #Pfalz
+ prince_madikirib: "Лук" #Pfalz
+ prince_madikirib_empire: "Эбелокан" #Pfalz
   
   ## Mtuwe ## 
- emperor_male_mtuwe: "Варангхе" #Машинный перевод 28.10.23
- emperor_female_mtuwe: "Варангса" #Машинный перевод 28.10.23
- king_male_mtuwe: "Бакасе" #Машинный перевод 28.10.23
- king_female_mtuwe: "Бакаса" #Машинный перевод 28.10.23
- duke_male_mtuwe: "Манингве" #Машинный перевод 28.10.23
- duke_female_mtuwe: "Манонгва" #Машинный перевод 28.10.23
- count_male_mtuwe: "Лемесе" #Машинный перевод 28.10.23
- count_female_mtuwe: "Лемеса" #Машинный перевод 28.10.23
- baron_male_mtuwe: "Ткке" #Машинный перевод 28.10.23
- baron_female_mtuwe: "Тхаа" #Машинный перевод 28.10.23
- empire_mtuwe: "Варанг" #Машинный перевод 28.10.23
- kingdom_mtuwe: "Бакуру" #Машинный перевод 28.10.23
- duchy_mtuwe: "Дема" #Машинный перевод 28.10.23
- county_mtuwe: "Хадо" #Машинный перевод 28.10.23
- barony_mtuwe: "Тхо" #Машинный перевод 28.10.23
- prince_mtuwe: "Баке" #Машинный перевод 28.10.23
- prince_mtuwe_empire: "Варуэ" #Машинный перевод 28.10.23
+ emperor_male_mtuwe: "Варангхе" #Pfalz /спорно
+ emperor_female_mtuwe: "Варангса" #Pfalz /спорно
+ king_male_mtuwe: "Бакасе" #Pfalz /спорно
+ king_female_mtuwe: "Бакаса" #Pfalz /спорно
+ duke_male_mtuwe: "Манингве" #Pfalz /спорно
+ duke_female_mtuwe: "Манонгва" #Pfalz /спорно
+ count_male_mtuwe: "Лемесе" #Pfalz /спорно
+ count_female_mtuwe: "Лемеса" #Pfalz /спорно
+ baron_male_mtuwe: "Ткке" #Pfalz /спорно
+ baron_female_mtuwe: "Тхаа" #Pfalz /спорно
+ empire_mtuwe: "Варанг" #Pfalz /спорно
+ kingdom_mtuwe: "Бакуру" #Pfalz /спорно
+ duchy_mtuwe: "Дема" #Pfalz /спорно
+ county_mtuwe: "Хадо" #Pfalz /спорно
+ barony_mtuwe: "Тхо" #Pfalz /спорно
+ prince_mtuwe: "Баке" #Pfalz /спорно
+ prince_mtuwe_empire: "Варуэ" #Pfalz /спорно
   
   
   ## Liches ## 
- emperor_lich: "Архилич" #Машинный перевод 28.10.23
+ emperor_lich: "Архилич" #Pfalz
  king_lich: ""
  duke_lich: ""
   
   
- emperor_fogeater_group: "Всевидящий" #Машинный перевод 28.10.23
- empire_fogeater_group: "Великая Орда" #Машинный перевод 28.10.23
- king_fogeater_group: "зрячий" #Машинный перевод 28.10.23
- kingdom_fogeater_group: "Орда" #Машинный перевод 28.10.23
- duke_fogeater_group: "Озвученный" #Машинный перевод 28.10.23
- duchy_fogeater_group: "Великое племя" #Машинный перевод 28.10.23
- count_fogeater_group: "Отец" #Машинный перевод 28.10.23
- countess_fogeater_group: "Мать" #Машинный перевод 28.10.23
- county_fogeater_group: "Племя" #Машинный перевод 28.10.23
- baron_fogeater_group: "Голова" #Машинный перевод 28.10.23
- barony_fogeater_group: "Пакет" #Машинный перевод 28.10.23
+ emperor_fogeater_group: "Всевидящий" #Pfalz
+ empire_fogeater_group: "Великая орда" #Pfalz
+ king_fogeater_group: "Видящий" #Pfalz
+ kingdom_fogeater_group: "Орда" #Pfalz
+ duke_fogeater_group: "Слышащий" #Pfalz
+ duchy_fogeater_group: "Великое племя" #Pfalz
+ count_fogeater_group: "Отец" #Pfalz
+ countess_fogeater_group: "Мать" #Pfalz
+ county_fogeater_group: "Племя" #Pfalz
+ baron_fogeater_group: "Вожак" #Pfalz
+ barony_fogeater_group: "Стая" #Pfalz
   
   ## Wastelands 
- wasteland_barony: "Пустошь" #Машинный перевод 28.10.23
- wasteland_county: "Пустошь" #Машинный перевод 28.10.23
- wasteland_duchy: "Пустошь" #Машинный перевод 28.10.23
- wasteland_kingdom: "Пустошь" #Машинный перевод 28.10.23
- wasteland_empire: "Пустошь" #Машинный перевод 28.10.23
+ wasteland_barony: "Пустошь" #Pfalz
+ wasteland_county: "Пустошь" #Pfalz
+ wasteland_duchy: "Пустошь" #Pfalz
+ wasteland_kingdom: "Пустошь" #Pfalz
+ wasteland_empire: "Пустошь" #Pfalz
   
  wasteland_baron: ""
  wasteland_count: ""
