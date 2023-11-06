@@ -1,0 +1,56 @@
+﻿l_russian:
+  #Random Entertainment texts 
+ random_entertainment_text_sjavolki_tales: "Сялволки Сказки"  #Машинный перевод 28.10.23!
+ random_entertainment_text_poems_mathilde: "Стихи Матильды"  #Машинный перевод 28.10.23!
+ random_entertainment_text_crimson_ode: "Багровая Ода"  #Машинный перевод 28.10.23!
+ random_entertainment_text_travels_to_sarradon: "Путешествие в [sarradon|E]"  #Машинный перевод 28.10.23!
+ random_entertainment_text_towards_the_sunset: "Навстречу закату"  #Машинный перевод 28.10.23!
+ random_entertainment_text_adabyss: "Среди золотых идолов"  #Машинный перевод 28.10.23!
+ random_entertainment_text_liches_heart: "[liches|E]' Сердце"  #Машинный перевод 28.10.23!
+ random_entertainment_text_riddles_dhacenox: "Загадки Дасенокса"  #Машинный перевод 28.10.23!
+ random_entertainment_text_mighty_magi_buxom_maiden: "Могучие Маги и пышногрудая девица XXX"  #Машинный перевод 28.10.23!
+ random_entertainment_text_fifty_shades_of_blood: "Пятьдесят оттенков крови"  #Машинный перевод 28.10.23!
+ random_entertainment_text_sound_of_air: "Звук Воздуха"  #Машинный перевод 28.10.23!
+ random_entertainment_text_travels_of_saint_katharitos: "Путешествие святого Катарита"  #Машинный перевод 28.10.23!
+ random_entertainment_text_tale_of_two_cities: "Сказка о двух городах"  #Машинный перевод 28.10.23!
+ random_entertainment_text_the_worlds_edge: "край света"  #Машинный перевод 28.10.23!
+ random_entertainment_text_dragon_and_the_scorpion: "Дракон и Скорпион"  #Машинный перевод 28.10.23!
+ random_entertainment_text_the_dragon_tale: "Сказка о драконе"  #Машинный перевод 28.10.23!
+ random_entertainment_text_seventy_seven_cities: "Семьдесят семь городов"  #Машинный перевод 28.10.23!
+ random_entertainment_text_pocket_guide_to_aversaria: "Карманный путеводитель по Аверсарии"  #Машинный перевод 28.10.23!
+ random_entertainment_text_theryion: "Терион"  #Машинный перевод 28.10.23!
+ random_entertainment_text_the_age_of_purges: "Эпоха чисток"  #Машинный перевод 28.10.23!
+ random_entertainment_text_the_bloodtext: "Текст Крови"  #Машинный перевод 28.10.23!
+ random_entertainment_text_purestifinix: "Пурестифиникс"  #Машинный перевод 28.10.23!
+ random_entertainment_text_compiled_works_of_abael_venodau: "Сборник сочинений Абаэля Венодау"  #Машинный перевод 28.10.23!
+ random_entertainment_text_passionate_knight_and_pleasingly_thick_magi: "Страстный рыцарь и приятные толстые Маги"  #Машинный перевод 28.10.23!
+ random_entertainment_text_the_chivalric_code: "Рыцарский кодекс"  #Машинный перевод 28.10.23!
+ random_entertainment_text_the_last_hippogriff: "Последний гиппогриф"  #Машинный перевод 28.10.23!
+ random_entertainment_text_griffon_bestiary: "Бестиарий Грифона"  #Машинный перевод 28.10.23!
+ random_entertainment_text_a_chevalien_knight_in_oraispol: "Рыцарь-кавалер в Орайполе, 1262 г."  #Машинный перевод 28.10.23!
+ random_entertainment_text_how_to_read_a_book: "Как читать книгу"  #Машинный перевод 28.10.23!
+ random_entertainment_text_tale_of_sir_koeveux: "Сказка о сэре Кёво"  #Машинный перевод 28.10.23!
+ random_entertainment_text_life_of_jacot_den_va_waldisse: "Жизнь Жако ден ва Вальдиссе"  #Машинный перевод 28.10.23!
+ random_entertainment_text_the_bastionetale: "Бастиональная сказка"  #Машинный перевод 28.10.23!
+ random_entertainment_text_legends_of_the_seven_justicesaints: "Легенды о семи святых правосудия"  #Машинный перевод 28.10.23!
+ random_entertainment_text_velosmyrmyrdarg: "Велосмирмирдарг"  #Машинный перевод 28.10.23!
+ random_entertainment_text_the_dragonslayer: "Драконоборцы"  #Машинный перевод 28.10.23!
+ random_entertainment_text_jarocish: "Ярочиш"  #Машинный перевод 28.10.23!
+ random_entertainment_text_home_of_the_empire_oraispol: "Дом Империи, Орайсполь"  #Машинный перевод 28.10.23!
+ random_entertainment_text_the_eastern_jewel_asiupoli: "Восточная жемчужина, [GetTitleByKey('c_oraispol').GetNameNoTier]"  #Машинный перевод 28.10.23!
+ random_entertainment_text_peti_gisredde_the_greatest_of_cities: "[peti_gisredde|E], величайший из городов"  #Машинный перевод 28.10.23!
+ random_entertainment_text_grande_gisredde_a_city: "[grande_gisredde|E], Город"  #Машинный перевод 28.10.23!
+ random_entertainment_text_travels_to_the_hellworld: "Путешествие в Адский мир"  #Машинный перевод 28.10.23!
+ random_entertainment_text_travels_to_the_darkest_realm: "Путешествие в самое темное царство"  #Машинный перевод 28.10.23!
+ terrain_deadlands: "мертвые земли"  #Машинный перевод 28.10.23!
+ terrain_underground: "метро"  #Машинный перевод 28.10.23!
+ rubble: "щебень"  #Машинный перевод 28.10.23!
+ tower: "башня"  #Машинный перевод 28.10.23!
+ towers: "башни"  #Машинный перевод 28.10.23!
+  
+  #Regional drink 
+ imperial_mytosic: "Императорский митозик"  #Машинный перевод 28.10.23!
+ acolytes_eye: "Глаз послушника"  #Машинный перевод 28.10.23!
+ expensive_drink_salisian_claret: "Сализианские бордовые"  #Машинный перевод 28.10.23!
+  #GetExpensiveDrink_Singular 
+ expensive_drink_singular_salisian_claret: "Сализианский бордовый"  #Машинный перевод 28.10.23!

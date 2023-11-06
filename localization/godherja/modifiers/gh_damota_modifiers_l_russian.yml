@@ -1,0 +1,52 @@
+﻿l_russian:
+  
+ rayakuux_modifier_1: "Локальный [rayakuux_capital|E] Слабый - 1/4"  #Машинный перевод 28.10.23!
+ rayakuux_modifier_2: "Локальный [rayakuux_capital|E] Растущий - 2/4"  #Машинный перевод 28.10.23!
+ rayakuux_modifier_3: "Местный [rayakuux_capital|E] Сильный - 3/4"  #Машинный перевод 28.10.23!
+ rayakuux_modifier_4: "Местный [rayakuux_capital|E] Расширение возможностей - 4/4"  #Машинный перевод 28.10.23!
+  
+ qabuux_modifier_1: "Локальный [qabuux_capital|E] Слабый - 1/4"  #Машинный перевод 28.10.23!
+ qabuux_modifier_2: "Локальный [qabuux_capital|E] Растущий - 2/4"  #Машинный перевод 28.10.23!
+ qabuux_modifier_3: "Местный [qabuux_capital|E] Сильный - 3/4"  #Машинный перевод 28.10.23!
+ qabuux_modifier_4: "Местный [qabuux_capital|E] Расширение возможностей - 4/4"  #Машинный перевод 28.10.23!
+  
+ karavuux_modifier_1: "Локальный [karavuux_capital|E] Слабый - 1/4"  #Машинный перевод 28.10.23!
+ karavuux_modifier_2: "Локальный [karavuux_capital|E] Растущий - 2/4"  #Машинный перевод 28.10.23!
+ karavuux_modifier_3: "Местный [karavuux_capital|E] Сильный - 3/4"  #Машинный перевод 28.10.23!
+ karavuux_modifier_4: "Местный [karavuux_capital|E] Расширение возможностей - 4/4"  #Машинный перевод 28.10.23!
+  
+ waranuux_modifier_1: "Локальный [waranuux_capital|E] Слабый - 1/4"  #Машинный перевод 28.10.23!
+ waranuux_modifier_2: "Локальный [waranuux_capital|E] Растущий - 2/4"  #Машинный перевод 28.10.23!
+ waranuux_modifier_3: "Местный [waranuux_capital|E] Сильный - 3/4"  #Машинный перевод 28.10.23!
+ waranuux_modifier_4: "Местный [waranuux_capital|E] Расширение возможностей - 4/4"  #Машинный перевод 28.10.23!
+  
+ weakened_lodge: "Ложа Ослабленная"  #Машинный перевод 28.10.23!
+  
+ karavuux_abuses: "[karavuux_capital|E] Злоупотребления"  #Машинный перевод 28.10.23!
+ karavuux_controlled: "[karavuux_capital|E] Контролируемый"  #Машинный перевод 28.10.23!
+ karavuux_crackdown: "[karavuux_capital|E] репрессии"  #Машинный перевод 28.10.23!
+ karavuux_exploitation: "[karavuux_capital|E] Эксплуатация"  #Машинный перевод 28.10.23!
+ karavuux_seized: "[karavuux_capital|E] Имущество арестовано"  #Машинный перевод 28.10.23!
+ karavuux_donations: "[karavuux_capital|E] Пожертвования"  #Машинный перевод 28.10.23!
+ karavuux_assisted: "[karavuux_capital|E] Помощь"  #Машинный перевод 28.10.23!
+  
+ waranuux_restrained: "[waranuux_capital|E] Сдержанный"  #Машинный перевод 28.10.23!
+ waranuux_clamped: "[waranuux_capital|E] Набор персонала заблокирован"  #Машинный перевод 28.10.23!
+ waranuux_recruitment: "[waranuux_capital|E] Набор персонала"  #Машинный перевод 28.10.23!
+ waranuux_feud: "[waranuux_capital|E] Вражда"  #Машинный перевод 28.10.23!
+ waranuux_calmed: "[waranuux_capital|E] Успокоился"  #Машинный перевод 28.10.23!
+ waranuux_divided: "[waranuux_capital|E] Разделенный"  #Машинный перевод 28.10.23!
+  
+ qabuux_mended: "[qabuux_capital|E] Отношения восстановлены"  #Машинный перевод 28.10.23!
+ qabuux_split: "[qabuux_capital|E] Сплит"  #Машинный перевод 28.10.23!
+ qabuux_collapse: "[qabuux_capital|E] Сворачивание"  #Машинный перевод 28.10.23!
+ qabuux_favor: "[qabuux_capital|E] Благосклонность"  #Машинный перевод 28.10.23!
+ qabuux_even: "[qabuux_capital|E] Четный"  #Машинный перевод 28.10.23!
+ qabuux_seized: "[qabuux_capital|E] Захваченные земли"  #Машинный перевод 28.10.23!
+  
+ rayakuux_expedition: "[rayakuux_capital|E] Финансирование экспедиции"  #Машинный перевод 28.10.23!
+ rayakuux_allowed: "[rayakuux_capital|E] Экспедиция разрешена"  #Машинный перевод 28.10.23!
+ rayakuux_stopped: "[rayakuux_capital|E] Экспедиция остановлена"  #Машинный перевод 28.10.23!
+ rayakuux_patrolled: "Дороги патрулируются"  #Машинный перевод 28.10.23!
+ rayakuux_guarded: "[rayakuux_capital|E] Охраняемый"  #Машинный перевод 28.10.23!
+ rayakuux_robbed: "[rayakuux_capital|E] Незащищенный"  #Машинный перевод 28.10.23!

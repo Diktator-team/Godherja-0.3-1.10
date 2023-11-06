@@ -1,0 +1,3 @@
+﻿l_russian:
+ major_decisions.0100.desc.spiritual: "Моя непоколебимая преданность представителям [scoped_ruler.GetFaith.HighGodNamePossessive] на [aeras|E] не осталась незамеченной.\n\n[scoped_pope.GetTitledFirstName] официально признал вклад моей семьи и освятил наше имя как вечных защитников веры [scoped_ruler.GetFaith.GetAdjective]."
+ major_decisions.0001.desc: "Старые способы сослужили нам хорошую службу, и мы всегда будем чтить их. Однако, как [ROOT.Char.GetTitleAsNameNoTooltip] из [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], я пришел к выводу, что мы должны установить аристократию и истинное дворянство, если мы будем продолжать процветать. Это важный следующий шаг на нашем пути к величию!"

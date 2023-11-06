@@ -1,0 +1,75 @@
+﻿l_russian:
+  
+ #Black Hand Loc 
+  
+  
+ blackhand_religion: "Культ Черной Руки" #Машинный перевод 28.10.23
+ blackhand_religion_adj: "Черная рука" #Машинный перевод 28.10.23
+ blackhand_religion_adherent: "Черная рука" #Машинный перевод 28.10.23
+ blackhand_religion_adherent_plural: "Черные руки" #Машинный перевод 28.10.23
+ blackhand_religion_desc: "Культ Черной Руки был культом [aversarian|E], сосредоточенным вокруг загадочной фигуры, известной как «Искатель разума». Культ считал Искателя разума всемогущим существом и пророком, способным предсказывать будущее, видеть прошлое и наделять великими силами своих последователей. Сам Искатель проповедовал идею о том, что всех богов следует отвергнуть и убить, поскольку именно боги человека однажды уничтожили мир и сделают это снова. Последователи Искателя разума уничтожили всю религиозную иконографию и священные писания, которые могли, и попытались узнать «истинные имена» богов, движимые верой в то, что произнесение настоящего имени божества убьет их." #Машинный перевод 28.10.23
+ blackhand_high_god_name: "Искатель Разума" #Машинный перевод 28.10.23
+ blackhand_high_god_name_possessive: "Искателя Разума" #Машинный перевод 28.10.23
+ blackhand_high_god_name_alternate: "Всезнающий" #Машинный перевод 28.10.23
+ blackhand_high_god_name_alternate_possessive: "Всезнающий" #Машинный перевод 28.10.23
+ blackhand_devil_name: "Ложные боги" #Машинный перевод 28.10.23
+ blackhand_devil_name_possessive: "Ложные Боги" #Машинный перевод 28.10.23
+ blackhand_death_deity_name: "$blackhand_high_god_name$" #Машинный перевод 28.10.23
+ blackhand_death_deity_name_possessive: "$blackhand_high_god_name_possessive$" #Машинный перевод 28.10.23
+  
+  
+  
+ blackhand_house_of_worship: "храм" #Машинный перевод 28.10.23
+ blackhand_house_of_worship_plural: "храмы" #Машинный перевод 28.10.23
+ blackhand_religious_symbol: "Символ Искателя Разума" #Машинный перевод 28.10.23
+ blackhand_religious_text: "Мудрость искателя разума" #Машинный перевод 28.10.23
+  
+ blackhand_religious_head_title: "Первосвященник" #Машинный перевод 28.10.23
+ blackhand_religious_head_title_name: "Дворец Искателя Разума" #Машинный перевод 28.10.23
+ blackhand_devotee_male: "помощник" #Машинный перевод 28.10.23
+ blackhand_devotee_male_plural: "помощники" #Машинный перевод 28.10.23
+ blackhand_devotee_female: "помощник" #Машинный перевод 28.10.23
+ blackhand_devotee_female_plural: "помощники" #Машинный перевод 28.10.23
+ blackhand_devotee_neuter: "помощник" #Машинный перевод 28.10.23
+ blackhand_devotee_neuter_plural: "помощники" #Машинный перевод 28.10.23
+ blackhand_priest_male: "слуга" #Машинный перевод 28.10.23
+ blackhand_priest_male_plural: "слуги" #Машинный перевод 28.10.23
+ blackhand_priest_female: "слуга" #Машинный перевод 28.10.23
+ blackhand_priest_female_plural: "слуги" #Машинный перевод 28.10.23
+ blackhand_priest_alternate_plural: "Ученики" #Машинный перевод 28.10.23
+ blackhand_bishop: "Священник" #Машинный перевод 28.10.23
+ blackhand_bishop_plural: "Священник" #Машинный перевод 28.10.23
+ blackhand_positive_afterlife: "царство Искателя Разума" #Машинный перевод 28.10.23
+ blackhand_negative_afterlife: "царство ложных богов" #Машинный перевод 28.10.23
+  
+ blackhand_creator_god_name: "$blackhand_high_god_name$" #Машинный перевод 28.10.23
+ blackhand_creator_god_name_possessive: "$blackhand_high_god_name_possessive$" #Машинный перевод 28.10.23
+ blackhand_health_god_name: "$blackhand_high_god_name$" #Машинный перевод 28.10.23
+ blackhand_health_god_name_possessive: "$blackhand_high_god_name_possessive$" #Машинный перевод 28.10.23
+ blackhand_fertility_god_name: "$blackhand_high_god_name$" #Машинный перевод 28.10.23
+ blackhand_fertility_god_name_possessive: "$blackhand_high_god_name_possessive$" #Машинный перевод 28.10.23
+ blackhand_wealth_god_name: "$blackhand_high_god_name$" #Машинный перевод 28.10.23
+ blackhand_wealth_god_name_possessive: "$blackhand_high_god_name_possessive$" #Машинный перевод 28.10.23
+ blackhand_household_god_name: "$blackhand_high_god_name$" #Машинный перевод 28.10.23
+ blackhand_household_god_name_possessive: "$blackhand_high_god_name_possessive$" #Машинный перевод 28.10.23
+ blackhand_fate_god_name: "$blackhand_high_god_name$" #Машинный перевод 28.10.23
+ blackhand_fate_god_name_possessive: "$blackhand_high_god_name_possessive$" #Машинный перевод 28.10.23
+ blackhand_religion_knowledge_god_name: "$blackhand_high_god_name$" #Машинный перевод 28.10.23
+ blackhand_religion_knowledge_god_name_possessive: "$blackhand_high_god_name_possessive$" #Машинный перевод 28.10.23
+ blackhand_war_god_name: "$blackhand_high_god_name$" #Машинный перевод 28.10.23
+ blackhand_war_god_name_possessive: "$blackhand_high_god_name_possessive$" #Машинный перевод 28.10.23
+ blackhand_trickster_god_name: "$blackhand_devil_name$" #Машинный перевод 28.10.23
+ blackhand_trickster_god_name_possessive: "$blackhand_devil_name_possessive$" #Машинный перевод 28.10.23
+ blackhand_night_god_name: "$blackhand_high_god_name$" #Машинный перевод 28.10.23
+ blackhand_night_god_name_possessive: "$blackhand_high_god_name_possessive$" #Машинный перевод 28.10.23
+ blackhand_water_god_name: "$blackhand_high_god_name$" #Машинный перевод 28.10.23
+ blackhand_water_god_name_possessive: "$blackhand_high_god_name_possessive$" #Машинный перевод 28.10.23
+ blackhand_witch_god_name: "$blackhand_health_god_name$" #Машинный перевод 28.10.23
+ blackhand_witch_god_name_possessive: "$blackhand_health_god_name_possessive$" #Машинный перевод 28.10.23
+  
+  #Black Hand 
+ blackhand: "Культ Черной Руки" #Машинный перевод 28.10.23
+ blackhand_adj: "Культ Черной Руки" #Машинный перевод 28.10.23
+ blackhand_adherent: "Черная рука" #Машинный перевод 28.10.23
+ blackhand_adherent_plural: "Черные руки" #Машинный перевод 28.10.23
+ blackhand_desc: "Культ Черной Руки рухнул и исчез из поля зрения общественности после внезапного исчезновения их таинственного лидера, Искателя Мышления, в 1190 году. До своего падения Культ распространялся, как лесной пожар, по Этепезее и некоторым частям Опахазии и был наиболее печально известен сожжение дотла Никарынпалати, тысячелетней резиденции [aversarian|E] Аавтократиров." #Машинный перевод 28.10.23

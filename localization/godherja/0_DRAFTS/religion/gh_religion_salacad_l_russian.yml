@@ -1,0 +1,86 @@
+﻿l_russian:
+  
+ #salacad Loc 
+ salacad_religion: "Салакад" #Машинный перевод 28.10.23
+ salacad_religion_adj: "Салакад" #Машинный перевод 28.10.23
+ salacad_religion_adjerent: "Салакад" #Машинный перевод 28.10.23
+ salacad_religion_adherent_plural: "Салакад" #Машинный перевод 28.10.23
+ salacad_religion_desc: "Как и многие другие древние религии, Салакад утверждает, что существовало два изначальных божества-создателя: Мать-Небо и Отец-Земля. Но в отличие от других, они утверждают, что два бога постоянно находились в состоянии войны, а зачинщиком насилия был Отец-Земля. Мать Небо возглавила доблестную оборону и в конечном итоге одержала победу над своим жестоким врагом. Затем она поклялась заботиться о своих дочерях и сыновьях, особенно о человечестве." #Машинный перевод 28.10.23
+ salacad_high_god_name: "Мать Небо" #Машинный перевод 28.10.23
+ salacad_high_god_name_possessive: "Матери Неба" #Машинный перевод 28.10.23
+ salacad_high_god_name_alternate: "Чкания" #Машинный перевод 28.10.23
+ salacad_high_god_name_alternate_possessive: "Чкания" #Машинный перевод 28.10.23
+ salacad_devil_name: "$salacad_religion_death_deity_name$" #Машинный перевод 28.10.23
+ salacad_devil_name_possessive: "$salacad_religion_death_deity_name_possessive$" #Машинный перевод 28.10.23
+ salacad_death_deity_name: "Отец Земля" #Машинный перевод 28.10.23
+ salacad_death_deity_name_possessive: "Отец Земля" #Машинный перевод 28.10.23
+  
+  
+  
+ salacad_house_of_worship: "Скайабид" #Машинный перевод 28.10.23
+ salacad_house_of_worship_plural: "Скайабиды" #Машинный перевод 28.10.23
+ salacad_religious_symbol: "сокол" #Машинный перевод 28.10.23
+ salacad_religious_text: "Эпосы Чкании" #Машинный перевод 28.10.23
+  
+ salacad_religious_head_title: "Самый высокий Дамзванд" #Машинный перевод 28.10.23
+ salacad_religious_head_title_name: "Высокий Скайабид" #Машинный перевод 28.10.23
+ salacad_devotee_male: "Салакад" #Машинный перевод 28.10.23
+ salacad_devotee_male_plural: "Салакад" #Машинный перевод 28.10.23
+ salacad_devotee_female: "Салакад" #Машинный перевод 28.10.23
+ salacad_devotee_female_plural: "Салакад" #Машинный перевод 28.10.23
+ salacad_devotee_neuter: "Салакад" #Машинный перевод 28.10.23
+ salacad_devotee_neuter_plural: "Салакад" #Машинный перевод 28.10.23
+ salacad_priest_male: "Дамзванд" #Машинный перевод 28.10.23
+ salacad_priest_male_plural: "Дамзванд" #Машинный перевод 28.10.23
+ salacad_priest_female: "Дамзванд" #Машинный перевод 28.10.23
+ salacad_priest_female_plural: "Дамзванд" #Машинный перевод 28.10.23
+ salacad_priest_alternate_plural: "Дамзванд" #Машинный перевод 28.10.23
+ salacad_bishop: "Высокий Дамзванд" #Машинный перевод 28.10.23
+ salacad_bishop_plural: "Высокий Дамзванд" #Машинный перевод 28.10.23
+ salacad_bishop_possessive: "Высокий Дамзванд" #Машинный перевод 28.10.23
+ salacad_positive_afterlife: "лазурное небо" #Машинный перевод 28.10.23
+ salacad_negative_afterlife: "Кайенна" #Машинный перевод 28.10.23
+  
+ salacad_creator_god_name: "$salacad_high_god_name$" #Машинный перевод 28.10.23
+ salacad_creator_god_name_possessive: "$salacad_high_god_name_possessive$" #Машинный перевод 28.10.23
+ salacad_health_god_name: "$salacad_fertility_god_name$" #Машинный перевод 28.10.23
+ salacad_health_god_name_possessive: "$salacad_fertility_god_name_possessive$" #Машинный перевод 28.10.23
+ salacad_fertility_god_name: "$salacad_high_god_name$" #Машинный перевод 28.10.23
+ salacad_fertility_god_name_possessive: "$salacad_high_god_name_possessive$" #Машинный перевод 28.10.23
+ salacad_wealth_god_name: "Капси" #Машинный перевод 28.10.23
+ salacad_wealth_god_name_possessive: "Капши" #Машинный перевод 28.10.23
+ salacad_household_god_name: "туманный" #Машинный перевод 28.10.23
+ salacad_household_god_name_possessive: "Хейзи" #Машинный перевод 28.10.23
+ salacad_fate_god_name: "Зорс" #Машинный перевод 28.10.23
+ salacad_fate_god_name_possessive: "Зорса" #Машинный перевод 28.10.23
+ salacad_knowledge_god_name: "Тудас" #Машинный перевод 28.10.23
+ salacad_knowledge_god_name_possessive: "Тудас" #Машинный перевод 28.10.23
+ salacad_war_god_name: "Haboru" #Машинный перевод 28.10.23
+ salacad_war_god_name_possessive: "Хабору" #Машинный перевод 28.10.23
+ salacad_trickster_god_name: "Чалош" #Машинный перевод 28.10.23
+ salacad_trickster_god_name_possessive: "Чалоша" #Машинный перевод 28.10.23
+ salacad_night_god_name: "$salacad_trickster_god_name$" #Машинный перевод 28.10.23
+ salacad_night_god_name_possessive: "$salacad_trickster_god_name_possessive$" #Машинный перевод 28.10.23
+ salacad_water_god_name: "$salacad_trickster_god_name$" #Машинный перевод 28.10.23
+ salacad_water_god_name_possessive: "$salacad_trickster_god_name_possessive$" #Машинный перевод 28.10.23
+ salacad_witch_god_name: "$salacad_fate_god_name$" #Машинный перевод 28.10.23
+ salacad_witch_god_name_possessive: "$salacad_fate_god_name_possessive$" #Машинный перевод 28.10.23
+  
+  #Salacad loc 
+ salacad: "Салакад" #Машинный перевод 28.10.23
+ salacad_adj: "Салакад" #Машинный перевод 28.10.23
+ salacad_adherent: "Салакад" #Машинный перевод 28.10.23
+ salacad_adherent_plural: "Салакад" #Машинный перевод 28.10.23
+ salacad_desc: "Вера Салакад является родной для сарминианцев коалиции Шялволки. Из-за своей веры в то, что Мать Небо является их лидером и защитницей, они придают особое значение женщинам в своем обществе. Женщины служат шаманами, общаясь с Матерью-Небом и предсказывая ее волю, чтобы вести верующих к славе под взглядом ее голубых глаз." #Машинный перевод 28.10.23
+ salacad_old: "Старый Салакад" #Машинный перевод 28.10.23
+ salacad_old_adj: "Старый Салакад" #Машинный перевод 28.10.23
+ salacad_old_adherent: "Старый Салакад" #Машинный перевод 28.10.23
+ salacad_old_adherent_plural: "Старый Салакад" #Машинный перевод 28.10.23
+  
+  #Segyetes loc 
+ segyetes: "Сегиетес" #Машинный перевод 28.10.23
+ segyetes_adj: "Сегиетес" #Машинный перевод 28.10.23
+ segyetes_adherent: "Сегиетес" #Машинный перевод 28.10.23
+ segyetes_adherent_plural: "Сегиетес" #Машинный перевод 28.10.23
+ segyetes_desc: "Верующие Сегиетес верят, что Мать-Небо и Отец-Земля когда-то были любовниками, которые создали небо и землю как единое целое. Однако Отец-Земля завидовал прекрасному творению Матери-Неба — человечеству. Он хотел создать своих существ, чтобы конкурировать с ней, поэтому он создал демонов из грязи. Демоны терроризировали мир, заставляя Мать Небо вести войну с творениями своего возлюбленного. Последовавшие за этим битвы привели к тому, что Мать Небо со слезами на глазах вонзила свое копье в Отца-Землю, расколов землю и небо на части и отделив человечество от их создателя. Сегиеты верят, что путь к спасению — это примирить свои отношения, чтобы они, наконец, снова стали целостными. И мужчины, и женщины служат шаманами, общающимися с небом и землей, чтобы восстановить разорванные узы." #Машинный перевод 28.10.23
+  

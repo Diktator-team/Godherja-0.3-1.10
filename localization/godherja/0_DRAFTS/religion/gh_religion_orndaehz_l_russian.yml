@@ -1,0 +1,63 @@
+﻿l_russian:
+  
+ orndaehz_religion: "Орн'даэз" #Машинный перевод 28.10.23
+ orndaehz_religion_adj: "Орн'даэз" #Машинный перевод 28.10.23
+ orndaehz_religion_adjerent: "Орн'даэза" #Машинный перевод 28.10.23
+ orndaehz_religion_adherent_plural: "Орн'даэза" #Машинный перевод 28.10.23
+ orndaehz_religion_desc: "Приверженцы этой веры считают Орн'даэз, или «Золотых родственников», своими богами и хозяевами и считают своим долгом освободить их из изгнания в запредельных землях." #Машинный перевод 28.10.23
+ orndaehz_high_god_name: "Орн'даэз" #Машинный перевод 28.10.23
+ orndaehz_high_god_name_possessive: "Орн'даэза" #Машинный перевод 28.10.23
+ orndaehz_high_god_name_alternate: "Голдкин" #Машинный перевод 28.10.23
+ orndaehz_high_god_name_alternate_possessive: "Голдкин" #Машинный перевод 28.10.23
+ orndaehz_devil_name: "Небесная женщина" #Машинный перевод 28.10.23
+ orndaehz_devil_name_possessive: "Небесная женщина" #Машинный перевод 28.10.23
+ orndaehz_death_deity_name: "$orndaehz_devil_name$" #Машинный перевод 28.10.23
+ orndaehz_death_deity_name_possessive: "$orndaehz_devil_name_possessive$" #Машинный перевод 28.10.23
+  
+ orndaehz_house_of_worship: "Любугн" #Машинный перевод 28.10.23
+ orndaehz_house_of_worship_plural: "Лукбугнс" #Машинный перевод 28.10.23
+ orndaehz_religious_symbol: "Статуи в золотых масках" #Машинный перевод 28.10.23
+ orndaehz_religious_text: "Ода Голдкину" #Машинный перевод 28.10.23
+  
+ orndaehz_religious_head_title: "Гролюкань" #Машинный перевод 28.10.23
+ orndaehz_religious_head_title_name: "Гролюкан" #Машинный перевод 28.10.23
+ orndaehz_devotee: "Слуга" #Машинный перевод 28.10.23
+ orndaehz_devotee_plural: "Слуги" #Машинный перевод 28.10.23
+ orndaehz_priest: "Орнврол" #Машинный перевод 28.10.23
+ orndaehz_priest_plural: "Орнвроли" #Машинный перевод 28.10.23
+ orndaehz_priest_alternate_plural: "Орнврол" #Машинный перевод 28.10.23
+ orndaehz_bishop: "Высокий Орнврол" #Машинный перевод 28.10.23
+ orndaehz_bishop_plural: "Высокий Орнвроли" #Машинный перевод 28.10.23
+ orndaehz_positive_afterlife: "Другие земли" #Машинный перевод 28.10.23
+ orndaehz_negative_afterlife: "Другие земли" #Машинный перевод 28.10.23
+  
+ orndaehz_creator_god_name: "$orndaehz_high_god_name$" #Машинный перевод 28.10.23
+ orndaehz_creator_god_name_possessive: "$orndaehz_high_god_name_possessive$" #Машинный перевод 28.10.23
+ orndaehz_health_god_name: "$orndaehz_high_god_name$" #Машинный перевод 28.10.23
+ orndaehz_health_god_name_possessive: "$orndaehz_high_god_name_possessive$" #Машинный перевод 28.10.23
+ orndaehz_fertility_god_name: "$orndaehz_high_god_name$" #Машинный перевод 28.10.23
+ orndaehz_fertility_god_name_possessive: "$orndaehz_high_god_name_possessive$" #Машинный перевод 28.10.23
+ orndaehz_wealth_god_name: "$orndaehz_high_god_name$" #Машинный перевод 28.10.23
+ orndaehz_wealth_god_name_possessive: "$orndaehz_high_god_name_possessive$" #Машинный перевод 28.10.23
+ orndaehz_household_god_name: "$orndaehz_health_god_name$" #Машинный перевод 28.10.23
+ orndaehz_household_god_name_possessive: "$orndaehz_health_god_name_possessive$" #Машинный перевод 28.10.23
+ orndaehz_fate_god_name: "$orndaehz_high_god_name$" #Машинный перевод 28.10.23
+ orndaehz_fate_god_name_possessive: "$orndaehz_high_god_name_possessive$" #Машинный перевод 28.10.23
+ orndaehz_knowledge_god_name: "$orndaehz_high_god_name$" #Машинный перевод 28.10.23
+ orndaehz_knowledge_god_name_possessive: "$orndaehz_high_god_name_possessive$" #Машинный перевод 28.10.23
+ orndaehz_war_god_name: "$orndaehz_high_god_name$" #Машинный перевод 28.10.23
+ orndaehz_war_god_name_possessive: "$orndaehz_high_god_name_possessive$" #Машинный перевод 28.10.23
+ orndaehz_trickster_god_name: "$orndaehz_devil_name$" #Машинный перевод 28.10.23
+ orndaehz_trickster_god_name_possessive: "$orndaehz_devil_name_possessive$" #Машинный перевод 28.10.23
+ orndaehz_night_god_name: "$orndaehz_high_god_name$" #Машинный перевод 28.10.23
+ orndaehz_night_god_name_possessive: "$orndaehz_high_god_name_possessive$" #Машинный перевод 28.10.23
+ orndaehz_water_god_name: "$orndaehz_health_god_name$" #Машинный перевод 28.10.23
+ orndaehz_water_god_name_possessive: "$orndaehz_health_god_name_possessive$" #Машинный перевод 28.10.23
+ orndaehz_witch_god_name: "$orndaehz_devil_name$" #Машинный перевод 28.10.23
+ orndaehz_witch_god_name_possessive: "$orndaehz_devil_name_possessive$" #Машинный перевод 28.10.23
+  
+ orndaehz: "Орн'даэз" #Машинный перевод 28.10.23
+ orndaehz_adj: "Орн'даэз" #Машинный перевод 28.10.23
+ orndaehz_adherent: "Орн'даэза" #Машинный перевод 28.10.23
+ orndaehz_adherent_plural: "Орн'даэза" #Машинный перевод 28.10.23
+ orndaehz_desc: "Приверженцы этой веры считают Орн'даэз, или «[Concept('aelfir','Goldkin')|E]», своими богами и хозяевами, которые сами были столь же разнообразны, как и человечество, несмотря на свою огромную мощь, и пали после разделения на два враждующих племени. Они верят, что Голдкин были затем уничтожены «Небесной женщиной», которая изгнала их в землю без любви и страсти.\n\nТаким образом, Орн'даэз наслаждаются плотскими удовольствиями, совершают ритуальные набеги и впитывают странную эйфорию. вызывая эликсиры, чтобы направить свои ощущения в виде энергии в «другую землю» - полагая, что, получив достаточно энергии, Голдкин сможет избежать изгнания. Друхан'даэзаг также верят в священное состояние, называемое «Сватом Жизни», когда двое мужчин или две женщины заявляют, что другая является недостающей половиной их души, и (в попытке предотвратить древний раскол, уничтоживший Голдкин) объявляют что их духи навсегда едины и отказываются принимать участие в какой-либо форме удовольствия без присутствия другого." #Машинный перевод 28.10.23

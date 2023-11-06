@@ -1,0 +1,106 @@
+﻿l_russian:
+ game_concept_struggle: "Борьба"
+ game_concept_struggle_struggles: "Борьба"
+ game_concept_struggle_desc: "[Concept( 'struggle_struggles', 'Борьбой' )|E] называются затяжные конфликты, затрагивающие обширные [Concept( 'struggle_region_regions', 'области' )|E] со множеством [Concept( 'faiths', 'конфессий' )|E] и [Concept( 'cultures', 'культур' )|E]. Во время борьбы могут применяться особые правила и [modifiers|El], которые со временем меняются. Так как подобные конфликты могут затягиваться на десятки и даже сотни лет, не все [characters|El], участвующие в борьбе, постоянно [Concept( 'war', 'воюют' )|E] друг с другом.\n\nКаждый случай борьбы делится на несколько [Concept( 'struggle_phase_phases', 'фаз' )|E]. Когда $game_concept_characters$ в охваченной области совершают действия (например, объявляют войны или заключают [Concept( 'marrying', 'браки' )|E]), они могут запускать [Concept( 'struggle_catalyst_catalysts', 'катализаторы' )|E], переводящие их из фазы в фазу.\n\nУчастники борьбы определяют степень вовлеченности персонажей с [Concept( 'land', 'землями' )|E]) в охваченных борьбой регионах: «[struggle_involved|E]», «[struggle_interloper_interlopers|E]» или «[struggle_uninvolved|E]»."
+  
+ game_concept_iberian_struggle: "Северные обрядовые войны"
+ game_concept_iberian_struggle_desc: "$game_concept_iberian_struggle$ изображает конфликты и расколы в мире Sjalvolki после смерти Ценвар Сокрушитель Ведьм. Родившийся в результате великого переселения на Расколотый берег, [struggle|E] переключается между [struggle_phase_phases|E] насилия, осторожных перемирий и прагматичного сотрудничества. Постоянных союзников немного, и [rulers|E] следует опасаться полагаться исключительно на общих [faith|E] или [culture|E]."
+ game_concept_struggle_phase: "Фаза борьбы"
+ game_concept_struggle_phase_phase: "Фаза"
+ game_concept_struggle_phase_phases: "Фазы"
+ game_concept_struggle_phase_desc: "$game_concept_struggle_phase_phase$ — общий настрой [Concept( 'struggle_involved', 'вовлеченных' )|E] [Concept( 'characters', 'персонажей' )|E] и [Concept( 'counties', 'графств' )|E] в ее [Concept( 'struggle_region', 'области' )|E]. Фазы представляют собой кратковременное изменение общественных тенденций и устоев, которое влияет на ход [Concept( 'struggle', 'борьбы' )|E].\n\n#weak Например: в одной фазе жители области могут считать, что религиозная терпимость превыше всего, даже если прочие представители их конфессии считают иначе.#!"
+  
+ game_concept_struggle_catalyst: "Фаза катализации"
+ game_concept_struggle_catalyst_catalyst: "Катализация"
+ game_concept_struggle_catalyst_catalysts: "Катализаторы"
+ game_concept_struggle_catalyst_desc: "Смена [Concept( 'struggle_phase_phases', 'фаз' )|E] [Concept( 'struggle_struggles', 'борьбы' )|E] происходит в результате некоторых значительных событий, меняющих общее мнение [Concept( 'struggle_region', 'вовлеченной области' )|E] в определенном направлении. Важные для каждой фазы происшествия перечислены в окне «$game_concept_struggle$».\n\n#weak Например: фаза [Concept( 'iberian_struggle', 'иберийской борьбы' )|E] «[Concept( 'struggle_phase_iberia_opportunity', 'Возможность' )|E]» может перейти или во «[Concept( 'struggle_phase_iberia_hostility', 'Враждебность' )|E]», или в «[Concept( 'struggle_phase_iberia_conciliation', 'Примирение' )|E]». Убийство важного [Concept( 'character', 'персонажа' )|E] склонит чашу весов к первому, а заключение [Concept( 'marriage', 'брачного' )|E] [Concept( 'alliance', 'союза' )|E] с представителем другой [Concept( 'faith', 'конфессии' )|E] — ко второму."
+  
+ game_concept_struggle_involved: "Вовлеченность"
+ game_concept_struggle_involved_desc: "Когда [character|E] или [county|E] являются $game_concept_struggle_involved$, это означает, что они считаются естественной и неотъемлемой частью [struggle|E] людьми определенного [struggle_region|E]. Они полностью извлекают выгоду из изменчивых преимуществ [struggle_phase_phases|E] и являются основными активаторами [struggle_catalyst_catalysts|E].\n\n[cultures|E] и [faiths|E], которые считаются $game_concept_struggle_involved$, — это те, которые имеют или имели значительное присутствие в [county|E]0.\n\ n[county|E]1 Чтобы быть $game_concept_struggle_involved$, [county|E]3 должен иметь как [county|E]4, так и [county|E]5 быть $game_concept_struggle_involved$ [county|E]7, а [county|E]8 быть либо [county|E]9 в пределах $game_concept_struggle_involved$0, либо иметь их $game_concept_struggle_involved$1 там.[county|E]8"
+  
+ game_concept_struggle_interloper: "Вмешательство"
+ game_concept_struggle_interloper_interlopers: "Вмешательство"
+ game_concept_struggle_interloper_desc: "Когда [character|E] запутался в определенном [struggle|E], но еще не считается полностью [struggle_involved|E], они являются $game_concept_struggle_interloper$.\n\n$game_concept_struggle_interloper_interlopers$ имеют свои [capital|E] в [struggle_region|E] (или они [unlanded|E] там) , но не имеют одновременно $game_concept_struggle_involved$ [faith|E] и $game_concept_struggle_involved$ [struggle|E]1.\n\nПолностью $game_concept_struggle_involved$ [struggle|E]3 думайте о них как о любопытных, беспокойных чужеземцах, которые не понимают, где они не нужны. $game_concept_struggle_interloper$ [struggle|E]5, таким образом, обычно принимают некоторые штрафы в [struggle|E]6, которые они имеют внутри [struggle|E]7."
+  
+ game_concept_struggle_uninvolved: "Отсутствие вовлеченности"
+ game_concept_struggle_uninvolved_desc: "Чтобы [character|E] считался $game_concept_struggle_uninvolved$ в конкретном [struggle|E], ему нужно только, чтобы его [capital|E] находился вне [struggle_region|E], или же он должен быть [unlanded|E] вне его.\n\nЭто означает, что он считается аутсайдером, кем-то, кто не только не имеет серьезной заинтересованности в продолжающемся [struggle_phase_phases|E], но и кто #EMP не должен #!,, потому что они явно не могли понять местные нюансы.\n\nПоскольку люди внутри $game_concept_struggle$ могут согласны с тем, что $game_concept_struggle_uninvolved$ $game_concept_struggle_uninvolved$1 не имеют никакого бизнеса в #EMP своих $game_concept_struggle_uninvolved$3 землях, $game_concept_struggle_uninvolved$ $game_concept_struggle_uninvolved$5 обычно принимают суровые наказания в любом $game_concept_struggle_uninvolved$6, которое они держат в пределах $game_concept_struggle_uninvolved$7."
+  
+ game_concept_struggle_large_conquest: "Борьба: крупное завоевание"
+ game_concept_struggle_large_conquest_desc: "Среди катализаторов может быть победа атакующего в крупной [Concept( 'war', 'войне' )|E].\n\nУчитываются следующие [casus_bellis|El]:\n$EFFECT_LIST_BULLET$ $duchy_conquest_cb$ \n$EFFECT_LIST_BULLET$ $individual_duchy_de_jure_cb$ \n$EFFECT_LIST_BULLET$ $imperial_reconquest_cb$ \n$EFFECT_LIST_BULLET$ $invasion_war$ \n$EFFECT_LIST_BULLET$ $clan_invasion_war$ \n$EFFECT_LIST_BULLET$ $mongol_invasion_war$ \n$EFFECT_LIST_BULLET$ $major_religious_war$ $game_concept_war$ \n$EFFECT_LIST_BULLET$ $undirected_great_holy_war$ — как [Concept( 'great_holy_war_directed', 'направленная' )|E], так и [Concept( 'great_holy_war_undirected', 'нет' )|E] \n$EFFECT_LIST_BULLET$ $tribal_subjugation_cb$"
+  
+ game_concept_struggle_region: "Область борьбы"
+ game_concept_struggle_region_region: "Область"
+ game_concept_struggle_region_regions: "Области"
+ game_concept_struggle_region_desc: "Каждая [struggle|El] привязана к [Concept( 'region', 'области' )|E] карты. Местонахождение [Concept( 'character_possessive', 'персонажа' )|E] в этой области (а также его [culture|El] и [faith|El]) определяют степень вовлеченности в борьбу: «[struggle_involved|E]», «[struggle_interloper|E]» или «[struggle_uninvolved|E]».\n\n[counties|E] в области обычно получают [Concept( 'county_modifiers', 'модификаторы' )|E], соответствующие текущей [Concept( 'struggle_phase_phase', 'фазе' )|E]."
+  
+ game_concept_struggle_conquest: "Конфликт"
+ game_concept_struggle_conquest_conquest: "Конфликт"
+ game_concept_struggle_conquest_conquests: "Конфликты"
+ game_concept_struggle_conquest_desc: "[rulers|E], вовлеченные в [Concept( 'struggle', 'борьбу' )|E], нередко ввязываются в пограничные конфликты и мелкие стычки, влияющие на текущую [Concept( 'struggle_phase', 'фазу борьбы' )|E]. Постоянная готовность к небольшим конфликтам позволяет правителям захватывать небольшие территории, завоевывая их или превращая в вассалов.\n\nТак как $game_concept_struggle_conquest_conquests$ зависят от условий борьбы, затраты [Concept( 'prestige', 'престижа' )|E] меняются в зависимости от фазы."
+  
+ game_concept_struggle_phase_iberia_opportunity: "Фаза возможности"
+ game_concept_struggle_phase_iberia_opportunity_desc: "В результате долгого и относительно мирного сосуществования в [Concept( 'struggle_phase_iberia_conciliation', 'фазе примирения' )|E] Иберийской борьбы, начинает расти удовлетворенность. И крестьяне, и дворянство рады, что все #EMP в порядке#!, что дает более практичным [Concept( 'characters', 'персонажам' )|E] возможность воспользоваться их наивностью.\n\nСо временем или новые конфликты приведут к эскалации [Concept( 'struggle_phase_iberia_hostility', 'враждебности' )|E], или разумные политические решения помогут достичь хрупкого равновесия благодаря примирению."
+  
+ game_concept_struggle_phase_iberia_hostility: "Фаза враждебности"
+ game_concept_struggle_phase_iberia_hostility_desc: "В этой [Concept( 'struggle_phase_phase', 'фазе' )|E] кипение страстей достигает апогея. Постоянные стычки и растущее взаимное непонимание в [Concept( 'struggle_phase_iberia_opportunity', 'фазе возможности' )|E] Иберийской борьбы привели к усилению взаимной ненависти [Concept( 'characters', 'персонажей' )|E] разных [Concept( 'cultures', 'культур' )|E], [Concept( 'faiths', 'конфессий' )|E] и #EMP даже хуже#!: и того и другого.\n\nНо подобное кровопролитие не может длиться вечно. Со временем здравомыслие или банальное истощение помогут достичь [Concept( 'struggle_phase_iberia_compromise', 'компромисса' )|E] на полуострове."
+  
+ game_concept_struggle_phase_iberia_compromise: "Фаза компромисса"
+ game_concept_struggle_phase_iberia_compromise_desc: "Будь то болезнь с борьбой [struggle_phase_iberia_hostility|E] или ловкая эскалация во время [struggle_phase_iberia_conciliation|E], $game_concept_struggle_phase_iberia_compromise$ представляет собой растущую договоренность между Ритуалами. Разногласия отходят на второй план, а общая история и наследие связывают бывших врагов вместе.\n\nПолуостров стоит на распутье: если конфликты возникнут снова, [struggle_phase_iberia_opportunity|E] ждет."
+  
+ game_concept_struggle_phase_iberia_conciliation: "Фаза примирения"
+ game_concept_struggle_phase_iberia_conciliation_desc: "В результате заметного [struggle_phase_iberia_compromise|E], во время этого $game_concept_struggle_phase_phase$ отношения между народами Обрядов становятся настолько сердечными, что посторонним трудно понять их вседозволенность. Inter-[faith|E] [marriages|E] особенно распространены.\n\nЭто не может длиться вечно, и злоупотребление доверием в конечном итоге вернет [iberian_struggle|E] к [struggle_phase_iberia_compromise|E]."
+  
+ game_concept_struggle_involved_faith: "Вовлеченная конфессия"
+ game_concept_struggle_involved_faiths: "Вовлеченные конфессии"
+ game_concept_struggle_involved_faith_desc: "Некоторые [faiths|El] изначально [Concept( 'struggle_involved', 'вовлечены' )|E] в [Concept( 'struggle', 'борьбу' )|E]. Остальные могут присоединиться к ней при изменении обстоятельств."
+  
+ game_concept_struggle_involved_culture: "Вовлеченная культура"
+ game_concept_struggle_involved_cultures: "Вовлеченные культуры"
+ game_concept_struggle_involved_culture_desc: "Некоторые [cultures|El] изначально [Concept( 'struggle_involved', 'вовлечены' )|E] в [Concept( 'struggle', 'борьбу' )|E]. Остальные могут присоединиться к ней при изменении обстоятельств."
+  
+ game_concept_dissolution_faction: "Фракция разделения"
+ game_concept_dissolution_factions: "Фракции разделения"
+ game_concept_faction_dissolution: "Разделение"
+ game_concept_dissolution_faction_desc: "[dissolution_faction|E] старается разрушить [Concept( 'realm', 'державу' )|E] своего [Concept( 'liege', 'сюзерена' )|E]. Если они добиваются успеха, все вассалы державы становятся [Concept( 'independent', 'независимыми' )|E], а сюзерен теряет [primary_title|El]."
+  
+  
+ game_concept_improve_city_province_decision: "Решение: $improve_city_province_decision_name$"
+ game_concept_improve_city_province_decision_desc: "Это [decision|El] позволяет увеличить количество [Concept( 'buildings', 'зданий' )|E], доступных в [Concept( 'city_holding', 'городском владении' )|E]."
+  
+ game_concept_border_raid: "Вылазка"
+ game_concept_border_raids: "Вылазки"
+ game_concept_border_raiding: "Совершение вылазок"
+ game_concept_border_raid_desc: "Это особый тип [war|E], доступный между [struggle_involved|E] [rulers|E] Войн обрядов [struggle|E], когда атакующий нацеливается на [siege|E] конкретного врага [county|E], граничащего с его [realm|E].\n\n [war_leader|E] получает [gold|E] за захват § _9, который потеряет [struggle_involved|E]0 и [struggle_involved|E]1. [struggle_involved|E]2 также может быть уничтожен, что даст больше [gold|E], шанс увеличивается с размером [struggle_involved|E]0 и [siege|E] [struggle_involved|E]6.\n\n[struggle_involved|E]7 будет быстро получен атакующим после [struggle_involved|E]8 [war_target|E]."
+  
+ game_concept_bargain_fealty: "Договориться о верности"
+ game_concept_bargained_fealty: "Договорная верность"
+ game_concept_bargain_fealty_desc: "Это особое [interaction|El] доступно [Concept( 'struggle_involved', 'вовлеченным в борьбу' )|E] [Concept( 'rulers', 'правителям' )|E], участвующим в оборонительной [Concept( 'war', 'войне' )|E].\n\n[war_leader|E] просит соседнего [Concept( 'ruler', 'правителя' )|E] более высокого [Concept( 'rank', 'ранга' )|E] присоединиться к войне, пообещав стать [Concept( 'vassal', 'вассалом' )|E] этого правителя."
+  
+ game_concept_contract_assistance: "Контракт о помощи"
+ game_concept_contracting_assistance: "Выполнение контракта о помощи"
+ game_concept_contract_assistance_desc: "Это особый тип [interaction|E], доступный для [struggle_involved|E] [rulers|E] Войн обрядов [struggle|E], позволяющий им присоединиться к другим [struggle_involved|E] [rulerpossessive|E] [wars|E] в обмен на [gold|E].\n\nПлатеж производится по завершении [war|E]. , каким бы ни был результат, если подрядчик сделал [war_contribution|E] не менее 100."
+  
+ game_concept_iberian_reclamation: "Иберийская рекламация"
+ game_concept_iberian_reclaiming: "Возвращение иберийских территорий"
+ game_concept_iberian_reclamations: "Иберийские рекламации"
+ game_concept_iberian_reclamation_desc: "Особый тип [wars|El], доступный [Concept( 'struggle_involved', 'вовлеченным в Иберийскую борьбу' )|E] [Concept( 'rulers', 'правителям' )|E].\n\nАтакующий старается завоевать [duchy|El], где присутствуют любые [Concept( 'struggle_involved', 'вовлеченные' )|E] [counties|El], которыми владеет [ruler|El], [Concept( 'struggle_interloper_interlopers', 'вмешивающийся в борьбу' )|E] или [Concept( 'struggle_uninvolved', 'невовлеченный в нее' )|E]. Также атакующий может попытаться сделать правителя своим [Concept( 'vassalize', 'вассалом' )|E], если не владеет землями за пределами герцогства."
+  
+ game_concept_enforce_truce: "Навязать перемирие"
+ game_concept_enforced_truce: "Навязанное перемирие"
+ game_concept_enforce_truce_desc: "Особое [interaction|El], доступное доступный [Concept( 'struggle_involved', 'вовлеченным в Иберийскую борьбу' )|E] [Concept( 'rulers', 'правителям' )|E], которое завершает [Concept( 'war', 'войну' )|E] [Concept( 'white_peace', 'белым миром' )|E] и устанавливает [truces|El].\n\nВоспользоваться им можно только для завершения войны между другими вовлеченными [Concept( 'rulers', 'правителями' )|E] более низкого [Concept( 'rank', 'ранга' )|E], если одна из сторон [Concept( 'independent', 'независима' )|E] или принадлежит той же [Concept( 'realm', 'державе' )|E]."
+  
+ game_concept_incite_revolts_interaction: "Спровоцировать мятеж"
+ game_concept_incite_revolts_interaction_desc: "Позволяет тратить [gold_i][gold|El] на подстрекательство к бунту [Concept( 'peasant_faction', 'крестьянской фракции' )|E] в чужой [Concept( 'realm', 'державе' )|E], если в ней есть [Concept( 'counties', 'графства' )|E] с низким [Concept( 'county_opinion', 'мнением' )|E]."
+  
+ game_concept_secure_iberian_foothold_decision: "$secure_iberian_foothold_decision_title$"
+ game_concept_secure_iberian_foothold_decision_desc: "[decision|E], позволяющее [Concept( 'struggle_involved', 'невовлеченному в борьбу' )|E] [Concept( 'ruler', 'правителю' )|E] закончить [Concept( 'iberian_struggle', 'борьбу за Иберию' )|E]."
+  
+ game_concept_golden_age_jewish_science_in_iberia_decision: "$golden_age_jewish_science_in_iberia_decision$"
+ game_concept_golden_age_jewish_science_in_iberia_decision_desc: "[decision|E], позволяющее поддержать иудейских ученых и воспользоваться плодами их трудов."
+  
+ game_concept_build_holy_pilgrim_roads_decision: "$build_holy_pilgrim_roads_decision$"
+ game_concept_build_holy_pilgrim_roads_decision_desc: "[decision|E], позволяющее построить дороги, чтобы упростить жизнь паломникам."
+  
+ game_concept_purchase_truce_interaction: "$purchase_truce_interaction$"
+ game_concept_purchase_truce_interaction_desc: "[interaction|E], позволяющее досрочно покупать [truces|El] за [gold_i][gold|El]."
+  

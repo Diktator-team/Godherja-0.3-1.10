@@ -1,0 +1,18 @@
+﻿l_russian:
+ relation_magic_tutor_female:0 "Придворный Маг"
+ relation_magic_tutor_male:0 "Придворный Маг"
+ relation_magic_tutor_female_possessive:0 "Придворный Маг"
+ relation_magic_tutor_male_possessive:0 "Придворный Маг"
+
+ magic_tutor:1 "[Concept('magic_tutor','Учитель магии')|E]"
+
+ killed_my_mother:0 "[CHARACTER.GetShortUIName|U] всю жизнь стремился отомстить после того, как был вынужден смотреть, как [TARGET_CHARACTER.GetShortUIName|U] казнит мать [CHARACTER.GetShortUINamePossessiveNoTooltip]." 
+ killed_my_mother_corresponding:0 "[CHARACTER.GetShortUIName|U] был отмечен [TARGET_CHARACTER.GetShortUIName|U] для мести после казни [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] матери." 
+ soulmate_pirates:0 "[CHARACTER.GetShortUIName|U] соблазнил [TARGET_CHARACTER.GetShortUIName|U] после того, как спас от пиратов." 
+ soulmate_pirates_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] соблазнил [CHARACTER.GetShortUIName|U] после того, как спас от пиратов." 
+
+# GH versions of BP custom loc
+ relation_pathfellow:0 "путник" 
+ relation_pactkin:0 "паккин" 
+ relation_blood_brother:0 "кровный брат" 
+ relation_blood_sister:0 "кровная сестра" 

@@ -1,0 +1,236 @@
+﻿l_russian:
+ bloodline_no: "родословная"  #Машинный перевод 28.10.23!
+ bloodline_show: "да"  #Машинный перевод 28.10.23!
+  
+ BLOODLINE_LIST: "Родословные"  #Машинный перевод 28.10.23!
+ OPEN_BLOODLINE_LIST_TOOLTIP: "#T Просмотр родословных#!"  #Машинный перевод 28.10.23!
+  
+ bloodline_founder_name: "[CHARACTER.GetUINameNotMeNoFormat]"  #Машинный перевод 28.10.23!
+  
+ bloodline_inherit_all: "#T Наследование: Все#!\nThe Родословная передается как по мужской, так и по женской линии."  #Машинный перевод 28.10.23!
+ bloodline_inherit_matri: "#T Наследование: матрилинейное#!\nThe Родословная передается только по женской линии"  #Машинный перевод 28.10.23!
+ bloodline_inherit_patri: "#T Наследование: по отцовской линии#!\nThe Родословная передается только по мужской линии"  #Машинный перевод 28.10.23!
+ bloodline_allow_bastards: "#T Ублюдки:#! #T;P Разрешено#!\nУблюдки могут наследовать Родословную"  #Машинный перевод 28.10.23!
+ bloodline_allow_bastards_not: "#T Ублюдки:#! #T;N Запрещено#!\nУблюдки могут #N;bold не#! наследовать Родословную"  #Машинный перевод 28.10.23!
+ bloodline_matri_override: "#T Передача по материнской линии:#! #T;P Активный#!\nОтцовская родословная может передаваться матерью в матрилинейном браке, а матрилинейная - отцом в обычном браке."  #Машинный перевод 28.10.23!
+ bloodline_matri_override_not: "#T Передача по материнской линии:#! #T;N Инктив#!\nОтцовская родословная может #N;bold не#! передаваться матерью, а матрилинейная родословная может #N;bold не#! передаваться отцом"  #Машинный перевод 28.10.23!
+ bloodline_special_condition: "#T Дополнительные условия:#! #T;P выполнен#! \nРодословная имеет дополнительные условия, которые необходимо выполнить, чтобы она была унаследована.\nВсе условия выполнены."  #Машинный перевод 28.10.23!
+ bloodline_special_condition_not: "#T Дополнительные условия:#! #T;N Невыполнено#! \nРодословная имеет дополнительные условия, которые должны быть выполнены для того, чтобы она была унаследована.\nЭти условия #N;bold не выполняются#!:\n[GetScriptedGui(Concatenate( Trait.GetKey, '_founder' )).IsValidTooltip(GuiScope.SetRoot(Character.MakeScope).End)]"  #Машинный перевод 28.10.23!
+  
+ bloodline_desc_blank: ""
+  
+ trait_bloodline_cenware: "Кровь разрушителя ведьм"  #Машинный перевод 28.10.23!
+ bloodline_cenware_inherit: "патриарх"  #Машинный перевод 28.10.23!
+ bloodline_cenware_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_cenware_bastards: "нет"  #Машинный перевод 28.10.23!
+ bloodline_cenware_special: "да"  #Машинный перевод 28.10.23!
+ bloodline_cenware_desc: "Ценвар-Сокрушитель Ведьм был первым правителем, который объединил племена Сялволки, десятки религий и культур северо-востока, чтобы разграбить [mayikrata|E], а затем уничтожить Империю."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_nikaryin: "Кровь последнего Никариина"  #Машинный перевод 28.10.23!
+ bloodline_nikaryin_inherit: "патриарх"  #Машинный перевод 28.10.23!
+ bloodline_nikaryin_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_nikaryin_bastards: "да"  #Машинный перевод 28.10.23!
+ bloodline_nikaryin_special: "да"  #Машинный перевод 28.10.23!
+ bloodline_nikaryin_desc: "Последний Никариин превратил небольшой прибрежный город-государство в Империю и с помощью могущественной магии сделал первый шаг к объединению [aversaria|E]."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_phanagorax: "Кровь Фанаго'ракса «Святого»"  #Машинный перевод 28.10.23!
+ bloodline_phanagorax_inherit: "патриарх"  #Машинный перевод 28.10.23!
+ bloodline_phanagorax_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_phanagorax_bastards: "да"  #Машинный перевод 28.10.23!
+ bloodline_phanagorax_special: "да"  #Машинный перевод 28.10.23!
+ bloodline_phanagorax_desc: "Несмотря на то, что при жизни он вызывал большие споры, Фанаго'ракс был обожествлен в более поздних Священных Писаниях [aversarian|E] как основатель современной Агиократы."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_dhacixen: "Кровь Дакси'ксена"  #Машинный перевод 28.10.23!
+ bloodline_dhacixen_inherit: "патриарх"  #Машинный перевод 28.10.23!
+ bloodline_dhacixen_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_dhacixen_bastards: "да"  #Машинный перевод 28.10.23!
+ bloodline_dhacixen_special: "да"  #Машинный перевод 28.10.23!
+ bloodline_dhacixen_desc: "Даки'ксен попытался противостоять возвышению Агиократа и стал последним Аэрсодиаксином Аавтократиром. После Войны Тысячи Драконов он и его род были почти полностью истреблены."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_aexionarax: "Кровь Эксионаракса"  #Машинный перевод 28.10.23!
+ bloodline_aexionarax_inherit: "патриарх"  #Машинный перевод 28.10.23!
+ bloodline_aexionarax_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_aexionarax_bastards: "да"  #Машинный перевод 28.10.23!
+ bloodline_aexionarax_special: "да"  #Машинный перевод 28.10.23!
+ bloodline_aexionarax_desc: "Эксионаракс начал Войну Тысячи Драконов от имени Имперской фракции, убив Даки'ксена и взяв трон себе. Его правление укрепило Аагиократу, и его часто называют истинным началом современного [aversaria|E]."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_maklea: "Кровь Маклеи"  #Машинный перевод 28.10.23!
+ bloodline_maklea_inherit: "матри"  #Машинный перевод 28.10.23!
+ bloodline_maklea_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_maklea_bastards: "да"  #Машинный перевод 28.10.23!
+ bloodline_maklea_special: "да"  #Машинный перевод 28.10.23!
+ bloodline_maklea_desc: "Маклея положила начало традиции Кровавого Сената, убив своего отца Акалионикса на дуэли. В ее правлении доминировало восстание, поскольку она выслеживала своих братьев и подавляла знать."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_nothyx: "Кровь Нотикса"  #Машинный перевод 28.10.23!
+ bloodline_nothyx_inherit: "все"  #Машинный перевод 28.10.23!
+ bloodline_nothyx_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_nothyx_bastards: "да"  #Машинный перевод 28.10.23!
+ bloodline_nothyx_special: "да"  #Машинный перевод 28.10.23!
+ bloodline_nothyx_desc: "Нотикс был первым аутократиром, победившим в Кровавом Сенате без использования магии. Обучившись у Анти-Магов [chevalie|E], его династия будет править на протяжении нескольких поколений и возглавит последний золотой век [aversaria_possessive|E]."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_axiaothea: "Кровь Аксиаотеи"  #Машинный перевод 28.10.23!
+ bloodline_axiaothea_inherit: "все"  #Машинный перевод 28.10.23!
+ bloodline_axiaothea_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_axiaothea_bastards: "да"  #Машинный перевод 28.10.23!
+ bloodline_axiaothea_special: "да"  #Машинный перевод 28.10.23!
+ bloodline_axiaothea_desc: "Аксиаофея считалась самым могущественным магом поколения. Соперница Эшраеса, она разорвала [aversaria|E] на части в [imperial_civil_war|E], что закончилось [frodbrokna|E] и ее смертью. Несмотря на противоречивую жизнь, вскоре после этого ее обожествили."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_aeschraes: "Кровь Разрушителя Мира"  #Машинный перевод 28.10.23!
+ bloodline_aeschraes_inherit: "патриарх"  #Машинный перевод 28.10.23!
+ bloodline_aeschraes_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_aeschraes_bastards: "да"  #Машинный перевод 28.10.23!
+ bloodline_aeschraes_special: "да"  #Машинный перевод 28.10.23!
+ bloodline_aeschraes_desc: "Эшраес был одним из самых молодых Легонов в истории после трагического воспитания и заслужил звание [aversaria_possessive|E] самого могущественного [magi|E] после конца света во время [imperial_civil_war|E]."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_pothacleas: "Кровь Последнего Ийросси"  #Машинный перевод 28.10.23!
+ bloodline_pothacleas_inherit: "все"  #Машинный перевод 28.10.23!
+ bloodline_pothacleas_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_pothacleas_bastards: "да"  #Машинный перевод 28.10.23!
+ bloodline_pothacleas_special: "да"  #Машинный перевод 28.10.23!
+ bloodline_pothacleas_desc: "Потаклеас был последним независимым правителем Иироросси, сопротивлявшимся контролю [aversaria|E]. После жестокой партизанской войны он сдался Аавтократиру и попросил о пощаде у своего народа, которую аверсарианцы предоставили, навеки поработив Ииросси, прежде чем убить его."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_the_skull_taker: "Кровь Собирателя Черепов"  #Машинный перевод 28.10.23!
+ bloodline_the_skull_taker_inherit: "патриарх"  #Машинный перевод 28.10.23!
+ bloodline_the_skull_taker_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_the_skull_taker_bastards: "да"  #Машинный перевод 28.10.23!
+ bloodline_the_skull_taker_special: "да"  #Машинный перевод 28.10.23!
+ bloodline_the_skull_taker_desc: "Внушающий страх военачальник, Горасос «Собиратель Черепов» проложил себе путь через [aversaria|E] во имя Эшраеса, прежде чем броситься убивать во имя своего собственного."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_gardfrei: "Кровь Хрисе ден ва Сеньон"  #Машинный перевод 28.10.23!
+ bloodline_gardfrei_inherit: "патриарх"  #Машинный перевод 28.10.23!
+ bloodline_gardfrei_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_gardfrei_bastards: "да"  #Машинный перевод 28.10.23!
+ bloodline_gardfrei_special: "да"  #Машинный перевод 28.10.23!
+ bloodline_gardfrei_desc: "Жестокий воин, Хрисе убивал своих соперников и своими жестокими методами заставил ужаснуть большую часть общества Шевальена, объединив расколотое Высшее Королевство впервые почти за сто лет."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_huegons: "Кровь Хьюгонов ден ва Диоти"  #Машинный перевод 28.10.23!
+ bloodline_huegons_inherit: "патриарх"  #Машинный перевод 28.10.23!
+ bloodline_huegons_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_huegons_bastards: "да"  #Машинный перевод 28.10.23!
+ bloodline_huegons_special: "да"  #Машинный перевод 28.10.23!
+ bloodline_huegons_desc: "Будучи лучшим государственным деятелем своего поколения, Хьюгон объединил Марки с помощью дипломатии, интриг и войны. Однако он никогда не носил корону и умер от болезни на заключительном этапе объединения, а его безумный сын Агир был коронован от его имени."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_the_good_king: "Кровь Доброго Короля"  #Машинный перевод 28.10.23!
+ bloodline_the_good_king_inherit: "все"  #Машинный перевод 28.10.23!
+ bloodline_the_good_king_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_the_good_king_bastards: "да"  #Машинный перевод 28.10.23!
+ bloodline_the_good_king_special: "да"  #Машинный перевод 28.10.23!
+ bloodline_the_good_king_desc: "Добрый король Бастион объединил первых участников марша и повел их на запад, в [chevalie|E]. Известный своей справедливостью, Бастион никогда не брал детей, но за время своего правления усыновил множество сирот."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_the_prophet: "Кровь Пророка"  #Машинный перевод 28.10.23!
+ bloodline_the_prophet_inherit: "все"  #Машинный перевод 28.10.23!
+ bloodline_the_prophet_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_the_prophet_bastards: "нет"  #Машинный перевод 28.10.23!
+ bloodline_the_prophet_special: "да"  #Машинный перевод 28.10.23!
+ bloodline_the_prophet_desc: "Пророк видел всю историю от их рождения до конца света в 1254 году, и все правители Амсари произошли от их крови и следовали их мудрости."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_the_black_sun: "Кровь Черного Солнца"  #Машинный перевод 28.10.23!
+ bloodline_the_black_sun_inherit: "патриарх"  #Машинный перевод 28.10.23!
+ bloodline_the_black_sun_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_the_black_sun_bastards: "нет"  #Машинный перевод 28.10.23!
+ bloodline_the_black_sun_special: "да"  #Машинный перевод 28.10.23!
+ bloodline_the_black_sun_desc: "Никаноней «Черное Солнце» доказал, что он равен Сьялволькам, и создал на севере новый [aversaria|E], мечтая вернуть старое."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_kathanouxa: "Кровь Короля-волшебника"  #Машинный перевод 28.10.23!
+ bloodline_kathanouxa_inherit: "все"  #Машинный перевод 28.10.23!
+ bloodline_kathanouxa_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_kathanouxa_bastards: "да"  #Машинный перевод 28.10.23!
+ bloodline_kathanouxa_special: "да"  #Машинный перевод 28.10.23!
+ bloodline_kathanouxa_desc: "Несмотря на то, что никто не знал, что такое волшебник, Катанукса стал известен как самый могущественный Маг поколения и попытался заявить о своих правах на весь мир."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_odyr_then: "Кровь Одира Тогда"  #Машинный перевод 28.10.23!
+ bloodline_odyr_then_inherit: "патриарх"  #Машинный перевод 28.10.23!
+ bloodline_odyr_then_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_odyr_then_bastards: "нет"  #Машинный перевод 28.10.23!
+ bloodline_odyr_then_special: "да"  #Машинный перевод 28.10.23!
+ bloodline_odyr_then_desc: "Затем Одир восстал против Храма Горы-Солнца в попытке свергнуть монашеские ордена и принести власть его светским военачальникам, а затем продолжил свой бунт против вторгшихся [aversarians|E]."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_odyr_lleth: "Кровь Одира Ллета"  #Машинный перевод 28.10.23!
+ bloodline_odyr_lleth_inherit: "патриарх"  #Машинный перевод 28.10.23!
+ bloodline_odyr_lleth_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_odyr_lleth_bastards: "нет"  #Машинный перевод 28.10.23!
+ bloodline_odyr_lleth_special: "да"  #Машинный перевод 28.10.23!
+ bloodline_odyr_lleth_desc: "Одир Ллет восстал против [aversaria|E] с гор Опахазии, сжег дворец губернатора и почти разрушил регион."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_odyr_hune: "Кровь Одира Хуна"  #Машинный перевод 28.10.23!
+ bloodline_odyr_hune_inherit: "патриарх"  #Машинный перевод 28.10.23!
+ bloodline_odyr_hune_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_odyr_hune_bastards: "нет"  #Машинный перевод 28.10.23!
+ bloodline_odyr_hune_special: "да"  #Машинный перевод 28.10.23!
+ bloodline_odyr_hune_desc: "Одир Хьюн начал последнее восстание Одиров, почти захватив [GetTitleByKey('c_asiupoli').GetNameNoTier], но был побежден объединенными силами легионов [aversaria_possessive|E]."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_vercigex: "Кровь Верцигекса"  #Машинный перевод 28.10.23!
+ bloodline_vercigex_inherit: "патриарх"  #Машинный перевод 28.10.23!
+ bloodline_vercigex_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_vercigex_bastards: "да"  #Машинный перевод 28.10.23!
+ bloodline_vercigex_special: "да"  #Машинный перевод 28.10.23!
+ bloodline_vercigex_desc: "Измученный разум, Верцигекс был единственным магом, правившим [chevalie|E], и близким другом Бастиона. В то время как он пытался спасти расколотое царство, его видения умирающего будущего и недоверие его вассалов привели к его убийству."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_cois_defeated: "Кровь последнего Аутократира"  #Машинный перевод 28.10.23!
+ bloodline_cois_defeated_inherit: "все"  #Машинный перевод 28.10.23!
+ bloodline_cois_defeated_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_cois_defeated_bastards: "да"  #Машинный перевод 28.10.23!
+ bloodline_cois_defeated_special: "нет"  #Машинный перевод 28.10.23!
+ bloodline_cois_defeated_desc: "Признанный последним Аавтократиром, Койс был одним из немногих, кому удалось победить Ценвара в открытом бою."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_cois_victorious: "Кровь Койса"  #Машинный перевод 28.10.23!
+ bloodline_cois_victorious_inherit: "все"  #Машинный перевод 28.10.23!
+ bloodline_cois_victorious_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_cois_victorious_bastards: "да"  #Машинный перевод 28.10.23!
+ bloodline_cois_victorious_special: "нет"  #Машинный перевод 28.10.23!
+ bloodline_cois_victorious_desc: "Когда вся надежда на [aversaria|E], казалось, была потеряна, Койс восстал из безвестности, чтобы сокрушить орды Ценвара и спасти Империю."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_salacad: "Кровь Венценосного Небесами"  #Машинный перевод 28.10.23!
+ bloodline_salacad_inherit: "все"  #Машинный перевод 28.10.23!
+ bloodline_salacad_patri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_salacad_bastards: "да"  #Машинный перевод 28.10.23!
+ bloodline_salacad_special: "нет"  #Машинный перевод 28.10.23!
+ bloodline_salacad_desc: "Коронованные Небом и их потомки привели Дочерей Неба в новый золотой век своего народа."  #Машинный перевод 28.10.23!
+  
+ trait_bloodline_gatecrasher: "Кровь незваного гостя"  #Машинный перевод 28.10.23!
+ bloodline_gatecrasher_inherit: "все"  #Машинный перевод 28.10.23!
+ bloodline_gatecrasher_matri_override: "да"  #Машинный перевод 28.10.23!
+ bloodline_gatecrasher_bastards: "нет"  #Машинный перевод 28.10.23!
+ bloodline_gatecrasher_special: "да"  #Машинный перевод 28.10.23!
+ bloodline_gatecrasher_desc: "Незваный гость победил могучих адабиссийцев не один, а два раза — подвиг, почти не имеющий аналогов в истории."  #Машинный перевод 28.10.23!
+  
+ found_diplomacy_bloodline_decision: "Найдена родословная дипломатии"  #Машинный перевод 28.10.23!
+ found_diplomacy_bloodline_decision_desc: "Вы и ваши потомки будут известны своими дипломатическими навыками."  #Машинный перевод 28.10.23!
+ found_diplomacy_bloodline_decision_tooltip: "Вы и ваши потомки будут известны своими дипломатическими навыками."  #Машинный перевод 28.10.23!
+ found_diplomacy_bloodline_decision_confirm: "Нашел родословную"  #Машинный перевод 28.10.23!
+ found_martial_bloodline_decision: "Найдена боевая родословная"  #Машинный перевод 28.10.23!
+ found_martial_bloodline_decision_desc: "Вы и ваши потомки будут известны своим боевым мастерством."  #Машинный перевод 28.10.23!
+ found_martial_bloodline_decision_tooltip: "Вы и ваши потомки будут известны своим боевым мастерством."  #Машинный перевод 28.10.23!
+ found_martial_bloodline_decision_confirm: "Нашел родословную"  #Машинный перевод 28.10.23!
+ found_stewardship_bloodline_decision: "Найдена родословная управления"  #Машинный перевод 28.10.23!
+ found_stewardship_bloodline_decision_desc: "Вы и ваши потомки будут известны своим умением управлять"  #Машинный перевод 28.10.23!
+ found_stewardship_bloodline_decision_tooltip: "Вы и ваши потомки будут известны своим умением управлять"  #Машинный перевод 28.10.23!
+ found_stewardship_bloodline_decision_confirm: "Нашел родословную"  #Машинный перевод 28.10.23!
+ found_intrigue_bloodline_decision: "Нашел интригующую родословную"  #Машинный перевод 28.10.23!
+ found_intrigue_bloodline_decision_desc: "Вы и ваши потомки будут известны своим умением интриги."  #Машинный перевод 28.10.23!
+ found_intrigue_bloodline_decision_tooltip: "Вы и ваши потомки будут известны своим умением интриги."  #Машинный перевод 28.10.23!
+ found_intrigue_bloodline_decision_confirm: "Нашел родословную"  #Машинный перевод 28.10.23!
+ found_learning_bloodline_decision: "Нашел обучающую родословную"  #Машинный перевод 28.10.23!
+ found_learning_bloodline_decision_desc: "Вы и ваши потомки будут известны своим умением учиться."  #Машинный перевод 28.10.23!
+ found_learning_bloodline_decision_tooltip: "Вы и ваши потомки будут известны своим умением учиться."  #Машинный перевод 28.10.23!
+ found_learning_bloodline_decision_confirm: "Нашел родословную"  #Машинный перевод 28.10.23!
+  
+ diplomacy_bloodline_modifier: "Кровь государственного деятеля"  #Машинный перевод 28.10.23!
+  
+ martial_bloodline_modifier: "Кровь Воина"  #Машинный перевод 28.10.23!
+  
+ stewardship_bloodline_modifier: "Кровь стюарда"  #Машинный перевод 28.10.23!
+  
+ intrigue_bloodline_modifier: "Кровь паука"  #Машинный перевод 28.10.23!
+  
+ learning_bloodline_modifier: "Кровь мудрых"  #Машинный перевод 28.10.23!
+  
+ diplomacy_bloodline_modifier_desc: "Великий государственный деятель и дипломат, их потомки, похоже, сохранили часть их таланта."  #Машинный перевод 28.10.23!
+  
+ martial_bloodline_modifier_desc: "Блестящие полководцы и бойцы, их потомки, похоже, сохранили часть их таланта."  #Машинный перевод 28.10.23!
+  
+ stewardship_bloodline_modifier_desc: "Их потомки, казалось бы, способные производить золото из ничего, похоже, сохранили часть их таланта."  #Машинный перевод 28.10.23!
+  
+ intrigue_bloodline_modifier_desc: "Постоянно плетя паутину заговоров, их потомки, кажется, сохранили часть их таланта."  #Машинный перевод 28.10.23!
+  
+ learning_bloodline_modifier_desc: "Их потомки, одни из самых просвещенных людей своего времени, похоже, сохранили часть их таланта."  #Машинный перевод 28.10.23!

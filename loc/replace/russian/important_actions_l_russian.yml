@@ -1,4 +1,0 @@
-﻿l_russian:
- action_upgrade_tribal_holding_type_combined_group_label: "Следует ли аристократизировать [tribal|E] [holdings|E]"
- action_upgrade_tribal_holding_type: "Следует ли аристократизировать [tribal|E] [holding|E]"
- action_upgrade_tribal_holding_type_label: "Вы должны быть аристократом [landed_title.GetNameNoTier]"

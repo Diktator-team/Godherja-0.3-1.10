@@ -1,3 +1,0 @@
-﻿l_russian:
- msg_vassal_feudalised: "У вассала есть аристократ"
- msg_vassal_feudalised_desc: "Ваш вассал, [ROOT.Char.GetShortUIName], отказался от [ROOT.Char.GetHerHis] племенных обычаев и стал аристократом"

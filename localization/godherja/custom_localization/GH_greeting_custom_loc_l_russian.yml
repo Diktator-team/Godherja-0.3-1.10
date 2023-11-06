@@ -1,0 +1,5 @@
+﻿l_russian:
+ greeting_supplimentary.negative.ritualism.1: "Пусть однажды ты упадешь на каждом благословенном шаге."  #Машинный перевод 28.10.23!
+ greeting_supplimentary.negative.ritualism.2: "Я молюсь, чтобы однажды вам удалось подняться на [GetBuilding('01_sophocos').GetName] с фишкой на каждой ступеньке."  #Машинный перевод 28.10.23!
+ greeting_supplimentary.negative.aagiokratan.1: "Я не совсем уверен, что мне больше противно: твоя нечистота или твой запах."  #Машинный перевод 28.10.23!
+ greeting_supplimentary.negative.lifepath.1: "Вы не следуете никакому [Concept('lifepath','Path')|E] и, несомненно, живете в темнице своей матери."  #Машинный перевод 28.10.23!

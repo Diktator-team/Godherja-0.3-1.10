@@ -1,0 +1,77 @@
+﻿l_russian:
+ MOON_PHASE_LABEL: "[moon_phase|E]:"  #Машинный перевод 28.10.23!
+  
+ new_moon_name: "[new_moon|U]"  #Машинный перевод 28.10.23!
+ new_moon_name_nounder: "[new_moon|E]"  #Машинный перевод 28.10.23!
+ waxing_crescent_moon_name: "[waxing_crescent|U]"  #Машинный перевод 28.10.23!
+ waxing_crescent_moon_name_nounder: "[waxing_crescent|E]"  #Машинный перевод 28.10.23!
+ first_quarter_moon_name: "[first_quarter|U]"  #Машинный перевод 28.10.23!
+ first_quarter_moon_name_nounder: "[first_quarter|E]"  #Машинный перевод 28.10.23!
+ waxing_gibbous_moon_name: "[waxing_gibbous|U]"  #Машинный перевод 28.10.23!
+ waxing_gibbous_moon_name_nounder: "[waxing_gibbous|E]"  #Машинный перевод 28.10.23!
+ full_moon_name: "[full_moon|U]"  #Машинный перевод 28.10.23!
+ full_moon_name_nounder: "[full_moon|E]"  #Машинный перевод 28.10.23!
+ waning_gibbous_moon_name: "[waning_gibbous|U]"  #Машинный перевод 28.10.23!
+ waning_gibbous_moon__name_nounder: "[waning_gibbous|E]"  #Машинный перевод 28.10.23!
+ last_quarter_moon_name: "[last_quarter|U]"  #Машинный перевод 28.10.23!
+ last_quarter_moon_name_nounder: "[last_quarter|E]"  #Машинный перевод 28.10.23!
+ waning_crescent_moon_name: "[waning_crescent|U]"  #Машинный перевод 28.10.23!
+ waning_crescent_moon_name_nounder: "[waning_crescent|E]"  #Машинный перевод 28.10.23!
+  
+ new_moon_desc: "$game_concept_new_moon_desc$"  #Машинный перевод 28.10.23!
+ waxing_crescent_moon_desc: "$game_concept_waxing_crescent_desc$"  #Машинный перевод 28.10.23!
+ first_quarter_moon_desc: "$game_concept_first_quarter_desc$"  #Машинный перевод 28.10.23!
+ waxing_gibbous_moon_desc: "$game_concept_waxing_gibbous_desc$"  #Машинный перевод 28.10.23!
+ full_moon_desc: "$game_concept_full_moon_desc$"  #Машинный перевод 28.10.23!
+ waning_gibbous_moon_desc: "$game_concept_waning_gibbous_desc$"  #Машинный перевод 28.10.23!
+ last_quarter_moon_desc: "$game_concept_last_quarter_desc$"  #Машинный перевод 28.10.23!
+ waning_crescent_moon_desc: "$game_concept_waning_crescent_desc$"  #Машинный перевод 28.10.23!
+  
+ superluminous_moon_name: "Сияющая Луна"  #Машинный перевод 28.10.23!
+ superluminous_moon_desc: "Ярко-зеленое сияние [aervalr|E] увеличилось в десять раз, придав землям внизу жуткий зеленый оттенок."  #Машинный перевод 28.10.23!
+  
+ new_moon_blood_moon_name: "Кровавая луна"  #Машинный перевод 28.10.23!
+ new_moon_blood_moon_desc: "[aervalr|E] окрашен в сангвинический красный цвет — предзнаменование дурной репутации, обозначающее конфликт и катастрофу."  #Машинный перевод 28.10.23!
+ waxing_crescent_moon_blood_moon_name: "Кровавая луна"  #Машинный перевод 28.10.23!
+ waxing_crescent_moon_blood_moon_desc: "[aervalr|E] окрашен в сангвинический красный цвет — предзнаменование дурной репутации, обозначающее конфликт и катастрофу."  #Машинный перевод 28.10.23!
+ first_quarter_moon_blood_moon_name: "Кровавая луна"  #Машинный перевод 28.10.23!
+ first_quarter_moon_blood_moon_desc: "[aervalr|E] окрашен в сангвинический красный цвет — предзнаменование дурной репутации, обозначающее конфликт и катастрофу."  #Машинный перевод 28.10.23!
+ waxing_gibbous_moon_blood_moon_name: "Кровавая луна"  #Машинный перевод 28.10.23!
+ waxing_gibbous_moon_blood_moon_desc: "[aervalr|E] окрашен в сангвинический красный цвет — предзнаменование дурной репутации, обозначающее конфликт и катастрофу."  #Машинный перевод 28.10.23!
+ full_moon_blood_moon_name: "Кровавая луна"  #Машинный перевод 28.10.23!
+ full_moon_blood_moon_desc: "[aervalr|E] окрашен в сангвинический красный цвет — предзнаменование дурной репутации, обозначающее конфликт и катастрофу."  #Машинный перевод 28.10.23!
+ waning_gibbous_moon_blood_moon_name: "Кровавая луна"  #Машинный перевод 28.10.23!
+ waning_gibbous_moon_blood_moon_desc: "[aervalr|E] окрашен в сангвинический красный цвет — предзнаменование дурной репутации, обозначающее конфликт и катастрофу."  #Машинный перевод 28.10.23!
+ last_quarter_moon_blood_moon_name: "Кровавая луна"  #Машинный перевод 28.10.23!
+ last_quarter_moon_blood_moon_desc: "[aervalr|E] окрашен в сангвинический красный цвет — предзнаменование дурной репутации, обозначающее конфликт и катастрофу."  #Машинный перевод 28.10.23!
+ waning_crescent_moon_blood_moon_name: "Кровавая луна"  #Машинный перевод 28.10.23!
+ waning_crescent_moon_blood_moon_desc: "[aervalr|E] окрашен в сангвинический красный цвет — предзнаменование дурной репутации, обозначающее конфликт и катастрофу."  #Машинный перевод 28.10.23!
+  
+ aervalr_strength_modifier_name: "[aervalr_strength|E]"  #Машинный перевод 28.10.23!
+ aervalr_strength_modifier_formatting: "@dead_magic_icon!#positive_value"  #Машинный перевод 28.10.23!
+ magic_from_sacrifices_modifier_name: "[magic|E] из #E Жертвоприношения#!"  #Машинный перевод 28.10.23!
+ magic_from_sacrifices_modifier_formatting: "@living_magic_icon!#positive_value +"  #Машинный перевод 28.10.23!
+  
+ game_concept_aervalr_strength: "Аэрвалрианская сила"  #Машинный перевод 28.10.23!
+ game_concept_aervalr_strength_desc: "Описание силы Аэрвалриана"  #Машинный перевод 28.10.23!
+ game_concept_moon_phase: "Фаза луны"  #Машинный перевод 28.10.23!
+ game_concept_moon_phase_desc: "Описание фаз Луны"  #Машинный перевод 28.10.23!
+ game_concept_special_phase: "Специальная фаза"  #Машинный перевод 28.10.23!
+ game_concept_special_phase_desc: "Описание специальной фазы"  #Машинный перевод 28.10.23!
+  
+ game_concept_new_moon: "Новолуние"  #Машинный перевод 28.10.23!
+ game_concept_new_moon_desc: "Тьма окутала [aervalr|E], сделав его невидимым даже для самого острого глаза."  #Машинный перевод 28.10.23!
+ game_concept_waxing_crescent: "Растущий серп"  #Машинный перевод 28.10.23!
+ game_concept_waxing_crescent_desc: "Короткий проблеск света возвещает начало нового цикла."  #Машинный перевод 28.10.23!
+ game_concept_first_quarter: "Первая четверть"  #Машинный перевод 28.10.23!
+ game_concept_first_quarter_desc: "Свет [aervalr|E] направлен на восток — фаза, связанная с ростом и прогрессом."  #Машинный перевод 28.10.23!
+ game_concept_waxing_gibbous: "Растущая луна"  #Машинный перевод 28.10.23!
+ game_concept_waxing_gibbous_desc: "Тени, скрывающие [aervalr|E], почти рассеялись его непоколебимым светом."  #Машинный перевод 28.10.23!
+ game_concept_full_moon: "Полнолуние"  #Машинный перевод 28.10.23!
+ game_concept_full_moon_desc: "Свет [aervalr|E] сияет во всем своем сияющем великолепии."  #Машинный перевод 28.10.23!
+ game_concept_waning_gibbous: "Убывающая луна"  #Машинный перевод 28.10.23!
+ game_concept_waning_gibbous_desc: "Сиянию [aervalr|E] бросают вызов первые намеки на тень."  #Машинный перевод 28.10.23!
+ game_concept_last_quarter: "Последняя четверть"  #Машинный перевод 28.10.23!
+ game_concept_last_quarter_desc: "Свет [aervalr|E] направлен на запад, и это фаза, связанная с упадком и потерей."  #Машинный перевод 28.10.23!
+ game_concept_waning_crescent: "Убывающая Луна"  #Машинный перевод 28.10.23!
+ game_concept_waning_crescent_desc: "Последний свет [aervalr|E] упрямо мерцает на фоне наступающей тьмы."  #Машинный перевод 28.10.23!

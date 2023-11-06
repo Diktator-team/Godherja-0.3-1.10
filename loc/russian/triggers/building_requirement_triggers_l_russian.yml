@@ -1,8 +1,0 @@
-﻿l_russian:
-  
- BUILDING_REQUIREMENT_TRIBAL_HOLDING_IN_COUNTY: "В провинции [PROVINCE.GetCounty.GetTitle.GetName] есть [Concept( 'tribal', 'племенные' )|E] владения"
-  
- #Lonely Note: We need a GC for Metros 
- BUILDING_REQUIREMENT_CASTLE_CITY_CHURCH_FAILED: "[PROVINCE.GetName] должен быть [castle|E], [city|E], Метрополис или [temple|E]"
- NOT_BUILDING_REQUIREMENT_CASTLE_CITY_CHURCH_FAILED: "[PROVINCE.GetName] не является [castle|E], [city|E], Метрополис или [temple|E]"
- NOT_BUILDING_REQUIREMENT_HALL_OF_HEROES_FAILED: "Зал Героев могут использовать только Апти, Галлиен, Гестанводер, Гетиан, Какаратаки, Кардавай, Салакад, Самоджитиан или Сьялволки-язычники."

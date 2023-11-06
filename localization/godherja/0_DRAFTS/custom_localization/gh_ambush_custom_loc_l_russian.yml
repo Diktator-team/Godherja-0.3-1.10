@@ -1,0 +1,15 @@
+﻿l_russian:
+  #Ambush MAA 
+ fogbeasts_ambush: "Огромная стая [Concept('fogbeasts','туманных тварей')|E]"  
+ wodes_ambush: "Стрекочущая орда [Concept('fogeaters','туманников')|E]"  
+ skeleton_ambush: "Бродячая стая скелетов, без сомнения, поднятая [Concept('lich','личом')|E],"  
+ skeleton_archers_ambush: "Бродячая стая скелетов, вооруженных примитивными луками, без сомнения, поднятых [Concept('lich','личом')|E],"  
+ undead_skirmishers_ambush: "Ковыляющая орда нежити, без сомнения, поднятая [Concept('lich','личом')|E],"  
+  
+  #Ambush Locations 
+ foglands_ambush: "[Concept('foglands','Туманные земли')|E]"  
+ lichdoms_ambush: "[Concept('lichdoms','Личдома')|E]" 
+  
+  #Ambush Atmosphere 
+ foglands_atm_ambush: "Появляющийся из тумана"  
+ lichdoms_atm_ambush: "Восставая из пепла чернозема"  

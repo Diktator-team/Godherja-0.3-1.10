@@ -1,0 +1,79 @@
+﻿l_russian:
+  
+ #starvayrd Loc 
+ ancient_religion: "Древняя религия" #Машинный перевод 28.10.23
+ ancient_religion_adj: "Древний" #Машинный перевод 28.10.23
+ ancient_religion_desc: "В мире полно конфессий и религий, не все из которых смогли сохранить верующих до сих пор. Некоторые из них породили преемников, которые переняли догмы их веры, но многим повезло меньше. Они живут только в фолиантах в библиотеках, картинах в разрушающихся храмах или в костях мертвецов." #Машинный перевод 28.10.23
+ starvayrd: "Старвайрд" #Машинный перевод 28.10.23
+ starvayrd_adj: "Старвайрд" #Машинный перевод 28.10.23
+ starvayrd_religion: "Старвайрд" #Машинный перевод 28.10.23
+ starvayrd_religion_adj: "Старвайрд" #Машинный перевод 28.10.23
+ starvayrd_adherent: "Старвайрд" #Машинный перевод 28.10.23
+ starvayrd_adherent_plural: "Старвайрди" #Машинный перевод 28.10.23
+ starvayrd_religion_desc: "Старвайрд основан на вере в то, что боги и духи взаимозаменяемы и что первые боги были просто духами угасших звезд. Старвайрды верят, что свою судьбу можно увидеть, глядя на эти звезды и отслеживая знаки на небе при рождении ребенка. Однако судьба будет потеряна, если к ней не стремиться, и достичь ее - цель жизни каждого доброго Старвайрди." #Машинный перевод 28.10.23
+ starvayrd_desc: "Старвайрд основан на вере в то, что боги и духи взаимозаменяемы и что первые боги были просто духами угасших звезд. Старвайрды верят, что свою судьбу можно увидеть, глядя на эти звезды и отслеживая знаки на небе при рождении ребенка. Однако судьба будет потеряна, если к ней не стремиться, и достичь ее - цель жизни каждого доброго Старвайрди." #Машинный перевод 28.10.23
+ starvayrd_high_god_name: "звезды" #Машинный перевод 28.10.23
+ starvayrd_high_god_name_possessive: "звезды'" #Машинный перевод 28.10.23
+ starvayrd_high_god_name_alternate: "небеса" #Машинный перевод 28.10.23
+ starvayrd_high_god_name_alternate_possessive: "небеса'" #Машинный перевод 28.10.23
+ starvayrd_devil_name: "Несогласованный" #Машинный перевод 28.10.23
+ starvayrd_devil_name_possessive: "Преданные" #Машинный перевод 28.10.23
+ starvayrd_death_deity_name: "тот, что на севере" #Машинный перевод 28.10.23
+ starvayrd_death_deity_name_possessive: "тот, который принадлежит Норту" #Машинный перевод 28.10.23
+  
+  
+  
+ starvayrd_house_of_worship: "Круг гадания" #Машинный перевод 28.10.23
+ starvayrd_house_of_worship_plural: "Круги" #Машинный перевод 28.10.23
+ starvayrd_religious_symbol: "Звезды сошлись" #Машинный перевод 28.10.23
+ starvayrd_religious_text: "предзнаменования" #Машинный перевод 28.10.23
+  
+ starvayrd_religious_head_title: "Главный астролог" #Машинный перевод 28.10.23
+ starvayrd_religious_head_title_name: "Главный астролог" #Машинный перевод 28.10.23
+ starvayrd_devotee_male: "Старвайрдер" #Машинный перевод 28.10.23
+ starvayrd_devotee_male_plural: "Старвайрдеры" #Машинный перевод 28.10.23
+ starvayrd_devotee_female: "Старвайрдер" #Машинный перевод 28.10.23
+ starvayrd_devotee_female_plural: "Старвайрдеры" #Машинный перевод 28.10.23
+ starvayrd_devotee_neuter: "Старвайрдер" #Машинный перевод 28.10.23
+ starvayrd_devotee_neuter_plural: "Старвайрдеры" #Машинный перевод 28.10.23
+ starvayrd_priest_male: "Прорицатель" #Машинный перевод 28.10.23
+ starvayrd_priest_male_plural: "Прорицатели" #Машинный перевод 28.10.23
+ starvayrd_priest_female: "Прорицатель" #Машинный перевод 28.10.23
+ starvayrd_priest_female_plural: "Прорицатели" #Машинный перевод 28.10.23
+ starvayrd_priest_alternate_plural: "Прорицатели" #Машинный перевод 28.10.23
+ starvayrd_bishop: "Астролог" #Машинный перевод 28.10.23
+ starvayrd_bishop_plural: "Астрологи" #Машинный перевод 28.10.23
+ starvayrd_positive_afterlife: "небеса" #Машинный перевод 28.10.23
+ starvayrd_negative_afterlife: "север" #Машинный перевод 28.10.23
+  
+ starvayrd_creator_god_name: "$starvayrd_high_god_name$" #Машинный перевод 28.10.23
+ starvayrd_creator_god_name_possessive: "$starvayrd_high_god_name_possessive$" #Машинный перевод 28.10.23
+ starvayrd_health_god_name: "$starvayrd_fertility_god_name$" #Машинный перевод 28.10.23
+ starvayrd_health_god_name_possessive: "$starvayrd_fertility_god_name_possessive$" #Машинный перевод 28.10.23
+ starvayrd_fertility_god_name: "тот, который устанавливает" #Машинный перевод 28.10.23
+ starvayrd_fertility_god_name_possessive: "тот, который устанавливает'" #Машинный перевод 28.10.23
+ starvayrd_wealth_god_name: "тот, который поднимается" #Машинный перевод 28.10.23
+ starvayrd_wealth_god_name_possessive: "тот, который восстает»" #Машинный перевод 28.10.23
+ starvayrd_household_god_name: "двое, которые исчезли" #Машинный перевод 28.10.23
+ starvayrd_household_god_name_possessive: "The Two That Are Faded's" #Машинный перевод 28.10.23
+ starvayrd_fate_god_name: "$starvayrd_high_god_name$" #Машинный перевод 28.10.23
+ starvayrd_fate_god_name_possessive: "$starvayrd_high_god_name_possessive$" #Машинный перевод 28.10.23
+ starvayrd_knowledge_god_name: "$starvayrd_high_god_name$" #Машинный перевод 28.10.23
+ starvayrd_knowledge_god_name_possessive: "$starvayrd_high_god_name_possessive$" #Машинный перевод 28.10.23
+ starvayrd_war_god_name: "тот, который сияет" #Машинный перевод 28.10.23
+ starvayrd_war_god_name_possessive: "тот, который сияет»" #Машинный перевод 28.10.23
+ starvayrd_trickster_god_name: "$starvayrd_high_god_name$" #Машинный перевод 28.10.23
+ starvayrd_trickster_god_name_possessive: "$starvayrd_high_god_name_possessive$" #Машинный перевод 28.10.23
+ starvayrd_night_god_name: "$starvayrd_high_god_name$" #Машинный перевод 28.10.23
+ starvayrd_night_god_name_possessive: "$starvayrd_high_god_name_possessive$" #Машинный перевод 28.10.23
+ starvayrd_water_god_name: "$starvayrd_health_god_name$" #Машинный перевод 28.10.23
+ starvayrd_water_god_name_possessive: "$starvayrd_health_god_name_possessive$" #Машинный перевод 28.10.23
+ starvayrd_witch_god_name: "Маги" #Машинный перевод 28.10.23
+ starvayrd_witch_god_name_possessive: "Маги" #Машинный перевод 28.10.23
+  
+  
+  
+ starvayrd_old: "Старый Старвайрд" #Машинный перевод 28.10.23
+ starvayrd_old_adj: "Старый Старвайрд" #Машинный перевод 28.10.23
+ starvayrd_old_adherent: "Старый Старвайрд" #Машинный перевод 28.10.23
+ starvayrd_old_adherent_plural: "Старый Старвайрди" #Машинный перевод 28.10.23

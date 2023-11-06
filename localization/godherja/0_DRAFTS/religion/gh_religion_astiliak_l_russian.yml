@@ -1,0 +1,71 @@
+﻿l_russian:
+  
+ astiliak_religion: "Астиляк" #Машинный перевод 28.10.23
+ astiliak_religion_adj: "Астиляк" #Машинный перевод 28.10.23
+ astiliak_religion_adherent: "Астиляк" #Машинный перевод 28.10.23
+ astiliak_religion_adherent_plural: "Астильякс" #Машинный перевод 28.10.23
+ astiliak_religion_desc: "Древняя вера народа астилик, вера астилиаков, представляет собой разнообразную политеистическую систему верований, в которой нет реального последовательного ряда богов, вместо этого каждое сообщество астилиаков придерживается традиционных в культурном отношении пантеонов, которые лишь иногда разделяют богов с другими.\n\nОсновная последовательность, однако, в [aeras|E] все боги представлены через животных и погоду, которые служат их слугами и аспектами. В большинстве сообществ большинство животных ассоциируются с разными богами, как и природные явления, такие как молнии, наводнения и [gedeora|E].\n\nОдной примечательной особенностью является статус [magi|E] в верованиях астилиаков. Сами Маги считаются аспектом богов (чаще всего Ирраду), которым также необходимо принять облик животного, если они желают сохранить свою смертную форму и не поддаться [overwhelmation|E]. Таким образом, многие астилиакские маги проводят несколько лет, живя среди выбранных ими животных, и часто носят одежду, сделанную из их мехов и шкур." #Машинный перевод 28.10.23
+  
+ astiliak_high_god_name: "Ирраду" #Машинный перевод 28.10.23
+ astiliak_high_god_name_possessive: "Ирраду" #Машинный перевод 28.10.23
+ astiliak_high_god_name_alternate: "Мескзак" #Машинный перевод 28.10.23
+ astiliak_high_god_name_alternate_possessive: "Мескзака" #Машинный перевод 28.10.23
+ astiliak_devil_name: "Инкила" #Машинный перевод 28.10.23
+ astiliak_devil_name_possessive: "Инкилы" #Машинный перевод 28.10.23
+ astiliak_death_deity_name: "Атталка" #Машинный перевод 28.10.23
+ astiliak_death_deity_name_possessive: "Атталки" #Машинный перевод 28.10.23
+  
+  
+  
+ astiliak_house_of_worship: "Махам" #Машинный перевод 28.10.23
+ astiliak_house_of_worship_plural: "Махамс" #Машинный перевод 28.10.23
+ astiliak_religious_symbol: "Аспект" #Машинный перевод 28.10.23
+ astiliak_religious_text: "Божьи Камни" #Машинный перевод 28.10.23
+  
+ astiliak_religious_head_title: "Курвашт" #Машинный перевод 28.10.23
+ astiliak_religious_head_title_name: "Маррадиа" #Машинный перевод 28.10.23
+ astiliak_devotee_male: "Астиляк" #Машинный перевод 28.10.23
+ astiliak_devotee_male_plural: "Астильякс" #Машинный перевод 28.10.23
+ astiliak_devotee_female: "Астиляк" #Машинный перевод 28.10.23
+ astiliak_devotee_female_plural: "Астильякс" #Машинный перевод 28.10.23
+ astiliak_devotee_neuter: "Астиляк" #Машинный перевод 28.10.23
+ astiliak_devotee_neuter_plural: "Астильякс" #Машинный перевод 28.10.23
+ astiliak_priest_male: "Хультум" #Машинный перевод 28.10.23
+ astiliak_priest_male_plural: "Халтумс" #Машинный перевод 28.10.23
+ astiliak_priest_female: "Хультум" #Машинный перевод 28.10.23
+ astiliak_priest_female_plural: "Халтумс" #Машинный перевод 28.10.23
+ astiliak_priest_alternate_plural: "Халтумс" #Машинный перевод 28.10.23
+ astiliak_bishop: "Баслак" #Машинный перевод 28.10.23
+ astiliak_bishop_plural: "Баслаки" #Машинный перевод 28.10.23
+ astiliak_positive_afterlife: "Элонида" #Машинный перевод 28.10.23
+ astiliak_negative_afterlife: "Эрробраки" #Машинный перевод 28.10.23
+  
+ astiliak_creator_god_name: "$astiliak_high_god_name$" #Машинный перевод 28.10.23
+ astiliak_creator_god_name_possessive: "$astiliak_high_god_name_possessive$" #Машинный перевод 28.10.23
+ astiliak_health_god_name: "$astiliak_high_god_name$" #Машинный перевод 28.10.23
+ astiliak_health_god_name_possessive: "$astiliak_high_god_name_possessive$" #Машинный перевод 28.10.23
+ astiliak_fertility_god_name: "$astiliak_high_god_name$" #Машинный перевод 28.10.23
+ astiliak_fertility_god_name_possessive: "$astiliak_high_god_name_possessive$" #Машинный перевод 28.10.23
+ astiliak_wealth_god_name: "$astiliak_high_god_name$" #Машинный перевод 28.10.23
+ astiliak_wealth_god_name_possessive: "$astiliak_high_god_name_possessive$" #Машинный перевод 28.10.23
+ astiliak_household_god_name: "$astiliak_health_god_name$" #Машинный перевод 28.10.23
+ astiliak_household_god_name_possessive: "$astiliak_health_god_name_possessive$" #Машинный перевод 28.10.23
+ astiliak_fate_god_name: "$astiliak_high_god_name$" #Машинный перевод 28.10.23
+ astiliak_fate_god_name_possessive: "$astiliak_high_god_name_possessive$" #Машинный перевод 28.10.23
+ astiliak_knowledge_god_name: "$astiliak_high_god_name$" #Машинный перевод 28.10.23
+ astiliak_knowledge_god_name_possessive: "$astiliak_high_god_name_possessive$" #Машинный перевод 28.10.23
+ astiliak_war_god_name: "$astiliak_high_god_name$" #Машинный перевод 28.10.23
+ astiliak_war_god_name_possessive: "$astiliak_high_god_name_possessive$" #Машинный перевод 28.10.23
+ astiliak_trickster_god_name: "Куна Баканик" #Машинный перевод 28.10.23
+ astiliak_trickster_god_name_possessive: "Куна Баканик" #Машинный перевод 28.10.23
+ astiliak_night_god_name: "$astiliak_high_god_name$" #Машинный перевод 28.10.23
+ astiliak_night_god_name_possessive: "$astiliak_high_god_name_possessive$" #Машинный перевод 28.10.23
+ astiliak_water_god_name: "$astiliak_health_god_name$" #Машинный перевод 28.10.23
+ astiliak_water_god_name_possessive: "$astiliak_health_god_name_possessive$" #Машинный перевод 28.10.23
+ astiliak_witch_god_name: "Маккам" #Машинный перевод 28.10.23
+ astiliak_witch_god_name_possessive: "Маккама" #Машинный перевод 28.10.23
+  
+ astiliak: "Астиляк" #Машинный перевод 28.10.23
+ astiliak_adj: "Астиляк" #Машинный перевод 28.10.23
+ astiliak_adherent: "Астиляк" #Машинный перевод 28.10.23
+ astiliak_adherent_plural: "Астиляк" #Машинный перевод 28.10.23

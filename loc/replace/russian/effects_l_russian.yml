@@ -1,4 +1,0 @@
-﻿l_russian:
- LEGACY_DYNASTY_MEMBERS_GAIN_BONUS_TROOPS_WHEN_VARANGIAN_ADVENTURING: "Получите бонусные войска сверх лимита, когда [varangian_adventuring|E]" #Машинный перевод 28.10.23
-  
-  #\n[dynast_interaction|E] V Send to the Varangian Guard#!\n#weak The [dynast] gains the ability to pay [prestige] [prestige_i] in order to send away unlanded adult [dynasty] members to potentially gain [skills] and [traits] 

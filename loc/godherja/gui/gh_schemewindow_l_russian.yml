@@ -1,7 +1,0 @@
-﻿l_russian:
- CULTURE_KILLER_PARAMETER_DESC: "Из [traditions|E] против разных [cultures|E]: $VALUE|+0=$"  #Машинный перевод 28.10.23!
- DYNASTY_KILLER_PARAMETER_DESC: "Из [traditions|E] против разных [dynasties|E]: $VALUE|+0=$"  #Машинный перевод 28.10.23!
- SCHEME_BLACK_PRACTITIONER_AGAINST_MUGGLE: "Наполните мир кровью не-[magi|E]!: $VALUE|+0=$"  #Машинный перевод 28.10.23!
- SCHEME_BLOODLUSTED: "Кровь и черепа для [GetFaith.WarGodName]!: $VALUE|+0=$"  #Машинный перевод 28.10.23!
- SCHEME_FAITH_DISLIKES_MAGI: "Из [traditions|E] против [magi|E]: $VALUE|+0=$"  #Машинный перевод 28.10.23!
- SCHEME_FAITH_HATES_MAGI: "Из [traditions|E] против [magi|E]: $VALUE|+0=$"  #Машинный перевод 28.10.23!

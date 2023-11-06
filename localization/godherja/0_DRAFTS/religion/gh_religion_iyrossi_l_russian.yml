@@ -1,0 +1,79 @@
+﻿l_russian:
+  
+ #iyrossi Loc 
+ iyrossi_religion: "Ийросси" #Машинный перевод 28.10.23
+ iyrossi_religion_adj: "Иороссийский" #Машинный перевод 28.10.23
+ iyrossi_religion_adjerent: "Ийросси" #Машинный перевод 28.10.23
+ iyrossi_religion_adherent_plural: "Ийросси" #Машинный перевод 28.10.23
+ iyrossi_religion_desc: "Подчеркивая связь с миром природы и отказ подчиняться жестокости, которой подвергаются ее практикующие, высшая точка веры Ийросси заключается в убеждении, что ни одно пренебрежение никогда не должно быть прощено без предварительного сведения счетов. За любое оскорбление или оскорбление приходится платить, причем цена варьируется от нескольких монет до жизни обидчика. Любой другой путь был бы оскорблением Деифартора, Бога Справедливости." #Машинный перевод 28.10.23
+ iyrossi_religion_high_god_name: "Деифарторос" #Машинный перевод 28.10.23
+ iyrossi_religion_high_god_name_possessive: "Деифарторос" #Машинный перевод 28.10.23
+ iyrossi_religion_high_god_name_alternate: "Iutonan" #Машинный перевод 28.10.23
+ iyrossi_religion_high_god_name_alternate_possessive: "Ютонана" #Машинный перевод 28.10.23
+ iyrossi_religion_devil_name: "Сильвая" #Машинный перевод 28.10.23
+ iyrossi_religion_devil_name_possessive: "Сильвая" #Машинный перевод 28.10.23
+ iyrossi_religion_death_deity_name: "$iyrossi_religion_devil_name$" #Машинный перевод 28.10.23
+ iyrossi_religion_death_deity_name_possessive: "$iyrossi_religion_devil_name_possessive$" #Машинный перевод 28.10.23
+  
+  
+  
+ iyrossi_religion_house_of_worship: "Храм" #Машинный перевод 28.10.23
+ iyrossi_religion_house_of_worship_plural: "Святыни" #Машинный перевод 28.10.23
+ iyrossi_religion_religious_symbol: "Звезда Ютонана" #Машинный перевод 28.10.23
+ iyrossi_religion_religious_text: "Сказки" #Машинный перевод 28.10.23
+  
+ iyrossi_religion_religious_head_name: "Великий Илириат" #Машинный перевод 28.10.23
+ iyrossi_religion_religious_head_name_title: "Великий Храм" #Машинный перевод 28.10.23
+ iyrossi_religion_religious_head_title: "Илиириарх" #Машинный перевод 28.10.23
+ iyrossi_religion_religious_head_title_name: "Великий Храм" #Машинный перевод 28.10.23
+ iyrossi_religion_devotee_male: "Праведный" #Машинный перевод 28.10.23
+ iyrossi_religion_devotee_male_plural: "Праведный" #Машинный перевод 28.10.23
+ iyrossi_religion_devotee_female: "Праведный" #Машинный перевод 28.10.23
+ iyrossi_religion_devotee_female_plural: "Праведный" #Машинный перевод 28.10.23
+ iyrossi_religion_devotee_neuter: "Праведный" #Машинный перевод 28.10.23
+ iyrossi_religion_devotee_neuter_plural: "Праведный" #Машинный перевод 28.10.23
+ iyrossi_religion_priest: "Ютонический" #Машинный перевод 28.10.23
+ iyrossi_religion_priest_plural: "Ютоникаки" #Машинный перевод 28.10.23
+ iyrossi_religion_priest_male: "Ютонический" #Машинный перевод 28.10.23
+ iyrossi_religion_priest_male_plural: "Ютоникаки" #Машинный перевод 28.10.23
+ iyrossi_religion_priest_female: "Ютонический" #Машинный перевод 28.10.23
+ iyrossi_religion_priest_female_plural: "Ютоникаки" #Машинный перевод 28.10.23
+ iyrossi_religion_priest_alternate: "Ютонический" #Машинный перевод 28.10.23
+ iyrossi_religion_priest_alternate_plural: "Ютоникаки" #Машинный перевод 28.10.23
+ iyrossi_religion_bishop: "Илириат" #Машинный перевод 28.10.23
+ iyrossi_religion_bishop_plural: "Илириаты" #Машинный перевод 28.10.23
+ iyrossi_religion_positive_afterlife: "Ио" #Машинный перевод 28.10.23
+ iyrossi_religion_negative_afterlife: "Сильваль" #Машинный перевод 28.10.23
+ iyrossi_religion_divine_realm: "Ио" #Машинный перевод 28.10.23
+  
+  
+ iyrossi_religion_creator_god_name: "$iyrossi_religion_high_god_name$" #Машинный перевод 28.10.23
+ iyrossi_religion_creator_god_name_possessive: "$iyrossi_religion_high_god_name_possessive$" #Машинный перевод 28.10.23
+ iyrossi_religion_health_god_name: "$iyrossi_religion_high_god_name_alternate$" #Машинный перевод 28.10.23
+ iyrossi_religion_health_god_name_possessive: "$iyrossi_religion_high_god_name_alternate_possessive$" #Машинный перевод 28.10.23
+ iyrossi_religion_fertility_god_name: "$iyrossi_religion_high_god_name$" #Машинный перевод 28.10.23
+ iyrossi_religion_fertility_god_name_possessive: "$iyrossi_religion_high_god_name_possessive$" #Машинный перевод 28.10.23
+ iyrossi_religion_wealth_god_name: "$iyrossi_religion_high_god_name_alternate$" #Машинный перевод 28.10.23
+ iyrossi_religion_wealth_god_name_possessive: "$iyrossi_religion_high_god_name_alternate_possessive$" #Машинный перевод 28.10.23
+ iyrossi_religion_household_god_name: "$iyrossi_religion_high_god_name$" #Машинный перевод 28.10.23
+ iyrossi_religion_household_god_name_possessive: "$iyrossi_religion_high_god_name_possessive$" #Машинный перевод 28.10.23
+ iyrossi_religion_fate_god_name: "$iyrossi_religion_high_god_name_alternate$" #Машинный перевод 28.10.23
+ iyrossi_religion_fate_god_name_possessive: "$iyrossi_religion_high_god_name_alternate_possessive$" #Машинный перевод 28.10.23
+ iyrossi_religion_knowledge_god_name: "$iyrossi_religion_high_god_name$" #Машинный перевод 28.10.23
+ iyrossi_religion_knowledge_god_name_possessive: "$iyrossi_religion_high_god_name_possessive$" #Машинный перевод 28.10.23
+ iyrossi_religion_war_god_name: "$iyrossi_religion_high_god_name$" #Машинный перевод 28.10.23
+ iyrossi_religion_war_god_name_possessive: "$iyrossi_religion_high_god_name_possessive$" #Машинный перевод 28.10.23
+ iyrossi_religion_trickster_god_name: "$iyrossi_religion_devil_name$" #Машинный перевод 28.10.23
+ iyrossi_religion_trickster_god_name_possessive: "$iyrossi_religion_devil_name_possessive$" #Машинный перевод 28.10.23
+ iyrossi_religion_night_god_name: "$iyrossi_religion_devil_name$" #Машинный перевод 28.10.23
+ iyrossi_religion_night_god_name_possessive: "$iyrossi_religion_devil_name_possessive$" #Машинный перевод 28.10.23
+ iyrossi_religion_water_god_name: "$iyrossi_religion_health_god_name$" #Машинный перевод 28.10.23
+ iyrossi_religion_water_god_name_possessive: "$iyrossi_religion_health_god_name_possessive$" #Машинный перевод 28.10.23
+ iyrossi_religion_witch_god_name: "$iyrossi_religion_devil_name$" #Машинный перевод 28.10.23
+ iyrossi_religion_witch_god_name_possessive: "$iyrossi_religion_devil_name_possessive$" #Машинный перевод 28.10.23
+  
+ iyrossi: "Ийросси" #Машинный перевод 28.10.23
+ iyrossi_adj: "Иороссийский" #Машинный перевод 28.10.23
+ iyrossi_adjerent: "Ийросси" #Машинный перевод 28.10.23
+ iyrossi_adherent_plural: "Ийросси" #Машинный перевод 28.10.23
+ iyrossi_desc: "Вера Ийросси не практиковалась открыто со второго века, когда они были захвачены и полностью оккупированы [aversarians|E] во втором веке. Некоторые из их ритуалов были поглощены аверсарианской верой как способ сохранить самодовольство ныне порабощенных Ийросси, но многие из них продолжали тайно практиковать принципы своей веры. И они с нетерпением ждали того дня, чтобы совершить святое возмездие своим бывшим хозяевам за столетия рабства." #Машинный перевод 28.10.23

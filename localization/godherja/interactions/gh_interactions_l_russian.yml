@@ -1,0 +1,35 @@
+﻿l_russian:
+ interaction_category_magic: "Магия"  #Машинный перевод 28.10.23!
+  
+ gh_tribal_settlement_interaction: "Поощряйте племенные поселения"  #Машинный перевод 28.10.23!
+ gh_tribal_settlement_interaction_desc: "Пригласите членов вашего племени поселиться, что значительно облегчит религиозное и культурное преобразование региона."  #Машинный перевод 28.10.23!
+ cultural_acceptance_loss_tribal_settlement: "Первоначальные поселенцы этой земли были вытеснены вашим племенем."  #Машинный перевод 28.10.23!
+  
+ challenge_liege: "Бросьте вызов лидерству"  #Машинный перевод 28.10.23!
+ challenge_liege_interaction_desc: "Бросьте вызов правилу [recipient.GetFirstNameNoTooltip] в [trial_by_combat|E] насмерть"  #Машинный перевод 28.10.23!
+ CHALLENGE_LIEGE_TEXT: "[recipient.Custom('InsultNoun')|U]! Вы не достойны [recipient.GetPrimaryTitle.GetName]. Встретимся со мной в бою, и мы увидим, кто достоин править!"  #Машинный перевод 28.10.23!
+  
+ gh_purge_county_interaction: "Округ Чистка"  #Машинный перевод 28.10.23!
+ gh_purge_county_interaction_desc: "Начать неизбирательную резню местного населения."  #Машинный перевод 28.10.23!
+ gh_purge_county_interaction_result: "Вы очищаете население округа"  #Машинный перевод 28.10.23!
+ gh_purge_county_interaction_result_1: "Вы сжигаете и грабите землю"  #Машинный перевод 28.10.23!
+ gh_purge_county_interaction_result_2: "Вы разоряете сельскую местность, уничтожая целые деревни"  #Машинный перевод 28.10.23!
+ gh_purge_county_interaction_result_3: "Вы превращаете целые города в пепел и руины"  #Машинный перевод 28.10.23!
+ gh_purge_county_interaction_result_4: "Вы очищаете население округа"  #Машинный перевод 28.10.23!
+ gh_purge_county_interaction_result_5: "Вы полностью заменяете первоначальных жителей"  #Машинный перевод 28.10.23!
+ gh_purge_county_interaction_result_6: "Вы не заменяете коренных жителей"  #Машинный перевод 28.10.23!
+ cultural_acceptance_loss_purge: "[target.GetName] был очищен правителем культуры [actor.GetCulture.GetName]"  #Машинный перевод 28.10.23!
+  
+ dehand_interaction: "Деханд"  #Машинный перевод 28.10.23!
+ dehand_interaction_desc: "Сделать [recipient.GetShortUINameNoTooltip] [GetTrait('gh_dehanded').GetName( GetPlayer )]"  #Машинный перевод 28.10.23!
+  
+ add_to_magic_list_interaction: "Добавить к целям [magic|E]"  #Машинный перевод 28.10.23!
+ add_to_magic_list_desc: "Добавьте [recipient.GetShortUINameNoTooltip] в свою книгу заклинаний в качестве потенциальной цели."  #Машинный перевод 28.10.23!
+  
+ remove_from_magic_list_interaction: "Удалить из целей [magic|E]"  #Машинный перевод 28.10.23!
+ remove_from_magic_list_desc: "Удалить [recipient.GetShortUINameNoTooltip] из списка потенциальных целей в моей книге заклинаний."  #Машинный перевод 28.10.23!
+  
+ amsari_child_kill_interaction: "Тихо лишить ребенка наследства"  #Машинный перевод 28.10.23!
+ amsari_child_kill_interaction_desc: "Вокруг бегает слишком много моих детей... Эти возможные претенденты могут бросить вызов стабильности Империи! С этим надо что-то делать..."  #Машинный перевод 28.10.23!
+  
+ happy_heir: "Родитель поддерживает наше требование"  #Машинный перевод 28.10.23!

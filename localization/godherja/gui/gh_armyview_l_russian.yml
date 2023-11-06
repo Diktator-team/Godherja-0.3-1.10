@@ -1,0 +1,4 @@
+﻿l_russian:
+ TOGGLE_REDISTRIBUTION_STANCE: "#T [Select_CString( Army.MakeScope.Var('raiding_redistribution_disabled').IsSet, 'Do Not Redistribute Loot', 'Redistribute Loot' )]#!\n[SelectLocalization( Army.HasLooterStance, 'TOGGLE_REDISTRIBUTION_STANCE_DESC_ON', 'TOGGLE_REDISTRIBUTION_STANCE_DESC_OFF' )]"  #Машинный перевод 28.10.23!
+ TOGGLE_REDISTRIBUTION_STANCE_DESC_ON: "Этот [army|E] автоматически перераспределит половину своей добычи по завершении [raid|E]."  #Машинный перевод 28.10.23!
+ TOGGLE_REDISTRIBUTION_STANCE_DESC_OFF: "Этот [army|E] не будет перераспределять свою добычу по завершении [raid|E]."  #Машинный перевод 28.10.23!

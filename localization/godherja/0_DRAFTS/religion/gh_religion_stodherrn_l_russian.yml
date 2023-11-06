@@ -1,0 +1,86 @@
+﻿l_russian:
+  
+ #allemani Loc renaming Stoðherrn due to conflict w/ kardwen culture also being called allemani, leaving the in-code name alone for now to prevent unforseen complications 
+ stodherrn_religion: "Стодхерн" #Машинный перевод 28.10.23
+ stodherrn_religion_adj: "Стодхерн" #Машинный перевод 28.10.23
+ stodherrn_religion_adjerent: "Стодхерн" #Машинный перевод 28.10.23
+ stodherrn_religion_adherent_plural: "Стодхерн" #Машинный перевод 28.10.23
+ stodherrn_religion_desc: "Вера Стодхеррн рассматривает мир как ствол, поддерживающий великое Древо, которое они называют Стодрусигга. Далее вверх по стволу можно пройти к деревьям, которые являются домами богов, а вниз по стволу лежат корни, где лежат мертвецы. Они считают, что их долг — действовать как хранители дерева, поддерживая его так же, как птицы и белки мирно живут на деревьях, которые они называют своим домом. Почитание богов приносит им щедрость от земли, а плохое обращение в конечном итоге приведет к упадку и разложению, пока мир не превратится в корявый пень." #Машинный перевод 28.10.23
+ stodherrn_high_god_name: "Мировое Древо" #Машинный перевод 28.10.23
+ stodherrn_high_god_name_possessive: "Мировое Древо" #Машинный перевод 28.10.23
+ stodherrn_high_god_name_alternate: "Сдодрусигга" #Машинный перевод 28.10.23
+ stodherrn_high_god_name_alternate_possessive: "Сдодрусигги" #Машинный перевод 28.10.23
+ stodherrn_devil_name: "$stodherrn_death_deity_name$" #Машинный перевод 28.10.23
+ stodherrn_devil_name_possessive: "$stodherrn_death_deity_name_possessive$" #Машинный перевод 28.10.23
+ stodherrn_death_deity_name: "Араун" #Машинный перевод 28.10.23
+ stodherrn_death_deity_name_possessive: "Арауна" #Машинный перевод 28.10.23
+  
+  
+  
+ stodherrn_house_of_worship: "Храм" #Машинный перевод 28.10.23
+ stodherrn_house_of_worship_plural: "Храмы" #Машинный перевод 28.10.23
+ stodherrn_religious_symbol: "Мировое Древо" #Машинный перевод 28.10.23
+ stodherrn_religious_text: "Песня Стодрусигги" #Машинный перевод 28.10.23
+  
+ stodherrn_religious_head_title: "Все-Шаман" #Машинный перевод 28.10.23
+ stodherrn_religious_head_title_name: "Священный Совет" #Машинный перевод 28.10.23
+ stodherrn_devotee_male: "Стодхар" #Машинный перевод 28.10.23
+ stodherrn_devotee_male_plural: "Стодхар" #Машинный перевод 28.10.23
+ stodherrn_devotee_female: "Стоддки" #Машинный перевод 28.10.23
+ stodherrn_devotee_female_plural: "Стоддки" #Машинный перевод 28.10.23
+ stodherrn_devotee_neuter: "Стодхе" #Машинный перевод 28.10.23
+ stodherrn_devotee_neuter_plural: "Стодхерн" #Машинный перевод 28.10.23
+ stodherrn_priest_male: "Далхар" #Машинный перевод 28.10.23
+ stodherrn_priest_male_plural: "Далхар" #Машинный перевод 28.10.23
+ stodherrn_priest_female: "Алхдки" #Машинный перевод 28.10.23
+ stodherrn_priest_female_plural: "Алхдки" #Машинный перевод 28.10.23
+ stodherrn_priest_alternate_plural: "Халдкрис" #Машинный перевод 28.10.23
+ stodherrn_bishop: "Ледальриис" #Машинный перевод 28.10.23
+ stodherrn_bishop_plural: "Ледальриис" #Машинный перевод 28.10.23
+ stodherrn_positive_afterlife: "Адкалла" #Машинный перевод 28.10.23
+ stodherrn_negative_afterlife: "Турредканд" #Машинный перевод 28.10.23
+  
+ stodherrn_creator_god_name: "$stodherrn_high_god_name$" #Машинный перевод 28.10.23
+ stodherrn_creator_god_name_possessive: "$stodherrn_high_god_name_possessive$" #Машинный перевод 28.10.23
+ stodherrn_health_god_name: "$stodherrn_fertility_god_name$" #Машинный перевод 28.10.23
+ stodherrn_health_god_name_possessive: "$stodherrn_fertility_god_name_possessive$" #Машинный перевод 28.10.23
+ stodherrn_fertility_god_name: "Амидаон" #Машинный перевод 28.10.23
+ stodherrn_fertility_god_name_possessive: "Амидаона" #Машинный перевод 28.10.23
+ stodherrn_wealth_god_name: "Тандкео" #Машинный перевод 28.10.23
+ stodherrn_wealth_god_name_possessive: "Тандкео" #Машинный перевод 28.10.23
+ stodherrn_household_god_name: "Хедкаон" #Машинный перевод 28.10.23
+ stodherrn_household_god_name_possessive: "Хедкаона" #Машинный перевод 28.10.23
+ stodherrn_fate_god_name: "Ордканну" #Машинный перевод 28.10.23
+ stodherrn_fate_god_name_possessive: "Ордканну" #Машинный перевод 28.10.23
+ stodherrn_knowledge_god_name: "Керидкен" #Машинный перевод 28.10.23
+ stodherrn_knowledge_god_name_possessive: "Керидкен" #Машинный перевод 28.10.23
+ stodherrn_war_god_name: "Keidonik" #Машинный перевод 28.10.23
+ stodherrn_war_god_name_possessive: "Кейдоник'с" #Машинный перевод 28.10.23
+ stodherrn_trickster_god_name: "Сискуэр" #Машинный перевод 28.10.23
+ stodherrn_trickster_god_name_possessive: "Сискуэра" #Машинный перевод 28.10.23
+ stodherrn_night_god_name: "$stodherrn_trickster_god_name$" #Машинный перевод 28.10.23
+ stodherrn_night_god_name_possessive: "$stodherrn_trickster_god_name_possessive$" #Машинный перевод 28.10.23
+ stodherrn_water_god_name: "Адкелат" #Машинный перевод 28.10.23
+ stodherrn_water_god_name_possessive: "Адкелата" #Машинный перевод 28.10.23
+ stodherrn_witch_god_name: "$stodherrn_fate_god_name$" #Машинный перевод 28.10.23
+ stodherrn_witch_god_name_possessive: "$stodherrn_fate_god_name_possessive$" #Машинный перевод 28.10.23
+  
+  ######## 
+  
+  #portenchant loc 
+ portenchant: "Портенчант" #Машинный перевод 28.10.23
+ portenchant_adj: "Портенчант" #Машинный перевод 28.10.23
+ portenchant_adjerent: "Портенчант" #Машинный перевод 28.10.23
+ portenchant_adherent_plural: "Портенчант" #Машинный перевод 28.10.23
+ portenchant_desc: "Портенчанты оказались побежденными и жертвами ударов [aversarians|E], но они не сломались в своей вере. Вторжение Шялволков освободило их от рабства, но они не желают мстить своим бывшим рабовладельцам. Вместо этого они хотят вернуться к изоляционизму и спокойной вере, как они когда-то практиковали, когда были свободны." #Машинный перевод 28.10.23
+  
+ portenchant_old: "Старый Портенчант" #Машинный перевод 28.10.23
+ portenchant_old_adj: "Старый Портенчант" #Машинный перевод 28.10.23
+ portenchant_old_adherent: "Старый Портенчант" #Машинный перевод 28.10.23
+ portenchant_old_adherent_plural: "Старый Портенчант" #Машинный перевод 28.10.23
+  
+ dethedklann: "Детедкланнское соглашение" #Машинный перевод 28.10.23
+ dethedklann_adj: "Детедкланн" #Машинный перевод 28.10.23
+ dethedklann_adherent: "Аккордит" #Машинный перевод 28.10.23
+ dethedklann_adherent_plural: "Аккордиты" #Машинный перевод 28.10.23
+ dethedklann_desc: "Представляя различные традиции в вере Стодхерна, Детхадкланнское соглашение является наследниками мондекнийского пророка Адвакара, чья карьера охватывала примерно пятый век нашей эры - по крайней мере, согласно попыткам ученых реконструировать зачастую противоречивые отчеты о жизни Адвакара.\n\ nДетхадкланн получил свое название от места, где их пророк покончил жизнь самоубийством, умирая в пятый и последний раз, делая это, чтобы скрепить клятвы, которые его последователи поклялись придерживаться его послания в жизни и смерти. Они проповедуют, что боги подготовили народу Стодхерн путь вперед, чтобы выйти за пределы этого мира, в качестве награды за их тысячелетнюю работу. Этот путь должен быть открыт в первую очередь добродетельными делами и доблестной защитой – активно и, если необходимо, с применением насилия – естественного порядка и их людей. Этот последний принцип часто приводит к разногласиям между ними, и даже остальные пацифисты-верующие Стодхерна избегают их. Что касается самого Адвакара, они сообщают, что его откровения произошли во время четырех спусков к корням самого мирового древа, когда он невидимо путешествовал среди мертвых, чтобы украсть взгляды на чудеса богов под коварной защитой Сискьюара Обманщика. Он смог повлиять на этот обман, ибо сам умер – пусть и временно. Его смерть наступила сначала от удара молнии, во-вторых, от повешения, в-третьих, от диких зверей и, в-четвертых, от броска с самого высокого дерева в мире. Каждый раз он вставал на следующий день и передавал своим последователям новые обещания богов и предупреждения на будущее. По данным Детхадклана, он ни разу не ошибся." #Машинный перевод 28.10.23
