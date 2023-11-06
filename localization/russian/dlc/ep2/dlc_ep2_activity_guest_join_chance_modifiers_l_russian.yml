@@ -63,6 +63,7 @@
  ACTIVITY_GUEST_PHYSIQUE_BAD_1_REASON: "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('physique_bad_1').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
  ACTIVITY_GUEST_PHYSIQUE_BAD_2_REASON: "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('physique_bad_2').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
  ACTIVITY_GUEST_PHYSIQUE_BAD_3_REASON: "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('physique_bad_3').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_GH_ONE_HANDED_REASON:1 "[ROOT.Char.GetSheHe|U] is [GetTrait('gh_one_handed').GetName( ROOT.Char.Self )]: $VALUE|=+0$" #GH CHANGE: Added one_handed trait
   # PERKS 
  ACTIVITY_GUEST_GALLANT_REASON: "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('gallant').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
   # LIFESTYLE 

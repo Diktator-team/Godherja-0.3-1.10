@@ -1,113 +1,113 @@
 ﻿l_russian:
- language_aversarian_name: "Аверсарианец"  #Машинный перевод 28.10.23!
- language_bestial_name: "Звериный"  #Машинный перевод 28.10.23!
- language_kholmvolki_name: "Холмволки"  #Машинный перевод 28.10.23!
- language_rekvolki_name: "Рекволи"  #Машинный перевод 28.10.23!
- language_marcher_name: "Марчер"  #Машинный перевод 28.10.23!
- language_damotan_name: "Дамотан"  #Машинный перевод 28.10.23!
- language_goan_name: "Гоан"  #Машинный перевод 28.10.23!
- language_dezhunic_name: "Дежунич"  #Машинный перевод 28.10.23!
- language_aekershaani_name: "Аекершаани"  #Машинный перевод 28.10.23!
- language_arapa_name: "Арапа"  #Машинный перевод 28.10.23!
- language_marmaladid_name: "Мармеладид"  #Машинный перевод 28.10.23!
- language_vhanavid_name: "Ванавид"  #Машинный перевод 28.10.23!
- language_thalite_name: "Талит"  #Машинный перевод 28.10.23!
- language_amsari_name: "Амсари"  #Машинный перевод 28.10.23!
- language_hixite_name: "Хиксит"  #Машинный перевод 28.10.23!
- language_siral_name: "Сирал"  #Машинный перевод 28.10.23!
- language_sarth_name: "Сарт"  #Машинный перевод 28.10.23!
- language_thyssaen_name: "Тиссен"  #Машинный перевод 28.10.23!
- language_koshar_name: "Кошар"  #Машинный перевод 28.10.23!
- language_sycharceg_name: "Сиххарцег"  #Машинный перевод 28.10.23!
- language_samojitian_name: "Samojitian"  #Машинный перевод 28.10.23!
- language_madikirib_name: "Радикириб"  #Машинный перевод 28.10.23!
- language_haraja_name: "Хараджа"  #Машинный перевод 28.10.23!
- language_chordhan_name: "Чордхани"  #Машинный перевод 28.10.23!
- language_dayatemi_name: "Даятеми"  #Машинный перевод 28.10.23!
- language_konijkmener_name: "Конийкстаал"  #Машинный перевод 28.10.23!
- language_aevakori_name: "Аэвакори"  #Машинный перевод 28.10.23!
- language_kevaali_name: "Кеваали"  #Машинный перевод 28.10.23!
- language_ojyczayn_name: "Ойчайн"  #Машинный перевод 28.10.23!
- language_gallieni_name: "Галлиени"  #Машинный перевод 28.10.23!
- language_sarminian_name: "Сарминский"  #Машинный перевод 28.10.23!
- language_nakahanii_name: "Накахании"  #Машинный перевод 28.10.23!
- language_khalai_name: "Халайн"  #Машинный перевод 28.10.23!
- language_emanhi_name: "Эманхи"  #Машинный перевод 28.10.23!
- language_adhata_name: "Адхата"  #Машинный перевод 28.10.23!
- language_partic_name: "Партик"  #Машинный перевод 28.10.23!
- language_canian_name: "Канианский"  #Машинный перевод 28.10.23!
- language_anandrasi_name: "Анандрик"  #Машинный перевод 28.10.23!
- language_shamrania_name: "Шамрани"  #Машинный перевод 28.10.23!
- language_asariyna_name: "Асарийна"  #Машинный перевод 28.10.23!
- language_aembarisa_name: "Аэмбариса"  #Машинный перевод 28.10.23!
- language_veparstva_name: "Вепарства"  #Машинный перевод 28.10.23!
- language_afoseniai_name: "Афосеняй"  #Машинный перевод 28.10.23!
- language_daidenos_name: "Дайденос"  #Машинный перевод 28.10.23!
- language_skoronyk_name: "Скороник"  #Машинный перевод 28.10.23!
- language_guillater_name: "Гильятер"  #Машинный перевод 28.10.23!
- language_kelthiunai_name: "Келтиунай"  #Машинный перевод 28.10.23!
- language_oghainos_name: "Огайнос"  #Машинный перевод 28.10.23!
- language_zonthawa_name: "Зонтава"  #Машинный перевод 28.10.23!
- language_margur_name: "Маргур"  #Машинный перевод 28.10.23!
- language_athacaya_name: "Атакайи"  #Машинный перевод 28.10.23!
- language_rekhala_name: "Рехали"  #Машинный перевод 28.10.23!
- language_karzarad_name: "Карзарад"  #Машинный перевод 28.10.23!
- language_huegodoc_name: "Уэгодок"  #Машинный перевод 28.10.23!
- language_likarkho_name: "Ликархик"  #Машинный перевод 28.10.23!
- language_agnala_name: "Агнала"  #Машинный перевод 28.10.23!
- language_khokhuud_name: "Хохуудич"  #Машинный перевод 28.10.23!
- language_xajirkel_name: "Хажиркель"  #Машинный перевод 28.10.23!
- language_tlakalak_name: "Тлакалак"  #Машинный перевод 28.10.23!
- language_daravani_name: "Даравани"  #Машинный перевод 28.10.23!
- language_aafarzay_name: "Аафарзай"  #Машинный перевод 28.10.23!
- language_kemsari_name: "Кемсари"  #Машинный перевод 28.10.23!
- language_mondecny_name: "понедельник"  #Машинный перевод 28.10.23!
- language_yylaxxaz_name: "Zyzz'yxx'p'nyx"  #Машинный перевод 28.10.23!
- language_rivarisian_name: "Риварспад"  #Машинный перевод 28.10.23!
- language_sunakari_name: "Сунакари"  #Машинный перевод 28.10.23!
- language_astilik_name: "Астилик"  #Машинный перевод 28.10.23!
- language_kaledonic_name: "Каледонский"  #Машинный перевод 28.10.23!
- language_luskosvai_name: "Лускос'Вай"  #Машинный перевод 28.10.23!
- language_aygaeri_name: "Айгаэри"  #Машинный перевод 28.10.23!
- language_tsetnera_name: "Цетнера"  #Машинный перевод 28.10.23!
- language_amaghvelian_name: "Амагвелийский"  #Машинный перевод 28.10.23!
- language_drimniak_name: "Дримняк"  #Машинный перевод 28.10.23!
- language_kardwen_name: "Кардвен"  #Машинный перевод 28.10.23!
- language_sarridian_name: "Сарридиан"  #Машинный перевод 28.10.23!
- language_cavetribe_name: "Туннельный язык"  #Машинный перевод 28.10.23!
- language_takopara_name: "Такок"  #Машинный перевод 28.10.23!
- language_zanaumaures_name: "Занау"  #Машинный перевод 28.10.23!
- language_saradari_name: "Айяри"  #Машинный перевод 28.10.23!
- language_yevamarai_name: "Йевамарайн"  #Машинный перевод 28.10.23!
- language_theugombrian_name: "Гобликс"  #Машинный перевод 28.10.23!
- language_hadiyan_name: "Хадиян"  #Машинный перевод 28.10.23!
- language_redlander_name: "Редлендер"  #Машинный перевод 28.10.23!
- language_fog_eaters_name: "Пожиратель тумана"  #Машинный перевод 28.10.23!
- language_abadelos_name: "Абаделос"  #Машинный перевод 28.10.23!
- language_agadari_name: "Агадари"  #Машинный перевод 28.10.23!
- language_wasteland_name: "Нет"  #Машинный перевод 28.10.23!
- language_varnigitiai_name: "Варнигитиай"  #Машинный перевод 28.10.23!
- language_tiemanam_name: "Тиеманам"  #Машинный перевод 28.10.23!
- language_dubadin_name: "Дубадин"  #Машинный перевод 28.10.23!
- language_easterner_name: "житель Востока"  #Машинный перевод 28.10.23!
- language_saielaian_name: "Saielaian"  #Машинный перевод 28.10.23!
- language_mtuwe_name: "Мтуве"  #Машинный перевод 28.10.23!
- language_nihare_name: "Нихаре"  #Машинный перевод 28.10.23!
- language_dergi_name: "Дерги"  #Машинный перевод 28.10.23!
- language_enynanthari_name: "Энинантари"  #Машинный перевод 28.10.23!
- language_marndeoticeni_name: "Марндеотичени"  #Машинный перевод 28.10.23!
- language_iseni_name: "Исеньи"  #Машинный перевод 28.10.23!
- aesthetics_erimatos_name: "Эриматос"  #Машинный перевод 28.10.23!
- language_sceyfish_name: "Скейфиш"  #Машинный перевод 28.10.23!
- language_bricotaves_name: "Брикози"  #Машинный перевод 28.10.23!
- language_ardothanes_name: "Ардофанес"  #Машинный перевод 28.10.23!
- language_ordikin_name: "Ордикин"  #Машинный перевод 28.10.23!
- language_corvosnari_name: "Корвоснари"  #Машинный перевод 28.10.23!
- language_ouwabadin_name: "Увабадин"  #Машинный перевод 28.10.23!
- language_ashkeschi_name: "Ашкески"  #Машинный перевод 28.10.23!
- language_dadkawji_name: "Дадкавохесе"  #Машинный перевод 28.10.23!
- language_narodlek_name: "Леки"  #Машинный перевод 28.10.23!
- language_sagadavian_name: "Сагадавян"  #Машинный перевод 28.10.23!
- language_aupfovla_name: "Аупфовла"  #Машинный перевод 28.10.23!
- language_nattanan_name: "Nattanan"  #Машинный перевод 28.10.23!
- language_saielaien_name: "Saielaien"  #Машинный перевод 28.10.23!
+ language_aversarian_name: "Аверсарианский"  
+ language_bestial_name: "Звериный"  
+ language_kholmvolki_name: "Холмволкийский" 
+ language_rekvolki_name: "Рекволкийский" 
+ language_marcher_name: "Марчерский"  
+ language_damotan_name: "Дамотанский"  
+ language_goan_name: "Гоанский" 
+ language_dezhunic_name: "Дежуникский" 
+ language_aekershaani_name: "Аэкершаанский"  
+ language_arapa_name: "Арапайский" 
+ language_marmaladid_name: "Мармаладидский" 
+ language_vhanavid_name: "Вханавидский" 
+ language_thalite_name: "Талитский" 
+ language_amsari_name: "Амсариский"  
+ language_hixite_name: "Хикситский" 
+ language_siral_name: "Сиральский" 
+ language_sarth_name: "Сартийский" 
+ language_thyssaen_name: "Тиссэйский"  
+ language_koshar_name: "Кошарский" 
+ language_sycharceg_name: "Сихарцегский"  
+ language_samojitian_name: "Самоджитянский"  
+ language_madikirib_name: "Мадикирибский"  
+ language_haraja_name: "Хараджайский" 
+ language_chordhan_name: "Чордханский" 
+ language_dayatemi_name: "Даятемийский" 
+ language_konijkmener_name: "Конийкменерский"  
+ language_aevakori_name: "Аэвакорийский" 
+ language_kevaali_name: "Кеваалийский" 
+ language_ojyczayn_name: "Оджикзайнский"  
+ language_gallieni_name: "Гальенский"  
+ language_sarminian_name: "Сарридинский"  
+ language_nakahanii_name: "Накаханийский" 
+ language_khalai_name: "Халайский" 
+ language_emanhi_name: "Эманхийский" 
+ language_adhata_name: "Адхатский"  
+ language_partic_name: "Партикский"   
+ language_canian_name: "Канианский" 
+ language_anandrasi_name: "Анандрасийский" 
+ language_shamrania_name: "Шамранианский" 
+ language_asariyna_name: "Асарийнайский" 
+ language_aembarisa_name: "Эмбарисайский" 
+ language_veparstva_name: "Вепарствайский" 
+ language_afoseniai_name: "Афосенианский" 
+ language_daidenos_name: "Дайденоский" 
+ language_skoronyk_name: "Скороникский"  
+ language_guillater_name: "Гиллатерский"  
+ language_kelthiunai_name: "Келтиунайский" 
+ language_oghainos_name: "Огайноский" 
+ language_zonthawa_name: "Зонтавский"  
+ language_margur_name: "Маргурский" 
+ language_athacaya_name: "Атакайянский" 
+ language_rekhala_name: "Рехальский"   
+ language_karzarad_name: "Карзарадский"  
+ language_huegodoc_name: "Хуэгодокский"  
+ language_likarkho_name: "Ликархонский" 
+ language_agnala_name: "Агнальский"   
+ language_khokhuud_name: "Хохуудский" 
+ language_xajirkel_name: "Хаджиркельский" 
+ language_tlakalak_name: "Тлакалакский"  
+ language_daravani_name: "Дараванийский" 
+ language_aafarzay_name: "Аафарзайский" 
+ language_kemsari_name: "Кемсарийский"  
+ language_mondecny_name: "Мондийский" 
+ language_yylaxxaz_name: "Зиз'икс'пи'никсийский"   
+ language_rivarisian_name: "Риварисианский"  
+ language_sunakari_name: "Сунакарийский" 
+ language_astilik_name: "Астиликский"  
+ language_kaledonic_name: "Каледонский" 
+ language_luskosvai_name: "Лускос'Вайский" 
+ language_aygaeri_name: "Эйгаэрский" 
+ language_tsetnera_name: "Цетнерский" 
+ language_amaghvelian_name: "Амагвейский" 
+ language_drimniak_name: "Дримниакский" 
+ language_kardwen_name: "Кэдвенский"  
+ language_sarridian_name: "Сарридский"  
+ language_cavetribe_name: "Туннельный"  
+ language_takopara_name: "Такопарайский" 
+ language_zanaumaures_name: "Занаумауреский" 
+ language_saradari_name: "Сарадарийский" 
+ language_yevamarai_name: "Йевамарайский"  
+ language_theugombrian_name: "Гобликс"  
+ language_hadiyan_name: "Хадиянский" 
+ language_redlander_name: "Красно-земельный"  
+ language_fog_eaters_name: "Туманный"  
+ language_abadelos_name: "Абаделоский" 
+ language_agadari_name: "Агадарийский" 
+ language_wasteland_name: "Пустынный"  
+ language_varnigitiai_name: "Варнигитианский" 
+ language_tiemanam_name: "Тайманамский" 
+ language_dubadin_name: "Дубадинский"  
+ language_easterner_name: "Восточный"  
+ language_saielaian_name: "Сайелайанский"  
+ language_mtuwe_name: "Мтувекский"  
+ language_nihare_name: "Нихарейский" 
+ language_dergi_name: "Дергийский"  
+ language_enynanthari_name: "Энинантарийский" 
+ language_marndeoticeni_name: "Марндеотисенийский" 
+ language_iseni_name: "Исиньийский"   
+ aesthetics_erimatos_name: "Эриматосский"  
+ language_sceyfish_name: "Скейфишский" 
+ language_bricotaves_name: "Брикотаванский"  
+ language_ardothanes_name: "Ардотанский"  
+ language_ordikin_name: "Ордикинский"  
+ language_corvosnari_name: "Корвоснарийский"  
+ language_ouwabadin_name: "Увабадинский" 
+ language_ashkeschi_name: "Ашкешийский" 
+ language_dadkawji_name: "Дадкавджийский"  
+ language_narodlek_name: "Народлекийский" 
+ language_sagadavian_name: "Сагадавианский" 
+ language_aupfovla_name: "Аупфовлайский" 
+ language_nattanan_name: "Наттананский"  
+ language_saielaien_name: "Сайелайенский"  
