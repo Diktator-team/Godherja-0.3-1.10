@@ -1,326 +1,326 @@
 ﻿l_russian:
  #I am aware vanilla keeps these in the cultures_l_english file, but given that I generated these using notepad++'s find and replace tool it looks more elegant this way 
- apokiakas_prefix: "Апокиакас"  #Машиночный перевод 28.10.23!
- northernimperial_prefix: "Северный Аверсарий"  #Машиночный перевод 28.10.23!
- easternimperial_prefix: "Восточный Аверсарий"  #Машиночный перевод 28.10.23!
- easternislander_prefix: "Восточно-аверсарийский островитянин"  #Машиночный перевод 28.10.23!
- lomonios_prefix: "Ломониос"  #Машиночный перевод 28.10.23!
- #lomonios_prefix: "Ломониос"  #Машиночный перевод 28.10.23!
- southernimperial_prefix: "Южный Аверсарий"  #Машиночный перевод 28.10.23!
- westernimperial_prefix: "Западный Аверсарий"  #Машиночный перевод 28.10.23!
- southislander_prefix: "Южный аверсарийский островитянин"  #Машиночный перевод 28.10.23!
- centralimperial_prefix: "Центральный Аверсарий"  #Машиночный перевод 28.10.23!
- islander_prefix: "Аверсарийский островитянин"  #Машиночный перевод 28.10.23!
- imperialislander_prefix: "Имперский островитянин"  #Машиночный перевод 28.10.23!
- aersodiaxian_islander_prefix: "Фелаксийский"  #Машиночный перевод 28.10.23!
- outerislander_prefix: "Внешний аверсарийский островитянин"  #Машиночный перевод 28.10.23!
- centralislander_prefix: "Центрально-аверсарийский островитянин"  #Машиночный перевод 28.10.23!
- cislander_prefix: "Центрально-аверсарийский островитянин"  #Машиночный перевод 28.10.23!
- practitioner_prefix: "Практикующий"  #Машиночный перевод 28.10.23!
- erimatos_prefix: "Эриматос"  #Машиночный перевод 28.10.23!
- makryenis_prefix: "Макриенис"  #Машиночный перевод 28.10.23!
- agiopadis_prefix: "Агиопадис"  #Машиночный перевод 28.10.23!
- aelarvisian_prefix: "Эларвизиан"  #Машиночный перевод 28.10.23!
- aeviaxian_prefix: "Ээваксиан"  #Машиночный перевод 28.10.23!
- redrunner_prefix: "Редраннер"  #Машиночный перевод 28.10.23!
+ apokiakas_prefix: "Апокиакасо"
+ northernimperial_prefix: "Северно-Аверсариано"
+ easternimperial_prefix: "Восточно-Аверсариано"
+ easternislander_prefix: "Восточно-Аверсарианско-Острово"
+ lomonios_prefix: "Ломониосо"  
+ #lomonios_prefix: "Ломониосо"
+ southernimperial_prefix: "Южно-Аверсариано"
+ westernimperial_prefix: "Западно-Аверсариано"
+ southislander_prefix: "Южно-Аверсариано-Острово"
+ centralimperial_prefix: "Центрально-Аверсариано"
+ islander_prefix: "Аверсариано-Острово"
+ imperialislander_prefix: "Имперско-Острово"
+ aersodiaxian_islander_prefix: "Фелаксо"
+ outerislander_prefix: "Внешне-Аверсариано-Острово"
+ centralislander_prefix: "Центрально-Аверсариано-Острово"
+ cislander_prefix: "Центрально-Аверсариано-Острово"
+ practitioner_prefix: "Практико"
+ erimatos_prefix: "Эриматосо"
+ makryenis_prefix: "Макриенисо"  
+ agiopadis_prefix: "Агиопадисо"
+ aelarvisian_prefix: "Аеларвисиано"
+ aeviaxian_prefix: "Аевиаксиано"
+ redrunner_prefix: "Редраннеро"
   
- jalanka_prefix: "Яланка"  #Машиночный перевод 28.10.23!
- symvolix_prefix: "Символикс"  #Машиночный перевод 28.10.23!
- coldcoaster_prefix: "Холодные горки"  #Машиночный перевод 28.10.23!
- dielecender_prefix: "Дилесендер"  #Машиночный перевод 28.10.23!
- abdexorn_prefix: "Абдексорн"  #Машиночный перевод 28.10.23!
- saradoixa_prefix: "Сарадойша"  #Машиночный перевод 28.10.23!
- adrakamp_prefix: "Адракамп"  #Машиночный перевод 28.10.23!
- barki_prefix: "Барки"  #Машиночный перевод 28.10.23!
- caemansi_prefix: "Чеманси"  #Машиночный перевод 28.10.23!
- curgerski_prefix: "Кургерски"  #Машиночный перевод 28.10.23!
- daukeni_prefix: "Даукени"  #Машиночный перевод 28.10.23!
- fenvir_prefix: "Фенвир"  #Машиночный перевод 28.10.23!
- greulokin_prefix: "Греулокин"  #Машиночный перевод 28.10.23!
- irmionoth_prefix: "Ирмионот"  #Машиночный перевод 28.10.23!
- mastikigni_prefix: "Мастикиньи"  #Машиночный перевод 28.10.23!
- tribocicai_prefix: "Tribocicai"  #Машиночный перевод 28.10.23!
- vrodkin_prefix: "Вродкин"  #Машиночный перевод 28.10.23!
- warisnik_prefix: "Варишник"  #Машиночный перевод 28.10.23!
- shewigad_prefix: "Шевигад"  #Машиночный перевод 28.10.23!
- carsavisians_prefix: "Карсавизиан"  #Машиночный перевод 28.10.23!
- etrandanexi_prefix: "Этранданекси"  #Машиночный перевод 28.10.23!
- rivarisians_prefix: "Риваризианский"  #Машиночный перевод 28.10.23!
- salisians_prefix: "Салисиан"  #Машиночный перевод 28.10.23!
- chevalies_prefix: "Шевалье"  #Машиночный перевод 28.10.23!
- voyagen_prefix: "Вояген"  #Машиночный перевод 28.10.23!
- trustians_prefix: "Доверительный"  #Машиночный перевод 28.10.23!
- oejeynica_prefix: "Ожейница"  #Машиночный перевод 28.10.23!
- konijkmener_prefix: "Конийкменер"  #Машиночный перевод 28.10.23!
- leegenders_prefix: "Легендер"  #Машиночный перевод 28.10.23!
- envokander_prefix: "Энвокандер"  #Машиночный перевод 28.10.23!
- urdermantern_prefix: "Урдермантерн"  #Машиночный перевод 28.10.23!
- ojyczaynz_prefix: "Ойчны"  #Машиночный перевод 28.10.23!
- amaghean_prefix: "Амагейский"  #Машиночный перевод 28.10.23!
- charchac_prefix: "Шаршак"  #Машиночный перевод 28.10.23!
- yevamarai_prefix: "Йевамарай"  #Машиночный перевод 28.10.23!
- draneti_prefix: "Дранети"  #Машиночный перевод 28.10.23!
- yylaxxaz_prefix: "Йилаксаз"  #Машиночный перевод 28.10.23!
- aygaen_prefix: "Айгаен"  #Машиночный перевод 28.10.23!
- erkalgani_prefix: "Эркалгани"  #Машиночный перевод 28.10.23!
- khodomi_prefix: "Ходоми"  #Машиночный перевод 28.10.23!
- zelkavani_prefix: "Зелкавани"  #Машиночный перевод 28.10.23!
- lattani_prefix: "Латтани"  #Машиночный перевод 28.10.23!
- astilik_prefix: "Астилик"  #Машиночный перевод 28.10.23!
- jarakmar_prefix: "Джа'Ракмар"  #Машиночный перевод 28.10.23!
- gwenuyos_prefix: "Гвенуйос"  #Машиночный перевод 28.10.23!
- beduleno_prefix: "Бедулено"  #Машиночный перевод 28.10.23!
- armanas_prefix: "Арманас"  #Машиночный перевод 28.10.23!
- diorenic_prefix: "Диореник"  #Машиночный перевод 28.10.23!
- lorodegi_prefix: "Лородеги"  #Машиночный перевод 28.10.23!
- anorlori_prefix: "Анорлори"  #Машиночный перевод 28.10.23!
- walakon_prefix: "Валакон"  #Машиночный перевод 28.10.23!
- raakiani_prefix: "Раакиани"  #Машиночный перевод 28.10.23!
- makulawti_prefix: "Макулавти"  #Машиночный перевод 28.10.23!
- lakaloi_prefix: "Лакалой"  #Машиночный перевод 28.10.23!
- aguadosian_prefix: "Агуадосян"  #Машиночный перевод 28.10.23!
- skoronyk_prefix: "Скороник"  #Машиночный перевод 28.10.23!
- guillater_prefix: "Гильятер"  #Машиночный перевод 28.10.23!
- guillater_aversarian_prefix: "Неофретитан"  #Машиночный перевод 28.10.23!
- vargenis_prefix: "Варгенис"  #Машиночный перевод 28.10.23!
- dasulanoi_prefix: "Дасуланой"  #Машиночный перевод 28.10.23!
- theygundarope_prefix: "Онигундаропе"  #Машиночный перевод 28.10.23!
- yaarnami_prefix: "Яарнами"  #Машиночный перевод 28.10.23!
- tlakalak_prefix: "Тлакалак"  #Машиночный перевод 28.10.23!
- surugin_prefix: "Suru'gin"  #Машиночный перевод 28.10.23!
- ualeren_prefix: "Уалерен"  #Машиночный перевод 28.10.23!
- maebalah_prefix: "Маебала"  #Машиночный перевод 28.10.23!
- cerussiai_prefix: "Черусяй"  #Машиночный перевод 28.10.23!
- deresstae_prefix: "Дересстаэ"  #Машиночный перевод 28.10.23!
- jassi_prefix: "Ясси"  #Машиночный перевод 28.10.23!
- kinambrosti_prefix: "Кинамбрости"  #Машиночный перевод 28.10.23!
- iyronisti_prefix: "Ииронисти"  #Машиночный перевод 28.10.23!
- oxalanti_prefix: "Оксаланти"  #Машиночный перевод 28.10.23!
- scusstari_prefix: "Скусстари"  #Машиночный перевод 28.10.23!
- kunsag_prefix: "Кунсаг"  #Машиночный перевод 28.10.23!
- csorsca_prefix: "Чорска"  #Машиночный перевод 28.10.23!
- sycharcegs_prefix: "Сихарцеги"  #Машиночный перевод 28.10.23!
- atrakar_prefix: "Атракар"  #Машиночный перевод 28.10.23!
- amsari_prefix: "Амсари"  #Машиночный перевод 28.10.23!
- sarthian_prefix: "Сартианец"  #Машиночный перевод 28.10.23!
- hixartii_prefix: "Хиксартии"  #Машиночный перевод 28.10.23!
- siralagi_prefix: "Сиралаги"  #Машиночный перевод 28.10.23!
- hamaxindi_prefix: "Хамаксинди"  #Машиночный перевод 28.10.23!
- thyssae_prefix: "Тиссе"  #Машиночный перевод 28.10.23!
- ran_kemsari_prefix: "Ран Кемсари"  #Машиночный перевод 28.10.23!
- alewui_kemsari_prefix: "Алевуи Кемсари"  #Машиночный перевод 28.10.23!
- almajun_kemsari_prefix: "Алмаджун Кемсари"  #Машиночный перевод 28.10.23!
- aljibal_kemsari_prefix: "Альджибал Кемсари"  #Машиночный перевод 28.10.23!
- leviden_prefix: "Левиден"  #Машиночный перевод 28.10.23!
- ashital_prefix: "Ашитал"  #Машиночный перевод 28.10.23!
- simevian_prefix: "Симевиан"  #Машиночный перевод 28.10.23!
- auzangeb_prefix: "Аузангеб"  #Машиночный перевод 28.10.23!
- mirzana_jahar_prefix: "Мирзана Джахар"  #Машиночный перевод 28.10.23!
- babura_prefix: "Бабура"  #Машиночный перевод 28.10.23!
- jangkar_prefix: "Джангкар"  #Машиночный перевод 28.10.23!
- adnanari_prefix: "Аднанари"  #Машиночный перевод 28.10.23!
- tasurmad_prefix: "Тасурмад"  #Машиночный перевод 28.10.23!
- barzawa_prefix: "Барзава"  #Машиночный перевод 28.10.23!
- qahsarides_prefix: "Кахсаридес"  #Машиночный перевод 28.10.23!
- khansaides_prefix: "Хансаидес"  #Машиночный перевод 28.10.23!
- utyalid_prefix: "Утьалид"  #Машиночный перевод 28.10.23!
- dawasid_prefix: "Давасид"  #Машиночный перевод 28.10.23!
- mutsartan_prefix: "Муцартан"  #Машиночный перевод 28.10.23!
- adabyann_prefix: "Адабьянн"  #Машиночный перевод 28.10.23!
- jaravad_prefix: "Джаравад"  #Машиночный перевод 28.10.23!
- khorinot_prefix: "Хоринот"  #Машиночный перевод 28.10.23!
- murarut_prefix: "Мур'арут"  #Машиночный перевод 28.10.23!
- musar_prefix: "Мусар"  #Машиночный перевод 28.10.23!
- muhadamd_prefix: "Мухадамд"  #Машиночный перевод 28.10.23!
- kuridorig_prefix: "Куридориг"  #Машиночный перевод 28.10.23!
- auteonic_prefix: "Автоонический"  #Машиночный перевод 28.10.23!
- brigandines_prefix: "Бригандина"  #Машиночный перевод 28.10.23!
- cautocoi_prefix: "Каутокой"  #Машиночный перевод 28.10.23!
- darinic_prefix: "Даринич"  #Машиночный перевод 28.10.23!
- ivernic_prefix: "Иверник"  #Машиночный перевод 28.10.23!
- mascatic_prefix: "Маскатик"  #Машиночный перевод 28.10.23!
- nagandines_prefix: "Нагандин"  #Машиночный перевод 28.10.23!
- velabronic_prefix: "Велаброник"  #Машиночный перевод 28.10.23!
- voluntic_prefix: "добровольный"  #Машиночный перевод 28.10.23!
- fog_eaters_prefix: "Пожиратель тумана"  #Машиночный перевод 28.10.23!
- samojitian_prefix: "Samojitian"  #Машиночный перевод 28.10.23!
- ukininkas_prefix: "Укининкас"  #Машиночный перевод 28.10.23!
- meistras_prefix: "Мейстрас"  #Машиночный перевод 28.10.23!
- mineris_prefix: "Минерис"  #Машиночный перевод 28.10.23!
- skausmas_prefix: "Скаусмас"  #Машиночный перевод 28.10.23!
- kawoch_prefix: "Кавоч"  #Машиночный перевод 28.10.23!
- doffore_prefix: "Доффоре"  #Машиночный перевод 28.10.23!
- fedagesh_prefix: "Федагеш"  #Машиночный перевод 28.10.23!
- kutma_prefix: "Кутма"  #Машиночный перевод 28.10.23!
- gallicads_prefix: "Галликад"  #Машиночный перевод 28.10.23!
- sarridians_prefix: "Сарридиан"  #Машиночный перевод 28.10.23!
- kardwens_prefix: "Кардвен"  #Машиночный перевод 28.10.23!
- sarminians_prefix: "Сарминский"  #Машиночный перевод 28.10.23!
- #mondecny_prefix: "Мондка"  #Машиночный перевод 28.10.23!
- huegodocs_prefix: "Уэгодок"  #Машиночный перевод 28.10.23!
- karzarads_prefix: "Карзарад"  #Машиночный перевод 28.10.23!
- goans_prefix: "Гоан"  #Машиночный перевод 28.10.23!
- kathunian_prefix: "Катуниан"  #Машиночный перевод 28.10.23!
- kathunians_prefix: "Катуниан"  #Машиночный перевод 28.10.23!
- redlander_prefix: "Редлендер"  #Машиночный перевод 28.10.23!
+ jalanka_prefix: "Джаланко"
+ symvolix_prefix: "Символиксо"
+ coldcoaster_prefix: "Колдкостеро"
+ dielecender_prefix: "Дилекендеро"
+ abdexorn_prefix: "Абдексорно"
+ saradoixa_prefix: "Сарадойксо"
+ adrakamp_prefix: "Адракампо"  
+ barki_prefix: "Баркино"  
+ caemansi_prefix: "Каэмансино"
+ curgerski_prefix: "Кургерскино"
+ daukeni_prefix: "Даукенино"  
+ fenvir_prefix: "Фенвиро"  
+ greulokin_prefix: "Греулокино"
+ irmionoth_prefix: "Ирмионото"
+ mastikigni_prefix: "Мастикигнино"
+ tribocicai_prefix: "Трибоцикайно"
+ vrodkin_prefix: "Вродкино"
+ warisnik_prefix: "Вариснико"
+ shewigad_prefix: "Шевигадо"
+ carsavisians_prefix: "Карсавизиано"  
+ etrandanexi_prefix: "Этранданексино"
+ rivarisians_prefix: "Риварисиано"
+ salisians_prefix: "Салисиано"
+ chevalies_prefix: "Шевальено"
+ voyagen_prefix: "Воягено"
+ trustians_prefix: "Трастено"
+ oejeynica_prefix: "Оейникано"
+ konijkmener_prefix: "Конийкменеро"
+ leegenders_prefix: "Лигендеро"
+ envokander_prefix: "Энвокандеро"
+ urdermantern_prefix: "Урдермантерно"
+ ojyczaynz_prefix: "Оджикзайнцо"
+ amaghean_prefix: "Амагейско"  
+ charchac_prefix: "Чарчако"
+ yevamarai_prefix: "Йевамарайно"
+ draneti_prefix: "Дрането" 
+ yylaxxaz_prefix: "Йылаксазо"
+ aygaen_prefix: "Айгаено"
+ erkalgani_prefix: "Эркалгано"
+ khodomi_prefix: "Ходомо" 
+ zelkavani_prefix: "Зелькавано"
+ lattani_prefix: "Латтано"
+ astilik_prefix: "Астилико"
+ jarakmar_prefix: "Джа'Ракмаро"
+ gwenuyos_prefix: "Гвенуйосо"
+ beduleno_prefix: "Бедулено"
+ armanas_prefix: "Арманасо"
+ diorenic_prefix: "Диоренико"
+ lorodegi_prefix: "Лородего"
+ anorlori_prefix: "Анорлоро"
+ walakon_prefix: "Валаконо"
+ raakiani_prefix: "Раакиано"
+ makulawti_prefix: "Макулавто" 
+ lakaloi_prefix: "Лакалойо"
+ aguadosian_prefix: "Агуадосиано"
+ skoronyk_prefix: "Скоронико"
+ guillater_prefix: "Гиллатеро"
+ guillater_aversarian_prefix: "Неофретитано"
+ vargenis_prefix: "Варгенисо"
+ dasulanoi_prefix: "Дасулано"
+ theygundarope_prefix: "Зейгундаропо"
+ yaarnami_prefix: "Яарнамо" 
+ tlakalak_prefix: "Тлакалако"
+ surugin_prefix: "Суру'Гино"
+ ualeren_prefix: "Уалерено" 
+ maebalah_prefix: "Маэбалахо"
+ cerussiai_prefix: "Церуссайно" 
+ deresstae_prefix: "Дерестано"
+ jassi_prefix: "Джассино"
+ kinambrosti_prefix: "Кинамбростино"
+ iyronisti_prefix: "Иронистино"
+ oxalanti_prefix: "Оксалантино"
+ scusstari_prefix: "Скустарино"
+ kunsag_prefix: "Кунсаго"
+ csorsca_prefix: "Чоршано"
+ sycharcegs_prefix: "Сихарцегсо"
+ atrakar_prefix: "Атракаро" 
+ amsari_prefix: "Амсарино"
+ sarthian_prefix: "Сартиано"
+ hixartii_prefix: "Хиксартийно"
+ siralagi_prefix: "Сиралагино"
+ hamaxindi_prefix: "Хамаксиндино"
+ thyssae_prefix: "Тиссэйно"
+ ran_kemsari_prefix: "Ран Кемсарино"
+ alewui_kemsari_prefix: "Алевуй Кемсарино"
+ almajun_kemsari_prefix: "Алмаджун Кемсарино" 
+ aljibal_kemsari_prefix: "Алжибал Кемсарино"
+ leviden_prefix: "Левидено" 
+ ashital_prefix: "Ашитало"  
+ simevian_prefix: "Симевиано"
+ auzangeb_prefix: "Аузангебо"
+ mirzana_jahar_prefix: "Мирзана Джахаро"
+ babura_prefix: "Бабурано"
+ jangkar_prefix: "Джангкаро"
+ adnanari_prefix: "Аднанарино"
+ tasurmad_prefix: "Тасурмадо"
+ barzawa_prefix: "Барзавано"
+ qahsarides_prefix: "Кахсаридо"
+ khansaides_prefix: "Хансаидо"
+ utyalid_prefix: "Утялидо"
+ dawasid_prefix: "Давасидо"
+ mutsartan_prefix: "Муцартано"
+ adabyann_prefix: "Адабьянно"
+ jaravad_prefix: "Джаравадо"  
+ khorinot_prefix: "Хориното"
+ murarut_prefix: "Мур'ар'уто" 
+ musar_prefix: "Мусаро"  
+ muhadamd_prefix: "Мухадамдо" 
+ kuridorig_prefix: "Куридориго"
+ auteonic_prefix: "Аутеонико"  
+ brigandines_prefix: "Бригандино" 
+ cautocoi_prefix: "Каутокойно"
+ darinic_prefix: "Даринико"
+ ivernic_prefix: "Ивернико"
+ mascatic_prefix: "Маскатико"
+ nagandines_prefix: "Нагандино"
+ velabronic_prefix: "Велабронико"
+ voluntic_prefix: "Волунтико"
+ fog_eaters_prefix: "Туманно"
+ samojitian_prefix: "Самоджитно"
+ ukininkas_prefix: "Укининкасо"
+ meistras_prefix: "Мейстрасо"
+ mineris_prefix: "Минерисо"
+ skausmas_prefix: "Скаусмасо"
+ kawoch_prefix: "Кавочо"
+ doffore_prefix: "Доффорено"
+ fedagesh_prefix: "Федагешо"
+ kutma_prefix: "Кутмано"
+ gallicads_prefix: "Галликадо"
+ sarridians_prefix: "Сарридно"
+ kardwens_prefix: "Кэрдвено"  
+ sarminians_prefix: "Сарридино"
+ #mondecny_prefix: "Мондеко"  #Машинный перевод 28.10.23!
+ huegodocs_prefix: "Хуэгодоко" 
+ karzarads_prefix: "Карзарадо"
+ goans_prefix: "Гоано"  
+ kathunian_prefix: "Катуно"
+ kathunians_prefix: "Катуно"
+ redlander_prefix: "Редлендеро" 
  wasteland_prefix: ""
- jaduyada_prefix: "Джадуяда"  #Машиночный перевод 28.10.23!
- hudi_prefix: "Худи"  #Машиночный перевод 28.10.23!
- amuaad_prefix: "Амуаад"  #Машиночный перевод 28.10.23!
- mazunic_prefix: "Мазуник"  #Машиночный перевод 28.10.23!
- qushyed_prefix: "Кушед"  #Машиночный перевод 28.10.23!
- tagrodar_prefix: "Тагродар"  #Машиночный перевод 28.10.23!
- aaoyuotaa_prefix: "Ааоюот'аа"  #Машиночный перевод 28.10.23!
- aiyqarbkhiyl_prefix: "Айкар-Бхиил"  #Машиночный перевод 28.10.23!
- madikirib_prefix: "Мадикириб"  #Машиночный перевод 28.10.23!
- prakaani_prefix: "Пракаани"  #Машиночный перевод 28.10.23!
- deraani_prefix: "Дераани"  #Машиночный перевод 28.10.23!
- samayani_prefix: "Самайани"  #Машиночный перевод 28.10.23!
- rethara_prefix: "Ретара"  #Машиночный перевод 28.10.23!
- tapuso_prefix: "Тапусо"  #Машиночный перевод 28.10.23!
- rokgana_prefix: "Рокгана"  #Машиночный перевод 28.10.23!
- arolyan_prefix: "Аролян"  #Машиночный перевод 28.10.23!
- savorna_prefix: "Саворна"  #Машиночный перевод 28.10.23!
- velrika_prefix: "Велрика"  #Машиночный перевод 28.10.23!
- mahatha_prefix: "Махатха"  #Машиночный перевод 28.10.23!
- jayakayin_prefix: "Джаякаин"  #Машиночный перевод 28.10.23!
- paradila_prefix: "Парадила"  #Машиночный перевод 28.10.23!
- yayanka_prefix: "Яянка"  #Машиночный перевод 28.10.23!
- elekraya_prefix: "Электрайя"  #Машиночный перевод 28.10.23!
- prapataro_prefix: "Прапатаро"  #Машиночный перевод 28.10.23!
- garami_prefix: "Гарами"  #Машиночный перевод 28.10.23!
- saruta_prefix: "Сарута"  #Машиночный перевод 28.10.23!
- iafarana_prefix: "Яфарана"  #Машиночный перевод 28.10.23!
- ikanita_prefix: "Иканита"  #Машиночный перевод 28.10.23!
- zalaka_prefix: "Залака"  #Машиночный перевод 28.10.23!
- hokanta_prefix: "Хоканта"  #Машиночный перевод 28.10.23!
- kasanti_prefix: "Касанти"  #Машиночный перевод 28.10.23!
- hunawi_prefix: "Хунави"  #Машиночный перевод 28.10.23!
- xrahantiia_prefix: "Шрахантия"  #Машиночный перевод 28.10.23!
- aezentiam_prefix: "Эзентиам"  #Машиночный перевод 28.10.23!
- huxayakha_prefix: "Хусяяха"  #Машиночный перевод 28.10.23!
- kadamana_prefix: "Кадамана"  #Машиночный перевод 28.10.23!
- mithaista_prefix: "Митаиста"  #Машиночный перевод 28.10.23!
- nizhbata_prefix: "Нижбата"  #Машиночный перевод 28.10.23!
- qaanhai_prefix: "Каанхай"  #Машиночный перевод 28.10.23!
- rathzemi_prefix: "Ратземи"  #Машиночный перевод 28.10.23!
- khadaleg_prefix: "Хадалег"  #Машиночный перевод 28.10.23!
- sarishta_prefix: "Саришта"  #Машиночный перевод 28.10.23!
- yevanya_prefix: "Евания"  #Машиночный перевод 28.10.23!
- yonata_prefix: "Yonata"  #Машиночный перевод 28.10.23!
- hadaxma_prefix: "Хадаксма"  #Машиночный перевод 28.10.23!
- wafrakat_prefix: "Вафракат"  #Машиночный перевод 28.10.23!
- taminiai_prefix: "Таминяй"  #Машиночный перевод 28.10.23!
- marakje_prefix: "Маракье"  #Машиночный перевод 28.10.23!
- avihana_prefix: "Авихана"  #Машиночный перевод 28.10.23!
- samorihya_prefix: "Саморихья"  #Машиночный перевод 28.10.23!
- sindaara_prefix: "Синдаара"  #Машиночный перевод 28.10.23!
- agunaha_prefix: "Агунаха"  #Машиночный перевод 28.10.23!
- yaknha_prefix: "Якнха"  #Машиночный перевод 28.10.23!
- siklasa_prefix: "Сикласа"  #Машиночный перевод 28.10.23!
- temala_prefix: "Темала"  #Машиночный перевод 28.10.23!
- korlona_prefix: "Корлона"  #Машиночный перевод 28.10.23!
- lainar_prefix: "Лайнар"  #Машиночный перевод 28.10.23!
- qoltaam_prefix: "Колтаам"  #Машиночный перевод 28.10.23!
- kadwana_prefix: "Кадвана"  #Машиночный перевод 28.10.23!
- tehaina_prefix: "Техайна"  #Машиночный перевод 28.10.23!
- jakana_prefix: "Джакана"  #Машиночный перевод 28.10.23!
- vanaarik_prefix: "Ванаарик"  #Машиночный перевод 28.10.23!
- vyatari_prefix: "Вятари"  #Машиночный перевод 28.10.23!
- majanta_prefix: "Маджанта"  #Машиночный перевод 28.10.23!
- jankalo_prefix: "Янкало"  #Машиночный перевод 28.10.23!
- sakankra_prefix: "Саканкра"  #Машиночный перевод 28.10.23!
- telukor_prefix: "Телукор"  #Машиночный перевод 28.10.23!
- xokola_prefix: "Ксокола"  #Машиночный перевод 28.10.23!
- adani_prefix: "Адани"  #Машиночный перевод 28.10.23!
- paidem_prefix: "Пайдем"  #Машиночный перевод 28.10.23!
- zhenayi_prefix: "Zhenayi"  #Машиночный перевод 28.10.23!
- shayuni_prefix: "Шаюни"  #Машиночный перевод 28.10.23!
- virlani_prefix: "Вирлани"  #Машиночный перевод 28.10.23!
- karkit_prefix: "Каркит"  #Машиночный перевод 28.10.23!
- pyanaki_prefix: "Пьянаки"  #Машиночный перевод 28.10.23!
- swabani_prefix: "Швабани"  #Машиночный перевод 28.10.23!
- yadaniya_prefix: "Ядания"  #Машиночный перевод 28.10.23!
- ulakada_prefix: "Улакада"  #Машиночный перевод 28.10.23!
- karana_prefix: "Карана"  #Машиночный перевод 28.10.23!
- rahikaya_prefix: "Рахикая"  #Машиночный перевод 28.10.23!
- ekaachi_prefix: "Экаачи"  #Машиночный перевод 28.10.23!
- zabari_prefix: "Забари"  #Машиночный перевод 28.10.23!
- tahanati_prefix: "Таханати"  #Машиночный перевод 28.10.23!
- neshalar_prefix: "Нешалар"  #Машиночный перевод 28.10.23!
- ilahanai_prefix: "Илаханай"  #Машиночный перевод 28.10.23!
- zyawtas_prefix: "Зявтас"  #Машиночный перевод 28.10.23!
- uthanata_prefix: "Утаната"  #Машиночный перевод 28.10.23!
- vaxanaka_prefix: "Ваксанака"  #Машиночный перевод 28.10.23!
- zharran_prefix: "Жарран"  #Машиночный перевод 28.10.23!
- tanumarei_prefix: "Танумарей"  #Машиночный перевод 28.10.23!
- vastarnai_prefix: "Вастарнай"  #Машиночный перевод 28.10.23!
- parakh_prefix: "Парах"  #Машиночный перевод 28.10.23!
- orshinid_prefix: "Оршинид"  #Машиночный перевод 28.10.23!
- holganud_prefix: "Холгануд"  #Машиночный перевод 28.10.23!
- zakhirun_prefix: "Захирун"  #Машиночный перевод 28.10.23!
- nargul_prefix: "Наргуль"  #Машиночный перевод 28.10.23!
- latur_prefix: "Латур"  #Машиночный перевод 28.10.23!
- ogantaa_prefix: "Органтаа"  #Машиночный перевод 28.10.23!
- garbariz_prefix: "Гарбариз"  #Машиночный перевод 28.10.23!
- xasamdaas_prefix: "Хасамдаас"  #Машиночный перевод 28.10.23!
- kirinarth_prefix: "Киринарт"  #Машиночный перевод 28.10.23!
- lawgiri_prefix: "Логири"  #Машиночный перевод 28.10.23!
- aeulikain_prefix: "Эуликаин"  #Машиночный перевод 28.10.23!
- carkarain_prefix: "Каркарайн"  #Машиночный перевод 28.10.23!
- karannin_prefix: "Караннин"  #Машиночный перевод 28.10.23!
- penetworin_prefix: "Пеневорин"  #Машиночный перевод 28.10.23!
- nevtanei_prefix: "Невтаней"  #Машиночный перевод 28.10.23!
- merdelavi_prefix: "Мерделави"  #Машиночный перевод 28.10.23!
- mahratian_prefix: "Маратян"  #Машиночный перевод 28.10.23!
- akhtarfi_prefix: "Ахтарфи"  #Машиночный перевод 28.10.23!
- ghudiyy_prefix: "Гудий"  #Машиночный перевод 28.10.23!
- gwasillikh_prefix: "Гвасиллих"  #Машиночный перевод 28.10.23!
- asarey_prefix: "Асарей"  #Машиночный перевод 28.10.23!
- takopara_prefix: "Такопара"  #Машиночный перевод 28.10.23!
- theugombrians_prefix: "Теугомбрий"  #Машиночный перевод 28.10.23!
- ogantea_prefix: "Огантеа"  #Машиночный перевод 28.10.23!
- tafara_prefix: "Тафара"  #Машиночный перевод 28.10.23!
- ndoufre_prefix: "Ндуфра"  #Машиночный перевод 28.10.23!
- mtuwe_prefix: "Мтуве"  #Машиночный перевод 28.10.23!
- hmaceak_prefix: "Хмачеак"  #Машиночный перевод 28.10.23!
- enisaloi_prefix: "Энисалой"  #Машиночный перевод 28.10.23!
- madugi_prefix: "Мадуги"  #Машиночный перевод 28.10.23!
- saielaian_prefix: "Saielaian"  #Машиночный перевод 28.10.23!
- enynanthari_prefix: "Энинантари"  #Машиночный перевод 28.10.23!
- theygundarope_aversarian_prefix: "Тейиклавой"  #Машиночный перевод 28.10.23!
- vonatolis_prefix: "Вонатолис"  #Машиночный перевод 28.10.23!
- aslalti_prefix: "Аслалты"  #Машиночный перевод 28.10.23!
- dergi_prefix: "Дерги"  #Машиночный перевод 28.10.23!
- sinasan_prefix: "Синасан"  #Машиночный перевод 28.10.23!
- averkathuni_prefix: "Axeizu"  #Машиночный перевод 28.10.23!
- marndeoticeni_prefix: "Марндеотичени"  #Машиночный перевод 28.10.23!
- leriseb_prefix: "Лерисеб"  #Машиночный перевод 28.10.23!
- erridai_prefix: "Erridai"  #Машиночный перевод 28.10.23!
- dubadin_prefix: "Дубадин"  #Машиночный перевод 28.10.23!
- ypsikenai_prefix: "Ипсикенай"  #Машиночный перевод 28.10.23!
- iseni_prefix: "Исеньи"  #Машиночный перевод 28.10.23!
- tretosai_prefix: "Третосай"  #Машиночный перевод 28.10.23!
- saruyad_prefix: "Саруяд"  #Машиночный перевод 28.10.23!
- rakosakai_prefix: "Rakosakai"  #Машиночный перевод 28.10.23!
- nimakiroi_prefix: "Нимакирои"  #Машиночный перевод 28.10.23!
- karadamos_prefix: "Карадамос"  #Машиночный перевод 28.10.23!
- gisreddean_prefix: "Гисреддин"  #Машиночный перевод 28.10.23!
- sceyfig_lighter_prefix: "Scefig Зажигалка"  #Машиночный перевод 28.10.23!
- bricotaves_prefix: "Брикотавы"  #Машиночный перевод 28.10.23!
- ardothanes_prefix: "Ардофанес"  #Машиночный перевод 28.10.23!
- ordikin_prefix: "Ордикин"  #Машиночный перевод 28.10.23!
- corvosnari_prefix: "Корвоснари"  #Машиночный перевод 28.10.23!
- balauri_prefix: "Балаури"  #Машиночный перевод 28.10.23!
- izikalek_prefix: "Изикалек"  #Машиночный перевод 28.10.23!
- gallien_prefix: "Галлиени"  #Машиночный перевод 28.10.23!
- lich_culture_prefix: "Ойчны"  #Машиночный перевод 28.10.23!
- zoldagn_prefix: "Золдан"  #Машиночный перевод 28.10.23!
- aelfir_culture_prefix: "Эльфир"  #Машиночный перевод 28.10.23!
- hrunzag_prefix: "Хрунзаг"  #Машиночный перевод 28.10.23!
- krupleg_prefix: "Круплег"  #Машиночный перевод 28.10.23!
- dodragn_prefix: "Додрагн"  #Машиночный перевод 28.10.23!
- druhandaehzag_prefix: "Друхан'даэзаг"  #Машиночный перевод 28.10.23!
- skorikiakas_prefix: "Скорикиакас"  #Машиночный перевод 28.10.23!
- nattanan_prefix: "Nattanan"  #Машиночный перевод 28.10.23!
- dathanites_prefix: "Датаниты"  #Машиночный перевод 28.10.23!
+ jaduyada_prefix: "Джадуядано"
+ hudi_prefix: "Худино"
+ amuaad_prefix: "Амуаадо"
+ mazunic_prefix: "Мазунико"
+ qushyed_prefix: "Кушедо"
+ tagrodar_prefix: "Тагродаро"
+ aaoyuotaa_prefix: "Аойют'аано"
+ aiyqarbkhiyl_prefix: "Айкар-Б'хийло" 
+ madikirib_prefix: "Мадикирибо"
+ prakaani_prefix: "Пракаанино"
+ deraani_prefix: "Дераанино" 
+ samayani_prefix: "Самайанино"
+ rethara_prefix: "Ретарано"
+ tapuso_prefix: "Тапусоно"
+ rokgana_prefix: "Рокганано"
+ arolyan_prefix: "Ароляно"  
+ savorna_prefix: "Саворнано"
+ velrika_prefix: "Велрикано"
+ mahatha_prefix: "Махатхано"
+ jayakayin_prefix: "Джаякаино"  
+ paradila_prefix: "Парадилано"
+ yayanka_prefix: "Яянкано"
+ elekraya_prefix: "Электраяно"
+ prapataro_prefix: "Прапатароно"
+ garami_prefix: "Гарамино"
+ saruta_prefix: "Сарутано"
+ iafarana_prefix: "Иафаранано"
+ ikanita_prefix: "Иканитано"
+ zalaka_prefix: "Залакано"  
+ hokanta_prefix: "Хокантано"
+ kasanti_prefix: "Касантино"
+ hunawi_prefix: "Хунавино"
+ xrahantiia_prefix: "Ксрахантияно"
+ aezentiam_prefix: "Аезентиамо"
+ huxayakha_prefix: "Хаксаяхано"
+ kadamana_prefix: "Кадаманано"
+ mithaista_prefix: "Митайстано"
+ nizhbata_prefix: "Нижбатано"
+ qaanhai_prefix: "Каанхайно"
+ rathzemi_prefix: "Ратземино"
+ khadaleg_prefix: "Хадалего"
+ sarishta_prefix: "Сариштано"
+ yevanya_prefix: "Еваняно" 
+ yonata_prefix: "Йонатано"
+ hadaxma_prefix: "Хадаксмано"
+ wafrakat_prefix: "Вафракато"
+ taminiai_prefix: "Таминайно"
+ marakje_prefix: "Маракджено" 
+ avihana_prefix: "Авиханано" 
+ samorihya_prefix: "Саморихяно"
+ sindaara_prefix: "Синдаарано"
+ agunaha_prefix: "Агунахано"
+ yaknha_prefix: "Якнхано"
+ siklasa_prefix: "Сикласано" 
+ temala_prefix: "Темалано" 
+ korlona_prefix: "Корлонано"
+ lainar_prefix: "Лайнаро"  
+ qoltaam_prefix: "Колтаамо"
+ kadwana_prefix: "Кэдванано"
+ tehaina_prefix: "Техаинано"
+ jakana_prefix: "Джаканано"
+ vanaarik_prefix: "Ванаарико"
+ vyatari_prefix: "Вятарино"
+ majanta_prefix: "Маджантано"
+ jankalo_prefix: "Джанкалоно"
+ sakankra_prefix: "Саканкрано" 
+ telukor_prefix: "Телукоро"
+ xokola_prefix: "Ксоколано"
+ adani_prefix: "Аданино"
+ paidem_prefix: "Пайдемо"
+ zhenayi_prefix: "Женэйно"
+ shayuni_prefix: "Шаюнино"
+ virlani_prefix: "Вирланино" 
+ karkit_prefix: "Каркито"  
+ pyanaki_prefix: "Пянакино"
+ swabani_prefix: "Швабанино"
+ yadaniya_prefix: "Яданияно"
+ ulakada_prefix: "Улакадано"  
+ karana_prefix: "Каранано" 
+ rahikaya_prefix: "Рахикаяно"
+ ekaachi_prefix: "Экаачино"
+ zabari_prefix: "Забарино" 
+ tahanati_prefix: "Таханатино" 
+ neshalar_prefix: "Нешаларо"
+ ilahanai_prefix: "Илаханаино"  
+ zyawtas_prefix: "Зявтасо" 
+ uthanata_prefix: "Утанатано" 
+ vaxanaka_prefix: "Ваксанакано"
+ zharran_prefix: "Жаррано"  
+ tanumarei_prefix: "Танумарейно"  
+ vastarnai_prefix: "Вастарнайно"  
+ parakh_prefix: "Парахо" 
+ orshinid_prefix: "Оршинидо"
+ holganud_prefix: "Холганудо"  
+ zakhirun_prefix: "Захируно"  
+ nargul_prefix: "Наргуло"
+ latur_prefix: "Латуро"  
+ ogantaa_prefix: "Огантаано" 
+ garbariz_prefix: "Гарбаризо"
+ xasamdaas_prefix: "Ксасамдаасо"
+ kirinarth_prefix: "Киринарт"
+ lawgiri_prefix: "Логирино"  
+ aeulikain_prefix: "Эуликайно"
+ carkarain_prefix: "Каркарайно"
+ karannin_prefix: "Караннино"  
+ penetworin_prefix: "Пенетворино"
+ nevtanei_prefix: "Невтанейно"
+ merdelavi_prefix: "Мерделавино"
+ mahratian_prefix: "Махратиано"
+ akhtarfi_prefix: "Ахтарфино"
+ ghudiyy_prefix: "Гудийно" 
+ gwasillikh_prefix: "Гвасиллихо"  
+ asarey_prefix: "Асарейно" 
+ takopara_prefix: "Такопарано"  
+ theugombrians_prefix: "Теугомбрино"
+ ogantea_prefix: "Огантэано"
+ tafara_prefix: "Тафарано"
+ ndoufre_prefix: "Ндуфрено"
+ mtuwe_prefix: "Мтувено"
+ hmaceak_prefix: "Хмачеако"
+ enisaloi_prefix: "Энисалойно"
+ madugi_prefix: "Мадугино"
+ saielaian_prefix: "Сайелайано" 
+ enynanthari_prefix: "Энинантарино"  
+ theygundarope_aversarian_prefix: "Тейгундаропо"
+ vonatolis_prefix: "Вонатолисо"
+ aslalti_prefix: "Аслалтино" 
+ dergi_prefix: "Дергино"
+ sinasan_prefix: "Синасано"
+ averkathuni_prefix: "Аксизуно"
+ marndeoticeni_prefix: "Марндеотисенино"
+ leriseb_prefix: "Лерисебо" 
+ erridai_prefix: "Эрридайно"
+ dubadin_prefix: "Дубадино"  
+ ypsikenai_prefix: "Ипсикенайно"  
+ iseni_prefix: "Исиньино"
+ tretosai_prefix: "Третосайно"  
+ saruyad_prefix: "Саруядо"
+ rakosakai_prefix: "Ракосакайно"
+ nimakiroi_prefix: "Нимакиройно"  
+ karadamos_prefix: "Карадамосо"  
+ gisreddean_prefix: "Гисреддино" 
+ sceyfig_lighter_prefix: "Скёфеглайтеро"
+ bricotaves_prefix: "Брикотавано"
+ ardothanes_prefix: "Ардотано"
+ ordikin_prefix: "Ордикинно" 
+ corvosnari_prefix: "Корвоснарино"
+ balauri_prefix: "Балаурино"
+ izikalek_prefix: "Изикалеко"
+ gallien_prefix: "Галльено" 
+ lich_culture_prefix: "Личо"
+ zoldagn_prefix: "Зольдагно"  
+ aelfir_culture_prefix: "Эльфиро"
+ hrunzag_prefix: "Хрунзаго" 
+ krupleg_prefix: "Круплего"  
+ dodragn_prefix: "Додрагно"
+ druhandaehzag_prefix: "Друхан'даэзаго"
+ skorikiakas_prefix: "Скорикиакасо"
+ nattanan_prefix: "Наттанано" 
+ dathanites_prefix: "Датанито"  

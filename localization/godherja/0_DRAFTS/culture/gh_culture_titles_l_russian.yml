@@ -218,8 +218,8 @@
  county_feudal_sjalvolki: "Вольст" #Pfalz
  duke_feudal_male_sjalvolki: "Надрой" #Pfalz
  duke_feudal_female_sjalvolki: "Надрайца" #Pfalz
- duchy_feudal_sjalvolki: "Подреч" #Pfalz
- duchy_feudal_sjalvolki_independent: "Надреч" #Pfalz
+ duchy_feudal_sjalvolki: "Подрех" #Pfalz
+ duchy_feudal_sjalvolki_independent: "Надрех" #Pfalz
  emperor_feudal_male_e_opakasija_sjalvolki: "Верховный король" #Pfalz
  emperor_feudal_female_e_eopakasija_sjalvolki: "Верховная королева" #Pfalz
  opakasija_feudal_high_kingdom: "Верховное королевство" #Pfalz
@@ -234,7 +234,7 @@
  count_tribal_female_sjalvolki: "Светникжа" #Pfalz /спорно
  count_tribal_male_sjalvolki_independent: "Воджцланев" #Pfalz /спорно
  count_tribal_female_sjalvolki_independent: "Воджцланава" #Pfalz /спорно
- county_tribal_sjalvolki: "Васреч" #Pfalz
+ county_tribal_sjalvolki: "Васрех" #Pfalz
  duke_tribal_male_sjalvolki: "Воджцланев" #Pfalz
  duke_tribal_female_sjalvolki: "Воджцланава" #Pfalz
  duke_tribal_male_sjalvolki_independent: "Крал" #Pfalz
@@ -242,7 +242,7 @@
  duchy_tribal_sjalvolki: "Кланрех" #Pfalz /спорно
  king_tribal_male_sjalvolki: "Крал" #Pfalz
  king_tribal_female_sjalvolki: "Кралча" #Pfalz /спорно
- kingdom_tribal_sjalvolki: "Подрокреч" #Pfalz /спорно
+ kingdom_tribal_sjalvolki: "Подрокрех" #Pfalz /спорно
  emperor_tribal_male_sjalvolki: "Рекрал" #Pfalz /спорно
  emperor_tribal_female_sjalvolki: "Рекральца" #Pfalz /спорно
   
@@ -306,7 +306,7 @@
  duke_feudal_female_aversarian: "Деспекса" #Pfalz /спорно
  duchy_feudal_aversarian: "Деспекс" #Pfalz /спорно
  king_feudal_male_aversarian: "Архексир" #Pfalz /спорно
- king_feudal_female_aversarian: "Аркекса" #Pfalz /спорно
+ king_feudal_female_aversarian: "Архекса" #Pfalz /спорно
  king_landed_order_aversarian: "Магистр ордена" #Pfalz /спорно
  kingdom_feudal_aversarian: "Архекс" #Pfalz /спорно
  emperor_feudal_male_aversarian: "Аавтократир" #Pfalz /спорно
@@ -446,22 +446,22 @@
  kingdom_adabyssian: "Масуванат" #Pfalz /спорно
   
   ## Mondecny ## 
- emperor_male_mondecny: "Стадкавар" #Машиночный перевод 28.10.23
- emperor_female_mondecny: "Стадкавдки" #Машиночный перевод 28.10.23
- prince_empire_mond: "Марре" #Машиночный перевод 28.10.23
- prince_kingdom_mond: "Марре" #Машиночный перевод 28.10.23
- king_male_mondecny: "Кавар" #Машиночный перевод 28.10.23
- king_female_mondecny: "Кавдки" #Машиночный перевод 28.10.23
- duke_male_mondecny: "Херрнвадар" #Машиночный перевод 28.10.23
- duke_female_mondecny: "Херрнвадки" #Машиночный перевод 28.10.23
- count_male_mondecny: "Севар" #Машиночный перевод 28.10.23
- count_female_mondecny: "Севдки" #Машиночный перевод 28.10.23
+ emperor_male_mondecny: "Стадкавар" #Машинный перевод 28.10.23
+ emperor_female_mondecny: "Стадкавдки" #Машинный перевод 28.10.23
+ prince_empire_mond: "Марре" #Машинный перевод 28.10.23
+ prince_kingdom_mond: "Марре" #Машинный перевод 28.10.23
+ king_male_mondecny: "Кавар" #Машинный перевод 28.10.23
+ king_female_mondecny: "Кавдки" #Машинный перевод 28.10.23
+ duke_male_mondecny: "Херрнвадар" #Машинный перевод 28.10.23
+ duke_female_mondecny: "Херрнвадки" #Машинный перевод 28.10.23
+ count_male_mondecny: "Севар" #Машинный перевод 28.10.23
+ count_female_mondecny: "Севдки" #Машинный перевод 28.10.23
  baron_mondecny_male: "Ватар" #Pfalz /спорно
  baron_mondecny_female: "Ватки" #Pfalz /спорно
- kingdom_mondecny: "Каврадка" #Машиночный перевод 28.10.23
- duchy_mondecny: "Херрнвадрадка" #Машиночный перевод 28.10.23
- county_mondecny: "Севрадка" #Машиночный перевод 28.10.23
- barony_mondecny: "Варадка" #Машиночный перевод 28.10.23
+ kingdom_mondecny: "Каврадка" #Машинный перевод 28.10.23
+ duchy_mondecny: "Херрнвадрадка" #Машинный перевод 28.10.23
+ county_mondecny: "Севрадка" #Машинный перевод 28.10.23
+ barony_mondecny: "Варадка" #Машинный перевод 28.10.23
   
   ## Clanlander ## 
  emperor_male_clanlander: "Верховный король" #Pfalz /спорно
@@ -506,476 +506,476 @@
  prince_female_sarridian_empire: "Саумна" #Pfalz /спорно
   
   ## Aupagn ## 
- emperor_male_aupagn: "Опорень" #Машиночный перевод 28.10.23
- emperor_female_aupagn: "Аупореньи" #Машиночный перевод 28.10.23
- king_male_aupagn: "Регн" #Машиночный перевод 28.10.23
- king_female_aupagn: "Реньи" #Машиночный перевод 28.10.23
- duke_male_aupagn: "Верховный вождь" #Машиночный перевод 28.10.23
- duke_female_aupagn: "Верховный вождь" #Машиночный перевод 28.10.23
- count_male_aupagn: "Вождь" #Машиночный перевод 28.10.23
- count_female_aupagn: "Вождь" #Машиночный перевод 28.10.23
- baron_male_aupagn: "Стоунвладелец" #Машиночный перевод 28.10.23
- baron_female_aupagn: "Стоунвладелец" #Машиночный перевод 28.10.23
- empire_aupagn: "Гродбраупн" #Машиночный перевод 28.10.23
- kingdom_aupagn: "Браун" #Машиночный перевод 28.10.23
- duchy_aupagn: "Борфулн" #Машиночный перевод 28.10.23
- county_aupagn: "Фулн" #Машиночный перевод 28.10.23
- barony_aupagn: "Пофулн" #Машиночный перевод 28.10.23
- prince_male_aupagn: "Фрегль" #Машиночный перевод 28.10.23
- prince_female_aupagn: "Фрегли" #Машиночный перевод 28.10.23
- prince_male_aupagn_empire: "Аупфрегль" #Машиночный перевод 28.10.23
- prince_female_aupagn_empire: "Аупфрельи" #Машиночный перевод 28.10.23
+ emperor_male_aupagn: "Опорень" #Машинный перевод 28.10.23
+ emperor_female_aupagn: "Аупореньи" #Машинный перевод 28.10.23
+ king_male_aupagn: "Регн" #Машинный перевод 28.10.23
+ king_female_aupagn: "Реньи" #Машинный перевод 28.10.23
+ duke_male_aupagn: "Верховный вождь" #Машинный перевод 28.10.23
+ duke_female_aupagn: "Верховный вождь" #Машинный перевод 28.10.23
+ count_male_aupagn: "Вождь" #Машинный перевод 28.10.23
+ count_female_aupagn: "Вождь" #Машинный перевод 28.10.23
+ baron_male_aupagn: "Стоунвладелец" #Машинный перевод 28.10.23
+ baron_female_aupagn: "Стоунвладелец" #Машинный перевод 28.10.23
+ empire_aupagn: "Гродбраупн" #Машинный перевод 28.10.23
+ kingdom_aupagn: "Браун" #Машинный перевод 28.10.23
+ duchy_aupagn: "Борфулн" #Машинный перевод 28.10.23
+ county_aupagn: "Фулн" #Машинный перевод 28.10.23
+ barony_aupagn: "Пофулн" #Машинный перевод 28.10.23
+ prince_male_aupagn: "Фрегль" #Машинный перевод 28.10.23
+ prince_female_aupagn: "Фрегли" #Машинный перевод 28.10.23
+ prince_male_aupagn_empire: "Аупфрегль" #Машинный перевод 28.10.23
+ prince_female_aupagn_empire: "Аупфрельи" #Машинный перевод 28.10.23
   
   ## Gallicad ## 
- emperor_male_gallieni: "Химерадур" #Машиночный перевод 28.10.23
- emperor_female_gallieni: "Гимерадурон" #Машиночный перевод 28.10.23
- king_male_gallieni: "Бремор" #Машиночный перевод 28.10.23
- king_female_gallieni: "Бреморон" #Машиночный перевод 28.10.23
- duke_male_gallieni: "Тирлох" #Машиночный перевод 28.10.23
- duke_female_gallieni: "Тирлошон" #Машиночный перевод 28.10.23
- count_male_gallieni: "Изельдэйр" #Машиночный перевод 28.10.23
- count_female_gallieni: "Изельдайрон" #Машиночный перевод 28.10.23
- baron_male_gallieni: "Хисалог" #Машиночный перевод 28.10.23
- baron_female_gallieni: "Хисалон" #Машиночный перевод 28.10.23
- empire_gallieni: "Гимераэт" #Машиночный перевод 28.10.23
- kingdom_gallieni: "Бренат" #Машиночный перевод 28.10.23
- duchy_gallieni: "Тирнатх" #Машиночный перевод 28.10.23
- county_gallieni: "Иселает" #Машиночный перевод 28.10.23
- barony_gallieni: "Хисанатх" #Машиночный перевод 28.10.23
- prince_male_gallieni: "Бренейл" #Машиночный перевод 28.10.23
- prince_female_gallieni: "Бренаилон" #Машиночный перевод 28.10.23
- prince_male_gallieni_empire: "Бренейл" #Машиночный перевод 28.10.23
- prince_female_gallieni_empire: "Бренаилон" #Машиночный перевод 28.10.23
+ emperor_male_gallieni: "Химерадур" #Машинный перевод 28.10.23
+ emperor_female_gallieni: "Гимерадурон" #Машинный перевод 28.10.23
+ king_male_gallieni: "Бремор" #Машинный перевод 28.10.23
+ king_female_gallieni: "Бреморон" #Машинный перевод 28.10.23
+ duke_male_gallieni: "Тирлох" #Машинный перевод 28.10.23
+ duke_female_gallieni: "Тирлошон" #Машинный перевод 28.10.23
+ count_male_gallieni: "Изельдэйр" #Машинный перевод 28.10.23
+ count_female_gallieni: "Изельдайрон" #Машинный перевод 28.10.23
+ baron_male_gallieni: "Хисалог" #Машинный перевод 28.10.23
+ baron_female_gallieni: "Хисалон" #Машинный перевод 28.10.23
+ empire_gallieni: "Гимераэт" #Машинный перевод 28.10.23
+ kingdom_gallieni: "Бренат" #Машинный перевод 28.10.23
+ duchy_gallieni: "Тирнатх" #Машинный перевод 28.10.23
+ county_gallieni: "Иселает" #Машинный перевод 28.10.23
+ barony_gallieni: "Хисанатх" #Машинный перевод 28.10.23
+ prince_male_gallieni: "Бренейл" #Машинный перевод 28.10.23
+ prince_female_gallieni: "Бренаилон" #Машинный перевод 28.10.23
+ prince_male_gallieni_empire: "Бренейл" #Машинный перевод 28.10.23
+ prince_female_gallieni_empire: "Бренаилон" #Машинный перевод 28.10.23
   
   ## Karzarad ## 
- emperor_male_karzarads: "Правиатор" #Машиночный перевод 28.10.23
- emperor_female_karzarads: "Правиатрица" #Машиночный перевод 28.10.23
- king_male_karzarads: "Сиянол" #Машиночный перевод 28.10.23
- king_female_karzarads: "Сияникс" #Машиночный перевод 28.10.23
- duke_male_karzarads: "Архждин" #Машиночный перевод 28.10.23
- duke_female_karzarads: "Архждикс" #Машиночный перевод 28.10.23
- count_male_karzarads: "Мельждин" #Машиночный перевод 28.10.23
- count_female_karzarads: "Мельждикс" #Машиночный перевод 28.10.23
- baron_male_karzarads: "Ждин" #Машиночный перевод 28.10.23
- baron_female_karzarads: "Ждикс" #Машиночный перевод 28.10.23
- empire_karzarads: "Правиум" #Машиночный перевод 28.10.23
- kingdom_karzarads: "Сиянист" #Машиночный перевод 28.10.23
- duchy_karzarads: "Архист" #Машиночный перевод 28.10.23
- county_karzarads: "Мелкист" #Машиночный перевод 28.10.23
- barony_karzarads: "Домист" #Машиночный перевод 28.10.23
- prince_male_karzarads: "Главная" #Машиночный перевод 28.10.23
- prince_female_karzarads: "Главникс" #Машиночный перевод 28.10.23
- prince_male_karzarads_empire: "Главяр" #Машиночный перевод 28.10.23
- prince_female_karzarads_empire: "Главаникс" #Машиночный перевод 28.10.23
+ emperor_male_karzarads: "Правиатор" #Машинный перевод 28.10.23
+ emperor_female_karzarads: "Правиатрица" #Машинный перевод 28.10.23
+ king_male_karzarads: "Сиянол" #Машинный перевод 28.10.23
+ king_female_karzarads: "Сияникс" #Машинный перевод 28.10.23
+ duke_male_karzarads: "Архждин" #Машинный перевод 28.10.23
+ duke_female_karzarads: "Архждикс" #Машинный перевод 28.10.23
+ count_male_karzarads: "Мельждин" #Машинный перевод 28.10.23
+ count_female_karzarads: "Мельждикс" #Машинный перевод 28.10.23
+ baron_male_karzarads: "Ждин" #Машинный перевод 28.10.23
+ baron_female_karzarads: "Ждикс" #Машинный перевод 28.10.23
+ empire_karzarads: "Правиум" #Машинный перевод 28.10.23
+ kingdom_karzarads: "Сиянист" #Машинный перевод 28.10.23
+ duchy_karzarads: "Архист" #Машинный перевод 28.10.23
+ county_karzarads: "Мелкист" #Машинный перевод 28.10.23
+ barony_karzarads: "Домист" #Машинный перевод 28.10.23
+ prince_male_karzarads: "Главная" #Машинный перевод 28.10.23
+ prince_female_karzarads: "Главникс" #Машинный перевод 28.10.23
+ prince_male_karzarads_empire: "Главяр" #Машинный перевод 28.10.23
+ prince_female_karzarads_empire: "Главаникс" #Машинный перевод 28.10.23
   
   ## Huegodoc ## 
- emperor_male_huegodocs: "Исарнатан" #Машиночный перевод 28.10.23
- emperor_female_huegodocs: "Исарнатия" #Машиночный перевод 28.10.23
- king_male_huegodocs: "Ардиакон" #Машиночный перевод 28.10.23
- king_female_huegodocs: "Ардасия" #Машиночный перевод 28.10.23
- duke_male_huegodocs: "Марвассо" #Машиночный перевод 28.10.23
- duke_female_huegodocs: "Марвасия" #Машиночный перевод 28.10.23
- count_male_huegodocs: "Ушерат" #Машиночный перевод 28.10.23
- count_female_huegodocs: "Уксерация" #Машиночный перевод 28.10.23
- baron_male_huegodocs: "Амдасин" #Машиночный перевод 28.10.23
- baron_female_huegodocs: "Амдасия" #Машиночный перевод 28.10.23
- prince_male_huegodocs: "Лексуатис" #Машиночный перевод 28.10.23
- prince_female_huegodocs: "Лексуатия" #Машиночный перевод 28.10.23
- prince_male_huegodocs_empire: "Лексуатис" #Машиночный перевод 28.10.23
- prince_female_huegodocs_empire: "Лексуатия" #Машиночный перевод 28.10.23
- empire_huegodocs: "Исарнатический" #Машиночный перевод 28.10.23
- kingdom_huegodocs: "Ардиаковый" #Машиночный перевод 28.10.23
- duchy_huegodocs: "Марвассик" #Машиночный перевод 28.10.23
- county_huegodocs: "Уксерик" #Машиночный перевод 28.10.23
- barony_huegocos: "Амдашич" #Машиночный перевод 28.10.23
+ emperor_male_huegodocs: "Исарнатан" #Машинный перевод 28.10.23
+ emperor_female_huegodocs: "Исарнатия" #Машинный перевод 28.10.23
+ king_male_huegodocs: "Ардиакон" #Машинный перевод 28.10.23
+ king_female_huegodocs: "Ардасия" #Машинный перевод 28.10.23
+ duke_male_huegodocs: "Марвассо" #Машинный перевод 28.10.23
+ duke_female_huegodocs: "Марвасия" #Машинный перевод 28.10.23
+ count_male_huegodocs: "Ушерат" #Машинный перевод 28.10.23
+ count_female_huegodocs: "Уксерация" #Машинный перевод 28.10.23
+ baron_male_huegodocs: "Амдасин" #Машинный перевод 28.10.23
+ baron_female_huegodocs: "Амдасия" #Машинный перевод 28.10.23
+ prince_male_huegodocs: "Лексуатис" #Машинный перевод 28.10.23
+ prince_female_huegodocs: "Лексуатия" #Машинный перевод 28.10.23
+ prince_male_huegodocs_empire: "Лексуатис" #Машинный перевод 28.10.23
+ prince_female_huegodocs_empire: "Лексуатия" #Машинный перевод 28.10.23
+ empire_huegodocs: "Исарнатический" #Машинный перевод 28.10.23
+ kingdom_huegodocs: "Ардиаковый" #Машинный перевод 28.10.23
+ duchy_huegodocs: "Марвассик" #Машинный перевод 28.10.23
+ county_huegodocs: "Уксерик" #Машинный перевод 28.10.23
+ barony_huegocos: "Амдашич" #Машинный перевод 28.10.23
   
   ## Sarminian ## 
- emperor_male_sarminian: "Маганал" #Машиночный перевод 28.10.23
- emperor_female_sarminian: "Маганала" #Машиночный перевод 28.10.23
- king_male_sarminian: "Kizengan" #Машиночный перевод 28.10.23
- king_female_sarminian: "Кизенгана" #Машиночный перевод 28.10.23
- duke_male_sarminian: "Урвазон" #Машиночный перевод 28.10.23
- duke_female_sarminian: "Урваза" #Машиночный перевод 28.10.23
- count_male_sarminian: "Тасурзк" #Машиночный перевод 28.10.23
- count_female_sarminian: "Тасурза" #Машиночный перевод 28.10.23
- baron_male_sarminian: "Утарал" #Машиночный перевод 28.10.23
- baron_female_sarminian: "Утарала" #Машиночный перевод 28.10.23
- empire_sarminian: "Магалом" #Машиночный перевод 28.10.23
- kingdom_sarminian: "Кизенаг" #Машиночный перевод 28.10.23
- duchy_sarminian: "Урвазег" #Машиночный перевод 28.10.23
- county_sarminian: "Тасуег" #Машиночный перевод 28.10.23
- barony_sarminian: "Утаралг" #Машиночный перевод 28.10.23
- prince_male_sarminian: "Верцен" #Машиночный перевод 28.10.23
- prince_female_sarminian: "Версена" #Машиночный перевод 28.10.23
- prince_male_sarminian_empire: "Верцен" #Машиночный перевод 28.10.23
- prince_female_sarminian_empire: "Версена" #Машиночный перевод 28.10.23
+ emperor_male_sarminian: "Маганал" #Машинный перевод 28.10.23
+ emperor_female_sarminian: "Маганала" #Машинный перевод 28.10.23
+ king_male_sarminian: "Kizengan" #Машинный перевод 28.10.23
+ king_female_sarminian: "Кизенгана" #Машинный перевод 28.10.23
+ duke_male_sarminian: "Урвазон" #Машинный перевод 28.10.23
+ duke_female_sarminian: "Урваза" #Машинный перевод 28.10.23
+ count_male_sarminian: "Тасурзк" #Машинный перевод 28.10.23
+ count_female_sarminian: "Тасурза" #Машинный перевод 28.10.23
+ baron_male_sarminian: "Утарал" #Машинный перевод 28.10.23
+ baron_female_sarminian: "Утарала" #Машинный перевод 28.10.23
+ empire_sarminian: "Магалом" #Машинный перевод 28.10.23
+ kingdom_sarminian: "Кизенаг" #Машинный перевод 28.10.23
+ duchy_sarminian: "Урвазег" #Машинный перевод 28.10.23
+ county_sarminian: "Тасуег" #Машинный перевод 28.10.23
+ barony_sarminian: "Утаралг" #Машинный перевод 28.10.23
+ prince_male_sarminian: "Верцен" #Машинный перевод 28.10.23
+ prince_female_sarminian: "Версена" #Машинный перевод 28.10.23
+ prince_male_sarminian_empire: "Верцен" #Машинный перевод 28.10.23
+ prince_female_sarminian_empire: "Версена" #Машинный перевод 28.10.23
   
   ## Iyrossi ## 
- emperor_male_iyrossi: "Таракос" #Машиночный перевод 28.10.23
- emperor_female_iyrossi: "Tarachia" #Машиночный перевод 28.10.23
- king_male_iyrossi: "Лаймен" #Машиночный перевод 28.10.23
- king_female_iyrossi: "Лаймения" #Машиночный перевод 28.10.23
- duke_male_iyrossi: "Глауиаты" #Машиночный перевод 28.10.23
- duke_female_iyrossi: "Глауятия" #Машиночный перевод 28.10.23
- count_male_iyrossi: "Атырлун" #Машиночный перевод 28.10.23
- count_female_iyrossi: "Атирия" #Машиночный перевод 28.10.23
- baron_male_iyrossi: "Дармах" #Машиночный перевод 28.10.23
- baron_female_iyrossi: "Далмахия" #Машиночный перевод 28.10.23
- empire_iyrossi: "Тарачате" #Машиночный перевод 28.10.23
- kingdom_iyrossi: "Лайменате" #Машиночный перевод 28.10.23
- duchy_iyrossi: "Главт" #Машиночный перевод 28.10.23
- county_iyrossi: "Атириат" #Машиночный перевод 28.10.23
- barony_iyrossi: "Дармахат" #Машиночный перевод 28.10.23
- prince_male_iyrossi: "Улькаон" #Машиночный перевод 28.10.23
- prince_female_iyrossi: "Улькаония" #Машиночный перевод 28.10.23
- prince_male_iyrossi_empire: "Улькаон" #Машиночный перевод 28.10.23
- prince_female_iyrossi_empire: "Улькаония" #Машиночный перевод 28.10.23
+ emperor_male_iyrossi: "Таракос" #Машинный перевод 28.10.23
+ emperor_female_iyrossi: "Tarachia" #Машинный перевод 28.10.23
+ king_male_iyrossi: "Лаймен" #Машинный перевод 28.10.23
+ king_female_iyrossi: "Лаймения" #Машинный перевод 28.10.23
+ duke_male_iyrossi: "Глауиаты" #Машинный перевод 28.10.23
+ duke_female_iyrossi: "Глауятия" #Машинный перевод 28.10.23
+ count_male_iyrossi: "Атырлун" #Машинный перевод 28.10.23
+ count_female_iyrossi: "Атирия" #Машинный перевод 28.10.23
+ baron_male_iyrossi: "Дармах" #Машинный перевод 28.10.23
+ baron_female_iyrossi: "Далмахия" #Машинный перевод 28.10.23
+ empire_iyrossi: "Тарачате" #Машинный перевод 28.10.23
+ kingdom_iyrossi: "Лайменате" #Машинный перевод 28.10.23
+ duchy_iyrossi: "Главт" #Машинный перевод 28.10.23
+ county_iyrossi: "Атириат" #Машинный перевод 28.10.23
+ barony_iyrossi: "Дармахат" #Машинный перевод 28.10.23
+ prince_male_iyrossi: "Улькаон" #Машинный перевод 28.10.23
+ prince_female_iyrossi: "Улькаония" #Машинный перевод 28.10.23
+ prince_male_iyrossi_empire: "Улькаон" #Машинный перевод 28.10.23
+ prince_female_iyrossi_empire: "Улькаония" #Машинный перевод 28.10.23
   
   ## Samojitian ## 
- emperor_male_samojitian: "Видукурян" #Машиночный перевод 28.10.23
- emperor_female_samojitian: "Видукуриана" #Машиночный перевод 28.10.23
- king_male_samojitian: "Зекалон" #Машиночный перевод 28.10.23
- king_female_samojitian: "Зекалона" #Машиночный перевод 28.10.23
- duke_male_samojitian: "Лидерон" #Машиночный перевод 28.10.23
- duke_female_samojitian: "Лидерона" #Машиночный перевод 28.10.23
- count_male_samojitian: "Валмиос" #Машиночный перевод 28.10.23
- count_female_samojitian: "Вальмиоза" #Машиночный перевод 28.10.23
- baron_male_samojitian: "Мальрос" #Машиночный перевод 28.10.23
- baron_female_samojitian: "Мальроса" #Машиночный перевод 28.10.23
- empire_samojitian: "Видукурст" #Машиночный перевод 28.10.23
- kingdom_samojitian: "Зекалонст" #Машиночный перевод 28.10.23
- duchy_samojitian: "Лидерст" #Машиночный перевод 28.10.23
- county_samojitian: "Вальмст" #Машиночный перевод 28.10.23
- barony_samojitian: "Малрист" #Машиночный перевод 28.10.23
- prince_male_samojitian: "Энос" #Машиночный перевод 28.10.23
- prince_female_samojitian: "Эноза" #Машиночный перевод 28.10.23
- prince_male_samojitian_empire: "Энос" #Машиночный перевод 28.10.23
- prince_female_samojitian_empire: "Эноза" #Машиночный перевод 28.10.23
+ emperor_male_samojitian: "Видукурян" #Машинный перевод 28.10.23
+ emperor_female_samojitian: "Видукуриана" #Машинный перевод 28.10.23
+ king_male_samojitian: "Зекалон" #Машинный перевод 28.10.23
+ king_female_samojitian: "Зекалона" #Машинный перевод 28.10.23
+ duke_male_samojitian: "Лидерон" #Машинный перевод 28.10.23
+ duke_female_samojitian: "Лидерона" #Машинный перевод 28.10.23
+ count_male_samojitian: "Валмиос" #Машинный перевод 28.10.23
+ count_female_samojitian: "Вальмиоза" #Машинный перевод 28.10.23
+ baron_male_samojitian: "Мальрос" #Машинный перевод 28.10.23
+ baron_female_samojitian: "Мальроса" #Машинный перевод 28.10.23
+ empire_samojitian: "Видукурст" #Машинный перевод 28.10.23
+ kingdom_samojitian: "Зекалонст" #Машинный перевод 28.10.23
+ duchy_samojitian: "Лидерст" #Машинный перевод 28.10.23
+ county_samojitian: "Вальмст" #Машинный перевод 28.10.23
+ barony_samojitian: "Малрист" #Машинный перевод 28.10.23
+ prince_male_samojitian: "Энос" #Машинный перевод 28.10.23
+ prince_female_samojitian: "Эноза" #Машинный перевод 28.10.23
+ prince_male_samojitian_empire: "Энос" #Машинный перевод 28.10.23
+ prince_female_samojitian_empire: "Эноза" #Машинный перевод 28.10.23
   
   ## Zarasadari ## 
   #Feudal 
- emperor_feudal_male_zarasadari: "Тетн" #Машиночный перевод 28.10.23
- emperor_feudal_female_zarasadari: "Тетна" #Машиночный перевод 28.10.23
- emperor_other_male_zarasadari: "Пасадар" #Машиночный перевод 28.10.23
- emperor_other_female_zarasadari: "Пасадара" #Машиночный перевод 28.10.23
- emperor_other_male_zarasadari_prince: "Харт" #Машиночный перевод 28.10.23
- emperor_other_female_zarasadari_prince: "Хартена" #Машиночный перевод 28.10.23
- king_feudal_male_zarasadari: "Хакан" #Машиночный перевод 28.10.23
- king_feudal_female_zarasadari: "Хакахна" #Машиночный перевод 28.10.23
- king_other_male_zarasadari: "Хитхак" #Машиночный перевод 28.10.23
- king_other_female_zarasadari: "Хитака" #Машиночный перевод 28.10.23
- king_other_male_zarasadari_prince: "Хахат" #Машиночный перевод 28.10.23
- king_other_female_zarasadari_prince: "Хахатна" #Машиночный перевод 28.10.23
- duke_feudal_male_zarasadari: "Тремарил" #Машиночный перевод 28.10.23
- duke_feudal_female_zarasadari: "Тремарила" #Машиночный перевод 28.10.23
- duke_other_male_zarasadari: "Вусагар" #Машиночный перевод 28.10.23
- duke_other_female_zarasadari: "Vusagara" #Машиночный перевод 28.10.23
- count_feudal_male_zarasadari: "Татмабр" #Машиночный перевод 28.10.23
- count_feudal_female_zarasadari: "Татмабра" #Машиночный перевод 28.10.23
- count_other_male_zarasadari: "Чекебр" #Машиночный перевод 28.10.23
- count_other_female_zarasadari: "Чекебра" #Машиночный перевод 28.10.23
- baron_feudal_male_zarasadari: "Идратар" #Машиночный перевод 28.10.23
- baron_feudal_female_zarasadari: "Идратана" #Машиночный перевод 28.10.23
- baron_other_male_zarasadari: "Кесгур" #Машиночный перевод 28.10.23
- baron_other_female_zarasadari: "Кесгурана" #Машиночный перевод 28.10.23
+ emperor_feudal_male_zarasadari: "Тетн" #Машинный перевод 28.10.23
+ emperor_feudal_female_zarasadari: "Тетна" #Машинный перевод 28.10.23
+ emperor_other_male_zarasadari: "Пасадар" #Машинный перевод 28.10.23
+ emperor_other_female_zarasadari: "Пасадара" #Машинный перевод 28.10.23
+ emperor_other_male_zarasadari_prince: "Харт" #Машинный перевод 28.10.23
+ emperor_other_female_zarasadari_prince: "Хартена" #Машинный перевод 28.10.23
+ king_feudal_male_zarasadari: "Хакан" #Машинный перевод 28.10.23
+ king_feudal_female_zarasadari: "Хакахна" #Машинный перевод 28.10.23
+ king_other_male_zarasadari: "Хитхак" #Машинный перевод 28.10.23
+ king_other_female_zarasadari: "Хитака" #Машинный перевод 28.10.23
+ king_other_male_zarasadari_prince: "Хахат" #Машинный перевод 28.10.23
+ king_other_female_zarasadari_prince: "Хахатна" #Машинный перевод 28.10.23
+ duke_feudal_male_zarasadari: "Тремарил" #Машинный перевод 28.10.23
+ duke_feudal_female_zarasadari: "Тремарила" #Машинный перевод 28.10.23
+ duke_other_male_zarasadari: "Вусагар" #Машинный перевод 28.10.23
+ duke_other_female_zarasadari: "Vusagara" #Машинный перевод 28.10.23
+ count_feudal_male_zarasadari: "Татмабр" #Машинный перевод 28.10.23
+ count_feudal_female_zarasadari: "Татмабра" #Машинный перевод 28.10.23
+ count_other_male_zarasadari: "Чекебр" #Машинный перевод 28.10.23
+ count_other_female_zarasadari: "Чекебра" #Машинный перевод 28.10.23
+ baron_feudal_male_zarasadari: "Идратар" #Машинный перевод 28.10.23
+ baron_feudal_female_zarasadari: "Идратана" #Машинный перевод 28.10.23
+ baron_other_male_zarasadari: "Кесгур" #Машинный перевод 28.10.23
+ baron_other_female_zarasadari: "Кесгурана" #Машинный перевод 28.10.23
   
- title_empire_zarasadari_feudal: "Пасаднате" #Машиночный перевод 28.10.23
- title_kingdom_zarasadari_feudal: "Хакахнат" #Машиночный перевод 28.10.23
- title_duchy_feudal_zarasadari: "Тремарилат" #Машиночный перевод 28.10.23
- title_county_feudal_zarasadari: "Мабрасате" #Машиночный перевод 28.10.23
- title_barony_feudal_zarasadari: "Идрат" #Машиночный перевод 28.10.23
+ title_empire_zarasadari_feudal: "Пасаднате" #Машинный перевод 28.10.23
+ title_kingdom_zarasadari_feudal: "Хакахнат" #Машинный перевод 28.10.23
+ title_duchy_feudal_zarasadari: "Тремарилат" #Машинный перевод 28.10.23
+ title_county_feudal_zarasadari: "Мабрасате" #Машинный перевод 28.10.23
+ title_barony_feudal_zarasadari: "Идрат" #Машинный перевод 28.10.23
   
   #General 
- #emperor_male_zarasadari: "Тетн" #Машиночный перевод 28.10.23
- #emperor_female_zarasadari: "Тетна" #Машиночный перевод 28.10.23
- #emperor_male_zarasadari: "Пасадар" #Машиночный перевод 28.10.23
- #emperor_female_zarasadari: "Пасадара" #Машиночный перевод 28.10.23
- #emperor_male_zarasadari_prince: "Харт" #Машиночный перевод 28.10.23
- #emperor_female_zarasadari_prince: "Хартена" #Машиночный перевод 28.10.23
- #king_male_zarasadari: "Хакан" #Машиночный перевод 28.10.23
- #king_female_zarasadari: "Хакахна" #Машиночный перевод 28.10.23
- #king_male_zarasadari: "Хитхак" #Машиночный перевод 28.10.23
- #king_female_zarasadari: "Хитака" #Машиночный перевод 28.10.23
- #king_male_zarasadari_prince: "Хахат" #Машиночный перевод 28.10.23
- #king_female_zarasadari_prince: "Хахатна" #Машиночный перевод 28.10.23
- #duke_male_zarasadari: "Тремарил" #Машиночный перевод 28.10.23
- #duke_female_zarasadari: "Тремарила" #Машиночный перевод 28.10.23
- #duke_male_zarasadari: "Вусагар" #Машиночный перевод 28.10.23
- #duke_female_zarasadari: "Vusagara" #Машиночный перевод 28.10.23
- #count_male_zarasadari: "Татмабр" #Машиночный перевод 28.10.23
- #count_female_zarasadari: "Татмабра" #Машиночный перевод 28.10.23
- #count_male_zarasadari: "Чекебр" #Машиночный перевод 28.10.23
- #count_female_zarasadari: "Чекебра" #Машиночный перевод 28.10.23
- #baron_male_zarasadari: "Идратар" #Машиночный перевод 28.10.23
- #baron_female_zarasadari: "Идратана" #Машиночный перевод 28.10.23
- #baron_male_zarasadari: "Кесгур" #Машиночный перевод 28.10.23
- #baron_female_zarasadari: "Кесгурана" #Машиночный перевод 28.10.23
+ #emperor_male_zarasadari: "Тетн" #Машинный перевод 28.10.23
+ #emperor_female_zarasadari: "Тетна" #Машинный перевод 28.10.23
+ #emperor_male_zarasadari: "Пасадар" #Машинный перевод 28.10.23
+ #emperor_female_zarasadari: "Пасадара" #Машинный перевод 28.10.23
+ #emperor_male_zarasadari_prince: "Харт" #Машинный перевод 28.10.23
+ #emperor_female_zarasadari_prince: "Хартена" #Машинный перевод 28.10.23
+ #king_male_zarasadari: "Хакан" #Машинный перевод 28.10.23
+ #king_female_zarasadari: "Хакахна" #Машинный перевод 28.10.23
+ #king_male_zarasadari: "Хитхак" #Машинный перевод 28.10.23
+ #king_female_zarasadari: "Хитака" #Машинный перевод 28.10.23
+ #king_male_zarasadari_prince: "Хахат" #Машинный перевод 28.10.23
+ #king_female_zarasadari_prince: "Хахатна" #Машинный перевод 28.10.23
+ #duke_male_zarasadari: "Тремарил" #Машинный перевод 28.10.23
+ #duke_female_zarasadari: "Тремарила" #Машинный перевод 28.10.23
+ #duke_male_zarasadari: "Вусагар" #Машинный перевод 28.10.23
+ #duke_female_zarasadari: "Vusagara" #Машинный перевод 28.10.23
+ #count_male_zarasadari: "Татмабр" #Машинный перевод 28.10.23
+ #count_female_zarasadari: "Татмабра" #Машинный перевод 28.10.23
+ #count_male_zarasadari: "Чекебр" #Машинный перевод 28.10.23
+ #count_female_zarasadari: "Чекебра" #Машинный перевод 28.10.23
+ #baron_male_zarasadari: "Идратар" #Машинный перевод 28.10.23
+ #baron_female_zarasadari: "Идратана" #Машинный перевод 28.10.23
+ #baron_male_zarasadari: "Кесгур" #Машинный перевод 28.10.23
+ #baron_female_zarasadari: "Кесгурана" #Машинный перевод 28.10.23
   
- title_empire_zarasadari: "Теттланнат" #Машиночный перевод 28.10.23
- title_kingdom_zarasadari: "Хиткейт" #Машиночный перевод 28.10.23
- title_duchy_zarasadari: "Вусагарате" #Машиночный перевод 28.10.23
- title_county_zarasadari: "Чекебрате" #Машиночный перевод 28.10.23
- title_barony_zarasadari: "Кесгур" #Машиночный перевод 28.10.23
+ title_empire_zarasadari: "Теттланнат" #Машинный перевод 28.10.23
+ title_kingdom_zarasadari: "Хиткейт" #Машинный перевод 28.10.23
+ title_duchy_zarasadari: "Вусагарате" #Машинный перевод 28.10.23
+ title_county_zarasadari: "Чекебрате" #Машинный перевод 28.10.23
+ title_barony_zarasadari: "Кесгур" #Машинный перевод 28.10.23
   
- emperor_other_male_zarasadari_qanamasar: "Канамсар" #Машиночный перевод 28.10.23
- emperor_other_female_zarasadari_qanamasar: "Канамсара" #Машиночный перевод 28.10.23
+ emperor_other_male_zarasadari_qanamasar: "Канамсар" #Машинный перевод 28.10.23
+ emperor_other_female_zarasadari_qanamasar: "Канамсара" #Машинный перевод 28.10.23
   
- title_empire_zarasadari_hiklahn: "Хихкланат" #Машиночный перевод 28.10.23
+ title_empire_zarasadari_hiklahn: "Хихкланат" #Машинный перевод 28.10.23
   
   ###thyssae### 
- emperor_male_thyssae: "Шатаму ке-Шатам" #Машиночный перевод 28.10.23
- emperor_female_thyssae: "Шатамузар ке-Шатам" #Машиночный перевод 28.10.23
- king_male_thyssae: "Ашим Затам" #Машиночный перевод 28.10.23
- king_female_thyssae: "Ашим Затамзар" #Машиночный перевод 28.10.23
- duke_male_thyssae: "Фарманфарам" #Машиночный перевод 28.10.23
- duke_female_thyssae: "Фарманфарамзан" #Машиночный перевод 28.10.23
- count_male_thyssae: "Зараман" #Машиночный перевод 28.10.23
- count_female_thyssae: "Зараманзар" #Машиночный перевод 28.10.23
- baron_male_thyssae: "Кайтан" #Машиночный перевод 28.10.23
- baron_female_thyssae: "Кайтанзар" #Машиночный перевод 28.10.23
- kingdom_thyssae: "Дайара" #Машиночный перевод 28.10.23
- duchy_thyssae: "Банспарит" #Машиночный перевод 28.10.23
- county_thyssae: "Айракар" #Машиночный перевод 28.10.23
- barony_thyssae: "Ракба" #Машиночный перевод 28.10.23
- prince_male_thyssae: "Джезада" #Машиночный перевод 28.10.23
- prince_female_thyssae: "Джезераде" #Машиночный перевод 28.10.23
- prince_male_thyssae_empire: "Вайс" #Машиночный перевод 28.10.23
- prince_female_thyssae_empire: "Вайсзар" #Машиночный перевод 28.10.23
+ emperor_male_thyssae: "Шатаму ке-Шатам" #Машинный перевод 28.10.23
+ emperor_female_thyssae: "Шатамузар ке-Шатам" #Машинный перевод 28.10.23
+ king_male_thyssae: "Ашим Затам" #Машинный перевод 28.10.23
+ king_female_thyssae: "Ашим Затамзар" #Машинный перевод 28.10.23
+ duke_male_thyssae: "Фарманфарам" #Машинный перевод 28.10.23
+ duke_female_thyssae: "Фарманфарамзан" #Машинный перевод 28.10.23
+ count_male_thyssae: "Зараман" #Машинный перевод 28.10.23
+ count_female_thyssae: "Зараманзар" #Машинный перевод 28.10.23
+ baron_male_thyssae: "Кайтан" #Машинный перевод 28.10.23
+ baron_female_thyssae: "Кайтанзар" #Машинный перевод 28.10.23
+ kingdom_thyssae: "Дайара" #Машинный перевод 28.10.23
+ duchy_thyssae: "Банспарит" #Машинный перевод 28.10.23
+ county_thyssae: "Айракар" #Машинный перевод 28.10.23
+ barony_thyssae: "Ракба" #Машинный перевод 28.10.23
+ prince_male_thyssae: "Джезада" #Машинный перевод 28.10.23
+ prince_female_thyssae: "Джезераде" #Машинный перевод 28.10.23
+ prince_male_thyssae_empire: "Вайс" #Машинный перевод 28.10.23
+ prince_female_thyssae_empire: "Вайсзар" #Машинный перевод 28.10.23
   
   ##Dawic## 
- emperor_male_dawic: "Джугард" #Машиночный перевод 28.10.23
- emperor_female_dawic: "Джугарда" #Машиночный перевод 28.10.23
- king_male_dawic: "Эйлин" #Машиночный перевод 28.10.23
- king_female_dawic: "Айллина" #Машиночный перевод 28.10.23
- duke_male_dawic: "Изланиат" #Машиночный перевод 28.10.23
- duke_female_dawic: "Излания" #Машиночный перевод 28.10.23
- count_male_dawic: "Лаубал" #Машиночный перевод 28.10.23
- count_female_dawic: "Лаубала" #Машиночный перевод 28.10.23
- baron_male_dawic: "Xulun" #Машиночный перевод 28.10.23
- baron_female_dawic: "Ксулуна" #Машиночный перевод 28.10.23
- empire_dawic: "Джугардака" #Машиночный перевод 28.10.23
- kingdom_dawic: "Айллинака" #Машиночный перевод 28.10.23
- duchy_dawic: "Изланака" #Машиночный перевод 28.10.23
- county_dawic: "Лаубалака" #Машиночный перевод 28.10.23
- barony_dawic: "Ксулунака" #Машиночный перевод 28.10.23
- prince_male_dawic: "Галсан" #Машиночный перевод 28.10.23
- prince_female_dawic: "Галсана" #Машиночный перевод 28.10.23
- prince_male_dawic_empire: "Галсан" #Машиночный перевод 28.10.23
- prince_female_dawic_empire: "Галсана" #Машиночный перевод 28.10.23
+ emperor_male_dawic: "Джугард" #Машинный перевод 28.10.23
+ emperor_female_dawic: "Джугарда" #Машинный перевод 28.10.23
+ king_male_dawic: "Эйлин" #Машинный перевод 28.10.23
+ king_female_dawic: "Айллина" #Машинный перевод 28.10.23
+ duke_male_dawic: "Изланиат" #Машинный перевод 28.10.23
+ duke_female_dawic: "Излания" #Машинный перевод 28.10.23
+ count_male_dawic: "Лаубал" #Машинный перевод 28.10.23
+ count_female_dawic: "Лаубала" #Машинный перевод 28.10.23
+ baron_male_dawic: "Xulun" #Машинный перевод 28.10.23
+ baron_female_dawic: "Ксулуна" #Машинный перевод 28.10.23
+ empire_dawic: "Джугардака" #Машинный перевод 28.10.23
+ kingdom_dawic: "Айллинака" #Машинный перевод 28.10.23
+ duchy_dawic: "Изланака" #Машинный перевод 28.10.23
+ county_dawic: "Лаубалака" #Машинный перевод 28.10.23
+ barony_dawic: "Ксулунака" #Машинный перевод 28.10.23
+ prince_male_dawic: "Галсан" #Машинный перевод 28.10.23
+ prince_female_dawic: "Галсана" #Машинный перевод 28.10.23
+ prince_male_dawic_empire: "Галсан" #Машинный перевод 28.10.23
+ prince_female_dawic_empire: "Галсана" #Машинный перевод 28.10.23
   
   ##Marmaladid## 
- emperor_male_marmaladid: "Джунхат" #Машиночный перевод 28.10.23
- emperor_female_marmaladid: "Джунхата" #Машиночный перевод 28.10.23
- king_male_marmaladid: "Азаллид" #Машиночный перевод 28.10.23
- king_female_marmaladid: "Азалла" #Машиночный перевод 28.10.23
- duke_male_marmaladid: "Иксланиар" #Машиночный перевод 28.10.23
- duke_female_marmaladid: "Иксланиара" #Машиночный перевод 28.10.23
- count_male_marmaladid: "Лахуяс" #Машиночный перевод 28.10.23
- count_female_marmaladid: "Ладжуяса" #Машиночный перевод 28.10.23
- baron_male_marmaladid: "Юлтан" #Машиночный перевод 28.10.23
- baron_female_marmaladid: "Юлтана" #Машиночный перевод 28.10.23
- empire_marmaladid: "Джунхатаз" #Машиночный перевод 28.10.23
- kingdom_marmaladid: "Азаллаз" #Машиночный перевод 28.10.23
- duchy_marmaladid: "Иксланаз" #Машиночный перевод 28.10.23
- county_marmaladid: "Ладжаз" #Машиночный перевод 28.10.23
- barony_marmaladid: "Юлтаз" #Машиночный перевод 28.10.23
- prince_male_marmaladid: "Адирсан" #Машиночный перевод 28.10.23
- prince_female_marmaladid: "Адирсана" #Машиночный перевод 28.10.23
- prince_male_marmaladid_empire: "Адирсан" #Машиночный перевод 28.10.23
- prince_female_marmaladid_empire: "Адирсана" #Машиночный перевод 28.10.23
+ emperor_male_marmaladid: "Джунхат" #Машинный перевод 28.10.23
+ emperor_female_marmaladid: "Джунхата" #Машинный перевод 28.10.23
+ king_male_marmaladid: "Азаллид" #Машинный перевод 28.10.23
+ king_female_marmaladid: "Азалла" #Машинный перевод 28.10.23
+ duke_male_marmaladid: "Иксланиар" #Машинный перевод 28.10.23
+ duke_female_marmaladid: "Иксланиара" #Машинный перевод 28.10.23
+ count_male_marmaladid: "Лахуяс" #Машинный перевод 28.10.23
+ count_female_marmaladid: "Ладжуяса" #Машинный перевод 28.10.23
+ baron_male_marmaladid: "Юлтан" #Машинный перевод 28.10.23
+ baron_female_marmaladid: "Юлтана" #Машинный перевод 28.10.23
+ empire_marmaladid: "Джунхатаз" #Машинный перевод 28.10.23
+ kingdom_marmaladid: "Азаллаз" #Машинный перевод 28.10.23
+ duchy_marmaladid: "Иксланаз" #Машинный перевод 28.10.23
+ county_marmaladid: "Ладжаз" #Машинный перевод 28.10.23
+ barony_marmaladid: "Юлтаз" #Машинный перевод 28.10.23
+ prince_male_marmaladid: "Адирсан" #Машинный перевод 28.10.23
+ prince_female_marmaladid: "Адирсана" #Машинный перевод 28.10.23
+ prince_male_marmaladid_empire: "Адирсан" #Машинный перевод 28.10.23
+ prince_female_marmaladid_empire: "Адирсана" #Машинный перевод 28.10.23
   
   ##Kharadamatian## 
- emperor_male_kharadamatian: "Аэзир Малайк" #Машиночный перевод 28.10.23
- emperor_female_kharadamatian: "Аэзир Малайка" #Машиночный перевод 28.10.23
- king_male_kharadamatian: "Малайкский" #Машиночный перевод 28.10.23
- king_female_kharadamatian: "Малайка" #Машиночный перевод 28.10.23
- duke_male_kharadamatian: "Умейр" #Машиночный перевод 28.10.23
- duke_female_kharadamatian: "Умейра" #Машиночный перевод 28.10.23
- count_male_kharadamatian: "Эахим" #Машиночный перевод 28.10.23
- count_female_kharadamatian: "Эахима" #Машиночный перевод 28.10.23
- baron_male_kharadamatian: "Тахьяр" #Машиночный перевод 28.10.23
- baron_female_kharadamatian: "Тахьяра" #Машиночный перевод 28.10.23
- empire_kharadamatian: "Эзайкиат" #Машиночный перевод 28.10.23
- kingdom_kharadamatian: "Малайкиат" #Машиночный перевод 28.10.23
- duchy_kharadamatian: "Умейрат" #Машиночный перевод 28.10.23
- county_kharadamatian: "Эахимат" #Машиночный перевод 28.10.23
- barony_kharadamatian: "Тахьяриат" #Машиночный перевод 28.10.23
- prince_male_kharadamatian: "Дамарит" #Машиночный перевод 28.10.23
- prince_female_kharadamatian: "Дамария" #Машиночный перевод 28.10.23
- prince_male_kharadamatian_empire: "Дамарит" #Машиночный перевод 28.10.23
- prince_female_kharadamatian_empire: "Дамария" #Машиночный перевод 28.10.23
+ emperor_male_kharadamatian: "Аэзир Малайк" #Машинный перевод 28.10.23
+ emperor_female_kharadamatian: "Аэзир Малайка" #Машинный перевод 28.10.23
+ king_male_kharadamatian: "Малайкский" #Машинный перевод 28.10.23
+ king_female_kharadamatian: "Малайка" #Машинный перевод 28.10.23
+ duke_male_kharadamatian: "Умейр" #Машинный перевод 28.10.23
+ duke_female_kharadamatian: "Умейра" #Машинный перевод 28.10.23
+ count_male_kharadamatian: "Эахим" #Машинный перевод 28.10.23
+ count_female_kharadamatian: "Эахима" #Машинный перевод 28.10.23
+ baron_male_kharadamatian: "Тахьяр" #Машинный перевод 28.10.23
+ baron_female_kharadamatian: "Тахьяра" #Машинный перевод 28.10.23
+ empire_kharadamatian: "Эзайкиат" #Машинный перевод 28.10.23
+ kingdom_kharadamatian: "Малайкиат" #Машинный перевод 28.10.23
+ duchy_kharadamatian: "Умейрат" #Машинный перевод 28.10.23
+ county_kharadamatian: "Эахимат" #Машинный перевод 28.10.23
+ barony_kharadamatian: "Тахьяриат" #Машинный перевод 28.10.23
+ prince_male_kharadamatian: "Дамарит" #Машинный перевод 28.10.23
+ prince_female_kharadamatian: "Дамария" #Машинный перевод 28.10.23
+ prince_male_kharadamatian_empire: "Дамарит" #Машинный перевод 28.10.23
+ prince_female_kharadamatian_empire: "Дамария" #Машинный перевод 28.10.23
   
   ##Dezhun## 
- emperor_male_dezhun: "Касардун" #Машиночный перевод 28.10.23
- emperor_female_dezhun: "Касардуна" #Машиночный перевод 28.10.23
- king_male_dezhun: "Арапалан" #Машиночный перевод 28.10.23
- king_female_dezhun: "Арапалана" #Машиночный перевод 28.10.23
- duke_male_dezhun: "Велкай" #Машиночный перевод 28.10.23
- duke_female_dezhun: "Велкая" #Машиночный перевод 28.10.23
- count_male_dezhun: "Таджанатт" #Машиночный перевод 28.10.23
- count_female_dezhun: "Таджанатта" #Машиночный перевод 28.10.23
- baron_male_dezhun: "Амантан" #Машиночный перевод 28.10.23
- baron_female_dezhun: "Амантана" #Машиночный перевод 28.10.23
- empire_dezhun: "Дунат" #Машиночный перевод 28.10.23
- kingdom_dezhun: "Паланат" #Машиночный перевод 28.10.23
- duchy_dezhun: "Каят" #Машиночный перевод 28.10.23
- county_dezhun: "Наттиат" #Машиночный перевод 28.10.23
- barony_dezhun: "Танат" #Машиночный перевод 28.10.23
- prince_male_dezhun: "Сакус" #Машиночный перевод 28.10.23
- prince_female_dezhun: "Сакуса" #Машиночный перевод 28.10.23
- prince_male_dezhun_empire: "Сакус" #Машиночный перевод 28.10.23
- prince_female_dezhun_empire: "Сакуса" #Машиночный перевод 28.10.23
+ emperor_male_dezhun: "Касардун" #Машинный перевод 28.10.23
+ emperor_female_dezhun: "Касардуна" #Машинный перевод 28.10.23
+ king_male_dezhun: "Арапалан" #Машинный перевод 28.10.23
+ king_female_dezhun: "Арапалана" #Машинный перевод 28.10.23
+ duke_male_dezhun: "Велкай" #Машинный перевод 28.10.23
+ duke_female_dezhun: "Велкая" #Машинный перевод 28.10.23
+ count_male_dezhun: "Таджанатт" #Машинный перевод 28.10.23
+ count_female_dezhun: "Таджанатта" #Машинный перевод 28.10.23
+ baron_male_dezhun: "Амантан" #Машинный перевод 28.10.23
+ baron_female_dezhun: "Амантана" #Машинный перевод 28.10.23
+ empire_dezhun: "Дунат" #Машинный перевод 28.10.23
+ kingdom_dezhun: "Паланат" #Машинный перевод 28.10.23
+ duchy_dezhun: "Каят" #Машинный перевод 28.10.23
+ county_dezhun: "Наттиат" #Машинный перевод 28.10.23
+ barony_dezhun: "Танат" #Машинный перевод 28.10.23
+ prince_male_dezhun: "Сакус" #Машинный перевод 28.10.23
+ prince_female_dezhun: "Сакуса" #Машинный перевод 28.10.23
+ prince_male_dezhun_empire: "Сакус" #Машинный перевод 28.10.23
+ prince_female_dezhun_empire: "Сакуса" #Машинный перевод 28.10.23
   
   ##Kosharan## 
- emperor_male_kosharan: "Гальпахин" #Машиночный перевод 28.10.23
- emperor_female_kosharan: "Галпахина" #Машиночный перевод 28.10.23
- king_male_kosharan: "Дювар" #Машиночный перевод 28.10.23
- king_female_kosharan: "Дувара" #Машиночный перевод 28.10.23
- duke_male_kosharan: "Месал" #Машиночный перевод 28.10.23
- duke_female_kosharan: "Месала" #Машиночный перевод 28.10.23
- count_male_kosharan: "Руганн" #Машиночный перевод 28.10.23
- count_female_kosharan: "Руганна" #Машиночный перевод 28.10.23
- baron_male_kosharan: "Иремес" #Машиночный перевод 28.10.23
- baron_female_kosharan: "Ирема" #Машиночный перевод 28.10.23
- empire_kosharan: "Галпахит" #Машиночный перевод 28.10.23
- kingdom_kosharan: "Дуварит" #Машиночный перевод 28.10.23
- duchy_kosharan: "Месалит" #Машиночный перевод 28.10.23
- county_kosharan: "Ругахит" #Машиночный перевод 28.10.23
- barony_kosharan: "Иремит" #Машиночный перевод 28.10.23
- prince_male_kosharan: "Латтакан" #Машиночный перевод 28.10.23
- prince_female_kosharan: "Латтакана" #Машиночный перевод 28.10.23
- prince_male_kosharan_empire: "Латтакан" #Машиночный перевод 28.10.23
- prince_female_kosharan_empire: "Латтакана" #Машиночный перевод 28.10.23
+ emperor_male_kosharan: "Гальпахин" #Машинный перевод 28.10.23
+ emperor_female_kosharan: "Галпахина" #Машинный перевод 28.10.23
+ king_male_kosharan: "Дювар" #Машинный перевод 28.10.23
+ king_female_kosharan: "Дувара" #Машинный перевод 28.10.23
+ duke_male_kosharan: "Месал" #Машинный перевод 28.10.23
+ duke_female_kosharan: "Месала" #Машинный перевод 28.10.23
+ count_male_kosharan: "Руганн" #Машинный перевод 28.10.23
+ count_female_kosharan: "Руганна" #Машинный перевод 28.10.23
+ baron_male_kosharan: "Иремес" #Машинный перевод 28.10.23
+ baron_female_kosharan: "Ирема" #Машинный перевод 28.10.23
+ empire_kosharan: "Галпахит" #Машинный перевод 28.10.23
+ kingdom_kosharan: "Дуварит" #Машинный перевод 28.10.23
+ duchy_kosharan: "Месалит" #Машинный перевод 28.10.23
+ county_kosharan: "Ругахит" #Машинный перевод 28.10.23
+ barony_kosharan: "Иремит" #Машинный перевод 28.10.23
+ prince_male_kosharan: "Латтакан" #Машинный перевод 28.10.23
+ prince_female_kosharan: "Латтакана" #Машинный перевод 28.10.23
+ prince_male_kosharan_empire: "Латтакан" #Машинный перевод 28.10.23
+ prince_female_kosharan_empire: "Латтакана" #Машинный перевод 28.10.23
   
   ##Kemsar## 
- emperor_male_kemsar: "Таессор" #Машиночный перевод 28.10.23
- emperor_female_kemsar: "Таессори" #Машиночный перевод 28.10.23
- king_male_kemsar: "Сухутар" #Машиночный перевод 28.10.23
- king_female_kemsar: "Сохутари" #Машиночный перевод 28.10.23
- duke_male_kemsar: "Фарена" #Машиночный перевод 28.10.23
- duke_female_kemsar: "Таренахи" #Машиночный перевод 28.10.23
- count_male_kemsar: "Тьятален" #Машиночный перевод 28.10.23
- count_female_kemsar: "Тьяталени" #Машиночный перевод 28.10.23
- baron_male_kemsar: "Яткан" #Машиночный перевод 28.10.23
- baron_female_kemsar: "Яткани" #Машиночный перевод 28.10.23
- empire_kemsar: "Таессорат" #Машиночный перевод 28.10.23
- kingdom_kemsar: "Сухутарат" #Машиночный перевод 28.10.23
- duchy_kemsar: "Таренат" #Машиночный перевод 28.10.23
- county_kemsar: "Таленат" #Машиночный перевод 28.10.23
- barony_kemsar: "Ятканат" #Машиночный перевод 28.10.23
- prince_male_kemsar: "Куремзу" #Машиночный перевод 28.10.23
- prince_female_kemsar: "Куремзи" #Машиночный перевод 28.10.23
- prince_male_kemsar_empire: "Куремзу" #Машиночный перевод 28.10.23
- prince_female_kemsar_empire: "Куремзи" #Машиночный перевод 28.10.23
+ emperor_male_kemsar: "Таессор" #Машинный перевод 28.10.23
+ emperor_female_kemsar: "Таессори" #Машинный перевод 28.10.23
+ king_male_kemsar: "Сухутар" #Машинный перевод 28.10.23
+ king_female_kemsar: "Сохутари" #Машинный перевод 28.10.23
+ duke_male_kemsar: "Фарена" #Машинный перевод 28.10.23
+ duke_female_kemsar: "Таренахи" #Машинный перевод 28.10.23
+ count_male_kemsar: "Тьятален" #Машинный перевод 28.10.23
+ count_female_kemsar: "Тьяталени" #Машинный перевод 28.10.23
+ baron_male_kemsar: "Яткан" #Машинный перевод 28.10.23
+ baron_female_kemsar: "Яткани" #Машинный перевод 28.10.23
+ empire_kemsar: "Таессорат" #Машинный перевод 28.10.23
+ kingdom_kemsar: "Сухутарат" #Машинный перевод 28.10.23
+ duchy_kemsar: "Таренат" #Машинный перевод 28.10.23
+ county_kemsar: "Таленат" #Машинный перевод 28.10.23
+ barony_kemsar: "Ятканат" #Машинный перевод 28.10.23
+ prince_male_kemsar: "Куремзу" #Машинный перевод 28.10.23
+ prince_female_kemsar: "Куремзи" #Машинный перевод 28.10.23
+ prince_male_kemsar_empire: "Куремзу" #Машинный перевод 28.10.23
+ prince_female_kemsar_empire: "Куремзи" #Машинный перевод 28.10.23
   
   ##Canian## 
- emperor_male_canian: "Вилажрд" #Машиночный перевод 28.10.23
- emperor_female_canian: "Вилажрд" #Машиночный перевод 28.10.23
- king_male_canian: "Риксумин" #Машиночный перевод 28.10.23
- king_female_canian: "Риксумина" #Машиночный перевод 28.10.23
- duke_male_canian: "Иарат" #Машиночный перевод 28.10.23
- duke_female_canian: "Яратина" #Машиночный перевод 28.10.23
- count_male_canian: "Верлан" #Машиночный перевод 28.10.23
- count_female_canian: "Верлина" #Машиночный перевод 28.10.23
- baron_male_canian: "Калукрикс" #Машиночный перевод 28.10.23
- baron_female_canian: "Калукрина" #Машиночный перевод 28.10.23
- empire_canian: "Вилажия" #Машиночный перевод 28.10.23
- kingdom_canian: "Риксумия" #Машиночный перевод 28.10.23
- duchy_canian: "Иаратия" #Машиночный перевод 28.10.23
- county_canian: "Верлания" #Машиночный перевод 28.10.23
- barony_canian: "Калукриксия" #Машиночный перевод 28.10.23
- prince_male_canian: "Эрдиш" #Машиночный перевод 28.10.23
- prince_female_canian: "Эрдласа" #Машиночный перевод 28.10.23
- prince_male_canian_empire: "Эрдиш" #Машиночный перевод 28.10.23
- prince_female_canian_empire: "Эрдласа" #Машиночный перевод 28.10.23
+ emperor_male_canian: "Вилажрд" #Машинный перевод 28.10.23
+ emperor_female_canian: "Вилажрд" #Машинный перевод 28.10.23
+ king_male_canian: "Риксумин" #Машинный перевод 28.10.23
+ king_female_canian: "Риксумина" #Машинный перевод 28.10.23
+ duke_male_canian: "Иарат" #Машинный перевод 28.10.23
+ duke_female_canian: "Яратина" #Машинный перевод 28.10.23
+ count_male_canian: "Верлан" #Машинный перевод 28.10.23
+ count_female_canian: "Верлина" #Машинный перевод 28.10.23
+ baron_male_canian: "Калукрикс" #Машинный перевод 28.10.23
+ baron_female_canian: "Калукрина" #Машинный перевод 28.10.23
+ empire_canian: "Вилажия" #Машинный перевод 28.10.23
+ kingdom_canian: "Риксумия" #Машинный перевод 28.10.23
+ duchy_canian: "Иаратия" #Машинный перевод 28.10.23
+ county_canian: "Верлания" #Машинный перевод 28.10.23
+ barony_canian: "Калукриксия" #Машинный перевод 28.10.23
+ prince_male_canian: "Эрдиш" #Машинный перевод 28.10.23
+ prince_female_canian: "Эрдласа" #Машинный перевод 28.10.23
+ prince_male_canian_empire: "Эрдиш" #Машинный перевод 28.10.23
+ prince_female_canian_empire: "Эрдласа" #Машинный перевод 28.10.23
   
   ##Saradari## 
- emperor_male_saradari: "Лиренара" #Машиночный перевод 28.10.23
- emperor_female_saradari: "Лиренара" #Машиночный перевод 28.10.23
- king_male_saradari: "Маханка" #Машиночный перевод 28.10.23
- king_female_saradari: "Маханки" #Машиночный перевод 28.10.23
- duke_male_saradari: "Надуран" #Машиночный перевод 28.10.23
- duke_female_saradari: "Надурани" #Машиночный перевод 28.10.23
- count_male_saradari: "Дарасек" #Машиночный перевод 28.10.23
- count_female_saradari: "Daraseki" #Машиночный перевод 28.10.23
- baron_male_saradari: "Сабит" #Машиночный перевод 28.10.23
- baron_female_saradari: "Сабити" #Машиночный перевод 28.10.23
- empire_saradari: "Лираадж" #Машиночный перевод 28.10.23
- kingdom_saradari: "Маханаадж" #Машиночный перевод 28.10.23
- duchy_saradari: "Надураадж" #Машиночный перевод 28.10.23
- county_saradari: "Дараадж" #Машиночный перевод 28.10.23
- barony_saradari: "Сабаадж" #Машиночный перевод 28.10.23
- prince_male_saradari: "Ратака" #Машиночный перевод 28.10.23
- prince_female_saradari: "Ратакани" #Машиночный перевод 28.10.23
- prince_male_saradari_empire: "Ратака" #Машиночный перевод 28.10.23
- prince_female_saradari_empire: "Ратакани" #Машиночный перевод 28.10.23
+ emperor_male_saradari: "Лиренара" #Машинный перевод 28.10.23
+ emperor_female_saradari: "Лиренара" #Машинный перевод 28.10.23
+ king_male_saradari: "Маханка" #Машинный перевод 28.10.23
+ king_female_saradari: "Маханки" #Машинный перевод 28.10.23
+ duke_male_saradari: "Надуран" #Машинный перевод 28.10.23
+ duke_female_saradari: "Надурани" #Машинный перевод 28.10.23
+ count_male_saradari: "Дарасек" #Машинный перевод 28.10.23
+ count_female_saradari: "Daraseki" #Машинный перевод 28.10.23
+ baron_male_saradari: "Сабит" #Машинный перевод 28.10.23
+ baron_female_saradari: "Сабити" #Машинный перевод 28.10.23
+ empire_saradari: "Лираадж" #Машинный перевод 28.10.23
+ kingdom_saradari: "Маханаадж" #Машинный перевод 28.10.23
+ duchy_saradari: "Надураадж" #Машинный перевод 28.10.23
+ county_saradari: "Дараадж" #Машинный перевод 28.10.23
+ barony_saradari: "Сабаадж" #Машинный перевод 28.10.23
+ prince_male_saradari: "Ратака" #Машинный перевод 28.10.23
+ prince_female_saradari: "Ратакани" #Машинный перевод 28.10.23
+ prince_male_saradari_empire: "Ратака" #Машинный перевод 28.10.23
+ prince_female_saradari_empire: "Ратакани" #Машинный перевод 28.10.23
   
   ##Sarradonian## 
- emperor_male_sarradonian: "Малайку ль-Алайк" #Машиночный перевод 28.10.23
- emperor_female_sarradonian: "Малайкту ль-Алайк" #Машиночный перевод 28.10.23
- king_male_sarradonian: "Малайкский" #Машиночный перевод 28.10.23
- king_female_sarradonian: "Малайка" #Машиночный перевод 28.10.23
- duke_male_sarradonian: "Баал" #Машиночный перевод 28.10.23
- duke_female_sarradonian: "Баила" #Машиночный перевод 28.10.23
- count_male_sarradonian: "Эахим" #Машиночный перевод 28.10.23
- count_female_sarradonian: "Эахма" #Машиночный перевод 28.10.23
- baron_male_sarradonian: "Тахин" #Машиночный перевод 28.10.23
- baron_female_sarradonian: "Таня" #Машиночный перевод 28.10.23
- empire_sarradonian: "Малкумат" #Машиночный перевод 28.10.23
- kingdom_sarradonian: "Лайкумат" #Машиночный перевод 28.10.23
- duchy_sarradonian: "Буилат" #Машиночный перевод 28.10.23
- county_sarradonian: "Эухимат" #Машиночный перевод 28.10.23
- barony_sarradonian: "Тухинат" #Машиночный перевод 28.10.23
- prince_male_sarradonian: "Дамарит" #Машиночный перевод 28.10.23
- prince_female_sarradonian: "Дамария" #Машиночный перевод 28.10.23
- prince_male_sarradonian_empire: "Дамарит" #Машиночный перевод 28.10.23
- prince_female_sarradonian_empire: "Дамария" #Машиночный перевод 28.10.23
+ emperor_male_sarradonian: "Малайку ль-Алайк" #Машинный перевод 28.10.23
+ emperor_female_sarradonian: "Малайкту ль-Алайк" #Машинный перевод 28.10.23
+ king_male_sarradonian: "Малайкский" #Машинный перевод 28.10.23
+ king_female_sarradonian: "Малайка" #Машинный перевод 28.10.23
+ duke_male_sarradonian: "Баал" #Машинный перевод 28.10.23
+ duke_female_sarradonian: "Баила" #Машинный перевод 28.10.23
+ count_male_sarradonian: "Эахим" #Машинный перевод 28.10.23
+ count_female_sarradonian: "Эахма" #Машинный перевод 28.10.23
+ baron_male_sarradonian: "Тахин" #Машинный перевод 28.10.23
+ baron_female_sarradonian: "Таня" #Машинный перевод 28.10.23
+ empire_sarradonian: "Малкумат" #Машинный перевод 28.10.23
+ kingdom_sarradonian: "Лайкумат" #Машинный перевод 28.10.23
+ duchy_sarradonian: "Буилат" #Машинный перевод 28.10.23
+ county_sarradonian: "Эухимат" #Машинный перевод 28.10.23
+ barony_sarradonian: "Тухинат" #Машинный перевод 28.10.23
+ prince_male_sarradonian: "Дамарит" #Машинный перевод 28.10.23
+ prince_female_sarradonian: "Дамария" #Машинный перевод 28.10.23
+ prince_male_sarradonian_empire: "Дамарит" #Машинный перевод 28.10.23
+ prince_female_sarradonian_empire: "Дамария" #Машинный перевод 28.10.23
   
   # Titular 
- karadun_regent_male: "Вэйк" #Машиночный перевод 28.10.23
- karadun_regent_female: "Вайка" #Машиночный перевод 28.10.23
+ karadun_regent_male: "Вэйк" #Pfalz /спорно
+ karadun_regent_female: "Вайка" #Pfalz /спорно
   
   ##Lerrardin## 
- emperor_male_lerrardin: "Мефед-Мефе" #Машиночный перевод 28.10.23
- emperor_female_lerrardin: "Дедафалад-Дедафал" #Машиночный перевод 28.10.23
- king_male_lerrardin: "Мефе" #Машиночный перевод 28.10.23
- king_female_lerrardin: "Дедафал" #Машиночный перевод 28.10.23
- duke_male_lerrardin: "Тавад" #Машиночный перевод 28.10.23
- duke_female_lerrardin: "Халабатон" #Машиночный перевод 28.10.23
- count_male_lerrardin: "Азнаули" #Машиночный перевод 28.10.23
- count_female_lerrardin: "Азнаула" #Машиночный перевод 28.10.23
- baron_male_lerrardin: "Глех" #Машиночный перевод 28.10.23
- baron_female_lerrardin: "Глех" #Машиночный перевод 28.10.23
- empire_lerrardin: "Хмертули Самефо" #Машиночный перевод 28.10.23
- kingdom_lerrardin: "Самефо" #Машиночный перевод 28.10.23
- duchy_lerrardin: "Калахи" #Машиночный перевод 28.10.23
- county_lerrardin: "Данарти" #Машиночный перевод 28.10.23
- barony_lerrardin: "Софили" #Машиночный перевод 28.10.23
- prince_male_lerrardin: "Батонишвилих" #Машиночный перевод 28.10.23
- prince_female_lerrardin: "Батонишвилих" #Машиночный перевод 28.10.23
- prince_male_lerrardin_empire: "Уфлистули" #Машиночный перевод 28.10.23
- prince_female_lerrardin_empire: "Уплискалих" #Машиночный перевод 28.10.23
+ emperor_male_lerrardin: "Мефед-Мефе" #Машинный перевод 28.10.23
+ emperor_female_lerrardin: "Дедафалад-Дедафал" #Машинный перевод 28.10.23
+ king_male_lerrardin: "Мефе" #Машинный перевод 28.10.23
+ king_female_lerrardin: "Дедафал" #Машинный перевод 28.10.23
+ duke_male_lerrardin: "Тавад" #Машинный перевод 28.10.23
+ duke_female_lerrardin: "Халабатон" #Машинный перевод 28.10.23
+ count_male_lerrardin: "Азнаули" #Машинный перевод 28.10.23
+ count_female_lerrardin: "Азнаула" #Машинный перевод 28.10.23
+ baron_male_lerrardin: "Глех" #Машинный перевод 28.10.23
+ baron_female_lerrardin: "Глех" #Машинный перевод 28.10.23
+ empire_lerrardin: "Хмертули Самефо" #Машинный перевод 28.10.23
+ kingdom_lerrardin: "Самефо" #Машинный перевод 28.10.23
+ duchy_lerrardin: "Калахи" #Машинный перевод 28.10.23
+ county_lerrardin: "Данарти" #Машинный перевод 28.10.23
+ barony_lerrardin: "Софили" #Машинный перевод 28.10.23
+ prince_male_lerrardin: "Батонишвилих" #Машинный перевод 28.10.23
+ prince_female_lerrardin: "Батонишвилих" #Машинный перевод 28.10.23
+ prince_male_lerrardin_empire: "Уфлистули" #Машинный перевод 28.10.23
+ prince_female_lerrardin_empire: "Уплискалих" #Машинный перевод 28.10.23
   
   ##Kashirya## 
- emperor_male_kashirya: "Хайтрапатти" #Машиночный перевод 28.10.23
- emperor_female_kashirya: "Хайтрапатни" #Машиночный перевод 28.10.23
- kingdom_male_kashirya: "Хатпатти" #Машиночный перевод 28.10.23
- kingdom_female_kashirya: "Хатпатни" #Машиночный перевод 28.10.23
- duke_male_kashirya: "Тактей" #Машиночный перевод 28.10.23
- duke_female_kashirya: "Такейтун" #Машиночный перевод 28.10.23
- count_male_kashirya: "Санкей" #Машиночный перевод 28.10.23
- count_female_kashirya: "Санкийтун" #Машиночный перевод 28.10.23
- baron_male_kashirya: "Мухита" #Машиночный перевод 28.10.23
- baron_female_kashirya: "Мухита" #Машиночный перевод 28.10.23
- empire_kashirya: "Хайтрахати" #Машиночный перевод 28.10.23
- kingdom_kashirya: "Хатанат" #Машиночный перевод 28.10.23
- duchy_kashirya: "Тихат" #Машиночный перевод 28.10.23
- county_kashirya: "Санхат" #Машиночный перевод 28.10.23
- barony_kashirya: "Панхатти" #Машиночный перевод 28.10.23
- prince_male_kashirya: "Ювапатти" #Машиночный перевод 28.10.23
- prince_female_kashirya: "Ювапатни" #Машиночный перевод 28.10.23
- prince_male_kashirya_empire: "Юврапатти" #Машиночный перевод 28.10.23
- prince_female_kashirya_empire: "Юврапатни" #Машиночный перевод 28.10.23
+ emperor_male_kashirya: "Хайтрапатти" #Машинный перевод 28.10.23
+ emperor_female_kashirya: "Хайтрапатни" #Машинный перевод 28.10.23
+ kingdom_male_kashirya: "Хатпатти" #Машинный перевод 28.10.23
+ kingdom_female_kashirya: "Хатпатни" #Машинный перевод 28.10.23
+ duke_male_kashirya: "Тактей" #Машинный перевод 28.10.23
+ duke_female_kashirya: "Такейтун" #Машинный перевод 28.10.23
+ count_male_kashirya: "Санкей" #Машинный перевод 28.10.23
+ count_female_kashirya: "Санкийтун" #Машинный перевод 28.10.23
+ baron_male_kashirya: "Мухита" #Машинный перевод 28.10.23
+ baron_female_kashirya: "Мухита" #Машинный перевод 28.10.23
+ empire_kashirya: "Хайтрахати" #Машинный перевод 28.10.23
+ kingdom_kashirya: "Хатанат" #Машинный перевод 28.10.23
+ duchy_kashirya: "Тихат" #Машинный перевод 28.10.23
+ county_kashirya: "Санхат" #Машинный перевод 28.10.23
+ barony_kashirya: "Панхатти" #Машинный перевод 28.10.23
+ prince_male_kashirya: "Ювапатти" #Машинный перевод 28.10.23
+ prince_female_kashirya: "Ювапатни" #Машинный перевод 28.10.23
+ prince_male_kashirya_empire: "Юврапатти" #Машинный перевод 28.10.23
+ prince_female_kashirya_empire: "Юврапатни" #Машинный перевод 28.10.23
   
   ##Madikirib## 
  emperor_male_madikirib: "Ибирельион" #Pfalz /спорно
