@@ -6,595 +6,595 @@
   
   
   # 
- gh_imperial_group: "Аверсарианец"  #Машиночный перевод 28.10.23!
- gh_imperial_group_collective_noun: "Аверсарианцы"  #Машиночный перевод 28.10.23!
- apokiakas: "Апокиакас"  #Машиночный перевод 28.10.23!
- apokiakas_collective_noun: "Апокиаканцы"  #Машиночный перевод 28.10.23!
- northernimperial: "Северный Аверсарий"  #Машиночный перевод 28.10.23!
- northernimperial_collective_noun: "Аверсарианцы"  #Машиночный перевод 28.10.23!
- easternimperial: "Восточный Аверсарий"  #Машиночный перевод 28.10.23!
- easternimperial_collective_noun: "Аверсарианцы"  #Машиночный перевод 28.10.23!
+ gh_imperial_group: "Аверсарианцы"
+ gh_imperial_group_collective_noun: "Аверсарианск"  
+ apokiakas: "Апокиакасы"
+ apokiakas_collective_noun: "Апокиакаск"  
+ northernimperial: "Северные Аверсарианцы"
+ northernimperial_collective_noun: "Аверсарианск"  
+ easternimperial: "Восточные Аверсарианцы"
+ easternimperial_collective_noun: "Аверсарианск"  
   
   
   
- #easternimperial_collective_noun: "Ломониой"  #Машиночный перевод 28.10.23!
- easternislander: "Восточно-аверсарийский островитянин"  #Машиночный перевод 28.10.23!
- easternislander_collective_noun: "Восточные аверсарийские островитяне"  #Машиночный перевод 28.10.23!
- lomonios: "Ломониос"  #Машиночный перевод 28.10.23!
- southernimperial: "Южный Аверсарий"  #Машиночный перевод 28.10.23!
- southernimperial_collective_noun: "Аверсарианцы"  #Машиночный перевод 28.10.23!
- westernimperial: "Западный Аверсарий"  #Машиночный перевод 28.10.23!
- westernimperial_collective_noun: "Аверсарианцы"  #Машиночный перевод 28.10.23!
- southislander: "Южный аверсарийский островитянин"  #Машиночный перевод 28.10.23!
- southislander_collective_noun: "Южные аверсарианские островитяне"  #Машиночный перевод 28.10.23!
- centralimperial: "Центральный Аверсарий"  #Машиночный перевод 28.10.23!
- centralimperial_collective_noun: "Аверсарианцы"  #Машиночный перевод 28.10.23!
- islander: "Аверсарийский островитянин"  #Машиночный перевод 28.10.23!
- islander_collective_noun: "Аверсианские островитяне"  #Машиночный перевод 28.10.23!
- imperialislander: "Имперский островитянин"  #Машиночный перевод 28.10.23!
- imperialislander_collective_noun: "Аверсарианцы"  #Машиночный перевод 28.10.23!
- aersodiaxian_islander: "Фелаксийский"  #Машиночный перевод 28.10.23!
- aersodiaxian_islander_collective_noun: "Фелаксианы"  #Машиночный перевод 28.10.23!
- outerislander: "Внешний аверсарийский островитянин"  #Машиночный перевод 28.10.23!
- outerislander_collective_noun: "Внешние аверсианские островитяне"  #Машиночный перевод 28.10.23!
- centralislander: "Центрально-аверсарийский островитянин"  #Машиночный перевод 28.10.23!
- centralislander_collective_noun: "Центрально-Аверсарианские островитяне"  #Машиночный перевод 28.10.23!
- practitioner: "Практикующий"  #Машиночный перевод 28.10.23!
- practitioner_collective_noun: "Практикующие"  #Машиночный перевод 28.10.23!
- erimatos: "Эриматос"  #Машиночный перевод 28.10.23!
- erimatos_collective_noun: "Эриматой"  #Машиночный перевод 28.10.23!
- makryenis: "Макриенис"  #Машиночный перевод 28.10.23!
- makryenis_collective_noun: "Макренианцы"  #Машиночный перевод 28.10.23!
- agiopadis: "Агиопадис"  #Машиночный перевод 28.10.23!
- agiopadis_collective_noun: "Агиопадии"  #Машиночный перевод 28.10.23!
- aelarvisian: "Эларвизиан"  #Машиночный перевод 28.10.23!
- aelarvisian_collective_noun: "Эларвизианцы"  #Машиночный перевод 28.10.23!
- aeviaxian: "Ээваксиан"  #Машиночный перевод 28.10.23!
- aeviaxian_collective_noun: "Эваксианцы"  #Машиночный перевод 28.10.23!
- redrunner: "Редраннер"  #Машиночный перевод 28.10.23!
- redrunner_collective_noun: "Редраннеры"  #Машиночный перевод 28.10.23!
+ #easternimperial_collective_noun: "Ломониск"
+ easternislander: "Восточные Аверсарианские Островитяне"
+ easternislander_collective_noun: "Восточно-Аверсариано-Островск"
+ lomonios: "Ломонисы"
+ southernimperial: "Южные Аверсарианцы" 
+ southernimperial_collective_noun: "Аверсарианск"
+ westernimperial: "Западные Аверсарианцы"  
+ westernimperial_collective_noun: "Аверсарианск"
+ southislander: "Южные Аверсарианские Островитяне"
+ southislander_collective_noun: "Южно-Аверсариано-Островск"
+ centralimperial: "Центральные Аверсарианцы"
+ centralimperial_collective_noun: "Аверсарианск" 
+ islander: "Аверсарианские Островитяне"  
+ islander_collective_noun: "Аверсиано-Островитянск"
+ imperialislander: "Имперские Островитяне"  
+ imperialislander_collective_noun: "Аверсарианск"
+ aersodiaxian_islander: "Фелаксийцы"  
+ aersodiaxian_islander_collective_noun: "Фелаксийск"  
+ outerislander: "Внешние Аверсарианские Островитяне"
+ outerislander_collective_noun: "Внешне-Аверсиано-Островитянск"
+ centralislander: "Центральные Аверсарианские Островитяне"
+ centralislander_collective_noun: "Центрально-Аверсариано-Островитянск"
+ practitioner: "Практикующие"
+ practitioner_collective_noun: "Практикующ"
+ erimatos: "Эриматосы"
+ erimatos_collective_noun: "Эриматоск"
+ makryenis: "Макриенцы"
+ makryenis_collective_noun: "Макриенск"
+ agiopadis: "Агиопады"
+ agiopadis_collective_noun: "Агиопадск"
+ aelarvisian: "Аэларвизианцы"
+ aelarvisian_collective_noun: "Аэларвизианск"
+ aeviaxian: "Аевиаксианцы"
+ aeviaxian_collective_noun: "Аевиаксианск"
+ redrunner: "Редраннеры"  
+ redrunner_collective_noun: "Редраннерск" 
   
- lomonios_collective_noun: "Ломониос"  #Машиночный перевод 28.10.23!
- jalanka: "Яланка"  #Машиночный перевод 28.10.23!
- jalanka_collective_noun: "Джалаканнд"  #Машиночный перевод 28.10.23!
- symvolix: "Символикс"  #Машиночный перевод 28.10.23!
- symvolix_collective_noun: "Символикси"  #Машиночный перевод 28.10.23!
- coldcoaster: "Холодные горки"  #Машиночный перевод 28.10.23!
- coldcoaster_collective_noun: "Холодные горки"  #Машиночный перевод 28.10.23!
- dielecender: "Дилесендер"  #Машиночный перевод 28.10.23!
- dielecender_collective_noun: "Диелендеры"  #Машиночный перевод 28.10.23!
- abdexorn: "Абдексорн"  #Машиночный перевод 28.10.23!
- abdexorn_collective_noun: "Абдексорни"  #Машиночный перевод 28.10.23!
- saradoixa: "Сарадойша"  #Машиночный перевод 28.10.23!
- saradoixa_collective_noun: "Сарадойсанцы"  #Машиночный перевод 28.10.23!
- ypsikenai: "Ипсикенай"  #Машиночный перевод 28.10.23!
- ypsikenai_collective_noun: "Ипсикенайс"  #Машиночный перевод 28.10.23!
- enisaloi: "Энисалой"  #Машиночный перевод 28.10.23!
- enisaloi_collective_noun: "Энисалой"  #Машиночный перевод 28.10.23!
- vonatolis: "Вонатолис"  #Машиночный перевод 28.10.23!
- vonatolis_collective_noun: "вонатолийцы"  #Машиночный перевод 28.10.23!
- tretosai: "Третосай"  #Машиночный перевод 28.10.23!
- tretosai_collective_noun: "Третосайцы"  #Машиночный перевод 28.10.23!
- rakosakai: "Rakosakai"  #Машиночный перевод 28.10.23!
- rakosakai_collective_noun: "Rakosakai"  #Машиночный перевод 28.10.23!
- nimakiroi: "Нимакирои"  #Машиночный перевод 28.10.23!
- nimakiroi_collective_noun: "Нимакирои"  #Машиночный перевод 28.10.23!
- karadamos: "Карадамос"  #Машиночный перевод 28.10.23!
- karadamos_collective_noun: "Карадамос"  #Машиночный перевод 28.10.23!
- skorikiakas: "Скорикиакас"  #Машиночный перевод 28.10.23!
- skorikiakas_collective_noun: "Скорикиакас"  #Машиночный перевод 28.10.23!
+ lomonios_collective_noun: "Ломониск"
+ jalanka: "Джаланцы"  
+ jalanka_collective_noun: "Джаланск"  
+ symvolix: "Символиксы" 
+ symvolix_collective_noun: "Символикск"
+ coldcoaster: "Колдкостеры"
+ coldcoaster_collective_noun: "Колдкостерск"
+ dielecender: "Дилекендеры"  
+ dielecender_collective_noun: "Дилекендерск"
+ abdexorn: "Абдексорнцы"  
+ abdexorn_collective_noun: "Абдексорнск" 
+ saradoixa: "Сарадойшцы" 
+ saradoixa_collective_noun: "Сарадойшск" 
+ ypsikenai: "Ипсикенайцы"
+ ypsikenai_collective_noun: "Ипсикенайск" 
+ enisaloi: "Энисалойцы"  
+ enisaloi_collective_noun: "Энисалойск"  
+ vonatolis: "Вонатольцы"
+ vonatolis_collective_noun: "Вонатольск"
+ tretosai: "Третосайцы"
+ tretosai_collective_noun: "Третосайск" 
+ rakosakai: "Ракосакайцы"  
+ rakosakai_collective_noun: "Ракосакайск"
+ nimakiroi: "Нимакиройцы"
+ nimakiroi_collective_noun: "Нимакиройск"
+ karadamos: "Карадамосы" 
+ karadamos_collective_noun: "Карадамоск"
+ skorikiakas: "Скорикиакасы"
+ skorikiakas_collective_noun: "Скорикиакаск"
   
   
   # sjalvolki 
   
   
   # 
- gh_sjalvolki_group: "Сялволки"  #Машиночный перевод 28.10.23!
- gh_sjalvolki_group_collective_noun: "Сялволки"  #Машиночный перевод 28.10.23!
- adrakamp: "Адракамп"  #Машиночный перевод 28.10.23!
- adrakamp_collective_noun: "Адракамп"  #Машиночный перевод 28.10.23!
- barki: "Барки"  #Машиночный перевод 28.10.23!
- barki_collective_noun: "Барки"  #Машиночный перевод 28.10.23!
- caemansi: "Чеманси"  #Машиночный перевод 28.10.23!
- caemansi_collective_noun: "Чеманси"  #Машиночный перевод 28.10.23!
- curgerski: "Кургерски"  #Машиночный перевод 28.10.23!
- curgerski_collective_noun: "Кургерски"  #Машиночный перевод 28.10.23!
- daukeni: "Даукени"  #Машиночный перевод 28.10.23!
- daukeni_collective_noun: "Даукени"  #Машиночный перевод 28.10.23!
- fenvir: "Фенвир"  #Машиночный перевод 28.10.23!
- fenvir_collective_noun: "Фенвири"  #Машиночный перевод 28.10.23!
- greulokin: "Греулокин"  #Машиночный перевод 28.10.23!
- greulokin_collective_noun: "Греулокины"  #Машиночный перевод 28.10.23!
- irmionoth: "Ирмионот"  #Машиночный перевод 28.10.23!
- irmionoth_collective_noun: "Ирмионоты"  #Машиночный перевод 28.10.23!
- mastikigni: "Мастикиньи"  #Машиночный перевод 28.10.23!
- mastikigni_collective_noun: "Мастикиньи"  #Машиночный перевод 28.10.23!
- tribocicai: "Tribocicai"  #Машиночный перевод 28.10.23!
- tribocicai_collective_noun: "Tribocicai"  #Машиночный перевод 28.10.23!
- vrodkin: "Вродкин"  #Машиночный перевод 28.10.23!
- vrodkin_collective_noun: "Вродкины"  #Машиночный перевод 28.10.23!
- warisnik: "Варишник"  #Машиночный перевод 28.10.23!
- warisnik_collective_noun: "Варишники"  #Машиночный перевод 28.10.23!
+ gh_sjalvolki_group: "Сьялволки"
+ gh_sjalvolki_group_collective_noun: "Сьялвольск"
+ adrakamp: "Адракампы"  
+ adrakamp_collective_noun: "Адракампск"
+ barki: "Баркинцы"  
+ barki_collective_noun: "Баркинск"  
+ caemansi: "Каэмансийцы" 
+ caemansi_collective_noun: "Каэмансийск"
+ curgerski: "Кургерскинцы" 
+ curgerski_collective_noun: "Кургерскинск"
+ daukeni: "Даукенинцы" 
+ daukeni_collective_noun: "Даукенинск"
+ fenvir: "Фенвирцы"  
+ fenvir_collective_noun: "Фенвирск"  
+ greulokin: "Греулокинцы"  
+ greulokin_collective_noun: "Греулокинск" 
+ irmionoth: "Ирмионоты" 
+ irmionoth_collective_noun: "Ирмионотск"  
+ mastikigni: "Мастрикигнийцы"  
+ mastikigni_collective_noun: "Мастрикигнийск" 
+ tribocicai: "Трибоцикайцы"  
+ tribocicai_collective_noun: "Трибоцикайск" 
+ vrodkin: "Вродкинцы"  
+ vrodkin_collective_noun: "Вродкинск"  
+ warisnik: "Варисникийцы"  
+ warisnik_collective_noun: "Варисникийск"  
   
   
   
   #Marcher 
- gh_marcher_group: "Шевальен"  #Машиночный перевод 28.10.23!
- gh_marcher_group_collective_noun: "Шевальен"  #Машиночный перевод 28.10.23!
- shewigad: "Шевигад"  #Машиночный перевод 28.10.23!
- shewigad_collective_noun: "Шевигад"  #Машиночный перевод 28.10.23!
- shewigads_collective_noun: "Шевигады"  #Машиночный перевод 28.10.23!
- carsavisians: "Карсавизиан"  #Машиночный перевод 28.10.23!
- carsavisians_collective_noun: "Карсавизианцы"  #Машиночный перевод 28.10.23!
- etrandanexi: "Этранданекси"  #Машиночный перевод 28.10.23!
- etrandanexi_collective_noun: "Этранданекси"  #Машиночный перевод 28.10.23!
- rivarisians: "Риваризианский"  #Машиночный перевод 28.10.23!
- rivarisians_collective_noun: "Риварисианцы"  #Машиночный перевод 28.10.23!
- salisians: "Салисиан"  #Машиночный перевод 28.10.23!
- salisians_collective_noun: "Салисийцы"  #Машиночный перевод 28.10.23!
- chevalies: "Шевалье"  #Машиночный перевод 28.10.23!
- chevalies_collective_noun: "Шевалье"  #Машиночный перевод 28.10.23!
- voyagen: "Вояген"  #Машиночный перевод 28.10.23!
- voyagen_collective_noun: "Воягены"  #Машиночный перевод 28.10.23!
- trustians: "Доверительный"  #Машиночный перевод 28.10.23!
- trustians_collective_noun: "Доверительные лица"  #Машиночный перевод 28.10.23!
- oejeynica: "Оджейникан"  #Машиночный перевод 28.10.23!
- oejeynica_collective_noun: "Оджейниканц"  #Машиночный перевод 28.10.23!
- gh_konijkemener_group: "Конейкеменер"  #Машиночный перевод 28.10.23!
- gh_konijkemener_group_collective_noun: "Конейкеменер"  #Машиночный перевод 28.10.23!
- konijkmener: "Конийкменер"  #Машиночный перевод 28.10.23!
- konijkmener_collective_noun: "Конийкменер"  #Машиночный перевод 28.10.23!
- leegenders: "Легендер"  #Машиночный перевод 28.10.23!
- leegenders_collective_noun: "Легендеры"  #Машиночный перевод 28.10.23!
- envokander: "Энвокандер"  #Машиночный перевод 28.10.23!
- envokander_collective_noun: "Энвокандеры"  #Машиночный перевод 28.10.23!
- urdermantern: "Урдермантерн"  #Машиночный перевод 28.10.23!
- urdermantern_collective_noun: "Урдермантернеры"  #Машиночный перевод 28.10.23!
- gh_ojyczaynz_group: "Ойчайнц"  #Машиночный перевод 28.10.23!
- gh_ojyczaynz_group_collective_noun: "Ойчайнц"  #Машиночный перевод 28.10.23!
- ojyczaynz: "Ойчайнц"  #Машиночный перевод 28.10.23!
- ojyczaynz_collective_noun: "Ойчайнц"  #Машиночный перевод 28.10.23!
- gisreddean: "Гисреддин"  #Машиночный перевод 28.10.23!
- gisreddean_collective_noun: "Гисреддианс"  #Машиночный перевод 28.10.23!
- gallien: "Галлиен"  #Машиночный перевод 28.10.23!
- gallien_collective_noun: "Галлиенс"  #Машиночный перевод 28.10.23!
+ gh_marcher_group: "Шевальены"
+ gh_marcher_group_collective_noun: "Шевальенск"
+ shewigad: "Шевигады"
+ shewigad_collective_noun: "Шевигадск"
+ shewigads_collective_noun: "Шевигадск"
+ carsavisians: "Карсавизианцы"
+ carsavisians_collective_noun: "Карсавизианск"
+ etrandanexi: "Этранданексийцы"  
+ etrandanexi_collective_noun: "Этранданексийск"
+ rivarisians: "Риварисианцы"
+ rivarisians_collective_noun: "Риварисианск"
+ salisians: "Салисианцы"
+ salisians_collective_noun: "Салисианск"
+ chevalies: "Шевальены"
+ chevalies_collective_noun: "Шевальенск"
+ voyagen: "Воягены"
+ voyagen_collective_noun: "Воягенск"
+ trustians: "Трастены"
+ trustians_collective_noun: "Трастенск"
+ oejeynica: "Оейниканцы"
+ oejeynica_collective_noun: "Оейниканск"
+ gh_konijkemener_group: "Конийкменерцы"
+ gh_konijkemener_group_collective_noun: "Конийкменерск" 
+ konijkmener: "Конийкменерцы" 
+ konijkmener_collective_noun: "Конийкменерск"
+ leegenders: "Лигендеры"  
+ leegenders_collective_noun: "Лигендерск"
+ envokander: "Энвокандеры"  
+ envokander_collective_noun: "Энвокандерск"
+ urdermantern: "Урдермантерны"  
+ urdermantern_collective_noun: "Урдермантернск"
+ gh_ojyczaynz_group: "Оджикзайнцы"  
+ gh_ojyczaynz_group_collective_noun: "Оджикзайнск" 
+ ojyczaynz: "Оджикзайнцы"  
+ ojyczaynz_collective_noun: "Оджикзайнск" 
+ gisreddean: "Гисреддинцы"  
+ gisreddean_collective_noun: "Гисреддинск"  
+ gallien: "Галльенцы"  
+ gallien_collective_noun: "Галльенск" 
   
   
   
   #Lerrardin 
- gh_lerrardin_group: "Леррардин"  #Машиночный перевод 28.10.23!
- gh_lerrardin_group_collective_noun: "Леррардин"  #Машиночный перевод 28.10.23!
+ gh_lerrardin_group: "Леррардинцы"  
+ gh_lerrardin_group_collective_noun: "Леррардинск"  
   
- charchac: "Шаршак"  #Машиночный перевод 28.10.23!
- charchac_collective_noun: "Шарчак"  #Машиночный перевод 28.10.23!
- yevamarai: "Йевамарай"  #Машиночный перевод 28.10.23!
- yevamarai_collective_noun: "Йевамарай"  #Машиночный перевод 28.10.23!
- draneti: "Дранети"  #Машиночный перевод 28.10.23!
- draneti_collective_noun: "Дранети"  #Машиночный перевод 28.10.23!
- yylaxxaz: "Йилаксаз"  #Машиночный перевод 28.10.23!
- yylaxxaz_collective_noun: "йилахазанцы"  #Машиночный перевод 28.10.23!
- aygaen: "Айгаен"  #Машиночный перевод 28.10.23!
- aygaen_collective_noun: "Айгаенс"  #Машиночный перевод 28.10.23!
+ charchac: "Чарчакцы"  
+ charchac_collective_noun: "Чарчакск"  
+ yevamarai: "Йевамарайцы" 
+ yevamarai_collective_noun: "Йевамарайск" 
+ draneti: "Дранетийцы"  
+ draneti_collective_noun: "Дранетийск" 
+ yylaxxaz: "Йылаксазы"  
+ yylaxxaz_collective_noun: "Йылаксазск"  
+ aygaen: "Айгаены"  
+ aygaen_collective_noun: "Айгаенск"  
   
   
   
   #Kherkeloi 
- gh_kherkeloi_group: "Херкелой"  #Машиночный перевод 28.10.23!
- gh_kherkeloi_group_collective_noun: "Херкелой"  #Машиночный перевод 28.10.23!
- erkalgani: "Эркалгани"  #Машиночный перевод 28.10.23!
- erkalgani_collective_noun: "Эркалгани"  #Машиночный перевод 28.10.23!
- khodomi: "Ходоми"  #Машиночный перевод 28.10.23!
- khodomi_collective_noun: "Ходоми"  #Машиночный перевод 28.10.23!
- zelkavani: "Зелкавани"  #Машиночный перевод 28.10.23!
- zelkavani_collective_noun: "Зелкавани"  #Машиночный перевод 28.10.23!
- lattani: "Латтани"  #Машиночный перевод 28.10.23!
- lattani_collective_noun: "Латтани"  #Машиночный перевод 28.10.23!
- astilik: "Астилик"  #Машиночный перевод 28.10.23!
- astilik_collective_noun: "Астиликс"  #Машиночный перевод 28.10.23!
- jarakmar: "Джа'Ракмар"  #Машиночный перевод 28.10.23!
- jarakmar_collective_noun: "Джа'Ракмари"  #Машиночный перевод 28.10.23!
+ gh_kherkeloi_group: "Херкелойцы" 
+ gh_kherkeloi_group_collective_noun: "Херкелойск" 
+ erkalgani: "Эркалганийцы"  
+ erkalgani_collective_noun: "Эркалганийск"  
+ khodomi: "Ходомийцы"  
+ khodomi_collective_noun: "Ходомийск"  
+ zelkavani: "Зелкаванийцы"  
+ zelkavani_collective_noun: "Зелкаванийск" 
+ lattani: "Латтанийцы"  
+ lattani_collective_noun: "Латтанийск"  
+ astilik: "Астилики"  
+ astilik_collective_noun: "Астиликс"  
+ jarakmar: "Джа'Ракмар"  
+ jarakmar_collective_noun: "Джа'Ракмарск"  
   
   
   
   #Abadelos 
- gh_abadelos_group: "Абаделос"  #Машиночный перевод 28.10.23!
- gh_abadelos_group_collective_noun: "Абаделой"  #Машиночный перевод 28.10.23!
- gwenuyos: "Гвенуйос"  #Машиночный перевод 28.10.23!
- gwenuyos_collective_noun: "Гвенуйос"  #Машиночный перевод 28.10.23!
- beduleno: "Бедулено"  #Машиночный перевод 28.10.23!
- beduleno_collective_noun: "Бедуленой"  #Машиночный перевод 28.10.23!
- armanas: "Арманас"  #Машиночный перевод 28.10.23!
- armanas_collective_noun: "Арманай"  #Машиночный перевод 28.10.23!
+ gh_abadelos_group: "Абаделосцы" 
+ gh_abadelos_group_collective_noun: "Абаделоск"  
+ gwenuyos: "Гвенуйосцы" 
+ gwenuyos_collective_noun: "Гвенуйоск" 
+ beduleno: "Бедуленойцы"  
+ beduleno_collective_noun: "Бедуленойск" 
+ armanas: "Арманасы"  
+ armanas_collective_noun: "Арманаск"  
   
   
   
   #Anandrasi 
- gh_anandrasi_group: "Анандраси"  #Машиночный перевод 28.10.23!
- gh_anandrasi_group_collective_noun: "Анандраси"  #Машиночный перевод 28.10.23!
- diorenic: "Диореник"  #Машиночный перевод 28.10.23!
- diorenic_collective_noun: "Диореник"  #Машиночный перевод 28.10.23!
- lorodegi: "Лородеги"  #Машиночный перевод 28.10.23!
- lorodegi_collective_noun: "Лородеги"  #Машиночный перевод 28.10.23!
- anorlori: "Анорлори"  #Машиночный перевод 28.10.23!
- anorlori_collective_noun: "Анорлори"  #Машиночный перевод 28.10.23!
+ gh_anandrasi_group: "Анандрасийцы"  
+ gh_anandrasi_group_collective_noun: "Анандрасийск"
+ diorenic: "Диореники" 
+ diorenic_collective_noun: "Диореникск"
+ lorodegi: "Лородегийцы"  
+ lorodegi_collective_noun: "Лородегийск"  
+ anorlori: "Анорлорийцы"  
+ anorlori_collective_noun: "Анорлорийск"
   
   
   
   #Shamrania 
- gh_shamrania_group: "Шамрания"  #Машиночный перевод 28.10.23!
- gh_shamrania_group_collective_noun: "Шамрани"  #Машиночный перевод 28.10.23!
- walakon: "Валакон"  #Машиночный перевод 28.10.23!
- walakon_collective_noun: "Валакони"  #Машиночный перевод 28.10.23!
- raakiani: "Раакиани"  #Машиночный перевод 28.10.23!
- raakiani_collective_noun: "Раакиани"  #Машиночный перевод 28.10.23!
- makulawti: "Макулавти"  #Машиночный перевод 28.10.23!
- makulawti_collective_noun: "Макулавти"  #Машиночный перевод 28.10.23!
+ gh_shamrania_group: "Шамранианцы" 
+ gh_shamrania_group_collective_noun: "Шамранианск"  
+ walakon: "Валаконцы"  
+ walakon_collective_noun: "Валаконск" 
+ raakiani: "Раакианийцы"  
+ raakiani_collective_noun: "Раакианийск"  
+ makulawti: "Макулавтийцы"  
+ makulawti_collective_noun: "Макулавтийск"  
   
   
   
   #Afoseniai 
- gh_afoseniai_group: "Афосеняй"  #Машиночный перевод 28.10.23!
- gh_afoseniai_group_collective_noun: "Афосеняй"  #Машиночный перевод 28.10.23!
- lakaloi: "Лакалой"  #Машиночный перевод 28.10.23!
- lakaloi_collective_noun: "Лакалой"  #Машиночный перевод 28.10.23!
+ gh_afoseniai_group: "Афосеняйцы" 
+ gh_afoseniai_group_collective_noun: "Афосеняйск" 
+ lakaloi: "Лакалойцы" 
+ lakaloi_collective_noun: "Лакалойск" 
   
   
   
   #Daidenos 
- gh_daidenos_group: "Дайденос"  #Машиночный перевод 28.10.23!
- gh_daidenos_group_collective_noun: "Дайденоси"  #Машиночный перевод 28.10.23!
- aguadosian: "Агуадосян"  #Машиночный перевод 28.10.23!
- aguadosian_collective_noun: "Агуадосян"  #Машиночный перевод 28.10.23!
+ gh_daidenos_group: "Дайденосцы"  
+ gh_daidenos_group_collective_noun: "Дайденоск"
+ aguadosian: "Агуадосианцы"  
+ aguadosian_collective_noun: "Агуадосианск" 
   
   
   
   #Skoronyk 
- gh_skoronyk_group: "Скороник"  #Машиночный перевод 28.10.23!
- gh_skoronyk_group_collective_noun: "Скороны"  #Машиночный перевод 28.10.23!
- skoronyk: "Скороник"  #Машиночный перевод 28.10.23!
- skoronyk_collective_noun: "Скороны"  #Машиночный перевод 28.10.23!
+ gh_skoronyk_group: "Скороники"  
+ gh_skoronyk_group_collective_noun: "Скороникск" 
+ skoronyk: "Скороники" 
+ skoronyk_collective_noun: "Скороникск" 
   
   
   
   #Guillater 
- gh_guillater_group: "Гильятер"  #Машиночный перевод 28.10.23!
- gh_guillater_group_collective_noun: "Гильятерс"  #Машиночный перевод 28.10.23!
- guillater: "Гильятер"  #Машиночный перевод 28.10.23!
- guillater_collective_noun: "Гильятер"  #Машиночный перевод 28.10.23!
- guillater_aversarian: "Неофретитан"  #Машиночный перевод 28.10.23!
- guillater_aversarian_collective_noun: "Неофретиты"  #Машиночный перевод 28.10.23!
+ gh_guillater_group: "Гиллатерцы"  
+ gh_guillater_group_collective_noun: "Гиллатерск"  
+ guillater: "Гиллатерцы"  
+ guillater_collective_noun: "Гиллатерск" 
+ guillater_aversarian: "Неофретитанцы"  
+ guillater_aversarian_collective_noun: "Неофретитанск"  
   
   
   
   #Oghainos 
- gh_oghainos_group: "Огайнос"  #Машиночный перевод 28.10.23!
- gh_oghainos_group_collective_noun: "Огайнос"  #Машиночный перевод 28.10.23!
- vargenis: "Варгенис"  #Машиночный перевод 28.10.23!
- vargenis_collective_noun: "Варгени"  #Машиночный перевод 28.10.23!
+ gh_oghainos_group: "Огайносы"  
+ gh_oghainos_group_collective_noun: "Огайноск"
+ vargenis: "Варгенисы" 
+ vargenis_collective_noun: "Варгениск" 
   
   
   
   #Kelthiunai 
- gh_kelthiunai_group: "Келтиунай"  #Машиночный перевод 28.10.23!
- gh_kelthiunai_group_collective_noun: "Келтиунай"  #Машиночный перевод 28.10.23!
- dasulanoi: "Дасуланой"  #Машиночный перевод 28.10.23!
- dasulanoi_collective_noun: "Дасуланой"  #Машиночный перевод 28.10.23!
- theygundarope: "Теугундароп"  #Машиночный перевод 28.10.23!
- theygundarope_collective_noun: "Теугундаропи"  #Машиночный перевод 28.10.23!
- theygundarope_aversarian: "Тейиклавой"  #Машиночный перевод 28.10.23!
- theygundarope_aversarian_collective_noun: "Тейиклавос"  #Машиночный перевод 28.10.23!
+ gh_kelthiunai_group: "Келтиунайцы"  
+ gh_kelthiunai_group_collective_noun: "Келтиунайск"
+ dasulanoi: "Дасуланойцы"
+ dasulanoi_collective_noun: "Дасуланойск" 
+ theygundarope: "Тейгундаропцы" 
+ theygundarope_collective_noun: "Тейгундаропск" 
+ theygundarope_aversarian: "Тейсклавойцы" 
+ theygundarope_aversarian_collective_noun: "Тейсклавоск"
   
   
   
   #Agadari 
- gh_agadari_group: "Агадари"  #Машиночный перевод 28.10.23!
- gh_agadari_group_collective_noun: "Агадари"  #Машиночный перевод 28.10.23!
- yaarnami: "Яарнами"  #Машиночный перевод 28.10.23!
- yaarnami_collective_noun: "Яарнами"  #Машиночный перевод 28.10.23!
- gh_tlakalak_group: "Тлакалак"  #Машиночный перевод 28.10.23!
- gh_tlakalak_group_collective_noun: "Тлакалак"  #Машиночный перевод 28.10.23!
- tlakalak: "Тлакалак"  #Машиночный перевод 28.10.23!
- tlakalak_collective_noun: "Тлакалак"  #Машиночный перевод 28.10.23!
- surugin: "Suru'gin"  #Машиночный перевод 28.10.23!
- surugin_collective_noun: "Suru'gin"  #Машиночный перевод 28.10.23!
+ gh_agadari_group: "Агадарийцы" 
+ gh_agadari_group_collective_noun: "Агадарийск" 
+ yaarnami: "Яарнамийцы"
+ yaarnami_collective_noun: "Яарнамийск"
+ gh_tlakalak_group: "Тлакалакцы"
+ gh_tlakalak_group_collective_noun: "Тлакалакск"
+ tlakalak: "Тлакалакцы" 
+ tlakalak_collective_noun: "Тлакалакск" 
+ surugin: "Суру'гинцы" 
+ surugin_collective_noun: "Суру'гинск" 
   
   
   
   #Daravani 
- gh_daravani_group: "Даравани"  #Машиночный перевод 28.10.23!
- gh_daravani_group_collective_noun: "Даравани"  #Машиночный перевод 28.10.23!
- ualeren: "Уалерен"  #Машиночный перевод 28.10.23!
- ualeren_collective_noun: "Уалерен"  #Машиночный перевод 28.10.23!
- maebalah: "Маебала"  #Машиночный перевод 28.10.23!
- maebalah_collective_noun: "Маебалахи"  #Машиночный перевод 28.10.23!
+ gh_daravani_group: "Дараванийцы"
+ gh_daravani_group_collective_noun: "Дараванийск"
+ ualeren: "Уалерены"
+ ualeren_collective_noun: "Уалеренск"
+ maebalah: "Маэбалахцы" 
+ maebalah_collective_noun: "Мэебалахск"
   
   
   
   #Balarid 
- daronid: "Даронид"  #Машиночный перевод 28.10.23!
- daronid_collective_noun: "Дарониды"  #Машиночный перевод 28.10.23!
- daronid_prefix: "даронидец"  #Машиночный перевод 28.10.23!
+ daronid: "Дарониды"
+ daronid_collective_noun: "Даронидск"
+ daronid_prefix: "Даронидо"
   
   
   
   #Iyrossi 
- gh_iyrossi_group: "Ийросси"  #Машиночный перевод 28.10.23!
- gh_iyrossi_group_collective_noun: "Ийросси"  #Машиночный перевод 28.10.23!
- cerussiai: "Черусяй"  #Машиночный перевод 28.10.23!
- cerussiai_collective_noun: "Черусяй"  #Машиночный перевод 28.10.23!
- deresstae: "Дересстаэ"  #Машиночный перевод 28.10.23!
- deresstae_collective_noun: "Дересстаэ"  #Машиночный перевод 28.10.23!
- jassi: "Ясси"  #Машиночный перевод 28.10.23!
- jassi_collective_noun: "Ясси"  #Машиночный перевод 28.10.23!
- kinambrosti: "Кинамбрости"  #Машиночный перевод 28.10.23!
- kinambrosti_collective_noun: "Кинамбрости"  #Машиночный перевод 28.10.23!
- iyronisti: "Ииронисти"  #Машиночный перевод 28.10.23!
- iyronisti_collective_noun: "Ииронисти"  #Машиночный перевод 28.10.23!
- oxalanti: "Оксаланти"  #Машиночный перевод 28.10.23!
- oxalanti_collective_noun: "Оксаланти"  #Машиночный перевод 28.10.23!
- scusstari: "Скусстари"  #Машиночный перевод 28.10.23!
- scusstari_collective_noun: "Скусстари"  #Машиночный перевод 28.10.23!
+ gh_iyrossi_group: "Ироссийцы"
+ gh_iyrossi_group_collective_noun: "Ироссийск"
+ cerussiai: "Церуссайцы"  
+ cerussiai_collective_noun: "Церуссайск"  
+ deresstae: "Дерестаенцы"  
+ deresstae_collective_noun: "Дерестаенск"  
+ jassi: "Джассийцы"  
+ jassi_collective_noun: "Джассийск"  
+ kinambrosti: "Кинамбростийцы"  !
+ kinambrosti_collective_noun: "Кинамбростийск"  
+ iyronisti: "Иронистинцы" 
+ iyronisti_collective_noun: "Иронистинск" 
+ oxalanti: "Оксалантийцы" 
+ oxalanti_collective_noun: "Оксалантийск"
+ scusstari: "Скустаринцы"
+ scusstari_collective_noun: "Скустаринск"
   
   
   
   #Kikarsag 
- gh_kikarsag_group: "Кикарсаг"  #Машиночный перевод 28.10.23!
- gh_kikarsag_group_collective_noun: "Кикарсага"  #Машиночный перевод 28.10.23!
- kunsag: "Кунсаг"  #Машиночный перевод 28.10.23!
- kunsag_collective_noun: "Кунсаги"  #Машиночный перевод 28.10.23!
- csorsca: "Чорска"  #Машиночный перевод 28.10.23!
- csorsca_collective_noun: "Цорскан"  #Машиночный перевод 28.10.23!
- sycharcegs: "Сихарцеги"  #Машиночный перевод 28.10.23!
- sycharcegs_collective_noun: "Сихарцеги"  #Машиночный перевод 28.10.23!
- atrakar: "Атракар"  #Машиночный перевод 28.10.23!
- atrakar_collective_noun: "Атракари"  #Машиночный перевод 28.10.23!
+ gh_kikarsag_group: "Кикарсаги"
+ gh_kikarsag_group_collective_noun: "Кикарсагск"
+ kunsag: "Кунсаги"  
+ kunsag_collective_noun: "Кунсагск" 
+ csorsca: "Чоршане"  
+ csorsca_collective_noun: "Чоршанск"  
+ sycharcegs: "Сихарцеги"  !
+ sycharcegs_collective_noun: "Сихарцегск"  
+ atrakar: "Атракарцы" 
+ atrakar_collective_noun: "Атракарск" 
   
   
   
   #Zarasadari 
- gh_zarasadari_group: "Зарасадари"  #Машиночный перевод 28.10.23!
- gh_zarasadari_group_collective_noun: "Зарасадари"  #Машиночный перевод 28.10.23!
- amsari: "Амсари"  #Машиночный перевод 28.10.23!
- amsari_collective_noun: "Амсари"  #Машиночный перевод 28.10.23!
- sarthian: "Сартианец"  #Машиночный перевод 28.10.23!
- sarthian_collective_noun: "сартиане"  #Машиночный перевод 28.10.23!
- hixartii: "Хиксартии"  #Машиночный перевод 28.10.23!
- hixartii_collective_noun: "Хиксартии"  #Машиночный перевод 28.10.23!
- siralagi: "Сиралаги"  #Машиночный перевод 28.10.23!
- siralagi_collective_noun: "Сиралаги"  #Машиночный перевод 28.10.23!
- hamaxindi: "Хамаксинди"  #Машиночный перевод 28.10.23!
- hamaxindi_collective_noun: "Хамаксинди"  #Машиночный перевод 28.10.23!
- thyssae: "Тиссе"  #Машиночный перевод 28.10.23!
- thyssae_collective_noun: "Тиссен"  #Машиночный перевод 28.10.23!
+ gh_zarasadari_group: "Зарасадаринцы" 
+ gh_zarasadari_group_collective_noun: "Зарасадаринск"
+ amsari: "Амсарийцы" 
+ amsari_collective_noun: "Амсарийск"
+ sarthian: "Сартиане"
+ sarthian_collective_noun: "Сартианск" 
+ hixartii: "Хиксартинцы"  
+ hixartii_collective_noun: "Хиксартинск" 
+ siralagi: "Сиралагинцы" 
+ siralagi_collective_noun: "Сиралагинск" 
+ hamaxindi: "Хамаксиндинцы"  
+ hamaxindi_collective_noun: "Хамаксиндинск" 
+ thyssae: "Тиссэнцы"  
+ thyssae_collective_noun: "Тиссэнск"  
   
   
   
   #Kemsari 
- gh_kemsar_group: "Кемсари"  #Машиночный перевод 28.10.23!
- gh_kemsar_group_collective_noun: "Кемсари"  #Машиночный перевод 28.10.23!
- ran_kemsari: "Ран Кемсари"  #Машиночный перевод 28.10.23!
- ran_kemsari_collective_noun: "Ран Кемсари"  #Машиночный перевод 28.10.23!
- alewui_kemsari: "Алевуи Кемсари"  #Машиночный перевод 28.10.23!
- alewui_kemsari_collective_noun: "Алевуи Кемсари"  #Машиночный перевод 28.10.23!
- almajun_kemsari: "Алмаджун Кемсари"  #Машиночный перевод 28.10.23!
- almajun_kemsari_collective_noun: "Алмаджун Кемсари"  #Машиночный перевод 28.10.23!
- aljibal_kemsari: "Альджибал Кемсари"  #Машиночный перевод 28.10.23!
- aljibal_kemsari_collective_noun: "Альджибал Кемсари"  #Машиночный перевод 28.10.23!
+ gh_kemsar_group: "Кемсарцы"
+ gh_kemsar_group_collective_noun: "Кемсарск"
+ ran_kemsari: "Ран Кемсарцы"  
+ ran_kemsari_collective_noun: "Ран Кемсарск"  
+ alewui_kemsari: "Алевуй Кемсарцы" 
+ alewui_kemsari_collective_noun: "Алевуй Кемсарск"
+ almajun_kemsari: "Алмаджун Кемсарцы"  
+ almajun_kemsari_collective_noun: "Алмаджун Кемсарск" 
+ aljibal_kemsari: "Алжибал Кемсарцы" 
+ aljibal_kemsari_collective_noun: "Алжибал Кемсарск" 
   
   
   
   #Canian 
- gh_canian_group: "Канианский"  #Машиночный перевод 28.10.23!
- gh_canian_group_collective_noun: "Канианский"  #Машиночный перевод 28.10.23!
- leviden: "Левиден"  #Машиночный перевод 28.10.23!
- leviden_collective_noun: "Левиден"  #Машиночный перевод 28.10.23!
- ashital: "Ашитал"  #Машиночный перевод 28.10.23!
- ashital_collective_noun: "Ашитал"  #Машиночный перевод 28.10.23!
- simevian: "Симевиан"  #Машиночный перевод 28.10.23!
- simevian_collective_noun: "Симевиан"  #Машиночный перевод 28.10.23!
+ gh_canian_group: "Канианцы" 
+ gh_canian_group_collective_noun: "Канианск" 
+ leviden: "Левиденцы"  
+ leviden_collective_noun: "Левиденск"  
+ ashital: "Ашитальцы"  
+ ashital_collective_noun: "Ашитальск"  
+ simevian: "Симевианцы"  
+ simevian_collective_noun: "Симевианск" 
   
   
   
   #Saradari 
- gh_saradari_group: "Сарадари"  #Машиночный перевод 28.10.23!
- gh_saradari_group_collective_noun: "Сарадари"  #Машиночный перевод 28.10.23!
- auzangeb: "Аузангеб"  #Машиночный перевод 28.10.23!
- auzangeb_collective_noun: "Аузангеби"  #Машиночный перевод 28.10.23!
- mirzana_jahar: "Мирзана Джахар"  #Машиночный перевод 28.10.23!
- mirzana_jahar_collective_noun: "Мирзана Джахари"  #Машиночный перевод 28.10.23!
- babura: "Бабура"  #Машиночный перевод 28.10.23!
- babura_collective_noun: "Бабуран"  #Машиночный перевод 28.10.23!
- jangkar: "Джангкар"  #Машиночный перевод 28.10.23!
- jangkar_collective_noun: "Джангкари"  #Машиночный перевод 28.10.23!
+ gh_saradari_group: "Сарадаринцы" 
+ gh_saradari_group_collective_noun: "Сарадаринск" 
+ auzangeb: "Аузангебы" 
+ auzangeb_collective_noun: "Аузангебск"
+ mirzana_jahar: "Мирзана Джахарцы" 
+ mirzana_jahar_collective_noun: "Мирзана Джахарск" 
+ babura: "Бабуранцы"  
+ babura_collective_noun: "Бабуранск"
+ jangkar: "Джангкарцы"  
+ jangkar_collective_noun: "Джангкарск"  
   
   
   
   #Saraddonian 
- gh_saraddonian_group: "Сараддонский"  #Машиночный перевод 28.10.23!
- gh_saraddonian_group_collective_noun: "Сараддонский"  #Машиночный перевод 28.10.23!
- adnanari: "Аднанари"  #Машиночный перевод 28.10.23!
- adnanari_collective_noun: "Аднанари"  #Машиночный перевод 28.10.23!
- tasurmad: "Тасурмад"  #Машиночный перевод 28.10.23!
- tasurmad_collective_noun: "Тасурмади"  #Машиночный перевод 28.10.23!
- barzawa: "Барзава"  #Машиночный перевод 28.10.23!
- barzawa_collective_noun: "Барзава"  #Машиночный перевод 28.10.23!
- qahsarides: "Кахсаридес"  #Машиночный перевод 28.10.23!
- qahsarides_collective_noun: "Кахсаридес"  #Машиночный перевод 28.10.23!
- khansaides: "Хансаидес"  #Машиночный перевод 28.10.23!
- khansaides_collective_noun: "Хансаидес"  #Машиночный перевод 28.10.23!
+ gh_saraddonian_group: "Сараддонцы"  
+ gh_saraddonian_group_collective_noun: "Сараддонск" 
+ adnanari: "Аднанаринцы"  
+ adnanari_collective_noun: "Аднанаринск" 
+ tasurmad: "Тасурмады"  
+ tasurmad_collective_noun: "Тасурмадск"
+ barzawa: "Барзаванцы"  
+ barzawa_collective_noun: "Барзаванск" 
+ qahsarides: "Кахсаридцы" 
+ qahsarides_collective_noun: "Кахсаридск"
+ khansaides: "Хансаидцы"  
+ khansaides_collective_noun: "Хансаидск"  
   
   
   
   #Marmalaid 
- gh_marmaladid_group: "Мармаладид"  #Машиночный перевод 28.10.23!
- gh_marmaladid_group_collective_noun: "Мармаладид"  #Машиночный перевод 28.10.23!
- utyalid: "Утьалид"  #Машиночный перевод 28.10.23!
- utyalid_collective_noun: "Утьалид"  #Машиночный перевод 28.10.23!
- dawasid: "Давасид"  #Машиночный перевод 28.10.23!
- dawasid_collective_noun: "Давасид"  #Машиночный перевод 28.10.23!
- mutsartan: "Муцартан"  #Машиночный перевод 28.10.23!
- mutsartan_collective_noun: "Муцартан"  #Машиночный перевод 28.10.23!
+ gh_marmaladid_group: "Мармаладиды"  
+ gh_marmaladid_group_collective_noun: "Мармаладидск"
+ utyalid: "Утялиды"  
+ utyalid_collective_noun: "Утялидск" 
+ dawasid: "Давасиды" 
+ dawasid_collective_noun: "Давасидск"  
+ mutsartan: "Муцартанцы" 
+ mutsartan_collective_noun: "Муцартанск"
   
   
   
   #Hadiyan 
- gh_hadiyan_group: "Хадиян"  #Машиночный перевод 28.10.23!
- gh_hadiyan_group_collective_noun: "Хадиян"  #Машиночный перевод 28.10.23!
- adabyann: "Адабьянн"  #Машиночный перевод 28.10.23!
- adabyann_collective_noun: "Адабьянн"  #Машиночный перевод 28.10.23!
+ gh_hadiyan_group: "Хадиянцы"  
+ gh_hadiyan_group_collective_noun: "Хадиянск"  
+ adabyann: "Адабьяннцы"  
+ adabyann_collective_noun: "Адабьяннск" 
   
   
   
   #Vhanavids 
- gh_vhanavids_group: "Ванавид"  #Машиночный перевод 28.10.23!
- gh_vhanavids_group_collective_noun: "Ванавиды"  #Машиночный перевод 28.10.23!
- jaravad: "Джаравад"  #Машиночный перевод 28.10.23!
- jaravad_collective_noun: "Джаравады"  #Машиночный перевод 28.10.23!
- khorinot: "Хоринот"  #Машиночный перевод 28.10.23!
- khorinot_collective_noun: "Хориноц"  #Машиночный перевод 28.10.23!
- murarut: "Мур'арут"  #Машиночный перевод 28.10.23!
- murarut_collective_noun: "Мур'аръуц"  #Машиночный перевод 28.10.23!
- musar: "Мусар"  #Машиночный перевод 28.10.23!
- musar_collective_noun: "Мусари"  #Машиночный перевод 28.10.23!
- muhadamd: "Мухадамд"  #Машиночный перевод 28.10.23!
- muhadamd_collective_noun: "Мухадамд"  #Машиночный перевод 28.10.23!
- kuridorig: "Куридориг"  #Машиночный перевод 28.10.23!
- kuridorig_collective_noun: "Куридориг"  #Машиночный перевод 28.10.23!
+ gh_vhanavids_group: "Вханавиды" 
+ gh_vhanavids_group_collective_noun: "Вханавидск"  
+ jaravad: "Джаравады"  
+ jaravad_collective_noun: "Джаравадск"  
+ khorinot: "Хориноты"  
+ khorinot_collective_noun: "Хоринотск" 
+ murarut: "Мур'аруты"  
+ murarut_collective_noun: "Мур'арутск"  
+ musar: "Мусарцы"  
+ musar_collective_noun: "Мусарск" 
+ muhadamd: "Мухадамды"  
+ muhadamd_collective_noun: "Мухадамдск"  
+ kuridorig: "Куридориги"  
+ kuridorig_collective_noun: "Куридоригск"  
   
   
   
   #Partic 
- gh_partic_group: "Партик"  #Машиночный перевод 28.10.23!
- gh_partic_group_collective_noun: "Партик"  #Машиночный перевод 28.10.23!
- auteonic: "Автоонический"  #Машиночный перевод 28.10.23!
- auteonic_collective_noun: "Автоонический"  #Машиночный перевод 28.10.23!
- brigandines: "Бригандина"  #Машиночный перевод 28.10.23!
- brigandines_collective_noun: "Бригандины"  #Машиночный перевод 28.10.23!
- cautocoi: "Каутокой"  #Машиночный перевод 28.10.23!
- cautocoi_collective_noun: "Каутокой"  #Машиночный перевод 28.10.23!
- darinic: "Даринич"  #Машиночный перевод 28.10.23!
- darinic_collective_noun: "Дариники"  #Машиночный перевод 28.10.23!
- ivernic: "Иверник"  #Машиночный перевод 28.10.23!
- ivernic_collective_noun: "Иверник"  #Машиночный перевод 28.10.23!
- mascatic: "Маскатик"  #Машиночный перевод 28.10.23!
- mascatic_collective_noun: "Маскатизаторы"  #Машиночный перевод 28.10.23!
- nagandines: "Нагандин"  #Машиночный перевод 28.10.23!
- nagandines_collective_noun: "Нагандины"  #Машиночный перевод 28.10.23!
- velabronic: "Велаброник"  #Машиночный перевод 28.10.23!
- velabronic_collective_noun: "Велаброник"  #Машиночный перевод 28.10.23!
- voluntic: "добровольный"  #Машиночный перевод 28.10.23!
- voluntic_collective_noun: "добровольный"  #Машиночный перевод 28.10.23!
+ gh_partic_group: "Партики"  
+ gh_partic_group_collective_noun: "Партикск"
+ auteonic: "Аутеонцы"  
+ auteonic_collective_noun: "Аутеноск" 
+ brigandines: "Бригандинанцы"  
+ brigandines_collective_noun: "Бригандинанск"
+ cautocoi: "Каутокойцы"  
+ cautocoi_collective_noun: "Каутокойск"  
+ darinic: "Дариники"  
+ darinic_collective_noun: "Дариникск" 
+ ivernic: "Иверники"  
+ ivernic_collective_noun: "Иверникск" 
+ mascatic: "Маскатики" 
+ mascatic_collective_noun: "Маскатикск"  
+ nagandines: "Нагандинцы"  
+ nagandines_collective_noun: "Нагандинск"  
+ velabronic: "Велаброникийцы"  
+ velabronic_collective_noun: "Велаброникийск" 
+ voluntic: "Волунтикийцы"  
+ voluntic_collective_noun: "Волунтикийск" 
   
   
   
   #Fog Eaters 
- gh_fog_eaters_group: "Пожиратель тумана"  #Машиночный перевод 28.10.23!
- gh_fog_eaters_group_collective_noun: "Пожиратели тумана"  #Машиночный перевод 28.10.23!
- fog_eaters: "Пожиратель тумана"  #Машиночный перевод 28.10.23!
- fog_eaters_collective_noun: "Пожиратели тумана"  #Машиночный перевод 28.10.23!
+ gh_fog_eaters_group: "Пожиратели тумана"  
+ gh_fog_eaters_group_collective_noun: "Туманнск"  
+ fog_eaters: "Пожиратели тумана"  
+ fog_eaters_collective_noun: "Туманнск"  
   
   
   
   #Samojitian 
- gh_samojitian_group: "Samojitian"  #Машиночный перевод 28.10.23!
- gh_samojitian_group_collective_noun: "Samojitian"  #Машиночный перевод 28.10.23!
- samojitian: "Samojitian"  #Машиночный перевод 28.10.23!
- samojitian_collective_noun: "Samojitian"  #Машиночный перевод 28.10.23!
- ukininkas: "Укининкас"  #Машиночный перевод 28.10.23!
- ukininkas_collective_noun: "Укининкас"  #Машиночный перевод 28.10.23!
- meistras: "Мейстрас"  #Машиночный перевод 28.10.23!
- meistras_collective_noun: "Мейстрас"  #Машиночный перевод 28.10.23!
- mineris: "Минерис"  #Машиночный перевод 28.10.23!
- mineris_collective_noun: "Минерис"  #Машиночный перевод 28.10.23!
- skausmas: "Скаусмас"  #Машиночный перевод 28.10.23!
- skausmas_collective_noun: "Скаусмас"  #Машиночный перевод 28.10.23!
+ gh_samojitian_group: "Самоджитянцы" 
+ gh_samojitian_group_collective_noun: "Самоджитянск"  
+ samojitian: "Самоджитянцы"  
+ samojitian_collective_noun: "Самоджитянск" 
+ ukininkas: "Укининкасцы" 
+ ukininkas_collective_noun: "Укининкаск"
+ meistras: "Мейстрасцы"  
+ meistras_collective_noun: "Мейстраск" 
+ mineris: "Минерисы"  
+ mineris_collective_noun: "Минериск" 
+ skausmas: "Скаусмасы"  
+ skausmas_collective_noun: "Скаусмаск"  
   
   
   
   #Damotan group 
- gh_damotan_group: "Дамотан"  #Машиночный перевод 28.10.23!
- gh_damotan_group_collective_noun: "Дамотаны"  #Машиночный перевод 28.10.23!
- kawoch: "Кавоч"  #Машиночный перевод 28.10.23!
- kawoch_collective_noun: "Кавоч"  #Машиночный перевод 28.10.23!
- doffore: "Доффоре"  #Машиночный перевод 28.10.23!
- doffore_collective_noun: "Доффоре"  #Машиночный перевод 28.10.23!
- fedagesh: "Федагеш"  #Машиночный перевод 28.10.23!
- fedagesh_collective_noun: "Федагеш"  #Машиночный перевод 28.10.23!
- kutma: "Кутма"  #Машиночный перевод 28.10.23!
- kutma_collective_noun: "Кутма"  #Машиночный перевод 28.10.23!
+ gh_damotan_group: "Дамотанцы"  
+ gh_damotan_group_collective_noun: "Дамотанск"  
+ kawoch: "Кавочанцы"  
+ kawoch_collective_noun: "Кавочанск" 
+ doffore: "Доффоренцы" 
+ doffore_collective_noun: "Доффоренск" 
+ fedagesh: "Федагешы"  
+ fedagesh_collective_noun: "Федагешск" 
+ kutma: "Кутманы"  
+ kutma_collective_noun: "Кутманск" 
   
   
   
  #Gallieni Group 
- gh_gallieni_group: "Галлиени"  #Машиночный перевод 28.10.23!
- gh_gallieni_group_collective_noun: "Галлиени"  #Машиночный перевод 28.10.23!
- gallicads: "Галликад"  #Машиночный перевод 28.10.23!
- gallicads_collective_noun: "Галликад"  #Машиночный перевод 28.10.23!
+ gh_gallieni_group: "Гальенцы" 
+ gh_gallieni_group_collective_noun: "Гальенск"  
+ gallicads: "Галликады"  
+ gallicads_collective_noun: "Галликадск"  
   
   
   
   #Kardwen Group 
- gh_kardwens_group: "Кардвен"  #Машиночный перевод 28.10.23!
- gh_kardwens_group_collective_noun: "Кардвен"  #Машиночный перевод 28.10.23!
- kardwens: "Кардвен"  #Машиночный перевод 28.10.23!
- kardwens_collective_noun: "Кардвен"  #Машиночный перевод 28.10.23!
+ gh_kardwens_group: "Кэрдвенцы"  
+ gh_kardwens_group_collective_noun: "Кэрдвенск"  
+ kardwens: "Кэрдвенцы"  
+ kardwens_collective_noun: "Кэрдвенск" 
   
   
   
   #sarminians group 
- gh_sarminian_group: "Сарминский"  #Машиночный перевод 28.10.23!
- gh_sarminian_group_collective_noun: "Сарминский"  #Машиночный перевод 28.10.23!
- sarminians: "Сарминский"  #Машиночный перевод 28.10.23!
- sarminians_collective_noun: "Сарминский"  #Машиночный перевод 28.10.23!
+ gh_sarminian_group: "Сарридинцы"  
+ gh_sarminian_group_collective_noun: "Сарридинск"  
+ sarminians: "Сарридинцы"  
+ sarminians_collective_noun: "Сарридинск"
   
   
   
   #mondecny group 
- gh_mondecny_group: "Мондекни"  #Машиночный перевод 28.10.23!
- gh_mondecny_group_collective_noun: "Мондеррн"  #Машиночный перевод 28.10.23!
- mondecny_prefix: "Мондка"  #Машиночный перевод 28.10.23!
- mondecny: "Мондекни"  #Машиночный перевод 28.10.23!
- mondecny_collective_noun: "Мондеррн"  #Машиночный перевод 28.10.23!
+ gh_mondecny_group: "Мондекнийцы"
+ gh_mondecny_group_collective_noun: "Мондекнинск"
+ mondecny_prefix: "Мондекно" 
+ mondecny: "Мондекнийцы"  
+ mondecny_collective_noun: "Мондекнинск"  
   
   
   
   #huegodocs group 
- gh_huegodocs_group: "Уэгодок"  #Машиночный перевод 28.10.23!
- gh_huegodocs_group_collective_noun: "Уэгодок"  #Машиночный перевод 28.10.23!
- huegodocs: "Уэгодок"  #Машиночный перевод 28.10.23!
- huegodocs_collective_noun: "Уэгодок"  #Машиночный перевод 28.10.23!
+ gh_huegodocs_group: "Хуэгодокцы"  
+ gh_huegodocs_group_collective_noun: "Хуэгодокск"  
+ huegodocs: "Хуэгодокцы"  
+ huegodocs_collective_noun: "Хуэгодокск"  
   
   
   
   #karzarads group 
- gh_karzarads_group: "Карзарад"  #Машиночный перевод 28.10.23!
- gh_karzarads_group_collective_noun: "Карзарад"  #Машиночный перевод 28.10.23!
- karzarads: "Карзарад"  #Машиночный перевод 28.10.23!
- karzarads_collective_noun: "Карзарад"  #Машиночный перевод 28.10.23!
+ gh_karzarads_group: "Карзарады"  
+ gh_karzarads_group_collective_noun: "Карзарадск"  
+ karzarads: "Карзарады"  
+ karzarads_collective_noun: "Карзарадск" 
   
   
   
   #goans group 
- gh_goans_group: "Гоан"  #Машиночный перевод 28.10.23!
- gh_goans_group_collective_noun: "Гоан"  #Машиночный перевод 28.10.23!
- goans: "Гоан"  #Машиночный перевод 28.10.23!
- goans_collective_noun: "Гоан"  #Машиночный перевод 28.10.23!
+ gh_goans_group: "Гоанцы"  
+ gh_goans_group_collective_noun: "Гоанск"  
+ goans: "Гоанцы"  
+ goans_collective_noun: "Гоанск"  
   
   
   
   #kathunian group 
- kathunian: "Катуниан"  #Машиночный перевод 28.10.23!
- kathunian_collective_noun: "Катуниан"  #Машиночный перевод 28.10.23!
- gh_kathunian_group: "Катуниан"  #Машиночный перевод 28.10.23!
- gh_kathunian_group_collective_noun: "Катуниан"  #Машиночный перевод 28.10.23!
- kathunians: "Катуниан"  #Машиночный перевод 28.10.23!
- kathunians_collective_noun: "Катуниан"  #Машиночный перевод 28.10.23!
+ kathunian: "Катунианцы"  
+ kathunian_collective_noun: "Катунианск"  
+ gh_kathunian_group: "Катунианцы"  
+ gh_kathunian_group_collective_noun: "Катунианск"  
+ kathunians: "Катунианцы" 
+ kathunians_collective_noun: "Катунианск"  
   
   
   
   #redlander group 
- redlander: "Редлендер"  #Машиночный перевод 28.10.23!
- redlander_collective_noun: "Редлендеры"  #Машиночный перевод 28.10.23!
+ redlander: "Редлендерцы" 
+ redlander_collective_noun: "Редлендерск"  
   
   
   
@@ -606,522 +606,522 @@
   
   
   #Kharadamatian group 
- gh_kharadamatian_group: "Харадаматян"  #Машиночный перевод 28.10.23!
- gh_kharadamatian_group_collective_noun: "Харадаматян"  #Машиночный перевод 28.10.23!
- jaduyada: "Джадуяда"  #Машиночный перевод 28.10.23!
- jaduyada_collective_noun: "Джадуядан"  #Машиночный перевод 28.10.23!
- hudi: "Худи"  #Машиночный перевод 28.10.23!
- hudi_collective_noun: "Худи"  #Машиночный перевод 28.10.23!
+ gh_kharadamatian_group: "Харадаматянцы"  
+ gh_kharadamatian_group_collective_noun: "Харадаматянск"  
+ jaduyada: "Джадуяданцы"  
+ jaduyada_collective_noun: "Джадуяданск" 
+ hudi: "Худинцы"  
+ hudi_collective_noun: "Худинск"  
   
   
   
   #Dawic group 
- gh_dawic_group: "Давич"  #Машиночный перевод 28.10.23!
- gh_dawic_group_collective_noun: "Давич"  #Машиночный перевод 28.10.23!
- amuaad: "Амуаад"  #Машиночный перевод 28.10.23!
- amuaad_collective_noun: "Амуаади"  #Машиночный перевод 28.10.23!
- gh_kosharan_group: "Кошаран"  #Машиночный перевод 28.10.23!
- gh_dezhun_group: "Dezhun"  #Машиночный перевод 28.10.23!
- gh_dezhun_group_collective_noun: "Dezhun"  #Машиночный перевод 28.10.23!
- mazunic: "Мазуник"  #Машиночный перевод 28.10.23!
- mazunic_collective_noun: "Мазуник"  #Машиночный перевод 28.10.23!
- qushyed: "Кушед"  #Машиночный перевод 28.10.23!
- qushyed_collective_noun: "Кушед"  #Машиночный перевод 28.10.23!
+ gh_dawic_group: "Давикийцы"  
+ gh_dawic_group_collective_noun: "Давикийск"  
+ amuaad: "Амуаады"  
+ amuaad_collective_noun: "Амуаадск"  
+ gh_kosharan_group: "Кошаранцы" 
+ gh_dezhun_group: "Дежунцы"  
+ gh_dezhun_group_collective_noun: "Дежунск"  
+ mazunic: "Мазуникийцы"  
+ mazunic_collective_noun: "Мазуникийск"  
+ qushyed: "Кушеды"  
+ qushyed_collective_noun: "Кушедск"  
   
   
   
  #Aekershaan Group 
- gh_aekershaan_group: "Аекершаан"  #Машиночный перевод 28.10.23!
- gh_aekershaan_group_collective_noun: "Аекершаани"  #Машиночный перевод 28.10.23!
- tagrodar: "Тагродар"  #Машиночный перевод 28.10.23!
- tagrodar_collective_noun: "Тагродар"  #Машиночный перевод 28.10.23!
- aaoyuotaa: "Ааоюот'аа"  #Машиночный перевод 28.10.23!
- aaoyuotaa_collective_noun: "Ааоюот'аа"  #Машиночный перевод 28.10.23!
- aiyqarbkhiyl: "Айкар-Бхиил"  #Машиночный перевод 28.10.23!
- aiyqarbkhiyl_collective_noun: "Айкар-Бхиил"  #Машиночный перевод 28.10.23!
+ gh_aekershaan_group: "Аэкершаанцы"
+ gh_aekershaan_group_collective_noun: "Аэкершаанск"  
+ tagrodar: "Тагродарцы"  
+ tagrodar_collective_noun: "Тагродарск" 
+ aaoyuotaa: "Ааоют'аанцы"  
+ aaoyuotaa_collective_noun: "Ааоют'аанцск"  
+ aiyqarbkhiyl: "Айкар-Бхиильцы"  
+ aiyqarbkhiyl_collective_noun: "Айкар-Бхиильск" 
   
   
   
   #Amaghean group 
- amaghean: "Амагейский"  #Машиночный перевод 28.10.23!
- amaghean_collective_noun: "Амагейцы"  #Машиночный перевод 28.10.23!
- gh_amaghean_group: "Амагейский"  #Машиночный перевод 28.10.23!
- gh_amaghean_group_collective_noun: "Амагейский"  #Машиночный перевод 28.10.23!
+ amaghean: "Амагейцы"  
+ amaghean_collective_noun: "Амагейск"  
+ gh_amaghean_group: "Амагейцы"  
+ gh_amaghean_group_collective_noun: "Амагейск"  
   
   
   
- #amaghean_collective_noun: "Амагейский"  #Машиночный перевод 28.10.23!
+ #amaghean_collective_noun: "Амагейск"
   
   
   
   #Madikirib group 
- gh_madikirib_group: "Мадикриб"  #Машиночный перевод 28.10.23!
- madikirib: "Мадикириб"  #Машиночный перевод 28.10.23!
- madikirib_collective_noun: "Мадикириб"  #Машиночный перевод 28.10.23!
- madugi: "Мадуги"  #Машиночный перевод 28.10.23!
- madugi_collective_noun: "Мадуги"  #Машиночный перевод 28.10.23!
+ gh_madikirib_group: "Мадикирибы"  
+ madikirib: "Мадикирибы"  
+ madikirib_collective_noun: "Мадикирибск"  
+ madugi: "Мадугинцы"  
+ madugi_collective_noun: "Мадугинск"  
   
   
   
   #Kevaali group 
- gh_kevaali_group: "Кеваали"  #Машиночный перевод 28.10.23!
- gh_kevaali_group_collective_noun: "Кеваали"  #Машиночный перевод 28.10.23!
- prakaani: "Пракаани"  #Машиночный перевод 28.10.23!
- prakaani_collective_noun: "Пракаани"  #Машиночный перевод 28.10.23!
- deraani: "Дераани"  #Машиночный перевод 28.10.23!
- deraani_collective_noun: "Дераани"  #Машиночный перевод 28.10.23!
- samayani: "Самайани"  #Машиночный перевод 28.10.23!
- samayani_collective_noun: "Самайани"  #Машиночный перевод 28.10.23!
+ gh_kevaali_group: "Кеваалинцы"  
+ gh_kevaali_group_collective_noun: "Кеваалинск"  
+ prakaani: "Пракаанийцы"  
+ prakaani_collective_noun: "Пракаанийск"  
+ deraani: "Дераанийцы"  
+ deraani_collective_noun: "Дераанийск"  
+ samayani: "Самайанийцы" 
+ samayani_collective_noun: "Самайанийск" 
   
   
   
   #Veparstva group 
- gh_veparstva_group: "Вепарства"  #Машиночный перевод 28.10.23!
- gh_veparstva_group_collective_noun: "Вепарства"  #Машиночный перевод 28.10.23!
- rethara: "Ретара"  #Машиночный перевод 28.10.23!
- rethara_collective_noun: "Ретара"  #Машиночный перевод 28.10.23!
- tapuso: "Тапусо"  #Машиночный перевод 28.10.23!
- tapuso_collective_noun: "Тапусо"  #Машиночный перевод 28.10.23!
- rokgana: "Рокгана"  #Машиночный перевод 28.10.23!
- rokgana_collective_noun: "Рокгана"  #Машиночный перевод 28.10.23!
- arolyan: "Аролян"  #Машиночный перевод 28.10.23!
- arolyan_collective_noun: "Аролян"  #Машиночный перевод 28.10.23!
- savorna: "Саворна"  #Машиночный перевод 28.10.23!
- savorna_collective_noun: "Саворна"  #Машиночный перевод 28.10.23!
+ gh_veparstva_group: "Вепарстванцы"  
+ gh_veparstva_group_collective_noun: "Вепарстванск"  
+ rethara: "Ретаранцы"  
+ rethara_collective_noun: "Ретаранск" 
+ tapuso: "Тапусонцы"  
+ tapuso_collective_noun: "Тапусонск"  
+ rokgana: "Рокганцы"  
+ rokgana_collective_noun: "Рокганск"  
+ arolyan: "Аролянцы"  
+ arolyan_collective_noun: "Аролянск"  
+ savorna: "Саворнанцы"  
+ savorna_collective_noun: "Саворнанск" 
   
   
   
   #Asariyna group 
- gh_asariyna_group: "Асарийна"  #Машиночный перевод 28.10.23!
- gh_asariyna_group_collective_noun: "Асарийна"  #Машиночный перевод 28.10.23!
- velrika: "Велрика"  #Машиночный перевод 28.10.23!
- velrika_collective_noun: "Велрика"  #Машиночный перевод 28.10.23!
- mahatha: "Махатха"  #Машиночный перевод 28.10.23!
- mahatha_collective_noun: "Махатха"  #Машиночный перевод 28.10.23!
- jayakayin: "Джаякаин"  #Машиночный перевод 28.10.23!
- jayakayin_collective_noun: "Джаякаин"  #Машиночный перевод 28.10.23!
- paradila: "Парадила"  #Машиночный перевод 28.10.23!
- paradila_collective_noun: "Парадила"  #Машиночный перевод 28.10.23!
- yayanka: "Яянка"  #Машиночный перевод 28.10.23!
- yayanka_collective_noun: "Яянка"  #Машиночный перевод 28.10.23!
- elekraya: "Электрайя"  #Машиночный перевод 28.10.23!
- elekraya_collective_noun: "Электрайя"  #Машиночный перевод 28.10.23!
+ gh_asariyna_group: "Асарийнанцы"  
+ gh_asariyna_group_collective_noun: "Асарийнанск"  
+ velrika: "Велриканцы"  
+ velrika_collective_noun: "Велриканск"  
+ mahatha: "Махатханцы"  
+ mahatha_collective_noun: "Махатханск"  
+ jayakayin: "Джаякаинцы"  
+ jayakayin_collective_noun: "Джаякаинск"  
+ paradila: "Парадиланцы" 
+ paradila_collective_noun: "Парадиланск" 
+ yayanka: "Яянканцы"  
+ yayanka_collective_noun: "Яянканск" 
+ elekraya: "Электраяне"  
+ elekraya_collective_noun: "Электраянск"  
   
   
   
   #Aembarisa group 
- gh_aembarisa_group: "Аэмбариса"  #Машиночный перевод 28.10.23!
- gh_aembarisa_group_collective_noun: "Аэмбариса"  #Машиночный перевод 28.10.23!
- prapataro: "Прапатаро"  #Машиночный перевод 28.10.23!
- prapataro_collective_noun: "Прапатаро"  #Машиночный перевод 28.10.23!
- garami: "Гарами"  #Машиночный перевод 28.10.23!
- garami_collective_noun: "Гарами"  #Машиночный перевод 28.10.23!
- saruta: "Сарута"  #Машиночный перевод 28.10.23!
- saruta_collective_noun: "Сарута"  #Машиночный перевод 28.10.23!
- iafarana: "Яфарана"  #Машиночный перевод 28.10.23!
- iafarana_collective_noun: "Яфарана"  #Машиночный перевод 28.10.23!
- ikanita: "Иканита"  #Машиночный перевод 28.10.23!
- ikanita_collective_noun: "Иканита"  #Машиночный перевод 28.10.23!
- zalaka: "Залака"  #Машиночный перевод 28.10.23!
- zalaka_collective_noun: "Залака"  #Машиночный перевод 28.10.23!
+ gh_aembarisa_group: "Аэмбарисанцы" 
+ gh_aembarisa_group_collective_noun: "Аэмбарисанск"  
+ prapataro: "Прапатаронцы"
+ prapataro_collective_noun: "Прапатаронск"  
+ garami: "Гарамины"  
+ garami_collective_noun: "Гараминск" 
+ saruta: "Сарутаны" 
+ saruta_collective_noun: "Сарутанск" 
+ iafarana: "Иафарананцы" 
+ iafarana_collective_noun: "Иафарананск" 
+ ikanita: "Иканитаны" 
+ ikanita_collective_noun: "Иканитанск"  
+ zalaka: "Залаканцы"  
+ zalaka_collective_noun: "Залаканск"  
   
   
   
   #Margur group 
- gh_margur_group: "Маргур"  #Машиночный перевод 28.10.23!
- gh_margur_group_collective_noun: "Маргур"  #Машиночный перевод 28.10.23!
- hokanta: "Хоканта"  #Машиночный перевод 28.10.23!
- hokanta_collective_noun: "Хоканта"  #Машиночный перевод 28.10.23!
- kasanti: "Касанти"  #Машиночный перевод 28.10.23!
- kasanti_collective_noun: "Касанти"  #Машиночный перевод 28.10.23!
- hunawi: "Хунави"  #Машиночный перевод 28.10.23!
- hunawi_collective_noun: "Хунави"  #Машиночный перевод 28.10.23!
+ gh_margur_group: "Маргуры" 
+ gh_margur_group_collective_noun: "Маргурск"
+ hokanta: "Хокантанцы"  
+ hokanta_collective_noun: "Хокантанск" 
+ kasanti: "Касантинцы"  
+ kasanti_collective_noun: "Касантинск" 
+ hunawi: "Хунавины"  
+ hunawi_collective_noun: "Хунавинск"  
   
   
   
   #Aevakori group 
- gh_aevakori_group: "Аэвакори"  #Машиночный перевод 28.10.23!
- gh_aevakori_group_collective_noun: "Аэвакори"  #Машиночный перевод 28.10.23!
- xrahantiia: "Шрахантия"  #Машиночный перевод 28.10.23!
- xrahantiia_collective_noun: "Шрахантия"  #Машиночный перевод 28.10.23!
- aezentiam: "Эзентиам"  #Машиночный перевод 28.10.23!
- aezentiam_collective_noun: "Эзентиам"  #Машиночный перевод 28.10.23!
- huxayakha: "Хусяяха"  #Машиночный перевод 28.10.23!
- huxayakha_collective_noun: "Хусяяха"  #Машиночный перевод 28.10.23!
- kadamana: "Кадамана"  #Машиночный перевод 28.10.23!
- kadamana_collective_noun: "Кадамана"  #Машиночный перевод 28.10.23!
- mithaista: "Митаиста"  #Машиночный перевод 28.10.23!
- mithaista_collective_noun: "Митаиста"  #Машиночный перевод 28.10.23!
+ gh_aevakori_group: "Аэвакоринцы"  
+ gh_aevakori_group_collective_noun: "Аэвакоринск" 
+ xrahantiia: "Ксарахантияне"  
+ xrahantiia_collective_noun: "Ксарахантиянск" 
+ aezentiam: "Аезентиамцы"  
+ aezentiam_collective_noun: "Аезентиамск"  
+ huxayakha: "Хаксаяханцы"  
+ huxayakha_collective_noun: "Хаксаяханск"  
+ kadamana: "Кадамананцы"  
+ kadamana_collective_noun: "Кадамананск"  
+ mithaista: "Митайстанцы"  
+ mithaista_collective_noun: "Митайстанск"  
   
   
   
   #Aafarzay group 
- gh_aafarzay_group: "Аафарзай"  #Машиночный перевод 28.10.23!
- gh_aafarzay_group_collective_noun: "Аафарзай"  #Машиночный перевод 28.10.23!
- nizhbata: "Нижбата"  #Машиночный перевод 28.10.23!
- nizhbata_collective_noun: "Нижбата"  #Машиночный перевод 28.10.23!
- qaanhai: "Каанхай"  #Машиночный перевод 28.10.23!
- qaanhai_collective_noun: "Каанхай"  #Машиночный перевод 28.10.23!
- rathzemi: "Ратземи"  #Машиночный перевод 28.10.23!
- rathzemi_collective_noun: "Ратземи"  #Машиночный перевод 28.10.23!
- khadaleg: "Хадалег"  #Машиночный перевод 28.10.23!
- khadaleg_collective_noun: "Хадалег"  #Машиночный перевод 28.10.23!
+ gh_aafarzay_group: "Аафарзайцы"  
+ gh_aafarzay_group_collective_noun: "Аафарзайск" 
+ nizhbata: "Нижбатанцы" 
+ nizhbata_collective_noun: "Нижбатанск" 
+ qaanhai: "Каанхайцы"  
+ qaanhai_collective_noun: "Каанхайск"  
+ rathzemi: "Ратземинцы"  
+ rathzemi_collective_noun: "Ратземинск" 
+ khadaleg: "Хадалеги"  
+ khadaleg_collective_noun: "Хадалегск"  
   
   
   
   #Chordhan group 
- gh_chordhan_group: "Чордхан"  #Машиночный перевод 28.10.23!
- gh_chordhan_group_collective_noun: "Чордхан"  #Машиночный перевод 28.10.23!
- sarishta: "Саришта"  #Машиночный перевод 28.10.23!
- sarishta_collective_noun: "Саришта"  #Машиночный перевод 28.10.23!
- yevanya: "Евания"  #Машиночный перевод 28.10.23!
- yevanya_collective_noun: "Евания"  #Машиночный перевод 28.10.23!
- yonata: "Yonata"  #Машиночный перевод 28.10.23!
- yonata_collective_noun: "Yonata"  #Машиночный перевод 28.10.23!
- hadaxma: "Хадаксма"  #Машиночный перевод 28.10.23!
- hadaxma_collective_noun: "Хадаксма"  #Машиночный перевод 28.10.23!
- wafrakat: "Вафракат"  #Машиночный перевод 28.10.23!
- wafrakat_collective_noun: "Вафракат"  #Машиночный перевод 28.10.23!
+ gh_chordhan_group: "Чордханцы" 
+ gh_chordhan_group_collective_noun: "Чордханск"
+ sarishta: "Сариштанцы"  
+ sarishta_collective_noun: "Сариштанск"  
+ yevanya: "Еваняне"  
+ yevanya_collective_noun: "Еванянск"  
+ yonata: "Йонатанцы"  
+ yonata_collective_noun: "Йонатанск"  
+ hadaxma: "Хадаксманцы"  
+ hadaxma_collective_noun: "Хадаксманск"  
+ wafrakat: "Вафракаты"  
+ wafrakat_collective_noun: "Вафракатск"  
   
   
   
   #Athacaya 
- gh_athacaya_group: "Атакайя"  #Машиночный перевод 28.10.23!
- gh_athacaya_group_collective_noun: "Атакайя"  #Машиночный перевод 28.10.23!
- taminiai: "Таминяй"  #Машиночный перевод 28.10.23!
- taminiai_collective_noun: "Таминяй"  #Машиночный перевод 28.10.23!
- marakje: "Маракье"  #Машиночный перевод 28.10.23!
- marakje_collective_noun: "Маракье"  #Машиночный перевод 28.10.23!
- avihana: "Авихана"  #Машиночный перевод 28.10.23!
- avihana_collective_noun: "Авихана"  #Машиночный перевод 28.10.23!
- samorihya: "Саморихья"  #Машиночный перевод 28.10.23!
- samorihya_collective_noun: "Саморихья"  #Машиночный перевод 28.10.23!
+ gh_athacaya_group: "Атакайяне"  
+ gh_athacaya_group_collective_noun: "Атакайянск"  
+ taminiai: "Таминиайцы"  
+ taminiai_collective_noun: "Таминиайск"  
+ marakje: "Маракджены"  
+ marakje_collective_noun: Маракдженск"  
+ avihana: "Авихананцы"  
+ avihana_collective_noun: "Авихананск"  
+ samorihya: "Саморихьяне"  
+ samorihya_collective_noun: "Саморихьянск" 
   
   
   
   #Agnala 
- gh_agnala_group: "Агнала"  #Машиночный перевод 28.10.23!
- gh_agnala_group_collective_noun: "Агнала"  #Машиночный перевод 28.10.23!
- sindaara: "Синдаара"  #Машиночный перевод 28.10.23!
- sindaara_collective_noun: "Синдаара"  #Машиночный перевод 28.10.23!
- agunaha: "Агунаха"  #Машиночный перевод 28.10.23!
- agunaha_collective_noun: "Агунаха"  #Машиночный перевод 28.10.23!
+ gh_agnala_group: "Агналаны" 
+ gh_agnala_group_collective_noun: "Агналанск" 
+ sindaara: "Синдаараны"
+ sindaara_collective_noun: "Синдааранск"
+ agunaha: "Агунаханы"
+ agunaha_collective_noun: "Агунаханск"
   
   
   
   #Likarkho 
- gh_likarkho_group: "Ликархо"  #Машиночный перевод 28.10.23!
- gh_likarkho_group_collective_noun: "Ликархо"  #Машиночный перевод 28.10.23!
- yaknha: "Якнха"  #Машиночный перевод 28.10.23!
- yaknha_collective_noun: "Якнха"  #Машиночный перевод 28.10.23!
- siklasa: "Сикласа"  #Машиночный перевод 28.10.23!
- siklasa_collective_noun: "Сикласа"  #Машиночный перевод 28.10.23!
- temala: "Темала"  #Машиночный перевод 28.10.23!
- temala_collective_noun: "Темала"  #Машиночный перевод 28.10.23!
+ gh_likarkho_group: "Ликархонцы" 
+ gh_likarkho_group_collective_noun: "Ликархонск" 
+ yaknha: "Якнханцы" 
+ yaknha_collective_noun: "Якнханск"
+ siklasa: "Сикласанцы"
+ siklasa_collective_noun: "Сикласанск" 
+ temala: "Темаланы"  
+ temala_collective_noun: "Темаланск"
   
   
   
   #Haraja 
- gh_haraja_group: "Хараджа"  #Машиночный перевод 28.10.23!
- gh_haraja_group_collective_noun: "Хараджа"  #Машиночный перевод 28.10.23!
- korlona: "Корлона"  #Машиночный перевод 28.10.23!
- korlona_collective_noun: "Корлона"  #Машиночный перевод 28.10.23!
- lainar: "Лайнар"  #Машиночный перевод 28.10.23!
- lainar_collective_noun: "Лайнар"  #Машиночный перевод 28.10.23!
- qoltaam: "Колтаам"  #Машиночный перевод 28.10.23!
- qoltaam_collective_noun: "Колтаам"  #Машиночный перевод 28.10.23!
- kadwana: "Кадвана"  #Машиночный перевод 28.10.23!
- kadwana_collective_noun: "Кадвана"  #Машиночный перевод 28.10.23!
+ gh_haraja_group: "Хараджанцы"  
+ gh_haraja_group_collective_noun: "Хараджанск"  
+ korlona: "Корлонанцы"  
+ korlona_collective_noun: "Корлонанск" 
+ lainar: "Лайнары" 
+ lainar_collective_noun: "Лайнарск"  
+ qoltaam: "Колтаамы"  
+ qoltaam_collective_noun: "Колтаамск"  
+ kadwana: "Кавананцы"
+ kadwana_collective_noun: "Кавананск"  
   
   
   
   #Nakahanii 
- gh_nakahanii_group: "Накахании"  #Машиночный перевод 28.10.23!
- gh_nakahanii_group_collective_noun: "Накахании"  #Машиночный перевод 28.10.23!
- tehaina: "Техайна"  #Машиночный перевод 28.10.23!
- tehaina_collective_noun: "Техайна"  #Машиночный перевод 28.10.23!
- jakana: "Джакана"  #Машиночный перевод 28.10.23!
- jakana_collective_noun: "Джакана"  #Машиночный перевод 28.10.23!
- vanaarik: "Ванаарик"  #Машиночный перевод 28.10.23!
- vanaarik_collective_noun: "Ванаарик"  #Машиночный перевод 28.10.23!
+ gh_nakahanii_group: "Накаханийцы"  
+ gh_nakahanii_group_collective_noun: "Накаханийск"  
+ tehaina: "Техаинанцы"  
+ tehaina_collective_noun: "Техаинанск"  
+ jakana: "Джакананы"  
+ jakana_collective_noun: "Джакананск" 
+ vanaarik: "Ванаарики" 
+ vanaarik_collective_noun: "Ванаарикск" 
   
   
   
   #khalai 
- gh_khalai_group: "Халаи"  #Машиночный перевод 28.10.23!
- gh_khalai_group_collective_noun: "Халаи"  #Машиночный перевод 28.10.23!
- vyatari: "Вятари"  #Машиночный перевод 28.10.23!
- vyatari_collective_noun: "Вятари"  #Машиночный перевод 28.10.23!
- majanta: "Маджанта"  #Машиночный перевод 28.10.23!
- majanta_collective_noun: "Маджанта"  #Машиночный перевод 28.10.23!
+ gh_khalai_group: "Халаи"  
+ gh_khalai_group_collective_noun: "Халаиск" !
+ vyatari: "Вятарийцы"  
+ vyatari_collective_noun: "Вятарийск"  
+ majanta: "Маджантаны"  
+ majanta_collective_noun: "Маджантанск" 
   
   
   
   #zonthawa 
- gh_zonthawa_group: "Зонтава"  #Машиночный перевод 28.10.23!
- gh_zonthawa_group_collective_noun: "Зонтава"  #Машиночный перевод 28.10.23!
- jankalo: "Янкало"  #Машиночный перевод 28.10.23!
- jankalo_collective_noun: "Янкало"  #Машиночный перевод 28.10.23!
- sakankra: "Саканкра"  #Машиночный перевод 28.10.23!
- sakankra_collective_noun: "Саканкра"  #Машиночный перевод 28.10.23!
- telukor: "Телукор"  #Машиночный перевод 28.10.23!
- telukor_collective_noun: "Телукор"  #Машиночный перевод 28.10.23!
- xokola: "Ксокола"  #Машиночный перевод 28.10.23!
- xokola_collective_noun: "Ксокола"  #Машиночный перевод 28.10.23!
- adani: "Адани"  #Машиночный перевод 28.10.23!
- adani_collective_noun: "Адани"  #Машиночный перевод 28.10.23!
+ gh_zonthawa_group: "Зонтаванцы"  
+ gh_zonthawa_group_collective_noun: "Зонтаванск"  
+ jankalo: "Джакалонцы" 
+ jankalo_collective_noun: "Джакалонск"  
+ sakankra: "Саканкранцы"  
+ sakankra_collective_noun: "Саканкранск"  
+ telukor: "Телукорцы"  
+ telukor_collective_noun: "Телукорск"  
+ xokola: "Ксоколанцы"  
+ xokola_collective_noun: "Ксоколанск"  
+ adani: "Аданийцы"  
+ adani_collective_noun: "Аданийск"  
   
   
   
   #adhata 
- gh_adhata_group: "Адхата"  #Машиночный перевод 28.10.23!
- gh_adhata_group_collective_noun: "Адхата"  #Машиночный перевод 28.10.23!
- paidem: "Пайдем"  #Машиночный перевод 28.10.23!
- paidem_collective_noun: "Пайдем"  #Машиночный перевод 28.10.23!
- zhenayi: "Zhenayi"  #Машиночный перевод 28.10.23!
- zhenayi_collective_noun: "Zhenayi"  #Машиночный перевод 28.10.23!
- shayuni: "Шаюни"  #Машиночный перевод 28.10.23!
- shayuni_collective_noun: "Шаюни"  #Машиночный перевод 28.10.23!
- virlani: "Вирлани"  #Машиночный перевод 28.10.23!
- virlani_collective_noun: "Вирлани"  #Машиночный перевод 28.10.23!
+ gh_adhata_group: "Адхатанцы"  
+ gh_adhata_group_collective_noun: "Адхатанск" 
+ paidem: "Пайдемы"  
+ paidem_collective_noun: "Пайдемск" 
+ zhenayi: "Жэнайцы" 
+ zhenayi_collective_noun: "Жэнайск"  
+ shayuni: "Шаюнинцы"  
+ shayuni_collective_noun: "Шаюнинск" 
+ virlani: "Вирланийцы"  
+ virlani_collective_noun: "Вирланийск" 
   
   
   
   #emanhi 
- gh_emanhi_group: "Эманхи"  #Машиночный перевод 28.10.23!
- gh_emanhi_group_collective_noun: "Эманхи"  #Машиночный перевод 28.10.23!
- karkit: "Каркит"  #Машиночный перевод 28.10.23!
- karkit_collective_noun: "Каркит"  #Машиночный перевод 28.10.23!
- pyanaki: "Пьянаки"  #Машиночный перевод 28.10.23!
- pyanaki_collective_noun: "Пьянаки"  #Машиночный перевод 28.10.23!
- swabani: "Швабани"  #Машиночный перевод 28.10.23!
- swabani_collective_noun: "Швабани"  #Машиночный перевод 28.10.23!
- yadaniya: "Ядания"  #Машиночный перевод 28.10.23!
- yadaniya_collective_noun: "Ядания"  #Машиночный перевод 28.10.23!
- ulakada: "Улакада"  #Машиночный перевод 28.10.23!
- ulakada_collective_noun: "Улакада"  #Машиночный перевод 28.10.23!
- karana: "Карана"  #Машиночный перевод 28.10.23!
- karana_collective_noun: "Карана"  #Машиночный перевод 28.10.23!
- rahikaya: "Рахикая"  #Машиночный перевод 28.10.23!
- rahikaya_collective_noun: "Рахикая"  #Машиночный перевод 28.10.23!
- ekaachi: "Экаачи"  #Машиночный перевод 28.10.23!
- ekaachi_collective_noun: "Экаачи"  #Машиночный перевод 28.10.23!
+ gh_emanhi_group: "Эманхийцы"  
+ gh_emanhi_group_collective_noun: "Эманхийск"  
+ karkit: "Каркиты"  
+ karkit_collective_noun: "Каркитск"  
+ pyanaki: "Пьянакийцы"  
+ pyanaki_collective_noun: "Пьянакийск"  
+ swabani: "Швабанийцы"  
+ swabani_collective_noun: "Швабанийск"  
+ yadaniya: "Яданияне"  
+ yadaniya_collective_noun: "Яданиянск"  
+ ulakada: "Улакаданцы"  
+ ulakada_collective_noun: "Улакаданск"  
+ karana: "Карананцы"  
+ karana_collective_noun: "Карананск"  
+ rahikaya: "Рахикаяне"  
+ rahikaya_collective_noun: "Рахикаянск" 
+ ekaachi: "Экаачинцы"  
+ ekaachi_collective_noun: "Экаачинск"  
   
   
   
   #rekhala 
- gh_rekhala_group: "Рекхала"  #Машиночный перевод 28.10.23!
- gh_rekhala_group_collective_noun: "Рекхала"  #Машиночный перевод 28.10.23!
- zabari: "Забари"  #Машиночный перевод 28.10.23!
- zabari_collective_noun: "Забари"  #Машиночный перевод 28.10.23!
- tahanati: "Таханати"  #Машиночный перевод 28.10.23!
- tahanati_collective_noun: "Таханати"  #Машиночный перевод 28.10.23!
- neshalar: "Нешалар"  #Машиночный перевод 28.10.23!
- neshalar_collective_noun: "Нешалар"  #Машиночный перевод 28.10.23!
- ilahanai: "Илаханай"  #Машиночный перевод 28.10.23!
- ilahanai_collective_noun: "Илаханай"  #Машиночный перевод 28.10.23!
+ gh_rekhala_group: "Рекхаланцы"  
+ gh_rekhala_group_collective_noun: "Рекхаланск"  
+ zabari: "Забарины"  
+ zabari_collective_noun: "Забаринск"  
+ tahanati: "Таханатинцы"  
+ tahanati_collective_noun: "Таханатинск"  
+ neshalar: "Нешаларцы"  
+ neshalar_collective_noun: "Нешаларск"  
+ ilahanai: "Илаханайцы"  
+ ilahanai_collective_noun: "Илаханайск"  
   
   
   
   #dayatemi 
- gh_dayatemi_group: "Даятеми"  #Машиночный перевод 28.10.23!
- gh_dayatemi_group_collective_noun: "Даятеми"  #Машиночный перевод 28.10.23!
- zyawtas: "Зявтас"  #Машиночный перевод 28.10.23!
- zyawtas_collective_noun: "Зявтас"  #Машиночный перевод 28.10.23!
- uthanata: "Утаната"  #Машиночный перевод 28.10.23!
- uthanata_collective_noun: "Утаната"  #Машиночный перевод 28.10.23!
- vaxanaka: "Ваксанака"  #Машиночный перевод 28.10.23!
- vaxanaka_collective_noun: "Ваксанака"  #Машиночный перевод 28.10.23!
- zharran: "Жарран"  #Машиночный перевод 28.10.23!
- zharran_collective_noun: "Жарран"  #Машиночный перевод 28.10.23!
- tanumarei: "Танумарей"  #Машиночный перевод 28.10.23!
- tanumarei_collective_noun: "Танумарей"  #Машиночный перевод 28.10.23!
- vastarnai: "Вастарнай"  #Машиночный перевод 28.10.23!
- vastarnai_collective_noun: "Вастарнай"  #Машиночный перевод 28.10.23!
- parakh: "Парах"  #Машиночный перевод 28.10.23!
- parakh_collective_noun: "Парах"  #Машиночный перевод 28.10.23!
+ gh_dayatemi_group: "Даятемийцы"  
+ gh_dayatemi_group_collective_noun: "Даятемийск" 
+ zyawtas: "Зявтасы"  
+ zyawtas_collective_noun: "Зявтаск"  
+ uthanata: "Утханатанцы"  
+ uthanata_collective_noun: "Утханатанск"  
+ vaxanaka: "Ваксанаканцы"  
+ vaxanaka_collective_noun: "Ваксанаканск"  
+ zharran: "Жарранцы"  
+ zharran_collective_noun: "Жарранск" 
+ tanumarei: "Танумарейцы" 
+ tanumarei_collective_noun: "Танумарейск" 
+ vastarnai: "Вастарнайцы"  
+ vastarnai_collective_noun: "Вастарнайск"  
+ parakh: "Парахийцы"  
+ parakh_collective_noun: "Парахийск"  
   
   
   
   #khokhuud 
- gh_khokhuud_group: "Хохууд"  #Машиночный перевод 28.10.23!
- gh_khokhuud_group_collective_noun: "Хохууд"  #Машиночный перевод 28.10.23!
- orshinid: "Оршинид"  #Машиночный перевод 28.10.23!
- orshinid_collective_noun: "Оршинид"  #Машиночный перевод 28.10.23!
- holganud: "Холгануд"  #Машиночный перевод 28.10.23!
- holganud_collective_noun: "Холгануд"  #Машиночный перевод 28.10.23!
- zakhirun: "Захирун"  #Машиночный перевод 28.10.23!
- zakhirun_collective_noun: "Захирун"  #Машиночный перевод 28.10.23!
+ gh_khokhuud_group: "Хохууды"  
+ gh_khokhuud_group_collective_noun: "Хохуудск"  
+ orshinid: "Оршиниды"  
+ orshinid_collective_noun: "Оршинидск"  
+ holganud: "Холгануды"  
+ holganud_collective_noun: "Холганудск"  
+ zakhirun: "Захирунцы" 
+ zakhirun_collective_noun: "Захирунск"  
   
   
   
   #xajirkel 
- gh_xajirkel_group: "Хажиркель"  #Машиночный перевод 28.10.23!
- gh_xajirkel_group_collective_noun: "Хажиркель"  #Машиночный перевод 28.10.23!
- nargul: "Наргуль"  #Машиночный перевод 28.10.23!
- nargul_collective_noun: "Наргуль"  #Машиночный перевод 28.10.23!
- latur: "Латур"  #Машиночный перевод 28.10.23!
- latur_collective_noun: "Латур"  #Машиночный перевод 28.10.23!
- ogantaa: "Органтаа"  #Машиночный перевод 28.10.23!
- ogantaa_collective_noun: "Органтаа"  #Машиночный перевод 28.10.23!
- garbariz: "Гарбариз"  #Машиночный перевод 28.10.23!
- garbariz_collective_noun: "Гарбариз"  #Машиночный перевод 28.10.23!
- xasamdaas: "Хасамдаас"  #Машиночный перевод 28.10.23!
- xasamdaas_collective_noun: "Хасамдаас"  #Машиночный перевод 28.10.23!
- gh_arapa_group: "Арапа"  #Машиночный перевод 28.10.23!
- gh_arapa_group_collective_noun: "Арапейский"  #Машиночный перевод 28.10.23!
- kirinarth: "Киринарт"  #Машиночный перевод 28.10.23!
- kirinarth_collective_noun: "Киринарт"  #Машиночный перевод 28.10.23!
- sinasan: "Синасан"  #Машиночный перевод 28.10.23!
- sinasan_collective_noun: "Синасаны"  #Машиночный перевод 28.10.23!
- lawgiri: "Логири"  #Машиночный перевод 28.10.23!
- lawgiri_collective_noun: "Логири"  #Машиночный перевод 28.10.23!
+ gh_xajirkel_group: "Хаджиркельцы"  
+ gh_xajirkel_group_collective_noun: "Хаджиркельск"  
+ nargul: "Наргулы"  
+ nargul_collective_noun: "Наргульск"  
+ latur: "Латурцы"  
+ latur_collective_noun: "Латурск"  
+ ogantaa: "Органтаанцы"  
+ ogantaa_collective_noun: "Органтаанск"  
+ garbariz: "Гарбаризы"  
+ garbariz_collective_noun: "Гарбаризск" 
+ xasamdaas: "Хасамдаасы"  
+ xasamdaas_collective_noun: "Хасамдааск"  
+ gh_arapa_group: "Арапанцы"  
+ gh_arapa_group_collective_noun: "Арапанск"  
+ kirinarth: "Киринарты"  
+ kirinarth_collective_noun: "Киринартск"  
+ sinasan: "Синасанцы"  
+ sinasan_collective_noun: "Синасанск"  
+ lawgiri: "Логирийцы"  
+ lawgiri_collective_noun: "Логирийск"  
   
   
   
   #Cave tribes 
- gh_cavetribe_group: "Пещерное племя"  #Машиночный перевод 28.10.23!
- gh_cavetribe_group_collective_noun: "Пещерное племя"  #Машиночный перевод 28.10.23!
- aeulikain: "Эуликаин"  #Машиночный перевод 28.10.23!
- aeulikain_collective_noun: "Эуликаин"  #Машиночный перевод 28.10.23!
- carkarain: "Каркарайн"  #Машиночный перевод 28.10.23!
- carkarain_collective_noun: "Каркарайн"  #Машиночный перевод 28.10.23!
- karannin: "Караннин"  #Машиночный перевод 28.10.23!
- karannin_collective_noun: "Караннин"  #Машиночный перевод 28.10.23!
- penetworin: "Пеневорин"  #Машиночный перевод 28.10.23!
- penetworin_collective_noun: "Пеневорин"  #Машиночный перевод 28.10.23!
- nevtanei: "Невтаней"  #Машиночный перевод 28.10.23!
- nevtanei_collective_noun: "Невтаней"  #Машиночный перевод 28.10.23!
- merdelavi: "Мерделави"  #Машиночный перевод 28.10.23!
- merdelavi_collective_noun: "Мерделави"  #Машиночный перевод 28.10.23!
+ gh_cavetribe_group: "Пещерные племена"  
+ gh_cavetribe_group_collective_noun: "Пещерно-Племенск"  
+ aeulikain: "Эуликаинцы"  
+ aeulikain_collective_noun: "Эуликаинск" 
+ carkarain: "Каркарайнцы"  
+ carkarain_collective_noun: "Каркарайнск"  
+ karannin: "Караннинцы"  
+ karannin_collective_noun: "Караннинск"  
+ penetworin: "Пенетворинцы"  
+ penetworin_collective_noun: "Пенетворинск"  
+ nevtanei: "Невтанейцы"  
+ nevtanei_collective_noun: "Невтанейск"  
+ merdelavi: "Мерделавинцы"  
+ merdelavi_collective_noun: "Мерделавинск"  
   
   
   
   #Mtuwe group 
- gh_mtuwe_group: "Мтуве"  #Машиночный перевод 28.10.23!
- gh_mtuwe_group_collective_noun: "Мтуве"  #Машиночный перевод 28.10.23!
- mtuwe: "Мтуве"  #Машиночный перевод 28.10.23!
- mtuwe_collective_noun: "Мтуве"  #Машиночный перевод 28.10.23!
+ gh_mtuwe_group: "Мтувенцы"  
+ gh_mtuwe_group_collective_noun: "Мтувенск"  
+ mtuwe: "Мтувенцы"  
+ mtuwe_collective_noun: "Мтувенск"  
   
   
   
   #Daikheni group 
- gh_daikheni_group: "Дайхени"  #Машиночный перевод 28.10.23!
- gh_daikheni_group_collective_noun: "Дайхени"  #Машиночный перевод 28.10.23!
- hmaceak: "Хмачеак"  #Машиночный перевод 28.10.23!
- hmaceak_collective_noun: "Хмачеак"  #Машиночный перевод 28.10.23!
+ gh_daikheni_group: "Дайхенинцы"  
+ gh_daikheni_group_collective_noun: "Дайхенинск" 
+ hmaceak: "Хмасеакцы" 
+ hmaceak_collective_noun: "Хмасеакск"  
   
   
   
   #Aupagn group 
- gh_aupagn_group: "Опань"  #Машиночный перевод 28.10.23!
- gh_aupagn_group_collective_noun: "Опань"  #Машиночный перевод 28.10.23!
- zoldagn: "Золдан"  #Машиночный перевод 28.10.23!
- zoldagn_collective_noun: "Золдан"  #Машиночный перевод 28.10.23!
- sarridians: "Сарридиан"  #Машиночный перевод 28.10.23!
- sarridians_collective_noun: "Сарридиан"  #Машиночный перевод 28.10.23!
- hrunzag: "Хрунзаг"  #Машиночный перевод 28.10.23!
- hrunzag_collective_noun: "Хрунзаг"  #Машиночный перевод 28.10.23!
- krupleg: "Круплег"  #Машиночный перевод 28.10.23!
- krupleg_collective_noun: "Круплег"  #Машиночный перевод 28.10.23!
- dodragn: "Додрагн"  #Машиночный перевод 28.10.23!
- dodragn_collective_noun: "Додрагн"  #Машиночный перевод 28.10.23!
- druhandaehzag: "Друхан'даэзаг"  #Машиночный перевод 28.10.23!
- druhandaehzag_collective_noun: "Друхан'даэзаг"  #Машиночный перевод 28.10.23!
+ gh_aupagn_group: "Аупаньцы" 
+ gh_aupagn_group_collective_noun: "Аупаньск" 
+ zoldagn: "Золдагны" 
+ zoldagn_collective_noun: "Золдагнск" 
+ sarridians: "Сарридианцы"  
+ sarridians_collective_noun: "Сарридианск"  
+ hrunzag: "Хрунзаги"  
+ hrunzag_collective_noun: "Хрунзагск" 
+ krupleg: "Круплеги"  
+ krupleg_collective_noun: "Круплегск"  
+ dodragn: "Додрагны"  
+ dodragn_collective_noun: "Додрагнск"  
+ druhandaehzag: "Друхан'даэзаги" 
+ druhandaehzag_collective_noun: "Друхан'даэзагск"  
   
   # Dahangon group 
- nattanan: "Nattanan"  #Машиночный перевод 28.10.23!
- nattanan_collective_noun: "Nattanan"  #Машиночный перевод 28.10.23!
- dathanites: "Датаниты"  #Машиночный перевод 28.10.23!
- dathanites_collective_noun: "Датаниты"  #Машиночный перевод 28.10.23!
- saielai: "Saielai"  #Машиночный перевод 28.10.23!
- saielai_collective_noun: "Saielai"  #Машиночный перевод 28.10.23!
+ nattanan: "Наттанахи"  
+ nattanan_collective_noun: "Наттанахск"  
+ dathanites: "Дафаниты"  
+ dathanites_collective_noun: "Дафанитск"  
+ saielai: "Сайелайанцы"  
+ saielai_collective_noun: "Сайелайанск"  
   
   
   #Unsorted 
- dergi: "Дерги"  #Машиночный перевод 28.10.23!
- dergi_collective_noun: "Дергии"  #Машиночный перевод 28.10.23!
- enynanthari: "Энинантари"  #Машиночный перевод 28.10.23!
- enynanthari_collective_noun: "Энинантарии"  #Машиночный перевод 28.10.23!
- erridai: "Erridai"  #Машиночный перевод 28.10.23!
- erridai_collective_noun: "Эрридианцы"  #Машиночный перевод 28.10.23!
- marndeoticeni: "Марндеотичени"  #Машиночный перевод 28.10.23!
- marndeoticeni_collective_noun: "Марндеотицении"  #Машиночный перевод 28.10.23!
- iseni: "Исеньи"  #Машиночный перевод 28.10.23!
- iseni_collective_noun: "Исенья"  #Машиночный перевод 28.10.23!
- sceyfig_lighter: "Скейфиг Зажигалка"  #Машиночный перевод 28.10.23!
- sceyfig_lighter_collective_noun: "Зажигалки Scayfig"  #Машиночный перевод 28.10.23!
- bricotaves: "Брикотаве"  #Машиночный перевод 28.10.23!
- bricotaves_collective_noun: "Брикотавы"  #Машиночный перевод 28.10.23!
- ardothanes: "Ардотан"  #Машиночный перевод 28.10.23!
- ardothanes_collective_noun: "Ардофанес"  #Машиночный перевод 28.10.23!
- ordikin: "Ордикин"  #Машиночный перевод 28.10.23!
- ordikin_collective_noun: "Ордикин"  #Машиночный перевод 28.10.23!
- corvosnari: "Корвоснари"  #Машиночный перевод 28.10.23!
- corvosnari_collective_noun: "Корвоснари"  #Машиночный перевод 28.10.23!
- drothacny: "Дротакни"  #Машиночный перевод 28.10.23!
- drothacny_collective_noun: "Дротеррн"  #Машиночный перевод 28.10.23!
- drothacny_prefix: "Дротка"  #Машиночный перевод 28.10.23!
- watumimba: "Ватумимба"  #Машиночный перевод 28.10.23!
- watumimba_collective_noun: "Ватумимба"  #Машиночный перевод 28.10.23!
- watumimba_prefix: "Ватумимбас"  #Машиночный перевод 28.10.23!
- ouwabadin: "Увабадин"  #Машиночный перевод 28.10.23!
- ouwabadin_collective_noun: "Увабадин"  #Машиночный перевод 28.10.23!
- ouwabadin_prefix: "Увабадин"  #Машиночный перевод 28.10.23!
- siltwalker: "Илоход"  #Машиночный перевод 28.10.23!
- siltwalker_collective_noun: "Илоходы"  #Машиночный перевод 28.10.23!
- siltwalker_prefix: "Илоход"  #Машиночный перевод 28.10.23!
- dadkawji: "Дадкауджи"  #Машиночный перевод 28.10.23!
- dadkawji_collective_noun: "Дадкауджи"  #Машиночный перевод 28.10.23!
- dadkawji_prefix: "Дадкавохесе"  #Машиночный перевод 28.10.23!
- izikalek: "Изикалек"  #Машиночный перевод 28.10.23!
- izikalek_collective_noun: "Изикалек"  #Машиночный перевод 28.10.23!
- balauri: "Балаури"  #Машиночный перевод 28.10.23!
- balauri_collective_noun: "Балаури"  #Машиночный перевод 28.10.23!
- lich_culture: "Ойчайнз Лич"  #Машиночный перевод 28.10.23!
- lich_culture_collective_noun: "Ойчайнз Личи"  #Машиночный перевод 28.10.23!
- bestial: "Зверь"  #Машиночный перевод 28.10.23!
- bestial_collective_noun: "Зверь"  #Машиночный перевод 28.10.23!
- bestial_prefix: "Звериный"  #Машиночный перевод 28.10.23!
- undead: "Нежить"  #Машиночный перевод 28.10.23!
- undead_collective_noun: "Нежить"  #Машиночный перевод 28.10.23!
- undead_prefix: "Нежить"  #Машиночный перевод 28.10.23!
- aelfir_culture: "Эльфир"  #Машиночный перевод 28.10.23!
- aelfir_culture_noun: "Эльфир"  #Машиночный перевод 28.10.23!
- aelfir_culture_collective_noun: "Эльфир"  #Машиночный перевод 28.10.23!
- mahratian: "Маратян"  #Машиночный перевод 28.10.23!
- mahratian_collective_noun: "Маратян"  #Машиночный перевод 28.10.23!
- akhtarfi: "Ахтарфи"  #Машиночный перевод 28.10.23!
- akhtarfi_collective_noun: "Ахтарфи"  #Машиночный перевод 28.10.23!
- ghudiyy: "Гудий"  #Машиночный перевод 28.10.23!
- ghudiyy_collective_noun: "Гудий"  #Машиночный перевод 28.10.23!
- gwasillikh: "Гвасиллих"  #Машиночный перевод 28.10.23!
- gwasillikh_collective_noun: "Гвасиллих"  #Машиночный перевод 28.10.23!
- asarey: "Асарей"  #Машиночный перевод 28.10.23!
- asarey_collective_noun: "Асарей"  #Машиночный перевод 28.10.23!
- takopara: "Такопара"  #Машиночный перевод 28.10.23!
- takopara_collective_noun: "Такопара"  #Машиночный перевод 28.10.23!
- theugombrians: "Теугомбрий"  #Машиночный перевод 28.10.23!
- theugombrians_collective_noun: "теугомбрийцы"  #Машиночный перевод 28.10.23!
- gh_theugombrians_group: "Теугомбрий"  #Машиночный перевод 28.10.23!
- ogantea: "Огантеа"  #Машиночный перевод 28.10.23!
- ogantea_collective_noun: "Огантеа"  #Машиночный перевод 28.10.23!
- tafara: "Тафара"  #Машиночный перевод 28.10.23!
- tafara_collective_noun: "Тафара"  #Машиночный перевод 28.10.23!
- ndoufre: "Ндуфра"  #Машиночный перевод 28.10.23!
- ndoufre_collective_noun: "Ндуфре"  #Машиночный перевод 28.10.23!
- gh_redlanders_group: "Редлендер"  #Машиночный перевод 28.10.23!
- gh_takopara_group: "Такопара"  #Машиночный перевод 28.10.23!
- gh_zanaumaures_group: "Занаумарес"  #Машиночный перевод 28.10.23!
- leriseb: "Лерисеб"  #Машиночный перевод 28.10.23!
- leriseb_collective_noun: "Лерисеб"  #Машиночный перевод 28.10.23!
- saruyad: "Саруяд"  #Машиночный перевод 28.10.23!
- saruyad_collective_noun: "Саруяд"  #Машиночный перевод 28.10.23!
- aslalti: "Аслалты"  #Машиночный перевод 28.10.23!
- aslalti_collective_noun: "Аслалты"  #Машиночный перевод 28.10.23!
- averkathuni: "Axeizu"  #Машиночный перевод 28.10.23!
- averkathuni_collective_noun: "Axeizu"  #Машиночный перевод 28.10.23!
- dubadin: "Дубадин"  #Машиночный перевод 28.10.23!
- dubadin_collective_noun: "Дубадины"  #Машиночный перевод 28.10.23!
- saielaian: "Saielaian"  #Машиночный перевод 28.10.23!
- saielaian_collective_noun: "Сайелайцы"  #Машиночный перевод 28.10.23!
+ dergi: "Дергинцы"  
+ dergi_collective_noun: "Дергинск"  
+ enynanthari: "Энинантаринцы"  
+ enynanthari_collective_noun: "Энинантаринск" 
+ erridai: "Эрридайцы"  
+ erridai_collective_noun: "Эрридайск"  
+ marndeoticeni: "Марндеотикенийцы"  
+ marndeoticeni_collective_noun: "Марндеотикенийск" 
+ iseni: "Исиньинцы"  
+ iseni_collective_noun: "Исиньинск" 
+ sceyfig_lighter: "Скёфеглайтеры"  
+ sceyfig_lighter_collective_noun: "Скёфеглайтерск"  
+ bricotaves: "Брикотаванцы"  
+ bricotaves_collective_noun: "Брикотаванск"  
+ ardothanes: "Ардотанцы"  
+ ardothanes_collective_noun: "Ардотанск"  
+ ordikin: "Ордикинцы"  
+ ordikin_collective_noun: "Ордикинск"  
+ corvosnari: "Корвоснаринцы" 
+ corvosnari_collective_noun: "Корвоснаринск"  
+ drothacny: "Дротакнийцы" 
+ drothacny_collective_noun: "Дротакнийск"  
+ drothacny_prefix: "Дротакно" 
+ watumimba: "Ватумимбанцы"  
+ watumimba_collective_noun: "Ватумимбанск"  
+ watumimba_prefix: "Ватумимбано"  
+ ouwabadin: "Увабадины"  
+ ouwabadin_collective_noun: "Увабадинск"  
+ ouwabadin_prefix: "Увабадино" 
+ siltwalker: "Илоходцы"  
+ siltwalker_collective_noun: "Илоходск"  
+ siltwalker_prefix: "Илоходо" 
+ dadkawji: "Дадкавджинцы"  
+ dadkawji_collective_noun: "Дадкавджинск"  
+ dadkawji_prefix: "Дадкавохесе"  
+ izikalek: "Изикалеки"  
+ izikalek_collective_noun: "Изикалекск"  
+ balauri: "Балаурины"  
+ balauri_collective_noun: "Балауринск"  
+ lich_culture: "Ойчайнз Личи"  
+ lich_culture_collective_noun: "Ойчайнз Личск"  
+ bestial: "Звери" 
+ bestial_collective_noun: "Зверск"  
+ bestial_prefix: "Зверино"  
+ undead: "Нежить"  
+ undead_collective_noun: "Нежитьск"  
+ undead_prefix: "Нежитьно"  
+ aelfir_culture: "Эльфиры"  
+ aelfir_culture_noun: "Эльфирск"  
+ aelfir_culture_collective_noun: "Эльфирск"  
+ mahratian: "Махратяне"  
+ mahratian_collective_noun: "Махратянск"  
+ akhtarfi: "Ахтарфийцы"  
+ akhtarfi_collective_noun: "Ахтарфийск"
+ ghudiyy: "Гудийцы"  
+ ghudiyy_collective_noun: "Гудийск"  
+ gwasillikh: "Гвасиллихи"  
+ gwasillikh_collective_noun: "Гвасиллихск"  
+ asarey: "Асарейцы"  
+ asarey_collective_noun: "Асарейск"  
+ takopara: "Такопараны"  
+ takopara_collective_noun: "Такопаранск"  
+ theugombrians: "Теугомбрийцы"  
+ theugombrians_collective_noun: "Теугомбрийск" 
+ gh_theugombrians_group: "Теугомбрий" 
+ ogantea: "Огантеанцы"  
+ ogantea_collective_noun: "Огантеанск"  
+ tafara: "Тафараны"  
+ tafara_collective_noun: "Тафаранск"  
+ ndoufre: "Ндуфрены"  
+ ndoufre_collective_noun: "Ндуфренск"  
+ gh_redlanders_group: "Редлендеры" 
+ gh_takopara_group: "Такопаранцы"  
+ gh_zanaumaures_group: "Занаумаресы"  
+ leriseb: "Лерисебы"  
+ leriseb_collective_noun: "Лерисебск"  
+ saruyad: "Саруяды"  
+ saruyad_collective_noun: "Саруядск"  
+ aslalti: "Аслалтинцы" 
+ aslalti_collective_noun: "Аслалтинск"  
+ averkathuni: "Аксейзунцы"  
+ averkathuni_collective_noun: "Аксейзунск" 
+ dubadin: "Дубадинцы"  
+ dubadin_collective_noun: "Дубадинск"  
+ saielaian: "Сайелайанцы" 
+ saielaian_collective_noun: "Сайелайанск"  

@@ -1,82 +1,82 @@
 ﻿l_russian:
   
  #amsari Loc 
- amsari_religion: "Заоранизм" #Машинный перевод 28.10.23
- amsari_religion_adj: "Zaoranian" #Машинный перевод 28.10.23
- amsari_religion_adjerent: "Zaoranian" #Машинный перевод 28.10.23
- amsari_religion_adherent_plural: "Заоранцы" #Машинный перевод 28.10.23
- amsari_religion_desc: "Поклонение Великому Богу Заорану, Обладающему Ста Добродетелями, сохранялось среди Амсари на протяжении тысячелетий. Основная форма веры медленно развивалась на протяжении долгих столетий и призывает праведников стремиться к добродетельной жизни и отвергать нечестность, праздность и жестокость. Наиболее важные ритуалы проводятся в виде грандиозных публичных церемоний, на которые приглашаются все классы общества кастой жрецов, известной как Фразан. В общих чертах вера заоранцев представляет мир как один великий божественный план, в котором каждый мужчина и женщина должны играть свою предназначенную роль и жить справедливо по велениям Заорана, чтобы обеспечить Его победу над своим темным сыном Майей в Последней Борьбе. .\n\nНесмотря на эту заповедь поддерживать социальную стабильность, заоранская вера на протяжении всей истории подвергалась изрядной доле междоусобной борьбы и масштабных реформ. Самым последним из них стал Пророк, который начал проповедовать в 201 году с всеобъемлющим видением будущего своего народа, которое начало сбываться почти сразу же, как только они свергли своих угнетателей Ран Кемсари." #Машинный перевод 28.10.23
- amsari_high_god_name: "Zaoran" #Машинный перевод 28.10.23
- amsari_high_god_name_possessive: "Заорана" #Машинный перевод 28.10.23
- amsari_high_god_name_alternate: "Пророк" #Машинный перевод 28.10.23
- amsari_high_god_name_alternate_possessive: "Его" #Машинный перевод 28.10.23
- amsari_devil_name: "Майя" #Машинный перевод 28.10.23
- amsari_devil_name_possessive: "Майя" #Машинный перевод 28.10.23
- amsari_death_deity_name: "$amsari_devil_name$" #Машинный перевод 28.10.23
- amsari_death_deity_name_possessive: "$amsari_devil_name_possessive$" #Машинный перевод 28.10.23
+ amsari_religion: "Заоранизм"  
+ amsari_religion_adj: "Заоранск"  
+ amsari_religion_adjerent: "Заоранист"  
+ amsari_religion_adherent_plural: "Заоранисты"  
+ amsari_religion_desc: "Поклонение Великому Богу Заорану, Обладателю Ста Добродетелей, сохранялось среди Амсари на протяжении тысячелетий. Основная форма веры медленно развивалась на протяжении долгих столетий и призывает праведников стремиться к добродетельной жизни и отвергать нечестность, праздность и жестокость. Наиболее важные ритуалы проводятся в виде грандиозных публичных церемоний, на которые кастой жрецов, известной как Фразан, приглашаются все классы общества. В общих чертах вера заоранистов представляет мир как один великий божественный план, в котором каждые мужчина и женщина должны играть свою предназначенную роль и жить справедливо по велениям Заорана, чтобы обеспечить Его победу над своим темным сыном Майей в Последней Борьбе. .\n\nНесмотря на эту заповедь поддерживать социальную стабильность, заоранизм на протяжении всей истории подвергался изрядному количеству междоусобной борьбы и масштабных реформ. Самым последним из них стал Пророк, который начал проповедовать в 201 году с всеобъемлющим видением будущего своего народа, которое начало сбываться почти сразу же, как только они свергли своих угнетателей Ран Кемсари."  
+ amsari_high_god_name: "Заоран"  
+ amsari_high_god_name_possessive: "Заорана"  
+ amsari_high_god_name_alternate: "Пророк"  
+ amsari_high_god_name_alternate_possessive: "Его"  
+ amsari_devil_name: "Майя"  
+ amsari_devil_name_possessive: "Майи"  
+ amsari_death_deity_name: "$amsari_devil_name$"  
+ amsari_death_deity_name_possessive: "$amsari_devil_name_possessive$"  
   
   
   
- amsari_house_of_worship: "Общественный алтарь" #Машинный перевод 28.10.23
- amsari_house_of_worship_plural: "Общественные алтари" #Машинный перевод 28.10.23
- amsari_religious_symbol: "Сияющий факел" #Машинный перевод 28.10.23
- amsari_religious_text: "Зенда" #Машинный перевод 28.10.23
+ amsari_house_of_worship: "Общественный алтарь"  
+ amsari_house_of_worship_plural: "Общественные алтари"  
+ amsari_religious_symbol: "Сияющий факел"  
+ amsari_religious_text: "Зенда"  
   
- amsari_religious_head_title: "Хоса Фразан" #Машинный перевод 28.10.23
- amsari_religious_head_title_name: "Дом Пророка" #Машинный перевод 28.10.23
- amsari_devotee_male: "Праведный" #Машинный перевод 28.10.23
- amsari_devotee_male_plural: "Праведный" #Машинный перевод 28.10.23
- amsari_devotee_female: "Праведный" #Машинный перевод 28.10.23
- amsari_devotee_female_plural: "Праведный" #Машинный перевод 28.10.23
- amsari_devotee_neuter: "Праведный" #Машинный перевод 28.10.23
- amsari_devotee_neuter_plural: "Праведный" #Машинный перевод 28.10.23
- amsari_priest_male: "Фразан" #Машинный перевод 28.10.23
- amsari_priest_male_plural: "Фразани" #Машинный перевод 28.10.23
- amsari_priest_female: "Фразан" #Машинный перевод 28.10.23
- amsari_priest_female_plural: "Фразани" #Машинный перевод 28.10.23
- amsari_priest_plural: "Фразан" #Машинный перевод 28.10.23
- amsari_priest_alternate_plural: "Фразани" #Машинный перевод 28.10.23
- amsari_bishop: "Сюй Фразан" #Машинный перевод 28.10.23
- amsari_bishop_plural: "Сюх Фразани" #Машинный перевод 28.10.23
- amsari_positive_afterlife: "Амсара Мана" #Машинный перевод 28.10.23
- amsari_negative_afterlife: "Сиал" #Машинный перевод 28.10.23
- amsari_divine_realm: "Хоса Амсара" #Машинный перевод 28.10.23
+ amsari_religious_head_title: "Хоса Фразан"  
+ amsari_religious_head_title_name: "Дом Пророка"  
+ amsari_devotee_male: "Праведный"  
+ amsari_devotee_male_plural: "Праведные"  
+ amsari_devotee_female: "Праведная"  
+ amsari_devotee_female_plural: "Праведные"  
+ amsari_devotee_neuter: "Праведный"  
+ amsari_devotee_neuter_plural: "Праведный"  
+ amsari_priest_male: "Фразан"  
+ amsari_priest_male_plural: "Фразаны"  
+ amsari_priest_female: "Фразан"  
+ amsari_priest_female_plural: "Фразаны"  
+ amsari_priest_plural: "Фразан"  
+ amsari_priest_alternate_plural: "Фразаны"  
+ amsari_bishop: "Сух Фразан"  
+ amsari_bishop_plural: "Сух Фразаны"  
+ amsari_positive_afterlife: "Амсара Мана"  
+ amsari_negative_afterlife: "Сиал"  
+ amsari_divine_realm: "Хоса Амсара"  
   
   
- amsari_creator_god_name: "$amsari_high_god_name$" #Машинный перевод 28.10.23
- amsari_creator_god_name_possessive: "$amsari_high_god_name_possessive$" #Машинный перевод 28.10.23
- amsari_health_god_name: "$amsari_high_god_name$" #Машинный перевод 28.10.23
- amsari_health_god_name_possessive: "$amsari_high_god_name_possessive$" #Машинный перевод 28.10.23
- amsari_fertility_god_name: "$amsari_high_god_name$" #Машинный перевод 28.10.23
- amsari_fertility_god_name_possessive: "$amsari_high_god_name_possessive$" #Машинный перевод 28.10.23
- amsari_wealth_god_name: "$amsari_high_god_name$" #Машинный перевод 28.10.23
- amsari_wealth_god_name_possessive: "$amsari_high_god_name_possessive$" #Машинный перевод 28.10.23
- amsari_household_god_name: "$amsari_high_god_name$" #Машинный перевод 28.10.23
- amsari_household_god_name_possessive: "$amsari_high_god_name_possessive$" #Машинный перевод 28.10.23
- amsari_fate_god_name: "$amsari_high_god_name$" #Машинный перевод 28.10.23
- amsari_fate_god_name_possessive: "$amsari_high_god_name_possessive$" #Машинный перевод 28.10.23
- amsari_knowledge_god_name: "$amsari_high_god_name$" #Машинный перевод 28.10.23
- amsari_knowledge_god_name_possessive: "$amsari_high_god_name_possessive$" #Машинный перевод 28.10.23
- amsari_war_god_name: "$amsari_high_god_name$" #Машинный перевод 28.10.23
- amsari_war_god_name_possessive: "$amsari_high_god_name_possessive$" #Машинный перевод 28.10.23
- amsari_trickster_god_name: "$amsari_devil_name$" #Машинный перевод 28.10.23
- amsari_trickster_god_name_possessive: "$amsari_devil_name_possessive$" #Машинный перевод 28.10.23
- amsari_night_god_name: "$amsari_devil_name$" #Машинный перевод 28.10.23
- amsari_night_god_name_possessive: "$amsari_devil_name_possessive$" #Машинный перевод 28.10.23
- amsari_water_god_name: "$amsari_health_god_name$" #Машинный перевод 28.10.23
- amsari_water_god_name_possessive: "$amsari_health_god_name_possessive$" #Машинный перевод 28.10.23
- amsari_witch_god_name: "$amsari_devil_name$" #Машинный перевод 28.10.23
- amsari_witch_god_name_possessive: "$amsari_devil_name_possessive$" #Машинный перевод 28.10.23
+ amsari_creator_god_name: "$amsari_high_god_name$"  
+ amsari_creator_god_name_possessive: "$amsari_high_god_name_possessive$"  
+ amsari_health_god_name: "$amsari_high_god_name$"  
+ amsari_health_god_name_possessive: "$amsari_high_god_name_possessive$"  
+ amsari_fertility_god_name: "$amsari_high_god_name$"  
+ amsari_fertility_god_name_possessive: "$amsari_high_god_name_possessive$"  
+ amsari_wealth_god_name: "$amsari_high_god_name$"  
+ amsari_wealth_god_name_possessive: "$amsari_high_god_name_possessive$"  
+ amsari_household_god_name: "$amsari_high_god_name$"  
+ amsari_household_god_name_possessive: "$amsari_high_god_name_possessive$"  
+ amsari_fate_god_name: "$amsari_high_god_name$"  
+ amsari_fate_god_name_possessive: "$amsari_high_god_name_possessive$"  
+ amsari_knowledge_god_name: "$amsari_high_god_name$"  
+ amsari_knowledge_god_name_possessive: "$amsari_high_god_name_possessive$"  
+ amsari_war_god_name: "$amsari_high_god_name$"  
+ amsari_war_god_name_possessive: "$amsari_high_god_name_possessive$"  
+ amsari_trickster_god_name: "$amsari_devil_name$"  
+ amsari_trickster_god_name_possessive: "$amsari_devil_name_possessive$"  
+ amsari_night_god_name: "$amsari_devil_name$"  
+ amsari_night_god_name_possessive: "$amsari_devil_name_possessive$"  
+ amsari_water_god_name: "$amsari_health_god_name$"  
+ amsari_water_god_name_possessive: "$amsari_health_god_name_possessive$"  
+ amsari_witch_god_name: "$amsari_devil_name$"  
+ amsari_witch_god_name_possessive: "$amsari_devil_name_possessive$"  
   
- mahndayana: "Махндаянство" #Машинный перевод 28.10.23
- mahndayana_adj: "Махндаяна" #Машинный перевод 28.10.23
- mahndayana_adjerent: "Zaoranian" #Машинный перевод 28.10.23
- mahndayana_adherent_plural: "Заоранцы" #Машинный перевод 28.10.23
- mahndayana_desc: "[frodbrokna|E] стал подтверждением худших опасений многих заоранцев, особенно потому, что это произошло именно тогда, когда Пророк предсказал поражение их бога. Люди остались в апатии, задаваясь вопросом, как они могут продолжать функционировать в мире, где зло восторжествовало над добром. Их ответ был на удивление простым: продолжать функционировать так, как будто это не так. Многие заоранцы продолжают совершать ритуалы и петь песни своих предков в отчаянной надежде, что их жесты однажды приведут Заорана к предсказанной победе." #Машинный перевод 28.10.23
+ mahndayana: "Махндаянство"  
+ mahndayana_adj: "Махндаянск"  
+ mahndayana_adjerent: "Заоранист"  
+ mahndayana_adherent_plural: "Заоранисты"  
+ mahndayana_desc: "[Concept('frodbrokna','Фродброкна')|E] стала подтверждением худших опасений многих заоранистов, особенно потому, что это произошло именно тогда, когда Пророк предсказал поражение их бога. Люди остались растерянными, задаваясь вопросом, как они могут продолжать существовать в мире, где зло восторжествовало над добром. Их ответ был на удивление простым: продолжать жить так, как будто это не так. Многие заоранисты продолжают совершать ритуалы и петь песни своих предков в отчаянной надежде, что их жесты однажды приведут Заорана к предсказанной победе."  
   
- vinderon: "Виндеонизм" #Машинный перевод 28.10.23
- vinderon_adj: "Виндеонский" #Машинный перевод 28.10.23
- videron_adjerent: "Виндеонский" #Машинный перевод 28.10.23
- vinderon_adherent_plural: "Виндеонцы" #Машинный перевод 28.10.23
- vinderon_desc: "Никто не знает наверняка, какой дух движет умами своих последователей. Никто не знает, чему они поклоняются. Никто даже не знает, откуда произошло слово «Виндеон». Все, что они знают, это то, что оно связано с [tower|E], этим первобытным чудовищем из циклопического камня, которое обитало в пустынных пустошах еще до того, как туда ступила нога человека. Они одержимы этим, и всем Башням по всему миру это нравится. Неизвестно, что хотят сделать с этими Башнями, но никто не хочет выяснять." #Машинный перевод 28.10.23
- vinderon_religious_text: "Команды слуги" #Машинный перевод 28.10.23
+ vinderon: "Виндеонизм"  
+ vinderon_adj: "Виндеонск"  
+ videron_adjerent: "Виндеонист"  
+ vinderon_adherent_plural: "Виндеонисты"  
+ vinderon_desc: "Никто не знает наверняка, какой дух движет умами своих последователей. Никто не знает, чему они поклоняются. Никто даже не знает, откуда произошло слово «Виндеон». Все, что известно, это то, что оно связано с [Concept('tower','Башней')|E], этим первобытным чудовищем из циклопического камня, которое находилось в пустошах еще до того, как туда ступила нога человека. Они одержимы этой, и всеми остальными Башнями по всему миру. Неизвестно, что они хотят сделать с этими Башнями, но и никто не хочет это выяснять."  
+ vinderon_religious_text: "Команды слуги"  
