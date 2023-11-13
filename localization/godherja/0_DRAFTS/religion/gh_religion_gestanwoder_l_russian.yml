@@ -1,31 +1,31 @@
 ﻿l_russian:
   
  #gestanwoder Loc 
- gestanwoder_religion: "Гестанводер" #Машинный перевод 28.10.23
- gestanwoder_religion_adj: "Гестанводеры" #Машинный перевод 28.10.23
- gestanwoder_religion_adjerent: "Гестанводер" #Машинный перевод 28.10.23
- gestanwoder_religion_adherent_plural: "Гестанводеры" #Машинный перевод 28.10.23
- gestanwoder_religion_desc: "Религия гестанводеров верит в богов, но они не добры и не заботливы; это жестокие и капризные существа, небесные деспоты, которые видят в людях свои игрушки и не более того. Жизнь — это бесконечная цепь страданий, и единственная надежда — влачить сносное существование под каблуком богов. Если повезет, они могут заключить однобокую сделку с божеством, так что их бесконечным мучениям хотя бы на короткое время предшествуют смертные удовольствия." #Машинный перевод 28.10.23
- gestanwoder_high_god_name: "Нерзаал, Посланник Богов" #Машинный перевод 28.10.23
- gestanwoder_high_god_name_possessive: "Нерзаала" #Машинный перевод 28.10.23
+ gestanwoder_religion: "Гестанводерск" 
+ gestanwoder_religion_adj: "Гестанводер" 
+ gestanwoder_religion_adjerent: "Гестанводер" 
+ gestanwoder_religion_adherent_plural: "Гестанводеры" 
+ gestanwoder_religion_desc: "Религия гестанводеров верит в богов, но они не добры и не заботливы; это жестокие и капризные существа, небесные деспоты, которые видят в людях свои игрушки и не более того. Жизнь — это бесконечная цепь страданий, и единственная надежда — влачить сносное существование под каблуком богов. Если повезет, они могут заключить однобокую сделку с божеством, так что их бесконечным мучениям хотя бы на короткое время предшествуют смертные удовольствия." 
+ gestanwoder_high_god_name: "Нерзаал, Посланник Богов" 
+ gestanwoder_high_god_name_possessive: "Нерзаалы" 
  gestanwoder_high_god_name_alternate: "Ползучий хаос" #Машинный перевод 28.10.23
  gestanwoder_high_god_name_alternate_possessive: "Ползучий хаос»" #Машинный перевод 28.10.23
  gestanwoder_devil_name: "Могучий Альребригт" #Машинный перевод 28.10.23
  gestanwoder_devil_name_possessive: "Могучий Альребригт" #Машинный перевод 28.10.23
- gestanwoder_death_deity_name: "Без кожи" #Машинный перевод 28.10.23
- gestanwoder_death_deity_name_possessive: "Без Кожи" #Машинный перевод 28.10.23
+ gestanwoder_death_deity_name: "Безкожный" 
+ gestanwoder_death_deity_name_possessive: "Безкожный" 
   
   
   
- gestanwoder_house_of_worship: "Ковен" #Машинный перевод 28.10.23
- gestanwoder_house_of_worship_plural: "Ковен" #Машинный перевод 28.10.23
- gestanwoder_religious_symbol: "Смеющийся Бог" #Машинный перевод 28.10.23
- gestanwoder_religious_text: "Шепот ползущего хаоса" #Машинный перевод 28.10.23
+ gestanwoder_house_of_worship: "Ковен" 
+ gestanwoder_house_of_worship_plural: "Ковны"
+ gestanwoder_religious_symbol: "Смеющийся Бог" 
+ gestanwoder_religious_text: "Шепот ползущего хаоса" 
   
- gestanwoder_religious_head_title: "Водер-Товерейс" #Машинный перевод 28.10.23
- gestanwoder_religious_head_title_name: "Водрик-Товерейс" #Машинный перевод 28.10.23
- gestanwoder_devotee_male: "Гестанводер" #Машинный перевод 28.10.23
- gestanwoder_devotee_male_plural: "Гестанводре" #Машинный перевод 28.10.23
+ gestanwoder_religious_head_title: "Водер-Товерейс" 
+ gestanwoder_religious_head_title_name: "Водрик-Товерейс" 
+ gestanwoder_devotee_male: "Гестанводер" 
+ gestanwoder_devotee_male_plural: "Гестанводеры" 
  gestanwoder_devotee_female: "Гестанводер" #Машинный перевод 28.10.23
  gestanwoder_devotee_female_plural: "Гестанводре" #Машинный перевод 28.10.23
  gestanwoder_devotee_neuter: "Гестанводер" #Машинный перевод 28.10.23
@@ -65,12 +65,12 @@
  gestanwoder_witch_god_name: "Мама Альребригт" #Машинный перевод 28.10.23
  gestanwoder_witch_god_name_possessive: "мама Олребригт" #Машинный перевод 28.10.23
   
- gestanwoder: "Гестанводер" #Машинный перевод 28.10.23
- gestanwoder_adj: "Гестанводеры" #Машинный перевод 28.10.23
- gestanwoder_adjerent: "Гестанводер" #Машинный перевод 28.10.23
- gestanwoder_adherent_plural: "Гестанводеры" #Машинный перевод 28.10.23
- gestanwoder_desc: "Гестанводеры когда-то правили болотами Конийкменера, но затем были вытеснены захватчиками Следопытами. Они выживают только в самых глубоких и труднодоступных болотах, цепляясь за свою исконную веру и полагая, что это просто еще одно наказание от их жестоких богов. Но некоторые превратились в темных и невыразимых существ в местах, куда не осмеливаются ступить даже бесстрашные, ища краткие мгновения невыразимой силы в своей короткой жизни..." #Машинный перевод 28.10.23
- gestanwoder_old: "Старый Гестанводер" #Машинный перевод 28.10.23
- gestanwoder_old_adj: "Старый Гестанводер" #Машинный перевод 28.10.23
- gestanwoder_old_adherent: "Старый Гестанводер" #Машинный перевод 28.10.23
- gestanwoder_old_adherent_plural: "Старый Гестанводер" #Машинный перевод 28.10.23
+ gestanwoder: "Гестанводерск" 
+ gestanwoder_adj: "Гестанводер" 
+ gestanwoder_adjerent: "Гестанводер"
+ gestanwoder_adherent_plural: "Гестанводеры" 
+ gestanwoder_desc: "Гестанводеры когда-то правили болотами Конийкменера, но затем были вытеснены захватчиками-Следопытами. Они выживают только в самых глубоких и труднодоступных болотах, цепляясь за свою исконную веру и полагая, что это просто еще одно наказание от их жестоких богов. Но некоторые превратились в темных и невыразимых существ в местах, куда не осмеливаются ступить даже бесстрашные, ища краткие мгновения невыразимой силы в своей короткой жизни..." 
+ gestanwoder_old: "Старо-гестанводерск" 
+ gestanwoder_old_adj: "Старый Гестанводер" 
+ gestanwoder_old_adherent: "Старый Гестанводер" 
+ gestanwoder_old_adherent_plural: "Старые Гестанводеры" 
