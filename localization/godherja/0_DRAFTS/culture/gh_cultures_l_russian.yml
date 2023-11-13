@@ -249,9 +249,9 @@
   
   
   #Skoronyk 
- gh_skoronyk_group: "Скороники"  
+ gh_skoronyk_group: "Скороникинцы"  
  gh_skoronyk_group_collective_noun: "Скороникск" 
- skoronyk: "Скороники" 
+ skoronyk: "Скороникинцы" 
  skoronyk_collective_noun: "Скороникск" 
   
   
@@ -303,7 +303,7 @@
   #Daravani 
  gh_daravani_group: "Дараванийцы"
  gh_daravani_group_collective_noun: "Дараванийск"
- ualeren: "Уалерены"
+ ualeren: "Уалеренцы"
  ualeren_collective_noun: "Уалеренск"
  maebalah: "Маэбалахцы" 
  maebalah_collective_noun: "Мэебалахск"
@@ -489,9 +489,9 @@
   
   #Fog Eaters 
  gh_fog_eaters_group: "Пожиратели тумана"  
- gh_fog_eaters_group_collective_noun: "Туманнск"  
+ gh_fog_eaters_group_collective_noun: "Туманн"  
  fog_eaters: "Пожиратели тумана"  
- fog_eaters_collective_noun: "Туманнск"  
+ fog_eaters_collective_noun: "Туманн"  
   
   
   
@@ -716,7 +716,7 @@
  prapataro_collective_noun: "Прапатаронск"  
  garami: "Гарамины"  
  garami_collective_noun: "Гараминск" 
- saruta: "Сарутаны" 
+ saruta: "Сарутанцы" 
  saruta_collective_noun: "Сарутанск" 
  iafarana: "Иафарананцы" 
  iafarana_collective_noun: "Иафарананск" 
@@ -728,7 +728,7 @@
   
   
   #Margur group 
- gh_margur_group: "Маргуры" 
+ gh_margur_group: "Маргурцы" 
  gh_margur_group_collective_noun: "Маргурск"
  hokanta: "Хокантанцы"  
  hokanta_collective_noun: "Хокантанск" 
@@ -800,11 +800,11 @@
   
   
   #Agnala 
- gh_agnala_group: "Агналаны" 
+ gh_agnala_group: "Агналанцы" 
  gh_agnala_group_collective_noun: "Агналанск" 
- sindaara: "Синдаараны"
+ sindaara: "Синдааранцы"
  sindaara_collective_noun: "Синдааранск"
- agunaha: "Агунаханы"
+ agunaha: "Агунаханцы"
  agunaha_collective_noun: "Агунаханск"
   
   
@@ -816,7 +816,7 @@
  yaknha_collective_noun: "Якнханск"
  siklasa: "Сикласанцы"
  siklasa_collective_noun: "Сикласанск" 
- temala: "Темаланы"  
+ temala: "Темаланцы"  
  temala_collective_noun: "Темаланск"
   
   
@@ -830,8 +830,8 @@
  lainar_collective_noun: "Лайнарск"  
  qoltaam: "Колтаамы"  
  qoltaam_collective_noun: "Колтаамск"  
- kadwana: "Кавананцы"
- kadwana_collective_noun: "Кавананск"  
+ kadwana: "Кадвананцы"
+ kadwana_collective_noun: "Кадвананск"  
   
   
   
@@ -849,7 +849,7 @@
   
   #khalai 
  gh_khalai_group: "Халаи"  
- gh_khalai_group_collective_noun: "Халаиск" !
+ gh_khalai_group_collective_noun: "Халаиск"
  vyatari: "Вятарийцы"  
  vyatari_collective_noun: "Вятарийск"  
  majanta: "Маджантаны"  
@@ -860,8 +860,8 @@
   #zonthawa 
  gh_zonthawa_group: "Зонтаванцы"  
  gh_zonthawa_group_collective_noun: "Зонтаванск"  
- jankalo: "Джакалонцы" 
- jankalo_collective_noun: "Джакалонск"  
+ jankalo: "Джанкалонцы" 
+ jankalo_collective_noun: "Джанкалонск"  
  sakankra: "Саканкранцы"  
  sakankra_collective_noun: "Саканкранск"  
  telukor: "Телукорцы"  
@@ -1049,7 +1049,7 @@
  marndeoticeni_collective_noun: "Марндеотикенийск" 
  iseni: "Исиньинцы"  
  iseni_collective_noun: "Исиньинск" 
- sceyfig_lighter: "Скёфеглайтеры"  
+ sceyfig_lighter: "Скёфеглайтерцы"  
  sceyfig_lighter_collective_noun: "Скёфеглайтерск"  
  bricotaves: "Брикотаванцы"  
  bricotaves_collective_noun: "Брикотаванск"  
@@ -1103,14 +1103,14 @@
  takopara_collective_noun: "Такопаранск"  
  theugombrians: "Теугомбрийцы"  
  theugombrians_collective_noun: "Теугомбрийск" 
- gh_theugombrians_group: "Теугомбрий" 
+ gh_theugombrians_group: "Теугомбрийцы" 
  ogantea: "Огантеанцы"  
  ogantea_collective_noun: "Огантеанск"  
  tafara: "Тафараны"  
  tafara_collective_noun: "Тафаранск"  
  ndoufre: "Ндуфрены"  
  ndoufre_collective_noun: "Ндуфренск"  
- gh_redlanders_group: "Редлендеры" 
+ gh_redlanders_group: "Редлендерцы" 
  gh_takopara_group: "Такопаранцы"  
  gh_zanaumaures_group: "Занаумаресы"  
  leriseb: "Лерисебы"  
