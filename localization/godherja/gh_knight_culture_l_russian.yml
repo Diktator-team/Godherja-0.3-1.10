@@ -1,58 +1,58 @@
 ﻿l_russian:
    # No tooltip versions 
- knight_heprasitos_no_tooltip: "Гепраситос"  #Машинный перевод 28.10.23!
- knight_heprasitos_no_tooltip_plural: "Гепраситой"  #Машинный перевод 28.10.23!
+ knight_heprasitos_no_tooltip: "Гепраситос"  
+ knight_heprasitos_no_tooltip_plural: "Гепраситосы"
   
- knight_chevalier_no_tooltip: "Шевалье"  #Машинный перевод 28.10.23!
- knight_chevalier_no_tooltip_plural: "Шевалье"  #Машинный перевод 28.10.23!
+ knight_chevalier_no_tooltip: "Шевальер"
+ knight_chevalier_no_tooltip_plural: "Шевальеры" 
   
- knight_mubaaizun_no_tooltip: "Mubaaizun"  #Машинный перевод 28.10.23!
- knight_mubaaizun_no_tooltip_plural: "Mubaaizun"  #Машинный перевод 28.10.23!
+ knight_mubaaizun_no_tooltip: "Мубайзун"
+ knight_mubaaizun_no_tooltip_plural: "Мубайзуны"
   
- knight_huscarl_no_tooltip: "Хускарл"  #Машинный перевод 28.10.23!
- knight_huscarl_no_tooltip_plural: "Хускарлы"  #Машинный перевод 28.10.23!
+ knight_huscarl_no_tooltip: "Хускарл"
+ knight_huscarl_no_tooltip_plural: "Хускарлы"
   
- knight_companion_no_tooltip: "Компаньон"  #Машинный перевод 28.10.23!
- knight_companion_no_tooltip_plural: "Компаньоны"  #Машинный перевод 28.10.23!
+ knight_companion_no_tooltip: "Компаньон"  
+ knight_companion_no_tooltip_plural: "Компаньоны"
   
    # Lowercase versions 
- knight_heprasitos_no_tooltip_lowercase: "гепразитос"  #Машинный перевод 28.10.23!
- knight_heprasitos_no_tooltip_lowercase_plural: "гепраситои"  #Машинный перевод 28.10.23!
- knight_heprasitos_no_tooltip_lowercase_plural_possessive: "гепразитон"  #Машинный перевод 28.10.23!
- knight_heprasitos_no_tooltip_lowercase_adjective: "гепраситикос"  #Машинный перевод 28.10.23!
+ knight_heprasitos_no_tooltip_lowercase: "гепраситос"  
+ knight_heprasitos_no_tooltip_lowercase_plural: "гепраситосы"  
+ knight_heprasitos_no_tooltip_lowercase_plural_possessive: "гепраситоса"  
+ knight_heprasitos_no_tooltip_lowercase_adjective: "гепраситск" 
   
- knight_chevalier_no_tooltip_lowercase: "кавалер"  #Машинный перевод 28.10.23!
- knight_chevalier_no_tooltip_lowercase_plural: "кавалеры"  #Машинный перевод 28.10.23!
- knight_chevalier_no_tooltip_lowercase_plural_possessive: "шевалье"  #Машинный перевод 28.10.23!
- knight_chevalier_no_tooltip_lowercase_adjective: "шевалереск"  #Машинный перевод 28.10.23!
+ knight_chevalier_no_tooltip_lowercase: "шевальер"
+ knight_chevalier_no_tooltip_lowercase_plural: "шевальеры" 
+ knight_chevalier_no_tooltip_lowercase_plural_possessive: "шевальера" 
+ knight_chevalier_no_tooltip_lowercase_adjective: "шевальерск" 
   
- knight_mubaaizun_no_tooltip_lowercase: "mubaaizun"  #Машинный перевод 28.10.23!
- knight_mubaaizun_no_tooltip_lowercase_plural: "mubaaizun"  #Машинный перевод 28.10.23!
- knight_mubaaizun_no_tooltip_lowercase_plural_possessive: "mubaaizun'"  #Машинный перевод 28.10.23!
- knight_mubaaizun_no_tooltip_lowercase_adjective: "mubaaizun"  #Машинный перевод 28.10.23!
+ knight_mubaaizun_no_tooltip_lowercase: "мубайзун"  
+ knight_mubaaizun_no_tooltip_lowercase_plural: "мубайзуны"  
+ knight_mubaaizun_no_tooltip_lowercase_plural_possessive: "мубайзуна"  
+ knight_mubaaizun_no_tooltip_lowercase_adjective: "мубайзунск"
   
- knight_huscarl_no_tooltip_lowercase: "хускарл"  #Машинный перевод 28.10.23!
- knight_huscarl_no_tooltip_lowercase_plural: "хускарлы"  #Машинный перевод 28.10.23!
- knight_huscarl_no_tooltip_lowercase_plural_possessive: "хускарл"  #Машинный перевод 28.10.23!
- knight_huscarl_no_tooltip_lowercase_adjective: "грубый"  #Машинный перевод 28.10.23!
+ knight_huscarl_no_tooltip_lowercase: "хускарл"
+ knight_huscarl_no_tooltip_lowercase_plural: "хускарлы"  
+ knight_huscarl_no_tooltip_lowercase_plural_possessive: "хускарла"  
+ knight_huscarl_no_tooltip_lowercase_adjective: "хурскальск"
   
- knight_companion_no_tooltip_lowercase: "компаньон"  #Машинный перевод 28.10.23!
- knight_companion_no_tooltip_lowercase_plural: "компаньоны"  #Машинный перевод 28.10.23!
- knight_companion_no_tooltip_lowercase_plural_possessive: "товарищи"  #Машинный перевод 28.10.23!
- knight_companion_no_tooltip_lowercase_adjective: "компанейский"  #Машинный перевод 28.10.23!
+ knight_companion_no_tooltip_lowercase: "компаньон"  
+ knight_companion_no_tooltip_lowercase_plural: "компаньоны"  
+ knight_companion_no_tooltip_lowercase_plural_possessive: "компаньона"  
+ knight_companion_no_tooltip_lowercase_adjective: "компаньонск"
   
    #Game Concept versions 
- knight_heprasitos: "[Concept( 'knight', '$knight_heprasitos_no_tooltip$' )|E]"  #Машинный перевод 28.10.23!
- knight_heprasitos_plural: "[Concept( 'knight', '$knight_heprasitos_no_tooltip_plural$' )|E]"  #Машинный перевод 28.10.23!
+ knight_heprasitos: "[Concept( 'knight', '$knight_heprasitos_no_tooltip$' )|E]"  
+ knight_heprasitos_plural: "[Concept( 'knight', '$knight_heprasitos_no_tooltip_plural$' )|E]" 
   
- knight_chevalier: "[Concept( 'knight', '$knight_chevalier_no_tooltip$' )|E]"  #Машинный перевод 28.10.23!
- knight_chevalier_plural: "[Concept( 'knight', '$knight_chevalier_no_tooltip_plural$' )|E]"  #Машинный перевод 28.10.23!
+ knight_chevalier: "[Concept( 'knight', '$knight_chevalier_no_tooltip$' )|E]"  
+ knight_chevalier_plural: "[Concept( 'knight', '$knight_chevalier_no_tooltip_plural$' )|E]"  
   
- knight_mubaaizun: "[Concept( 'knight', '$knight_mubaaizun_no_tooltip$' )|E]"  #Машинный перевод 28.10.23!
- knight_mubaaizun_plural: "[Concept( 'knight', '$knight_mubaaizun_no_tooltip_plural$' )|E]"  #Машинный перевод 28.10.23!
+ knight_mubaaizun: "[Concept( 'knight', '$knight_mubaaizun_no_tooltip$' )|E]"  
+ knight_mubaaizun_plural: "[Concept( 'knight', '$knight_mubaaizun_no_tooltip_plural$' )|E]"  
   
- knight_huscarl: "[Concept( 'knight', '$knight_huscarl_no_tooltip$' )|E]"  #Машинный перевод 28.10.23!
- knight_huscarl_plural: "[Concept( 'knight', '$knight_huscarl_no_tooltip_plural$' )|E]"  #Машинный перевод 28.10.23!
+ knight_huscarl: "[Concept( 'knight', '$knight_huscarl_no_tooltip$' )|E]"  
+ knight_huscarl_plural: "[Concept( 'knight', '$knight_huscarl_no_tooltip_plural$' )|E]"  
   
- knight_companion: "[Concept( 'knight', '$knight_companion_no_tooltip$' )|E]"  #Машинный перевод 28.10.23!
- knight_companion_plural: "[Concept( 'knight', '$knight_companion_no_tooltip_plural$' )|E]"  #Машинный перевод 28.10.23!
+ knight_companion: "[Concept( 'knight', '$knight_companion_no_tooltip$' )|E]"  
+ knight_companion_plural: "[Concept( 'knight', '$knight_companion_no_tooltip_plural$' )|E]" 
