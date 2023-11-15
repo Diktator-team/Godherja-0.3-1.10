@@ -1,88 +1,88 @@
 ﻿l_russian:
   
- magocratic_government: "Магократия"  #Машинный перевод 28.10.23!
- magocratic_government_realm: "Магократия"  #Машинный перевод 28.10.23!
- magocratic_government_desc: "$game_concept_magocracy_desc$\n\n#F Магократии — это земли, управляемые единственным [magi|E]. Этот [magi|E] правит во многом подобно аристократическому правителю, за исключением того, что аппарат государства построен таким образом, что ожидается, что будет править только [magi|E]. Это приводит к созданию системы, напоминающей феодальную, где любой ребенок без дара магии автоматически считается лишенным наследства."  #Машинный перевод 28.10.23!
- magocratic_government_adjective: "Магократический"  #Машинный перевод 28.10.23!
+ magocratic_government: "Магократия"
+ magocratic_government_realm: "Магократия"
+ magocratic_government_desc: "$game_concept_magocracy_desc$\n\n#F Магократия — это земли, управляемые единственным [Concept('magi','магом')|E]. Этот [Concept('magi','маг')|E] правит подобно аристократическому правителю, за исключением того, что аппарат государства построен таким образом, что править может только [Concept('magi','маг')|E]. В результате возникает феодальная система, при которой любой ребенок, не обладающий магическим даром, автоматически считается лишенным наследства." 
+ magocratic_government_adjective: "Магократическ"
   
- magocratic_republic: "Магократическая Республика"  #Машинный перевод 28.10.23!
- magocratic_republic_realm: "Магократическая Республика"  #Машинный перевод 28.10.23!
- magocratic_republic_desc: "$game_concept_magocratic_republic_desc$\n\n#F Магократические республики похожи на стандартную Магократию, за исключением того факта, что правителем является не династический автократ, а автократ, избранный из числа [magi|E] власти в соответствующих сферах."  #Машинный перевод 28.10.23!
- magocratic_republic_adjective: "Магократический"  #Машинный перевод 28.10.23!
+ magocratic_republic: "Магократическая Республика" 
+ magocratic_republic_realm: "Магократическая Республика"  
+ magocratic_republic_desc: "$game_concept_magocratic_republic_desc$\n\n#F Магократические республики похожи на стандартную магократию, за исключением того факта, что правитель является не династическим автократом, а автократом, избранным из числа [Concept('magi','магов')|E], обладающих властью в соответствующих королевствах."
+ magocratic_republic_adjective: "Магократическ" 
   
- peasant_republic: "Крестьянская Республика"  #Машинный перевод 28.10.23!
- peasant_republic_realm: "Крестьянская Республика"  #Машинный перевод 28.10.23!
- peasant_republic_desc: "$game_concept_peasant_republic_desc$\n\n#F Крестьянские республики — это свободно демократические «государства», полностью находящиеся под контролем местного крестьянства. Крестьянские республики часто возникают во времена беспорядков, но редко существуют долго из-за угрозы, которую они представляют для современных систем власти."  #Машинный перевод 28.10.23!
- peasant_republic_adjective: "Крестьянин"  #Машинный перевод 28.10.23!
+ peasant_republic: "Крестьянская Республика" 
+ peasant_republic_realm: "Крестьянская Республика" 
+ peasant_republic_desc: "$game_concept_peasant_republic_desc$\n\n#F Крестьянские республики - это слабо демократические "государства", полностью подконтрольные местному крестьянству. Крестьянские республики часто возникают во время беспорядков, но редко существуют долго из-за угрозы, которую они представляют для современных систем власти." 
+ peasant_republic_adjective: "Крестьянск"  
   
- republic_playable_government: "Республика"  #Машинный перевод 28.10.23!
- republic_playable_government_adjective: "Республика"  #Машинный перевод 28.10.23!
- republic_playable_government_realm: "Республика"  #Машинный перевод 28.10.23!
- republic_playable_government_desc: "$game_concept_republic_desc$\n\n#F Городами управляют привилегированные граждане класса бюргеров, один из которых избирается мэром. Хотя мэр имеет значительное влияние, его переизбрание зависит от популярности. #!"  #Машинный перевод 28.10.23!
- republic_playable_government_vassals_label: "Республика [obligations|E] одинаковы для всех республиканцев [vassals|E]."  #Машинный перевод 28.10.23!
- republic_playable_government_obligations: "Республика [obligations|E]"  #Машинный перевод 28.10.23!
+ republic_playable_government: "Республика"
+ republic_playable_government_adjective: "Республиканск"  
+ republic_playable_government_realm: "Республика" 
+ republic_playable_government_desc: "$game_concept_republic_desc$\n\n#F Городами управляют привилегированные граждане, принадлежащие к классу бюргеров, среди которых один выбирается мэром. Хотя мэр обладает значительным влиянием, его переизбрание зависит от популярности. #!" 
+ republic_playable_government_vassals_label: "Республиканские [obligations|E] одинаковы для всех республиканских [Concept('vassals','вассалов')|E]."
+ republic_playable_government_obligations: "Республиканские [obligations|E]"
   
- landed_order_government: "Приземленный Священный Орден"  #Машинный перевод 28.10.23!
- landed_order_government_realm: "Приземленный Священный Орден"  #Машинный перевод 28.10.23!
- landed_order_government_desc: "Этот священный орден устоялся и взял на себя роль, больше напоминающую царство, управляемое аристократами. Несмотря на то, что братья этого ордена святы по названию и ловушкам, а также, возможно, по некоторым из своих правительственных функций, они в основном действуют как выборная монархия."  #Машинный перевод 28.10.23!
- landed_order_government_adjective: "Священный Орден"  #Машинный перевод 28.10.23!
+ landed_order_government: "Приземленный Священный Орден"
+ landed_order_government_realm: "Приземленный Священный Орден"
+ landed_order_government_desc: "Этот священный орден остепенился и взял на себя роль, больше напоминающую королевство, управляемое аристократией. Будучи святыми по названию и по отлову, а также, возможно, по некоторым своим правительственным функциям, братья этого ордена в основном действуют как выборная монархия."
+ landed_order_government_adjective: "Священно-орденск"
   
- military_unit_government: "Военная часть"  #Машинный перевод 28.10.23!
- military_unit_government_realm: "Военная часть"  #Машинный перевод 28.10.23!
- military_unit_government_desc: "Остатки военной силы [aversarian|E], оставшиеся после падения Империи. Будь то легион [aversarian|E], создавший собственное королевство, или остатки военных границ [aversaria_possessive|E], теперь это подразделение в основном сражается само за себя."  #Машинный перевод 28.10.23!
- military_unit_government_adjective: "Военный"  #Машинный перевод 28.10.23!
+ military_unit_government: "Воинская часть"  
+ military_unit_government_realm: "Воинская часть" 
+ military_unit_government_desc: "Остатки [Concept('aversarian','аверсарианских')|E] военных сил, оставшихся после падения Империи. Будь то [Concept('aversarian','аверсарианский')|E] легион, выделивший свое собственное королевство, или остатки [Concept('aversaria_possessive','аверсарианских')|E] военных границ, это подразделение теперь в основном сражается само за себя." 
+ military_unit_government_adjective: "Воинск"  
   
- pirate_government: "Пират"  #Машинный перевод 28.10.23!
- pirate_government_adjective: "Пират"  #Машинный перевод 28.10.23!
- pirate_government_realm: "Пиратское царство"  #Машинный перевод 28.10.23!
- pirate_government_desc: "$game_concept_pirate_desc$\n\n#F Пираты очень редко соблюдают какой-либо кодекс, кроме одного — самого сильного и хитрого правила. Любой мужчина или женщина со стальным сердцем и соответствующим умом могут подняться на вершину горы павших врагов, если приложат к этому усилия. #!"  #Машинный перевод 28.10.23!
+ pirate_government: "Пираты"
+ pirate_government_adjective: "Пиратск"  
+ pirate_government_realm: "Пиратское королевство" 
+ pirate_government_desc: "$game_concept_pirate_desc$\n\n#F Пираты очень редко придерживаются какого-либо кодекса, кроме одного - правила самого сильного и хитрого. Любой мужчина или женщина со стальным сердцем и недюжинной смекалкой могут подняться на вершину над горой поверженных врагов, если только приложат к этому усилия. #!"
   
- administrative_bureaucracy_government: "Административная бюрократия"  #Машинный перевод 28.10.23!
- administrative_bureaucracy_government_adjective: "Бюрократический"  #Машинный перевод 28.10.23!
- administrative_bureaucracy_government_realm: "Административная бюрократия"  #Машинный перевод 28.10.23!
- administrative_bureaucracy_government_desc: "Могущественная империя Адабисс является домом, пожалуй, самого централизованного государства на [aeras|E], с сильным императором и классом жрецов, эффективно управляющих обширным царством, используя свои передовые технологии для организации масштабных строительных проектов и выставления гигантских, стандартизированных армий.\n \n#N Берукратические миры в настоящее время недоступны для игры!#!"  #Машинный перевод 28.10.23!
+ administrative_bureaucracy_government: "Административная бюрократия"  
+ administrative_bureaucracy_government_adjective: "Бюрократcк"  
+ administrative_bureaucracy_government_realm: "Административная бюрократия"  
+ administrative_bureaucracy_government_desc: "Могущественная империя Адабисс - родина, пожалуй, самого централизованного государства на планете [aeras|E], сильный император и священнослужители эффективно управляют огромной территорией, используя передовые технологии для организации масштабных строительных проектов и создания гигантских стандартизированных армий.\n \n#N Бюрократические сферы в настоящее время недоступны для воспроизведения!#!"
   
- migratory_government: "Миграционный"  #Машинный перевод 28.10.23!
- migratory_government_adjective: "Миграционный"  #Машинный перевод 28.10.23!
- migratory_government_realm: "Миграционный"  #Машинный перевод 28.10.23!
- migratory_government_desc: "Мигрирующие королевства либо не имеют дома, либо мигрируют между несколькими. Кочевники [aeras|E] варьируются от пустынных кланов до странствующих компаний искателей приключений до [Concept('fogeaters','maddened once-men')|E]. Мигрирующие миры не следует путать с большими группами, исполняющими [Concept('migrations','great migrations')|E] после катастрофических событий [frodbrokna|E].\n\n#N Скоро появятся игровые мигрирующие миры!#!"  #Машинный перевод 28.10.23!
+ migratory_government: "Миграционный" 
+ migratory_government_adjective: "Миграционн"
+ migratory_government_realm: "Миграционное" 
+ migratory_government_desc: "Мигрирующие королевства либо не имеют дома, либо мигрируют между несколькими. Кочевники [Concept('aeras','Аэраса')|E] варьируются от пустынных кланов до странствующих компаний искателей приключений и [Concept('fogeaters','обезумевших некогда людей')|E]. Миграционные королевста не следует путать с большими группами, совершающими [Concept('migrations','великие переселения')|E] после катаклизмов [frodbrokna|E].\n\n#N Скоро появятся игровые мигрирующие королевства!#!"
   
- lichdom_government: "Личдом"  #Машинный перевод 28.10.23!
- lichdom_government_realm: "Личдом"  #Машинный перевод 28.10.23!
- lichdom_government_desc: "Это царство, управляемое личем, состоит только из рабов нежити, бездумно марширующих под дудку своего хозяина, и низших личей, ожидающих своего шанса убить своего временного угнетателя."  #Машинный перевод 28.10.23!
- lichdom_government_adjective: "Танатократический"  #Машинный перевод 28.10.23!
+ lichdom_government: "Личдом"  
+ lichdom_government_realm: "Личдом"  
+ lichdom_government_desc: "Это королевство, управляемое личем, состоит только из рабов нежити, бездумно марширующих под дудку своего хозяина, и низших личей, ожидающих своего шанса убить своего временного правителя."
+ lichdom_government_adjective: "Танатократск" 
   
- wasteland_government: "Пустошь"  #Машинный перевод 28.10.23!
- wasteland_government_realm: "Пустошь"  #Машинный перевод 28.10.23!
- #wasteland_government_desc: "Выжженные руины и пустынная пустыня, эта пустошь не тронута следами цивилизации, будь то из-за ужасной опасности или простого отсутствия исследований."  #Машинный перевод 28.10.23!
- wasteland_government_desc: "$wasteland_faith_desc$"  #Машинный перевод 28.10.23!
- wasteland_government_adjective: "Пустошь"  #Машинный перевод 28.10.23!
+ wasteland_government: "Пустошь"  
+ wasteland_government_realm: "Пустошь" 
+ #wasteland_government_desc: "Разрушенные руины и пустая дикая местность - эта пустошь не тронута признаками цивилизации, будь то из-за ужасной опасности или простого отсутствия исследований." 
+ wasteland_government_desc: "$wasteland_faith_desc$"  
+ wasteland_government_adjective: "Пустошск" 
   
- government_can_raid_over_water_rule: "Позволяет использовать [raiding|E] из зарубежных [counties|E] для добычи"  #Машинный перевод 28.10.23!
+ government_can_raid_over_water_rule: "Позволяет совершать [Concept('raiding','набеги')|E] на заморские [Concept('counties','графства')|E] с целью получения добычи"  
   
- GAME_OVER_CANNOT_PLAY_WASTELAND: "Невозможно играть за Пустошь."  #Машинный перевод 28.10.23!
- NOT_GAME_OVER_CANNOT_PLAY_WASTELAND: "$GAME_OVER_CANNOT_PLAY_WASTELAND$"  #Машинный перевод 28.10.23!
- GAME_OVER_CANNOT_PLAY_ADMINISTRATIVE_BUREAUCRACY: "Невозможно играть за административную бюрократию."  #Машинный перевод 28.10.23!
- NOT_GAME_OVER_CANNOT_PLAY_ADMINISTRATIVE_BUREAUCRACY: "$GAME_OVER_CANNOT_PLAY_ADMINISTRATIVE_BUREAUCRACY$"  #Машинный перевод 28.10.23!
- GAME_OVER_CANNOT_PLAY_MIGRATORY: "Невозможно играть за Мигрирующий мир."  #Машинный перевод 28.10.23!
- NOT_GAME_OVER_CANNOT_PLAY_MIGRATORY: "$GAME_OVER_CANNOT_PLAY_MIGRATORY$"  #Машинный перевод 28.10.23!
- GAME_OVER_CANNOT_PLAY_LICHDOM: "Невозможно играть за Личдом."  #Машинный перевод 28.10.23!
- NOT_GAME_OVER_CANNOT_PLAY_LICHDOM: "$GAME_OVER_CANNOT_PLAY_LICHDOM$"  #Машинный перевод 28.10.23!
+ GAME_OVER_CANNOT_PLAY_WASTELAND: "Невозможно играть за Пустошь." 
+ NOT_GAME_OVER_CANNOT_PLAY_WASTELAND: "$GAME_OVER_CANNOT_PLAY_WASTELAND$"  
+ GAME_OVER_CANNOT_PLAY_ADMINISTRATIVE_BUREAUCRACY: "Невозможно играть за административную бюрократию." 
+ NOT_GAME_OVER_CANNOT_PLAY_ADMINISTRATIVE_BUREAUCRACY: "$GAME_OVER_CANNOT_PLAY_ADMINISTRATIVE_BUREAUCRACY$" 
+ GAME_OVER_CANNOT_PLAY_MIGRATORY: "Не может играть за мигрирующее королевство."  
+ NOT_GAME_OVER_CANNOT_PLAY_MIGRATORY: "$GAME_OVER_CANNOT_PLAY_MIGRATORY$"  
+ GAME_OVER_CANNOT_PLAY_LICHDOM: "Невозможно играть за Личдом." 
+ NOT_GAME_OVER_CANNOT_PLAY_LICHDOM: "$GAME_OVER_CANNOT_PLAY_LICHDOM$" 
   
   ## Contribs 
- vassal_contribution_group: "Вассальные взносы"  #Машинный перевод 28.10.23!
- vassal_contribution_none: "Нет взносов"  #Машинный перевод 28.10.23!
- vassal_contribution_none_short: "Нет взносов"  #Машинный перевод 28.10.23!
- vassal_contribution_none_desc: "#emphasis [vassal|E] ничего не добавляет к их [liege|E].#!"  #Машинный перевод 28.10.23!
- vassal_contribution_dread: "Основанный на страхе"  #Машинный перевод 28.10.23!
- vassal_contribution_dread_short: "Основанный на страхе"  #Машинный перевод 28.10.23!
- vassal_contribution_dread_desc: "#emphasis Сумма налогов и сборов, которые, как ожидается, будут вносить [vassal|E], привязана к их @dread_icon [liege|E]![dread|E].#!\n\n#flavor Пиратских вассалов можно запугать только правителями, которые вселяют страх в их сердца.#!"  #Машинный перевод 28.10.23!
- vassal_contribution_prestige: "На основе славы"  #Машинный перевод 28.10.23!
- vassal_contribution_prestige_short: "На основе славы"  #Машинный перевод 28.10.23!
- vassal_contribution_prestige_desc: "#emphasis Сумма налогов и сборов, которые, как ожидается, будет вносить [vassal|E], привязана к @prestige_icon [liege|E]![prestige|E].#!\n\n#flavor Военные подразделения будут подчиняться только тем правителям, которых они уважают.#!"  #Машинный перевод 28.10.23!
+ vassal_contribution_group: Вассальные взносы" 
+ vassal_contribution_none: "Нет взносов" 
+ vassal_contribution_none_short: "Нет взносов"
+ vassal_contribution_none_desc: "#emphasis [vassal|E] ничего не вносит в пользу своего [Concept('liege','сюзерена')|E].#!"
+ vassal_contribution_dread: "Основанные на страхе"
+ vassal_contribution_dread_short: "Основанные на страхе"
+ vassal_contribution_dread_desc: "#emphasis Размер налогов и сборов, которые должен вносить [Concept('vassal','вассал')|E], зависит от @dread_icon![Concept('dread','ужаса')|E] [Concept('liege','сюзерена')|E].#!\n\n#flavor Пиратских вассалов будут запугивать только те правители, которые вселяют страх в их сердца.#!"
+ vassal_contribution_prestige: "На основе известности"  
+ vassal_contribution_prestige_short: "На основе известности"  
+ vassal_contribution_prestige_desc: "#emphasis Размер налогов и сборов, которые должен вносить [Concept('vassal','вассал')|E], зависит от @prestige_icon![Concept('prestige','престижа')|E] [Concept('liege','сюзерена')|E].#!\n\n#flavor Воинские части будут склоняться только перед теми правителями, которых они уважают.#!" 
   
- pirate_government_obligations: "Страшные обязательства"  #Машинный перевод 28.10.23!
- pirate_government_obligations_tt: "[feudal_contract|E] начинается с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_dread' )]"  #Машинный перевод 28.10.23!
- military_unit_government_obligations: "Обязательства по славе"  #Машинный перевод 28.10.23!
- military_unit_government_obligations_tt: "[feudal_contract|E] начинается с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_prestige' )]"  #Машинный перевод 28.10.23!
+ pirate_government_obligations: "Ужасающие обязательства"
+ pirate_government_obligations_tt: "[feudal_contract|E] начинается с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_dread' )]" !
+ military_unit_government_obligations: "Обязательства по известности" 
+ military_unit_government_obligations_tt: "[feudal_contract|E] начинается с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_prestige' )]"
   
