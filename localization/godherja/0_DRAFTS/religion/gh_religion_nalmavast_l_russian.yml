@@ -1,44 +1,44 @@
 ﻿l_russian:
   
  #nalmavast Loc 
- nalmavast_religion: "Налмавастск"  
- nalmavast_religion_adj: "Налмаваст"  
- nalmavast_religion_adjerent: "Налмаваст"  
- nalmavast_religion_adherent_plural: "Налмавасты"  
- nalmavast_religion_desc: "Налмавасты поклоняются одноименной Налме, традиционной богине урожая и плодородия народов народлек. Налмавасты признают, что на [Concept('aeras','Аэрасе')|E] много богов, но ими почитается только Налма, все остальные божества принадлежат другим народам. Только великодушная Налма заботится о народлек и их стадах. Налма может принимать облик большой рыжей телицы или молодой девушки. В обеих формах кожа Налмы покрыта множеством вращающихся, постоянно повторяющихся узоров, намекающих на постоянный цикл жизни и возрождения, который управляет миром природы."  
- nalmavast_high_god_name: "Налма"  
- nalmavast_high_god_name_possessive: "Налмы"  
- nalmavast_high_god_name_alternate: "Красная Женщина"  
- nalmavast_high_god_name_alternate_possessive: "Красной Женщины"  
- nalmavast_devil_name: "Куго Узо"  
- nalmavast_devil_name_possessive: "Куго Узо"  
+ nalmavast_religion: "Налмаваст" #Машинный перевод 28.10.23
+ nalmavast_religion_adj: "Налмаваст" #Машинный перевод 28.10.23
+ nalmavast_religion_adjerent: "Налмавасти" #Машинный перевод 28.10.23
+ nalmavast_religion_adherent_plural: "Налмавастис" #Машинный перевод 28.10.23
+ nalmavast_religion_desc: "Налмаваст поклоняются одноименной Налме, традиционной богине урожая и плодородия народов народлек. Налмавасты признают, что на [aeras|E] много богов, но почитается только Налма, все остальные божества принадлежат другим народам. Только великодушная Налма заботится о народниках и их стадах. Налма может принимать облик большой рыжей телицы или молодой девушки. В обеих формах кожа Налмы покрыта множеством вращающихся, постоянно повторяющихся узоров, намекающих на постоянный цикл жизни и возрождения, который управляет миром природы." #Машинный перевод 28.10.23
+ nalmavast_high_god_name: "Налма" #Машинный перевод 28.10.23
+ nalmavast_high_god_name_possessive: "Налмаса" #Машинный перевод 28.10.23
+ nalmavast_high_god_name_alternate: "Красная Женщина" #Машинный перевод 28.10.23
+ nalmavast_high_god_name_alternate_possessive: "Красная Женщина" #Машинный перевод 28.10.23
+ nalmavast_devil_name: "Куго Узо" #Машинный перевод 28.10.23
+ nalmavast_devil_name_possessive: "Куго Узо" #Машинный перевод 28.10.23
   
   
- nalmavast_house_of_worship: "Храм"  
- nalmavast_house_of_worship_plural: "Храмы"  
- nalmavast_religious_symbol: "Знак Нальмы"  
- nalmavast_religious_text: "Стадный камень"  
+ nalmavast_house_of_worship: "Храм" #Машинный перевод 28.10.23
+ nalmavast_house_of_worship_plural: "Храмы" #Машинный перевод 28.10.23
+ nalmavast_religious_symbol: "Нальмический знак" #Машинный перевод 28.10.23
+ nalmavast_religious_text: "Хердстоуны" #Машинный перевод 28.10.23
   
- nalmavast_religious_head_title: "Куго Нальм"  
- nalmavast_religious_head_title_name: "Куго Нальм"  
- nalmavast_devotee_male: "Нальми"  
- nalmavast_devotee_male_plural: "Нальмы"  
- nalmavast_devotee_female: "Нальми"  
- nalmavast_devotee_female_plural: "Нальмы"  
- nalmavast_devotee_neuter: "Нальми"  
- nalmavast_devotee_neuter_plural: "Нальмы"  
- nalmavast_priest_male: "Онари"  
- nalmavast_priest_male_plural: "Онары"  
- nalmavast_priest_female: "Онари"  
- nalmavast_priest_female_plural: "Онары"  
- nalmavast_priest_alternate_plural: "Онары"  
- nalmavast_bishop: "Высший Онари"  
- nalmavast_bishop_plural: "Высшие Онари"  
- nalmavast_positive_afterlife: "Ужара"  
- nalmavast_negative_afterlife: "Азырен"  
+ nalmavast_religious_head_title: "Куго Нальм" #Машинный перевод 28.10.23
+ nalmavast_religious_head_title_name: "Куго Нальм" #Машинный перевод 28.10.23
+ nalmavast_devotee_male: "Нальми" #Машинный перевод 28.10.23
+ nalmavast_devotee_male_plural: "Нальмис" #Машинный перевод 28.10.23
+ nalmavast_devotee_female: "Нальми" #Машинный перевод 28.10.23
+ nalmavast_devotee_female_plural: "Нальмис" #Машинный перевод 28.10.23
+ nalmavast_devotee_neuter: "Нальми" #Машинный перевод 28.10.23
+ nalmavast_devotee_neuter_plural: "Нальмис" #Машинный перевод 28.10.23
+ nalmavast_priest_male: "Онари" #Машинный перевод 28.10.23
+ nalmavast_priest_male_plural: "Онарис" #Машинный перевод 28.10.23
+ nalmavast_priest_female: "Онари" #Машинный перевод 28.10.23
+ nalmavast_priest_female_plural: "Онарис" #Машинный перевод 28.10.23
+ nalmavast_priest_alternate_plural: "Онари" #Машинный перевод 28.10.23
+ nalmavast_bishop: "Высокий Онари" #Машинный перевод 28.10.23
+ nalmavast_bishop_plural: "Высокий Онарис" #Машинный перевод 28.10.23
+ nalmavast_positive_afterlife: "Ужара" #Машинный перевод 28.10.23
+ nalmavast_negative_afterlife: "Азырен" #Машинный перевод 28.10.23
   
- nalmavast: "Налмавастск"  
- nalmavast_adj: "Налмаваст"  
- nalmavast_adherent: "Налмавасти"  
- nalmavast_adherent_plural: "Налмавасты"  
- nalmavast_desc: "Налмавасты поклоняются одноименной Налме, традиционной богине урожая и плодородия народов народлек. Налмавасты признают, что на [Concept('aeras','Аэрасе')|E] много богов, но ими почитается только Налма, все остальные божества принадлежат другим народам. Только великодушная Налма заботится о народлек и их стадах. Налма может принимать облик большой рыжей телицы или молодой девушки. В обеих формах кожа Налмы покрыта множеством вращающихся, постоянно повторяющихся узоров, намекающих на постоянный цикл жизни и возрождения, который управляет миром природы."  
+ nalmavast: "Налмаваст" #Машинный перевод 28.10.23
+ nalmavast_adj: "Налмаваст" #Машинный перевод 28.10.23
+ nalmavast_adherent: "Налмавасти" #Машинный перевод 28.10.23
+ nalmavast_adherent_plural: "Налмавастис" #Машинный перевод 28.10.23
+ nalmavast_desc: "Налмаваст поклоняются одноименной Налме, традиционной богине урожая и плодородия народов народлек. Налмавасты признают, что на [aeras|E] много богов, но почитается только Налма, все остальные божества принадлежат другим народам. Только великодушная Налма заботится о народниках и их стадах. Налма может принимать облик большой рыжей телицы или молодой девушки. В обеих формах кожа Налмы покрыта множеством вращающихся, постоянно повторяющихся узоров, намекающих на постоянный цикл жизни и возрождения, который управляет миром природы." #Машинный перевод 28.10.23

@@ -5,8 +5,8 @@
  judaism_religion_adherent_plural: "Иудеи"
  judaism_religion_desc: "Хорошая жизнь — это жизнь, прожитая по договору, заключенному между еврейским народом и единым и абсолютным богом."
  judaism_high_god_name: "Господь"
- judaism_high_god_name_2: "$judaism_high_god_name$"
- judaism_high_god_name_3: "$judaism_high_god_name$"
+ judaism_high_god_name_2: "$judaism_high_god_name$" #Optional translation alt
+ judaism_high_god_name_3: "$judaism_high_god_name$" #Optional translation alt
  judaism_high_god_name_possessive: "Господа"
  judaism_high_god_alternate: "Адонай"
  judaism_high_god_alternate_possessive: "Адоная"
@@ -16,15 +16,15 @@
  judaism_devil_name_possessive: "ваала"
  judaism_evil_god_the_adversary: "Противник"
  judaism_house_of_worship: "синагога"
- judaism_house_of_worship_2: "$judaism_house_of_worship$"
- judaism_house_of_worship_3: "$judaism_house_of_worship$"
+ judaism_house_of_worship_2: "$judaism_house_of_worship$" #Optional translation alt
+ judaism_house_of_worship_3: "$judaism_house_of_worship$" #Optional translation alt
  judaism_house_of_worship_plural: "синагоги"
  judaism_religious_symbol: "менора"
- judaism_religious_symbol_2: "$judaism_religious_symbol$"
- judaism_religious_symbol_3: "$judaism_religious_symbol$"
+ judaism_religious_symbol_2: "$judaism_religious_symbol$" #Optional translation alt
+ judaism_religious_symbol_3: "$judaism_religious_symbol$" #Optional translation alt
  judaism_religious_text: "Тора"
- judaism_religious_text_2: "$judaism_religious_text$"
- judaism_religious_text_3: "$judaism_religious_text$"
+ judaism_religious_text_2: "$judaism_religious_text$" #Optional translation alt
+ judaism_religious_text_3: "$judaism_religious_text$" #Optional translation alt
  judaism_religious_head_title: "Наси"
  judaism_religious_head_title_name: "Коген Гадол"
  judaism_devotee: "назир"
@@ -34,19 +34,18 @@
  judaism_bishop: "семучим"
  judaism_bishop_plural: "семучим"
  judaism_divine_realm: "Аработ"
- judaism_divine_realm_2: "$judaism_divine_realm$"
- judaism_divine_realm_3: "$judaism_divine_realm$"
+ judaism_divine_realm_2: "$judaism_divine_realm$" #Optional translation alt
+ judaism_divine_realm_3: "$judaism_divine_realm$" #Optional translation alt
  judaism_positive_afterlife: "Олам ха-ба"
- judaism_positive_afterlife_2: "$judaism_positive_afterlife$"
- judaism_positive_afterlife_3: "$judaism_positive_afterlife$"
+ judaism_positive_afterlife_2: "$judaism_positive_afterlife$" #Optional translation alt
+ judaism_positive_afterlife_3: "$judaism_positive_afterlife$" #Optional translation alt
  judaism_negative_afterlife: "Шеол"
- judaism_negative_afterlife_2: "$judaism_negative_afterlife$"
- judaism_negative_afterlife_3: "$judaism_negative_afterlife$"
+ judaism_negative_afterlife_2: "$judaism_negative_afterlife$" #Optional translation alt
+ judaism_negative_afterlife_3: "$judaism_negative_afterlife$" #Optional translation alt
  judaism_death_deity_name: "Ангел смерти"
  judaism_death_deity_name_possessive: "Ангела смерти"
  judaism_witchgodname_raziel: "Разиэль"
  judaism_witchgodname_raziel_possessive: "Разиэля"
-  
  judaism_creator_god_name: "$judaism_high_god_name$"
  judaism_creator_god_name_possessive: "$judaism_high_god_name_possessive$"
  judaism_health_god_name: "$judaism_high_god_name$"
@@ -63,36 +62,33 @@
  judaism_knowledge_god_name_possessive: "$judaism_high_god_name_possessive$"
  judaism_war_god_name: "$judaism_high_god_name$"
  judaism_war_god_name_possessive: "$judaism_high_god_name_possessive$"
- judaism_trickster_god_name: "Айн ха-ра"
+ judaism_trickster_god_name: "Айн ха-ра" #The Evil Eye, not a god per-se but a personification of bad fortune
  judaism_trickster_god_name_possessive: "Айн ха-ры"
  judaism_night_god_name: "$judaism_high_god_name$"
  judaism_night_god_name_possessive: "$judaism_high_god_name_possessive$"
  judaism_water_god_name: "$judaism_high_god_name$"
  judaism_water_god_name_possessive: "$judaism_high_god_name_possessive$"
-  
-  #Rabbinism 
+ #Rabbinism
  rabbinism: "Раввинистск"
  rabbinism_adj: "Раввинизм"
  rabbinism_adherent: "Раввинист"
  rabbinism_adherent_plural: "Раввинисты"
  rabbinism_desc: "Раввинизм подчеркивает роль раввинов как толкователей религиозного закона Галахи. Именно законы и традиции обеспечивают соблюдение божественного договора, и раввины охраняют эти законы."
-  
-  #Karaite 
+ #Karaite
  karaism: "Караимск"
  karaism_adj: "Караимизм"
  karaism_adherent: "Караим"
  karaism_adherent_plural: "Караимы"
  karaism_desc: "В вопросах религиозных законов только Танах обладает высшим и абсолютным авторитетом. Роль раввинов не в том, чтобы пересматривать и адаптировать правила договора, но в том, чтобы интерпретировать их буквальное значение."
-  
-  #Haymanot 
+ #Haymanot
  haymanot: "Хайманотск"
  haymanot_adj: "Хайманот"
  haymanot_adherent: "Хайманот"
  haymanot_adherent_plural: "Хайманоты"
  haymanot_desc: "Раввины, или кахены, разбирают вопросы религиозного закона, но в том, что касается традиций и уклада, они советуются с кругом старейшин."
  haymanot_religious_text: "Орит"
- haymanot_religious_text_2: "$haymanot_religious_text$"
- haymanot_religious_text_3: "$haymanot_religious_text$"
+ haymanot_religious_text_2: "$haymanot_religious_text$" #Optional translation alt
+ haymanot_religious_text_3: "$haymanot_religious_text$" #Optional translation alt
  haymanot_religious_head_title: "Лика Кахнет"
  haymanot_devotee: "Монкоса"
  haymanot_devotee_plural: "Монкосы"
@@ -100,35 +96,30 @@
  haymanot_priest_plural: "Кахены"
  haymanot_bishop: "Шмагл"
  haymanot_bishop_plural: "Шмаглы"
-  
-  #Malabar 
+ #Malabar
  malabarism: "Малабарск"
  malabarism_adj: "Малабаризм"
  malabarism_adherent: "Малабарец"
  malabarism_adherent_plural: "Малабарцы"
  malabarism_desc: "Постепенно распространяясь по миру, потомки колен Израилевых основывают небольшие сообщества с запада на восток, становясь, по сути, отдельными племенами. Они обрели новый дом в Кочине в Южной Индии и стали известны как кочинские евреи. Там они ассимилировали с местным населением — в том числе и культурно."
-  
-  #Samaritan 
+ #Samaritan
  samaritan: "Самаританск"
  samaritan_adj: "Самаританство"
  samaritan_adherent: "Самаритянин"
  samaritan_adherent_plural: "Самаритяне"
  samaritan_desc: "Потомки племен, населявших Самарию, самаритяне следуют оригинальной, неизменной версии Торы. В каком-то смысле они практикуют подлинную религию Моисея, исполняя прямые обязанности, возложенные на их народ богом."
-  
-  #Kabarism 
+ #Kabarism
  kabarism: "Кузаритск"
  kabarism_adj: "Кузаризм"
  kabarism_adherent: "Кузарит"
  kabarism_adherent_plural: "Кузариты"
  kabarism_desc: "Будучи общиной новообращенных, кузариты придерживаются распространенной раввинистской интерпретации Галахи. Даже после обращения они долгое время продолжают придерживаться местных верований и традиций."
-  
-  #Merkabah 
+ #Merkabah
  merkabah: "Меркавск"
  merkabah_adj: "Меркава"
  merkabah_adherent: "Меркавист"
  merkabah_adherent_plural: "Меркависты"
  merkabah_desc: "Меркавский мистицизм — это секта иудейского мистицизма, подвергшаяся влиянию гностических учений. В основе веры лежат видения и аскетизм с целью приблизиться к Божественному трону."
-  
  doctrine_temple_authority_name: "Авторитет Галахи"
  doctrine_temple_authority_desc: "Галаха — это свод законов и правил, по которым должен жить еврей. После многих веков существования диаспор иудеи раскололись на множество школ, по-разному трактующих Галаху."
  temple_authority_rabbinic_doctrine_name: "Раввинистский"
@@ -144,6 +135,5 @@
  doctrine_parameter_hostility_override_temple_authority_toric_doctrine: "[faiths|E] с доктриной «[GetFaithDoctrine('temple_authority_toric_doctrine').GetBaseName]» воспринимаются как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
  doctrine_parameter_hostility_override_temple_authority_kohanim_doctrine: "[faiths|E] с доктриной «[GetFaithDoctrine('temple_authority_kohanim_doctrine').GetBaseName]» воспринимаются как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
  doctrine_parameter_enables_temporal_head_parameter: "Позволяет выбирать религиозную [Concept( 'doctrine', 'доктрину' )|E] светского главы религии."
-  
  tenet_communal_identity_chosen_people_name: "Избранный народ"
  tenet_communal_identity_chosen_people_desc: "Мы избранники [ROOT.Faith.HighGodNamePossessive] для священного договора. И хотя это объединяет наш народ общей целью, но в то же время препятствует обращению."

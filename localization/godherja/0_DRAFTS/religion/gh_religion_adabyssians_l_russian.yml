@@ -1,74 +1,74 @@
 ﻿l_russian:
   
  #adabyssian Loc 
- adabyssian_religion: "Джудийск"  
- adabyssian_religion_adj: "Джуди"  
- adabyssian_religion_adjerent: "Джуди"  
- adabyssian_religion_adherent_plural: "Джуди"  
- adabyssian_religion_desc: "Джуди, или «корабль молитв», — это абадисский мир почитания прекрасных позолоченных скульптур, находящихся в месте, называемм просто Городом золотых статуй. Когда их предки впервые пришли в город, они увидели чудесные, сияющие создания, возвышающиеся высоко над их головами, и спросили себя: что же это может быть чем-то иным, как не работой богов? Они поклонялись не традиционным духам природы, а Великим Духам, более достойным уважения, чем любые другие. Именно Великие Духи создали мир, и именно Великие Духи поручили абадиссийцам управлять им."  
- adabyssian_high_god_name: "Великий Дух Мерасагог"  
- adabyssian_high_god_name_possessive: "Великий Дух Мерасагога"  
- adabyssian_high_god_name_alternate: "Величайший Дух"  
- adabyssian_high_god_name_alternate_possessive: "Величайший Дух"  
- adabyssian_devil_name: "Дгохега"  
- adabyssian_devil_name_possessive: "Дгохеги"  
- adabyssian_death_deity_name: "Дух Чаг"  
- adabyssian_death_deity_name_possessive: "Дух Чага"  
+ adabyssian_religion: "Джуди" #Машинный перевод 28.10.23
+ adabyssian_religion_adj: "Джуди" #Машинный перевод 28.10.23
+ adabyssian_religion_adjerent: "Джуди" #Машинный перевод 28.10.23
+ adabyssian_religion_adherent_plural: "Джудис" #Машинный перевод 28.10.23
+ adabyssian_religion_desc: "Дгуди, или «сосуд-молитва», — это абадисский мир почитания прекрасных позолоченных скульптур, населяющих место, называемое просто Городом золотых статуй. Когда их предки впервые пришли в город, они увидели чудесные, сияющие произведения, возвышающиеся высоко над их головами, и спросили себя: что же это может быть чем-то иным, как не сосудами богов? Они поклонялись не традиционным духам природы, а Великим Духам, более достойным уважения, чем любые другие. Именно Великие Духи создали мир, и именно Великие Духи поручили абадисийцам контролировать его." #Машинный перевод 28.10.23
+ adabyssian_high_god_name: "Великий Дух Мерасагог" #Машинный перевод 28.10.23
+ adabyssian_high_god_name_possessive: "Великий Дух Мерасагога" #Машинный перевод 28.10.23
+ adabyssian_high_god_name_alternate: "Величайший дух" #Машинный перевод 28.10.23
+ adabyssian_high_god_name_alternate_possessive: "Величайший Дух" #Машинный перевод 28.10.23
+ adabyssian_devil_name: "Дгохега" #Машинный перевод 28.10.23
+ adabyssian_devil_name_possessive: "Дгогега" #Машинный перевод 28.10.23
+ adabyssian_death_deity_name: "Дух Чаг" #Машинный перевод 28.10.23
+ adabyssian_death_deity_name_possessive: "Дух Чага" #Машинный перевод 28.10.23
   
   
   
- adabyssian_house_of_worship: "Святой Дом"  
- adabyssian_house_of_worship_plural: "Святые дома"  
- adabyssian_religious_symbol: "Статуя"  
- adabyssian_religious_text: "Книги прошлого"  
+ adabyssian_house_of_worship: "Святой Дом" #Машинный перевод 28.10.23
+ adabyssian_house_of_worship_plural: "Святые дома" #Машинный перевод 28.10.23
+ adabyssian_religious_symbol: "Статуя" #Машинный перевод 28.10.23
+ adabyssian_religious_text: "Книги прошлого" #Машинный перевод 28.10.23
   
- adabyssian_religious_head_title: "Великий толкователь"  
- adabyssian_religious_head_title_name: "Толкующий"  
- adabyssian_devotee_male: "Говорящий"  
- adabyssian_devotee_male_plural: "Говорящие"  
- adabyssian_devotee_female: "$adabyssian_devotee_male$"  
- adabyssian_devotee_female_plural: "$adabyssian_devotee_male_plural$"  
- adabyssian_devotee_neuter: "$adabyssian_devotee_male$"  
- adabyssian_devotee_neuter_plural: "$adabyssian_devotee_male_plural$"  
- adabyssian_priest_male: "Проводник"  
- adabyssian_priest_male_plural: "Проводники"  
- adabyssian_priest_female: "$adabyssian_priest_male$"  
- adabyssian_priest_female_plural: "$adabyssian_priest_male_plural$"  
- adabyssian_priest_alternate: "Дипломат"  
- adabyssian_priest_alternate_plural: "Дипломаты"  
- adabyssian_bishop: "Толкователь"  
- adabyssian_bishop_plural: "Толкователи"  
- adabyssian_positive_afterlife: "Огбтиё"  
- adabyssian_negative_afterlife: "Аарунле"  
- adabyssian_divine_realm: "Афинтала"  
+ adabyssian_religious_head_title: "Отличный переводчик" #Машинный перевод 28.10.23
+ adabyssian_religious_head_title_name: "переводной" #Машинный перевод 28.10.23
+ adabyssian_devotee_male: "Оратор" #Машинный перевод 28.10.23
+ adabyssian_devotee_male_plural: "Динамики" #Машинный перевод 28.10.23
+ adabyssian_devotee_female: "$adabyssian_devotee_male$" #Машинный перевод 28.10.23
+ adabyssian_devotee_female_plural: "$adabyssian_devotee_male_plural$" #Машинный перевод 28.10.23
+ adabyssian_devotee_neuter: "$adabyssian_devotee_male$" #Машинный перевод 28.10.23
+ adabyssian_devotee_neuter_plural: "$adabyssian_devotee_male_plural$" #Машинный перевод 28.10.23
+ adabyssian_priest_male: "Диктор" #Машинный перевод 28.10.23
+ adabyssian_priest_male_plural: "Дикторы" #Машинный перевод 28.10.23
+ adabyssian_priest_female: "$adabyssian_priest_male$" #Машинный перевод 28.10.23
+ adabyssian_priest_female_plural: "$adabyssian_priest_male_plural$" #Машинный перевод 28.10.23
+ adabyssian_priest_alternate: "Дипломат" #Машинный перевод 28.10.23
+ adabyssian_priest_alternate_plural: "Дипломаты" #Машинный перевод 28.10.23
+ adabyssian_bishop: "Переводчик" #Машинный перевод 28.10.23
+ adabyssian_bishop_plural: "Переводчик" #Машинный перевод 28.10.23
+ adabyssian_positive_afterlife: "Огбтиё" #Машинный перевод 28.10.23
+ adabyssian_negative_afterlife: "Аарунле" #Машинный перевод 28.10.23
+ adabyssian_divine_realm: "Афинтала" #Машинный перевод 28.10.23
   
- adabyssian_creator_god_name: "$adabyssian_high_god_name$"  
- adabyssian_creator_god_name_possessive: "$adabyssian_high_god_name_possessive$"  
- adabyssian_health_god_name: "Дух Мбак"  
- adabyssian_health_god_name_possessive: "Духа Мбак"  
- adabyssian_fertility_god_name: "$adabyssian_health_god_name$"  
- adabyssian_fertility_god_name_possessive: "$adabyssian_health_god_name_possessive$"  
- adabyssian_wealth_god_name: "Дух Оуифсуфкак"  
- adabyssian_wealth_god_name_possessive: "Духа Оуифсуфкак"  
- adabyssian_household_god_name: "Торрор"  
- adabyssian_household_god_name_possessive: "Торрори"  
- adabyssian_fate_god_name: "Дух Борлили"  
- adabyssian_fate_god_name_possessive: "Дух Борлили"  
- adabyssian_knowledge_god_name: "$adabyssian_fate_god_name$"  
- adabyssian_knowledge_god_name_possessive: "$adabyssian_fate_god_name_possessive$"  
- adabyssian_water_god_name: "Дух Кгарфа"  
- adabyssian_water_god_name_possessive: "Духа Кгарфа"  
- adabyssian_war_god_name: "Дух Тбуфу"  
- adabyssian_war_god_name_possessive: "Духа Тбуфу"  
- adabyssian_trickster_god_name: "Дух Сгедугуфа"  
- adabyssian_trickster_god_name_possessive: "Духа Сгедугуфа"  
- adabyssian_night_god_name: "Дух Гбу"  
- adabyssian_night_god_name_possessive: "Духа Гбу"  
- adabyssian_witch_god_name: "Дух Ббага"  
- adabyssian_witch_god_name_possessive: "Духа Ббаги"  
+ adabyssian_creator_god_name: "$adabyssian_high_god_name$" #Машинный перевод 28.10.23
+ adabyssian_creator_god_name_possessive: "$adabyssian_high_god_name_possessive$" #Машинный перевод 28.10.23
+ adabyssian_health_god_name: "Дух Мбак" #Машинный перевод 28.10.23
+ adabyssian_health_god_name_possessive: "Мбака" #Машинный перевод 28.10.23
+ adabyssian_fertility_god_name: "$adabyssian_health_god_name$" #Машинный перевод 28.10.23
+ adabyssian_fertility_god_name_possessive: "$adabyssian_health_god_name_possessive$" #Машинный перевод 28.10.23
+ adabyssian_wealth_god_name: "Дух Оуифсуфкак" #Машинный перевод 28.10.23
+ adabyssian_wealth_god_name_possessive: "Дух Оуифсуфкака" #Машинный перевод 28.10.23
+ adabyssian_household_god_name: "ужас" #Машинный перевод 28.10.23
+ adabyssian_household_god_name_possessive: "Торрора" #Машинный перевод 28.10.23
+ adabyssian_fate_god_name: "Дух Борлили" #Машинный перевод 28.10.23
+ adabyssian_fate_god_name_possessive: "Дух Борлили" #Машинный перевод 28.10.23
+ adabyssian_knowledge_god_name: "$adabyssian_fate_god_name$" #Машинный перевод 28.10.23
+ adabyssian_knowledge_god_name_possessive: "$adabyssian_fate_god_name_possessive$" #Машинный перевод 28.10.23
+ adabyssian_water_god_name: "Дух Кгарфа" #Машинный перевод 28.10.23
+ adabyssian_water_god_name_possessive: "Дух Кгарфа" #Машинный перевод 28.10.23
+ adabyssian_war_god_name: "Дух Тбуфу" #Машинный перевод 28.10.23
+ adabyssian_war_god_name_possessive: "Дух Тбуфу" #Машинный перевод 28.10.23
+ adabyssian_trickster_god_name: "Дух Сгедугуфа" #Машинный перевод 28.10.23
+ adabyssian_trickster_god_name_possessive: "Дух Сгедугуфа" #Машинный перевод 28.10.23
+ adabyssian_night_god_name: "Дух Гбу" #Машинный перевод 28.10.23
+ adabyssian_night_god_name_possessive: "Дух Гбу" #Машинный перевод 28.10.23
+ adabyssian_witch_god_name: "Дух Ббага" #Машинный перевод 28.10.23
+ adabyssian_witch_god_name_possessive: "Дух Ббаги" #Машинный перевод 28.10.23
   
- adabyssian: "Адабисск"  
- adabyssian_adj: "Адабизм"  
- adabyssian_adherent: "Адабиссиец"  
- adabyssian_adherent_plural: "Адабиссийцы"  
- adabyssian_desc: "Только самым чистым позволено увидеть величайшие статуи собственными глазами. Именно жрецы впадают в транс в храмовых кельях, слушая команды богов под золотыми сводами и переводя их в понятные для светских «правителей» приказы. Превыше всех остается одно приказание, повторяемое богами на протяжении веков: идите и побеждайте, чтобы весь мир мог присоединиться к вашей мольбе."  
+ adabyssian: "Адабиссский" #Машинный перевод 28.10.23
+ adabyssian_adj: "Адабиссский" #Машинный перевод 28.10.23
+ adabyssian_adherent: "Адабиссский" #Машинный перевод 28.10.23
+ adabyssian_adherent_plural: "Адабиссийцы" #Машинный перевод 28.10.23
+ adabyssian_desc: "Только самым очищенным позволено увидеть величайшие статуи собственными глазами. Именно жрецы впадают в транс в храмовых кельях, слушая команды богов под золотом и транслируя их в понятные приказы для светских «правителей». Прежде всего было одно повеление, повторяемое богами на протяжении веков: идите и побеждайте, чтобы весь мир мог присоединиться к их мольбе." #Машинный перевод 28.10.23

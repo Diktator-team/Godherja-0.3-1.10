@@ -1,9 +1,7 @@
 ﻿l_russian:
  COA_DESIGNER_HEADER: "Герб"
-  
  COA_DESIGNER_QUARTERING_OPTIONS: "Деление герба [Concept( 'cadet_branch', 'младшей ветви' )|E]"
  COA_DESIGNER_TOGGLE_QUARTERING_BUTTON_TT: "#T Использовать разделенный герб#!\nПри включении герб останется разделенным, представляя [Concept( 'dynasty', 'династию' )|E] и возможные старшие [Concept( 'houses', 'дома' )|E]. Но изменить вы сможете только герб этого дома."
-  
  COA_DESIGNER_MODE_CUSTOM: "Режим: #V Пользовательский#!"
  COA_DESIGNER_MODE_ADJUSTED: "Режим: #V Измененный#!"
  COA_DESIGNER_MODE_SELECTION_HEADER: "Создайте собственный герб"
@@ -13,7 +11,6 @@
  COA_DESIGNER_MODE_SELECTION_CUSTOM_BUTTON: "Начать с нуля"
  COA_DESIGNER_MODE_SELECTION_ADJUSTED_DESC: "#T Изменить текущий герб#!\nРедактируйте текущий дизайн, сохраняя изначальное расположение. Настройки ограничены."
  COA_DESIGNER_MODE_SELECTION_ADJUSTED_BUTTON: "Изменить текущий"
-  
  COA_DESIGNER_RANDOMIZE_BUTTON: "Случайный выбор"
  COA_DESIGNER_RANDOMIZE_BUTTON_TT: "#T Случайный дизайн#!\nЕсли вы редактируете герб [Concept( 'cadet_branch', 'младшей ветви' )|E], случайные изменения затронут только секцию этого [houses|El]."
  COA_DESIGNER_COPY_TO_CLIPBOARD_BUTTON: "Копировать в буфер обмена"
@@ -29,12 +26,10 @@
  COA_DESIGNER_SAVE_TO_DISK_TT: "#T $COA_DESIGNER_SAVE_TO_DISK$#!\nСохранить текущий дизайн в папке скриншотов."
  COA_DESIGNER_UNDO_EDIT: "#T Отменить изменение#!\nОтменить последнее изменение герба."
  COA_DESIGNER_REDO_EDIT: "#T Повторить изменение#!\nВернуть последнее изменение герба."
-  
  COA_DESIGNER_BACKGROUND_TAB_HEADER: "Фон"
  COA_DESIGNER_BACKGROUND_PANEL_HEADER: "Фон"
  COA_DESIGNER_BACKGROUND_PATTERN_HEADER: "Поле"
  COA_DESIGNER_BACKGROUND_PATTERN_DISABLED_IN_ADJUSTED_MODE: "В режиме изменения нельзя менять поле, но можно редактировать цвета."
-  
  COA_DESIGNER_COLOR_HEADER: "Цвета"
  COA_DESIGNER_COLOR1: "Основной цвет"
  COA_DESIGNER_COLOR2: "Второй цвет"
@@ -43,7 +38,6 @@
  COA_DESIGNER_COLOR5: "Пятый цвет"
  COA_DESIGNER_COLORS_DESCRIPTION: "Цвета, доступные при создании герба, зависят от того, какие пигменты были доступны в ту или иную эпоху. Названия цветов определяются источником пигмента или же названием, под которым они были известны в то время."
  COA_DESIGNER_COLOR_PICKER_EXPAND_HEADER: "Выбранный цвет"
-  
  COA_DESIGNER_CATEGORY_abstract: "Абстракции"
  COA_DESIGNER_CATEGORY_animals: "Животные"
  COA_DESIGNER_CATEGORY_circles_spirals: "Круги и спирали"
@@ -55,10 +49,8 @@
  COA_DESIGNER_CATEGORY_tribal_seal: "Знаки племени"
  COA_DESIGNER_CATEGORY_writing: "Письмена"
  COA_DESIGNER_CATEGORY_figures: "Фигуры"
-  
  COA_DESIGNER_EMBLEM_LAYOUT_TAB_HEADER: "Расположение"
  COA_DESIGNER_EMBLEM_LAYOUT_PANEL_HEADER: "Расположение элементов"
-  
  COA_DESIGNER_EMBLEM_INSTANCES_TAB_HEADER: "Эмблемы"
  COA_DESIGNER_EMBLEM_INSTANCES_PANEL_HEADER: "Эмблемы"
  COA_DESIGNER_EMBLEM_INSTANCES_ALL_BUTTON: "Все"
@@ -66,7 +58,6 @@
  COA_DESIGNER_EMBLEM_TEXTURES: "Текстуры"
  COA_DESIGNER_EMBLEM_INSTANCE_SELECT_ALL: "#I Щелкните, чтобы выбрать все\nЩелкните ПКМ, чтобы отменить выбор#!"
  COA_DESIGNER_EMBLEM_INSTANCE_SELECTION_TT: "#I Щелкните, чтобы выбрать\nЩелкните, зажав Shift, чтобы применить выбранное#!"
-  
  COA_DESIGNER_EMBLEM_INSTANCE_DETAIL_TOGGLE_TT: "#T Редактирование деталей#!\nИзменение положения, добавление и удаление эмблем.\n#I Щелкните, чтобы начать редактирование деталей#!"
  COA_DESIGNER_POSITION_X: "По горизонтали"
  COA_DESIGNER_POSITION_Y: "По вертикали"
@@ -80,14 +71,12 @@
  COA_DESIGNER_FLIP_EMBLEM_X_AXIS_CHECKBOX_LABEL: "Отразить по X"
  COA_DESIGNER_FLIP_EMBLEM_Y_AXIS_TT: "#I Нажмите, чтобы перевернуть эмблему по оси Y#!"
  COA_DESIGNER_FLIP_EMBLEM_Y_AXIS_CHECKBOX_LABEL: "Отразить по Y"
-  
  COA_DESIGNER_DETAIL_INSTANCE_TT: "#I Щелкните для редактирования\nЩелкните ПКМ, чтобы убрать#!"
  COA_DESIGNER_DETAIL_INSTANCE_ICON_TT: "#I Щелкните для перетаскивания слоев#!"
  COA_DESIGNER_DETAIL_INSTANCE_ICON_TARGET_TT: "#I Перетащите и отпустите, чтобы разместить слой#!"
  COA_DESIGNER_DETAIL_ADD_INSTANCE_TT: "#T Добавить эмблему#!"
  COA_DESIGNER_DETAIL_EDIT_BACK_TT: "#I Щелкните, чтобы вернуться к списку эмблем#!"
  COA_DESIGNER_DETAIL_DRAG_INSTRUCTION: "Щелкните и перетащите эмблему, чтобы установить ее поверх других"
-  
  TITLE_CUSTOMIZATION_CONFIRM_TITLE: "Настроить титул"
  TITLE_CUSTOMIZATION_CONFIRM_BODY: "После завершения настройки титула отменить изменения будет невозможно. Действительно завершить?"
  TITLE_CUSTOMIZATION_CONFIRM_ACCEPT: "Отправить"

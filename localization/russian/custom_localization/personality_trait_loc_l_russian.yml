@@ -1,6 +1,5 @@
 ﻿l_russian:
-  
-  #NEGATIVE 
+ #NEGATIVE
  personality_traitdesc.negative.arrogant: "дерзостн"
  personality_traitdesc.negative.humble: "безропотн"
  personality_traitdesc.negative.lustful: "похотлив"
@@ -37,8 +36,7 @@
  personality_traitdesc.negative.stubborn: "уперт"
  personality_traitdesc.negative.fickle: "ненадежн"
  personality_traitdesc.negative.notrait: "вкрадчив"
-  
-  #POSITIVE 
+ #POSITIVE
  personality_traitdesc.positive.arrogant: "уверенн"
  personality_traitdesc.positive.humble: "безропотн"
  personality_traitdesc.positive.lustful: "романтичн"
@@ -75,8 +73,7 @@
  personality_traitdesc.positive.stubborn: "решительно настроенн"
  personality_traitdesc.positive.fickle: "причудлив"
  personality_traitdesc.positive.notrait: "вкрадчив"
-  
-  #TRAIT 
+ #TRAIT
  personality_traitdesc.trait.arrogant: "[GetTrait('arrogant').GetName( ROOT.Char )]"
  personality_traitdesc.trait.humble: "[GetTrait('humble').GetName( ROOT.Char )]"
  personality_traitdesc.trait.lustful: "[GetTrait('lustful').GetName( ROOT.Char )]"
@@ -123,6 +120,5 @@
  TRAIT_CATEGORY_HEALTH: "[health_trait|E]"
  TRAIT_CATEGORY_COURT_TYPE: "[court_type_trait|E]"
  TRAIT_CATEGORY_BASE: "[trait|E]"
- ANY_OPPOSITE_TRAIT_ALL: "Нет противоположных свойств"
- NOT_ANY_OPPOSITE_TRAIT_ALL: "Уже есть противоположное свойство"
-  
+ ANY_OPPOSITE_TRAIT_ALL: "Нет противоположных [Concept( 'personality_traits', 'свойств личности' )|E]"
+ NOT_ANY_OPPOSITE_TRAIT_ALL: "Уже есть противоположное [personality_trait|El]"

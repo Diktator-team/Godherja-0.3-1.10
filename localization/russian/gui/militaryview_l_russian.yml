@@ -133,4 +133,3 @@
  MV_LEVY_TT: "#T [levies|E]\n#!#I Щелкните, чтобы [Select_CString( MilitaryView.AreLeviesShown, 'скрыть', 'показать' )] подробную информацию о вашем ополчении#!"
  STRENGTH_COMPARISON_TOTAL_STRENGTH: "@soldier_icon! [GuiMilitaryStrength.GetTargetTotal|0]"
  STRENGTH_COMPARISON_ALLIES: "[ally_i|E] [GuiMilitaryStrength.GetTargetAlliesCount]"
-  

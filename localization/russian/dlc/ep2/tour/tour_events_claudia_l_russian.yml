@@ -1,6 +1,5 @@
 ﻿l_russian:
-  
-  #What You Don't See... 
+ #What You Don't See...
  tour_grounds_events.7000.t: "То, что скрыто…"
  tour_grounds_events.7000.desc: "[stop_host_scope.GetTitledFirstName|U] старается изо всех сил, проявляя хозяйское гостеприимство и с гордостью хвастаясь мне своими владениями, в том числе земельными. Тем страннее мне показалось [stop_host_scope.GetHersHis] поведение, когда мы проходили мимо совершенно непримечательной двери: [stop_host_scope.GetSheHe] вдруг [Select_CString(stop_host_scope.IsFemale, 'начала', 'начал' )] заикаться и делать вид, что внутри не скрывается ничего особенного.\n\n«Вы что-то от меня #EMP скрываете#!, [stop_host_scope.GetFirstNameNoTooltip]?»\n\nВоспользовавшись секундой изумленного, стыдливого и, может, даже #EMP виноватого#! молчания, я распахиваю дверь. Увиденное поражает: передо мной"
  tour_grounds_events.7000.desc_artifacts: "груды сокровищ, драгоценные камни и даже [this_artifact.GetName] из личной коллекции!"

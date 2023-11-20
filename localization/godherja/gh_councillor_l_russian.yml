@@ -1,7 +1,7 @@
 ﻿l_russian:
  councillor_court_magi: "Придворный [Concept('magi','маг')|E]" 
  councillor_court_magi_possessive: "Придворного [Concept('magi','мага')|E]"
- councillor_court_magi_desc: "[Concept('court_magi','Придворный маг')|E]"
+ councillor_court_magi_desc: "[Concept('court_magi','придворный маг')|E]"
 
  councillor_quartermaster: "Квартирмейстер"
  councillor_quartermaster_possessive: "Квартирмейстера"

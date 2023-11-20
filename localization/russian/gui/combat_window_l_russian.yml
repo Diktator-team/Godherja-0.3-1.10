@@ -86,4 +86,3 @@
  COMBAT_MAA_TERRAIN_MOD: "Место сражения — $TERRAIN$: $VALUE|=+0$"
  CW_NO_KNIGHTS: "Нет [Concept( 'knights', 'рыцарей' )|E]"
  COMBAT_WINDOW_NO_COMMANDER: "Нет командира"
-  

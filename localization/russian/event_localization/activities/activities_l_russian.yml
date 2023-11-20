@@ -1,26 +1,24 @@
 ﻿l_russian:
-  # GUI 
+ #GUI
  ACTIVITY_WAITING_TOOLTIP: "[CHARACTER.GetName] приглашает.\nОжидание ответов на все приглашения.\n$DESC|F$\n\n#I Нажмите, чтобы показать подробности#! "
  ACTIVITY_TIME_LEFT: "#D Начало через $TIME|V$ дн#!"
  ACTIVITY_OWNED_BY: "#D Владелец: $NAME$#!"
  ACTIVITY_FULL_NAME: "[ActivityType.GetNameNoTooltip] персонажа [Select_CString(Character.IsLocalPlayer, '', 'персонажа ' )][Character.GetNamePossessiveOrMy][Select_CString(Character.IsLocalPlayer, 'его персонажа', '' )]"
  ACTIVITY_SHORT_NAME: "[ActivityType.GetNameNoTooltip]"
-  
  ACTIVITY_TYPE_DESC: "[AddLine(ActivityOption.GetIsValidDesc( GetPlayer, ActivityPlanner.GetSelectedSpecialOption ))]\n[ActivityOption.GetDescription]"
-  
  ACTIVITY_OPTION_TOOLTIP: "#T [ActivityOption.GetName]#![AddLine(ActivityOption.GetIsValidDesc( GetPlayer, ActivityPlanner.GetSelectedSpecialOption ))]\n[ActivityOption.GetDescription]"
-  
+ #Ugly hack, ActivityPlanner needs to be used before ActivityOption for the contexts to work properly, for some reason.
+ ACTIVITY_OPTION_DESC: "[ActivityPlanner.NoOp][ActivityOption.GetDescription]"
  activity_special_type: "[Activity.Custom('GetActivitySpecialType')]"
  activity_special_type_desc: "[Activity.Custom('GetActivitySpecialTypeDesc')]"
-  
-  #Debug Strings 
-  ## Personality Values 
+ #Debug Strings
+ ## Personality Values
  debug_gui.activity_weight.ai_value.sociability: "Моя общительность: $VALUE|+0$"
  debug_gui.activity_weight.ai_value.greed: "Моя жадность: $VALUE|+0$"
  debug_gui.activity_weight.ai_value.rationality: "Моя рациональность: $VALUE|+0$"
  debug_gui.activity_weight.ai_value.boldness: "Моя храбрость: $VALUE|+0$"
-  ## Traits 
-  ### Personality 
+ ## Traits
+ ### Personality
  debug_gui.activity_weight.trait.gluttonous: "Мое свойство — [GetTrait('gluttonous').GetName( GetNullCharacter )|l]: $VALUE|+0$"
  debug_gui.activity_weight.trait.ambitious: "Мое свойство — [GetTrait('ambitious').GetName( GetNullCharacter )|l]: $VALUE|+0$"
  debug_gui.activity_weight.trait.greedy: "Мое свойство — [GetTrait('greedy').GetName( GetNullCharacter )|l]: $VALUE|+0$"
@@ -30,35 +28,32 @@
  debug_gui.activity_weight.trait.arrogant: "Мое свойство — [GetTrait('arrogant').GetName( GetNullCharacter )|l]: $VALUE|+0$"
  debug_gui.activity_weight.trait.gregarious: "Мое свойство — [GetTrait('gregarious').GetName( GetNullCharacter )|l]: $VALUE|+0$"
  debug_gui.activity_weight.trait.shy: "Мое свойство — [GetTrait('shy').GetName( GetNullCharacter )|l]: $VALUE|+0$"
-  ### Stress 
+ ### Stress
  debug_gui.activity_weight.trait.comfort_eater: "Мое свойство — [GetTrait('comfort_eater').GetName( GetNullCharacter )|l]: $VALUE|+0$"
  debug_gui.activity_weight.trait.profligate: "Мое свойство — [GetTrait('profligate').GetName( GetNullCharacter )|l]: $VALUE|+0$"
  debug_gui.activity_weight.trait.improvident.giving_circumstances: "Мое свойство — [GetTrait('improvident').GetName( GetNullCharacter )|l], а свое присутствие я считаю даром: $VALUE|+0$"
  debug_gui.activity_weight.trait.inappetetic: "Мое свойство — [GetTrait('inappetetic').GetName( GetNullCharacter )|l]: $VALUE|+0$"
  debug_gui.activity_weight.trait.drunkard: "Мое свойство — [GetTrait('drunkard').GetName( GetNullCharacter )|l]: $VALUE|+0$"
  debug_gui.activity_weight.trait.hashishiyah: "Мое свойство — [GetTrait('comfort_eater').GetName( GetNullCharacter )|l]: $VALUE|+0$"
-  ### Lifestyle 
+ ### Lifestyle
  debug_gui.activity_weight.trait.lifestyle_reveler: "Мое свойство — [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )|l]: $VALUE|+0$"
-  ## Modifiers 
+ ## Modifiers
  debug_gui.activity_weight.modifier.losing_weight: "Я пытаюсь сбросить вес: $VALUE|+0$"
  debug_gui.activity_weight.modifier.gaining_weight: "Я пытаюсь набрать вес: $VALUE|+0$"
-  ## Stress Level 
+ ## Stress Level
  debug_gui.activity_weight.stress.more_than_low: "Я [Concept( 'stressed', 'нервничаю' )|E]: $VALUE|+0$"
-  ## Faith 
-  ### Tenets 
+ ## Faith
+ ### Tenets
  debug_gui.activity_weight.faith.tenet_ritual_celebrations: "В моей [Concept( 'faith', 'конфессии' )|E] есть [GetFaithDoctrine('tenet_ritual_celebrations').GetBaseName|l]: $VALUE|+0$"
  debug_gui.activity_weight.faith.tenet_hedonistic: "В моей [Concept( 'faith', 'конфессии' )|E] есть [GetFaithDoctrine('tenet_hedonistic').GetBaseName|l]: $VALUE|+0$"
-  ## Gold 
+ ## Gold
  debug_gui.activity_weight.gold.prefers_cheapness: "У меня мало свободного [Concept( 'gold', 'золота' )|E]: $VALUE|+0$"
  debug_gui.activity_weight.gold.prefers_middling: "У меня достаточно [Concept( 'gold', 'золота' )|E] на что-нибудь приличное: $VALUE|+0$"
  debug_gui.activity_weight.gold.prefers_expense: "У меня много свободного [Concept( 'gold', 'золота' )|E]:  $VALUE|+0$"
-  ## Struggles 
+ ## Struggles
  debug_gui.activity_weight.struggle.wants_to_escalate: "Я хочу усилить [Concept( 'struggle', 'борьбу' )|E]: $VALUE|+0$"
  debug_gui.activity_weight.struggle.wants_to_deescalate: "Я хочу ослабить [Concept( 'struggle', 'борьбу' )|E]: $VALUE|+0$"
-  
-  
-  
-  #Feast 
+ #Feast
  activity_feast: "Пир"
  feast_activity_cost_desc: "Базовая стоимость"
  activity_feast_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] [Select_CString(ACTIVITY.GetOwner.IsLocalPlayer, 'пир', 'устраивает пир')]"
@@ -146,35 +141,32 @@
  activity_window_character_honorary_guest_traveling_murder: "[SelectLocalization( IsActivityHost( Activity, GetPlayer ), 'honorary_guest_for_host', 'honorary_guest_concept' )]\n[Character.GetShortUINameNoTooltip|U]\n[Concept( 'traveling', 'Путешествует' )]; местонахождение — [Character.GetCurrentLocation.GetName]\n ~[Character.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate.GetStringLong|V]"
  activity_window_character_honorary_guest_murder: "[SelectLocalization( IsActivityHost( Activity, GetPlayer ), 'honorary_guest_for_host', 'honorary_guest_concept' )]\n[Character.GetShortUINameNoTooltip|U]"
  activity_feast_province_desc: "Вы устроили пир в провинции [ROOT.Province.GetName]\nПровинции с подходящими зданиями позволяют сэкономить [gold_i] [Concept( 'gold', 'золото' )|E]\n"
-  
-  #Hunt 
+ #Hunt
  activity_hunt: "Охота"
  hunt_phase_desc: "Отправьтесь в погоню и решите, как именно убить добычу"
  activity_hunt_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U][Select_CString(ACTIVITY.GetOwner.IsLocalPlayer, 'а охота', ' устраивает охоту')]"
  activity_hunt_desc: "Загонная охота — опасное, но увлекательное занятие, а заодно — прекрасная возможность отточить умение ездить верхом и стрелять из лука.\n\nОхотой заведует [GetCourtPositionType('master_of_hunt_court_position').GetName()|l]. Этот придворный будет сообщать обо всех [Concept( 'hunt_sightings_no_prefix', 'случаях обнаружения дичи' )|E] — простой, редкой и свирепой."
  activity_hunt_owner: "Охотник"
-  #Meditation 
+ #Meditation
  activity_meditation: "Медитация в уединении"
  activity_meditation_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U][Select_CString(ACTIVITY.GetOwner.IsLocalPlayer, 'а медитация', ' устраивает медитацию')]"
  activity_meditation_desc: "[ACTIVITY.GetOwner.GetTitledFirstName] удаляется от мирской суеты, чтобы спокойно предаться медитации."
  activity_meditation_owner: "Приверженец медитаций"
-  #Hold Court 
+ #Hold Court
  activity_hold_court: "Устроить прием"
  activity_hold_court_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U][Select_CString(ACTIVITY.GetOwner.IsLocalPlayer, ' прием', ' устраивает прием')]"
  activity_hold_court_desc: " приглашает всех подданных поведать  о своих насущных проблемах."
  activity_petition_liege: "Обращение к сюзерену"
  activity_petition_liege_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U][Select_CString(ACTIVITY.GetOwner.IsLocalPlayer, 'е обращение с просьбой', ' обращается с просьбой')]"
  activity_petition_liege_desc: "[ACTIVITY.GetOwner.GetTitledFirstName] [Select_CString(ACTIVITY.GetOwner.IsFemale, 'обратилась', 'обратился' )] к своему сюзерену в надежде, что [ACTIVITY.GetOwner.GetLiege.GetTitledFirstName] поможет решить определенные вопросы."
-  #Seer 
+ #Seer
  visit_seer: "Посетить провидца"
  visit_seer_desc: "Возможно, найдется пара неплохих советов по выживанию в Средние века."
-  
-  #Adventure 
+ #Adventure
  activity_adventure_name: "Приключения"
  activity_adventure_desc: "[ACTIVITY.GetOwner.GetTitledFirstName] ищет приключения в этой области."
  activity_adventure_owner: "Авантюрист"
-  
-  #Gruesome Festival (Blót) 
+ #Gruesome Festival (Blót)
  activity_gruesome_festival: "[GetPlayer.Custom('GruesomeFestivalName')|U]"
  activity_gruesome_festival_selection_tooltip: "Вы приглашаете своих подданных принять участие в весьма дорогостоящем священном ритуале"
  activity_gruesome_festival_desc: "Пора всем жителям державы [GetPlayer.GetPrimaryTitle.GetNameNoTierNoTooltip] собраться для жертвоприношения. Эти ритуалы не только объединяют верующих, но и лишний раз подтверждают, что я [GetPlayer.GetTitleAsNameNoTooltip|l] всех этих земель."
@@ -184,19 +176,16 @@
  activity_gruesome_festival_province_desc: "$gruesome_festival_size_small_desc$"
  activity_gruesome_festival_fallback_name: "Ритуальное жертвоприношение"
  activity_gruesome_festival_desc.non_gf_practioner: "Среди моих подданных есть те, кто практикует жертвоприношения, что благословляет их [GetPlayer.GetTitleAsNameNoTooltip|l]. Даже символическая церемония, несомненно, поможет мне добиться их одобрения, но вот следование более... варварским обычаям может навлечь на меня гнев противников подобных ритуалов."
-  
-  
  ACTIVITY_WAITING: "Ожидание начала"
  ACTIVITY_ATTENDING: "Прибыли"
  ACTIVITY_DECLINED: "Отказались"
  ACTIVITY_ATTENDING_NEWLINE: "\n$ACTIVITY_ATTENDING$\n"
  GOTO_ACTIVITY: "#I Нажмите, чтобы переместиться к событию#!"
  GOTO_PLAYER_ACTIVITY: "#T [GetPlayer.GetCurrentActivity.GetType.GetName], место проведения — [GetPlayer.GetCurrentActivity.GetLocation.GetName]#! \n#I Нажмите для выбора#!"
-  #Pay Homage 
+ #Pay Homage
  activity_pay_homage: "Почести"
  activity_pay_homage_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U][Select_CString(ACTIVITY.GetOwner.IsLocalPlayer, 'е воздаяние почестей', ' воздает почести')]"
  activity_pay_homage_desc: "[ACTIVITY.GetOwner.GetTitledFirstName] желает официально засвидетельствовать, что [ACTIVITY.GetOwner.GetHersHis] сюзерен [ACTIVITY.GetOwner.GetLiege.GetTitledFirstName] заслуживает высочайших почестей."
-  
  activity_invite_rule_friends: "Друзья"
  activity_invite_rule_rivals: "Соперники"
  activity_invite_rule_rivals_if_appropriate: "$activity_invite_rule_rivals$"
@@ -231,8 +220,7 @@
  activity_invite_spouses_close_family: "Близкие родственники супругов"
  activity_invite_spouses_extended_family: "Дальние родственники супругов"
  activity_invite_mp: "Другие игроки"
-  
-  ##### PILGRIMAGE ##### 
+ ##### PILGRIMAGE #####
  activity_pilgrimage.is_location_valid.hajj_mecca: "Совершить хадж можно только в Мекку"
  activity_pilgrimage.is_location_valid.recently_visited: "Недавно вы уже посещали это [Concept( 'holy_site', 'священное место' )|E]"
  activity_pilgrimage.serving_diarch: "Вы официально считаетесь [Concept( 'diarch', 'диархом' )|E], а потому ваше место внутри [Concept( 'realm', 'державы' )|E]"
@@ -240,16 +228,12 @@
  activity_pilgrimage.is_valid.islam.must_complete_hajj_first: "Поскольку вы мусульманин, придерживающийся [Concept( 'doctrine', 'доктрины' )|E] паломничества «[GetFaithDoctrine('doctrine_pilgrimage_mandatory_hajj').GetBaseName]», перед отправкой в любое другое паломничество вам нужно совершить хадж"
  activity_pilgrimage.is_location_valid.capital_is_holy_site: "Это ваша столица, и [Concept( 'holy_site', 'священным местом' )|E] для паломничества она быть не может"
  activity_pilgrimage.is_location_valid.capital_is_mecca: "Вы не можете совершить хадж, так как Мекка — ваша столица"
-  
  activity_pilgrimage.is_valid.islam.mandatory_or_impatient: "Что-то из перечисленного:\n$EFFECT_LIST_BULLET$ Ваша [faith|E] опирается на [Concept( 'doctrine', 'доктрину' )|E] паломничества «[GetFaithDoctrine('doctrine_pilgrimage_mandatory_hajj').GetBaseName]»\n$EFFECT_LIST_BULLET$ Вам свойственна [GetTrait('impatient').GetName(GetNullCharacter)|l]"
  activity_pilgrimage.is_valid.other.mandatory_or_impatient: "Что-то из перечисленного:\n$EFFECT_LIST_BULLET$ Ваша [faith|E] опирается на [Concept( 'doctrine', 'доктрину' )|E] паломничества «[GetFaithDoctrine('doctrine_pilgrimage_mandatory').GetBaseName]»\n$EFFECT_LIST_BULLET$ Вам свойственна [GetTrait('impatient').GetName(GetNullCharacter)|l]"
-  
- activity_pilgrimage.is_valid.pilgrim_or_patient: "Хотя бы одно из этого:\n$EFFECT_LIST_BULLET$ Вы [GetTrait('patient').GetName(GetNullCharacter)]\n$EFFECT_LIST_BULLET$ У Вас есть [GetTrait('pilgrim').GetName(GetNullCharacter)] [trait|E]" #Машинный перевод 28.10.23
-  
+ activity_pilgrimage.is_valid.pilgrim_or_patient: "Что-то из перечисленного:\n$EFFECT_LIST_BULLET$ Вам свойственна [GetTrait('patient').GetName(GetNullCharacter)|l]\n$EFFECT_LIST_BULLET$ Вам [Concept( 'trait', 'свойственно' )|E] [GetTrait('pilgrim').GetName(GetNullCharacter)|l]\n$EFFECT_LIST_BULLET$ Вам [Concept( 'trait', 'свойственен' )|E] [GetTrait('hajjaj').GetName(GetNullCharacter)]"
+ activity_pilgrimage.is_valid.hajjed_recently: "Совершать хадж можно только раз в несколько ([EmptyScope.ScriptValue('hajj_cooldown_value')|0]) лет"
  ACTIVITY_TYPE_ON_COOLDOWN: "@warning_icon! #X Организовать это занятие невозможно еще [DATE.GetTimeToDate()]#!"
-  
  is_healthy_tt: "Пышет здоровьем"
-  
  hunt_rampage_bodyguard_log_title: "#D TODO_CD: hunt_rampage_bodyguard_log_title#!"
  level_5_reward_tt_title: "Конец тура"
  level_4_reward_tt_title: "$level_5_reward_tt_title$"
@@ -257,7 +241,6 @@
  level_2_reward_tt_title: "$level_5_reward_tt_title$"
  level_1_reward_tt_title: "$level_5_reward_tt_title$"
  failed_to_get_reward_tt_title: "Не удалось получить ни одной награды"
-  
  tournament_activity_cost_discount_war_camps_desc: "В этом месте есть $building_type_war_camps_01$"
  tournament_activity_cost_discount_barracks_desc: "В этом месте есть $building_type_barracks_01$"
  tournament_activity_cost_max_discount_desc: "В этом месте есть $building_type_hall_of_heroes_01$"
@@ -277,12 +260,11 @@
  tournament_board_games_contest_cost_low_discount_desc: "В этом месте есть $building_type_warrior_lodges_01$"
  tournament_recital_contest_cost_discount_desc: "$tournament_board_games_contest_cost_discount_desc$"
  tournament_recital_contest_cost_low_discount_desc: "$tournament_board_games_contest_cost_low_discount_desc$"
-  # EP2 Era Tooltips 
+ #EP2 Era Tooltips
  increased_activity_cost: "Стоимость [Concept( 'activities', 'занятий' )|E]: [gold_i]#negative_value +25%#!"
  activity_cost_scale_by_era_desc: "Эпоха: [GetPlayer.GetCulture.GetCultureEra.GetNameNoTooltip]"
  activity_cost_scale_by_tier_desc: "[GetPlayer.GetPrimaryTitle.GetTierAsNameNoTooltip]"
-  
-  # Predicted Cost descs shown in UI for each activity 
+ #Predicted Cost descs shown in UI for each activity
  activity_tournament_predicted_cost: "Стоимость такого мероприятия, как [GetActivityType( 'activity_tournament' ).GetNameNoTooltip|l], зависит в основном от количества устраиваемых вами [Concept( 'contests', 'состязаний' )|E], а также от выбранных [Concept( 'activity_options', 'вариантов занятия' )|E]."
  activity_tour_predicted_cost: "Стоимость такого мероприятия, как [GetActivityType( 'activity_tour' ).GetNameNoTooltip|l], зависит в основном от количества [Concept( 'tour_stops', 'остановок в туре' )|E], а также выбранных [Concept( 'activity_options', 'вариантов занятия' )|E]."
  activity_wedding_predicted_cost: "Стоимость такого мероприятия, как [GetActivityType( 'activity_wedding' ).GetNameNoTooltip|l], зависит в основном от выбранных [Concept( 'activity_options', 'вариантов занятия' )|E]."
@@ -292,12 +274,9 @@
  activity_gruesome_festival_predicted_cost: "Стоимость такого мероприятия, как [GetActivityType( 'activity_gruesome_festival' ).GetNameNoTooltip|l], зависит в основном от выбранных вами [Concept( 'activity_options', 'вариантов занятия' )|E]."
  activity_witch_ritual_predicted_cost: "Стоимость такого мероприятия, как [GetActivityType( 'activity_witch_ritual' ).GetNameNoTooltip|l], зависит в основном от вашего [Concept( 'income', 'дохода' )|E]."
  activity_playdate_predicted_cost: "Стоимость такого мероприятия, как [GetActivityType( 'activity_playdate' ).GetNameNoTooltip|l], зависит в основном от вашего [Concept( 'income', 'дохода' )|E] и [Concept( 'title_tier', 'уровня' )|E]."
-  
  liege_accolades_glory_reward_title: "Получена [glory|El]"
  liege_accolades_glory_reward: "Участники с уважением отзывались о воинских достоинствах, и особых похвал удостоились [root_scope.Custom('KnightCulturePluralNoTooltip')|l] [Select_CString(root_scope.IsLocalPlayer, '', 'персонажа ' )][root_scope.GetNamePossessiveOrMy][Select_CString(root_scope.IsLocalPlayer, 'его персонажа', '' )]"
-  
  knight_accolade_glory_reward_title: "Получена [glory|El]"
  knight_accolade_glory_reward: "[root_scope.GetShortUIName], выдающийся [root_scope.Custom('KnightCultureNoTooltip')|l], поражает и впечатляет"
-  
  liege_accolades_glory_reward_tour_title: "Получена [glory|El]"
  liege_accolades_glory_reward_tour: "[root_scope.Custom('KnightCulturePluralNoTooltip')|U] [Select_CString(root_scope.IsLocalPlayer, '', 'персонажа ' )][root_scope.GetNamePossessiveOrMy][Select_CString(root_scope.IsLocalPlayer, 'его персонажа', '' )] промчались по этим землям, поразив всех величием и властностью"

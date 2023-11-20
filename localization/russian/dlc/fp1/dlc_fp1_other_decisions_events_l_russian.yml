@@ -1,5 +1,5 @@
 ﻿l_russian:
-  # Holding a grand sacrifice. 
+ #Holding a grand sacrifice.
  fp1_other_decisions.0001.t: "[blotter.Custom('GruesomeFestivalName')|U] с размахом"
  fp1_other_decisions.0001.desc: "Хотя небольшие [blotter.Custom('GruesomeFestivalNamePlural')] проводятся в течение года по различным поводам, лишь раз в десять лет [gf_faith.GetAdherentNamePlural|l] державы [blotter.GetPrimaryTitle.GetNameNoTierNoTooltip] собираются ради великого праздника, а самое главное, для грандиозного #EMP жертвоприношения#!.\n\nВо имя богов льётся много крови, но мясо жертвенных животных достаётся верующим. Столь богатое пиршество обычно оживляет празднество.\n\nРазумеется, это дорогостоящее событие — и не #EMP все#! [gf_faith.GetAdherentNamePluralNoTooltip|l] должны быть приглашены..."
  fp1_other_decisions.0001.a.capital: "Возможно, достаточно пригласить жителей графства [capital_county.GetNameNoTierNoTooltip] и придворных?"
@@ -7,10 +7,9 @@
  fp1_other_decisions.0001.b: "Все свободные [blotter.Custom('WomenMenPeople_GenderPreference')] моего домена должны прибыть на праздник!"
  fp1_other_decisions.0001.c: "Приглашены все: и знать, и простолюдины!"
  fp1_other_decisions.0001.d: "Но если подумать, это слишком дорого..."
-  ## ^Technically, the two loc keys above should use gf_faith, but we permit blotter to think of the event through their personal world-view. 
+ ## ^Technically, the two loc keys above should use gf_faith, but we permit blotter to think of the event through their personal world-view.
  fp1_other_decisions.0001.prep_start.tt: "Подготовка к празднеству начинается..."
  fp1_other_decisions.0001.prep_continue.tt: "Подготовка к празднеству продолжается..."
-  
  fp1_other_decisions.0002.t: "$fp1_other_decisions.0001.t$"
  fp1_other_decisions.0002.desc.intro: "[blotter.Custom('GruesomeFestivalName')|U] может быть как крупным, так и небольшим.\n\nПо традиции на них устраивают жертвоприношения, в том числе и человеческие. В жертву будет принесено несколько узников, и, возможно, мне даже удастся предложить одну из жертв. Их жизни станут подношением богам.\n\nХотя [gf_faith.GetAdjectiveNoTooltip|l] подразумевает принесение жертв,"
  fp1_other_decisions.0002.desc.vassals_dislike_humsac: "некоторые из моих вассалов считают этот обычай варварским,"
@@ -41,7 +40,6 @@
  fp1_other_decisions.0002.blot_invalidation.tt: "[blotter.Custom('GruesomeFestivalName')|U] пришлось отменить"
  fp1_other_decisions.0002.blot_invalidation.costs_recouped.tt: "Большая часть потраченного [Concept( 'gold', 'золота' )|E] и весь [Concept( 'prestige', 'престиж' )|E] вернулись ко мне"
  fp1_other_decisions.0002.piety_gain.rump: "пока идёт [blotter.Custom('GruesomeFestivalName')]"
-  
  fp1_other_decisions.0003.t: "$fp1_other_decisions.0001.t$"
  fp1_other_decisions.0003.desc.intro.small: "Несмотря на малочисленность собравшихся, [blotter.Custom('GruesomeFestivalName')] проходит весьма оживлённо. Довольные [gf_faith.GetAdherentNamePlural|l] шумят и шутят, когда"
  fp1_other_decisions.0003.desc.intro.medium: "[gf_faith.HouseOfWorship|U] полнится довольными людьми, и празднующие [gf_faith.GetAdherentNamePlural|l] взрываются радостным рёвом, когда"
@@ -77,21 +75,18 @@
  fp1_other_decisions.0003.d: "Я уйду пораньше, уже сделано #EMP достаточно#!."
  fp1_other_decisions.0003.e: "Славься, [gf_faith.HighGodName]! Я ведь правильно произношу это имя?"
  fp1_other_decisions.0003.f: "Похоже, эти [gf_faith.GetAdherentNamePluralNoTooltip|l] охотно принимают иноверцев..."
-  
  fp1_other_decisions.0004.t: "$fp1_other_decisions.0001.t$"
  fp1_other_decisions.0004.desc: "В моих землях есть люди, верящие в необходимость устраивать жертвенную резню во имя вымышленных богов. Моя собственная просвещенная #L [blotter.GetFaith.GetName|l]ая#! вера не требует такого кровопролития, но подобные [blotter.Custom('GruesomeFestivalNamePlural')] любопытны тем, что зависят от активного участия правителя.\n\nМне нет нужды принимать их веру для проведения ритуалов, но если я соглашусь устроить у себя [blotter.Custom('GruesomeFestivalName')], то получу немало сторонников среди моих не столь просвещенных подданных, причем как среди крестьян, так и среди знати."
  fp1_other_decisions.0004.a: "Возможно, [option_1.GetAdherentNamePlural|l] стоят того, чтобы порадовать их..."
  fp1_other_decisions.0004.b: "И [option_2.GetAdherentNamePlural|l] наконец-то начнут #EMP поддерживать#! меня?"
  fp1_other_decisions.0004.c: "#L [option_3.GetAdjective]ие#! праздники не лишены своего очарования."
  fp1_other_decisions.0004.d: "Это будет по меньшей мере #EMP полной#! ересью!"
-  
-  # Copy-paste labels. 
+ #Copy-paste labels.
  fp1_other_decisions.0003.desc.sacrifice.norse_blood_bowl: "Всю кровь собирают в чашу, а затем [gf_faith.PriestNeuterPlural] окрашивают ей стены святилища, внутри и снаружи"
  fp1_other_decisions.0003.desc.sacrifice.norse_cannibal_excarnation: "Пригодное в пищу мясо рубится на пир, а прочие останки развешивают на дереве, и к алтарю подводят следующую жертву"
  fp1_other_decisions.0003.desc.sacrifice.norse_throttling: "яростно вырывается, пока [gf_faith.PriestNeuterPlural] душат [sacrifice.GetHerHis], и жизнь покидает [sacrifice.GetHerHis], лишь когда в жертву приносят самое первое животное. Человеческие тела развешивают на дереве, а животных отправляют жариться на кострах"
  fp1_other_decisions.0003.desc.sacrifice.generic_cannibal_slaughter: "теряет сознание, тело расслабляется. Страх мог бы испортить мясо. Затем приходят [gf_faith.PriestNeuterPlural] и отрезают сочные куски мяса для котлов, даже когда к алтарю подводят следующую жертву, ещё пытающуюся кричать"
  fp1_other_decisions.0003.desc.sacrifice.generic_human_disemboweling: "[sacrifice.GetHerHis|U] товарищи по плену в ужасе смотрят на то, как из тела вынимают внутренности. Они знают, что их ждёт та же участь. Возможно, они завидуют более чистой смерти животных, которые после смерти отправляются на костёр для жарки мяса"
-  
  fp1_other_decisions.0011.t: "$fp1_other_decisions.0001.t$"
  fp1_other_decisions.0011.desc.intro: "[blotter.Custom('GruesomeFestivalNamePlural')|U] играют важную роль в #L [gf_faith.GetName|l]ой#! вере, и [blotter.Custom2('MyCharacterIntroduction', ROOT.Char)] устраивает один из таких праздников.\n\nЭто будет грандиозное мероприятие, на котором соберутся [gf_faith.GetAdherentNamePluralNoTooltip|l] державы [blotter.GetPrimaryTitle.GetNameNoTier], знать и простой народ."
  fp1_other_decisions.0011.desc.cannibal_blot: "Как и в случае большинства особых обрядов, человек моего положения обязан принять участие в ритуальном поедании человеческой плоти."
@@ -115,7 +110,6 @@
  fp1_other_decisions.0012.b.all_decliners_list: "Все отказавшиеся [Concept( 'vassals', 'вассалы' )|E]"
  fp1_other_decisions.0012.c.singular: "[Select_CString(decliner_1.IsFemale, 'Сама виновата', 'Сам виноват' )]."
  fp1_other_decisions.0012.c.plural: "Сами виноваты."
-  
  fp1_other_decisions.0021.t: "Непостижимое святотатство"
  fp1_other_decisions.0021.desc: "Страшные новости пришли из державы [sacrificer.GetPrimaryTitle.GetNameNoTierNoTooltip]! По всей видимости, [Select_CString(sacrificer.IsFemale, 'гнусная', 'гнусный' )] [sacrificer.Custom('GetUnbelieverName')] [sacrificer.GetShortUIName] [Select_CString(sacrificer.IsFemale, 'совершила', 'совершил' )] немыслимое преступление, и от [sacrificer.GetHerHis] руки [Select_CString(sacrificed_hof.IsFemale, 'погибла благородная', 'погиб благородный' )] [sacrificed_hof.GetTitledFirstName], став жертвой отвратительного верования.\n\n"
  fp1_other_decisions.0021.desc.allows_holy_wars: "Уже сейчас верные [sacrificed_hof.GetFaith.GetAdherentNamePlural|l] пылают праведным гневом!\n\nЭто оскорбление не должно остаться безнаказанным. Во всех тавернах, крепостях и замках, где [sacrificed_hof.GetFaith.WarGodName] имеет своих последователей, только и разговоров, что о священной войне."
@@ -126,15 +120,13 @@
  fp1_other_decisions.0021.cheaper_holy_wars.tt: "Теперь [Concept( 'holy_wars', 'священные войны' )|E] против [Select_CString(sacrificer.IsLocalPlayer, '', 'персонажа ' )][sacrificer.GetNamePossessiveOrMy][Select_CString(sacrificer.IsLocalPlayer, 'его персонажа', '' )] стоят намного меньше"
  fp1_other_decisions.0021.easier_holy_wars.tt: "[holy_wars|E] против [Select_CString(sacrificer.IsLocalPlayer, '', 'персонажа ' )][sacrificer.GetNamePossessiveOrMy][Select_CString(sacrificer.IsLocalPlayer, 'его персонажа', '' )] требуют меньшего [Concept( 'piety_levels', 'уровня набожности' )|E], чем обычно"
  fp1_other_decisions.0021.ghw_target_preference.tt: "[great_holy_wars|E] с большей вероятностью начнутся против [Select_CString(sacrificer.IsLocalPlayer, '', 'персонажа ' )][sacrificer.GetNamePossessiveOrMy][Select_CString(sacrificer.IsLocalPlayer, 'его персонажа', '' )]"
-  
  fp1_other_decisions.0022.t: "$fp1_other_decisions.0021.t$"
  fp1_other_decisions.0022.desc: "Похоже, [unlucky_guest.GetFaith.GetAdherentNamePlural|l] всего мира не особо обрадовались тому, что их якобы [unlucky_guest.GetTitleAsNameNoTooltip|l] [Select_CString(unlucky_guest.IsFemale, 'была принесена', 'был принесён' )] мной в жертву.\n\n"
  fp1_other_decisions.0022.desc.disallows_holy_wars: "Но они остались верны своей миролюбивой вере и вместо кровавого возмездия предпочли тихие молитвы."
- fp1_other_decisions.0022.desc.allows_holy_wars: "Верные своей воинственной вере, многие из них взывают к моей голове и проповедуют священные войны до тех пор, пока мое царство не будет очищено от лица [aeras|E]."
+ fp1_other_decisions.0022.desc.allows_holy_wars: "Как и стоило ожидать от последователей воинственной веры, многие потребовали мою голову и поклялись вести священную войну, пока моя держава не будет стёрта с лица земли."
  fp1_other_decisions.0022.a.pacifists: "Ха, возможно их [unlucky_guest.GetFaith.HighGodName] покарает меня?"
  fp1_other_decisions.0022.a.craven: "Пожалуй... это было ошибкой."
  fp1_other_decisions.0022.a.fallback: "Ха, пусть приходят!"
-  
  fp1_other_decisions.0023.t: "$fp1_other_decisions.0021.t$"
  fp1_other_decisions.0023.desc.intro: "[unlucky_guest.GetFaith.GetAdherentNamePlural] всего мира не могут оправиться от потрясения. [Select_CString(unlucky_guest.IsFemale, 'Наша возлюбленная', 'Наш возлюбленный' )] [unlucky_guest.GetShortUIName] [Select_CString(unlucky_guest.IsFemale, 'была принесена', 'был принесён' )] в жертву, и ответственны за это гнусные [gf_faith.GetAdherentNamePlural|l]. Но хуже всего то, что #EMP приказ об этом#! отдал один из нас.\n\n"
  fp1_other_decisions.0023.desc.has_excommunication: "[blotter.GetShortUIName] [Select_CString(blotter.IsFemale, 'была', 'был' )] без лишних церемоний [Select_CString(blotter.IsFemale, 'отлучена', 'отлучён' )] от церкви, и все добрые [unlucky_guest.GetFaith.GetAdherentNamePluralNoTooltip|l] узнали о [blotter.GetHerHis] святотатстве."
@@ -142,7 +134,6 @@
  fp1_other_decisions.0023.desc.outro: "Пусть [unlucky_guest.GetFaith.NegativeAfterLife] поглотит [blotter.GetHerHis]!"
  fp1_other_decisions.0023.a: "Такое не прощают!"
  fp1_other_decisions.0023.b: "Да #EMP что это#! за [blotter.GetWomanMan]?!"
-  
  fp1_other_decisions.0024.t: "$fp1_other_decisions.0021.t$"
  fp1_other_decisions.0024.desc.intro: "Что на меня нашло? Какое порождение зла засело в моей голове и заставило меня #EMP открыто#! позволить, чтобы [unlucky_guest.GetShortUIName] [Select_CString(unlucky_guest.IsFemale, 'была принесена', 'был принесён' )] в жертву чужеземным идолам? Каждый праведный [unlucky_guest.GetFaith.GetAdherentName|l] в этом мире обсуждает моё святотатство!\n\n"
  fp1_other_decisions.0024.desc.has_excommunication: "Не нужно никакого распоряжения об отлучении, чтобы [unlucky_guest.GetFaith.PriestNeuterPlural|l] отказались слушать мою исповедь."
@@ -151,10 +142,8 @@
  fp1_other_decisions.0024.a: "#EMP Это была страшная ошибка!#!"
  fp1_other_decisions.0024.b: "[unlucky_guest.GetSheHe|U] лишь [unlucky_guest.GetWomanMan], а не живое божество!"
  fp1_other_decisions.0024.c: "Это не я, а мои подданные!"
-  
  fp1_other_decisions.0063.t: "$game_concept_designate_chief_sacrifice_chief_sacrifice$ умерла до праздника"
  fp1_other_decisions.0063.desc: "[designated_sacrifice.GetTitledFirstNameNoTooltip] [Select_CString(designated_sacrifice.IsFemale, 'умерла', 'умер' )] раньше, чем [designated_sacrifice.GetHerHis] успели принести в жертву."
-  
  fp1_other_decisions.0101.t.root_title: "Камни из древних веков"
  fp1_other_decisions.0101.t: "$fp1_other_decisions.0101.t.root_title$: тема"
  fp1_other_decisions.0101.desc: "Каждый рунный камень хранит историю о важном событии в жизни заказчика. И скромный крестьянин, и [ROOT.Char.GetTitleAsNameNoTooltip|l], как я, — камень помнит всех.\n\nО чём расскажет монумент?"
@@ -165,7 +154,6 @@
  fp1_other_decisions.0101.c: "[new_title.GetNameNoTierNoTooltip] и мое восхождение на трон!"
  fp1_other_decisions.0101.c.tt: "Рунный камень расскажет о вашем пути во власть..."
  fp1_other_decisions.0101.d: "#EMP СКОЛЬКО-СКОЛЬКО#! стоит раскрашенный булыжник?"
-  
  fp1_other_decisions.0111.t: "$fp1_other_decisions.0101.t.root_title$: место"
  fp1_other_decisions.0111.desc.intro: "Итак, с содержанием рунного камня все ясно. Остается вопрос, куда мне его поставить?\n\n"
  fp1_other_decisions.0111.desc.ancestor: "[ancestor.GetFirstName] — моя родня, а семейные памятники внушают уважение и верность. Лучше всего ставить их в регионах, где меня не слишком уважают, — там они послужат свидетельством моей преданности и служения высшим силам."
@@ -175,7 +163,6 @@
  fp1_other_decisions.0111.a: "[location_a.GetNameNoTierNoTooltip|U] вполне подойдет."
  fp1_other_decisions.0111.b: "Мне кажется, [location_b.GetNameNoTierNoTooltip|U] — неплохое место?"
  fp1_other_decisions.0111.c: "[location_c.GetNameNoTierNoTooltip|U] — отличный выбор!"
-  
  fp1_other_decisions.1000.t: "Жертва!"
  fp1_other_decisions.1000.desc: "Толпа не сводит с меня глаз и не прекращает пения. [blotter.GetFirstName] стоит перед ними и, с ухмылкой на лице, готовится оборвать мою жизнь.\n\n«О, [blotter.GetFaith.HighGodName]! Прими эту жертву!» — кричит [blotter.GetSheHe].\n\nПуть завершен.\n\nТьма обволакивает меня.\n\nВсё кончено."
  fp1_other_decisions.1000.a: "[ROOT.Char.GetFaith.NegativeAfterLife] ждет нас обоих. Жди встречи!"

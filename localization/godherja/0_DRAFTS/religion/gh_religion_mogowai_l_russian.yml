@@ -1,98 +1,98 @@
 ﻿l_russian:
   
  #mogowai Loc 
- mogowai_religion: "Моговайск"  
- mogowai_religion_adj: "Моговай"  
- mogowai_religion_adherent: "Моговай"  
- mogowai_religion_adherent_plural: "Моговаи"  
- mogowai_religion_desc: "Моговаи верят, что их бог, известный только как Всевышний, когда-то имел физическое воплощение, которое ходило по [Concept('aeras', 'Аэрасу')|E] и взаимодействовало с просителями. Однако на Него напала армия неверующих, которые сожгли Его храмы, уничтожили Его приношения и даже убили Его. Его тело было унесено в неизвестные места, и долг Моговаев («Искатели» на их языке) — разыскать это тело и провести с ним надлежащие последние обряды, после которых Всевышний родится в новом теле и мир воцарится в мире." 
- mogowai_high_god_name: "Тот, Кто был Всевышним"  
- mogowai_high_god_name_possessive: "Его"  
- mogowai_high_god_name_alternate: "Мертвый Бог"  
- mogowai_high_god_name_alternate_possessive: "Мертвый Бог"  
- mogowai_death_deity_name: "Всевышний"  
- mogowai_death_deity_name_possessive: "Всевышнего"  
- mogowai_devil_name: "Храмовый сжигатель"  
- mogowai_devil_name_possessive: "Храмового сжигателя"  
+ mogowai_religion: "Моговай" #Машинный перевод 28.10.23
+ mogowai_religion_adj: "Моговай" #Машинный перевод 28.10.23
+ mogowai_religion_adherent: "Моговай" #Машинный перевод 28.10.23
+ mogowai_religion_adherent_plural: "Моговай" #Машинный перевод 28.10.23
+ mogowai_religion_desc: "Моговаи верят, что их бог, известный только как Всевышний, когда-то имел физический аватар, который ходил по [aeras|E] и взаимодействовал с просителями. Однако на Него напала армия неверующих, которые сожгли Его храмы, уничтожили Его приношения и даже убили Его. Его тело было унесено в неизвестные места, и долг Моговаи («Искатели» на их языке) — разыскать это тело и провести с ним надлежащие последние обряды, после которых Всевышний родится в новом теле и мир вернется в мир." #Машинный перевод 28.10.23
+ mogowai_high_god_name: "Тот, Кто был Всевышним" #Машинный перевод 28.10.23
+ mogowai_high_god_name_possessive: "Его" #Машинный перевод 28.10.23
+ mogowai_high_god_name_alternate: "Мертвый Бог" #Машинный перевод 28.10.23
+ mogowai_high_god_name_alternate_possessive: "Мертвый Бог" #Машинный перевод 28.10.23
+ mogowai_death_deity_name: "Самый Высокий" #Машинный перевод 28.10.23
+ mogowai_death_deity_name_possessive: "Всевышнего" #Машинный перевод 28.10.23
+ mogowai_devil_name: "Храмовый сжигатель" #Машинный перевод 28.10.23
+ mogowai_devil_name_possessive: "Храмовый сжигатель" #Машинный перевод 28.10.23
   
- mogowai_house_of_worship: "Храм"  
- mogowai_house_of_worship_plural: "Храмы"  
- mogowai_religious_symbol: "Карта Небес"  
- mogowai_religious_text: "Гимны Небес"  
+ mogowai_house_of_worship: "Храм" #Машинный перевод 28.10.23
+ mogowai_house_of_worship_plural: "Храмы" #Машинный перевод 28.10.23
+ mogowai_religious_symbol: "Карта Небес" #Машинный перевод 28.10.23
+ mogowai_religious_text: "Гимны Небес" #Машинный перевод 28.10.23
   
- mogowai_religious_head_title: "Кихинет"  
- mogowai_religious_head_title_name: "Киинети Моготада"  
- mogowai_devotee_male: "Моговай"  
- mogowai_devotee_male_plural: "Моговай"  
- mogowai_devotee_female: "Моговай"  
- mogowai_devotee_female_plural: "Моговай"  
- mogowai_devotee_neuter: "Моговай"  
- mogowai_devotee_neuter_plural: "Моговай"  
- mogowai_priest: "Экагиб"  
- mogowai_priest_plural: "Экагибы"  
- mogowai_priest_alternate: "Сиирет"  
- mogowai_priest_alternate_plural: "Сиирец"  
- mogowai_bishop: "Аминет"  
- mogowai_bishop_plural: "Аминец"  
- mogowai_positive_afterlife: "Воссоединение с Мертвым Богом"  
- mogowai_negative_afterlife: "Пустой рай"  
+ mogowai_religious_head_title: "Кихинет" #Машинный перевод 28.10.23
+ mogowai_religious_head_title_name: "Киинети Моготада" #Машинный перевод 28.10.23
+ mogowai_devotee_male: "Моговай" #Машинный перевод 28.10.23
+ mogowai_devotee_male_plural: "Моговай" #Машинный перевод 28.10.23
+ mogowai_devotee_female: "Моговай" #Машинный перевод 28.10.23
+ mogowai_devotee_female_plural: "Моговай" #Машинный перевод 28.10.23
+ mogowai_devotee_neuter: "Моговай" #Машинный перевод 28.10.23
+ mogowai_devotee_neuter_plural: "Моговай" #Машинный перевод 28.10.23
+ mogowai_priest: "Экагиб" #Машинный перевод 28.10.23
+ mogowai_priest_plural: "Экагибы" #Машинный перевод 28.10.23
+ mogowai_priest_alternate: "Сиирет" #Машинный перевод 28.10.23
+ mogowai_priest_alternate_plural: "Сиирец" #Машинный перевод 28.10.23
+ mogowai_bishop: "Аминет" #Машинный перевод 28.10.23
+ mogowai_bishop_plural: "Аминец" #Машинный перевод 28.10.23
+ mogowai_positive_afterlife: "Воссоединение с Мертвым Богом" #Машинный перевод 28.10.23
+ mogowai_negative_afterlife: "Пустой рай" #Машинный перевод 28.10.23
   
- mogowai_creator_god_name: "$mogowai_high_god_name$"  
- mogowai_creator_god_name_possessive: "$mogowai_high_god_name_possessive$"  
- mogowai_health_god_name: "$mogowai_high_god_name_alternate$"  
- mogowai_health_god_name_possessive: "$mogowai_high_god_name_alternate_possessive$"  
- mogowai_fertility_god_name: "$mogowai_high_god_name$"  
- mogowai_fertility_god_name_possessive: "$mogowai_high_god_name_possessive$"  
- mogowai_wealth_god_name: "$mogowai_high_god_name$"  
- mogowai_wealth_god_name_possessive: "$mogowai_high_god_name_possessive$"  
- mogowai_household_god_name: "$mogowai_high_god_name_alternate$"  
- mogowai_household_god_name_possessive: "$mogowai_high_god_name_alternate_possessive$"  
- mogowai_fate_god_name: "$mogowai_high_god_name_alternate$"  
- mogowai_fate_god_name_possessive: "$mogowai_high_god_name_alternate_possessive$"  
- mogowai_knowledge_god_name: "$mogowai_high_god_name$"  
- mogowai_knowledge_god_name_possessive: "$mogowai_high_god_name_possessive$"  
- mogowai_war_god_name: "$mogowai_high_god_name_alternate$"  
- mogowai_war_god_name_possessive: "$mogowai_high_god_name_alternate_possessive$"  
- mogowai_trickster_god_name: "Храмовый сжигатель"  
- mogowai_trickster_god_name_possessive: "Храмового сжигателя"  
- mogowai_night_god_name: "Темный"  
- mogowai_night_god_name_possessive: "Темныого"  
- mogowai_water_god_name: "Всевышний"  
- mogowai_water_god_name_possessive: "Его"  
- mogowai_witch_god_name: "$mogowai_death_god_name$"  
- mogowai_witch_god_name_possessive: "$mogowai_death_god_name_possessive$"  
+ mogowai_creator_god_name: "$mogowai_high_god_name$" #Машинный перевод 28.10.23
+ mogowai_creator_god_name_possessive: "$mogowai_high_god_name_possessive$" #Машинный перевод 28.10.23
+ mogowai_health_god_name: "$mogowai_high_god_name_alternate$" #Машинный перевод 28.10.23
+ mogowai_health_god_name_possessive: "$mogowai_high_god_name_alternate_possessive$" #Машинный перевод 28.10.23
+ mogowai_fertility_god_name: "$mogowai_high_god_name$" #Машинный перевод 28.10.23
+ mogowai_fertility_god_name_possessive: "$mogowai_high_god_name_possessive$" #Машинный перевод 28.10.23
+ mogowai_wealth_god_name: "$mogowai_high_god_name$" #Машинный перевод 28.10.23
+ mogowai_wealth_god_name_possessive: "$mogowai_high_god_name_possessive$" #Машинный перевод 28.10.23
+ mogowai_household_god_name: "$mogowai_high_god_name_alternate$" #Машинный перевод 28.10.23
+ mogowai_household_god_name_possessive: "$mogowai_high_god_name_alternate_possessive$" #Машинный перевод 28.10.23
+ mogowai_fate_god_name: "$mogowai_high_god_name_alternate$" #Машинный перевод 28.10.23
+ mogowai_fate_god_name_possessive: "$mogowai_high_god_name_alternate_possessive$" #Машинный перевод 28.10.23
+ mogowai_knowledge_god_name: "$mogowai_high_god_name$" #Машинный перевод 28.10.23
+ mogowai_knowledge_god_name_possessive: "$mogowai_high_god_name_possessive$" #Машинный перевод 28.10.23
+ mogowai_war_god_name: "$mogowai_high_god_name_alternate$" #Машинный перевод 28.10.23
+ mogowai_war_god_name_possessive: "$mogowai_high_god_name_alternate_possessive$" #Машинный перевод 28.10.23
+ mogowai_trickster_god_name: "Храмовый сжигатель" #Машинный перевод 28.10.23
+ mogowai_trickster_god_name_possessive: "Храмовый сжигатель" #Машинный перевод 28.10.23
+ mogowai_night_god_name: "Темный" #Машинный перевод 28.10.23
+ mogowai_night_god_name_possessive: "Темные" #Машинный перевод 28.10.23
+ mogowai_water_god_name: "Самый Высокий" #Машинный перевод 28.10.23
+ mogowai_water_god_name_possessive: "Его" #Машинный перевод 28.10.23
+ mogowai_witch_god_name: "$mogowai_death_god_name$" #Машинный перевод 28.10.23
+ mogowai_witch_god_name_possessive: "$mogowai_death_god_name_possessive$" #Машинный перевод 28.10.23
   
  #mogowai loc 
- mogowai: "Моговайск"  
- mogowai_adj: "Моговай"  
- mogowai_adherent: "Моговай"  
- mogowai_adherent_plural: "Моговаи"  
- mogowai_desc: "Большинство Моговаев, кодифицированных в [Concept('karururi_chorus', 'Хоре Карурури')|E], невероятно серьезно относятся к своей задаче по поиску тела Всевышнего. В то время как многие просто молятся, чтобы Он привел Своих последователей к Своему последнему месту упокоения, другие вынуждены уходить в большой мир и искать самостоятельно. Они повторяют старые пути, которые считались тупиковыми, или ищут в совершенно неизведанных местах и ​​выискивают любую информацию о священном месте захоронения в надежде достичь своей единственной цели. Считается, что, будучи найденным, Он воскреснет еще раз и превратит мир в рай."  
+ mogowai: "Моговай" #Машинный перевод 28.10.23
+ mogowai_adj: "Моговай" #Машинный перевод 28.10.23
+ mogowai_adherent: "Моговай" #Машинный перевод 28.10.23
+ mogowai_adherent_plural: "Моговай" #Машинный перевод 28.10.23
+ mogowai_desc: "Большинство Моговаев, кодифицированных в [karururi_chorus|E], невероятно серьезно относятся к своей задаче по поиску тела Всевышнего. В то время как многие просто молятся, чтобы Он привел Своих последователей к Своему последнему месту упокоения, другие вынуждены выйти в мир и искать себя. Они повторяют старые пути, которые считались тупиковыми, или ищут в совершенно неизведанных местах и ​​преследуют любую информацию о священном месте захоронения в надежде достичь своей единственной цели. Считается, что, будучи найденным, Он воскреснет еще раз и превратит мир в рай." #Машинный перевод 28.10.23
   
  #bekashai loc 
- bekashai: "Бекашайск"  
- bekashai_adj: "Бекашай"  
- bekashai_adherent: "Бекашай"  
- bekashai_adherent_plural: "Бекашаи"  
- bekashai_desc: "Бекашаи считают, что те, кто убил Всевышнего, должны быть привлечены к ответственности, полагая, что только отомстив, можно найти Его тело. Они переориентировали свои усилия на розыск Его убийц, игнорируя поиски самого Его тела, надеясь однажды отомстить за совершенный грех. Было предложено множество теорий относительно Его смерти, но большинство из них склонны просто винить в давней трагедии своих нынешних врагов."  
+ bekashai: "Бекашай" #Машинный перевод 28.10.23
+ bekashai_adj: "Бекашай" #Машинный перевод 28.10.23
+ bekashai_adherent: "Бекашай" #Машинный перевод 28.10.23
+ bekashai_adherent_plural: "Бекашай" #Машинный перевод 28.10.23
+ bekashai_desc: "Бекашаи считают, что те, кто убил Всевышнего, должны быть привлечены к ответственности, полагая, что только отомстив, можно найти Его тело. Они переориентировали свои усилия на поиски мира, игнорируя поиски самого Его тела и вместо этого разыскивая Его убийц, надеясь однажды отомстить за свой древний грех. Было предложено множество теорий относительно Его смерти, но большинство из них склонны просто винить в давней трагедии своих нынешних врагов." #Машинный перевод 28.10.23
   
   #nitsafai loc 
- nitsafai: "Ницафайск"  
- nitsafai_adj: "Ницафай"  
- nitsafai_adherent: "Ницафай"  
- nitsafai_adherent_plural: "Ницафаи"  
- nitsafai_desc: "Ницафаи считают, что основные Моговаи сбились с пути, во многом из-за вмешательства светских лидеров в религиозные дела. Они настаивают на буквальном толковании Гимнов Небес и стремятся переориентировать веру, прежде чем поиски смогут возобновиться, опасаясь, что коррупция помешает когда-либо обнаружить Его тело. Эта преданность заставляет их отстаивать свою ортодоксальность превыше всего, и любое отклонение от их истины сурово наказывается."  
+ nitsafai: "Ницафаи" #Машинный перевод 28.10.23
+ nitsafai_adj: "Ницафаи" #Машинный перевод 28.10.23
+ nitsafai_adherent: "Ницафаи" #Машинный перевод 28.10.23
+ nitsafai_adherent_plural: "Ницафаи" #Машинный перевод 28.10.23
+ nitsafai_desc: "Ницафаи считают, что основные Моговаи сбились с пути, во многом из-за вмешательства светских лидеров в религиозные дела. Они настаивают на буквальном толковании Гимнов Небес и стремятся переориентировать веру, прежде чем поиски смогут возобновиться, опасаясь, что коррупция помешает когда-либо обнаружить Его тело. Эта преданность заставляет их отстаивать свою ортодоксальность превыше всего, и любое отклонение от их истины сурово наказывается." #Машинный перевод 28.10.23
   
   #marefai loc 
- marefai: "Марефайск"  
- marefai_adj: "Марефай"  
- marefai_adherent: "Марефай"  
- marefai_adherent_plural: "Марефаи"  
- marefai_desc: "В то время как другие конфессии верят в централизованные усилия по поиску Его тела, Марефаи полностью порицают центральную религиозную власть, полагая, что простые смертные недостойны передавать и толковать приказы Всевышнего. Они призывают каждого жить своей жизнью в соответствии со своими интерпретациями Гимнов и рассматривают тех, кто пытается возглавить веру, как узурпаторов. Несмотря на разнообразие их верований, поиск Его могилы остается первостепенным, наряду с большинством других основных принципов."  
+ marefai: "Марефай" #Машинный перевод 28.10.23
+ marefai_adj: "Марефай" #Машинный перевод 28.10.23
+ marefai_adherent: "Марефай" #Машинный перевод 28.10.23
+ marefai_adherent_plural: "Марефай" #Машинный перевод 28.10.23
+ marefai_desc: "В то время как другие конфессии верят в централизованные усилия по поиску Его тела, Марефаи полностью порицают центральную религиозную власть, полагая, что простые смертные недостойны диктовать приказы Всевышнего. Они призывают каждого жить своей жизнью в соответствии со своими интерпретациями Гимнов и рассматривают тех, кто пытается возглавить веру, как узурпаторов. Несмотря на разнообразие верований, поиск Его могилы остается первостепенным, наряду с большинством других основных принципов." #Машинный перевод 28.10.23
   
   #waharai loc 
- waharai: "Вахарайск"  
- waharai_adj: "Вахарай"  
- waharai_adherent: "Вахарай"  
- waharai_adherent_plural: "Вахараи"  
- waharai_desc: "Вахараи считают, что смерть Всевышнего была всего лишь Его вознесением, и что Он ждет на небесах тех, кто примет эту истину. Их отношение к благочестию гораздо менее серьезное, чем у их собратьев, для вахараев ваши действия в физическом мире не имеют значения, поскольку простая вера во Всевышнего принесет вам награду. В результате правила, которым они следуют, менее формальны и структурированы, и людям, которые были бы наказаны другими вероисповеданиями, Вахараями предоставляется гораздо больше свободы, если только они сохраняют свои убеждения."  
+ waharai: "Вахарай" #Машинный перевод 28.10.23
+ waharai_adj: "Вахарай" #Машинный перевод 28.10.23
+ waharai_adherent: "Вахарай" #Машинный перевод 28.10.23
+ waharai_adherent_plural: "Вахарай" #Машинный перевод 28.10.23
+ waharai_desc: "Вахараи считают, что смерть Всевышнего была всего лишь Его вознесением, и что Он ждет на небесах тех, кто примет эту истину. Их отношение к благочестию гораздо более слабое, чем у их собратьев, для вахараев ваши действия в [aeras|E] не имеют значения, поскольку простая вера во Всевышнего принесет вам награду. В результате правила, которым они следуют, менее формальны и структурированы, и людям, которые были бы наказаны другими вероисповеданиями, предоставляется гораздо больше свободы, если они сохраняют свои убеждения." #Машинный перевод 28.10.23

@@ -1,6 +1,5 @@
 ﻿l_russian:
-  
-  # BLOODY WEDDING 
+ #BLOODY WEDDING
  ep2_wedding.0101.t: "Пока смерть..."
  ep2_wedding.0101.desc.intro: "Все гости уже собрались во дворике, залитом ярким солнечным светом. Я окидываю взглядом стражу — #EMP до зубов#! вооруженных людей. Разве могу я называть себя радушным хозяином, если не позабочусь о безопасности гостей? Вскоре мой замысел свершится.\n\nЯ вижу, как прибывает [spouse_2.GetTitledFirstName] вместе со свитой"
  ep2_wedding.0101.desc.spouse: ". Этот брак продлится всего один день."
@@ -47,10 +46,10 @@
  ep2_wedding.0203.desc.arrogant: "Я откидываюсь на спинку стула и делаю глоток. [ROOT.Char.Custom('RegionalDrink')|U] приносит истинное наслаждение."
  ep2_wedding.0203.desc.just: "Я делаю то, что должно."
  ep2_wedding.0203.desc.wrathful: "#EMP Голову [Select_CString(spouse_2.IsFemale, 'ей', 'ему' )] с плеч. Долой.#!"
- ep2_wedding.0203.desc.fallback: ""
+ ep2_wedding.0203.desc.fallback: "" #left intentionally blank
  ep2_wedding.0203.desc.outro: "Один из придворных смеется чуть громче, чем положено. Чуть сильнее. [Select_CString(my_agent.IsFemale, 'Она', 'Он' )] достает кинжал и одним верным ударом пронзает сердце жертвы. [spouse_2.GetFirstNameNoTooltip] мгновенно затихает. Вместе с [Select_CString(spouse_2.IsFemale, 'ней', 'ним' )] затихают и гости.\n\n«Взять [Select_CString(my_agent.IsFemale, 'ее', 'его' )]!» — кричу я, прекрасно понимая, что уже на следующий день [Select_CString(my_agent.IsFemale, 'преступница', 'преступник' )] выйдет из темницы."
  ep2_wedding.0203.a: "Трагедия!"
- ep2_wedding.0300.desc.murder_spouse:0 "As the feast approaches its end, the candles go out and the guests have retired to their chambers. Voices raise again when it's time for our wedding night: "Когда пир приближается к концу, свечи гаснут, и гости расходятся по своим покоям. Когда приходит время нашей брачной ночи, снова раздаются голоса: «Пусть молодожены празднуют!»\n\nЯ #EMP действительно#! не могу дождаться." #Машинный перевод 28.10.23
+ ep2_wedding.0300.desc.murder_spouse: "Пир подходит к концу. Свечи постепенно затухают, а гости расходятся по своим покоям. Чем ближе брачная ночь, тем громче крики «дадим порадоваться новобрачным!».\n\n#EMP Никак#! не дождусь этого момента."
  ep2_wedding.3060.t: "Ночь, за которую можно и жизнь отдать"
  ep2_wedding.3060.desc: "Нас ждет пышная, богато украшенная постель. [spouse_2.GetTitledFirstName] почти сияет в свете свечей, и у меня на миг перехватывает дыхание. «Возляжем вместе, любовь моя», говорит [spouse_2.GetSheHe], снимая с себя рубашку.\n\nКомната залита светом луны. Я глажу [spouse_2.GetHerHis] шею, целую ее. Если я сожму горло покрепче, дело будет сделано."
  ep2_wedding.3060.a: "«Подвинься поближе, моя прелесть...»"
@@ -95,7 +94,7 @@
  ep2_wedding.0955.a: "Какое облегчение."
  ep2_wedding.0955.a.failure: "В другой раз... В другой раз."
  ep2_wedding.0956.t: "Прощайте"
- ep2_wedding.0956.desc:0 "$ep2_wedding_departure_intro$\n\n[host.GetTitledFirstName] approaches me, [host.GetHerHis] voice still filled with sorrow: "$ep2_wedding_departure_intro$\n\n[host.GetTitledFirstName] приближается ко мне, голос [host.GetHerHis] все еще полон печали: «Мое сердце тяжело из-за потери [spouse_2.GetTitledFirstName], я прошу прощения за это губительное празднование»." #Машинный перевод 28.10.23
+ ep2_wedding.0956.desc: "$ep2_wedding_departure_intro$\n\nКо мне подходит [host.GetTitledFirstName] и печально произносит: «Мне очень жаль, что [spouse_2.GetTitledFirstName] больше не с нами. Прошу прощения за то, что празднество обернулось кровопролитием»."
  ep2_wedding.0956.a: "Хорошо, что убили не меня."
  ep2_wedding.0956.a.good: "Нет... Этого не может быть..."
  ep2_wedding.0204.t: "Кровь и сталь"
@@ -115,11 +114,9 @@
  ep2_wedding.0957.desc_ending: "\n\nГлаза застилает пелена слез — такую утрату тяжело пережить, однако в сердце у меня пылает ярость.\n\nТак или иначе я отомщу."
  ep2_wedding.0957.a: "Очередной брак пошел не так."
  ep2_wedding.0957.a.tt: "Все близкие родственники персонажа [spouse_2.GetShortUIName]"
-  
  host_bloody_wedding_family_kill_title: "Кровавая свадьба"
  host_bloody_wedding_family_kill: "$host_bloody_wedding_family_kill_title$"
  host_bloody_wedding_solo_kill_title: "$host_bloody_wedding_family_kill_title$"
  host_bloody_wedding_solo_kill: "$host_bloody_wedding_family_kill_title$"
  host_bloody_wedding_excommunication_title: "Отлучение"
  host_bloody_wedding_excommunication: "[CHARACTER.GetShortUIName] [Select_CString(CHARACTER.IsLocalPlayer, 'были отлучены', Select_CString(CHARACTER.IsFemale, 'была отлучена', 'был отлучен' ))] от церкви"
-  

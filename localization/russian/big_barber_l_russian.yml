@@ -5,13 +5,11 @@
  christian: "христианин" #NT!
  chess_certain_win_barber_name: "шахматная победа" #NT!
  chess_cocky_barber_name: "Шахматное мышление" #NT!
- death: "Смерть" #NT!
  thronerooms_bgs: "Тронные залы" #NT!
  interior_bgs: "Интерьеры" #NT!
  event_bgs: "События" #NT!
  outside_bgs: "Снаружи" #NT!
  holdings_bgs: "Холдинги" #NT!
- castle: "Замок" #NT!
  city: "Город" #NT!
  big_thronerooms_bgs: "$big_thrones$" #NT!
  norse_bgs: "$norse$" #NT!
@@ -20,11 +18,9 @@
  	### 
  fp2_iberian: "Интерьер" #NT!
  fp2_throneroom_iberian: "Трон" #NT!
- fp2_frontend_iberian: "Большой тронный зал" #NT!
+ #fp2_frontend_iberian: "Большой тронный зал" #NT!
  fp2_prison: "Тюрьма" #NT!
  fp2_relaxing_room: "Комната отдыха" #NT!
- fp2_corridor_night: "$corridor_night$" #NT!
- fp2_corridor_day: "$corridor_day$" #NT!
  fp2_courtyard: "$courtyard$" #NT!
  fp2_garden: "$garden$" #NT!
  fp2_temple: "$temple$" #NT!
@@ -37,8 +33,6 @@
  zoom: "Увеличить" #NT!
  open_barbershop_interaction: "$PCW_TITLE$" #NT!
  open_barbershop_desc: "$CV_CUSTOMIZE_PORTRAIT$" #NT!
- PORTRAIT_MODIFIER_muscularity: ""
- PORTRAIT_MODIFIER_muscularity_muscular: ""
  loss_1_barber_name: "Поражение" #NT!
  collapse_poses: "#i Щелкните правой кнопкой мыши, чтобы свернуть все категории" #NT!
  duel_poses_list_name: "Дуэль" #NT!
@@ -90,7 +84,6 @@
  hide_portraits: "Скрыть портреты" #NT!
  show_portraits: "Показать портреты" #NT!
  extras: "Дополнительно" #NT!
- name: "Название"
  house: "Дом" #NT!
  members: "Члены" #NT!
  religion: "Религия" #NT!
@@ -109,7 +102,6 @@
  reset_poses: "Сбросить позы всех персонажей" #NT!
  clear_poses: "Сбросить позы всех персонажей?" #NT!
  none: "Никто" #NT!
- default: "Стандартный"
  	# 
  	### Backgrounds ### 
  	# 
@@ -126,19 +118,12 @@
  mediterranean: "Средиземноморье" #NT!
  india: "Индия" #NT!
  west: "Запад" #NT!
- alley_day: "День переулка" #NT!
  alley_night: "Аллея ночь" #NT!
- armory: "Оружейная"
- battlefield: "Поле боя"
  bedchamber: "Спальня" #NT!
- courtyard: "Двор" #NT!
- corridor_day: "Коридорный день" #NT!
+ #courtyard: "Courtyard"
+ #corridor_day: "Corridor day"
  corridor_night: "Коридор ночью" #NT!
- docks: "Доки"
- feast: "Пир"
- garden: "Сад"
  camp: "Лагерь" #NT!
- gallows: "Виселицы"
  hunt: "Охота" #NT!
  raid: "Рейд" #NT!
  physician: "Врач" #NT!
@@ -149,13 +134,6 @@
  council_marshal: "Маршал Совета" #NT!
  council_steward: "управляющий советом" #NT!
  council_spymaster: "Советский шпион" #NT!
- church: "Церковь"
- mosque: "Мечеть"
- temple: "Храм" #NT!
- market_east: "Рынок Восток" #NT!
- market_tribal: "Рынок Трайбл" #NT!
- market_west: "Рынок Запад" #NT!
- tavern: "Таверна" #NT!
  castle_india: "Замок Индии" #NT!
  castle_mediterranean: "Замок Средиземноморья" #NT!
  castle_MENA: "Замок МЕНА" #NT!
@@ -173,7 +151,6 @@
  temple_orthodox: "Храм Православный" #NT!
  tribe_arid: "Племя засушливое" #NT!
  tribe_grass: "Племя трава" #NT!
- forest_pine: "Сосновый лес" #NT!
  black: "Черный" #NT!
  white: "Белый" #NT!
  green: "Зеленый" #NT!

@@ -58,10 +58,8 @@
  vassal_modify_vassal_contract_interaction_desc: "Заново определить [Concept( 'obligations', 'обязательства' )|E], которые [recipient.GetShortUINameNoTooltip] получает от вас"
  vassal_modify_vassal_contract_interaction_extra_icon: "$hook_extra_icon$"
  visit_court_interaction: "Посетить двор"
-  
  start_bribe: "Начать подкуп"
  end_bribe: "Прекратить подкуп"
-  
  snoop_around_court: "Разнюхать обстановку при дворе"
  end_scheme: "#D Прекратить происки#!"
  lower_scheme_secrecy: "#D Понизить секретность происков#!"
@@ -203,27 +201,22 @@
  arrange_marriage_interaction.tt.non_loyal_regents_refuse_to_be_married_off.recipient: "Этот [actor.GetDiarchTitle] проявляет достаточную [Concept( 'diarch_loyal', 'верность' )|E]), чтобы согласиться на брак"
  arrange_marriage_interaction.tt.non_loyal_regents_refuse_to_be_married_off.secondary_actor: "Этот [secondary_actor.GetDiarchTitle] пока проявляет недостаточную [Concept( 'diarch_loyal', 'верность' )|E]), чтобы согласиться на брак"
  arrange_marriage_interaction.tt.non_loyal_regents_refuse_to_be_married_off.secondary_recipient: "Этот [secondary_recipient.GetDiarchTitle] пока проявляет недостаточную [Concept( 'diarch_loyal', 'верность' )|E]), чтобы согласиться на брак"
-  
  educate_child_interaction: "Дать ребенку образование"
- educate_child_interaction_desc: "Назначьте [ward|E] и [guardian|E] в вашем [court|E]\n\n#low. Если [guardian|E] обладает знаниями по [magic_school|E], они могут передать их своему [ward|E].#!." #Машинный перевод 28.10.23
+ educate_child_interaction_desc: "Выбрать у себя при [Concept( 'court', 'дворе' )|E] [Concept( 'ward', 'подопечного' )|E] и [Concept( 'guardian', 'опекуна' )|E]"
  educate_child_interaction_extra_icon: "$hook_extra_icon$"
  actor_secondary_educate_child_interaction: "[guardian|E]"
  recipient_secondary_educate_child_interaction: "[ward|E]"
  educate_child_interaction_notification: "Дать ребенку образование"
-  
-  
  offer_ward_interaction: "Предложить подопечного"
  offer_ward_interaction_desc: "Предложить, чтобы [recipient.GetShortUIName] [Select_CString(recipient.IsFemale, 'взяла', 'взял' )] [Concept( 'ward', 'подопечного' )|E]: [recipient.GetSheHe] или кто-то при [recipient.GetHerHis] [Concept( 'court', 'дворе' )|E] может стать [Concept( 'guardian', 'опекуном' )|E] выбранного ребенка"
  offer_ward_interaction_extra_icon: "$hook_extra_icon$"
  actor_secondary_offer_ward_interaction: "Подопечный"
  recipient_secondary_offer_ward_interaction: "Опекун"
-  
  offer_guardianship_interaction: "Предложить опекунство"
  offer_guardianship_interaction_desc: "Предложить, чтобы [recipient.GetShortUIName] [Select_CString(recipient.IsFemale, 'рассмотрела', 'рассмотрел' )] кандидатуру [Concept( 'guardian', 'опекуна' )|E]: кто-то при [recipient.GetHerHis] [Concept( 'court', 'дворе' )|E] сможет стать [Concept( 'ward', 'подопечным' )|E] выбранного взрослого"
  offer_guardianship_interaction_extra_icon: "$hook_extra_icon$"
  actor_secondary_offer_guardianship_interaction: "Опекун"
  recipient_secondary_offer_guardianship_interaction: "Подопечный"
-  
  EDUCATE_SELECT_YOUR_WARD_OR_GUARDIAN: "#I Выберите подопечного или [Concept( 'guardian', 'опекуна' )|E] у вас при [Concept( 'court', 'дворе' )|E]#!"
  EDUCATE_SELECT_THEIR_GUARDIAN: "#I Выберите [Concept( 'guardian', 'опекуна' )|E] у них при [Concept( 'court', 'дворе' )|E]#!"
  EDUCATE_SELECT_THEIR_WARD: "#I Выберите подопечного у них при [Concept( 'court', 'дворе' )|E]#!"
@@ -232,21 +225,27 @@
  EDUCATE_CHILD_OPTION_CONVERT_CULTURE: "Изменение [cultures|El]"
  EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR: "Попытаться обратить [Select_CString(secondary_recipient.IsLocalPlayer, '', 'персонажа ' )][secondary_recipient.GetNamePossessiveOrMy][Select_CString(secondary_recipient.IsLocalPlayer, 'его персонажа', '' )] в #L [secondary_actor.GetCulture.GetCollectiveNoun|l]ую#! культуру [Select_CString(secondary_actor.IsLocalPlayer, '', 'персонажа ' )][secondary_actor.GetNamePossessiveOrMy][Select_CString(secondary_actor.IsLocalPlayer, 'его персонажа', '' )]."
  EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT: "Попытаться обратить [Select_CString(secondary_actor.IsLocalPlayer, '', 'персонажа ' )][secondary_actor.GetNamePossessiveOrMy][Select_CString(secondary_actor.IsLocalPlayer, 'его персонажа', '' )] в #L [secondary_recipient.GetCulture.GetCollectiveNoun|l]ую#! культуру [Select_CString(secondary_recipient.IsLocalPlayer, '', 'персонажа ' )][secondary_recipient.GetNamePossessiveOrMy][Select_CString(secondary_recipient.IsLocalPlayer, 'его персонажа', '' )]."
- EDUCATE_CHILD_OPTION_CONVERT_CULTURE_EFFECT: "#TUT_KW Сменит культуру на #L [TARGET_CULTURE.GetCollectiveNoun|l]ую#!#!"
- EDUCATE_ME_OPTION_CONVERT_CULTURE_EFFECT: "#TUT_KW Сменю культуру на #L [TARGET_CULTURE.GetCollectiveNoun|l]ую#!#!"
- EDUCATE_CHILD_OPTION_CONVERT_CULTURE_LIKELY_EFFECT: "#TUT_KW Скорее всего, сменит свою культуру на #L [TARGET_CULTURE.GetCollectiveNoun|l]ую#!#!"
- EDUCATE_ME_OPTION_CONVERT_CULTURE_LIKELY_EFFECT: "#TUT_KW Скорее всего, я сменю культуру на #L [TARGET_CULTURE.GetCollectiveNoun|l]ую#!#!"
- EDUCATE_CHILD_OPTION_CONVERT_CULTURE_UNLIKELY_EFFECT: "#TUT_KW Вряд ли сменит культуру на #L [TARGET_CULTURE.GetCollectiveNoun|l]ую#! в силу своего возраста#!"
- EDUCATE_ME_OPTION_CONVERT_CULTURE_UNLIKELY_EFFECT: "#TUT_KW В силу своего возраста я вряд ли сменю культуру на #L [TARGET_CULTURE.GetCollectiveNoun|l]ую#!#!"
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_EFFECT: "Сменит культуру на #TUT_KW #L [TARGET_CULTURE.GetName|l]ую#!#!"
+ EDUCATE_ME_OPTION_CONVERT_CULTURE_EFFECT: "Сменю культуру на #TUT_KW #L [TARGET_CULTURE.GetName|l]ую#!#!"
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_LIKELY_EFFECT: "Скорее всего, сменит свою культуру на #TUT_KW #L [TARGET_CULTURE.GetName|l]ую#!#!"
+ EDUCATE_ME_OPTION_CONVERT_CULTURE_LIKELY_EFFECT: "Скорее всего, я сменю культуру на #TUT_KW #L [TARGET_CULTURE.GetName|l]ую#!#!"
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_UNLIKELY_EFFECT: "Вряд ли сменит культуру на #TUT_KW #L [TARGET_CULTURE.GetName|l]ую#! в силу своего возраста#!"
+ EDUCATE_ME_OPTION_CONVERT_CULTURE_UNLIKELY_EFFECT: "В силу своего возраста я вряд ли сменю культуру на #TUT_KW #L [TARGET_CULTURE.GetName|l]ую#!#!"
  EDUCATE_CHILD_OPTION_CONVERT_FAITH: "Изменение [faiths|El]"
  EDUCATE_CHILD_OPTION_CONVERT_FAITH_TT_TO_ACTOR: "Попытаться обратить [Select_CString(secondary_recipient.IsLocalPlayer, '', 'персонажа ' )][secondary_recipient.GetNamePossessiveOrMy][Select_CString(secondary_recipient.IsLocalPlayer, 'его персонажа', '' )] в [secondary_actor.GetFaith.GetAdjective|l] (конфессию [Select_CString(secondary_actor.IsLocalPlayer, '', 'персонажа ' )][secondary_actor.GetNamePossessiveOrMy][Select_CString(secondary_actor.IsLocalPlayer, 'его персонажа', '' )])."
  EDUCATE_CHILD_OPTION_CONVERT_FAITH_TT_TO_RECIPIENT: "Попытаться обратить [Select_CString(secondary_actor.IsLocalPlayer, '', 'персонажа ' )][secondary_actor.GetNamePossessiveOrMy][Select_CString(secondary_actor.IsLocalPlayer, 'его персонажа', '' )] в [secondary_recipient.GetFaith.GetAdjective|l] (конфессию [Select_CString(secondary_recipient.IsLocalPlayer, '', 'персонажа ' )][secondary_recipient.GetNamePossessiveOrMy][Select_CString(secondary_recipient.IsLocalPlayer, 'его персонажа', '' )])."
- EDUCATE_CHILD_OPTION_CONVERT_FAITH_EFFECT: "#TUT_KW Сменит конфессию на #L [FAITH.GetName|l]ую#!#!"
- EDUCATE_ME_OPTION_CONVERT_FAITH_EFFECT: "#TUT_KW Сменю конфессию на #L [FAITH.GetName|l]ую#!#!"
- EDUCATE_CHILD_OPTION_CONVERT_FAITH_LIKELY_EFFECT: "#TUT_KW Скорее всего, сменит конфессию на #L [FAITH.GetName|l]ую#!#!"
- EDUCATE_ME_OPTION_CONVERT_FAITH_LIKELY_EFFECT: "#TUT_KW Скорее всего, я сменю конфессию на #L [FAITH.GetName|l]ую#!#!"
- EDUCATE_CHILD_OPTION_CONVERT_FAITH_UNLIKELY_EFFECT: "#TUT_KW Вряд ли сменит конфессию на #L [FAITH.GetName|l]ую#! в силу своего возраста#!"
- EDUCATE_ME_OPTION_CONVERT_FAITH_UNLIKELY_EFFECT: "#TUT_KW В силу своего возраста я вряд ли сменю конфессию на #L [FAITH.GetName|l]ую#!#!"
+ EDUCATE_CHILD_OPTION_CONVERT_FAITH_EFFECT: "Сменит конфессию на #TUT_KW #L [FAITH.GetName|l]ую#!#!"
+ EDUCATE_ME_OPTION_CONVERT_FAITH_EFFECT: "Сменю конфессию на #TUT_KW #L [FAITH.GetName|l]ую#!#!"
+ EDUCATE_CHILD_OPTION_CONVERT_FAITH_LIKELY_EFFECT: "Скорее всего, сменит конфессию на #TUT_KW #L [FAITH.GetName|l]ую#!#!"
+ EDUCATE_ME_OPTION_CONVERT_FAITH_LIKELY_EFFECT: "Скорее всего, я сменю конфессию на #TUT_KW #L [FAITH.GetName|l]ую#!#!"
+ EDUCATE_CHILD_OPTION_CONVERT_FAITH_UNLIKELY_EFFECT: "Вряд ли сменит конфессию на #TUT_KW #L [FAITH.GetName|l]ую#! в силу своего возраста#!"
+ EDUCATE_ME_OPTION_CONVERT_FAITH_UNLIKELY_EFFECT: "В силу своего возраста я вряд ли сменю конфессию на #TUT_KW #L [FAITH.GetName|l]ую#!#!"
+ EDUCATE_CHILD_OPTION_ZEAL_EFFECT: "Получит свойство #high [GetTrait('zealous').GetName(GetNullCharacter)]#!"
+ EDUCATE_ME_OPTION_ZEAL_EFFECT: "Я получу свойство #high [GetTrait('zealous').GetName(GetNullCharacter)]#!"
+ EDUCATE_CHILD_OPTION_ZEAL_LIKELY_EFFECT: "#P Скорее всего#!, получит свойство #high [GetTrait('zealous').GetName(GetNullCharacter)]#!"
+ EDUCATE_ME_OPTION_ZEAL_LIKELY_EFFECT: "#P Скорее всего#!, я получу свойство #high [GetTrait('zealous').GetName(GetNullCharacter)]#!"
+ EDUCATE_CHILD_OPTION_ZEAL_UNLIKELY_EFFECT_LOW: "#N Вряд ли#! получит свойство #high [GetTrait('zealous').GetName(GetNullCharacter)]#!"
+ EDUCATE_ME_OPTION_ZEAL_UNLIKELY_EFFECT_LOW: "#N Вряд ли#! я получу свойство #high [GetTrait('zealous').GetName(GetNullCharacter)]#!"
  EDUCATION_UNIVERSITY: "Отправка в университет"
  imprison_interaction: "Заключить в тюрьму"
  imprison_interaction_desc: "Попытка [Concept( 'imprison', 'заточить в темницу' )|E] персонажа [recipient.GetShortUINameNoTooltip]"
@@ -294,7 +293,6 @@
  RANSOM_EXTORTIONATE_GOLD_IMPRISONED_PERSPECTIVE_OPTION: "За [gold_i]$EXTORTIONATE_RANSOM_COST|0$"
  RANSOM_EXTORTIONATE_CURRENT_GOLD_OPTION: "За [gold_i]$CURRENT_GOLD|0$ и [prestige_i]$CURRENT_GOLD|0$ #weak (не могу позволить себе полную сумму [gold_i]$EXTORTIONATE_RANSOM_COST|0$)#!"
  RANSOM_EXTORTIONATE_CURRENT_GOLD_IMPRISONED_PERSPECTIVE_OPTION: "За [gold_i]$CURRENT_GOLD|0$ #weak (не могу позволить себе полную сумму [gold_i]$EXTORTIONATE_RANSOM_COST|0$)#!"
-  
  RANSOM_OWE_FAVOR_OPTION: "За долг в виде [hook_i][Concept( 'hook', 'влияния' )|E]"
  RANSOM_FAVOR_OPTION: "За [hook_i][Concept( 'hook', 'влияние' )|E]"
  ALREADY_SENT_GIFT_WARNING: "@warning_icon!#X Вы уже отправили подарок персонажу [recipient.GetShortUIName], отправка нового #underline перепишет#! существующий модификатор [opinions|El]!#!"
@@ -315,7 +313,7 @@
  IS_ALLOWED_TO_REVOKE_EVIL_INFIDEL_VASSAL: "Поскольку [recipient.GetFaith.GetAdherentNamePlural|l] для вас $hostility_evil_tooltippable$, вы можете отнять всех вассалов, которыми владеет [recipient.GetShortUIName], не став тираном"
  IS_ALLOWED_TO_REVOKE_HOSTILE_INFIDEL_VASSAL: "Поскольку [recipient.GetFaith.GetAdherentNamePlural|l] для вас $hostility_hostile_tooltippable$, вы можете отнять всех вассалов, которыми владеет [recipient.GetShortUIName], не став тираном"
  INFIDEL_REVOCATION_OPINION: "Все #L [recipient.GetFaith.GetName|l]ие#! вассалы"
-  #[GetHostilityLevelName(TOKEN_PARAMETER.GetIntValue)|V] only"" ""
+ #[GetHostilityLevelName(TOKEN_PARAMETER.GetIntValue)|V] only""
  IS_ALLOWED_TO_REVOKE_TITLE_BARONY_DESC: "[tyranny|E] не увеличивается при отъеме [baronies|El]"
  IMPRISONMENT_RELATIVES_EFFECT_DUNGEON: "Вся [family|El] персонажа [THIS.GetCharacter.GetShortUINamePossessive] теряет #N 30#! ед. [Concept( 'opinion', 'мнения' )|El] о [Select_CString(imprisoner.IsLocalPlayer, '', 'персонаже ' )] [imprisoner.GetNamePossessiveOrMy][Select_CString(imprisoner.IsLocalPlayer, 'ем персонаже', '' )]"
  IMPRISONMENT_RELATIVES_EFFECT_HOUSE_ARREST: "Вся [family|El] персонажа [THIS.GetCharacter.GetShortUINamePossessive] теряет #N 15#! ед. [Concept( 'opinion', 'мнения' )|El] о [Select_CString(imprisoner.IsLocalPlayer, '', 'персонаже ' )] [imprisoner.GetNamePossessiveOrMy][Select_CString(imprisoner.IsLocalPlayer, 'ем персонаже', '' )]"
@@ -325,7 +323,6 @@
  CANNOT_DEMAND_CONVERSION_FROM_RELIGIOUS_HEAD: "Вы не можете требовать обращения от [Concept( 'head_of_faith', 'главы конфессии' )|E]"
  CANNOT_DEMAND_HOLY_ORDER_MASTER_CONVERSION: "Невозможно потребовать обращения от руководителя [Concept( 'holy_order', 'священного ордена' )|E]"
  CANNOT_DEMAND_CONVERSION_FROM_UNSUBORDINATE_LANDED_RULER: "Вы не можете требовать обращения от [Concept( 'landed', 'земельного' )|E] [Concept( 'ruler', 'правителя' )|E], не являющегося вашим [Concept( 'vassal', 'вассалом' )|E]"
-  
  RELEASE_RENOUNCE_CLAIMS: "Отозвать [claims|El]"
  RELEASE_RENOUNCE_CLAIMS_DESC: "[recipient.GetShortUIName] теряет все [claims|El] на титулы в вашей державе."
  RELEASE_RENOUNCE_CLAIMS_CONDITION: "[CHARACTER.GetShortUIName] не имеет [Concept( 'claims', 'претензий' )|E] на титулы в вашей державе, от которых можно [Concept( 'renounced', 'отказаться' )|E]"
@@ -336,7 +333,6 @@
  RELEASE_RECRUIT: "Завербовать"
  RELEASE_AS_EXECUTIONER: "Нанять палача"
  RELEASE_AS_EXECUTIONER_VALID: "[recipient.GetShortUIName|U] занимает [court_position|El] палача."
-  
  RELEASE_BANISH_INVALID_TAKE_VOWS_CONDITION: "[TARGET_CHARACTER.GetShortUINameNoTooltip] не может одновременно отправиться в изгнание и в монастырь."
  RELEASE_BANISH_INVALID_RECRUIT: "Вы не можете одновременно изгонять и вербовать персонажа."
  RELEASE_EXECUTIONER_INVALID_RECRUIT: "Вы должны завербовать персонажа, чтобы назначить его палачом."
@@ -370,7 +366,7 @@
  EXECUTION_PUBLIC: "Публичная казнь"
  EXECUTION_SACRIFICE: "Принести в жертву"
  MY_FAITH_HAS_THE_FIXED_APPOINTMENT_CLERGY_DOCTRINE: "Моя #weak #L [CHARACTER.GetFaith.GetName|l]ая#!#! [Concept( 'faith', 'конфессия' )|E] имеет [Concept( 'doctrine', 'доктрину' )|E] наследования духовных должностей с определенным назначением"
- vassal_contract_forbids_revocation: "Вы не можете отнимать [titles|El] у [Concept( 'vassal', 'вассала' )|E], с которым у вас заключен [feudal_contract|El], где прописаны #high $title_revocation_rights_protected$#! или #high $jizya_special_rights_granted$#!"
+ vassal_contract_forbids_revocation: "Вы не можете отнять [Concept( 'titles', 'титулы' )|E], если в [Concept( 'feudal_contract', 'вассальном договоре' )|E] [Concept( 'vassal', 'вассала' )|E] есть условие #high «$title_revocation_rights_protected$»#!, или если вассал приписан к [Concept( 'tax_jurisdiction', 'налоговой юрисдикции' )|E] с [Concept( 'tax_decree', 'указом' )|E] #high «$jizya_special_rights_tax_collector$»#!"
  I_CANNOT_IMPRISON_ALLY_WITHOUT_REASON: "Вы не можете заключить в тюрьму [Concept( 'ally', 'союзника' )|E] без причины"
  TARGET_WAS_RECENTLY_RANSOMED: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsFemale, 'была недавно выкуплена', 'был недавно выкуплен' )]"
  I_CANNOT_REVOKE_TITLE_FROM_ALLY_WITHOUT_REASON: "Вы не можете отнять титул у [Concept( 'ally', 'союзника' )|E] без [Concept( 'revoke_title_reason', 'причины' )|E]"
@@ -457,22 +453,17 @@
  is_married_patrilineally_and_spouse_is_dominant_partner: "[CHARACTER.GetShortUIName|U] состоит в [Concept( 'patrilineal', 'патрилинейном' )|E] браке, и [CHARACTER.GetHerHis] [Select_CString(CHARACTER.IsFemale, 'супруг', 'супруга' )] находится на службе у своего сюзерена"
  is_escaped_prisoner: "Вы недавно пытались [Concept( 'imprison', 'заключить в тюрьму' )|E] персонажа [CHARACTER.GetShortUIName|U]"
  DECISION_COST: "Стоимость:"
-  
  EFFECTS_ON_ME: "#high [Character.GetUINameNoTooltip|U]#! [Select_CString(Character.IsLocalPlayer, 'получите', 'получит' )] эффекты"
-  
  RELEASE_GAIN_HOOK: "Получено [hooks|El]"
  GAIN_HOOK_NEGATIVE_REASON: "Не желает оказаться у кого-то [hook|El]: $VALUE|=+0$"
  demanded_hook: "Необходимо влияние"
-  
  DIPLOMATICALLY_AVAILABLE: "[CHARACTER.GetShortUIName|U] [Select_CString(THIS.Char.IsFemale, 'доступна', 'доступен' )] для дипломатии."
  NOT_DIPLOMATICALLY_AVAILABLE: "[CHARACTER.GetShortUIName|U] не [Select_CString(CHARACTER.IsFemale, 'доступна', 'доступен' )] для дипломатии."
  YEARLY_1010_ABDUCTED: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'была похищена', 'был похищен' )], и [CHARACTER.GetHerHis] местонахождение неизвестно"
  YEARLY_1010_ABDUCTOR: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'отправилась', 'отправился' )] на тайное задание, и [CHARACTER.GetHerHis] местонахождение неизвестно"
-  
-  
-  #Blackmail Interaction Descs 
+ #Blackmail Interaction Descs
  BLACKMAIL_NOTIFICATION_OPENING: "Сожалею, что дошло до такого"
-  	#Secrets 
+ #Secrets
  BLACKMAIL_NOTIFICATION_SECRET_DEVIANT: "\nЯ знаю о ваших... необычных плотских забавах."
  BLACKMAIL_NOTIFICATION_SECRET_HOMOSEXUAL: "\nУ меня есть свидетельства, что вам нравится, когда вас окружают другие [recipient.GetWomenMen]."
  BLACKMAIL_NOTIFICATION_SECRET_MURDER: "\nЯ знаю, что в действительности это вы убили персонажа [secret_target.GetShortUINamePossessive]!"
@@ -482,10 +473,10 @@
  BLACKMAIL_NOTIFICATION_SECRET_NON_BELIEVER: "\nУ меня есть свидетельства, что вы сомневаетесь, существует ли [recipient.GetFaith.HighGodName]!"
  BLACKMAIL_NOTIFICATION_SECRET_INCEST: "\nУ меня есть свидетельства ваших кровосмесительных любовных похождений!"
  BLACKMAIL_NOTIFICATION_SECRET_WITCH: "\nУ меня есть свидетельства вашего разврата с демонами!"
+ BLACKMAIL_NOTIFICATION_SECRET_CRYPTO_RELIGIONIST: "\nЯ знаю, что вы втайне исповедуете [recipient.GetSecretFaith.GetAdjective|l] !"
  BLACKMAIL_NOTIFICATION_SECRET_ILLEGITIMATE_PREGNANCY: "\nЯ знаю, что являюсь настоящим отцом вашего нерожденного ребенка."
  BLACKMAIL_NOTIFICATION_SECRET_ILLEGITIMATE_PREGNANCY_OTHER: "\nЯ знаю, что [secret_target.GetShortUIName] является настоящим отцом вашего нерожденного ребенка."
  BLACKMAIL_NOTIFICATION_SECRET_FALLBACK: "\nЯ все знаю о вашем секрете!"
-  
  BLACKMAIL_NOTIFICATION_THREAT: "Если хотите моего молчания, делайте, что я говорю!"
  BLACKMAIL_INTERACTION_HUMAN_TT: "Если [actor.GetShortUINameNoTooltip] не [Select_CString( actor.IsLocalPlayer, 'передумаете', 'передумает' )]:"
  BLACKMAIL_INTERACTION_BASE_ACCEPTANCE: "[recipient.GetSheHe|U] хочет защитить секрет: $VALUE|=+0$"
@@ -496,7 +487,6 @@
  BLACKMAIL_INTERACTION_ARROGANT_ACCEPTANCE: "[recipient.GetSheHe|U] [Select_CString(recipient.IsFemale, 'заносчивая', 'заносчивый' )]: $VALUE|=+0$"
  BLACKMAIL_INTERACTION_CRAVEN_ACCEPTANCE: "[recipient.GetSheHe|U] [Select_CString(recipient.IsFemale, 'трусливая', 'трусливый' )]^ $VALUE|=+0$"
  BLACKMAIL_INTERACTION_PARANOID_ACCEPTANCE: "[recipient.GetSheHe|U] параноик: $VALUE|=+0$"
-  
  BLACKMAIL_NOTIFICATION_SECRET_ILLEGITIMATE_CHILD_ACTOR: "\nЯ знаю, что настоящий отец персонажа [secret_target.GetShortUIName] — не [father.GetShortUIName], а я!"
  BLACKMAIL_NOTIFICATION_SECRET_ILLEGITIMATE_CHILD_OTHER: "\nЯ знаю, что настоящий отец персонажа [secret_target.GetShortUIName] — не [father.GetShortUIName], а [secret_target.GetRealFather.GetShortUIName]!"
  BLACKMAIL_NOTIFICATION_SECRET_ILLEGITIMATE_CHILD_TARGET_ACTOR: "\nЯ знаю, что вы [recipient.Custom('GetDaughterSon')] не персонажа [father.GetShortUIName], а [Select_CString(recipient.IsFemale, 'моя', 'мой' )]!"
@@ -505,12 +495,10 @@
  BLACKMAIL_NOTIFICATION_SECRET_UNMARRIED_ILLEGITIMATE_CHILD_OTHER: "\nЯ знаю, что [secret_target.GetRealFather.GetShortUIName] — настоящий отец персонажа [secret_target.GetShortUIName]."
  BLACKMAIL_NOTIFICATION_SECRET_UNMARRIED_ILLEGITIMATE_CHILD_TARGET_ACTOR: "\nЯ знаю, что являюсь вашим настоящим отцом."
  BLACKMAIL_NOTIFICATION_SECRET_UNMARRIED_ILLEGITIMATE_CHILD_TARGET_OTHER: "\nЯ знаю, что [secret_target.GetRealFather.GetShortUIName] является вашим настоящим отцом!"
-  
-  # Communion Rite interaction Descs 
+ #Communion Rite interaction Descs
  seek_indulgences_interaction: "Просить об отпущении грехов"
  seek_indulgences_interaction_desc: "Заплатить [Concept( 'gold', 'золотом' )|E], чтобы получить отпущение грехов и [Concept( 'piety', 'благочестие' )|E]"
  SEEK_INDULGENCES_EXCOMMUNICATED: "Вы не можете просить об отпущении грехов, пока [Concept( 'excommunicated', 'отлучены от церкви' )|E]!"
-  
  declaration_of_repentance_interaction: "Объявить о покаянии"
  declaration_of_repentance_interaction_extra_icon: "$hook_extra_icon$"
  declaration_of_repentance_interaction_desc: "Потратить [Concept( 'prestige', 'престиж' )|E] на покаяние, чтобы снять [Concept( 'excommunication', 'отлучение' )|E]"
@@ -518,19 +506,16 @@
  DECLARATION_OF_REPENTANCE_HOOK: "[hook_i]Воспользоваться [Concept( 'hook', 'влиянием' )|E]"
  DECLARATION_OF_REPENTANCE_VIRTUES: "У вас есть [Concept( 'virtuous', 'добродетельные' )|E] [Concept( 'traits', 'свойства' )|E]: $VALUE|=+0$"
  DECLARATION_OF_REPENTANCE_SINS: "У вас есть [Concept( 'sinful', 'греховные' )|E] [Concept( 'traits', 'свойства' )|E]: $VALUE|=+0$"
-  
  excommunicate_interaction: "Отлучить"
  excommunicate_interaction_desc: "Гнусные грехи персонажа [recipient.GetFirstNamePossessive] вредят #L [actor.GetFaith.GetName|l]ой#! [faiths|El]. [recipient.GetSheHe|U] будет [excommunicated|El], пока не покается в своих злодеяниях."
  excommunicate_interaction_desc.tt: "[recipient.GetShortUIName] в отлучении!"
  excommunicate_message: "[religious_head.GetShortUIName|U] [Concept( 'excommunicated', Select_CString(religious_head.IsFemale, 'отлучила', 'отлучил' ))|E] меня!"
  excommunicated_other_message: "Отлучение"
  other_excommunicated_message: "[target_character.GetShortUIName] [excommunicated|El], как того желает [religious_head.GetShortUIName]"
-  
  lift_excommunication_interaction: "Отменить отлучение"
  lift_excommunication_interaction_desc: "[recipient.GetFirstName] достаточно [Select_CString(recipient.IsFemale, 'раскаялась', 'раскаялся' )] в своих грехах. #L [actor.GetFaith.GetName]ая#! [faith|El] приветствует [recipient.GetHerHis]."
  lift_excommunication_interaction_desc.tt: "[recipient.GetFirstName] возвращается, и [actor.GetFaithGetName] приветствует [SCOPE.sC('recipient').GetHerHis]"
  lift_excommunicate_interaction_desc.tt: "Отлучение снято"
-  
  request_excommunication_interaction: "Попросить об отлучении"
  recipient_secondary_request_excommunication_interaction: "Цель"
  request_excommunication_interaction_extra_icon: "$hook_extra_icon$"
@@ -540,10 +525,8 @@
  EXCOMMUNICATION_OPINION: "[recipient.GetShortUIName|U] имеет положительное мнение о [Select_CString(secondary_recipient.IsLocalPlayer, '', 'персонаже ' )] [secondary_recipient.GetNamePossessiveOrMy][Select_CString(secondary_recipient.IsLocalPlayer, 'ем персонаже', '' )]: $VALUE|=+0$"
  EXCOMMUNICATION_VIRTUES: "[secondary_recipient.GetShortUIName|U] имеет добродетельные [traits|El]: $VALUE|=+0$"
  EXCOMMUNICATION_SINS: "[secondary_recipient.GetShortUIName|U] имеет греховные [traits|El]: $VALUE|=+0$"
-  
  AI_SIMPLE_OPINION_REASON: "Мнение: $VALUE|=+0$"
-  
- # Other Rite interaction Desc 
+ #Other Rite interaction Desc
  TAKE_THE_VOWS_TEMPERATE: "[GetTrait('temperate').GetName( recipient.Self )]: $VALUE|=+0$"
  TAKE_THE_VOWS_CHASTE: "[GetTrait('chaste').GetName( recipient.Self )]: $VALUE|=+0$"
  TAKE_THE_VOWS_GLUTTONOUS: "[GetTrait('gluttonous').GetName( recipient.Self )]: $VALUE|=+0$"
@@ -609,8 +592,7 @@
  HOST_HONORED_GUEST_IS_IMPRISONED: "[TARGET_CHARACTER.GetShortUIName|U] не может посетить вас, находясь в тюрьме"
  HOST_HONORED_GUEST_IS_AT_WAR: "Вы и [TARGET_CHARACTER.GetShortUIName] воюете друг с другом!"
  HOST_HONORED_GUEST_IS_MY_COURTIER: "[TARGET_CHARACTER.GetShortUIName|U] постоянно проживает у вас при дворе"
-  
-  # Spiritual Head Interactions 
+ #Spiritual Head Interactions
  hof_ask_for_gold_interaction: "Попросить золото"
  recipient_secondary_hof_ask_for_gold_interaction: "Цель"
  recipient_secondary_hof_ask_for_claim_interaction: "Цель"
@@ -623,7 +605,6 @@
  I_AM_WAGING_AN_OFFENSIVE_HOLY_OR_EXCOMMUNICATION_WAR: "Вами начата наступательная [holy_war|El] или война против отлученного: $VALUE|=+0$"
  I_AM_ATTACKING_A_CORELIGIONIST: "Вы воюете с последователем собственной [Concept( 'faith', 'конфессиии' )|E]: $VALUE|=+0$"
  ASK_FOR_GOLD_OVERFLOWING_COFFERS: "Богатая казна: $VALUE|=+0$"
-  
  hof_ask_for_claim_interaction: "Попросить претензию"
  hof_ask_for_claim_interaction_extra_icon: "$hook_extra_icon$"
  hof_ask_for_claim_interaction_desc: "Попросить, чтобы [recipient.GetShortUIName] [Select_CString(recipient.IsFemale, 'предоставила', 'предоставил' )] вам претензию на [title|El] в обмен на [Concept( 'piety', 'благочестие' )|El]."
@@ -644,10 +625,10 @@
  HOF_ASK_FOR_CLAIM_HAS_PRESSED_CLAIM_ALREADY: "У вас уже есть [pressed_claim|El] на этот [title|El]"
  HOF_ASK_FOR_CLAIM_EXCOMMUNICATED: "Вы не можете $hof_ask_for_claim_interaction$ во время [Concept( 'excommunication', 'отлучения' )|E]!"
  HOF_INTERACTION_UNREFORMED_FAITH: "Для этого действия ваша [faith|El] должна быть [Concept( 'organized', 'организованной' )|E]"
-  
-  #Religious Interactions Descs 
+ #Religious Interactions Descs
  ask_for_conversion_interaction: "Потребовать обращения"
  ask_for_conversion_interaction_desc: "Потребовать, чтобы [recipient.GetShortUINameNoTooltip] [Select_CString(recipient.IsFemale, 'обратилась', 'обратился' )] в вашу [Concept( 'faith', 'конфессию' )|E]\n#weak (Сменить [recipient.GetFaith.GetAdjective|l] на [actor.GetFaith.GetAdjective|l])#!"
+ ask_for_conversion_interaction_accept_tooltip: "@warning_icon!#X [Select_CString(CHARACTER.IsLocalPlayer, '', 'Персонаж' )][CHARACTER.GetNamePossessiveOrMy|U][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '' )] может продолжать тайно исповедовать [recipient.GetSecretFaith.GetAdjective|l]#!"
  ask_for_conversion_courtier_interaction: "Потребовать обращения"
  ask_for_conversion_courtier_interaction_extra_icon: "$hook_extra_icon$"
  ask_for_conversion_courtier_interaction.tt: "Придворный соглашается на обращение"
@@ -667,8 +648,10 @@
  ASK_FOR_CONVERSION_RECIPIENT_IS_ZEALOUS: "[recipient.GetShortUIName|U] имеет качество «[GetTrait('zealous').GetName( GetPlayer )]»: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_CYNICAL: "[recipient.GetShortUIName|U] имеет качество «[GetTrait('cynical').GetName( GetPlayer )]»: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_STUBBORN: "[recipient.GetShortUIName|U] — [GetTrait('stubborn').GetName( GetPlayer )]: $VALUE|=+0$"
+ ASK_FOR_CONVERSION_RECIPIENT_IS_FICKLE: "[recipient.GetShortUIName|U] — [GetTrait('fickle').GetName( GetPlayer )]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_HERESIARCH: "[recipient.GetShortUIName|U] — [GetTrait('heresiarch').GetName( GetPlayer )]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_HERETIC: "[recipient.GetShortUIName|U] — [GetTrait('heretic').GetName( GetPlayer )]: $VALUE|=+0$"
+ ASK_FOR_CONVERSION_RECIPIENT_IS_PIOUS: "[recipient.GetShortUIName|U] — [$game_concept_pious$|L]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_SAME_CULTURE_PRESTIGE_LEVEL: "Общая #L [actor.GetCulture.GetCollectiveNoun|l]ая#! культура, и [actor.GetShortUIName] [Select_CString(actor.IsLocalPlayer, 'имеете', 'имеет' )] уровень репутации «[GetPrestigeLevelName( actor.GetPrestigeLevel )]»: $VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_SAVIOR: "Вы [GetTrait('savior').GetName( GetPlayer )] в #L [actor.GetFaith.GetName|l]ой#! конфессии: $VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_DIVINE_BLOOD: "У меня есть [GetTrait('divine_blood').GetName( GetPlayer )]: $VALUE|=+0$"
@@ -680,7 +663,6 @@
  might_ask_for_something_in_return_warning: "@warning_icon!#X [recipient.GetShortUIName|U] может попросить что-то взамен#!"
  might_ask_for_something_in_return_warning_line_break: "\n$might_ask_for_something_in_return_warning$"
  might_ask_for_something_in_return_warning_double_line_break: "\n\n$might_ask_for_something_in_return_warning$"
-  
  demand_conversion_vassal_ruler_is_crime: "\n[refusing_conversion_crime|El] — [crime|El]"
  demand_conversion_vassal_ruler_interaction_extra_icon: "$hook_extra_icon$"
  demanded_my_conversion_opinion: "Потребовали моего обращения"
@@ -697,11 +679,9 @@
  CONVERT_AT_WAR_INTERACTION_NOTIFICATION: "Я наконец-то понимаю силу [recipient.GetFaith.HighGodNamePossessive]. Сложите оружие, и я приму [recipient.GetFaith.GetAdjectiveNoTooltip|l]."
  is_head_of_religion: "[CHARACTER.GetShortUIName|U] не станет обращаться, так как [CHARACTER.GetSheHe] глава своей [Concept( 'faith', 'конфессии' )|E]."
  request_culture_conversion_interaction: "$ask_for_conversion_interaction$"
-  
-  # Dummy interaction Descs 
+ #Dummy interaction Descs
  TEST_INTERACTION_NOT_IMPLEMENTED: "Тестовое взаимодействие — не добавлено в игру (N/A)"
-  
-  #Offer Vassalization/Fealty 
+ #Offer Vassalization/Fealty
  offer_vassalization_true_ruler_perk_tt: "У вас есть достоинство «[GetPerk( 'true_ruler_perk' ).GetName( GetPlayer )]»: $VALUE|=+0$"
  offer_vassalization_education_diplomacy_5_tt: "[GetTrait('education_diplomacy_5').GetName( GetNullCharacter )]: $VALUE|=+0$"
  offer_vassalization_emissary_accolade_tt: "У вас на службе есть хотя бы один политически одаренный $knight_culture_player_no_tooltip_lowercase$"
@@ -730,6 +710,7 @@
  offer_vassalization_interaction_aibehavior_illegitimate_tt: "Вы выдвигаете незаконные претензии: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_claimant_tt: "[recipient.GetSheHe|U] это [claimant|El] по отношению к персонажу [actor.GetPrimaryTitle.GetName]: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_dreaded_tt: "Вы внушаете [Concept( 'dreadful', 'ужас' )|E]: $VALUE|=+0$"
+ GENERIC_YOUR_PIETY_LEVEL_MODIFIER: "Ваш [piety_level|El]: $VALUE|=+0$"
  isolationist_reason: "[recipient.GetSheHe|U] принадлежит к изоляционистской [Concept( 'culture', 'культуре' )|E]: $VALUE|+=0$"
  interaction_lover: "[recipient.GetSheHe|U] [Select_CString(recipient.IsFemale, 'ваша любовница', 'ваш любовник' )]: $VALUE|=+0$"
  interaction_soulmate: "[recipient.GetSheHe|U] — [Select_CString(recipient.IsFemale, 'ваша', 'ваш' )] [soulmate|El]: $VALUE|=+0$"
@@ -778,122 +759,92 @@
  SEND_GIFT_PROPOSAL: "Прошу, примите этот скромный дар. Сущий пустяк, понимаю, но, надеюсь, вы найдете ему применение. За нашу дружбу и ее процветание!"
  SEND_GIFT_ACCEPT: "Я принимаю ваш дар!"
  SEND_GIFT_REJECT: "Не нужна мне ваша щедрость"
-  
  call_ally.0001.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"
  call_ally.0001.desc: "Во имя нашего [Concept( 'alliance', 'союза' )|E] присоединитесь к войне [target.GetName]!"
  call_ally.0001.a: "На войну!"
-  
  call_ally.0100.opening: "[recipient.Custom2('AppropriateGreeting', ROOT.Char)]"
  call_ally.0100.desc: "Разумеется, я присоединюсь к вам в этой войне! [recipient.GetPrimaryTitle.GetNameNoTier] и наши воины устрашат любого врага!"
-  
  call_ally.0101.desc: "Увы, но я не могу позволить себе впутываться в ваши войны."
  call_ally.0101.a: "Что за [recipient.Custom('InsultNoun')]!"
-  
  char_interaction.0001.opening: "[recipient.Custom2('AppropriateGreeting', actor )]"
  char_interaction.0001.desc: "Я принимаю ваше милостивое предложение вассализации. Мой сюзерен!"
-  
  char_interaction.0002.desc: "Мне не нужна ваша защита: я предпочту оставить дары своей державы себе."
  char_interaction.0002.a: "Мне придется рассмотреть другие возможности..."
-  
  char_interaction.0010.opening: "[recipient.Custom2('AppropriateGreetingPositive', actor )]"
  char_interaction.0010.desc: "[actor.GetFirstName], думаю, это начало прекрасной службы!"
  char_interaction.0010.a: "Мой сюзерен!"
-  
  char_interaction.0011.desc: "Я ценю ваше предложение, но не могу принести вам присягу."
  char_interaction.0011.a: "Как неудачно..."
-  
  char_interaction.0020.opening: "[actor.Custom2('AppropriateGreetingNegative', recipient)]"
  char_interaction.0020.desc: "Как глава династии, я лишаю вас наследства! Вы не унаследуете титулов ни от кого из членов династии [actor.GetDynastyName]."
  char_interaction.0020.a: "Что? Почему?!"
-  
  char_interaction.0030.opening: "[actor.Custom2('AppropriateGreetingPositive', recipient)]"
  char_interaction.0030.desc: "Как глава династии, настоящим я восстанавливаю ваше право наследовать титулы членов династии [actor.GetDynastyName]!"
  char_interaction.0030.a: "Благодарю вас!"
-  
  char_interaction.0040.desc: "Как глава династии, настоящим я осуждаю вас и объявляю мерзким пятном на репутации династии [actor.GetDynastyName]!"
  char_interaction.0040.a: "Что? Почему?!"
-  
+ char_interaction.0041.desc: "Ваша [recipient.Custom('InsultBehavior')] и несдержанность позорят весь дом [actor.GetHouse.GetBaseName]. Как глава дома, я считаю своим долгом сообщить об этом всему клану.\n\nДа направит вас [actor.GetFaith.HighGodName] на путь добродетели — хотя на это, конечно, мало надежды."
+ char_interaction.0041.a: "Клевета!"
+ char_interaction.0042.desc: "[recipient.Custom('FormalComplimentAdjective')] и [recipient.Custom('ComplimentAdjective')] — все это о вас. Вы вдохновляете весь дом [actor.GetHouse.GetBaseName], и я, как глава дома, считаю своим долгом превознести ваши добродетели перед всем кланом!\n\nПусть же [actor.GetFaith.HighGodName] осеняет вас своей добродетелью и дальше."
+ char_interaction.0042.a: "Восхитительно!"
  char_interaction.0050.desc: "Как глава династии, настоящим я прощаю ваши прошлые прегрешения. Члены династии [actor.GetDynastyName] более не будут порицать вас!"
  char_interaction.0050.a: "Справедливость восторжествовала!"
-  
  char_interaction.0060.desc: "Мне нравится [target.GetName], и я, как глава династии, заявляю о своих претензиях на этот титул. Понимайте это как хотите."
  char_interaction.0060.a: "Это не хорошо."
-  
  char_interaction.0070.opening: "[actor.Custom2('AppropriateGreeting', recipient )]"
  char_interaction.0070.desc: "Распри внутри династии [actor.GetDynastyName] недостойны: их следует прекратить немедленно. Как глава династии, настоящим я провозглашаю белый мир между вами и вашими врагами среди членов династии!"
  char_interaction.0070.a: "Невозможная назойливость!"
-  
  char_interaction.0071.desc: "Распри внутри династии [actor.GetDynastyName] недостойны: их следует прекратить немедленно. Как глава династии, я приказываю, чтобы [recipient.GetFullName] и вы заключили статус-кво."
  char_interaction.0071.a: "Благодарю вас!"
-  
  char_interaction.0078.desc_them: "Знаю, мы договаривались, что [ward.GetTitledFirstName] будет учиться у меня, но есть одна закавыка... У меня и так хватает подопечных. Простите."
  char_interaction.0078.desc: "Знаю, мы договаривались, что [ward.GetTitledFirstName] будет учиться здесь, а [guardian.GetTitledFirstName] станет опекуном, но есть одна закавыка... У [Select_CString(guardian.IsFemale, 'нее', 'него' )] и так хватает подопечных. Простите."
  char_interaction.0078.a: "Неслыханное оскорбление!"
-  
  char_interaction.0079.desc_them: "Мне казалось, мы договорились, что [ward.GetTitledFirstName] будет обучаться у вас, а теперь вы говорите, что заняты заботой о других подопечных?! Стыдитесь."
  char_interaction.0079.desc: "Мне казалось, мы договорились, что [ward.GetTitledFirstName] будет учиться у вас, а наставником станет [guardian.GetTitledFirstName]. Но теперь вы говорите, что [guardian.GetSheHe] [Select_CString(guardian.IsFemale, 'занята', 'занят' )] заботой о других подопечных?! Стыдитесь."
  char_interaction.0079.a: "Наверное, это было ошибкой..."
-  
  char_interaction.0080.desc: "Для меня будет честью, если [guardian.GetShortUINameNoFormat] лично проследит за тем, какое образование получит [Select_CString(ward.IsFemale, 'моя', 'мой' )] [ward_liege.Custom2('RelationToMeShort', SCOPE.sC('ward'))] [ward.GetShortUINameNoFormat] — благородное воспитание для благородной души!"
  char_interaction.0080.desc_self: "Для меня будет честью, если вы лично проследите за тем, какое образование получит [Select_CString(ward.IsFemale, 'моя', 'мой' )] [ward_liege.Custom2('RelationToMeShort', SCOPE.sC('ward'))] [ward.GetShortUINameNoFormat] — благородное воспитание для благородной души!"
  char_interaction.0080.desc_guardian_self_ward: "Для меня будет честью заняться вашим образованием — благородное воспитание для благородной души!"
  char_interaction.0080.desc_guardian_self: "Для меня будет честью лично проследить за тем, какое образование получит [Select_CString(ward.IsFemale, 'ваша', 'ваш' )] [ward_liege.Custom2('RelationToMeShort', SCOPE.sC('ward'))] [ward.GetShortUIName] — благородное воспитание для благородной души!"
  char_interaction.0080.desc_guardian: "Для меня будет честью, если [Select_CString(guardian.IsFemale, 'моя', 'мой' )] [guardian_liege.Custom2('RelationToMeShort', SCOPE.sC('guardian'))], [guardian.GetShortUINameNoFormat], лично проследит за тем, какое образование получит [ward.GetShortUINameNoFormat] — благородное воспитание для благородной души!"
-  
  char_interaction.0081.desc: "К сожалению, нам не нравится ваше предложение об обучении."
  char_interaction.0081.a: "Какая жалость."
-  
  char_interaction.0082.t: "Мой наставник"
  char_interaction.0082.intro: "[guardian.GetTitledFirstName] наконец-то [Select_CString(guardian.IsFemale, 'прибыла', 'прибыл' )] из державы [guardian_liege.GetPrimaryTitle.GetNameNoTierNoTooltip], привезя с собой горы книг и свитков."
  char_interaction.0082.desc.liege: "\n\n[guardian.GetSheHe|U] сообщает мне, что [ward.GetFirstNameNoTooltip] вскоре начнет учебу!"
  char_interaction.0082.desc: "\n\n[guardian.GetSheHe|U] сообщает мне, что моя учеба скоро начнется!"
  char_interaction.0082.a: "Очень хорошо."
-  
  char_interaction.0083.t: "Работа с разумом"
  char_interaction.0083.intro: "[Select_CString(ward.IsFemale, 'Юная', 'Юный' )] [ward.GetTitledFirstName], [ward_liege.Custom2('RelationToMeShort', SCOPE.sC('ward'))] персонажа [ward_liege.GetTitledFirstName], наконец-то [Select_CString(ward.IsFemale, 'прибыла', 'прибыл' )] из державы [ward_liege.GetPrimaryTitle.GetNameNoTierNoTooltip] для своего обучения."
  char_interaction.0083.desc.host: "\n\n[guardian.GetTitledFirstName] скоро начнет уроки."
  char_interaction.0083.desc: "\n\nКогда [ward.GetSheHe] устроится, начнутся занятия."
  char_interaction.0083.a: "Отлично."
-  
  char_interaction.0084.desc: "[Select_CString(ward.IsFemale, 'Ваша', 'Ваш' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('ward'))], [ward.GetTitledFirstName], благополучно [Select_CString(ward.IsFemale, 'прибыла', 'прибыл' )] в державу [guardian_liege.GetPrimaryTitle.GetNameNoTierNoTooltip], и я безотлагательно начну [ward.GetHerHis] обучение."
  char_interaction.0084.a: "Очень хорошо."
-  
  char_interaction.0090.from_ward.desc: "Боюсь, обучение при вашем дворе больше не отвечает моим потребностям. Я немедленно возвращаюсь в свою столицу."
  char_interaction.0090.two_wards.desc: "Боюсь, образование, которое [ward.GetTitledFirstName] и [ward_2.GetTitledFirstName] получают при вашем дворе, больше не отвечает нашим потребностям. Мы возвращаем их под свою опеку."
  char_interaction.0090.one_ward.desc: "Боюсь, образование, которое [ward.GetTitledFirstName] получает при вашем дворе, больше не отвечает нашим потребностям. [ward.GetSheHe] немедленно возвращается под нашу опеку."
  char_interaction.0090.a: "Мне понимать это как оскорбление?"
-  
  char_interaction.0100.desc: "Друг мой, примите этот скромный дар в знак моей признательности."
  char_interaction.0100.a: "Приятное дополнение в мою сокровищницу!"
-  
  char_interaction.0110.desc: "Тем самым [landed_title.GetName] переходит вам, с титулом, формальными землями и доходом. Правьте этими землями с умом!"
  char_interaction.0110.a: "Моя сила растет!"
-  
  char_interaction.0120.desc: "После тщательных раздумий я принимаю решение назначить вас своим законным наследником. Не разочаруйте меня, ведь теперь уже поздно менять решение."
  char_interaction.0120.a: "Это правильное решение!"
-  
  char_interaction.0130.a: "Хорошая сделка."
-  
  char_interaction.0131.opening: "[recipient.Custom2('AppropriateGreetingNegative', actor )]"
  char_interaction.0131.desc: "Я нахожу ваше предложение неразумным. Проявите же благородство, пусть [secondary_recipient.GetShortUIName] уйдет."
  char_interaction.0131.desc_personal: "Я лучше буду гнить в вашем подземелье, чем приму ваше непомерное предложение о выкупе."
  char_interaction.0131.a: "Пора урезать [recipient.GetHerHis] рацион..."
-  
  char_interaction.0140.desc: "Я принимаю ваше предложение о выкупе. [secondary_recipient.GetShortUIName|U] тотчас же вернется к вам!"
-  
  char_interaction.0141.desc: "Меня не прельстило ваше предложение. Думаю, [secondary_recipient.GetShortUIName] пока побудет у меня."
  char_interaction.0141.a: "Будь [Select_CString(actor.IsFemale, 'проклята эта', 'проклят этот' )] [actor.Custom('InsultAdjective')] [actor.Custom('InsultNoun')]!"
-  
  char_interaction.0150.desc: "Хорошо, я выпущу вас, хотя признаю, мне начало нравиться ваше общество."
-  
  char_interaction.0151.desc: "Боюсь, мне придется отклонить ваше предложение о выкупе. Придется вам еще на какое-то время смириться с моим гостеприимством."
-  
  char_interaction.0160.desc: "У меня нет выбора! Ради свободы я приму ваши условия."
  char_interaction.0160.a: "Прощайте, [recipient.GetFirstNameNoTooltip]..."
  char_interaction.0160.a.courtier: "Берегитесь, [recipient.GetFirstNameNoTooltip]..."
-  
  char_interaction.0161.desc: "Я лучше буду гнить в вашем подземелье, чем соглашусь на подобный выкуп."
-  
  char_interaction.0170.t: "Трудное время"
  char_interaction.0170.desc: "Меня разбудили рано утром два незнакомых стражника. Когда меня вывели наружу, у меня уже не оставалось иллюзий о том, что случится. Опускаясь на колени перед палачом, я вдруг понимаю: мой разум ясен и спокоен."
  char_interaction.0170.desc_burned: "Мне едва удалось покончить со скудной трапезой, когда дверь распахнулась и меня выволокли наружу. Моя смерть не будет легкой: костер подожжен, и я уже чувствую жар у моих ног. Толпа в молчании замирает, смущенно наблюдая за моими последними мгновениями."
@@ -904,49 +855,37 @@
  char_interaction.0180.desc: "Как глава вашего дома, я думаю, что вы должны принять [actor.GetFaith.GetAdjective|l], единственную истинную веру. Боюсь, в этом вопросе у вас нет выбора."
  char_interaction.0180.desc.liege: "Как ваш сюзерен я требую, чтобы вы отказались от своей ложной веры и немедленно присоединились ко мне."
  char_interaction.0180.a: "Полагаю, у меня нет выбора."
-  
  char_interaction.0181.desc: "Хорошо, я приму #L [actor.GetFaith.GetName|l]ую#! веру, хотя кажется странным отказываться от всего, что мне знакомо."
-  
  char_interaction.0182.desc: "Я никогда не откажусь от своей веры! Вместо этого я положу начало собственному дому!"
  char_interaction.0182.a: "Какое разочарование..."
-  
  char_interaction.0190.desc: "Хорошо, я приму #L [actor.GetFaith.GetName|l]ую#! веру, хотя кажется странным отказываться от всего, что мне знакомо."
  char_interaction.0191.desc: "Моя вера — основа самой моей сути, я никогда не откажусь от нее."
-  
  char_interaction.0200.desc: "Я полагаю, что вам нельзя доверить высокую честь и ответственность, которые налагает титул [landed_title.GetName]. И потому с этого момента я лишаю вас этого титула во имя интересов державы."
  char_interaction.0200.a: "Поверить не могу!"
  char_interaction.0201.desc: "[landed_title.GetName] по праву принадлежит дому [recipient.GetHouse.GetName]. Я ни за что не откажусь от этого титула."
  char_interaction.0201.a: "Да как [recipient.GetSheHe] смеет!"
  char_interaction.0199.desc: "Мне придется смириться с вашим решением отнять мой титул [landed_title.GetName]."
  char_interaction.0199.a: "Именно так."
-  
  char_interaction.0211.desc: "Лестно, что вы предлагаете, чтобы [secondary_recipient.GetShortUIName] [Select_CString(secondary_recipient.IsFemale, 'стала', 'стал' )] моим вассалом, но боюсь, мне придется отказаться."
  char_interaction.0211.a: "Какая неблагодарность!"
-  
  char_interaction.0220.desc: "Я принимаю ваше требование о передаче моего вассала, [secondary_recipient.GetShortUIName], но считаю это несправедливым."
  char_interaction.0220.a: "Хорошо."
-  
  char_interaction.0221.desc: "Я не могу предать клятву верности, что [Select_CString(secondary_recipient.IsFemale, 'дала', 'дал' )] мне [secondary_recipient.GetShortUIName]. Я буду защищать своего вассала, даже если мне придется нарушить присягу, данную вам."
  char_interaction.0221.a: "Это измена!"
-  
  char_interaction.0230.title: "Перебежчик!"
  char_interaction.0230.desc.courtier: "[recipient.GetTitledFirstName] [Select_CString(recipient.IsFemale, 'сумела', 'сумел' )] избежать пленения и [Select_CString(recipient.IsFemale, 'скрылась', 'скрылся' )] среди крестьян!"
  char_interaction.0230.desc.courtier_court_chaplain_stayed: "[recipient.GetTitledFirstName] [Select_CString(recipient.IsFemale, 'сумела', 'сумел' )] избежать плена и теперь, мягко говоря, меня недолюбливает."
  char_interaction.0230.a: "Предательство!"
  char_interaction.0230.a_court_chaplain_stayed: "Как-то... неловко получилось."
-  
  char_interaction.0231.title: "Справедливость"
  char_interaction.0231.desc_prison: "[recipient.GetTitledFirstName] [Select_CString(recipient.IsFemale, 'была схвачена', 'был схвачен' )] и ожидает своей участи в моей темнице."
  char_interaction.0231.desc_house_arrest: "Согласно моим приказам, [recipient.GetTitledFirstName] не может покидать свое жилище. А поставленная мной стража обеспечит [recipient.GetHerHis] согласие на домашний арест."
  char_interaction.0231.a: "Хорошо."
-  
  char_interaction.0232.desc: "Слишком долго [actor.GetTitledFirstName] [Select_CString(actor.IsFemale, 'унижала', 'унижал' )] меня. Я больше не могу спокойно смотреть, как наш сюзерен издевается над своими вассалами. Я прошу вас присоединиться ко мне и помочь свергнуть тирана."
  char_interaction.0232.a: "Вы не будете одиноки в своей борьбе!"
  char_interaction.0232.b: "Это измена!"
-  
  char_interaction.0233.desc: "Настоящим объявляется, что вы арестованы за преступления против короны."
  char_interaction.0233.a: "Что? Это возмутительно!"
-  
  marriage_interaction.0010.desc: "Я с радостью принимаю ваше предложение о браке!"
  marriage_interaction.0010.b_desc: "Я с радостью принимаю ваше предложение о помолвке!"
  marriage_interaction.0010.c_desc: "Я принимаю ваше предложение о браке."
@@ -963,77 +902,66 @@
  marriage_interaction.0010.mid.g_desc: "\n\n[Select_CString(secondary_actor.IsFemale, 'Ваша', 'Ваш' )] [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))], [secondary_actor.GetFirstName], и я станем #EMP отличной#! парой!"
  marriage_interaction.0010.mid.h_desc: "\n\nВы и я станем #EMP отличной#! парой!"
  marriage_interaction.0010.gwedding.desc: "\n\nЯ тоже жду, когда же пройдет [GetActivityType('activity_wedding').GetName|l]. Постарайтесь меня не разочаровать."
-  
- # Long life and many children 
+ #Long life and many children
  marriage_interaction.0010.ending.a_desc: "\n\nДа дарует [recipient.GetFaith.HighGodName] им долгую жизнь и множество детей!"
  marriage_interaction.0010.ending.a_actor_desc: "\n\nДа дарует [recipient.GetFaith.HighGodName] вам долгую жизнь и множество детей!"
  marriage_interaction.0010.ending.a_recipient_desc: "\n\nДа дарует [recipient.GetFaith.HighGodName] нам долгую жизнь и множество детей!"
  marriage_interaction.0010.ending.a_both_desc: "\n\nДа дарует [recipient.GetFaith.HighGodName] нам долгую жизнь и множество детей, [Select_CString(secondary_actor.IsFemale, 'моя', 'мой' )] [secondary_actor.Custom('ComplimentAdjective')][Select_CString(secondary_actor.IsFemale, 'ая', 'ый' )] [secondary_actor.Custom('WifeHusband')]!"
- # May HighGod bless the union 
+ #May HighGod bless the union
  marriage_interaction.0010.ending.b_desc: "\n\nДа благословит [recipient.GetFaith.FertilityGodName] их союз!"
  marriage_interaction.0010.ending.b_actor_desc: "\n\nДа благословит [recipient.GetFaith.FertilityGodName] ваш союз!"
  marriage_interaction.0010.ending.b_recipient_desc: "\n\nДа благословит [recipient.GetFaith.FertilityGodName] наш союз!"
  marriage_interaction.0010.ending.b_both_desc: "\n\nДа благословит [recipient.GetFaith.FertilityGodName] наш союз, [Select_CString(secondary_actor.IsFemale, 'моя', 'мой' )] [secondary_actor.Custom('ComplimentAdjective')][Select_CString(secondary_actor.IsFemale, 'ая', 'ый' )] [secondary_actor.Custom('WifeHusband')]!"
- # Happy and fulfilling marriage 
+ #Happy and fulfilling marriage
  marriage_interaction.0010.ending.c_desc: "\n\nПусть их союз будет радостным и счастливым!"
  marriage_interaction.0010.ending.c_actor_desc: "\n\nПусть ваш союз будет радостным и счастливым!"
  marriage_interaction.0010.ending.c_recipient_desc: "\n\nПусть наш союз будет радостным и счастливым!"
  marriage_interaction.0010.ending.c_both_desc: "\n\nПусть наш союз будет радостным и счастливым, [Select_CString(secondary_actor.IsFemale, 'моя', 'мой' )] [secondary_actor.Custom('ComplimentAdjective')][Select_CString(secondary_actor.IsFemale, 'ая', 'ый' )] [secondary_actor.Custom('WifeHusband')]!"
- # Strength and support 
+ #Strength and support
  marriage_interaction.0010.ending.h_desc: "\n\nДа обретут они силу и поддержку в своем союзе!"
  marriage_interaction.0010.ending.h_actor_desc: "\n\nДа обретете вы силу и поддержку в своем союзе!"
  marriage_interaction.0010.ending.h_recipient_desc: "\n\nДа обретем мы силу и поддержку в своем союзе!"
  marriage_interaction.0010.ending.h_both_desc: "\n\nДа обретем мы силу и поддержку в своем союзе, [Select_CString(secondary_actor.IsFemale, 'моя', 'мой' )] [secondary_actor.Custom('ComplimentAdjective')][Select_CString(secondary_actor.IsFemale, 'ая', 'ый' )] [secondary_actor.Custom('WifeHusband')]!"
- # Fruitful in spite of hatred 
+ #Fruitful in spite of hatred
  marriage_interaction.0010.ending.d_desc: "\n\nПусть их брак будет плодотворным, несмотря на разногласия."
  marriage_interaction.0010.ending.d_actor_desc: "\n\nПусть ваш брак будет плодотворным, несмотря на разногласия."
  marriage_interaction.0010.ending.d_recipient_desc: "\n\nПусть наш брак будет плодотворным, несмотря на разногласия."
  marriage_interaction.0010.ending.d_both_desc: "\n\nПусть наш брак будет плодотворным, несмотря на разногласия, [Select_CString(secondary_actor.IsFemale, 'моя', 'мой' )] [secondary_actor.Custom('ComplimentAdjective')][Select_CString(secondary_actor.IsFemale, 'ая', 'ый' )] [secondary_actor.Custom('WifeHusband')]!"
- # Perfect match 
+ #Perfect match
  marriage_interaction.0010.ending.e_desc: "\n\nМне еще не доводилось видеть столь идеальную пару, они созданы друг для друга!"
  marriage_interaction.0010.ending.e_actor_desc: "\n\nМне еще не доводилось видеть столь идеальную пару, вы созданы друг для друга!"
  marriage_interaction.0010.ending.e_recipient_desc: "\n\nНаконец-то мы связаны таинством брака, как были связаны душой и сердцем!"
  marriage_interaction.0010.ending.e_both_desc: "\n\nНаконец-то мы связаны таинством брака, как были связаны душой и сердцем, [Select_CString(secondary_actor.IsFemale, 'моя', 'мой' )] [secondary_actor.Custom('ComplimentAdjective')][Select_CString(secondary_actor.IsFemale, 'ая', 'ый' )] [secondary_actor.Custom('WifeHusband')]!"
- # Recipient hates secondary recipient 
+ #Recipient hates secondary recipient
  marriage_interaction.0010.ending.f_desc: "\n\nНе понимаю, кому [Select_CString(secondary_actor.IsFemale, 'нужна эта', 'нужен этот' )] [secondary_recipient.Custom('InsultAdjective')] [secondary_recipient.Custom('InsultNoun')], но желаю им счастья."
  marriage_interaction.0010.ending.f_actor_desc: "\n\nНе понимаю, кому [Select_CString(secondary_actor.IsFemale, 'нужна эта', 'нужен этот' )] [secondary_recipient.Custom('InsultAdjective')] [secondary_recipient.Custom('InsultNoun')], желаю удачи."
- # Sinner, or criminal 
+ #Sinner, or criminal
  marriage_interaction.0010.ending.g_desc: "\n\nЯ молюсь, чтобы они обрели не только счастье, но также спасение и искупление."
  marriage_interaction.0010.ending.g_actor_desc: "\n\nЯ молюсь, чтобы вы обрели не только счастье, но также спасение и искупление."
  marriage_interaction.0010.ending.g_recipient_desc: "\n\nЯ молюсь, чтобы мы обрели не только счастье, но также спасение и искупление."
  marriage_interaction.0010.ending.g_both_desc: "\n\nЯ молюсь, чтобы мы обрели не только счастье, но также спасение и искупление, [secondary_actor.Custom('WifeHusband')]."
-  
  marriage_interaction.0011.desc: "После некоторых размышлений я все-таки отклоню ваше предложение о браке.\n\n[secondary_actor.GetFirstName] и [secondary_recipient.GetFirstName] не подходят друг другу."
  marriage_interaction.0011.b_desc: "После некоторых размышлений я все-таки отклоню ваше предложение о помолвке.\n\n[secondary_actor.GetFirstName] и [secondary_recipient.GetFirstName] не подходят друг другу."
  marriage_interaction.0011.a: "Прискорбно..."
-  
  marriage_interaction.0020.desc: "Я расторгаю наше соглашение. [rejecting_betrothed.GetShortUIName] и [rejected_betrothed.GetShortUIName] больше не помолвлены."
  marriage_interaction.0020.actor_desc: "Я расторгаю наше соглашение. Я и [rejected_betrothed.GetShortUIName] больше не помолвлены."
  marriage_interaction.0020.recipient_desc: "Я расторгаю наше соглашение. Вы и [rejecting_betrothed.GetShortUIName] больше не помолвлены."
  marriage_interaction.0020.both_desc: "Я разрываю нашу помолвку. Брак между нами не состоится."
  marriage_interaction.0020.a: "Это бесчестно!"
-  
  marriage_interaction.0030.desc: "[actor.GetFaith.HighGodName], очевидно, не одобряет наш брак. Все кончено."
  marriage_interaction.0030.a: "Наконец-то. [actor.Custom('InsultAdjective')|U] [actor.Custom('InsultNoun')] больше не имеет власти надо мной!"
  marriage_interaction.0030.a_love: "[actor.GetFirstName], нет! Я люблю тебя!"
-  
  marriage_interaction.0040.desc: "Я хочу, чтобы вы были мне консортом."
  marriage_interaction.0040.a: "Да будет так"
-  
  marriage_interaction.0041.desc: "[Select_CString(recipient.IsFemale, 'Ваша', 'Ваш' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('recipient'))] выйдет из моей тюрьмы и станет [Select_CString(recipient.IsFemale, 'моей наложницей', 'моим консортом' )]."
  marriage_interaction.0041.a: "Гнусная скотина!"
-  
  marriage_interaction.0042.desc: "Мной принято решение передать тебя персонажу [recipient.GetTitledFirstName]. Теперь ты [recipient.GetHerHis] консорт."
  marriage_interaction.0043.desc_concubine: "Я освобождаю вашу наложницу из темницы и делаю наложницей персонажа [recipient.GetTitledFirstName]."
  marriage_interaction.0043.desc_spouse: "[Select_CString(secondary_actor.IsFemale, 'Ваша', 'Ваш' )] [secondary_actor.Custom('WifeHusband')] выйдет из моей темницы. Отныне [SCOPE.sCharacter('secondary_actor').GetSheHe] — [Select_CString(secondary_actor.IsFemale, 'наложница', 'консорт' )] персонажа."
-  
  marriage_interaction.0050.desc: "Вы больше не нужны мне в качестве наложницы."
  marriage_interaction.0050.a: "Да будет так"
-  
  I_HAVE_BEFRIEND_COOLDOWN_ON_THIS_CHARACTER: "Вы еще не скоро сможете снова сблизиться с персонажем [TARGET_CHARACTER.GetShortUIName]"
-  
  I_AM_BLOCKED_FROM_SWAYING_THIS_CHARACTER: "Вы не сможете повлиять на н[TARGET_CHARACTER.GetHerHis], пока [TARGET_CHARACTER.GetShortUIName] злится на вас"
-  
  MODIFY_VASSAL_CONTRACT_SELECT_DIFFERENT_OBLIGATION_LEVEL: "Вы должны внести изменения в новый [Concept( 'feudal_contract', 'вассальный договор' )|E]"
  VASSAL_MODIFY_VASSAL_CONTRACT_CANNOT_INCREASE_OBLIGATION_LEVEL: "Необходимо предложить равноценный обмен уровней обязательства и [Concept( 'hooks', 'влияния' )|E]. В настоящий момент в выигрышном положении находится [SelectLocalization( GreaterThan_CFixedPoint( '(CFixedPoint)$VALUE$', '(CFixedPoint)0.0' ), CHARACTER.GetShortUIName, TARGET_CHARACTER.GetShortUIName )]: [Abs_CFixedPoint( '(CFixedPoint)$VALUE$' )|V0]"
  vassal_modify_vassal_contract_obligation_change_limit: "Вы не можете предложить более #V [EmptyScope.ScriptValue('max_contract_changes')|0]#! изменений одновременно"
@@ -1042,7 +970,6 @@
  LIEGE_MODIFY_VASSAL_CONTRACT_CANNOT_EXCEED_TYRANNY_CAP: "Нельзя предложить более одной [Concept( 'tyrannical', 'тиранической' )|E] перемены"
  MODIFY_VASSAL_CONTRACT_NOTIFICATION_TO_VASSAL: "Я вношу следующие изменения в ваш договор, и они немедленно вступают в действие."
  MODIFY_VASSAL_CONTRACT_NOTIFICATION_TO_LIEGE: "Обстоятельства вынуждают меня внести следующие изменения в договор — надеюсь, вы сочтете их разумными?"
-  
  GHW_DEFENDER_IS_NOT_LIEGE: "Вы не можете быть частью выбранной державы"
  GHW_ATTACKER_IS_INDEPENDENT_OR_UNDER_FAITH: "Вам нужно быть либо независимой державой, либо вассалом #L [CHARACTER.GetFaith.GetName|l]ой#! державы"
  GHW_ATTACKER_HAS_RECENTLY_UNPLEDGED: "У вас не должно быть недавно нарушенного обещания"
@@ -1055,7 +982,6 @@
  IS_PLEDGED_GHW_ATTACKER_TRIGGER: "Обещана помощь нападающей стороне"
  GHW_DEFENDERS_STRENGTH_TRIGGER: "Военная мощь защищающихся"
  is_directed_ghw_trigger: "Управляемая священная война"
-  
  hof_redirect_great_holy_war_interaction: "Предложить цель"
  recipient_secondary_hof_redirect_great_holy_war_interaction: "Цель"
  hof_redirect_great_holy_war_interaction_desc: "Расходуя [Concept( 'piety', 'благочестие' )|E], правитель может убедить лидера войны [actor.GetFaith.Custom('GHWName')] выбрать целью иное королевство. Это следует сделать на этапе подготовки."
@@ -1064,11 +990,9 @@
  recipient_secondary_select_ghw_beneficiary_interaction: "[beneficiary]"
  select_ghw_beneficiary_interaction_desc: "Выберите взрослого члена своей , который станет вашим [Concept( 'beneficiary', 'бенефициаром' )|El] в будущей войне. Если [actor.GetFaith.Custom('GHWName')] закончится вашей победой, [beneficiary|El] получит количество титулов, пропорциональное вашему вкладу в войну."
  select_ghw_beneficiary_interaction_notification: "Выбранный [beneficiary|El]"
-  
  revoke_leased_title_interaction: "Отменить аренду"
  revoke_leased_title_interaction_desc: "Забрать [Concept( 'title', 'титул' )|E], который [recipient.GetShortUINameNoTooltip] [Concept( 'lease', Select_CString(recipient.IsFemale, 'взяла у вас в аренду', 'взял у вас в аренду' ))|E]"
  revoke_leased_title_interaction_notification: "Отмена аренды"
-  
  invite_to_council_position_interaction: "Приглашение в совет"
  liege_offer_council_position_exchange: "\nЯ считаю необходимым реорганизовать свой совет. С данного момента вы — [target.GetPositionName|l].\n"
  liege_offer_council_position_liked: "\nВы служили мне верой и правдой, и я хочу вознаградить вас за службу.\n\nВ знак признания я предлагаю вам должность [target.GetPositionName|l] в державе [actor.GetPrimaryTitle.GetNameNoTierNoTooltip].\n"
@@ -1077,74 +1001,65 @@
  liege_offer_council_position_skilled: "\nВаши выдающиеся таланты не остались незамеченными, [recipient.GetFirstNameNoTooltip].\n\nВ знак признания ваших способностей мне хотелось бы предложить вам должность [target.GetPositionName|l] в державе [actor.GetPrimaryTitle.GetNameNoTierNoTooltip].\n"
  liege_offer_council_position_fallback: "\nУдача улыбается вам, [recipient.GetFirstNameNoTooltip], ибо мне требуется новый человек на должность [target.GetPositionName|l] в державе, и вы — единственный доступный кандидат.\n\nПолагаю, вы займете её?\n"
  auto_accept_interaction_ai: "Пусть [TARGET_CHARACTER.GetFirstNamePossessiveNoTooltip] поймет: так будет лучше"
-  
  council_interaction.0000.opening: "[sender.Custom2('AppropriateGreeting', receiver)]"
  council_interaction.0001.desc: "Ваше предложение занять должность «[sender.GetActiveCouncilTask.GetPositionName]» — честь для меня."
  council_interaction.0001.desc.accept: "Я немедленно приступлю к исполнению своих новых обязанностей. До встречи на следующем заседании совета!"
  council_interaction.0002.desc.refuse: "Увы, мои нынешние обязанности не оставляют времени новым обязательствам, поэтому я с сожалением отклоняю ваше предложение."
  council_interaction.0001.a: "Отлично!"
  council_interaction.0002.a: "Полагаю, мне придется найти кого-то другого..."
-  
  council_interaction.0011.desc: "В последнее время у меня слишком много забот, и я с трудом справляюсь со своими обязанностями.\n\nОт чего-то нужно отказаться, и я полагаю, что для нас обоих будет лучше, если я уйду с поста «[council_task.GetPositionName]»."
  council_interaction.0011.a: "Это прискорбно."
-  
  council_interaction.0021.desc: "Мне не хотелось доводить до этого, но у меня нет иного выбора. С этого момента я лишаю вас должности «[council_task.GetPositionName] державы [sender.GetPrimaryTitle.GetNameNoTierNoTooltip]»."
  council_interaction.0021.a: "Да как [sender.GetSheHe] смеет?!"
  OUT_OF_DIPLOMACY_RANGE: "@warning_icon! #X Слишком далеко для взаимодействия.#! "
  OUT_OF_DIPLOMACY_RANGE_TOOLTIP: "#T [CharacterInteractionMenuWindow.GetCharacter.GetUIName] не вписывается в мой [diplomatic_range|El]#! \nПри общении будет недоступна большая часть взаимодействий"
-  
  I_AM_A_DYNAST: "Вы [Concept( 'dynast', 'глава династии' )|E]"
  I_AM_NOT_A_DYNAST: "Вы #bold не#! [Concept( 'dynast', 'глава династии' )|E]"
  CHARACTER_IS_A_DYNAST: "[CHARACTER.GetShortUIName|U] — [dynast|El]"
  CHARACTER_IS_NOT_A_DYNAST: "[CHARACTER.GetShortUIName|U] — #bold не#! [dynast|El]"
  IS_A_DYNAST: "[dynast|E]"
  IS_NOT_A_DYNAST: "#bold Не#! [dynast|El]"
-  
  CHARACTER_IS_A_WITCH: "[CHARACTER.GetShortUIName|U] — [GetTrait('witch').GetName( CHARACTER.Self )]"
  IS_A_WITCH: "[GetTrait('witch').GetName( GetNullCharacter )]"
  IS_NOT_A_WITCH: "#bold Не#! [GetTrait('witch').GetName( CHARACTER.Self )]"
-  
  CHARCTER_HAS_A_WITCH_SECRET_KNOWN_BY_CHARACTER: "[CHARACTER.GetNamePossessiveOrMy|U][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '' )] скрывает [secret|El] (Ведовство), известный [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ему персонажу', '' )]"
  CHARCTER_HAS_A_WITCH_SECRET_NOT_KNOWN_BY_CHARACTER: "[CHARACTER.GetNamePossessiveOrMy|U][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '' )] скрывает [secret|El] (Ведовство), известный [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ему персонажу', '' )]"
  HAS_A_WITCH_SECRET_KNOWN_BY_CHARACTER: "Скрывает [secret|El] (Ведовство), известный [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ему персонажу', '' )]"
  convert_to_witch: "Приобщить к ведовству"
+ I_CANNOT_BLACKMAIL_ANOTHER_WITCH: "Целью шантажа из-за ведовства не может быть [GetTrait('witch').GetName( CHARACTER.Self )]"
  I_ALREADY_HAVE_A_SUPERIOR_HOOK: "[TARGET_CHARACTER.GetShortUIName] уже на более сильном крючке у вас"
  I_PROMISED_NOT_TO_REVEAL_SECRET: "Вы обещали не раскрывать секрет"
  I_CANNOT_BLACKMAIL_OVER_MY_OWN_LOVER_SECRET: "Вы не можете шантажировать этим [Concept( 'secret', 'секретом' )|E] [Select_CString(TARGET_CHARACTER.IsFemale, 'собственную любовницу', 'собственного любовника' )]"
  I_CANNOT_BLACKMAIL_OVER_MY_OWN_BASTARD: "Вы не можете шантажировать собственного [Concept( 'bastard', 'бастарда' )|E]"
-  
+ CHARACTER_HAS_A_CRYPTO_RELIGIONIST_SECRET_KNOWN_BY_CHARACTER: "[CHARACTER.GetNamePossessiveOrMy|U][Select_CString(CHARACTER.IsPlayer, ' персонаж', '' )] скрывает [secret|El] (тайную веру), известный [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'ему персонажу', '' )]"
+ CHARACTER_HAS_A_CRYPTO_RELIGIONIST_SECRET_NOT_KNOWN_BY_CHARACTER: "[CHARACTER.GetNamePossessiveOrMy|U][Select_CString(CHARACTER.IsPlayer, ' персонаж', '' )] скрывает [secret|El] (тайную веру), известный [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'ему персонажу', '' )]"
+ HAS_A_CRYPTO_RELIGIONIST_SECRET_KNOWN_BY_CHARACTER: "Скрывает [secret|El] (тайную веру), известный [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'ему персонажу', '' )]"
+ I_CANNOT_BLACKMAIL_CRYPTO_RELIGIONIST_OF_SAME_FAITH: "Нельзя шантажировать того, кто тоже втайне исповедует #L [ROOT.Char.GetSecretFaith.GetAdjective|l]#!"
+ IS_AWARE_OF_SHARED_CRYPTO_RELIGION: "Вы знаете, что [TARGET_CHARACTER.GetShortUINameNoTooltip] втайне исповедует [CHARACTER.GetSecretFaith.GetAdjective|l]"
+ IS_NOT_AWARE_OF_SHARED_CRYPTO_RELIGION: "Вы не знаете, правда ли, что [TARGET_CHARACTER.GetShortUINameNoTooltip] втайне исповедует [CHARACTER.GetSecretFaith.GetAdjective|l]"
  FORCE_VOTE_IN_SUCCESSION_ELECTION_ALREADY_FORCED: "@warning_icon!#X [CHARACTER.GetUINameNotMe] уже контролирует голос персонажа [TARGET_CHARACTER.GetShortUINamePossessive] на выборах#!"
-  
  THEIR_FOLLOWERS_ARE_PROTECTING_THEM: "[TARGET_CHARACTER.GetHerHis|U] защищают последователи!"
-  
  I_AM_AWATING_RESPONSE_FROM_A_PREVIOUS_REQUEST: "Вы ожидаете ответа на другой вопрос"
  NOT_TITLE_IS_REAL_HEAD: "[TITLE.GetName] #bold не#! контролирует [Concept( 'faith', 'конфессию' )|E]"
  TITLE_IS_REAL_HEAD: "[TITLE.GetName] контролирует [Concept( 'faith', 'конфессию' )|E]"
  CHARACTER_IS_REAL_HEAD: "Вы [Concept( 'head_of_faith', 'глава конфессии' )|E]"
  religious_head_equal: "$CHARACTER_IS_REAL_HEAD$"
-  
  torture_interaction: "Пытать"
  torture_interaction_desc: "[torture|E] персонажа [recipient.GetShortUINameNoTooltip]"
  I_RECENTLY_TORTURED_SOMEONE: "Вы недавно уже кого-то пытали"
  CHARACTER_WAS_RECENTLY_TORTURED: "[CHARACTER.GetShortUIName|U] недавно [Select_CString(CHARACTER.IsFemale, 'подвергалась', 'подвергался' )] пыткам"
-  
  torture_interaction_actor_effects.secrets.tt: "Можно узнать [secret|El], если [recipient.GetShortUIName] хранит или знает хотя бы один"
-  
  blind_interaction: "Ослепить"
  blind_interaction_desc: "Ослепить персонажа [recipient.GetShortUINameNoTooltip]"
-  
  castrate_interaction: "Кастрировать"
  castrate_interaction_desc: "Пусть [recipient.GetShortUINameNoTooltip] станет [GetTrait('eunuch').GetName( GetPlayer )]ом:"
-  
  I_AM_BEING_TORTURED: "Вас пытают!"
  THEY_ARE_BEING_TORTURED: "[CHARACTER.GetShortUIName|U] подвергается пыткам"
-  
-  #Recruit to Court 
+ #Recruit to Court
  recruit_guest_interaction: "Нанять в придворные"
  recruit_guest_interaction_desc: "Заплатить, чтобы [recipient.GetShortUINameNoTooltip] [Select_CString(recipient.IsFemale, 'стала вашей', 'стал вашим' )] [Concept( 'courtier', Select_CString(recipient.IsFemale, 'придворной', 'придворным' ))|E]"
  recruit_guest_interaction_extra_icon: "$hook_extra_icon$"
-  
-  #Kick from court 
+ #Kick from court
  kick_from_court_interaction: "Прогнать"
  kick_from_court_interaction_desc: "Сделать персонажа [recipient.GetShortUINameNoTooltip] [Concept( 'wanderer', 'скитальцем' )|E] и прогнать [recipient.GetHerHis] со [Concept( 'court', 'двора' )|E]"
  kick_from_court_interaction_desc_guest: "Прогнать персонажа [recipient.GetShortUINameNoTooltip] со [Concept( 'court', 'двора' )|E]"
@@ -1154,8 +1069,7 @@
  kick_from_court_knight_warning_tt: "@warning_icon!#X [kicked.GetShortUIName] — $knight_culture_player_plural$#!"
  kick_from_court_holds_court_title_warning_tt: "@warning_icon!#X [kicked.GetShortUIName] занимает [Concept( 'court_position', 'должность' )|E] при моем [Concept( 'court', 'дворе' )|E]#!"
  KICK_FROM_COURT_INTERACTION_TRAVELLING_FAMILY_INVALID_LOC: "[CHARACTER.GetShortUIName|U] оставит близкого родственника"
-  
-  #Invite to court 
+ #Invite to court
  invite_to_court_interaction: "Пригласить ко двору"
  invite_to_court_interaction_desc: "Пригласить персонажа [recipient.GetShortUINameNoTooltip] к своему [Concept( 'court', 'двору' )|E], где [recipient.GetSheHe] станет [Concept( 'courtier', Select_CString(recipient.IsFemale, 'придворной', 'придворным' ))|E]"
  invite_to_court_interaction_notification: "Прибытие ко двору"
@@ -1196,28 +1110,21 @@
  AI_INSPIRED: "[inspired|E]: $VALUE|=+0$"
  AI_SPONSORED_INSPIRATION: "Поддержанное [inspiration|El]: $VALUE|=+0$"
  WASTREL_ACCOLADE_BONUS: "Ваш [Concept( 'acclaimed_knight', 'именитый рыцарь' )|E] делает жизнь при дворе более привлекательной: $VALUE|=+0$"
-  
-  #Send child to holy order 
+ #Send child to holy order
  take_vows_interaction: "Попросить уйти в монастырь"
  take_vows_interaction_desc: "Попросить: пусть [recipient.GetShortUINameNoTooltip] примет обеты и вступит в священный орден или присоединится к духовенству"
  not_inheriting_check: "[CHARACTER.GetSheHe|U] [Concept( 'heir', Select_CString(recipient.IsFemale, 'наследница', 'наследник' ))|E]"
  not_rival_leader_check: "[CHARACTER.GetSheHe|U] [Select_CString(recipient.IsFemale, 'соперница', 'соперник' )] лидера священного ордена"
  character_will_leave_court_holy_order: "Покинет двор персонажа [actor.GetTitledFirstNameNoTooltip] и отправится в священный орден"
  take_vows_interaction_extra_icon: "$hook_extra_icon$"
-  
  send_to_holy_order_interaction: "Попросить вступить в священный орден"
  send_to_holy_order_interaction_extra_icon: "$hook_extra_icon$"
  send_to_holy_order_interaction_desc: "Попросить: пусть [recipient.GetShortUINameNoTooltip] примет обеты и вступит в священный орден"
-  
-  # Taking vows 
+ #Taking vows
  was_asked_to_take_vows_recently: "[TARGET_CHARACTER.GetShortUINameNoTooltip] недавно уже [Select_CString(TARGET_CHARACTER.IsFemale, 'получала', 'получал' )] от меня просьбу уйти в монастырь"
-  
  CHARACTER_INTERACTION_WINDOW_SELECT_TITLE_TOOLTIP: "Выбор титула"
-  
  perk_alliance_interaction: "Предложить союз"
  perk_alliance_interaction_desc: "Использовать стратегическую дипломатию, чтобы [recipient.GetTitledFirstNameNoTooltip] [Select_CString(recipient.IsFemale, 'стала', 'стал' )] моим союзником, — не через узы крови, но благодаря силе слов!"
-  
-  
  negotiate_alliance_interaction: "Договориться о союзе"
  negotiate_alliance_interaction_extra_icon: "$hook_extra_icon$"
  negotiate_alliance_interaction_desc: "Использовать существующие кровные связи с семьей персонажа [recipient.GetTitledFirstNamePossessive], чтобы договориться о союзе с [recipient.GetHerHis] державой."
@@ -1233,7 +1140,6 @@
  NOT_ALREADY_HAS_AN_ALLIANCE_DEAL: "У вас уже есть активное предложение [Concept( 'alliance', 'союза' )|E]"
  negotiate_alliance_effect_tooltip: "[recipient.GetTitledFirstName] и я заключили [alliance|El]"
  negotiate_alliance_effect_recipient_tooltip: "Заключает с взаимный [alliance|El] с персонажем [actor.GetTitledFirstName]"
-  
  char_interaction.0234.desc: "Я призываю вас укрепить наше выдающееся единство и присоединиться ко мне в качестве союзника."
  char_interaction.0234.a: "Похоже, выбор у меня невелик..."
  char_interaction.0235.desc: "Ваша просьба делает мне честь, и я с радостью назову вас своим союзником."
@@ -1241,7 +1147,6 @@
  char_interaction.0235.a: "Великолепные новости!"
  char_interaction.0236.desc: "После долгих раздумий, боюсь, мне придется отклонить ваше предложение."
  char_interaction.0236.a: "Неприятно..."
-  
  SCHEME_PREDICTION_NAME: "[InteractionSchemeInfo.GetScheme.GetActionName] персонажа [InteractionSchemeInfo.GetTarget.GetTitledFirstNameNoTooltip]"
  INTERACTION_START_SCHEME: "Начать [scheme]"
  SCHEME_PREDICTION_AGENTS: "Возможные соучастники: #high [InteractionSchemeInfo.GetNumberOfPotentialAgents]#!"
@@ -1255,7 +1160,6 @@
  SCHEME_PREDICTION_ON_DISCOVERY: "При осуществлении [Concept( 'scheme', 'происков' )|E] и сохранении [Concept( 'secrecy', 'секретности' )|E]:"
  SCHEME_PREDICTION_EXPECTED_TIME: "Ожидаемое время на завершение [Concept( 'scheme', 'происков' )|E]:"
  SCHEME_PREDICTION_EXPECTED_TIME_TEXT: "Каждый месяц есть шанс продвинуться вперед, равный [InteractionSchemeInfo.GetChanceToProgress|%/V]. Этот шанс определяется разницей [Concept( 'scheme_power', 'силы происков' )|E] и [Concept( 'scheme_resistance', 'сопротивлению жертвы' )|E]"
-  
  SCHEME_PREDICTION_ON_SUCCESS: "Если [scheme|El] успешны:"
  SCHEME_PREDICTION_SUCCESS_CHANCE: "[InteractionSchemeInfo.GetSuccessChance|%/V][SelectLocalization( LessThanOrEqualTo_int32( InteractionSchemeInfo.GetSuccessChance, '(int32)0' ), '@warning_icon!', '' )]"
  SCHEME_PREDICTION_NO_SUCCESS: "#X @warning_icon!Ожидаемый шанс успеха: 0%#!"
@@ -1276,7 +1180,6 @@
  designate_heir_interaction: "Предопределенный наследник"
  designate_heir_interaction_desc: "Пусть [recipient.GetShortUINameNoTooltip] станет вашим [Concept( 'primary_heir', 'первым наследником' )|E]"
  designate_heir_interaction_notification: "Предопределенный наследник"
-  
  join_war_interaction: "Предложить присоединиться к войне"
  join_war_interaction_desc: "Предложить помощь [Concept( 'ally', 'союзнику' )|E], вашему [Concept( 'liege', 'сюзерену' )|E], защитнику вашей [Concept( 'faith', 'конфессии' )|E] в [Concept( 'holy_war', 'священной войне' )|E] или помочь вассалу усмирить крестьянское [Concept( 'revolt', 'восстание' )|E]"
  join_war_interaction_notification: "Окажите мне честь, позволив сражаться на вашей стороне, [target.GetName]!"
@@ -1289,45 +1192,33 @@
  join_war_interaction_vassal_war_invalidated_message: "Ваш [Concept( 'liege', 'сюзерен' )|E] [actor.GetShortUIName] теперь сражается на той же войне ([target.GetName]), что и [invalid_combatant.GetShortUIName], тем самым вынудив вас прекратить войну с [Select_CString(invalid_combatant.IsFemale, 'ней', 'ним' )]."
  join_war_interaction_recipient_too_distant: "[TARGET_TITLE.GetName] слишком далеко"
  join_war_interaction_already_in_target_war: "Вы уже участвуете в этой войне"
-  
  grant_independence_interaction: "Даровать независимость"
  grant_independence_interaction_desc: "Даровать независимость персонажу [recipient.GetShortUINameNoTooltip]\n\n@warning_icon!#X [recipient.GetSheHe|U] больше не будет вашим вассалом!#!"
  was_recently_granted_independence: "Недавно полученная независимость"
  CHARACTER_IS_MY_DE_JURE_VASSAL: "[TARGET_CHARACTER.GetShortUIName|U] — [Concept( 'de_jure', 'де-юре' )|E] ваш вассал"
  is_de_jure_vassal_check: "[TARGET_CHARACTER.GetShortUIName|U] — вассал [de_jure|El]"
  is_at_war_with_another_vassal: "[TARGET_CHARACTER.GetShortUIName|U] ведет войну с другим вашим вассалом"
-  
- feudalize_tribal_holding_interaction: "Аристократизировать племя"
+ feudalize_tribal_holding_interaction: "Феодализировать племя"
  feudalize_tribal_holding_interaction_desc: "Уничтожить все [Concept( 'buildings', 'здания' )|E] в этом [Concept( 'holding', 'владении' )|E] и сделать его [Concept( 'feudal', 'феодальным' )|E]"
  feudalize_tribal_holding_interaction_title_not_county_or_below: "Выберите [Concept( 'county', 'графство' )|E] или [Concept( 'barony', 'баронство' )|E]"
- feudalize_tribal_holding_interaction_notification: "Аристократизированное племя"
-  
+ feudalize_tribal_holding_interaction_notification: "Феодализация племени"
  has_all_tribal_innovations: "Открыто #V 70%#! военных и административных [Concept( 'innovations', 'инноваций' )|E]"
-  
  they_have_usable_hook_on_them: "[CHARACTER.GetShortUIName|U] имеет применимое [Concept( 'hook', 'влияние' )|E] на [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
  they_do_not_have_usable_hook_on_them: "[CHARACTER.GetShortUIName|U] не имеет действенного [Concept( 'hook', 'влияния' )|E] на [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
  i_do_not_have_usable_hook_on_them: "У меня нет действенного [Concept( 'hook', 'влияния' )|E] на персонажа по имени [TARGET_CHARACTER.GetShortUIName]"
-  
  blocked_from_remove_councillor: "Я не могу выгнать персонажа [TARGET_CHARACTER.GetShortUIName] из [Concept( 'council', 'совета' )|E] до [GetCurrentDateWithDiff( GetVarTimeRemaining( TARGET_CHARACTER.MakeScope, 'block_fire_councillor') )]"
-  
  character_interaction_on_cooldown: "Решение «$INTERACTION_NAME$» недоступно до [DATE.GetStringLong]"
  character_interaction_against_on_cooldown: "Взаимодействие «$INTERACTION_NAME$» с персонажем [TARGET_CHARACTER.GetShortUIName] недоступно до [DATE.GetStringLong]"
  character_interaction_recipient_recieve_on_cooldown: "$character_interaction_against_on_cooldown$"
-  
  NOT_offer_fealty_neighboring_condition: "[CHARACTER.GetShortUIName|U] не является вашим де-юре сюзереном или соседом"
-  
  NOT_character_interaction_within_diplomatic_range: "[TARGET_CHARACTER.GetUIName] и [CHARACTER.GetUIName] не могут взаимодействовать: они слишком далеко."
  NOT_character_can_not_target_self: "Невозможно выбрать целью самого себя"
-  
-  
-  
-  #Sun Trial 
+ #Sun Trial
  sun_trial_interaction: "Испытание Солнца"
  sun_trial_interaction.success.tt: "[recipient.GetTitledFirstName] умирает на солнце"
  sun_trial_interaction.failure.tt: "[recipient.GetTitledFirstName] переживает испытание"
  sun_trial_interaction.non_faith_family: "Все #L не-[actor.GetFaith.GetName|l]ие#! [Concept( 'family_members', 'члены семьи' )|E] персонажа [recipient.GetTitledFirstName]"
-  
-  #Literalist Debate 
+ #Literalist Debate
  literalist_debate_interaction: "Буквалистские дебаты"
  literalist_debate_interaction_desc: "Вы вызываете этого человека на дебаты об основах вашей конфессии"
  literalist_debate_interaction.tt_modifiers: "Каждое #P добродетельное свойство#! повышает шанс выиграть дебаты, а каждое #N греховное свойство#! повышает вероятность проигрыша — вне зависимости от учености"
@@ -1336,35 +1227,27 @@
  literalist_debate_interaction_has_been_debated: "Этот персонаж недавно участвовал в дебатах"
  literalist_debate_timing: "В последнее время вы не участвовали в дебатах"
  not_literalist_debate_timing: "Вы недавно уже участвовали в дебатах"
-  
-  # Mongol interactions 
+ #Mongol interactions
  mongol_demand_subjugation_interaction: "Потребовать подчинения"
  mongol_demand_subjugation_interaction_desc: "Потребовать, чтобы [recipient.GetShortUINameNoTooltip] [Select_CString(recipient.IsFemale, 'стала', 'стал' )] вашим [Concept( 'vassal', 'вассалом' )|E], пригрозив [Concept( 'war', 'войной' )|E]"
  mongol_demand_subjugation_interaction_tooltip: "[recipient.GetShortUIName|U] получает возможность ответить"
  they_are_considering_subjugation_offer: "Они рассматривают ваше предложение подчиниться"
-  
  ACCEPT: "Согласится"
  DECLINE: "Откажется"
-  
  is_ai: "Это персонаж под управлением ИИ"
-  
-  #Elopement 
+ #Elopement
  elope_interaction: "Бегство #weak (происки)#!"
  elope_interaction_decline_toast: "Побег отклонен"
  elope_interaction_notification: "Бегство"
-  
  execution_options_heading: "Способ казни"
  INTERACTION_REPLACE_SCHEME_HOSTILE: "[scheme_hostile|E]"
  INTERACTION_REPLACE_SCHEME_NON_HOSTILE: "[personal|E]"
  INTERACTION_REPLACE_SCHEME: "@warning_icon! #X Новые [SelectLocalization( InteractionSchemeInfo.GetScheme.IsHostile, 'INTERACTION_REPLACE_SCHEME_HOSTILE', 'INTERACTION_REPLACE_SCHEME_NON_HOSTILE' )|l] прекратят текущие происки [InteractionSchemeInfo.GetReplacedScheme.GetFullActionName|V]#!"
  INTERACTION_TRANSFER_VASSAL_RIGHTFUL_LIEGE: "#T Получателем является [Concept( 'rightful_liege', 'законный сюзерен' )|E]#!"
-  
  START_SCHEME: "Начать происки"
  SEND_PROPOSAL: "Отправить предложение"
  SEND_DEMAND: "Отправить требование"
-  
  modify_vassal_contract_interaction_SEND: "Изменить вассальный договор"
-  
  char_interaction.0250.desc: "[actor.Custom2('PositiveSupplimentaryGreeting', recipient)]\nС сожалением сообщаю вам о своем решении увеличить обязательства по вашему договору.\n\nНесомненно, вы понимаете тяжесть моего положения: [actor.GetPrimaryTitle.GetNameNoTierNoTooltip] отчаянно нуждается в защите, и ваш вклад чрезвычайно для нас важен.\n\nКроме того, вы #emphasis у меня в долгу!#!"
  char_interaction.0250.a: "Похоже, выбор у меня невелик..."
  char_interaction.0251.desc: "[actor.Custom2('PositiveSupplimentaryGreeting', recipient)]\nЯ всегда с честью выполняю свои вассальные обязательства, но вы, без сомнения, понимаете, что у меня тоже есть подданные.\n\nНынешний договор слишком суров. Наверняка вы видите, сколь мудро было бы ослабить его?\n\nКроме того, вы #emphasis у меня в долгу!#!"
@@ -1374,7 +1257,6 @@
  INTERACTION_NO_LONGER_VALID: "Это [interaction|El] предложить больше нельзя"
  INTERACTION_ACCEPTANCE_SCORE: "[CharacterInteractionConfirmationWindow.GetAnswerScore|+=0]"
  INTERACTION_ACCEPTANCE_CHANCE: "[CharacterInteractionConfirmationWindow.GetAnswerProgress|+0%/]"
-  
  set_primary_spouse_interaction_toast: "Смена главного супруга/главной супруги"
  set_primary_spouse_interaction_toast_changed: "[recipient.GetTitledFirstName] [Select_CString(recipient.IsFemale, 'стала вашей главной женой', 'стал вашим главным мужем' )]."
  set_primary_spouse_interaction_toast_removed: "[actor.GetTitledFirstName] больше не считает вас [Select_CString(actor.IsFemale, 'главным мужем', 'главной женой' )]."
@@ -1385,15 +1267,11 @@
  claim_throne_interaction_toast: "Происки: претензия на трон"
  fabricate_hook_interaction_toast: "Фабрикация рычага влияния"
  deposed_and_become_wanderer: "[recipient.GetShortUINameNoTooltip] [Select_CString(recipient.IsFemale, 'смещена', 'смещен' )] и становится странником"
-  
  IS_CHARACTER_INTERACTION_VALID_TRIGGER: "Подходящее взаимодействие с персонажем"
  IS_CHARACTER_INTERACTION_POTENTIALLY_ACCEPTED_TRIGGER: "Взаимодействие с персонажем может быть приемлемым"
-  
  NOT_TAKE_VOWS_INTERACTION_MARTIAL_EDUCATION: "[TARGET_CHARACTER.GetTitledFirstName] #bold не#! имеет [Concept( 'martial', 'военного' )|E] [Concept( 'education_trait', 'свойства образования' )|E]"
  TAKE_VOWS_INTERACTION_MARTIAL_EDUCATION: "имеет [Concept( 'martial', 'военное' )|E] [Concept( 'education_trait', 'свойство образования' )|E] и может вступить в [Concept( 'holy_order', 'священный орден' )|E]"
-  
  release_pow_at_end_of_war: "[valuable_prisoners|EU] всех участников войны получат свободу."
-  
  INTERACTION_MARTIAL_EDUCATION: "[recipient.GetSheHe|U] имеет [Concept( 'martial', 'военное' )|E] [Concept( 'education', 'образование' )|E]: $VALUE|=+0$"
  INTERACTION_CRAVEN: "[GetTrait('craven').GetName( recipient )]: $VALUE|=+0$"
  INTERACTION_BRAVE: "[GetTrait('brave').GetName( recipient )]: $VALUE|=+0$"
@@ -1412,14 +1290,12 @@
  INTERACTION_LOYAL: "[GetTrait('loyal').GetName( recipient )]: $VALUE|=+0$"
  INTERACTION_DISLOYAL: "[GetTrait('disloyal').GetName( recipient )]: $VALUE|=+0$"
  INTERACTION_INTRIGUE_EDUCATION: "[education_trait|E] интриги: $VALUE|=+0$"
-  
  gift_artifact_interaction: "Подарить артефакт"
  gift_artifact_interaction_desc: "Отправить артефакт персонажу [recipient.GetShortUINameNoTooltip], чтобы улучшить [recipient.GetHerHis] мнение о вас"
  gift_artifact_interaction_notification: "Подаренный артефакт"
  GIFT_ARTIFACT_PROPOSAL: "Примите этот скромный дар. Он хранился в моей сокровищнице, и я надеюсь, он послужит вам, как в свое время служил мне."
  GIFT_ARTIFACT_ACCEPT: "Принять"
  GIFT_ARTIFACT_REJECT: "Отказать"
-  
  ARTIFACT_REASON: "Артефакты редки и ценны: $VALUE|=+0$"
  ARTIFACT_NOT_EQUIPPABLE_REASON: "[recipient.GetShortUINameNoTooltip] не может использовать этот артефакт: $VALUE|=+0$"
  ARTIFACT_NOT_BENEFIT_REASON: "[recipient.GetShortUINameNoTooltip] не считает этот артефакт значимым: $VALUE|=+0$"
@@ -1431,7 +1307,6 @@
  ARTIFACT_LIEGE_REASON: "Вы [recipient.GetShortUINamePossessiveNoTooltip] сюзерен: $VALUE|=+0$"
  ARTIFACT_CLAIM_REASON: "[recipient.GetShortUINameNoTooltip] может претендовать на артефакт: $VALUE|=+0$"
  ARTIFACT_CURSED_REASON: "Нет, мне это не нужно, спасибо: $VALUE|=+0$"
-  
  demand_artifact_interaction: "Потребовать артефакт"
  demand_artifact_interaction_desc: "Потребовать, чтобы [recipient.GetShortUINameNoTooltip] [Select_CString(recipient.IsFemale, 'отдала', 'отдал' )] артефакт, на который у вас есть [Concept( 'artifact_claim', 'претензия' )|E]"
  demand_artifact_interaction_notification: "Требование артефакта"
@@ -1440,9 +1315,7 @@
  DEMAND_ARTIFACT_ACCEPT: "Принять"
  DEMAND_ARTIFACT_REJECT: "Отказать"
  demand_artifact_interaction_is_valid_tt_2: "Вы уже требовали этот артефакт за последние 5 лет!"
-  
  CHARACTER_INTERACTION_WINDOW_SELECT_ARTIFACT_TOOLTIP: "Выбрать артефакт"
-  
  challenge_for_artifact_interaction: "Поединок за артефакт"
  challenge_for_artifact_interaction_desc: "Предложить несмертельный поединок, в котором вы и [recipient.GetShortUINameNoTooltip] сразитесь за обладание артефактом"
  REQUEST_ARTIFACT_COMBAT_TEXT: "Вы владеете тем, что по праву принадлежит мне. Сразитесь со мной за право обладать этим предметом!"
@@ -1458,19 +1331,16 @@
  demand_artifact_interaction_valid_tt_1: "$challenge_for_artifact_interaction_valid_tt_1$"
  they_banned_from_combat_old_and_frail: "Они старые и хрупкие"
  i_banned_from_combat_old_and_frail: "Я — старая развалина"
-  
  abandon_hook_interaction: "Отказаться от влияния"
  abandon_hook_interaction_desc: "Отказаться от влияния на персонажа [recipient.GetShortUINameNoTooltip] и снизить [Concept( 'stress', 'стресс' )|E]."
  need_non_house_head_hook: "Вы не можете использовать [Concept( 'hook', 'влияние' )|E], полученное по причине вашего статуса [Concept( 'house_head', 'главы дома' )|E]."
  need_non_best_friend_hook: "Вы не можете использовать [Concept( 'hook', 'влияние' )|E], полученное по причине [Concept( 'best_friends', 'близкой дружбы' )|E]."
  msg_abandon_hook_interaction_title: "[recipient.GetShortUINameNoTooltip] [Select_CString(recipient.IsFemale, 'прощена', 'прощен' )]"
-  
  dismiss_strong_hook_interaction: "Соскочить с крючка"
  dismiss_strong_hook_interaction_desc: "Сделать так, что [recipient.GetShortUINameNoTooltip] откажется от [Concept( 'hook', 'влияния' )|E] на вас.\nВы потратите [Concept( 'prestige', 'престиж' )|E] и получите [Concept( 'tyranny', 'тиранию' )|E]."
  dismiss_weak_hook_interaction: "Соскочить с крючка"
  dismiss_weak_hook_interaction_desc: "Сделать так, что [recipient.GetShortUINameNoTooltip] откажется от [Concept( 'hook', 'влияния' )|E] на вас.\nВы потратите [Concept( 'prestige', 'престиж' )|E] и получите [Concept( 'tyranny', 'тиранию' )|E]."
  msg_dismiss_hook_interaction_title: "Влияние отменено"
-  
  force_duel_criminals_interaction: "Наказать преступника"
  force_duel_criminals_interaction_desc: "Вызвать [Concept( 'criminal', 'преступника' )|E] на [Concept( 'single_combat_duel', 'поединок' )|E] и обеспечить кару в случае победы."
  force_duel_criminals_interaction.imprison_punishment.tt: "Если вы победите, [recipient.GetUIName] отправится в темницу."
@@ -1480,11 +1350,9 @@
  force_duel_criminals_interaction.punishment_succeeded.loser.t: "Вы получили наказание от персонажа [SCOPE.sC('sc_victor').GetUIName]"
  force_duel_criminals_interaction.punishment_failed.victor.t: "Вы избежали наказания от персонажа [SCOPE.sC('sc_loser').GetUIName]"
  force_duel_criminals_interaction.punishment_failed.loser.t: "Вы не смогли покарать персонажа [SCOPE.sC('sc_victor').GetUIName]"
-  
  force_duel_anyone_interaction: "Высвободить свой гнев"
  force_duel_anyone_interaction_desc: "Вы вызываете кого угодно на [Concept( 'single_combat_duel', 'поединок' )|E], и в случае победы у проигравшего наступает [Concept( 'stress', 'стресс' )|E]."
  not_enough_stress: "Вам необходим более высокий [Concept( 'stress_level', 'уровень стресса' )|E]."
-  
  expose_secret_interaction: "Раскрыть секрет"
  expose_secret_interaction_desc: "Раскрытие секрета уничтожает всё [hooks|El], которое дает выбранный [secret|El]"
  divorce_character_dynast_request_interaction: "Навязать развод"
@@ -1500,10 +1368,7 @@
  FOREIGN_PRISONER_RECOVATION_TT: "[TARGET_CHARACTER.GetShortUIName] отказывается лишать вас титула, будучи в заключении у другого персонажа"
  BARON_RECOVATION_TT: "[vassals|E] [Concept( 'title_tier', 'ранга' )|E] [Concept( 'barony', 'баронства' )|E] не могут возражать против [Concept( 'revocation', 'отъема титула' )|E]"
  PRISONER_RECOVATION_TT: "[prisoners|E] в вашей [Concept( 'dungeon', 'темнице' )|E] не могут возражать против [Concept( 'revocation', 'отъема титула' )|E]"
-  
-  
-  
-  #Sumptuary Law 
+ #Sumptuary Law
  sumptuary_law_debate_interaction: "Обвинение в нарушении сословных законов"
  sumptuary_law_debate_interaction_desc: "Вы вызываете этого [Concept( 'character', 'персонажа' )|E] на дебаты [Concept( 'stewardship', 'управляющих' )|E] и обвиняете в преступлениях против моды"
  sumptuary_debate_interaction.tt_modifiers: "Привлекательность дает вам преимущество в дебатах\n\n@warning_icon! #X Устраивать дебаты о сословных законах можно не чаще чем раз в 2 года#!"
@@ -1514,19 +1379,20 @@
  not_sumptuary_debate_timing: "Вы недавно обвиняли кого-то в нарушении сословных законов"
  court_amenities_interactions.0001.b_turned_down: "[recipient.GetShortUIName|U] [Select_CString(recipient.IsFemale, 'поддалась', 'поддался' )] давлению и [Select_CString(recipient.IsFemale, 'сменила', 'сменил' )] стиль"
  sumptuary_violation_opinion: "$sumptuary_crime_hook$"
-  
  used_sumptuary_debate_modifier: "Недавние дебаты"
  used_sumptuary_debate_modifier_desc: "Этот персонаж недавно вступил в дебаты о сословных законах державы."
  sumptuary_debated_modifier: "Недавние дебаты"
  sumptuary_debated_modifier_desc: "Этот персонаж недавно участвовал в дебатах о сословных законах державы."
  court_amenities_interactions.0001.t: "Обвинение в нарушении сословных законов!"
- court_amenities_interactions.0001.desc_intro: "Мне казалось, что [debate_locale.GetNameNoTierNoTooltip] не меняется. Привычная атмосфера, одеяния, которые я ношу каждый день... и вдруг [actor.Custom2('MyCharacterIntroduction', ROOT.Char)] останавливает меня посреди тронного зала! Палец [actor.GetHerHis] упирается мне в грудь."
- court_amenities_interactions.0001.desc_byzantine: "«Как тебе только в голову могло прийти нарядиться в пурпур? Эта честь принадлежит только мне и моему роду! Сними это немедленно!»"
+ court_amenities_interactions.0001.desc_intro: "Мне казалось, что [debate_locale.GetNameNoTierNoTooltip] не меняется. Привычная атмосфера, одеяния, которые я ношу каждый день... и вдруг меня останавливает [actor.GetTitledFirstName] собственной персоной!\n\n[actor.GetHerHis|U] палец упирается мне в грудь."
+ court_amenities_interactions.0001.desc_byzantine: "«Как тебе только в голову могло прийти нарядиться в пурпур? Эта честь принадлежит только #EMP моему#! роду! Сними это немедленно!»"
  court_amenities_interactions.0001.desc_court_position: "«И ты думаешь, что [recipient.GetTitleAsNameNoTooltip|l] может носить #EMP это#!?! Что за нелепый вид! Немедленно раздевайся, иначе я позову стражу!»"
- court_amenities_interactions.0001.desc.nakey: "«Мы, конечно, почитаем человеческое тело во всех его проявлениях, но надо же за собой ухаживать! И давно ты не заглядываешь в купальни?»"
- court_amenities_interactions.0001.desc: "«Кем себя надо мнить, чтобы ходить в этом нелепом наряде? Здесь монарший двор, а не бордель! Немедленно сними эту мерзость и надень что-нибудь поскромнее, как все при дворе!»"
- court_amenities_interactions.0001.desc_outro: "[actor.GetNameNoTooltip] [Select_CString(actor.IsFemale, 'обвинила', 'обвинил' )] меня в нарушении сословного закона, которому подчиняется [debate_locale.GetName], и теперь утверждает, что мне надлежит добровольно подвергнуться наказанию по всей строгости закона и смириться с пятном на репутации и позором, который будет преследовать меня до конца жизни. Обвинения, конечно же, надуманные, и если я должным образом выстрою защиту, [actor.GetFirstNameNoTooltip] потерпит головокружительное поражение! Пожалуй, у меня выйдет даже взыскать с н[SCOPE.sC('actor').GetHerHis] за моральный ущерб..."
+ court_amenities_interactions.0001.desc.nakey: "«Мы, конечно, почитаем тело во всех его проявлениях, но надо же за собой ухаживать! И давно ты не моешься?»"
+ court_amenities_interactions.0001.desc: "«Кем себя надо мнить, чтобы ходить в этом нелепом наряде? Здесь монарший двор, а не бордель! Пойди и надень что-нибудь поскромнее!»"
+ court_amenities_interactions.0001.desc_outro: "\n\n[actor.GetSheHe|U] [Select_CString(actor.IsFemale, 'обвинила', 'обвинил' )] меня в нарушении #L [actor.GetPrimaryTitle.GetAdjective|l]их#! сословных законов — позор, с которым мне придется жить до конца жизни. Но еще не все потеряно, [actor.GetHerHis] можно переиграть! Возможно, выйдет даже взыскать за моральный ущерб..."
  court_amenities_interactions.0001.a: "«А [Select_CString(actor.IsFemale, 'САМА', 'САМ' )]-то ты как [Select_CString(actor.IsFemale, 'одета', 'одет' )]?"
+ court_amenities_interactions.0001.a.tt_success: "#positive_value Вы успешно отстаиваете свой выбор одежды#!"
+ court_amenities_interactions.0001.a.tt_failure: "#negative_value Ваши портняжные доводы не имеют под собой основания#!"
  court_amenities_interactions.0001.b: "Пусть пострадает моя гордость..."
  court_amenities_interactions.0001.b.tt: "$religious_interaction.2400.b.tt$"
  court_amenities_interactions.0002.t: "Модный спор"
@@ -1544,7 +1410,6 @@
  court_amenities_interactions.0004.desc: "оказалось, что, согласно уложениям, по которым издревле живет [debate_locale.GetNameNoTierNoTooltip], [victim.GetNameNoTooltip] не просто [Select_CString(recipient.IsFemale, 'нарушила', 'нарушил' )] закон, но заслуживает высшей меры наказания! А это значит, что я с легкостью могу отправить [victim.GetHerHis]в тюрьму! И хотя это совсем не то, чего мне изначально хотелось, такой поворот событий ставит меня в очень выигрышное положение!"
  court_amenities_interactions.0004.a: "Возможно, я закрою глаза на это нарушение, но... услуга за услугу."
  court_amenities_interactions.0004.b: "[victim.GetSheHe|U] куда краше будет смотреться в тюремных одеждах!"
-  
  make_child_learn_language_interaction: "Заставить ребенка учить язык"
  make_child_learn_language_interaction_desc: "Заставить своего [Concept( 'child', 'ребенка' )|E] начать [scheme|El] «[GetScheme('learn_language').GetTypeName]» в отношении одного из ваших [Concept( 'courtiers', 'придворных' )|E] или [Concept( 'vassals', 'вассалов' )|E]. В этом поможет [GetCourtPositionType('court_tutor_court_position').GetName()]"
  study_language: "Изучить язык"
@@ -1561,7 +1426,6 @@
  court_tutor_child_language_rank_4: "[GetCourtPositionType('court_tutor_court_position').GetName()] Обладает [Concept( 'aptitude', 'пригодностью' )|E], которая увеличивает [Concept( 'success_chance', 'шанс успеха' )|E] и [Concept( 'scheme_power', 'силу' )|E] [Concept( 'scheme', 'происков' )|E] на #P 20#!"
  court_tutor_child_language_rank_5: "[GetCourtPositionType('court_tutor_court_position').GetName()] Обладает [Concept( 'aptitude', 'пригодностью' )|E], которая увеличивает [Concept( 'success_chance', 'шанс успеха' )|E] и [Concept( 'scheme_power', 'силу' )|E] [Concept( 'scheme', 'происков' )|E] на #P 25#!"
  cannot_afford_prestige_loss_tt: "Недостаточно [Concept( 'prestige', 'престижа' )|E]"
-  
  buy_artifact_claim: "Купить претензию на артефакт"
  buy_artifact_claim_desc: "Потратить [prestige|El] или [piety|El], чтобы получить [Concept( 'personal_artifact_claim', 'претензию на один из личных' )|E] [Concept( 'artifacts', 'артефактов' )|E], которыми владеет [recipient.GetShortUINameNoTooltip]"
  bought_artifact_claim.t: "Вы купили претензию на артефакт"
@@ -1574,7 +1438,6 @@
  demand_dynasty_banner_interaction_desc: "Вы [Concept( 'dynast', 'глава династии' )|E] [actor.GetDynasty.GetName] и можете требовать знамена [Concept( 'dynasty', 'династии' )|E] у ее членов"
  demand_dynasty_banner_artifact_tt: "[artifact|E] должен быть знаменем вашей [Concept( 'dynasty', 'династии' )|E]"
  any_unequipped_artifact_tt: "Требуется неиспользуемый [artifact|El]"
-  
  MODIFY_NON_FEUDAL_VASSAL_CONTRACT_SELECT_DIFFERENT_OBLIGATION_LEVEL: "Вы должны внести изменения в новый [Concept( 'feudal_contract', 'вассальный договор' )|E]"
  INTERACTION_COST_MARRIAGE: "Цена: [CharacterInteractionConfirmationWindow.GetCostDescription]"
  ARTIFACT_USELESS_BANNER_REASON: "[recipient.GetShortUINameNoTooltip] не имеет ничего общего с этим знаменем: $VALUE|=+0$"
@@ -1588,47 +1451,35 @@
  artifact_gift_useless_banner_tt: "@warning_icon! #X Знамя неродственного [Concept( 'house', 'дома' )|E] или [Concept( 'dynasty', 'династии' )|E]#!"
  artifact_gift_claimed_tt: "#positive_value [recipient.GetTitledFirstName] имеет [Concept( 'artifact_claim', 'претензию' )|E] артефакт «[target.GetName]»#!"
  can_be_granted_titles_interaction_tt: "[recipient.GetWomenMen|U] должны быть главенствующим полом, иметь равные права или считаться полом духовенства вашей #L [actor.GetFaith.GetName|l]ой#! [Concept( 'faith', 'конфессии' )|E]"
-  
  diarch_imprison_reason_for_player.tt: "@portrait_punishment_icon! #weak Преступление: вы можете законно заключить в тюрьму персонажа [recipient.GetShortUIName], если представится такая возможность#!"
-  
  char_interaction.0261.desc: "Властью, что [Select_CString(intermediary.IsFemale, 'даровала', 'даровал' )] мне [intermediary.GetTitledFirstName], я лишаю вас незаконной власти над титулом [landed_title.GetName]. Вы должны немедленно передать этот титул мне для опеки от лица короны."
  char_interaction.0261.a: "Возмутительное злоупотребление полномочиями!"
-  
  char_interaction.0262.desc: "[intermediary.GetTitledFirstName] узнает об этом, но мне придется смириться с вашим решением отнять мой титул [landed_title.GetName]. "
  char_interaction.0262.a: "[intermediary.GetSheHe|U] уже знает."
-  
  char_interaction.0263.desc: "Вы не [intermediary.GetTitleAsNameNoTooltip|l], и я не подчиняюсь вашим прихотям. Если вы хотите титул [landed_title.GetName], придется забрать его силой."
  char_interaction.0263.result.criminal: "Если [actor.GetShortUINameNoTooltip] [Select_CString(actor.IsLocalPlayer, 'отступаетесь', 'отступается' )]"
  char_interaction.0263.result.war: "Если [actor.GetShortUINameNoTooltip] [Select_CString(actor.IsLocalPlayer, 'навязываете', 'навязывает' )] претензию"
  char_interaction.0263.a: "Что ж, это измена."
  char_interaction.0263.a.tt: "[intermediary.GetTitledFirstName] узнает о ваших преступлениях"
  char_interaction.0263.b: "Думаете, я блефую? На войну!"
-  
  char_interaction.0271.desc: "Властью, что [Select_CString(intermediary.IsFemale, 'даровала', 'даровал' )] мне [intermediary.GetTitledFirstName], я исправляю неточности государственных границ.\n\nВы должны немедленно передать вассалитет над персонажем [intermediary.GetTitledFirstName] [intermediary.GetHerHis|l] законному сюзерену. Мне."
  char_interaction.0271.a: "Я не могу отказать, но #EMP будь#! у меня такая возможность..."
-  
  char_interaction.0272.desc: "Вы перешли границу своих полномочий, но я не могу противиться тому, что приказывает [intermediary.GetTitleAsName|l], даже если этот приказ исходит от #EMP вас#!.\n\nЯ передам своего вассала."
  char_interaction.0272.a: "У вас нет выбора, [recipient.GetFirstNameNoTooltip]."
-  
  char_interaction.0273.desc: "Клятва обязывает меня защищать своих вассалов, в том числе и от грабителей, вроде #EMP вас#!.\n\n[intermediary.GetTitledFirstName] и [intermediary.GetHerHis|l] не достанутся вам без боя. Сражайтесь или убирайтесь обратно в дыру, из которой вы вылезли."
  char_interaction.0273.result.criminal: "Если [actor.GetShortUINameNoTooltip] [Select_CString(actor.IsLocalPlayer, 'отступаетесь', 'отступается' )]"
  char_interaction.0273.result.war: "Если [actor.GetShortUINameNoTooltip] [Select_CString(actor.IsLocalPlayer, 'навязываете', 'навязывает' )] претензию"
  char_interaction.0273.a: "Вы пожалеете об этом, [recipient.GetFirstNameNoTooltip]."
  char_interaction.0273.a.tt: "[intermediary.GetTitledFirstName] узнает о ваших преступлениях"
  char_interaction.0273.b: "Какое #EMP приятное#! приглашение!"
-  
-  
  char_interaction.0281.desc: "Властью, что [Select_CString(intermediary.IsFemale, 'даровала', 'даровал' )] мне [intermediary.GetTitledFirstName], я помещаю вас под стражу в связи с подозрением на неправомерные действия.\n\nПередайте себя в руки моих воинов, а не то столкнетесь с последствиями."
  char_interaction.0281.a: "У меня нет выбора."
-  
  char_interaction.0282.desc: "Мои действия законны, а вот вы поступаете преступно.\n\nЯ подчинюсь ради блага державы, но не рассчитывайте, что я забуду о нанесенной мне обиде."
  char_interaction.0282.a: "С чего это вы решили, будто я хочу, чтобы вы #EMP забыли#!?"
-  
  char_interaction.0283.desc: "Отдать себя вам на милость? Ну уж нет. Если хотите бросить меня за решетку, то придите и возьмите.\n\nХотя, если вы так настаиваете, я #EMP могу#! прийти к вам... если вы разрешите привести с собой #EMP друзей#!."
  char_interaction.0283.a: "Когда-нибудь вы об этом пожалеете."
  char_interaction.0283.a.tt: "[intermediary.GetTitledFirstName] узнает о ваших преступлениях"
  char_interaction.0283.b: "Кажется, вы не поняли. Это была не просьба."
-  
  char_interaction.0291.desc.positive: "Пусть я и доверяю вам в вопросе представления моих интересов, в одном вы ошибаетесь: [recipient.GetTitledFirstName] — верный и добропорядочный гражданин, и вам стоило бы заняться другими вопросами."
  char_interaction.0291.desc.negative: "Почему вы вечно занимаетесь #EMP непонятно чем#!? Даже последнему кретину понятно, что у вас есть обязанности важнее, чем [recipient.GetTitledFirstName]. Прекратите досаждать нормальным вассалам и возвращайтесь к своим делам."
  char_interaction.0291.desc.neutral: "Сейчас я не могу согласиться: это не в моих интересах. Я надеюсь, вы это понимаете и в остальном продолжите достойно править вместо меня."
@@ -1640,27 +1491,19 @@
  char_interaction.0291.f: "Вот #EMP мразь#!."
  char_interaction.0291.g: "Надеюсь, ты сгниешь в заточении!"
  char_interaction.0291.h: "В следующий раз [intermediary.GetSheHe] мне точно не помешает…"
-  
  msg_remove_regent_cb_invalidated_message: "[defender.GetShortUIName] больше не [regent|E], война потеряла смысл"
-  
  AI_GUARDIAN_FEUD_HESITANCE: "Не отдаст ребенка [Concept( 'house_feud', 'враждебному' )|E] [Concept( 'house', 'дому' )|E]: $VALUE|=+0$"
-  
  DIARCH_SHOULD_EDUCATE_DIARCH_TO_LIEGE: "Уместно для [Concept( 'regent', 'регента' )|E]"
  DIARCH_SHOULD_EDUCATE_LIEGE_TO_DIARCH: "Ответственность как [Concept( 'regent', 'регента' )|E]"
-  
  destroy_artifact_interaction: "Уничтожить артефакт"
  destroy_artifact_interaction_desc: "Этот артефакт будет уничтожен"
-  
  interactions_general.tt.must_select_one_option: "Вы должны выбрать хотя бы один вариант"
-  
  find_suitable_accolade_successor_interaction: "Найти достойного преемника акколады"
  find_suitable_accolade_successor_interaction_desc: "Призвать к своему [Concept( 'court', 'двору' )|E] подходящего [Concept( 'knight', 'рыцаря' )|E]"
  find_suitable_accolade_successor_interaction.tt: "[Concept( 'knight', 'Рыцарь' )|E], удовлетворяющий требованиям этой [Concept( 'accolade', 'акколады' )|E], присоединится к вашему [Concept( 'court', 'двору' )|E] в течение #high 6 месяцев#!\n\n@alert_icon! #alert_trial Решение «Найти достойного преемника акколады» будет недоступно в течение #high 2 лет#!#!"
-  
  adoption.0001.opening: "[recipient.Custom2('AppropriateGreetingPositive', actor)]"
  adoption.0001.desc: "Я принимаю ваше предложение об усыновлении. Я буду с гордостью считать себя представителем дома [actor.GetHouse.GetBaseName] и вашим родичем!"
  adoption.0001.a: "Прошу, называй меня «[actor.Custom('GetMumDad')]»."
-  
  ward_invalidated_during_travel_title: "Подопечный недействителен"
  guardian_invalidated_during_travel_title: "Опекун недействителен"
  ward_departs_title: "Подопечный отправляется"

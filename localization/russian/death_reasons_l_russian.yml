@@ -16,8 +16,8 @@
  death_spindly: "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от остановки сердца"
  death_wheezing: "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )], поперхнувшись во время приступа кашля"
  death_bleeder: "[Select_CString(CHARACTER.IsFemale, 'истекла', 'истек' )] кровью"
- death_depressed: "$death_spindly$"
- death_lunatic: "$death_spindly$"
+ death_depressed: "$death_spindly$" #Cardiovascular deaths are more common for people with depression
+ death_lunatic: "$death_spindly$" #Cardiovascular deaths are more common for people with schizophrenia
  death_possessed: "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] во время судорожного припадка"
  death_incapable: "$death_possessed$"
  death_wounded_1: "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от ран"
@@ -65,7 +65,6 @@
  death_battle_killer: "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] в бою от руки [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
  death_head_ripped_off: "[Select_CString(CHARACTER.IsFemale, 'обезглавлена', 'обезглавлен' )]"
  death_head_ripped_off_killer: "[Select_CString(CHARACTER.IsFemale, 'обезглавлена', 'обезглавлен' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]"
-  
  death_cloven_in_half: "[Select_CString(CHARACTER.IsFemale, 'развалилась', 'развалился' )] пополам"
  death_cloven_in_half_killer: "[Select_CString(CHARACTER.IsFemale, 'развалилась', 'развалился' )] пополам, когда [TARGET_CHARACTER.GetUIName] [Select_CString(TARGET_CHARACTER.IsFemale, 'нанесла', 'нанес' )] могучий удар топором"
  death_viciously_dismembered: "[Select_CString(CHARACTER.IsFemale, 'лишилась', 'лишился' )] конечностей"
@@ -86,7 +85,6 @@
  death_decapitated_killer: "[Select_CString(CHARACTER.IsFemale, 'лишилась', 'лишился' )] головы, когда [TARGET_CHARACTER.GetUIName] [Select_CString(TARGET_CHARACTER.IsFemale, 'нанесла', 'нанес' )] удар"
  death_piteously_cut_down: "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] из жалости"
  death_piteously_cut_down_killer: "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] из жалости [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]"
-  
  death_horse_riding_accident: "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )], упав с лошади"
  death_training_accident: "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] на тренировке"
  death_ate_themselves_to_death: "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от обжорства"
@@ -192,15 +190,35 @@
  death_bell: "[Select_CString(CHARACTER.IsFemale, 'лишилась', 'лишился' )] головы, которая теперь используется в качестве колокола"
  death_bell_killer: "[Select_CString(CHARACTER.IsFemale, 'лишилась', 'лишился' )] головы по воле [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )], которая теперь используется в качестве колокола"
  death_bell_revenge: "[Select_CString(CHARACTER.IsFemale, 'понесла', 'понес' )] законное наказание за музыкальные убийства"
-  
  death_scuffle_with_soldiers: "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] в стычке с солдатами"
  death_scuffle_with_soldiers_killer: "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] в стычке с солдатами по приказу [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
  death_for_corpse_forest: "[Select_CString(CHARACTER.IsFemale, 'насажена', 'насажен' )] на кол"
  death_for_corpse_forest_killer: "[Select_CString(CHARACTER.IsFemale, 'насажена', 'насажен' )] на кол в лесу трупов [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
+ #FP3
+ death_killed_by_harem_slave: "[Select_CString(CHARACTER.IsFemale, 'была заколота', 'был заколот' )] гаремным рабом"
+ death_murdered_by_religious_rebels: "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] религиозными мятежниками"
+ death_constipation: "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от запора"
+ death_court_intrigue: "[Select_CString(CHARACTER.IsFemale, 'сгинула', 'сгинул' )] в хитросплетениях придворных интриг"
+ death_horrible_disease: "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от жуткой болезни"
+ death_thirst: "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от жажды"
+ death_celebrated_man: "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] в блеске славы"
+ death_killed_by_khurramites: "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] хуррамитами"
+ death_prison: "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] в тюрьме"
+ death_prison_killer: "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] в тюрьме, куда [Select_CString(CHARACTER.IsFemale, 'ее', 'его' )] [Select_CString(TARGET_CHARACTER.IsFemale, 'бросила', 'бросил' )] [TARGET_CHARACTER.GetUIName]"
+ death_botched_head_binding: "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от неумелого ритуального перевязывания головы"
  death_euthanasia: "[Select_CString(CHARACTER.IsFemale, 'отмучилась', 'отмучился' )]"
  death_euthanasia_killer: "[Select_CString(CHARACTER.IsFemale, 'рассталась', 'расстался' )] со своей жалкой жизнью по воле [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
  death_launched_out_of_catapult: "[Select_CString(CHARACTER.IsFemale, 'была запущена', 'был запущен' )] из катапульты"
-  
+ death_archery_accident: "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] случайной стрелой"
+ death_murdered_by_rebels: "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] мятежниками"
+ death_smothered_by_downy_robe: "[Select_CString(CHARACTER.IsFemale, 'была задушена', 'был задушен' )] пушистым халатом"
+ death_smothered_by_downy_robe_killer: "[Select_CString(CHARACTER.IsFemale, 'была задушена', 'был задушен' )] пушистым халатом, и приказ об этом [Select_CString(TARGET_CHARACTER.IsFemale, 'отдала', 'отдал' )] [TARGET_CHARACTER.GetUIName]"
+ death_by_buddhists: "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] буддистами"
+ death_martyrdom: "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] мученической смертью"
+ death_martyrdom_killer: "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] мученической смертью, и в ответе за это"
+ death_cut_down_by_many_swords: "[Select_CString(CHARACTER.IsFemale, 'была изрублена', 'был изрублен' )] множеством мечей"
+ death_flogged_by_censors: "[Select_CString(CHARACTER.IsFemale, 'была избита', 'был избит' )] плетью за пьянство"
+ death_trampled: "[Select_CString(CHARACTER.IsFemale, 'была затоптана', 'был затоптан' )] насмерть"
  death_lost_in_the_forest: "[Select_CString(CHARACTER.IsFemale, 'заблудилась', 'заблудился' )] в лесу и [Select_CString(CHARACTER.IsFemale, 'пропала', 'пропал' )] без вести"
  death_cuteness_overload: "[Select_CString(CHARACTER.IsFemale, 'увидела', 'увидел' )] милейшее создание в мире и [Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )]"
  death_maimed_by_wild_beast: "[Select_CString(CHARACTER.IsFemale, 'была изувечена', 'был изувечен' )] диким зверем"
@@ -225,16 +243,12 @@
  death_coup_successful_killer: "$death_coup_successful$ [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]"
  death_coup_failed: "[Select_CString(CHARACTER.IsFemale, 'казнена', 'казнен' )] во время неудачного дворцового переворота"
  death_coup_failed_killer: "$death_coup_failed$ [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]"
-  
  death_lost_in_the_bog: "[Select_CString(CHARACTER.IsFemale, 'заблудилась', 'заблудился' )] в болоте и [Select_CString(CHARACTER.IsFemale, 'пропала', 'пропал' )]"
  death_hypothermia: "[Select_CString(CHARACTER.IsFemale, 'замерзла', 'замерз' )] насмерть"
-  
  death_dragged: "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )], когда [Select_CString(CHARACTER.IsFemale, 'ее', 'его' )] проволокли в цепях"
  death_dragged_killer: "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )], когда [TARGET_CHARACTER.GetUIName] [Select_CString(TARGET_CHARACTER.IsFemale, 'проволокла', 'проволок' )] [Select_CString(CHARACTER.IsFemale, 'ее', 'его' )] в цепях"
-  
  death_sea_storm: "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] во время шторма на море"
-  
-  # Activity 
+ #Activity
  death_contest_melee_accident: "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] в ближнем бою на турнире"
  death_contest_melee_accident_killer: "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )] в ближнем бою на турнире"
  death_contest_joust_accident: "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] в рыцарском поединке на турнире"
@@ -255,27 +269,22 @@
  death_sacrificed_to_foreign_gods: "[Select_CString(CHARACTER.IsFemale, 'принесена', 'принесен' )] в жертву иноземным богам"
  death_sacrificed_to_foreign_gods_killer: "[Select_CString(CHARACTER.IsFemale, 'принесена', 'принесен' )] в жертву иноземным богам [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]"
  death_tournament_stands_collapsed: "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] во время падения трибуны на турнире"
-  
  death_contest_duel_accident: "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] в поединке на турнире"
  death_contest_duel_accident_killer: "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )] в поединке на турнире"
  death_contest_wrestling_accident: "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] в борьбе на турнире"
  death_contest_wrestling_accident_killer: "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )] в борьбе на турнире"
  death_contest_board_game_accident: "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] во время настольной игры на турнире"
  death_contest_board_game_accident_killer: "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )] во время настольной игры на турнире"
-  
  death_bloody_wedding: "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] на кровавой свадьбе"
  death_bloody_wedding_killer: "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] на кровавой свадьбе по приказу [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
-  
  death_murder_feast: "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] на пиру"
  death_murder_feast_killer: "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] на пиру по приказу [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
-  
  death_courtier_mistakenly_stabbed: "[Select_CString(CHARACTER.IsFemale, 'была случайно зарезана', 'был случайно зарезан' )] придворным в драке"
  death_courtier_mistakenly_stabbed_killer: "[Select_CString(CHARACTER.IsFemale, 'была случайно зарезана', 'был случайно зарезан' )] в драке [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]"
  death_violent_storm: "[Select_CString(CHARACTER.IsFemale, 'сгинула', 'сгинул' )] во время свирепой грозы"
  death_apoplexy: "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от апоплексического удара"
  death_run_over_cart: "[Select_CString(CHARACTER.IsFemale, 'была раздавлена', 'был раздавлен' )] несущейся повозкой"
-  
-  # HUNT 
+ #HUNT
  death_deer: "[Select_CString(CHARACTER.IsFemale, 'была проткнута', 'был проткнут' )] оленьими рогами"
  death_fox: "[Select_CString(CHARACTER.IsFemale, 'была покусана', 'был покусан' )] загнанной в угол лисой"
  death_antelope: "[Select_CString(CHARACTER.IsFemale, 'была затоптана', 'был затоптан' )] антилопой"
@@ -304,8 +313,7 @@
  death_assassinated_by_soldiers: "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] недовольными солдатами"
  death_cut_off_by_enemy_troops_offensive: "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] вражескими солдатами, слишком далеко оторвавшись от своей свиты"
  death_cut_off_by_enemy_troops_defensive: "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] вражескими солдатами во время хаотичного отступления"
-  
-  # TRAVEL DANGER 
+ #TRAVEL DANGER
  death_fallen_from_a_mountain: "[Select_CString(CHARACTER.IsFemale, 'упала', 'упал' )] с горной тропы"
  death_mountain_rescue_operation: "[Select_CString(CHARACTER.IsFemale, 'героически погибла', 'героически погиб' )] на склоне горы, спасая спутника"
  death_fall_in_hole: "[Select_CString(CHARACTER.IsFemale, 'упала', 'упал' )] в яму"
@@ -313,7 +321,6 @@
  death_stampede: "[Select_CString(CHARACTER.IsFemale, 'была затоптана', 'был затоптан' )] бегущим стадом"
  death_avalanche: "[Select_CString(CHARACTER.IsFemale, 'была погребена', 'был погребен' )] под лавиной"
  death_poisonous_forage: "по ошибке [Select_CString(CHARACTER.IsFemale, 'съела', 'съел' )] ядовитое растение"
-  
-  #BP2 
+ #BP2
  death_hostage_execution: "[Select_CString(CHARACTER.IsFemale, 'была казнена', 'был казнен' )] будучи заложником"
  death_hostage_execution_killer: "[Select_CString(CHARACTER.IsFemale, 'была казнена', 'был казнен' )] будучи заложником у [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"

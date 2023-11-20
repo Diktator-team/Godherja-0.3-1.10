@@ -1133,7 +1133,7 @@
  southernimperial_aversarian_gorassos_1.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak "Можно было бы надеяться, что Горасос обладал потрясающей личностью, если бы лед был точным, поскольку похоже, что тот, кто заморозил этого безумца, возможно, уронил статую лицом ему в несколько десятков раз больше". #!"  #Машинный перевод 28.10.23!
  westernimperial_omitilos_aagiokrata_2.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak «Заключенный в этом льду, Койс правит так же, как и всегда». #!"  #Машинный перевод 28.10.23!
  westernimperial_omitilos_aagiokrata_1.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak «Отмороженные пальцы не могут ловко играть с марионеткой». #!"  #Машинный перевод 28.10.23!
- voyagen_lifepath_7.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak "Всегда говорили, что интеллект будущих королей можно измерить температурой холодильника..." #!"  #Машинный перевод 28.10.23!
+ voyagen_lifepath_7.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak "Encased alone in ice, Benouet looks... scared, as if he does not understand such cruelty is even possible." #!"
  tasurmad_harthahi_1.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak "Давным-давно где-то в пустынной пустыне Отец Саррадона, вероятно, хотел, чтобы ему было так же холодно, как сейчас." #!"  #Машинный перевод 28.10.23!
  curgerski_sjalvolki_2.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak «Эта холодная магия едва могла сдержать огонь в его чреслах». #!"  #Машинный перевод 28.10.23!
  vrodkin_sjalvolki_1.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak "Будем надеяться, что после смерти он веселится вдвое так же усердно, как и при жизни, ибо и рай, и ад будут изо всех сил пытаться сдержать веселье." #!"  #Машинный перевод 28.10.23!
@@ -1143,3 +1143,4 @@
  southernimperial_aversarinas_aagiokrata_30.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak «Тепло человеческого сердца мало что может сделать против такой холодной магии». #!"  #Машинный перевод 28.10.23!
  southernimperial_manikos_aagiokrata_1.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak "Почему Мегистос сказал бы, что Мегистос делает только лучшую статую Мегистоса!" #!"  #Машинный перевод 28.10.23!
  kawoch_mogowai_9.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak "Возможно, его глаза все еще видят озеро." #!"  #Машинный перевод 28.10.23!
+ easternimperial_aversarinas_aagiokrata_7.epitaph:0 "[newly_created_artifact.GetDesc]\n\n #weak "They did always say that the Frigid's intelligence could be measured by the temperature of an icebox..." #!"

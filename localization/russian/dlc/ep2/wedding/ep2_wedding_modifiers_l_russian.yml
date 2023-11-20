@@ -1,6 +1,5 @@
 ﻿l_russian:
-  
-  #Opinions 
+ #Opinions
  wedding_understanding_spouse_opinion: "Понимающий супруг"
  wedding_challenging_spouse_opinion: "Непростой супруг"
  wedding_cruel_spouse_opinion: "Жестокий супруг"
@@ -22,8 +21,7 @@
  kept_my_secret_opinion: "Сохранили мою тайну"
  making_an_effort_opinion: "Старание"
  feeling_welcome_opinion: "Теплый прием"
-  
-  #Modifiers 
+ #Modifiers
  wedding_nagging_spouse_modifier: "Ворчание супруга"
  wedding_nagging_spouse_modifier_desc: "Супруг этого персонажа побуждает его отдать все, не брезгуя прибегать к силе."
  wedding_accused_impotency_modifier: "Обвинение в импотенции"
@@ -100,4 +98,3 @@
  wedding_severe_host_modifier_desc: "Этот персонаж не терпит глупости и неподобающего поведения на светских мероприятиях."
  wedding_social_drinker_modifier: "Выпивка в компании"
  wedding_social_drinker_modifier_desc: "Этот персонаж охотно пьет в обществе друзей во время светских мероприятий."
-  

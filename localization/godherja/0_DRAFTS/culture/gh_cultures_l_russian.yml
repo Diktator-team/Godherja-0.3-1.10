@@ -1124,4 +1124,7 @@
  dubadin: "Дубадинцы"  
  dubadin_collective_noun: "Дубадинск"  
  saielaian: "Сайелайанцы" 
- saielaian_collective_noun: "Сайелайанск"  
+ saielaian_collective_noun: "Сайелайанск"
+ gh_dragon_culture:0 "Драконы"
+ gh_dragon_culture_noun:0 "Драконск"
+ gh_dragon_culture_collective_noun:0 "Драконск" 

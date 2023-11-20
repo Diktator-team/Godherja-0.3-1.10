@@ -1,6 +1,6 @@
 ﻿l_russian:
-  ################################################## 
-  # #Ordinary Events 
+ ##################################################
+ ##Ordinary Events
  fp1_shieldmaiden.0001.t: "[Select_CString(shieldmaiden.IsFemale, 'Выдающаяся', 'Выдающийся' )] [shieldmaiden.Custom('ShieldPersonFemaleMale')|l]"
  fp1_shieldmaiden.0001.desc: "«[ROOT.Char.GetLadyLord|U], я прошу вас дать мне шанс проявить себя», — говорит [Select_CString(shieldmaiden.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('shieldmaiden'))] [shieldmaiden.GetTitledFirstName]. Я устраиваюсь поудобнее на своем троне, а двор внимательно прислушивается.\n\n«Я ничуть не хуже, чем ваши $knight_culture_player_plural_no_tooltip_lowercase$, но не могу занять место в стене щитов или во главе войск. Я могу вызвать на поединок рыцаря по имени [challenged_knight.GetTitledFirstName], чтобы доказать мою отвагу в бою»."
  fp1_shieldmaiden.0001.a: "Хорошо, вы и [challenged_knight.GetTitledFirstNameNoTooltip] можете сразиться."
@@ -12,7 +12,6 @@
  fp1_shieldmaiden.0001.c: "Сама просьба уже служит доказательством отваги."
  fp1_accepted_shieldmaiden_without_question: "Все [Concept( 'courtier', 'придворные' )|E] и [Concept( 'vassal', 'вассалы' )|E], считающие, что [shieldmaiden.GetWomenMen] не могут сражаться"
  fp1_shieldmaiden.0001.d: "[shieldmaiden.Custom('ShieldPersonFemaleMale')]? Смех да и только!"
-  
  fp1_shieldmaiden.0011.t: "[shieldmaiden.Custom('ShieldPersonFemaleMale')] мешает побегу"
  fp1_shieldmaiden.0011.desc: "Вскрыть замок моей камеры оказалось проще, чем ожидалось. Проскочить мимо стражи уже сложнее, но мне удалось незаметной тенью выбраться из своей темницы.\n\nЯ уже почти #EMP чувствую#! вкус свободы, когда ее жестоко отнимают у меня. Прямо за углом, сливаясь с тенями, стоит [shieldmaiden.GetTitledFirstName], [shieldmaiden.Custom('ShieldPersonFemaleMale')|Ll], что держит при себе [imprisoner.GetFirstName].\n\nЯ даже не успеваю заметить [shieldmaiden.GetHerHis] дубинку, когда она прилетает мне прямо в лицо."
  fp1_shieldmaiden.0011.a: "Стой, не.. ААА!"
@@ -20,7 +19,6 @@
  fp1_shieldmaiden.0012.desc: "[prisoner.GetTitledFirstName] [Select_CString(prisoner.IsFemale, 'была водворена', 'был водворен' )] обратно в свою камеру уже под утро, после почти успешного ночного побега.\n\n[Select_CString(prisoner.IsFemale, 'Узнице', 'Узнику' )], похоже, удалось прокрасться мимо большинства стражников, а потом [Select_CString(prisoner.IsFemale, 'ее', 'его' )] [Select_CString(shieldmaiden.IsFemale, 'заметила', 'заметил' )] [shieldmaiden.GetTitledFirstName], без устали [Select_CString(shieldmaiden.IsFemale, 'совершавшая', 'совершавший' )] свой ночной обход.\n\n[Select_CString(shieldmaiden.IsFemale, 'Моя', 'Мой' )] [shieldmaiden.Custom('ShieldPersonFemaleMale')|l] безжалостно [Select_CString(shieldmaiden.IsFemale, 'избила', 'избил' )] [prisoner.GetHerHis], после чего [prisoner.GetFirstNameNoTooltip] [Select_CString(prisoner.IsFemale, 'была передана', 'был передан' )] в руки тюремщиков."
  fp1_shieldmaiden.0012.a: "Отличная работа, [shieldmaiden.GetFirstNameNoTooltip]."
  fp1_shieldmaiden.0012.b: "Зачем было избивать [prisoner.GetHerHis] так сильно?!"
-  
  fp1_shieldmaiden.0021.t: "$murder_save_header$ [shieldmaiden.Custom('ShieldPersonFemaleMale')|l]"
  fp1_shieldmaiden.0021.desc.assassin: "[target.GetTitledFirstName] [Select_CString(target.IsFemale, 'избежала', 'избежал' )] смерти от рук моего убийцы! Очевидно, [shieldmaiden.Custom('ShieldPersonFemaleMale')|l] [shieldmaiden.GetTitledFirstName], что [target.GetFirstNameNoTooltip] держит при себе, [Select_CString(shieldmaiden.IsFemale, 'вмешалась', 'вмешался' )], появившись за мгновения до предполагаемого убийства и устранив моего наемного убийцу."
  fp1_shieldmaiden.0021.desc.thugs: "Нанятые мной убийцы, от рук которых [Select_CString(target.IsFemale, 'должна была', 'должен был' )] погибнуть [target.GetTitledFirstName], провалили задание! Напали они яростно, но [target.GetFirstNameNoTooltip] [Select_CString(target.IsFemale, 'оказалась не одна', 'оказался не один' )] — [shieldmaiden.Custom('ShieldPersonFemaleMale')|l] [Select_CString(shieldmaiden.IsFemale, 'защищала', 'защищал' )] [target.GetHerHis] долго и яростно, а подоспевшая стража добила оставшихся разбойников."
@@ -43,7 +41,6 @@
  fp1_shieldmaiden.0022.owner_discovered: "\n\nТолько один человек мог спланировать эту атаку — [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!"
  fp1_shieldmaiden.0022.a: "Кто мог желать #EMP мне#! смерти?"
  fp1_shieldmaiden.0022.b: "[owner.GetSheHe|U] за это поплатится!"
-  
  fp1_shieldmaiden.0032.t: "[shieldmaiden.Custom('ShieldPersonFemaleMale')] набирается опыта"
  fp1_shieldmaiden.0032.desc.root: "Между войнами важно поддерживать свои навыки на должном уровне.\n\nИменно в силу этого образа мысли я вновь яростно бью, колочу и ругаю своих воинов уже в третьем по счету учебном бою за сегодня.\n\nОни издают протяжный стон, когда я приказываю им собраться для четвертого боя. Пусть стонут сколько хотят: мне нужна практика."
  fp1_shieldmaiden.0032.desc.courtier: "Смотреть, как тренируется [shieldmaiden.GetTitledFirstName], — это всегда новый опыт. [shieldmaiden.GetSheHe|U] сражается с такой яростью, что можно забыть о том, что это лишь учебный бой.\n\nПо всему полю валяется сломанное снаряжение и побитые воины. Перерыв в сражении порождает хоровой вздох облегчения от [shieldmaiden.GetHerHis] ослабевших партнеров по бою.\n\nА затем перерыв заканчивается, и [shieldmaiden.GetFirstNameNoTooltip] как ни в чем не бывало продолжает бой."

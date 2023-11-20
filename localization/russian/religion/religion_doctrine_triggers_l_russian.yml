@@ -14,7 +14,6 @@
  INCOMPATIBLE_TENET_PENTARCHY_TRIGGER: "Несовместимый [core_tenet|El] — [GetFaithDoctrine('tenet_pentarchy').GetName( GetPlayer.GetFaith )]"
  INCOMPATIBLE_TENET_SACRIFICIAL_CEREMONIES_TRIGGER: "Несовместимый [core_tenet|El] — «[GetFaithDoctrine('tenet_sacrificial_ceremonies').GetName( GetPlayer.GetFaith )]»"
  INCOMPATIBLE_TENET_CONSOLAMENTUM_TRIGGER: "Несовместимый [core_tenet|El] — «[GetFaithDoctrine('tenet_consolamentum').GetName( GetPlayer.GetFaith )]»"
-  
  INCOMPATIBLE_TENET_SHARED_HOF_INTRO_BILATERAL: "Вы не можете выбрать [GetFaithDoctrine('tenet_rite').GetName( GetPlayer.GetFaith )], если ваши взгляды расходятся со взглядами [Concept( 'head_of_faith', 'главы конфессии' )|E]"
  INCOMPATIBLE_TENET_SHARED_HOF_INTRO_UNILATERAL: "Вы не можете выбрать [GetFaithDoctrine('tenet_rite').GetName( GetPlayer.GetFaith )], если [Concept( 'head_of_faith', 'глава конфессии' )|E] не одобряет ваши взгляды"
  INCOMPATIBLE_TENET_SHARED_HOF_PACIFISTS_VS_WARMONGERS: "$INCOMPATIBLE_TENET_SHARED_HOF_INTRO_BILATERAL$: пацифизм против разжигания войны"
@@ -24,9 +23,7 @@
  INCOMPATIBLE_TENET_SHARED_HOF_WORLD_VS_HUMSAC_GRUFES: "$INCOMPATIBLE_TENET_SHARED_HOF_INTRO_UNILATERAL$: человеческие жертвоприношения"
  INCOMPATIBLE_TENET_SHARED_HOF_MONOGAMY_VS_POLYGAMY: "$INCOMPATIBLE_TENET_SHARED_HOF_INTRO_UNILATERAL$: полигамия"
  INCOMPATIBLE_TENET_SHARED_HOF_WORLD_VS_UNRESTRICTED_INCEST: "$INCOMPATIBLE_TENET_SHARED_HOF_INTRO_UNILATERAL$: свободные кровосмесительные отношения"
-  
  INCOMPATIBLE_TENET_ARMED_PILGRIMAGES_VS_FORBIDDEN_PILGRIMAGES: "Несовместимо с доктриной «Отношение к паломничествам»: [GetFaithDoctrine('doctrine_pilgrimage_forbidden').GetBaseName]"
-  
  DOCTRINE_PLURALISM_FUNDAMENTALIST: "Несовместимая [doctrine|El] — «Фундаментализм»"
  NOT_DOCTRINE_PLURALISM_FUNDAMENTALIST: "Требуется [doctrine|El] «Фундаментализм»"
  DOCTRINE_PLURALISM_PLURALISTIC: "Несовместимая [doctrine|El] — «Плюрализм»"
@@ -41,28 +38,24 @@
  INCOMPATIBLE_WITH_ALL_CRIMINAL_DOCTRINES: "Несовместимо с любыми [Concept( 'doctrines', 'доктринами' )|E], называющими определенные действия [Concept( 'criminal', 'преступными' )|E]"
  ADULTERY_MUST_BE_FULLY_ACCEPTED: "Несовместимо с любыми [Concept( 'doctrine', 'доктринами' )|E], для которых измены — [shunned|El] или [Concept( 'criminal', 'преступления' )|E]"
  REQUIRES_EXALTATION: "Требуется [core_tenet|El] «$tenet_carnal_exaltation_name$»"
-  
+ FEDAYEEN_REQUIRED_DOCTRINES_TRIGGER: "Требуется один из следующих [Concept( 'core_tenets', 'догматов' )|E]:\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_warmonger').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_unrelenting_faith').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_consolamentum').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_armed_pilgrimages').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_struggle_submission').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_pursuit_of_power').GetName( GetPlayer.GetFaith )]"
  HAS_DOCTRINE: "Есть доктрина «[FAITH_DOCTRINE.GetName(FAITH.Self)]»"
  NOT_HAS_DOCTRINE: "#bold Нет#! доктрины «[FAITH_DOCTRINE.GetName(FAITH.Self)]»"
  I_HAVE_DOCTRINE: "У вашей [faiths|El] есть доктрина «[FAITH_DOCTRINE.GetName(FAITH.Self)]»"
  NOT_I_HAVE_DOCTRINE: "У вашей [faiths|El] #bold нет#! доктрины «[FAITH_DOCTRINE.GetName(FAITH.Self)]»"
  THEY_HAS_DOCTRINE: "[FAITH.GetAdjective] имеет доктрину «[FAITH_DOCTRINE.GetName(FAITH.Self)]»"
  NOT_THEY_HAS_DOCTRINE: "[FAITH.GetAdjective] #bold не#! имеет доктрины «[FAITH_DOCTRINE.GetName(FAITH.Self)]»"
-  
  HAS_DOCTRINE_PARAMETER: "Имеет $PARAMETER_NAME$"
  NOT_HAS_DOCTRINE_PARAMETER: "#bold Не#! имеет $PARAMETER_NAME$"
  I_HAVE_DOCTRINE_PARAMETER: "Ваша [Concept( 'faith', 'конфессия' )|E] имеет $PARAMETER_NAME$"
  NOT_I_HAVE_DOCTRINE_PARAMETER: "Ваша [Concept( 'faith', 'конфессия' )|E] #bold не#! имеет $PARAMETER_NAME$"
  THEY_HAS_DOCTRINE_PARAMETER: "[FAITH.GetAdjective] имеет $PARAMETER_NAME$"
  NOT_THEY_HAS_DOCTRINE_PARAMETER: "[FAITH.GetAdjective] #bold не#! имеет $PARAMETER_NAME$"
-  
  I_HAVE_COURT_CHAPLAIN: "[Concept('court_chaplain', CHARACTER.Custom('MyPriestTitle'))|EU] может провести ритуал"
  NOT_I_HAVE_COURT_CHAPLAIN: "[Concept('court_chaplain', CHARACTER.Custom('MyPriestTitle'))|EU] #bold не#! может провести ритуал"
  I_HAVE_SOUGHT_AID: "В последние 5 лет вам приходилось прибегать к помощи духов"
  NOT_I_HAVE_SOUGHT_AID: "В последние 5 лет вам #bold не#! приходилось прибегать к помощи духов"
  MY_HEALTH_NEAR_DEATH: "[health|E]: вы при смерти"
  NOT_MY_HEALTH_NEAR_DEATH: "[health|E]: вы #bold не#! при смерти"
-  
  COURT_CHAPLAIN_CANT_FIRE_DOCTRINES: "[CHARACTER.GetFaith.GetAdjective] #bold не#! имеет [Concept( 'doctrine', 'доктрину' )|El] #V «Сменяемые должности духовенства»#!.\n\nВ отсутствие такой [Concept( 'doctrine', 'доктрины' )|El] в ваших владениях всегда будет [court_chaplain|El] или [realm_priest|El]."
  COURT_CHAPLAIN_CANT_REASSIGN_DOCTRINES: "[CHARACTER.GetFaith.GetAdjective] #bold не#! имеет [Concept( 'doctrine', 'доктрин' )] [GetFaithDoctrine('doctrine_clerical_succession_temporal_appointment').GetBaseName|l] или [GetFaithDoctrine('doctrine_clerical_succession_temporal_fixed_appointment').GetBaseName|l] #V должности духовенства#!.\n\nБез них [court_chaplains|El] и [realm_priests|El] назначаться не могут."
-  

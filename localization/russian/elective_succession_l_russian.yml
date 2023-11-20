@@ -1,5 +1,5 @@
 ﻿l_russian:
- #Feudal Elective AI behavior 
+ #Feudal Elective AI behavior
  tooltip_feudal_elector_vote_myself: "Я люблю власть: $VALUE|=+0$"
  tooltip_feudal_elector_vote_not_myself: "Я не люблю власть: $VALUE|=+0$"
  tooltip_feudal_elector_vote_myself_heir: "Я — законный наследник: $VALUE|=+0$"
@@ -122,8 +122,7 @@
  tooltip_feudal_elector_vote_anti_tanist: "Семейные проблемы: $VALUE|=+0$"
  tooltip_gaelic_vote_strength_current_dynast: "Текущий [dynast|El]: $VALUE|=+0$"
  tooltip_gaelic_vote_strength_current_house_head: "Текущий [house_head|El]: $VALUE|=+0$"
-  
- #Imperial Elective, Voting Strength 
+ #Imperial Elective, Voting Strength
  tooltip_imperial_vote_strength_emperor_influence: "Имперское величие: $VALUE|=+0$"
  tooltip_imperial_vote_strength_emperor_unpurpled: "У н[SCOPE.sC('candidate').GetHerHis] [GetTrait('born_in_the_purple').GetName( Root.Char )]: $VALUE|=+0$"
  tooltip_imperial_vote_strength_emperor_deformed: "[ROOT.Char.GetSheHe|U] [Select_CString(candidate.IsFemale, 'перекошена', 'перекошен' )]: $VALUE|=+0$"
@@ -149,8 +148,7 @@
  tooltip_imperial_vote_strength_spouse: "[ROOT.Char.GetSheHe|U] — [ROOT.Char.GetTitleTierName|l] персонажа $VALUE|=+0$"
  tooltip_imperial_vote_strength_greek_intrigue: "[ROOT.Char.GetSheHe|U] — хитроумный политик, прекрасно умеющий плести интриги: $VALUE|=+0$"
  tooltip_imperial_vote_strength_roman_diplomacy: "[ROOT.Char.GetSheHe|U] — коварный демагог, опаснейшее оружие которого — [diplomacy|El]: $VALUE|=+0$"
-  
- #Imperial Elective, Voting Behavior 
+ #Imperial Elective, Voting Behavior
  tooltip_feudal_elector_vote_rome_child: "Римом не будет править ребенок: $VALUE|=+0$"
  tooltip_feudal_elector_vote_despot: "[candidate.GetSheHe|U] — деспот: $VALUE|=+0$"
  tooltip_feudal_elector_vote_commander_martial: "[candidate.GetSheHe|U] — прекрасный полководец: $VALUE|=+0$"
@@ -165,17 +163,21 @@
  tooltip_elective_current_ruler: "Текущий правитель: $VALUE|=+0$"
  tooltip_feudal_vote_strength_parliament: "Поддержка парламента: $VALUE|=+0$"
  tooltip_feudal_vote_strength_pope: "Влияние Папы: $VALUE|=+0$"
-  
-  #Saxon Elective, Voting Behavior 
+ #Saxon Elective, Voting Behavior
  tooltip_saxon_elector_vote_stewardship: "[candidate.GetSheHe|U] — серьезный правитель, который хорошо знает, что такое [stewardship|El]: $VALUE|=+0$"
  tooltip_saxon_elector_vote_military_strength: "[holder.GetShortUIName] нуждается в ополчении: $VALUE|=+0$"
  tooltip_saxon_elector_vote_candidate_unlanded: "[candidate.GetShortUIName|U] [Concept( 'unlanded', 'не имеет владений' )|E]: $VALUE|=+0$"
  tooltip_saxon_elector_vote_candidate_count_magnate: "[candidate.GetShortUIName|U] всего лишь [count|El]: $VALUE|=+0$"
  tooltip_saxon_elector_vote_candidate_king_magnate: "[candidate.GetShortUIName|U] обладает сильной [Concept( 'king', 'королевской властью' )|E]: $VALUE|=+0$"
-  
-  #Scandinavian Elective 
+ #Scandinavian Elective
  tooltip_scandinavian_elective_domain_size: "Размер [Concept( 'domain', 'домена' )|E]!: $VALUE|=+0$"
  tooltip_scandinavian_elective_development: "Общее [development|El] с модификаторами [Concept( 'faith', 'конфессии' )|E] и [Concept( 'heritage', 'наследия' )|E]: $VALUE|=+0$"
  tooltip_scandinavian_elective_capital_opinion: "[county_opinion|E] (столица): $VALUE|=+0$"
  tooltip_scandinavian_elective_capital_development: "[county_development|E] (столица): $VALUE|=+0$"
  tooltip_scandinavian_elector_vote_prowess: "[candidate.GetSheHe|U] — великий воин, [prowess|El] которого не вызывает сомнений: $VALUE|=+0$"
+ #Tribal Elective
+ tooltip_tribal_elective_development: "Общее [development|El] с модификаторами [Concept( 'faith', 'конфессии' )|E] и [Concept( 'heritage', 'наследия' )|E]: $VALUE|=+0$"
+ tooltip_tribal_elective_capital_opinion: "[county_opinion|E] (столица): $VALUE|=+0$"
+ tooltip_tribal_elector_vote_elder: "[Select_CString(candidate.IsFemale, 'Она', 'Он' )] — почтенный старый человек: $VALUE|=+0$"
+ tooltip_tribal_elector_vote_stranger: "[Select_CString(candidate.IsFemale, 'Она', 'Он' )] не из моего племени: $VALUE|=+0$"
+ tooltip_tribal_elector_vote_relative: "[Select_CString(candidate.IsFemale, 'Она', 'Он' )] принадлежит к моему клану: $VALUE|=+0$"

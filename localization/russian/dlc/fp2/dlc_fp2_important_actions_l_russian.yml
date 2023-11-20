@@ -10,7 +10,6 @@
  action_can_offer_assistance_combined_unimportant: "$action_can_offer_assistance_unimportant$"
  action_can_offer_assistance_unimportant: "@warning_icon!#X Вы уже ведете [Concept( 'war', 'войну' )|E]#!"
  action_can_offer_assistance_HELP: "\n\n#help Вы [ruler|El], и к вам тоже могут вторгнуться, а потому может быть выгодно подождать безопасного момента, чтобы присоединиться к чужой [Concept( 'war', 'войне' )|E].#!"
-  
  action_can_bargain_fealty: "@liege_icon!Может предлагать вассалитет за помощь"
  action_can_bargain_fealty_label: "@liege_icon!Можно предложить персонажу [recipient.GetShortUINameNoTooltip] свои услуги в обмен на покровительство"
  action_can_bargain_fealty_combined_label: "[recipient.GetShortUINameNoTooltip]"

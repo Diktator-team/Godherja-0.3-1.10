@@ -1,5 +1,5 @@
 ﻿l_russian:
-  #Achievement Titles 
+ #Achievement Titles
  ACHIEVEMENT_far_from_home_achievement: "Далеко от дома"
  ACHIEVEMENT_miklagardariki_achievement: "Миклагардарики"
  ACHIEVEMENT_canute_the_greater_achievement: "Кнут Более Великий"
@@ -10,8 +10,7 @@
  ACHIEVEMENT_first_of_the_crusader_kings_achievement: "Первый среди королей-крестоносцев"
  ACHIEVEMENT_vladimirs_second_choice_achievement: "Альтернатива Владимира"
  ACHIEVEMENT_a_dangerous_business_achievement: "Опасное дело"
-  
-  #Unlocked Achievement Desc 
+ #Unlocked Achievement Desc
  ACHIEVEMENT_DESC_far_from_home_achievement: "Начните игру как $north_germanic_group_collective_noun$ий $norse_pagan_adherent$ и перенесите [Concept( 'realm_capital', 'столицу державы' )|E] в [Concept( 'region', 'регион' )|E] [GetGeographicalRegion('dlc_fp1_achievement_far_from_home').GetName]. $rd_character_blocked_from_achievement$"
  ACHIEVEMENT_DESC_miklagardariki_achievement: "Начните игру как $north_germanic_group_collective_noun$ий $norse_pagan_adherent$, [Concept( 'completely_control', 'полностью контролируете' )|E] [kingdom|El] $k_thessalonika$ и владеете любой [Concept( 'empire', 'империей' )|E], за исключением титула $e_byzantium$. $rd_character_blocked_from_achievement$"
  ACHIEVEMENT_DESC_canute_the_greater_achievement: "Играя за нереформированное [Concept( 'tribal', 'племя' )|E], примите [Concept( 'decision', 'решение' )|E] «$secure_high_kingdom_north_sea_decision$»"
@@ -22,8 +21,7 @@
  ACHIEVEMENT_DESC_first_of_the_crusader_kings_achievement: "Начав игру за любой $north_germanic_group_collective_noun$ий народ, незамедлительно примите участие в первом Крестовом походе на стороне нападающих"
  ACHIEVEMENT_DESC_vladimirs_second_choice_achievement: "Начните игру как $north_germanic_group_collective_noun$ий $norse_pagan_adherent$. Обратитесь в любую исламскую [Concept( 'faith', 'конфессию' )|E] и обратите весь регион [GetGeographicalRegion('dlc_fp1_achievement_vladimirs_second_choice').GetName][region|E] в любую исламскую конфессию $game_concept_faith$"
  ACHIEVEMENT_DESC_a_dangerous_business_achievement: "Играя за карлика, выиграйте [Concept( 'war', 'войну' )|E] «[varangian_adventure|E]» за пределами империи"
-  
-  #Locked Achievement Desc 
+ #Locked Achievement Desc
  NOT_ACHIEVEMENT_DESC_far_from_home_achievement: "$ACHIEVEMENT_LOCKED_GENERIC$"
  NOT_ACHIEVEMENT_DESC_miklagardariki_achievement: "$ACHIEVEMENT_LOCKED_GENERIC$"
  NOT_ACHIEVEMENT_DESC_canute_the_greater_achievement: "$ACHIEVEMENT_LOCKED_GENERIC$"
@@ -34,12 +32,7 @@
  NOT_ACHIEVEMENT_DESC_first_of_the_crusader_kings_achievement: "$ACHIEVEMENT_LOCKED_GENERIC$"
  NOT_ACHIEVEMENT_DESC_vladimirs_second_choice_achievement: "$ACHIEVEMENT_LOCKED_GENERIC$"
  NOT_ACHIEVEMENT_DESC_a_dangerous_business_achievement: "$ACHIEVEMENT_LOCKED_GENERIC$"
-  
-  
-  
-  
-  
-  #Achievement Titles 
+ #Achievement Titles
  ACHIEVEMENT_fp1_01_achievement: "$ACHIEVEMENT_far_from_home_achievement$"
  ACHIEVEMENT_fp1_02_achievement: "$ACHIEVEMENT_miklagardariki_achievement$"
  ACHIEVEMENT_fp1_03_achievement: "$ACHIEVEMENT_canute_the_greater_achievement$"
@@ -50,8 +43,7 @@
  ACHIEVEMENT_fp1_08_achievement: "$ACHIEVEMENT_first_of_the_crusader_kings_achievement$"
  ACHIEVEMENT_fp1_09_achievement: "$ACHIEVEMENT_vladimirs_second_choice_achievement$"
  ACHIEVEMENT_fp1_10_achievement: "$ACHIEVEMENT_a_dangerous_business_achievement$"
-  
-  #Unlocked Achievement Desc 
+ #Unlocked Achievement Desc
  ACHIEVEMENT_DESC_fp1_01_achievement: "$ACHIEVEMENT_DESC_far_from_home_achievement$"
  ACHIEVEMENT_DESC_fp1_02_achievement: "$ACHIEVEMENT_DESC_miklagardariki_achievement$"
  ACHIEVEMENT_DESC_fp1_03_achievement: "$ACHIEVEMENT_DESC_canute_the_greater_achievement$"
@@ -62,8 +54,7 @@
  ACHIEVEMENT_DESC_fp1_08_achievement: "$ACHIEVEMENT_DESC_first_of_the_crusader_kings_achievement$"
  ACHIEVEMENT_DESC_fp1_09_achievement: "$ACHIEVEMENT_DESC_vladimirs_second_choice_achievement$"
  ACHIEVEMENT_DESC_fp1_10_achievement: "$ACHIEVEMENT_DESC_a_dangerous_business_achievement$"
-  
-  #Locked Achievement Desc 
+ #Locked Achievement Desc
  NOT_ACHIEVEMENT_DESC_fp1_01_achievement: "$NOT_ACHIEVEMENT_DESC_far_from_home_achievement$"
  NOT_ACHIEVEMENT_DESC_fp1_02_achievement: "$NOT_ACHIEVEMENT_DESC_miklagardariki_achievement$"
  NOT_ACHIEVEMENT_DESC_fp1_03_achievement: "$NOT_ACHIEVEMENT_DESC_canute_the_greater_achievement$"

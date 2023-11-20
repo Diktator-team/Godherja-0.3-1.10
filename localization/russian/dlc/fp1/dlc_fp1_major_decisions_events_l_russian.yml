@@ -1,5 +1,5 @@
 ﻿l_russian:
-  # Securing the High Kingdom of the North Sea 
+ #Securing the High Kingdom of the North Sea
  fp1_major_decisions.0001.t: "[Select_CString(founder.IsFemale, 'Верховная', 'Верховный' )] [founder.Custom('GetQueenKing')|l] Севера"
  fp1_major_decisions.0001.desc: "Я давно [Select_CString(founder.IsFemale, 'мечтала', 'мечтал' )] навсегда объединить королевства Северного моря под властью одной короны. Долгие годы я [Select_CString(founder.IsFemale, 'боролась', 'боролся' )], добиваясь признания в своих владениях, и сегодня моя мечта наконец осуществится.\n\nПосле того как основные вассалы произнесли тщательно составленные клятвы вечной верности, все — и саксы, и норвежцы, и даны — признали, что я [Select_CString(founder.IsFemale, 'верховная', 'верховный' )] [founder.Custom('GetQueenKing')|l] и моя власть над Северным морем неоспорима.\n\nВозможно, мои потомки продолжат править королевствами как единым целым. Возможно, нет. К счастью, теперь это не имеет значения.\n\nКто бы ни носил младшие короны, над ними #EMP всеми#! всегда будет стоять [founder.GetHouse.GetBaseNameNoTooltip] [founder.GetTitleAsNameNoTooltip|l]!"
  fp1_major_decisions.0001.a: "Могучая держава на века!"
@@ -7,14 +7,12 @@
  fp1_major_decisions.0002.desc: "Долгие годы мой сюзерен, [founder.Custom('GetQueenKing')|l] [founder.GetFirstName], всеми силами [Select_CString(founder.IsFemale, 'давала', 'давал' )] понять, что хочет, чтобы держава пережила [founder.GetHerHis].\n\nХоть наши королевства связаны узами родства и войн, их отдалённость делает эту цель невыполнимой.\n\nНо теперь с сомнениями покончено. [founder.GetFirstNameNoTooltip] [Select_CString(founder.IsFemale, 'добилась', 'добился' )], чтобы все вассалы принесли [founder.GetHerHim] клятвы верности.\n\nТак рождается $title_high_kingdom$ Северного моря!"
  fp1_major_decisions.0002.a: "Да здравствует [founder.GetTitleAsNameNoTooltip|l]!"
  fp1_major_decisions.0002.b: "[Select_CString(founder.IsFemale, 'Самозваная', 'Самозваный' )] [founder.Custom('GetQueenKing')|l] четырёх королевств."
-  
  fp1_major_decisions.0003.t: "$fp1_major_decisions.0001.t$"
  fp1_major_decisions.0003.desc: "Уже долгое время [founder.GetFirstName], [founder.Custom('GetQueenKing')|l] держав $k_norway$, $k_england$ и $k_denmark$, [Select_CString(founder.IsFemale, 'мечтала', 'мечтал' )] не допустить раздела своих земель после смерти.\n\nСегодня, после многих лет правления и напряжённых переговоров, [founder.GetSheHe] наконец исполняет своё желание.\n\nВассалы всех трёх королевств согласились, что, кто бы ни сидел на их тронах, ими всегда будет править [founder.GetTitleAsNameNoTooltip|l]."
  fp1_major_decisions.0003.a: "Держава, где смогут счастливо жить все [ROOT.GetCharacter.GetFaith.GetAdherentNamePluralNoTooltip|l]!"
  fp1_major_decisions.0003.b: "Защити нас [ROOT.GetCharacter.GetFaith.HighGodName] от ярости, что обрушит [founder.GetFirstNameNoTooltip]!"
  fp1_major_decisions.0003.c: "[founder.GetSheHe|U] лишь варвар с замашками!"
-  
-  # Founding the Capital of the Rus' 
+ #Founding the Capital of the Rus'
  fp1_major_decisions.0011.t: "Столица всея Руси"
  fp1_major_decisions.0011.desc: "$river_volga$, $river_dnieper$ и земли между ними — варяги плавают по рекам и закоулкам земель, где проживают $east_slavic_group_collective_noun$. Мы грабим, завоёвываем и смешиваемся с местным населением.\n\nДо сего дня эти мелкие поселения соперничали за внимание авантюристов и воевод, пытаясь добиться превосходства над остальными землями Руси.\n\nНо теперь с этим покончено! Благодаря своим великим свершениям и грозной репутации я смогу привлечь к себе скандинавов и славян и построить столицу, которой сможет гордиться [founder.GetPrimaryTitle.GetNameNoTier]!"
  fp1_major_decisions.0011.a: "$c_kiev$ отлично подойдёт на роль столицы!"
@@ -28,8 +26,7 @@
  fp1_major_decisions.0013.a: "[new_rus_capital.GetNameNoTierNoTooltip], похоже, процветает..."
  fp1_major_decisions.0013.b: "Они всё равно останутся чужеземцами на задворках."
  fp1_major_decisions.0013.c: "Не понимаю, как это касается меня?"
-  
-  #Elevating the Kingdom of Mann & the Isles 
+ #Elevating the Kingdom of Mann & the Isles
  fp1_major_decisions.0021.t: "Пиратское королевство"
  fp1_major_decisions.0021.desc: "Много лет я плаваю по миру, разбойничаю, граблю и жгу. У королей не бывает столько золота, сколько скопилось у меня после грабежей, а моё имя проклинают от Ирландского моря до Катая.\n\nБез сомнения, ещё ни [Select_CString(founder.IsFemale, 'одна живая', 'один живой' )] [founder.GetWomanMan] не [Select_CString(founder.IsFemale, 'удостаивалась', 'удостаивался' )] такой известности и титула Грозы морей. $c_isle_of_man$ — моё детище. Мои трофеи и моя репутация помогли заселить и укрепить остров.\n\nПо всему миру меня называют злейшим из пиратов.\n\nНо они #EMP наслышаны#! обо мне."
  fp1_major_decisions.0021.a: "Я — [founder.GetLadyLord|U] крови и золота!"
@@ -42,8 +39,7 @@
  fp1_major_decisions.0023.desc: "На Британских островах даже последний крестьянин слышал о морском чудовище, имя которому [founder.GetFirstName], Гроза морей, и о [founder.GetHerHis] попытках добиться признания гнезда пиратов и грабителей полноценной державой.\n\nЭта легенда вселяет страх в сердца как мелкого дворянства, так и смердов, но в последнее время грань между мифом и реальностью несколько размылась.\n\nИбо сегодня #EMP [founder.GetTitleAsNameNoTooltip|l]#! [founder.GetFirstNameNoTooltip] [Select_CString(founder.IsFemale, 'объявила', 'объявил' )], что дело всей [founder.GetHerHis] жизни увенчалось успехом.\n\nНа побережье Британии появилось новое королевство, и это ужасающее зрелище."
  fp1_major_decisions.0023.a: "[founder.GetSheHe|U] ведь не собирается грабить #EMP нас#!, правда?"
  fp1_major_decisions.0023.b: "Это просто [founder.GetTitleAsNameNoTooltip|l] воров!"
-  
-  # Forging the Jomsvikings 
+ #Forging the Jomsvikings
  fp1_major_decisions.0031.t: "Создание йомсвикингов"
  fp1_major_decisions.0031.desc: "Пришлось задействовать всю власть и престиж, но под моим началом собрались самые суровые и фанатичные [founder.GetFaith.GetAdherentNamePlural|l] со всей Скандинавии. Из них мне удалось создать настоящее [Select_CString(leader.IsFemale, 'сестринство', 'братство' )]!\n\nОтныне эти $d_jomsvikings$ будут странствовать по славянским и балтийским водам в поисках богатой добычи. В налётах и столкновениях с местными жителями их свирепость превратится во всепожирающее пламя, и лишь самые упорные захотят к ним примкнуть.\n\nЗа честь они будут платить воинами и добычей, будут карать трусов, предателей веры и реформистов.\n\nОтныне и до самого Рагнарёка, [founder.GetFaith.GetAdjectiveNoTooltip|l] будет процветать."
  fp1_major_decisions.0031.a.cynical: "Главное — чтобы они воевали за меня..."
@@ -60,8 +56,7 @@
  fp1_founder_founded_the_jomsviking_tt: "[founder.GetTitledFirstNameNoTooltip] [Select_CString(founder.IsFemale, 'основала', 'основал' )] [holy_order|El].\n$EFFECT_LIST_BULLET$Теперь [founder.GetFirstNameNoTooltip] — [holy_order_patron|El]»."
  fp1_major_decisions.0033.b.competition: "Пф, соперники, говоришь?"
  fp1_major_decisions.0033.b.heathens: "#EMP *Вздох*#! ...Опять языческие налётчики?"
-  
-  # Canute-'em-Up 
+ #Canute-'em-Up
  fp1_major_decisions.1001.t: "[ROOT.Char.GetTitleAsNameNoTooltip] Северного моря"
  fp1_major_decisions.1001.desc.dumb: "У меня довольно спокойная жизнь. Все знают, что я [Select_CString(ROOT.Char.IsFemale, 'мудрая, великодушная', 'мудрый, великодушный' )] [ROOT.Char.GetTitleAsNameNoTooltip|l] и невероятно #EMP [Select_CString(ROOT.Char.IsFemale, 'могущественная', 'могущественный' )]#!. Весь мир считает меня [Select_CString(ROOT.Char.IsFemale, 'любимой дочерью', 'любимым сыном' )] [ROOT.Char.GetFaith.HighGodNamePossessive].\n\nПридворные во всем соглашаются со мной, особенно [sycophant.Custom2('MyCharacterIntroduction',ROOT.Char)].\n\nДа что там, [sycophant.GetFirstNameNoTooltip] утверждает, что моим желаниям повинуется даже прилив, и стоит мне шепнуть, как сами воды отхлынут от берега..."
  fp1_major_decisions.1001.desc.smart: "Я — [ROOT.Char.GetTitleAsNameNoTooltip|l], и потому [Select_CString(ROOT.Char.IsFemale, 'окружена', 'окружён' )] целой #EMP толпой#! людей, которые из кожи вон лезут, чтобы выразить восхищение моими величием и могуществом.\n\nОбычно я пропускаю их лесть мимо ушей, ибо заискивание — естественная реакция простых смертных на моё присутствие.\n\nНо сегодня оно достигло совсем уж #EMP неприличных#! высот. [sycophant.Custom2('MyCharacterIntroduction',ROOT.Char)] [Select_CString(sycophant.IsFemale, 'посмела', 'посмел' )] перебить меня за завтраком заявлением, будто стоит мне повелеть, и сам прилив отступит от берегов.\n\nКонечно, это довольно жалкая попытка польстить мне, но у меня появилась одна мысль..."
@@ -77,8 +72,7 @@
  fp1_major_decisions.1002.d: "Недоношенный отпрыск океана! Подать мне хлыст!"
  fp1_major_decisions.1002.d.tt: "Вы сечёте море за неповиновение"
  fp1_major_decisions.1002.e: "Возможно, мне нужно научиться не только управлять..."
-  
-  # The True King of Norway 
+ #The True King of Norway
  fp1_major_decisions.1011.t: "Король королевства $k_norway$"
  fp1_major_decisions.1011.desc.intro: "Много лет назад я дал клятву не стричь волос, пока не получу гордый титул короля королевства $k_norway$."
  fp1_major_decisions.1011.desc.gyda: "Чтобы я и [gyda.GetTitledFirstName] могли быть вместе,"

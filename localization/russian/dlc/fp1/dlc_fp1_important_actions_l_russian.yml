@@ -10,7 +10,6 @@
  action_can_challenge_to_single_combat_combined_unimportant: "@warning_icon!#X Нет преступников, представляющих для вас ценность#!"
  action_can_challenge_to_single_combat_unimportant: "@warning_icon!#X [recipient.GetSheHe|U] не [Select_CString(recipient.IsFemale, 'важна', 'важен' )] для вас#!"
  action_can_challenge_to_single_combat_HELP: "\n\n#help Вы — [ruler|E] и не обязаны вызывать любого [Concept( 'criminal', 'преступника' )|E], к тому же иногда уместнее подождать и [Concept( 'imprisoned', 'заключить обидчика в тюрьму' )|E]. Не торопитесь вызывать на [Concept( 'trials_by_combat', 'суд поединком' )|E] персонажей с высоким показателем [Concept( 'prowess', 'доблести' )|E], ибо каждый суд представляет собой [Concept( 'single_combat_fight_plural', 'бой один на один' )|E].#!"
-  
  action_can_make_shieldmaiden: "Можно сделать воительницей"
  action_can_make_shieldmaiden_label: "[recipient.GetShortUINameNoTooltip] может стать [Select_CString(recipient.IsFemale, 'воительницей', 'воителем' )]"
  action_can_make_shieldmaiden_combined_label: "[recipient.GetShortUINameNoTooltip]"

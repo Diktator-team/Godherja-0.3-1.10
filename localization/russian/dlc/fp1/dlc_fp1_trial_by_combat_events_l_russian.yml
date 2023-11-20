@@ -1,8 +1,7 @@
 ﻿l_russian:
-  # TbC Misc Loc Keys 
+ #TbC Misc Loc Keys
  fp1_tbc.0000.t: "Суд поединком"
-  
-  # TbC about to begin. 
+ #TbC about to begin.
  fp1_tbc.0001.t: "$fp1_tbc.0000.t$: [duel_location.GetBaseNameNoTierNoTooltip]"
  fp1_tbc.0001.desc.intro: "Я прихожу вовремя. [duel_location.GetBaseNameNoTier] не пустует — [champion.GetTitledFirstName] с небольшой компанией свидетелей уже ждет меня."
  fp1_tbc.0001.desc.recipient_fighting: "\n\nЧто ни говори, а [champion.GetFirstNameNoTooltip] может сражаться, и [champion.GetSheHe] [Select_CString(champion.IsFemale, 'готова', 'готов' )] встретиться со мной лицом к лицу."
@@ -12,16 +11,13 @@
  fp1_tbc.0001.trigger_failure.recipient: "Мой [Concept( 'trial_by_combat', 'суд поединком' )|E] против персонажа [actor.GetFirstNameNoTooltip] отменен"
  fp1_tbc.0001.a: "Пусть победит сильнейший."
  fp1_tbc.0001.a.tt: "[trial_by_combat|E] начинается!"
-  
-  # TbC has invalidated. 
+ #TbC has invalidated.
  fp1_tbc.0021.trigger_failure.actor: "$fp1_tbc.0001.trigger_failure.actor$"
  fp1_tbc.0021.trigger_failure.recipient: "$fp1_tbc.0001.trigger_failure.recipient$"
-  
  fp1_tbc.0031.opening: "[recipient.Custom2('AppropriateGreeting',actor)]"
  fp1_tbc.0031.desc: "Драться с #EMP тобой#!? Пожалуй, тебе пора сменить деятельность и стать шутом. Даже [recipient.GetFaith.NegativeAfterLife] смеется над тобой.\n\nПродолжай веселье, [recipient.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] с нетерпением ждет твоих посланий."
  fp1_tbc.0031.a: "Вот же [recipient.Custom('InsultAdjective')] [recipient.Custom('InsultNoun')]!"
-  
-  # Scope:actor won a TbC. 
+ #Scope:actor won a TbC.
  fp1_tbc.0041.t: "$fp1_tbc.0000.t$: победа!"
  fp1_tbc.0041.desc.intro: "Вот и [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. Я отдыхаю, наслаждаясь победой, [actor.Custom('signature_weapon')] лежит на колене.\n\n"
  fp1_tbc.0041.desc.opponent_died: "Глядя на ручейки крови, бегущие по оружию, я вспоминаю, как [Select_CString(champion.IsFemale, 'умирала', 'умирал' )] [champion.GetTitledFirstName]."
@@ -32,16 +28,14 @@
  fp1_tbc.0041.desc.reward.humiliation: "\n\nДолгое, вымученное извинение, ползание на брюхе перед оравой наемных поэтов... просто #EMP великолепно#!. Пройдут годы, прежде чем [recipient.GetFirstNameNoTooltip] оправится от такого унижения."
  fp1_tbc.0041.desc.outro: "\n\nСо вчерашнего дня о нашей ссоре знает [actor.GetFaith.PantheonTerm], и [actor.GetFaith.PantheonTerm] выносит мудрое решение."
  fp1_tbc.0041.a: "Справедливость восторжествовала."
-  
-  # Scope:actor lost a TbC. 
+ #Scope:actor lost a TbC.
  fp1_tbc.0051.t: "$fp1_tbc.0000.t$: поражение!"
  fp1_tbc.0051.desc.intro: "Как такое могло произойти? Когда [actor.GetFaith.PantheonTerm] обещает #EMP торжество справедливости#!, разве должны меня постигнуть такие унижения и боль?! Впереди [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], но я всю дорогу храню абсолютное молчание.\n\n"
  fp1_tbc.0051.desc.opponent_lives.recipient_fighting: "Не понимаю, как [recipient.GetTitledFirstName] [Select_CString(recipient.IsFemale, 'сумела', 'сумел' )] меня победить. Правда была #EMP на моей стороне#!. Победа #EMP должна была#! быть моей, разве не в этом смысл [Concept( 'trial_by_combat', 'суда поединком' )|E]?"
  fp1_tbc.0051.desc.opponent_lives.recipient_has_champion: "#EMP Ясное дело,#! в честном бою [recipient.GetFirstName] ни за что не [Select_CString(recipient.IsFemale, 'одержала', 'одержал' )] бы победу! Будь ты [Select_CString(champion.IsFemale, 'проклята', 'проклят' )], [champion.GetTitledFirstName], и будь прокляты замшелые традиции!"
  fp1_tbc.0051.desc.outro: "\n\nТеперь все считают, что наш спор решен, а справедливость восторжествовала."
  fp1_tbc.0051.a: "Тьфу, нет здесь никакой справедливости."
-  
-  # Scope:recipient must designate a champion to fight for them. 
+ #Scope:recipient must designate a champion to fight for them.
  fp1_tbc.0101.t: "$fp1_tbc.0000.t$: выбор защитника"
  fp1_tbc.0101.desc: "Когда [actor.GetTitledFirstName] предлагает $game_concept_trial_by_combat$, я соглашаюсь, но сражаться лично было бы недостойно.\n\nОбычай требует от меня найти защитника моих интересов, но кто это будет?"
  fp1_tbc.0101.bout_moves_forward: "Бой продолжается..."
@@ -53,11 +47,9 @@
  fp1_tbc.0101.c.tt: "[knight_exotic.GetTitledFirstName] будет сражаться за вас"
  fp1_tbc.0101.d: "[knight_opinion.GetTitledFirstNameNoTooltip] любит меня и непременно защитит."
  fp1_tbc.0101.d.tt: "[knight_opinion.GetTitledFirstName] будет сражаться за вас"
-  
  fp1_ep1_tbc.0101.e: "Вместо меня выступит $champion_court_position$ [knight_alternative.GetTitledFirstNameNoTooltip]."
  fp1_ep1_tbc.0101.e.tt: "[knight_alternative.GetTitledFirstName] будет сражаться за вас"
-  
-  # Scope:recipient won a TbC. 
+ #Scope:recipient won a TbC.
  fp1_tbc.0111.t: "$fp1_tbc.0000.t$: победа!"
  fp1_tbc.0111.desc.intro: "[recipient.GetFaith.PantheonTerm|U] меня любят! Вчера это снова подтвердилось!"
  fp1_tbc.0111.desc.opponent_died.recipient_fighting: "\n\nЯ закрываю глаза и живо вспоминаю возбуждение, мускулы подрагивают, словно вновь переживают бой, и [actor.GetTitledFirstName] вновь и вновь умирает в воспоминаниях, подтверждая мою правоту."
@@ -65,8 +57,7 @@
  fp1_tbc.0111.desc.opponent_lives.recipient_has_champion: "\n\nПриятно было смотреть, как [champion.GetFirstName] делает все, чтобы [actor.GetFirstName] [Select_CString(actor.IsFemale, 'увидела', 'увидел' )] небо с овчинку, но еще приятнее было знать, что [champion.GetHerHis] победа снимает с меня все обвинения."
  fp1_tbc.0111.desc.outro: "\n\nНадеюсь, теперь любой дурак, решивший, что [recipient.GetTitledFirstNameNicknamedNoTooltip] — удачная добыча, трижды подумает, прежде чем бросить вызов!"
  fp1_tbc.0111.a: "$fp1_tbc.0041.a$"
-  
-  # Scope:recipient lost a TbC. 
+ #Scope:recipient lost a TbC.
  fp1_tbc.0121.t: "$fp1_tbc.0000.t$: поражение!"
  fp1_tbc.0121.desc.intro: "Если судить по вчерашнему дню, [recipient.GetFaith.PantheonTerm|U] мне не благоволит."
  fp1_tbc.0121.desc.champion_lives.recipient_fighting: "Свидетельством тому синяки и порезы у меня на теле, которые оставили [actor.GetFirstName] и [SCOPE.sC('actor').GetHerHis] [actor.Custom('signature_weapon')]. Хорошо хоть не убили."

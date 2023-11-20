@@ -1,6 +1,5 @@
 ﻿l_russian:
-  
-  # MAINTENANCE 
+ #MAINTENANCE
  ep2_wedding.0001.t: "[GetActivityType('activity_wedding').GetName]: помолвка недействительна"
  ep2_wedding.0001.desc: "Время бежит слишком быстро. Мне казалось, что я успею, и [GetActivityType('activity_wedding').GetName] пройдет достойно, но вот [spouse_2.GetTitledFirstName] пишет мне весьма резкое письмо о том, что [spouse_2.GetHerHis] терпение на исходе, и мое время истекло."
  ep2_wedding.0001.desc_betrothed: "\n\nТак как мне не удалось сделать все, чтобы [spouse_1.GetTitledFirstName] и [spouse_2.GetFirstNameNoTooltip] поженились в оговоренный срок, помолвка считается расторгнутой."
@@ -86,7 +85,6 @@
  ep2_wedding.0999.t: "$ep2_wedding.0900.t$"
  ep2_wedding.0999.desc: "Новости, которые принес гонец, сорвали празднество и оставили гостей в полном недоумении.\n\nПо всей видимости, свадьба отменяется: ни статус ее устроителя, ни его богатство не соответствуют необходимым требованиям. В отсутствие другого устроителя нам остается разве что разочарованно разбрестись по домам."
  ep2_wedding.0999.a: "Такая жалость..."
-  
  wedding_entertainment_title: "Развлечение на большой свадьбе"
  host_wedding_entertainment_good: "Гости остались под впечатлением от развлечений."
  host_wedding_entertainment_good_title: "$wedding_entertainment_title$"
@@ -147,7 +145,6 @@
  host_wedding_venue: "Выбор места для свадьбы положительно повлиял на ее проведение."
  host_wedding_venue_tt: "$host_wedding_venue$"
  host_wedding_venue_title: "Место проведения большой свадьбы"
-  
  wedding_opinion_high: "[EmptyScope.ScriptValue('came_to_my_wedding_opinion_value_high')|+0] к [Concept( 'opinion', 'мнению' )|E] за каждого пришедшего гостя"
  came_to_my_wedding_opinion_host_high: "[host.GetTitledFirstNameNoTooltip]: $wedding_opinion_high$"
  came_to_my_wedding_opinion_spouse_1_high: "[spouse_1.GetTitledFirstNameNoTooltip]: $wedding_opinion_high$"
@@ -160,9 +157,8 @@
  came_to_my_wedding_opinion_host_low: "[host.GetTitledFirstNameNoTooltip]: $wedding_opinion_low$"
  came_to_my_wedding_opinion_spouse_1_low: "[spouse_1.GetTitledFirstNameNoTooltip]: $wedding_opinion_low$"
  came_to_my_wedding_opinion_spouse_2_low: "[spouse_2.GetTitledFirstNameNoTooltip]: $wedding_opinion_low$"
-  
-  # GATHERING 
-  # Artistic Differences 
+ #GATHERING
+ #Artistic Differences
  ep2_wedding.1000.t: "Творческие разногласия"
  ep2_wedding.1000.desc: "Мало мне было хлопот с организацией бракосочетания, достойного нашего семейства, теперь на мою голову свалились [spouse_2.GetFirstName] с родственниками.\n\n[spouse_2.GetHerHis|U] [spouse_2.Custom2('RelationToMe', SCOPE.sC('1000_relative'))] [1000_relative.GetTitledFirstName|l] [Select_CString(1000_relative.IsFemale, 'прибыла', 'прибыл' )] сегодня ни свет ни заря и с тех пор следует за мной по пятам, постоянно на что-то жалуясь. Я чувствую, что у меня начинает раскалываться голова, но [1000_relative.GetSheHe|l] никак не умолкает."
  ep2_wedding.1000.desc_servants: "\n\n«Вы #EMP уверены#!, что у вас достаточно слуг? Вы же не думаете, что #EMP я#! буду подавать на стол?! По преданиям, на свадьбе у моего прадеда было столько слуг, что их шляпы затмевали солнце!»"
@@ -183,7 +179,7 @@
  ep2_wedding.1000.c: "Все будет #EMP нормально#!, не стоит беспокоиться!"
  wedding_artistic_insult_log_title: "Неуклюжее замечание"
  wedding_artistic_insult_log: "[Select_CString(CHARACTER.IsLocalPlayer, '', 'Персонаж ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '' )] не развеял сомнения в церемонии, которые озвучил [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонаж ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' персонаж', '' )]"
-  #A Magnificent Welcome 
+ #A Magnificent Welcome
  ep2_wedding.1010.t: "Великолепный прием"
  ep2_wedding.1010.desc: "Как хорошо, что мне пришло в голову поставить человека следить, не едет ли [1010_target.GetTitledFirstNamePossessive]. Иначе в суматохе приготовлений к свадьбе [1010_target.GetSheHe] [Select_CString(1010_target.IsFemale, 'могла', 'мог' )] бы нагрянуть совсем неожиданно.\n\nНо теперь я с гордостью стою в своем самом дорогом облачении в окружении почетного караула и наблюдаю, как [1010_target.GetFirstNameNoTooltip] въезжает во двор."
  ep2_wedding.1010.diplo: "\n\n«Для меня огромная честь, что вы почтили нас визитом, [1010_target.GetTitledFirstNameNoTooltip]! Искренне надеемся, что вам придется по нраву наше гостеприимство, и вы оцените все удивительные богатства нашей державы!»"
@@ -206,7 +202,7 @@
  wedding_welcome_ceremony_log: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'Персонаж ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' персонаж', '' )] впечатлил [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] организацией места свадьбы"
  wedding_welcome_ceremony_fail_log_title: "$wedding_welcome_garden_fail_log_title$"
  wedding_welcome_ceremony_fail_log: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'Персонаж ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' персонаж', '' )] не сумел впечатлить [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] организацией места свадьбы"
-  #A Proper Match 
+ #A Proper Match
  ep2_wedding.1080.t: "Подходящая пара"
  ep2_wedding.1080.desc: "Приготовления к свадьбе в самом разгаре, но я уже думаю о следующем шаге: найти, [Select_CString(1080_target.IsFemale, 'за кого выйдет замуж моя', 'на ком женится мой' )] [ROOT.Char.Custom2('RelationToMe', 1080_target)], [1080_target.GetFirstName]!\n\nНа счастье, [1080_target.GetSheHe] уже здесь, стоит и неловко переминается с ноги на ногу. Кого бы для н[1080_target.GetHerHis] подыскать? Тут мое внимание привлекает группа гостей, в центре которой стоит [matchmaking_1.GetTitledFirstName], [Select_CString(matchmaking_1.IsFemale, 'статная и прекрасная', 'статный и прекрасный' )]. #EMP Великолепно!#!"
  ep2_wedding.1080.desc_2: "\n\nЯ уже собираюсь распорядиться, чтобы [1080_target.GetFirstNameNoTooltip] [Select_CString(1080_target.IsFemale, 'подошла', 'подошел' )] к н[matchmaking_1.GetHerHim], но вдруг мне на глаза попадается [matchmaking_2.GetTitledFirstName]. Может быть, [matchmaking_2.GetSheHe] подойдет еще лучше?"
@@ -224,7 +220,7 @@
  ep2_wedding.1080.b.failure: "[matchmaking_2.GetFirstNameNoTooltip] [Select_CString(matchmaking_2.IsFemale, 'равнодушна', 'равнодушен' )] к знакам внимания, которые оказывает ему [1080_target.GetFirstNameNoTooltip]"
  ep2_wedding.1080.c: "Ничего страшного. Будем искать дальше."
  ep2_wedding.1080.c.tt: "Тут наверняка есть кандидаты получше."
-  #A Ritual Wash 
+ #A Ritual Wash
  ep2_wedding.1100.t: "Ритуальное омовение"
  ep2_wedding.1100.desc_bride: "День моей свадьбы все приближается, уже несколько дней к месту ее проведения съезжаются родственники, и я совсем не удивляюсь, когда мои [ROOT.Char.Custom2('RelationToMe', guest_1)], [guest_1.GetTitledFirstName], и [ROOT.Char.Custom2('RelationToMe', guest_2)], [guest_2.GetTitledFirstName], тайно отводят меня в баню неподалеку от местечка [ROOT.Char.GetCurrentActivity.GetLocation.GetName].\n\n«По древней традиции нашего народа, — начинает [guest_1.GetFirstNameNoTooltip], — ты должна снять с себя старые одежды и #EMP крансен#! — девичий венец».\n\n«Мы тщательно тебя омоем, и ты станешь прекрасною невестой!» — торжественно продолжает [guest_2.GetFirstNameNoTooltip]."
  ep2_wedding.1100.desc_relative: "Моя [ROOT.Char.Custom2('RelationToMe', bride)] [bride.GetTitledFirstNamePossessive] выходит замуж, и день свадьбы все ближе. Из всех концов земли к месту торжеств в местечке [ROOT.Char.GetCurrentActivity.GetLocation.GetName] уже много дней съезжаются родственники. Сегодня мы увели невесту в непримечательную баню для ритуала очищения.\n\n«Сегодня, — начинаю я, — ты снимешь с себя старые одежды и #EMP крансен#! — девичий венец. После омовения и очищения ты войдешь в этот мир как истинная невеста!»\n\nМне шумно поддакивает моя [ROOT.Char.Custom2('RelationToMe', guest_2)] [guest_2.GetTitledFirstName]."
@@ -239,15 +235,14 @@
  wedding_cleansing_dismiss_log_title: "Отказ от очищения"
  wedding_cleansing_dismiss_log: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'Персонаж ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' персонаж', '' )] отказался от ритуала очищения перед свадьбой"
  ep2_wedding.1100.d: "Ванна так хорошо #EMP снимает напряжение#!..."
-  
-   # CEREMONY 
-  #Could it Be You? 
+ #CEREMONY
+ #Could it Be You?
  ep2_wedding.1020.t: "Неужели это ты?"
  ep2_wedding.1020.desc: "«Свадьба это просто политика». Я стискиваю зубы в ожидании, когда же появится [Select_CString(matchmaking_2.IsFemale, 'моя будущая', 'мой будущий' )] [spouse_2.Custom('WifeHusband')].\n\n«Просто политика, — повторяю я про себя. — Ну что там может быть страшного?»\n\nНо ничто не может подготовить меня к моменту, когда [spouse_2.GetFirstName] впервые предстает передо мной вживую. Никакие портреты и описания не могут передать [spouse_2.GetHersHis] красоты. Наши глаза встречаются, и время словно застывает, и вокруг не остается никого кроме нас двоих.\n\nПотом [spouse_2.GetSheHe] улыбается мне, и я понимаю: все будет хорошо."
  ep2_wedding.1020.a: "Неужели тебя я жду все это время?"
  wedding_first_sight_log_title: "Стрела Купидона"
  wedding_first_sight_log: "[CHARACTER.GetUIName|U] и [TARGET_CHARACTER.GetUIName] влюбились друг в друга с первого взгляда."
-  #A Good/Bad Omen 
+ #A Good/Bad Omen
  ep2_wedding.1030.t: "[ROOT.Char.Custom('GoodBad')|U]ое предзнаменование"
  ep2_wedding.1030.desc: "Гости собрались, все приготовления завершены, церемония уже вот-вот начнется. И тут прямо у меня на глазах происходит что-то невероятное.\n\n"
  ep2_wedding.1030.desc_good1: "Откуда ни возьмись в зале появляется непонятно как оказавшаяся тут дикая утка. Она решительно ковыляет между ногами гостей к месту, где стоит ничего не [Select_CString(matchmaking_2.IsFemale, 'подозревающая', 'подозревающий' )] [spouse_2.GetTitledFirstName]. Добравшись до н[spouse_2.GetHerHis], она издает оглушительное: «#EMP КРЯ!!!#!», разворачивается и вразвалку уходит прочь, к восторгу толпы и растерянности [Select_CString(matchmaking_2.IsFemale, 'невесты', 'жениха' )]."
@@ -268,7 +263,7 @@
  ep2_wedding.1030.c: "Дурной знак! Нам КОНЕЦ!"
  wedding_omen_dismissed_log_title: "Знамение проигнорировано"
  wedding_omen_dismissed_log: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'Персонаж ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' персонаж', '' )] не обратил внимания на плохое предзнаменование, связанное с [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажем ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'им персонажем', '' )]"
-  #New Family 
+ #New Family
  ep2_wedding.1120.t: "Новая родня"
  ep2_wedding.1120.desc: "Свадебные церемонии всегда долгие, нудные, и ничего не происходит... пока за моей спиной не начинается какой-то переполох."
  ep2_wedding.1120.desc_child: "\n\nЯ немедленно узнаю говорящего: своим лучшим капризным тоном [trouble_child.GetFirstName], [Select_CString(trouble_child.IsFemale, 'которая', 'который' )] как раз пробирается через толпу. «[ROOT.Char.GetMotherFather|U], а [Select_CString(other_parent.IsFemale, 'моя', 'мой' )] [other_parent.GetMotherFather] теперь не [other_parent.GetFirstName], а вот?»"
@@ -295,7 +290,7 @@
  ep2_wedding.1122.b: "Это было весьма неуместно."
  ep2_wedding.1122.c: "Я постараюсь уважать твое право на недовольство."
  ep2_wedding.1122.d: "Это возмутительно!"
-  #Secret Whispers 
+ #Secret Whispers
  ep2_wedding.1130.t: "Тайный шепот"
  ep2_wedding.1130.desc: "Церемония в разгаре, но я никак не могу сосредоточиться на том, что происходит #EMP передо мной#!, ибо #EMP сзади#! доносится нескончаемое бормотание. Если хорошенько прислушаться, становится ясно, что гости и слуги устроили самый настоящий базар сплетен. #EMP«А вы слышали...» «Не может быть!» «А как насчет...» «...не знали?!»#!\n\n"
  ep2_wedding.1130.desc_continue: "Я сердито оборачиваюсь и вижу, что в центре суеты самодовольно ухмыляется [1130_knows.GetTitledFirstName]. «А вам есть чем поделиться, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetLadyLord]?"
@@ -311,7 +306,7 @@
  ep2_wedding.1132.desc: "Церемония в разгаре, но я едва ли что-то замечаю, ведь все мои мысли занимает [spouse_with_secret.GetTitledFirstName] — точнее, то, что я теперь о [Select_CString(spouse_with_secret.IsFemale, 'ней', 'нем' )] знаю. А знает ли [other_spouse.GetTitledFirstName]? А нужно ли [Select_CString(other_spouse.IsFemale, 'ей', 'ему' )] знать?\n\nНе в силах выдержать напряжение, я излагаю часть сомнений соседу, а через пару мгновений вся толпа уже гудит, обсуждая услышанное, а [spouse_with_secret.GetFirstNameNoTooltip] и [other_spouse.GetFirstNameNoTooltip] сердито смотрят на человека, устроившего суматоху. На меня?"
  ep2_wedding.1132.a: "[other_spouse.GetFirstNameNoTooltip] заслуживает лучшего!"
  ep2_wedding.1132.b: "Это просто #EMP глупые#! сплетни, правда, [spouse_with_secret.GetFirstNameNoTooltip]?"
-  # A Misstep 
+ #A Misstep
  ep2_wedding.1140.t: "Неверный шаг"
  ep2_wedding.1140.desc: "Церемония проходит без сучка и задоринки, однако радость от того, насколько гладко все идет, быстро сменяется ошеломлением. Кто-то словно меня сглазил."
  ep2_wedding.1140.desc_1: "\n\n[fumbling_spouse.GetTitledFirstName], пробираясь к [Select_CString(fumbling_spouse.IsFemale, 'своему супругу', 'своей супруге' )], спотыкается и падает ничком!"
@@ -331,7 +326,7 @@
  recovered_from_misstep_log_title: "$ep2_wedding.1140.t$"
  made_a_misstep_log: "[CHARACTER.GetUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'совершили', Select_CString(CHARACTER.IsFemale, 'совершила', 'совершил' ))] оплошность во время церемонии."
  made_a_misstep_log_title: "$ep2_wedding.1140.t$"
-  # Romantic Scouting 
+ #Romantic Scouting
  ep2_wedding.1150.t: "Романтическая разведка"
  ep2_wedding.1150.desc: "Свадебные церемонии редко бывают короткими и интересными, и эта — не исключение. Я шарю глазами по толпе, выискивая среди гостей объект моих увлечений. Где же ты, [intent_target.GetTitledFirstName]?"
  ep2_wedding.1150.desc_1: "\n\nАга, вот! [Select_CString(intent_target.IsFemale, 'Она', 'Он' )] стоит поодаль и с мечтательной улыбкой нюхает цветы, развешенные в качестве украшения к свадьбе."
@@ -349,7 +344,7 @@
  ep2_wedding.1150.a.success.tt: "[intent_target.GetFirstNameNoTooltip] под хорошим впечатлением от вас"
  ep2_wedding.1150.a.failure: "[intent_target.GetFirstNameNoTooltip] [Select_CString(intent_target.IsFemale, 'раздражена', 'раздражен' )]"
  ep2_wedding.1150.a.failure.tt: "[intent_target.GetFirstNameNoTooltip] считает вас докучливым человеком"
-  # Gatecrashers 
+ #Gatecrashers
  ep2_wedding.1160.t: "Незваные гости"
  ep2_wedding.1160.desc: "Простолюдины всегда были в восторге от знатных свадеб, ведь возможность посмотреть на своего правителя вживую и, может, даже прикоснуться к его богатствам предоставляется не каждый день.\n\nСегодняшняя свадьба не стала исключением. Я замечаю, что группка крайне неопрятных крестьян проявляет неподдельный интерес к подготовке к предстоящему пиршеству..."
  ep2_wedding.1160.a: "Я [Select_CString(ROOT.Char.IsFemale, 'могла', 'мог' )] бы запустить их внутрь!"
@@ -373,7 +368,7 @@
  wedding_peasant_invasion_not_managed_log_title: "$ep2_wedding.1160.t$"
  wedding_peasant_invasion_stay_log: "[CHARACTER.GetUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'позволили', Select_CString(CHARACTER.IsFemale, 'позволила', 'позволил' ))] голодным простолюдинам остаться на празднике."
  wedding_peasant_invasion_stay_log_title: "$ep2_wedding.1160.t$"
-  # The Parade 
+ #The Parade
  ep2_wedding.1170.t: "Процессия"
  ep2_wedding.1170.desc: "[rich_spouse.Custom('GetBrideGroom')|U], [rich_spouse.GetTitledFirstName], [Select_CString(rich_spouse.IsFemale, 'прибыла', 'прибыл' )] с большой помпой. По улицам прошла целая процессия богато наряженных лошадей, ронявших серебряные подковы на радость простолюдинам, за ними следовали музыканты, игравшие на барабанах, лирах и волынках, а завершали парад мимы и шуты.\n\nОфициальная часть шествия уже завершилась, однако народ продолжает толпиться на улицах, позабыв об основной церемонии."
  ep2_wedding.1170.desc_relax: "\n\nКак жаль, что я не могу быть в нескольких местах одновременно. Приходится разрываться между жонглерами, лошадьми и глотателями огня…"
@@ -395,13 +390,13 @@
  wedding_parade_arrival_log_title: "$ep2_wedding.1170.t$"
  wedding_parade_death_log: "Пока [CHARACTER.GetUIName] [Select_CString(CHARACTER.IsLocalPlayer, 'гарцевали', Select_CString(CHARACTER.IsFemale, 'гарцевала', 'гарцевал' ))] по улицам во главе свадебной процессии, [TARGET_CHARACTER.GetUIName] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'пали', Select_CString(TARGET_CHARACTER.IsFemale, 'пала', 'пал' ))] от рук неизвестного убийцы."
  wedding_parade_death_log_title: "Смерть во время процессии"
-  # A Bad Match 
+ #A Bad Match
  ep2_wedding.1180.t: "Неподходящая пара"
  ep2_wedding.1180.desc: "Наконец-то мы повстречались лицом к лицу. Я сразу замечаю, как сильно нервничает [other_spouse.GetTitledFirstNamePossessive]. [other_spouse.GetSheHe|U] буквально места себе не находит.\n\n[Select_CString(other_spouse.IsFemale, 'Моя', 'Мой' )] [other_spouse.Custom('GetBrideGroom')] постоянно отводит глаза, [other_spouse.GetHerHis] губы недовольно кривятся. Я [other_spouse.GetHerHim] не нравлюсь — это очевидно."
  ep2_wedding.1180.a: "Твоего мнения, [Select_CString(other_spouse.IsFemale, 'дорогая', 'дорогой' )], никто и не спрашивает."
  ep2_wedding.1180.b: "Я заставлю тебя полюбить меня!"
  ep2_wedding.1180.c: "Да плевать. Когда начнется пир?"
-  # Religious Complaints 
+ #Religious Complaints
  ep2_wedding.1190.t: "Религиозное возмущение"
  ep2_wedding.1190.desc: "Гости просто поражены великолепием свадебной церемонии, и только [grumbler.GetTitledFirstName] постоянно чем-то [Select_CString(grumbler.IsFemale, 'недовольна', 'недоволен' )].\n\n[grumbler.GetSheHe|U] не упускает ни одного повода придраться к окружающим. «У тебя что, #EMP косметика#! на лице?! Эти пестрые вуали #EMP греховны#!! Что за #EMP непристойное#! поведение? Это что, демонстрация богатства и порока?!»"
  ep2_wedding.1190.a: "Мне очень стыдно…"
@@ -411,9 +406,9 @@
  every_zealous_attending_character: "Каждый фанатичный участник"
  wedding_religious_complaints_log: "Возмутившись вызывающей роскошью церемонии и непристойным поведением гостей, [CHARACTER.GetUIName] [Select_CString(CHARACTER.IsLocalPlayer, 'закатили', Select_CString(CHARACTER.IsFemale, 'закатила', 'закатил' ))] скандал."
  wedding_religious_complaints_log_title: "$ep2_wedding.1190.t$"
-  # A Parent's Heart 
+ #A Parent's Heart
  ep2_wedding.1200.t: "[Select_CString(ROOT.Char.IsFemale, 'Счастливая', 'Счастливый' )] [ROOT.Char.GetMotherFather]"
- ep2_wedding.1200.desc:0 "The day has finally come, and I couldn't be prouder of my [my_child.GetFirstName], the beautiful [my_child.Custom('GetBrideGroom')]!\n\nAs the person standing by my side has unwillingly discovered: "Этот день наконец-то настал, и я очень горжусь своим [my_child.GetFirstName], прекрасным [my_child.Custom('GetBrideGroom')]!\n\nКак невольно обнаружил человек, стоящий рядом со мной: «Посмотри на [my_child.GetHerHim]! Разве это не [my_child.GetSheHe] #EMP?» radiant#!?" "И это такое хорошее совпадение!" "Все отлично!"" #Машинный перевод 28.10.23
+ ep2_wedding.1200.desc: "Свершилось! Наконец-то этот день настал! [Select_CString(my_child.IsFemale, 'Моя', 'Мой' )] [my_child.GetFirstName] — [Select_CString(my_child.IsFemale, 'такая', 'такой' )] [Select_CString(my_child.IsFemale, 'чудесная', 'чудесный' )] [my_child.Custom('GetBrideGroom')]! Я так [Select_CString(my_child.IsFemale, 'ею', 'им' )] горжусь!\n\n«Вы только посмотрите на н[my_child.GetHerHis]! [my_child.GetSheHe|U] прямо #EMP светится#!! Ах, какая замечательная пара! Все просто идеально!» Должно быть, моему соседу очень неловко все это выслушивать…"
  ep2_wedding.1200.desc_interest: "\n\nОбернувшись, я понимаю, что рядом со мной стоит не кто [Select_CString(listener.IsFemale, 'иная', 'иной' )], как [listener.GetTitledFirstName]! Можно было бы воспользоваться этим моментом…"
  ep2_wedding.1200.desc_generic: "\n\n[listener.GetTitledFirstName|U], [Select_CString(listener.IsFemale, 'стоящая', 'стоящий' )] рядом со мной, лишь вежливо улыбается в ответ."
  ep2_wedding.1200.a: "Я так горжусь!"
@@ -433,7 +428,7 @@
  wedding_gloating_log_title: "Злорадство"
  wedding_alliance_log: "[Select_CString(CHARACTER.IsLocalPlayer, '', 'Персонаж ' )][CHARACTER.GetNamePossessiveOrMy|U][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '' )] и [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонаж ' )][TARGET_CHARACTER.GetNamePossessiveOrMy|U][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' персонаж', '' )] заключили союз. Могущественные семейные связи способны творить чудеса…"
  wedding_alliance_log_title: "Новый союз"
-  # Political Talk 
+ #Political Talk
  ep2_wedding.1210.t: "Разговоры о политике"
  ep2_wedding.1210.desc: "Церемония идет своим ходом. Заметив, что [talk_to.GetTitledFirstName] стоит [Select_CString(talk_to.IsFemale, 'одна', 'один' )], я завожу с [Select_CString(talk_to.IsFemale, 'ней', 'ним' )] светскую беседу, постепенно переводя ее в более интересное русло — политику.\n\nМы обмениваемся ничего не значащими словами, а затем я подвожу [talk_to.GetHerHis] к нужной мне теме…"
  ep2_wedding.1210.desc_gold: "\n\n«Как ни печально, но моя казна совершенно пуста!»"
@@ -457,7 +452,7 @@
  wedding_intimidation_log_title: "Получено влияние"
  wedding_fealty_log: "[TARGET_CHARACTER.GetUIName|U] сильно [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'запуганы', Select_CString(TARGET_CHARACTER.IsFemale, 'запугана', 'запуган' ))]. Воспользовавшись этим, [CHARACTER.GetUIName] [Select_CString(CHARACTER.IsLocalPlayer, 'убеждаете', 'убеждает' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'вас', Select_CString(TARGET_CHARACTER.IsFemale, 'ее', 'его' ))] присягнуть на верность."
  wedding_fealty_log_title: "Новый вассал"
-  # Poisonous Relations 
+ #Poisonous Relations
  ep2_wedding.1220.t: "Токсичные отношения"
  ep2_wedding.1220.desc: "Свадебная церемония предполагает множество приготовлений и хлопот. Едва у меня выдалась свободная минута, как моих ушей достигли издевательские насмешки, исходящие от группы гостей. [other_spouse.GetFirstName|U] [Select_CString(other_spouse.IsFemale, 'привезла', 'привез' )] с собой нескольких родственников, и они явно не разделяют общего торжества.\n\nЗаметив, что им удалось привлечь мое внимание, [relative.GetTitledFirstName] прямо обращается ко мне:"
  ep2_wedding.1220.desc_marry_down: "«Не могу поверить, что [other_spouse.GetFirstNameNoTooltip] [Select_CString(other_spouse.IsFemale, 'выходит замуж за человека', 'женится на человеке' )] столь низкого происхождения! Почему наша семья допускает это бесчестье?»"
@@ -477,16 +472,15 @@
  ep2_wedding.1220.d: "О, вы даже не представляете, #EMP каким#! ужасным человеком я могу быть!"
  wedding_proved_wrong_log: "[CHARACTER.GetUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'убедили', Select_CString(CHARACTER.IsFemale, 'убедила', 'убедил' ))] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )] в наличии у [Select_CString( CHARACTER.IsLocalPlayer, '', 'н')][Select_CString( CHARACTER.IsLocalPlayer, 'вас', CHARACTER.GetHerHis)] хороших качеств, развеяв [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ваши', TARGET_CHARACTER.GetHerHis)] подозрения."
  wedding_proved_wrong_log_title: "Ложные предрассудки"
-  
-  # BANQUET 
-  #A Kindred Spirit 
+ #BANQUET
+ #A Kindred Spirit
  ep2_wedding.1040.t: "Родственная душа"
  ep2_wedding.1040.desc: "Во время трапезы я невольно прислушиваюсь к тому, о чем говорит [new_friend.GetTitledFirstName].\n\n[new_friend.GetSheHe|U] высказывает весьма толковые мысли, остроумно шутит, и у нас так много общего! Когда я вспоминаю интересные случаи из жизни, [new_friend.GetSheHe] внимательно слушает и вовремя вставляет уместные комментарии.\n\nКто бы мог подумать, что в этот вечер я окажусь в столь приятном обществе?"
  ep2_wedding.1040.a: "[new_friend.GetFirstNamePossessiveNoTooltip|U] — [Select_CString(CHARACTER.IsFemale, 'отличная собеседница', 'отличный собеседник' )]!"
  ep2_wedding.1040.b: "Но сильнее нам сближаться не стоит."
  wedding_kindred_log_title: "Родственные души"
  wedding_kindred_log: "[CHARACTER.GetUIName|U] и [TARGET_CHARACTER.GetUIName] стали друзьями"
-  #A Fiery Dance 
+ #A Fiery Dance
  ep2_wedding.1050.t: "Огненный танец"
  ep2_wedding.1050.desc: "Веселье в самом разгаре: по левую руку от меня дети завороженно глядят на жонглеров, справа поэты декламируют свои вирши восторженной публике.\n\nОднако все разговоры затихают, когда в центр зала выходят танцоры с факелами, приглашая гостей присоединиться к танцу. Отблески факелов на полных счастья лицах и сложный рисунок отбрасываемых ими теней в ранних сумерках создают совершенно неописуемое зрелище.\n\nНо вдруг настроение резко меняется: [1050_victim.GetTitledFirstName] случайно выбивает факел из чужих рук, и пламя перекидывается на [1050_victim.GetHerHis] одежду!"
  ep2_wedding.1050.a: "Надо действовать!"
@@ -515,7 +509,7 @@
  ep2_wedding.1050.d.tt.2: "Из-за вас [other_victim.GetShortUIName] [Select_CString(other_victim.IsFemale, 'упала', 'упал' )] в огонь!"
  wedding_dance_knocked_log_title: "$wedding_dance_saved_fail_log_title$"
  wedding_dance_knocked_log: "[Select_CString(CHARACTER.IsLocalPlayer, '', 'Персонаж ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '' )] в панике толкнул [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )] в огонь"
-  # An Exotic Show 
+ #An Exotic Show
  ep2_wedding.1070.t: "Экзотическое представление"
  ep2_wedding.1070.desc_host: "Я оглядываюсь по сторонам с довольной ухмылкой. Настроение на пиру самое расслабленное: гости общаются друг с другом, слушают музыку, наслаждаются увеселениями в полном неведении, что самый невероятный аттракцион еще впереди. Я даю знак своим слугам."
  ep2_wedding.1070.desc_guest: "Веселье на свадебном пиру в самом разгаре. Похоже, [host.GetTitledFirstName] не [Select_CString(host.IsFemale, 'пожалела', 'пожалел' )] золота на развлечения! Для нас играют лучшие музыканты, актеры и жонглеры демонстрируют свое искусство, а поэты декламируют утонченные стихи. Каково же мое удивление, когда [host.GetFirstNameNoTooltip] делает знак, чтобы слуги доставили еще одну диковинку."
@@ -579,7 +573,7 @@
  ep2_wedding.1070.h.tt.kill: "[1070_target.GetFirstNameNoTooltip|U] погибает"
  wedding_beasts_murder_kill_log_title: "Смерть от звериных клыков"
  wedding_beasts_murder_kill_log: "[CHARACTER.GetUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'погибаете', 'погибаете' )] в лапах зверя"
-  #A Match Made In...? 
+ #A Match Made In...?
  ep2_wedding.1090.t: "Брак, заключенный на... ?"
  ep2_wedding.1090.desc: "Гости ликуют и поднимают кубки за здравие молодоженов, но куда же [Select_CString(1090_target.IsFemale, 'делась моя', 'делся мой' )] [ROOT.Char.Custom2('RelationToMe', 1090_target)], [1090_target.GetFirstName]?"
  ep2_wedding.1090.desc_already_matched: "\n\nПосле недолгих поисков я наконец обнаруживаю [1090_target.GetHerHis] в чьей-то компании в неприметном месте. Кто же это так оживленно с [Select_CString(1090_target.IsFemale, 'ней', 'ним' )] разговаривает? [Select_CString(1090_match.IsFemale, 'Та самая', 'Тот самый' )] [1090_match.GetTitledFirstName], с [Select_CString(1090_match.IsFemale, 'которой', 'которым' )] [1090_target.GetSheHe], по моему плану, [Select_CString(1090_target.IsFemale, 'должна была', 'должен был' )] сойтись! Лучше им не мешать..."
@@ -592,8 +586,7 @@
  wedding_matchmade_success_log: "[Select_CString(CHARACTER.IsLocalPlayer, '', 'Персонаж ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '' )] заключил помолвку с [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]"
  wedding_matchmade_failure_log_title: "Без пары"
  wedding_matchmade_failure_log: "[Select_CString(CHARACTER.IsLocalPlayer, '', 'Персонаж ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '' )] не смог впечатлить [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
-  
-  #A Friend Is Monopolizing Your Attention 
+ #A Friend Is Monopolizing Your Attention
  ep2_wedding.1310.t: "Не уйти"
  ep2_wedding.1310.desc_spouse: "Конечно, я и [Select_CString(other_spouse.IsFemale, 'моя новоиспеченная', 'мой новоиспеченный' )] [other_spouse.GetWifeHusband] [other_spouse.GetFirstName] должны проводить больше времени друг с другом и [other_spouse.GetHerHis] родней, но как я могу уйти, пока рядом [Select_CString(friend.IsFemale, 'моя подруга', 'мой друг' )] [friend.GetTitledFirstName]?! Я вижу, как [other_guest.GetTitledFirstName] бросает на меня все более пристальные взгляды, $ep2_wedding.1310.howlingwithlaughter$"
  ep2_wedding.1310.desc_host: "Я понимаю, что организатору свадьбы положено проводить больше времени с новобрачными и их родственниками, но рядом [Select_CString(friend.IsFemale, 'моя подруга', 'мой друг' )] [friend.GetTitledFirstName] и прервать разговор решительно невозможно! Я вижу, как [other_guest.GetTitledFirstName] бросает на меня все более пристальные взгляды, $ep2_wedding.1310.howlingwithlaughter$"
@@ -621,8 +614,7 @@
  wedding_cannot_escape_excuse_log_title: "Разрешение уйти"
  wedding_cannot_escape_excuse_log: "[CHARACTER.GetUIName|U] покинул своих друзей, чтобы пообщаться с персонажем [TARGET_CHARACTER.GetUIName]."
  ep2_wedding.1310.d.tt: "Не волнуйтесь, [friend.GetFirstNameNoTooltip] все поймет."
-  
-  #A Rival Seeks Forgiveness 
+ #A Rival Seeks Forgiveness
  ep2_wedding.1320.t: "Шанс начать все с чистого листа?"
  ep2_wedding.1320.desc_intro: "[rival.GetTitledFirstName], это воплощение мерзости, сидит напротив меня за столом и смотрит на меня. Наши взгляды встречаются, и я уже готовлюсь вступить в спор, как вдруг ко мне через весь зал идет [rival.GetSheHe]. Погодите... [rival.GetSheHe] плачет?\n\n"
  ep2_wedding.1320.desc_host_vs_spouse: "«Почему вы устроили для меня такую великолепную свадьбу?"
@@ -654,9 +646,8 @@
  wedding_refusal_rival_log_title: "Вздорные соперники"
  wedding_refusal_rival_log: "[TARGET_CHARACTER.GetUIName] и [CHARACTER.GetUIName] пытались помириться, но снова поссорились."
  ep2_wedding.1320.d: "Я не обращаю внимания на персонажа [rival.GetShortUIName], и в конце концов [rival.GetSheHe] уходит."
-  
-  # WEDDING NIGHT 
-  #That Cursed Table 
+ #WEDDING NIGHT
+ #That Cursed Table
  ep2_wedding.1060.t: "Проклятый стол"
  ep2_wedding.1060.desc: "С тяжелым вздохом я покидаю празднующих и закрываю двери в наши покои. Свадебный день был долгим, и по традиции его нужно завершить #EMP брачной ночью#!, правда же?\n\nЯ заметила, как с течением вечера [spouse_2.GetTitledFirstName] становится все более беспокойным, но не придала этому значения: кто же не волнуется на своей свадьбе? Однако, добравшись до его исподнего, я с удивлением чувствую, что он #EMP рад мне#! куда меньше, чем я ожидала.\n\nОн едва не подскакивает до потолка и принимается причитать: «Это все эти покои! Кровать! Или прикроватная тумба! Может быть, этот гобелен! Что-то угнетает мою мужскую силу!»"
  ep2_wedding.1060.a: "#EMP НУ ЛАДНО#!."
@@ -682,7 +673,7 @@
  ep2_wedding.1066.b: "Я #EMP не специально#!, клянусь!"
  ep2_wedding.1066.b_1: "[spouse_2.GetFirstNameNoTooltip] [Select_CString(spouse_2.IsFemale, 'оскорблена', 'оскорблен' )]."
  ep2_wedding.1066.b_2: "[spouse_2.GetFirstNameNoTooltip] отличается терпением и пониманием."
-  #One More Goblet 
+ #One More Goblet
  ep2_wedding.1110.t: "Еще один кубок"
  ep2_wedding.1110.desc_intro: "Проводив супругов в их покои, гости продолжают веселиться, и застолье растягивается на всю ночь, лишь немного утихая со временем. Один за другим гости уезжают домой, засыпают или сами уходят насладиться ночными развлечениями."
  ep2_wedding.1110.desc: "\n\n#EMP Большая часть#! гостей, но не [1110_drunk.GetTitledFirstName]. [1110_drunk.GetSheHe|U] громко требует кубок за кубком, громогласно смеется и отчаянно сопротивляется любым попыткам слуг отвести [1110_drunk.GetHerHis] куда-нибудь потише."
@@ -710,8 +701,7 @@
  ep2_wedding.1111.b.2.tt: "[1111_other.GetFirstNameNoTooltip|U] [Select_CString(1111_other.IsFemale, 'выгнала', 'выгнал' )] вас"
  ep2_wedding.1111.b.3: "[1111_other.GetFirstNameNoTooltip|U] молча вас осуждает"
  ep2_wedding.1111.b.3.tt: "[1111_other.GetFirstNameNoTooltip|U] осуждает вас"
-  
-  #Why Would You Marry Someone Like Me? 
+ #Why Would You Marry Someone Like Me?
  ep2_wedding.1300.t: "Почему я?"
  ep2_wedding.1300.desc_intro: "В брачную ночь я просыпаюсь в холодной постели. [spouse_2.GetTitledFirstName] стоит у окна, [spouse_2.GetHerHis] покрылись «гусиной кожей» от ледяного воздуха.\n\n"
  ep2_wedding.1300.desc_appearance: "«Я — воплощение уродства. Все так говорят, хотя и шепотом."
@@ -765,8 +755,7 @@
  wedding_whyme_silly_log: "[CHARACTER.GetUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'выслушали', Select_CString(CHARACTER.IsFemale, 'выслушала', 'выслушал' ))] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )], заставив почувствовать себя глупо."
  wedding_whyme_misunderstood_log_title: "Недопонимание"
  wedding_whyme_misunderstood_log: "[CHARACTER.GetUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'выслушали', Select_CString(CHARACTER.IsFemale, 'выслушала', 'выслушал' ))] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )], тем самым унизив."
-  
-  #Wedding Night Events 
+ #Wedding Night Events
  ep2_wedding.3000.t: "Робкое начало"
  ep2_wedding.3000.desc: "#EMP Эх#!. Ну вот, пришло время. Похоже. И что мне вообще делать? [my_spouse.GetSheHe|U] любит... обниматься? Может быть, только целоваться. Я вижу, как [my_spouse.GetSheHe] бросает на меня взгляд, и отворачиваюсь. По крайней мере, [my_spouse.GetSheHe], похоже, тоже не знает, куда деть руки.\n\n— Э-э... — начинаю я, глядя на все еще не тронутую кровать, — ты сегодня [Select_CString(my_spouse.IsFemale, 'такая красивая', 'такой красивый' )].\n\n— С-спасибо, у тебя тоже красивые... волосы.\n\nПроклятье, что же нам делать?"
  ep2_wedding.3000.a: "«Не хочешь прогуляться?»"
@@ -785,7 +774,6 @@
  wnight_common_things_opinion_desc: "Эти персонажи обнаружили в брачную ночь, что у них есть общие интересы"
  wnight_nothing_in_common_opinion: "Ничего общего"
  wnight_nothing_in_common_opinion_desc: "Эти персонажи провели тоскливую брачную ночь из-за отсутствия общих интересов"
-  
  ep2_wedding.3010.t: "Признания"
  ep2_wedding.3010.desc.intro: "[my_spouse.GetTitledFirstName] всю ночь не находит себе места: все смотрит в окно и тоскливо вздыхает, когда я пытаюсь к н[my_spouse.GetHerHim] подойти. [my_spouse.GetSheHe|U] без конца теребит свои волосы и боится взглянуть мне в глаза.\n\nСвечи уже почти погасли, и когда я поднимаюсь, чтобы снова их зажечь, [my_spouse.GetSheHe] начинает тихонько плакать. «[ROOT.Char.GetFirstNameNoTooltip], я... Мне нужно кое в чем тебе признаться."
  ep2_wedding.3010.desc.murder: "Кровь... Кровь повсюду...»"
@@ -804,7 +792,6 @@
  wedding_confession_joint_log: "[CHARACTER.GetUIName|U] и [TARGET_CHARACTER.GetUIName] раскрыли друг другу свои секреты в брачную ночь."
  wnight_clear_conscience_modifier: "Чистая совесть"
  wnight_clear_conscience_modifier_desc: "Этот персонаж решил провести брачную ночь в спокойствии и не стал слушать секрет супруга/супруги"
-  
  ep2_wedding.3020.t: "Не интересно"
  ep2_wedding.3020.desc: "Весь день [my_spouse.GetTitledFirstName] [Select_CString(my_spouse.IsFemale, 'улыбалась', 'улыбался' )], добросовестно [Select_CString(my_spouse.IsFemale, 'исполняла', 'исполнял' )] свою роль в церемонии, [Select_CString(my_spouse.IsFemale, 'показывала', 'показывал' )] мне свою добродетельность своими речами. После нескольких часов в наших покоях [my_spouse.GetSheHe] все не перестает говорить, и я уже не могу побороть желание обнять [my_spouse.GetHerHis] и поцеловать...\n\nНо что это? [my_spouse.GetHerHis|U] губы сухи а движения скованны и неловки. Я отстраняюсь и озадаченно смотрю [my_spouse.GetHerHim] в глаза.\n\n«Я... — [my_spouse.GetSheHe] глубоко вздыхает. — Прости, но у меня... другие вкусы». "
  ep2_wedding.3020.a: "Хватит... больше ни слова."
@@ -812,7 +799,6 @@
  ep2_wedding.3020.c: "#EMP Ха!#! Ты не поверишь, но..."
  wnight_confider_modifier: "Наперсники"
  wnight_confider_modifier_desc: "Этот персонаж видит в супруге верного наперсника"
-  
  ep2_wedding.3030.t: "Незабываемая ночь"
  ep2_wedding.3030.desc: "Огонь в очаге уже начинает затихать, и я молча гляжу на языки пламени. Наслаждаюсь его светом, теплом. [my_spouse.GetTitledFirstName] ищет что-то в своем сундуке, я отрываю глаза от огня и оборачиваюсь на н[my_spouse.GetHerHis].\n\n«[ROOT.Char.GetFirstNameNoTooltip], — говорит [my_spouse.GetSheHe] и протягивает мне небольшую коробочку, обернутую в шелк, — я [Select_CString(my_spouse.IsFemale, 'достала', 'достал' )] это в день, когда [Select_CString(my_spouse.IsFemale, 'узнала', 'узнал' )] о нашей помолвке, и теперь предлагаю тебе этот подарок в знак моей любви»."
  ep2_wedding.3030.a: "«Лучший мой подарок — это #EMP ты#!»."
@@ -833,9 +819,8 @@
  wooden_phallus: "Деревянный фаллос"
  wooden_phallus.desc: "Деревянный символ плодородия в форме мужского фаллоса."
  ep2_wedding.3030.artifact_tt: "Вы станете владельцем артефакта [love_memento.GetName]"
-  
  ep2_wedding.3040.t: "Огненная ночь"
- ep2_wedding.3040.desc:0 "Ah, how soft the skin of [my_spouse.GetTitledFirstName] is, how delicious the smell of [my_spouse.GetHerHis] hair! Certainly, my wedding night is going exactly how I expected and we quickly become devoted to the carnal sin.\n\nSuch is our passion that, without paying attention to the candles that scarcely light the room, I accidentally knock one down with my foot: "Ах, как нежна кожа [my_spouse.GetTitledFirstName], как восхитителен запах волос [my_spouse.GetHerHis]! Конечно, моя брачная ночь проходит именно так, как я ожидал, и мы быстро предаемся плотскому греху.\n\nТакова наша страсть, что, не обращая внимания на свечи, едва освещающие комнату, я случайно сбиваю одну ногой : «Не останавливайся, моя дорогая!»\n\nНо у [ROOT.Char.GetFaith.HighGodName] на нас другие планы, и сенной матрац быстро загорается огнем." #Машинный перевод 28.10.23
+ ep2_wedding.3040.desc: "О, [my_spouse.GetTitledFirstName]... Эта мягкая кожа, этот восхитительный аромат волос! Первая брачная ночь идет именно так, как мне представлялось, и мы решаем немедленно предаться разврату.\n\nВ пылу страсти я случайно опрокидываю одну из немногочисленных свечей. «Не останавливайтесь, любовь моя»!\n\nНо [ROOT.Char.GetFaith.HighGodName] строит другие планы на нас, и набитый сеном матрас быстро вспыхивает."
  ep2_wedding.3040.a: "[my_spouse.GetFirstNameNoTooltip] [Select_CString(my_spouse.IsFemale, 'должна быть спасена', 'должен быть спасен' )]!"
  ep2_wedding.3040.a.success: "[my_spouse.GetFirstNameNoTooltip] [Select_CString(my_spouse.IsFemale, 'спасена', 'спасен' )] вами из пламени!"
  ep2_wedding.3040.a.failure: "Вы получили рану, спасая персонажа [my_spouse.GetFirstNameNoTooltip]"
@@ -848,7 +833,6 @@
  ep2_wedding.3040.d.flavor: "Гори в огне, [Select_CString(my_spouse.IsFemale, 'дорогая', 'дражайший' )] #EMP [my_spouse.GetWifeHusband]#!!"
  ep2_wedding.3040.d.success: "[my_spouse.GetFirstNameNoTooltip] [Select_CString(my_spouse.IsFemale, 'выжила', 'выжил' )] в ходе покушения"
  ep2_wedding.3040.d.failure: "[my_spouse.GetFirstNameNoTooltip] умирает"
-  
  ep2_wedding.3050.t: "То, что нависает над головой"
  ep2_wedding.3050.desc: "Вечер сменила ночь, гости начитают расходиться, а новобрачные удаляются, чтобы заняться... личными делами. Я вижу, что [intent_victim.GetTitledFirstName] все еще в зале, и не ухожу, пока не уйдет #EMP [intent_victim.GetSheHe]#!.\n\nКакой-то рыцарь из чужой страны отправляется на молитву, и в зале остаемся только мы двое.\n\n«Ну что ж, мне тоже пора», — говорит [intent_victim.GetFirstNameNoTooltip], вставая.\n\nНад [intent_victim.GetHerHis] головой, словно язык огня, нависает серебряная лампа."
  ep2_wedding.3050.a: "Вот он, подходящий момент!"
@@ -859,7 +843,6 @@
  ep2_wedding.3050.b.failure: "[intent_victim.GetFirstNameNoTooltip] подозревает, что этот несчастный случай произошел неспроста"
  ep2_wedding.3050.c: "Если я пойду следом, то узнаю, где спит [intent_victim.GetSheHe]..."
  ep2_wedding.3050.c.tt: "«Вы получаете значительное преимущество, замышляя [schemes|E] [GetScheme('murder').GetTypeName] данного персонажа»."
-  
  ep2_wedding.3200.t: "Торжественная консумация"
  ep2_wedding.3200.both: "[my_spouse.GetFirstName] и я обмениваемся беспомощными взглядами. Праздник достигает кульминации, нам вот-вот предстоит консумировать наш брак, и мы оба думаем о церемонии с содроганием.\n\nПод бой барабанов орущие гости поволокли нас к спальне новобрачных. «[Select_CString(my_spouse.IsFemale, 'Дорогая', 'Дражайший' )] [my_spouse.Custom('WifeHusband')]… мы же не #EMP обязаны#! это делать, правда?» — с тихой мольбой спрашиваю я."
  ep2_wedding.3200.self: "Праздник достигает кульминации, и чем ближе к брачной ночи, тем сильнее меня пугает то, что предстоит сделать. А вот [my_spouse.GetFirstName], похоже, совершенно не разделяет моих колебаний.\n\nПод бой барабанов орущие гости поволокли нас к спальне новобрачных. «[Select_CString(ROOT.Char.IsFemale, 'Дорогая', 'Дражайший' )] [ROOT.Char.Custom('WifeHusband')], ты [Select_CString(ROOT.Char.IsFemale, 'бледна', 'бледен' )] как призрак! Расслабься и получай удовольствие!» — со смехом говорит [my_spouse.GetSheHe]."
@@ -883,7 +866,6 @@
  wedding_barred_bedding_doors_opinion: "Консумация без свидетелей"
  wedding_forced_bedding_ceremony_opinion: "Насильственная церемония консумации"
  wedding_caved_to_bedding_opinion: "Согласие на церемонию консумации"
-  
  ep2_wedding.3300.t: "Брачная ночь"
  ep2_wedding.3300.opening: "Подталкиваемые толпой веселящихся гостей, [my_spouse.GetFirstName] и я входим в брачные покои. Их крики и смех возвещают о начале церемонии консумации.\n\n"
  ep2_wedding.3300.blessing: "[officiant.GetCouncilTitleFirstName] и [officiant.GetHerHis] прислужники освящают наше брачное ложе"
@@ -918,7 +900,6 @@
  ep2_wedding.3300.d: "Я делаю это ради моей семьи…"
  ep2_wedding.3300.d.success: "Несмотря ни на что, вы оба неплохо проводите время"
  ep2_wedding.3300.d.failure: "[my_spouse.GetFirstNameNoTooltip] и вы механически выполняете свой долг"
-  
  ep2_wedding.3400.t: "Объединение домов"
  ep2_wedding.3400.opening: "Новобрачные уединяются в спальне, а веселье в пиршественном зале только начинается. Слуги разжигают жаровни, кубки пенятся, а музыканты продолжают играть.\n\n"
  ep2_wedding.3400.drink_self: "Часы пролетают незаметно, и вот я сижу, уставившись осоловелыми глазами в бокал, а передо мной [Select_CString(other_family_relative.IsFemale, 'развалилась', 'развалился' )] [other_family_relative.GetTitledFirstName], [other_family_spouse.Custom2('RelationToMeShort', other_family_relative)] [Select_CString(other_family_spouse.IsFemale, 'невесты', 'жениха' )]."
@@ -943,7 +924,6 @@
  ep2_wedding.3400.e: "Скажите, все [other_family_relative.GetWomenMen] из дома [other_family_relative.GetHouse.GetBaseNameNoTooltip] так же прекрасны, как вы?"
  ep2_wedding.3400.e.success: "[other_family_relative.GetFirstNameNoTooltip] тает"
  ep2_wedding.3400.e.failure: "[other_family_relative.GetFirstNameNoTooltip] отшатывается"
-  
  ep2_wedding.3410.t: "[Select_CString(jealousy_usurper.IsFemale, 'Новая соперница', 'Новый соперник' )]"
  ep2_wedding.3410.opening: "Двери за новобрачными захлопываются, но я все еще слышу их приглушенный смех и веселое повизгивание. Забившись в угол пиршественного зала, я предаюсь мрачному отчаянию. [jealousy_focus.GetFirstName] и [jealousy_usurper.GetFirstName] не выходят из моей головы…\n\n"
  ep2_wedding.3410.double: "Оба они мне очень дороги, но теперь, когда они связаны брачными узами, мне больно думать о том, как это может сказаться на наших будущих отношениях."
@@ -966,7 +946,6 @@
  ruined_wedding_night_opinion: "Испорченная брачная ночь"
  wedding_old_news_modifier: "Старая история"
  wedding_old_news_modifier_desc: "Избавленный от назойливого внимания, этот персонаж только рад новым отношениям своего партнера"
-  
  ep2_wedding.3420.t: "Долгая ночь"
  ep2_wedding.3420.opening: "Новобрачные покинули нас и отправились в спальню консумировать брак. Мы же вернулись в пиршественный зал, чтобы праздновать и веселиться.\n\n"
  ep2_wedding.3420.eat: "Меня так и тянет к накрытым столам. Они ломятся от еды, ее запах буквально сводит меня с ума.\n\n"
@@ -1001,7 +980,6 @@
  ep2_wedding.3420.l: "[host.GetFaith.HouseOfWorship|l] вот-вот закроется на ночь…"
  ep2_wedding.3420.l.flavor: "[ROOT.Char.GetFaith.HighGodName], благослови их брак и даруй им счастье."
  secret_discovered_toast: "Тайна раскрыта"
-  
  ep2_wedding.3500.t: "Династические сомнения"
  ep2_wedding.3500.intro: "Устав после целого дня разговоров и ожиданий, я присаживаюсь за свободный стол. Мои [ROOT.Char.Custom2('RelationToMeShort', my_family_relative_1)] и [ROOT.Char.Custom2('RelationToMeShort', my_family_relative_2)] присоединяются ко мне, желая обсудить новоиспеченный союз."
  ep2_wedding.3500.intro_plural: "Устав после целого дня разговоров и ожиданий, я присаживаюсь за свободный стол. Мои [ROOT.Char.Custom2('GetFamilyRelationPlural', my_family_relative_1)] присоединяются ко мне, желая обсудить новоиспеченный союз."
@@ -1031,8 +1009,7 @@
  ep2_wedding.3500.b: "А мне кажется, они отличная пара."
  ep2_wedding.3500.d: "И что? Любовь — это удел менестрелей."
  ep2_wedding.3500.e: "Теперь всё в руках [ROOT.Char.GetFaith.HighGodNamePossessive]."
-  
-  #Ceremony Events 
+ #Ceremony Events
  ep2_wedding.4000.t: "Кто следующий?"
  ep2_wedding.4000.desc.intro: "[matchmaked_scope.GetTitledFirstName] радостно аплодирует, глядя на то, как молодожены клянутся друг другу в верности. Я уже давно пытаюсь найти [matchmaked_scope.GetHerHim] пару, и сейчас, похоже, идеальный момент напомнить [matchmaked_scope.GetHerHim] о том, какой восхитительной может быть жизнь в браке.\n\n«Какие они милые», — невинным тоном говорю я, выискивая в толпе подходящего соискателя."
  ep2_wedding.4000.desc.good_match: "Мне доводилось видеть, как [matchmaked_scope.GetFirstNameNoTooltip] и [objective_scope.GetTitledFirstName] разговаривали вместе, и они так подходят друг другу..."
@@ -1045,7 +1022,6 @@
  ep2_wedding.4000.c: "По-моему, они друг другу не подходят."
  ep2_wedding_4000_log_success_title: "Прекрасная пара"
  ep2_wedding_4000_log_success: "[CHARACTER.GetFirstNameNoTooltip] считает, что [TARGET_CHARACTER.GetFirstNameNoTooltip] — подходящая пара."
-  
  ep2_wedding.2010.t: "Легендарный гость"
  ep2_wedding.2010.desc.intro: "Банкет в самом разгаре, но мне... чего-то не хватает. Тут нет роскошных шелков или гобеленов, ни золотых украшений, ни лучших в мире драгоценных камней. Но когда я смотрю из окна на ночное небо, на меня снисходит вдохновение.\n\nГде-то там, в глуши живут белые звери. Они бродят по нашим лесам, не встречая преград. Добыть одного из них — великий подвиг.\n\nМожет, просто покрасить одного из наших зверей? Пусть [ROOT.Char.Custom('GetAnimalType')] обретет белый цвет!"
  ep2_wedding.2010.desc_spouse: "\n\nКак еще я могу прославить свою собственную свадьбу?"
@@ -1055,14 +1031,12 @@
  ep2_wedding.2010.impressed_list: "Каждый общительный или галантный гость, гуляка, пьяница, храбрец или охотник"
  wbanquet_white_animal_opinion: "Легендарный гость"
  wbanquet_white_animal_opinion_desc: "Этот персонаж был поражен тем, что на свадьбе появилось белое животное"
-  
  ep2_wedding.2011.t: "$ep2_wedding.2010.t$: вызывая подозрения"
- ep2_wedding.2011.desc:0 "As the [ROOT.Char.Custom('GetAnimalType')] enters the hall, its pale fur shines brightly under the moonlight, an almost phosphorescent fever, an unnatural glow. The deception is almost perfect - a marvel. Guests stand in awe and quickly approach the animal, not daring to touch it, for its nature is sacred.\n\nHowever, I spot [doubting_guest.GetTitledFirstName] among the crowd, rolling [doubting_guest.GetHerHis] eyes: "Когда [ROOT.Char.Custom('GetAnimalType')] входит в зал, его бледная шерсть ярко сияет в лунном свете, почти фосфоресцирующая лихорадка, неестественное сияние. Обман почти идеален – чудо. Гости стоят в страхе и быстро приближаются к животному, не смея прикоснуться к нему, ведь его природа священна.\n\nОднако я замечаю среди толпы [doubting_guest.GetTitledFirstName], закатывающего [doubting_guest.GetHerHis] глаза: "Разве ты не можешь сказать, что это просто краска? [ROOT.Char.GetTitledFirstNameNoTooltip] должен принять нас всех за дураков»." #Машинный перевод 28.10.23
+ ep2_wedding.2011.desc: "Когда [ROOT.Char.Custom('GetAnimalType')] входит в зал, его светлый мех сияет в лунном свете, окружая животное сверхъестественным свечением. Обман почти идеален, это настоящее чудо. Завороженные гости быстро подходят к животному, но не смеют к нему прикоснуться, считая его священным.\n\nОднако [doubting_guest.GetTitledFirstName] закатывает глаза: «Разве вы не видите, что это просто краска? [ROOT.Char.GetTitledFirstNameNoTooltip] хочет нас одурачить»."
  ep2_wedding.2011.a: "Скрывать правду больше нет смысла."
  ep2_wedding.2011.b: "«Как вы посмели усомниться в моих словах на моем же торжестве?»"
  ep2_wedding.2011.b.success: "[doubting_guest.GetFirstNameNoTooltip] решает поверить вам, хотя и неохотно"
  ep2_wedding.2011.b.failure: "[doubting_guest.GetFirstNameNoTooltip] не верит ни единому вашему слову"
-  
  ep2_wedding.2020.t: "Это не очень-то хорошо"
  ep2_wedding.2020.desc: "Гостям разносят блюда с лучшими кушаньями, самые ароматные из которых — [host.Custom('GetExpensiveMeal')] и [host.Custom('GetExpensiveDessert')].\n\n[host.GetTitledFirstName] в самом деле не [Select_CString(host.IsFemale, 'поскупилась', 'поскупился' )]: в колодце во дворе вместо воды [host.Custom('GetExpensiveDrink')], и этот чудесный напиток черпают серебряным ведерком, висящим на серебряной цепи.\n\n[drunk_guest.GetTitledFirstName] с кубком в руке оступается и падает совсем рядом с колодцем."
  ep2_wedding.2020.a: "«Вы так себе шею свернете... Идите сюда, друг мой»."
@@ -1074,9 +1048,7 @@
  ep2_wedding.2020.c.success: "У вас все получилось, и [drunk_guest.GetFirstNameNoTooltip] падает в колодец"
  ep2_wedding.2020.c.failure: "Несмотря на все ваши старания, [drunk_guest.GetFirstNameNoTooltip] не упал в колодец"
  ep2_wedding.2020.c.death: "[drunk_guest.GetFirstNameNoTooltip] погибает, упав в колодец"
-  
  ep2_wedding.wedding_intent.success.tt: "Ваш [THIS.Char.GetInvolvedActivityIntent.GetName] достигает успеха"
-  
  ep2_wedding.2000.t: "Друг друга"
  ep2_wedding.2000.desc.intro: "Немного понаблюдав издали, я прихожу к выводу, что [diplo_target.GetTitledFirstName] не будет болтать со мной о погоде, о медицине или о войне, и уж конечно, из этого не вырастет союз.\n\nНо вскоре я замечаю, что рядом находится [target_friend.Custom2('MyCharacterIntroduction', ROOT.Char)], в чью глотку кубок за кубком льется [ROOT.Char.Custom('RegionalAlcoholicDrink')], — а ведь все знают, что [target_friend.GetTitledFirstName] и [diplo_target.GetFirstNameNoTooltip] друзья.\n\n«Скажите, чем интересуется [diplo_target.GetFirstNameNoTooltip]?» — спрашиваю я, целиком превращаясь в слух.\n\n"
  ep2_wedding.2000.desc.lustful: "«Ха! Тем, что ниже пояса, вот что я вам скажу!»"
@@ -1090,7 +1062,6 @@
  ep2_wedding.2000.b.success.tt: "Это даст вам бонус при попытке [GetScheme('befriend').GetTypeName] с персонажем [diplo_target.GetFirstNameNoTooltip]"
  ep2_wedding.2000.b.success: "[target_friend.GetFirstNameNoTooltip], похоже, говорит правду"
  ep2_wedding.2000.b.failure: "[target_friend.GetFirstNameNoTooltip] [Select_CString(target_friend.IsFemale, 'оскорблена', 'оскорблен' )] вашим недоверием"
-  
  ep2_wedding.2001.t: "$ep2_wedding.2000.t$"
  ep2_wedding.2001.desc: "Вооружившись новыми знаниями, я непринужденно приближаюсь к богато убранному столу, где [diplo_target.GetTitledFirstName] наслаждается роскошными блюдами и приятной беседой. «На два слова, [diplo_target.GetTitleAsNameNoTooltip|l]? — говорю я. — Мне бы не хотелось прерывать ваш разговор».\n\n[diplo_target.GetTitledFirstNameNoTooltip] удивленно поднимает брови, и в [diplo_target.GetHerHis] глазах вспыхивает огонек. «Ну конечно. Что привело вас ко мне, [ROOT.Char.GetFirstNameNoTooltip]?»"
  ep2_wedding.2001.a: "«Может, выберемся отсюда и найдем... достопочтенных гостей?»"
@@ -1107,7 +1078,6 @@
  ep2_wedding.2000.after.friends: "[diplo_target.GetShortUINameNoTooltip] считает вас единомышленником"
  ep2_wedding.2000.after.insult: "[diplo_target.GetShortUINameNoTooltip] [Select_CString(diplo_target.IsFemale, 'оскорблена', 'оскорблен' )] вашим предположением, что [Select_CString(diplo_target.IsFemale, 'ее', 'его' )] интересуют подобные вещи"
  ep2_wedding.2000.after.insult.short: "[diplo_target.GetFirstNameNoTooltip] [Select_CString(diplo_target.IsFemale, 'оскорблена', 'оскорблен' )]"
-  
  ep2_wedding.1330.t: "[Select_CString(spouse.IsFemale, 'Моя любовница', 'Мой любовник' )], [Select_CString(spouse.IsFemale, 'моя', 'мой' )] [spouse.GetWifeHusband]"
  ep2_wedding.1330.desc: "Сколько гостей на свадьбе подумали о том, что [spouse.GetTitledFirstName] и я — любовники? Когда рядом никого нет, можно не притворяться. [Select_CString(spouse.IsFemale, 'Ее', 'Его' )] тело... теперь оно принадлежит только мне.\n\nЯ смотрю на [Select_CString(spouse.IsFemale, 'свою любовницу', 'своего любовника' )] и [Select_CString(spouse.IsFemale, 'жену', 'мужа' )] , и в моей голове крутится только одна мысль..."
  ep2_wedding.1330.a: "Я не в силах передать словами то, как я люблю [Select_CString(spouse.IsFemale, 'эту женщину', 'этого человека' )]."
@@ -1134,7 +1104,6 @@
  ep2_wedding.1330.f.confession.desc: "Истина выплывает наружу"
  ep2_wedding.1330.f.confession.tt: "[spouse.GetFirstNameNoTooltip|U] сообщает, любит [Select_CString(spouse.IsFemale, 'она', 'он' )] ли других людей"
  ep2_wedding.1330.g: "Наконец-то мы можем не скрывать свою любовь!"
-  
  ep2_wedding.1340.t: "Соболезную вашей свадьбе"
  ep2_wedding.1340.desc.intro: "«Жаль мне тебя, [cynic.Custom2('RelationToMe', SCOPE.sC('nervous_spouse'))], — говорит [cynic.GetTitledFirstName], [Select_CString(cynic.IsFemale, 'которой', 'которому' )] не терпится поделиться своими воззрениями на супружескую жизнь. "
  ep2_wedding.1340.i_would_know: "Уж я-то знаю», — ворчливо добавляет [cynic.GetSheHe]."
@@ -1169,7 +1138,6 @@
  ep2_wedding.1340.f.tt: "Волнение перед свадьбой заканчивается с первой брачной ночью"
  ep2_wedding.1340.success_title: "[Select_CString(ROOT.Char.IsFemale, 'Уверенная', 'Уверенный' )] [ROOT.Char.Custom('GetBrideGroom')]"
  ep2_wedding.1340.failure_title: "Волнение перед свадьбой"
-  
  ep2_wedding.1350.t: "Когда не остается слов"
  ep2_wedding.1350.desc.intro: "От грохота мебели и бесконечной болтовни гостей в висках начинает пульсировать боль. Похоже, мне не удается скрыть свое состояние — [Select_CString(caring_relative.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('caring_relative'))] [caring_relative.GetTitledFirstName] сразу берет меня под руку и уводит в соседнюю комнату.\n\nШум приготовлений сразу стихает. Мы беседуем о всяких пустяках — о былых временах, о людях, которых когда-то знали… и ни единого слова о свадьбе. Исчерпав темы для разговора, мы просто замолкаем."
  ep2_wedding.1350.a: "Я хочу просто насладиться мгновением тишины."

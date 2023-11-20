@@ -466,11 +466,12 @@
   
   ### Oltenic Masks ### 
   
- PORTRAIT_MODIFIER_custom_gh_masks_Baldwins_Mask: "Олтеник Маска 1"  #Машинный перевод 28.10.23!
- PORTRAIT_MODIFIER_custom_gh_masks_Baldwins_Mask_female: "Олтеник Маска 1"  #Машинный перевод 28.10.23!
+ PORTRAIT_MODIFIER_custom_gh_masks_baldwins_mask: "Олтеник Маска 1"  #Машинный перевод 28.10.23!
+ PORTRAIT_MODIFIER_custom_gh_masks_baldwins_mask_female: "Олтеник Маска 1"  #Машинный перевод 28.10.23!
  PORTRAIT_MODIFIER_custom_gh_masks_vanilla_face_mask_hoodless: "Олтеник Маска 2"  #Машинный перевод 28.10.23!
  PORTRAIT_MODIFIER_custom_gh_masks_vanilla_face_mask_hoodless_female: "Олтеник Маска 2"  #Машинный перевод 28.10.23!
- PORTRAIT_MODIFIER_custom_gh_masks_kipchak_mask: "Олтеник Маска 3"  #Машинный перевод 28.10.23!
+ PORTRAIT_MODIFIER_custom_gh_masks_kipchak_mask: "Öltenic High Nobility Mask 1"
+ PORTRAIT_MODIFIER_custom_gh_masks_m_headgear_fp3_iranian_face_mask_01_hoodless: "Öltenic High Nobility Mask 2"
   
  PORTRAIT_MODIFIER_custom_gh_masks_male_empty: "Без маски"  #Машинный перевод 28.10.23!
  PORTRAIT_MODIFIER_custom_gh_masks_female_empty: "Без маски"  #Машинный перевод 28.10.23!

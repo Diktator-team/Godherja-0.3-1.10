@@ -112,15 +112,22 @@
  mayik_caverns_advantage: "[command_modifier_i|E][advantage|E] в подземных пещерах"  #Машинный перевод 28.10.23!
  mayik_caverns_levy_size: "$MOD_LEVY_SIZE$ в подземных пещерах"  #Машинный перевод 28.10.23!
  mayik_caverns_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в подземных пещерах"  #Машинный перевод 28.10.23!
+ mayik_caverns_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Subterranean Caverns"
+
  mayik_chamber: "Подземная палата"  #Машинный перевод 28.10.23!
  mayik_chamber_advantage: "[command_modifier_i|E][advantage|E] в подземных камерах"  #Машинный перевод 28.10.23!
  mayik_chamber_levy_size: "$MOD_LEVY_SIZE$ в подземных камерах"  #Машинный перевод 28.10.23!
  mayik_chamber_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в подземных камерах"  #Машинный перевод 28.10.23!
+ mayik_chamber_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Subterranean Chambers"
+ 
  mayik_corridors: "Подземный коридор"  #Машинный перевод 28.10.23!
  mayik_corridors_advantage: "[command_modifier_i|E][advantage|E] в подземных коридорах"  #Машинный перевод 28.10.23!
  mayik_corridors_levy_size: "$MOD_LEVY_SIZE$ в подземных коридорах"  #Машинный перевод 28.10.23!
  mayik_corridors_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в подземных коридорах"  #Машинный перевод 28.10.23!
+ mayik_corridors_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Subterranean Corridors"
+
  mayik_tunnels: "Подземные туннели"  #Машинный перевод 28.10.23!
  mayik_tunnels_advantage: "[command_modifier_i|E][advantage|E] в подземных туннелях"  #Машинный перевод 28.10.23!
  mayik_tunnels_levy_size: "$MOD_LEVY_SIZE$ в подземных туннелях"  #Машинный перевод 28.10.23!
  mayik_tunnels_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в подземных туннелях"  #Машинный перевод 28.10.23!
+ mayik_tunnels_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Subterranean Tunnels"

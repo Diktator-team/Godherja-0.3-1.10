@@ -38,7 +38,6 @@
  MAP_REALM_TT_RELATION_LIEGE: "Сюзерен [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy|V][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )|V]"
  MAP_REALM_TT_RELATION_TOP_LIEGE: "Верховный сюзерен [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy|V][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )|V]"
  MAP_REALM_TT_RELATION_OTHER: "Независимая держава"
-  
  IMPASSIBLE_PROVINCE_TOOLTIP: "#T Непроходимая местность#!"
  IMPASSPABLE_SEA_PROVINCE_TOOLTIP: "#T Маре инкогнитум#!"
  SEA_PROVINCE_TOOLTIP: "#T [PROVINCE.GetName]#!\n[PROVINCE.GetTerrain.GetNameNoTooltip|V]"
@@ -67,7 +66,6 @@
  PROVINCE_TOOLTIP_ARMY_ADVANTAGE: "    [Concept( 'advantage', 'Преимущество' )|E] на этой территории: @advantage_icon!Базовое"
  PROVINCE_TOOLTIP_ARMY_ADVANTAGE_NO_ADJUSTMENT: "+0"
  PROVINCE_TOOLTIP_ARMY_ADVANTAGE_ADJUSTMENT: "$ADJUSTMENTS|=+$"
-  
  PROVINCE_TOOLTIP_CLICK_TO_RETREAT: "\n#I Щелкните ПКМ, чтобы выйти из боя и отступить сюда#!"
  PROVINCE_TOOLTIP_CLICK_CANT_RETREAT: "Вы не можете отступать в сражении еще $DAYS$ дн."
  PROVINCE_TOOLTIP_ADD_RALLY_POINT_HERE: "#I Нажмите, чтобы разместить здесь [Concept( 'rally_point', 'точку сбора' )|E]#!"
@@ -84,7 +82,6 @@
  MAP_COUNTY_REALM_EXPLORE_CLICK: "#I Ctrl+ЛКМ, чтобы показать вассалов#!"
  MAP_COUNTY_REALM_EXPLORE_UNDO_CLICK: "#I Ctrl+ПКМ, чтобы вернуться к державе#!"
  MAP_OCCUPANT_TEXT: "Оккупант: [CHARACTER.GetUINameNoTooltip|UV]"
-  
  HOUSES_MAP_MODE_TOOLTIP: "#T Дом [ROOT.Province.GetTitle.GetDeFactoTopLiege.GetHolder.GetNameNoTooltip]#!: \n[ROOT.Province.GetTitle.GetDeFactoTopLiege.GetHolder.GetHouse.GetBaseNameNoTooltip]"
  houses_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n#I Щелкните, чтобы открыть окно династического дома.#!"
  GOVERNMENTS_MAP_MODE_TOOLTIP: "#T Владелец графства\nФорма правления#!: [ROOT.Province.GetCounty.GetTitle.GetHolder.GetGovernment.GetNameNoTooltip]\nВерховный сюзерен\nФорма правления: [ROOT.Province.GetCounty.GetTitle.GetDeFactoTopLiege.GetHolder.GetGovernment.GetNameNoTooltip]"
@@ -96,7 +93,6 @@
  cultures_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n#I Щелкните, чтобы выбрать [PROVINCE.GetCounty.GetCulture.GetCollectiveNounNoTooltip|l]ую культуру#!"
  FAITHS_MAP_MODE_TOOLTIP: "#T Конфессия графства#!: [ROOT.Province.GetCounty.GetFaith.GetAdjectiveNoTooltip]\nКонфессия верховного сюзерена: [ROOT.Province.GetTitle.GetDeFactoTopLiege.GetHolder.GetFaith.GetAdjectiveNoTooltip]"
  faiths_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n#I Щелкните, чтобы выбрать [PROVINCE.GetCounty.GetCulture.GetCollectiveNounNoTooltip|l]ую культуру#!"
-  
  COURT_LANGUAGES_MAP_MODE_COUNTY_HOLDER: "[ROOT.Province.GetCounty.GetTitle.GetHolder.GetCourtLanguage.GetNameNoTooltip]"
  COURT_LANGUAGES_MAP_MODE_LIEGE: "[ROOT.Province.GetCounty.GetTitle.GetHolder.GetLiege.GetCourtLanguage.GetNameNoTooltip]"
  COURT_LANGUAGES_MAP_MODE_LIEGES_LIEGE: "[ROOT.Province.GetCounty.GetTitle.GetHolder.GetLiege.GetLiege.GetCourtLanguage.GetNameNoTooltip]"
@@ -131,7 +127,6 @@
  duchies_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n$CLICK_TO_SELECT$"
  counties_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n$CLICK_TO_SELECT$"
  players_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n$CLICK_TO_SELECT$"
-  
  PROVINCE_VIEW_TOOLTIP_WINTER: "#T $winter$ #!\nМороз: [Province.GetWinterSeverityName|V]\n\n[Province.GetWinterEffectsDesc]"
  PROVINCE_WINTER_LEVEL_NONE: "Нет"
  PROVINCE_WINTER_LEVEL_MILD: "Легкий"

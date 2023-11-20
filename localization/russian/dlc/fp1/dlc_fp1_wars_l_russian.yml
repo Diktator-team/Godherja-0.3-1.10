@@ -4,9 +4,8 @@
  VIKING_ARMY_NEUTRAL_NAME: "Северная армия"
  scandi_adventurer_event_troops: "Викинги-авантюристы"
  fp1_scandi_adventurer_conquest: "Викинг-авантюрист"
- fp1_jomsvikings_event_troops: "Волонтеры-путеводители"
+ fp1_jomsvikings_event_troops: "Йомсвикинги-добровольцы"
  fp1_mann_event_troops: "Пиратские полчища"
-  
  fp1_varangian_adventurer_conquest: "Варяжский искатель приключений"
  FP1_VARANGIAN_ADVENTURER_CB_NAME: "[varangian_adventure|E] против [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
  FP1_VARANGIAN_ADVENTURER_CB_SPECIFIC_NAME: "[varangian_adventure|E] против владения [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier]"

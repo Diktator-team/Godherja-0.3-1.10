@@ -11,8 +11,7 @@
  artifact_type_book: "книга"
  artifact_type_pedestal: "$artifact_type_sculpture$"
  artifact_type_elixir: "эликсир"
-  
- # These are used for when we generate the title at the same time as we create the artifact 
+ #These are used for when we generate the title at the same time as we create the artifact
  artifact_name_prefix: "[SCOPE.Custom('ArtifactPrefixGeneric')]"
  artifact_name_prefix_owner_name: "персонажа [owner.GetTitledFirstNamePossessiveNoTooltip]"
  artifact_name_prefix_inspiration_owner_name: "персонажа [inspiration_owner.GetTitledFirstNamePossessiveNoTooltip]"
@@ -23,49 +22,41 @@
  artifact_name_prefix_descriptor_medium_quality: "на века"
  artifact_name_prefix_descriptor_medium_alt_version_quality: "превосходного качества"
  artifact_name_prefix_descriptor_low_quality: "без изысков"
-  
- # These are used for when we generate the title after the artifact is already created since we have to use different scopes then 
+ #These are used for when we generate the title after the artifact is already created since we have to use different scopes then
  artifact_name_prefix_artifact_scope: "[Artifact.GetOwner.Custom('ArtifactPrefixGenericAfterCreation')|U]"
  artifact_name_prefix_artifact_scope_owner_name: "[Artifact.GetOwner.GetTitledFirstNamePossessiveNoTooltip]"
  artifact_name_prefix_artifact_scope_owner_culture: "[Artifact.GetOwner.GetCulture.GetCollectiveNounNoTooltip|l]ого народа"
  artifact_name_prefix_artifact_scope_owner_dynasty: "[Artifact.GetOwner.GetDynasty.GetBaseNameNoTooltip]"
-  
  placeholder: "$holderplace$"
  holder_place: "#D Заглушка#!"
-  
-  ########## 
-  # Metals # 
-  ########## 
-  
-  # Irons and steels for use in arms and armor. All steels are just regional names for wootz steel, which is only known to have been manufactured in Southern India (but ingots of it traveled the silk road). 
+ ##########
+ #Metals #
+ ##########
+ #Irons and steels for use in arms and armor. All steels are just regional names for wootz steel, which is only known to have been manufactured in Southern India (but ingots of it traveled the silk road).
  metal_iron: "железа"
  metal_wrought_iron: "кованого железа"
  metal_folded_iron: "сфальцованного железа"
  metal_steel: "стали"
  metal_wootz_steel: "тигельной стали"
  metal_bulat_steel: "булатной стали"
- metal_damascus_steel: "Кафасали сталь"
-  
-  # Metal Feature Derivatives 
+ metal_damascus_steel: "дамасской стали"
+ #Metal Feature Derivatives
  feature_blade_metal_wrought_iron: "$metal_wrought_iron$"
  feature_blade_metal_folded_iron: "$metal_folded_iron$"
  feature_blade_metal_wootz_steel: "$metal_wootz_steel$"
  feature_blade_metal_damascus_steel: "$metal_damascus_steel$"
  feature_blade_metal_bulat_steel: "$metal_bulat_steel$"
-  
  feature_head_metal_wrought_iron: "$metal_wrought_iron$"
  feature_head_metal_folded_iron: "$metal_folded_iron$"
  feature_head_metal_wootz_steel: "$metal_wootz_steel$"
  feature_head_metal_damascus_steel: "$metal_damascus_steel$"
  feature_head_metal_bulat_steel: "$metal_bulat_steel$"
-  
  feature_handle_metal_wrought_iron: "$metal_wrought_iron$"
  feature_handle_metal_folded_iron: "$metal_folded_iron$"
  feature_handle_metal_wootz_steel: "$metal_wootz_steel$"
  feature_handle_metal_damascus_steel: "$metal_damascus_steel$"
  feature_handle_metal_bulat_steel: "$metal_bulat_steel$"
-  
-  # Precious/decorative metals and metal-based compounds 
+ #Precious/decorative metals and metal-based compounds
  metal_gold: "золота"
  metal_electrum: "электрума"
  metal_silver: "серебра"
@@ -74,27 +65,24 @@
  metal_copper: "меди"
  metal_pewter: "олова"
  metal_latten: "латуни"
-  
-  # Pure black 'alloy' of sulfur, copper, silver, and lead. Commonly used as an inlay in engraved or etched metals, or sometimes as a background in reliefs. 
+ #Pure black 'alloy' of sulfur, copper, silver, and lead. Commonly used as an inlay in engraved or etched metals, or sometimes as a background in reliefs.
  metal_niello: "черненого серебра"
-  # Golden (gold-leafed) bronze. More common in East Asia but could be found in Europe. 
+ #Golden (gold-leafed) bronze. More common in East Asia but could be found in Europe.
  metal_gilt_bronze: "позолоченной бронзы"
-  # Gilded (gold-leafed) silver. More common in Europe but could be found in East Asia. 
+ #Gilded (gold-leafed) silver. More common in Europe but could be found in East Asia.
  metal_silver_gilt: "позолоченного серебра"
-  # Extremely rare bronze alloy from antiquity. Manufacturing process unknomwn, statues made from it were more valuable than gold. 
+ #Extremely rare bronze alloy from antiquity. Manufacturing process unknomwn, statues made from it were more valuable than gold.
  metal_corinthian_bronze: "коринфской меди"
-  # Alloy of gold, silver, copper, zinc, and iron. Sacred in Hinduism, used for making jewelery and decorating statues. 
+ #Alloy of gold, silver, copper, zinc, and iron. Sacred in Hinduism, used for making jewelery and decorating statues.
  metal_panchaloha: "панчалохи"
-  # High-purity iron collected from meteorites. Auspicious in Tibetan culture, where it was known as 'thokcha'. 
+ #High-purity iron collected from meteorites. Auspicious in Tibetan culture, where it was known as 'thokcha'.
  metal_meteoric_iron: "метеоритного железа"
-  
  feature_decoration_material_inlay_gold: "$metal_gold$"
  feature_decoration_material_inlay_electrum: "$metal_electrum$"
  feature_decoration_material_inlay_silver: "$metal_silver$"
  feature_decoration_material_inlay_copper: "$metal_copper$"
  feature_decoration_material_inlay_pewter: "$metal_pewter$"
  feature_decoration_material_inlay_niello: "$metal_niello$"
-  
  feature_decoration_material_wire_gold: "$metal_gold$"
  feature_decoration_material_wire_electrum: "$metal_electrum$"
  feature_decoration_material_wire_silver: "$metal_silver$"
@@ -103,60 +91,46 @@
  feature_decoration_material_wire_copper: "$metal_copper$"
  feature_decoration_material_wire_pewter: "$metal_pewter$"
  feature_decoration_material_wire_latten: "$metal_latten$"
-  
-  ############# 
-  # Earthware # 
-  ############# 
-  
+ #############
+ #Earthware #
+ #############
  earthware_clay: "глина"
  earthware_stone: "камень"
  earthware_terracotta: "терракота"
  earthware_porcelain: "фарфор"
-  
-  ######### 
-  # Woods # 
-  ######### 
+ #########
+ #Woods #
+ #########
  wood: "дерева"
-  
-  # Found Everywhere 
+ #Found Everywhere
  wood_ash: "ясеня"
  wood_oak: "дуба"
-  
-  # Widespread Regional - Elm (Found all over Europe except southern Spain, Italy, and Greece) 
+ #Widespread Regional - Elm (Found all over Europe except southern Spain, Italy, and Greece)
  wood_elm: "вяза"
-  
-  # Widespread Regional - Walnut (found all over Europe excluding Scotland and Scandinavia, but including Northern Anatolia/Persia) 
+ #Widespread Regional - Walnut (found all over Europe excluding Scotland and Scandinavia, but including Northern Anatolia/Persia)
  wood_walnut: "ореха"
-  
-  # Widespread Regional - Maple (found all over Europe excluding Scotland and northern Scandinavia, as well as northern Morocco/Tunisia/Persia and all of Anatolia) 
+ #Widespread Regional - Maple (found all over Europe excluding Scotland and northern Scandinavia, as well as northern Morocco/Tunisia/Persia and all of Anatolia)
  wood_maple: "клена"
-  
-  # Widespread Regional - Pines and Firs (found all over Europe except northern France/Germany and the Balkans, but spreads East through Anatolia, Scandinavia, Russia, China, and Tibet) 
+ #Widespread Regional - Pines and Firs (found all over Europe except northern France/Germany and the Balkans, but spreads East through Anatolia, Scandinavia, Russia, China, and Tibet)
  wood_pine: "сосны"
  wood_fir: "ели"
-  
-  # Widespread Regional - Subsaharan Africa 
+ #Widespread Regional - Subsaharan Africa
  wood_fleroya: "флерои"
  wood_sycomore: "сикомора"
  wood_padauk: "падука"
-  
-  # Widespread Regional - India 
+ #Widespread Regional - India
  wood_sal: "акации"
  wood_teak: "тика"
  wood_rosewood: "красного дерева"
  wood_satinwood: "атласного дерева"
-  
-  # Regional - France, England, Wales, Ireland 
+ #Regional - France, England, Wales, Ireland
  wood_yew: "тиса"
-  
-  # Regional - Mediterranean 
+ #Regional - Mediterranean
  wood_olivewood: "оливы"
-  
-  # Regional - Sri Lanka 
+ #Regional - Sri Lanka
  wood_coromandel: "каламандера"
  wood_ebony: "эбена"
-  
-  # Wood Feature Derivatives 
+ #Wood Feature Derivatives
  feature_generic_material_wood_ash: "$wood_ash$"
  feature_generic_material_wood_oak: "$wood_oak$"
  feature_generic_material_wood_elm: "$wood_elm$"
@@ -175,7 +149,6 @@
  feature_generic_material_wood_olivewood: "$wood_olivewood$"
  feature_generic_material_wood_coromandel: "$wood_coromandel$"
  feature_generic_material_wood_ebony: "$wood_ebony$"
-  
  feature_shaft_wood_ash: "$wood_ash$"
  feature_shaft_wood_oak: "$wood_oak$"
  feature_shaft_wood_elm: "$wood_elm$"
@@ -194,53 +167,37 @@
  feature_shaft_wood_olivewood: "$wood_olivewood$"
  feature_shaft_wood_coromandel: "$wood_coromandel$"
  feature_shaft_wood_ebony: "$wood_ebony$"
-  
-  ########## 
-  # Cloths # 
-  ########## 
-  
-  # Simple wool fabric, can vary wildly in quality and appearance depending on the yarn used to wave it as well as the weaver's skill. 
+ ##########
+ #Cloths #
+ ##########
+ #Simple wool fabric, can vary wildly in quality and appearance depending on the yarn used to wave it as well as the weaver's skill.
  cloth_wool: "шерсти"
-  
-  # Wool from the very first shearing of a sheep. Soft, elastic, and slippery, used in high-grade textiles. 
+ #Wool from the very first shearing of a sheep. Soft, elastic, and slippery, used in high-grade textiles.
  cloth_lambswool: "овечьей шерсти"
-  
-  # A fine, dense wool yarn or fabric. Originated in 12th century England, considered to be one of the highest quality wools. Suits are made from it today. 
+ #A fine, dense wool yarn or fabric. Originated in 12th century England, considered to be one of the highest quality wools. Suits are made from it today.
  cloth_worsted_wool: "гребенной шерсти"
-  
-  # Generic plain weave cotton 
+ #Generic plain weave cotton
  cloth_cotton: "хлопка"
-  
-  # cotton plain weave from Bangladesh, but common as far out as Iraq. Can be either coarse or very fine. 
+ #cotton plain weave from Bangladesh, but common as far out as Iraq. Can be either coarse or very fine.
  cloth_muslin: "муслина"
-  
-  # twill cotton-linen blend. As it a mixed fabric, practicing Jews are forbidden to wear it. 
+ #twill cotton-linen blend. As it a mixed fabric, practicing Jews are forbidden to wear it.
  cloth_fustian: "фланели"
-  
-  # plain weave flax fibers. Consistently average in quality and price, saw widespread use throughout the medieval era. 
+ #plain weave flax fibers. Consistently average in quality and price, saw widespread use throughout the medieval era.
  cloth_linen: "льна"
-  
-  # Plain(?) silk weave. 
+ #Plain(?) silk weave.
  cloth_silk: "шелка"
-  
-  # satin weave, most commonly made of silk, becoming famous in 12th century Europe after the Crusades. 
+ #satin weave, most commonly made of silk, becoming famous in 12th century Europe after the Crusades.
  cloth_satin: "сатина"
-  
-  # piled silk weave popular in the Middle East. Must be woven on a special loom. Due to its difficulty of manufacture, it is associated with nobility. Arrived in western Europe after the Crusades. 
+ #piled silk weave popular in the Middle East. Must be woven on a special loom. Due to its difficulty of manufacture, it is associated with nobility. Arrived in western Europe after the Crusades.
  cloth_velvet: "вельвета"
-  
-  # twill silk weave popular in Byzantium, which originated in Sassanid Persia. Commonly restricted to royalty or clergy. 
+ #twill silk weave popular in Byzantium, which originated in Sassanid Persia. Commonly restricted to royalty or clergy.
  cloth_samite: "парчи"
-  
-  # cloth woven from silk wrapped in silver. Similar to the cloth-of-gold below, but less expensive. 
+ #cloth woven from silk wrapped in silver. Similar to the cloth-of-gold below, but less expensive.
  cloth_of_silver: "серебряной парчи"
-  
-  # cloth woven from silk wrapped in gold. In addition to being expensive, it was almost always outlawed for any non-royalty or non-clergy to wear. 
+ #cloth woven from silk wrapped in gold. In addition to being expensive, it was almost always outlawed for any non-royalty or non-clergy to wear.
  cloth_of_gold: "золотой парчи"
-  
-  # sturdy fabric 
+ #sturdy fabric
  cloth_canvas: "холстины"
-  
  feature_generic_material_cloth_wool: "$cloth_wool$"
  feature_generic_material_cloth_lambswool: "$cloth_lambswool$"
  feature_generic_material_cloth_worsted_wool: "$cloth_worsted_wool$"
@@ -251,24 +208,20 @@
  feature_generic_material_cloth_satin: "$cloth_satin$"
  feature_generic_material_cloth_velvet: "$cloth_velvet$"
  feature_generic_material_cloth_samite: "$cloth_samite$"
-  
  feature_generic_material_cordage_wool: "$cloth_wool$"
  feature_generic_material_cordage_cotton: "$cloth_cotton$"
  feature_generic_material_cordage_linen: "$cloth_linen$"
  feature_generic_material_cordage_silk: "$cloth_silk$"
-  
  feature_decoration_material_embroidery_wool: "$cloth_wool$"
  feature_decoration_material_embroidery_linen: "$cloth_linen$"
  feature_decoration_material_embroidery_cotton: "$cloth_cotton$"
  feature_decoration_material_embroidery_silk: "$cloth_silk$"
  feature_decoration_material_embroidery_silver_thread: "$metal_silver$"
  feature_decoration_material_embroidery_gold_thread: "$metal_gold$"
-  
-  ######## 
-  # Gems # 
-  ######## 
-  
-  # Common Everywhere 
+ ########
+ #Gems #
+ ########
+ #Common Everywhere
  gem_rock_crystal: "горным хрусталем"
  gem_rock_crystal_plural: "кристаллами горного хрусталя"
  gem_jet: "гагатом"
@@ -277,16 +230,14 @@
  gem_agate_plural: "агатами"
  gem_onyx: "ониксом"
  gem_onyx_plural: "ониксами"
-  
-  # Uncommon Everywhere 
+ #Uncommon Everywhere
  gem_garnet: "гранатом"
  gem_garnet_plural: "гранатами"
  gem_jasper: "яшмой"
  gem_jasper_plural: "яшмой"
  gem_zircon: "цирконом"
  gem_zircon_plural: "цирконом"
-  
-  # Common Regional/Uncommon Elsewhere 
+ #Common Regional/Uncommon Elsewhere
  gem_turquoise: "бирюзой"
  gem_turquoise_plural: "бирюзой"
  gem_amber: "янтарем"
@@ -301,8 +252,7 @@
  gem_amethyst_plural: "аметистами"
  gem_carnelian: "сердоликом"
  gem_carnelian_plural: "сердоликами"
-  
-  # Uncommon Regional/Rare Elsewhere 
+ #Uncommon Regional/Rare Elsewhere
  gem_spinel: "шпинелью"
  gem_spinel_plural: "шпинелью"
  gem_opal: "опалом"
@@ -313,15 +263,13 @@
  gem_peridot_plural: "перидотами"
  gem_jade: "нефритом"
  gem_jade_plural: "нефритами"
-  
-  # Rare 
+ #Rare
  gem_sapphire: "сапфиром"
  gem_sapphire_plural: "сапфирами"
  gem_ruby: "рубином"
  gem_ruby_plural: "рубинами"
  gem_emerald: "изумрудом"
  gem_emerald_plural: "изумрудами"
-  
  feature_decoration_material_gem_rock_crystal: "$gem_rock_crystal$"
  feature_decoration_material_gem_jet: "$gem_jet$"
  feature_decoration_material_gem_agate: "$gem_agate$"
@@ -344,11 +292,9 @@
  feature_decoration_material_gem_sapphire: "$gem_sapphire$"
  feature_decoration_material_gem_ruby: "$gem_ruby$"
  feature_decoration_material_gem_emerald: "$gem_emerald$"
-  
-  ############################ 
-  # Horns, Shells, and Bones # 
-  ############################ 
-  
+ ############################
+ #Horns, Shells, and Bones #
+ ############################
  hsb_ivory: "слоновой кости"
  hsb_mother_of_pearl: "перламутра"
  hsb_tortoiseshell: "черепашьего панциря"
@@ -356,7 +302,6 @@
  hsb_deer_antler: "оленьих рогов"
  hsb_boar_tusk: "клыков кабана"
  hsb_camel_bone: "верблюжьих костей"
-  
  feature_decoration_material_inlay_HSB_camel_bone: "$hsb_camel_bone$"
  feature_decoration_material_inlay_HSB_deer_antler: "$hsb_deer_antler$"
  feature_decoration_material_inlay_HSB_boar_tusk: "$hsb_boar_tusk$"
@@ -364,19 +309,16 @@
  feature_decoration_material_inlay_HSB_tortoiseshell: "$hsb_tortoiseshell$"
  feature_decoration_material_inlay_HSB_mother_of_pearl: "$hsb_mother_of_pearl$"
  feature_decoration_material_inlay_HSB_ivory: "$hsb_ivory$"
-  
-  #Other 
+ #Other
  material_bone: "кость"
  material_horn: "рог"
  material_pangolin_scales: "чешуйки броненосца"
  material_glass: "стекло"
  material_leather: "кожа"
  material_hardened_leather: "дубленая кожа"
-  
-  ############ 
-  # Patterns # 
-  ############ 
-  
+ ############
+ #Patterns #
+ ############
  feature_decoration_pattern_roses: "цветы розы"
  feature_decoration_pattern_floral: "узоры из цветов"
  feature_decoration_pattern_geometric: "геометрические формы"
@@ -398,22 +340,17 @@
  feature_decoration_pattern_knots: "узоры из сплетающихся узлов"
  feature_decoration_pattern_animals: "зоологический мотив"
  feature_decoration_pattern_bird: "величественная птица"
-  
  feature_decoration_material_inlay_HSB_placeholder: "ЗАГЛУШКА"
-  
-  ########### 
-  # Quality and wealth # 
-  ########### 
-  
+ ###########
+ #Quality and wealth #
+ ###########
  quality_fine: "неплохого"
  quality_very_fine: "высочайшего"
  quality_excellent: "отличного"
  quality_masterful: "мастерского"
-  
  adverb_quality_masterful: "мастерски"
  adverb_quality_excellent: "отлично"
  adverb_quality_fine: "неплохо"
-  
  wealth_extravagant: "экстравагантн"
  wealth_opulent: "богат"
  wealth_beautiful: "прелестн"
@@ -421,7 +358,6 @@
  wealth_ornate: "узорн"
  wealth_fancy: "необычн"
  wealth_plain: "незамысловат"
-  
  article_wealth_plain: "Незамысловат"
  article_wealth_fancy: "Необычн"
  article_wealth_ornate: "Узорн"
@@ -429,7 +365,6 @@
  article_wealth_beautiful: "Прелестн"
  article_wealth_opulent: "Богат"
  article_wealth_extravagant: "Экстравагантн"
-  
  adverb_wealth_extravagant: "экстравагантно"
  adverb_wealth_masterful: "мастерски"
  adverb_wealth_opulent: "напыщенно"
@@ -441,12 +376,11 @@
  adverb_wealth_ornate: "замысловато"
  adverb_wealth_fancy: "необычно"
  adverb_wealth_plain: "банально"
-  
-  ############################ 
-  # Weapon Descriptions 		# 
-  ############################ 
+ ############################
+ #Weapon Descriptions 		#
+ ############################
  create_artifact_weapon_tooltip: "[inspiration_owner.GetShortUIName] [Select_CString(inspiration_owner.IsFemale, 'выковала', 'выковал' )] [SCOPE.Custom('ArtifactWeaponType')] [SCOPE.Custom('ArtifactQuality')] качества"
-  # Sword and Dagger components (Blades, Hilts, and Pommels) 
+ #Sword and Dagger components (Blades, Hilts, and Pommels)
  feature_hilt_decoration_carved_pattern: "на рукояти есть незамысловатая гравировка — [Artifact.GetFeatureText( 'decoration_pattern' )]"
  feature_hilt_decoration_inlay_pattern: "на рукояти сделана инкрустация из [Artifact.GetFeatureText( 'decoration_material_inlay' )], выглядящая точь-в-точь как [Artifact.GetFeatureText( 'decoration_pattern' )]"
  feature_hilt_decoration_filigree: "рукоять украшена филигранью из [Artifact.GetFeatureText( 'decoration_material_wire' )]"
@@ -457,8 +391,7 @@
  feature_blade_decoration_etched_pattern: "на клинке выгравирован узор — [Artifact.GetFeatureText( 'decoration_pattern' )]"
  feature_blade_decoration_etched_motto: "на клинке выгравированы слова «[Artifact.GetOwner.GetHouse.GetMotto]»"
  feature_blade_decoration_etched_owner: "на клинке есть гравировка со словами «Владелец [Artifact.GetOwner.GetTitledFirstName] из державы [Artifact.GetOwner.GetPrimaryTitle.GetNameNoTierNoTooltip]»"
-  
-  # Swords 
+ #Swords
  artifact_sword_name: "Меч $artifact_name_prefix$"
  artifact_longsword_name: "Полуторный меч $artifact_name_prefix$"
  artifact_sword_description: "Меч из [newly_created_artifact.GetFeatureText( 'blade_metal' )] [SCOPE.Custom('ArtifactQuality')] качества. [newly_created_artifact.Custom('ArtifactSwordDecoration')]"
@@ -467,16 +400,14 @@
  sword_decoration_blade: "[ROOT.Artifact.GetFeatureText( 'blade_decoration' )|U]."
  sword_decoration_none: "Простой и без украшений, но всё равно выглядит великолепно."
  sword_decoration_none_alt: "Каждый элемент служит определенной цели, а показное отсутствие украшений демонстрирует, что владелец рассматривает оружие именно как оружие."
-  
-  # Daggers 
+ #Daggers
  artifact_dagger_name: "Кинжал [owner.GetTitledFirstNamePossessiveNoTooltip]"
  artifact_dagger_description: "Кинжал из [newly_created_artifact.GetFeatureText( 'blade_metal' )], работа [SCOPE.Custom('ArtifactQuality')] качества. [newly_created_artifact.Custom('ArtifactDaggerDecoration')]"
  dagger_decoration_hilt_and_blade: "$sword_decoration_hilt_and_blade$"
  dagger_decoration_hilt: "$sword_decoration_hilt$"
  dagger_decoration_blade: "$sword_decoration_blade$"
  dagger_decoration_none: "$sword_decoration_none$"
-  
-  # Axe, Spear, Hammer, and Mace components (Heads, Shafts/Hafts) 
+ #Axe, Spear, Hammer, and Mace components (Heads, Shafts/Hafts)
  feature_head_decoration_etched_pattern: "выгравирован узор — [Artifact.GetFeatureText( 'decoration_pattern' )]"
  feature_head_decoration_religious_motifs: "выгравированы различные #L [Artifact.GetOwner.GetFaith.GetName|l]ие#! мотивы"
  feature_shaft_decoration_painted_pattern: "нарисованы узоры, напоминающие [Artifact.GetFeatureText( 'decoration_pattern' )]"
@@ -487,24 +418,21 @@
  feature_shaft_decoration_lines: "с вырезанными линиями, благодаря которым материал выглядит лучше, более приятен на ощупь и обеспечивает хороший хват"
  feature_metal_handle_decoration_inlay: "с инкрустацией из [Artifact.GetFeatureText( 'decoration_material_inlay' )]"
  feature_metal_handle_decoration_etched_pattern: "выгравирован повторяющийся узор — [Artifact.GetFeatureText( 'decoration_pattern' )]"
-  
-  # Axes 
+ #Axes
  artifact_axe_name: "Секира $artifact_name_prefix$"
  artifact_axe_description: "Секира [SCOPE.Custom('ArtifactQuality')] качества. [newly_created_artifact.Custom('ArtifactAxeHeadDescription')] [newly_created_artifact.Custom('ArtifactAxeHaftDescription')]"
  artifact_axe_head_undecorated: "Навершие из [ROOT.Artifact.GetFeatureText( 'head_metal' )] насажено"
  artifact_axe_head_decorated: "Навершие из [ROOT.Artifact.GetFeatureText( 'head_metal' )], [ROOT.Artifact.GetFeatureText( 'head_decoration' )], насажено"
  artifact_axe_haft_undecorated: "на крепкую деревянную рукоять. [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] — хороший материал, оружие отлично сбалансировано и заточено, и пользоваться им — чистое удовольствие."
  artifact_axe_haft_decorated: "на изящную рукоять из [ROOT.Artifact.GetFeatureText( 'shaft_wood' )], [ROOT.Artifact.GetFeatureText( 'shaft_decoration' )]."
-  
-  # Hammers 
+ #Hammers
  artifact_hammer_name: "Боевой молот $artifact_name_prefix$"
  artifact_hammer_description: "Боевой молот [SCOPE.Custom('ArtifactQuality')] качества. [newly_created_artifact.Custom('ArtifactHammerHeadDescription')] [newly_created_artifact.Custom('ArtifactHammerShaftDescription')]"
  artifact_hammer_head_undecorated: "$artifact_axe_head_undecorated$"
  artifact_hammer_head_decorated: "$artifact_axe_head_decorated$"
  artifact_hammer_shaft_undecorated: "на крепкую рукоять из [ROOT.Artifact.GetFeatureText( 'shaft_wood' )]."
  artifact_hammer_shaft_decorated: "на изящную рукоять из [ROOT.Artifact.GetFeatureText( 'shaft_wood' )], [ROOT.Artifact.GetFeatureText( 'shaft_decoration' )]."
-  
-  # Spears 
+ #Spears
  artifact_spear_name: "Копье $artifact_name_prefix$"
  artifact_spear_description: "Длинное копье [SCOPE.Custom('ArtifactQuality')] качества. [newly_created_artifact.Custom('ArtifactSpearHeadDescription')] [newly_created_artifact.Custom('ArtifactSpearShaftDescription')]"
  artifact_spear_head_undecorated: "$artifact_axe_head_undecorated$"
@@ -513,26 +441,22 @@
  artifact_spear_shaft_undecorated: "на крепкую рукоять из [ROOT.Artifact.GetFeatureText( 'shaft_wood' )]."
  artifact_spear_shaft_undecorated_alt: "на крепкую деревянную рукоять. [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] добавляет изящества, и оружие становится не только смертоносным, но и приятным взгляду."
  artifact_spear_shaft_decorated: "на изящную рукоять из [ROOT.Artifact.GetFeatureText( 'shaft_wood' )], [ROOT.Artifact.GetFeatureText( 'shaft_decoration' )]."
-  
-  # Maces 
+ #Maces
  artifact_mace_name: "Булава $artifact_name_prefix$"
  artifact_mace_description: "Пернач [SCOPE.Custom('ArtifactQuality')] качества. [newly_created_artifact.Custom('ArtifactMaceHeadDescription')] [newly_created_artifact.Custom('ArtifactMaceHandleDescription')]"
  artifact_mace_head_undecorated: "$artifact_axe_head_undecorated$"
  artifact_mace_head_decorated: "$artifact_axe_head_decorated$"
  artifact_mace_handle_undecorated: "на крепкую рукоять из [ROOT.Artifact.GetFeatureText( 'handle_metal' )]."
  artifact_mace_handle_decorated: "на изящную рукоять из [ROOT.Artifact.GetFeatureText( 'handle_metal' )], [ROOT.Artifact.GetFeatureText( 'metal_handle_decoration' )]."
-  
-  ############################ 
-  # Wearable Descriptions	# 
-  ############################ 
-  
-  # Armor 
+ ############################
+ #Wearable Descriptions	#
+ ############################
+ #Armor
  artifact_armor_name: "[SCOPE.Custom('ArtifactArmorArtifactName')]"
  artifact_armor_name_basic: "[newly_created_artifact.GetFeatureText( 'armor_property' )|U] [SCOPE.Custom('ArtifactArmorTypeLowercase')|l] $artifact_name_prefix$"
  artifact_armor_name_culture: "[ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]ий [SCOPE.Custom('ArtifactArmorTypeLowercase')|l]"
  artifact_armor_name_dynasty: "[SCOPE.Custom('ArtifactArmorTypeUppercase')|U] рода [ROOT.Char.GetDynasty.GetBaseNameNoTooltip]"
  artifact_armor_name_descriptor: "[newly_created_artifact.GetFeatureText( 'armor_property' )|U] [SCOPE.Custom('ArtifactArmorTypeUppercase')|l]"
-  
  artifact_armor_mail_lowercase: "кольчужный доспех"
  artifact_armor_mail_uppercase: "Кольчужный доспех"
  artifact_armor_plate_lowercase: "пластинчатый доспех"
@@ -547,11 +471,9 @@
  artifact_armor_brigandine_uppercase: "Пластинчатый доспех"
  artifact_armor_shield_lowercase: "щит"
  artifact_armor_shield_uppercase: "Щит"
-  
  artifact_armor_descriptor_shiny: "блестящий"
  artifact_armor_descriptor_flexible: "гибкий"
  artifact_armor_descriptor_powerful: "мощный"
-  
  feature_artifact_armor_descriptor_shiny: "$artifact_armor_descriptor_shiny$"
  feature_artifact_armor_descriptor_lustrous: "Сияющий"
  feature_artifact_armor_descriptor_burnished: "Вороненый"
@@ -565,7 +487,6 @@
  feature_artifact_armor_descriptor_armor_gold_decorated: "Украшенный золотом"
  feature_artifact_armor_descriptor_armor_silver_decorated: "Украшенный серебром"
  feature_artifact_armor_descriptor_armor_copper_decorated: "Украшенный медью"
-  
  feature_armor_material_iron: "$metal_iron$"
  feature_armor_material_steel: "$metal_steel$"
  feature_armor_material_gold: "$metal_gold$"
@@ -575,7 +496,6 @@
  feature_armor_material_pangolin_scales: "$material_pangolin_scales$"
  feature_armor_material_leather: "$material_leather$"
  feature_armor_material_hardened_leather: "$material_hardened_leather$"
-  
  feature_armor_helmet_spangenhelm: "В набор входят каркасный шлем и бармица"
  feature_armor_helmet_crested: "В набор входит шлем с гребнем и декоративным козырьком"
  feature_armor_helmet_nasal: "В набор входят шлем с наносником и кольчужный койф с подкладом из [Artifact.GetFeatureText( 'generic_material_cloth' )]"
@@ -588,7 +508,6 @@
  feature_armor_helmet_kettle: "В набор входит шапель с широкой кромкой"
  feature_armor_helmet_cervelliere: "В набор входят полукруглый плотный цервельер и кольчужный койф с подкладом из [Artifact.GetFeatureText( 'generic_material_cloth' )]"
  feature_armor_helmet_kulah_khud: "В набор входят шлем кулах-худ и бармица"
-  
  feature_armor_decoration_etched_pattern: "На доспехе выгравирован повторяющийся узор — [Artifact.GetFeatureText( 'decoration_pattern' )]"
  feature_armor_decoration_inlay_pattern: "Весь доспех украшен инкрустациями из [Artifact.GetFeatureText( 'decoration_material_inlay' )], рисующими повторяющийся узор — [Artifact.GetFeatureText( 'decoration_pattern' )]"
  feature_armor_decoration_painted_pattern: "На доспехе нарисованы узоры, напоминающие [Artifact.GetFeatureText( 'decoration_pattern' )]"
@@ -597,9 +516,7 @@
  feature_armor_decoration_lining: "Нижняя часть выполнена из [Artifact.GetFeatureText( 'decoration_material_wire' )] и покрывает весь доспех"
  feature_armor_decoration_embossed: "Заклепки из [Artifact.GetFeatureText( 'decoration_material_wire' )] крепят пластины к ткани и покрыты декоративным узором"
  feature_armor_decoration_grouped_rivets: "Заклепки из [Artifact.GetFeatureText( 'decoration_material_wire' )] крепят пластины к ткани доспеха и образуют декоративный узор"
-  
  artifact_armor_description: "[SCOPE.Custom('ArtifactArmorDesc')]. [newly_created_artifact.GetFeatureText('armor_helmet')]. [newly_created_artifact.GetFeatureText('armor_decoration')]."
-  
  artifact_armor_mail_description: "Хотя сцепленные кольца не оставляют места для украшений, за счет [SCOPE.Custom('ArtifactQuality')] качества сцепки эта кольчуга отличается от прочих"
  artifact_armor_plate_description: "Доспех состоит из больших, [SCOPE.Custom('ArtifactAdverbQuality')] выкованных пластин из [newly_created_artifact.GetFeatureText( 'armor_material' )], полностью покрывающих владельца"
  artifact_armor_scale_description: "Доспех состоит из [SCOPE.Custom('ArtifactAdverbQuality')] чешуек из [newly_created_artifact.GetFeatureText( 'armor_material' )], прикрепленных к кожаной основе"
@@ -607,39 +524,28 @@
  artifact_armor_laminar_description: "Доспех составляют горизонтально перекрывающиеся полоски из [newly_created_artifact.GetFeatureText( 'armor_material' )], [SCOPE.Custom('ArtifactAdverbQuality')] скрепленные шнурами из [newly_created_artifact.GetFeatureText( 'generic_material_cordage' )], в то время как подклад выполнен из [newly_created_artifact.GetFeatureText( 'generic_material_cloth' )]"
  artifact_armor_brigandine_description: "Доспех из [newly_created_artifact.GetFeatureText( 'armor_material' )] [SCOPE.Custom('ArtifactAdverbQuality')] покрыт прямоугольными стальными пластинами и слоем [newly_created_artifact.GetFeatureText( 'generic_material_cloth' )]"
  artifact_armor_fallback_description: "[SCOPE.Custom('ArtifactDecorationArmor')]."
-  
  create_artifact_armor_tooltip: "[inspiration_owner.GetShortUIName] [Select_CString(inspiration_owner.IsFemale, 'выковала', 'выковал' )] [SCOPE.Custom('ArtifactArmorTypeLowercase')] [SCOPE.Custom('ArtifactQuality')] качества"
-  
-  # Regalia 
+ #Regalia
  artifact_regalia_name: "Регалия $artifact_name_prefix$"
  artifact_regalia_description: "[SCOPE.Custom('ArtifactArticleWealth')]ый набор регалий [SCOPE.Custom('ArtifactQuality')] качества. В него входят [newly_created_artifact.GetFeatureText( 'regalia_scepter' )], [newly_created_artifact.GetFeatureText( 'regalia_clothes' )] и [newly_created_artifact.GetFeatureText( 'regalia_accessory' )]."
-  
  feature_regalia_scepter_gemstone: "скипетр из [Artifact.GetFeatureText( 'decoration_material_wire' )], украшенный [Artifact.GetFeatureText( 'decoration_material_gem' )]"
  feature_regalia_accessory_orb: "сфера с крестом из [Artifact.GetFeatureText( 'decoration_material_wire' )]"
  feature_regalia_accessory_necklace: "ожерелье с [Artifact.GetFeatureText( 'decoration_material_gem' )]"
  feature_regalia_clothes_robe: "тонкие одежды из [Artifact.GetFeatureText( 'generic_material_cloth' )], вышитые нитями из [Artifact.GetFeatureText( 'decoration_material_embroidery' )]"
  feature_regalia_clothes_cloak: "плащ из [Artifact.GetFeatureText( 'generic_material_cloth' )], вышитый нитями из [Artifact.GetFeatureText( 'decoration_material_embroidery' )]"
-  
  create_artifact_regalia_tooltip: "[inspiration_owner.GetShortUIName] [Select_CString(inspiration_owner.IsFemale, 'изготовила', 'изготовил' )] набор регалий [SCOPE.Custom('ArtifactQuality')] качества"
-  
-  
-  # Crowns 
+ #Crowns
  artifact_crown_name: "Венец $artifact_name_prefix$"
  artifact_crown_description: "[SCOPE.Custom('ArtifactArticleWealth')]ый венец [SCOPE.Custom('ArtifactQuality')] качества. Выкован из [newly_created_artifact.GetFeatureText( 'decoration_material_wire' )] и [newly_created_artifact.GetFeatureText( 'crown_decoration' )]."
-  
  feature_crown_decoration_gems: "выложен [Artifact.GetFeatureText( 'decoration_material_gem' )]"
  feature_crown_decoration_filigree: "украшен тонкой филигранью"
  feature_crown_decoration_filigree_and_gem: "украшен тонкой филигранью и [Artifact.GetFeatureText( 'decoration_material_gem' )] в центре"
-  
  create_artifact_crown_tooltip: "[inspiration_owner.GetShortUIName] [Select_CString(inspiration_owner.IsFemale, 'выковала', 'выковал' )] венец [SCOPE.Custom('ArtifactQuality')] качества"
-  
-  
-  # Brooches 
+ #Brooches
  artifact_brooch: "Брошь"
  artifact_brooch_pedestal: "$artifact_brooch$"
  artifact_brooch_name: "Брошь $artifact_name_prefix$"
  artifact_brooch_description: "[SCOPE.Custom('ArtifactArticleWealth')]ая брошь [SCOPE.Custom('ArtifactQuality')] качества. [newly_created_artifact.GetFeatureText( 'brooch_decoration' )]."
-  
  feature_brooch_decoration_centerpiece_and_adornment: "Она представлена [Artifact.GetFeatureText( 'brooch_centerpiece' )] [Artifact.GetFeatureText( 'brooch_adornment' )]"
  feature_brooch_decoration_centerpiece: "Она представлена [Artifact.GetFeatureText( 'brooch_centerpiece' )] на застежке из [Artifact.GetFeatureText( 'decoration_material_wire' )]"
  feature_brooch_decoration_adornment: "Она представлена застежкой из [Artifact.GetFeatureText( 'decoration_material_wire' )] [Artifact.GetFeatureText( 'brooch_adornment' )]"
@@ -650,8 +556,7 @@
  feature_brooch_adornment_gems: "с [Artifact.GetFeatureText( 'decoration_material_gem' )] в виде небольших кусочков"
  feature_brooch_adornment_runes: "в окружении кольца из [Artifact.GetFeatureText( 'decoration_material_wire' )] с выгравированными рунами"
  create_artifact_brooch_tooltip: "[inspiration_owner.GetShortUIName] [Select_CString(inspiration_owner.IsFemale, 'выковала', 'выковал' )] [SCOPE.Custom('ArtifactArticleWealth')|l]ую брошь [SCOPE.Custom('ArtifactQuality')] качества"
-  
-  # Rings 
+ #Rings
  artifact_ring: "Кольцо"
  artifact_ring_name: "Кольцо [SCOPE.Custom('ArtifactPrefixGeneric')]"
  artifact_ring_description: "[SCOPE.Custom('ArtifactArticleWealth')]ое кольцо [SCOPE.Custom('ArtifactQuality')] качества. Шинка выполнена из [newly_created_artifact.GetFeatureText( 'generic_material_metal' )] и [newly_created_artifact.GetFeatureText( 'ring_decoration' )]."
@@ -666,23 +571,20 @@
  feature_ring_adornment_religious: "окружена цитатами из #L [Artifact.GetOwner.GetFaith.GetName|l]их#! священных текстов"
  feature_ring_adornment_gems: "с [Artifact.GetFeatureText( 'decoration_material_gem' )] в виде небольших кусочков"
  feature_ring_adornment_runes: "в окружении кольца из [Artifact.GetFeatureText( 'decoration_material_wire' )] с выгравированными рунами"
-  
-  ## fund_inspiration.6001-6006 trinkets from your adventurer 
- morin_khuur_ornament_name: "Украшение маски Морин Хуур"
- morin_khuur_ornament_description: "Изысканная фигура в маске, вырезанная из лошадиной кости, обычно украшающая верхушку скрипки Морин Хуур. Отправлено [owner.GetTitledFirstNameNoTooltip] [inspiration_owner.GetTitledFirstNameNoTooltip] во время приключений [inspiration_owner.GetHerHis]."
+ ## fund_inspiration.6001-6006 trinkets from your adventurer
+ morin_khuur_ornament_name: "Морин хуур в форме лошади"
+ morin_khuur_ornament_description: "Голова лошади, вырезанная из кости лошади, обычно устанавливается на гриф морин хуура. [owner.GetTitledFirstNameNoTooltip] [Select_CString(owner.IsFemale, 'получила', 'получил' )] его из далеких земель, которые [Select_CString(inspiration_owner.IsFemale, 'посещала', 'посещал' )] [inspiration_owner.GetTitledFirstNameNoTooltip]."
  animal_ring_name: "Безвкусное кольцо с тигром"
  animal_ring_description: "Украшенное самоцветами и настолько цветастое, что вы скорее ослепите им своих придворных, а не поразите их чувством стиля. [owner.GetTitledFirstNameNoTooltip] [Select_CString(owner.IsFemale, 'получила', 'получил' )] его из далеких земель, которые [Select_CString(inspiration_owner.IsFemale, 'посетила', 'посетил' )] [inspiration_owner.GetTitledFirstNameNoTooltip] в ходе своих приключений."
  ostrich_shell_necklace_name: "Ожерелье из скорлупы страусиных яиц"
  ostrich_shell_necklace_description: "Хрупкое украшение безупречно-белого цвета. [owner.GetTitledFirstNameNoTooltip] [Select_CString(owner.IsFemale, 'получила', 'получил' )] его из далеких земель, которые [Select_CString(inspiration_owner.IsFemale, 'посещала', 'посещал' )] [inspiration_owner.GetTitledFirstNameNoTooltip]."
- pilgrimage_figurine_name: "Фигурка Waysaint Illioc из кости каракатицы"
- pilgrimage_figurine_description: "Фигурка Иллиока ва Оджейникана, шевальского генерала, сыгравшего важную роль в разгроме [arch_lich|E] Адваги Адвакампии. Его шлем наполнен бронзовыми деталями. Отправлено [owner.GetTitledFirstNameNoTooltip] [inspiration_owner.GetTitledFirstNameNoTooltip] во время приключений [inspiration_owner.GetHerHis]."
- saint_margaret_fingernails_name: "Ногти святой Тисии"
- saint_margaret_fingernails_description: "Агионистка Святая Тисия прославилась тем, что исцелила тысячи людей от чумы, несмотря на глупые теории о распространении болезней, таких как существование маленьких невидимых демонов, которые прилипают к коже, и их можно победить только мытьем рук (и, таким образом, хирурги полагаются на удаление защитного покрытия кожи). на). Предположительно, эти старые отвратительные порезы ногтей принадлежали ей. Отправлено [owner.GetTitledFirstNameNoTooltip] [inspiration_owner.GetTitledFirstNameNoTooltip] во время приключений [inspiration_owner.GetHerHis]."
+ pilgrimage_figurine_name: "Костяная фигура Святого Вардана"
+ pilgrimage_figurine_description: "Фигура Вардана Мамиконяна, армянского военачальника, который отстоял право Армении исповедовать христианство в Аварайрской битве в 451 году. Его шлем украшен вставками из бронзы. [owner.GetTitledFirstNameNoTooltip] [Select_CString(owner.IsFemale, 'получила', 'получил' )] эту фигуру из далеких земель, которые [Select_CString(inspiration_owner.IsFemale, 'посещала', 'посещал' )] [inspiration_owner.GetTitledFirstNameNoTooltip]."
+ saint_margaret_fingernails_name: "Ногти Святой Маргариты"
+ saint_margaret_fingernails_description: "Святая Маргарита Антиохийская прославилась тем, что победила дракона, используя лишь каблуки своей обуви. Предположительно, эти старые безобразные ногти принадлежали ей. [owner.GetTitledFirstNameNoTooltip] [Select_CString(owner.IsFemale, 'получила', 'получил' )] эту реликвию из далеких земель, которые [Select_CString(inspiration_owner.IsFemale, 'посетила', 'посетил' )] [inspiration_owner.GetTitledFirstNameNoTooltip] в ходе своих приключений."
  seahorse_brooch_name: "Золотая брошь с морским коньком"
  seahorse_brooch_description: "Брошь с изящным витым орнаментом под изображением коня с крыльями и рыбьим хвостом. [owner.GetTitledFirstNameNoTooltip] [Select_CString(owner.IsFemale, 'получила', 'получил' )] ее из далеких земель, которые [Select_CString(inspiration_owner.IsFemale, 'посещала', 'посещал' )] [inspiration_owner.GetTitledFirstNameNoTooltip]."
-  
-  
-  #fund_inspiration.6500- trinkets from your adventurer 
+ #fund_inspiration.6500- trinkets from your adventurer
  leopard_hat_name: "Леопардовый шлем"
  leopard_hat_description: "Головной убор из головы леопарда, которого [Select_CString(inspiration_owner.IsFemale, 'сразила', 'сразил' )] [inspiration_owner.GetTitledFirstName]."
  kurgan_ornament_name: "Скифская фигура пантеры"
@@ -691,7 +593,6 @@
  kurgan_saddle_description: "Седло, которое [inspiration_owner.GetTitledFirstName] [Select_CString(inspiration_owner.IsFemale, 'добыла', 'добыл' )] в скифском кургане. Ему более тысячи лет, но оно хорошо сохранилось в гробнице без доступа воздуха, в окружении дюжин мумифицированных лошадей. Возможно, так мы сможем понять искусство древних всадников."
  naked_tapestry_name: "Гобелен с наготой"
  naked_tapestry_description: "Здесь [Select_CString(inspiration_owner.IsFemale, 'изображена', 'изображен' )] [inspiration_owner.GetTitledFirstName] без одежды посреди пустынного оазиса, [Select_CString(inspiration_owner.IsFemale, 'обмахивающаяся', 'обмахивающийся' )] пальмовым листом в окружении сверкающих капель воды."
-  
  frogspawn_jar_name: "Кувшин лягушек"
  frogspawn_jar_description: "Кувшин с вязкой икрой и несколькими головастиками. [inspiration_owner.GetTitledFirstName] [Select_CString(inspiration_owner.IsFemale, 'отправила', 'отправил' )] его в качестве свидетельства ужасов окружающего мира.\n\nКакая мерзость!"
  beaver_book_name: "Дворцы бобров"
@@ -700,8 +601,7 @@
  crocodile_tapestry_description: "Гобелен с крокодилом, который [inspiration_owner.GetTitledFirstName] [Select_CString(inspiration_owner.IsFemale, 'выткала', 'выткал' )] в меру собственных возможностей. Существо ярко-красного цвета с несколькими рядами клыков, ядовитыми наростами и шипастым хвостом. Оно находится в пещере за водопадом в окружении множества яиц."
  mountain_rock_name: "Горный камень"
  mountain_rock_description: "Большой камень, который [inspiration_owner.GetTitledFirstName] [Select_CString(inspiration_owner.IsFemale, 'приволокла', 'приволок' )] из самой земли [mountain_location.GetName]."
-  
-  # Game start additional unique artifacts 
+ #Game start additional unique artifacts
  reichskrone_name: "Имперская корона"
  reichskrone_description: "Эмблема императора Священной Римской империи. Прикует к себе взгляд любого герцога."
  nikephoros_crown_name: "Корона Никифора II Фоки"
@@ -726,12 +626,7 @@
  sutta_pitaka_description: "Во второй части Палийского канона собраны стихи и проповеди, посвященные Будде и его последователям. Написано тхеравадскими буддистами по итогам совета, созванного после смерти Будды."
  abhidhamma_pitaka_name: "Абхидамма-питака"
  abhidhamma_pitaka_description: "В последней части Палийского канона подробно анализируются учения Будды."
-  
-  
-  
-  
-  # Brooches 
-  
+ #Brooches
  brooch_decoration_centerpiece_and_adornment: "Она представлена [SCOPE.Custom('BroochDecorationCenterpiece')] [SCOPE.Custom('BroochDecorationAdornment')]"
  brooch_decoration_centerpiece: "Она представлена [SCOPE.Custom('BroochDecorationCenterpiece')] на застежке из [ROOT.Char.Custom2_Flag('ArtifactMetalType', SCOPE.GetFlagName('fastener_metal'))]"
  brooch_decoration_adornment: "Она представлена застежкой из [ROOT.Char.Custom2_Flag('ArtifactMetalType', SCOPE.GetFlagName('fastener_metal'))] [SCOPE.Custom('BroochDecorationAdornment')]"
@@ -742,7 +637,6 @@
  brooch_adornment_filigree_secondary: "с филигранью из [ROOT.Char.Custom2_Flag('ArtifactMetalType', SCOPE.GetFlagName('adornment_filigree_metal'))]"
  brooch_adornment_gems: "с [ROOT.Char.Custom2_Flag('ArtifactGemType', SCOPE.GetFlagName('adornment_gem'))] в виде небольших кусочков"
  brooch_adornment_runes: "в окружении кольца из [ROOT.Char.Custom2_Flag('ArtifactMetalType', SCOPE.GetFlagName('adornment_runed_ring_metal'))] с выгравированными рунами"
-  
  tiny_sculpture_trinket_name: "Миниатюрная скульптура"
  tiny_sculpture_trinket_description: "[statue_owner.GetTitledFirstNameNoTooltip], [Select_CString(statue_owner.IsFemale, 'представленная', 'представленный' )] в виде крохотной скульптуры. Помещается в кармане, выглядит так, будто вот-вот начнет повелевать. Автор — [inspiration_owner.GetTitledFirstNameNoTooltip]."
  tiny_box_trinket_name: "Миниатюрная шкатулка"
@@ -753,19 +647,15 @@
  tiny_cabinet_trinket_description: "Шкафчик столь малого размера, что его, пожалуй, стоит положить в обычный шкаф — чтобы никто не раздавил. Автор — [inspiration_owner.GetTitledFirstNameNoTooltip]."
  tiny_throne_trinket_name: "Миниатюрный трон"
  tiny_throne_trinket_description: "Престол, достойный короля. Мышиного. Автор — [inspiration_owner.GetTitledFirstNameNoTooltip]."
-  
-  
- #fund_inspiration.6301 same sex love poems 
+ #fund_inspiration.6301 same sex love poems
  prince_archivist_love_poem_name: "Я Луна, ты Солнце"
  prince_archivist_love_poem_description: "Баллада о любви двух мужчин — принца и архивариуса, смотрящих на звезды с вершины башни, вдали от любопытных взглядов, вдвоем среди звезд. По слухам, [inspiration_owner.GetTitledFirstNameNoTooltip] [Select_CString(inspiration_owner.IsFemale, 'писала', 'писал' )] архивариуса с себя."
  witch_queen_love_poem_name: "Сердечные чары"
  witch_queen_love_poem_description: "Поэма о любви двух женщин — ведьмы и королевы, заплутавшей в лесах возле ее хижины. Они находят покой вдали от общества. По слухам, ведьму [inspiration_owner.GetTitledFirstNameNoTooltip] [Select_CString(inspiration_owner.IsFemale, 'писала', 'писал' )] с себя."
-  
-  #Books 
+ #Books
  book_artifact_title_desc: "В обернутом кожей томе описаны все жертвы и тяжкий труд ради изучения такой темы, как [SCOPE.Custom('ArtifactBookSubject')]."
  book_artifact_no_topic_desc: "В обернутом кожей томе дано подробное описание такой темы, как [SCOPE.Custom('ArtifactBookSubject')], с качественными иллюстрациями и красочными маргиналиями."
  book_artifact_other_desc: "В обернутом кожей томе демонстрируется [SCOPE.Custom('ArtifactArticleBookContentQuality')] понимание такой темы, как [SCOPE.Custom('ArtifactBookSubject')], ведь книга затрагивает такие вещи, как [SCOPE.Custom('ArtifactBookTopic')]."
-  
  book_artifact_martial: "военного дела"
  book_artifact_diplomacy: "дипломатии"
  book_artifact_learning: "вопросов науки"
@@ -787,45 +677,37 @@
  book_artifact_unification: "единения"
  book_artifact_creation: "создания"
  book_artifact_restoration: "восстановления"
-  
  book_artifact_topic_herbs_the_art_of_lovemaking: "искусство любви"
  book_artifact_topic_medicine: "использование различных снадобий и мазей"
  book_artifact_topic_herbs: "множественные способы использовать редкие травы и растения"
  book_artifact_topic_witch: "снадобья, мази, травы и необычные ритуалы"
-  
  book_content_quality_excellent: "отличное"
  book_content_quality_deep: "глубокое"
  book_content_quality_good: "хорошее"
  book_content_quality_modest: "скромное"
  create_artifact_book_tooltip: "[inspiration_owner.GetShortUIName] [Select_CString(inspiration_owner.IsFemale, 'написала', 'написал' )] [SCOPE.Custom('ArtifactArticleWealth')|l]ую книгу [SCOPE.Custom('ArtifactQuality')] качества."
-  
  create_artifact_artisan_tooltip: "[inspiration_owner.GetShortUIName] [Select_CString(inspiration_owner.IsFemale,  'выковала', 'выковал' )] [inspiration_owner.Custom('InspirationArtisanType')] [SCOPE.Custom('ArtifactQuality')] качества"
-  
  create_artifact_smith_tooltip: "[inspiration_owner.GetShortUIName] [Select_CString(inspiration_owner.IsFemale,  'выковала', 'выковал' )] [inspiration_owner.Custom('InspirationSmithType')] [SCOPE.Custom('ArtifactQuality')] качества"
  feature_blade_wrought_iron: "кованого железа"
  feature_blade_folded_iron: "сфальцованного железа"
  feature_blade_steel: "стали"
  feature_blade_wootz_steel: "тигельной стали"
  feature_blade_bulat_steel: "булатной стали"
- feature_blade_damascus_steel: "Кафасали сталь"
-  
-  ## Character Modifiers made to artifacts ## 
-  
-  # From court_ongoing_1021 
+ feature_blade_damascus_steel: "дамасской стали"
+ ## Character Modifiers made to artifacts ##
+ #From court_ongoing_1021
  artifact_necklace: "Ожерелье"
  artifact_necklace_pedestal: "$artifact_necklace$"
  artifact_necklace_name: "Ожерелье из [newly_created_artifact.GetFeatureText( 'decoration_material_wire' )] и [newly_created_artifact.GetFeatureText( 'decoration_material_gem' )]"
  artifact_necklace_description: "[SCOPE.Custom('ArtifactArticleWealth')]ое, но изящное ожерелье [SCOPE.Custom('ArtifactQuality')] качества. Выковано из [newly_created_artifact.GetFeatureText( 'decoration_material_wire' )] и украшено великолепным кулоном из [newly_created_artifact.GetFeatureText( 'decoration_material_gem' )]."
  artifact_pressed_flower_name: "[SCOPE.Custom('ArtifactFlowerSpecies')|U]"
  artifact_pressed_flower_description: "Прекрасный цветок — [SCOPE.Custom('ArtifactFlowerSpecies')] — засушенный, чтобы сохранить его красоту."
-  
-  # From stewardship_wealth.1061 
+ #From stewardship_wealth.1061
  stewardship_old_ledger_name: "Старая учетная книга"
  stewardship_old_ledger_description: "Старый, пыльный фолиант, полный небрежных записей и финансовых отчетов. Пригодится тем, кто не знает, как выглядит книга учета."
  feature_book_title_stewardship_old_ledger: "$stewardship_old_ledger_name$"
  feature_book_topic_stewardship_old_ledger: "$stewardship_old_ledger_description$"
-  
-  # From lover.3219 
+ #From lover.3219
  lover_keepsake_hair_name: "Локон, который [Select_CString(original_lover.IsFemale, 'подарила', 'подарил' )] [original_lover.GetFirstNameNoTooltip]"
  lover_keepsake_hair_description: "Памятный подарок, который [original_lover.GetTitledFirstName] [Select_CString(original_lover.IsFemale, 'подарила', 'подарил' )] дорогому человеку. [lover.GetTitledFirstNameNoTooltip] живет далеко, но теперь у н[lover.GetHerHis] всегда будет при себе частичка [Select_CString(original_lover.IsFemale, 'возлюбленной', 'возлюбленного' )]."
  lover_keepsake_clothes_male_name: "Брэ, которые [Select_CString(original_lover.IsFemale, 'носила', 'носил' )] [original_lover.GetTitledFirstNameNoTooltip]"
@@ -833,11 +715,10 @@
  lover_keepsake_clothes_description: "Самые интимные предметы туалета, которые [original_lover.GetTitledFirstName] [Select_CString(original_lover.IsFemale, 'отправила', 'отправил' )] дорогому человеку. [lover.GetTitledFirstNameNoTooltip] живет далеко, но теперь пламя, разожженное их подвигами в постели, долго не угаснет у н[lover.GetHerHis] в душе. "
  lover_keepsake_shell_name: "Ракушка, которую [Select_CString(original_lover.IsFemale, 'подарила', 'подарил' )] [original_lover.GetFirstNameNoTooltip]"
  lover_keepsake_shell_description: "Памятный подарок, который [original_lover.GetTitledFirstName] [Select_CString(original_lover.IsFemale, 'подарила', 'подарил' )] дорогому человеку. [lover.GetTitledFirstNameNoTooltip] живет далеко, но этот дар будет всегда напоминать [lover.GetHerHim] об их первой встрече."
-  
- ## christian_saint_bone pilgrim reward 
+ ## christian_saint_bone pilgrim reward
  christian_saint_bone_name: "[saint_bone_owner.Custom('RandomSaintBone')|U] [saint_bone_owner.Custom('RandomSaintNamePossessive')]"
  christian_saint_bone_description: "Знаменитые останки [saint_bone_owner.GetFaith.GetReligion.GetNameNoTooltip|l]ого святого, которые [saint_bone_owner.GetNameNoTooltip] [Select_CString(saint_bone_owner.IsFemale, 'добыла', 'добыл' )] во время паломничества. [christian_saint_bone_scope.MakeScope.Var('holy_site').GetProvince.GetCounty.GetTitle.GetNameNoTierNoTooltip] — святое место, и этот дар [saint_bone_owner.GetFaith.GetAdherentNamePluralNoTooltip|l] считают символом удачи и благочестия."
- # bones 
+ #bones
  bone_type_knuckle: "фаланга пальца"
  bone_type_shin: "Шин"
  bone_type_kneecap: "коленная чашечка"
@@ -854,8 +735,7 @@
  bone_type_humerus: "плечевая кость"
  bone_type_tibia: "берцовая кость"
  bone_type_ankle: "лодыжка"
-  
-  # yearly.4081 
+ #yearly.4081
  translated_arabic_book_de_materia_medica_name: "#italic О лекарственных веществах#!"
  translated_arabic_book_de_materia_medica_desc: "Иллюстрированный список пятитомника Диоскорида о применении различных растений в медицине, написанный в древней Александрии $translated_arabic_book_shared_desc$"
  translated_arabic_book_on_ascensions_name: "#italic О восхождениях#!"
@@ -869,23 +749,18 @@
  translated_arabic_book_plutarch_name: "#italic «Сравнительные жизнеописания» Плутарха#!"
  translated_arabic_book_plutarch_desc: "Список сравнительных биографий выдающихся лидеров древних времен с описаниями их моральных качеств $translated_arabic_book_shared_desc$"
  translated_arabic_book_shared_desc: "— перевод с греческого на арабский [Select_CString(ROOT.Char.IsFemale, 'заказала', 'заказал' )] [ROOT.Char.GetTitledFirstNameNoTooltipRegnal]."
-  
-  # hold_court.4300 
+ #hold_court.4300
  dress_me_artifact_desc: "Изысканное одеяние от лучших портных, которое [ROOT.Char.GetTitledFirstNameNoTooltipRegnal] [Select_CString(ROOT.Char.IsFemale, 'заказала', 'заказал' )], чтобы впечатлить двор своим великолепием."
-  
-  # martial_authority.4000-5 
+ #martial_authority.4000-5
  improvised_halberd_desc: "Кустарная алебарда, увенчанная секачом, благодаря которому это оружие довольно эффективно в сражении."
  improvised_dagger_desc: "Этот импровизированный кинжал был выкован из крестьянского инструмента и унаследовал от него удобность и способность резать."
  improvised_billhook_desc: "Этот одноручный секач использовался для обрезки кустов. Это оружие едва ли достойно короля, но его изогнутый клинок на удивление легко находит бреши в доспехах."
-  
-  # yearly_event.7010-50 
+ #yearly_event.7010-50
  football_cup_desc: "Этот кубок был изготовлен в честь победы в футбольном матче."
  participation_trophy_desc: "Этот кубок был изготовлен в честь «победы» в футбольном матче."
-  
-  #bp1_yearly.7200 
+ #bp1_yearly.7200
  perfume_bottle_description: "[ROOT.Char.GetFirstNameNoTooltip] [Select_CString(ROOT.Char.IsFemale, 'собрала', 'собрал' )] ингредиенты для этого благовония."
-  
-  # travel_events.4005 
+ #travel_events.4005
  maritime_trading_handbook: "Справочник морской торговли"
  maritime_trading_handbook_description: "Умело написанный справочник о природе [merchant_character_scope.GetCulture.GetCollectiveNoun|l]ой морской торговли."
  own_holy_text_mid: "[ROOT.Char.GetFaith.ReligiousText|U] с самоцветами"
@@ -908,8 +783,7 @@
  mysterious_puzzle_description: "Причудливая золотая головоломка, покрытая надписями на иностранном языке. По слухам, она когда-то принадлежала выдающемуся знатоку игр."
  lunchbox: "Консервирующий ящик"
  lunchbox_description: "Герметичный ящик, который, судя по всему, продлевает срок годности помещенной внутрь пищи."
-  
-  #Artifact Titles 
+ #Artifact Titles
  artifact_title_valor: "доблести"
  artifact_title_virtue: "добродетели"
  artifact_title_pain: "боли"
@@ -954,7 +828,7 @@
  artifact_title_snakes: "змей"
  artifact_title_themerciless: "беспощадного воина"
  artifact_title_glory: "славы"
- # Additional Historical Artifacts 
+ #Additional Historical Artifacts
  artifact_pedestal_koh_i_noor_name: "Гора света"
  artifact_pedestal_koh_i_noor_description: "Бриллиант, не имеющий себе равных в размере и чистоте. Говорят, его добыли в шахтах на юго-востоке Индии, но его истинное происхождение остается загадкой."
  artifact_jewelled_danda_name: "Данда с самоцветами"
@@ -1071,8 +945,8 @@
  water_filter_konagamana_desc: "Конагамана, второй Будда нынешней кальпы, носил это ситечко для воды в своих странствиях. Этот простой кусочек ткани помогал фильтровать воду и устранять насекомых, не причиняя им вреда."
  robe_kassapa: "Часть одеяния Кассапы"
  robe_kassapa_desc: "Кассапа, третий Будда нынешней кальпы, носил это одеяние на протяжении большей части своей жизни. Этот на удивление простой кусок ткани имеет особое значение как единственный уцелевший фрагмент одеяния Будды."
-  ##Trinket Generation 
-  #Bad/Trash 
+ ##Trinket Generation
+ #Bad/Trash
  gilded_rats_tail: "Позолоченный крысиный хвост"
  gilded_rats_tail.desc: "Украшение бедняка."
  quail_eggshell_gem: "«Драгоценность» из перепелиных яиц"
@@ -1081,26 +955,26 @@
  stained_glass_shard.desc: "Похоже, его покрывают подтеки кроваво-красного цвета..."
  xylospongium: "Губка на палке"
  xylospongium.desc: "Происхождение и назначение неизвестны, но она источает слабый неприятный запах."
-  #Common 
- st_davids_morsel: "Кусочек Уэйсент-Дэвиана"
+ #Common
+ st_davids_morsel: "Кусочек Св. Давида"
  st_davids_morsel.desc: "Похоже на кусок вяленого мяса. Возраст и происхождение неизвестны."
  platypus_figurine: "Фигурка животного"
  platypus_figurine.desc: "У этого животного широкий клюв, блестящий мех и плавники. Как необычно."
  terracotta_toy_fowl: "Терракотовая курица"
  terracotta_toy_fowl.desc: "Потертости на поверхности показывают, что этой игрушкой когда-то дорожили."
-  #This one uses a scope local to the stewardship_general.2001-event 
+ #This one uses a scope local to the stewardship_general.2001-event
  stewardship_general.2001.artifact.potsherd_holy: "Глиняный черепок"
  stewardship_general.2001.artifact.potsherd_holy.desc: "Древний черепок. Предположительно, он происходит из священного места [trinket_holy_site.GetNameNoTierNoTooltip]."
  small_bell_beaker: "Малый колоколовидный кубок"
  small_bell_beaker.desc: "Колоколовидный кубок с замысловатым узором."
  serpentine_budai: "Хотэй из змеевика"
  serpentine_budai.desc: "Небольшой образ тучного, смеющегося лысого человека."
-  #Uncommon 
+ #Uncommon
  mythical_creature_horn: "Рог, что носит [ROOT.Char.Custom('HornedMythicalCreature')|U]"
  mythical_creature_horn.desc: "Кусок рога странной формы. Предположительно, такими рогами владеет [ROOT.Char.Custom('HornedMythicalCreature')]."
  mythical_creature_figurine: "Фигурка [ROOT.Char.Custom('TrinketLookAdjective')|l] — [ROOT.Char.Custom('RegionalMythicalCreature')]"
  mythical_creature_figurine.desc: "Эта фигурка передает образ мифологического существа. [ROOT.Char.Custom('RegionalMythicalCreature')] выглядит [ROOT.Char.Custom('TrinketLookAdverbFollowup')], с небольшими драгоценными камнями, которыми славится [target_location.GetNameNoTooltip]."
- st_davids_taper: "Тонкий конус Waysaint Davian"
+ st_davids_taper: "Свеча Св. Давида"
  st_davids_taper.desc: "Похоже, кто-то пытался жечь ее с обеих сторон."
  jira_stick: "Мраморный скипетр Джиры"
  jira_stick.desc: "Несмотря на частое использование, заостренный кончик всё равно внушает уважение."
@@ -1108,16 +982,15 @@
  lucky_coin.desc: "[ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]ая монета, такие чеканит [target_location.GetNameNoTooltip].\n\nНекогда рифленая поверхность стала гладкой из-за частых касаний."
  lavender_jade_pendant: "Лавандовый нефритовый талисман"
  lavender_jade_pendant.desc: "Яркие пурпурные полосы вызывают изумление."
-  #Rare 
+ #Rare
  sekhmet_ring: "Старый перстень-печатка"
  sekhmet_ring.desc: "На золотом кольце выгравировано изображение человека в причудливом шлеме."
  scarab_brooch: "Древняя брошь-скарабей"
  scarab_brooch.desc: "Брошь изящной работы в форме скарабея. Говорят, что покрывающие ее изумруды даруют здоровье."
-  
-  # Easter eggs 
+ #Easter eggs
  easteregg_artifact_elisabeth_plush: "Лисье чучело Елизаветы"
  easteregg_artifact_elisabeth_plush_description: "Лисье чучело Елизаветы — любимая игрушка, сопровождавшая свою владелицу на протяжении почти всей жизни. Часто видели, как Елизавета общалась с лисой, составляя сложные шифры для своего нанимателя. Чучело успокаивает и вдохновляет владельца уподобиться в хитроумии лисе."
- easteregg_artifact_nicks_weapon: "Фракас" #Машинный перевод 28.10.23
+ easteregg_artifact_nicks_weapon: "Веселый тюремщик"
  easteregg_artifact_nicks_weapon_description: "Поистине великолепное оружие, при виде которого любой лишится чувств. Небольшая надпись на рукояти гласит: «Когда уловки бессильны»."
  easteregg_artifact_chad_book: "«Энеида» с пометками"
  easteregg_artifact_chad_book_description: "Ценимая и украшенная копия «Энеиды» Вергилия со множеством пометок, как глупых, так и стоящих внимания."
@@ -1125,21 +998,16 @@
  easteregg_artifact_chad_dagger_description: "Блеск клинка померк от потеков засохшей крови, но ему все мало."
  easteregg_artifact_veronica_book: "Кольца властелина"
  easteregg_artifact_veronica_book_description: "Слабо завуалированная отсылка в виде книги. Написана на безупречном португальском."
-  
  easteregg_artifact_jason_sword: "Меч св. Мартина"
  easteregg_artifact_jason_sword_description: "Вдоль дола клинка кто-то небрежно нацарапал: «Я то, что есть»."
-  
  child_toy_template_tt: "Только [Concept( 'child', 'ребенок' )|E] может использовать этот [Concept( 'inventory_artifact', 'личный артефакт' )|E]"
-  
-  # Blessed Junk 
+ #Blessed Junk
  fp2_blessed_junk: "Фигурка [ROOT.Char.Custom('TrinketLookAdjective')|l] — $blessed_artifact_modifier$"
  fp2_blessed_junk_desc: "[ROOT.Char.Custom('TrinketLookAdverbFollowup')|U] [ROOT.Char.Custom('TrinketLookAdjective')|l], но в остальном бесполезный артефакт. $blessed_artifact_modifier_desc$."
-  
  local_artisan_modifier: "Местный ремесленник"
  local_artisan_modifier_desc: "Этот персонаж — местный ремесленник, которого правитель убедил поступить к нему на службу.\n#weak Результаты его [Concept( 'inspirations', 'вдохновения' )|E] будут более низкого качества.#!"
-  
-  # EP2 
-  # TOURNAMENT 
+ #EP2
+ #TOURNAMENT
  artifact_pas_darmes_token: "Сувенир падарма"
  artifact_pas_darmes_token_name: "Сувенир персонажа [owner.GetFirstNameNoTooltip]"
  artifact_pas_darmes_token_description: "[owner.Custom('GetTournamentFavor')|U] из [newly_created_artifact.GetFeatureText( 'generic_material_cloth' )] [SCOPE.Custom('ArtifactQuality')] качества с узором — [newly_created_artifact.GetFeatureText( 'decoration_pattern' )]. Предыдущий владелец — [owner.GetFullName]. [winner.GetFullName] [Select_CString(winner.IsFemale, 'получила', 'получил' )] эту вещицу за победу в падарме во владении [location.GetName]."
@@ -1149,7 +1017,7 @@
  artifact_tournament_favor: "Турнирная благосклонность"
  artifact_tournament_favor_name: "Знак расположения [Select_CString(owner.IsFemale, 'госпожи', 'господина' )]"
  artifact_tournament_favor_description: "[owner.Custom('GetTournamentFavor')|U] из [newly_created_artifact.GetFeatureText( 'generic_material_cloth' )] [SCOPE.Custom('ArtifactQuality')] качества с узором — [newly_created_artifact.GetFeatureText( 'decoration_pattern' )]. [recipient.GetFullName] [Select_CString(recipient.IsFemale, 'получила', 'получил' )] эту вещицу за от [Select_CString(owner.IsFemale, 'поклонницы', 'поклонника' )]."
-  # BOWS 
+ #BOWS
  artifact_longbow: "Длинный лук"
  artifact_longbow_name: "Длинный лук [owner.GetCulture.GetCollectiveNounNoTooltip|l]ого народа"
  artifact_longbow_description: "Длинный лук [SCOPE.Custom('ArtifactQuality')] качества, материалом для которого служит [newly_created_artifact.GetFeatureText( 'longbow_wood' )] — упругая древесина и прочная сердцевина отлично сочетаются с тетивой из [newly_created_artifact.GetFeatureText( 'bow_string' )]. Этот лук больше человеческого роста и обладает на редкость большой силой натяжения."
@@ -1191,19 +1059,15 @@
  feature_bow_string_rawhide: "сыромятной кожи"
  feature_bow_string_silk: "шелка"
  feature_bow_string_sinew: "животных жил"
-  
  tournament_favor_glove: "перчатка"
  tournament_favor_sleeve: "муфта"
  tournament_favor_scarf: "шарф"
-  
  blooded_blade: "Кровавый клинок"
  blooded_blade_description: "Вихрящийся, изломанный узор на оружии намекает на относительную хрупкость клинка и на его происхождение: [ROOT.Char.GetTitledFirstName] [Select_CString(ROOT.Char.IsFemale, 'дала', 'дал' )] свою кровь, чтобы закалить его."
  sullied_blooded_blade: "Запятнанный клинок"
  sullied_blooded_blade_description: "Вихрящийся, изломанный узор на оружии намекает на довольно низкое качество клинка и на его происхождение: [ROOT.Char.GetTitledFirstName] [Select_CString(ROOT.Char.IsFemale, 'дала', 'дал' )] свою кровь, чтобы закалить его."
-  
  fake_papal_tiara_name: "Поддельная папская тиара"
  fake_papal_tiara_description: "Копия папской митры, хотя при близком рассмотрении можно найти отличия. Но все равно забавно, не так ли?"
-  
  artisanal_sword: "Меч, которым владеет [ROOT.Char.GetFirstName]"
  artisanal_sword_description: "Меч превосходной ковки с украшенным самоцветами яблоком и красивой, но надежной рукоятью. Покрытый узорами клинок идеально сбалансирован, его кончик сужается до тончайшего острия."
  feature_generic_material_metal_gold: "золота"
@@ -1219,3 +1083,17 @@
  feature_generic_material_earthware_terracotta: "$earthware_terracotta$"
  feature_generic_material_earthware_stone: "$earthware_stone$"
  feature_generic_material_earthware_porcelain: "$earthware_porcelain$"
+ #FP3 artifacts
+ artifact_oxus_bracelet_name: "Оксианский браслет"
+ artifact_oxus_bracelet_description: "Говорят, что этот великолепно изготовленный браслет прибыл из земель Мавераннахра. Хотя украшавшие его эмаль и полудрагоценные камни давно утеряны, золото не утратило свой блеск. В древности при дворе царя царей подобные браслеты были почетными дарами, и, возможно, этот браслет когда-то красовался на руке знатного вавилонского вельможи."
+ fp3_incense_burner_sculpture: "Скульптура-курительница"
+ fp3_incense_burner_sculpture_desc: "Курительница в форме кошки испускает дым из множества отверстий. В голове с глазами-самоцветами есть шарнир, позволяющий поместить внутрь кошки горящие благовония."
+ fp3_ancient_drinking_vessel: "Ахеменидский питейный сосуд"
+ fp3_ancient_drinking_vessel_desc: "Эта узорная чаша заканчивается изображением козы. Она была выполнена в незапамятные времена, но красота изделия не померкла."
+ artifact_sassanian_sword_name: "Сасанидский меч"
+ artifact_sassanian_sword_description: "Этот меч $sassanian_sword_description_base$ считается реликтом эпохи Сасанидов и являет собой великолепное зрелище. Хотя к настоящему времени он стал слишком хрупким для сражений, возможно, когда-то этим мечом владел ныне забытый герой?"
+ artifact_sassanian_replica_sword_name: "Меч в сасанидском стиле"
+ sassanian_sword_description_base: "с несколькими самоцветами и замысловатым узором"
+ famed_replica_sassanian_sword_description: "Этот меч вдохновлен образами славы ушедшей эпохи и воспевает героическое прошлое предков своего создателя. Это великолепное оружие $sassanian_sword_description_base$. Любой взявший его уподобляется легендарным царям древности."
+ masterwork_replica_sassanian_sword_description: "Этот меч явно должен был быть подобен искусному оружию древности и увековечивать героическое прошлое предков своего создателя. Это оружие $sassanian_sword_description_base$. Пусть это лишь отголосок прошлого, любой может представить себя могучим владыкой древности, взяв в руки этот меч."
+ common_replica_sassanian_sword_description: "Эта жалкая пародия насмехается над предками своего создателя. Меч украшен дешевыми камнями и грубыми, рваными узорами. Владелец такого меча будет выглядеть заблудшим глупцом, мечтающим вернуть давно ушедшую эпоху."

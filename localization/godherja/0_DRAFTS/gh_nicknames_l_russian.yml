@@ -235,6 +235,8 @@
  nick_bloodiest: "Самый кровавый" #Машинный перевод 28.10.23
   
  nick_bane_star: "Бэйн-Звезда" #Машинный перевод 28.10.23
+
+ nick_the_woe_of_the_dragonkin:0 "the Woe of the Dragonkin"
   
   # SARRADON # 
  nick_ironheart: "Железное сердце" #Машинный перевод 28.10.23
@@ -523,6 +525,9 @@
  nick_the_able_ansfrei: "Способный" #Машинный перевод 28.10.23
   
  nick_the_opulent_odel: "Роскошный" #Машинный перевод 28.10.23
+ 
+ nick_iron_eye_gavan:0 "Iron Eye"
+ nick_iron_eye_gavan_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] is well known for having an eye made of iron that stares as harshly as the real one."
   
   # MISC # 
  nick_the_rebuker: "обличитель" #Машинный перевод 28.10.23

@@ -38,4 +38,3 @@
  LEGACY_HOSTED_ACTIVITIES: "#T Устроено [Concept( 'activities', 'занятий' )|E]: [LegacyItem.GetNumActivitiesHosted]#!\n[LegacyItem.GetActivitiesHostedTooltip]"
  LEGACY_ATTENDED_ACTIVITIES: "#T Посещено [Concept( 'activities', 'занятий' )|E]: [LegacyItem.GetNumActivitiesAttended]#!\n[LegacyItem.GetActivitiesAttendedTooltip]"
  LEGACY_ACTIVITY_ENTRY: "$EFFECT_LIST_BULLET$[ActivityType.GetName]: $COUNT$"
-  

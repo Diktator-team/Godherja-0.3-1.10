@@ -3,9 +3,9 @@
  #rejection Loc 
  rejection_religion: "Отвержение" 
  rejection_religion_adj: "Отвержение" 
- rejection_religion_adherent: "Неверующий" 
- rejection_religion_adherent_plural: "Неверующие"
- rejection_religion_desc: "Отвержение — это всеобъемлющий термин для обозначения различных «убеждений» [Concept('lich','личей')|E] из [Concept('lichdoms','личдома')|E]. Неудивительно, что они склонны избегать всех ранее организованных религий, хотя то, чем они их заменяют, может отличаться. Некоторые объявляют себя ходячими богами, творцами жизни и смерти, пришедшими изменить мир по своему образу. Другие осуждают все религии, мотивируя это тем, что ни на небе, ни на земле нет ничего более великого, чем они сами." 
+ rejection_religion_adherent: "Неверующий" #Машинный перевод 28.10.23
+ rejection_religion_adherent_plural: "Неверующие" #Машинный перевод 28.10.23
+ rejection_religion_desc: "Отвержение — это всеобъемлющий термин для обозначения различных «убеждений» [liches|E] из [lichdoms|E]. Неудивительно, что они склонны избегать всех ранее организованных религий, хотя то, чем они их заменяют, может варьироваться. Некоторые объявляют себя ходячими богами, творцами жизни и смерти, пришедшими изменить мир по своему образу. Другие осуждают все религии, мотивируя это тем, что ни на небе, ни на земле нет ничего более великого, чем они сами." #Машинный перевод 28.10.23
  rejection_religion_high_god_name: "[ROOT.GetCharacter.GetFullNameNoTooltip]" #Машинный перевод 28.10.23
  rejection_religion_high_god_name_possessive: "[ROOT.GetCharacter.GetFullNameNoTooltip]" #Машинный перевод 28.10.23
  rejection_religion_high_god_name_alternate: "[ROOT.GetCharacter.GetFirstNameNoTooltip]" #Машинный перевод 28.10.23
@@ -17,17 +17,17 @@
   
   
   
- rejection_religion_house_of_worship: "Храм" 
- rejection_religion_house_of_worship_plural: "Храмы" 
- rejection_religion_religious_symbol: "Череп лича" 
+ rejection_religion_house_of_worship: "Храм" #Машинный перевод 28.10.23
+ rejection_religion_house_of_worship_plural: "Храмы" #Машинный перевод 28.10.23
+ rejection_religion_religious_symbol: "череп лича" #Машинный перевод 28.10.23
  rejection_religion_religious_text: "мои заказы" #Машинный перевод 28.10.23
   
- rejection_religion_religious_head_title: "Архилич" 
- rejection_religion_religious_head_title_name: "Архи-Личерия" 
- rejection_religion_devotee_male: "Помощник" 
- rejection_religion_devotee_male_plural: "помощники" 
- rejection_religion_devotee_female: "Помощница" 
- rejection_religion_devotee_female_plural: "Помощницы" 
+ rejection_religion_religious_head_title: "Архилич" #Машинный перевод 28.10.23
+ rejection_religion_religious_head_title_name: "Архи-Лишерия" #Машинный перевод 28.10.23
+ rejection_religion_devotee_male: "помощник" #Машинный перевод 28.10.23
+ rejection_religion_devotee_male_plural: "помощники" #Машинный перевод 28.10.23
+ rejection_religion_devotee_female: "помощник" #Машинный перевод 28.10.23
+ rejection_religion_devotee_female_plural: "помощники" #Машинный перевод 28.10.23
  rejection_religion_devotee_neuter: "Апти" #Машинный перевод 28.10.23
  rejection_religion_devotee_neuter_plural: "Апти" #Машинный перевод 28.10.23
  rejection_religion_priest_male: "Верховный Послушник" #Машинный перевод 28.10.23
@@ -68,7 +68,7 @@
   #rejection loc 
  rejection: "Отвержение" 
  rejection_adj: "Отвержение" 
- rejection_adherent: "Неверующий" 
- rejection_adherent_plural: "Неверующие" 
- rejection_desc: "Далекие от систематизированной религии, культы, основанные на Отвержении, обычно имеют только две общие черты. Первое — это отказ признать какую-либо высшую силу, кроме [Concept('lich','лича')|E], который ее возглавляет. Во-вторых, число приверженцев обычно равняется примерно одному, если не учитывать случаи, когда легионам безмозглой [Concept('gh_general_undead','нежити')|E]-рабов приказано поклоняться своим хозяевам." 
+ rejection_adherent: "Неверующий" #Машинный перевод 28.10.23
+ rejection_adherent_plural: "Неверующие" #Машинный перевод 28.10.23
+ rejection_desc: "Далекие от систематизированной религии, культы, основанные на Отвержении, обычно имеют только две общие черты. Первое — это отказ признать какую-либо высшую силу, кроме [lich|E], которая ее возглавляет. Во-вторых, число приверженцев обычно равняется примерно одному, если не учитывать случаи, когда легионам безмозглых [Concept('gh_general_undead','нежить')|E] рабов приказано поклоняться своим хозяевам." 
   

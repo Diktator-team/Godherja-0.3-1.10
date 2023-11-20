@@ -8,8 +8,6 @@
  DLC_NOT_ENABLED: "DLC #X не#! включено"
  DLC_FEATURES: "Особенности:"
  DLC_BUTTON_TOOLTIP: "#T [DlcItem.GetDlc.GetName]#!\n[DlcItem.GetDlc.GetDesc]\n\n#low [SelectLocalization( DlcItem.GetDlc.IsEnabled, 'DLC_ENABLED', 'DLC_NOT_ENABLED' )]#!\n#I Щелкните, чтобы посетить магазин#!"
- DLC_GH_BUTTON_TOOLTIP: "#T [DlcItem.GetDlc.GetName]#!\n[DlcItem.GetDlc.GetDesc]\n\n#low DLC включен#!" #Машинный перевод 28.10.23
-  
  DLC001_PREORDER: "Garments of the Holy Roman Empire"
  DLC002_SP_DAY1: "Fashion of the Abbasid Court"
  DLC003_FP1: "The Northern Lords"
@@ -19,8 +17,7 @@
  DLC007_EP2: "Tours and Tournaments"
  DLC008_SP2: "Elegance of the Empire"
  DLC009_BP2: "Wards & Wardens"
-  
-  
+ DLC010_FP3: "Legacy of Persia"
  dlc_001: "$DLC001_PREORDER$"
  dlc_001_desc: "Погрузитесь в атмосферу Священной Римской империи с набором нарядов для простолюдинов, воинов и правителей Центральной Европы."
  dlc_002: "$DLC002_SP_DAY1$"
@@ -39,3 +36,5 @@
  dlc_008_desc: "Оденьте своих правителей в лучшие наряды из этого набора одежды. В него вошли не только новые мантии и платья, вдохновленные одеяниями и регалиями императора Генриха II и его супруги Кунигунды, но и аутентичные короны и другие предметы. Доступно только обладателям Chapter II."
  dlc_009: "$DLC009_BP2$"
  dlc_009_desc: "В дополнении Wards & Wardens на первое место выходят дети-правители и их опекуны. Воспитывайте юных принцев и дворян в мире, где от вечной славы отделяет одно сражение, а опасность таится в каждой тени."
+ dlc_010: "$DLC010_FP3$"
+ dlc_010_desc: "Сасанидской империи давно нет, Аббасидский халифат напирает на оставшиеся иранские династии, желая подчинить их. Как поступите вы: приспособитесь к обстоятельствам или создадите новую империю? Будущее Персии — в ваших руках!"

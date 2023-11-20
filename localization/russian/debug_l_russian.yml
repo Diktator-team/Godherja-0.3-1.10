@@ -6,20 +6,17 @@
  debug.0002.c: "Мне двойню, пожалуйста"
  debug.0002.d: "Троих, пожалуйста"
  debug.0002.e: "Удивите меня"
-  
  debug_9601.t: "Собаки не умеют смотреть вверх"
  debug_9601.desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere urna id sollicitudin condimentum. Duis vitae augue quis massa tristique consectetur vel sit amet velit.\n\nProin bibendum ligula non magna elementum viverra. Duis vel turpis posuere, vestibulum felis a, pellentesque magna. Vivamus cursus convallis sapien, at sodales eros molestie in. Suspendisse lorem leo, tempor nec sem vel, condimentum ultrices erat.\n\nDuis id felis nibh. Proin feugiat dui consectetur, rutrum lectus scelerisque, aliquet neque. Quisque ut arcu at orci interdum venenatis vel vitae elit. Phasellus congue neque in diam porta dictum. Etiam eu odio quis tortor pretium porta non in nisl. Duis."
  debug_9601.a: "Собаки не умеют"
  debug_9601.b: "Собаки умеют"
  debug_9601.c: "Да, но кошки"
  debug_9601.d: "Я не соглашаюсь с животными"
-  
  debug_generic_option: "#D Это вариант для отладки#!"
  debug_generic_option_can_disable_text: "#D , он исчезнет, если отключить отладку#!"
  debug_generic_option_can_disable: "$debug_generic_option$$debug_generic_option_can_disable_text$"
  debug_generic_option_shortened_trigger: "#D Этот триггер был укорочен из-за того, что вы включили режим отладки#!"
  debug_generic_option_shortened_trigger_can_disable: "$debug_generic_option_shortened_trigger$$debug_generic_option_can_disable_text$"
-  
  interaction_debug_main: "#D ОТЛАДКА: Взаимодействие#!"
  debug_main: "#D ОТЛАДКА: Основное#!"
  add_to_court_interaction: "Добавить ко двору"
@@ -35,6 +32,7 @@
  add_hook_interaction: "Добавить влияние"
  add_weak_hook_interaction: "Слабое влияние"
  add_strong_hook_interaction: "Сильное влияние"
+ add_perpetual_hook_interaction: "Вечное влияние"
  send_friendliness: "Уведомить о дружелюбии"
  send_antagonism: "Уведомить о враждебности"
  give_crush_on_me: "Влюбить в меня"
@@ -102,6 +100,9 @@
  debug_sex_interaction: "#italic Спать#! с персонажем"
  debug_change_every_county: "Использовать действие в каждом графстве"
  debug_change_every_county.a: "Полностью под контролем"
+ debug_change_every_county.b: "Устанавливает народное мнение равным:"
+ debug_change_every_county.b.a: "$debug_change_every_county.b$ $game_concept_high$"
+ debug_change_every_county.b.b: "$debug_change_every_county.b$ $curse_shit$"
  test_effect_localization_interaction: "Проверить локализацию эффекта взаимодействия"
  change_cultural_acceptance_debug_interaction: "Изменить терпимость культур"
  increase_cultural_acceptance_debug_interaction: "Терпимость культур #P +25%#!"
@@ -129,7 +130,6 @@
  do_a_crime_embezzle_interaction_steal_x1: "Украсть одну монету"
  do_a_crime_embezzle_interaction_steal_x100: "Украсть сто монет"
  do_a_crime_embezzle_interaction_steal_x1000: "Украсть тысячу монет"
-  
  add_artifact_interaction: "Даровать артефакт"
  add_artifact_interaction_weapon: "Оружие"
  add_artifact_interaction_armor: "Доспех"
@@ -148,9 +148,6 @@
  take_artifact_player: "Дать игроку"
  give_away_random_artifact_interaction: "Дать случайному соседу"
  take_artifact_interaction: "Взять артефакт"
-  
-  
-  
  inspire_interaction: "Вдохновить"
  inspire_interaction_book: "Вдохновляется на написание книги"
  inspire_interaction_weaver: "Вдохновляется на вышивку"
@@ -168,10 +165,8 @@
  debug_inspiration_artisan: "Ремесленник"
  debug_inspiration_smith: "Мастер художественной ковки"
  debug_inspiration_alchemy: "Алхимия"
-  
  debug_murder_scheme_message: "Начаты происки, ведущие к убийству"
  debug_abduct_scheme_message: "Начаты происки, ведущие к похищению"
-  
  ai_diplomacy_stance_trigger: "Дипломатическая позиция ИИ"
  is_ai_trigger: "Является ИИ"
  ai_honor_trigger: "Честь ИИ"
@@ -183,14 +178,12 @@
  ai_boldness_trigger: "Храбрость ИИ"
  ai_sociability_trigger: "Общительность ИИ"
  ai_values_divergence_trigger: "Отклонение значений ИИ ([TARGET_CHARACTER.GetShortUIName]): $VALUE|V$"
-  
  has_province_modifier_trigger: "Есть модификатор провинции"
  current_day_trigger: "Текущий день"
  current_month_trigger: "Текущий месяц"
  current_year_trigger: "Текущий год"
  time_of_year: "Время года —"
  current_date_trigger: "Текущая дата [DATE.GetString|V]"
-  
  ai_vengefulness_trigger: "Мстительность ИИ"
  has_icon_trigger: "Есть значок"
  is_color_trigger: "Цвет"
@@ -200,12 +193,10 @@
  year_of_birth_trigger: "Год рождения [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] — $CURRENT_VALUE$, что $COMPARATOR$ $NUM$"
  target_weight: "Вес цели"
  base_weight: "Базовый вес: $NUM|V0$"
-  
  is_tutorial_active_trigger: "Активно в обучении"
  game_start_date_trigger: "Стартовая дата игры: [DATE.GetString|V]"
  years_from_game_start_trigger: "Лет с начала игры: $NUM|V0$"
  current_computer_date_trigger: "Текущая дата компьютера: $VALUE|V$"
-  
  diplomacy_for_portrait_trigger: "Дипломатия портрета"
  prowess_for_portrait_trigger: "Доблесть портрета"
  martial_for_portrait_trigger: "Военное дело портрета"
@@ -215,23 +206,19 @@
  has_gene_trigger: "Есть ген"
  is_visibly_fertile_trigger: "Плодовитость налицо"
  pregnancy_days_trigger: "Дни беременности: $VALUE|V$"
-  
  has_variable_trigger: "Есть переменная: $VARIABLE$"
  has_map_mode_trigger: "Есть режим карты"
  story_type_trigger: "Тип истории"
  owns_a_story_trigger: "Владеет историей"
  is_widget_open_trigger: "Виджет открыт"
-  
  num_of_relation_oaf_trigger: "Количество тайных дурачков: $NUM|V0$"
  num_of_relation_intrigue_student_trigger: "Количество обучающихся интригам: $NUM|V0$"
  num_of_relation_mentor_trigger: "Количество наставляемых: $NUM|V0$"
  num_of_relation_potential_friend_trigger: "Количество возможных друзей: $NUM|V0$"
  num_of_relation_potential_rival_trigger: "Количество возможных соперников: $NUM|V0$"
  num_of_relation_potential_lover_trigger: "Количество возможных любовников: $NUM|V0$"
-  
  can_start_tutorial_lesson_trigger: "Может начать урок обучения: $LESSON$"
  has_inactive_trait_trigger: "Есть неактивное свойство"
-  
  has_relation_oaf_trigger: "[TARGET_CHARACTER.GetShortUIName] — дурачок персонажа [CHARACTER.GetShortUIName]"
  has_relation_soldier_friend_trigger: "[TARGET_CHARACTER.GetShortUIName] — [Select_CString(TARGET_CHARACTER.IsFemale, 'солдатская подруга', 'солдатский друг' )] персонажа [CHARACTER.GetShortUIName]"
  has_secret_relation_oaf_trigger: "[TARGET_CHARACTER.GetShortUIName] — тайный дурачок персонажа [CHARACTER.GetShortUIName]"
@@ -252,32 +239,28 @@
  has_secret_relation_potential_rival_trigger: "[TARGET_CHARACTER.GetShortUIName] [Select_CString(TARGET_CHARACTER.IsFemale, 'отмечена как тайная возможная соперница', 'отмечен как тайный возможный соперник' )] персонажа [CHARACTER.GetShortUIName]"
  has_relation_potential_lover_trigger: "[TARGET_CHARACTER.GetShortUIName] [Select_CString(TARGET_CHARACTER.IsFemale, 'отмечена как возможная любовница', 'отмечен как возможный любовник' )] персонажа [CHARACTER.GetShortUIName]"
  has_relation_potential_friend_trigger: "[TARGET_CHARACTER.GetShortUIName] [Select_CString(TARGET_CHARACTER.IsFemale, 'отмечена как возможная подруга', 'отмечен как возможный друг' )] персонажа [CHARACTER.GetShortUIName]"
-  
  has_any_secret_relation_trigger: "Есть какие-то тайные отношения"
  has_trait_with_flag_trigger: "Есть [Concept( 'trait', 'свойство' )|E] с флагом $FLAG$"
  is_frontend_character_selected: "Персонаж выбран на главном экране"
  fertility_trigger: "Плодовитость: $NUM|V0$"
  witchcraft_scheme_blocked_trigger: "Возможны ведовские происки"
+ crypto_religionist_scheme_blocked_trigger: "Доступны происки #L крипто[ROOT.Char.GetSecretFaith.GetName|l]ой#! веры"
  has_game_rule_trigger: "Есть игровое правило: [GAME_RULE.GetName]"
  release_only_trigger: "Только релизная версия"
  has_global_variable_trigger: "Есть глобальная переменная: $VARIABLE$"
-  
-  # disease tracking 
+ #disease tracking
  test.4.title: "Сведения о болезни"
  test.4.desc: "Всего персонажей: [ROOT.Var('local_copy_disease_data_global_character_amount').GetValue]\nРанняя смерть (до 60 лет) от болезни: [ROOT.Var('local_copy_disease_data_global_premature_death_amount').GetValue]\nВероятность ранней смерти от болезни: [ROOT.Var('disease_data_calc_premature_disease_death_percentage').GetValue]%\n\nОБЫЧНЫЕ БОЛЕЗНИ:\nВероятность заболеть обычной болезнью: [ROOT.Var('disease_data_calc_common_disease_percentage').GetValue]%\nвероятность заражения: [ROOT.Var('disease_data_calc_ill_percentage').GetValue]%\nвероятность ранней смерти: [ROOT.Var('disease_data_calc_ill_premature_death_chance').GetValue]%\nвероятность легочной болезни: [ROOT.Var('disease_data_calc_pneumonic_percentage').GetValue]%\nвероятность смерти от легочной болезни: [ROOT.Var('disease_data_calc_pneumonic_premature_death_chance').GetValue]%\n\nТЯЖЕЛЫЕ БОЛЕЗНИ:\nВероятность тяжелой болезни: [ROOT.Var('disease_data_calc_serious_disease_percentage').GetValue]%\nвероятность подагры: [ROOT.Var('disease_data_calc_gout_ridden_percentage').GetValue]%\nвероятность ранней смерти от подагры: [ROOT.Var('disease_data_calc_gout_ridden_premature_death_chance').GetValue]%\nвероятность проказы: [ROOT.Var('disease_data_calc_leper_percentage').GetValue]%\nвероятность ранней смерти от проказы: [ROOT.Var('disease_data_calc_leper_premature_death_chance').GetValue]%\nвероятность тифа: [ROOT.Var('disease_data_calc_typhus_percentage').GetValue]%\nвероятность ранней смерти от тифа: [ROOT.Var('disease_data_calc_typhus_premature_death_chance').GetValue]%\nвероятность чахотки: [ROOT.Var('disease_data_calc_consumption_percentage').GetValue]%\nвероятность ранней смерти от чахотки: [ROOT.Var('disease_data_calc_consumption_premature_death_chance').GetValue]%\nвероятность рака: [ROOT.Var('disease_data_calc_cancer_percentage').GetValue]%\nвероятность ранней смерти от рака: [ROOT.Var('disease_data_calc_cancer_premature_death_chance').GetValue]%\nвероятность герпеса: [ROOT.Var('disease_data_calc_lovers_pox_percentage').GetValue]%\nвероятность ранней смерти от герпеса: [ROOT.Var('disease_data_calc_lovers_pox_premature_death_chance').GetValue]%\nвероятность сифилиса: [ROOT.Var('disease_data_calc_great_pox_percentage').GetValue]%\nвероятность ранней смерти от сифилиса: [ROOT.Var('disease_data_calc_great_pox_premature_death_chance').GetValue]%\nвероятность оспы: [ROOT.Var('disease_data_calc_smallpox_percentage').GetValue]%\nвероятность ранней смерти от оспы: [ROOT.Var('disease_data_calc_smallpox_premature_death_chance').GetValue]%\nвероятность чумы: [ROOT.Var('disease_data_calc_bubonic_plague_percentage').GetValue]%\nвероятность ранней смерти от чумы: [ROOT.Var('disease_data_calc_bubonic_plague_premature_death_chance').GetValue]%\n\nхей[a_value.GetName]хеи"
-  
  set_relationship_debug_name: "Установить отношения"
  set_relationship_debug_desc: "Изменить ваши отношения с персонажем [recipient.GetShortUIName]"
  set_relationship_debug_friend_add: "Сделать другом"
  set_relationship_debug_friend_remove: "Удалить друга"
  set_relationship_debug_best_friend_add: "Сделать лучшим другом"
  set_relationship_debug_best_friend_remove: "Удалить лучшего друга"
-  
  set_relationship_debug_lover_add: "Сделать любовником/любовницей"
  set_relationship_debug_lover_remove: "Удалить любовника/любовницу"
  set_relationship_debug_soulmate_add: "Сделать родственной душой"
  set_relationship_debug_soulmate_remove: "Удалить родственную душу"
-  
  set_relationship_debug_childhood_victim_add: "Сделать жертвой"
  set_relationship_debug_childhood_victim_remove: "Удалить жертву"
  set_relationship_debug_childhood_bully_add: "Сделать задирой"
@@ -286,14 +269,9 @@
  set_relationship_debug_rival_remove: "Убрать соперника/соперницу"
  set_relationship_debug_nemesis_add: "Сделать заклятым врагом"
  set_relationship_debug_nemesis_remove: "Удалить заклятого врага"
-  
  set_relationship_debug_nevermind: "Неважно"
-  
  EVENT_DEBUG_TOOLTIP: "#P Щелкните, чтобы открыть скрипт события в соответствующем редакторе#!\n#weak (не забывайте, что редактор по умолчанию можно изменить!)#!"
-  
-  
  add_relic_interaction: "Добавить реликвию"
-  
  generate_artifact_with_history_interaction: "Создать артефакт с историей"
  generate_artifact_with_history_debug_name: "$generate_artifact_with_history_interaction$"
  generate_artifact_with_history_debug_desc: "Создать артефакт конкретного типа с историей, в которой [recipient.GetShortUIName] играет важную роль"
@@ -309,13 +287,29 @@
  generate_artifact_with_history_debug_reforged: "Перековано персонажем [ROOT.Char.GetShortUIName] из провинции [ROOT.Char.GetCurrentLocation.GetName]"
  generate_artifact_with_history_debug_conquest: "Завоевано персонажем [ROOT.Char.GetShortUIName] в войне против персонажа [recipient.GetShortUIName]"
  generate_artifact_with_history_debug_taken_in_siege: "Завоевано персонажем [ROOT.Char.GetShortUIName] после осады владения [recipient.GetCurrentLocation.GetName]"
-  
  add_glory_interaction: "Добавить славу к акколаде"
  add_glory_debug_high_tt: "Добавляет 2500 славы (уст. максимальный ранг [Concept( 'accolade', 'акколады' )|E])"
  add_glory_debug_low_tt: "Добавляет 250 славы"
  add_glory_debug_delete_tt: "Уст. славу на 0"
+ debug_progress_all_active_schemes_interaction: "Завершить активные происки"
+ debug.511.a: "Установить раввинизм как тайную конфессию персонажа [ROOT.Char.GetName]"
+ debug.511.b: "Удалить [ROOT.Char.GetSecretFaith.GetAdjective|l] как секретную конфессию персонажа [ROOT.Char.GetName]"
+ debug.512.a: "[ROOT.Char.GetName] исповедует [ROOT.Char.GetSecretFaith.GetAdjective|l] как тайную конфессию"
  change_hunt_success_chance: "Изменить шанс успеха охоты"
  ERROR_FLAG_INDEX: "–"
-  
+ debug_destroy_artifact_interaction: "Уничтожить артефакт"
+ end_diarchy_interaction: "Покончить с диархией"
+ debug_travel_to_ruler_interaction: "Отправиться к правителю"
+ designate_diarch_interaction: "Отправиться к правителю"
+ debug_give_animal_interaction: "Начать историю о собаке или кошке"
+ story_cycle_pet_dog: "Домашняя собака"
+ story_cycle_pet_cat: "Домашняя кошка"
  had_sex_with_effect.log.root_cheated_inappropriately: "had_sex_with_effect: измена партнеру\nИзменщик: [THIS.Char.GetShortUIName]\nС кем: [PREV.Char.GetShortUIName]"
  had_sex_with_effect.log.target_cheated_inappropriately: "had_sex_with_effect: измена партнеру\nИзменщик: [THIS.Char.GetShortUIName]\nС кем: [PREV.Char.GetShortUIName]"
+ debug_add_truce_interaction: "Добавить перемирие"
+ truce_one_way_receive: "Одностороннее (получить)"
+ truce_one_way_give: "Одностороннее (дать)"
+ truce_two_way: "Двухстороннее"
+ TRUCE_DEBUG: "#D Debug: Перемирие#!"
+ steam_rich_presence_debug_t: "Проверьте свое выраженное присутствие в Steam"
+ steam_rich_presence_debug_desc: "Вы: [GetPlayer.Custom('rich_presence_flavor_status')] [GetPlayer.GetFullName]\n\nСейид: [sayyid.Custom('rich_presence_flavor_status')] [sayyid.GetFullName]\n\nПротивник халифа: [fp3_struggle_detractor.Custom('rich_presence_flavor_status')] [fp3_struggle_detractor.GetFullName]\n\nСторонник халифа: [fp3_struggle_supporter.Custom('rich_presence_flavor_status')] [fp3_struggle_supporter.GetFullName]\n\nХалиф в 867 году: [sus_caliph.Custom('rich_presence_flavor_status')] [sus_caliph.GetFullName]\n\nИберийская борьба: [iberian_struggle.Custom('rich_presence_flavor_status')] [iberian_struggle.GetFullName]\n\nПерсидская борьба: [persian_struggle.Custom('rich_presence_flavor_status')] [persian_struggle.GetFullName]"
