@@ -13,7 +13,6 @@
  CLICK_TO_PASS_LAW: "\n#I Нажмите, чтобы принять закон «[Law.GetNameNoTooltip|V]»#!"
  LAW_COST: "\n#S Стоимость:#! [GuiLaw.GetShortCostString|L]"
  LAW_TITLE_ALLEGIANCE_OPINION: "$EFFECT_LIST_BULLET$[opinion|E] вассалов, присягающих на [title_allegiance|El]: $VALUE|+=$"
-  
  crown_authority: "[crown_authority|E]"
  crown_authority_0: "Свободные вассалы"
  crown_authority_0_effects_not_in_prev: "#weak Вассалы обязаны присылать [levies|El] и [taxes|El], но в остальном полностью свободны в действиях#!"
@@ -23,9 +22,6 @@
  crown_authority_2_effects: "$EFFECT_LIST_BULLET$ Правители могут выбирать из доступных [Concept( 'succession_law', 'законов наследования' )|El]\n$EFFECT_LIST_BULLET$ [vassals|E] не могут начинать [Concept( 'war', 'войну' )|El] против других вассалов, если [liege|El] у них не [hook|El].\n$EFFECT_LIST_BULLET$ Персонажи вне [Concept( 'realm', 'державы' )|El] не могут наследовать [titles|El] вассалов.\n$EFFECT_LIST_BULLET$ Всех вассалов, которые противятся отъему титулов или вассалов, объявляют [Concept( 'criminals', 'преступниками' )|El]."
  crown_authority_3: "Абсолютный авторитет короны"
  crown_authority_3_effects: "$EFFECT_LIST_BULLET$ [vassals|E] не могут объявлять никакие [Concept( 'wars', 'войны' )|El], если только [liege|El] у них не [hook|El].\n$EFFECT_LIST_BULLET$ Правитель назначает [Concept( 'heir', 'наследника' )|E]"
- crown_authority_1_effects_not_in_prev: "$EFFECT_LIST_BULLET$ Если будет действовать [clan_government|l], [vassals|El] станут собирать не менее [EmptyScope.ScriptValue('clan_government_levies_min_ca_1')|%0V] [Concept( 'levies', 'ополчения' )|E] и отдавать [EmptyScope.ScriptValue('clan_government_tax_min_ca_1')|%0V] [Concept( 'income', 'дохода' )|El]"
- crown_authority_2_effects_not_in_prev: "$EFFECT_LIST_BULLET$ Если будет действовать [clan_government|l], [vassals|El] станут собирать не менее [EmptyScope.ScriptValue('clan_government_levies_min_ca_2')|%0V] [Concept( 'levies', 'ополчения' )|E] и отдавать [EmptyScope.ScriptValue('clan_government_tax_min_ca_2')|%0V] [Concept( 'income', 'дохода' )|El]"
- crown_authority_3_effects_not_in_prev: "$EFFECT_LIST_BULLET$ Если будет действовать [clan_government|l], [vassals|El] станут собирать не менее [EmptyScope.ScriptValue('clan_government_levies_min_ca_3')|%0V] [Concept( 'levies', 'ополчения' )|E] и отдавать [EmptyScope.ScriptValue('clan_government_tax_min_ca_3')|%0V] [Concept( 'income', 'дохода' )|El]"
  I_LACK_LAW_ALLOWING_TITLE_REVOCATION_TRIBAL: "Ваш [Concept( 'tribal_authority', 'авторитет вождя' )|E] ниже, чем «абсолютный»"
  I_LACK_LAW_ALLOWING_VASSAL_RETRACTION_TRIBAL: "Ваш [Concept( 'tribal_authority', 'авторитет вождя' )|E] ниже, чем «абсолютный»"
  I_LACK_LAW_ALLOWING_TITLE_REVOCATION_CROWN: "Ваш [crown_authority|El] ниже, чем «ограниченный»"

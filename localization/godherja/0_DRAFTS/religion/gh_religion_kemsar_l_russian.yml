@@ -1,76 +1,76 @@
 ﻿l_russian:
   
- kemsar_religion: "Кемсарск" 
- kemsar_religion_adj: "Кемсар"  
- kemsar_religion_adherent: "Кемсари"  
- kemsar_religion_adherent_plural: "Кемсари"  
- kemsar_religion_desc: "На протяжении веков мировоззрение кемсари было сосредоточено вокруг двух изначальных божеств: брата и сестры. Брата звали Иах, [Concept('aervalr', 'Аэрвалр')|E], несущий свет ночью и победитель тьмы, когда Солнце нуждалось в отдыхе. Его сестра, Итеру, великая река, дающая пищу и перемещающая людей по всему Кемсару. Если бы люди были нравственными и умиротворяли этих духов, они бы процветали вечно. Но без объяснения причин Итеру высохла, а Иах разлетелся на множество кусков. Жители Кемсара запаниковали и задавались вопросом, не сделали ли они что-то не так. Но высокие вопросы морали отошли на второй план, поскольку их жизнь была поглощена борьбой за выживание."  
- kemsar_high_god_name: "Инпиа"  
- kemsar_high_god_name_possessive: "Инпии"  
- kemsar_high_god_name_alternate: "Мертвая Луна"  
- kemsar_high_god_name_alternate_possessive: "Его"  
- kemsar_devil_name: "Афоф"  
- kemsar_devil_name_possessive: "Афоф"  
- kemsar_death_deity_name: "Ануп"  
- kemsar_death_deity_name_possessive: "Ануп"  
+ kemsar_religion: "Кемсар" #Машинный перевод 28.10.23
+ kemsar_religion_adj: "Кемсари" #Машинный перевод 28.10.23
+ kemsar_religion_adherent: "Кемсари" #Машинный перевод 28.10.23
+ kemsar_religion_adherent_plural: "Кемсари" #Машинный перевод 28.10.23
+ kemsar_religion_desc: "На протяжении веков мировоззрение Кемсари было сосредоточено вокруг двух изначальных божеств-братьев. Первым был Иах, [aervalr|E], несущий свет ночью и победитель тьмы, когда Солнце нуждалось в отдыхе. Вторым была Итеру, великая река, дающая пищу и переносящая людей по всей земле. Если бы люди были нравственными и успокаивали этих духов, они бы продолжали процветать вечно. Но без объяснения причин Итеру высохла, а Иах разлетелся на множество кусков. Жители Кемсари запаниковали и задавались вопросом, не сделали ли они что-то не так. Но вопросы морали отошли на второй план, поскольку их жизнь была поглощена борьбой за выживание." #Машинный перевод 28.10.23
+ kemsar_high_god_name: "Инпиа" #Машинный перевод 28.10.23
+ kemsar_high_god_name_possessive: "Инпии" #Машинный перевод 28.10.23
+ kemsar_high_god_name_alternate: "Мертвая Луна" #Машинный перевод 28.10.23
+ kemsar_high_god_name_alternate_possessive: "Его" #Машинный перевод 28.10.23
+ kemsar_devil_name: "Афоф" #Машинный перевод 28.10.23
+ kemsar_devil_name_possessive: "Афоф" #Машинный перевод 28.10.23
+ kemsar_death_deity_name: "Ануп" #Машинный перевод 28.10.23
+ kemsar_death_deity_name_possessive: "Ануп" #Машинный перевод 28.10.23
   
   
   
- kemsar_house_of_worship: "Храм"  
- kemsar_house_of_worship_plural: "Храмы"  
- kemsar_religious_symbol: "знак Инпии"  
- kemsar_religious_text: "Священные Писания"  
+ kemsar_house_of_worship: "Храм" #Машинный перевод 28.10.23
+ kemsar_house_of_worship_plural: "Храмы" #Машинный перевод 28.10.23
+ kemsar_religious_symbol: "знак Инпии" #Машинный перевод 28.10.23
+ kemsar_religious_text: "Священные Писания" #Машинный перевод 28.10.23
   
- kemsar_religious_head_title: "Хемнет-Джертепи'мау"  
- kemsar_religious_head_title_name: "Хемнет-Джертепи'мау"  
- kemsar_devotee_male: "Вабхет"  
- kemsar_devotee_male_plural: "Вабхет"  
- kemsar_devotee_female: "Вабхмет"  
- kemsar_devotee_female_plural: "Вабхмет"  
- kemsar_devotee_neuter: "Ваб"  
- kemsar_devotee_neuter_plural: "Ваб"  
- kemsar_priest_male: "Хемнет-джер"  
- kemsar_priest_male_plural: "Хемнет-джере"  
- kemsar_priest_female: "Хеметнет-джер"  
- kemsar_priest_female_plural: "Хеметнет-джере"  
- kemsar_priest_alternate: "Хеметнет"  
- kemsar_priest_alternate_plural: "Хеметнет"  
- kemsar_bishop: "Херме-хеб"  
- kemsar_bishop_plural: "Херм-Хебе"  
- kemsar_positive_afterlife: "Туанкет"  
- kemsar_negative_afterlife: "Туанкет'мвут"  
+ kemsar_religious_head_title: "Хемнет-Джертепи'мау" #Машинный перевод 28.10.23
+ kemsar_religious_head_title_name: "Хемнет-Джертепи'мау" #Машинный перевод 28.10.23
+ kemsar_devotee_male: "Вабхет" #Машинный перевод 28.10.23
+ kemsar_devotee_male_plural: "Вабхет" #Машинный перевод 28.10.23
+ kemsar_devotee_female: "Вабхмет" #Машинный перевод 28.10.23
+ kemsar_devotee_female_plural: "Вабхмет" #Машинный перевод 28.10.23
+ kemsar_devotee_neuter: "Ваб" #Машинный перевод 28.10.23
+ kemsar_devotee_neuter_plural: "Ваб" #Машинный перевод 28.10.23
+ kemsar_priest_male: "Хемнет-джер" #Машинный перевод 28.10.23
+ kemsar_priest_male_plural: "Хемнет-джере" #Машинный перевод 28.10.23
+ kemsar_priest_female: "Хеметнет-джер" #Машинный перевод 28.10.23
+ kemsar_priest_female_plural: "Хеметнет-джере" #Машинный перевод 28.10.23
+ kemsar_priest_alternate: "Хеметнет" #Машинный перевод 28.10.23
+ kemsar_priest_alternate_plural: "Хеметнет" #Машинный перевод 28.10.23
+ kemsar_bishop: "Герме-хеб" #Машинный перевод 28.10.23
+ kemsar_bishop_plural: "Херм-Хебе" #Машинный перевод 28.10.23
+ kemsar_positive_afterlife: "Туанкет" #Машинный перевод 28.10.23
+ kemsar_negative_afterlife: "Туанкет'мвут" #Машинный перевод 28.10.23
   
- kemsar_creator_god_name: "$kemsar_high_god_name$"  
- kemsar_creator_god_name_possessive: "$kemsar_high_god_name_possessive$"  
- kemsar_health_god_name: "Хаэти"  
- kemsar_health_god_name_possessive: "Хаэти"  
- kemsar_fertility_god_name: "Асте"  
- kemsar_fertility_god_name_possessive: "Асте"  
- kemsar_wealth_god_name: "Хесат-Сехан"  
- kemsar_wealth_god_name_possessive: "Хесат-Сехана"  
- kemsar_household_god_name: "Ишан"  
- kemsar_household_god_name_possessive: "Ишана"  
- kemsar_fate_god_name: "$kemsar_high_god_name$"  
- kemsar_fate_god_name_possessive: "$kemsar_high_god_name_possessive$"  
- kemsar_knowledge_god_name: "Мисий"  
- kemsar_knowledge_god_name_possessive: "Мисия"  
- kemsar_war_god_name: "Каукун"  
- kemsar_war_god_name_possessive: "Каукуна"  
- kemsar_trickster_god_name: "Гекама"  
- kemsar_trickster_god_name_possessive: "Гекамы"  
- kemsar_night_god_name: "Инпиа"  
- kemsar_night_god_name_possessive: "Инпиа"  
- kemsar_water_god_name: "Итеру"  
- kemsar_water_god_name_possessive: "Итеру"  
- kemsar_witch_god_name: "Иоа"  
- kemsar_witch_god_name_possessive: "Иоа"  
+ kemsar_creator_god_name: "$kemsar_high_god_name$" #Машинный перевод 28.10.23
+ kemsar_creator_god_name_possessive: "$kemsar_high_god_name_possessive$" #Машинный перевод 28.10.23
+ kemsar_health_god_name: "Хаэти" #Машинный перевод 28.10.23
+ kemsar_health_god_name_possessive: "Хэти" #Машинный перевод 28.10.23
+ kemsar_fertility_god_name: "Асте" #Машинный перевод 28.10.23
+ kemsar_fertility_god_name_possessive: "Асте" #Машинный перевод 28.10.23
+ kemsar_wealth_god_name: "Хесат-Сехан" #Машинный перевод 28.10.23
+ kemsar_wealth_god_name_possessive: "Хесат-Сехан'с" #Машинный перевод 28.10.23
+ kemsar_household_god_name: "Ишан" #Машинный перевод 28.10.23
+ kemsar_household_god_name_possessive: "Ишана" #Машинный перевод 28.10.23
+ kemsar_fate_god_name: "$kemsar_high_god_name$" #Машинный перевод 28.10.23
+ kemsar_fate_god_name_possessive: "$kemsar_high_god_name_possessive$" #Машинный перевод 28.10.23
+ kemsar_knowledge_god_name: "Мисий" #Машинный перевод 28.10.23
+ kemsar_knowledge_god_name_possessive: "Мисий" #Машинный перевод 28.10.23
+ kemsar_war_god_name: "Каукун" #Машинный перевод 28.10.23
+ kemsar_war_god_name_possessive: "Каукун" #Машинный перевод 28.10.23
+ kemsar_trickster_god_name: "Гекама" #Машинный перевод 28.10.23
+ kemsar_trickster_god_name_possessive: "Гекамы" #Машинный перевод 28.10.23
+ kemsar_night_god_name: "Инпиа" #Машинный перевод 28.10.23
+ kemsar_night_god_name_possessive: "Инпиа" #Машинный перевод 28.10.23
+ kemsar_water_god_name: "Итеру" #Машинный перевод 28.10.23
+ kemsar_water_god_name_possessive: "Iteru's" #Машинный перевод 28.10.23
+ kemsar_witch_god_name: "Иоа" #Машинный перевод 28.10.23
+ kemsar_witch_god_name_possessive: "Иоа" #Машинный перевод 28.10.23
   
- kemsar: "Кемсарск"  
- kemsar_adj: "Кемсар"  
- kemsar_adherent: "Кемсари"  
- kemsar_adherent_plural: "Кемсари"  
- kemsar_desc: "Родная вера народа кемсари, одноименная религия, натуралистична и ориентирована на поклонение светоносной луне Иах и животворящей реке Итеру. Однако высыхание Итеру и раскол Иаха в [Concept('frodbrokna','Фродброкна')|E] повлекли за собой как религиозные, так и социальные потрясения, и земли погрузились в хаос. Попытки разрешить проблемы этого запутанного мира привели к новой, более циничной вере. Иах теперь Инпиа, Мертвая Луна. Кемсари больше не молятся о Его защите, а о том, чтобы его разлагающийся труп не упал на них с небес и не разрушил тот маленький мир, который у них остался."  
- kemsar_old: "Старый кемсарск"  
- kemsar_old_adj: "Старый кемсар"  
- kemsar_old_adherent: "Старый кемсари"  
- kemsar_old_adherent_plural: "Старые кемсари"  
+ kemsar: "Кемсар" #Машинный перевод 28.10.23
+ kemsar_adj: "Кемсари" #Машинный перевод 28.10.23
+ kemsar_adherent: "Кемсари" #Машинный перевод 28.10.23
+ kemsar_adherent_plural: "Кемсари" #Машинный перевод 28.10.23
+ kemsar_desc: "Родная вера народа кемсари, религия кемсаров, натуралистична и ориентирована на поклонение светоносной луне Иах и животворящей реке Итеру. Однако высыхание Итеру и разрушение Иаха в [frodbrokna|E] повлекли за собой как религиозные, так и социальные потрясения, и земли погрузились в хаос. Попытки разрешить этот запутанный мир привели к новой, более циничной вере. Иа теперь Инпиа, Мертвая Луна. Кемсари больше не молятся о Его защите, а о том, чтобы его разлагающийся труп не приземлился на них и не разрушил тот маленький мир, который у них остался." #Машинный перевод 28.10.23
+ kemsar_old: "Старый Кемсар" #Машинный перевод 28.10.23
+ kemsar_old_adj: "Старый Кемсари" #Машинный перевод 28.10.23
+ kemsar_old_adherent: "Старый Кемсари" #Машинный перевод 28.10.23
+ kemsar_old_adherent_plural: "Старый Кемсари" #Машинный перевод 28.10.23

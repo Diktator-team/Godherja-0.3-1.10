@@ -6,4 +6,3 @@
  LV_UNRAISED: "Не собраны"
  LV_MAINTENANCE: "Содержание: [gold_i][LevyView.GetMaintenanceCost|2]/месяц"
  LV_NO_COUNTERS: "Ополченцы никогда не [counter|El] другим типам"
-  

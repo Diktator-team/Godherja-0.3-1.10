@@ -1,8 +1,6 @@
 ﻿l_russian:
-  
-  ##### WEDDING ##### 
-  
-  ### ACTIVITY 
+ ##### WEDDING #####
+ ### ACTIVITY
  activity_wedding: "Большая свадьба"
  activity_wedding_selection_tooltip: "Пусть грянет [GetActivityType('activity_wedding').GetName] — великолепное празднество в честь соединения сердец\n\nОжидаемые награды:\n$BULLET_WITH_TAB$[prestige_i] [Concept( 'prestige', 'Престиж' )|E]\n$BULLET_WITH_TAB$[opinion_i] [Concept( 'opinion', 'Мнение' )|E]\n$BULLET_WITH_TAB$[stress_loss_i] Потеря [Concept( 'stress', 'стресса' )|E]"
  activity_wedding_desc: "Грандиозное празднество в честь свадьбы.\n\nЭто должна быть не обычная церемония, но публичная демонстрация власти, общественное событие, где аристократия будет практиковаться в искусствах дипломатии, соблазнения и убийства... а также дружеской попойки!"
@@ -35,16 +33,14 @@
  wedding_every_other_vassal: "Все прочие вассалы"
  activity_wedding_guest_desc: "$BULLET_WITH_TAB$[prestige_i|E][Concept( 'prestige', 'Престиж' )|E]\n$BULLET_WITH_TAB$[Concept( 'opinion', 'Мнение' )|E] хозяина и супругов\n$BULLET_WITH_TAB$Возможна потеря [stress_loss_i][Concept( 'stress', 'стресса' )|E]\n$BULLET_WITH_TAB$Возможно получение модификатора «[GetModifier( 'wedding_of_the_century_modifier' ).GetNameWithTooltip|L]»\n$BULLET_WITH_TAB$Возможно получение [Concept( 'trait_level_track_xp', 'опыта пути развития свойства' )|E] «[GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]»"
  activity_wedding_guest_help_text: "\nГости на свадьбе принимают участие в празднестве — чем они пышнее, тем лучше! Задача хозяина с супругами же — впечатлить приглашенных.\nСвадьба — это в первую очередь социально-политическое событие, где можно познакомиться с важными людьми и завести полезные связи."
-  
-  ### PHASES 
+ ### PHASES
  wedding_phase_ceremony: "Свадебная церемония"
  wedding_phase_ceremony_desc: "Все обряды и приготовления перед торжественным обменом клятвами."
  wedding_phase_banquet: "Свадебное пиршество"
  wedding_phase_banquet_desc: "Пир в честь новобрачных. Еды, напитков и развлечений хватит на всех."
  wedding_phase_wnight: "Брачная ночь"
  wedding_phase_wnight_desc: "Пока новобрачные доводят свадьбу до логического завершения, оставшиеся гости постепенно отходят от празднества."
-  
-  ### OPTIONS 
+ ### OPTIONS
  wedding_type_normal: "Большая свадьба"
  wedding_type_normal_desc: "\n#weak Свадьба должны быть великолепным празднеством в честь единения двух супругов и союза двух семей.#!\n\n@warning_icon!#X Обещанная [GetActivityType('activity_wedding').GetName|l] должна быть организована до того, как истечет срок обещания, иначе вас ждут штрафы#!"
  wedding_type_bloody: "Кровавая свадьба"
@@ -72,14 +68,12 @@
  wedding_decoration_good_desc: "$EFFECT_LIST_BULLET$ Повышенный прирост [Concept( 'opinion', 'мнения' )|E] о вас у [GetVassalStance( 'courtly' ).GetTextIcon]куртуазных [Concept('vassals', 'вассалов' )|E]\n$EFFECT_LIST_BULLET$[Concept( 'dynasty_prestige', 'Признание' )|E] и [Concept( 'prestige', 'Престиж' )|E]\n$wedding_good_option_desc$\n$EFFECT_LIST_BULLET$ Будет получен модификатор «[GetModifier( 'gwedding_magnificent_host_modifier' ).GetNameWithTooltip|L]»\n\n#weak Беззастенчивая демонстрация безграничного богатства. Слуг будет столько, что личный виночерпий будет у каждого гостя#!"
  wedding_good_option_desc: "$EFFECT_LIST_BULLET$ Повышенный прирост [Concept( 'opinion', 'мнения' )|E] о вас у [GetVassalStance( 'courtly' ).GetTextIcon]куртуазных и [GetVassalStance( 'glory_hound' ).GetTextIcon]охочих до славы [Concept('vassals', 'вассалов' )|E]"
  wedding_normal_option_desc: "$EFFECT_LIST_BULLET$ Повышенный прирост [Concept( 'opinion', 'мнения' )|E] о вас у [GetVassalStance( 'zealot' ).GetTextIcon]фанатичных и [GetVassalStance( 'parochial' ).GetTextIcon]местечковых [Concept('vassals', 'вассалов' )|E]"
-  
-  ### INTENTS 
+ ### INTENTS
  diplomatic_intent: "Дипломатия"
  diplomatic_intent_desc: "Заключить союз с выбранным персонажем или даже подчинить его своей воле"
  matchmaking_intent: "Подбор пары"
  matchmaking_intent_desc: "Найти достойную пару выбранному персонажу и организовать помолвку"
  banquet_mischief_intent: "Злодейство"
  banquet_mischief_intent_desc: "Устройте беспорядок и увеличьте потерю [Concept( 'stress', 'стресса' )|E] — возможно, с #EMP плохими#! последствиями."
-  
-  ### COST 
+ ### COST
  WEDDING_BASE_COST: "Базовая стоимость большой свадьбы"

@@ -1,5 +1,5 @@
 ﻿l_russian:
-  ## Custom Loc 
+ ## Custom Loc
  nc_fbeauty: "просто прелесть"
  nc_mbeauty: "само благородство"
  nc_charming: "само очарование"
@@ -24,21 +24,20 @@
  gbm_lilith: "Лилит во плоти"
  gbm_default: "богиня"
  gbm_male_default: "бог"
-  
-  ## Modifiers 
-   # Event Interaction Modifiers 
+ ## Modifiers
+ #Event Interaction Modifiers
  event_bonus_to_county_control: "Опыт управления толпой"
  event_bonus_to_county_control_desc: "Этот персонаж эффективнее выполняет задание $task_increase_control$."
  event_bonus_to_agent_invite: "Мастер интриг"
  event_bonus_to_agent_invite_desc: "Этому персонажу проще привлекать соучастников к своим проискам."
  event_bonus_to_vassal_accept: "Умелый переговорщик"
  event_bonus_to_vassal_accept_desc: "Этот персонаж получит бонус в виде +20 к согласию при следующей попытке предложить другому персонажу стать вассалом."
-  # Interaction Bonuses 
+ #Interaction Bonuses
  BONUS_TO_AGENT_RECRUITMENT: "Мастер интриг: $VALUE|=+0$"
  event_bonus_to_vassal_accept_tt: "У вас репутация честного правителя: $VALUE|=+0$"
-  # Council Task Bonuses 
+ #Council Task Bonuses
  INCREASE_COUNTY_CONTROL_EXPERIENCE_BONUS_VALUE: "[councillor.GetCouncilTitle] [councillor.GetFirstName] умеет распоряжаться толпой"
-  # Modifiers 
+ #Modifiers
  hold_court_7030_plundering: "Грабежи"
  hold_court_7030_plundering_desc: "Этот персонаж недавно занимался грабежами."
  hold_court_7030_knight_boost: "Поддержка поведения солдат"
@@ -53,10 +52,10 @@
  hold_court_7070_defended_church: "Защита интересов церкви"
  hold_court_7070_defended_peasantry: "Защита крестьян от прихотей церкви"
  hold_court_7070_undermined_church: "Подрыв власти церкви"
-  # Opinion Modifiers 
+ #Opinion Modifiers
  developing_attraction_opinion: "Сближающее влечение"
-  ## Events 
-   # Vassal's Land Vandalised by Personal Guard, hold_court.7030 
+ ## Events
+ #Vassal's Land Vandalised by Personal Guard, hold_court.7030
  hold_court.7030.title: "Нарушители покоя"
  hold_court.7030.byzantine_desc: "Следующий проситель — очень [Select_CString(angry_vassal.IsFemale, 'недовольная', 'недовольный' )] [angry_vassal.GetName]. С минимально возможным почтением [angry_vassal.GetTitledFirstNameNoTooltip] сообщает, что Варяжская гвардия, которой командует [troublesome_warrior.GetName], недавно устроила хаос во владении [hold_court_7030_county.GetNameNoTier]. Владеет же этой землей [angry_vassal.GetTitle] собственной персоной.\n\n«Они разграбили и опустошили мои земли, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetTitleAsNameNoTooltip|l]. Я не думаю, что приносимая ими польза может перевесить их наглость, пьянство и язычество!»\n\nИ что с этим делать?"
  hold_court.7030.desc: "Следующий проситель — очень [Select_CString(angry_vassal.IsFemale, 'недовольная', 'недовольный' )] [angry_vassal.GetName]. С минимально возможным почтением [angry_vassal.GetTitledFirstNameNoTooltip] сообщает, что несколько моих рыцарей, которых возглавляет [troublesome_warrior.GetName], недавно проехали через владение [hold_court_7030_county.GetNameNoTier].\n\n«Они разграбили и опустошили деревни и поля во владении [hold_court_7030_county.GetNameNoTierNoTooltip]. Это самое натуральное издевательство, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetTitleAsNameNoTooltip|l], и я не потерплю подобного отношения!» — объявляет [angry_vassal.GetTitledFirstNameNoTooltip].\n\nИ как мне поступить?"
@@ -72,7 +71,7 @@
  hold_court_7030c_land_not_restored_tt: "[angry_vassal.GetName] [Select_CString(angry_vassal.IsFemale, 'взяла', 'взял' )] ваши деньги, но не [Select_CString(angry_vassal.IsFemale, 'стала', 'стал' )] тратить их на восстановление от ущерба, что [Select_CString(troublesome_warrior.IsFemale, 'причинила', 'причинил' )] [troublesome_warrior.GetName]."
  hold_court_7030c_land_restored: "Владение [hold_court_7030_county.GetNameNoTier] вновь процветает"
  hold_court_7030c_land_restored_tt: "[angry_vassal.GetName] [Select_CString(angry_vassal.IsFemale, 'взяла', 'взял' )] ваши деньги и [Select_CString(angry_vassal.IsFemale, 'потратила', 'потратил' )] их на восстановление от ущерба, что [Select_CString(troublesome_warrior.IsFemale, 'причинила', 'причинил' )] [troublesome_warrior.GetName]."
- # Tax Revolt in Frontier Province, hold_court.7040 
+ #Tax Revolt in Frontier Province, hold_court.7040
  hold_court.7040.title: "Споры на границе"
  hold_court.7040.desc: "Следующий проситель вряд ли часто бывает при дворе, ведь я не узнаю [frontier_leader.GetHerHis], а [marshal.GetCouncilTitle] [marshal.GetFirstName] с самого появления при дворе не сводит с просителя глаз.\n\n«[ROOT.Char.Custom2('RelationToMeAddress', frontier_leader)], я здесь, чтобы сообщить вам: народ владения [frontier_county.GetNameNoTier] отказывается платить навязанные нам налоги. В прошлом наши земли и наш народ обладали правами и привилегиями, но в своих недавних поборах вы игнорируете их. Мы просим вас рассудить наше дело по чести, а иначе вас ждут последствия»."
  hold_court.7040.a: "«В темницу [frontier_leader.GetHerHis], [marshal.GetCouncilTitle], а затем раздавите восставший сброд!»"
@@ -96,7 +95,7 @@
  hold_court.7040.d.lose: "Лидеры восстания против налогов не дали одурачить себя книгами и знаниями."
  hold_court.7040.d.lose.title: "Восстание против налогов продолжается"
  hold_court.7040.e: "Дайте им, что они хотят, какое мне дело?"
- # Former soldier has lost his mind and challenges you to a duel, hold_court.7050 
+ #Former soldier has lost his mind and challenges you to a duel, hold_court.7050
  hold_court.7050.title: "Последствия войны"
  hold_court.7050.desc: "В задних рядах моего двора возникает неразбериха. Прежде чем кто-либо успевает помешать [lunatic_soldier.GetHerHim], к трону подбегает [lunatic_soldier.GetWomanMan] и застывает перед ним, не пытаясь защищаться. Достаточно взглянуть в [lunatic_soldier.GetHerHis] глаза, чтобы понять: [lunatic_soldier.GetWomanMan] не в своем уме.\n\n«Чудовище! Вы отправили нас умирать! Почему вы не понесли наказание?»\n\nСудя по этим словам, [lunatic_soldier.GetSheHe] так или иначе участвует в одной из моих войн, что и стало причиной столь бедственного состояния. Что сделать с этим заблудшим созданием?"
  hold_court.7050.a: "Пусть придворный врач [court_physician.GetNameNoTooltip] поможет бедняге."
@@ -111,7 +110,7 @@
  hold_court.7052.desc: "[Select_CString(killed_pc.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', killed_pc)], [killed_pc.GetName], [Select_CString(killed_pc.IsFemale, 'была убита', 'был убит' )] во время поединка при дворе! Увы, [killed_pc.GetHerHis] убийца, то ли осознав последствия совершенного поступка, то ли под влиянием своего помутившегося рассудка, не надолго [Select_CString(lunatic_soldier.IsFemale, 'пережила', 'пережил' )] свою жертву.\n\nПрежде, чем кто-либо успел остановить [lunatic_soldier.GetHerHis], [lunatic_soldier.GetName] [Select_CString(lunatic_soldier.IsFemale, 'выхватила', 'выхватил' )] свой клинок и [Select_CString(lunatic_soldier.IsFemale, 'вогнала', 'вогнал' )] его себе в сердце. Теперь я сижу на троне, что когда-то [Select_CString(killed_pc.IsFemale, 'занимала', 'занимал' )] [ROOT.Char.Custom2('RelationToMe', killed_pc)], смотрю на помещение, где все это произошло, и раздумываю о превратностях судьбы, что привели к этому несчастью, а также о незримой стоимости войны, которая продолжает приносить страдания моим землям и моему народу."
  hold_court.7052.a: "Трагичная и бессмысленная смерть."
  hold_court.7054.sc_invalid: "Ваш бой с персонажем [lunatic_soldier.GetName] более не действителен"
- # Cinderella 
+ #Cinderella
  hold_court.7060.title: "Кто это?"
  hold_court.7060.desc: "Вся держава [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] знает, мне требуется [ROOT.Char.Custom('GetReverseWifeHusband')], что будет править вместе со мной, а поэтому мне приходится терпеть и выслушивать предложения от детей своих вассалов, единственная вина которых в желании угодить своим родителям. Но кое-что привлекает мое внимание, когда [vassal.GetName] представляет мне [Select_CString(vassal_spouse.IsFemale, 'свою дочь', 'своего сына' )]. Хотя [vassal_spouse.GetName], несомненно, [vassal_spouse.Custom('GetNotableCharacteristic')], я не могу оторвать взгляд от [Select_CString(cinderella.IsFemale, 'незнакомки', 'незнакомца' )] за спинами придворных, чья красота наводит на мысль, что это [cinderella.Custom('GetBeautifulMetaphor')]. [vassal.GetTitledFirstName] окликает меня и приводит в чувства — [vassal.GetSheHe] ждет, что я отвечу на предложение [vassal.GetHerHis] [Select_CString(vassal_spouse.IsFemale, 'дочери', 'сына' )]."
  hold_court.7060.a: "«Для меня будет честью, если [Select_CString(vassal_spouse.IsFemale, 'ваша', 'ваш' )] [vassal_spouse.Custom('GetNotableCharacteristic')] [vassal_spouse.Custom('GetDaughterSon')] ненадолго останется при дворе, [vassal.GetTitledFirstName]»."
@@ -121,7 +120,7 @@
  hold_court.7060.c: "«Я принимаю ваше предложение, [vassal_spouse.Custom('GetNotableCharacteristic')] [vassal_spouse.GetLadyLord]»."
  hold_court.7060.c.tt: "Забыть о [Select_CString(cinderella.IsFemale, 'незнакомке', 'незнакомце' )], ведь [vassal_spouse.GetName] станет хорошей парой."
  hold_court.7060.d: "«Я сойду с ума от этого представления, убирайтесь!»"
- # Tithe Barn suffers a theft, hold_court.7070 
+ #Tithe Barn suffers a theft, hold_court.7070
  hold_court.7070.title: "Проблемы с десятиной"
  hold_court.7070.desc: "Следующий проситель — [irritated_bishop.GetName], [Select_CString(irritated_bishop.IsFemale, 'которая', 'который' )] прибыл к моему двору в сопровождении двух охранников и [Select_CString(hapless_thief.IsFemale, 'удерживаемой ими женщины', 'удерживаемого ими мужчины' )]. [irritated_bishop.GetTitledFirstNameNoTooltip] сообщает мне о безуспешной попытке ограбить один из амбаров для церковной десятины во владении [irritated_bishop.GetPrimaryTitle.GetName].\n\n«Обычно такие вопросы решают на местах, [ROOT.Char.Custom2('RelationToMeAddress', irritated_bishop)], но [Select_CString(hapless_thief.IsFemale, 'эта воровка', 'этот вор' )] настаивает на обращении к вам».\n\nЯ перевожу взгляд на [Select_CString(hapless_thief.IsFemale, 'пленницу', 'пленника' )] и жестом велю [hapless_thief.GetHerHim] подойти. «Я знаю, что [Select_CString(hapless_thief.IsFemale, 'поступила', 'поступил' )] неправильно, [ROOT.Char.GetLadyLord], но мы голодаем, а [irritated_bishop.GetTitledFirstNameNoTooltip] забирает у нас слишком много!»"
  hold_court.7070.a: "«Воровать плохо, но это уже откровенный грабеж»."

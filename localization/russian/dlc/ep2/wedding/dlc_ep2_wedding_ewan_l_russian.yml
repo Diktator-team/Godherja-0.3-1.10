@@ -1,6 +1,6 @@
 ﻿l_russian:
-  ################################################## 
-  # MISC 
+ ##################################################
+ #MISC
  ep2_wedding_ewan_0041_attraction_modifier: "Притча во языцех"
  ep2_wedding_ewan_0041_attraction_modifier_desc: "Все беспрестанно обсуждают лучшие качества этого персонажа."
  ep2_wedding_ewan_0051_snooty_modifier: "Чванливый"
@@ -11,21 +11,8 @@
  ep2_wedding_ewan.0000.desc.boilerplate.char_intro: "Рядом со мной [char_1.GetTitledFirstName] и [char_2.GetTitledFirstName] высказывают свое мнение"
  ep2_wedding_ewan.0000.flavour.hobnob.char_1: "Вы и [char_1.Custom('GetEducationTrait')|l] проводите почти целый вечер за непринужденной беседой"
  ep2_wedding_ewan.0000.flavour.hobnob.char_2: "Вы и [char_1.Custom('GetEducationTrait')|l] проводите почти целый вечер за непринужденной беседой"
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  ################################################## 
-  # BANQUET PHASE 
-  
+ ##################################################
+ #BANQUET PHASE
  ep2_wedding_ewan.0001.t: "Любопытное зрелище"
  ep2_wedding_ewan.0001.desc.intro.bad: "Конечно, самые притязательные останутся недовольны недостаточной пышностью этого вечера, но публика смотрит на актеров, акробатов, жонглеров и других артистов с неподдельным интересом. $ep2_wedding_ewan.0000.desc.boilerplate.char_intro$ о происходящем.\n\n"
  ep2_wedding_ewan.0001.desc.t1.love.diligent: "«Браво! Браво! Очень интересно, а главное — без лишнего #EMP легкомыслия#!!» — кричит [char_1.GetFirstNameNoTooltip]."
@@ -84,7 +71,6 @@
  ep2_wedding_ewan.0001.c: "[intent_target.GetFirstNameNoTooltip] чувствует на себе мой пристальный угрожающий взгляд..."
  ep2_wedding_ewan.0001.c.tt: "[intent_target.GetFirstNameNoTooltip] нервничает из-за вашего взгляда"
  ep2_wedding_ewan.0001.d: "Для меня главное — это развлечение."
-  
  ep2_wedding_ewan.0011.t: "Еда, достойная..."
  ep2_wedding_ewan.0011.desc.intro.bad: "Ужин, что подают за сегодняшним столом, удовлетворит даже самого притязательного гурмана своим великолепным сочетанием текстуры, аромата и сервировки. Впрочем, сегодня особенный день. $ep2_wedding_ewan.0000.desc.boilerplate.char_intro$ о застолье.\n\n"
  ep2_wedding_ewan.0011.desc.t1.love.temperate: "«[char_1.GetFaith.HealthGodName] мне свидетель, до чего же #EMP великолепная#! кухня! — восторгается [char_1.GetFirstNameNoTooltip]. — Как и полагается, разнообразная, но без излишеств!»"
@@ -134,7 +120,6 @@
  ep2_wedding_ewan.0011.c.tt.success: "Вы ставите подножку слуге, и тот поскальзывается, проливая суп. Теперь [intent_target.GetFirstNameNoTooltip] [Select_CString(intent_target.IsFemale, 'покрыта', 'покрыт' )] варевом с головы до ног"
  ep2_wedding_ewan.0011.c.tt.failure: "Слуга обходит вашу подножку"
  ep2_wedding_ewan.0011.d: "Кивать, не обращая внимания на разговор."
-  
  ep2_wedding_ewan.0021.t: "Переливающийся блеск"
  ep2_wedding_ewan.0021.desc.intro.bad: "Стены пиршественного зала украшены причудливой росписью, затейливо переплетающейся с редкими, пусть и не самыми дорогими цветами. $ep2_wedding_ewan.0000.desc.boilerplate.char_intro$ об отделке.\n\n"
  ep2_wedding_ewan.0021.desc.t1.love.content: "«Ах, какая #EMP красота#!! — со смешком произносит [char_1.GetFirstNameNoTooltip]. — Достаточно крикливо, но слабовато на фоне новобрачных»."
@@ -185,7 +170,6 @@
  ep2_wedding_ewan.0021.b.host: "«[char_2.GetFirstNameNoTooltip] совершенно [Select_CString(char_2.IsFemale, 'права', 'прав' )]. Мне все представлялось по-другому»."
  ep2_wedding_ewan.0021.c: "Похоже, [intent_target.GetFirstNameNoTooltip] чувствует себя одиноко..."
  ep2_wedding_ewan.0021.d: "Не вмешиваться."
-  
  ep2_wedding_ewan.0031.t: "Общение за ужином"
  ep2_wedding_ewan.0031.desc.intro: "На таких неизменно оживленных и бурных мероприятиях всегда можно завести новых друзей и встретиться со старыми знакомыми.\n\nСо своего места я вижу, как рядом сидит"
  ep2_wedding_ewan.0031.desc.char_1.conversationalist_neighbour: "правитель соседней державы"
@@ -210,7 +194,6 @@
  ep2_wedding_ewan.0031.f: "«[conversationalist_backup.GetFirstNameNoTooltip], как поживаете?»"
  ep2_wedding_ewan.0031.g: "Мы же празднуем! Всего один разговор — это несерьезно!"
  ep2_wedding_ewan.0031.h: "Я лучше поговорю с кем-нибудь еще."
-  
  ep2_wedding_ewan.0041.t: "Речь! Речь!"
  ep2_wedding_ewan.0041.desc.intro: "Ни один свадебный пир не обходится без речей — когда долгих, когда коротких; когда честных, когда не очень; когда тихих, а когда раскатистых, меняющихся по мере того, как обслуга уносит старые блюда и приносит им на смену другие. Объединяет их одно: #EMP бесконечность#!.\n\nНо вот наконец приближается и мой черед. Я начинаю нервничать. Стоит ли уделить все внимание новобрачным, или лучше будет"
  ep2_wedding_ewan.0041.desc.murder: "немного позлорадствовать над будущей жертвой — пусть [intent_target.GetFirstNameNoTooltip] проникнется?"
@@ -235,7 +218,6 @@
  ep2_wedding_ewan.0041.g.tt.failure: "До чего же подлая ложь!"
  ep2_wedding_ewan.0041.h: "Неловко сесть обратно, ничего не говоря."
  ep2_wedding_ewan.0041.i: "Сказать что-то милое, но поверхностное."
-  
  ep2_wedding_ewan.0051.t: "И еще кое-что"
  ep2_wedding_ewan.0051.desc.intro: "На каждом, буквально на каждом без исключения празднестве обязательно найдется какой-нибудь словоохотливый засранец низкого происхождения, не затыкающийся #EMP ни на секунду#!. Сегодня эту роль играет [dolt.GetFirstName], [Select_CString(dolt.IsFemale, 'которая', 'который' )]"
  ep2_wedding_ewan.0051.desc.boilerplate.stress_pitch: "отчаянно цепляется за тот факт, что я — «[ROOT.Char.GetLadyLord|l]-[ROOT.Char.GetTitleAsNameNoTooltip|l] благородных кровей», а значит, мне неплохо бы вложить часть «богатств» в"
@@ -255,7 +237,7 @@
  ep2_wedding_ewan.0051.desc.zealous: "бесконечно, без перебоя, #EMP без малейших пауз#! нудно вещает о своей вере и о том, что мне нужно открыть душу, иначе [dolt.GetFaith.random_GoodGodNames] не сможет наполнить ее своим светом. #EMP Моя#! же конфессия, разумеется, [Select_CString(dolt.IsFemale, 'ее', 'его' )] не интересует."
  ep2_wedding_ewan.0051.desc.fickle: "начинает уговаривать меня вложить деньги в какое-либо предприятие. Однако вместо конкретных предложений на меня проливается бессвязная словесная каша, и я постепенно тону под этим грузом."
  ep2_wedding_ewan.0051.desc.vengeful: "горит желанием свершить праведную месть над каким-то несчастным и, возможно, ни в чем не виноватым обидчиком. Я не совсем понимаю, почему этот безумный план требует моего участия."
-  # My continued apologies for the poetry randomiser. 
+ #My continued apologies for the poetry randomiser.
  ep2_wedding_ewan.0051.desc.poet: "самой гнусной в мире тварью: скверным поэтом с верным кругом читателей. Вирши, которые [Select_CString(dolt.IsFemale, 'она', 'он' )] пытается мне зачитать, даже нельзя назвать стихами — это скорее плохо рифмующиеся куплеты без размера и ритма."
  ep2_wedding_ewan.0051.desc.outro: "\n\nХочется закричать."
  ep2_wedding_ewan.0051.a: "Вежливо оставить разговор."
@@ -281,7 +263,6 @@
  ep2_wedding_ewan.0051.m.tt.failure: "Вы тактичны — но и только"
  ep2_wedding_ewan.0051.n: "Я лишь усмехнусь в ответ."
  ep2_wedding_ewan.0051.n.tt: "Вы вслушиваетесь в каждое слово."
-  
  ep2_wedding_ewan.0052.t: "Незаконченное дело: Финансовый успех"
  ep2_wedding_ewan.0052.desc.intro: "Много лет назад [dolt.GetFirstNameNoTooltip] [Select_CString(dolt.IsFemale, 'уговорила', 'уговорил' )] меня вложить деньги в новое предприятие. Надо сказать, это совершенно вылетело у меня из головы,"
  ep2_wedding_ewan.0052.desc.dolt_availability.dead: "особенно если вспомнить, что [dolt.GetFirstNameNoTooltip] давно [Select_CString(dolt.IsFemale, 'мертва', 'мертв' )]."
@@ -301,7 +282,6 @@
  ep2_wedding_ewan.0052.a: "Думаю, вложения вернутся мне #EMP полностью#!."
  ep2_wedding_ewan.0052.b: "А как же иначе? Ведь у меня предпринимательский талант."
  ep2_wedding_ewan.0052.c: "Неожиданно, но приятно!"
-  
  ep2_wedding_ewan.0053.t: "Незаконченное дело: Финансовый дефицит"
  ep2_wedding_ewan.0053.desc.intro: "$ep2_wedding_ewan.0052.desc.intro$"
  ep2_wedding_ewan.0053.desc.dolt_availability.dead: "$ep2_wedding_ewan.0052.desc.dolt_availability.dead$"
@@ -320,7 +300,6 @@
  ep2_wedding_ewan.0053.a.alive: "За такое нужно заковывать в кандалы!"
  ep2_wedding_ewan.0053.a.dead: "Жаль, что [Select_CString(dolt.IsFemale, 'она', 'он' )] уже [Select_CString(dolt.IsFemale, 'мертва', 'мертв' )]."
  ep2_wedding_ewan.0053.b: "Пожалуй, этого следовало ожидать."
-  
  ep2_wedding_ewan.0061.t: "[Select_CString(oldling.IsFemale, 'Дорогая', 'Дорогой' )] [oldling.Custom2('RelationToMeShort', relative )|l]!"
  ep2_wedding_ewan.0061.desc.intro: "Несмотря на празднество, [relative.GetTitledFirstName] не разделяет общей радости. В [Select_CString(relative.IsFemale, 'ее', 'его' )] глазах читается неподдельный ужас от одного только взгляда на то, как [Select_CString(relative.IsFemale, 'ее', 'его' )] [relative.Custom2('RelationToMeShort', oldling )|l] [oldling.GetTitledFirstName], пошатываясь, встает на ноги, сжимая кубок нетвердой рукой.\n\n"
  ep2_wedding_ewan.0061.desc.arrogant: "[oldling.GetFirstNameNoTooltip], издавна [Select_CString(oldling.IsFemale, 'славящаяся', 'славящийся' )] своей любовью к бахвальству, пускается в долгую речь, суть которой можно свести к одному: «без моего воспитания [relative.Custom('GetBrideGroom')|l] не [Select_CString(relative.IsFemale, 'стала бы', 'стал бы' )] достойным человеком». Эта полная самолюбия тирада перемежается историями из детства, о которых не принято вспоминать, и нелепыми шутками."
@@ -351,7 +330,6 @@
  ep2_wedding_ewan.0061.e.tt.success: "$ep2_wedding_ewan.0061.d.tt.success$"
  ep2_wedding_ewan.0061.e.tt.failure: "[oldling.GetFirstNameNoTooltip] несколько минут что-то бормочет"
  ep2_wedding_ewan.0061.f: "Прекратить слушать"
-  
  ep2_wedding_ewan.0071.t: "Сиюминутная клятва"
  ep2_wedding_ewan.0071.desc: "«[ROOT.Char.GetFirstNameNoTooltip], — задумчиво произносит мой сюзерен [liege.GetTitledFirstName], — знаете, а вы мне всегда нравились. Вы постоянно стремитесь мне угодить, а [liege.GetPrimaryTitle.GetNameNoTier] только процветает под сенью вашей славы».\n\nЯ киваю, отмечая про себя, что, должно быть, [Select_CString(liege.IsFemale, 'она', 'он' )] немного [Select_CString(liege.IsFemale, 'увлеклась', 'увлекся' )] празднованием. [Select_CString(liege.IsFemale, 'Та', 'Тот' )] продолжает:\n\n«Я хочу сделать вам предложение. Смотрите: вам нравится мне угождать, а мне — иметь связь с вами. Предлагаю поступить так: вы в самых лучших выражениях расскажете обо мне своим поклонникам, а я взамен дам понять остальным, что крайне интересуюсь вами»."
  ep2_wedding_ewan.0071.a: "А что, вполне честный обмен!"

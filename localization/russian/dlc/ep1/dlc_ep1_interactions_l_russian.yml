@@ -1,11 +1,9 @@
 ﻿l_russian:
-  
-  # Fund Inspiration Loc 
+ #Fund Inspiration Loc
  fund_inspiration_interaction: "Поддержать вдохновение"
  fund_inspiration_interaction_desc: "Поддержать [inspiration|El] персонажа [recipient.GetShortUINameNoTooltip], чтобы начать [project|El], по итогам которого вы можете получить [artifact|El].\n\nКачество и стоимость потенциального артефакта будут зависеть от навыков мастера."
  fund_inspiration_interaction_reqruit_family_tooltip: "[recipient.GetShortUIName|U] и [recipient.GetHerHis] семья"
-  
-  # Indebt Guest Loc 
+ #Indebt Guest Loc
  indebt_guest_interaction: "Обязанный гость"
  indebt_guest_interaction_desc: "Предложить [Concept('court_amenities','слугам')|E] свидетельствовать о том, что [recipient.GetShortUIName] разоряет вас, а #EMP затем#! предложить гостю способ выкрутиться из положения..."
  indebt_guest_interaction.tt.direct_indebted_guest: "У вас будет возможность сделать так, что [recipient.GetTitledFirstName] отправится туда, куда нужно"

@@ -71,4 +71,3 @@
  bp1_yearly.4040.dead: "[ROOT.Char.Custom('FavoriteTreatDemand')|U]! Тарелка-другая любимого лакомства — лучший способ почтить твою память."
  bp1_yearly.4040.family_first: "Ой, [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kindly_grandmother'))|l], давай лучше просто поболтаем!"
  #XXX: "XXX"
-  

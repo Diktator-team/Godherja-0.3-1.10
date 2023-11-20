@@ -816,7 +816,23 @@ trait_gh_legon:0 "Легон"
   
  trait_gh_one_handed: "Однорукий" 
  trait_gh_one_handed_desc: "У этого персонажа только одна рука." 
- trait_gh_one_handed_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] имеет только одну руку." 
+ trait_gh_one_handed_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] имеет только одну руку."
+ 
+ trait_gh_dragon_black:0 "Dragon"
+ trait_gh_dragon_black_desc:0 "This is a [dragon|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of obsidian, a species known for its mastery over [aspect_dark|E]."
+ trait_gh_dragon_black_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [dragon|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of obsidian, a species known for its mastery over [aspect_dark|E]."
+
+ trait_gh_dragon_blue:0 "Dragon"
+ trait_gh_dragon_blue_desc:0 "This is a [dragon|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of sapphire, a species known for its mastery over [aspect_water|E]."
+ trait_gh_dragon_blue_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [dragon|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of sapphire, a species known for its mastery over [aspect_water|E]."
+
+ trait_gh_dragon_green:0 "Dragon"
+ trait_gh_dragon_green_desc:0 "This is a [dragon|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of emerald, a species known for its mastery over [aspect_nature|E]."
+ trait_gh_dragon_green_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [dragon|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of emerald, a species known for its mastery over [aspect_nature|E]."
+
+ trait_gh_dragon_red:0 "Dragon"
+ trait_gh_dragon_red_desc:0 "This is a [dragon|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of ruby, a species known for its mastery over [aspect_fire|E]."
+ trait_gh_dragon_red_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [dragon|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of ruby, a species known for its mastery over [aspect_fire|E]." 
   
  # Substitute lifestyle traits for history work 
  trait_gh_historical_blademaster_1: "Честолюбивый мастер клинка" #Машинный перевод 28.10.23

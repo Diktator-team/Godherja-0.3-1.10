@@ -1,5 +1,4 @@
 ﻿l_russian:
-  
  COUNCIL_SAME_CHARACTER: "[CHARACTER.GetShortUIName|U] не может быть одновременно советником и главой совета."
  COUNCIL_NOT_LIEGE: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'должна', 'должен' )] быть сюзереном персонажа [TARGET_CHARACTER.GetShortUIName], чтобы назначить [TARGET_CHARACTER.GetHerHis] советником."
  COUNCIL_NOT_VALID_POSITION: "[CHARACTER.GetShortUIName|U] не может иметь советника с должностью $NAME$."
@@ -31,9 +30,14 @@
  COUNCILLOR_MISSING_SPOUSE: "Нет [Concept('available_spouse', 'доступного супруга' )|E]"
  COUNCILLOR_LIEGE_MISSING_SPOUSE: "У персонажа [CouncilWindow.GetCharacter.GetShortUIName] отсутствует [available_spouse|E]"
  COUNCILLOR_WILL_BE_ASSIGNED: "Будет назначен [councillor|El]"
-  
+ COUNCILLOR_MISSING_VIZIER: "У вас нет [Concept( 'vizier', 'визиря' )|E] или [Concept( 'spouse', 'супруга' )|E]"
+ COUNCILLOR_LIEGE_MISSING_VIZIER: "У персонажа [CouncilWindow.GetCharacter.GetShortUIName] отсутствует [vizier|El] или [spouse|El]"
+ COUNCILLOR_MISSING_CHANCELLOR: "У вас отсутствует [chancellor|El]"
+ COUNCILLOR_MISSING_MARSHAL: "У вас отсутствует [marshal|El]"
+ COUNCILLOR_MISSING_STEWARD: "У вас отсутствует [steward|El]"
+ COUNCILLOR_MISSING_SPYMASTER: "У вас отсутствует [spymaster|El]"
+ COUNCILLOR_MISSING_COURT_CHAPLAIN: "У вас отсутствует [court_chaplain|El]"
  learn_on_the_job_modifier: "$learn_on_the_job_perk_name$"
-  
  councillor_coregent: "Сорегент"
  councillor_coregent_possessive: "Сорегент"
  councillor_chancellor: "Канцлер"
@@ -46,10 +50,11 @@
  councillor_spymaster_possessive: "Тайный советник"
  councillor_court_chaplain: "Придворный капеллан"
  councillor_court_chaplain_possessive: "Придворный капеллан"
-  
- #Flavor localization for Court Chaplains, sorted by Religion. 
-  
- #Fallback 
+ councillor_vizier: "Наперсник"
+ councillor_vizier_desc: "Вы как правитель с [Concept( 'clan_government', 'клановым строем' )|E] можете назначить [Concept( 'vizier', 'визиря' )|E] или любую из своих [Concept( 'spouses', 'супруг' )|E] своим наперсником. Выбранный вами персонаж будет поддерживать вас в рутинных делах."
+ councillor_vizier_possessive: "Наперсник"
+ #Flavor localization for Court Chaplains, sorted by Religion.
+ #Fallback
  councillor_court_chaplain_theocrat_county: "Викарный епископ"
  councillor_court_chaplain_theocrat_county_possessive: "Викарный епископ"
  councillor_court_chaplain_theocrat_duchy: "Епископ"
@@ -60,8 +65,7 @@
  councillor_court_chaplain_theocrat_empire_female: "Матриарх"
  councillor_court_chaplain_theocrat_empire_possessive: "Патриарх"
  councillor_court_chaplain_theocrat_empire_female_possessive: "Матриарх"
-  
- #Christian 
+ #Christian
  councillor_court_chaplain_christian_county: "Викарный епископ"
  councillor_court_chaplain_christian_county_possessive: "Викарный епископ"
  councillor_court_chaplain_christian_duchy: "Епископ"
@@ -72,8 +76,7 @@
  councillor_court_chaplain_christian_empire_female: "Матриарх"
  councillor_court_chaplain_christian_empire_possessive: "Патриарх"
  councillor_court_chaplain_christian_empire_female_possessive: "Матриарх"
-  
-  #Orthodox 
+ #Orthodox
  councillor_court_chaplain_orthodox_county: "Викарный епископ"
  councillor_court_chaplain_orthodox_county_possessive: "Викарный епископ"
  councillor_court_chaplain_orthodox_duchy: "Епископ"
@@ -86,8 +89,7 @@
  councillor_court_chaplain_orthodox_empire_female: "Матриарх"
  councillor_court_chaplain_orthodox_empire_possessive: "Патриарх"
  councillor_court_chaplain_orthodox_empire_female_possessive: "Матриарх"
-  
- #Islam 
+ #Islam
  councillor_court_chaplain_islam_county: "Придворный имам"
  councillor_court_chaplain_islam_county_possessive: "Придворный имам"
  councillor_court_chaplain_islam_duchy: "Муфтий"
@@ -96,16 +98,14 @@
  councillor_court_chaplain_islam_kingdom_possessive: "Аллама"
  councillor_court_chaplain_islam_empire: "Великий аллама"
  councillor_court_chaplain_islam_empire_possessive: "Великий аллама"
-  
- #Shia 
+ #Shia
  councillor_court_chaplain_ismaili_county: "Кади"
  councillor_court_chaplain_ismaili_county_possessive: "Кади"
  councillor_court_chaplain_ismaili_kingdom: "Аятолла"
  councillor_court_chaplain_ismaili_kingdom_possessive: "Аятолла"
  councillor_court_chaplain_ismaili_empire: "Великий аятолла"
  councillor_court_chaplain_ismaili_empire_possessive: "Великий аятолла"
-  
- # Yazidi 
+ #Yazidi
  councillor_court_chaplain_yazidi_county: "Пешимам"
  councillor_court_chaplain_yazidi_county_possessive: "Пешимам"
  councillor_court_chaplain_yazidi_duchy: "Пир"
@@ -114,12 +114,10 @@
  councillor_court_chaplain_yazidi_kingdom_possessive: "Шейх"
  councillor_court_chaplain_yazidi_empire: "Баба шейх"
  councillor_court_chaplain_yazidi_empire_possessive: "Баба шейх"
-  
- # Bon (Upadhyaya/Upadhyayani) (Purohit) (Banchenpo) 
+ #Bon (Upadhyaya/Upadhyayani) (Purohit) (Banchenpo)
  councillor_court_chaplain_bon_religion_kingdom: "Банченпо"
  councillor_court_chaplain_bon_religion_kingdom_possessive: "Банченпо"
-  
- # Buddhism/Hinduism/Jainism (Upadhyaya/Upadhyayani) (Purohit) (Rajpurohit) (Marajpurohit) 
+ #Buddhism/Hinduism/Jainism (Upadhyaya/Upadhyayani) (Purohit) (Rajpurohit) (Marajpurohit)
  councillor_court_chaplain_buddhism_religion_county: "Упадхьяя"
  councillor_court_chaplain_buddhism_religion_county_female: "Упадхьяяни"
  councillor_court_chaplain_buddhism_religion_county_possessive: "Упадхьяя"
@@ -130,14 +128,12 @@
  councillor_court_chaplain_buddhism_religion_kingdom_possessive: "Раджпурохита"
  councillor_court_chaplain_buddhism_religion_empire: "Мараджпурохита"
  councillor_court_chaplain_buddhism_religion_empire_possessive: "Мараджпурохита"
-  
- # Dualism (Didaskalos) (Ecclesiarch) (Patriarch/Matriarch) 
+ #Dualism (Didaskalos) (Ecclesiarch) (Patriarch/Matriarch)
  councillor_court_chaplain_dualism_religion_county: "Дидаскал"
  councillor_court_chaplain_dualism_religion_county_female: "Дидаскал"
  councillor_court_chaplain_dualism_religion_county_possessive: "Дидаскал"
  councillor_court_chaplain_dualism_religion_county_female_possessive: "Дидаскал"
-  
- # Germanic (Godi) (Hofgodi) (Riksgodi) (Kjarrgodi) 
+ #Germanic (Godi) (Hofgodi) (Riksgodi) (Kjarrgodi)
  councillor_court_chaplain_germanic_religion_county: "Годи"
  councillor_court_chaplain_germanic_religion_county_female: "Гидья"
  councillor_court_chaplain_germanic_religion_county_possessive: "Годи"
@@ -148,8 +144,7 @@
  councillor_court_chaplain_germanic_religion_kingdom_possessive: "Риксгоди"
  councillor_court_chaplain_germanic_religion_empire: "Кьяргоди"
  councillor_court_chaplain_germanic_religion_empire_possessive: "Кьяргоди"
-  
- # Hellenism (Augur/Seeress) (Flamen/Vestal) (Pontifex) (Oracle/Sybil) 
+ #Hellenism (Augur/Seeress) (Flamen/Vestal) (Pontifex) (Oracle/Sybil)
  councillor_court_chaplain_hellenism_religion_county: "Фламин"
  councillor_court_chaplain_hellenism_religion_county_female: "Весталка"
  councillor_court_chaplain_hellenism_religion_county_possessive: "Фламин"
@@ -160,8 +155,7 @@
  councillor_court_chaplain_hellenism_religion_kingdom_female: "Сивилла"
  councillor_court_chaplain_hellenism_religion_kingdom_possessive: "Оракул"
  councillor_court_chaplain_hellenism_religion_kingdom_female_possessive: "Сивилла"
-  
- # Judaism (Court Rabbi) (Kohen) (Rabban) (Nasi) (Gadol) 
+ #Judaism (Court Rabbi) (Kohen) (Rabban) (Nasi) (Gadol)
  councillor_court_chaplain_judaism_religion_county: "Коген"
  councillor_court_chaplain_judaism_religion_county_possessive: "Коген"
  councillor_court_chaplain_judaism_religion_duchy: "Раввин"
@@ -170,12 +164,10 @@
  councillor_court_chaplain_judaism_religion_kingdom_possessive: "Наси"
  councillor_court_chaplain_judaism_religion_empire: "Гадол"
  councillor_court_chaplain_judaism_religion_empire_possessive: "Гадол"
-  
- # Magyarism (Court Shaman) (Táltos) (High Táltos) (Grand Táltos) 
+ #Magyarism (Court Shaman) (Táltos) (High Táltos) (Grand Táltos)
  councillor_court_chaplain_magyarism_religion_county: "Талтош"
  councillor_court_chaplain_magyarism_religion_county_possessive: "Талтоша"
-  
- # Paganism (Court Shaman) (Shaman) (High Shaman) 
+ #Paganism (Court Shaman) (Shaman) (High Shaman)
  councillor_court_chaplain_paganism_religion_county: "Придворный шаман"
  councillor_court_chaplain_paganism_religion_county_possessive: "Придворный шаман"
  councillor_court_chaplain_paganism_religion_duchy: "Шаман"
@@ -184,8 +176,7 @@
  councillor_court_chaplain_paganism_religion_kingdom_female: "$councillor_court_chaplain_paganism_religion_kingdom$"
  councillor_court_chaplain_paganism_religion_kingdom_possessive: "Верховный шаман"
  councillor_court_chaplain_paganism_religion_kingdom_female_possessive: "$councillor_court_chaplain_paganism_religion_kingdom_possessive$"
-  
- # Baltic (Court Seer) (Vaidilė/Vaidilutė) 
+ #Baltic (Court Seer) (Vaidilė/Vaidilutė)
  councillor_court_chaplain_baltic_religion_county: "Придворный провидец"
  councillor_court_chaplain_baltic_religion_county_female: "Придворная провидица"
  councillor_court_chaplain_baltic_religion_county_possessive: "Придворный провидец"
@@ -194,22 +185,19 @@
  councillor_court_chaplain_baltic_religion_duchy_female: "Вайделотка"
  councillor_court_chaplain_baltic_religion_duchy_possessive: "Вайделот"
  councillor_court_chaplain_baltic_religion_duchy_female_possessive: "Вайделотка"
-  
- # Slavic (Court Seer) (Zhrets/Zhritsa) (Volkhv/Vedunya) (Grand Diviner) 
+ #Slavic (Court Seer) (Zhrets/Zhritsa) (Volkhv/Vedunya) (Grand Diviner)
  councillor_court_chaplain_slavic_religion_duchy: "Жрец"
  councillor_court_chaplain_slavic_religion_duchy_female: "Жрица"
  councillor_court_chaplain_slavic_religion_duchy_possessive: "Жрец"
  councillor_court_chaplain_slavic_religion_duchy_female_possessive: "Жрица"
- councillor_court_chaplain_slavic_religion_kingdom: "Маг"
+ councillor_court_chaplain_slavic_religion_kingdom: "Волхв"
  councillor_court_chaplain_slavic_religion_kingdom_female: "Ворожея"
- councillor_court_chaplain_slavic_religion_kingdom_possessive: "Маг"
+ councillor_court_chaplain_slavic_religion_kingdom_possessive: "Волхв"
  councillor_court_chaplain_slavic_religion_kingdom_female_possessive: "Ворожея"
-  
- # Finno-Ugric (Court Seer) (Noaidi) (High Noaidi) (Grand Diviner) 
+ #Finno-Ugric (Court Seer) (Noaidi) (High Noaidi) (Grand Diviner)
  councillor_court_chaplain_finno_ugric_religion_duchy: "Нойда"
  councillor_court_chaplain_finno_ugric_religion_duchy_possessive: "Нойда"
-  
- # Taoism (Libationer) 
+ #Taoism (Libationer)
  councillor_court_chaplain_taoism_religion_county: "Придворный священник"
  councillor_court_chaplain_taoism_religion_county_female: "Придворная священница"
  councillor_court_chaplain_taoism_religion_county_possessive: "Придворный священник"
@@ -218,28 +206,23 @@
  councillor_court_chaplain_taoism_religion_duchy_possessive: "Возливающий"
  councillor_court_chaplain_taoism_religion_kingdom: "Верховный возливающий"
  councillor_court_chaplain_taoism_religion_kingdom_possessive: "Верховный возливающий"
-  
- # Tengrism (Shaman) 
+ #Tengrism (Shaman)
  councillor_court_chaplain_tengrism_religion_duchy: "Шаман"
  councillor_court_chaplain_tengrism_religion_duchy_possessive: "Шаман"
  councillor_court_chaplain_tengrism_religion_kingdom: "Верховный шаман"
  councillor_court_chaplain_tengrism_religion_kingdom_possessive: "Верховный шаман"
-  
- # West African (Shaman) 
+ #West African (Shaman)
  councillor_court_chaplain_west_african_religion_duchy: "Огон"
  councillor_court_chaplain_west_african_religion_duchy_possessive: "Огон"
-  
- # West African Bori (Shaman) 
+ #West African Bori (Shaman)
  councillor_court_chaplain_west_african_bori_religion_duchy: "Аджинги"
  councillor_court_chaplain_west_african_bori_religion_duchy_female: "Магаджа"
  councillor_court_chaplain_west_african_bori_religion_duchy_possessive: "Аджинги"
  councillor_court_chaplain_west_african_bori_religion_duchy_female_possessive: "Магаджи"
-  
- # West African Roog (Shaman) 
+ #West African Roog (Shaman)
  councillor_court_chaplain_west_african_roog_religion_duchy: "Салтигуе"
  councillor_court_chaplain_west_african_roog_religion_duchy_possessive: "Салтигуе"
-  
- # Zoroastrianism (Mobed) 
+ #Zoroastrianism (Mobed)
  councillor_court_chaplain_zoroastrianism_religion_county: "Хирбад"
  councillor_court_chaplain_zoroastrianism_religion_county_possessive: "Хирбад"
  councillor_court_chaplain_zoroastrianism_religion_duchy: "Мобед"
@@ -250,14 +233,12 @@
  councillor_court_chaplain_zoroastrianism_religion_kingdom_female: "Дастуяр"
  councillor_court_chaplain_zoroastrianism_religion_kingdom_possessive: "Дастур"
  councillor_court_chaplain_zoroastrianism_religion_kingdom_female_possessive: "Дастуяр"
-  
- # Zunism (Court Seer) (Diviner) (Grand Diviner) 
+ #Zunism (Court Seer) (Diviner) (Grand Diviner)
  councillor_court_chaplain_zunism_religion_duchy: "Предсказатель"
  councillor_court_chaplain_zunism_religion_duchy_possessive: "Предсказатель"
  councillor_court_chaplain_zunism_religion_kingdom: "Великий предсказатель"
  councillor_court_chaplain_zunism_religion_kingdom_possessive: "Великий предсказатель"
-  
- #Flavor localizaton for Spouse Councilor, sorted by Cultures/Governments. 
+ #Flavor localizaton for Spouse Councilor, sorted by Cultures/Governments.
  councillor_spouse: "Супруг"
  councillor_spouse_prince_consort: "Консорт"
  councillor_spouse_husband: "Муж"
@@ -266,13 +247,11 @@
  councillor_spouse_duchess: "Герцогиня"
  councillor_spouse_countess: "Графиня"
  councillor_spouse_baroness: "Баронесса"
-  
  councillor_spouse_emperor: "Император"
  councillor_spouse_king: "Король"
  councillor_spouse_duke: "Герцог"
  councillor_spouse_count: "Граф"
  councillor_spouse_baron: "Барон"
-  
  councillor_spouse_possessive: "Супруга"
  councillor_spouse_prince_consort_possessive: "Консорта"
  councillor_spouse_husband_possessive: "Мужа"
@@ -281,13 +260,11 @@
  councillor_spouse_duchess_possessive: "Герцогини"
  councillor_spouse_countess_possessive: "Графини"
  councillor_spouse_baroness_possessive: "Баронессы"
-  
  councillor_spouse_emperor_possessive: "Императора"
  councillor_spouse_king_possessive: "Короля"
  councillor_spouse_duke_possessive: "Герцога"
  councillor_spouse_count_possessive: "Графа"
  councillor_spouse_baron_possessive: "Барона"
-  
  councillor_leaving_court_message_title: "Советник покинул двор"
  councillor_leaving_court_marriage_notification: "Ваш[Select_CString(councillor.IsFemale, 'а', '' )] [council_task.GetPositionName|l], [councillor.GetShortUINameNoTooltip|U], [Select_CString(councillor.IsFemale, 'покинула', 'покинул' )] занимаемую должность и ваш двор, вступив в брак с человеком, владеющим землёй."
  councillor_leaving_court_landed_notification: "Ваш[Select_CString(councillor.IsFemale, 'а', '' )] [council_task.GetPositionName|l], [councillor.GetShortUINameNoTooltip|U], [Select_CString(councillor.IsFemale, 'покинула', 'покинул' )] занимаемую должность и ваш двор, унаследовав титул."

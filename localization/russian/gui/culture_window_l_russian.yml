@@ -6,7 +6,7 @@
  CULTURE_RELATION_FOREIGN_CULTURE: "Чужая [culture|El]"
  CULTURE_WINDOW_ERA_JOINED: "$JOINED$–"
  CULTURE_WINDOW_ERA_JOINED_LEFT: "$JOINED$–$LEFT$"
- CULTURE_WINDOW_ERA_LEFT: ""
+ CULTURE_WINDOW_ERA_LEFT: "" #intentionally empty
  CULTURE_WINDOW_ERA_DISCOVERED_BY: "#L [CULTURE.GetCollectiveNoun]ая#! культура совершила открытие"
  CULTURE_WINDOW_CULTURE_HEAD_TITLE: "[culture_head|E]: [Character.GetUIName|U]"
  CULTURE_WINDOW_HEAD_FASCINATION: "[fascination|E]: [CultureWindow.GetCulture.GetFascination.GetName]"
@@ -147,7 +147,7 @@
  ADD_TRADITION_NOT_CULTURE_HEAD: "@warning_icon!#X Вы не [culture_head|El]#!"
  REPLACE_TRADITION_NO_NEW_TRADITION_SELECTED: "@warning_icon!#X Не выбрана новая [culture_tradition|El]#!"
  REPLACE_TRADITION_NOT_CULTURE_HEAD: "@warning_icon!#X Вы не [culture_head|El]#!"
- #TRADITION_CATEGORY_NAME: ""
+ #TRADITION_CATEGORY_NAME: "" # <DELETE THIS KEY>
  TRADITION_CATEGORY_COUNT: "[TraditionGrouping.GetPickableInGrouping]/[TraditionGrouping.GetTotalInGrouping]"
  TRADITION_CATEGORY_OTHER: "Другие"
  tradition_group_law: "Законные"
@@ -156,7 +156,6 @@
  tradition_group_regional: "Региональные"
  tradition_group_societal: "Общественные"
  tradition_group_ritual: "Ритуальные"
-  
  REFORM_CULTURE_LABEL: "Реформировать [Culture.GetCollectiveNounNoTooltip|l]ую культуру"
  REFORM_CULTURE_TOOLTIP: "[Concept( 'reform', 'Реформировать' )|E] [traditions|El], [ethos|El] или [culture_pillars|El] #L [Culture.GetCollectiveNoun|l]ой#! культуры\n\n[SelectLocalization(Culture.IsReforming, 'REFORM_CULTURE_TOOLTIP_WARNING','')]"
  REFORM_CULTURE_TOOLTIP_WARNING: "@warning_icon!#X  [reformation|E] уже идет"
@@ -186,7 +185,6 @@
  REFORMATION_MONTHLY_PROGRESS: "#S Ежемесячный прогресс#!"
  CULTURE_CLICK_TO_REPLACE: "#I Щелкните, чтобы заменить#!"
  CULTURE_CLICK_TO_ADD_TRADITION: "#I Заложить новую [Concept( 'tradition', 'традицию' )|E]#!"
-  
  ESTABLISHMENT_TIME_TOOLTIP_PILLAR: "#T Время на принятие: [Culture.GetTotalReformTimeForPillar]#!\n[Culture.GetTotalReformTimeBreakdownForPillar]"
  ESTABLISHMENT_TIME_TOOLTIP_NEW_TRADITION: "#T Время на принятие: [GetPlayer.GetCulture.GetTotalReformTimeForNewTradition]#!\n[GetPlayer.GetCulture.GetTotalReformTimeBreakdownForNewTradition]"
  ESTABLISHMENT_TIME_TOOLTIP_REPLACING_TRADITION: "#T Время на принятие: [GetPlayer.GetCulture.GetTotalReformTimeForReplacingTradition]#!\n[GetPlayer.GetCulture.GetTotalReformTimeBreakdownForReplacingTradition]"

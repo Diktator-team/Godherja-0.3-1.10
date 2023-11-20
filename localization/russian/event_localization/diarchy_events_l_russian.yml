@@ -1,7 +1,6 @@
 ﻿l_russian:
-  
-  ################################################## 
-  # #Misc Keys 
+ ##################################################
+ ##Misc Keys
  diarchy.0000.tt.diarch_shirked_duties: "[Select_CString( diarch.IsLocalPlayer, 'Вы', diarch.GetFirstName )] [Select_CString( diarch.IsLocalPlayer, 'уклоняетесь', 'уклоняется' )] от своих обязанностей [Concept( 'diarch', 'диарха' )|E]"
  diarch_title_diarch: "диарх"
  diarch_title_regent: "регент"
@@ -9,22 +8,14 @@
  diarch_coup_equal_truce: "[liege.GetUINameNotMe|U] [Select_CString(liege.IsFemale, 'согласилась', 'согласился' )] на это с учетом переворота, что проводит [usurper.GetUIName|U]"
  diarch_coup_unequal_truce_for_liege: "[liege.GetUINameNotMe|U] [Select_CString(liege.IsFemale, 'согласилась', 'согласился' )] на это с учетом бескровного переворота, что проводит [usurper.GetUIName|U]"
  diarch_coup_unequal_truce_for_usurper: "$diarch_coup_unequal_truce_for_liege$"
-  
-  
-  
-  
-  
-  
-  
-  ################################################## 
-  # #Notifications 
+ ##################################################
+ ##Notifications
  diarchies.0000.diarch_fulfills_mandate.t: "[liege.GetDiarchTitle|U] исполняет [mandate|El]"
  diarchies.0000.diarch_fails_at_mandate.t: "[liege.GetDiarchTitle|U] неудачно исполняет [mandate|El]"
  diarchies.0000.diarch_skims_mandate.t: "[liege.GetDiarchTitle|U] злоупотребляет [Concept( 'mandate', 'мандатом' )|E]"
  diarchies.0000.diarch_fails_to_skim_mandate.t: "[liege.GetDiarchTitle|U] безуспешно пытается злоупотреблять [Concept( 'mandate', 'мандатом' )|E]"
  diarchies.0000.diarch_rejects_mandate.t: "[liege.GetDiarchTitle|U] отклоняет [mandate|El] из-за [Concept( 'personality_trait', 'свойства личности' )|E]"
  diarchies.0000.diarch_lax_with_mandate.t: "[liege.GetDiarchTitle|U] избегает обязанностей, связанных с [Concept( 'mandate', 'мандатом' )|E]"
-  
  diarchies.0000.diarch_mandate_fail.tt.obtain_gold.liege: "[Select_CString(diarch.IsFemale, 'Она пыталась', 'Он пытался' )] заполучить ваше [Concept( 'gold', 'золото' )|E]"
  diarchies.0000.diarch_mandate_fail.tt.obtain_gold.split: "[Select_CString(diarch.IsFemale, 'Она пыталась', 'Он пытался' )] заполучить [Concept( 'gold', 'золото' )|E] для вас обоих"
  diarchies.0000.diarch_mandate_fail.tt.obtain_gold.self: "[Select_CString(diarch.IsFemale, 'Она пыталась', 'Он пытался' )] заполучить [Concept( 'gold', 'золото' )|E] для себя"
@@ -38,7 +29,6 @@
  diarchies.0000.diarch_mandate_fail.tt.affect_faction.liege: "[Select_CString(diarch.IsFemale, 'Она пыталась', 'Он пытался' )] распустить [Concept( 'faction', 'фракцию' )|E]"
  diarchies.0000.diarch_mandate_fail.tt.network.self: "[Select_CString(diarch.IsFemale, 'Она пыталась', 'Он пытался' )] заполучить услуги [Concept('vassals', 'вассалов' )|E] в своих интересах"
  diarchies.0000.diarch_mandate_fail.tt.train_self.self: "[Select_CString(diarch.IsFemale, 'Она занялась', 'Он занялся' )] обучением себя, а не ваших войск"
-  
  diarchy.0021.t: "[liege.GetDiarchTitle|U] назначен"
  diarchy.0021.desc.appointment_nature.child: "[liege.Custom2('MyCharacterIntroduction', ROOT.Char)] еще дитя и, очевидно, не в состоянии эффективно управлять державой [liege.GetPrimaryTitle.GetName]. [liege.GetHerHim|U] нужна крепкая, надежная рука, которая будет наставлять [liege.GetHerHis|l] по крайней мере до тех пор, пока [liege.GetSheHe|l] не достигнет совершеннолетия."
  diarchy.0021.desc.appointment_nature.incapable: "Поскольку [liege.Custom2('MyCharacterIntroduction', ROOT.Char)] теперь представляет собой недееспособный #EMP овощ#!, [liege.GetPrimaryTitle.GetName] балансирует на грани полной анархии. С учетом [liege.GetHerHis|l] состояния никто не знает, как долго мы будем лишены хотя бы подобия власти."
@@ -56,22 +46,14 @@
  diarchy.0021.a.sedate: "У меня столько идей для державы!"
  diarchy.0021.b: "Наконец-то признание."
  diarchy.0021.c: "Боюсь, у меня слишком много неотложных дел..."
-  
-  
-  
-  
-  
-  
-  
-  ################################################## 
-  # #Modifiers 
+ ##################################################
+ ##Modifiers
  mandate_induced_fines_to_liege_modifier: "Завышенные штрафы за преступления"
  mandate_induced_fines_to_liege_modifier_desc: "Это графство страдает от драконовских штрафов за преступления, которые взимаются ради обогащения державы в целом."
  mandate_induced_fines_split_modifier: "Разделенные завышенные штрафы за преступления"
  mandate_induced_fines_split_modifier_desc: "Это графство страдает от драконовских штрафов за преступления, значительная часть которых поступает в распоряжение местного правителя."
  mandate_fines_being_ignored_modifier: "Игнорирование штрафов за преступления"
  mandate_fines_being_ignored_modifier_desc: "Это графство игнорирует требования более строго взимать штрафы с преступников и до сих пор недовольно самой просьбой."
-  
  mandate_hated_recruiter_modifier: "Ненавистный вербовщик"
  mandate_hated_recruiter_modifier_desc: "Этот персонаж славится #EMP безжалостным#! подходом к набору ополчения."
  mandate_failed_to_drum_up_rural_recruits_modifier: "Незадачливый вербовщик"
@@ -80,17 +62,14 @@
  mandate_squeezing_recruiting_sources_modifier_desc: "Все, кто достиг подходящего возраста, отслужат положенное. Или заплатят необходимую цену."
  mandate_extra_recruiting_sources_modifier: "Вербовка сверх положенного"
  mandate_extra_recruiting_sources_modifier_desc: "Это графство обязано поставлять определенное количество бойцов на войну, но его жители знают, что лучше добавить еще несколько. Иначе будут проблемы."
-  
  mandate_sellswords_bolster_ranks_modifier: "Наемники укрепляют ряды"
  mandate_sellswords_bolster_ranks_modifier_desc: "Когда солдат из армии этого персонажа умирает или уходит в отставку, его легко заменить одним из множества наемников, готовых занять его место."
  mandate_sellswords_bolster_recruitment_modifier: "Наемники способствуют вербовке"
  mandate_sellswords_bolster_recruitment_modifier_desc: "Наемники, желающие получить #EMP постоянный#! источник доходов, всегда рады вступить в ряды войск этого персонажа."
-  
  mandate_hired_thugs_modifier: "Нанятые головорезы"
  mandate_hired_thugs_modifier_desc: "С недоброжелателями этого персонажа часто случаются крайне неприятные вещи."
  mandate_emptied_gaols_modifier: "Опустевшие тюрьмы"
  mandate_emptied_gaols_modifier_desc: "Головорезы и бандиты стекаются в это графство, зная, что их преступления будут прощены в обмен на воинскую службу."
-  
  mandate_baronial_troops_trained_modifier: "Закаленные баронские войска"
  mandate_baronial_troops_trained_modifier_desc: "Куда больше войск этого персонажа оказались готовы к бою, чем ожидалось."
  mandate_baronial_troops_half_trained_modifier: "Частично закаленные баронские войска"
@@ -99,22 +78,14 @@
  mandate_focused_on_own_training_modifier_desc: "Благодаря регулярным упражнениям этот персонаж поддерживает себя в хорошей форме."
  mandate_strained_self_training_modifier: "Напряженное самообучение"
  mandate_strained_self_training_modifier_desc: "Этот персонаж поранился во время муштры ополчения и так и не оправился от последствий."
-  
  shift_privileges_monopolies_sold_modifier: "Продажа монополий"
  shift_privileges_monopolies_sold_modifier_desc: "Какой-то негодяй продавал эксклюзивные права на продажу и производство определенных товаров #EMP без#! разрешения местного правителя!"
  shift_privileges_scutage_exemptions_modifier: "Послабление щитовых денег"
  shift_privileges_scutage_exemptions_modifier_desc: "Документы с печатью куда более весомой, чем у местного правителя, утверждают, что местные крестьяне не подлежат набору на воинскую службу."
  shift_privileges_conflicting_deeds_modifier: "Противоречивые сделки"
  shift_privileges_conflicting_deeds_modifier_desc: "Беспринципный негодяй продал небольшие земельные участки местным магнатам, которые охватывают земли, принадлежащие местному правителю."
-  
-  
-  
-  
-  
-  
-  
-  ################################################## 
-  # #Mandates - Fill Coffers 
+ ##################################################
+ ##Mandates - Fill Coffers
  diarchy.1201.t: "Открытые сердца, открытые карманы"
  diarchy.1201.desc: "«Недоимки? Откуда взяться #EMP недоимкам#!? — фыркает [exploitable_vassal.GetTitledFirstName]. — Я вовремя плачу налоги короне, с точностью до монетки, и мне не нравится, когда из меня пытаются выжать больше денег».\n\n[exploitable_vassal.GetSheHe|U]... не жаждет платить лишнюю десятину, как того бы хотелось мне, но я [liege.GetDiarchTitle], и мандат обязывает меня поступать таким образом ради службы сюзерену."
  diarchy.1201.a: "[liege.GetTitledFirstNameNoTooltip] #EMP приказывает#! вам заплатить."
@@ -132,7 +103,6 @@
  diarchy.1201.d.t: "[liege.GetDiarchTitle|U] отклоняет [mandate|El] из-за [Concept( 'personality_trait', 'свойства личности' )|E]"
  diarchy.1201.e: "Вы правы. Считайте, что долги прощены."
  diarchy.1201.e.t: "[liege.GetDiarchTitle|U] избегает обязанностей, связанных с [Concept( 'mandate', 'мандатом' )|E]"
-  
  diarchy.1211.t: "Правила и условия"
  diarchy.1211.desc: "«...и присутствующие свидетели вашей клятвы подтверждают, что вы обещали #EMP перевыполнить#! свои обязательства», — заканчиваю я. [exploitable_vassal.GetTitledFirstName] смотрит на меня с противоположного конца стола в полном потрясении.\n\n«Вы считаете, что слова каких-то зачуханных дворян доказывают, что мои обязательства перед сюзереном #EMP еще выше#!?» — запинаясь спрашивает [exploitable_vassal.GetSheHe|l], пребывая в замешательстве от бесцеремонности моих заявлений.\n\nЭто рискованное предложение, но я [liege.GetDiarchTitle], и мой мандат обязывает меня действовать в интересах сюзерена."
  diarchy.1211.a: "Да, и если вам не нравятся эти свидетели, у меня найдутся другие."
@@ -150,7 +120,6 @@
  diarchy.1211.d.t: "[liege.GetDiarchTitle|U] отклоняет [mandate|El] из-за [Concept( 'personality_trait', 'свойства личности' )|E]"
  diarchy.1211.e: "Возможно... возможно тут не все так однозначно..."
  diarchy.1211.e.t: "[liege.GetDiarchTitle|U] избегает обязанностей, связанных с [Concept( 'mandate', 'мандатом' )|E]"
-  
  diarchy.1221.t: "Ваш новый дом"
  diarchy.1221.desc: "Согласно мандату, которым меня [Select_CString(liege.IsFemale, 'наделила', 'наделил' )] [liege.GetTitledFirstName], моей первейшей обязанностью является наполнение [liege.GetHerHis|l] казны. Проще всего это сделать, заселив окраины владения [recipient_county.GetNameNoTier], переселив крепостных и мелких арендаторов с моих земель в провинции [actor_county.GetName].\n\nТолько вот крестьяне сопротивляются этому. Насильственное переселение каждой семьи сродни вырыванию зубов, они будто бы #EMP не хотят#! переезжать по воле господ."
  diarchy.1221.a: "Они пойдут туда, куда я скажу, и тогда, когда я скажу."
@@ -169,7 +138,6 @@
  diarchy.1221.d.t: "[liege.GetDiarchTitle|U] отклоняет [mandate|El] из-за [Concept( 'personality_trait', 'свойства личности' )|E]"
  diarchy.1221.e: "Ха, пусть остаются на своих землях, раз так любят копаться в грязи!"
  diarchy.1221.e.t: "[liege.GetDiarchTitle|U] избегает обязанностей, связанных с [Concept( 'mandate', 'мандатом' )|E]"
-  
  diarchy.1231.t: "Монеты ради"
  diarchy.1231.desc: "Мандат, которым меня [Select_CString(liege.IsFemale, 'наделила', 'наделил' )] [liege.GetTitledFirstName], обязывает меня изыскивать доходы для казны, и в настоящий момент сюзерен практически не получает доходов от судов. Магистраты и мелкие дворяне регулярно взимают штрафы с мелких преступников, но оставляют себе большую часть этих средств.\n\nВладение [exploitable_county.GetNameNoTier] особенно богато подобной швалью, и перекладывание на местных штрафов за их проступки принесет значительные доходы, хоть и вызовет недовольство."
  diarchy.1231.a: "Кому какое дело до их мнения? Преступник будет наказан."
@@ -187,7 +155,6 @@
  diarchy.1231.d.t: "[liege.GetDiarchTitle|U] отклоняет [mandate|El] из-за [Concept( 'personality_trait', 'свойства личности' )|E]"
  diarchy.1231.e: "Это выходит далеко за пределы моих обязанностей."
  diarchy.1231.e.t: "[liege.GetDiarchTitle|U] избегает обязанностей, связанных с [Concept( 'mandate', 'мандатом' )|E]"
-  
  diarchy.1241.t: "Налоговый вопрос"
  diarchy.1241.desc: "Я [liege.GetDiarchTitle], и одной из моих обязанностей является исполнение мандата, которым меня [Select_CString(liege.IsFemale, 'наделила', 'наделил' )] [liege.GetTitledFirstName], и в данный момент от меня требуется добыть золото.\n\nЯ непрерывно размышляю о новых источниках доходов для короны, все время возвращаясь к очевидному, хоть и необычному ответу: [diarch.Custom('GetFaithTaxExemptInstitution')].\n\nТрадиционно они избавлены от уплаты налогов, но... [diarch.Custom('GetFaithTaxExemptInstitution')]... звучит очень заманчиво. Пусть и не слишком благочестиво."
  diarchy.1241.a: "[diarch.Custom('GetFaithTaxExemptInstitution')|U]? Мы слишком долго не трогали их!"
@@ -205,18 +172,8 @@
  diarchy.1241.d.t: "[liege.GetDiarchTitle|U] отклоняет [mandate|El] из-за [Concept( 'personality_trait', 'свойства личности' )|E]"
  diarchy.1241.e: "Я не могу сделать это. Я #EMP не буду#! делать это."
  diarchy.1241.e.t: "[liege.GetDiarchTitle|U] избегает обязанностей, связанных с [Concept( 'mandate', 'мандатом' )|E]"
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  ################################################## 
-  # #Mandates - Promote Authority 
+ ##################################################
+ ##Mandates - Promote Authority
  diarchy.1701.t: "Право на власть"
  diarchy.1701.desc: "Я [liege.GetDiarchTitle], и долг велит мне исполнять мандат, которым меня [Select_CString(liege.IsFemale, 'наделила', 'наделил' )] [liege.GetTitledFirstName], и укреплять централизованную власть в державе [liege.GetPrimaryTitle.GetNameNoTier].\n\nСегодня из-за этих обязанностей я нахожусь в тесных палатах совета. С одной стороны [councillor_1.Custom('CouncilPosition')] [councillor_1.GetTitledFirstName], с другой [councillor_2.Custom('CouncilPosition')] [councillor_2.GetTitledFirstName], и они орут друг на друга из-за личных разногласий.\n\nУ меня была надежда договориться о новых привилегиях, которыми сможет пользоваться [liege.GetTitleAsNameNoTooltip|l], но пока они спорят, успеха мне не видать."
  diarchy.1701.a: "Думаю, вы просто не слышите друг друга. Позвольте..."
@@ -235,7 +192,6 @@
  diarchy.1701.d.custom.both_councillors: "Оба советника:"
  diarchy.1701.e: "Интересно, заметят ли они, если я вздремну..."
  diarchy.1701.e.t: "[liege.GetDiarchTitle|U] избегает обязанностей, связанных с [Concept( 'mandate', 'мандатом' )|E]"
-  
  diarchy.1711.t: "Срок действия"
  diarchy.1711.desc: "«Честно сказать, мне казалось, что этот вопрос решенный. Соглашения, что заключили я и [liege.GetTitledFirstName], были исправлены, когда мы в последний раз обсуждали мои обязательства, — бормочет [exploitable_vassal.GetTitledFirstName]. — Я не понимаю, почему вы утверждаете, что я не исполняю данные клятвы. Они же должны быть вечными, разве нет?»\n\n[exploitable_vassal.GetSheHe|U] в общем [Select_CString(exploitable_vassal.IsFemale, 'права', 'прав' )]. Я хожу по тонкому льду, но я [liege.GetDiarchTitle], и мой мандат ясен как день. Если клятвы вассала хотя бы отчасти недействительны, [liege.GetTitleAsNameNoTooltip|l] сможет изменить условия договора, и моя работа будет выполнена."
  diarchy.1711.a: "Все ведь знают, что я всегда поступаю справедливо и по закону?"
@@ -253,7 +209,6 @@
  diarchy.1711.d.t: "[liege.GetDiarchTitle|U]отклоняет [mandate|El] из-за [Concept( 'personality_trait', 'свойства личности' )|E]"
  diarchy.1711.e: "Забудьте. Это того не стоит."
  diarchy.1711.e.t: "[liege.GetDiarchTitle|U] избегает обязанностей, связанных с [Concept( 'mandate', 'мандатом' )|E]"
-  
  diarchy.1721.t: "Разрешение обид"
  diarchy.1721.desc: "«Я даже не понимаю, почему вы так настойчиво пытаетесь вмешаться, [diarch.GetFirstName], — вздыхает [exploitable_vassal.GetTitledFirstName], — наши обиды вас не касаются».\n\nНи для кого не секрет, что [exploitable_vassal.GetTitleAsNameNoTooltip|l] обладает своими амбициями, которые противоречат целям, к которым стремится [liege.GetTitledFirstName]. Если не обуздать эти амбиции, они могут ввергнуть страну в разрушительную гражданскую войну.\n\nЯ [liege.GetDiarchTitle], и мой мандат обязывает меня сгладить отношения, но покамест [exploitable_vassal.GetSheHe|l] не реагирует на мои попытки."
  diarchy.1721.a: "Мы ведь оба приносили клятвы, что наш сюзерен — [liege.GetTitledFirstNameNoTooltip]."
@@ -271,7 +226,6 @@
  diarchy.1721.d.t: "[liege.GetDiarchTitle|U] отклоняет [mandate|El] из-за [Concept( 'personality_trait', 'свойства личности' )|E]"
  diarchy.1721.e: "Вмешаться? Я просто любопытствую из вежливости."
  diarchy.1721.e.t: "[liege.GetDiarchTitle|U] избегает обязанностей, связанных с [Concept( 'mandate', 'мандатом' )|E]"
-  
  diarchy.1731.t: "Сведение счетов"
  diarchy.1731.desc: "Передо мной стоит толпа из разношерстных и крайне сердитых представителей владений [county_1.GetNameNoTier], [county_2.GetNameNoTier] и [county_3.GetNameNoTier], разрозненных городов и деревень, которых [liege.GetTitledFirstName] [Select_CString(liege.IsFemale, 'сплотила', 'сплотил' )] ненавистью к себе. Раз уж я [liege.GetHerHis|l] [Select_CString(diarch.IsFemale, 'незадачливая', 'незадачливый' )] [liege.GetDiarchTitle], мне положено утихомирить их.\n\nНе имея центрального руководства, толпа осыпает меня насмешками вперемешку с проблемами и давно игнорируемыми инцидентами "
  diarchy_1731.tt.affected_counties_removed: "[county_1.GetNameNoTier], [county_2.GetNameNoTier] и [county_3.GetNameNoTier] покидают фракцию «[faction.GetName|V]»"
@@ -290,7 +244,6 @@
  diarchy.1731.d.t: "[liege.GetDiarchTitle|U] отклоняет [mandate|El] из-за [Concept( 'personality_trait', 'свойства личности' )|E]"
  diarchy.1731.e: "Да, да. Мы этим займемся. Когда-нибудь."
  diarchy.1731.e.t: "[liege.GetDiarchTitle|U] избегает обязанностей, связанных с [Concept( 'mandate', 'мандатом' )|E]"
-  
  diarchy.1741.t: "Взгляд с иного угла"
  diarchy.1741.desc: "«Мы не против исполнять то, что приказывает [liege.GetTitledFirstName], — насмешливо протягивает [councillor_1.GetTitledFirstName], — но мы не рабы. Что тут непонятного».\n\nЯ уже полдня пытаюсь улучшить отношения между сюзереном и [liege.GetHerHis|l] советниками, но все без толку, не в последнюю очередь из-за непрошибаемой твердолобости [Select_CString(prison_holder.IsFemale, 'этой недалекой женщины', 'этого недалекого мужчины' )].\n\nЯ мысленно вздыхаю. Я [liege.GetDiarchTitle], и мой мандат обязывает меня этим заниматься."
  diarchy.1741.a: "Полагаю, вы не замечаете многое из того, что [liege.GetTitleAsNameNoTooltip|l] делает для вас..."
@@ -309,18 +262,8 @@
  diarchy.1741.d.t: "[liege.GetDiarchTitle|U] отклоняет [mandate|El] из-за [Concept( 'personality_trait', 'свойства личности' )|E]"
  diarchy.1741.e: "Мы так ни до чего не договоримся."
  diarchy.1741.e.t: "[liege.GetDiarchTitle|U] избегает обязанностей, связанных с [Concept( 'mandate', 'мандатом' )|E]"
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  ################################################## 
-  # #Mandates - Swell Armies 
+ ##################################################
+ ##Mandates - Swell Armies
  diarchy.2201.t: "Выводите молодежь"
  diarchy.2201.desc: "Обитатели владения [exploitable_county.GetNameNoTier] обязаны выставлять определенное количество войск всякий раз, как [liege.GetTitledFirstName] попросит их об этом.\n\nНо это не значит, что они посылают всех боеспособных, я [liege.GetDiarchTitle], и мое недавнее расследование показало, что их обязательства #EMP потрясающе#! малы. Количество воинов, которое мы могли бы набирать, затмевает ту горстку, что мы получаем.\n\nМестные противятся, но мой мандат побуждает меня действовать вопреки им."
  diarchy.2201.a: "Если они могут взмахнуть копьем, то и умереть на нем могут!"
@@ -338,7 +281,6 @@
  diarchy.2201.d.t: "[liege.GetDiarchTitle|U] отклоняет [mandate|El] из-за [Concept( 'personality_trait', 'свойства личности' )|E]"
  diarchy.2201.e: "Я не стану выполнять грязную работу, которую избегает [liege.GetTitleAsNameNoTooltip|l]."
  diarchy.2201.e.t: "[liege.GetDiarchTitle|U] избегает обязанностей, связанных с [Concept( 'mandate', 'мандатом' )|E]"
-  
  diarchy.2211.t: "Редкий талант"
  diarchy.2211.desc: "Воин редкостного таланта путешествует через владение [hedge_knight_location.GetNameNoTier], и [liege.GetTitledFirstName] наверняка оценит его присутствие в рядах своей армии.\n\nЯ [liege.GetDiarchTitle], и мой мандат велит мне искать подобных воинов. [hedge_knight.GetFirstName] уже [Select_CString(hedge_knight.IsFemale, 'получила', 'получил' )] от меня несколько писем с отчаянными попытками нанять [hedge_knight.GetHerHis|l] на службу моему сюзерену.\n\nТолько вот странствующий воин не особо желает присягать нам, раз за разом прогоняя моих посланцев."
  diarchy.2211.a: "Это просто [GetPlayer.Custom( 'KnightCultureNoTooltipLowercase' )], который #EMP согласится#! служить. Рано или поздно."
@@ -356,7 +298,6 @@
  diarchy.2211.d.t: "[liege.GetDiarchTitle|U] отклоняет [mandate|El] из-за [Concept( 'personality_trait', 'свойства личности' )|E]"
  diarchy.2211.e: "Оставьте [hedge_knight.GetHerHis|l] в покое, [hedge_knight.GetHerHim|l] это не интересно."
  diarchy.2211.e.t: "[liege.GetDiarchTitle|U] избегает обязанностей, связанных с [Concept( 'mandate', 'мандатом' )|E]"
-  
  diarchy.2221.t: "Военные дары"
  diarchy.2221.desc: "В крупных поселениях державы [liege.GetPrimaryTitle.GetNameNoTier] есть множество мест, где можно найти наемников. Рыночная площадь, на которой я швыряю деньги в толпу, — лишь одно из них.\n\nОбычно такие спонтанные воинские отряды включаются в крупные объединения наемников или укрепляют собой личные войска местных лордов во время войн, что не слишком эффективно.\n\nЯ [liege.GetDiarchTitle], и мой мандат обязывает меня увеличивать войска моего сюзерена, поэтому я пытаюсь нанять таких воинов напрямую."
  diarchy.2221.a: "Эти деньги ничто в сравнении с добычей, на которую вы можете рассчитывать!"
@@ -374,7 +315,6 @@
  diarchy.2221.d.t: "[liege.GetDiarchTitle|U] отклоняет [mandate|El] из-за [Concept( 'personality_trait', 'свойства личности' )|E]"
  diarchy.2221.e: "Разумеется, вы сами вольны выбирать своих нанимателей..."
  diarchy.2221.e.t: "[liege.GetDiarchTitle|U] избегает обязанностей, связанных с [Concept( 'mandate', 'мандатом' )|E]"
-  
  diarchy.2231.t: "Лучшее применение"
  diarchy.2231.desc: "Через тюрьмы и суды владения [exploitable_county.GetNameNoTier] в последнее время прошло прискорбно большое количество преступников. В обычных обстоятельствах справедливость быстро находит подобных им, а затем они либо пропадают с концами, либо оказываются в могиле.\n\nМногих из них спасает владение мечом или луком — ведь я [liege.GetDiarchTitle|l], и мой мандат обязывает меня найти новых солдат. Эти негодяи получат шанс избежать наказания, отслужив в армии сюзерена. Хотя на предложение отозвалось множество матерых бандитов и метких браконьеров, крестьяне негодуют."
  diarchy.2231.a: "Продолжать. Жалобы со временем прекратятся."
@@ -392,7 +332,6 @@
  diarchy.2231.d.t: "[liege.GetDiarchTitle|U] отклоняет [mandate|El] из-за [Concept( 'personality_trait', 'свойства личности' )|E]"
  diarchy.2231.e: "Это слишком спорное решение."
  diarchy.2231.e.t: "[liege.GetDiarchTitle|U] избегает обязанностей, связанных с [Concept( 'mandate', 'мандатом' )|E]"
-  
  diarchy.2241.t: "Отделение зерен от плевел"
  diarchy.2241.desc: "Мандат, что [Select_CString(liege.IsFemale, 'вручила', 'вручил' )] мне [liege.GetDiarchTitle] [liege.GetTitledFirstName], обязывает меня регулярно находить [liege.GetHerHim|l] источники свежих воинов.\n\nИ с чего же еще начинать, если не с плохо организованного ополчения, которое набирает [exploitable_vassal.GetTitledFirstName]? Мы с моей свитой собрали местных для оценки, но никак не можем довести достаточное их количество до такого состояния, чтобы хотя бы #EMP был смысл#! в будущем собирать их."
  diarchy.2241.a: "Делайте как я, солдаты! Внимание!"
@@ -410,18 +349,8 @@
  diarchy.2241.d.t: "[liege.GetDiarchTitle|U] отклоняет [mandate|El] из-за [Concept( 'personality_trait', 'свойства личности' )|E]"
  diarchy.2241.e: "Это #EMP безнадежная#! трата моего времени."
  diarchy.2241.e.t: "[liege.GetDiarchTitle|U] избегает обязанностей, связанных с [Concept( 'mandate', 'мандатом' )|E]"
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  ################################################## 
-  # #Overthrow Diarch Scheme Events 
+ ##################################################
+ ##Overthrow Diarch Scheme Events
  diarchy.0511.t: "$overthrow_regent$: провал"
  diarchy.0511.desc.intro: "Проклятье на [Select_CString(target.IsFemale, 'ее', 'его' )] ничтожную шкуру, [target.GetTitledFirstName] [Select_CString(target.IsFemale, 'ускользнула', 'ускользнул' )] от моих головорезов, "
  diarchy.0511.desc.discovered: "но что еще хуже, одного из громил поймали, и на допросе он #EMP проболтался#!. И [target.GetFirstNameNoTooltip], и [liege.GetTitledFirstName] теперь прекрасно знают о моих планах!"
@@ -429,15 +358,13 @@
  diarchy.0511.desc.outro: "\n\nПока что [target.GetDiarchTitle|l] продолжит править державой."
  diarchy.0511.a: "Да ну, это бессмысленно."
  diarchy.0511.b: "Повторим. В следующий раз [Select_CString(liege.IsFemale, 'ей', 'ему' )] не уйти."
-  
  diarchy.0521.t: "[Select_CString(liege.IsFemale, 'Благородная', 'Благородный' )] [liege.GetTitledFirstName],"
  diarchy.0521.desc.discovered: "[Select_CString(owner.IsFemale, 'Подлая', 'Подлый' )] [owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'пыталась', 'пытался' )] похитить меня, прихватив со мной мои рабочие инструменты!\n\nОчевидно, что [Select_CString(owner.IsFemale, 'она намеревалась', 'он намеревался' )] сместить меня с должности, заняв ее лично. Это отвратительное преступление не может остаться безнаказанным."
  diarchy.0521.desc.undiscovered: "Я пишу, чтобы сообщить, что на мою свободу покушались — группа головорезов пыталась похитить меня и мои рабочие инструменты.\n\nНеизвестно, кто им заплатил, но намерения очевидны. Взяв под контроль меня и символы, с которыми ассоциируется [liege.GetDiarchTitle|l], они могли бы помочь своему нанимателю занять мое законное место."
  diarchy.0521.a: "Я в ужасе!"
  diarchy.0521.b: "Тревожные вести..."
-  
  diarchy.0531.t: "$overthrow_regent$: неудачная попытка"
- diarchy.0531.desc.intro: "Я скользящим движением сворачиваю за угол коридора, пока в ушах продолжает звенеть шум боя. Эти подлые наемники словно выскочили из стен! У меня не было при себе оружия, и только своевременное вмешательство стражи позволило мне бежать.\n\n"
+ diarchy.0531.desc.intro: "Я скользящим движением сворачиваю за угол коридора, а в ушах продолжает звенеть шум боя. Эти подлые наемники словно выскочили из стен! У меня не было при себе оружия, и только своевременное вмешательство стражи позволило мне бежать.\n\n"
  diarchy.0531.desc.discovered: "На допросе пленный головорез признается, на кого работал: это [target.Custom2('MyCharacterIntroduction', owner)] собственной персоной!"
  diarchy.0531.desc.undiscovered: "Спустя минуту они все мертвы, а с ними и секрет их нанимателя."
  diarchy.0531.desc.outro: "\n\nОчевидно, [target.GetDiarchTitle] делает меня мишенью. Мне следовало об этом догадаться..."
@@ -445,37 +372,23 @@
  diarchy.0531.a.trusting: "Как... как кто-то мог решиться на такое?"
  diarchy.0531.a.scheme_discovered: "[owner.GetFirstNameNoTooltip], скотина!"
  diarchy.0531.a.scheme_secret: "Наверняка за этим последует новая попытка."
-  
  diarchy.0551.t: "$overthrow_regent$: успех"
  diarchy.0551.desc: "Простая и надежная операция. [Select_CString(target.IsFemale, 'Наша бывшая', 'Наш бывший' )] [owner.GetDiarchTitle] [Select_CString(target.IsFemale, 'была схвачена', 'был схвачен' )] отрядом моих наемников, которые и переправили свою добычу, надев на голову мешок.\n\nБлагодаря захваченной со стола государственной печати мне удалось почти без кровопролития подготовить признание в разнообразных преступлениях, тем самым оправдав передачу власти. Этого достаточно для придания официальности, но это не значит, что [liege.GetTitledFirstName] в будущем не сочтет это проблемой.\n\nРазумеется, [target.GetFirstNameNoTooltip] тоже получит копию текста. Будет чем заняться в темнице."
  diarchy.0551.a: "Без сучка без задоринки."
-  
  diarchy.0561.t: "[Select_CString(liege.IsFemale, 'Благородная', 'Благородный' )] [liege.GetTitledFirstName],"
  diarchy.0561.desc: "Я с радостью довожу до вашего сведения, что [target.GetTitledFirstName] [Select_CString(target.IsFemale, 'сложила', 'сложил' )] свои полномочия после недолгого, но весьма живого обсуждения. Теперь [liege.GetDiarchTitle|l] я.\n\nПоскольку возложенные обязательства были слишком тяжелыми, [Select_CString(target.IsFemale, 'она', 'он' )] останется под моей опекой до окончания моих полномочий. Чтобы поправить здоровье."
  diarchy.0561.a: "Что вышло, то вышло, пока..."
-  
  diarchy.0571.t: "$overthrow_regent$: в заключении"
  diarchy.0571.desc.intro: "#EMP Моя голова#!. Я... где я? [owner.GetTitledFirstName]?\n\n«Отрадно видеть, что вы еще с нами, [target.GetFirstName], — усмехается [Select_CString(owner.IsFemale, 'она', 'он' )], бросая к моим ногам стопку бумаг, — можете ознакомиться. Это список преступлений, которые вы совершили как [owner.GetDiarchTitle|l], а затем решили во всем признаться и передать должность мне. Мне показалось, вам захочется иметь у себя копию».\n\n"
  diarchy.0571.desc.outro.blind: "Мне не нужно видеть эти лживые каракули, чтобы понять размах [Select_CString(owner.IsFemale, 'ее', 'его' )] подлога или догадаться, что вскоре их увидит вся держава [liege.GetPrimaryTitle.GetBaseNameNoTier]."
  diarchy.0571.desc.outro.sighted: "Я судорожно перелистываю текст, страницу за страницей откровенного подлога и умелых передергиваний. Я хочу отрицать написанное, все, до последнего слова, но знаю, что сейчас эти же подделки читает вся держава [liege.GetPrimaryTitle.GetBaseNameNoTier]."
  diarchy.0571.a: "[liege.GetTitledFirstNameNoTooltip] об этом узнает! [Select_CString(liege.IsFemale, 'Она', 'Он' )] меня послушает!"
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  ################################################## 
-  # #Decisions 
+ ##################################################
+ ##Decisions
  betrayed_by_proxy: "Предательство по доверенности"
  diarch_attempt_to_overthrow_liege.event.t: "Долгожданный переворот:"
  diarch_attempt_to_overthrow_liege.desc.coup_start_boilerplate: "\n\n«[liege.GetFirstName]! — кричит [usurper.GetFirstNameNoTooltip]. — Я объявляю тебя [Select_CString(liege.IsFemale, 'самозванкой, недостойной', 'самозванцем, недостойным' )] престола! Склонись перед истинным правителем державы. #EMP Мной#!».\n\nНесколько младших рыцарей пытаются помешать [Select_CString(usurper.IsFemale, 'ей', 'ему' )], но погибают в мгновение ока."
-  
-  #	Diplomacy: You attempt to bloodlessly coup your liege. 
+ #Diplomacy: You attempt to bloodlessly coup your liege.
  diarchy.9001.t: "$diarch_attempt_to_overthrow_liege.event.t$ красноречие"
  diarchy.9001.desc.intro: "[usurper.Custom2('MyCharacterIntroduction', ROOT.Char)|U] врывается в мой тронный зал. За [Select_CString(usurper.IsFemale, 'ее', 'его' )] спиной толпа видных придворных с оружием в руках и уверенностью на лицах, присущей людям, которые знают, что хватит одной лишь угрозы. $diarch_attempt_to_overthrow_liege.desc.coup_start_boilerplate$"
  diarchy.9001.desc.proxy.none: "$diarchy.9011.desc.proxy.none$"
@@ -493,8 +406,7 @@
  diarchy.9001.d: "#DIE2 Стража.#! #DIE1 Стража.#! #BER СТРАЖА!#!"
  diarchy.9001.d.tt.win: "Верные солдаты приходят на помощь и побеждают заговорщиков"
  diarchy.9001.d.tt.loss: "Ваши последние защитники без труда перебиты"
-  
-  #	Diplomacy: Usurper won, liege-side. 
+ #Diplomacy: Usurper won, liege-side.
  diarchy.9002.t: "$diarchy.9001.t$"
  diarchy.9002.desc.intro: "Мне конец. Полный и безоговорочный конец.\n\n"
  diarchy.9002.desc.proxy.proxy_fought: "[proxy.GetTitledFirstName] [Select_CString(proxy.IsFemale, 'сделала', 'сделал' )] все возможное, но [usurper.GetFirstName] приводит надежные и отработанные доводы. Предатели остались верны своему хозяину, а мои придворные разошлись в стороны, открывая [Select_CString(usurper.IsFemale, 'ей', 'ему' )] дорогу."
@@ -504,8 +416,7 @@
  diarchy.9002.desc.outro: "\n\nУзурпатор отдает команду, и моя же охрана неуверенно подходит, чтобы увести меня прочь. Увы, всем ясно, куда дует ветер."
  diarchy.9002.a: "Я сохраню свободу, но и только."
  diarchy.9002.b: "Моя судьба. Разрушена."
-  
-  #	Diplomacy: Usurper won, usurper-side. 
+ #Diplomacy: Usurper won, usurper-side.
  diarchy.9003.t: "$diarchy.9001.t$"
  diarchy.9003.desc.intro: "Все кончено. Отныне я буду править единолично и безраздельно.\n\n"
  diarchy.9003.desc.proxy.proxy_fought: "Едва мы вошли в зал, как тогда еще [usurper.GetTitleAsNameNoTooltip|l] [liege.GetFirstName] [Select_CString(liege.IsFemale, 'отправила', 'отправил' )] к нам [Select_CString(proxy.IsFemale, 'свою', 'своего' )] слугу, рассчитывая, что [proxy.Custom2('MyCharacterIntroduction', ROOT.Char)] подорвет уверенность моих спутников. Мы обменялись словами, острыми, словно клинок кинжала, но в конце концов всем стало ясно, что двор на моей стороне."
@@ -515,16 +426,14 @@
  diarchy.9003.desc.outro: "\n\nСтражники полегли, а знать опустилась на колено. Даже сейчас, пока [usurper.GetPrimaryTitle.GetTierAsName|l] еще только узнает новости, народ стремительно пересматривает свою верность."
  diarchy.9003.a: "И без капли крови на #EMP моем#! троне!"
  diarchy.9003.a.some_blood: "А как хотелось избежать кровопролития."
-  
-  #	Diplomacy: Liege won, liege-side. 
+ #Diplomacy: Liege won, liege-side.
  diarchy.9004.t: "$diarchy.9001.t$"
  diarchy.9004.desc.proxy.proxy_fought: "Едва [proxy.GetTitledFirstName] начинает говорить, как предателям приходит конец.\n\nИми двигала лишь жажда власти, а не верность, и вскоре [usurper.GetTitledFirstName] своими глазами видит, как заговор начинает разваливаться."
  diarchy.9004.desc.proxy.self_fought: "Мои слова быстро находят цель, и каждый четко сформулированный удар разбивает узы алчности и амбиций, которыми [usurper.GetTitledFirstName] удерживает своих сторонников.\n\nБез единства их дело не имеет шансов, и [usurper.GetFirstNameNoTooltip] стремительно начинает терять сторонников и среди предателей, и среди наемников."
  diarchy.9004.desc.scuffled: "На мой призыв о помощи сбегаются все младшие рыцари и солдаты, находящиеся недалеко от зала — куда больше воинов, чем рассчитывали [usurper.GetTitledFirstName] со своей шайкой.\n\nВспыхивает короткая, свирепая схватка, в результате которой заговорщики мертвы или схвачены, а их лидер обезоружен."
  diarchy.9004.desc.outro: "\n\nЯ позволяю себе ухмыльнуться, глядя, как стража хватает [Select_CString(usurper.IsFemale, 'ее', 'его' )], и жестом велю увести эту погань прочь."
  diarchy.9004.a: "Самодовольный предатель."
-  
-  #	Diplomacy: Liege won, usurper-side. 
+ #Diplomacy: Liege won, usurper-side.
  diarchy.9005.t: "$diarchy.9001.t$"
  diarchy.9005.desc.intro: "Провал. Полный и безоговорочный.\n\nА все так хорошо начиналось... "
  diarchy.9005.desc.proxy.proxy_fought: "[liege.GetTitledFirstName] в панике зовет, чтобы [proxy.GetTitledFirstName] [Select_CString(proxy.IsFemale, 'пришла', 'пришел' )] на помощь, а у меня за спиной мои сторонники, наша цель ясна, а ряды многочисленны.\n\nЗатем канцлер открывает свой рот, и наш план начинает рушиться. Один за другим поддержавшие меня представители знати начали уходить, оставляя меня в одиночестве. Вся тщательно выстроенная пирамида власти рухнула у меня на глазах.\n\nВскоре после этого стража арестовала меня."
@@ -532,8 +441,7 @@
  diarchy.9005.desc.scuffled: "[liege.GetTitledFirstName] явно [Select_CString(liege.IsFemale, 'запаниковала', 'запаниковал' )], когда мы с сопровождающими вошли в тронный зал, не скрывая своих целей, и [Select_CString(liege.IsFemale, 'принялась', 'принялся' )] требовать, чтобы нас всех убили.\n\nИ... это вскрыло глубину моих заблуждений о верности наемников и купленной стражи. Нас просто смяли. Мое красноречие не значит ничего под ударом булавы наемника, и теперь я сижу в самой надежной клетке из всех возможных."
  diarchy.9005.desc.outro: "\n\nИронично, но теперь моя жизнь зависит от благосклонности сюзерена, ставшего целью моего заговора. Пусть [usurper.GetFaith.FateGodName] смилостивится надо мной."
  diarchy.9005.a: "А ведь все было тщательно спланировано!"
-  
-  #	Intrigue: You attempt to coup your liege with just a little bloodshed, threatened and actual. 
+ #Intrigue: You attempt to coup your liege with just a little bloodshed, threatened and actual.
  diarchy.9011.t: "$diarch_attempt_to_overthrow_liege.event.t$ острые ножи"
  diarchy.9011.desc.intro: "[usurper.Custom2('MyCharacterIntroduction', ROOT.Char)|U] врывается в мой тронный зал. За [Select_CString(usurper.IsFemale, 'ее', 'его' )] спиной стоит толпа из представителей мелкой знати, наемников и воров, все с кинжалами наголо и жаждой крови в глазах. $diarch_attempt_to_overthrow_liege.desc.coup_start_boilerplate$"
  diarchy.9011.desc.proxy.none: "Я оглядываюсь по сторонам, ища поддержки советников. Их нет, как нет никого достаточно умелого, чтобы выступить от моего имени."
@@ -551,8 +459,7 @@
  diarchy.9011.d: "$diarchy.9001.d$"
  diarchy.9011.d.tt.win: "$diarchy.9001.d.tt.win$"
  diarchy.9011.d.tt.loss: "$diarchy.9001.d.tt.loss$"
-  
- #	Intrigue: Usurper won, liege-side. 
+ #Intrigue: Usurper won, liege-side.
  diarchy.9012.t: "$diarchy.9011.t$"
  diarchy.9012.desc.intro: "$diarchy.9002.desc.intro$"
  diarchy.9012.desc.proxy.proxy_fought: "[proxy.GetTitledFirstName] выходит вперед от моего имени. [Select_CString(proxy.IsFemale, 'Она', 'Он' )] и [usurper.GetFirstName] обмениваются колкостями, но все зря. Предатели все продумали, прикрыв себя со всех сторон взятками и влиянием. Наконец, [proxy.GetFirstNameNoTooltip] бросается в атаку, но [usurper.GetFirstNameNoTooltip] отходит в сторону, позволяя своим сопровождающим схватить [Select_CString(proxy.IsFemale, 'ее', 'его' )]."
@@ -562,8 +469,7 @@
  diarchy.9012.desc.outro: "\n\nЯ зову на помощь, когда предатели с кинжалами наголо подходят ко мне, а [usurper.GetFirstNameNoTooltip] готовит кандалы.\n\nНикто не слышит. Никому нет дела. Меня заковывают в железо и уводят прочь."
  diarchy.9012.a: "Вы не смеете! Я [usurper.GetTitleAsNameNoTooltip|l]! #EMP The [usurper.GetTitleAsNameNoTooltip]!#!"
  diarchy.9012.b: "$diarchy.9002.b$"
-  
- #	Intrigue: Usurper won, usurper-side. 
+ #Intrigue: Usurper won, usurper-side.
  diarchy.9013.t: "$diarchy.9011.t$"
  diarchy.9013.desc.intro: "$diarchy.9003.desc.intro$"
  diarchy.9013.desc.proxy.proxy_fought: "[liege.GetFirstName] [Select_CString(liege.IsFemale, 'отправила', 'отправил' )] [Select_CString(proxy.IsFemale, 'свою', 'своего' )] слугу, чтобы [proxy.GetTitledFirstName] уговорами [Select_CString(proxy.IsFemale, 'переманила', 'переманил' )] моих сторонников. Мы несколько минут вели словесный поединок, а затем, исчерпав все доводы, [Select_CString(proxy.IsFemale, 'она попыталась', 'он попытался' )] атаковать меня, но один из моих наемников помешал этому.\n\nОт шока [Select_CString(liege.IsFemale, 'наша', 'наш' )] тогда еще сюзерен даже не [Select_CString(liege.IsFemale, 'сопротивлялась, когда на нее', 'сопротивлялся, когда на него' )] надели кандалы."
@@ -572,16 +478,14 @@
  diarchy.9013.desc.scuffled: "[liege.GetFirstName] [Select_CString(liege.IsFemale, 'звала', 'звал' )] на помощь, но у меня все продумано. Те, кто по глупости откликнулся на зов, были почти мгновенно перебиты моими головорезами.\n\nБольше никто и пальцем не шевельнул, когда мы приблизились к бывшему сюзерену."
  diarchy.9013.desc.outro: "\n\nВсе сопротивлявшиеся придворные мертвы или в заточении, и экс-[usurper.GetTitleAsNameNoTooltip|l] сидит под замком. Будущее выглядит безоблачным."
  diarchy.9013.a: "Новый трон и свежий заложник. Я уже чувствую себя в безопасности."
-  
- #	Intrigue: Liege won, liege-side. 
+ #Intrigue: Liege won, liege-side.
  diarchy.9014.t: "$diarchy.9011.t$"
  diarchy.9014.desc.proxy.proxy_fought: "[proxy.GetFirstName] произносит несколько хорошо подобранных слов, и $diarchy.9014.desc.proxy.self_fought$"
  diarchy.9014.desc.proxy.self_fought: "[usurper.GetTitledFirstName] со своими самоуверенными сторонниками терпят полный крах.\n\nКак в случае с любым подобным гадючником, они готовы вцепиться друг в друга с не меньшим рвением, чем в меня, и не требуется особых понуканий, чтобы часть заговорщиков дезертировала, а остальные сцепились между собой.\n\n[usurper.GetFirstNameNoTooltip] быстро перестает улыбаться, осознав, что заговор сорван..."
  diarchy.9014.desc.scuffled: "На мой зов сбегаются стражники, и их количество удивляет даже #EMP меня#!. [usurper.GetTitledFirstName] со своей шайкой не имеют ни единого шанса устоять под их натиском.\n\nПредатели быстро смекают, что оказались в меньшинстве и начинают бросать оружие. [usurper.GetTitledFirstNameNoTooltip] делает это в последнюю очередь."
  diarchy.9014.desc.outro: "\n\nКогда моя охрана подходит, чтобы арестовать [Select_CString(usurper.IsFemale, 'ее', 'его' )], [Select_CString(usurper.IsFemale, 'она', 'он' )] даже не сопротивляется. С заговором покончено, любая попытка сопротивления стала бы самоубийством."
  diarchy.9014.a: "Я подумаю, как поступить с #EMP тобой#!."
-  
- #	Intrigue: Liege won, usurper-side. 
+ #Intrigue: Liege won, usurper-side.
  diarchy.9015.t: "$diarchy.9011.t$"
  diarchy.9015.desc.intro: "$diarchy.9005.desc.intro$"
  diarchy.9015.desc.proxy.proxy_fought: "мы были сильны, едины и готовы пожинать плоды нашего тщательно продуманного плана. Так было, пока [Select_CString(proxy.IsFemale, 'эта проклятая', 'этот проклятый' )] [proxy.GetTitledFirstName] не [Select_CString(proxy.IsFemale, 'вышла', 'вышел' )] вперед, чтобы говорить от имени своего бестолкового сюзерена. И... доводы, что [Select_CString(proxy.IsFemale, 'она привела', 'он привел' )], застали меня врасплох. В моем плане вскрылись прорехи. И они бросили меня. Все они бросили меня."
@@ -589,8 +493,7 @@
  diarchy.9015.desc.scuffled: "мы ворвались в тронный зал, готовые совершить то, что должно. А затем [liege.GetTitledFirstName] своим криком [Select_CString(liege.IsFemale, 'призвала', 'призвал' )] на наши головы толпы защитников. Кто бы мог подумать, что [Select_CString(liege.IsFemale, 'эту идиотку', 'этого идиота' )] ринутся так рьяно защищать. Мои перебежчики почти не сопротивлялись и побросали оружие сразу, как поняли, что находятся в полном меньшинстве."
  diarchy.9015.desc.outro: "\n\nЗаговор рушится у меня на глазах, и поэтому нет смысла противиться страже, подошедшей, чтобы заковать меня в железо. Повезло, что меня не казнят прямо на месте."
  diarchy.9015.a: "Столько #EMP трудов#!. И все напрасно."
-  
-  #	Prowess: You try to slaughter your way to power. 
+ #Prowess: You try to slaughter your way to power.
  diarchy.9021.t: "$diarch_attempt_to_overthrow_liege.event.t$ блеск мечей"
  diarchy.9021.desc.intro: "[usurper.Custom2('MyCharacterIntroduction', ROOT.Char)|U] врывается в мой тронный зал во главе толпы наемников и придворных-перебежчиков. Оружие наготове, а в глазах горит огонь решимости перебить стольких, сколько потребуется. $diarch_attempt_to_overthrow_liege.desc.coup_start_boilerplate$"
  diarchy.9021.desc.proxy.none: "$diarchy.9011.desc.proxy.none$"
@@ -607,8 +510,7 @@
  diarchy.9021.d: "$diarchy.9001.d$"
  diarchy.9021.d.tt.win: "$diarchy.9001.d.tt.win$"
  diarchy.9021.d.tt.loss: "$diarchy.9001.d.tt.loss$"
-  
-  #	Prowess: Usurper won, liege-side. 
+ #Prowess: Usurper won, liege-side.
  diarchy.9022.t: "$diarchy.9021.t$"
  diarchy.9022.desc.intro: "$diarchy.9002.desc.intro$"
  diarchy.9022.desc.proxy.proxy_fought: "[proxy.GetTitledFirstName] [Select_CString(proxy.IsFemale, 'билась', 'бился' )] изо всех сил, но [usurper.GetFirstName] все равно [Select_CString(usurper.IsFemale, 'сразила', 'сразил' )] [Select_CString(proxy.IsFemale, 'ее', 'его' )]. Поверить не могу, что [Select_CString(proxy.IsFemale, 'такая женщина пожертвовала', 'такой мужчина пожертвовал' )] собой ради меня... #EMP впустую#!."
@@ -618,8 +520,7 @@
  diarchy.9022.desc.outro.surrendered: "\n\nПоследние искры надежды гаснут, когда первый из моих солдат преклоняет колено перед новым правителем.\n\nВсе кончено."
  diarchy.9022.a: "За это вас ждет [liege.GetFaith.random_NegativeAfterLife], [usurper.GetFirstNameNoTooltip]."
  diarchy.9022.b: "$diarchy.9002.b$"
-  
-  #	Prowess: Usurper won, usurper-side. 
+ #Prowess: Usurper won, usurper-side.
  diarchy.9023.t: "$diarchy.9021.t$"
  diarchy.9023.desc.intro: "$diarchy.9003.desc.intro$"
  diarchy.9023.desc.proxy.proxy_fought: "[proxy.GetTitledFirstName] падает замертво. На насилие нужно отвечать насилием, и [liege.GetFirstName] [Select_CString(liege.IsFemale, 'выбрала', 'выбрал' )] свой путь.\n\nПока [liege.GetTitleAsNameNoTooltip] стоит, пытаясь осознать смерть своего защитника, я делаю шаг вперед и [usurper.Custom('SignatureWeaponWoundVerb5')] свое оружие [Select_CString(liege.IsFemale, 'ей', 'ему' )] в горло.\n\nНе самая быстрая смерть, но и не слишком медленная. И я, и двор наблюдаем, как [Select_CString(liege.IsFemale, 'она', 'он' )] умирает, не издав ни единого слова, и я сталкиваю [Select_CString(liege.IsFemale, 'ее', 'его' )] с трона."
@@ -629,16 +530,96 @@
  diarchy.9023.desc.outro: "\n\n[liege.GetFirstNameNoTooltip] остывает на полу тронного зала — не лучшее начало моего правления, но это было необходимо. В конечном счете это куда менее кровопролитно, чем гражданская война.\n\nНадеюсь, держава со мной согласится."
  diarchy.9023.a: "Несколько смертей, зато [usurper.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] избежит кровопролития."
  diarchy.9023.a.liege_survives: "Великодушное начало моего правления."
-  
-  #	Prowess: Liege won, liege-side. 
+ #Prowess: Liege won, liege-side.
  diarchy.9024.t: "$diarchy.9021.t$"
  diarchy.9024.desc.proxy.proxy_fought: "Увы, я нахожусь слишком далеко и не могу услышать, как [usurper.GetTitledFirstName] проклинает меня перед смертью, но хотя бы могу насладиться зрелищем.\n\n[proxy.GetTitledFirstName] хорошо мне [Select_CString(proxy.IsFemale, 'послужила', 'послужил' )], играючи перебив предателей у подножья моего трона. Это подбадривает мою стражу и роняет боевой дух заговорщиков. В последовавшие несколько минут отчаянного кровопролития все мятежники были перебиты."
  diarchy.9024.desc.proxy.self_fought: "[usurper.GetTitledFirstName] бездыханным телом лежит у моих ног, [Select_CString(usurper.IsFemale, 'сраженная', 'сраженный' )] моей рукой.\n\nВ слепой панике шайка заговорщиков распадается и пытается спастись бегством, но приободренные моим успехом стражники врываются прямиком в их ряды. В последовавшие несколько минут отчаянного кровопролития все мятежники были перебиты."
  diarchy.9024.desc.scuffled: "К счастью, мои крики о помощи привели в зал целую #EMP орду#! верных войск и наемников из ближайших покоев. [usurper.GetTitledFirstName] со своей шайкой предателей бились отважно, но их попросту смяли.\n\n[usurper.GetFirstNameNoTooltip] погибает у меня на глазах в числе последних, явно впав в панику при виде летающей вокруг стали. А затем прилетает и [Select_CString(usurper.IsFemale, 'ей', 'ему' )]. И проходит насквозь.\n\nТакова цена измены."
  diarchy.9024.desc.outro: "\n\nЯ ожидаю, что [liege.GetPrimaryTitle.GetTierAsName] вскоре содрогнется от новостей, и это станет предупреждением всем будущим узурпаторам."
  diarchy.9024.a: "Собаке собачья смерть."
-  
-  #	Prowess: Liege won, usurper-side. 
+ #Prowess: Liege won, usurper-side.
  diarchy.9025.t: "$diarchy.9021.t$"
  diarchy.9025.desc: "Едва мы врываемся в тронный зал, как [liege.GetTitledFirstName] своими паническими воплями призывает на наши головы настоящую лавину вооруженных рыцарей, готовых умереть за [Select_CString(liege.IsFemale, 'свою госпожу', 'своего господина' )].\n\nМы с соратниками пробиваемся через толпу этих без пяти минут покойников, но их слишком много. Нужно отступить, отойти назад... о, [usurper.GetFaith.FateGodName], они даже позади нас. Выхода... Выхода нет.\n\nНет, нет, #EMP нет!#! Столько планирования, столько усилий — и всё впустую!"
  diarchy.9025.a: "Все должно было закончиться ина... #BER А-А-А-А-А-А!#!"
+ ##################################################
+ ##Vizierate Events
+ vizierate.1001.t: "[propositioner.Custom2('AppropriateGreetingPositive', ROOT.Char)]"
+ vizierate.1001.desc.intro: "Вы должны согласиться с тем, что [vizier.GetFirstName] ужасно показывает себя в качестве визиря, своим взяточничеством подрывая доверие к должности. К счастью, затратив немало времени и средств, мне удалось подготовить план"
+ vizierate.1001.desc.diplomacy: "переманить [vizier.GetHerHis] ключевых сторонников и лучших агентов на свою сторону."
+ vizierate.1001.desc.stewardship: "умыкнуть [vizier.GetHerHis] предприятия и подкупить [vizier.GetHerHis] охрану."
+ vizierate.1001.desc.intrigue: "поставить в неловкое положение [vizier.GetHerHis] лучших охранников и захватить [vizier.GetHerHis] для пыток и допроса."
+ vizierate.1001.desc.outro: "Назначьте визирем меня и позвольте мне превратить #EMP [vizier.GetHerHis]#! имущество в #EMP ваше#! золото."
+ vizierate_1001_duel_for_vizierate_effect.tt.success: "[propositioner.GetFirstNameNoTooltip] успешно претворяет план в жизнь"
+ vizierate_1001_duel_for_vizierate_effect.tt.failure: "[propositioner.GetFirstNameNoTooltip] терпит политическую катастрофу"
+ vizierate_1001_duel_for_vizierate_effect.tt.ex_vizier_remains_at_court: "[vizier.GetFirstName] остается при вашем [Concept( 'court', 'дворе' )|E]"
+ vizierate.1001.a: "Этот план может сработать..."
+ vizierate.1001.b: "Эти финансы выглядят мудрено..."
+ vizierate.1001.c: "Опасно, очень опасно..."
+ vizierate.1001.d: "Как удобно — отправить письмо, которое [vizier.GetFirstNameNoTooltip] может получить из моих рук!"
+ vizierate.1001.d.tt.filtered_out: "[propositioner.GetTitledFirstName] с #EMP намного#! меньшей вероятностью унаследует какие-либо [Concept( 'diarchy', 'полномочия' )|E]"
+ vizierate.1001.e: "Ваши чиновничьи склоки не заслуживают моего внимания."
+ ##################################################
+ ##Vizier Candidate Politicking Relation Reasons
+ #We invert these relation reasons because they're always sent from the POV of the recipient, not the actor.
+ vizierate_0001.reason.best_friend.saved_from_assassin: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'спасли', Select_CString(CHARACTER.IsFemale, 'спасла', 'спас' ))] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] от покушения со стороны кровожадного соперника при дворе"
+ vizierate_0001.reason.best_friend.saved_from_assassin_corresponding: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'спасли', Select_CString(CHARACTER.IsFemale, 'спасла', 'спас' ))] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )] от покушения со стороны кровожадного соперника при дворе"
+ vizierate_0001.reason.best_friend.natural_working_arrangement: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] отлично уживаются друг с другом, что является основой крепкого союза и верной дружбы."
+ vizierate_0001.reason.best_friend.mutually_assured_destruction: "Ни для кого не секрет, что [TARGET_CHARACTER.GetShortUIName] и [CHARACTER.GetShortUIName] знают нечто #EMP непостижимое#! друг о друге — примечательно, что общий риск лишь помог сближению."
+ vizierate_0001.reason.best_friend.mutually_assured_destruction_corresponding: "Ни для кого не секрет, что [TARGET_CHARACTER.GetShortUIName] и [CHARACTER.GetShortUIName] знают нечто #EMP непостижимое#! друг о друге — примечательно, что общий риск лишь помог сближению."
+ vizierate_0001.reason.best_friend.natural_compliments: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] отлично [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'дополняете', Select_CString(CHARACTER.IsLocalPlayer, 'дополняете', 'дополняют' ))] друг друга."
+ vizierate_0001.reason.best_friend.snarky_bffs: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] не [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'можете', Select_CString(CHARACTER.IsLocalPlayer, 'можете', 'могут' ))] перестать подкалывать друг друга, наедине и на людях. Подколки бывают острыми, но за каждой скрывается улыбка."
+ vizierate_0001.reason.friend.enemy_of_my_enemy: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] сблизились на почве общей ненависти к политическому сопернику."
+ vizierate_0001.reason.friend.unlikely_friendship: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] сдружились главным образом из-за необычных различий, а не из-за общих черт характера."
+ vizierate_0001.reason.friend.foiled_conspiracy_together: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] временно объединились против заговора, угрожавшего [Select_CString(CHARACTER.IsLocalPlayer, 'вам', 'им' )] обоим, и с тех пор [Select_CString(CHARACTER.IsLocalPlayer, 'поддерживаете', 'поддерживают' )] тесный контакт."
+ vizierate_0001.reason.friend.foiled_conspiracy_together_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] временно объединились против заговора, угрожавшего [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'вам', 'им' )] обоим, и с тех пор [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'поддерживаете', 'поддерживают' )] тесный контакт."
+ vizierate_0001.reason.friend.similar_personalities: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] порой [Select_CString(CHARACTER.IsLocalPlayer, 'кажетесь', 'кажутся' )] настолько похожими, что нет ничего удивительного, что [Select_CString(CHARACTER.IsLocalPlayer, 'вы ладите', 'они ладят' )] друг с другом."
+ vizierate_0001.reason.friend.similar_personalities_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] порой [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'кажетесь', 'кажутся' )] настолько похожими, что нет ничего удивительного, что [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'вы ладите', 'они ладят' )] друг с другом."
+ vizierate_0001.reason.friend.shared_pastimes: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] сблизились на почве общих увлечений."
+ vizierate_0001.reason.friend.shared_pastimes_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] сблизились на почве общих увлечений."
+ vizierate_0001.reason.friend.policy_interests: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] заняли одну сторону в политическом споре и с тех пор [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'остаетесь', Select_CString(CHARACTER.IsLocalPlayer, 'остаетесь', 'остаются' ))] близки."
+ vizierate_0001.reason.friend.friends_at_party: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] заключили соглашение в результате цепочки событий при дворе."
+ vizierate_0001.reason.friend.accidental_clique: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] были участниками временной клики при дворе. Клика распалась, но союз остался."
+ vizierate_0001.reason.friend.co_own_business: "[CHARACTER.GetShortUIName|U] и [TARGET_CHARACTER.GetShortUIName] стали друзьями, вложив средства в одно предприятие."
+ vizierate_0001.reason.friend.unexpected_aid.fiscal: "[TARGET_CHARACTER.GetShortUIName|U] неожиданно [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'простили', Select_CString(TARGET_CHARACTER.IsFemale, 'простила', 'простил' ))] долг [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )], и с тех пор [Select_CString(CHARACTER.IsLocalPlayer, 'вы', 'они' )] стали друзьями."
+ vizierate_0001.reason.friend.unexpected_aid.fiscal_corresponding: "[CHARACTER.GetShortUIName|U] неожиданно [Select_CString(CHARACTER.IsLocalPlayer, 'простили', Select_CString(TARGET_CHARACTER.IsFemale, 'простила', 'простил' ))] долг [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )], и с тех пор [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'вы', 'они' )] стали друзьями."
+ vizierate_0001.reason.friend.unexpected_aid.physical: "[TARGET_CHARACTER.GetShortUIName|U] и [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ваша', Select_CString(TARGET_CHARACTER.IsFemale, 'ее', 'его' ))] охрана пришли на помощь [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'ему персонажу', '' )] во время стычки в подворотне."
+ vizierate_0001.reason.friend.unexpected_aid.physical_corresponding: "[CHARACTER.GetShortUIName|U] и [Select_CString(CHARACTER.IsLocalPlayer, 'ваша', Select_CString(CHARACTER.IsFemale, 'ее', 'его' ))] охрана пришли на помощь [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ему персонажу', '' )] во время стычки в подворотне."
+ vizierate_0001.reason.friend.unexpected_aid.social: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'спасли', Select_CString(TARGET_CHARACTER.IsFemale, 'спасла', 'спас' ))] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] от роковой оплошности во время важной встречи."
+ vizierate_0001.reason.friend.unexpected_aid.social_corresponding: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'спасли', Select_CString(CHARACTER.IsFemale, 'спасла', 'спас' ))] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )] от роковой оплошности во время важной встречи."
+ vizierate_0001.reason.friend.unexpected_aid.intrigue: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'пришли', Select_CString(TARGET_CHARACTER.IsFemale, 'пришла', 'пришел' ))] на помощь [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'ему персонажу', '' )] во время запутанных политических интриг, и с тех пор [Select_CString(CHARACTER.IsLocalPlayer, 'вы', 'они' )] стали союзниками."
+ vizierate_0001.reason.friend.unexpected_aid.intrigue_corresponding: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'пришли', Select_CString(CHARACTER.IsFemale, 'пришла', 'пришел' ))] на помощь [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ему персонажу', '' )] во время запутанных политических интриг, и с тех пор [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'вы', 'они' )] стали союзниками."
+ vizierate_0001.reason.friend.fellow_minority.culture: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] сблизились благодаря общим культурным сложностям при дворе."
+ vizierate_0001.reason.friend.fellow_minority.faith: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] сблизились благодаря общей религиозной дискриминации при дворе."
+ vizierate_0001.reason.rival.enemy_of_my_friend: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'начали', Select_CString(TARGET_CHARACTER.IsFemale, 'начала', 'начал' ))] вражду с [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажем ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'им персонажем', '' )] после того, как [CHARACTER.GetShortUIName] [Select_CString(CHARACTER.IsLocalPlayer, 'поссорились', Select_CString(CHARACTER.IsFemale, 'поссорилась', 'поссорился' ))] с одним из [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ваших', Select_CString(TARGET_CHARACTER.IsFemale, 'ее', 'его' ))] союзников."
+ vizierate_0001.reason.rival.enemy_of_my_friend_corresponding: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'начали', Select_CString(CHARACTER.IsFemale, 'начала', 'начал' ))] вражду с [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )] после того, как [TARGET_CHARACTER.GetShortUIName] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'поссорились', Select_CString(TARGET_CHARACTER.IsFemale, 'поссорилась', 'поссорился' ))] с одним из [Select_CString(CHARACTER.IsLocalPlayer, 'ваших', Select_CString(CHARACTER.IsFemale, 'ее', 'его' ))] союзников."
+ vizierate_0001.reason.rival.probable_rivalry: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'обладаете', Select_CString(CHARACTER.IsLocalPlayer, 'обладаете', 'обладают' ))] настолько разными характерами, что конфликт из-за придворной политики был лишь вопросом времени."
+ vizierate_0001.reason.rival.probable_rivalry_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'обладаете', Select_CString(CHARACTER.IsLocalPlayer, 'обладаете', 'обладают' ))] настолько разными характерами, что конфликт из-за придворной политики был лишь вопросом времени."
+ vizierate_0001.reason.rival.victim_of_conspiracy: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'вините', 'винит' )] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] в придворном заговоре, который дорого [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'вам', Select_CString(TARGET_CHARACTER.IsFemale, 'ей', 'ему' ))] стоил."
+ vizierate_0001.reason.rival.victim_of_conspiracy_corresponding: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'вините', 'винит' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )] в придворном заговоре, который дорого [Select_CString(CHARACTER.IsLocalPlayer, 'вам', Select_CString(CHARACTER.IsFemale, 'ей', 'ему' ))] стоил."
+ vizierate_0001.reason.rival.too_similar: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName], несмотря на сходства, [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'раздражаете', 'раздражают' )] друг друга."
+ vizierate_0001.reason.rival.too_similar_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName], несмотря на сходства, [Select_CString(CHARACTER.IsLocalPlayer, 'раздражаете', 'раздражают' )] друг друга."
+ vizierate_0001.reason.rival.pastime_foes: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'имеете', Select_CString(CHARACTER.IsLocalPlayer, 'имеете', 'имеют' ))] схожие увлечения, но, увы, всегда с противоположных сторон, что приводит к предсказуемому результату."
+ vizierate_0001.reason.rival.opposing_policies: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] яростно спорили о вопросах политики державы — с причиной спора давно разобрались, но неприязнь осталась."
+ vizierate_0001.reason.rival.party_foes: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] постоянно [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'получаете', Select_CString(CHARACTER.IsLocalPlayer, 'получаете', 'получают' ))] приглашения на одни и те же пиры, несмотря на продолжающуюся вражду, что лишь подогревает ее."
+ vizierate_0001.reason.rival.opposing_minor_cliques: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] недолгое время были участниками враждующих придворных клик. Клики распались, но неприязнь сохранилась."
+ vizierate_0001.reason.rival.opposing_minor_cliques_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] недолгое время были участниками враждующих придворных клик. Клики распались, но неприязнь сохранилась."
+ vizierate_0001.reason.rival.business_rivals: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] слишком часто сталкивались на почве соперничающих деловых интересов."
+ vizierate_0001.reason.rival.unexpected_foe.fiscal: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'подорвали', Select_CString(TARGET_CHARACTER.IsFemale, 'подорвала', 'подорвал' ))] финансовое благополучие [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )], практически разорив [Select_CString(CHARACTER.IsLocalPlayer, 'вас', Select_CString(CHARACTER.IsFemale, 'ее', 'его' ))]."
+ vizierate_0001.reason.rival.unexpected_foe.fiscal_corresponding: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'подорвали', Select_CString(CHARACTER.IsFemale, 'подорвала', 'подорвал' ))] финансовое благополучие [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )], практически разорив [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'вас', Select_CString(TARGET_CHARACTER.IsFemale, 'ее', 'его' ))]."
+ vizierate_0001.reason.rival.unexpected_foe.physical: "[TARGET_CHARACTER.GetShortUIName|U], по слухам, [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'подослали', Select_CString(TARGET_CHARACTER.IsFemale, 'подослала', 'подослал' ))] головорезов к [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'ему персонажу', '' )] из-за небольшой ссоры."
+ vizierate_0001.reason.rival.unexpected_foe.physical_corresponding: "[CHARACTER.GetShortUIName|U], по слухам, [Select_CString(CHARACTER.IsLocalPlayer, 'подослали', Select_CString(CHARACTER.IsFemale, 'подослала', 'подослал' ))] головорезов к [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ему персонажу', '' )] из-за небольшой ссоры."
+ vizierate_0001.reason.rival.unexpected_foe.social: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'унизили', Select_CString(TARGET_CHARACTER.IsFemale, 'унизила', 'унизил' ))] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] во время торжества."
+ vizierate_0001.reason.rival.unexpected_foe.social_corresponding: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'унизили', Select_CString(CHARACTER.IsFemale, 'унизила', 'унизил' ))] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )] во время торжества."
+ vizierate_0001.reason.rival.unexpected_foe.intrigue: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'воспользовались', Select_CString(TARGET_CHARACTER.IsFemale, 'воспользовалась', 'воспользовался' ))] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажем ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'им персонажем', '' )] в ходе придворной интриги."
+ vizierate_0001.reason.rival.unexpected_foe.intrigue_corresponding: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'воспользовались', Select_CString(CHARACTER.IsFemale, 'воспользовалась', 'воспользовался' ))] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )] в ходе придворной интриги."
+ vizierate_0001.reason.rival.opposing_minority.culture: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] впервые начали враждовать из-за значительных культурных различий."
+ vizierate_0001.reason.rival.opposing_minority.faith: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] начали спорить из-за религиозных различий."
+ vizierate_0001.reason.nemesis.foiled_masterstroke_scheme: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'поклялись', Select_CString(TARGET_CHARACTER.IsFemale, 'поклялась', 'поклялся' ))] любой ценой отомстить [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'ему персонажу', '' )] за испорченную политическую игру."
+ vizierate_0001.reason.nemesis.foiled_masterstroke_scheme_corresponding: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'поклялись', Select_CString(CHARACTER.IsFemale, 'поклялась', 'поклялся' ))] любой ценой отомстить [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ему персонажу', '' )] за испорченную политическую игру."
+ vizierate_0001.reason.nemesis.spread_foulest_of_rumours: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'приходите', 'приходит' )] в ярость, стоит кому-либо упомянуть имя [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )], ведь именно [Select_CString(CHARACTER.IsLocalPlayer, 'вы считаетесь', Select_CString(CHARACTER.IsFemale, 'она считается', 'он считается' ))] источником... #EMP невероятно гнусных#! слухов, которые всюду преследуют [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'вас', Select_CString(TARGET_CHARACTER.IsFemale, 'ее', 'его' ))]."
+ vizierate_0001.reason.nemesis.spread_foulest_of_rumours_corresponding: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'приходите', 'приходит' )] в ярость, стоит кому-либо упомянуть имя [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )], ведь именно [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'вы считаетесь', Select_CString(TARGET_CHARACTER.IsFemale, 'она считается', 'он считается' ))] источником... #EMP невероятно гнусных#! слухов, которые всюду преследуют [Select_CString(CHARACTER.IsLocalPlayer, 'вас', Select_CString(CHARACTER.IsFemale, 'ее', 'его' ))]."
+ vizierate_0001.reason.nemesis.waged_mutual_proxy_war: "[TARGET_CHARACTER.GetShortUIName|U] и [CHARACTER.GetShortUIName] вели ожесточенную войну друг с другом чужими руками — пешки давно брошены, но ненависть осталась."
+ vizierate_0001.reason.nemesis.alleged_arson: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'считаете', 'считает' )] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] главным виновником загадочного поджога, чуть не стоившего [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'вам', Select_CString(TARGET_CHARACTER.IsFemale, 'ей', 'ему' ))] жизни."
+ vizierate_0001.reason.nemesis.alleged_arson_corresponding: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'считаете', 'считает' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )] главным виновником загадочного поджога, чуть не стоившего [Select_CString(CHARACTER.IsLocalPlayer, 'вам', Select_CString(CHARACTER.IsFemale, 'ей', 'ему' ))] жизни."
+ vizierate_0001.reason.nemesis.suspicious_protege_death: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'вините', 'винит' )] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] в гибели своего политического протеже."
+ vizierate_0001.reason.nemesis.suspicious_protege_death_corresponding: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'вините', 'винит' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )] в гибели своего политического протеже."

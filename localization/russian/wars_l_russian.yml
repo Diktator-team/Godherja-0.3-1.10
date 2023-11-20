@@ -67,7 +67,6 @@
  peasant_war_victory_desc: "Все мятежные [counties|El] теряют [control|El]: [SCOPE.ScriptValue('peasant_war_victory_county_control_loss')|N0]."
  peasant_war_white_peace_desc: "[peasant_faction|E] распущена."
  peasant_war_defeat_desc: "[peasant_faction|E] распущена, а [attacker.GetShortUIName] в темнице. Все мятежные [counties|El] принудительно увеличивают [county_opinion|El]."
-  
  POPULIST_WAR_NAME: "[ATTACKER.GetCulture.GetCollectiveNounNoTooltip]ое [ATTACKER.GetFaith.GetNameNoTooltip|l]ое восстание"
  CLAIMANT_WAR_NAME: "[CLAIMANT.GetTitledFirstNamePossessive] ведет войну, претендуя на титул [TITLE.GetBaseName]"
  depose_war: "Свержение"
@@ -81,17 +80,15 @@
  claim_cb_defeat_desc_attacker_claimant: "[defender.GetShortUIName] сохраняет оспариваемый [title|El]. Вы теряете [Concept( 'claim', 'претензию' )|E]."
  claim_cb_defeat_desc_attacker: "[defender.GetShortUIName|U] сохраняет оспариваемый [title|El]. [claimant.GetShortUIName|U] теряет [Concept( 'claim', 'претензию' )|E]."
  claim_cb_defeat_desc: "[defender.GetShortUIName|U] сохраняет оспариваемый [title|El]. [attacker.GetShortUIName|U] теряет [Concept( 'claim', 'претензию' )|E]."
-  
  CB_CLAIM_COST_TARGET_TITLES: "Оспариваемые титулы"
  CB_CLAIM_COST_GENDER_PREFERENCES: "Гендерные предпочтения"
  CB_CLAIM_COST_CLAIMANT_DIFFERENT_DYNASTY: "Претендент из другой династии"
  CB_CLAIM_COST_CLAIMANT_DIFFERENT_HOUSE: "Претендент из другого дома"
  CB_CLAIM_COST_CLAIMANT_DIFFERENT_RELIGION: "Претендент из другой [Concept( 'religion', 'религии' )|E]"
-  
  CB_COST_DEFENDER_IS_CHILD: "Война против ребенка"
  CB_COST_ATTACKER_IS_CHILD: "Вы ребенок"
  CB_COST_SAME_DYNASTY: "Война против члена своей династии"
- CB_COST_DIFFERENT_FAITH: "Разные конфессии"
+ CB_COST_DIFFERENT_FAITH: "Базовое значение #weak (разная [Concept( 'faiths', 'вера' )|E])"
  CB_DEFNDER_LOWER_TIER: "Война против обладателя более низкого титула"
  CB_ATTACKER_INNOVATIONS: "Ваши инновации"
  CB_ATTACKER_HOF: "Ваш [head_of_faith|El]"
@@ -102,7 +99,8 @@
  CB_ATTACKER_HOF_HUMSACD: "Принесение в жертву [Concept( 'head_of_faith', 'главы своей конфессии' )|E]"
  CB_GAME_RULE_NO_COST: "Правило игры — бесплатно"
  CB_BASE_COST: "Базовое значение"
- CB_SAME_FAITH_COST: "Война против [Concept( 'faith', 'единоверца' )|E]"
+ CB_REALM_SIZE_COST: "От размера вашей [Concept( 'realm', 'державы' )|E]"
+ CB_SAME_FAITH_COST: "Базовое значение #weak (защитник принадлежит к вашей [Concept( 'faith', 'вере' )|E])"
  CB_TRIBAL_COST: "Вы — племенной вождь"
  CB_RECONQUISTA_COST: "Культура — $innovation_reconquista$"
  CB_GENGHIS_KHAN_COST: "Чингисхан"
@@ -116,7 +114,8 @@
  CB_ATTACKER_CULTURE: "[culture|E]"
  CB_STRUGGLE_PHASE_DISCOUNT: "[struggle_phase|E]"
  CB_STRUGGLE_PHASE_SURCHARGE: "[struggle_phase|E]"
-  
+ CB_GENERIC_PHASE_BONUS: "Текущая [Concept( 'struggle_phase', 'фаза борьбы' )|E]"
+ CB_STRUGGLE_CONCESSION_ENDING: "$persian_struggle$ — длящийся эффект"
  independence_faction_war: "Фракция сепаратистов"
  independence_war_victory_desc_local_player_attacker_alone: "[attacker.GetShortUIName|U] [Select_CString(attacker.IsLocalPlayer, 'получите', 'получит' )] независимость от [Select_CString(defender.IsLocalPlayer, '', 'персонажа ' )][defender.GetNamePossessiveOrMy][Select_CString(defender.IsLocalPlayer, 'его персонажа', '' )]."
  independence_war_victory_desc_local_player_defender_attacker_alone: "[attacker.GetShortUIName|U] получает независимость от [Select_CString(defender.IsLocalPlayer, '', 'персонажа ' )][defender.GetNamePossessiveOrMy][Select_CString(defender.IsLocalPlayer, 'его персонажа', '' )]."
@@ -166,7 +165,6 @@
  individual_county_de_jure_cb_defeat_desc_defender: "Вы сохранили оспариваемое [county|El]. [attacker.GetShortUIName|U] обязуется выплатить вам компенсацию."
  individual_county_de_jure_cb_defeat_desc_attacker: "[defender.GetShortUIName|U] сохраняет оспариваемое [county|El]. Вы обязаны выплатить [defender.GetHerHim] компенсацию."
  individual_county_de_jure_cb_defeat_desc: "[defender.GetShortUIName|U] сохраняет оспариваемое [county|El], а [attacker.GetShortUIName] обязуется выплатить [defender.GetHerHim] компенсацию."
-  
  minor_religious_war: "Малая [Concept( 'holy_war_holy', 'священная война' )|E]"
  religious_war: "[holy_war_holy|E]"
  major_religious_war: "Великая [Concept( 'holy_war_holy', 'священная война' )|E]"
@@ -176,7 +174,6 @@
  EXCOMMUNICATION_WAR_NAME: "Война против нечестивца [DEFENDER.GetShortUINameNotMe]"
  GREAT_HOLY_WAR_WAR_NAME: "[ATTACKER.GetFaith.Custom('GHWName')] за титул [TITLE.GetName]"
  GREAT_HOLY_WAR_WAR_CB_NAME: "[ATTACKER.GetFaith.Custom('GHWName')] за [kingdom|El]"
-  
  populist_war: "Мятеж"
  populist_war_victory_desc: "Мятежные [counties|El] образуют независимую державу, правителем которой становится [attacker.GetShortUIName]."
  populist_war_white_peace_desc: "Мятежные [counties|El] и [vassals|El] останутся в составе державы."
@@ -196,7 +193,6 @@
  refused_liege_demand_war_white_peace_desc: "[attacker.GetShortUIName|U] и [defender.GetShortUIName] заключают перемирие. [defender.GetShortUIName|U] получает [revoke_title_reason|E] [Select_CString(attacker.IsLocalPlayer, '', 'персонажа ' )][attacker.GetNamePossessiveOrMy][Select_CString(attacker.IsLocalPlayer, 'его персонажа', '' )]."
  refused_liege_demand_war_defeat_desc_defender: "[attacker.GetShortUIName] попадает к вам в [Concept( 'imprison', 'в темницу' )|E]."
  refused_liege_demand_war_defeat_desc: "[defender.GetShortUIName|U] [Concept( 'imprisons', 'заключает в темницу' )|E] [Select_CString(attacker.IsLocalPlayer, '', 'персонажа ' )][attacker.GetNamePossessiveOrMy][Select_CString(attacker.IsLocalPlayer, 'его персонажа', '' )]."
-  
  imperial_reconquest_cb: "Имперская реконкиста"
  IMPERIAL_RECONQUEST_NAME: "Захватить все имперские провинции"
  IMPERIAL_RECONQUEST_WAR_NAME: "$ORDER$ #L [ATTACKER.GetPrimaryTitle.GetAdjective]о-[DEFENDER.GetPrimaryTitle.GetAdjective|l]ая#! имперская реконкиста"
@@ -204,7 +200,6 @@
  IMPERIAL_RECONQUEST_SPECIFIC_NAME: "Восстановить имперскую провинцию [TITLE.GetNameNoTier]"
  IMPERIAL_RECONQUEST_WAR_SPECIFIC_NAME: "$ORDER$ #L [ATTACKER.GetPrimaryTitle.GetAdjective]о-[DEFENDER.GetPrimaryTitle.GetAdjective|l]ая#! имперская реконкиста"
  IMPERIAL_RECONQUEST_WAR_SPECIFIC_NAME_BASE: "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ий#! домен [DEFENDER.GetPrimaryTitle.GetName]"
-  
  dismantle_holy_pretender_cb: "Изгнать претендента"
  DISMANTLE_EMPIRE_NAME: "Сместить все [de_jure|El]"
  DISMANTLE_EMPIRE_WAR_NAME: "$ORDER$ #L [ATTACKER.GetPrimaryTitle.GetAdjective]о-[DEFENDER.GetPrimaryTitle.GetAdjective|l]ая#! война за имперскую легитимность"
@@ -215,13 +210,10 @@
  DISMANTLE_EMPIRE_WAR_SPECIFIC_NAME_BASE: "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ий#! домен [DEFENDER.GetPrimaryTitle.GetName]"
  dismantle_holy_pretender_cb_victory_desc: "$e_hre$ будет уничтожена. Все вассальные титулы, [de_jure|El] входящие в $e_hre_adj$ую империю, становятся де-юре вассалами Римской империи."
  dismantle_holy_pretender_cb_defeat_desc: "$e_hre$ останется нетронутой. $e_roman_empire$ обязуется выплатить компенсацию."
-  
  dismantle_byz_pretender_cb: "Изгнать претендента"
  dismantle_byz_pretender_cb_victory_desc: "$e_byzantium$ будет уничтожена. Все вассальные титулы, [de_jure|El] входящие в $e_byzantium_adj$ую империю, становятся де-юре вассалами Римской империи."
  dismantle_byz_pretender_cb_defeat_desc: "$e_byzantium$ останется нетронутой. $e_roman_empire$ обязуется выплатить компенсацию."
-  
  all_vassals_of_defender: "Все вассалы [Select_CString(defender.IsLocalPlayer, '', 'персонажа ' )][defender.GetNamePossessiveOrMy][Select_CString(defender.IsLocalPlayer, 'его персонажа', '' )]"
-  
  vassalization_cb: "Вассализация"
  VASSALIZATION_CB_NAME: "[vassalization_casus_belli|E] [DEFENDER.GetShortUIName]"
  VASSALIZATION_CB_SPECIFIC_NAME: "Вассализация персонажа [DEFENDER.GetShortUIName]"
@@ -233,7 +225,6 @@
  vassalization_cb_white_peace_desc_defender: "Вы сохраняете независимость."
  vassalization_cb_white_peace_desc: "[defender.GetShortUIName|U] сохраняет независимость."
  vassalization_cb_defeat_desc_attacker: "[defender.GetShortUIName|U] сохранит независимость. [discontent|E] всех [Concept( 'factions', 'фракций' )|E] против вас растет."
-  
  diarch_vassalisation_cb: "Захват [Concept( 'diarch', 'диархом' )|E]"
  DIARCH_VASSALIZATION_CB_NAME: "Захват [Concept( 'diarch', 'диархом' )|E] земель персонажа [DEFENDER.GetShortUIName]"
  DIARCH_VASSALIZATION_CB_SPECIFIC_NAME: "Захват земель персонажа [DEFENDER.GetShortUIName]"
@@ -245,7 +236,6 @@
  diarch_vassalization_cb_white_peace_desc_defender: "Вы ничего не отдаете персонажу [attacker.GetShortUIName]."
  diarch_vassalization_cb_white_peace_desc: "[defender.GetShortUIName|U] ничего не отдает персонажу [attacker.GetShortUIName]."
  diarch_vassalization_cb_defeat_desc_attacker: "[defender.GetShortUIName|U] ничего не отдает вам."
-  
  CONQUEST_CB_TITLE: "Вы захватите все территории, которыми сейчас владеет [defender.GetShortUIName] и которые входят в домен [THIS.GetLandedTitle.GetBaseName]"
  duchy_conquest_cb: "Покорение герцогства"
  county_conquest_cb: "Завоевание графства"
@@ -263,20 +253,17 @@
  ducal_conquest_cb_defeat_desc_defender: "Вы сохранили оспариваемые [titles|El]."
  ducal_conquest_cb_defeat_desc_attacker: "[defender.GetShortUIName|U] сохраняет оспариваемый титул. [discontent|E] всех [Concept( 'factions', 'фракций' )|E] против вас растет."
  ducal_conquest_cb_defeat_desc: "[defender.GetShortUIName|U] сохраняет оспариваемые [titles|El]."
-  
  CONQUEST_COUNTY_CB_NAME: "Завоевать [county|El]"
  CONQUEST_DUCHY_CB_NAME: "Завоевать [duchy|El]"
  CONQUEST_CB_SPECIFIC_NAME: "Завоевать домен [TITLE.GetBaseNameNoTier]"
  CONQUEST_CB_NAME: "Завоевать домен [TITLE.GetBaseNameNoTier]"
  CONQUEST_WAR_NAME: "$ORDER$ #L [ATTACKER.GetPrimaryTitle.GetAdjective]ое#! завоевание домена [TITLE.GetBaseNameNoTier]"
  CONQUEST_WAR_NAME_BASE: "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ий#! домен [DEFENDER.GetPrimaryTitle.GetName]"
-  
  ducal_conquest_cb: "Завоевание герцогства"
  DUCAL_CONQUEST_CB_NAME: "[Concept( 'ducal_conquest', 'Завоевание' )|E] [counties|El]"
  DUCAL_CONQUEST_CB_SPECIFIC_NAME: "Завоевание герцогства [TITLE.GetBaseNameNoTier]"
  DUCAL_CONQUEST_WAR_NAME: "$ORDER$ #L [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip]ое#! завоевание герцогства [TITLE.GetBaseNameNoTier]"
  DUCAL_CONQUEST_WAR_NAME_BASE: "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ий#! домен [DEFENDER.GetPrimaryTitle.GetName]"
-  
  tribal_subjugation_cb: "Покорение"
  SUBJUGATION_CB_NAME: "Покорить персонажа [DEFENDER.GetShortUIName]"
  SUBJUGATION_CB_SPECIFIC_NAME: "Покорить персонажа [DEFENDER.GetShortUIName]"
@@ -288,7 +275,6 @@
  tribal_subjugation_cb_white_peace_desc_defender: "Вы сохраняете все [titles|El] и независимость."
  tribal_subjugation_cb_white_peace_desc: "[defender.GetShortUIName|U] сохраняет все титулы и независимость."
  tribal_subjugation_cb_defeat_desc_attacker: "[defender.GetShortUIName|U] сохраняет независимость. [discontent|E] вами растет во всех [Concept( 'factions', 'фракциях' )|E]."
-  
  ireland_laudabiliter_conquest_cb: "Похвальное завоевание"
  LAUDABILITER_CONQUEST_CB_NAME: "Открыто завоевать [county|El]"
  LAUDABILITER_CONQUEST_CB_SPECIFIC_NAME: "Завоевать титул [TITLE.GetBaseName]"
@@ -302,7 +288,6 @@
  ireland_laudabiliter_conquest_cb_defeat_desc_defender: "Вы сохраняете все оспариваемые титулы."
  ireland_laudabiliter_conquest_cb_defeat_desc_attacker: "[defender.GetShortUIName|U] сохраняет все оспариваемые титулы. [discontent|E] всех [Concept( 'factions', 'фракций' )|E] против вас растет."
  ireland_laudabiliter_conquest_cb_defeat_desc: "[defender.GetShortUIName|U] сохраняет все оспариваемые титулы."
-  
  invasion_war: "Вторжение"
  clan_invasion_war: "Вторжение клана"
  INVASION_CB_NAME: "Вторгнуться в [kingdom|El]"
@@ -337,13 +322,11 @@
  launch_hungarian_migration_scripted_effect.tt.territory_outside_pannonia.non_mogyer_vassals: "Все не мадьярские [vassals|El] за пределами Венгрии обретают [Concept( 'independent', 'независимость' )|E]"
  launch_hungarian_migration_scripted_effect.tt.territory_outside_pannonia.mogyer_vassals: "Мадьярские [vassals|El] за пределами Венгрии получают все захваченные и незанятые [titles|El] на ее территории"
  launch_hungarian_migration_scripted_effect.tt.territory_outside_pannonia.former_territories: "Местные военачальники теряют право на земли, которыми правят мадьярские [vassals|El] за пределами Венгрии"
-  
  tribal_raid_cb: "Налет"
  TRIBAL_RAID_CB_NAME: "Налет на домен [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
  TRIBAL_RAID_CB_SPECIFIC_NAME: "Налет на домен [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
  TRIBAL_RAID_WAR_NAME: "$ORDER$ #L [ATTACKER.GetPrimaryTitle.GetAdjective]ий#! налет на домен [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
  TRIBAL_RAID_WAR_NAME_BASE: "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ий#! домен [DEFENDER.GetPrimaryTitle.GetName]"
-  
  flowery_war_cb: "Набег за пленными"
  FLOWERY_WAR_CB_NAME: "[flowery_war|E] против [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
  FLOWERY_WAR_CB_SPECIFIC_NAME: "[DEFENDER.GetPrimaryTitle.GetBaseNameNoTier] подвергается нападению охотников за пленными"
@@ -351,13 +334,10 @@
  FLOWERY_WAR_WAR_NAME_BASE: "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ий#! домен [DEFENDER.GetPrimaryTitle.GetName]"
  flowery_war_cb_prisoners.tt_attacker: "От трех до пяти [Concept( 'courtier', 'придворных' )|E] [Select_CString(defender.IsLocalPlayer, '', 'персонажа ' )][defender.GetNamePossessiveOrMy][Select_CString(defender.IsLocalPlayer, 'его персонажа', '' )] будут взяты в плен — в зависимости от уровня защитника."
  flowery_war_cb_prisoners.tt_defender: "От трех до пяти [Concept( 'courtier', 'придворных' )|E] [Select_CString(attacker.IsLocalPlayer, '', 'персонажа ' )][attacker.GetNamePossessiveOrMy][Select_CString(attacker.IsLocalPlayer, 'его персонажа', '' )] будут взяты в плен — в зависимости от уровня агрессора."
-  
  CASUS_BELLI_CLAIM_NO_CLAIMS_TO_PUSH: "Нет [Concept( 'claims', 'претензий' )|E], которые можно предъявить"
  CASUS_BELLI_CLAIM_NO_VALID_TITLE_TARGETS: "У цели нет подходящих титулов"
-  
  tst_generic_war_lost_message.t: "Вы проиграли войну"
  tst_generic_war_lost_message.tt: "[attacker.GetShortUINameNoTooltip] [Select_CString(attacker.IsFemale, 'победила', 'победил' )], и [current_war.GetName] заканчивается не в вашу пользу."
-  
  norman_conquest_cb: "Вторжение"
  norman_conquest_cb_defeat_desc: "[defender.GetShortUIName|U] сохраняет королевство Англия. [attacker.GetShortUIName|U] теряет [Concept( 'claim', 'претензию' )|E] на него."
  norman_conquest_cb_defeat_desc_defender: "Вы сохраняете королевство Англия. [attacker.GetShortUIName|U] теряет [Concept( 'claim', 'претензию' )|E] на него."
@@ -368,7 +348,6 @@
  norman_conquest_cb_victory_desc_defender: "[attacker.GetShortUIName|U] захватывает королевство Англия, все ваши титулы и титулы вассалов в южной Англии."
  norman_conquest_cb_victory_desc_attacker: "Вы захватываете королевство Англия и забираете себе все титулы южной Англии."
  norman_conquest_cb_victory_desc: "[attacker.GetShortUIName|U] захватывает королевство Англия и присваивает все титулы южной Англии."
-  
  norwegian_invasion_cb: "Вторжение"
  norwegian_invasion_cb_defeat_desc: "[defender.GetShortUIName|U] сохраняет королевство Англия. [attacker.GetShortUIName|U] теряет [Concept( 'claim', 'претензию' )|E] на него."
  norwegian_invasion_cb_defeat_desc_defender: "Вы сохраняете королевство Англия. [attacker.GetShortUIName|U] теряет [Concept( 'claim', 'претензию' )|E] на него."
@@ -380,7 +359,6 @@
  norwegian_invasion_cb_victory_desc_attacker: "Вы захватываете королевство Англия и забираете себе все титулы северной Англии."
  norwegian_invasion_cb_victory_desc: "[attacker.GetShortUIName|U] захватывает королевство Англия и присваивает все титулы северной Англии."
  norwegian_invasion_cb_victory_with_tostig_desc: "Если [tostig.GetShortUIName] останется в живых и будет находиться при дворе правителя [attacker.GetShortUIName], то получит земли [northumberland.GetName], [york.GetName]и [lancaster.GetName]."
-  
  sons_of_lothbrok_invasion_cb: "Вторжение"
  sons_of_lothbrok_invasion_cb_victory_desc_attacker: "Вы захватываете все титулы персонажа [defender.GetShortUINamePossessive] в выбранном королевстве."
  sons_of_lothbrok_invasion_cb_victory_desc_defender: "[attacker.GetShortUIName|U] захватывает все ваши титулы в выбранном королевстве."
@@ -391,12 +369,10 @@
  sons_of_lothbrok_invasion_cb_defeat_desc_attacker: "[defender.GetShortUIName|U] сохраняет титулы. Вы теряете [Concept( 'prestige', 'престиж' )|E] и выплачиваете [defender.GetHerHim] репарации."
  sons_of_lothbrok_invasion_cb_defeat_desc_defender: "Вы сохраняете титулы. [attacker.GetShortUIName|U] теряет [Concept( 'prestige', 'престиж' )|E] и выплачивает вам репарации."
  sons_of_lothbrok_invasion_cb_defeat_desc: "[defender.GetShortUIName|U] сохраняет титулы. [attacker.GetShortUIName|U] теряет [Concept( 'prestige', 'престиж' )|E] и выплачивает [defender.GetHerHim] репарации."
-  
  religious_war_victory_desc: "Будут захвачены все титулы #L [defender.GetFaith.GetName|l]их#! правителей в указанном [Concept( 'title', 'титуле' )|E], а все #L [attacker.GetFaith.GetName|l]ие#! правители станут вассалами [Select_CString(attacker.IsLocalPlayer, '', 'персонажа ' )][attacker.GetNamePossessiveOrMy][Select_CString(attacker.IsLocalPlayer, 'его персонажа', '' )]."
  religious_war_white_peace_desc: "Ни один [Concept( 'title', 'титул' )|E] не меняет хозяина."
  religious_war_defeat_desc: "Ни один [Concept( 'title', 'титул' )|E] не меняет хозяина."
  major_religious_war_warning_desc: "\n\n#X  За всю жизнь можно развязать только одну [Concept( 'holy_war', 'священную войну' )|El] против [Concept( 'title', 'титула' )|El] уровня «[kingdom|El]»#!"
-  
  excommunication_war_victory_desc_defender: "Вас [Concept( 'deposed', 'свергли' )|E]."
  excommunication_war_victory_desc: "[defender.GetShortUIName|U] [Concept( 'deposed', Select_CString(defender.IsFemale, 'свергнута', 'свергнут' ))|E]."
  excommunication_war_white_peace_desc: "[defender.GetShortUIName|U] сохраняет титулы."
@@ -404,36 +380,27 @@
  excommunication_war_defeat_desc_attacker: "[defender.GetShortUIName|U] сохраняет титулы. Вы теряете [Concept( 'piety', 'благочестие' )|E], а мнение [Concept( 'head_of_faith', 'главы конфессии' )|E] о вас снижается."
  excommunication_war_defeat_desc_defender: "Вы сохраняете титулы, ваше [Concept( 'piety', 'благочестие' )|E] растет."
  excommunication_war_defeat_desc: "[defender.GetShortUIName|U] сохраняет титулы, [defender.GetHerHis] [Concept( 'piety', 'благочестие' )|E] растет."
-  
  flowery_war_cb_victory_desc: "[attacker.GetShortUIName|U] приносит в жертву персонажей и жителей державы [Select_CString(defender.IsLocalPlayer, '', 'персонажа ' )][defender.GetNamePossessiveOrMy][Select_CString(defender.IsLocalPlayer, 'его персонажа', '' )]."
  flowery_war_cb_white_peace_desc: "Жертвы не принесены."
  flowery_war_cb_defeat_desc: "Жертвы не принесены."
-  
  directed_great_holy_war: "Великая священная война"
  undirected_great_holy_war: "Великая священная война"
-  
  great_holy_war_directed_victory_desc: "Внесший наибольший вклад получает целевое королевство. [titles|E] в королевстве будут распределены между бенефициарами"
  great_holy_war_victory_desc: "[titles|E] побежденного королевства раздаются бенефициарам. [gold|E] и [Concept( 'piety', 'благочестие' )|E] делятся между всеми участниками."
  great_holy_war_defeat_desc: "Титулы не меняют владельцев. Полученное [Concept( 'piety', 'благочестие' )|E] делится между защитниками."
-  
  debug_war_victory_desc: "Атакующий забирает титулы цели."
  debug_war_white_peace_desc: "Защитник сохраняет титулы цели."
-  
  hungarian_migration_cb: "$HUNGARIAN_INVASION_CB_NAME$"
-  
  religious_war_victory_desc_doctrine_pluralism: "[attacker.GetShortUIName|U] [Select_CString(attacker.IsLocalPlayer, 'делаете', 'делает' )] вассалами всех правителей в землях оспариваемого [Concept( 'title', 'титула' )|E]."
-  
  enemy_gained_new_ally: "[this_character.GetShortUIName] [Select_CString(this_character.IsFemale, 'заключила', 'заключил' )] новый союз"
  enemy_gained_new_ally_tt: "[other_character.GetShortUIName] может присоединиться к войне «[this_war.GetName]» на стороне врага"
  PREVIOUS_VARANGIAN_ADVENTURES_COST: "Предыдущие приключения"
-  
  debug_artifact_war_victory_desc: "Атакующий забирает себе все артефакты защитника."
  debug_artifact_war_white_peace_desc: "Атакующий не забирает ничего."
  debug_artifact_war_defeat_desc: "$debug_artifact_war_white_peace_desc$"
  debug_artifact_war_invalidated_desc: "$DEBUG_ARTIFACT_WAR_NAME$ — недействительно!"
  DEBUG_ARTIFACT_WAR_NAME: "#D (DEBUG)#! Отладка войны за артефакт"
  DEBUG_ARTIFACT_WAR_NAME_FALLBACK: "$DEBUG_ARTIFACT_WAR_NAME$"
-  
  artifact_war_victory_desc: "Вы заберете себе все [Concept( 'artifacts', 'артефакты' )|E] персонажа [defender.GetShortUIName|U] и [Select_CString(defender.IsFemale, 'ее', 'его' )] [Concept( 'vassals', 'вассалов' )|E], на которые у вас есть претензии."
  artifact_war_victory_desc_defender: "[attacker.GetShortUIName|U] заберет себе все [Concept( 'artifacts', 'артефакты' )|E], принадлежащие вам и вашим [Concept( 'vassals', 'вассалам' )|E], на которые у [Select_CString(attacker.IsFemale, 'нее', 'него' )] есть претензии."
  artifact_war_white_peace_desc: "Никакие [artifacts|El] не меняют хозяев."
@@ -446,7 +413,6 @@
  conquest_title_destroyed_tt: "@warning_icon!#X Титул [de_jure_target.GetName] будет уничтожен после войны.#!"
  conquest_title_usurp_tt: "@warning_icon!#X Нынешний владелец, [de_jure_target.GetHolder.GetTitledFirstName], сохранит титул [de_jure_target.GetName] после войны.#!"
  conquest_title_create_tt: "@warning_icon!#X Титул [de_jure_target.GetName] не будет создан по результатам этой войны.#!"
-  
  reclaim_relic_artifact_war_victory_desc: "Вы забираете себе все #L [attacker.GetFaith.GetReligion.GetName|l]ие#! [artifacts|El] персонажа [defender.GetShortUIName|U] и [Select_CString(defender.IsFemale, 'ее', 'его' )] #L не[attacker.GetFaith.GetReligion.GetName|l]их#! [Concept( 'vassals', 'вассалов' )|E]."
  reclaim_relic_artifact_war_victory_desc_defender: "[attacker.GetShortUIName|U] забирает себе все <*0/>[attacker.GetFaith.GetReligion.GetName|l]ие<*2/> [artifacts|El], принадлежащие вам и вашим <*0/>не[attacker.GetFaith.GetReligion.GetName|l]им<*2/> [Concept( 'vassals', 'вассалам' )|E]."
  reclaim_relic_artifact_war_white_peace_desc: "$artifact_war_white_peace_desc$"
@@ -491,12 +457,11 @@
  county_struggle_cb_defeat_desc_defender: "$county_conquest_cb_defeat_desc_defender$"
  county_struggle_cb_defeat_desc_attacker: "$county_conquest_cb_defeat_desc_attacker$"
  county_struggle_cb_defeat_desc: "$county_conquest_cb_defeat_desc$"
- struggle_involvement_cb_check_failure: "Вы должны участвовать в одной [Concept( 'struggle', 'борьбе' )|E], и текущая [Concept( 'struggle_phase', 'фаза' )|E] не должна запрещать этот [casus_belli|El]"
+ struggle_involvement_cb_check_failure: "[Concept( 'struggle', 'Борьба' )|E] не дает использовать этот [Concept( 'casus_belli', 'казус белли' )|E] против персонажа [defender.GetTitledFirstName] в текущей [Concept( 'struggle_phase', 'фазе борьбы' )|E]"
  CB_COST_STRUGGLE_PHASE_OPPORTUNITY: "[struggle_phase_iberia_opportunity|E]"
  CB_COST_STRUGGLE_PHASE_HOSTILITY: "[struggle_phase_iberia_hostility|E]"
  CB_COST_STRUGGLE_PHASE_COMPROMISE: "[struggle_phase_iberia_compromise|E]"
  CB_COST_STRUGGLE_PHASE_CONCILIATION: "[struggle_phase_iberia_conciliation|E]"
-  
  #claim_cb: "Claim"
  #claim_cb_victory_desc_attacker_claimant: "You gain the contested [title|E]."
  #claim_cb_victory_desc_attacker: "[claimant.GetShortUIName|U] gains the contested [title|E]."
@@ -507,7 +472,6 @@
  #claim_cb_defeat_desc_attacker_claimant: "[defender.GetShortUIName|U] keeps the contested [title|E]. You lose your [claim|E]."
  #claim_cb_defeat_desc_attacker: "[defender.GetShortUIName|U] keeps the contested [title|E]. [claimant.GetShortUIName|U] loses [claimant.GetHerHis] [claim|E]."
  #claim_cb_defeat_desc: "[defender.GetShortUIName|U] keeps the contested [title|E]. [attacker.GetShortUIName|U] loses [attacker.GetHerHis] [claim|E]."
-  
  REMOVE_REGENT_WAR_NAME: "$ORDER$ война, чтобы [DEFENDER.GetShortUIName] [Select_CString(DEFENDER.IsFemale, 'лишилась', 'лишился' )] [Concept( 'regent', 'регентства' )|E]"
  remove_regent_cb: "Отстранить регента"
  remove_regent_cb_victory_desc_attacker: "[defender.GetShortUIName|U] отстраняется с позиции [Concept( 'regent', 'регента' )|E]"
@@ -516,7 +480,7 @@
  remove_regent_cb_white_peace_desc: "[defender.GetShortUIName|U] остается [Concept( 'regent', 'регентом' )|E]"
  remove_regent_cb_defeat_desc_defender: "[attacker.GetShortUIName|U] [Concept( 'imprisoned', 'отправляется в темницу' )|E] и выплачивает штраф"
  remove_regent_cb_defeat_desc: "[attacker.GetShortUIName|U] [Concept( 'imprisoned', 'отправляется в темницу' )|E] и выплачивает штраф"
-  
+ remove_regent_cb_temporary_fort: "[defender.GetPrimaryTitle.GetBaseName] теряет модификатор «[GetModifier( 'temporary_fort_province_modifier' ).GetNameWithTooltip]»"
  zealous_personality: "Фанатичность"
  bold_personality: "Храбрость"
  high_fervor: "[fervor|E] защищающейся [Concept( 'faith', 'конфессии' )|E]"
@@ -524,9 +488,22 @@
  friends_with_defender: "Вы и защитник [friends|El]"
  dislikes_defender: "Им не нравится защитник"
  strongly_dislikes_defender: "Им сильно не нравится защитник"
-  
  subjugation_war_warning_desc: "\n\n#X Вы можете развязать [Concept( 'war', 'войну' )|E] за покорение только один раз в жизни#!"
-  
+ fp3_install_loyalist_cb: "Установить лоялиста"
+ fp3_install_loyalist_cb_cooldown_trigger: "Этот [Concept( 'casus_belli', 'казус белли' )|E] можно использовать не чаще раза в год!"
+ fp3_install_loyalist_cb_no_valid_puppet: "@warning_icon! Поскольку подходящие [Concept('vassals', 'вассалы' )|E], которых можно сделать марионетками, отсутствуют, эту роль сыграет [Concept( 'lowborn', 'местный' )|E] лидер! Такое действие потребует дополнительных расходов [Concept( 'prestige', 'престижа' )|E] и увеличит напряженность на территории [defender.GetPrimaryTitle.GetName|U]."
+ fp3_install_loyalist_cb_victory_desc: "[Concept( 'ruler', 'Правитель' )|E] территории [defender.GetPrimaryTitle.GetBaseName|U] смещен, его заместил [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] халифа."
+ fp3_install_loyalist_cb_defeat_desc: "[defender.GetPrimaryTitle.GetName|U] под справедливой властью персонажа [defender.GetShortUIName|U]."
+ cb_rejected_caliph_discount: "Отвержение власти халифа"
+ INSTALL_LOYALIST_PUPPET_WAR_NAME: "$fp3_install_loyalist_cb$ — [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier]"
+ INSTALL_LOYALIST_PUPPET_CB_NAME: "$fp3_install_loyalist_cb$"
+ fp3_install_loyalist_cb.tt.loyalist_stooge: "[defender.GetTitledFirstName] [Select_CString(defender.IsFemale, 'должна', 'должен' )] иметь как минимум одного [Concept( 'vassal', 'вассала' )] ([GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]) — не [Concept( 'friends', 'друга' )|E] и не имеющего на [Select_CString(defender.IsFemale, 'нее', 'него' )] [Concept( 'hook', 'влияния' )|E]"
+ fp3_turkic_invasion_cb: "$fp3_turkic_invasion_cb_name$"
+ fp3_turkic_invasion_cb_name: "Профинансированное завоевание"
+ fp3_turkic_invasion_cb_war_name: "[TITLE.GetBaseNameNoTier] — финансирование завоевания"
+ fp3_turkic_invasion_title: "[Select_CString(invasion_beneficiary.IsLocalPlayer, '', 'Персонаж' )][invasion_beneficiary.GetNamePossessiveOrMy|U][Select_CString(invasion_beneficiary.IsLocalPlayer, ' персонаж', '' )] захватит все территории, которыми сейчас владеет [Select_CString(defender.IsLocalPlayer, '', 'персонаж' )][defender.GetNamePossessiveOrMy|U][Select_CString(defender.IsLocalPlayer, ' персонаж', '' )], и которые входят в домен [THIS.GetLandedTitle.GetBaseName]"
+ fp3_turkic_invasion_cb_victory_desc: "Бенефициар получает оспариваемые [titles|El]."
+ fp3_turkic_invasion_beneficiary: "Бенефициар"
  custom.attacker_every_active_accolade: "[defender.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'имеете', 'имеет' )] высокий [Concept( 'rank', 'ранг' )|E]. Все [Concept( 'acclaimed_knights', 'именитые рыцари' )|E], которых [Select_CString(ROOT.Char.IsLocalPlayer, 'привели', Select_CString(ROOT.Char.IsFemale, 'привела', 'привел' ))] [attacker.GetShortUINamePossessive],"
  custom.defender_every_active_accolade: "[attacker.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'имеете', 'имеет' )] высокий [Concept( 'rank', 'ранг' )|E]. Все [Concept( 'acclaimed_knights', 'именитые рыцари' )|E], которых [Select_CString(ROOT.Char.IsLocalPlayer, 'привели', Select_CString(ROOT.Char.IsFemale, 'привела', 'привел' ))] [defender.GetShortUINamePossessive],"
  mongol_invasion_vassal_disapproves_defeat: "Все [vassals|El] персонажа [attacker.GetShortUIName] теряют #N 20#! [Concept( 'opinion', 'мнения' )|E] о [Select_CString(attacker.IsFemale, 'ней', 'нем' )] на #V 5 лет#! #weak ($liege_lost_mongol_invasion_war$)#!"
@@ -535,6 +512,47 @@
  mongol_invasion_loot_development_tt: "[development|E] [Concept( 'county', 'графства' )|E] снизится #N вдвое#!"
  mongol_invasion_loot_dread_tt: "[attacker.GetShortUIName|U] получит 2 единицы [Concept( 'dread', 'ужаса' )|E]"
  invasion_vassal_transfer_tt: "Каждые [de_jure|El] [vassal|El] выбранных титулов"
- invasion_title_transfer_tt: "[THIS.Title.GetBaseName] персонажа [defender.GetShortUIName] будет принадлежать персонажу [attacker.GetShortUIName]"
- invasion_title_transfer_2_tt: "Каждое оккупированное [defender.GetPrimaryTitle.GetAdjectiveNoTooltip|l]ое [county|El] будет принадлежать персонажу [attacker.GetShortUIName]"
+ invasion_title_transfer_tt: "Каждое [Concept( 'de_jure', 'де-юре' )|E] [county|El] будет принадлежать персонажу [attacker.GetShortUIName]"
+ invasion_title_transfer_2_tt: "Каждое [Concept( 'occupied', 'оккупированное' )|E] [county|El] за пределами выбранного титула будет принадлежать персонажу [attacker.GetShortUIName]"
  invasion_titles_destroyed_tt: "Каждый выбранный титул"
+ fp3_free_house_member_cb: "$fp3_free_house_member_cb_name$"
+ fp3_free_house_member_cb_name: "Спасти членов дома"
+ fp3_free_house_member_war_name: "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ая#! война ради спасения членов [Concept( 'house', 'дома' )|E] [ATTACKER.GetHouse.GetBaseNameNoTooltip]"
+ #Attacker Victory
+ fp3_free_house_member_cb_victory_desc: "Каждый член [Concept( 'house', 'дома' )|E] [attacker.GetHouse.GetBaseNameNoTooltip], которого [Concept( 'imprisoned', Select_CString(defender.IsLocalPlayer, 'пленили', Select_CString(defender.IsFemale, 'пленила', 'пленил' )))|E] [defender.GetShortUIName], освобожден."
+ fp3_free_house_member_cb_victory_desc_defender: "Вы отпускаете всех [Concept( 'imprisoned', 'плененных' )|E] членов [Concept( 'house', 'дома' )|E] [attacker.GetHouse.GetBaseNameNoTooltip]."
+ #Attacker Defeat/White Peace
+ fp3_free_house_member_cb_defeat_desc: "[defender.GetShortUIName] [Select_CString(defender.IsLocalPlayer, 'продолжите', 'продолжит' )] удерживать в [Concept( 'imprisoned', 'плену' )|E] членов [Concept( 'house', 'дома' )|E], к которому [Select_CString(attacker.IsLocalPlayer, 'принадлежите', 'принадлежит' )] [attacker.GetShortUIName]."
+ fp3_free_house_member_cb_defeat_desc_defender: "Члены [Concept( 'house', 'дома' )|E] [attacker.GetHouse.GetBaseNameNoTooltip] останутся у вас в [Concept( 'imprisoned', 'плену' )|E]."
+ fp3_free_house_member_cb_every_house_member_released: "Все пленники [Concept( 'house', 'дома' )|E] [attacker.GetHouse.GetBaseName], которых [Select_CString(defender.IsLocalPlayer, 'удерживаете', 'удерживает' )] [defender.GetShortUIName], освобождены."
+ fp3_unify_house_cb: "$fp3_unify_house_cb_name$"
+ fp3_unify_house_cb_name: "Объединить дом"
+ fp3_unify_house_war_name: "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ая#! война ради объединения [Concept( 'house', 'дома' )|E] [ATTACKER.GetHouse.GetBaseNameNoTooltip]"
+ #Attacker Victory
+ fp3_unify_house_cb_victory_desc: "[attacker.GetShortUIName|U] получит всех [Concept( 'vassals', 'вассалов' )|E] из [Concept( 'house', 'дома' )|E] [attacker.GetHouse.GetBaseNameNoTooltip], которыми владеет [defender.GetShortUIName]."
+ fp3_unify_house_cb_victory_desc_attacker: "Вы получите всех [Concept( 'vassals', 'вассалов' )|E] из [Concept( 'house', 'дома' )|E] [attacker.GetHouse.GetBaseNameNoTooltip], которыми владеет [defender.GetShortUIName]."
+ fp3_unify_house_cb_victory_desc_defender: "[attacker.GetShortUIName|U] получит всех ваших [Concept( 'vassals', 'вассалов' )|E] из [Concept( 'house', 'дома' )|E] [attacker.GetHouse.GetBaseNameNoTooltip]."
+ #Attacker Defeat
+ fp3_unify_house_cb_defeat_desc: "[defender.GetShortUIName|U] продолжит править своими [Concept( 'vassals', 'вассалами' )|E] из [Concept( 'house', 'дома' )|E] [attacker.GetHouse.GetBaseNameNoTooltip]."
+ fp3_unify_house_cb_defeat_desc_defender: "Вы продолжите править своими [Concept( 'vassals', 'вассалами' )|E] из [Concept( 'house', 'дома' )|E] [attacker.GetHouse.GetBaseNameNoTooltip]."
+ fp3_seljuk_horde_title_title: "Кочевники-сельджуки"
+ fp3_seljuk_horde_army_title: "Странствующая группа поселенцев"
+ fp3_seljuk_invasion_cb: "$fp3_seljuk_invasion_cb_name$"
+ fp3_seljuk_invasion_cb_name: "Вторжение кочевников"
+ fp3_seljuk_invasion_war_name: "Сельджукское $fp3_seljuk_invasion_cb_name$"
+ #Seljuk Victory
+ fp3_seljuk_invasion_cb_victory_desc: "$fp3_seljuk_horde_title_title$ берут оспариваемые [Concept( 'titles', 'титулы' )|E] силой."
+ fp3_seljuk_invasion_cb_victory_desc_attacker: "Вы берете оспариваемые [Concept( 'titles', 'титулы' )|E] силой."
+ #Seljuk Defeat
+ fp3_seljuk_invasion_cb_defeat_desc: "$fp3_seljuk_horde_title_title$ разбиты наголову и вынуждены покинуть ваши земли."
+ fp3_seljuk_invasion_cb_defeat_desc_attacker: "Вы вынуждены переселиться в другое место."
+ #Seljuk White Peace
+ fp3_seljuk_invasion_cb_white_peace_desc: "$fp3_seljuk_horde_title_title$ получают земли в признание их доблести."
+ fp3_seljuk_invasion_cb_white_peace_desc_attacker: "Вы получаете землю для поселения."
+ fp3_seljuk_invasion_call_to_war_defender.notification: "Вторжение кочевников-сельджуков"
+ azariqa_rebellion_cb: "$war_Azariqa_Rebellion$"
+ fp3_zanj_rebellion_war: "Восстание зинджей"
+ fp3_zanj_rebel_army_title: "Повстанцы-зинджи"
+ fp3_zanj_rebellion_name: "Восстания зинджей"
+ fp3_zanj_rebellion_cb_victory_desc: "Повстанцы-зинджи стали независимыми и захватили Басру."
+ fp3_zanj_rebellion_cb_defeat_desc: "Повстанцы-зинджи разгромлены и вновь порабощены."

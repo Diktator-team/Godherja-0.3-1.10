@@ -6,7 +6,6 @@
  order_mass_eviction_decision_confirm: "У нас дефицит свободных мест!"
  AT_LEAST_ONE_GUEST_TRIGGER: "У вас хотя бы 1 [guest|El]"
  AT_LEAST_ONE_UNIMPORTANT_COURTIER_TRIGGER: "У вас хотя бы 1 малозначительный [courtier|El]"
-  
  exoticise_a_grand_hall_decision: "Добавить экзотики Великому чертогу"
  exoticise_a_grand_hall_decision_desc: "Мой двор — это бесконечная череда комнат и покоев. Их так много, что некоторые не используются годами.\n\nПри таком обилии материала мы легко можем полностью изменить архитектурный стиль построек. Разве это будет не занимательно?"
  exoticise_a_grand_hall_decision_tooltip: "Декорировать часть дворца в стиле другого [Concept( 'royal_court', 'монаршего двора' )|E]"
@@ -14,7 +13,6 @@
  exoticise_a_grand_hall_decision_confirm: "Позвать мне каменщиков!"
  exoticise_a_grand_hall_decision.tt.any_valid_empire: "Любая [empire|El], [royal_court|El] которой находится в [Concept( 'diplomatic_range', 'дипломатическом радиусе' )|E]"
  exoticise_a_grand_hall_decision.tt.any_valid_kingdom: "Любое [kingdom|El], [royal_court|El] которой находится в [Concept( 'diplomatic_range', 'дипломатическом радиусе' )|E]"
-  
  invite_a_linguist_self: "Найти лингвиста, знающего [ROOT.Char.GetCourtLanguage.GetNameNoTooltip|l]"
  invite_a_linguist_liege: "Найти учителя, знающего [ROOT.Char.GetLiege.GetCourtLanguage.GetNameNoTooltip|l]"
  invite_a_linguist_desc: "И я, и мои дети непременно должны говорить на языке знати. Я могу нанять опытного преподавателя, который этого добьется."

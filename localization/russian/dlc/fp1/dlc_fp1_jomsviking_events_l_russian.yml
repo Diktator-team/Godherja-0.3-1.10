@@ -1,5 +1,5 @@
 ﻿l_russian:
-  # Jomsvikings offer a Retainer 
+ #Jomsvikings offer a Retainer
  fp1_jomsvikings.0001.t: "[leader.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] протягивает руку помощи"
  fp1_jomsvikings.0001.desc.intro: "[leader.GetPrimaryTitle.GetNameNoTier], живущие в крепости [leader.GetCapitalLocation.GetTitle.GetNameNoTier], — защитников старых традиций. За спинами этих воинов [leader.GetFaith.GetAdjective|l] может не бояться перемен, бесчестия и наступления чужеземных конфессий.\n\nЗа моё благочестие и добродетель [leader.GetTitledFirstName] собирается прислать мне одного из двух гвардейцев на выбор: [retainer_a.GetFirstName],"
  fp1_jomsvikings.0001.desc.zealous: "гроза сотни церквей,"
@@ -19,8 +19,7 @@
  fp1_jomsvikings.0001.a: "[retainer_a.GetFirstNameNoTooltip], похоже, хороший стратег!"
  fp1_jomsvikings.0001.b: "[Select_CString(retainer_b.IsFemale, 'Эта', 'Этот' )] [retainer_b.GetFirstNameNoTooltip], похоже, грозный боец."
  fp1_jomsvikings.0001.c: "Спасибо, у меня достаточно воинов."
-  
-  # Jomsvikings terrorise their neighbours 
+ #Jomsvikings terrorise their neighbours
  fp1_jomsvikings.0011.t.reformed_norse: "Ярость старых традиций"
  fp1_jomsvikings.0011.t.reformed_other: "Ярость старых богов"
  fp1_jomsvikings.0011.t.fallback: "Пираты провинции [leader.GetPrimaryTitle.GetNameNoTierNoTooltip]"
@@ -38,8 +37,7 @@
  fp1_jomsvikings.0011.c.tt: "[leader.GetTitledFirstName] отступает без происшествий"
  fp1_jomsvikings.0011.d: "Это же местная проблема. Как она касается нас?"
  fp1_jomsvikings.0011.d.tt: "Пусть [target_county.GetNameNoTier] горит"
-  
-  # Jomsvikings send Event Troops 
+ #Jomsvikings send Event Troops
  fp1_jomsvikings.0021.t: "Переговоры с пиратами"
  fp1_jomsvikings.0021.desc: "[leader.GetPrimaryTitle.GetNameNoTier] присылает делегацию, но невоспитанный сброд вызывает у меня разве что подозрения. С ними [leader.GetTitledFirstName] передает письмо.\n\nЭти религиозные фундаменталисты, яростные разбойники и грабители суши и моря — одни из самых знаменитых и смертоносных пиратов в мире.\n\nКак добрый [ROOT.Char.GetFaith.GetAdherentName|l], я выслушиваю россказни об их благочестии и доблести со смесью страха и восхищения. Похоже, [leader.GetTitleAsNameNoTooltip|l] предлагает мне взять эту ораву добровольцев под крыло, если я обещаю грабить и разбойничать, как велят [ROOT.Char.GetFaith.PantheonTerm]."
  fp1_jomsvikings.0021.a: "Пираты, готовые выполнять приказы? Любопытно..."
@@ -47,8 +45,7 @@
  fp1_jomsvikings.0021.b: "Они похожи на надёжных моряков."
  fp1_jomsvikings.0021.b.tt: "Для найма в [Concept( 'army', 'армию' )|E] будут доступны [Concept( 'men_at_arms', 'профессиональные солдаты' )|E] — $bondi$"
  fp1_jomsvikings.0021.c: "Я предпочитаю более... дисциплинированных солдат."
-  
-  # Jomsvikings challenge a Dishonourable Norse Pagan Ruler to Holmgang 
+ #Jomsvikings challenge a Dishonourable Norse Pagan Ruler to Holmgang
  fp1_jomsvikings.0041.t: "Позор перед богами"
  fp1_jomsvikings.0041.desc: "«#EMP [ROOT.Char.GetFirstNameNoTooltip]#!!» — с громким воплем в мой тронный зал влетает [Select_CString(leader.IsFemale, 'полуголая', 'полуголый' )] [leader.GetTitledFirstName].\n\n«Твои прегрешения и вопиющее бесчестие — позор, от которого повсеместно страдают [leader.GetFaith.GetAdherentNamePlural|l], и [leader.GetPrimaryTitle.GetNameNoTier] больше не станет этого терпеть! Довольно оправданий, довольно увёрток! Хольмганг! #EMP Здесь#! и #EMP сейчас#!!»\n\nСтражники в замешательстве сжимают оружие. Один мой сигнал, и они двинутся к [Select_CString(leader.IsFemale, 'незваной гостье', 'незваному гостю' )].\n\nНесомненно, от моего решения многое зависит."
  fp1_jomsvikings.0041.a: "Я отправлю тебя в Вальхаллу с улыбкой!"
@@ -59,16 +56,13 @@
  fp1_jomsvikings.0041.b.tt_success: "[leader.GetTitledFirstName] в цепях отправляется в подземелье"
  fp1_jomsvikings.0041.b.tt_failure: "[leader.GetTitledFirstName] устраивает дерзкий побег"
  fp1_jomsvikings.0041.c: "Ты ведь просто пират с непомерной гордыней. Иди себе."
-  
  fp1_jomsvikings.0042.trigger_failure: "Ваш бой с персонажем [leader.GetTitledFirstNameNoTooltip] более не действителен"
-  
  fp1_jomsvikings.0044.t: "$fp1_jomsvikings.0041.t$: возмездие"
  fp1_jomsvikings.0044.desc: "[leader.GetTitledFirstName] оседает безжизненной грудой мне под ноги, и в тронном зале повисает мёртвое молчание. Ни шёпота, ни вздоха — будто все звуки спрятались в страхе перед моим прерывистым дыханием.\n\nЯ тихо одеваюсь.\n\nМои глаза обводят всех оставшихся — одного за другим."
  fp1_jomsvikings.0044.a: "#EMP Ещё#! желающие будут?"
  fp1_jomsvikings.0044.b: "Законность моего правления вновь подтвердилась!"
  fp1_jomsvikings.0044.c: "Ещё одно подтверждение тому, что [leader.GetFaith.GetAdjectiveNoTooltip|l] ничего не стоит..."
-  
-  # Jomsvikings Destroyed 
+ #Jomsvikings Destroyed
  fp1_jomsvikings.1001.t: "Угасание старых традиций"
  fp1_jomsvikings.1001.desc.intro: "Последняя твердыня пала, и [title.GetNameNoTier] исчезли с лица земли.\n\n"
  fp1_jomsvikings.1001.desc.reformed_asatru_exists: "Несмотря на упорные попытки сдержать перемены, их конфессию, как прежде христианство и ислам, постиг раскол.\n\nКто бы ни победил — реформисты или верные, — "

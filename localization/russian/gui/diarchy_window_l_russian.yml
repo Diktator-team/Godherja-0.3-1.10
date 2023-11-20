@@ -52,7 +52,6 @@
  DIARCHY_WINDOW_PARAMETER_ITEM: "• $TEXT$"
  DIARCHY_WINDOW_BACK_TOOLTIP: "#T Вернуться в окно наделения полномочиями#!"
  IN_ACTIVE_DIARCHY: "[Concept( 'sharing_power', 'Разделение полномочий' )|E]"
-  
  diarch.succession_offence.empty: ""
  diarch.succession_offence.succession_score: "\n\n@warning_icon! #WEAK $diarch.succession_offence.succession_score.guts$#!"
  diarch.succession_offence.succession_score.guts: "Любой [Concept( 'character', 'персонаж' )|E], набравший больше очков наследования, чем [ROOT.Char.GetShortUINameNoTooltip], будет терять [Concept( 'opinion', 'мнение' )|E] о [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'вас', Select_CString(ROOT.Char.GetLiege.IsFemale, 'ней', 'нем' ))] в зависимости от разницы в очках"

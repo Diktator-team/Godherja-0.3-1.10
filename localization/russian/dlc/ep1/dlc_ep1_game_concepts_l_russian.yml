@@ -25,14 +25,11 @@
  game_concept_court_type: "Тип двора"
  game_concept_court_types: "Типы дворов"
  game_concept_court_type_desc: "[rulers|E] могут выбирать [Concept( 'court_type', 'тип' )|E] своего [Concept( 'royal_court', 'двора' )|E].\n\nКаждый [Concept( 'court_type', 'тип двора' )|E] предоставляет правителю и двору свой набор бонусов в зависимости от [Concept( 'court_grandeur_level', 'уровня величия двора' )|E].\n\n[ethos|E] [Concept( 'culture', 'культуры' )|E] правителя определяют доступные типы дворов.\n\nСуществуют следующие типы дворов:\n$BULLET_WITH_TAB$[GetCourtType('court_diplomatic').GetName]\n$BULLET_WITH_TAB$[GetCourtType('court_warlike').GetName]\n$BULLET_WITH_TAB$[GetCourtType('court_administrative').GetName]\n$BULLET_WITH_TAB$[GetCourtType('court_intrigue').GetName]\n$BULLET_WITH_TAB$[GetCourtType('court_scholarly').GetName]\n$BULLET_WITH_TAB$[GetCourtType('court_tribal').GetName]"
-  
  game_concept_court_type_trait: "Свойство придворного"
  game_concept_court_type_trait_desc: "После [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] лет при [Concept( 'royal_court', 'монаршем дворе' )|E] [Concept( 'courtier', 'придворный' )|E] получит [Concept( 'trait', 'свойство' )|E], соответствующее [Concept( 'court_type', 'типу двора' )|E].\n\nКачество этого свойства зависит от того, как долго [character|El] был придворным."
-  
  game_concept_court_language: "Придворный язык"
  game_concept_court_languages: "Придворные языки"
  game_concept_court_language_desc: "Придворный язык — это официальный [language|El] [Concept( 'royal_court', 'монаршего двора' )|E], который используют знать и служащие.\n\nБазовое значение [Concept( 'court_grandeur', 'величия двора' )|E] увеличивается за каждое [Concept( 'county', 'графство' )|E] [Concept( 'realm', 'державы' )|E], где используется этот язык, за каждый монарший двор, использующий его, а также если этот язык является родным языком [Concept( 'ruler', 'правителя' )|E]."
-  
  game_concept_inspiration: "Вдохновение"
  game_concept_inspirations: "Вдохновение"
  game_concept_inspired: "Под вдохновением"
@@ -40,7 +37,6 @@
  game_concept_inspiration_desc_DLC: "\n\nКроме того, вдохновленные персонажи будут время от времени прибывать к [Concept( 'royal_courts', 'монаршим дворам' )|E], особенно если те обладают высоким [Concept( 'court_grandeur_level', 'уровнем величия' )|E]."
  game_concept_sponsor: "Спонсор"
  game_concept_sponsor_desc: "Спонсором является [Concept( 'ruler', 'правитель' )|E], выделивший средства на [Concept( 'project', 'проект' )|E] [Concept( 'inspired', 'вдохновленного' )|E] [Concept( 'character', 'персонажа' )|E]."
-  
  game_concept_artifact: "Артефакт"
  game_concept_artifacts: "Артефакты"
  game_concept_artifact_desc: "Артефактом называется важный предмет, который приносит бонусы своему владельцу.\n\n[SelectLocalization( HasDlcFeature( 'court_artifacts' ), 'game_concept_artifact_desc_DLC', 'game_concept_artifact_desc_NO_DLC' )]\n\nНекоторые артефакты выделяются на фоне прочих своей [Concept( 'rarity', 'редкостью' )|E]\n\nПерсонаж может заявить [Concept( 'artifact_claim', 'претензию на артефакт' )|E] так же, как на [Concept( 'title', 'титул' )|E].\n\nКроме того, у артефактов есть определенный запас [Concept( 'durability', 'прочности' )|E]: когда он опускается до нуля, артефакт уничтожается.\n\nАртефакты всегда переходят по наследству [Concept( 'player_heir', 'наследнику-игроку' )|E]. Если артефакт наследуется человеком, не являющимся [Concept( 'close_family_member', 'близким родственником' )|E], то он потеряет [Concept( 'durability', 'прочность' )|E] или вовсе будет уничтожен."
@@ -66,15 +62,11 @@
  game_concept_house_artifact_claim: "Претензия дома на артефакт"
  game_concept_house_artifact_claims: "Претензии дома на артефакт"
  game_concept_house_artifact_claim_desc: "Если вы достаточно долго владеете [Concept( 'artifact', 'артефактом' )|E], весь ваш [Concept( 'house', 'дом' )|E] получит [Concept( 'artifact_claim', 'претензию на него' )|E] — это и есть [Concept( 'house_artifact_claim', 'претензия дома' )|E].\n\nВы можете реализовать [Concept( 'house_artifact_claim', 'претензию дома' )|E] только в случае, если артефакт не принадлежит представителю вашего дома.\n\nПри создании [Concept( 'cadet_branch', 'младшей линии' )|E] все актуальные претензии дома на артефакты, принадлежащие представителям нового дома, передаются членам нового дома."
-  
  game_concept_court_position: "Положение при дворе"
  game_concept_court_positions: "Положение при дворе"
  game_concept_court_position_desc: "$game_concept_court_positions$ — это особое звание для [Concept( 'courtiers', 'придворных' )|E] и [Concept( 'vassals', 'вассалов' )|E], которое обязывает их помогать [Concept( 'liege', 'сюзерену' )|E] в определенных вопросах.\n\nПреимущества, которые дает $game_concept_court_positions$, зависят от [Concept( 'aptitude', 'пригодности' )|E] персонажа для занимаемой должности.\n\nПлатить за назначение на придворную должность не нужно, однако персонаж получает ежемесячное жалование [Concept( 'gold', 'золотом' )|E], а на снятие с должности тратится [prestige|El]."
-  
- game_concept_court_position_aptitude: "Пригодность для придворной должности"
  game_concept_aptitude: "Пригодность"
- game_concept_court_position_aptitude_desc: "$game_concept_aptitude$ [Concept( 'character', 'персонажа' )|E] определяет его пригодность для [Concept( 'court_position', 'должности при дворе' )|E]. \n\n$game_concept_aptitude$ измеряется 5 уровнями, от ужасной до отличной. Уровень [Concept( 'aptitude', 'пригодности' )|E] персонажа определяет, какие бонусы получит [Concept( 'liege', 'сюзерен' )|E], дав ему [Concept( 'court_position', 'должность при дворе' )|E].\n\nНапример, персонаж со свойством «[GetTrait('lifestyle_physician').GetName( GetNullCharacter )]» куда лучше подойдет на должность «$court_physician_court_position$»."
-  
+ game_concept_aptitude_desc: "Пригодность [Concept( 'character', 'персонажа' )|E] определяет, насколько эффективно он будет справляться, если займет то или иное положение при [Concept( 'court', 'дворе' )|E]. К их числу относятся [court_positions|El], [diarchs|El] и [tax_collectors|El].\n\n$game_concept_aptitude$ измеряется 5 уровнями, от ужасной до отличной. Уровень пригодности персонажа определяет, какие бонусы получит [Concept( 'liege', 'сюзерен' )|E], дав ему роль при [Concept( 'court', 'дворе' )|E].\n\nНапример, персонаж со свойством «[GetTrait('lifestyle_physician').GetName( GetNullCharacter )]» куда лучше подойдет на должность «$court_physician_court_position$»."
  game_concept_court_event: "Придворное событие"
  game_concept_court_events: "Придворные события"
  game_concept_court_event_desc: "$game_concept_court_event$ — это событие с участием представителей вашего [Concept( 'court', 'двора' )|E]. Их можно посмотреть в разделе [Concept( 'royal_court', 'монаршего двора' )|E]."
@@ -82,7 +74,6 @@
  game_concept_petition_liege_desc: "Возможность для [Concept( 'vassals', 'вассала' )|E] попросить [Concept( 'liege', 'сюзерена' )|E] о помощи.\n\n[liege|E] рассматривает характер проблемы и решает, стоит ли она его внимания."
  game_concept_pay_homage: "Почести"
  game_concept_pay_homage_desc: "[activity|E], позволяющее [Concept( 'vassals', 'вассалам' )|E] официально заявить о верности [Concept( 'liege', 'сюзерену' )|E].\n\nВоздавать почести можно разными способами, при этом обе стороны получают прибавку к [Concept( 'opinion', 'мнению' )|E], [Concept( 'prestige', 'престижу' )|E] и [Concept( 'dynasty_prestige', 'престижу династии' )|E]."
-  
  repair_or_reforge_and_repair: "[SelectLocalization( HasDlcFeature( 'court_artifacts' ), 'repair_and_reforge', 'just_repair' )]"
  repair_and_reforge: "[reforge|E] или [repair|El]"
  just_repair: "[repair|E]"

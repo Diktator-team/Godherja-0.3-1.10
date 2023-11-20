@@ -25,4 +25,3 @@
  RP_RAISE_ALL_TOOLTIP_HEADER: "#T $RP_RAISE_ALL$#!\nСобрать #emphasis все#! ваши [armies|El] в этой точке — независимо от близости остальных [Concept( 'rally_point', 'точек сбора' )|El]."
  RP_MOVE_RALLY_POINT: "#T Переместить точку сбора\n#! #I Альтернативный способ: щелкните ПКМ в нужной точке карты#!"
  RP_RAISE_BLOCK_AT_WAR: "@warning_icon!#X Вы не можете собрать [Concept( 'raiders', 'налетчиков' )|E] во время [Concept( 'war', 'войны' )|E]#!"
-  

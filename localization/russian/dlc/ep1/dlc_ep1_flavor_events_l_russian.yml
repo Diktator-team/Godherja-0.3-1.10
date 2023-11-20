@@ -8,7 +8,6 @@
  eunuch_moves_tt: "[eunuch_target.GetFirstNameNoTooltip] отправляется в державу [new_court.GetBaseName]"
  ep1_flavor.1000.c.success: "[eunuch_target.GetFirstNameNoTooltip] соглашается остаться"
  ep1_flavor.1000.c.failure: "[eunuch_target.GetFirstNameNoTooltip] называется вас скрягой и отправляется дальше"
-  
  ep1_flavor.1200.t: "$tradition_header$ Секреты мастерства"
  ep1_flavor.1200.desc: "Евнух [eunuch_target.GetFirstName] подходит ко мне и [eunuch_target.Custom('quirk_pos_pp')].\n\n«Вы многое знаете, [Select_CString(ROOT.Char.IsFemale, 'великая', 'великий' )] [ROOT.Char.GetTitleTierName]. Но кое-что ускользает от вашего прозорливого разума — секреты и знания, которыми я охотно поделюсь с вами», — шепчет [eunuch_target.GetSheHe].\n\n«За умеренную цену».\n\nКак же иначе. Но мне все равно интересно."
  ep1_flavor.1200.a: "Поговаривают, вы разбираетесь в языках?"
@@ -21,10 +20,8 @@
  secrets_of_murder_modifier_desc: "Этот персонаж посвящен в тайны уничтожения своих врагов."
  secrets_of_the_realm_modifier: "Тайны державы"
  secrets_of_the_realm_modifier_desc: "Этот персонаж посвящен в тайны управления столицей."
-  
-  ### Court Type Flavor Events 
-  
-  # The Secret DaughterSon 
+ ### Court Type Flavor Events
+ #The Secret DaughterSon
  ep1_flavor.0001.t: "[scion_actual.Custom('GetDaughterSon')|U]: Секрет"
  ep1_flavor.0001.desc: "Небольшое дельце привело меня и мою свиту в городок, и мы, голодные и уставшие, вошли в местную задымленную таверну.\n\nЧто мне точно не приходило в голову, так это то, что здесь нам встретится [scion_parent.GetTitledFirstName] в плаще с капюшоном, слабо скрывающим черты лица. Рядом с [Select_CString(scion_parent.IsFemale, 'ней', 'ним' )] сидит [Select_CString(scion_actual.IsFemale, 'молодая женщина, которая', 'молодой мужчина, который' )]... да быть не может!\n\nСудя по [scion_actual.GetHerHis] лицу, любопытным взглядам и попыткам вести себя точь-в-точь как [scion_parent.GetFirstNameNoTooltip], я #EMP с уверенностью#! могу сказать, что [scion_actual.GetSheHe], должно быть, бастард, которого [scion_parent.GetTitleAsNameNoTooltip|l] тщательно [Select_CString(scion_parent.IsFemale, 'скрывала', 'скрывал' )]. Возможно, [scion_actual.GetSheHe] впервые видит мир за пределами родных стен."
  ep1_flavor.0001.a: "[scion_parent.GetFirstNameNoTooltip]! Вы привезли мне [Select_CString(scion_actual.IsFemale, 'невесту', 'жениха' )]?"
@@ -38,7 +35,6 @@
  ep1_flavor.0001.tt.scion_escapes: "[scion_actual.GetFirstName] бесследно пропадает"
  ep1_flavor.0001.e.no_bastards: "#EMP Тайное#! дитя? Как странно. Поедим в другом месте."
  ep1_flavor.0001.e.fallback: "Нас это не касается. Поедим в другом месте."
-  
  ep1_flavor.0011.t: "Полный бардак"
  ep1_flavor.0011.desc: "«[ROOT.Char.GetLadyLord|U], это не то, что вы подумали!» — кричит [diplomat_1.GetTitledFirstName], едва я переступаю порог обеденного зала.\n\nЧто ж, я #EMP думаю#!, что [diplomat_1.GetSheHe] [Select_CString(diplomat_1.IsFemale, 'устроила', 'устроил' )] полный разгром в комнате. Стены заляпаны едой, столы разве что в щепу не порублены, стулья составлены пирамидой, а [diplomat_2.GetTitledFirstName] без сознания (и без одежды) лежит на #EMP моей#! кровати, [Select_CString(diplomat_2.IsFemale, 'залитая', 'залитый' )] супом.\n\nДвое дипломатов прибыли вчера. У них было разрешение устроить небольшое пиршество с развлечениями, но это просто [ROOT.Char.GetFaith.NegativeAfterLife|U] на земле."
  ep1_flavor.0011.a: "Вы заплатите за ущерб, подхалимы!"
@@ -47,7 +43,6 @@
  ep1_flavor.0011.d: "Всего одна ночь? Пф! Расступитесь, идет [ROOT.Char.GetTitleAsNameNoTooltip|l] пиров!"
  ep1_flavor.0011.e: "Молча покинуть зал."
  ep1_flavor.0011.e.tt: "Вы оставляете их наедине с собственным страхом"
-  
  ep1_flavor.0021.t: "Державы, разделенные языком"
  ep1_flavor.0021.desc: "Когда я вхожу в помещение, меня встречает взрыв смеха. [nitpicker.GetTitledFirstName] и группа придворных собрались и читают письмо, что недавно [Select_CString(rival_monarch.IsFemale, 'прислала', 'прислал' )] нам [rival_monarch.GetTitledFirstName].\n\n[nitpicker.GetFirstNameNoTooltip] со смехом приглашает меня присоединиться.\n\n«[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.GetLadyLord], вы непременно #EMP должны#! это прочесть! Пусть тут официальная печать державы [rival_realm.GetNameNoTier], но половину слов писал, словно безграмотный крестьянин. Эти слабоумные даже согласные не могут правильно проставить, что уж там говорить о грамотной [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip|l]ой речи. Это просто #EMP уморительно#!»."
  ep1_flavor.0021.a: "Да тут и половины гласных нет! Отвратительно!"
@@ -60,7 +55,6 @@
  ep1_flavor.0021.c.tt: "$ep1_flavor.0021.a.tt$"
  cultural_acceptance_courtly_spelling_differences: "Дворяне спорят о написании"
  cultural_acceptance_courtly_cousins: "Дворян объединяет общий язык"
-  
  ep1_flavor.0031.t: "Недавно при дворе"
  ep1_flavor.0031.desc: "Как говорится, выдающимся умам нужны выдающиеся традиции, и ни одна другая держава не проводит таких обрядов посвящения в ученые, как [ROOT.Char.GetPrimaryTitle.GetNameNoTier]!\n\nНа этой неделе ко двору прибыло несколько новых талантливых ученых со всей державы, и все они проходят #EMP научную#! проверку на местном постоялом дворе.\n\nМне на глаза попадается [scholar_1.GetFirstName] — [scholar_1.GetSheHe] с подозрением смотрит на кружку с загадочной пенящейся и пузырящейся жидкостью. Рядом [scholar_2.GetFirstName] наполняет целый #EMP кувшин#! густой и вязкой жидкостью под одобрительные крики своих коллег."
  ep1_flavor.0031.a: "Пей, [scholar_1.GetFirstNameNoTooltip]!"
@@ -70,8 +64,7 @@
  ep1_flavor.0031.d: "Подобные ритуалы #EMP неподобающий#!."
  ep1_flavor.0031.inspire.scholar_1.tt: "[scholar_1.GetFirstNameNoTooltip] теперь [inspired|E]"
  ep1_flavor.0031.inspire.scholar_2.tt: "[scholar_2.GetFirstNameNoTooltip] теперь [inspired|E]"
-  
-  # Martial Exercise 
+ #Martial Exercise
  ep1_flavor.2000.t: "Военные упражнения"
  ep1_flavor.2000.desc_intro: "Во время осмотра местного военного лагеря ко мне подходят [marshal_scope.GetTitledFirstName] и [knight_scope.GetTitledFirstName].\n\n«Сюзерен, наши воины бездействуют в мирное время. Нужно их чем-то занять...» — обращается ко мне [marshal_scope.GetCouncilTitle]."
  ep1_flavor.2000.desc_archers: "«Наши [ROOT.Char.Custom('GetRegionalArcherMAA')|l] незаменимы, мы должны убедиться, что их стрелы всегда поражают цель»."
@@ -123,29 +116,28 @@
  infantry: "пехота"
  cavalry: "всадники"
  ep1_flavor.2000.tradition_tt: "В силу [Concept( 'traditions', 'традиций' )|E] вашей [Concept( 'culture', 'культуры' )|E]"
-  
-  # Court of Vipers 
+ #Court of Vipers
  ep1_flavor.2010.t: "Змеиный клубок"
  ep1_flavor.2010.desc: "Каждую ночь, как погаснут свечи, а [ROOT.Char.Custom('FortifiedBuilding')|l] погрузится в тишину, меня начинают преследовать шепотки о заговоре с целью [real_plot.GetSchemeType.GetTypeNameNoTooltip|l] меня."
-  # SPYMASTER 
+ #SPYMASTER
  ep1_flavor.2010.desc_spy_real: "[spymaster.GetCouncilTitleFirstName] полагает, что за этим стоит [Select_CString(real_plotter.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('real_plotter'))], [real_plotter.GetTitledFirstName]...\n\n"
  ep1_flavor.2010.desc_spy_1: "[spymaster.GetCouncilTitleFirstName] говорит, что за этим, возможно, #EMP вероятно#!, стоит [Select_CString(scapegoat_1.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_1'))], [scapegoat_1.GetTitledFirstName]...\n\n"
  ep1_flavor.2010.desc_spy_2: "[spymaster.GetCouncilTitleFirstName] склоняется к мысли, что за этим стоит [Select_CString(scapegoat_2.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_2'))], [scapegoat_2.GetTitledFirstName]...\n\n"
-  # COUNCILLOR 1 
+ #COUNCILLOR 1
  ep1_flavor.2010.desc_1_real: "[councillor_1.GetCouncilTitleFirstName] в личной беседе возражает и считает, что [Select_CString(real_plotter.IsFemale, 'виновата моя', 'виноват мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('real_plotter'))] [real_plotter.GetTitledFirstName], тогда как"
  ep1_flavor.2010.desc_1_1: "[councillor_1.GetCouncilTitleFirstName] в личной беседе возражает — чутье подсказывает, что тут [Select_CString(scapegoat_1.IsFemale, 'приложила руку моя', 'приложил руку мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_1'))] [scapegoat_1.GetTitledFirstName], тогда как"
  ep1_flavor.2010.desc_1_2: "[councillor_1.GetCouncilTitleFirstName] в личной беседе возражает и подчеркивает, что [scapegoat_2.GetTitledFirstName], [Select_CString(scapegoat_2.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_2'))], страдает перепадами настроения, тогда как"
-  # COUNCILLOR 2 
+ #COUNCILLOR 2
  ep1_flavor.2010.desc_2_real: "[councillor_2.GetCouncilTitleFirstName] умоляет принять меры, чтобы [Select_CString(real_plotter.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('real_plotter'))] [real_plotter.GetTitledFirstName], «[Select_CString(real_plotter.IsFemale, 'явная предательница', 'явный предатель' )]» немедленно [Select_CString(real_plotter.IsFemale, 'оказалась', 'оказался' )] за решеткой, пока еще не слишком поздно.\n\n"
  ep1_flavor.2010.desc_2_1: "[councillor_2.GetCouncilTitleFirstName] умоляет принять меры, чтобы [Select_CString(scapegoat_1.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_1'))] [scapegoat_1.GetTitledFirstName], «ужас владения [scapegoat_1.GetCurrentLocation.GetNameNoTooltip]» немедленно [Select_CString(scapegoat_1.IsFemale, 'оказалась', 'оказался' )] за решеткой, пока еще не слишком поздно.\n\n"
  ep1_flavor.2010.desc_2_2: "[councillor_2.GetCouncilTitleFirstName] умоляет принять меры, чтобы [Select_CString(scapegoat_2.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_2'))] [scapegoat_2.GetTitledFirstName], «[ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip|l][Select_CString(scapegoat_2.IsFemale, 'ая дьяволица', 'ий дьявол' )]», немедленно [Select_CString(scapegoat_2.IsFemale, 'оказалась', 'оказался' )] за решеткой, пока еще не слишком поздно.\n\n"
-  # CONTEXT 
+ #CONTEXT
  ep1_flavor.2010.desc_family: "Неужели плоть от плоти моей будет интриговать против меня?"
  ep1_flavor.2010.desc_consort: "Неужели я делю постель с тем, кто желает мне смерти?"
  ep1_flavor.2010.desc_councillor: "Неужели один из доверенных советников действительно хочет мне навредить?"
  ep1_flavor.2010.desc_fallback: "Я вижу предательство в глазах каждого и высматриваю скрытые клинки в руках придворных."
  ep1_flavor.2010.desc_outro: "О [ROOT.Char.GetFaith.HighGodName], у меня ум за разум заходит..."
-  # OPTIONS 
+ #OPTIONS
  ep1_flavor.2010.a.real: "Это [real_plotter.GetTitledFirstNameNoTooltip], наверняка!"
  ep1_flavor.2010.a.fake_1: "Это [scapegoat_1.GetTitledFirstNameNoTooltip], наверняка!"
  ep1_flavor.2010.a.fake_2: "Это [scapegoat_2.GetTitledFirstNameNoTooltip], наверняка!"
@@ -165,8 +157,7 @@
  ep1_2010_failure_modifier_desc: "Двор этого персонажа представляет собой гордиев узел интриг."
  ep1_flavor.2010.guilty: "Вина доказана"
  ep1_flavor.2010.innocent: "Вина под вопросом"
-  
- # Interservice Rivalry 
+ #Interservice Rivalry
  ep1_flavor.2020.t: "Войсковое соперничество"
  ep1_flavor.2020.desc: "Здоровое соперничество между солдатами идет лишь на пользу делу, но мои [SCOPE.Custom('GetMAAType1')] и [SCOPE.Custom('GetMAAType2')] находятся в слишком уж явном противостоянии.\n\nЭто отразилось и на отношениях между офицерами, и [ROOT.Char.Custom('MountedWarriorTermPlural')] [knight_1.GetTitledFirstName] и [knight_2.GetTitledFirstName] в очередной раз устроили спор при мне.\n\n"
  ep1_flavor.2020.desc_knight_1_archers: "«...будем надеяться, что стрелы у вас не закончатся, а то ведь вам придется #EMP действительно#! сражаться!»"
@@ -216,8 +207,7 @@
  ep1_flavor_2020_camel_cavalry_modifier_desc: "$ep1_flavor_2020_generic_modifier_desc$"
  ep1_flavor_2020_generic_modifier: "Военный фаворитизм"
  ep1_flavor_2020_generic_modifier_desc: "Этот персонаж открыто поддерживает часть своих войск, которые желают оправдать свою репутацию."
-  
-  # Taking Sides 
+ #Taking Sides
  ep1_flavor.2030.t: "Выбор сторон"
  ep1_flavor.2030.desc_intro: "[ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]ая бюрократия обычно работает сама по себе, но раз в сто лет вдруг возникает проблема, не имеющая явного решения.\n\nСегодня передо мной предстали"
  ep1_flavor.2030.desc_1_monk: "[local_dispute_1.GetFirstName], [Select_CString(local_dispute_1.IsFemale, 'видная', 'видный' )] #L [local_dispute_1.GetFaith.GetName|l][Select_CString(local_dispute_1.IsFemale, 'ая', 'ий' )]#! [local_dispute_1.Custom('NunMonk')] из владения [local_county_1.GetNameNoTier],"
@@ -278,8 +268,7 @@
  local_role_judge: "судья"
  local_role_captain: "капитан"
  local_role_merchant: "торговец"
-  
-  # Exotic Arms 
+ #Exotic Arms
  ep1_flavor.2040.t: "Экзотическое оружие"
  ep1_flavor.2040.desc: "Торговцы приносят с собой не только свои странные товары, но и рассказы о далеких землях. Невероятные. Полные чудес.\n\nНесколько [foreign_merchant.GetCulture.GetCollectiveNounNoTooltip|l]их торговцев привезли с собой странные #EMP [exotic_blade_holder.GetCulture.GetCollectiveNounNoTooltip|l]ие#! предметы. Говорят, эти вещи прибыли из далекой страны, где правит #EMP [exotic_blade_holder.GetFullNameNoTooltipRegnal]#!.\n\n[foreign_merchant.GetTitledFirstName], предводитель торговцев, мрачно ухмыляется,"
  ep1_flavor.2040.desc.artifact: "«Я вижу, у вас есть [my_artifact.GetName], уступите этот артефакт мне, и взамен вас ждет [exotic_blade.GetType|l]...»"
@@ -299,8 +288,7 @@
  ep1_flavor.2040.toast_poor: "Артефакт [exotic_blade.GetType|l] непримечателен"
  ep1_flavor.2040.b: "«Принесите мой кошель!»"
  ep1_flavor.2040.c: "«Ха! #EMP [exotic_blade_holder.GetCapitalLocation.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTierNoTooltip]#!, конечно! Вон отсюда!»"
-  
-  # The Greater Good 
+ #The Greater Good
  ep1_flavor.2060.t: "Высшее благо"
  ep1_flavor.2060.desc: "[detective_scope.GetFirstName], мелкая сошка из владения [sandford_scope.GetTitle.GetHolder.GetTitleAsNameNoTooltip|l], просит аудиенции, уверяя, что знает, по чьей вине пропали [victim_scope.GetTitledFirstName] и другие путники, стремившиеся к моему двору.\n\n«[ROOT.Char.GetLadyLord|U]! Мне удалось обнаружить общество, которое возглавляет [grocer_scope.GetTitledFirstName], [Select_CString(grocer_scope.IsFemale, 'торговка', 'торговец' )]. Они называют себя [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]ая стража и те, кто, по их мнению, марает величие державы [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip|l], часто пропадают без следа!»\n\nКогда я приглашаю к себе [Select_CString(grocer_scope.IsFemale, 'бакалейщицу', 'бакалейщика' )], [grocer_scope.GetSheHe] все отрицает, заявляя, что [detective_scope.GetFirstName] не в себе после долгих лет службы на суровых улицах владения [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]..."
  ep1_flavor.2060.a: "«Наверняка всему этому есть разумное объяснение»."
@@ -310,14 +298,13 @@
  ep1_flavor.2060.c: "«Жаль, что вы влезли не в свое дело, [detective_scope.GetFirstNameNoTooltip]...»"
  ep1_flavor.2060.c.title: "Убийц поймать не удалось"
  ep1_flavor.2060.death_tt: "[victim_scope.GetName] пропадает без следа"
-  
-  # When Minds Collide 
+ #When Minds Collide
  ep1_flavor.2070.t: "Столкновение умов"
  ep1_flavor.2070.desc.intro: "Когда я прохожу мимо библиотеки, мое внимание привлекает [symposium_courtier.GetTitledFirstName] своим громким недовольством. Спор ведут [symposium_courtier.GetSheHe] и [symposium_scholar.GetTitledFirstName], [symposium_scholar.GetCulture.GetCollectiveNounNoTooltip|l][Select_CString(symposium_scholar.IsFemale, 'ая гостья', 'ий гость' )] и [symposium_scholar.Custom('GetScholarType')|l] с определенной репутацией. \n\n"
  ep1_flavor.2070.desc.theo_same_faith: "«Вы совершаете ту же ошибку, что и молодые [symposium_courtier.GetFaith.GetNameNoTooltip|l]ие служители, — задирает нос [symposium_courtier.GetFirstNameNoTooltip]. — Это приведет вас к ереси».\n\n«Но погодите, — отвечает [symposium_scholar.Custom('GetYoungMiddleAgedOld')][Select_CString(symposium_scholar.IsFemale, 'ая', 'ый' )] [symposium_scholar.GetWomanMan]. — Несомненно, [symposium_scholar.GetFaith.HighGodName] не хочет, чтобы [symposium_scholar.GetHerHis] учение было столь негибким, особенно в нашей интерпретации»."
  ep1_flavor.2070.desc.theo_same_faith_diff_cult: "«Я и представить себе не [Select_CString(symposium_courtier.IsFemale, 'могла', 'мог' )], насколько [symposium_courtier.GetFaith.GetAdjectiveNoTooltip|l] в [symposium_ruler.GetPrimaryTitle.GetAdjectiveNoTooltip|l]ой интерпретации отклоняется от учения [symposium_scholar.GetFaith.HighGodNamePossessive]!» — фыркает [symposium_courtier.GetFirstNameNoTooltip].\n\n«Чушь, — вздымает палец [symposium_scholar.Custom('GetYoungMiddleAgedOld')][Select_CString(symposium_scholar.IsFemale, 'ая', 'ый' )] [symposium_scholar.GetWomanMan]. — Это [symposium_courtier.GetCulture.GetCollectiveNounNoTooltip|l]ие [symposium_courtier.GetFaith.GetAdherentNamePluralNoTooltip|l] сбились с пути истинного и вернулись к языческим обрядам»."
  ep1_flavor.2070.desc.theo_same_relig: "«[symposium_courtier.GetFaith.GetAdjectiveNoTooltip] и [symposium_scholar.GetFaith.GetAdjectiveNoTooltip|l] во многом различны, — рассуждает [symposium_courtier.GetFirstNameNoTooltip]. — Ваша ересь отклонилась от учения [symposium_courtier.GetFaith.HighGodNamePossessive]».\n\n«Но [symposium_courtier.GetFaith.GetReligion.GetAdjectiveNoTooltip|l] по сути своей охватывает обе наши конфессии, — печально отвечает [symposium_scholar.Custom('GetYoungMiddleAgedOld')][Select_CString(symposium_scholar.IsFemale, 'ая', 'ый' )] [symposium_scholar.GetWomanMan]. — Только глупец расширяет ручей до размеров каньона»."
- ep1_flavor.2070.desc.theo_diff_relig:0 ""I have never understood the [symposium_scholar.GetFaith.GetReligion.GetAdjectiveNoTooltip] teachings," [symposium_courtier.GetFirstNameNoTooltip] ponders, "[symposium_scholar.GetFaith.HighGodName] seems such an unconvincing figure compared to [symposium_courtier.GetFaith.HighGodName]."\n\nThe [symposium_scholar.Custom('GetYoungMiddleAgedOld')] [symposium_scholar.GetWomanMan] smiles sarcastically: "«Я никогда не понимал учения [symposium_scholar.GetFaith.GetReligion.GetAdjectiveNoTooltip], — размышляет [symposium_courtier.GetFirstNameNoTooltip], — [symposium_scholar.GetFaith.HighGodName] кажется такой неубедительной фигурой по сравнению с [symposium_courtier.GetFaith.HighGodName]».\n\nУчение [symposium_scholar.Custom('GetYoungMiddleAgedOld')] [symposium_scholar.GetWomanMan] саркастически улыбается: «Какое глубокое у вас понимание! Если бы вы были а [symposium_scholar.GetFaith.BishopNeuter] вы наверняка достигнете [symposium_scholar.GetFaith.PositiveAfterLife]!"" #Машинный перевод 28.10.23
+ ep1_flavor.2070.desc.theo_diff_relig: "«Мне непонятно [symposium_scholar.GetFaith.GetReligion.GetNameNoTooltip|l]ое учение, — рассуждает [symposium_courtier.GetFirstNameNoTooltip]. — [symposium_scholar.GetFaith.HighGodName] выглядит как-то неубедительно. То ли дело [symposium_courtier.GetFaith.HighGodName]».\n\n[symposium_scholar.Custom('GetYoungMiddleAgedOld')|U][Select_CString(symposium_scholar.IsFemale, 'ая', 'ый' )] [symposium_scholar.GetWomanMan] отвечает саркастической ухмылкой: «Многое вы понимаете! Жаль, вы [symposium_scholar.GetFaith.BishopNeuter], таких [symposium_scholar.GetFaith.PositiveAfterLife] сразу принимает!»"
  ep1_flavor.2070.desc.mystic: "«В царстве [symposium_courtier.GetFaith.HighGodNamePossessive] нет место эзотерике, — строго выговаривает [symposium_courtier.GetFirstNameNoTooltip]. — Это одно сплошное надувательство и нагнетание тайны».\n\n[symposium_scholar.Custom('GetYoungMiddleAgedOld')|U][Select_CString(symposium_scholar.IsFemale, 'ая', 'ый' )] [symposium_scholar.GetWomanMan] отвечает презрительной улыбкой: «Вы просто боитесь того, чего не понимаете, а для учения вам не хватает ума или смелости»."
  ep1_flavor.2070.desc.medicine: "«Лекарства, конечно, полезны, но [symposium_courtier.GetFaith.HighGodName] выносит окончательное решение, кому жить, а кому умереть, — жалуется [symposium_courtier.GetFirstNameNoTooltip]. — Душу припарками не исцелить».\n\n«Я смотрю, вы мало что смыслите в медицине, — вздыхает [symposium_scholar.Custom('GetYoungMiddleAgedOld')][Select_CString(symposium_scholar.IsFemale, 'ая', 'ый' )] [symposium_scholar.GetWomanMan]. — Скольких можно было бы спасти без подобного невежества»."
  ep1_flavor.2070.desc.ling_same_cult: "«[ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]ие записи превосходят все, что можно найти в державе [symposium_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip], — позевывая, говорит [symposium_courtier.GetFirstNameNoTooltip]. — Вам стоит захватить с собой пару книг, когда будете уезжать».\n\n«Невероятно, насколько же человек может ошибаться, — фыркает [symposium_scholar.Custom('GetYoungMiddleAgedOld')][Select_CString(symposium_scholar.IsFemale, 'ая', 'ый' )] [symposium_scholar.GetWomanMan]. — Да еще и говорить при этом с такой уверенностью...»"

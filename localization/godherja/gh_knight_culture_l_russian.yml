@@ -3,6 +3,9 @@
  knight_heprasitos_no_tooltip: "Гепраситос"  
  knight_heprasitos_no_tooltip_plural: "Гепраситосы"
   
+ knight_drakarstatarox_no_tooltip: "Дракарстатарокс"
+ knight_drakarstatarox_no_tooltip_plural: "Дракарстатароксы"
+ 
  knight_chevalier_no_tooltip: "Шевальер"
  knight_chevalier_no_tooltip_plural: "Шевальеры" 
   
@@ -14,12 +17,24 @@
   
  knight_companion_no_tooltip: "Компаньон"  
  knight_companion_no_tooltip_plural: "Компаньоны"
+ 
+ knight_dihaskas_no_tooltip: "Дихаскас"
+ knight_dihaskas_no_tooltip_plural: "Дихаскасы"
+
+ knight_almata_no_tooltip: "Алмата"
+ knight_almata_no_tooltip_plural: "Алматы"
   
-   # Lowercase versions 
+   
+  # Lowercase versions 
  knight_heprasitos_no_tooltip_lowercase: "гепраситос"  
  knight_heprasitos_no_tooltip_lowercase_plural: "гепраситосы"  
  knight_heprasitos_no_tooltip_lowercase_plural_possessive: "гепраситоса"  
  knight_heprasitos_no_tooltip_lowercase_adjective: "гепраситск" 
+ 
+ knight_drakarstatarox_no_tooltip_lowercase: "дракарстатарокс"
+ knight_drakarstatarox_no_tooltip_lowercase_plural: "дракарстатароксы"
+ knight_drakarstatarox_no_tooltip_lowercase_plural_possessive: "дракарстатарокса"
+ knight_drakarstatarox_no_tooltip_lowercase_adjective: "дракарстатарокск"
   
  knight_chevalier_no_tooltip_lowercase: "шевальер"
  knight_chevalier_no_tooltip_lowercase_plural: "шевальеры" 
@@ -40,19 +55,38 @@
  knight_companion_no_tooltip_lowercase_plural: "компаньоны"  
  knight_companion_no_tooltip_lowercase_plural_possessive: "компаньона"  
  knight_companion_no_tooltip_lowercase_adjective: "компаньонск"
+ 
+ knight_dihaskas_no_tooltip_lowercase:0 "дихаскас"
+ knight_dihaskas_no_tooltip_lowercase_plural:0 "дихаскасы"
+ knight_dihaskas_no_tooltip_lowercase_plural_possessive:0 "дихаскаса"
+ knight_dihaskas_no_tooltip_lowercase_adjective:0 "дихаскаск"
+
+ knight_almata_no_tooltip_lowercase:0 "алмата"
+ knight_almata_no_tooltip_lowercase_plural:0 "алматы"
+ knight_almata_no_tooltip_lowercase_plural_possessive:0 "алмата"
+ knight_almata_no_tooltip_lowercase_adjective:0 "алматанск"
   
    #Game Concept versions 
- knight_heprasitos: "[Concept( 'knight', '$knight_heprasitos_no_tooltip$' )|E]"  
- knight_heprasitos_plural: "[Concept( 'knight', '$knight_heprasitos_no_tooltip_plural$' )|E]" 
-  
- knight_chevalier: "[Concept( 'knight', '$knight_chevalier_no_tooltip$' )|E]"  
- knight_chevalier_plural: "[Concept( 'knight', '$knight_chevalier_no_tooltip_plural$' )|E]"  
-  
- knight_mubaaizun: "[Concept( 'knight', '$knight_mubaaizun_no_tooltip$' )|E]"  
- knight_mubaaizun_plural: "[Concept( 'knight', '$knight_mubaaizun_no_tooltip_plural$' )|E]"  
-  
- knight_huscarl: "[Concept( 'knight', '$knight_huscarl_no_tooltip$' )|E]"  
- knight_huscarl_plural: "[Concept( 'knight', '$knight_huscarl_no_tooltip_plural$' )|E]"  
-  
- knight_companion: "[Concept( 'knight', '$knight_companion_no_tooltip$' )|E]"  
- knight_companion_plural: "[Concept( 'knight', '$knight_companion_no_tooltip_plural$' )|E]" 
+ knight_heprasitos:0 "[Concept( 'knight', '$knight_heprasitos_no_tooltip$' )|E]"
+ knight_heprasitos_plural:0 "[Concept( 'knight', '$knight_heprasitos_no_tooltip_plural$' )|E]"
+
+ knight_drakarstatarox:0 "[Concept( 'knight', '$knight_drakarstatarox_no_tooltip$' )|E]"
+ knight_drakarstatarox_plural:0 "[Concept( 'knight', '$knight_drakarstatarox_no_tooltip_plural$' )|E]"
+
+ knight_chevalier:0 "[Concept( 'knight', '$knight_chevalier_no_tooltip$' )|E]"
+ knight_chevalier_plural:0 "[Concept( 'knight', '$knight_chevalier_no_tooltip_plural$' )|E]"
+
+ knight_mubaaizun:0 "[Concept( 'knight', '$knight_mubaaizun_no_tooltip$' )|E]"
+ knight_mubaaizun_plural:0 "[Concept( 'knight', '$knight_mubaaizun_no_tooltip_plural$' )|E]"
+
+ knight_huscarl:0 "[Concept( 'knight', '$knight_huscarl_no_tooltip$' )|E]"
+ knight_huscarl_plural:0 "[Concept( 'knight', '$knight_huscarl_no_tooltip_plural$' )|E]"
+
+ knight_companion:0 "[Concept( 'knight', '$knight_companion_no_tooltip$' )|E]"
+ knight_companion_plural:0 "[Concept( 'knight', '$knight_companion_no_tooltip_plural$' )|E]"
+
+ knight_dihaskas:0 "[Concept( 'knight', '$knight_dihaskas_no_tooltip$' )|E]"
+ knight_dihaskas_plural:0 "[Concept( 'knight', '$knight_dihaskas_no_tooltip_plural$' )|E]"
+
+ knight_almata:0 "[Concept( 'knight', '$knight_almata_no_tooltip$' )|E]"
+ knight_almata_plural:0 "[Concept( 'knight', '$knight_almata_no_tooltip_plural$' )|E]"

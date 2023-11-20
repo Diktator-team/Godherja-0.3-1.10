@@ -5,7 +5,7 @@
  bp1_house_feud.0001.a: "Я сделаю это своей целью в жизни."
  bp1_house_feud.0001.b: "Наверняка можно заняться чем-то более достойным..."
  bp1_house_feud.0002.t: "Династическая солидарность"
- bp1_house_feud.0002.desc: "Мой [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('house_feud_victim'))], [house_feud_victim.GetTitledFirstName] постоянно оплакивает подлость соперника [house_feud_victim.GetHerHis], [house_feud_attacker.GetTitledFirstName].\n\nКаждый раз, когда я вижу [house_feud_victim.GetHerHim], [house_feud_victim.GetSheHe] упоминает «[house_feud_attacker.Custom('VenomousCreature')|U] Дома [house_feud_attacker.GetHouse.GetBaseName]» и призывает меня дать совет или помощь в свержении [house_feud_attacker.GetHerHim]." #Машинный перевод 28.10.23
+ bp1_house_feud.0002.desc: "[Select_CString(house_feud_victim.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('house_feud_victim'))|l] [house_feud_victim.GetTitledFirstName] постоянно жалуется на злодеяния, что творит [house_feud_victim.GetHerHis|l] [Select_CString(house_feud_attacker.IsFemale, 'соперница', 'соперник' )] [house_feud_attacker.GetTitledFirstName].\n\nПри каждой встрече у н[house_feud_victim.GetHerHis|l] через каждые два слова только и слышно: «[SCOPE.Custom('VenomousCreature')|U] из дома [house_feud_attacker.GetHouse.GetBaseName]». [house_feud_victim.GetTitledFirstName] просит моего совета или помощи, чтобы прикончить [house_feud_attacker.GetHerHis|l]."
  bp1_house_feud.0002.a: "Похоже, это дело семейное."
  bp1_house_feud.0002.b: "Как смеет [house_feud_attacker.GetFirstNameNoTooltip], [Select_CString(house_feud_victim.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('house_feud_victim'))] под моей защитой!"
  bp1_house_feud.0002.c: "Пусть самостоятельно решает свои проблемы."
@@ -99,7 +99,7 @@
  bp1_house_feud.0014.a: "Дом [house_feud_attacker.GetHouse.GetBaseNameNoTooltip] перешел все границы."
  bp1_house_feud.0014.b: "[house_feud_attacker.GetFirstNameNoTooltip] не уйдет от наказания."
  bp1_house_feud.0014.c: "Лучше забыть и простить..."
-  ### Ongoing Events ### 
+ ### Ongoing Events ###
  bp1_house_feud.0100.t: "$story_cycle_house_feud_title$: однобокое негодование"
  bp1_house_feud.0100.desc: "Прискорбно, что [Select_CString(house_feud_rival.IsFemale, 'злодейка', 'злодей' )]-[house_feud_rival.GetFirstName] — [house_feud_rival.GetTitleAsNameNoTooltip|l], а я всего-лишь [ROOT.Char.GetTitleAsNameNoTooltip|l]... Защита семьи от столь могущественных врагов требует больших усилий.\n\n[story.Custom('GetFamilyFeudShortFlavor')] — неправедное дело и, возможно, эта вражда не стоит затраченных усилий..."
  bp1_house_feud.0100.a: "Даже [house_feud_rival.GetTitleAsNameNoTooltip|l] не избежит правосудия."
@@ -136,7 +136,7 @@
  bp1_house_feud.0420.desc: "Мне ясно дали понять, что сюзерен, [house_feud_liege.GetTitledFirstName], не одобряет вражду, в которую втянуты моя семья, [house_feud_rival.GetTitledFirstName] и дом [house_feud_rival.GetHouse.GetBaseName], и требует, чтобы с конфликтами в [house_feud_liege.GetPrimaryTitle.GetAdjectiveNoTooltip|l]ой державе было покончено.\n\nКак [house_feud_liege.GetSheHe|l] смеет требовать, чтобы мы отказались от справедливого возмездия? Но ведь это [house_feud_liege.GetTitleAsNameNoTooltip|l], так что стоит ли провоцировать конфликт?"
  bp1_house_feud.0420.a: "Я никогда не прощу дом [house_feud_rival.GetTitledFirstNameNoTooltip]."
  bp1_house_feud.0420.b: "Хорошо..."
-  ### Target Events ### 
+ ### Target Events ###
  bp1_house_feud.0500.t: "$story_cycle_house_feud_title$: цели гнева"
  bp1_house_feud.0500.desc: "Поначалу меня терзали сомнения, но слухи при дворе уверили меня в мысли, что [house_feud_rival.GetTitledFirstName] хочет моей смерти, а виной всему [other_house_feud_story.Custom('GetFamilyFeudShort')].\n\nВсе члены дома [ROOT.Char.GetHouse.GetName] кажутся [house_feud_rival.GetHerHim|l] законными целями из-за родства со мной, и эта ненависть распространилась с главы дома на всю [house_feud_rival.GetHerHis|l] [house_feud_rival.Custom('InsultAdjective')|l]ую семью."
  bp1_house_feud.0500.a: "Дом [house_feud_rival.GetFirstNameNoTooltip] об этом пожалеет."
@@ -158,13 +158,13 @@
  bp1_house_feud.0502.b: "Возможно, #EMP пора#! оставить это в прошлом."
  bp1_house_feud.0502.c: "Значит, они расслабились!"
  bp1_house_feud.0502.d: "И зачем я трачу время на эту ерунду?"
-  ### Notification Events ### 
+ ### Notification Events ###
  bp1_house_feud.0600.t: "$story_cycle_house_feud_title$: общие враги"
  bp1_house_feud.0600.desc: "Я все размышляю о довольно жестком письме, которое пришло утром. [Select_CString(house_head.IsFemale, 'Прислала его моя', 'Прислал его мой' )] [ROOT.Char.Custom2('RelationToMeShort', house_head_scope)], [house_head_scope.GetTitledFirstName].\n\n[ROOT.Char.GetHouse.GetHeadOfHouse.GetSheHe|U] настоятельно требует, чтобы весь наш дом принял участие в борьбе с «собаками из дома [house_feud_rival.GetHouse.GetBaseName]».\n\n[story.Custom('GetFamilyFeudShortFlavor')] — это правда, тут ничего не поделать, но что насчет опасности для остальных членов семьи?"
  bp1_house_feud.0600.a: "[ROOT.Char.GetHouse.GetHeadOfHouse.GetFirstNameNoTooltip] просит, и я не смею отказать."
  bp1_house_feud.0600.b: "Самое время!"
  bp1_house_feud.0600.c: "Это ни к чему нас не приведет..."
-  ### Scheme Events ### 
+ ### Scheme Events ###
  bp1_house_feud.0700.t: "$story_cycle_house_feud_title$: запретный плод"
  bp1_house_feud.0700.desc: "Мои подозрения оказались правдой. [owner.GetTitledFirstName] из ненавистного дома [owner.GetHouse.GetBaseName] пытается привлечь мое внимание...\n\n"
  bp1_house_feud.0700.desc_positive: "Мне всегда говорили опасаться врагов нашей семьи, но в этом есть нечто притягательное."
@@ -175,7 +175,7 @@
  bp1_house_feud.0701.t: "Осторожное преследование"
  bp1_house_feud.0701.desc: "«Видимо, слухи об умственных способностях дома [owner.GetHouse.GetBaseName] правдивы, раз вы всерьез думаете, что я буду ухаживать за вами. Других пробуйте обманывать».\n\n[target.GetFirstName] [target.Custom('quirk_neg_present')], поливая меня грязью."
  bp1_house_feud.0701.a: "Мне казалось... хотя ладно, забудем..."
-  # Maintenance Events 
+ #Maintenance Events
  bp1_house_feud.0810.t: "$story_cycle_house_feud_title$: продолжатель дела"
  bp1_house_feud.0810.child: "Мне приходилось слышать немало историй о том, как [Select_CString(old_house_head.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('old_house_head'))], [old_house_head.GetTitledFirstName] [Select_CString(old_house_head.IsFemale, 'враждовала', 'враждовал' )] с домом [house_feud_rival.GetHouse.GetBaseName]."
  bp1_house_feud.0810.adult: "[Select_CString(old_house_head.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('old_house_head'))], [old_house_head.GetTitledFirstName] [Select_CString(old_house_head.IsFemale, 'умерла', 'умер' )], и теперь я размышляю о вражде между моей семьей и домом [house_feud_rival.GetHouse.GetBaseName]."
@@ -200,7 +200,7 @@
  bp1_house_feud.0840.a: "Ничего не изменится! Дом [house_feud_rival.GetHouse.GetBaseNameNoTooltip] были и останутся собаками!"
  bp1_house_feud.0840.b: "Это тянется уже слишком долго."
  bp1_house_feud.0840.b.rival: "Будь [Select_CString(house_feud_rival.IsFemale, 'проклята', 'проклят' )] [house_feud_rival.GetFirstNameNoTooltip], но пора это заканчивать."
-  # Victory Events 
+ #Victory Events
  bp1_house_feud.7000.t: "$story_cycle_house_feud_title$: [ROOT.Char.GetTitleAsNameNoTooltip] по закону"
  bp1_house_feud.7000.desc: "После долгих тягот нам удалось вырвать титул «[house_feud_title.GetNameNoTier]» из рук наших соперников, а [previous_holder_scope.GetTitledFirstName] и дом [house_feud_rival.GetHouse.GetBaseName] могут лишь смириться с потерей!\n\nСправедливость восторжествовала, и, возможно, пора покончить со старыми распрями, тем более что их причина забылась после долгого кровопролития."
  bp1_house_feud.7000.a: "Дому [house_feud_rival.GetHouse.GetBaseNameNoTooltip] предстоит ответить за многое."
@@ -221,7 +221,7 @@
  bp1_house_feud.7003.desc: "получает тот же урон своей чести от нашей руки!\n\nМы отомстили за нанесенное оскорбление, и вражда с домом [house_feud_rival.GetHouse.GetBaseNameNoTooltip] подходит к логическому концу."
  bp1_house_feud.7003.a: "Это только начало!"
  bp1_house_feud.7003.b: "Удовлетворительное завершение..."
-  # Custom Loc 
+ #Custom Loc
  house_feud_head_rivalry_flavor: "личная вражда, в которую были вовлечены [ROOT.Var('house_feud_first_owner').Char.GetFirstName] и [ROOT.Var('house_feud_first_rival').Char.GetFirstName], вышла из-под контроля"
  house_feud_family_rivalry_flavor: "личными разногласиями, которые имели [ROOT.Var('house_feud_victim').Char.GetFirstName] и [ROOT.Var('house_feud_attacker').Char.GetFirstName], теперь занимается [ROOT.Var('house_feud_first_owner').Char.GetFirstName]"
  house_feud_head_killed_flavor: "[ROOT.Var('house_feud_victim').Char.GetFirstName] [ROOT.Var('house_feud_victim').Char.GetDeathReasonHideKiller] от рук персонажа [ROOT.Var('house_feud_attacker').Char.GetFirstName], и [ROOT.Var('house_feud_victim').Char.GetHerHis] [ROOT.Var('house_feud_victim').Char.Custom2('RelationToMeShort', ROOT.Var('house_feud_first_owner').Char)], [ROOT.Var('house_feud_first_owner').Char.GetFirstName], [Select_CString(ROOT.Var('house_feud_first_owner').Char.IsFemale, 'поклялась', 'поклялся' )] отомстить"
@@ -243,15 +243,12 @@
  house_feud_head_broken_grand_wedding_flavor: "[ROOT.Var('house_feud_first_owner').Char.GetFirstName] негодует, потому что, несмотря на обещанную большую свадьбу, [ROOT.Var('house_feud_first_owner').Char.GetFirstName] и [ROOT.Var('house_feud_attacker').Char.GetFirstName] больше не помолвлены по решению дома [ROOT.Var('house_feud_attacker').Char.GetHouse.GetBaseName]"
  house_feud_murder_feast_flavor: "[ROOT.Var('house_feud_victim').Char.GetFirstName] [ROOT.Var('house_feud_victim').Char.GetDeathReasonHideKiller] на пиру персонажа [ROOT.Var('house_feud_attacker').Char.GetFirstName], и [ROOT.Var('house_feud_first_owner').Char.GetFirstName] [Select_CString(ROOT.Var('house_feud_first_owner').Char.IsFemale, 'решила', 'решил' )] отомстить"
  house_feud_bloody_wedding_flavor: "[ROOT.Var('house_feud_victim').Char.GetFirstName] [ROOT.Var('house_feud_victim').Char.GetDeathReasonHideKiller] на свадьбе, организованной персонажем [ROOT.Var('house_feud_attacker').Char.GetFirstName], и [ROOT.Var('house_feud_first_owner').Char.GetFirstName] [Select_CString(ROOT.Var('house_feud_first_owner').Char.IsFemale, 'решила', 'решил' )] отомстить"
-  
  house_feud_flavor_char: "[ROOT.Var('house_feud_attacker').Char.GetFirstName] и [SCOPE.Custom('GetFamilyFeudShort')] в отношении [Select_CString(house_feud_victim.IsLocalPlayer, '', 'персонажа ' )][house_feud_victim.GetNamePossessiveOrMy][Select_CString(house_feud_victim.IsLocalPlayer, 'его персонажа', '' )]"
  house_feud_verb_char: "[ROOT.Var('house_feud_attacker').Char.GetFirstName] и [SCOPE.Custom('GetFamilyFeudShort')] [Select_CString(house_feud_victim.IsLocalPlayer, '', 'персонажа ' )][house_feud_victim.GetNamePossessiveOrMy][Select_CString(house_feud_victim.IsLocalPlayer, 'его персонажа', '' )]"
-  
  house_feud_flavor_char_attacker: "[SCOPE.Custom('GetFamilyFeudShort')] с моей стороны в отношении персонажа [ROOT.Var('house_feud_victim').Char.GetFirstName]"
  house_feud_flavor_char_victim: "[ROOT.Var('house_feud_attacker').Char.GetFirstName] и [SCOPE.Custom('GetFamilyFeudShort')] в отношении меня"
  house_feud_verb_char_attacker: "[SCOPE.Custom('GetFamilyFeudShort')] с моей стороны в отношении персонажа [ROOT.Var('house_feud_victim').Char.GetFirstName]"
  house_feud_verb_char_victim: "[ROOT.Var('house_feud_attacker').Char.GetFirstName] и [SCOPE.Custom('GetFamilyFeudShort')] меня"
-  
  house_feud_flavor_victim: "[SCOPE.Custom('GetFamilyFeudShort')] в отношении персонажа [ROOT.Var('house_feud_victim').Char.GetFirstName]"
  house_feud_verb_victim: "[SCOPE.Custom('GetFamilyFeudShort')] персонажа [ROOT.Var('house_feud_victim').Char.GetFirstName]"
  house_feud_competing: "соперничающие претензии"
@@ -268,12 +265,12 @@
  house_feud_betrothal: "разрыв помолвки"
  house_feud_murder_feast: "кровавый пир"
  house_feud_bloody_wedding: "кровавая свадьба"
-  # Story Cycles 
+ #Story Cycles
  story_cycle_house_feud_title: "Вражда"
  story_cycle_house_feud_tt: "Начать [Concept( 'house_feud', 'вражду' )|E] с [Concept( 'house', 'домом' )|E] [house_feud_rival.GetHouse.GetBaseName]"
  story_cycle_house_feud_reciprocate_tt: "Начать ответную [Concept( 'house_feud', 'вражду' )|E] с [Concept( 'house', 'домом' )|E] [house_feud_rival.GetHouse.GetBaseName]"
  story_cycle_house_feud_continue_tt: "Продолжить [Concept( 'house_feud', 'вражду' )|E] с [Concept( 'house', 'домом' )|E] [house_feud_rival.GetHouse.GetBaseName]"
-  # Modifiers 
+ #Modifiers
  house_feud_story_modifier: "Вражда домов"
  house_feud_story_modifier_desc: "Этот [house|E] находится в состоянии [Concept( 'house_feud', 'вражды' )|E] с соперничающей семьей.\n#weak $house_feud_scheme_success_tt$#!"
  house_feud_story_modifier_custom_desc: "Этот [house|E] находится в состоянии [Concept( 'house_feud', 'вражды' )|E] с соперничающей семьей [SCOPE.sCharacter('house_feud_rival').GetNameRegnal] — домом [SCOPE.sCharacter('house_feud_rival').GetHouse.GetBaseName|V].\n#weak $house_feud_scheme_success_tt$#!"
@@ -292,7 +289,7 @@
  house_feud_excellent_modifier: "Внушительная семья"
  house_feud_excellent_modifier_desc: "Все знают, что этот [house|E] не прощает обид и пойдет на все ради своей защиты."
  house_feud_excellent_modifier_custom_desc: "Этот [house|E] не простил обид врагам и пошел на все ради своей защиты во время [Concept( 'house_feud', 'вражды' )|E] с домом [SCOPE.sCharacter('house_feud_rival').GetHouse.GetBaseName]."
-  # Opinions 
+ #Opinions
  house_feud_opinion: "Вражда домов"
  house_feud_ignored_opinion: "Вражда проигнорирована"
  house_feud_followed_opinion: "Последователь вражды"
@@ -302,7 +299,7 @@
  house_feud_victim_feud_opinion: "Начатая вражда"
  house_feud_victim_rival_opinion: "Общее соперничество"
  house_feud_victim_ignored_opinion: "Проигнорированные трудности"
-  # Messages 
+ #Messages
  msg_house_feud_begins: "$story_cycle_house_feud_title$ дома [LEFT_CHARACTER.GetHouse.GetBaseNameNoTooltip] начинается"
  msg_house_feud_begins_desc: "[LEFT_CHARACTER.GetShortUIName|U] [Select_CString(LEFT_CHARACTER.IsFemale, 'начала', 'начал' )] [Concept( 'house_feud', 'вражду' )|E] с [Concept( 'house', 'домом' )|E] [RIGHT_CHARACTER.GetHouse.GetBaseName]\n\n$EFFECT$"
  msg_house_feud_ends: "$story_cycle_house_feud_title$ дома [LEFT_CHARACTER.GetHouse.GetBaseNameNoTooltip] заканчивается"
@@ -335,7 +332,7 @@
  msg_house_feud_stole_artifact_us_desc: "[RIGHT_CHARACTER.GetShortUIName|U] [Select_CString(RIGHT_CHARACTER.IsFemale, 'украла', 'украл' )] [artifact|El] у персонажа [LEFT_CHARACTER.GetShortUIName]\n\n$EFFECT$\n[RIGHT_CHARACTER.GetHouse.GetBaseName] [RIGHT_CHARACTER.Custom('GetFamilyFeudBalance')] [LEFT_CHARACTER.GetHouse.GetBaseName]"
  msg_house_feud_stole_artifact_them: "$msg_house_feud_kill_them$"
  msg_house_feud_stole_artifact_them_desc: "[LEFT_CHARACTER.GetShortUIName|U] [Select_CString(LEFT_CHARACTER.IsFemale, 'украла', 'украл' )] [artifact|El] у персонажа [RIGHT_CHARACTER.GetShortUIName]\n\n$EFFECT$\n[LEFT_CHARACTER.GetHouse.GetBaseName] [LEFT_CHARACTER.Custom('GetFamilyFeudBalance')] [RIGHT_CHARACTER.GetHouse.GetBaseName]"
-  # Tooltips 
+ #Tooltips
  house_feud_diplo_range_tt: "[Concept( 'house_head', 'Глава' )|E] враждебного дома слишком далеко"
  house_feud_end_tt: "Ваша [house_feud|El] завершится"
  house_feud_continue_tt: "Ваша [house_feud|El] продолжится"
@@ -361,17 +358,17 @@
  house_feud_balance_good: "#positive_value выигрывают#! у дома"
  house_feud_balance_excellent: "намного #positive_value опередили#! дом"
  house_feud_starts_flavor_tt: "Причина — [house_feud_story.Custom('GetFamilyFeudShortFlavor')]"
-  # Game Concept 
+ #Game Concept
  game_concept_house_feud: "Вражда"
  game_concept_house_feuding: "Вражда"
  game_concept_house_feud_desc: "Иногда соперничество может перерасти в вендетту против конкретного [Concept( 'house', 'дома' )|E].\n\n#help Убийства, [Concept( 'torturing', 'пытки' )|E], супружеские измены, грабеж и выигранные [wars|El] против членов соперничающего [Concept( 'house', 'дома' )|E] увеличивают счет вашего дома, а аналогичные действия с его стороны снижают его.\n\nПока длится вражда, все члены [Concept( 'house', 'дома' )|E] получают бонус к [Concept( 'hostile_schemes', 'враждебным проискам' )|E] против вражеского [Concept( 'house', 'дома' )|E] и с большей вероятностью будут искать цели среди его представителей.\n\nКогда вражда завершится, ваш [house|El] получит награду в зависимости от относительного ущерба, причиненного врагам: минимум [GetModifier('house_feud_terrible_modifier').GetNameWithTooltip], максимум [GetModifier('house_feud_excellent_modifier').GetNameWithTooltip]."
-  # Important Action 
+ #Important Action
  action_ongoing_house_feud: "Текущая [Concept( 'house_feud', 'вражда' )|E] дома"
  action_ongoing_house_feud_label: "@dynasty_icon! Ваш дом враждует с домом [recipient.GetHouse.GetBaseNameNoTooltip]"
  action_ongoing_house_feud_desc: "Ваша семья считает дом [recipient.GetHouse.GetBaseName] врагами и получит награды за победы над его представителями\n\n#help Убийства, [Concept( 'torturing', 'пытки' )|E], супружеские измены, грабеж и выигранные [wars|El] против членов соперничающего [Concept( 'house', 'дома' )|E] увеличивают счет вашего дома, а аналогичные действия в отношении вас снижают его#!\n\n#help $house_feud_balance_action_tt$#!\n"
  action_ongoing_house_feud_click: "#I Щелкните, чтобы посмотреть главу [Concept( 'house_feud', 'враждебного' )|E] дома#!"
  action_ongoing_house_feud_unimportant: "@warning_icon! #N Ваш дом проигрывает [Concept( 'house_feud', 'вражду' )|E]#!"
  swap_feud_tt: "Закончить [Concept( 'house_feud', 'вражду' )|E] с [Concept( 'house', 'домом' )|E] [house_feud_existing.GetBaseName]"
-  # Tweaks 
+ #Tweaks
  house_feud_cooldown_tt: "Ваш [house|El] не сможет начать новую [Concept( 'house_feud', 'вражду' )|E] в течение 25 лет"
  house_reward_modifier_tt: "Этот модификатор зависит от ваших успехов во [Concept( 'house_feud', 'вражде' )|E]"

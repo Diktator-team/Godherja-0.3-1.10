@@ -2,13 +2,10 @@
  REALM_WINDOW_GOVERNMENT: "[realm|E]: [Character.GetGovernment.GetRealmName]"
  REALM_WINDOW_GOVERNMENT_TOOLTIP: "#T [government|E]: [Character.GetGovernment.GetName] #! \n[Character.GetGovernment.GetRuleInfo][Character.GetGovernment.GetFlagInfo][Character.GetGovernment.GetHoldingInfo]\n#F [Character.GetGovernment.GetDescription]#!"
  REALM_WINDOW_LIEGE_REALM: "Вассал державы [Character.GetLiege.GetPrimaryTitle.GetNameNoTooltip|V]"
-  
  RULER: "[ruler|E]"
-  
  TITLES: "[titles|E]"
  DIPLOMACY: "Дипломатия"
  MY_REALM: "Моя держава"
-  
  DOMAIN_LIMIT_TOOLTIP_HEADER: "#T [domain|E]: [holdings|El], [CHARACTER.GetDomainSize]/[CHARACTER.GetDomainLimit]#!"
  DOMAIN_LIMIT_EXCEEDED_TOOLTIP: "@warning_icon!#X [domain_limit|E] превышен. Раздайте титулы: пусть [vassals|El] правят частью вашего [Concept('domain', 'домена')|El].#!\n"
  DOMAIN_LIMIT_GRACE_PERIOD_LIST: "[recently_acquired_holdings|E]:\n[CHARACTER.GetDomainLimitGracePeriodHoldings]"
@@ -23,7 +20,6 @@
  STEWARDSHIP_DOMAIN_LIMIT: "[stewardship|E]"
  VASSAL_LIMIT_EXCEEDED_TOOLTIP: "@warning_icon!#X Превышен [vassal_limit|El]. Объедините [Concept( 'vassals', 'вассалов' )|El], передав их другим своим вассалам.#!\n"
  VASSAL_LIMIT_OVERRUN_EFFECT: "   [levies|E] вассалов: $LEVY|+%0$\n   [taxes|E] вассалов: $TAX|+%0$"
-  
  STRENGTH_RATIO_LEVEL_0: "Значительно сильнее"
  STRENGTH_RATIO_LEVEL_1: "Сильнее"
  STRENGTH_RATIO_LEVEL_2: "Равна"
@@ -39,11 +35,9 @@
  LIST_EVENT_TROOPS_STRING: "[special_troops|E]: $CURRENT|0V$"
  LIST_MERCENARIES_STRING: "[mercenaries|E]: $CURRENT|0V$"
  LIST_HOLY_ORDERS_STRING: "[holy_orders|E]: $CURRENT|0V$"
-  
  REALM_WINDOW_OUR_ALLY: "Наш [ally|El]"
  REALM_WINDOW_AT_WAR_WITH_US: "В состоянии [wars|El]"
  REALM_WINDOW_TRUCE_WITH_US: "[truce|E]\n[RealmWindow.GetTruceWithPlayerEndDate.GetStringShort]"
-  
  REALM_WINDOW_DIPLOMACY_TOOLTIP_WAR_ATTACKER: "#tooltip_subheading #attacker_color Нападает#! на[Select_CString(DEFENDER.IsLocalPlayer, '', 'персонажа ' )][DEFENDER.GetNamePossessiveOrMy][Select_CString(DEFENDER.IsLocalPlayer, 'его персонажа', '' )] в войне: [WAR.GetName|V]#!\nВойна началась: [WAR.GetStartDate.GetString|V]"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_WAR_DEFENDER: "#tooltip_subheading #defender_color Обороняется#! от[Select_CString(ATTACKER.IsLocalPlayer, '', 'персонажа ' )][ATTACKER.GetNamePossessiveOrMy][Select_CString(ATTACKER.IsLocalPlayer, 'его персонажа', '' )] в войне: [WAR.GetName|V]#!\nНачало войны: [WAR.GetStartDate.GetString|V]"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_WAR_PRIMARY: ""
@@ -72,10 +66,7 @@
  REALM_WINDOW_SIZE_TT: "#T [realm_size|E]: всего [Concept( 'counties', 'графств' )|E] — [Character.RealmSize|V]\n#!Графств в [Concept( 'domain', 'домене' )|E] персонажа [Character.GetLiege.GetShortUIName] — [Character.NumberOfDirectlyHeldCounties|V]\nГрафств в [Concept( 'vassals', 'землях вассалов' )|E] — [Subtract_int32(Character.RealmSize, Character.NumberOfDirectlyHeldCounties)|V] "
  DIFFERENT_CULTURE_THAN_LIEGE: "Иная культура, нежели у сюзерена"
  DIFFERENT_RELIGION_THAN_LIEGE: "Иная религия, нежели у сюзерена"
-  
  LIEGE_STRENGTH_RATIO: "[soldiers|E] по сравнению с сюзереном"
  REALM_OF_CHARACTER: "Держава персонажа [CHARACTER.GetUIName]"
-  
  RW_CHARACTER_BUTTON: "Персонаж"
- #RW_CHARACTER_BUTTON_TT: ""
-  
+ #RW_CHARACTER_BUTTON_TT: "" delete this

@@ -1,7 +1,7 @@
 ﻿l_russian:
  SW_TT_TIMER: "#T Следующее событие [Concept( 'siege', 'осады' )|E]: #V $DAYS$#!#!\nНовое событие каждые $TOTAL$"
  SW_TT_TIMER_FROZEN: "Не будет никаких событий при [Concept( 'siege', 'осаде' )|E].\n"
- #SW_TT_CLOSE: ""
+ #SW_TT_CLOSE: "" delete this
  SW_TT_GARRISON: "#T [garrison|E]: #V [soldiers|El], [Siege.GetDefenderMen|0]#!#! \nУ осаждающего должно быть больше солдат, чем в гарнизоне, чтобы [siege|El] продвигалась"
  SW_TT_RECENT_ACTION: ""
  SW_TT_ACTION: "#high $NAME$#!\n$EFFECT$"

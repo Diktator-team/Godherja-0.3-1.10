@@ -1,7 +1,6 @@
 ﻿l_russian:
-  
-  ################################################## 
-  # #Misc Keys 
+ ##################################################
+ ##Misc Keys
  diarch_rebel_or_crime_summary: "Если [recipient.GetTitledFirstName] откажется, вы сможете навязать [Concept( 'claim', 'претензию' )|E] [Concept( 'war', 'войной' )|E] или объявить, что [recipient.GetSheHe|l] [criminal|El], и тогда этим займется [recipient.GetLiege.GetTitledFirstName]"
  diarch_rebel_or_crime_summary.retract: "Если [recipient.GetTitledFirstName] откажется, вы сможете навязать [Concept( 'retraction', 'отъем' )|E] [Concept( 'war', 'войной' )|E] или объявить, что [recipient.GetSheHe|l] [criminal|El], и тогда этим займется [recipient.GetLiege.GetTitledFirstName]"
  diarch_rebel_or_crime_summary.crominal: "Если [recipient.GetTitledFirstName] откажется, вы сможете навязать [Concept( 'imprisonment', 'тюремное заключение' )|E] и выплату большой суммы [Concept( 'gold', 'золота' )|E] [Concept( 'war', 'войной' )|E] или объявить, что [recipient.GetSheHe|l] [criminal|El], и тогда этим займется [recipient.GetLiege.GetTitledFirstName]"
@@ -31,15 +30,12 @@
  diarch_interactions.tt.you_must_be_in_a_regency_to_access: "Ваш [liege|El] не [Concept( 'regency', 'регент' )|E]"
  diarch_interactions.tt.you_must_be_in_an_entrenched_regency_to_access: " Ваш [liege|El] не [Concept( 'entrenched_regency', 'укоренившийся регент' )|E]"
  diarch_interactions.tt.is_able: "[CHARACTER.GetShortUIName|U] слишком глубоко в своих проблемах, чтобы действовать как [CHARACTER.GetDiarchTitle|l]"
-  
  declare_me_regent_interaction_extra_icon: "$hook_extra_icon$"
  diarch_revoke_title_interaction_extra_icon: "$hook_extra_icon$"
  diarch_retract_vassal_interaction_extra_icon: "$hook_extra_icon$"
  diarch_imprison_interaction_extra_icon: "$hook_extra_icon$"
-  
-  ################################################## 
-  # #Debug Logging 
-  
+ ##################################################
+ ##Debug Logging
  debug_log.diarch_revoke_title.accepted: "Диарх успешно отнял титул"
  debug_log.diarch_revoke_title.rejected: "Диарх пытался отнять титул, но не преуспел"
  debug_log.diarch_retract_vassal.accepted: "Диарх успешно отнял другого вассала"
@@ -52,9 +48,8 @@
  debug_log.shift_privileges.attempt_made: "Диарх использовал взаимодействие изменения привилегий"
  debug_log.swing_scales.diarch_swung: "Диарх сдвинул равновесие сил от сюзерена"
  debug_log.swing_scales.liege_swung: "Сюзерен сдвинул равновесие сил от диарха"
-  
-  ################################################## 
-  # #Core Powers 
+ ##################################################
+ ##Core Powers
  diarch_revoke_title_interaction: "Регент отнял титул"
  diarch_revoke_title_interaction_desc: "Отнять [title|El] у персонажа [recipient.GetShortUINameNoTooltip], $diarch_boilerplate_postscript_full$"
  HIGHLIGHTED_CAN_DIARCH_REVOKE: "#EMP Вы можете [Concept( 'revoke', 'отнять' )|E] [title|El] у персонажа [recipient.GetShortUINameNoTooltip]#!"
@@ -66,7 +61,6 @@
  you_must_have_a_claim_on_the_title: "У вас должна быть [Concept( 'claim', 'претензия' )|E] на [Concept( 'title', 'титул' )|E]"
  diarch_revoke_title_interaction.tt.gain_title: "[actor.GetShortUIName|U] [Select_CString(actor.IsLocalPlayer, 'получаете', 'получает')] титул «[target.GetName|V]» и сопутствующих [Concept( 'vassals', 'вассалов' )|E]"
  diarch_revoke_title_interaction.tt.inform_recipient: "[actor.GetShortUIName|U] [Select_CString(actor.IsFemale, 'попыталась', 'попытался' )] [Concept( 'revoke', 'лишить' )|E] персонажа [recipient.GetShortUIName] титула [target.GetName]"
-  
  diarch_retract_vassal_interaction: "Регент отзывает вассала"
  diarch_retract_vassal_interaction_desc: "Отозвать [Concept( 'vassal', 'вассала' )|E] у персонажа [recipient.GetShortUINameNoTooltip], $diarch_boilerplate_postscript_full$!"
  recipient_secondary_diarch_retract_vassal_interaction: "[vassal|E]"
@@ -78,13 +72,11 @@
  diarch_is_de_jure_liege_of_retractable_vassal: "Вы должны быть [de_jure|E] [Concept( 'liege', 'сюзереном' )|E] хотя бы одного из [Concept( 'vassals', 'вассалов' )|E] персонажа [TARGET_CHARACTER.GetFirstName]"
  you_must_be_be_de_jure_liege_of_this_vassal: "Вы должны быть [de_jure|E] [Concept( 'liege', 'сюзереном' )|E] этого [Concept( 'vassal', 'вассала' )|E]"
  diarch_retract_vassal_interaction.tt.inform_recipient: "[actor.GetShortUIName|U] [Select_CString(actor.IsFemale, 'попыталась', 'попытался' )] [Concept( 'retract', 'отнять' )|E] одного из ваших [Concept( 'vassals', 'вассалов' )|E]"
-  
  diarch_imprison_interaction: "Регентский арест"
  diarch_imprison_interaction_desc: "Попытаться [Concept( 'imprison', 'заточить в темницу' )|E] персонажа [recipient.GetShortUINameNoTooltip], $diarch_boilerplate_postscript_full$"
  recipient_secondary_diarch_imprison_interaction: "$recipient_secondary_diarch_interaction$"
  DIARCH_IMPRISON_PROPOSAL: "$char_interaction.0281.desc$"
  diarch_imprison_interaction.tt.inform_recipient: "[actor.GetShortUIName|U] [Select_CString(actor.IsFemale, 'попыталась', 'попытался' )] [Concept( 'imprisoned', 'заточить вас в темницу' )|E]"
-  
  diarch_subsidise_crown_authority_interaction: "Спонсировать авторитет сюзерена"
  diarch_subsidise_crown_authority_interaction_desc: "Предложить потратить [prestige|El], чтобы помочь [Concept( 'liege', 'сюзерену' )|E] повысить [crown_authority|El] или [tribal_authority|El], что может потребоваться для [Concept( 'diarch_powers', 'возложенных на вас полномочий' )|E].$diarch_boilerplate_postscript_partial$"
  DIARCH_SUBSIDISE_AUTHORITY_PROPOSAL: "Мой сюзерен, я могу предложить вам укрепить власть короны в этой державе. Всё, что мне потребуется, — это ваша печать. Разумеется, по соседству с моей собственной, дабы ваши вассалы не посчитали такой поступок бесчестным."
@@ -95,9 +87,8 @@
  diarch_subsidise_crown_authority_interaction.tt.absolutely_yes_please: "И мне даже не придется вам #EMP платить#!?: $VALUE|+=0$"
  liege_authority_boost_has_scapegoat_modifier: "Есть удобный козел отпущения"
  liege_authority_boost_has_scapegoat_modifier_desc: "Этот персонаж укрепил авторитет в своей державе, одновременно свалив вину за происходящее на удачно подвернувшегося подчиненного."
-  
-  ################################################## 
-  # #Ancillary Powers 
+ ##################################################
+ ##Ancillary Powers
  diarch_legal_meddling_interaction: "Легальное вмешательство"
  diarch_legal_meddling_interaction_desc: "Воспользоваться своим положением [Select_CString(actor.IsFemale, 'второй по силе женщины', 'второго по силе мужчины' )] [Concept( 'realm', 'державы' )|E], чтобы создать [Concept( 'claim', 'претензию' )|E] на [title|El] [vassal_possessive|El]$diarch_boilerplate_postscript_partial$"
  recipient_secondary_diarch_legal_meddling_interaction: "$recipient_secondary_diarch_interaction$"
@@ -111,7 +102,6 @@
  you_must_not_have_a_claim_on_the_title: "У вас не должно быть [Concept( 'claim', 'претензии' )|E] на [title|El]"
  title_must_be_county_tier.tt: "[Concept( 'title_tier', 'Уровень' )|E] [Concept( 'title', 'титула' )|E] не должен превышать [Concept( 'county', 'графство' )|E]"
  title_must_be_same_realm.tt: "[Concept( 'title', 'Титул' )|E] должен быть частью [Concept( 'realm', 'державы' )|E] вашего [Concept( 'liege', 'сюзерена' )|E]"
-  
  diarch_syphon_treasury_interaction: "Изъятие из казны"
  diarch_syphon_treasury_interaction_desc: "Воспользоваться своим доверенным положением, чтобы украсть [gold_i] [Concept( 'gold', 'золото' )|E] персонажа [recipient.GetShortUINameNoTooltip] (присвоить тайное имущество, налоги и иную собственность)"
  diarch_syphon_treasury_interaction.tt.not_enough_marks_or_stewardship: "Ваш низкий навык [Concept( 'stewardship', 'управления' )|E] и отсутствие свежих [Concept( 'counties', 'графств' )|E] для разграбления делают это невозможным"
@@ -139,7 +129,6 @@
  syphon_treasury_medium_sum_modifier_desc: "Большая часть налогов из этого графства попадает в книги учета, но кое-что порой пропадает из записей."
  syphon_treasury_small_sum_modifier: "Пропавшая повозка с налогами"
  syphon_treasury_small_sum_modifier_desc: "Ничего необычного — эти деньги скоро найдутся, так ведь?"
-  
  diarch_shift_privileges_interaction: "Изменение привилегий"
  diarch_shift_privileges_interaction_desc: "Получайте золото с продажи #EMP сомнительных#! монополии, прав и титулов мелким частным лицам из земель, которыми правит [recipient.GetShortUINameNoTooltip]$diarch_boilerplate_postscript_partial$"
  recipient_secondary_diarch_shift_privileges_interaction: "$recipient_secondary_diarch_interaction$"
@@ -151,9 +140,8 @@
  diarch_shift_privileges_interaction.tt.success.random_negative_effect: "Случайное [county|El] [Concept( 'domain', 'домена' )|E] [Select_CString(recipient.IsLocalPlayer, '', 'персонажа ' )][recipient.GetNamePossessiveOrMy][Select_CString(recipient.IsLocalPlayer, 'его персонажа', '' )] получит мощный отрицательный [county_modifier|El] на [EmptyScope.ScriptValue('shift_privileges_modifier_duration_value')|0] лет"
  diarch_shift_privileges_interaction.tt.failure: "$diarch_interaction.skill_gamble.tt.failure$"
  diarch_shift_privileges_interaction.tt.failure.liege: "[actor.GetTitledFirstName] [Select_CString(actor.IsFemale, 'пыталась', 'пытался' )] злоупотребить своим положением, чтобы нажиться на продаже незаконных привилегий в землях, которыми владеет [recipient.GetTitledFirstName]"
-  
-  ################################################## 
-  # #Diarch Coup Liege Interactions 
+ ##################################################
+ ##Diarch Coup Liege Interactions
  diarch_coup_liege_interaction: "Пригласить заговорщиков на переворот"
  diarch_coup_liege_interaction_desc: "Постараться убедить [Concept( 'powerful_vassals', 'могущественных вассалов' )|E] [Concept( 'liege', 'сюзерена' )|E] поддержать ваш план по свержению монарха"
  diarch_coup_liege_interaction_pre_answer_no_breakdown_key: "#T @cross_icon!Это не будет принято!#!"
@@ -186,9 +174,8 @@
  diarch_coup_liege_interaction.tt.wants_strong_hook: "Я стремлюсь к этому [Concept( 'strong_hook', 'сильному влиянию' )|E]: $VALUE|+=0$"
  diarch_coup_liege_interaction.tt.wants_gold: "Я хочу это [Concept( 'gold', 'золото' )|E]: $VALUE|+=0$"
  diarch_coup_liege_interaction.tt.wants_strong_gold: "Заманчивая гора [Concept( 'gold', 'золота' )|E]: $VALUE|+=0$"
-  
-  ################################################## 
-  # #Manage Diarchy Interactions 
+ ##################################################
+ ##Manage Diarchy Interactions
  swing_scales_currency_interaction: "Сместить $game_concept_scales_of_power$"
  swing_scales_currency_interaction_desc: "Показать всей державе, кто #EMP действительно#! правит этими землями"
  HIGHLIGHTED_CAN_SWING_SCALES: "Вы можете сместить [scales_of_power|El] в свою пользу"
@@ -207,18 +194,14 @@
  SWING_HOOK_DESC: "В политике ничто не сравнится с услугой"
  SWING_HOF: "[piety_i][gold_i] Попросить о вмешательстве [Concept( 'head_of_faith', 'главы конфессии' )|E]"
  SWING_HOF_DESC: "Что говорит [actor.GetFaith.ReligiousHeadName] — закон, если мне это выгодно"
-  
-  
  diarch_entrench_regency_interaction: "Укоренить регентство"
  diarch_entrench_regency_interaction_desc: "Превратить [Concept( 'regency', 'регентство' )|E] в [entrenched_regency|El], чтобы [actor.GetLiege.GetShortUINameNoTooltip] не [Select_CString(actor.GetLiege.IsFemale, 'могла', 'мог' )] лишить вас вашего положения"
  HIGHLIGHTED_CAN_DIARCH_ENTRENCH_REGENCY: "#EMP Вы [Concept( 'entrenched', 'укоренились' )|E]!#!"
  diarch_entrench_regency_interaction.tt.recipient_notification: "[actor.GetShortUINameNoTooltip] [Select_CString(actor.IsFemale, 'укоренилась', 'укоренился' )] в качестве регента"
-  
  liege_dismiss_temporary_regency_interaction: "Снять регента с должности"
  liege_dismiss_temporary_regency_interaction_desc: "Я в состоянии заниматься своими обязанностями, а поэтому нет причин, чтобы [recipient.GetShortUINameNoTooltip] [Select_CString(recipient.IsFemale, 'сохраняла', 'сохранял' )] свои #EMP ограниченные#! полномочия"
  liege_dismiss_temporary_regency_interaction.tt.dynasty_receives_prestige: "[dynasty|E] [recipient.GetDynasty.GetBaseName] получает [dynasty_prestige_i] [EmptyScope.ScriptValue('liege_dismiss_temporary_regency_interaction_dynasty_prestige_value')|V+0] [Concept( 'dynasty_prestige', 'признания' )|E]"
  liege_dismiss_temporary_regency_interaction.tt.recipient_notification: "[actor.GetShortUINameNoTooltip|U] [Select_CString(actor.IslocalPLayer 'сняли', Select_CString(actor.IsFemale, 'сняла', 'снял'))] [Select_CString(recipient.IsLocalPlayer, '', 'персонажа ' )][recipient.GetNamePossessiveOrMy][Select_CString(recipient.IsLocalPlayer, 'его персонажа', '' )] с должности регента"
-  
  liege_dismiss_entrenched_regency_interaction: "Снять укоренившегося регента"
  liege_dismiss_entrenched_regency_interaction_desc: "[recipient.GetShortUINameNoTooltip] тесно [Select_CString(recipient.IsFemale, 'переплелась', 'переплелся' )] с органами государственного управления, но пора [recipient.GetHerHim|l] #EMP уйти#!"
  liege_dismiss_entrenched_regency_interaction.tt.dynasty_receives_prestige: "[dynasty|E] [recipient.GetDynasty.GetBaseName] получает [dynasty_prestige_i] [EmptyScope.ScriptValue('liege_dismiss_entrenched_regency_interaction_dynasty_prestige_value')|V+0] [Concept( 'dynasty_prestige', 'признания' )|E]"
@@ -250,7 +233,6 @@
  liege_dismiss_entrenched_regency_interaction.tt.dynasty_head_likes_dynasty_prestige: "[dynast|E] хочет [dynasty_prestige|El]: $VALUE|+=0$"
  liege_dismiss_entrenched_regency_interaction.tt.zealous_likes_piety: "[GetTrait('zealous').GetName(recipient)] одобряет [piety|El]: $VALUE|+=0$"
  liege_dismiss_entrenched_regency_interaction.tt.greedy_likes_cash: "[GetTrait('greedy').GetName(recipient)] любит [gold|El]: $VALUE|+=0$"
-  
  declare_me_regent_interaction: "Назначьте меня регентом"
  declare_me_regent_interaction_desc: "Никто лучше меня не подходит на роль [Concept( 'regent', 'регента' )|E] [Concept( 'realm', 'державы' )|E], пока [recipient.GetShortUINameNoTooltip] не может ею управлять."
  DECLARE_ME_REGENT_PROPOSAL: "Нужно составить план на случай, если вы не сможете управлять державой. Не думаю, что кто-нибудь станет спорить с тем, что я являюсь лучшим кандидатом на роль будущего регента. Я прошу вас открыто подтвердить мое положение."
@@ -265,8 +247,43 @@
  declare_me_regent_interaction.tt.actor_is.succession_score: "Ваши очки наследования: $VALUE|+=0$"
  declare_me_regent_interaction.tt.warning.opinions.succession: "[actor.Custom('GetCustomTooltip_WeakDiarchSuccessionScore')]"
  declare_me_regent_interaction.tt.warning.opinions.courtlies: "[actor.Custom('GetCustomTooltip_DiarchAppointmentCourtlies')]"
-  
  overthrow_regent_scheme_interaction: "Свергнуть регента"
  overthrow_regent_scheme_interaction_desc: "Попытаться [Concept( 'imprison', 'заключить' )|E] персонажа [recipient.GetFirstNameNoTooltip] в тюрьму и занять [Select_CString(recipient.IsFemale, 'ее', 'его' )] место, взяв титул «[recipient.GetDiarchTitle|l]»"
  overthrow_regent_scheme_interaction.tt.started_scheme: "Вы пытаетесь свергнуть персонажа [recipient.GetFirstNameNoTooltip]"
  overthrow_regent_scheme_interaction.tt.filtered_due_to_incumbent_politicking: "Из-за политических игр, за которыми стоит [recipient.GetLiege.GetDiarchTitle], вы были исключены из очереди наследования позиции «[recipient.GetLiege.GetDiarchyTypeName]»"
+ appoint_vizier_interaction: "Назначить визиря"
+ appoint_vizier_interaction_desc: "Выберите [Concept( 'vizier', 'визиря' )|E], который поможет вам управлять [Concept( 'realm', 'державой' )|E], улучшая работу [Concept( 'tax_collector', 'сборщиков налогов' )|E]"
+ recipient_secondary_appoint_vizier_interaction: "[vizier|E]"
+ appoint_vizier_interaction.tt.duchy_or_more: "[title_tier|EU] ваших владений должен быть не ниже [Concept( 'duchy', 'герцогства' )|E]"
+ appoint_vizier_interaction.tt.warning.vizier_replace_councillor: "@warning_icon! #X Если [secondary_recipient.GetFirstName] получит назначение, то уже не сможет выполнять свою роль в [Concept( 'council', 'совете' )|E], хотя может остаться вашим визирем#!"
+ appoint_vizier_interaction.tt.enter_vizierate_with_secondary_recipient: "Вы вступаете в [Concept( 'vizierate', 'визирство' )|E] и на должности главного министра у вас [secondary_recipient.GetTitledFirstName]"
+ appoint_vizier_interaction.tt.secondary_recipient_is_not_best_candidate: "[secondary_recipient.GetTitledFirstName] #XB НЕ#! является самым подходящим кандидатом #WEAK (ваши управленцы будут недовольны, если вашим выбором не станет [best_candidate.GetTitledFirstName] — у этого кандидата есть [Concept( 'vizier_succession_score', 'очки наследования визиря' )|E])#!"
+ appoint_vizier_interaction.tt.secondary_recipient_grants_tax_jurisdictions: "[Concept( 'stewardship', 'Управление' )|E] этого персонажа даст вам #P +[secondary_recipient.MakeScope.ScriptValue('vizier_bonus_tax_jurisdictions_value')|0]#! к [Concept( 'tax_jurisdictions', 'налоговым юрисдикциям' )|E]"
+ appoint_vizier_interaction.tt.same_house_penalty: "[secondary_recipient.GetFirstNameNoTooltip|U] принадлежит к вашему [Concept( 'house', 'дому' )|E], и потому выше гражданской службы. #WEAK [Select_CString(secondary_recipient.IsFemale, 'Ее', 'Его' )] назначение на этот пост убавит вам [Concept( 'dynasty_prestige', 'признания' )|E] и [Concept( 'prestige', 'престижа' )|E].#!"
+ civil_service_upset_modifier: "Недовольство среди служащих"
+ civil_service_upset_modifier_desc: "Политические назначения огорчили управленцев этого персонажа."
+ liege_dismiss_vizier_interaction: "Отправить визиря в отставку"
+ liege_dismiss_vizier_interaction_desc: "[recipient.GetFirstNameNoTooltip|U] — в сущности, простой секретарь. Конечно же, этого человека можно отправить в отставку без всяких последствий!"
+ liege_dismiss_vizier_interaction.toast.t: "[recipient.GetFirstNameNoTooltip] [Select_CString(recipient.IsFemale, 'отправлена', 'отправлен' )] в отставку с поста визиря"
+ liege_dismiss_vizier_interaction.tt.problematic_dismissal.vizier_too_entrenched: "[recipient.GetFirstName] занимает слишком высокую позицию в [Concept( 'scales_of_power', 'балансе сил' )|E], чтобы [Select_CString(recipient.IsFemale, 'ее', 'его' )] можно было уволить без последствий"
+ liege_dismiss_vizier_interaction.modifier_penalty.scale.desc.scales_of_power: "#WEAK За кажд. ~[EmptyScope.ScriptValue('vizier_dismissal_penalty_sop_mult_value')|%V0] [Concept( 'scales_of_power', 'равновесия сил' )|E]#!"
+ liege_dismiss_vizier_interaction.tt.problematic_dismissal.bribe.duchy: "#WEAK Ваше [Concept( 'scales_of_power', 'равновесие сил' )|E] таково, что если [recipient.GetFirstName] получит хотя бы [Concept( 'duchy', 'герцогство' )|E], [actor.GetDiarchyTypeName] закончится#BOL без#! каких-либо экономических штрафов#!"
+ liege_dismiss_vizier_interaction.tt.problematic_dismissal.bribe.county: "#WEAK Ваше [Concept( 'scales_of_power', 'равновесие сил' )|E] таково, что если [recipient.GetFirstName] получит хотя бы [Concept( 'county', 'графство' )|E], [actor.GetDiarchyTypeName] закончится#BOL без#! каких-либо экономических штрафов#!"
+ civil_service_in_chaos_modifier: "Хаос среди служащих"
+ civil_service_in_chaos_modifier_desc: "Институт гражданской службы этого персонажа был фактически обезглавлен, управление державой превратилось в хаос."
+ mulct_vizier_interaction: "Оштрафовать визиря"
+ mulct_vizier_interaction_desc: "[recipient.GetFirstName], кажется, живет... на удивление роскошно."
+ mulct_vizier_interaction_minimal: "Налоги для проформы"
+ mulct_vizier_interaction_minor: "Обложить налогом личные предметы роскоши"
+ mulct_vizier_interaction_medium: "Эффект от ополчения"
+ mulct_vizier_interaction_major: "Повсеместные пошлины"
+ mulct_vizier_interaction_massive: "Агрессивный учет"
+ mulct_vizier_interaction.extravagances_required.t1: "[recipient.GetFirstName] не имеет [Concept( 'modifiers', 'модификаторов' )|E] [Concept( 'vizier_extravagance', 'заметной роскоши' )|E]"
+ mulct_vizier_interaction.extravagances_required.t2: "[recipient.GetFirstName] не имеет [Concept( 'modifiers', 'модификаторов' )|E] [Concept( 'vizier_extravagance', 'впечатляющей роскоши' )|E]"
+ mulct_vizier_interaction.extravagances_required.t3: "[recipient.GetFirstName] не имеет [Concept( 'modifiers', 'модификаторов' )|E] [Concept( 'vizier_extravagance', 'знаменитой роскоши' )|E]"
+ mulct_vizier_interaction.extravagances_required.t4: "[recipient.GetFirstName] не имеет [Concept( 'modifiers', 'модификаторов' )|E] [Concept( 'vizier_extravagance', 'выдающейся роскоши' )|E]"
+ mulct_vizier_interaction.scales_too_swung.tt: "[recipient.GetFirstNameNoTooltip] занимает слишком высокую позицию в [Concept( 'scales_of_power', 'балансе сил' )|E]"
+ mulct_vizier_interaction.vizier_loses_extravagance_t1_modifiers: "Все [Concept( 'modifiers', 'модификаторы' )|E] [Concept( 'vizier_extravagance', 'заметной роскоши' )|E] удалены #WEAK ([THIS.Char.MakeScope.ScriptValue('vizier_extravagance_modifiers_t1_tally')|0])#!"
+ mulct_vizier_interaction.vizier_loses_extravagance_t2_modifiers: "Все [Concept( 'modifiers', 'модификаторы' )|E] [Concept( 'vizier_extravagance', 'впечатляющей роскоши' )|E] удалены #WEAK ([THIS.Char.MakeScope.ScriptValue('vizier_extravagance_modifiers_t2_tally')|0])#!"
+ mulct_vizier_interaction.vizier_loses_extravagance_t3_modifiers: "Все [Concept( 'modifiers', 'модификаторы' )|E] [Concept( 'vizier_extravagance', 'знаменитой роскоши' )|E] удалены #WEAK ([THIS.Char.MakeScope.ScriptValue('vizier_extravagance_modifiers_t3_tally')|0])#!"
+ mulct_vizier_interaction.vizier_loses_extravagance_t4_modifiers: "Все [Concept( 'modifiers', 'модификаторы' )|E] [Concept( 'vizier_extravagance', 'выдающейся роскоши' )|E] удалены #WEAK ([THIS.Char.MakeScope.ScriptValue('vizier_extravagance_modifiers_t4_tally')|0])#!"

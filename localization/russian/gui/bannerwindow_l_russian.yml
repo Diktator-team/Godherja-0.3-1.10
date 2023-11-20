@@ -10,4 +10,3 @@
  BANNER_CANCEL_RAISING: "Отменить сбор"
  BANNER_CANCEL_RAISING_PROMPT: "#T Отменить сбор в этой точке и распустить армию#!"
  BANNER_LIST_DOMAIN_LIMIT_PENALTY_TOOLTIP: "@warning_icon!#X Превышен [domain_limit|El]. Число бойцов ополчения с домена снизится на $PENALTY|%0$#!"
-  

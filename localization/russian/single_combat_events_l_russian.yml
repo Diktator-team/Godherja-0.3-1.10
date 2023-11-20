@@ -1,93 +1,80 @@
 ﻿l_russian:
-  ################################################## 
-  # Misc Loc 
-  ## Titles 
+ ##################################################
+ #Misc Loc
+ ## Titles
  single_combat.0000.t: "Бой один на один:"
  single_combat.0001.t: "$single_combat.0000.t$ [sc_attacker.GetTitledFirstNameNoTooltip]"
  single_combat.0011.t: "$single_combat.0000.t$ [sc_defender.GetTitledFirstNameNoTooltip]"
  single_combat.0031.t: "$single_combat.0000.t$ Поражение!"
  single_combat.0041.t: "$single_combat.0000.t$ Победа!"
-  
-  ## Intro Spiels 
+ ## Intro Spiels
  single_combat.0001.desc.sc_defender.intro: "[sc_attacker.GetTitledFirstName] и я ходим кругами, оценивая друг друга. [sc_attacker.GetSheHe|U] [sc_attacker.Custom('SignatureWeaponActionThirdPerson')] свое оружие, и [sc_defender.Custom('SignatureWeaponNameOrType')] в моих руках придает мне уверенности. Смертоносное оружие кажется холодным и тяжелым.\n\n"
  single_combat.0001.desc.capstone.intro.first_blood: "Хотя бой продлится до первой крови, облегчения мне это не приносит."
  single_combat.0001.desc.capstone.intro.deadly: "Только один из нас уйдет отсюда живым, и я намереваюсь сделать всё возможное для этого."
  single_combat.0001.desc.sc_attacker.intro: "Несколько коротких мгновений [sc_defender.GetTitledFirstName] и я медленно ходим по кругу, высматривая уязвимость в защите. Я [sc_attacker.Custom('SignatureWeaponAction')] свое оружие, готовясь к защите, тогда как [sc_defender.GetSheHe] поудобнее перехватывает свое."
  single_combat.0001.desc.sc_attacker.intro.epilogue: "\n\nРезкий рывок знаменует начало боя.\n\n"
-  ################################################## 
-  # Tooltips 
-  ## Own Duel Success Increase Tooltips 
+ ##################################################
+ #Tooltips
+ ## Own Duel Success Increase Tooltips
  single_combat.0001.duel_success.none: "#difficulty_hard НЕТ#! увеличения ваших [Concept( 'single_combat_success_chance', 'шансов на победу' )|E]"
  single_combat.0001.duel_success.low: "#difficulty_hard НЕБОЛЬШОЕ#! увеличение ваших [Concept( 'single_combat_success_chance', 'шансов на победу' )|E]"
  single_combat.0001.duel_success.medium: "#difficulty_medium СРЕДНЕЕ#! увеличение ваших [Concept( 'single_combat_success_chance', 'шансов на победу' )|E]"
  single_combat.0001.duel_success.high: "#difficulty_easy ЗНАЧИТЕЛЬНОЕ#! увеличение ваших [Concept( 'single_combat_success_chance', 'шансов на победу' )|E]"
  single_combat.0001.duel_success.very_high: "#difficulty_easy ОЧЕНЬ ЗНАЧИТЕЛЬНОЕ#! увеличение ваших [Concept( 'single_combat_success_chance', 'шансов на победу' )|E]"
-  
-  ## Own Injury Risk Increase Tooltips 
+ ## Own Injury Risk Increase Tooltips
  single_combat.0001.injury.none: "#difficulty_easy НЕТ#! увеличения ваших [Concept( 'single_combat_injury_chance', 'шансов получить ранение' )|E]"
  single_combat.0001.injury.low: "#difficulty_easy НЕБОЛЬШОЕ#! увеличение ваших [Concept( 'single_combat_injury_chance', 'шансов получить ранение' )|E]"
  single_combat.0001.injury.medium: "#difficulty_medium СРЕДНЕЕ#! увеличение ваших [Concept( 'single_combat_injury_chance', 'шансов получить ранение' )|E]"
  single_combat.0001.injury.high: "#difficulty_hard ЗНАЧИТЕЛЬНОЕ#! увеличение ваших [Concept( 'single_combat_injury_chance', 'шансов получить ранение' )|E]"
  single_combat.0001.injury.very_high: "#difficulty_hard ОЧЕНЬ ЗНАЧИТЕЛЬНОЕ#! увеличение ваших [Concept( 'single_combat_injury_chance', 'шансов получить ранение' )|E]"
-  
-  ## Opponent Duel Success Increase Tooltips 
+ ## Opponent Duel Success Increase Tooltips
  single_combat.0001.duel_success.none.has_happened: "#difficulty_hard НЕТ#! увеличения [my_foe.GetHerHis] [Concept( 'single_combat_success_chance', 'шансов на победу' )|E]"
  single_combat.0001.duel_success.low.has_happened: "#difficulty_hard НЕБОЛЬШОЕ#! увеличение [my_foe.GetHerHis] [Concept( 'single_combat_success_chance', 'шансов на победу' )|E]"
  single_combat.0001.duel_success.medium.has_happened: "#difficulty_medium СРЕДНЕЕ#! увеличение [my_foe.GetHerHis] [Concept( 'single_combat_success_chance', 'шансов на победу' )|E]"
  single_combat.0001.duel_success.high.has_happened: "#difficulty_easy ЗНАЧИТЕЛЬНОЕ#! увеличение [my_foe.GetHerHis] [Concept( 'single_combat_success_chance', 'шансов на победу' )|E]"
  single_combat.0001.duel_success.very_high.has_happened: "#difficulty_easy ОЧЕНЬ ЗНАЧИТЕЛЬНОЕ#! увеличение [my_foe.GetHerHis] [Concept( 'single_combat_success_chance', 'шансов на победу' )|E]"
-  
-  ## Opponent Injury Risk Increase Tooltips 
+ ## Opponent Injury Risk Increase Tooltips
  single_combat.0001.injury.none.has_happened: "#difficulty_easy НЕТ#! увеличения [my_foe.GetHerHis] [Concept( 'single_combat_injury_chance', 'шансов получить ранение' )|E]"
  single_combat.0001.injury.low.has_happened: "#difficulty_easy НЕБОЛЬШОЕ#! увеличение [my_foe.GetHerHis] [Concept( 'single_combat_injury_chance', 'шансов получить ранение' )|E]"
  single_combat.0001.injury.medium.has_happened: "#difficulty_medium СРЕДНЕЕ#! увеличение [my_foe.GetHerHis] [Concept( 'single_combat_injury_chance', 'шансов получить ранение' )|E]"
  single_combat.0001.injury.high.has_happened: "#difficulty_hard ЗНАЧИТЕЛЬНОЕ#! увеличение [my_foe.GetHerHis] [Concept( 'single_combat_injury_chance', 'шансов получить ранение' )|E]"
  single_combat.0001.injury.very_high.has_happened: "#difficulty_hard ОЧЕНЬ ЗНАЧИТЕЛЬНОЕ#! увеличение [my_foe.GetHerHis] [Concept( 'single_combat_injury_chance', 'шансов получить ранение' )|E]"
-  
-  ## Duel Edge Overflow Tooltips 
+ ## Duel Edge Overflow Tooltips
  single_combat.0001.tt.maximum_buff_reached: "Достигнут максимальный [Concept( 'single_combat_prowess_bonus', 'бонус к доблести' )|E]"
  single_combat.0001.tt.maximum_debuff_reached: "Достигнут максимальный [Concept( 'single_combat_prowess_malus', 'штраф к доблести' )|E]"
-  
-  ## Misc Combat Options Tooltips 
+ ## Misc Combat Options Tooltips
  single_combat.0001.wound_threshold.minor_malus.tt: "Моему противнику становится чуть проще [Concept( 'single_combat_injury_chance_injure', 'пораниться' )|E]"
  single_combat.0001.wound_threshold.medium_malus.tt: "Моему противнику становится проще [Concept( 'single_combat_injury_chance_injure', 'пораниться' )|E]"
  single_combat.0001.wound_threshold.major_malus.tt: "Моему противнику становится намного проще [Concept( 'single_combat_injury_chance_injure', 'пораниться' )|E]"
-  
  single_combat.0001.wound_threshold.minor_bonus.tt: "Мне становится немного сложнее [Concept( 'single_combat_injury_chance_injure', 'пораниться' )|E]"
  single_combat.0001.wound_threshold.medium_bonus.tt: "Мне становится сложнее [Concept( 'single_combat_injury_chance_injure', 'пораниться' )|E]"
  single_combat.0001.wound_threshold.major_bonus.tt: "Мне становится намного сложнее [Concept( 'single_combat_injury_chance_injure', 'пораниться' )|E]"
-  
-  ## Loser, Duel End Result Tooltips 
+ ## Loser, Duel End Result Tooltips
  single_combat.0031.desc.result.skill: "#BOL Результат:#! [sc_victor.GetFirstNameNoTooltip] побеждает меня в [Concept( 'single_combat_fight', 'поединке' )|E] благодаря более высоким [Concept( 'single_combat_success_chance_skill', 'шансам на победу' )|E]"
  single_combat.0031.desc.result.mistake: "#BOL Результат:#! [sc_victor.GetFirstNameNoTooltip] побеждает меня в [Concept( 'single_combat_fight', 'поединке' )|E] из-за моего высокого [Concept( 'single_combat_injury_chance_injury_risk', 'риска получить ранение' )|E]"
  single_combat.0031.desc.result.sudden_death: "#BOL Результат:#! [sc_victor.GetFirstNameNoTooltip] побеждает меня в [Concept( 'single_combat_fight', 'поединке' )|E] благодаря моему [Concept( 'single_combat_fight_sudden_death', 'риску получить ранение' )|E]"
-  
-  ## Victor, Duel End Result Tooltips 
+ ## Victor, Duel End Result Tooltips
  single_combat.0041.desc.result.skill: "#BOL Результат:#! [sc_loser.GetFirstNameNoTooltip] проигрывает мне в [Concept( 'single_combat_fight', 'поединке' )|E] из-за моего высокого [Concept( 'single_combat_success_chance_skill', 'шанса на победу' )|E]"
  single_combat.0041.desc.result.mistake: "#BOL Результат:#! [sc_loser.GetFirstNameNoTooltip] проигрывает мне в [Concept( 'single_combat_fight', 'поединке' )|E] из-за [sc_loser.GetHerHis] высокого [Concept( 'single_combat_injury_chance_injury_risk', 'риска получить ранение' )|E]"
  single_combat.0041.desc.result.sudden_death: "#BOL Результат:#! [sc_loser.GetFirstNameNoTooltip] проигрывает мне в [Concept( 'single_combat_fight', 'поединке' )|E] из-за своего [Concept( 'single_combat_fight_sudden_death', 'риска получить ранение' )|E]"
-  
-  ## Other, Duel End Result Tooltips 
+ ## Other, Duel End Result Tooltips
  single_combat.result.tt.temporary_modifiers_removed: "Все временные боевые [Concept( 'character_modifiers', 'модификаторы персонажа' )|E] удалены"
  single_combat.result.tt.practice_no_wounds: "Приступ удалось сдержать, и никто из вас не пострадал"
-  
-  ################################################## 
-  # Status Update Fragments 
-  ## Own Duel Success Fragments 
+ ##################################################
+ #Status Update Fragments
+ ## Own Duel Success Fragments
  single_combat.0001.desc.injury_check.personal.very_unlikely: "\n\nМои движения превосходны, вероятность ошибки минимальна,"
  single_combat.0001.desc.injury_check.personal.unlikely: "\n\nУ меня хорошие движения, с незначительными огрехами,"
  single_combat.0001.desc.injury_check.personal.moderate: "\n\nУ меня нормальные движения, хотя и не без изъянов,"
  single_combat.0001.desc.injury_check.personal.likely: "\n\nМои движения сбивчивые, в защите много прорех,"
  single_combat.0001.desc.injury_check.personal.very_likely: "\n\nМои движения сумбурны, а следующий рискованный выпад может привести к поражению,"
-  
-  ## Opponent Duel Success Fragments 
+ ## Opponent Duel Success Fragments
  single_combat.0001.desc.injury_check.opponent.very_unlikely: "а [my_foe.GetFirstNameNoTooltip] держится превосходно."
  single_combat.0001.desc.injury_check.opponent.unlikely: "а [my_foe.GetFirstNameNoTooltip] держится достойно."
  single_combat.0001.desc.injury_check.opponent.moderate: "а [my_foe.GetFirstNameNoTooltip] держится неплохо."
  single_combat.0001.desc.injury_check.opponent.likely: "а [my_foe.GetFirstNameNoTooltip] держится неважно."
  single_combat.0001.desc.injury_check.opponent.very_likely: "а [my_foe.GetFirstNameNoTooltip] держится из рук вон плохо."
-  
-  ## Duel Success Each-Way Fragments 
+ ## Duel Success Each-Way Fragments
  single_combat.0001.desc.success_check.almost_impossible: "\n\nЯ всё еще не могу пробить защиту противника и пока не вижу способов победить."
  single_combat.0001.desc.success_check.very_unlikely: "\n\nМой соперник яростно защищается, и я чувствую, что до победы мне далеко."
  single_combat.0001.desc.success_check.unlikely: "\n\nМой соперник всё еще неплохо держит удар, но, похоже, [my_foe.GetSheHe] начинает ошибаться."
@@ -95,12 +82,12 @@
  single_combat.0001.desc.success_check.likely: "\n\nМне удается удерживать соперника в невыгодном положении, но это еще не победа."
  single_combat.0001.desc.success_check.very_likely: "\n\nПротивника шатает под моими ударами, победа столь близка, что я уже чувствую ее вкус."
  single_combat.0001.desc.success_check.almost_certain: "\n\nОт победы меня отделяет не более одного удачного удара."
-  
-  ################################################## 
-  # Combat Move Options 
-  ## Combat Move Option Copy 
+ ##################################################
+ #Combat Move Options
+ ## Combat Move Option Copy
  single_combat.0001.wait_and_hope: "Может быть, если я подожду, [my_foe.GetSheHe] споткнется и [my_foe.GetHerHis] пронзит [my_foe.GetHerHis] же [my_foe.Custom('signature_weapon')]?"
  single_combat.0001.unsure_attack: "Получай! #EMP Умри#! уже!"
+ single_combat.0001.unsure_attack_non_fatal: "Получай! #EMP Сдавайся#! уже!"
  single_combat.0001.enthusiastic_onslaught.banned_house: "#EMP [myself.GetFullNameNoTooltip]!#!"
  single_combat.0001.enthusiastic_onslaught.own_house: "Вы позорите имя [myself.GetHouse.GetNameNoTooltip]!"
  single_combat.0001.enthusiastic_onslaught.motto: "#EMP [myself.GetHouse.GetMotto]#!, отродье!"
@@ -142,8 +129,7 @@
  single_combat.0001.hurt_me_better: "#EMP Ммммм#!, вы что, думаете, что #EMP это#! больно? Я покажу вам, что такое боль!"
  single_combat.0001.special_fallback: "Падай уже!"
  single_combat.0001.something_to_hide: "Вы не забыли, что #EMP в долгу#! передо мной, [my_foe.GetFirstNameNoTooltip]?"
-  
-  ## Combat Move Option Tooltips 
+ ## Combat Move Option Tooltips
  single_combat.0001.tt.wait_and_hope: "#BOL Ждать и надеяться:#! вы стоите неподвижно и ждете, что [my_foe.GetFirstNameNoTooltip] допустит ошибку"
  single_combat.0001.tt.unsure_attack: "#BOL Неуверенная атака:#! вы храбро пытаетесь атаковать"
  single_combat.0001.tt.enthusiastic_onslaught: "#BOL Воодушевленный натиск:#! вы атакуете, яростно размахивая оружием"
@@ -185,10 +171,9 @@
  single_combat.0001.tt.hurt_me_better: "#BOL Подпитка болью:#! получая удовольствие от боли, вы специально подставляетесь под удары врага"
  single_combat.0001.tt.special_fallback: "#BOL Ненадежное основание:#! вы бьете противника в голень"
  single_combat.0001.tt.something_to_hide: "#BOL Есть что скрывать:#! вы напоминаете противнику, что [my_foe.GetSheHe] у вас [Concept( 'hook', 'на крючке' )|E]"
-  
-  ################################################## 
-  # Combat Descs 
-  ## Own Combat Move Feedback 
+ ##################################################
+ #Combat Descs
+ ## Own Combat Move Feedback
  single_combat.0001.desc.my_feedback.wait_and_hope.will_die: "Я застываю от осознания, что могу погибнуть здесь. Если я не предприму что-нибудь, я #EMP наверняка#! погибну здесь. Я не могу заставить себя двинуться и дрожа от страха молюсь, чтобы [my_foe.GetFirstNameNoTooltip] [Select_CString(my_foe.IsFemale, 'споткнулась', 'споткнулся' )], подставившись под удар."
  single_combat.0001.desc.my_feedback.wait_and_hope.will_live: "Я тяну время, выжидаю. Пусть я и не лучший боец, но, пожалуй, если дать [my_foe.GetHerHim] веревку, [my_foe.GetFirstNameNoTooltip] повесит на ней [my_foe.GetHerselfHimself]."
  single_combat.0001.desc.my_feedback.unsure_attack: "Я пробую делать неумелые [myself.Custom('SignatureWeaponAttemptedLightPlural')], главным образом опасаясь, что [myself.Custom('signature_weapon')] может вылететь у меня из рук, но для противника мои усилия не представляют никакой опасности."
@@ -208,7 +193,7 @@
  single_combat.0001.desc.my_feedback.attempt_disarm: "[myself.Custom('signature_weapon')|U] в моей руке наносит [myself.Custom('SignatureWeaponAttemptedHeavy')] невероятной силы, [my_foe.Custom('signature_weapon')] почти вылетает у н[my_foe.GetHerHis] из рук, но [my_foe.GetSheHe] #EMP с трудом#!, но всё же приходит в себя."
  single_combat.0001.desc.my_feedback.lightning_assault: "Вложив все силы в первый удар, я прыгаю вперед, где меня ждет [my_foe.GetFirstNameNoTooltip], [myself.Custom('SignatureWeaponActionPresentParticiple')] оружие в [myself.Custom('SignatureWeaponAttemptedHeavy')], который отбросит [my_foe.GetHerHis]."
  single_combat.0001.desc.my_feedback.tire_opponent: "Я вновь и вновь отхожу назад, уклоняюсь и отшатываюсь, стараясь держаться на расстоянии удара: уже скоро [my_foe.GetFirstNameNoTooltip] начнет уставать."
-  #^possessive used here in lieu of a contracted "it's". "it's"
+ #^possessive used here in lieu of a contracted "it's".
  single_combat.0001.desc.my_feedback.reason_you_suck_speech: "Некоторые сочтут это безумием — громко критиковать образ жизни моего противника, пока [my_foe.GetSheHe] атакует меня. Они не знают, какое #EMP удовольствие#! приносит внимание публики."
  single_combat.0001.desc.my_feedback.technique_from_legend: "Я изо всех сил пытаюсь воспроизвести события легенды и [myself.Custom('SignatureWeaponAction')] оружие так, как это делали герои древности. Этого хватит, чтобы нанести хороший удар по удивленному противнику."
  single_combat.0001.desc.my_feedback.like_a_viper: "Вложив все свои силы, я прорываюсь сквозь защиту противника и наношу яростный удар, [myself.Custom('signature_weapon')] в моей руке устремляется [myself.Custom2('SignatureWeaponKillTypeThirdPersonFutureGendered',SCOPE.sC('my_foe'))]. Мне самую малость не хватает до кровавой победы."
@@ -232,8 +217,7 @@
  single_combat.0001.desc.my_feedback.hurt_me_better: "Ничто так не разгоняет кровь, как укол сладостной боли, и никто не понимает боль так, как я. Мои раны подпитывают меня, когда я бросаюсь в атаку и обрушиваю на врага яростные [myself.Custom('SignatureWeaponAttemptedLightPlural')]."
  single_combat.0001.desc.my_feedback.special_fallback: "Улучив возможность, а силой пинаю голень врага, почти сбивая [my_foe.GetHerHis] с ног."
  single_combat.0001.desc.my_feedback.something_to_hide: "Некоторое время [my_foe.GetFirstNameNoTooltip] стоит неподвижно. Затем, что-то щелкает в [my_foe.GetHerHis] голове, и [my_foe.GetSheHe] словно сдувается, вспоминая о своем долге передо мной."
-  
-  ## Opponent Combat Move Feedback 
+ ## Opponent Combat Move Feedback
  single_combat.0001.desc.opponent_response.wait_and_hope: "[my_foe.GetFirstNameNoTooltip] стоит без движения, явно надеясь, что [myself.Custom('signature_weapon')] просто выпадет у меня из рук."
  single_combat.0001.desc.opponent_response.unsure_attack: "[my_foe.GetFirstNameNoTooltip] нерешительно пытается нанести [myself.Custom('SignatureWeaponAttemptedLight')] по мне, но я легко отклоняю этот выпад."
  single_combat.0001.desc.opponent_response.enthusiastic_onslaught.banned_house: "«#EMP [my_foe.GetFullNameNoTooltip]!#!» $single_combat.0001.desc.opponent_response.enthusiastic_onslaught.epilogue$"
@@ -268,7 +252,7 @@
  single_combat.0001.desc.opponent_response.rough_terrain_expert.rocky: "Прекрасно чувствуя себя на скалах, [my_foe.GetFirstNameNoTooltip] тут же взбирается выше меня, и благодаря такому преимуществу [my_foe.GetSheHe] #EMP чуть#! не отсекает мне несколько конечностей."
  single_combat.0001.desc.opponent_response.rough_terrain_expert.boggy: "Лучше меня зная, как сражаться в этих болотах, [my_foe.GetFirstNameNoTooltip] раз за разом пытается столкнуть меня в солоноватую воду, причем почти успешно."
  single_combat.0001.desc.opponent_response.forest_fighter: "Благодаря своему знанию леса [my_foe.GetFirstNameNoTooltip] без проблем проходит через заросли и кустарник, тогда как мне приходится прорубать себе дорогу."
- single_combat.0001.desc.opponent_response.raaargh: "[my_foe.GetFirstNameNoTooltip], кажется, вибрирует в течение секунды, затем [my_foe.GetSheHe] взрывается от ярости, крича так громко, что весь [aeras|E] сотрясается, и швыряет в меня [my_foe.GetHerselfHimself] с редкой для #EMP жестокостью#!."
+ single_combat.0001.desc.opponent_response.raaargh: "[my_foe.GetFirstNameNoTooltip] на мгновение замирает в нерешительности, а затем издает крик ярости, способный сотрясти Землю, после чего бросается на меня с невиданной #EMP свирепостью#!."
  single_combat.0001.desc.opponent_response.hard_grit: "[my_foe.GetFirstNameNoTooltip] неприятно удивляет меня своими боевыми навыками, вновь и вновь отклоняя или парируя даже лучшие из моих ударов, обращая их против меня."
  single_combat.0001.desc.opponent_response.feint_and_stab: "[my_foe.GetFirstNameNoTooltip] пытается отвлечь меня и отводит свое оружие влево, чтобы затем другой рукой нанести удар скрытым кинжалом."
  single_combat.0001.desc.opponent_response.butchery: "[my_foe.GetFirstNameNoTooltip] изгибает губы в жестокой ухмылке, и прежде, чем мне удается приготовиться к защите, меня практически сбивают с ног свирепые [my_foe.Custom('SignatureWeaponAttemptedLightPlural')]."
@@ -278,10 +262,9 @@
  single_combat.0001.desc.opponent_response.hurt_me_better: "[my_foe.GetFirstNameNoTooltip] стоит на месте, и по [my_foe.GetHerHis] лицу стекает струйка крови. Когда кровь доходит до [my_foe.GetHerHis] верхней губы, [my_foe.GetSheHe] с пугающей улыбкой слизывает ее."
  single_combat.0001.desc.opponent_response.special_fallback: "Неожиданно [my_foe.GetFirstNameNoTooltip] с силой пинает меня в голень, вынуждая на мгновенье оступиться."
  single_combat.0001.desc.opponent_response.something_to_hide: "«Вы не забыли, что #EMP в долгу#! передо мной, [myself.GetFirstNameNoTooltip]?» — улыбается [my_foe.GetFirstNameNoTooltip]. Когда я понимаю, о чем [my_foe.GetSheHe] говорит, мои плечи поникают сами собой."
-  
-  ################################################## 
-  # Outcome Event: Loser 
-  ## Defender Lost, Own Combat Move Feedback 
+ ##################################################
+ #Outcome Event: Loser
+ ## Defender Lost, Own Combat Move Feedback
  single_combat.0031.desc.sc_defender.wait_and_hope: "Идея подождать, пока противник сделает первый шаг, не принесла никакой пользы, а наоборот, дала [sc_victor.GetHerHim] преимущество."
  single_combat.0031.desc.sc_defender.unsure_attack: "Мои слабые атаки не причиняют никакого вреда."
  single_combat.0031.desc.sc_defender.enthusiastic_onslaught: "От [sc_loser.Custom('SignatureWeaponFlourishPresentParticiple')] нет никакого проку, я лишь напрасно трачу свои силы."
@@ -298,7 +281,7 @@
  single_combat.0031.desc.sc_defender.confident_attack: "Мой противник парирует мои атаки."
  single_combat.0031.desc.sc_defender.expert_onslaught: "Даже мои лучшие [sc_loser.Custom('SignatureWeaponAttemptedHeavyPlural')] не дают никакого результата."
  single_combat.0031.desc.sc_defender.attempt_disarm: "В результате попытки обезоружить противника [sc_loser.Custom('signature_weapon')] вылетает у #EMP меня#! из рук."
-  ### No need for a lightning_assault, as you can't end the duel in the first round. 
+ ### No need for a lightning_assault, as you can't end the duel in the first round.
  single_combat.0031.desc.sc_defender.tire_opponent: "Мои попытки измотать противника провалились, поскольку [sc_victor.GetSheHe] просто игнорирует мои показные увертки."
  single_combat.0031.desc.sc_defender.reason_you_suck_speech: "Мой противник стискивает зубы и не обращает внимания на мои слова."
  single_combat.0031.desc.sc_defender.technique_from_legend: "Воспроизвести подвиг оказалось непросто, и все мои действия не привели ни к чему."
@@ -322,8 +305,7 @@
  single_combat.0031.desc.sc_defender.hurt_me_better: "Боль часто была мне союзником, но сегодня она меня оставила."
  single_combat.0031.desc.sc_defender.special_fallback: "Мой противник без труда оправляется от пинка."
  single_combat.0031.desc.sc_defender.something_to_hide: "Мой противник то ли не слышит, то ли не придает значения моим завуалированным угрозам."
-  
-  ## Defender Lost, Opponent Finishing Move Feedback 
+ ## Defender Lost, Opponent Finishing Move Feedback
  single_combat.0031.desc.opponent_response.wait_and_hope: "[sc_victor.GetFirstNameNoTooltip] на мгновение замирает, а затем пробует осторожно атаковать,"
  single_combat.0031.desc.opponent_response.unsure_attack: "[sc_victor.GetFirstNameNoTooltip] поднимает свое оружие, чтобы нанести [sc_victor.Custom('SignatureWeaponAttemptedLight')],"
  single_combat.0031.desc.opponent_response.enthusiastic_onslaught: "[sc_victor.GetFirstNameNoTooltip] кричит какую-то нелепицу, а затем наносит неуклюжие [sc_victor.Custom('SignatureWeaponAttemptedHeavyPlural')],"
@@ -340,8 +322,8 @@
  single_combat.0031.desc.opponent_response.confident_attack: "[sc_victor.GetFirstNameNoTooltip] поднимает свое оружие, чтобы обрушить множественные [sc_victor.Custom('SignatureWeaponAttemptedLightPlural')],"
  single_combat.0031.desc.opponent_response.expert_onslaught: "[sc_victor.GetFirstNameNoTooltip] #EMP жестко#! давит на меня, [sc_victor.Custom('SignatureWeaponAttemptedHeavyPlural')] кажутся нескончаемыми и"
  single_combat.0031.desc.opponent_response.attempt_disarm: "[sc_victor.GetFirstNameNoTooltip] наносит [sc_victor.Custom('SignatureWeaponAttemptedHeavy')] по моему оружию, и от столкновения [sc_loser.Custom('signature_weapon')] вылетает у меня из рук.\n\n"
-  ### No need for a lightning_assault, as you can't end the duel in the first round. 
- single_combat.0031.desc.opponent_response.tire_opponent: "[sc_victor.GetFirstNameNoTooltip] борется с инерцией самого мира, доводя меня до изнеможения снова и снова, пока"
+ ### No need for a lightning_assault, as you can't end the duel in the first round.
+ single_combat.0031.desc.opponent_response.tire_opponent: "[sc_victor.GetFirstNameNoTooltip] сражается со стойкостью самой Земли, вынуждая меня расходовать силы, а затем"
  single_combat.0031.desc.opponent_response.reason_you_suck_speech: "[sc_victor.GetFirstNameNoTooltip] отходит после каждого удара, отвечая на выпады ехидными замечаниями, а затем"
  single_combat.0031.desc.opponent_response.technique_from_legend: "[sc_victor.GetFirstNameNoTooltip] на мгновение замирает, а затем встает в театральную позу, [sc_victor.Custom('SignatureWeaponFlourishPresentParticiple')] в мою сторону своим оружием.\n\n"
  single_combat.0031.desc.opponent_response.like_a_viper: "[sc_victor.GetFirstNameNoTooltip] почти сияет от радости, когда [sc_victor.Custom('signature_weapon')] устремляется к моему сердцу.\n\n"
@@ -364,8 +346,7 @@
  single_combat.0031.desc.opponent_response.hurt_me_better: "[sc_victor.GetFirstNameNoTooltip] получает #EMP удовольствие#! от моих действий, и с каждым ударом [sc_victor.GetHerHis] жажда битвы лишь растет, а затем"
  single_combat.0031.desc.opponent_response.special_fallback: "[sc_victor.GetFirstNameNoTooltip] на мгновение прищуривается, а затем со всех сил бьет меня в голень.\n\nЯ спотыкаюсь и вижу, как"
  single_combat.0031.desc.opponent_response.something_to_hide: "[sc_victor.GetFirstNameNoTooltip] шепотом озвучивает один из моих #EMP неприглядных#! секретов. Пребывая в глубоком смущении, я позволяю следующему удару достичь цели,"
-  
-  ## Defender Lost, Opponent Finishing Move Injury 
+ ## Defender Lost, Opponent Finishing Move Injury
  single_combat.0031.desc.opponent_response.wait_and_hope.injury: "попадая прямо по костяшкам моей основной руки.\n\nЯ непроизвольно разжимаю пальцы, и мое оружие со звоном падает вниз.\n\nНесколько секунд мы #EMP недоверчиво#! смотрим друг на друга, а затем [sc_victor.GetFirstNameNoTooltip] неуверенно поднимает свое оружие.\n\n«С-сдавайся или умри!»"
  single_combat.0031.desc.opponent_response.unsure_attack.injury: "и несмотря на то, каким робким вышел удар, он весьма неудачно задевает меня, вынуждая повалиться на бок.\n\nИ хотя мне удается встать на ноги, [sc_victor.GetFirstNameNoTooltip], пребывая в полном восторге, уже готовится [sc_victor.Custom('SignatureWeaponKillTypeGroinFirstPersonFuture')] своим оружием при первом же резком движении."
  single_combat.0031.desc.opponent_response.enthusiastic_onslaught.injury: "что почти перерубают запястье моей ведущей руки.\n\nЕще один удар, и [sc_victor.GetSheHe] поставит меня на колени. Я не успеваю восстановить защиту, когда [sc_victor.Custom('SignatureWeaponTipType')] [sc_victor.GetHerHis] оружия с готовностью оказывается у моего горла."
@@ -382,7 +363,7 @@
  single_combat.0031.desc.opponent_response.confident_attack.injury: "изматывая меня, пока моя защита не ослабевает. Теперь [sc_victor.GetSheHe] [Select_CString(sc_victor.IsFemale, 'получила', 'получил' )] #EMP идеальную#! возможность для атаки.\n\nОдним мощным ударом [sc_victor.GetWomanMan] отталкивает меня, и [sc_loser.Custom('signature_weapon')] вылетает у меня из рук.\n\nОдин неверный шаг, и я умру."
  single_combat.0031.desc.opponent_response.expert_onslaught.injury: "раз за разом избивают меня, ломая мне кости при каждом блоке, а затем я падаю на землю бесформенной кучей.\n\nМне холодно, голова кружится, словно ее бьют молотом, а рассудок находится где-то в другом месте. Что это... мы что, кружимся? Я кружусь?\n\nКомок кровавой слизи с кашлем вырывается из моего горла, из-за судорог [sc_loser.Custom('signature_weapon')] выкатывается у меня из рук. [sc_victor.GetFirstNameNoTooltip] отбрасывает его подальше, а затем [sc_victor.GetHerHis] [sc_victor.Custom('signature_weapon')] оказывается у моего горла."
  single_combat.0031.desc.opponent_response.attempt_disarm.injury: "Мы некоторое время смотрим друг на друга. Это напряженный неловкий момент, мы оба ждем, что противник сделает следующий шаг.\n\n[sc_victor.GetFirstNameNoTooltip] угрожающе [sc_victor.Custom('SignatureWeaponFlourishThirdPersonPresentParticiple')] своим оружием и приподнимает бровь."
-  ### No need for a lightning_assault, as you can't end the duel in the first round. 
+ ### No need for a lightning_assault, as you can't end the duel in the first round.
  single_combat.0031.desc.opponent_response.tire_opponent.injury: "я чувствую, что [sc_loser.Custom('signature_weapon')] вот-вот выпадет у меня из рук.\n\nДолжно быть, мой противник что-то замечает, потому что [sc_victor.GetHerHis] [sc_victor.Custom('signature_weapon')] быстрым движением выбивает у меня оружие.\n\nТеперь я полностью в [sc_victor.GetHerHis] власти."
  single_combat.0031.desc.opponent_response.reason_you_suck_speech.injury: "моя защита ослабевает от одного лишь смущения.\n\nИ в #EMP этот самый#! момент [sc_victor.GetSheHe] наносит удар, [sc_victor.Custom('SignatureWeaponAttemptedLight')] выбивает оружие из моей руки.\n\n«Не расстраивайтесь, [sc_victor.GetFirstNameNoTooltip], [sc_loser.Custom('signature_weapon')] всё равно слушается вас лучше, чем [sc_loser.GetPrimaryTitle.GetTierAsNameNoTooltip]»."
  single_combat.0031.desc.opponent_response.technique_from_legend.injury: "Движением настолько красивым, словно оно сошло со страниц преданий, мой противник пробивает мою защиту, [sc_loser.Custom('signature_weapon')] вылетает у меня из рук, а затем на меня обрушивается [sc_victor.Custom('SignatureWeaponAttemptedHeavy')], и я падаю на землю.\n\n[sc_victor.Custom('signature_weapon')|U] взмывает ввысь, и, не обращая внимания на мое полное ошеломление, [sc_victor.GetSheHe] готовится [sc_victor.Custom('SignatureWeaponKillTypeGroinFirstPersonFuture')]."
@@ -390,7 +371,7 @@
  single_combat.0031.desc.opponent_response.pocket_silver.injury: "[sc_victor.GetSheHe] пробивает мою защиту, и [sc_victor.GetHerHis] [sc_victor.Custom('signature_weapon')] оказывается #EMP прямо#! у моего горла.\n\nЯ непроизвольно вздрагиваю и в неловкой тишине прикидываю имеющиеся варианты.\n\n[sc_victor.GetFirstNameNoTooltip] сердито смотрит на меня, [sc_victor.GetHerHis] мышцы напряжены перед ударом."
  single_combat.0031.desc.opponent_response.martial_voice.injury: "Я отпрыгиваю назад так стремительно, что удивительно, как с меня не содрало шкуру. И только мгновение спустя я понимаю, что [sc_loser.Custom('signature_weapon')] остается на прежнем месте, и когда мгновение спустя [sc_victor.GetFirstNameNoTooltip] атакует меня, мне уже нечем защищаться."
  single_combat.0031.desc.opponent_response.mocking_boast.injury: "нанести сильный удар по моей ведущей руке и выбить у меня оружие.\n\nМой противник готовится [sc_victor.Custom('SignatureWeaponKillTypeFirstPersonFuture')] с самодовольной ухмылкой.\n\n«И что же скажет проигравшая сторона?»"
-  ### No need for an is_that_a_crocodile, as it's never just an injury. 
+ ### No need for an is_that_a_crocodile, as it's never just an injury.
  single_combat.0031.desc.opponent_response.desert_warrior.injury: "нанося множественные точные [sc_victor.Custom('SignatureWeaponAttemptedLightPlural')], от которых я, обессилев, падаю на землю.\n\nЯ перекатываюсь и вижу, что [sc_victor.GetFirstNameNoTooltip] уже готовится [sc_victor.Custom('SignatureWeaponKillTypeHeadFirstPersonFuture')]."
  single_combat.0031.desc.opponent_response.jungle_stalker.injury: "нанося мне #EMP сильный#! удар в промежность, от которого я с криком падаю на землю.\n\nНесколько мгновений корчусь от боли, пытаясь высвободиться из объятий этого проклятого растения и проклиная острую боль, а затем застываю, когда до меня доходит, что [sc_victor.Custom('signature_weapon')] противника упирается мне прямо в голову."
  single_combat.0031.desc.opponent_response.open_terrain_expert.injury: "Вскоре я начинаю пошатываться от усталости, и мой противник одним движением валит меня на землю.\n\nЯ пытаюсь встать, но [sc_victor.GetHerHis] сапог упирается мне в грудь, [sc_victor.Custom('signature_weapon')] готовится [sc_victor.Custom('SignatureWeaponKillTypeHeadFirstPersonFuture')]."
@@ -407,8 +388,7 @@
  single_combat.0031.desc.opponent_response.hurt_me_better.injury: "[sc_victor.GetSheHe] с ревом обрушивает на меня множественные [sc_victor.Custom('SignatureWeaponAttemptedHeavyPlural')], под градом которых я падаю на колени.\n\nЯ пытаюсь поднять оружие и отразить очередную атаку, но получаю удар коленом.\n\nЯ падаю, и [sc_defender.Custom('GroundType')] принимает меня в свои объятья. Мир кружится в безумном танце, а затем взгляд заостряется, и я вижу [sc_victor.Custom('signature_weapon')] моего противника."
  single_combat.0031.desc.opponent_response.special_fallback.injury: "[sc_victor.Custom('SignatureWeaponTipType')] [sc_victor.GetHerHis] оружия оказывается в опасной близости от меня."
  single_combat.0031.desc.opponent_response.something_to_hide.injury: "что довольно болезненно возвращает меня к действительности.\n\nНо я не успеваю восстановить защиту, как [sc_victor.GetFirstNameNoTooltip] следующим ударом выбивает оружие из моей руки, лишая меня возможности защититься."
-  
-  ## Defender Lost, Opponent Finishing Move Fatality 
+ ## Defender Lost, Opponent Finishing Move Fatality
  single_combat.0031.desc.opponent_response.wait_and_hope.fatality: "обходя мою защиту, и [sc_victor.Custom('SignatureWeaponKillTypeTorsoThirdPersonActive')].\n\nЯ отшатываюсь назад, и [sc_victor.Custom('signature_weapon')] моего противника с чавкающим звуком выходит из раны. Кровь орошает землю у моих ног, и я могу лишь беззвучно шевелить губами.\n\n[sc_victor.GetFirstNameNoTooltip] смотрит на это с не меньшим удивлением."
  single_combat.0031.desc.opponent_response.unsure_attack.fatality: "и я отшатываюсь назад.\n\n[sc_victor.GetSheHe|U], похоже, успевает задеть меня, но боль слишком сильная, чтобы понять, где именно. Я чувствую, как из моей груди льется горячая кровь, а верхнюю половину тела охватывает невыносимая боль.\n\n[sc_victor.GetFirstNameNoTooltip] взмахивает оружием и готовится [sc_victor.Custom('SignatureWeaponKillTypeFirstPersonFuture')]."
  single_combat.0031.desc.opponent_response.enthusiastic_onslaught.fatality: "кажущиеся просто нелепыми. До тех пор, пока один из ударов не попадает по моей ведущей руке, выбивая оружие.\n\nЯ едва успеваю вскинуть вторую руку, как [sc_victor.GetFirstNameNoTooltip] делает шаг вперед и [sc_victor.Custom('SignatureWeaponKillTypeGroinThirdPersonActive')] своим оружием, [sc_victor.Custom('SignatureWeaponKillTypeGroinThirdPersonActive_Aftermath')].\n\nМои губы безмолвно шевелятся, боль слишком сильна, чтобы издать что-нибудь, кроме судорожного вздоха."
@@ -425,7 +405,7 @@
  single_combat.0031.desc.opponent_response.confident_attack.fatality: "пока неожиданный удар сбоку не пронзает меня до самых кишок.\n\nУдар опрокидывает меня назад, из раны сочится что-то ярко-красное. Я падаю, и [sc_defender.Custom('GroundType')] принимает меня в свои объятья.\n\nБоль поглощает меня. Доводилось ли мне терять столько крови? Мое оружие пинком отброшено в сторону, но мне уже всё равно.\n\nНадо мной стоит [sc_victor.GetFirstNameNoTooltip] и готовится нанести последний удар."
  single_combat.0031.desc.opponent_response.expert_onslaught.fatality: "повергают меня на землю вопящей кучей изувеченной плоти.\n\nМое зрение затуманивается от боли, но я всё равно вижу, как [sc_victor.Custom('signature_weapon')] моего противника покрывается ошметками моей плоти.\n\nСледующий удар приходится мне в горло, прекращая мои крики в коротком кровавом милосердии."
  single_combat.0031.desc.opponent_response.attempt_disarm.fatality: "Я не успеваю возмутиться, как [sc_victor.GetFirstNameNoTooltip] наносит [sc_victor.Custom('SignatureWeaponAttemptedHeavy')] в мою грудную клетку, и всё затмевает пылающая боль.\n\nЯ едва чувствую следующие удары, словно мой разум подернут пеленой тумана. А затем всё окутывает мгла."
-  ### No need for a lightning_assault, as you can't end the duel in the first round. 
+ ### No need for a lightning_assault, as you can't end the duel in the first round.
  single_combat.0031.desc.opponent_response.tire_opponent.fatality: "в моей защите открывается прореха.\n\nСледующий удар широким росчерком рассекает мой живот, и на мои сапоги вываливается смесь из крови, желчи и наполовину переваренной пищи.\n\nЯ кричу от невообразимой боли, хватаясь за вываливающиеся кишки. Возможно, это лишь мое воображение, но [sc_victor.Custom('MaskFace')] моего соперника на мгновение выказывает что-то, похожее на жалость, а затем [sc_victor.GetSheHe] поднимает свое оружие и прекращает мои страдания."
  single_combat.0031.desc.opponent_response.reason_you_suck_speech.fatality: "я кричу от негодования.\n\nПохоже, именно #EMP этого#! и хочет [sc_victor.GetFirstNameNoTooltip] и пользуется этой возможностью, чтобы пробить мою защиту и [sc_victor.Custom('SignatureWeaponWoundVerb5')] свое оружие мне в горло.\n\nЯ лихорадочно пытаюсь вдохнуть, но воздух так и не приходит. Только кровь. Целый поток густой, смешанной со слюной крови вырывается из горла и изо рта."
  single_combat.0031.desc.opponent_response.technique_from_legend.fatality: "Я пытаюсь закрыться, но где-то допускаю просчет. Мир кружится вокруг меня, в голове не остается ни одной связной мысли, меня ведет в сторону, и я ударяюсь обо что-то головой с чавкающим #EMP стуком#!.\n\nЯ больше ничего не чувствую. Не могу говорить. Я... я вижу свое тело на расстоянии вытянутой руки, и из обрубка шеи хлещет кровь.\n\nЯ..."
@@ -449,9 +429,8 @@
  single_combat.0031.desc.opponent_response.wrath_of_highgod.fatality: "следует [sc_victor.Custom('SignatureWeaponAttemptedHeavy')] такой силы, что [sc_loser.Custom('signature_weapon')] [sc_loser.Custom('SignatureWeaponBreaksThirdPersonSingularPresent')].\n\nЯ в ужасе замираю, и бесполезный теперь обломок падает на землю. Это длится секунду, но [sc_victor.GetFirstNameNoTooltip] пользуется заминкой, чтобы [sc_loser.Custom('SignatureWeaponKillTypeFirstPersonFuture')]."
  single_combat.0031.desc.opponent_response.hurt_me_better.fatality: "выплескивается как множественные [sc_victor.Custom('SignatureWeaponAttemptedLightPlural')], швыряющие меня, точно новорожденного щенка.\n\nМои попытки контратаковать не приносят результата, а противник может выдержать сколь угодно тяжелые раны и с лихвой отплатить за них.\n\nЯ не вижу смертельный удар, но чувствую, как он [sc_victor.Custom('SignatureWeaponWoundVerb2PresentParticiple')] в мой бок. Горячая влажная кровь потоком устремляется вниз, и спустя мгновение я падаю на землю."
  single_combat.0031.desc.opponent_response.special_fallback.fatality: "[sc_victor.Custom('SignatureWeaponEndType')] оружия моего противника летит прямо в меня. Я падаю с хрипящим звуком, [sc_loser.Custom('signature_weapon')] отлетает в сторону, а [sc_victor.GetFirstNameNoTooltip] пинком переворачивает меня на спину.\n\nЯ даже не успеваю возмутиться, как [sc_victor.GetSheHe] [sc_victor.Custom('SignatureWeaponKillTypeThirdPersonActive')] своим оружием. Мой живот #EMP взрывается#! болью, конечности немеют, холодеет лицо.\n\nВот... вот и всё."
-  ### No need for a something_to_hide, as it's never fatal. 
-  
-  ## Aggressor Lost, Own Combat Move Feedback 
+ ### No need for a something_to_hide, as it's never fatal.
+ ## Aggressor Lost, Own Combat Move Feedback
  single_combat.0031.desc.sc_attacker.wait_and_hope: "Как оказалось, ждать, пока противник [sc_victor.GetHerselfHimself] себя поранит, было плохой идеей.\n\nЗастыв в нерешительности, я становлюсь легкой мишенью, вскоре следует [sc_victor.Custom('SignatureWeaponAttemptedHeavy')],"
  single_combat.0031.desc.sc_attacker.unsure_attack: "Полагаясь скорее на удачу, чем на опыт, я осторожно делаю [sc_loser.Custom('SignatureWeaponAttemptedLight')] без какого-либо результата. Мой противник без труда уворачивается, а затем"
  single_combat.0031.desc.sc_attacker.enthusiastic_onslaught: "Я бросаюсь в атаку, [sc_loser.Custom('signature_weapon')] [sc_loser.Custom('SignatureWeaponFlourishPresentParticiple')], и намереваюсь обрушить на н[sc_loser.GetHerHis] столько бешеных ударов, сколько потребуется.\n\n"
@@ -469,7 +448,7 @@
  single_combat.0031.desc.sc_attacker.confident_attack: "Я обращаюсь с оружием умело и изящно, но даже самые опытные бойцы порой допускают ошибки. Когда я наношу довольно рискованный [sc_loser.Custom('SignatureWeaponAttemptedLight')], мой соперник"
  single_combat.0031.desc.sc_attacker.expert_onslaught: "Благодаря смертельно опасным навыкам я словно вихрь обрушиваю [sc_loser.Custom('SignatureWeaponAttemptedHeavyPlural')] на противника, и [sc_victor.GetHerHim] приходится шаг за шагом отступать. Победа так близка, что я уже чувствую ее вкус!\n\n"
  single_combat.0031.desc.sc_attacker.attempt_disarm: "Точный расчет — мой лучший шанс на победу, и я пытаюсь выбить оружие у противника, обрушив один мощный [sc_loser.Custom('SignatureWeaponAttemptedHeavy')]. Я почти удивляюсь, когда [sc_victor.GetSheHe] перехватывает мой выпад под неправильным углом,"
-  ### No need for a lightning_assault, as you can't end the duel in the first round. 
+ ### No need for a lightning_assault, as you can't end the duel in the first round.
  single_combat.0031.desc.sc_attacker.tire_opponent: "Решив потянуть время, я отхожу назад, позволяя сопернику наносить удары, пока [sc_victor.GetSheHe] не устанет. Это довольно опасная стратегия, даже в лучшее время, и на меня внезапно обрушиваются [sc_victor.Custom('SignatureWeaponAttemptedLightPlural')], которым удается"
  single_combat.0031.desc.sc_attacker.reason_you_suck_speech: "Некоторые могут счесть глупостью оскорбление образа жизни противника, когда у нас в руках оружие. И они бы осознали свою правоту, когда"
  single_combat.0031.desc.sc_attacker.technique_from_legend: "Мне всегда было интересно, чем [sc_loser.GetLadyLord] разит сильнее, пером или мечом. В случае моего соперника оказалось, что это [sc_victor.GetHerHis] [sc_victor.Custom('signature_weapon')], ибо [sc_victor.GetSheHe] превращает мою попытку воспроизвести легенду в жалкую пародию.\n\n"
@@ -494,8 +473,7 @@
  single_combat.0031.desc.sc_attacker.hurt_me_better: "Я не боюсь боли и стараюсь выжать всё возможное из нанесенных мне ран. Но это слишком даже для меня, и мой разум поглощен не сладостной агонией боли, а неприятным ощущением разорванной плоти.\n\nМоя сосредоточенность пропадает, и вместо воодушевленного натиска получаются унылые [sc_loser.Custom('SignatureWeaponAttemptedLightPlural')].\n\n"
  single_combat.0031.desc.sc_attacker.special_fallback: "Я вкладываю в удар всю свою ярость, пинаю [Select_CString(sc_victor.IsFemale, 'противницу', 'противника' )] в подбородок, и... #EMP промахиваюсь#!. Лишившись равновесия, я стремительно падаю вслед за ушедшим в пустоту ударом.\n\n"
  single_combat.0031.desc.sc_attacker.something_to_hide: "Я едва подхожу к сути тонкого намека на долги [Select_CString(sc_victor.IsFemale, 'противницы', 'противника' )], как [sc_victor.Custom('SignatureWeaponEndType')] [sc_victor.GetHerHis] оружия впивается мне прямо в челюсть. Я отшатываюсь назад,"
-  
-  ## Aggressor Lost, Own Combat Move Injury 
+ ## Aggressor Lost, Own Combat Move Injury
  single_combat.0031.desc.sc_attacker.wait_and_hope.injury: "и вот уже прямо перед моим лицом [sc_defender.Custom('GroundType')]. Я пытаюсь отпрянуть, но, когда чувства возвращаются, первое, что я вижу, — [sc_victor.Custom('signature_weapon')], и [sc_victor.Custom('SignatureWeaponTipType')] крепко прижимается к моему горлу.\n\nЯ вновь застываю."
  single_combat.0031.desc.sc_attacker.unsure_attack.injury: "[sc_victor.Custom('SignatureWeaponAttemptedHeavy')] обрушивается на меня и выбивает из равновесия.\n\nПрежде чем мне удается выпрямиться, сильный пинок сбивает меня с ног, и я с ужасом наблюдаю, как [sc_victor.Custom('signature_weapon')] готовится впиться мне в шею."
  single_combat.0031.desc.sc_attacker.enthusiastic_onslaught.injury: "Я не столько вижу, как [sc_victor.Custom('SignatureWeaponEndType')] бьет меня по голове, сколько чувствую это: висок взрывается раскаленным сгустком боли, а затем мир качается так сильно, что я валюсь набок.\n\n[sc_victor.GetFirstNamePossessiveNoTooltip] приближается — я вижу только ноги — и, немного помедлив из жалости, принимает боевую стойку.\n\nМне хватает сил прохрипеть лишь одно."
@@ -512,7 +490,7 @@
  single_combat.0031.desc.sc_attacker.confident_attack.injury: "блестяще парирует удар, и мое же оружие летит ко мне.\n\n[sc_loser.Custom('signature_weapon')] — вещь очень опасная, и в попытке уклониться от собственного удара я неловко поворачиваюсь, и в меня врезается [sc_victor.Custom('signature_weapon')] [Select_CString(sc_victor.IsFemale, 'противницы', 'противника' )]. И хотя [sc_victor.GetFirstNamePossessiveNoTooltip] сдерживает удар, не позволяя ему стать смертельным, я все равно лечу на землю, теряя оружие."
  single_combat.0031.desc.sc_attacker.expert_onslaught.injury: "Но стоит мне сделать паузу, чтобы насладиться приятным ощущением, как [sc_victor.Custom('SignatureWeaponAttemptedHeavy')] тяжело врезается мне в висок. Я на мгновение обмираю, пошатываюсь, и следующий удар оставляет меня без оружия — теперь только [sc_victor.GetFirstNamePossessiveNoTooltip] решает мою судьбу.\n\n[Select_CString(sc_victor.IsFemale, 'Моя соперница, изможденная, но торжествующая', 'Мой соперник, изможденный, но торжествующий' )], [sc_victor.Custom('SignatureWeaponActionThirdPerson')] [sc_victor.Custom('signature_weapon')] для решающего удара."
  single_combat.0031.desc.sc_attacker.attempt_disarm.injury: "и оружие летит прочь.\n\n[sc_victor.GetFirstNameNoTooltip] [sc_victor.Custom('SignatureWeaponKillTypeThirdPersonActive')], и если я быстро не признаю поражение, так и будет."
-  ### No need for a lightning_assault, as you can't end the duel in the first round. 
+ ### No need for a lightning_assault, as you can't end the duel in the first round.
  single_combat.0031.desc.sc_attacker.tire_opponent.injury: "так мощно выбить меня из равновесия, что я лечу вверх тормашками.\n\n[sc_victor.GetFirstNameNoTooltip] не сбавляет напор и вскоре уже высится надо мной и вот-вот [sc_victor.Custom('SignatureWeaponKillTypeGroinFirstPersonFuture')]."
  single_combat.0031.desc.sc_attacker.reason_you_suck_speech.injury: "[sc_victor.GetSheHe] берет оружие обратным хватом и [sc_victor.Custom('SignatureWeaponEndType')] шлепает меня по шее.\n\nПока я давлюсь и кашляю, пытаясь протолкнуть хоть глоток воздуха в смятое горло, [sc_victor.GetFirstNameNoTooltip] успевает отлично прицелиться.\n\nЕще секунда, и [sc_victor.GetSheHe] точно [sc_victor.Custom('SignatureWeaponKillTypeHeadFirstPersonFuture')]."
  single_combat.0031.desc.sc_attacker.technique_from_legend.injury: "Мой удар далек от совершенства, и уж точно не он ставит точку в этом бою — я принимаю выразительную позу и [sc_loser.Custom('signature_weapon')] выпадает из моей руки! Оружие описывает изящную дугу и улетает вдаль.\n\nВ смятении, но [Select_CString(sc_victor.IsFemale, 'счастливая', 'счастливый' )], [sc_victor.GetFirstNameNoTooltip] просто помахивает своим оружием, и [sc_victor.Custom('signature_weapon')] небрежно колышется в моем направлении."
@@ -520,7 +498,7 @@
  single_combat.0031.desc.sc_attacker.pocket_silver.injury: "[sc_victor.GetFirstNameNoTooltip] усиливает напор, [sc_loser.Custom('signature_weapon')] выворачивается у меня из руки. Понимая, что шансов больше нет, я аккуратно выплевываю серебряную монету."
  single_combat.0031.desc.sc_attacker.martial_voice.injury: "делает [sc_victor.Custom('SignatureWeaponAttemptedHeavy')].\n\nВ ошеломлении, я лишаюсь дыхания и падаю. [sc_victor.GetFirstNameNoTooltip] встает надо мной, [sc_victor.GetHerHis] [sc_victor.Custom('signature_weapon')] наготове — вот-вот он [sc_victor.Custom('SignatureWeaponKillTypeHeadFirstPersonFuture')]."
  single_combat.0031.desc.sc_attacker.mocking_boast.injury: "[sc_victor.Custom('SignatureWeaponAttemptedLight')] бьет меня в грудь. В изумлении я пропускаю следующий удар, и [sc_loser.Custom('signature_weapon')] вылетает из моей руки, а [sc_victor.GetFirstNameNoTooltip] вот-вот [sc_victor.Custom('SignatureWeaponKillTypeFirstPersonFuture')] следующим ударом."
-  ### No need for an is_that_a_crocodile, as it's never just an injury. 
+ ### No need for an is_that_a_crocodile, as it's never just an injury.
  single_combat.0031.desc.sc_attacker.desert_warrior.injury: "Затем [sc_victor.GetFirstNameNoTooltip] делает внезапные [sc_victor.Custom('SignatureWeaponAttemptedLightPlural')], я оступаюсь, и [sc_defender.Custom('GroundType')] принимает меня в твердые объятия. [sc_victor.GetHerHis|U] [sc_victor.Custom('signature_weapon')] мгновенно прижимается к основанию моей шеи."
  single_combat.0031.desc.sc_attacker.jungle_stalker.injury: "Я надеюсь, что [sc_loser.Custom('signature_weapon')] поможет освободиться, но мне недостает скорости — [sc_victor.GetFirstNameNoTooltip] и [sc_victor.GetHerHis] [sc_victor.Custom('SignatureWeaponAttemptedLight')] предугадывают намерение, и мое оружие скрывается в густой тропической растительности.\n\nЧерез пару секунд для меня всё будет кончено."
  single_combat.0031.desc.sc_attacker.open_terrain_expert.injury: "[sc_loser.Custom('signature_weapon')] вылетает у меня из рук, и прежде, чем я вижу, куда приземлилось оружие, [sc_victor.GetFirstNamePossessiveNoTooltip] наступает мне на шею."
@@ -537,8 +515,7 @@
  single_combat.0031.desc.sc_attacker.hurt_me_better.injury: "Мои мысли блуждают где-то далеко, и [sc_victor.GetFirstNameNoTooltip] легко парирует мои удары, выбивает оружие и заставляет признать поражение."
  single_combat.0031.desc.sc_attacker.special_fallback.injury: "[sc_victor.GetFirstNameNoTooltip] с легкостью получает преимущество: [sc_victor.GetSheHe] позволяет мне податься вперед, а потом подсекает опорную ногу. Я падаю в заросли и, получив пару пинков, там и остаюсь."
  single_combat.0031.desc.sc_attacker.something_to_hide.injury: "сплевываю сгустки крови через безвозвратно рассеченную губу.\n\nСледующий удар приходится в живот, и я корчусь на земле. Последнее, что я чувствую сквозь удушье и тошноту, — как выпадает из обессилевшей ладони [sc_loser.Custom('signature_weapon')]."
-  
-  ## Aggressor Lost, Own Combat Move Fatality 
+ ## Aggressor Lost, Own Combat Move Fatality
  single_combat.0031.desc.sc_attacker.wait_and_hope.fatality: "[sc_victor.Custom('SignatureWeaponWoundVerb1ThirdPersonPresent')] прямо мне в горло. Я в ужасе наблюдаю, как жизнь фонтанами вырывается из моего тела, как их напор угасает и кровь быстро заливает мне грудь.\n\nЯ падаю на колени. Мир тускнеет. Или он всегда был таким тусклым?\n\nНичего не чувствую."
  single_combat.0031.desc.sc_attacker.unsure_attack.fatality: "делает неожиданный выпад.\n\n[sc_victor.Custom('SignatureWeaponAttemptedLight')] приходит сбоку и попадает в уязвимое место в моей груди, наискось [sc_victor.Custom('SignatureWeaponKillTypeTorso2PresentParticiple')]. Я ощущаю чудовищную боль, в то же время тело начинает неметь. Десяток разорванных в клочья органов не оставляют мне шансов выжить.\n\nЕсли бы не [sc_victor.Custom('signature_weapon')] в груди, мое тело давно лежало бы на земле."
  single_combat.0031.desc.sc_attacker.enthusiastic_onslaught.fatality: "Я успеваю нанести лишь несколько ударов, как что-то [sc_victor.Custom('SignatureWeaponWoundVerb2ThirdPersonPresent')] мне глубоко в грудь. Я кручусь, теряя равновесие, и вижу, как [sc_victor.GetFirstNamePossessiveNoTooltip] вытаскивает оружие из моего тела. [sc_victor.Custom('signature_weapon')|U] оставляет за собой шлейф крови и осколков костей.\n\nОтрицать очевидное нет смысла, и я наконец чувствую боль. Жгучую, продирающую насквозь агонию, которая сменяется неотвратимым онемением, разбегающимся по телу от смертельной раны в груди."
@@ -555,7 +532,7 @@
  single_combat.0031.desc.sc_attacker.confident_attack.fatality: "[sc_victor.Custom('SignatureWeaponAttemptedHeavy')] приходится мне в живот, разрывает хрупкую плоть, и мои внутренности отвратительным ковром усеивают землю.\n\nЯ поскальзываюсь на собственных кишках и падаю на спину, крича от невыносимой боли.\n\nНу где же этот удар милосердия?!"
  single_combat.0031.desc.sc_attacker.expert_onslaught.fatality: "[sc_loser.Custom('MaskFace')] гудит от удара. Внезапное парирование, [sc_loser.Custom('SignatureWeaponWoundVerb6PresentParticiple')] рану до самой кости, отбрасывает меня назад. Я кричу от изумления и боли, пытаюсь пятиться от звенящего вихря, а потом из-под меня выбивают ноги.\n\nМне хватает времени для протестующего вопля, а затем [sc_victor.GetSheHe] [sc_victor.Custom('SignatureWeaponKillTypeGroinThirdPersonActive')], [sc_victor.Custom('SignatureWeaponKillTypeGroinThirdPersonActive_Aftermath')].\n\nСмерть — это избавление."
  single_combat.0031.desc.sc_attacker.attempt_disarm.fatality: "по-настоящему [sc_loser.Custom('SignatureWeaponBreaksVerbPresentParticiple')].\n\nПосле такого [sc_victor.GetFirstNameNoTooltip] без труда [sc_victor.Custom('SignatureWeaponKillTypeFirstPersonFuture')], тем более что [sc_victor.GetHerHis] [sc_victor.Custom('signature_weapon')] уже начинает превращать остаток моей жизни в калейдоскоп света и боли."
-  ### No need for a lightning_assault, as you can't end the duel in the first round. 
+ ### No need for a lightning_assault, as you can't end the duel in the first round.
  single_combat.0031.desc.sc_attacker.tire_opponent.fatality: "совершенно выбивает меня из равновесия.\n\nСпотыкаюсь и запинаюсь — [sc_victor.Custom('SignatureWeaponAttemptedHeavy')] сбивает с ног, и [sc_defender.Custom('GroundType')] рвется мне навстречу. Даже со сломанным оружием, отбиваться я могу. Следующий удар, который наносит [sc_victor.GetFirstNamePossessiveNoTooltip], я увожу, но еще один [sc_victor.Custom('SignatureWeaponKillTypeHead2ThirdPersonActive')].\n\nМои ужасные крики длятся недолго: боль лишает сознания даже раньше, чем смерть."
  single_combat.0031.desc.sc_attacker.reason_you_suck_speech.fatality: "[sc_victor.GetFirstNameNoTooltip] пользуется моей невнимательностью и атакует. [sc_victor.Custom('SignatureWeaponAttemptedHeavy')] [sc_victor.Custom('SignatureWeaponKillTypeHead2ThirdPersonActive')].\n\nЯ клонюсь назад, кровь хлещет ужасающим фонтаном. Быть этого не может. Я же не могу умереть так... Ведь еще... Могло бы... Я могу...\n\nНичего я не могу. Пошатнувшись, я падаю навстречу залитой кровью могиле."
  single_combat.0031.desc.sc_attacker.technique_from_legend.fatality: "Какая там быстрая победа... Я лечу на пол лицом вниз. Едва успеваю скорчиться, как [sc_victor.GetFirstNamePossessiveNoTooltip] наносит удар, и [sc_victor.Custom('signature_weapon')] [sc_victor.Custom('SignatureWeaponKillTypeRearTorsoThirdPersonActive')].\n\nВозбуждение пересиливает боль, но не полностью, и я кричу, когда удар в спину отправляет меня навстречу неизбежной гибели."
@@ -579,9 +556,8 @@
  single_combat.0031.desc.sc_attacker.wrath_of_highgod.fatality: "ударить меня в лицо. Я отшатываюсь, когда [sc_loser.Custom('MaskFace')] и [sc_victor.GetHerHis] [sc_victor.Custom('signature_weapon')] буквально бьются друг о друга.\n\nЯ рычу, проклиная святотатство, но ярость захлебывается, когда [sc_victor.GetFirstNameNoTooltip] [sc_victor.Custom('SignatureWeaponWoundVerb5ThirdPersonPresent')] свое оружие мне в легкое. Я давлюсь, задыхаюсь, не в силах выдавить ни звука, когда кровь начинает заполнять грудную клетку."
  single_combat.0031.desc.sc_attacker.hurt_me_better.fatality: "У каждого человека есть предел, после которого он истекает кровью. Для меня он давно миновал.\n\n[sc_victor.GetFirstNameNoTooltip] и [sc_victor.GetHerHis] [sc_victor.Custom('signature_weapon')] вот-вот [sc_victor.Custom('SignatureWeaponKillTypeHeadFirstPersonFuture')]."
  single_combat.0031.desc.sc_attacker.special_fallback.fatality: "Моя спина открыта, и [sc_victor.GetFirstNameNoTooltip] с легкостью [sc_victor.Custom('SignatureWeaponKillTypeFirstPersonFuture')] — [sc_victor.Custom('SignatureWeaponAttemptedLightPlural')] шквалом сыплются на меня.\n\n[sc_defender.Custom('GroundType')] несется навстречу, я приземляюсь на бок, через сломанные кости и разорванные органы прорывается хриплый кашель. Как же больно. Как же больно. Охватывает холод... накатывает оцепенение... всё меркнет..."
-  ### No need for a something_to_hide, as it's never fatal. 
-  
-  ## Loser Option Copy 
+ ### No need for a something_to_hide, as it's never fatal.
+ ## Loser Option Copy
  single_combat.0031.a.scream: "#EMP А-А-А!#!"
  single_combat.0031.a.wordless: "..."
  single_combat.0031.a.muffled: "М-рм! #EMP МР-Р-РМ!#! #DIE2 Мр-рм-м#!..."
@@ -607,10 +583,9 @@
  single_combat.0031.a.killed_by_best_friend: "Ты же... #DIE1 [Select_CString(sc_victor.IsFemale, 'моя', 'мой' )] [Select_CString(sc_victor.IsFemale,'sister','brother')], [sc_victor.GetFirstNameNoTooltip]#!... #DIE2 Наша любовь была#!..."
  single_combat.0031.b: "Сдайся! Сдайся!"
  single_combat.0031.c: "Ты пожалеешь о том дне, когда [sc_loser.GetTitledFirstNameNoTooltip] [Select_CString(sc_loser.IsFemale, 'потерпела поражение', 'потерпел поражение' )]!"
-  
-  ################################################## 
-  # Outcome Event: Victor 
-  ## Defender Won, Own Combat Move Feedback 
+ ##################################################
+ #Outcome Event: Victor
+ ## Defender Won, Own Combat Move Feedback
  single_combat.0041.desc.sc_defender.wait_and_hope: "Идея подождать, пока [Select_CString(sc_loser.IsFemale, 'противница', 'противник' )] сделает первый шаг, оказалась на удивление хорошей."
  single_combat.0041.desc.sc_defender.unsure_attack: "Мои робкие попытки напасть в целом не принесли результатов."
  single_combat.0041.desc.sc_defender.enthusiastic_onslaught: "[sc_victor.Custom('SignatureWeaponFlourishPresentParticiple')], похоже, хорошая идея."
@@ -627,7 +602,7 @@
  single_combat.0041.desc.sc_defender.confident_attack: "Как говорится, уверенность дает умение — и мой удар тому доказательство."
  single_combat.0041.desc.sc_defender.expert_onslaught: "Немногие могут выдержать мои [sc_victor.Custom('SignatureWeaponAttemptedHeavyPlural')], и [Select_CString(sc_loser.IsFemale, 'моя противница', 'мой противник' )] не из их числа."
  single_combat.0041.desc.sc_defender.attempt_disarm: "Мне хотелось застать [Select_CString(sc_loser.IsFemale, 'противницу', 'противника' )] врасплох и обезоружить, но вышло даже лучше."
-  ### No need for a lightning_assault, as you can't end the duel in the first round. 
+ ### No need for a lightning_assault, as you can't end the duel in the first round.
  single_combat.0041.desc.sc_defender.tire_opponent: "Кажется, мне удалось измотать [Select_CString(sc_loser.IsFemale, 'противницу', 'противника' )]."
  single_combat.0041.desc.sc_defender.reason_you_suck_speech: "Мои речи приводят [Select_CString(sc_loser.IsFemale, 'противницу', 'противника' )] в большую ярость, чем [sc_victor.Custom('signature_weapon')]."
  single_combat.0041.desc.sc_defender.technique_from_legend: "Победить [Select_CString(sc_loser.IsFemale, 'мою противницу', 'моего противника' )] не труднее, чем пересказать историю."
@@ -651,8 +626,7 @@
  single_combat.0041.desc.sc_defender.hurt_me_better: "Боль — лучший союзник в бою, и она на #EMP моей#! стороне."
  single_combat.0041.desc.sc_defender.special_fallback: "Мало кто ожидает тактического пинка в лодыжку."
  single_combat.0041.desc.sc_defender.something_to_hide: "Мои намеки приводят [Select_CString(sc_loser.IsFemale, 'противника', 'противницу' )] в ужас."
-  
-  ## Defender Won, Opponent Finishing Move Feedback 
+ ## Defender Won, Opponent Finishing Move Feedback
  single_combat.0041.desc.opponent_response.wait_and_hope: "Когда [sc_loser.GetFirstNameNoTooltip] просто замирает на месте, я тоже едва не застываю! Но если [sc_loser.GetSheHe] не собирается сражаться, меня это не остановит. Я делаю рывок, и [sc_victor.Custom('SignatureWeaponAttemptedHeavy')] летит к цели.\n\n"
  single_combat.0041.desc.opponent_response.unsure_attack: "[sc_loser.GetFirstNameNoTooltip] небрежно делает [sc_loser.Custom('SignatureWeaponAttemptedLightPlural')], но я с легкостью от них уворачиваюсь.\n\n"
  single_combat.0041.desc.opponent_response.enthusiastic_onslaught: "С энтузиазмом отчаявшегося новичка,[sc_loser.GetFirstNameNoTooltip] летит на меня, нечленораздельно вопя, и [sc_loser.GetHerHis] [sc_loser.Custom('signature_weapon')] яростно [sc_loser.Custom('SignatureWeaponFlourishPresentParticiple')].\n\n"
@@ -670,7 +644,7 @@
  single_combat.0041.desc.opponent_response.confident_attack: "[sc_loser.GetFirstNameNoTooltip] не понаслышке знает, что такое [sc_loser.Custom('signature_weapon')], но без риска нет победы в бою. И вот проходит особенно рискованный [sc_loser.Custom('SignatureWeaponAttemptedLight')], когда я"
  single_combat.0041.desc.opponent_response.expert_onslaught: "[sc_loser.GetFirstNameNoTooltip] дерется как [Select_CString(sc_loser.IsFemale, 'одержимая', 'одержимый' )], [sc_loser.Custom('SignatureWeaponAttemptedHeavyPlural')] сыплются ураганом, который теснит меня всё дальше и дальше.\n\nИ лишь когда [sc_loser.GetSheHe] на миг останавливается, чтобы порадоваться неминуемой победе,"
  single_combat.0041.desc.opponent_response.attempt_disarm: "[sc_loser.GetFirstNameNoTooltip] рвется ко мне. [sc_loser.Custom('SignatureWeaponAttemptedHeavy')|U] — и [sc_victor.Custom('signature_weapon')] едва не вылетает из руки, но я твердо держу оружие и делаю выпад.\n\nСудя по всему, [sc_loser.GetHerHis] оружие поймано под странным углом, потому что"
-  ### No need for a lightning_assault, as you can't end the duel in the first round. 
+ ### No need for a lightning_assault, as you can't end the duel in the first round.
  single_combat.0041.desc.opponent_response.tire_opponent: "[sc_loser.GetFirstNameNoTooltip] постоянно делает вид, будто открывается для моих ударов, но в последний момент отшатывается. Разгадав хитрость, я с каждым ударом ускоряю темп, и время от времени [sc_loser.GetSheHe] не успевает среагировать.\n\n"
  single_combat.0041.desc.opponent_response.reason_you_suck_speech: "Всем известно, что [sc_loser.GetFirstNameNoTooltip] любит поговорить, и по [sc_loser.GetHerHis] стойке видно, что сейчас [sc_loser.GetSheHe] воспользуется возможностью прочитать очередную лекцию. Что ж, пора показать [sc_loser.GetHerHim], что [sc_victor.Custom('signature_weapon')] острее любого острого языка.\n\n"
  single_combat.0041.desc.opponent_response.technique_from_legend: "[sc_loser.GetFirstNameNoTooltip] принимает неестественно напряженную позу."
@@ -695,8 +669,7 @@
  single_combat.0041.desc.opponent_response.hurt_me_better: "[sc_loser.GetFirstNameNoTooltip] делает какую-то гримасу, но что она выражает — знает только [sc_victor.GetFaith.HealthGodName]. Страх? Боль? Похоть? Вряд ли я это когда-нибудь узнаю.\n\nЗа непонятным выражением следуют жалкие, бесполезные [sc_loser.Custom('SignatureWeaponAttemptedLightPlural')],"
  single_combat.0041.desc.opponent_response.special_fallback: "[sc_loser.GetFirstNameNoTooltip] вылетает из ниоткуда и направляет хорошо рассчитанный пинок туда, где мгновение назад #EMP была#! моя щиколотка. Растеряв остатки равновесия, изумленный противник пролетает мимо.\n\n"
  single_combat.0041.desc.opponent_response.something_to_hide: "[sc_loser.GetFirstNameNoTooltip] делает жалкую попытку смутить меня грозным голосом и витиеватыми угрозами, но я теряю терпение, и [sc_victor.Custom('SignatureWeaponEndType')] моего оружия бьет [sc_loser.GetHerHim] прямо в челюсть.\n\nКонечно, [sc_loser.GetSheHe] тут же отлетает назад,"
-  
-  ## Defender Won, Opponent Finishing Move Injury 
+ ## Defender Won, Opponent Finishing Move Injury
  single_combat.0041.desc.opponent_response.wait_and_hope.injury: "От моих ударов не уйти, их невозможно парировать, и в последний момент я понимаю, что [sc_victor.Custom2('SignatureWeaponKillTypeHeadThirdPersonPresentGendered',SCOPE.sC('sc_loser'))], и успеваю отдернуть руку.\n\nВместо этого я просто прикасаюсь оружием к врагу. [sc_loser.GetFirstNameNoTooltip] чувствует, как прижимается к н[sc_loser.GetHerHim] [sc_victor.Custom('signature_weapon')], и замирает. Но всем ясно, что победа за мной."
  single_combat.0041.desc.opponent_response.unsure_attack.injury: "Я ставлю на то, что [sc_loser.GetFirstNamePossessiveNoTooltip] — человек робкий, поэтому наношу [sc_victor.Custom('SignatureWeaponAttemptedHeavy')], и [sc_loser.GetSheHe] теряет равновесие. Без передышки я жестко пинаю [sc_loser.GetHerHis] в колено, и [sc_loser.GetFirstNameNoTooltip] с #EMP шумом#! падает.\n\nТеперь у меня достаточно времени, чтобы приготовиться к жестокому убийству. Пару мгновений спустя [sc_loser.GetSheHe] признает поражение."
  single_combat.0041.desc.opponent_response.enthusiastic_onslaught.injury: "Я выжидаю, и, подгадав момент, наношу страшный удар [sc_loser.GetHerHim] в висок. [sc_victor.Custom('signature_weapon')|U] раскалывает череп [Select_CString(sc_loser.IsFemale, 'противницы', 'противника' )], и [sc_loser.GetSheHe] падает, как обезглавленная овца.\n\nПару секунд я наблюдаю, как [sc_loser.GetWomanMan] жалко корчится и стонет у моих ног, и готовлюсь добить [Select_CString(sc_loser.IsFemale, 'несчастную', 'несчастного' )].\n\nВ оставшиеся несколько мгновений [sc_loser.GetFirstNameNoTooltip] успевает хрипло признать поражение."
@@ -713,7 +686,7 @@
  single_combat.0041.desc.opponent_response.confident_attack.injury: "так сильно отбиваю [sc_loser.GetHerHis] оружие, что оно бьет прямо по н[sc_loser.GetHerHim].\n\nЧтобы не попасть по себе, [sc_loser.GetFirstNameNoTooltip] [Select_CString(sc_loser.IsFemale, 'вынуждена', 'вынужден' )] подставиться под мой удар. Конечно, [sc_victor.Custom('signature_weapon')] бьет не насмерть, но [sc_loser.GetHerHim] все равно крепко достается.\n\n[sc_loser.GetHerHis|U] [sc_loser.Custom('signature_weapon')] отлетает при падении, и [sc_loser.GetFirstNameNoTooltip] может только признать поражение."
  single_combat.0041.desc.opponent_response.expert_onslaught.injury: "Я наношу отчаянный удар, и [sc_victor.Custom('signature_weapon')] попадает [sc_loser.GetHerHim] в висок.\n\n[sc_loser.GetFirstNameNoTooltip] слепо отшатывается и открывается. Я не упускаю возможность, и [sc_victor.Custom('SignatureWeaponAttemptedHeavy')] выбивает [sc_loser.GetHerHis] оружие.\n\nС пустыми руками [sc_loser.GetSheHe] мало что может и знает это. Через пару мгновений у меня уже просят пощады."
  single_combat.0041.desc.opponent_response.attempt_disarm.injury: "мне достаточно лишь чуть довернуть, и [sc_loser.GetHerHis] [sc_loser.Custom('signature_weapon')] улетает, как забавная стрела-переросток.\n\nКогда [sc_loser.GetFirstNameNoTooltip] понимает, что произошло, [sc_loser.GetSheHe] смущенно признает поражение."
-  ### No need for a lightning_assault, as you can't end the duel in the first round. 
+ ### No need for a lightning_assault, as you can't end the duel in the first round.
  single_combat.0041.desc.opponent_response.tire_opponent.injury: "[sc_loser.GetFirstNameNoTooltip] теряет равновесие, спотыкается и неловко падает.\n\nВозвышаясь над противником, я наношу [sc_victor.Custom('SignatureWeaponAttemptedLightPlural')], и [sc_victor.Custom('signature_weapon')] превращается в настоящий вихрь.\n\nСначала [sc_loser.GetSheHe] пытается сопротивляться, но когда понимает, что я вот-вот [sc_victor.Custom2('SignatureWeaponKillTypeGroinThirdPersonFutureGendered',SCOPE.sC('sc_loser'))], признает поражение."
  single_combat.0041.desc.opponent_response.reason_you_suck_speech.injury: "Я делаю шаг вперед, [sc_victor.Custom('SignatureWeaponEndType')] моего оружия бьет [sc_loser.GetHerHim] по шее. [sc_loser.GetFirstNameNoTooltip] разражается хрипом, пытаясь втянуть хоть немного воздуха через пережатое горло.\n\nПосле этого мне совсем не трудно приготовиться к удару, который, без сомнения, [sc_victor.Custom2('SignatureWeaponKillTypeThirdPersonFutureGendered',SCOPE.sC('sc_loser'))], и принудить [Select_CString(sc_loser.IsFemale, 'противницу', 'противника' )] признать поражение."
  single_combat.0041.desc.opponent_response.technique_from_legend.injury: "На мгновение я в замешательстве останавливаюсь, не понимая, что происходит, но слышу звон, и всё становится ясно.\n\n[sc_loser.GetFirstNameNoTooltip] слишком уж картинно и #EMP неуклюже#! [Select_CString(sc_loser.IsFemale, 'сменила', 'сменил' )] стойку, и [sc_loser.GetHerHis] [sc_loser.Custom('signature_weapon')] попросту #EMP выпал#!.\n\nЕдва сдерживая ехидный смех, я лишь слегка помахиваю оружием, намекая, что пора сдаваться."
@@ -721,7 +694,7 @@
  single_combat.0041.desc.opponent_response.pocket_silver.injury: "Я резко бросаюсь в атаку, наношу [sc_victor.Custom('SignatureWeaponAttemptedHeavy')] во всю мощь, и [sc_loser.Custom('signature_weapon')] вылетает из [sc_loser.GetHerHis] руки.\n\n[Select_CString(sc_loser.IsFemale, 'Ошеломленная', 'Ошеломленный' )] [sc_loser.GetFirstNameNoTooltip] застывает без движения. [sc_loser.GetSheHe|U] осторожно выплевывает серебряную монету и признает поражение."
  single_combat.0041.desc.opponent_response.martial_voice.injury: "Тогда и только тогда я прыгаю вперед, наношу [sc_victor.Custom('SignatureWeaponAttemptedHeavy')] и [sc_loser.GetSheHe] плюхается на задницу.\n\nНесмотря на головокружение, [sc_loser.GetFirstNameNoTooltip] сперва собирается продолжить бой, но когда понимает, что противник вот-вот [sc_loser.GetHerHis] [sc_victor.Custom2('SignatureWeaponKillTypeHeadThirdPersonFutureGendered',SCOPE.sC('sc_loser'))], признает поражение."
  single_combat.0041.desc.opponent_response.mocking_boast.injury: "наношу [sc_victor.Custom('SignatureWeaponAttemptedLight')] прямо [sc_loser.GetHerHim] в грудь.\n\nВместе с дыханием [sc_loser.GetFirstNameNoTooltip] лишается сил продолжать бой, и следующим ударом я выбиваю у н[sc_loser.GetHerHis] из рук оружие.\n\nВ [sc_loser.GetHerHis] просьбе о пощаде звучат горечь и унижение."
-  ### No need for an is_that_a_crocodile, as it's never just an injury. 
+ ### No need for an is_that_a_crocodile, as it's never just an injury.
  single_combat.0041.desc.opponent_response.desert_warrior.injury: "Я исступленно наношу [sc_victor.Custom('SignatureWeaponAttemptedLightPlural')], которые так ошеломляют [Select_CString(sc_loser.IsFemale, 'противницу', 'противника' )], что [sc_loser.GetSheHe] спотыкается и падает лицом вниз.\n\nКогда [sc_victor.Custom('signature_weapon')] упирается [sc_loser.GetHerHim] в шею, мольба о пощаде звучит очень быстро, хотя и очень неразборчиво."
  single_combat.0041.desc.opponent_response.jungle_stalker.injury: "Я не упускаю возможность. [sc_victor.Custom('SignatureWeaponAttemptedLight')|U] — и [sc_loser.Custom('signature_weapon')] [Select_CString(sc_loser.IsFemale, 'противницы', 'противника' )] летит в кусты, затем я даю понять, что сейчас [sc_victor.Custom2('SignatureWeaponKillTypeThirdPersonFutureGendered',SCOPE.sC('sc_loser'))].\n\n[sc_loser.GetFirstNameNoTooltip] немедленно сдается."
  single_combat.0041.desc.opponent_response.open_terrain_expert.injury: "[sc_loser.GetSheHe|U] ничего не подозревает и выполняет мое заветное желание: спотыкается.\n\n[sc_victor.Custom('SignatureWeaponAttemptedLight')] виртуозно превращает неровную поступь в полноценное падение, [sc_loser.GetHerHis] [sc_loser.Custom('signature_weapon')] летит прочь, и [sc_loser.GetSheHe] оказывается на земле.\n\nМой сапог на шее заставляет [sc_loser.GetHerHis] признать поражение."
@@ -738,8 +711,7 @@
  single_combat.0041.desc.opponent_response.hurt_me_better.injury: "и я даже чувствую легкий укол жалости, когда [sc_loser.Custom('signature_weapon')] вылетает у н[sc_loser.GetHerHis] из руки.\n\nТребуется немало тычков, чтобы выбить из противника просьбу о пощаде, но в конце концов [sc_loser.GetFirstNameNoTooltip] подчиняется."
  single_combat.0041.desc.opponent_response.special_fallback.injury: "Я вижу хорошую возможность закончить бой и пинаю скорчившееся тело, пока не раздается придушенная просьба о пощаде."
  single_combat.0041.desc.opponent_response.something_to_hide.injury: "корчится на земле, сотрясаясь от рвотных спазмов.\n\nПинок — и [sc_loser.Custom('signature_weapon')] вылетает из [sc_loser.GetHerHis] руки, а [sc_loser.GetSheHe] #EMP немедленно#! молит о пощаде."
-  
-  ## Defender Lost, Opponent Finishing Move Fatality 
+ ## Defender Lost, Opponent Finishing Move Fatality
  single_combat.0041.desc.opponent_response.wait_and_hope.fatality: "Удар попадает [Select_CString(sc_victor.IsFemale, 'противнице', 'противнику' )] в горло, оставляя в нем кровавую щель с неровными краями. [sc_loser.GetFirstNamePossessiveNoTooltip] сгибается, с ужасом наблюдая, как жизнь утекает из [sc_loser.GetHerHis] тела алым потоком, бегущим из раны по груди.\n\n[sc_loser.GetFirstNameNoTooltip] падает на колени и вскоре затихает."
  single_combat.0041.desc.opponent_response.unsure_attack.fatality: "Пока [sc_loser.GetSheHe] пытается осознать происходящее, я делаю рискованный выпад. [sc_victor.Custom('SignatureWeaponAttemptedLight')|U] попадает в уязвимое место на [sc_loser.GetHerHis] груди, [sc_victor.Custom2('SignatureWeaponKillTypeTorso2ThirdPersonPresentParticipleGendered',SCOPE.sC('sc_loser'))] под углом и проникает глубоко в грудную клетку.\n\n[sc_loser.GetFirstNameNoTooltip] тут же замирает, не в силах преодолеть терзающую боль.\n\nКогда [sc_victor.Custom('signature_weapon')] выходит из [sc_loser.GetHerHis] тела, [sc_loser.GetSheHe] уже [Select_CString(sc_loser.IsFemale, 'мертва', 'мертв' )], и труп неловко обрушивается наземь."
  single_combat.0041.desc.opponent_response.enthusiastic_onslaught.fatality: "Натиск разбивается — [sc_victor.Custom('SignatureWeaponAttemptedLight')] попадает [Select_CString(sc_victor.IsFemale, 'противнице', 'противнику' )] в грудь, [sc_victor.Custom2('SignatureWeaponKillTypeTorsoThirdPersonPresentParticipleGendered',SCOPE.sC('sc_loser'))] и вырывается наружу в облаке костяной крошки и ошметков плоти.\n\nПо инерции [sc_loser.GetFirstNameNoTooltip] резко разворачивается и бесформенной грудой валится наземь. Потрясение и боль сливаются в [sc_loser.GetHerHis] судорогах, каждое отчаянное подергивание словно рвется наружу из самого умирающего сердца."
@@ -756,7 +728,7 @@
  single_combat.0041.desc.opponent_response.confident_attack.fatality: "вкладываю все силы в удар по [sc_loser.GetHerHis] животу.\n\nУдар минует кожу, жир, мышцы и открывает дорогу лентам внутренностей, которыми вскоре покрывается [sc_defender.Custom('GroundType')], [sc_loser.GetFirstNameNoTooltip] поскальзывается и с воплем падает на спину.\n\nЯ шагаю вперед, поднимаю оружие, и [sc_victor.Custom('signature_weapon')] обрывает страдания [Select_CString(sc_loser.IsFemale, 'моей противницы', 'моего противника' )]."
  single_combat.0041.desc.opponent_response.expert_onslaught.fatality: "Мне удается парировать на удивление жестко. Блок отражает [sc_loser.GetHerHis] удар, и [sc_loser.Custom('signature_weapon')] бьет [sc_loser.GetHerHis] в голову. [sc_loser.Custom('MaskFace')] раскалывается, [sc_loser.Custom('SignatureWeaponWoundVerb6PresentParticiple')] до самой кости.\n\nЯ не теряю времени и выбиваю ноги из-под [Select_CString(sc_loser.IsFemale, 'соперницы', 'соперника' )] ловкой подсечкой, после чего [sc_victor.Custom2('SignatureWeaponKillTypeGroinThirdPersonPresentParticipleGendered',SCOPE.sC('sc_loser'))], [sc_victor.Custom2('SignatureWeaponKillTypeGroinThirdPersonPresentParticipleGendered_Aftermath',SCOPE.sC('sc_loser'))].\n\nКрики затихают слишком долго."
  single_combat.0041.desc.opponent_response.attempt_disarm.fatality: "[sc_loser.Custom('SignatureWeaponBreaksThirdPersonSingularPresent')].\n\n[sc_loser.GetHerHis|U] оружие бесполезно, и [sc_loser.GetFirstNameNoTooltip] [sc_victor.Custom('SignatureWeaponKillTypePastTense')]."
-  ### No need for a lightning_assault, as you can't end the duel in the first round. 
+ ### No need for a lightning_assault, as you can't end the duel in the first round.
  single_combat.0041.desc.opponent_response.tire_opponent.fatality: "Когда я вижу, что [sc_loser.GetFirstNameNoTooltip] теряет равновесие, то наношу [sc_victor.Custom('SignatureWeaponAttemptedHeavy')], и [sc_loser.GetSheHe] падает.\n\nК [sc_loser.GetHerHis] чести нужно сказать, что следующий удар [sc_loser.GetSheHe] парирует. А следующий [sc_victor.Custom2('SignatureWeaponKillTypeHead2ThirdPersonActiveGendered',SCOPE.sC('sc_loser'))]: придушенный хрип скоро уступает тишине и спокойствию."
  single_combat.0041.desc.opponent_response.reason_you_suck_speech.fatality: "Я делаю шаг вперед и наношу удар. [sc_victor.Custom('SignatureWeaponAttemptedHeavy')] [sc_victor.Custom2('SignatureWeaponKillTypeHead2ThirdPersonActiveGendered',SCOPE.sC('sc_loser'))].\n\n[sc_loser.GetFirstNameNoTooltip] отшатывается, из разорванной глотки хлещет кровь. На мгновение мне кажется, что [sc_loser.GetSheHe] еще сможет выпрямиться и даже продолжить бой.\n\nНо [sc_loser.GetSheHe] падает."
  single_combat.0041.desc.opponent_response.technique_from_legend.fatality: "\n\nНе скажу наверняка, #EMP почему#! [sc_loser.GetSheHe] встает именно так, но я даю быстрый ответ на странное поведение: [sc_victor.Custom('signature_weapon')] [sc_victor.Custom2('SignatureWeaponKillTypeRearTorsoThirdPersonPresentParticipleGendered',SCOPE.sC('sc_loser'))].\n\nНикаких хитроумных ударов, никаких скрытых ловушек... Видимо, стойка была просто... странной.\n\nЯ пожимаю плечами, бью ногой, [sc_loser.GetFirstNameNoTooltip] опрокидывается на спину и ждет смертельного удара."
@@ -780,9 +752,8 @@
  single_combat.0041.desc.opponent_response.wrath_of_highgod.fatality: "вбиваю [sc_victor.Custom('SignatureWeaponEndType')] моего оружия в [sc_loser.GetHerHis] лицо.\n\nТакое святотатство вызывает бурю ярости, [sc_loser.GetFirstNameNoTooltip] отшатывается, осыпая меня грязными ругательствами. Но я [sc_victor.Custom('SignatureWeaponWoundVerb5')] оружие [sc_loser.GetHerHim] в легкое.\n\nОстаются лишь кашель и хрип, но вскоре проходят и они."
  single_combat.0041.desc.opponent_response.hurt_me_better.fatality: "и думаю, мы оба знаем, что [sc_loser.GetSheHe] не представляет для меня угрозы, да и ответить как следует не может.\n\nОдин сильный удар — и я [sc_victor.Custom2('SignatureWeaponKillTypeHeadThirdPersonFutureGendered',SCOPE.sC('sc_loser'))]."
  single_combat.0041.desc.opponent_response.special_fallback.fatality: "[sc_loser.GetSheHe|U] как на ладони, и мои [sc_victor.Custom('SignatureWeaponAttemptedLightPlural')] дождем сыплются [sc_loser.GetHerHim] на спину. [sc_loser.GetFirstNameNoTooltip] падает на землю.\n\n[sc_loser.GetSheHe|U] тяжело заваливается на бок, выкашливая сгустки крови, но вскоре из [sc_loser.GetHerHis] горла раздается лишь изможденный предсмертный хрип."
-  ### No need for a something_to_hide, as it's never fatal. 
-  
-  ## Aggressor Won, Own Combat Move Feedback 
+ ### No need for a something_to_hide, as it's never fatal.
+ ## Aggressor Won, Own Combat Move Feedback
  single_combat.0041.desc.sc_attacker.wait_and_hope: "Я терпеливо выжидаю удобного момента.\n\nОн так и не наступает, я очень #EMP медленно#! наношу [sc_victor.Custom('SignatureWeaponAttemptedLight')], который"
  single_combat.0041.desc.sc_attacker.unsure_attack: "Лучшая защита — уверенное нападение, но иногда уверенность может быть не очень твердой. Я помню это и наношу [sc_victor.Custom('SignatureWeaponAttemptedLight')] очень осторожно.\n\n"
  single_combat.0041.desc.sc_attacker.enthusiastic_onslaught: "Я вызывающе рычу, вкладываю в [sc_victor.Custom('SignatureWeaponAttemptedHeavyPlural')] всю силу и осыпаю [Select_CString(sc_loser.IsFemale, 'противницу', 'противника' )] градом ударов.\n\n"
@@ -800,7 +771,7 @@
  single_combat.0041.desc.sc_attacker.confident_attack: "Уверенность — половина победы. Когда я наношу [sc_victor.Custom('SignatureWeaponAttemptedLightPlural')], то делаю это с уверенностью настоящего эксперта."
  single_combat.0041.desc.sc_attacker.expert_onslaught: "Моя рука стремительна как молния, а [sc_victor.Custom('signature_weapon')] разит как падающая скала."
  single_combat.0041.desc.sc_attacker.attempt_disarm: "Я вижу отличную возможность разоружить [Select_CString(sc_loser.IsFemale, 'противницу', 'противника' )]. [sc_victor.Custom('signature_weapon')|U] делает [sc_victor.Custom('SignatureWeaponAttemptedHeavy')], и [sc_loser.GetHerHis] [sc_loser.Custom('signature_weapon')] вылетает из руки.\n\n"
-  ### No need for a lightning_assault, as you can't end the duel in the first round. 
+ ### No need for a lightning_assault, as you can't end the duel in the first round.
  single_combat.0041.desc.sc_attacker.tire_opponent: "Я тяну время, сохраняю спокойствие, неустанно парирую и раздражающе уклоняюсь — силы [Select_CString(sc_loser.IsFemale, 'противницы', 'противника' )] неумолимо тают.\n\n"
  single_combat.0041.desc.sc_attacker.reason_you_suck_speech: "Когда [sc_loser.Custom('signature_weapon')] соперника устремляется ко мне, я парирую его едкой остротой и отпрыгиваю.\n\n"
  single_combat.0041.desc.sc_attacker.technique_from_legend: "Перед моим внутренним взором стоит легендарный герой, и я приказываю телу превратиться в него, приняв неловкую стойку, в то же время [sc_victor.Custom('SignatureWeaponFlourishPresentParticiple')] мое оружие.\n\n"
@@ -825,8 +796,7 @@
  single_combat.0041.desc.sc_attacker.hurt_me_better: "Мой противник всерьез считает, что [sc_loser.GetHerHis] жалкие удары причиняют мне боль. Похоже, [sc_loser.GetSheHe] не понимает, что боль лишь заставляет меня сражаться жестче и быстрее.\n\n"
  single_combat.0041.desc.sc_attacker.special_fallback: "Я замечаю небольшую уязвимость в защите соперника и жестоко бью [sc_loser.GetHerHis] по щиколотке."
  single_combat.0041.desc.sc_attacker.something_to_hide: "Шипящим, надтреснутым шепотом я сообщаю [Select_CString(sc_victor.IsFemale, 'противнице', 'противнику' )], что [sc_loser.GetSheHe] в моей власти, и [sc_loser.GetSheHe] немедленно застывает на месте.\n\n"
-  
-  ## Aggressor Won, Own Combat Move Injury 
+ ## Aggressor Won, Own Combat Move Injury
  single_combat.0041.desc.sc_attacker.wait_and_hope.injury: "всё равно попадает [Select_CString(sc_victor.IsFemale, 'противнице', 'противнику' )] по костяшкам рабочей руки. [sc_loser.GetFirstNameNoTooltip] инстинктивно разжимает кулак, и [sc_loser.GetHerHis] [sc_loser.Custom('signature_weapon')] со звоном падает на землю.\n\n[sc_loser.GetFirstNameNoTooltip] и я смотрим друг на друга широко открытыми глазами, [sc_loser.GetSheHe] явно [Select_CString(sc_loser.IsFemale, 'удивлена', 'удивлен' )] не меньше моего.\n\nПроходит целая вечность, прежде чем я требую признать поражение."
  single_combat.0041.desc.sc_attacker.unsure_attack.injury: "Чудо из чудес! Удар действительно попадает в цель, хотя и под странным углом, и [sc_loser.GetFirstNameNoTooltip] падает!\n\nКогда [sc_loser.GetHerHim] вновь удается встать на ноги, [sc_victor.Custom('signature_weapon')] вот-вот [sc_victor.Custom2('SignatureWeaponKillTypeGroinThirdPersonFutureGendered',SCOPE.sC('sc_loser'))]. Просьба о пощаде не заставляет себя ждать."
  single_combat.0041.desc.sc_attacker.enthusiastic_onslaught.injury: "Конечно же, [sc_loser.GetFirstNameNoTooltip] вскоре падает на колени, и мне остается лишь сделать одно ленивое движение, чтобы [sc_victor.Custom('SignatureWeaponTipType')] моего оружия прижался к [sc_loser.GetHerHis] горлу.\n\nСтоит [sc_loser.GetHerHim] ощутить холод металла на шее, как [sc_loser.GetSheHe] немедленно просит пощады."
@@ -843,7 +813,7 @@
  single_combat.0041.desc.sc_attacker.confident_attack.injury: "[sc_loser.GetFirstNameNoTooltip] изо всех сил пытается заставить меня отступить, но [Select_CString(sc_loser.IsFemale, 'сама', 'сам' )] [sc_loser.GetSheHe] не выходит из обороны, которая с каждым ударом становится всё слабее.\n\nКак только представляется возможность, я наношу [sc_victor.Custom('SignatureWeaponAttemptedHeavy')] и выбиваю у н[sc_loser.GetHerHis] оружие. [sc_loser.Custom('signature_weapon')|U] улетает прочь, и исход боя становится ясен.\n\nЯ не успеваю замахнуться, как слышу просьбу о пощаде."
  single_combat.0041.desc.sc_attacker.expert_onslaught.injury: "Удар за ударом я заставляю [Select_CString(sc_loser.IsFemale, 'противницу', 'противника' )] уступить, вбиваю в н[sc_loser.GetHerHis] покорность, прижимаю к земле с яростью, которую дарует мне [sc_victor.GetFaith.WarGodName].\n\nКогда [sc_loser.GetWomanMan] превращается в жалкую, истерзанную груду кровавой плоти, мне начинает казаться, что с яростью вышел перебор. Но когда [sc_loser.GetFirstNameNoTooltip] кашляет достаточно сильно, [sc_loser.GetHerHis] рука разжимается и [sc_loser.Custom('signature_weapon')] падает, я вздыхаю с облегчением.\n\nВолнение уходит, и я ногой отбрасываю оружие врага подальше, а свое прижимаю к [sc_loser.GetHerHis] горлу. И хотя речь дается [sc_loser.GetHerHim] с трудом, в конце концов [sc_loser.GetFirstNameNoTooltip] просит пощады."
  single_combat.0041.desc.sc_attacker.attempt_disarm.injury: "Всё прошло... прошло на удивление гладко, если учесть обстоятельства. [sc_loser.GetFirstNameNoTooltip] и я просто неловко таращились друг на друга: [sc_loser.GetSheHe] — не зная, броситься за оружием или сдаться, а я — в изумлении от того, что всё прошло идеально.\n\nОдним движением брови я даю понять, что, если [sc_loser.GetFirstNameNoTooltip] думает продолжить бой, ради [sc_loser.GetHerHis] собственного благополучия с этой мыслью стоит расстаться, и [sc_victor.Custom('signature_weapon')] подкрепляет мое утверждение.\n\nПросьба о пощаде звучит пристыженно, но спешно."
-  ### No need for a lightning_assault, as you can't end the duel in the first round. 
+ ### No need for a lightning_assault, as you can't end the duel in the first round.
  single_combat.0041.desc.sc_attacker.tire_opponent.injury: "Нужно отдать должное: [sc_loser.GetFirstNamePossessiveNoTooltip] держится дольше, чем ожидалось, но всё-таки долгий поединок заметно [sc_loser.GetHerHis] выматывает.\n\nДля надежности я еще немного тяну, провоцируя [Select_CString(sc_loser.IsFemale, 'противницу', 'противника' )], и [sc_victor.Custom('SignatureWeaponAttemptedLightPlural')] не прекращаются. Затем я наношу [sc_victor.Custom('SignatureWeaponAttemptedHeavy')], и [sc_loser.GetHerHis] [sc_loser.Custom('signature_weapon')] вылетает из руки.\n\n[sc_loser.GetFirstNameNoTooltip] в изнеможении просит о пощаде и падает ниц."
  single_combat.0041.desc.sc_attacker.reason_you_suck_speech.injury: "Слой за слоем я проникаю в душу [Select_CString(sc_loser.IsFemale, 'противницы', 'противника' )] и вдоволь насыщаюсь [sc_loser.GetHerHis] нерешительностью, пока [sc_loser.GetHerHis] защита не начинает трещать под напором раздражительности.\n\nИ только когда [sc_loser.GetFirstNamePossessiveNoTooltip] уже кипит от злости, я стремительно нападаю, наношу [sc_victor.Custom('SignatureWeaponAttemptedLight')], и [sc_loser.GetHerHis] [sc_loser.Custom('signature_weapon')] отлетает прочь.\n\nПоследнее замечание о [sc_loser.GetHerHis] выдержке, и вот оно — горькое, печальное признание поражения. Никогда еще соленые слезы не были такими сладкими."
  single_combat.0041.desc.sc_attacker.technique_from_legend.injury: "И вдруг всё как-то... получается. Я не обращаю внимания, когда [sc_loser.GetFirstNamePossessiveNoTooltip] пытается защищаться, с легкостью выбиваю у н[sc_loser.GetHerHis] оружие, и вот [sc_loser.Custom('signature_weapon')] летит в одну сторону, а [sc_loser.GetHerHis] я швыряю наземь.\n\nСейчас я [sc_victor.Custom2('SignatureWeaponKillTypeGroinThirdPersonFutureGendered',SCOPE.sC('sc_loser'))]. В изумлении, замешательстве и растущем ужасе [sc_loser.GetFirstNameNoTooltip] выпаливает сбивчивую просьбу о пощаде."
@@ -851,7 +821,7 @@
  single_combat.0041.desc.sc_attacker.pocket_silver.injury: "\n\nХотя [sc_loser.GetFirstNameNoTooltip] уворачивается, мне удается пробить брешь в [sc_loser.GetHerHis] защите и #EMP приблизиться#! к [Select_CString(sc_loser.IsFemale, 'противнице', 'противнику' )]. [sc_victor.Custom('signature_weapon')|U] прижимается к [sc_loser.GetHerHis] горлу.\n\nСразу [sc_loser.GetFirstNameNoTooltip] не сдается. Мгновение кажется, что [sc_loser.GetSheHe] попытается применить собственное оружие, но я скалюсь и встаю в боевую позицию. Становится ясно, что конец у поединка может быть только один.\n\nКонечно, [sc_loser.GetSheHe] признает поражение."
  single_combat.0041.desc.sc_attacker.martial_voice.injury: "[sc_loser.GetFirstNameNoTooltip] совершенно не ожидает, что на смену моим громогласным воплям придет [sc_victor.Custom('SignatureWeaponAttemptedHeavy')], и в ужасе отшатывается.\n\nВ инстинктах [sc_loser.GetHerHim] не откажешь, но ловкости недостает, поэтому [Select_CString(sc_loser.IsFemale, 'противница', 'противник' )] попросту роняет оружие. [sc_loser.GetSheHe] отпрыгивает, а [sc_loser.Custom('signature_weapon')] остается лежать.\n\nЯ готовлю смертельный удар, но [sc_loser.GetFirstNameNoTooltip] поспешно просит о пощаде."
  single_combat.0041.desc.sc_attacker.mocking_boast.injury: "открывают брешь в защите. Пророчество, которое исполнилось само, — лучше и не скажешь, хотя ему и пришлось немного помочь.\n\nЗатем [sc_loser.GetFirstNamePossessiveNoTooltip] получает удар по руке, и [sc_loser.Custom('signature_weapon')] падает на землю. Я грозно вращаю оружием, [sc_victor.Custom('signature_weapon')] вот-вот [sc_victor.Custom2('SignatureWeaponKillTypeThirdPersonFutureGendered',SCOPE.sC('sc_loser'))]. Я не могу удержаться от последнего укола.\n\n«Ну, что мы говорим, когда проигрываем?»\n\nСудя по всему, мы говорим «сдаюсь». Сдается, сдается, сдается."
-  ### No need for an is_that_a_crocodile, as it's never just an injury. 
+ ### No need for an is_that_a_crocodile, as it's never just an injury.
  single_combat.0041.desc.sc_attacker.desert_warrior.injury: "и [sc_loser.GetFirstNameNoTooltip] уже на грани истощения.\n\nКогда напор окончательно изматывает [sc_loser.GetHerHis], я наношу [sc_victor.Custom('SignatureWeaponAttemptedLightPlural')], и [Select_CString(sc_loser.IsFemale, 'противница', 'противник' )] летит на землю.\n\nКогда [sc_loser.GetFirstNameNoTooltip] переворачивается на спину, я уже держу оружие наготове и вот-вот [sc_victor.Custom2('SignatureWeaponKillTypeThirdPersonFutureGendered',SCOPE.sC('sc_loser'))]. [sc_loser.GetSheHe|U] выплевывает землю и просит пощады."
  single_combat.0041.desc.sc_attacker.jungle_stalker.injury: "Стремительный пинок в пах опрокидывает [Select_CString(sc_loser.IsFemale, 'кричащую противницу', 'кричащего противника' )] в кусты. Сначала [sc_loser.GetFirstNameNoTooltip] пытается выбраться, но быстро затихает, когда [sc_victor.Custom('SignatureWeaponTipType')] касается [sc_loser.GetHerHis] лица.\n\nПросьба о пощаде раздается в мгновение ока."
  single_combat.0041.desc.sc_attacker.open_terrain_expert.injury: "В конце концов [sc_loser.GetFirstNameNoTooltip] настолько выматывается, что начинает спотыкаться, и мои [sc_victor.Custom('SignatureWeaponAttemptedHeavy')] бросают [sc_loser.GetHerHis] на землю.\n\n[Select_CString(sc_loser.IsFemale, 'Противница', 'Противник' )] пытается, шатаясь, встать на ноги, но усердие сменяется паникой, когда я ставлю сапог [sc_loser.GetHerHim] на голову.\n\n[sc_victor.Custom('signature_weapon')|U] вот-вот [sc_victor.Custom2('SignatureWeaponKillTypeHeadThirdPersonFutureGendered',SCOPE.sC('sc_loser'))], и я слышу придушенную просьбу о пощаде."
@@ -868,8 +838,7 @@
  single_combat.0041.desc.sc_attacker.hurt_me_better.injury: "Агония и возбуждение достигают апогея, с могучим воплем я волной рассыпаю [sc_victor.Custom('SignatureWeaponAttemptedHeavyPlural')], под тяжестью которых [sc_loser.GetFirstNameNoTooltip] падает на колени.\n\n[Select_CString(sc_loser.IsFemale, 'Противница', 'Противник' )] пытается парировать, не замечая, что мое колено и [sc_loser.GetHerHis] [sc_loser.Custom('MaskFace')] вот-вот встретятся. [sc_loser.GetFirstNameNoTooltip] падает на спину, хватая воздух широко раскрытым ртом.\n\n[sc_loser.GetSheHe|U] всё еще задыхается, когда хрипло просит пощады, не отрывая глаз от моего приближающегося оружия."
  single_combat.0041.desc.sc_attacker.special_fallback.injury: "Кажется, [sc_loser.GetSheHe] этого не [Select_CString(sc_loser.IsFemale, 'ожидала', 'ожидал' )] — ноги [Select_CString(sc_loser.IsFemale, 'противницы', 'противника' )] заплетаются, и [sc_loser.GetSheHe] жестко падает.\n\nСо всей деликатностью [sc_victor.Custom('SignatureWeaponTipType')] моего оружия опускается [sc_loser.GetHerHim] на лицо.\n\nПросьба о пощаде раздается незамедлительно, как только [sc_loser.GetFirstNamePossessiveNoTooltip] оправляется от потрясения."
  single_combat.0041.desc.sc_attacker.something_to_hide.injury: "[sc_loser.GetFirstNameNoTooltip] [Select_CString(sc_loser.IsFemale, 'погружена', 'погружен' )] в собственные мысли, и я наношу [sc_victor.Custom('SignatureWeaponAttemptedLight')], который отбрасывает [sc_loser.GetHerHis] назад. Затем второй удар — и [sc_loser.Custom('signature_weapon')] вырывается из [sc_loser.GetHerHis] руки.\n\nПроще простого [sc_victor.Custom('SignatureWeaponWoundVerb1PresentParticiple')] [Select_CString(sc_loser.IsFemale, 'противницу', 'противника' )], когда у н[sc_loser.GetHerHis] нет оружия. Чувствуя дыхание смерти, [sc_loser.GetFirstNameNoTooltip] признает поражение."
-  
-  ## Aggressor Won, Own Combat Move Fatality 
+ ## Aggressor Won, Own Combat Move Fatality
  single_combat.0041.desc.sc_attacker.wait_and_hope.fatality: "всё равно минует защиту [Select_CString(sc_loser.IsFemale, 'противницы', 'противника' )] и [sc_victor.Custom2('SignatureWeaponKillTypeTorsoThirdPersonActiveGendered',SCOPE.sC('sc_loser'))].\n\n[sc_loser.GetFirstNamePossessiveNoTooltip] неловко пятится, и [sc_victor.Custom('signature_weapon')] с отвратительным хлюпаньем освобождается. Кровь бьет фонтаном, затем превращается в поток, заливающий землю вокруг н[sc_loser.GetHerHis]. Губы [Select_CString(sc_loser.IsFemale, 'противницы', 'противника' )] дрожат и подергиваются, будто пытаются вытащить из боли слова.\n\n[sc_loser.GetFirstNameNoTooltip] [Select_CString(sc_loser.IsFemale, 'изумлена', 'изумлен' )] не меньше меня."
  single_combat.0041.desc.sc_attacker.unsure_attack.fatality: "Хоть убей, не понимаю, #EMP куда#! [Select_CString(sc_loser.IsFemale, 'ранена', 'ранен' )] [sc_loser.GetFirstNameNoTooltip], но рана точно есть: после удара  отшатывается и пятится. Кровь стекает по [sc_loser.GetHerHis] груди, и [sc_loser.GetSheHe] недоверчиво смотрит на нее.\n\nЯ знаю, чем всё закончится, и не дам [Select_CString(sc_loser.IsFemale, 'противнице', 'противнику' )] шанс забрать меня с собой в могилу. [sc_victor.Custom('signature_weapon')|U] начинает смертельный замах."
  single_combat.0041.desc.sc_attacker.enthusiastic_onslaught.fatality: "Энтузиазм способен заменить многое, и сейчас он спасает там, где не хватает навыка: рывок, полный исключительно грубой силы, — и [sc_loser.GetFirstNamePossessiveNoTooltip] лишается оружия.\n\nЯ не собираюсь терять время и немедленно надвигаюсь на [Select_CString(sc_loser.IsFemale, 'противницу', 'противника' )], [Select_CString(sc_loser.IsFemale, 'которая', 'который' )] уже пытается прикрыться руками, и с безжалостной эффективностью [sc_victor.Custom2('SignatureWeaponKillTypeGroinThirdPersonFutureGendered',SCOPE.sC('sc_loser'))].\n\nКрики прекращаются раньше, чем поток кровавых ошметков."
@@ -886,7 +855,7 @@
  single_combat.0041.desc.sc_attacker.confident_attack.fatality: "Когда мне кажется, что пора, я нарушаю ритм выпадов внезапным скользящим ударом сбоку, который [sc_loser.GetFirstNameNoTooltip] получает прямо в живот.\n\nУдар отбрасывает [Select_CString(sc_loser.IsFemale, 'противницу', 'противника' )] назад, в образовавшейся дыре поблескивает красным какой-то явно нужный орган, и [sc_loser.GetFirstNameNoTooltip] падает.\n\nЯ осторожно приближаюсь, но быстро понимаю, что начинается предсмертная агония. Я отбрасываю [sc_loser.GetHerHis] оружие подальше и готовлюсь прикончить [Select_CString(sc_loser.IsFemale, 'противницу', 'противника' )]."
  single_combat.0041.desc.sc_attacker.expert_onslaught.fatality: "Честно говоря, то, как [sc_loser.GetFirstNameNoTooltip] выдерживает столько ударов, достойно восхищения — ведь [sc_victor.Custom('signature_weapon')] в моей руке напоминает свирепую бурю.\n\nНо через пару минут [sc_loser.GetSheHe] превращается в кровавую груду искореженной, #EMP вопящей#! плоти.\n\nТолько когда становится ясно, что никаких попыток убить меня из последних сил не последует, я добиваю [Select_CString(sc_loser.IsFemale, 'несчастную', 'несчастного' )]."
  single_combat.0041.desc.sc_attacker.attempt_disarm.fatality: "Я не знаю пощады. [sc_victor.Custom('SignatureWeaponAttemptedHeavy')|U] без помех [sc_victor.Custom('SignatureWeaponWoundVerb4ThirdPersonPresent')] сквозь [sc_loser.GetHerHis] ребра.\n\nПродолжаю, и вскоре [sc_loser.GetFirstNameNoTooltip] обрушивается на землю, теряя силы и волю к жизни. Лишь когда тело прекращает двигаться и только дергается под моими ударами, я останавливаюсь."
-  ### No need for a lightning_assault, as you can't end the duel in the first round. 
+ ### No need for a lightning_assault, as you can't end the duel in the first round.
  single_combat.0041.desc.sc_attacker.tire_opponent.fatality: "Приходится подождать, пока [sc_loser.GetFirstNamePossessiveNoTooltip] не откроется, но, как только я вижу брешь, сразу берусь за дело. [sc_victor.Custom('signature_weapon')|U] делает [sc_victor.Custom('SignatureWeaponAttemptedHeavy')], разрывая [sc_loser.GetHerHis] живот и проникая внутрь.\n\nКровь, желчь и остатки ужина [Select_CString(sc_loser.IsFemale, 'противницы', 'противника' )] заливают мои ноги, и [sc_loser.GetFirstNamePossessiveNoTooltip] душераздирающе кричит.\n\nЯ проявляю милосердие и быстро прекращаю[sc_loser.GetHerHis] страдания."
  single_combat.0041.desc.sc_attacker.reason_you_suck_speech.fatality: "[sc_loser.GetHerHis|U] удары всё поспешнее, в их судорожности чувствуется [sc_loser.GetHerHis] безысходность. Наконец [sc_loser.GetFirstNameNoTooltip] испускает вопль отчаяния.\n\nВ этот самый момент я прорываю брешь в [sc_loser.GetHerHis] защите, [sc_victor.Custom('SignatureWeaponWoundVerb5PresentParticiple')] мое оружие глубоко в [sc_loser.GetHerHis] глотку.\n\nНа кровавое месиво, в которое она превращается, больно смотреть. К счастью, [sc_loser.GetFirstNameNoTooltip] падает лицом вниз, прекращая наши мучения."
  single_combat.0041.desc.sc_attacker.technique_from_legend.fatality: "Я мчусь на врага скорее с надеждой, чем верой в успех, [sc_victor.Custom('signature_weapon')] летит впереди меня, глаза инстинктивно зажмурены, а где-то впереди ждет [sc_loser.GetFirstNameNoTooltip].\n\nИ вот [sc_victor.Custom('signature_weapon')] налетает на что-то очень твердое, звук разрываемой пополам плоти — и какая-то судорога пробегает по руке. Открываю глаза, ожидая встретить свою судьбу, но вижу лишь #EMP разодранный#! пенек на месте шеи, откуда к небу задорно устремляется фонтан крови.\n\nКогда я нахожу [sc_loser.GetHerHis] голову, в ее взоре, конечно же, не остается жизни."
@@ -910,15 +879,12 @@
  single_combat.0041.desc.sc_attacker.wrath_of_highgod.fatality: "[sc_loser.GetFirstNameNoTooltip] не успевает воспользоваться моим приступом благочестия: я наношу [sc_victor.Custom('SignatureWeaponAttemptedHeavy')], [sc_loser.Custom('SignatureWeaponBreaksVerbPresentParticiple')] [sc_loser.GetHerHis] оружия.\n\nЯвное свидетельство тому, что [sc_victor.GetFaith.WarGodNamePossessive] благоволит мне, потрясает врага. Всего на секунду, но этого довольно: я [sc_victor.Custom2('SignatureWeaponKillTypeThirdPersonFutureGendered',SCOPE.sC('sc_loser'))]."
  single_combat.0041.desc.sc_attacker.hurt_me_better.fatality: "Исступление битвы поглощает меня, и [sc_victor.Custom('SignatureWeaponAttemptedLightPlural')] обрушиваются на врага, смертоносные выпады чередуются с беспощадным парированием, а из-за моей нечувствительности к боли [sc_loser.GetFirstNamePossessiveNoTooltip] не может предугадать мои движения.\n\nВскоре я вижу шанс нанести смертельный удар и пробиваю страшную дыру в боку [Select_CString(sc_loser.IsFemale, 'противницы', 'противника' )].\n\n[sc_loser.GetSheHe|U] в мгновение ока истекает кровью."
  single_combat.0041.desc.sc_attacker.special_fallback.fatality: "[sc_loser.GetFirstNameNoTooltip] спотыкается, и я успеваю взять оружие наизготовку. [sc_victor.Custom('signature_weapon')|U] бьет [sc_loser.GetHerHis] прямо в лицо.\n\n[sc_loser.GetHerHis|U] неровный шаг превращается в неуверенное топтание на месте, и наконец [sc_loser.GetSheHe] падает. Я пинаю [sc_loser.GetHerHis] в спину и одним беспощадным ударом [sc_victor.Custom2('SignatureWeaponKillTypeThirdPersonFutureGendered',SCOPE.sC('sc_loser'))]."
-  ### No need for a something_to_hide, as it's never fatal. 
-  
-  ## Victor Option Copy 
+ ### No need for a something_to_hide, as it's never fatal.
+ ## Victor Option Copy
  single_combat.0041.a: "Прощай, [sc_loser.GetTitledFirstNameNoTooltip]."
  single_combat.0041.b: "Победа за мной!"
-  
-  ################################################## 
-  # Debug Copy 
-  
+ ##################################################
+ #Debug Copy
  single_combat.1004.t: "Время п-п-п-поединка!"
  single_combat.1004.desc: "Хреново живет [recipient.GetFirstName]. Да и ты не лучше."
  single_combat.1004.a: "Вы нападаете (по умолчанию)"

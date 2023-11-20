@@ -9,7 +9,7 @@
  TRAVEL_NAME_FOR_activity_gruesome_festival: "$TRAVEL_NAME_FOR_activity_tournament$"
  TRAVEL_NAME_FOR_activity_playdate: "$TRAVEL_NAME_FOR_activity_tournament$"
  TRAVEL_NAME_FOR_activity_witch_ritual: "$TRAVEL_NAME_FOR_activity_tournament$"
-  
+ TRAVEL_NAME_FOR_activity_adult_education: "$TRAVEL_NAME_FOR_activity_tournament$"
  TRAVEL_SPEED: "[Concept( 'travel_speed', 'Скорость' )|E]"
  TRAVEL_SAFETY: "[Concept( 'travel_safety', 'Безопасность в пути' )|E]"
  TRAVEL_PLAN_TOOLTIP_DESC: "Путешествие во владение [TravelPlan.GetData.GetNextDestination.GetProvince.GetName][SelectLocalization( TravelPlan.GetData.GetActivity.IsValid , 'TRAVEL_PLAN_TOOLTIP_ACTIVITY_DESC', '' )]\n$BULLET_WITH_TAB$Текущее местоположение: [TravelPlan.GetData.GetCurrentLocation.GetName]\n$BULLET_WITH_TAB$Ожидаемое время прибытия: [TravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate.GetTimeDiffFromNow]\n\n[SelectLocalization( TravelPlan.GetData.GetTravelLeader.IsValid, 'TRAVEL_PLAN_TOOLTIP_LEADER_DESC', '')]@travel_speed_icon! [TravelPlan.GetData.GetSpeedMultiplierAsPercentage]% [travel_speed|E]\n@travel_safety_icon! [TravelPlan.GetData.GetSafetyValue|0] [travel_safety|E]"
@@ -33,7 +33,6 @@
  TRAVEL_DANGER_NEMESIS: "Этими землями владеет ваш [nemesis|E]"
  TRAVEL_DANGER_FRIEND: "Этими землями владеет ваш [friend|E]"
  TRAVEL_DANGER_BEST_FRIEND: "Этими землями владеет ваш [Concept( 'best_friend', 'лучший друг' )|E]"
-  
  TRAVEL_DANGER_ARMY: "Опасность от [Concept( 'armies', 'армий' )|E]"
  TRAVEL_DANGER_ARMY_BATTLE: "Опасность от [Concept( 'battles', 'битв' )|E]"
  TRAVEL_DANGER_ARMY_SIEGE: "Опасность от [Concept( 'sieges', 'осад' )|E]"
@@ -41,17 +40,14 @@
  TRAVEL_DANGER_OWN_REALM: "Собственная [Concept( 'realm', 'держава' )|E]"
  TRAVEL_DANGER_OWN_DOMAIN: "Собственный [Concept( 'domain', 'домен' )|E]"
  TRAVEL_DANGER_LIEGE_REALM: "[Concept( 'realm', 'Держава' )|E] [Concept( 'liege_possessive', 'сюзерена' )|E]"
-  
  travel_danger_type_default: "Разбойники"
  travel_danger_type_default_desc: "В этом месте высока вероятность встречи с разбойниками."
  travel_danger_type_county_control: "Низкий контроль"
-  
  travel_danger_type_county_control_desc: "Жители этого [Concept( 'county', 'графства' )|E] неподвластны никому."
  travel_danger_type_county_opinion: "Низкое мнение графства"
  travel_danger_type_county_opinion_desc: "Это [Concept( 'county', 'графство' )|E] имеет низкое [Concept( 'county_opinion', 'мнение' )|E] о вас."
  travel_danger_type_owner_opinion: "Низкое мнение владельца провинции"
  travel_danger_type_owner_opinion_desc: "Владелец этого [Concept( 'barony', 'баронства' )|E] плохо к вам относится."
-  
  travel_danger_type_army: "Марширующие войска"
  travel_danger_type_army_desc: "В настоящий момент [barony|E] лежит на пути проходящей армии."
  travel_danger_type_battle: "Поле боя"
@@ -62,7 +58,6 @@
  travel_danger_type_raid_desc: "Это [Concept( 'holding', 'владение' )|E] сейчас подвергается налету."
  travel_danger_type_occupation: "Оккупация"
  travel_danger_type_occupation_desc: "В этом [Concept( 'barony', 'баронстве' )|E] недавно велась война."
-  
  travel_danger_type_mountains: "Горы"
  travel_danger_type_mountains_desc: "Эти горы выглядят коварными и опасными."
  travel_danger_type_desert: "Пустыня"
@@ -93,20 +88,15 @@
  travel_danger_type_plains_desc: "Разбойникам легко заметить вас на открытой равнине."
  travel_danger_type_oasis: "Оазис"
  travel_danger_type_oasis_desc: "Это оазис или просто мираж?"
-  
  PROVINCE_DANGER_COUNTY_CONTROL: "[county_control|E]"
  PROVINCE_DANGER_COUNTY_OPINION: "[county_opinion|E]"
  PROVINCE_DANGER_OWNER_OPINION: "[Concept( 'opinion', 'Мнение' )|E] [Concept( 'holder_possessive', 'владетеля' )|E]"
-  
-  
-  
  TRAVEL_OPTION_TT_OWNER_MODIFIER_HEADER: "#S Ваши модификаторы#!"
  TRAVEL_OPTION_TT_TRAVEL_MODIFIER_HEADER: "#S Модификаторы вашего путешествия#!"
  TRAVEL_OPTION_TT_ON_APPLIED_EFFECT_HEADER: "#S С началом путешествия#!"
  TRAVEL_OPTION_TT_ON_TRAVEL_END_EFFECT_HEADER: "#S С завершением путешествия#!"
  TRAVEL_OPTION_TT_CLICK_TO_ADD: "#I Нажмите, чтобы добавить#!"
  TRAVEL_OPTION_TT_CLICK_TO_REMOVE: "#I Нажмите, чтобы удалить#!"
-  
  trait_traveler_1: "Путешественник"
  trait_traveler_1_desc: "Жажда странствий подтолкнула этого персонажа посмотреть мир."
  trait_traveler_1_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] испытывает жажду странствий и хочет посмотреть мир."
@@ -114,7 +104,6 @@
  trait_traveler_3_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] [Select_CString(ROOT.Char.IsFemale, 'прошла', 'прошел' )] множество дорог и [Select_CString(ROOT.Char.IsFemale, 'повидала', 'повидал' )] значительную часть мира."
  trait_traveler_2: "Опытный путешественник"
  trait_traveler_3: "Бывалый путешественник"
-  
  trait_track_travel: "Скиталец"
  trait_track_travel_desc: "Лишь познав множество народов, мест и ситуаций можно стать искушенным."
  trait_track_danger: "Закалка"

@@ -6,7 +6,6 @@
  MESSAGES_IN_QUEUE: "Еще: [MessageFeedHandler.GetNumberOfQueuedMessages]"
  FEED_MESSAGE_GOTO_TOOLTIP: "#T Перейти к провинции [PlayerMessageItem.GetGotoProvince.GetName].#!"
  MESSAGE_CLEAR_ALL_TOOLTIP: "#I Щелкните, чтобы убрать. \nЩелкните ПКМ, чтобы убрать все.#!"
-  
  msg_marriage: "Брак: [Select_CString(LEFT_CHARACTER.IsFemale, 'ваша', 'ваш' )] [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! и #high [RIGHT_CHARACTER.GetFirstNameNoTooltip]#!"
  msg_marriage_desc: "[Select_CString(LEFT_CHARACTER.IsFemale, 'Ваша', 'Ваш' )] [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] [LEFT_CHARACTER.GetShortUINameNotMe] и [RIGHT_CHARACTER.GetUINameNotMe] поженились"
  msg_building_done: "Здание #high [BUILDING.GetNameNoTooltip]#! построено во владении [PROVINCE.GetNameNoTooltip]"
@@ -121,14 +120,12 @@
  msg_liege_war_ended_white_peace_desc: "#D НЕИСПОЛЬЗУЕМОЕ СООБЩЕНИЕ#!"
  msg_liege_war_ended_invalid: "#D НЕИСПОЛЬЗУЕМОЕ СООБЩЕНИЕ#!"
  msg_liege_war_ended_invalid_desc: "#D НЕИСПОЛЬЗУЕМОЕ СООБЩЕНИЕ#!"
-  
  event_message_title: "$TITLE$"
  event_message_text: "$DESCRIPTION$"
  event_message_text_and_effect: "$DESCRIPTION_AND_EFFECT$"
  event_message_effect_and_text: "$EFFECT$\n\n$DESCRIPTION$"
  event_message_effect: "$EFFECT$"
  blank_line: ""
-  
  send_interface_message_tooltip: "#T По причине события#!"
  msg_gain_trait: "Получено свойство"
  msg_gain_trait_desc: "Вы получили свойство «[TRAIT.GetName( CHARACTER.Self )|L]»"
@@ -267,6 +264,9 @@
  msg_vassalization_war_invalidated_message: "Война «[war.GetName]» окончена: [defender.GetShortUIName] больше не может стать вассалом."
  msg_subjugation_war_invalidated_message: "Война «[war.GetName]» окончена: [defender.GetShortUIName] больше не может быть [Select_CString(defender.IsFemale, 'покорена', 'покорен' )]."
  msg_excommunication_war_invalidation_trait_message: "Война ([war.GetName]) окончена: [defender.GetShortUIName] больше не [Select_CString(defender.IsFemale, 'отлучена', 'отлучен' )]."
+ msg_raid_war_invalidated_message: "Война «[war.GetName]» окончена: теперь невозможно совершить налет на персонажа [defender.GetTitledFirstName]"
+ msg_free_house_member_war_invalidated_message: "Война «[war.GetName]» окончена: [defender.GetTitledFirstName] больше не держит в темнице членов [Concept( 'house', 'дома' )|E] [attacker.GetHouse.GetBaseNameNoTooltip]"
+ msg_unify_house_war_invalidated_message: "Война «[war.GetName]» окончена: [defender.GetTitledFirstName] больше не владеет вассалами из [Concept( 'house', 'дома' )|E] [attacker.GetHouse.GetBaseNameNoTooltip]"
  msg_my_hook_replaced: "Замена влияния"
  msg_my_hook_replaced_desc: "Вместо прежнего способа держать персонажа [LEFT_CHARACTER.GetShortUIName] [hook|El] у вас появился новый: [HOOK.GetName]"
  msg_my_hook_added: "Получено влияние"
@@ -280,7 +280,6 @@
  msg_hook_on_me_expired_desc: "[LEFT_CHARACTER.GetShortUINamePossessive] больше не держит вас [hook|El]: «[HOOK.GetName]» больше не действует"
  msg_my_hook_expired: "Влияние закончилось"
  msg_my_hook_expired_desc: "[LEFT_CHARACTER.GetShortUIName] больше у вас не на [hook|El]: влияние закончилось"
- msg_raid_war_invalidated_message: "Война «[war.GetName]» окончена: теперь невозможно совершить налет на персонажа [defender.GetTitledFirstName]"
  death_notification_title: "[Select_CString(LEFT_CHARACTER.IsFemale, 'Ваша', 'Ваш' )] [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )|U] #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! [Select_CString(LEFT_CHARACTER.IsFemale, 'умерла', 'умер' )]"
  lover_death_notification_title: "[Select_CString(LEFT_CHARACTER.IsFemale, 'Ваша любовница', 'Ваш любовник' )] #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! [Select_CString(LEFT_CHARACTER.IsFemale, 'умерла', 'умер' )]"
  friend_death_notification_title: "[Select_CString(LEFT_CHARACTER.IsFemale, 'Ваша подруга', 'Ваш друг' )] #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! [Select_CString(LEFT_CHARACTER.IsFemale, 'умерла', 'умер' )]"
@@ -293,8 +292,8 @@
  msg_dynasty_perk_added_desc: "Ваша [dynasty|El] получает доступ к наследию «[DYNASTY_PERK.GetName]»"
  msg_dynasty_perk_removed: "Наследие «[DYNASTY_PERK.GetName]» потеряно"
  msg_dynasty_perk_removed_desc: "Ваша [Concept( 'dynasty', 'династия' )|E] лишилась наследия «[DYNASTY_PERK.GetName]»"
- msg_vassal_feudalised: "У вассала есть аристократ"
- msg_vassal_feudalised_desc: "Ваш вассал, [ROOT.Char.GetShortUIName], отказался от [ROOT.Char.GetHerHis] племенных обычаев и стал аристократом"
+ msg_vassal_feudalised: "Вассал стал феодалом"
+ msg_vassal_feudalised_desc: "Ваш вассал [ROOT.Char.GetShortUIName] [Select_CString(ROOT.Char.IsFemale, 'отказалась', 'отказался' )] от племенного образа жизни, став феодалом."
  msg_dynasty_prestige_level_increase: "[dynasty_prestige_level|E] вырос"
  msg_dynasty_prestige_level_increase_desc: "Династия [LEFT_CHARACTER.GetDynasty.GetBaseName] известна во всех краях."
  msg_dynasty_prestige_level_dencrease: "Потерян [Concept( 'dynasty_prestige_level', 'уровень величия' )|E]."
@@ -317,16 +316,13 @@
  msg_murder_scheme_agent_join_message: "[agent.GetTitledFirstName] [Select_CString(agent.IsFemale, 'примкнула', 'примкнул' )] к вашим проискам, чтобы убить персонажа [target.GetTitledFirstName]."
  msg_murder_scheme_agent_leave_title: "Заговорщик вышел из плана убийства"
  msg_murder_scheme_agent_leave_message: "[agent.GetTitledFirstName] [Select_CString(agent.IsFemale, 'вышла', 'вышел' )] к вашим проискам, чтобы убить персонажа [target.GetTitledFirstName]."
-  
  mongols_sieged_county.t: "Графство [county.GetNameNoTier] разграблено Монгольской ордой"
-  
  msg_vassal_contract_level_invalidated: "[obligation|E] — недействительно"
  msg_vassal_contract_level_invalidated_desc: "[RIGHT_CHARACTER.GetUINamePossessiveNoTooltip]: обязательство $OBLIGATION_TYPE_0|V$ больше не действует"
  msg_vassal_contract_2_levels_invalidated: "[obligations|E] — недействительны"
  msg_vassal_contract_2_levels_invalidated_desc: "[RIGHT_CHARACTER.GetUINamePossessiveNoTooltip]: обязательства $OBLIGATION_TYPE_0|V$ и $OBLIGATION_TYPE_1|V$ больше не действуют"
  msg_vassal_contract_multiple_levels_invalidated: "[obligations|E] — недействительны"
  msg_vassal_contract_multiple_levels_invalidated_desc: "[RIGHT_CHARACTER.GetUINamePossessiveNoTooltip]: $OBLIGATION_TYPE_0|V$ и $OBLIGATION_TYPE_1|V$, а также прочие обязательства ($COUNT|V$) больше не действуют"
-  
  msg_force_vote_in_succession_election_message: "Вы делаете так, что [recipient.GetTitledFirstName] будет голосовать за того же кандидата, что и вы, в течение [GetDefine('NCharacter', 'FORCED_SUCCESSION_ELECTION_YEARS')] лет."
  msg_recruited_guest_to_court_interaction_title: "Гость становится придворным"
  msg_recruited_guest_to_court_interaction_message: "[recipient.GetTitledFirstName] теперь служит у вас при [Concept( 'court', 'дворе' )|E]."
@@ -336,7 +332,6 @@
  msg_hired_court_physician_interaction_message: "Теперь [recipient.GetTitledFirstName] — ваш [GetCourtPositionType('court_physician_court_position').GetName()|l]"
  msg_fired_court_physician_interaction_title: "Уволенный придворный врач"
  msg_fired_court_physician_interaction_message: "[recipient.GetTitledFirstName] больше не ваш [GetCourtPositionType('court_physician_court_position').GetName()|l]"
-  
  msg_concubine_taken_title: "[Select_CString(secondary_actor.IsFemale, 'Взята наложница', 'Взят наложник' )]"
  msg_concubine_accepted_title: "Теперь [secondary_actor.GetShortUIName] [Select_CString(secondary_actor.IsFemale, 'ваша наложница', 'ваш наложник' )]"
  msg_concubine_dismissed_title: "[Select_CString(secondary_actor.IsFemale, 'Отстраненная наложница', 'Отстраненный наложник' )]"
@@ -349,18 +344,14 @@
  msg_concubine_offer_rejected: "[recipient.GetTitledFirstName] не хочет, чтобы [secondary_actor.GetTitledFirstName] [Select_CString(secondary_actor.IsFemale, 'была', 'был' )] [recipient.GetHerHis] [Select_CString(secondary_actor.IsFemale, 'наложницей', 'наложником' )]"
  msg_close_family_member_taken_as_concubine_title: "[recipient.GetTitledFirstName] теперь [Select_CString(secondary_actor.IsFemale, 'наложница', 'наложник' )]"
  msg_close_family_member_offered_as_concubine_title: "[secondary_actor.GetTitledFirstName] теперь [Select_CString(secondary_actor.IsFemale, 'наложница', 'наложник' )]"
-  
  msg_move_prisoner_to_dungeon: "Пленника бросили в подземелье"
  msg_move_prisoner_to_house_arrest: "Пленника отправили под домашний арест"
  msg_execute_prisoner: "Пленника казнили"
  msg_execute_prisoner_desc: "[recipient.GetTitledFirstName] [recipient.GetDeathReason]"
-  
  msg_artifact_gained_title: "Наследство: [artifact_inherited.GetNameNoTooltip]"
  msg_artifact_gained_desc: "Вы унаследовали артефакт «[artifact_inherited.GetNameNoTooltip]» от персонажа [old_owner.GetUIName]!"
-  
  msg_rival_dethroned: "[Select_CString(actor.IsFemale, 'Ваша соперница', 'Ваш соперник' )] [actor.GetTitledFirstName] [Select_CString(actor.IsFemale, 'лишилась', 'лишился' )] титула"
  msg_rival_dethroned_desc: "[Select_CString(actor.IsFemale, 'Ваша', 'Ваш' )] [Concept( 'rival', Select_CString(actor.IsFemale, 'соперница', 'соперник' ))|E] [actor.GetTitledFirstName] [Select_CString(actor.IsFemale, 'лишилась', 'лишился' )] титула [title.GetBaseName]"
-  
  msg_court_position_gained: "Назначение на должность [COURT_POSITION_TYPE.GetNameNoTooltip]"
  msg_court_position_gained_desc: "Вас назначили на должность [COURT_POSITION_TYPE.GetNameNoTooltip] персонажа [LEFT_CHARACTER.GetShortUIName]"
  msg_court_position_removed: "Должность [COURT_POSITION_TYPE.GetNameNoTooltip] отнята"
@@ -369,7 +360,6 @@
  msg_court_position_invalidated_employee_desc: "[LEFT_CHARACTER.GetShortUIName] больше не может держать вас на должности [COURT_POSITION_TYPE.GetNameNoTooltip]"
  msg_court_position_invalidated_employer: "Должность [COURT_POSITION_TYPE.GetNameNoTooltip] пустует"
  msg_court_position_invalidated_employer_desc: "[LEFT_CHARACTER.GetShortUIName] больше не [COURT_POSITION_TYPE.GetNameNoTooltip]"
-  
  msg_becomes_obese: "Страдает от ожирения"
  msg_becomes_obese_desc: "У вас [GetModifier( 'obese_modifier' ).GetNameWithTooltip]"
  msg_becomes_malnourished: "Страдает от истощения"
@@ -378,7 +368,6 @@
  msg_stops_being_obese_desc: "Вас больше не беспокоит [GetModifier( 'obese_modifier' ).GetNameWithTooltip]"
  msg_stops_being_malnourished: "Больше не страдает от недоедания"
  msg_stops_being_malnourished_desc: "Вас больше не беспокоит [GetModifier( 'malnourished_modifier' ).GetNameWithTooltip]"
-  
  msg_event_timeout: "Событие окончено: $EVENT_NAME$"
  msg_event_timeout_desc: "$EVENT_TIMEOUT_EFFECTS$"
  msg_event_timeout_tt: "$EVENT_TIMEOUT_EFFECTS$"
@@ -387,7 +376,6 @@
  msg_letter_event_timeout_tt: "$EVENT_TIMEOUT_EFFECTS$"
  msg_court_amenity_setting_invalidated: "Увеселение при дворе недействительны"
  msg_court_amenity_setting_invalidated_desc: "Уровень увеселений при дворе $INVALID_SETTING$ стал недействителен и заменен на $DEFAULT_SETTING$."
-  
  msg_catalyst_triggered: "$STRUGGLE_NAME$: происходит $game_concept_struggle_catalyst_catalyst$"
  msg_catalyst_triggered_desc: "[CHARACTER.GetTitledFirstName] запускает [Concept( 'struggle_catalyst', 'катализатор' )|E]: $CATALYST_INFO$\n\nПрогресс в сторону [Concept( 'struggle_phase_phase', 'фазы' )|E] $STRUGGLE_PHASE$: $CATALYST_VALUE|+=$"
  msg_catalyst_triggered_tt: "$msg_catalyst_triggered_desc$"
@@ -403,29 +391,27 @@
  msg_player_new_observer: "$PLAYER_CHANGED_CHARACTER_TITLE_OBSERVER$"
  msg_player_new_observer_desc: "$PLAYER_CHANGED_CHARACTER_TEXT_OBSERVER$"
  msg_player_new_observer_tt: "$msg_player_new_observer_desc$"
-  
  msg_struggle_phase_end: "Переход к фазе $STRUGGLE_PHASE$"
  msg_struggle_phase_end_desc: "Фаза @$STRUGGLE_PHASE_ICON$! $STRUGGLE_PHASE$ переходит в фазу @$STRUGGLE_PHASE_ICON_NEXT$! $STRUGGLE_PHASE_NEXT$.\n\n $STRUGGLE_PHASE_NEXT$ начнется через $DAYS_UNTIL_TRANSITION$ дн."
  msg_struggle_phase_end_tt: "$msg_struggle_phase_transitioned_tt$"
  msg_struggle_phase_transitioned: "Переход завершен"
  msg_struggle_phase_transitioned_desc: "Борьба $STRUGGLE_NAME$ перешла в фазу @$STRUGGLE_PHASE_ICON$! $STRUGGLE_PHASE$."
  msg_struggle_phase_transitioned_tt: "$msg_struggle_phase_transitioned_desc$"
-  
  msg_set_relation_friend_title: "@friend_icon! Найден друг"
  msg_set_relation_friend_desc: "[GetRelation( 'friend' ).GetReasonFor( LEFT_CHARACTER.Self, RIGHT_CHARACTER.Self )]"
  msg_set_relation_best_friend_title: "@best_friend_icon! Стали лучшими друзьями"
  msg_set_relation_best_friend_desc: "[GetRelation( 'best_friend' ).GetReasonFor( LEFT_CHARACTER.Self, RIGHT_CHARACTER.Self )]"
-  
  msg_set_relation_rival_title: "@rival_icon! Получен соперник"
  msg_set_relation_rival_desc: "[GetRelation( 'rival' ).GetReasonFor( LEFT_CHARACTER.Self, RIGHT_CHARACTER.Self )]"
  msg_set_relation_nemesis_title: "@nemesis_icon! Получен заклятый враг"
  msg_set_relation_nemesis_desc: "[GetRelation( 'nemesis' ).GetReasonFor( LEFT_CHARACTER.Self, RIGHT_CHARACTER.Self )]"
-  
  msg_set_relation_lover_title: "@lover_icon! Получен любовник"
  msg_set_relation_lover_desc: "[GetRelation( 'lover' ).GetReasonFor( LEFT_CHARACTER.Self, RIGHT_CHARACTER.Self )]"
  msg_set_relation_soulmate_title: "@soulmate_icon! Найдена родственная душа"
  msg_set_relation_soulmate_desc: "[GetRelation( 'soulmate' ).GetReasonFor( LEFT_CHARACTER.Self, RIGHT_CHARACTER.Self )]"
-  
+ msg_house_unity_change_stage: "Изменился уровень единства дома"
+ msg_house_unity_change_stage_desc: "[Concept( 'house_unity', 'Единство' )|E] вашего дома сдвинулось на уровень «$HOUSE_UNITY_STAGE_NAME|U$»"
+ msg_house_unity_change_stage_tt: "$msg_house_unity_change_stage_desc$"
  msg_start_diarchy_title: "У меня начинается [LEFT_CHARACTER.GetDiarchyTypeName]"
  msg_start_diarchy_effect: "Я теперь [Concept( 'sharing_power', 'делю полномочия' )|E] с персонажем [RIGHT_CHARACTER.GetName]"
  msg_inherit_diarchy_title: "[LEFT_CHARACTER.GetDiarchyTypeName] переходит мне"
@@ -436,15 +422,12 @@
  on_entered_diarchy.notification.vassal.desc.outro.incapable: "из-за свойства «[GetTrait('incapable').GetName(GetNullCharacter)]»"
  on_entered_diarchy.notification.vassal.desc.outro.imprisonment: "из-за [Concept( 'imprisoned', 'заключения' )|E] за границей"
  on_entered_diarchy.notification.vassal.desc.outro.travel: "из-за заграничного [Concept( 'traveling', 'путешествия' )|E]"
-  
  msg_end_diarchy_title: "[LEFT_CHARACTER.GetDiarchyTypeName] заканчивается"
  msg_end_diarchy_effect: "Я больше не [Concept( 'sharing_power', 'делю полномочия' )|E] с персонажем [RIGHT_CHARACTER.GetName]"
  on_left_diarchy.notification.vassal.t: "У сюзерена заканчивается [ROOT.Char.GetDiarchyTypeName|l]"
  on_left_diarchy.notification.vassal.desc: "[ROOT.Char.GetShortUIName] и [old_diarch.GetShortUIName] больше не [Concept( 'sharing_power', 'делят власть' )|E]"
-  
  msg_change_diarchy_type_title: "Мой тип [Concept( 'power_sharing', 'разделения полномочий' )|E] изменился"
  msg_change_diarchy_type_effect: "$OLD_TYPE$ теперь $NEW_TYPE$"
-  
  on_diarch_change.notification.liege.boilerplate.t: "У меня сменяется [liege.GetDiarchTitle|l]"
  on_diarch_change.notification.vassal.boilerplate.t: "У вашего сюзерена сменяется [liege.GetDiarchTitle|l]"
  on_diarch_change.notification.liege.death.t: "$on_diarch_change.notification.liege.boilerplate.t$"

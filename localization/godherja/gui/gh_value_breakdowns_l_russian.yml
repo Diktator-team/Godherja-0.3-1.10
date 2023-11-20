@@ -112,6 +112,10 @@
  bubonic_plague_value_desc: "[GetTrait('bubonic_plague').GetName( GetNullCharacter )]"  #Машинный перевод 28.10.23!
  smallpox_value_desc: "[GetTrait('smallpox').GetName( GetNullCharacter )]"  #Машинный перевод 28.10.23!
  fools_curse_value_desc: "[GetTrait('fools_curse').GetName( GetNullCharacter )]"  #Машинный перевод 28.10.23!
+ gh_dragon_red_value_desc: "[GetTrait('gh_dragon_red').GetName( GetNullCharacter )]"
+ gh_dragon_blue_value_desc: "[GetTrait('gh_dragon_blue').GetName( GetNullCharacter )]"
+ gh_dragon_black_value_desc: "[GetTrait('gh_dragon_black').GetName( GetNullCharacter )]"
+ gh_dragon_green_value_desc: "[GetTrait('gh_dragon_green').GetName( GetNullCharacter )]"
   
   
  gh_beset_by_visions_value_desc: "[GetTrait('gh_beset_by_visions').GetName( GetNullCharacter )]"  #Машинный перевод 28.10.23!

@@ -223,6 +223,13 @@
  THEY_GAIN_ARCANA_XP_EFFECT: "[CHARACTER.GetShortUIName|U] получает $VALUE|V0$ [arcana|E] [lifestyle|E] Опыта"  #Машинный перевод 28.10.23!
  I_GAINED_ARCANA_XP_EFFECT: "Я получил $VALUE|V0$ [arcana|E] [lifestyle|E] Опыта"  #Машинный перевод 28.10.23!
  THEY_GAINED_ARCANA_XP_EFFECT: "[CHARACTER.GetShortUIName|U] получил $VALUE|V0$ [arcana|E] [lifestyle|E] Опыта"  #Машинный перевод 28.10.23!
+
+ GAINS_A_ARCANA_LIFESTYLE_PERKPOINT: "Gains $VALUE|V0$ [arcana_lifestyle|E] Unlock"
+ GAINED_A_ARCANA_LIFESTYLE_PERKPOINT: "Gained $VALUE|V0$ [arcana_lifestyle|E] Unlock"
+ I_GAIN_A_ARCANA_LIFESTYLE_PERKPOINT: "I Gain $VALUE|V0$ [arcana_lifestyle|E] Unlock"
+ I_GAINED_A_ARCANA_LIFESTYLE_PERKPOINT: "I Gained $VALUE|V0$ [arcana_lifestyle|E] Unlock"
+ TARGET_GAINS_A_ARCANA_LIFESTYLE_PERKPOINT: "They Gain $VALUE|V0$ [arcana_lifestyle|E] Unlock"
+ TARGET_GAINED_A_ARCANA_LIFESTYLE_PERKPOINT: "They Gained $VALUE|V0$ [arcana_lifestyle|E] Unlock"
   
  add_arcana_skill_tooltip: "Выигрыш [arcana|E]"  #Машинный перевод 28.10.23!
   

@@ -59,6 +59,7 @@
   # Lonely Note: Make a pirate authority cooldown so we can use the better version of the below loc (and remove NOT_ from the trigger loc) 
  has_pirate_authority_cooldown: "Недавно вы сменили пиратскую администрацию. Можно изменить снова после [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'crown_authority_cooldown') )]"  #Машинный перевод 28.10.23!
  NOT_has_pirate_authority_cooldown: "Вы недавно не меняли пиратский авторитет."  #Машинный перевод 28.10.23!
- succession_laws_must_have_innovation_or_marcher_tooltip: "У меня нет [magocracy|E], [feudal|E] или [clan|E] [government|E]"  #Машинный перевод 28.10.23!
+ succession_laws_must_have_innovation_or_marcher_tooltip: "succession_laws_must_have_innovation_or_marcher_tooltip:"
+ gh_succession_laws_must_have_organised_government_tooltip: "I do not have a [magocracy|E], [feudal|E] or [clan|E] [government|E]"
  chevalie_allows_heir_designation: "В вашей культуре нет традиции шевальенского наследия."  #Машинный перевод 28.10.23!
   

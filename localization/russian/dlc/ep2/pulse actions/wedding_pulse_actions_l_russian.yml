@@ -1,5 +1,4 @@
 ﻿l_russian:
-  
  dynasty_blessing_title: "$activity_pulse_action_dynasty_blessing$"
  activity_pulse_action_dynasty_blessing: "[first.GetShortUINameNoTooltip|U] передает поклон от династии [first.GetDynasty.GetBaseNameNoTooltip]"
  cultural_acceptance_title: "$activity_pulse_action_cultural_acceptance$"

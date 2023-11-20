@@ -5,8 +5,7 @@
  stress_stuffed_corpse_desc: "Этот персонаж хранит мумифицированный труп дорогого человека и разговаривает с ним — пугающая и святотатственная практика."
  stress_managed_grief: "Борьба со скорбью"
  stress_managed_grief_desc: "Этот персонаж постепенно, день за днем, справляется с потерей близкого."
-  
-  #Coping Mechanism Penalties 
+ #Coping Mechanism Penalties
  stress_disturbing_confession: "Тревожное признание"
  stress_disturbing_confession_desc: "Этот персонаж открыто признался в некоторых тревожных вещах..."
  stress_drinking_binge: "Запой"
@@ -21,18 +20,13 @@
  stress_inappetetic_hunger_2_desc: "Этот персонаж страдает от серьезной нехватки еды"
  stress_inappetetic_hunger_3: "Истощение"
  stress_inappetetic_hunger_3_desc: "Этот персонаж ничего не ел на протяжении нескольких недель, и последствия этого очевидны."
-  
  angry_at_everyone_modifier: "Необузданный гнев"
  angry_at_everyone_modifier_desc: "Этот персонаж полон гнева и не щадит никого."
-  
  stress_smelling_of_sweat: "Запах пота"
  stress_smelling_of_sweat_desc: "Запах пота всюду преследует этого персонажа."
-  
  stress_busy_writing: "Занятия письмом"
- stress_busy_writing_desc: "Этот персонаж тратит большую часть своего времени на написание текстов"
-  
+ stress_busy_writing_desc: "Этот персонаж тратит большую часть своего времени на написание текстов."
  irritating_everyone_modifier: "Срывается"
  irritating_everyone_modifier_desc: "Этот персонаж не пытается обуздывать раздражение и гнев."
-  
  irritating_everyone_courtier_modifier: "$irritating_everyone_modifier$"
  irritating_everyone_courtier_modifier_desc: "$irritating_everyone_modifier_desc$"

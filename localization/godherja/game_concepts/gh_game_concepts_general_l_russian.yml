@@ -74,7 +74,7 @@ game_concept_aersanon: "Aersanon"
   
  game_concept_dragons: "Драконы"  
  game_concept_dragon: "Дракон"  
- game_concept_dragons_desc: "Драконы - это [godtouched_creatures|E], обитающий в основном на территории  [Concept( 'aversaria', 'Аверсария' )|E] и северо-восточной части [Concept( 'sarradon', 'Саррадон' )|E] с неизвестного периода и примерно до середины 200-х годов. Свирепые и массивные звери-рептилии, драконы могли испускать на своих врагов огонь, лед или яд, летали на массивных крыльях и обладали интеллектом на уровне или выше человеческого. Они обладали сложной речью, но услышать их голос мог только тот, с кем они разговаривали. Драконы были разных цветов, в зависимости от цвета дыхания, и обычно путешествовали стаями до шести особей - мать, отец и их дети, которые обычно разделялись, когда дети находили себе пару или создавали собственные стаи.\n\nДраконы были редкими, но не совсем обычными на их родине вдоль § 3, и в аверсарском обществе считалось высокой честью получить титул Всадника Дракона, приручив одно из этих существ, обычно через установление с ним чего-то похожего на дружбу. Возникновение Аверсарии совпало - отчасти благодаря аверсарским программам размножения - с заметным увеличением популяции драконов, и к Войне Тысячи Драконов в Аверсарии насчитывалось более 800 зарегистрированных Всадников Драконов, принадлежащих к различным кликам и братствам.\n\nДраконы были, по-видимому, уничтожены во время и после войны, сначала в результате сражений, а затем после того, как Аавтократир Аексионаракс счел оставшихся драконов слишком опасными и приказал их истребить.\n\nСамым известным драконом в истории был  [Concept( 'arthenax', 'артенакс' )|E], которого принято считать последним живым драконом."  
+ game_concept_dragons_desc: "Dragons were [godtouched_creatures|E] that primarily resided in [aversaria|E] and parts of northeastern [sarradon|E] from a time before the historical record until roughly the middle of the 3rd Century IS. Ferocious and massive reptilian beasts, dragons could breathe fire, ice, or poison upon their foes, fly with massive wings, and showed an intelligence at or above a human level. They were capable of complex speech, though only the ones they spoke to could seemingly hear their voice. Dragons would come in a variety of colors based on the contents of their breath, and would normally travel in packs of up to six-a mother and father couple and their children, normally splitting once the children either found mates or created their own packs.\n\nDragons were rare but not entirely uncommon in their homelands along the [shattered_coast|E] and it was considered a high honor in Aversarian society to be declared a Dragon Rider upon taming one of the creatures, normally through forming something akin to a friendship with it. The rise of Aversaria coincided—partially due to Aversarian breeding programs—with a marked increase in the dragon population, and by the [war_of_the_thousand_dragons|E] there would be over 800 recorded Dragon Riders belonging to various cliques and fraternities across Aversaria.\n\nDragons were seemingly wiped out during and after the war, first from battle and then later after Aautokratir Aexionarax deemed the remaining dragons too dangerous and had them slaughtered.\n\nThe most famous dragon in history was [arthenax|E], commonly believed to be the last living dragon."  
   
  game_concept_griffons: "Грифоны"  
  game_concept_griffon: "Грифон"  
@@ -134,9 +134,28 @@ game_concept_aersanon: "Aersanon"
  game_concept_rift: "Рифт"  
  game_concept_the_rift_desc: "Разлом - это огромный разрыв в [Concept("aeras", "Аэрас"|E)] и, как кажется, в самой ткани реальности, глубоко внутри [foglands|E] [greater_aversaria|E]. Именно из Разлома, как кажется, изливается  [Concept("fog", "туман"|E)], хотя никто не дожил до этого момента с самого начала появления Тумана вскоре после  [Concept( 'frodbrokna', 'Фродбокна' )|E]. Считается, что [mixed_magi|E] черпает силу из Разлома и Тумана, а те немногие, кто практикует его публично, утверждают, что чувствуют вечную тягу к Разлому. Многие из них утверждают, что через него можно физически перейти на "другую сторону", с которой они взаимодействуют.\n\nНекоторые из наиболее непонятных и, несомненно, безумных культов этого мира утверждают, что Разлом на самом деле представляет собой дыру в сознании [ancient_god|E]."  
   
+ 
+ 
+ 
  ##MAGIC 
-  
-  
+ game_concept_water_i: "@water_icon!"
+ game_concept_fire_i: "@fire_icon!"
+ game_concept_light_i: "@light_icon!"
+ game_concept_air_i: "@air_icon!"
+ game_concept_ice_i: "ice_icon!"
+ game_concept_stone_i: "stone_icon!"
+ game_concept_dark_i: "dark_icon!"
+ game_concept_dream_i: "dream_icon!"
+ game_concept_celestial_i: "celestial_icon!"
+ game_concept_blood_i: "blood_icon!"
+ game_concept_nature_i: "nature_icon!"
+ game_concept_metal_i: "metal_icon!"
+ game_concept_sand_i: "sand_icon!"
+ game_concept_death_i: "death_icon!"
+ game_concept_ethereal_i: "ethereal_icon!"
+
+ game_concept_aspect_blood_i: "blood_icon!"
+ 
  game_concept_aspect: "Аспект"  
  game_concept_aspects: "Аспекты"  
  game_concept_aspect_desc: "Элементарные строительные блоки [Concept("aeras", "Аэрас"|E)], да и самого космоса. Вся магия возникает в результате манипулирования различными аспектами, притягивая к себе основу"  
@@ -387,10 +406,10 @@ game_concept_aersanon: "Aersanon"
   
  #DESCRIPTIONS 
   
- game_concept_magocracy_concept: "Магократия"  
- game_concept_magocracy_concept_desc: "$game_concept_magocracy_concept$ - это [government_form|E], где правит элитный класс [Concept( 'magi', 'маги' )|E] - $game_concept_government_form$ царств, вращающихся вокруг [magic|E] искусств.\n\n$game_concept_magocracy_concept$ может существовать в двух формах - автократической и республиканской, решая, выбираются ли Маги по кровному родству или избираются своими сверстниками."  
- game_concept_peasant_republic_concept: "Крестьянская республика"  
- game_concept_peasant_republic_concept_desc: "$game_concept_peasant_republic_concept$ - это [government_form|E], где крестьянство управляет само собой - $game_concept_government_form$ восстаний, возможно, зашедших слишком далеко."  
+ game_concept_magocracy: "Магократия"  
+ game_concept_magocracy_desc: "$game_concept_magocracy$ is a [government_form|E] where an elite class of [magi|E] rule — the $game_concept_government_form$ of realms cycling around the [magic|E] arts.\n\n$game_concept_magocracy$ can come in two forms, autocratic and republican, deciding whether Magi are chosen from a bloodline or elected by their peers."  
+ game_concept_peasant_republic: "Крестьянская республика"  
+ game_concept_peasant_republic_concept_desc: "$game_concept_peasant_republic$ - это [government_form|E], где крестьянство управляет само собой - $game_concept_government_form$ восстаний, возможно, зашедших слишком далеко."  
   
  game_concept_pirate: "Пират"  
  game_concept_pirates: "Пираты"  
@@ -399,11 +418,7 @@ game_concept_aersanon: "Aersanon"
   
  #MISC 
   
- game_concept_magocracy_desc: "$game_concept_magocracy_concept$ - это [government_form|E], где правит элитный класс [Concept( 'magi', 'маги' )|E] - $game_concept_government_form$ царств, вращающихся вокруг [magic|E] искусств.\n\n$game_concept_magocracy_concept$ может существовать в двух формах - автократической и республиканской, решая, выбираются ли Маги по кровному родству или избираются своими сверстниками."  
-  
- game_concept_magocratic_republic_desc: "$game_concept_magocracy_concept$ - это [government_form|E], где правит элитный класс [Concept( 'magi', 'маги' )|E] - $game_concept_government_form$ царств, вращающихся вокруг [magic|E] искусств.\n\n$game_concept_magocracy_concept$ может существовать в двух формах - автократической и республиканской, решая, выбираются ли Маги по кровному родству или избираются своими сверстниками."  
-  
- game_concept_peasant_republic_desc: "$game_concept_peasant_republic_concept$ - это [government_form|E], где крестьянство управляет само собой - $game_concept_government_form$ восстаний, возможно, зашедших слишком далеко."  
+ game_concept_magocracy_desc: "$game_concept_magocracy$ is a [government_form|E] where an elite class of [magi|E] rule — the $game_concept_government_form$ of realms cycling around the [magic|E] arts.\n\n$game_concept_magocracy_concept$ can come in two forms, autocratic and republican, deciding whether Magi are chosen from a bloodline or elected by their peers."  
   
  ##HUNTING 
   

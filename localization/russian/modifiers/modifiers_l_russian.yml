@@ -7,14 +7,12 @@
  MOD_PROWESS: "[prowess|E]"
  MOD_PROWESS_NO_PORTRAIT: "[prowess|E]"
  prowess_no_portrait_debug_desc: "Не влияет на портреты. Учтите, что вы можете получить странные результаты, применяя отрицательные значения к людям, у которых есть negate_prowess_penalty_add"
-  
  MOD_DIPLOMACY_PREFIX: "[diplomacy_i]"
  MOD_INTRIGUE_PREFIX: "[intrigue_i]"
  MOD_STEWARDSHIP_PREFIX: "[stewardship_i]"
  MOD_MARTIAL_PREFIX: "[martial_i]"
  MOD_LEARNING_PREFIX: "[learning_i]"
  MOD_PROWESS_PREFIX: "[prowess_i]"
-  
  MOD_DIPLOMACY_PER_PIETY_LEVEL: "[diplomacy|E] за [piety_level|El]"
  MOD_MARTIAL_PER_PIETY_LEVEL: "[martial|E] за [piety_level|El]"
  MOD_STEWARDSHIP_PER_PIETY_LEVEL: "[stewardship|E] за [piety_level|El]"
@@ -27,27 +25,22 @@
  MOD_INTRIGUE_PER_PRESTIGE_LEVEL: "[intrigue|E] за [prestige_level|El]"
  MOD_LEARNING_PER_PRESTIGE_LEVEL: "[learning|E] за [prestige_level|El]"
  MOD_PROWESS_PER_PRESTIGE_LEVEL: "[prowess|E] за [prestige_level|El]"
-  
  MOD_DIPLOMACY_PER_STRESS_LEVEL: "[diplomacy|E] за [stress_level|El]"
  MOD_MARTIAL_PER_STRESS_LEVEL: "[martial|E] за [stress_level|El]"
  MOD_STEWARDSHIP_PER_STRESS_LEVEL: "[stewardship|E] за [stress_level|El]"
  MOD_INTRIGUE_PER_STRESS_LEVEL: "[intrigue|E] за [stress_level|El]"
  MOD_LEARNING_PER_STRESS_LEVEL: "[learning|E] за [stress_level|El]"
  MOD_PROWESS_PER_STRESS_LEVEL: "[prowess|E] за [stress_level|El]"
-  
  MOD_PIETY_LEVEL_IMPACT_MULT: "[piety_level_impact|E]"
  MOD_PRESTIGE_LEVEL_IMPACT_MULT: "[prestige_level_impact|E]"
-  
  MOD_DIPLOMACY_NEGATE_PENALTY: "Штраф к [Concept( 'diplomacy', 'дипломатии' )|E] снят"
  MOD_INTRIGUE_NEGATE_PENALTY: "Штраф к [Concept( 'intrigue', 'искусству интриг' )|E] снят"
  MOD_STEWARDSHIP_NEGATE_PENALTY: "Штраф к [Concept( 'stewardship', 'администрированию' )|E] снят"
  MOD_MARTIAL_NEGATE_PENALTY: "Штраф к [Concept( 'martial', 'военному делу' )|E] снят"
  MOD_PROWESS_NEGATE_PENALTY: "Сопротивление ранениям ([prowess|E])"
  MOD_LEARNING_NEGATE_PENALTY: "Штраф к [Concept( 'diplomacy', 'дипломатии' )|E] снят"
-  
  MOD_FERTILITY: "[fertility|E]"
  MOD_FERTILITY_NEGATE_PENALTY: "Сопротивление болезни ([fertility|El])"
-  
  MOD_COST_PREFIX: "[gold_i]"
  MOD_SCHEME_SECRECY: "[secrecy|E]"
  MOD_SCHEME_SUCCESS: "[success_chance|E] [Concept( 'scheme', 'происков' )|El]"
@@ -106,7 +99,6 @@
  MOD_ARMY_TOUGHNESS_MULT: "[toughness|E] армии"
  MOD_ARMY_PURSUIT_MULT: "[pursuit|E] армии"
  MOD_ARMY_SCREEN_MULT: "[screen|E] армии"
-  
  MOD_MERCENARY_HIRE_COST_ADD: "Стоимость найма [Concept( 'mercenary', 'наемников' )|E]"
  MOD_MERCENARY_HIRE_COST_MULT: "$MOD_MERCENARY_HIRE_COST_ADD$"
  MOD_HOLY_ORDER_HIRE_COST_ADD: "Стоимость найма [Concept( 'holy_order', 'священного ордена' )|E]"
@@ -116,7 +108,6 @@
  MOD_SAME_CULTURE_HOLY_ORDER_HIRE_COST_ADD: "Стоимость найма [Concept( 'holy_order', 'священного ордена' )|E] той же [Concept( 'culture', 'культуры' )|E]"
  MOD_SAME_CULTURE_HOLY_ORDER_HIRE_COST_MULT: "$MOD_SAME_CULTURE_HOLY_ORDER_HIRE_COST_ADD$"
  holy_order_government_levy_contribution_add: "[modifier_contribution|E] [Concept( 'levy', 'ополчения' )|E] [Concept( 'vassal', 'вассала' )|E] [Concept( 'holy_order', 'священного ордена' )|E]"
-  
  desert_advantage: "[command_modifier_i][advantage|E] в пустыне"
  desert_attrition_mult: "[command_modifier_i][attrition|E] в пустыне"
  desert_cancel_negative_supply: "[command_modifier_i]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El]"
@@ -187,7 +178,6 @@
  wetlands_cancel_negative_supply: "[command_modifier_i]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El] на болотах"
  wetlands_max_combat_roll: "[command_modifier_i]Лучший [combat_roll|El] на болотах"
  wetlands_min_combat_roll: "[command_modifier_i]Худший [combat_roll|El] на болотах"
-  
  siege_weapon_siege_value_mult: "Эффективность [Concept( 'siege_weapon', 'осадных орудий' )|El]"
  siege_weapon_toughness_add: "[toughness|E] [Concept( 'siege_weapon', 'осадных орудий' )|El]"
  siege_weapon_max_size_add: "Максимальный размер [Concept( 'regiments', 'полков' )|E] [Concept( 'siege_weapons', 'осадных орудий' )|E]"
@@ -290,7 +280,6 @@
  elephant_cavalry_maintenance_mult: "Содержание [Concept( 'elephant_cavalry', 'элефантерии' )|E]"
  elephant_cavalry_recruitment_cost_mult: "Стоимость найма [Concept( 'elephant_cavalry', 'боевых слонов' )|E]"
  elephant_cavalry_max_size_add: "Максимальный размер [Concept( 'regiments', 'полков' )|E] [Concept( 'elephant_cavalry', 'элефантерии' )|E]"
-  
  MOD_MOVEMENT_SPEED_PREFIX: "@movement_speed_icon!"
  MOD_DREAD_PREFIX: "@dread_icon!"
  MOD_DISCOVERY_PREFIX: "@exposed_icon!"
@@ -420,7 +409,6 @@
  stationed_siege_weapon_screen_mult: "$stationed_siege_weapon_screen_add$"
  stationed_siege_weapon_siege_value_add: "[siege_progress|E] [Concept( 'stationed', 'расположенных' )|E] здесь [Concept( 'siege_weapon', 'осадных орудий' )|E]"
  stationed_siege_weapon_siege_value_mult: "Эффективность [Concept( 'stationed', 'расположенных' )|E] здесь [Concept( 'siege_weapon', 'осадных орудий' )|E]"
-  
  river_crossing_modifier: "Переправа через реку"
  attacker_river_crossing_modifier: "Переправа через реку"
  major_river_crossing_modifier: "Переправа через большую реку"
@@ -452,6 +440,10 @@
  theocracy_government_tax_contribution_mult: "[modifier_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'vassal', 'вассалов' )|E]-[Concept( 'theocracy', 'теократов' )|E]"
  feudal_government_tax_contribution_add: "[modifier_base_contribution|E]: [Concept( 'tax', 'налоги' )|E] c [Concept( 'feudal', 'феодальных' )|E] [Concept( 'vassal', 'вассалов' )|E]"
  feudal_government_tax_contribution_mult: "[modifier_contribution|E]: [Concept( 'tax', 'налоги' )|E] c [Concept( 'feudal', 'феодальных' )|E] [Concept( 'vassal', 'вассалов' )|E]"
+ clan_government_tax_contribution_add: "[modifier_base_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'clan', 'клановых' )|E] [Concept( 'vassal', 'вассалов' )|E]"
+ clan_government_tax_contribution_mult: "[modifier_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'clan', 'клановых' )|E] [Concept( 'vassal', 'вассалов' )|E]"
+ clan_government_levy_contribution_add: "[modifier_base_contribution|E]: [Concept( 'levy', 'ополчение' )|E] с [Concept( 'clan', 'клановых' )|E] [Concept( 'vassal', 'вассалов' )|E]"
+ clan_government_levy_contribution_mult: "[modifier_contribution|E]: [Concept( 'levy', 'ополчение' )|E] с [Concept( 'clan', 'клановых' )|E] [Concept( 'vassal', 'вассалов' )|E]"
  MOD_SCHEME_POWER: "Сила происков"
  MOD_SCHEME_RESISTANCE: "Сопротивление проискам"
  MOD_HOSTILE_SCHEME_POWER_ADD: "[Concept( 'scheme_power', 'Сила' )|E] [Concept( 'scheme_hostile', 'враждебных происков' )|El]"
@@ -531,7 +523,7 @@
  MOD_ENEMY_PERSONAL_SCHEME_SUCCESS_ADD: "Шанс на успех личных [Concept( 'schemes', 'происков' )|E] врага"
  MOD_ENEMY_HOSTILE_SCHEME_SUCCESS_ADD: "Шанс на успех враждебных [Concept( 'schemes', 'происков' )|E] врага"
  MOD_OWNED_SCHEME_SECRECY_ADD: "[secrecy|E] [Concept( 'scheme', 'происков' )|E]"
-  # Scheme modifiers 
+ #Scheme modifiers
  murder_trusted_advice_modifier: "Соучастник — доверенный советник"
  murder_trusted_by_target_modifier: "Доверие со стороны цели"
  scheme_drunkard_murder_target_modifier: "Цель — пьяница"
@@ -558,11 +550,11 @@
  commander_advantage: "Навык командира"
  commander_trait_advantage: "Таланты командира"
  defending_controlled_province_advantage: "$MOD_CONTROLLED_PROVINCE_ADVANTAGE$"
+ MODIFIER_TIME_LEFT: "#weak До [DATE.GetString]#!"
+ MODIFIER_MULTIPLE_INSTANCES: "$NAME$ ($NUMBER|V$)"
  knight_defending_controlled_province_advantage: "$MOD_CONTROLLED_PROVINCE_ADVANTAGE$"
  attacking_uncontrolled_province_advantage: "$MOD_UNCONTROLLED_PROVINCE_ADVANTAGE$"
  knight_attacking_uncontrolled_province_advantage: "$MOD_UNCONTROLLED_PROVINCE_ADVANTAGE$"
- MODIFIER_TIME_LEFT: "\n#weak До [DATE.GetString]#!"
- MODIFIER_MULTIPLE_INSTANCES: "$NAME$ ($COUNT|V$)"
  dungeon: "Подземелье"
  house_arrest: "Домашний арест"
  MOD_IMPRISONED_RELATIVE_OPINION: "Мнение родственников о пленителе"
@@ -582,7 +574,7 @@
  combat_debt_level_7: "Владелец [Concept( 'debt', 'в долгу' )|E] более двадцати пяти лет"
  combat_debt_level_8: "Владелец [Concept( 'debt', 'в долгу' )|E] более пятидесяти лет"
  combat_debt_level_9: "Владелец [Concept( 'debt', 'в долгу' )|E] более ста лет"
- combat_debt_level_no_income: "Владелец в [Concept( 'debt', 'долгах' )|E]"
+ combat_debt_level_no_income: "Владелец в [Concept( 'debt', 'долгах' )|E]" #Speical no income
  debt_level_0: "Небольшой [Concept( 'debt', 'долг' )|E]"
  debt_level_1: "Один год [Concept( 'debt', 'в долгу' )|E]"
  debt_level_2: "Два года [Concept( 'debt', 'в долгу' )|E]"
@@ -593,7 +585,7 @@
  debt_level_7: "Более двадцати пяти лет [Concept( 'debt', 'в долгу' )|E]"
  debt_level_8: "Более пятидесяти лет [Concept( 'debt', 'в долгу' )|E]"
  debt_level_9: "Более ста лет [Concept( 'debt', 'в долгу' )|E]"
- debt_level_no_income: "[debt|E]"
+ debt_level_no_income: "[debt|E]" #Special no income
  no_embarkation_cost: "Нет стоимости погрузки"
  domain_limit_plus_one: "Правило игры — плюс один"
  domain_limit_plus_two: "Правило игры — плюс два"
@@ -609,6 +601,8 @@
  MOD_SUPPLY_CAPACITY_ADD: "[command_modifier_i]Объем [Concept( 'supply', 'снабжения' )|El]"
  MOD_SUPPLY_CAPACITY_MULT: "$MOD_SUPPLY_CAPACITY_ADD$"
  county_capital_province_modifier: "Столица графства"
+ temporary_fort_province_modifier: "Временные укрепления"
+ temporary_fort_province_modifier_desc: "Самодельные укрепления, сделанные лишь на время войны."
  disabled_fort_province_modifier: "$MOD_HOLDING_FORT_LEVEL$"
  independent_realm_capital_province_modifier: "Столица независимой [realms|El]"
  high_tier_vassal_capital_province_modifier: "Столица [realms|El] вассала высокого ранга"
@@ -634,17 +628,14 @@
  modifier_religious_understanding_modifier_desc: "Сюзерен этих земель с пониманием отнесся к религии этой области."
  fertile_desert_mountains_modifier: "Аль-Ямнат"
  fertile_desert_mountains_modifier_desc: "С древних времен южную часть Аравии называли плодородной или удачливой Аравией. Это регион с более многочисленным населением и более плодородной почвой в сравнении с окружающими его областями полуострова.\nМожно строить [GetBuilding('cereal_fields_01').GetName]"
-  
  dance_plague_modifier: "Танцевальная чума"
  dance_plague_modifier_desc: "Крестьяне в этой области подвержены странной мании, вынуждающей их танцевать до изнеможения."
  contained_dance_plague_modifier: "Сдержанная одержимость танцами"
  contained_dance_plague_modifier_desc: "Крестьяне в этой области, пострадавшие от жуткой танцевальной чумы, получают помощь в лечении болезни."
  fanning_the_dancing_flames_modifier: "Пляски через край"
  fanning_the_dancing_flames_modifier_desc: "Крестьян в этой области побуждают танцевать, танцевать, #EMP танцевать#!!"
-  
  disease_spreading_modifier: "Опустошающая болезнь"
  disease_spreading_modifier_desc: "Болезнь распространяется по этим землям"
-  
  winter_none_modifier: "Нет [Concept( 'winter', 'зимних морозов' )|E]"
  winter_mild_modifier: "Мягкие [Concept( 'winter', 'зимние морозы' )|E]"
  winter_normal_modifier: "Обычные [Concept( 'winter', 'зимние морозы' )|E]"
@@ -902,27 +893,22 @@
  MOD_HOSTILE_RAID_TIME: "Время вражеского [Concept( 'raid', 'грабежа' )|E]"
  MOD_HOLDING_FORT_LEVEL_PREFIX: "@fort_icon!"
  MOD_MAX_LOOT_MULT: "Максимальный объем [Concept( 'raid_loot', 'добычи' )|E]"
-  
  city_holding_build_speed: "Скорость постройки городских [Concept( 'buildings', 'зданий' )|E]"
  church_holding_build_speed: "Время постройки храмовых [Concept( 'buildings', 'зданий' )|E]"
  castle_holding_build_speed: "Время постройки замковых [Concept( 'buildings', 'зданий' )|E]"
  tribal_holding_build_speed: "Время постройки племенных [Concept( 'buildings', 'зданий' )|E]"
-  
  city_holding_build_gold_cost: "Стоимость постройки городских [Concept( 'buildings', 'зданий' )|E]"
  church_holding_build_gold_cost: "Стоимость строительства храмовых [Concept( 'buildings', 'зданий' )|E]"
  castle_holding_build_gold_cost: "Стоимость постройки замковых [Concept( 'buildings', 'зданий' )|E]"
  tribal_holding_build_gold_cost: "Стоимость строительства племенных [Concept( 'buildings', 'зданий' )|E]"
-  
  city_holding_holding_build_speed: "Время постройки городских [Concept( 'holding', 'владений' )|E]"
  church_holding_holding_build_speed: "Время постройки храмовых [Concept( 'holding', 'владений' )|E]"
  castle_holding_holding_build_speed: "Время постройки замковых [Concept( 'holding', 'владений' )|E]"
  tribal_holding_holding_build_speed: "Время постройки племенных [Concept( 'holding', 'владений' )|E]"
-  
  city_holding_holding_build_gold_cost: "Стоимость постройки городских [Concept( 'holding', 'владений' )|E]"
  church_holding_holding_build_gold_cost: "Стоимость строительства храмовых [Concept( 'holdings', 'владений' )|E]"
  castle_holding_holding_build_gold_cost: "Стоимость постройки замковых [Concept( 'holding', 'владений' )|E]"
  tribal_holding_holding_build_gold_cost: "Стоимость строительства племенных [Concept( 'holdings', 'владений' )|E]"
-  
  plains_tax_mult: "$MOD_TAX_MULT$ на равнинах"
  farmlands_tax_mult: "$MOD_TAX_MULT$ на пахотных землях"
  hills_tax_mult: "$MOD_TAX_MULT$ на холмах"
@@ -965,9 +951,9 @@
  steppe_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в степи"
  floodplains_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в поймах рек"
  drylands_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в засушливых землях"
-  
-  # Scheme modifiers 
+ #Scheme modifiers
  seduce_scheme_power_mult: "[scheme_power|E] «[GetScheme('seduce').GetTypeName]»"
+ claim_throne_scheme_power_mult: "[scheme_power|E] «[GetScheme('claim_throne').GetTypeName]»"
  courting_scheme_power_add: "[scheme_power|E] «[GetScheme('courting').GetTypeName]»"
  max_courting_schemes_add: "Максимум [Concept( 'schemes', 'происков' )|E] «[GetScheme('courting').GetTypeName]»"
  befriend_scheme_power_add: "[scheme_power|E] «[GetScheme('befriend').GetTypeName]»"
@@ -984,29 +970,25 @@
  learn_language_schemes_add: "Максимум [Concept( 'schemes', 'происков' )|E] «[GetScheme('learn_language').GetTypeName]»"
  max_learn_language_schemes_add: "$learn_language_schemes_add$"
  max_sway_schemes_add: "Максимум [Concept( 'schemes', 'происков' )|E] «[GetScheme('sway').GetTypeName]»"
-  
-  #County modifiers 
+ #County modifiers
  occupation_modifier: "Оккупация"
  siege_modifier: "Осада"
  encouraged_improvement_modifier: "Поощрение улучшений"
  county_base_modifier: "Базовое значение"
  reclaim_britannia_culture_modifier: "Отвоеванная Британия"
  reclaim_britannia_culture_modifier_desc: "[promote_culture|E] (только $celtic_group$ие культуры) Скорость: #P +75%#!"
-  
-  #Tier modifiers 
+ #Tier modifiers
  unlanded_modifier: "Нет владений"
  baron_modifier: "Барон"
  count_modifier: "Граф"
  duke_modifier: "Герцог"
  king_modifier: "Король"
  emperor_modifier: "Император"
-  
-  #Skill tooltips 
+ #Skill tooltips
  diplomacy_effect_desc: "Увеличивает эффективность дипломатических [Concept( 'schemes', 'происков' )|E]."
  martial_effect_desc: "Увеличивает [advantage|El] при командовании войсками в сражении."
  intrigue_effect_desc: "Увеличивает эффективность происков через интриги.\nУвеличивает шанс успешно [imprison|El] другого персонажа."
  learning_effect_desc: "Снижает расход [Concept( 'prestige', 'престижа' )|E] на то, чтобы увеличить [crown_authority|El].\nПовышает вероятность того, что другие персонажи [Concept( 'demand_conversion', 'согласятся обратиться' )|E]."
-  
  piety_level_0: "Греховность"
  piety_level_0_desc: "$piety_level_0$ — единственный отрицательный [Concept( 'piety_level', 'уровень набожности' )|E]. Следующий уровень: [GetModifier( 'piety_level_1' ).GetNameWithTooltip|L].\nЭффекты:\n[GetPietyLevelDesc('(int32)0')|=+]"
  piety_level_1: "Принятие"
@@ -1019,7 +1001,6 @@
  piety_level_4_desc: "$piety_level_4$ — четвертый [piety_level|El]. Следующий уровень — [GetModifier( 'piety_level_5' ).GetNameWithTooltip|L].\nЭффекты:\n[GetPietyLevelDesc('(int32)4')|=+]"
  piety_level_5: "Образец для подражания"
  piety_level_5_desc: "$piety_level_5$ — пятый, максимальный [piety_level|El].\nЭффекты:\n[GetPietyLevelDesc('(int32)5')|=+]"
-  
  prestige_level_0: "Бесчестие"
  prestige_level_0_desc: "$prestige_level_0$ — самый низкий [prestige_level|El]. Следующий уровень — [GetModifier( 'prestige_level_1' ).GetNameWithTooltip|L].\nЭффекты:\n[GetPrestigeLevelDesc('(int32)0')|=+]"
  prestige_level_1: "Доброе имя"
@@ -1032,32 +1013,27 @@
  prestige_level_4_desc: "$prestige_level_4$ — пятый [prestige_level|El]. Следующий уровень — [GetModifier( 'prestige_level_5' ).GetNameWithTooltip|L].\nЭффекты:\n[GetPrestigeLevelDesc('(int32)4')|=+]"
  prestige_level_5: "Живая легенда"
  prestige_level_5_desc: "$prestige_level_5$ — шестой, высочайший [prestige_level|El].\nЭффекты:\n[GetPrestigeLevelDesc('(int32)5')|=+]"
-  
  stress_level_1: "Уровень стресса 1"
  stress_level_2: "Уровень стресса 2"
  stress_level_3: "Уровень стресса 3"
  stress_level_4: "Уровень стресса 4"
  stress_level_5: "Уровень стресса 5"
-  
  recently_looted_modifier: "Недавний грабеж"
  recently_looted_modifier_desc: "Это владение недавно было разграблено при [Concept( 'raid', 'налете' )|El] или [Concept( 'siege', 'осаде' )|E], и его нельзя повторно разграбить до истечения этого модификатора."
-  
  very_easy_difficulty: "Очень простые"
  easy_difficulty: "Простые"
  commander_enemy_terrain_advantage: "Лишает врага преимущества в защите, которую дает местность"
-  
-  # Informs players about scripted county modifiers for council tasks (e.g., either faster county conversions, or slower ones depending). 
+ #Informs players about scripted county modifiers for council tasks (e.g., either faster county conversions, or slower ones depending).
  CUSTOM_MOD_FAITH_CONVERSION_SPEED: "Скорость задания «$task_conversion$»: "
  CUSTOM_MOD_CULTURE_CONVERSION_SPEED: "Скорость задания «$task_promote_culture$»: "
  CUSTOM_MOD_FABRICATE_CLAIM_SPEED: "Скорость задания «$task_fabricate_claim$»: "
-  
-  # Informs players about the stress loss decisions enabled by coping mechanism traits. 
+ #Informs players about the stress loss decisions enabled by coping mechanism traits.
  CUSTOM_MOD_ENABLES_STRESS_LOSS_DECISIONS: "Позволяет принять особое [decision|El], #P снижающее#! [stress|El]"
-  
-  # RoCo 
+ #RoCo
  world_innovation_elephants_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в регионе [GetGeographicalRegion('world_innovation_elephants').GetName]"
-  
-  # Travel 
+ #FP3
+ world_persian_empire_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в регионе [GetGeographicalRegion('world_persian_empire').GetName]"
+ #Travel
  MOD_TRAVEL_SPEED: "Скорость [Concept( 'travel', 'путешествия' )|E]"
  MOD_TRAVEL_SPEED_MULT: "$MOD_TRAVEL_SPEED$"
  MOD_TRAVEL_SAFETY: "Безопасность [Concept( 'travel', 'путешествия' )|E]"
@@ -1080,14 +1056,11 @@
  drylands_travel_danger: "[Concept( 'travel_danger', 'Опасность' )|E]: [GetTerrain( 'drylands' ).GetName]"
  sea_travel_danger: "[Concept( 'travel_danger', 'Опасность' )|E]: [GetTerrain( 'sea' ).GetName]"
  coastal_sea_travel_danger: "[Concept( 'travel_danger', 'Опасность' )|E]: [GetTerrain( 'coastal_sea' ).GetName]"
-  
  MOD_STRIFE_OPINION_GAIN_MULT: "Прирост [Concept( 'strife', 'недовольства' )|E]"
  MOD_STRIFE_OPINION_LOSS_MULT: "Снижение [Concept( 'strife', 'недовольства' )|E]"
-  
-  # Accolades 
+ #Accolades
  MOD_ACTIVE_ACCOLADES: "Доступные [Concept( 'accolades', 'акколады' )|E]"
  MOD_ACCOLADE_GLORY_GAIN_MULT: "Прирост [Concept( 'glory', 'славы' )|E] [Concept( 'accolade', 'акколады' )|E]"
-  
  MOD_LEVY_MAINTENANCE: "Содержание [Concept( 'levy', 'ополчения' )|E]"
  MOD_UNCONTROLLED_PROVINCE_ADVANTAGE: "[advantage|E] атакующего на неподконтрольной территории"
  MOD_LEVY_ATTACK: "[damage|E] [Concept( 'levy', 'ополчения' )|E]"
@@ -1099,36 +1072,50 @@
  MOD_KNIGHT_EFFECTIVENESS_PER_TYRANNY: "[knight_effectiveness|E] за [Concept( 'tyranny', 'тиранию' )|E]"
  MOD_STRESS_LOSS_PER_PIETY_LEVEL: "Снижение [Concept( 'stress', 'стресса' )|E] за [piety_level|El]"
  MOD_STRESS_LOSS_PER_PRESTIGE_LEVEL: "Снижение [Concept( 'stress', 'стресса' )|E] за [prestige_level|El]"
-  
  pilgrim_xp_gain_mult: "Прирост [Concept( 'trait_level_track_xp', 'опыта пути развития свойства' )|E] «[GetTrait('pilgrim').GetName( GetNullCharacter )]»"
  lifestyle_traveler_xp_gain_mult: "Прирост [Concept( 'trait_level_track_xp', 'опыта пути развития свойства' )|E] «[GetTrait('lifestyle_traveler').GetName( GetNullCharacter )]»"
  lifestyle_reveler_xp_gain_mult: "Прирост [Concept( 'trait_level_track_xp', 'опыта пути развития свойства' )|E] «[GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]»"
-  
  lifestyle_hunter_xp_gain_mult: "Прирост [Concept( 'trait_level_track_xp', 'опыта пути развития свойства' )|E] «[GetTrait('lifestyle_hunter').GetName( GetNullCharacter )]»"
  trait_track_hunter_xp_gain_mult: "Прирост [Concept( 'trait_level_track_xp', 'опыта пути развития свойства' )|E] «Венатор» #weak ([GetTrait('lifestyle_hunter').GetName( GetNullCharacter )])#!"
  trait_track_falconer_xp_gain_mult: "Прирост [Concept( 'trait_level_track_xp', 'опыта пути развития свойства' )|E] «Сокольничий»#weak ([GetTrait('lifestyle_hunter').GetName( GetNullCharacter )])#!"
-  
  tourney_participant_xp_gain_mult: "Прирост [Concept( 'trait_level_track_xp', 'опыта пути развития свойства' )|E] «[GetTrait('tourney_participant').GetName( GetNullCharacter )]»"
  trait_track_foot_xp_gain_mult: "Прирост [Concept( 'trait_level_track_xp', 'опыта пути развития свойства' )|E] «Пешие состязания» #weak ([GetTrait('tourney_participant').GetName( GetNullCharacter )])#!"
  trait_track_bow_xp_gain_mult: "Прирост [Concept( 'trait_level_track_xp', 'опыта пути развития свойства' )|E] «Состязания по стрельбе» #weak ([GetTrait('tourney_participant').GetName( GetNullCharacter )])#!"
  trait_track_horse_xp_gain_mult: "Прирост [Concept( 'trait_level_track_xp', 'опыта пути развития свойства' )|E] «Конные состязания» #weak ([GetTrait('tourney_participant').GetName( GetNullCharacter )])#!"
  trait_track_wit_xp_gain_mult: "Прирост [Concept( 'trait_level_track_xp', 'опыта пути развития свойства' )|E] «Интеллектуальные состязания» #weak ([GetTrait('tourney_participant').GetName( GetNullCharacter )])#!"
-  
  trait_track_lifestyle_blademaster_xp_gain_mult: "[Concept( 'trait_level_track_xp', 'Опыт пути развития свойства' )|E] «[GetTrait('lifestyle_blademaster').GetName( GetNullCharacter )]»"
  lifestyle_blademaster_xp_gain_mult: "Прирост [Concept( 'trait_level_track_xp', 'опыта пути развития свойства' )|E] «[GetTrait('lifestyle_blademaster').GetName( GetNullCharacter )]»"
-  
  pilgrim_xp_degradation_mult: "Ежемесячная убыль [Concept( 'trait_level_track_xp', 'опыта пути развития свойства' )|E] «[GetTrait('pilgrim').GetName( GetNullCharacter )]»"
  lifestyle_traveler_xp_degradation_mult: "Ежемесячная убыль [Concept( 'trait_level_track_xp', 'опыта пути развития свойства' )|E] «[GetTrait('lifestyle_traveler').GetName( GetNullCharacter )]»"
  lifestyle_reveler_xp_degradation_mult: "Ежемесячная убыль [Concept( 'trait_level_track_xp', 'опыта пути развития свойства' )|E] «[GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]»"
  lifestyle_hunter_xp_degradation_mult: "Ежемесячная убыль [Concept( 'trait_level_track_xp', 'опыта пути развития свойства' )|E] «[GetTrait('lifestyle_hunter').GetName( GetNullCharacter )]»"
  tourney_participant_xp_degradation_mult: "Ежемесячная убыль [Concept( 'trait_level_track_xp', 'опыта пути развития свойства' )|E] «[GetTrait('tourney_participant').GetName( GetNullCharacter )]»"
-  
+ #FP3
+ max_murder_schemes_add: "Максимум [Concept( 'schemes', 'происков' )|E] «[GetScheme('murder').GetTypeName]»"
+ MODIFIER_DEFINITION_VALUE_PER_HOUSE_UNITY_MEMBER: " \\t#weak Увеличивается за каждого [Concept( 'landed', 'землевладельца' )|E] из числа членов [Concept( 'house', 'дома' )|E]#!"
+ MODIFIER_DEFINITION_MAIN_DESC_HOUSE_UNITY: "Этот модификатор увеличивается за каждого [Concept( 'landed', 'землевладельца' )|E] из числа членов [Concept( 'house', 'дома' )|E] (#bold $MULTIPLIER|0$#!/#bold 10#!)"
+ MODIFIER_DEFINITION_BASE_VALUE: "Базовое значение"
  avalanche_impact: "Воздействие лавины"
  avalanche_impact_desc: "В этом владении ощущаются последствия недавнего схода огромной лавины."
-  
  convert_to_witchcraft_scheme_power_mult: "[Concept( 'scheme_power', 'Сила происка' )|E] [GetScheme('convert_to_witchcraft').GetTypeName]"
-  
  MOD_HOSTAGE_PRESTIGE_MULT: "Ежемесячный [prestige|El] от [Concept( 'hostages', 'заложников' )|E]"
  MOD_HOSTAGE_PIETY_MULT: "Ежемесячное [piety|El] от [Concept( 'hostages', 'заложников' )|E]"
  MOD_HOSTAGE_RENOWN_MULT: "Ежемесячный [dynasty_prestige|El] от [Concept( 'hostages', 'заложников' )|E]"
  MOD_HOSTAGE_INCOME_MULT: "Ежемесячный доход от [Concept( 'hostages', 'заложников' )|E]"
+ player_facing_ai_energy: "Энергичность"
+ player_facing_ai_honor: "Честь"
+ player_facing_ai_vengefulness: "Мстительность"
+ player_facing_ai_greed: "Жадность"
+ player_facing_ai_compassion: "Сострадание"
+ player_facing_ai_rationality: "Рациональность"
+ player_facing_ai_sociability: "Общительность"
+ player_facing_ai_zeal: "Фанатизм"
+ player_facing_ai_boldness: "Храбрость"
+ glory_hound_ai_energy: "$player_facing_ai_energy$ [GetVassalStance( 'glory_hound' ).GetTextIcon]охочей до славы [Concept( 'personality', 'личности' )|E]"
+ glory_hound_ai_boldness: "$player_facing_ai_boldness$ [GetVassalStance( 'glory_hound' ).GetTextIcon]охочей до славы [Concept( 'personality', 'личности' )|E]"
+ zealot_ai_vengefulness: "$player_facing_ai_vengefulness$ [GetVassalStance( 'zealot' ).GetTextIcon]фанатичной [Concept( 'personality', 'личности' )|E]"
+ zealot_ai_zeal: "$player_facing_ai_zeal$ [GetVassalStance( 'zealot' ).GetTextIcon]фанатичной [Concept( 'personality', 'личности' )|E]"
+ zealot_ai_boldness: "$player_facing_ai_boldness$ [GetVassalStance( 'zealot' ).GetTextIcon]фанатичной [Concept( 'personality', 'личности' )|E]"
+ minority_ai_energy: "$player_facing_ai_energy$ [GetVassalStance( 'minority' ).GetTextIcon]миноритарной [Concept( 'personality', 'личности' )|E]"
+ MOD_NUM_TAX_SLOTS: "Доступные [Concept( 'tax_jurisdictions', 'налоговые юрисдикции' )|E]"
+ clan_tax_slot_add: "$MOD_NUM_TAX_SLOTS$" #Can re-localize if we re-use tax slots in other governments

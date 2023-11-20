@@ -24,7 +24,6 @@
  ACTIVITY_JOIN_ALREADY_STARTED: "@warning_icon!#X [Activity.GetName] уже идет#!"
  SHOW_ACTIVITY_TOOLTIP: "#T [ActivityType.GetNameNoTooltip]#!\n[JoinText( '\n', ActivityType.GetCanStartActivityTooltip( GetPlayer ), ActivityType.GetLocalizedText( 'selection_tooltip' ) )]\n\n#I Щелкните, чтобы выбрать#!"
  JOIN_ACTIVITY_TOOLTIP: "#T [Activity.GetNameNoTooltip]#!\n\n#I Щелкните, чтобы выбрать#!"
-  
  ACTIVITY_LIST_DETAIL_HOST_TITLE: "Устроить занятие «[ActivityType.GetNameNoTooltip]»"
  ACTIVITY_LIST_DETAIL_DESC: "[ActivityType.GetDescription]"
  ACTIVITY_LIST_DETAIL_HOST_CONFIRM: "Запланировать занятие «[ActivityType.GetNameNoTooltip]»"
@@ -32,7 +31,6 @@
  ACTIVITY_LIST_DETAIL_HOST_EFFECTS: "Ожидаемые награды за [Concept( 'activity', 'занятие' )|E] «[ActivityType.GetNameNoTooltip]»:\n[ActivityType.GetHostDescription( GetPlayer )][AddLocalizationIf( ActivityTypeHasCooldown( ActivityType ), 'ACTIVITY_LIST_DETAIL_HOST_COOLDOWN' )]"
  ACTIVITY_CAN_START_NOT_VALID: "@warning_icon! #X Вы не отвечаете всем требованиям#!"
  ACTIVITY_LIST_DETAIL_TOGGLE_SHOULD_NOTIFY_CAN_HOST: "Оповестить, когда это занятие станет доступным"
-  
  ACTIVITY_LIST_DETAIL_JOIN_TITLE: "Приглашение на занятие «[Activity.GetNameNoTooltip]»"
  ACTIVITY_LIST_DETAIL_JOIN_EFFECTS: "Вы присоединяетесь к занятию «[Activity.GetNameNoTooltip]» во владении $ACTIVITY_CURRENT_LOCATION$\n[Activity.GetGuestDescription( GetPlayer )]"
  ACTIVITY_LIST_DETAIL_JOIN_CONFIRM: "Присоединиться к занятию «[Activity.GetNameNoTooltip]»"
@@ -48,7 +46,6 @@
  ACTIVITY_DECLINE_INVITE_POPUP_TITLE: "Отклонить приглашение"
  ACTIVITY_DECLINE_INVITE_POPUP_BODY: "[Activity.GetName]: отклонить приглашение"
  ACTIVITY_DECLINE_INVITE_POPUP_ACCEPT: "Отказать"
-  
  ACTIVITY_SUMMARY_TITLE: "[Activity.GetType.GetName] персонажа [Activity.GetHost.GetName]"
  ACTIVITY_SUMMARY_LOCATION: "Во владении [Activity.GetCurrentPhase.GetLocation.GetName] (ваше время в пути [GetTimeDifferenceWithDays( TravelPlanDraft.GetData.GetNextDestination.GetEstimatedArrivalDays )])"
  ACTIVITY_SUMMARY_JOIN_TIME: "У вас осталось [GetTimeBetweenDates( TravelPlanDraft.GetData.GetNextDestination.GetEstimatedArrivalDate, Activity.GetActiveStartDate.Self )], чтобы присоединиться (начало через: [Activity.GetActiveStartDate.GetTimeToDate])"

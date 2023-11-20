@@ -35,7 +35,7 @@
  heritage_thyssae_name: "Тиссэйцы"  
  heritage_thyssae_collective_noun: "Тиссэйск" 
  heritage_kosharan_name: "Кошарцы" 
- heritage_kosharan_collective_noun: "Кошарск" #
+ heritage_kosharan_collective_noun: "Кошарск"
  heritage_samojitian_name: "Самоджитяне"  
  heritage_samojitian_collective_noun: "Самоджитянск"  
  heritage_kemsar_name: "Кемсарцы"  
@@ -208,3 +208,5 @@
  heritage_nattanan_collective_noun: "Наттананск" 
  heritage_saielaien_name: "Сайелайенцы"  
  heritage_saileaien_collective_noun: "Сайелайенск"
+ heritage_gh_dragon_name:0 "Драконы"
+ heritage_gh_dragon_collective_noun:0 "Драконск"

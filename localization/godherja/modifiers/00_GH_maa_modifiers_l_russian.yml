@@ -1,140 +1,140 @@
 ﻿l_russian:
- constructs_damage_add: "[constructs|E] [damage|E]"  #Машиночный перевод 28.10.23!
- constructs_damage_mult: "$constructs_damage_add$"  #Машиночный перевод 28.10.23!
- constructs_maintenance_mult: "[constructs|E] Техническое обслуживание"  #Машиночный перевод 28.10.23!
- constructs_max_size_add: "Максимальный размер [constructs|E] [regiments|E]"  #Машиночный перевод 28.10.23!
- constructs_pursuit_add: "[constructs|E] [pursuit|E]"  #Машиночный перевод 28.10.23!
- constructs_pursuit_mult: "$constructs_pursuit_add$"  #Машиночный перевод 28.10.23!
- constructs_recruitment_cost_mult: "[constructs|E] Стоимость найма"  #Машиночный перевод 28.10.23!
- constructs_screen_add: "[constructs|E] [screen|E]"  #Машиночный перевод 28.10.23!
- constructs_screen_mult: "$constructs_screen_add$"  #Машиночный перевод 28.10.23!
- constructs_siege_value_add: "[constructs|E] [siege_progress|E]"  #Машиночный перевод 28.10.23!
- constructs_siege_value_mult: "[constructs|E] [siege|E] Эффективность"  #Машиночный перевод 28.10.23!
- constructs_toughness_add: "[constructs|E] [toughness|E]"  #Машиночный перевод 28.10.23!
- constructs_toughness_mult: "$constructs_toughness_add$"  #Машиночный перевод 28.10.23!
- flying_damage_add: "[flying|E] [damage|E]"  #Машиночный перевод 28.10.23!
- flying_damage_mult: "$flying_damage_add$"  #Машиночный перевод 28.10.23!
- flying_maintenance_mult: "[flying|E] Техническое обслуживание"  #Машиночный перевод 28.10.23!
- flying_max_size_add: "Максимальный размер [flying|E] [regiments|E]"  #Машиночный перевод 28.10.23!
- flying_pursuit_add: "[flying|E] [pursuit|E]"  #Машиночный перевод 28.10.23!
- flying_pursuit_mult: "$flying_pursuit_add$"  #Машиночный перевод 28.10.23!
- flying_recruitment_cost_mult: "[flying|E] Стоимость найма"  #Машиночный перевод 28.10.23!
- flying_screen_add: "[flying|E] [screen|E]"  #Машиночный перевод 28.10.23!
- flying_screen_mult: "$flying_screen_add$"  #Машиночный перевод 28.10.23!
- flying_siege_value_add: "[flying|E] [siege_progress|E]"  #Машиночный перевод 28.10.23!
- flying_siege_value_mult: "[flying|E] [siege|E] Эффективность"  #Машиночный перевод 28.10.23!
- flying_toughness_add: "[flying|E] [toughness|E]"  #Машиночный перевод 28.10.23!
- flying_toughness_mult: "$flying_toughness_add$"  #Машиночный перевод 28.10.23!
- magi_damage_add: "[magi|E] [damage|E]"  #Машиночный перевод 28.10.23!
- magi_damage_mult: "$magi_damage_add$"  #Машиночный перевод 28.10.23!
- magi_maintenance_mult: "[magi|E] Техническое обслуживание"  #Машиночный перевод 28.10.23!
- magi_max_size_add: "Максимальный размер [magi|E] [regiments|E]"  #Машиночный перевод 28.10.23!
- magi_pursuit_add: "[magi|E] [pursuit|E]"  #Машиночный перевод 28.10.23!
- magi_pursuit_mult: "$magi_pursuit_add$"  #Машиночный перевод 28.10.23!
- magi_recruitment_cost_mult: "[magi|E] Стоимость найма"  #Машиночный перевод 28.10.23!
- magi_screen_add: "[magi|E] [screen|E]"  #Машиночный перевод 28.10.23!
- magi_screen_mult: "$magi_screen_add$"  #Машиночный перевод 28.10.23!
- magi_siege_value_add: "[magi|E] [siege_progress|E]"  #Машиночный перевод 28.10.23!
- magi_siege_value_mult: "[magi|E] [siege|E] Эффективность"  #Машиночный перевод 28.10.23!
- magi_toughness_add: "[magi|E] [toughness|E]"  #Машиночный перевод 28.10.23!
- magi_toughness_mult: "$magi_toughness_add$"  #Машиночный перевод 28.10.23!
- magical_damage_add: "[magical|E] [damage|E]"  #Машиночный перевод 28.10.23!
- magical_damage_mult: "$magical_damage_add$"  #Машиночный перевод 28.10.23!
- magical_maintenance_mult: "[magical|E] Техническое обслуживание"  #Машиночный перевод 28.10.23!
- magical_max_size_add: "Максимальный размер [magical|E] [regiments|E]"  #Машиночный перевод 28.10.23!
- magical_pursuit_add: "[magical|E] [pursuit|E]"  #Машиночный перевод 28.10.23!
- magical_pursuit_mult: "$magical_pursuit_add$"  #Машиночный перевод 28.10.23!
- magical_recruitment_cost_mult: "[magical|E] Стоимость найма"  #Машиночный перевод 28.10.23!
- magical_screen_add: "[magical|E] [screen|E]"  #Машиночный перевод 28.10.23!
- magical_screen_mult: "$magical_screen_add$"  #Машиночный перевод 28.10.23!
- magical_siege_value_add: "[magical|E] [siege_progress|E]"  #Машиночный перевод 28.10.23!
- magical_siege_value_mult: "[magical|E] [siege|E] Эффективность"  #Машиночный перевод 28.10.23!
- magical_toughness_add: "[magical|E] [toughness|E]"  #Машиночный перевод 28.10.23!
- magical_toughness_mult: "$magical_toughness_add$"  #Машиночный перевод 28.10.23!
- monsters_damage_add: "[monsters|E] [damage|E]"  #Машиночный перевод 28.10.23!
- monsters_damage_mult: "$monsters_damage_add$"  #Машиночный перевод 28.10.23!
- monsters_maintenance_mult: "[monsters|E] Техническое обслуживание"  #Машиночный перевод 28.10.23!
- monsters_max_size_add: "Максимальный размер [monsters|E] [regiments|E]"  #Машиночный перевод 28.10.23!
- monsters_pursuit_add: "[monsters|E] [pursuit|E]"  #Машиночный перевод 28.10.23!
- monsters_pursuit_mult: "$monsters_pursuit_add$"  #Машиночный перевод 28.10.23!
- monsters_recruitment_cost_mult: "[monsters|E] Стоимость найма"  #Машиночный перевод 28.10.23!
- monsters_screen_add: "[monsters|E] [screen|E]"  #Машиночный перевод 28.10.23!
- monsters_screen_mult: "$monsters_screen_add$"  #Машиночный перевод 28.10.23!
- monsters_siege_value_add: "[monsters|E] [siege_progress|E]"  #Машиночный перевод 28.10.23!
- monsters_siege_value_mult: "[monsters|E] [siege|E] Эффективность"  #Машиночный перевод 28.10.23!
- monsters_toughness_add: "[monsters|E] [toughness|E]"  #Машиночный перевод 28.10.23!
- monsters_toughness_mult: "$monsters_toughness_add$"  #Машиночный перевод 28.10.23!
- undead_damage_add: "[gh_general_undead|E] [damage|E]"  #Машиночный перевод 28.10.23!
- undead_damage_mult: "$undead_damage_add$"  #Машиночный перевод 28.10.23!
- undead_maintenance_mult: "[gh_general_undead|E] Техническое обслуживание"  #Машиночный перевод 28.10.23!
- undead_max_size_add: "Максимальный размер [gh_general_undead|E] [regiments|E]"  #Машиночный перевод 28.10.23!
- undead_pursuit_add: "[gh_general_undead|E] [pursuit|E]"  #Машиночный перевод 28.10.23!
- undead_pursuit_mult: "$undead_pursuit_add$"  #Машиночный перевод 28.10.23!
- undead_recruitment_cost_mult: "[gh_general_undead|E] Стоимость найма"  #Машиночный перевод 28.10.23!
- undead_screen_add: "[gh_general_undead|E] [screen|E]"  #Машиночный перевод 28.10.23!
- undead_screen_mult: "$undead_screen_add$"  #Машиночный перевод 28.10.23!
- undead_siege_value_add: "[gh_general_undead|E] [siege_progress|E]"  #Машиночный перевод 28.10.23!
- undead_siege_value_mult: "[gh_general_undead|E] [siege|E] Эффективность"  #Машиночный перевод 28.10.23!
- undead_toughness_add: "[gh_general_undead|E] [toughness|E]"  #Машиночный перевод 28.10.23!
- undead_toughness_mult: "$undead_toughness_add$"  #Машиночный перевод 28.10.23!
+ constructs_damage_add: "[constructs|E] [damage|E]"  #Машинный перевод 28.10.23!
+ constructs_damage_mult: "$constructs_damage_add$"  #Машинный перевод 28.10.23!
+ constructs_maintenance_mult: "[constructs|E] Техническое обслуживание"  #Машинный перевод 28.10.23!
+ constructs_max_size_add: "Максимальный размер [constructs|E] [regiments|E]"  #Машинный перевод 28.10.23!
+ constructs_pursuit_add: "[constructs|E] [pursuit|E]"  #Машинный перевод 28.10.23!
+ constructs_pursuit_mult: "$constructs_pursuit_add$"  #Машинный перевод 28.10.23!
+ constructs_recruitment_cost_mult: "[constructs|E] Стоимость найма"  #Машинный перевод 28.10.23!
+ constructs_screen_add: "[constructs|E] [screen|E]"  #Машинный перевод 28.10.23!
+ constructs_screen_mult: "$constructs_screen_add$"  #Машинный перевод 28.10.23!
+ constructs_siege_value_add: "[constructs|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
+ constructs_siege_value_mult: "[constructs|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
+ constructs_toughness_add: "[constructs|E] [toughness|E]"  #Машинный перевод 28.10.23!
+ constructs_toughness_mult: "$constructs_toughness_add$"  #Машинный перевод 28.10.23!
+ flying_damage_add: "[flying|E] [damage|E]"  #Машинный перевод 28.10.23!
+ flying_damage_mult: "$flying_damage_add$"  #Машинный перевод 28.10.23!
+ flying_maintenance_mult: "[flying|E] Техническое обслуживание"  #Машинный перевод 28.10.23!
+ flying_max_size_add: "Максимальный размер [flying|E] [regiments|E]"  #Машинный перевод 28.10.23!
+ flying_pursuit_add: "[flying|E] [pursuit|E]"  #Машинный перевод 28.10.23!
+ flying_pursuit_mult: "$flying_pursuit_add$"  #Машинный перевод 28.10.23!
+ flying_recruitment_cost_mult: "[flying|E] Стоимость найма"  #Машинный перевод 28.10.23!
+ flying_screen_add: "[flying|E] [screen|E]"  #Машинный перевод 28.10.23!
+ flying_screen_mult: "$flying_screen_add$"  #Машинный перевод 28.10.23!
+ flying_siege_value_add: "[flying|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
+ flying_siege_value_mult: "[flying|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
+ flying_toughness_add: "[flying|E] [toughness|E]"  #Машинный перевод 28.10.23!
+ flying_toughness_mult: "$flying_toughness_add$"  #Машинный перевод 28.10.23!
+ magi_damage_add: "[magi|E] [damage|E]"  #Машинный перевод 28.10.23!
+ magi_damage_mult: "$magi_damage_add$"  #Машинный перевод 28.10.23!
+ magi_maintenance_mult: "[magi|E] Техническое обслуживание"  #Машинный перевод 28.10.23!
+ magi_max_size_add: "Максимальный размер [magi|E] [regiments|E]"  #Машинный перевод 28.10.23!
+ magi_pursuit_add: "[magi|E] [pursuit|E]"  #Машинный перевод 28.10.23!
+ magi_pursuit_mult: "$magi_pursuit_add$"  #Машинный перевод 28.10.23!
+ magi_recruitment_cost_mult: "[magi|E] Стоимость найма"  #Машинный перевод 28.10.23!
+ magi_screen_add: "[magi|E] [screen|E]"  #Машинный перевод 28.10.23!
+ magi_screen_mult: "$magi_screen_add$"  #Машинный перевод 28.10.23!
+ magi_siege_value_add: "[magi|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
+ magi_siege_value_mult: "[magi|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
+ magi_toughness_add: "[magi|E] [toughness|E]"  #Машинный перевод 28.10.23!
+ magi_toughness_mult: "$magi_toughness_add$"  #Машинный перевод 28.10.23!
+ magical_damage_add: "[magical|E] [damage|E]"  #Машинный перевод 28.10.23!
+ magical_damage_mult: "$magical_damage_add$"  #Машинный перевод 28.10.23!
+ magical_maintenance_mult: "[magical|E] Техническое обслуживание"  #Машинный перевод 28.10.23!
+ magical_max_size_add: "Максимальный размер [magical|E] [regiments|E]"  #Машинный перевод 28.10.23!
+ magical_pursuit_add: "[magical|E] [pursuit|E]"  #Машинный перевод 28.10.23!
+ magical_pursuit_mult: "$magical_pursuit_add$"  #Машинный перевод 28.10.23!
+ magical_recruitment_cost_mult: "[magical|E] Стоимость найма"  #Машинный перевод 28.10.23!
+ magical_screen_add: "[magical|E] [screen|E]"  #Машинный перевод 28.10.23!
+ magical_screen_mult: "$magical_screen_add$"  #Машинный перевод 28.10.23!
+ magical_siege_value_add: "[magical|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
+ magical_siege_value_mult: "[magical|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
+ magical_toughness_add: "[magical|E] [toughness|E]"  #Машинный перевод 28.10.23!
+ magical_toughness_mult: "$magical_toughness_add$"  #Машинный перевод 28.10.23!
+ monsters_damage_add: "[monsters|E] [damage|E]"  #Машинный перевод 28.10.23!
+ monsters_damage_mult: "$monsters_damage_add$"  #Машинный перевод 28.10.23!
+ monsters_maintenance_mult: "[monsters|E] Техническое обслуживание"  #Машинный перевод 28.10.23!
+ monsters_max_size_add: "Максимальный размер [monsters|E] [regiments|E]"  #Машинный перевод 28.10.23!
+ monsters_pursuit_add: "[monsters|E] [pursuit|E]"  #Машинный перевод 28.10.23!
+ monsters_pursuit_mult: "$monsters_pursuit_add$"  #Машинный перевод 28.10.23!
+ monsters_recruitment_cost_mult: "[monsters|E] Стоимость найма"  #Машинный перевод 28.10.23!
+ monsters_screen_add: "[monsters|E] [screen|E]"  #Машинный перевод 28.10.23!
+ monsters_screen_mult: "$monsters_screen_add$"  #Машинный перевод 28.10.23!
+ monsters_siege_value_add: "[monsters|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
+ monsters_siege_value_mult: "[monsters|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
+ monsters_toughness_add: "[monsters|E] [toughness|E]"  #Машинный перевод 28.10.23!
+ monsters_toughness_mult: "$monsters_toughness_add$"  #Машинный перевод 28.10.23!
+ undead_damage_add: "[gh_general_undead|E] [damage|E]"  #Машинный перевод 28.10.23!
+ undead_damage_mult: "$undead_damage_add$"  #Машинный перевод 28.10.23!
+ undead_maintenance_mult: "[gh_general_undead|E] Техническое обслуживание"  #Машинный перевод 28.10.23!
+ undead_max_size_add: "Максимальный размер [gh_general_undead|E] [regiments|E]"  #Машинный перевод 28.10.23!
+ undead_pursuit_add: "[gh_general_undead|E] [pursuit|E]"  #Машинный перевод 28.10.23!
+ undead_pursuit_mult: "$undead_pursuit_add$"  #Машинный перевод 28.10.23!
+ undead_recruitment_cost_mult: "[gh_general_undead|E] Стоимость найма"  #Машинный перевод 28.10.23!
+ undead_screen_add: "[gh_general_undead|E] [screen|E]"  #Машинный перевод 28.10.23!
+ undead_screen_mult: "$undead_screen_add$"  #Машинный перевод 28.10.23!
+ undead_siege_value_add: "[gh_general_undead|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
+ undead_siege_value_mult: "[gh_general_undead|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
+ undead_toughness_add: "[gh_general_undead|E] [toughness|E]"  #Машинный перевод 28.10.23!
+ undead_toughness_mult: "$undead_toughness_add$"  #Машинный перевод 28.10.23!
   
- stationed_constructs_damage_add: "[stationed|E] [constructs|E] [damage|E]"  #Машиночный перевод 28.10.23!
- stationed_constructs_damage_mult: "$stationed_constructs_damage_add$"  #Машиночный перевод 28.10.23!
- stationed_constructs_pursuit_add: "[stationed|E] [constructs|E] [pursuit|E]"  #Машиночный перевод 28.10.23!
- stationed_constructs_pursuit_mult: "$stationed_constructs_pursuit_add$"  #Машиночный перевод 28.10.23!
- stationed_constructs_screen_add: "[stationed|E] [constructs|E] [screen|E]"  #Машиночный перевод 28.10.23!
- stationed_constructs_screen_mult: "$stationed_constructs_screen_add$"  #Машиночный перевод 28.10.23!
- stationed_constructs_siege_value_add: "[stationed|E] [constructs|E] [siege_progress|E]"  #Машиночный перевод 28.10.23!
- stationed_constructs_siege_value_mult: "[stationed|E] [constructs|E] [siege|E] Эффективность"  #Машиночный перевод 28.10.23!
- stationed_constructs_toughness_add: "[stationed|E] [constructs|E] [toughness|E]"  #Машиночный перевод 28.10.23!
- stationed_constructs_toughness_mult: "$stationed_constructs_toughness_add$"  #Машиночный перевод 28.10.23!
- stationed_flying_damage_add: "[stationed|E] [flying|E] [damage|E]"  #Машиночный перевод 28.10.23!
- stationed_flying_damage_mult: "$stationed_flying_damage_add$"  #Машиночный перевод 28.10.23!
- stationed_flying_pursuit_add: "[stationed|E] [flying|E] [pursuit|E]"  #Машиночный перевод 28.10.23!
- stationed_flying_pursuit_mult: "$stationed_flying_pursuit_add$"  #Машиночный перевод 28.10.23!
- stationed_flying_screen_add: "[stationed|E] [flying|E] [screen|E]"  #Машиночный перевод 28.10.23!
- stationed_flying_screen_mult: "$stationed_flying_screen_add$"  #Машиночный перевод 28.10.23!
- stationed_flying_siege_value_add: "[stationed|E] [flying|E] [siege_progress|E]"  #Машиночный перевод 28.10.23!
- stationed_flying_siege_value_mult: "[stationed|E] [flying|E] [siege|E] Эффективность"  #Машиночный перевод 28.10.23!
- stationed_flying_toughness_add: "[stationed|E] [flying|E] [toughness|E]"  #Машиночный перевод 28.10.23!
- stationed_flying_toughness_mult: "$stationed_flying_toughness_add$"  #Машиночный перевод 28.10.23!
- stationed_magi_damage_add: "[stationed|E] [magi|E] [damage|E]"  #Машиночный перевод 28.10.23!
- stationed_magi_damage_mult: "$stationed_magi_damage_add$"  #Машиночный перевод 28.10.23!
- stationed_magi_pursuit_add: "[stationed|E] [magi|E] [pursuit|E]"  #Машиночный перевод 28.10.23!
- stationed_magi_pursuit_mult: "$stationed_magi_pursuit_add$"  #Машиночный перевод 28.10.23!
- stationed_magi_screen_add: "[stationed|E] [magi|E] [screen|E]"  #Машиночный перевод 28.10.23!
- stationed_magi_screen_mult: "$stationed_magi_screen_add$"  #Машиночный перевод 28.10.23!
- stationed_magi_siege_value_add: "[stationed|E] [magi|E] [siege_progress|E]"  #Машиночный перевод 28.10.23!
- stationed_magi_siege_value_mult: "[stationed|E] [magi|E] [siege|E] Эффективность"  #Машиночный перевод 28.10.23!
- stationed_magi_toughness_add: "[stationed|E] [magi|E] [toughness|E]"  #Машиночный перевод 28.10.23!
- stationed_magi_toughness_mult: "$stationed_magi_toughness_add$"  #Машиночный перевод 28.10.23!
- stationed_magical_damage_add: "[stationed|E] [magical|E] [damage|E]"  #Машиночный перевод 28.10.23!
- stationed_magical_damage_mult: "$stationed_magical_damage_add$"  #Машиночный перевод 28.10.23!
- stationed_magical_pursuit_add: "[stationed|E] [magical|E] [pursuit|E]"  #Машиночный перевод 28.10.23!
- stationed_magical_pursuit_mult: "$stationed_magical_pursuit_add$"  #Машиночный перевод 28.10.23!
- stationed_magical_screen_add: "[stationed|E] [magical|E] [screen|E]"  #Машиночный перевод 28.10.23!
- stationed_magical_screen_mult: "$stationed_magical_screen_add$"  #Машиночный перевод 28.10.23!
- stationed_magical_siege_value_add: "[stationed|E] [magical|E] [siege_progress|E]"  #Машиночный перевод 28.10.23!
- stationed_magical_siege_value_mult: "[stationed|E] [magical|E] [siege|E] Эффективность"  #Машиночный перевод 28.10.23!
- stationed_magical_toughness_add: "[stationed|E] [magical|E] [toughness|E]"  #Машиночный перевод 28.10.23!
- stationed_magical_toughness_mult: "$stationed_magical_toughness_add$"  #Машиночный перевод 28.10.23!
- stationed_monsters_damage_add: "[stationed|E] [monsters|E] [damage|E]"  #Машиночный перевод 28.10.23!
- stationed_monsters_damage_mult: "$stationed_monsters_damage_add$"  #Машиночный перевод 28.10.23!
- stationed_monsters_pursuit_add: "[stationed|E] [monsters|E] [pursuit|E]"  #Машиночный перевод 28.10.23!
- stationed_monsters_pursuit_mult: "$stationed_monsters_pursuit_add$"  #Машиночный перевод 28.10.23!
- stationed_monsters_screen_add: "[stationed|E] [monsters|E] [screen|E]"  #Машиночный перевод 28.10.23!
- stationed_monsters_screen_mult: "$stationed_monsters_screen_add$"  #Машиночный перевод 28.10.23!
- stationed_monsters_siege_value_add: "[stationed|E] [monsters|E] [siege_progress|E]"  #Машиночный перевод 28.10.23!
- stationed_monsters_siege_value_mult: "[stationed|E] [monsters|E] [siege|E] Эффективность"  #Машиночный перевод 28.10.23!
- stationed_monsters_toughness_add: "[stationed|E] [monsters|E] [toughness|E]"  #Машиночный перевод 28.10.23!
- stationed_monsters_toughness_mult: "$stationed_monsters_toughness_add$"  #Машиночный перевод 28.10.23!
- stationed_undead_damage_add: "[stationed|E] [gh_general_undead|E] [damage|E]"  #Машиночный перевод 28.10.23!
- stationed_undead_damage_mult: "$stationed_undead_damage_add$"  #Машиночный перевод 28.10.23!
- stationed_undead_pursuit_add: "[stationed|E] [gh_general_undead|E] [pursuit|E]"  #Машиночный перевод 28.10.23!
- stationed_undead_pursuit_mult: "$stationed_undead_pursuit_add$"  #Машиночный перевод 28.10.23!
- stationed_undead_screen_add: "[stationed|E] [gh_general_undead|E] [screen|E]"  #Машиночный перевод 28.10.23!
- stationed_undead_screen_mult: "$stationed_undead_screen_add$"  #Машиночный перевод 28.10.23!
- stationed_undead_siege_value_add: "[stationed|E] [gh_general_undead|E] [siege_progress|E]"  #Машиночный перевод 28.10.23!
- stationed_undead_siege_value_mult: "[stationed|E] [gh_general_undead|E] [siege|E] Эффективность"  #Машиночный перевод 28.10.23!
- stationed_undead_toughness_add: "[stationed|E] [gh_general_undead|E] [toughness|E]"  #Машиночный перевод 28.10.23!
- stationed_undead_toughness_mult: "$stationed_undead_toughness_add$"  #Машиночный перевод 28.10.23!
+ stationed_constructs_damage_add: "[stationed|E] [constructs|E] [damage|E]"  #Машинный перевод 28.10.23!
+ stationed_constructs_damage_mult: "$stationed_constructs_damage_add$"  #Машинный перевод 28.10.23!
+ stationed_constructs_pursuit_add: "[stationed|E] [constructs|E] [pursuit|E]"  #Машинный перевод 28.10.23!
+ stationed_constructs_pursuit_mult: "$stationed_constructs_pursuit_add$"  #Машинный перевод 28.10.23!
+ stationed_constructs_screen_add: "[stationed|E] [constructs|E] [screen|E]"  #Машинный перевод 28.10.23!
+ stationed_constructs_screen_mult: "$stationed_constructs_screen_add$"  #Машинный перевод 28.10.23!
+ stationed_constructs_siege_value_add: "[stationed|E] [constructs|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
+ stationed_constructs_siege_value_mult: "[stationed|E] [constructs|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
+ stationed_constructs_toughness_add: "[stationed|E] [constructs|E] [toughness|E]"  #Машинный перевод 28.10.23!
+ stationed_constructs_toughness_mult: "$stationed_constructs_toughness_add$"  #Машинный перевод 28.10.23!
+ stationed_flying_damage_add: "[stationed|E] [flying|E] [damage|E]"  #Машинный перевод 28.10.23!
+ stationed_flying_damage_mult: "$stationed_flying_damage_add$"  #Машинный перевод 28.10.23!
+ stationed_flying_pursuit_add: "[stationed|E] [flying|E] [pursuit|E]"  #Машинный перевод 28.10.23!
+ stationed_flying_pursuit_mult: "$stationed_flying_pursuit_add$"  #Машинный перевод 28.10.23!
+ stationed_flying_screen_add: "[stationed|E] [flying|E] [screen|E]"  #Машинный перевод 28.10.23!
+ stationed_flying_screen_mult: "$stationed_flying_screen_add$"  #Машинный перевод 28.10.23!
+ stationed_flying_siege_value_add: "[stationed|E] [flying|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
+ stationed_flying_siege_value_mult: "[stationed|E] [flying|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
+ stationed_flying_toughness_add: "[stationed|E] [flying|E] [toughness|E]"  #Машинный перевод 28.10.23!
+ stationed_flying_toughness_mult: "$stationed_flying_toughness_add$"  #Машинный перевод 28.10.23!
+ stationed_magi_damage_add: "[stationed|E] [magi|E] [damage|E]"  #Машинный перевод 28.10.23!
+ stationed_magi_damage_mult: "$stationed_magi_damage_add$"  #Машинный перевод 28.10.23!
+ stationed_magi_pursuit_add: "[stationed|E] [magi|E] [pursuit|E]"  #Машинный перевод 28.10.23!
+ stationed_magi_pursuit_mult: "$stationed_magi_pursuit_add$"  #Машинный перевод 28.10.23!
+ stationed_magi_screen_add: "[stationed|E] [magi|E] [screen|E]"  #Машинный перевод 28.10.23!
+ stationed_magi_screen_mult: "$stationed_magi_screen_add$"  #Машинный перевод 28.10.23!
+ stationed_magi_siege_value_add: "[stationed|E] [magi|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
+ stationed_magi_siege_value_mult: "[stationed|E] [magi|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
+ stationed_magi_toughness_add: "[stationed|E] [magi|E] [toughness|E]"  #Машинный перевод 28.10.23!
+ stationed_magi_toughness_mult: "$stationed_magi_toughness_add$"  #Машинный перевод 28.10.23!
+ stationed_magical_damage_add: "[stationed|E] [magical|E] [damage|E]"  #Машинный перевод 28.10.23!
+ stationed_magical_damage_mult: "$stationed_magical_damage_add$"  #Машинный перевод 28.10.23!
+ stationed_magical_pursuit_add: "[stationed|E] [magical|E] [pursuit|E]"  #Машинный перевод 28.10.23!
+ stationed_magical_pursuit_mult: "$stationed_magical_pursuit_add$"  #Машинный перевод 28.10.23!
+ stationed_magical_screen_add: "[stationed|E] [magical|E] [screen|E]"  #Машинный перевод 28.10.23!
+ stationed_magical_screen_mult: "$stationed_magical_screen_add$"  #Машинный перевод 28.10.23!
+ stationed_magical_siege_value_add: "[stationed|E] [magical|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
+ stationed_magical_siege_value_mult: "[stationed|E] [magical|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
+ stationed_magical_toughness_add: "[stationed|E] [magical|E] [toughness|E]"  #Машинный перевод 28.10.23!
+ stationed_magical_toughness_mult: "$stationed_magical_toughness_add$"  #Машинный перевод 28.10.23!
+ stationed_monsters_damage_add: "[stationed|E] [monsters|E] [damage|E]"  #Машинный перевод 28.10.23!
+ stationed_monsters_damage_mult: "$stationed_monsters_damage_add$"  #Машинный перевод 28.10.23!
+ stationed_monsters_pursuit_add: "[stationed|E] [monsters|E] [pursuit|E]"  #Машинный перевод 28.10.23!
+ stationed_monsters_pursuit_mult: "$stationed_monsters_pursuit_add$"  #Машинный перевод 28.10.23!
+ stationed_monsters_screen_add: "[stationed|E] [monsters|E] [screen|E]"  #Машинный перевод 28.10.23!
+ stationed_monsters_screen_mult: "$stationed_monsters_screen_add$"  #Машинный перевод 28.10.23!
+ stationed_monsters_siege_value_add: "[stationed|E] [monsters|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
+ stationed_monsters_siege_value_mult: "[stationed|E] [monsters|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
+ stationed_monsters_toughness_add: "[stationed|E] [monsters|E] [toughness|E]"  #Машинный перевод 28.10.23!
+ stationed_monsters_toughness_mult: "$stationed_monsters_toughness_add$"  #Машинный перевод 28.10.23!
+ stationed_undead_damage_add: "[stationed|E] [gh_general_undead|E] [damage|E]"  #Машинный перевод 28.10.23!
+ stationed_undead_damage_mult: "$stationed_undead_damage_add$"  #Машинный перевод 28.10.23!
+ stationed_undead_pursuit_add: "[stationed|E] [gh_general_undead|E] [pursuit|E]"  #Машинный перевод 28.10.23!
+ stationed_undead_pursuit_mult: "$stationed_undead_pursuit_add$"  #Машинный перевод 28.10.23!
+ stationed_undead_screen_add: "[stationed|E] [gh_general_undead|E] [screen|E]"  #Машинный перевод 28.10.23!
+ stationed_undead_screen_mult: "$stationed_undead_screen_add$"  #Машинный перевод 28.10.23!
+ stationed_undead_siege_value_add: "[stationed|E] [gh_general_undead|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
+ stationed_undead_siege_value_mult: "[stationed|E] [gh_general_undead|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
+ stationed_undead_toughness_add: "[stationed|E] [gh_general_undead|E] [toughness|E]"  #Машинный перевод 28.10.23!
+ stationed_undead_toughness_mult: "$stationed_undead_toughness_add$"  #Машинный перевод 28.10.23!

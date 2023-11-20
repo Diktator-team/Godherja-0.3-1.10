@@ -25,7 +25,7 @@
  CLIPBOARD_GAME_MODULE_VERSION_INFO: "$MODULE$ версия:\n   Ветвь: $BRANCH$\n   Подтверждение: $HASH_LONG$\n   Временная отметка: $TIMESTAMP$\n   Номер подтверждения: $COMMIT_COUNT$\n   Контрольная сумма мультиплеера: [GetMPChecksum]"
  OK_BUTTON: "ОК"
  CANCEL_BUTTON: "Отменить"
-  # Building blocks of COA tooltip 
+ #Building blocks of COA tooltip
  GO_TO_CLICK: "Щелкните, чтобы перейти"
  GO_TO_RIGHT_CLICK: "Щелкните правой кнопкой мыши, чтобы перейти"
  VIEW_CLICK: "Щелкните, чтобы посмотреть"
@@ -42,7 +42,7 @@
  COA_HIGHLIGHT_CLAIM: "@pressed_claim! У вас есть $CLAIM$ на этот [title|El]"
  COA_HIGHLIGHT_SUCCESSION: "#TUT_KW Вы можете рассчитывать на [succession|El] этого титула#!"
  COA_HIGHLIGHT_DE_JURE_LIEGE: "#TUT_KW Этот титул [Concept( 'de_jure', 'де-юре' )|E] принадлежит вам#!"
-  # Actual COA tooltips 
+ #Actual COA tooltips
  COA_DEFAULT_TOOLTIP: "$COA_HOLDER$"
  COA_DE_JURE_TOOLTIP: "$COA_TITLE$$COA_DE_JURE_TITLE$$COA_HOLDER$$COA_CLICK_INFO$"
  CHARACTER_TOOLTIP_PORTRAIT: "$CHARACTER_TOOLTIP$\n\n$CHARACTER_TOOLTIP_INSTRUCTION$"
@@ -76,7 +76,7 @@
  DISMISS_ALL_TT: "#T $DISMISS_ALL$#!"
  DISMISS_SUGGESTION_TT: "#T $DISMISS$#!\nСкрыть это предложение. Новые предложения будут появляться раз в [GetDefine('NSuggestions', 'PLAYER_SUGGESTION_MONTHS_UPDATE')] мес."
  UNLANDED_TITLE: "$SUBJECT_TYPE$ [CHARACTER.GetShortUIName]"
-  #click 
+ #click
  RIGHT_CLICK_DISMISS: "#I Щелкните ПКМ, чтобы скрыть#!"
  REALM_TOOLTIP_HOLDER: "[ruler|E]: [TITLE.GetHolder.GetName]\nТекущая [line_of_succession|El]:\n[TITLE.GetLineOfSuccessionDesc]\n"
  COA_REALM_TOOLTIP_CHARACTER: "#T [CHARACTER.GetPrimaryTitle.GetNameWithUnderlyingNoTooltip|U]#!\n#L [CHARACTER.GetGovernment.GetAdjective]ая#! [realm|El]\n[rank|E]: [CHARACTER.GetPrimaryTitle.GetRankConcept]\n[ruler|E]: [CHARACTER.GetUIName|U]\nВоенная мощь: [CHARACTER.GetMilitaryStrengthText|V] [Concept( 'soldiers', 'солдат' )|E]\nРазмер державы: [CHARACTER.RealmSize|V] [Concept( 'counties', 'графств' )|E]\n\n#S Наследование#!\nЗакон о наследовании: $SUCCESSION_FORM_NAME$\n\n[line_of_succession|E]:\n[CHARACTER.GetPrimaryTitle.GetLineOfSuccessionDesc]"
