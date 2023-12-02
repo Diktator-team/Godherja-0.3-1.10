@@ -633,8 +633,11 @@
   
    ### Neck Accessories ### 
  PORTRAIT_MODIFIER_custom_gh_neck_accessories: "Годхерья Шея"  #Машинный перевод 28.10.23!
+ PORTRAIT_MODIFIER_custom_gh_neck_accessories_empty: "Без аксессуара"
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_male_empty: "Без аксессуара"  #Машинный перевод 28.10.23!
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_female_empty: "Без аксессуара"  #Машинный перевод 28.10.23!
+ PORTRAIT_MODIFIER_custom_gh_neck_accessories_boy_empty: "Без аксессуара"
+ PORTRAIT_MODIFIER_custom_gh_neck_accessories_girl_empty: "Без аксессуара"
   
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_magi_half_mask_bare: "Полумаска Мага голая"  #Машинный перевод 28.10.23!
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_magi_half_mask_common_01: "Полумаска Мага, простолюдин 1"  #Машинный перевод 28.10.23!
@@ -740,7 +743,7 @@
   
  PORTRAIT_MODIFIER_custom_gh_headgear_norse_helm_01: "Большой шлем Карзарада"  #Машинный перевод 28.10.23!
  PORTRAIT_MODIFIER_custom_gh_headgear_rus_helm_icon_01: "Карзарадский шлем с иконой"  #Машинный перевод 28.10.23!
-  PORTRAIT_MODIFIER_custom_gh_headgear_rus_helm_noble_01: "Karzarad Noble Helm 
+ PORTRAIT_MODIFIER_custom_gh_headgear_rus_helm_noble_01: "Karzarad Noble Helm 
  PORTRAIT_MODIFIER_custom_gh_headgear_rus_helm_noble_icon_01: "Карзарадский благородный шлем с иконой"  #Машинный перевод 28.10.23!
  PORTRAIT_MODIFIER_custom_gh_headgear_rus_helm_regular_01: "Карзарад Обычный шлем 1"  #Машинный перевод 28.10.23!
  PORTRAIT_MODIFIER_custom_gh_headgear_rus_helm_regular_02: "Карзарад Обычный шлем 2"  #Машинный перевод 28.10.23!
@@ -750,3 +753,14 @@
  PORTRAIT_MODIFIER_custom_gh_headgear_female_rus_helm_noble_icon_01: "$PORTRAIT_MODIFIER_custom_gh_headgear_rus_helm_noble_icon_01$"  #Машинный перевод 28.10.23!
  PORTRAIT_MODIFIER_custom_gh_headgear_female_rus_helm_regular_01: "$PORTRAIT_MODIFIER_custom_gh_headgear_rus_helm_regular_01$"  #Машинный перевод 28.10.23!
  PORTRAIT_MODIFIER_custom_gh_headgear_female_rus_helm_regular_02: "$PORTRAIT_MODIFIER_custom_gh_headgear_rus_helm_regular_02$"  #Машинный перевод 28.10.23!
+ 
+ ### Cyrati Clothes ###
+ PORTRAIT_MODIFIER_gh_clothes_male_clothes_cemanahuac_nobility_03_low: "Cyrat Noble Cloth 3"
+ PORTRAIT_MODIFIER_gh_clothes_male_clothes_cemanahuac_nobility_02_low: "Cyrat Noble Cloth 2"
+ PORTRAIT_MODIFIER_gh_clothes_male_clothes_cemanahuac_nobility_01_low: "Cyrat Noble Cloth 1"
+ PORTRAIT_MODIFIER_gh_clothes_male_clothes_cemanahuac_nobility_03_common: "Cyrat Common Cloth 3"
+ PORTRAIT_MODIFIER_gh_clothes_male_clothes_cemanahuac_nobility_02_common: "Cyrat Common Cloth 2"
+ PORTRAIT_MODIFIER_gh_clothes_male_clothes_cemanahuac_nobility_01_common: "Cyrat Common Cloth 1"
+ PORTRAIT_MODIFIER_gh_clothes_male_maxlatl_common: "Cyrat Robes 1"
+ PORTRAIT_MODIFIER_gh_clothes_male_maxlatl_low: "Cyrat Robes Low"
+ PORTRAIT_MODIFIER_gh_clothes_male_maxlatl_high: "Cyrat Robes High"
