@@ -116,6 +116,9 @@
  pox_magic_name: "Магия оспы"  #Машинный перевод 28.10.23!
  pox_magic_desc: "Это заклинание имеет шанс вызвать оспу у получателя."  #Машинный перевод 28.10.23!
   
+ resist_disease_name: "Resist Disease"
+ resist_disease_desc:0 "This spell guards against diseases."
+
  light_fortress_name: "Укрепленная крепость"  #Машинный перевод 28.10.23!
  light_fortress_desc: "С помощью [aspect_light] внутренние детали крепости упорядочиваются и укрепляются до все большего совершенства."  #Машинный перевод 28.10.23!
   
@@ -133,7 +136,25 @@
   
  lucent_reconstruction_name: "Люсент Реконструкция"  #Машинный перевод 28.10.23!
  lucent_reconstruction_desc: "Лучи света окружают цель, заставляя ее тело восстанавливать порядок, заживляя как раны, так и болезни."  #Машинный перевод 28.10.23!
-  
+
+ calming_waters_name: "Calming Waters"
+ calming_waters_desc: "The caster's palms are surrounded by a film of clear water, which when placed on one's forehead, causes calm and relaxation."
+
+ water_veil_name: "Water Veil"
+ water_veil_desc: "Creates a protective barrier of water that blocks both physical and magical projectiles."
+
+ riverine_rush_name: "Riverine Rush"
+ riverine_rush_desc: "Travel with the speed of a Kasiryat torrent."
+
+ fluvial_restoration_name: "Fluvial Restoration"
+ fluvial_restoration_desc: "Use the sacred waters of the Kasiryat to heal both wounds of the body and of the mind."
+
+ rejuvenation_name: "Rejuvenation"
+ rejuvenation_desc: "Refreshes the character's countenance with magically-infused water."
+
+ blessing_of_the_kasiryat_name: "Blessing of the Kasiryat"
+ blessing_of_the_kasiryat_desc: "Imbue the target with the pristine beauty of the Kasiryat."
+ 
  water_healing_name: "Лечение водой"  #Машинный перевод 28.10.23!
  water_healing_desc: "Маги, обученные магии воды, могут использовать этот аспект, чтобы исцелить субъекта за определенную плату."  #Машинный перевод 28.10.23!
  fire_healing_name: "Противопожарный ремонт"  #Машинный перевод 28.10.23!
@@ -372,6 +393,15 @@
   
  add_character_modifier_stress_gain_mult_negative_name: "Ослабление психики"  #Машинный перевод 28.10.23!
  add_character_modifier_stress_gain_mult_negative_desc: "Делает цель более восприимчивой к [stress|E]."  #Машинный перевод 28.10.23!
+
+ add_character_modifier_stress_loss_mult_positive_name: "Calm Psyche"
+ add_character_modifier_stress_loss_mult_positive_desc: "Increases the target's rate of losing [stress|E]."
+
+ add_character_modifier_magic_stress_positive_name: "Serene Mind"
+ add_character_modifier_magic_stress_positive_desc: "Decreases the target's rate of gaining [stress|E]."
+
+ character_stress_loss_positive_name: "Decrease Stress"
+ character_stress_loss_positive_desc: "Decreases the target's [stress|E]."
   
  add_character_modifier_magic_life_corruption_single_stack_name: "Оккультное расслабление"  #Машинный перевод 28.10.23!
  add_character_modifier_magic_life_corruption_single_stack_desc: "Дает постоянное снижение до [health|E], эффективно уменьшая продолжительность жизни."  #Машинный перевод 28.10.23!
@@ -390,7 +420,10 @@
  add_bloodblight_magic_desc: "Это заклинание может вызвать у получателя Кровавую порчу."  #Машинный перевод 28.10.23!
  add_pox_magic_name: "Магия оспы"  #Машинный перевод 28.10.23!
  add_pox_magic_desc: "Это заклинание имеет шанс вызвать оспу у получателя."  #Машинный перевод 28.10.23!
-  
+
+ add_character_modifier_resist_disease_name: "Strengthened Constitution"
+ add_character_modifier_resist_disease_desc: "This person is more able to resist disease"
+ 
  spawn_undead_skirmishers_name: "Поднимите Орду Нежити"  #Машинный перевод 28.10.23!
  spawn_undead_skirmishers_desc: "Собирает армию [gh_general_undead|E] [skirmishers|E]."  #Машинный перевод 28.10.23!
  spawn_elite_undead_name: "Поднимите элитную нежить"  #Машинный перевод 28.10.23!

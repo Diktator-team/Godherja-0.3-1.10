@@ -1,0 +1,17 @@
+﻿l_russian:
+ magic_focused: "Magic Focused"
+ magic_focused_desc: "$magic_focused$ [vassals|E] care about exploring the [arcane|E] and [magical|E] qualities of the world, and showing their knowledge of it. Rational and curious Vassals often adopt this [vassal_stance|E]. They are more likely to attempt to learn and horde magic.\n\n#low $magic_focused$ Vassals like when their Liege:#!\n$EFFECT_LIST_BULLET$Has low [crown_authority|E].\n\n#low $magic_focused$ Vassals dislike when their Liege:#!\n$EFFECT_LIST_BULLET$Has high [crown_authority|E].\n\nThey prefer [heirs|E] with arcane knowledge or magic potential."
+ magic_focused_filter_option: "$magic_focused$"
+ magic_focused_option_desc: "Only show Characters with the [GetVassalStance( 'magic_focused').GetName] [vassal|e]"
+ magic_focused_vassals: "[GetVassalStance( 'magic_focused' ).GetTextIcon][GetVassalStance( 'magic_focused' ).GetName] [vassals|E]"
+ magic_focused_vassal: "[GetVassalStance( 'magic_focused' ).GetTextIcon][GetVassalStance( 'magic_focused' ).GetName] [vassal|E]"
+ magic_focused_opinion: "$magic_focused_vassal$ Opinion"
+ magic_focused_same_faith_opinion: "$magic_focused_opinion$ #weak (Same [faith|E])#!"
+ magic_focused_different_faith_opinion: "$magic_focused_opinion$ #weak (Different [faith|E])#!"
+ magic_focused_same_culture_opinion: "$magic_focused_opinion$ #weak (Same [culture|E])#!"
+ magic_focused_different_culture_opinion: "$magic_focused_opinion$ #weak (Different [culture|E])#!"
+ magic_focused_tax_contribution_add: "$magic_focused_vassal$ [tax|E] [modifier_base_contribution|E]"
+ magic_focused_tax_contribution_mult: "$magic_focused_vassal$ [tax|E] [modifier_contribution|E]"
+ magic_focused_levy_contribution_add: "$magic_focused_vassal$ [levy|E] [modifier_base_contribution|E]"
+ magic_focused_levy_contribution_mult: "$magic_focused_vassal$ [levy|E] [modifier_contribution|E]"
+   
