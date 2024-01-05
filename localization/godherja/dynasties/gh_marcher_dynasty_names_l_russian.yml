@@ -1,28 +1,28 @@
 ﻿l_russian:
   #'Of the (singular)' denotes epithet of family founder, archaic, tribal 
- dynnp_de_vas: "де вас"  #Машинный перевод 28.10.23!
- dynnp_d_va: "д'ва"  #Машинный перевод 28.10.23!
+ dynnp_de_vas: "де вас "  #Машинный перевод 28.10.23!
+ dynnp_d_va: "д'ва "  #Машинный перевод 28.10.23!
   
   #'Of the (plural)' denotes noble family 
- dynnp_dng_mal: "черт возьми, зло"  #Машинный перевод 28.10.23!
- dynnp_den_va: "ден ва"  #Машинный перевод 28.10.23!
- dynnp_den_v: "день v'"  #Машинный перевод 28.10.23!
- dynnp_denvi: "денви"  #Машинный перевод 28.10.23!
+ dynnp_dng_mal: "dng mal "  #Машинный перевод 28.10.23!
+ dynnp_den_va: "ден ва "  #Машинный перевод 28.10.23!
+ dynnp_den_v: "день v' "  #Машинный перевод 28.10.23!
+ dynnp_denvi: "денви "  #Машинный перевод 28.10.23!
   
   #Of and to the (plural), denotes a very pretentious noble family, usually named after their domains 
- dynnp_den_t_en_va: "сегодня не ва"  #Машинный перевод 28.10.23!
- dynnp_den_t_en_v: "не в теме"  #Машинный перевод 28.10.23!
- dynnp_den_ex_envi: "Den éx envi"  #Машинный перевод 28.10.23!
+ dynnp_den_t_en_va: "den't en va "  #Машинный перевод 28.10.23!
+ dynnp_den_t_en_v: "den't en v' "  #Машинный перевод 28.10.23!
+ dynnp_den_ex_envi: "Den éx envi "  #Машинный перевод 28.10.23!
   
   #'Of their' denotes possession 
- dynnp_den_la: "ден ла"  #Машинный перевод 28.10.23!
- dynnp_denli: "Денли"  #Машинный перевод 28.10.23!
+ dynnp_den_la: "ден ла "  #Машинный перевод 28.10.23!
+ dynnp_denli: "Денли "  #Машинный перевод 28.10.23!
   
   #'Of those who/which' denotes epithet 
- dynnp_den_va_d: "день ва д'"  #Машинный перевод 28.10.23!
+ dynnp_den_va_d: "день ва д' "  #Машинный перевод 28.10.23!
   
   #'The and their' denotes birthplace in adjectival form 
- dynnp_den_t_a: "это не"  #Машинный перевод 28.10.23!
+ dynnp_den_t_a: "den't a "  #Машинный перевод 28.10.23!
   
   
   #Historic Dynasties 
