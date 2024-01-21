@@ -1,7 +1,7 @@
 ﻿l_russian:
   ###Tussenvoegsels, uncapitalized because belgium is cringe 
   #"From" denotes birthplace, equivalent of rl Van "От"  #Машинный перевод 28.10.23!
- dynnp_var: "версия"  #Машинный перевод 28.10.23!
+ dynnp_var: "версия"  #Archaic v
   
   #"The" denotes epithet, equivalent of rl De ""  #Машинный перевод 28.10.23!
  dynnp_dt: "'dt"  #Машинный перевод 28.10.23!
@@ -10,7 +10,7 @@
  dynnp_te: "тэ"  #Машинный перевод 28.10.23!
   
   #Patronyms, literally just "-sboy" and "-sgirl" "-мальчик" и "-девочка"  #Машинный перевод 28.10.23!
- dynnpat_suf_smag: "хлам"  #Машинный перевод 28.10.23!
+ dynnpat_suf_smag: "смаг"  #Машинный перевод 28.10.23!
  dynnpat_suf_smij: "смайдж"  #Машинный перевод 28.10.23!
   
   ###Dynasties 

@@ -131,6 +131,10 @@
  tradition_lich_culture_desc: "Все, что осталось от этой культуры, — это могущественные [Concept('liches','личи')|E], властвующие над огромными пространствами безлюдных пустошей."
  tradition_iron_spines_settlers_name: "Поселенцы Железных Шипов"
  tradition_iron_spines_settlers_desc: "Представители этой культуры обосновались на вершинах негостеприимных гор Железных Хребтов, где воздух свеж, но холоден, а зимы долгие и суровые. Они гордятся тем, что немногие из нижележащих культур смогли бы жить так же хорошо, как этот народ, среди вершин и плоскогорий, где иначе могут процветать только звери."  
+tradition_mercenary_contractors_name: "Mercenary Contractors"
+ tradition_mercenary_contractors_desc: "To fight for the sake of money over honor or glory is no sin to this culture, and even its highest lords may contract out their aid in exchange for gold."
+ tradition_tenacious_herdmasters_name: "Tenacious Herdmasters"
+ tradition_tenacious_herdmasters_desc: "Herding cattle is the lifeblood of this culture. Having grown accustomed to roaming vast pastures with their livestock, they have developed a strong resilience to foreign threats."
   
   ############### 
   # MAA UNLOCKS # 
@@ -147,7 +151,8 @@
  culture_parameter_unlock_maa_jaanvarkis: "Можно нанять [GetMaA('jaanvarkis').GetName] в качестве [Concept('men_at_arms','профессионалов')|E]"  
  culture_parameter_unlock_maa_kanpahuri: "Можно нанять [GetMaA('kanpahuri').GetName] в качестве [Concept('men_at_arms','профессионалов')|E]"  
  culture_parameter_unlock_maa_visvasavrak: "Можно нанять [GetMaA('visvasavrak').GetName] в качестве [Concept('men_at_arms','профессионалов')|E]"  
-  
+ culture_parameter_unlock_maa_leki_herdmasters: "Can recruit [GetMaA('leki_herdmasters').GetName] as [men_at_arms|E]"
+ 
   ############# 
   # TRAIT LOC # 
   ############# 
@@ -269,6 +274,9 @@
  culture_parameter_better_male_educators: "Мужчины-[guardians|E] из этой [Concept('culture','культуры')|E] более эффективны"
  culture_parameter_enable_falcon_roost_building: "Можно построить [GetBuilding('falcon_roost_01').GetName] во [Concept('holdings','владениях')|E] этой [Concept('culture','культуры')|E], расположенных в холмистой или горной [Concept('terrain','местности')|E]."
  culture_parameter_open_terrain_trait_bonuses: "[Concept('trait','Свойство')|E] «Сокольничий» дает бонусы к [GetTrait('open_terrain_expert').GetName( GetNullCharacter )]"
+ culture_parameter_mercenary_contractors: "Can offer to join nearby rulers who are at war in return for gold."
+ culture_parameter_herdmasters_buildings_bonuses: "The #V $building_type_pastures_01$#! and #V $building_type_hillside_grazing_01$#! lines of [buildings|E] have additional bonuses in [counties|E] of this [culture|E]"
+ culture_parameter_enable_herdstone_building: "Rulers can construct the [GetBuilding('herdstone_01').GetName] [duchy_building|E]"
   ############# 
   # MODIFIERS # 
   ############# 
@@ -292,6 +300,7 @@
   ######## 
   
  cannot_have_tradition_ardara: "$cannot_combine_tradition_trigger_desc$ #high $tradition_ardara_name$#!"
+ not_bureaucratic_or_courtly_desc: "The [culture|E] does not have the $ethos_bureaucratic_name$ or $ethos_courtly_name$ [ethos|E]"
  not_bureaucratic_communal_courtly_or_egalitarian_desc: "[Concept('culture','Культура')|E] не имеет $ethos_bureaucratic_name$, $ethos_communal_name$, $ethos_courtly_name$ или $ethos_egalitarian_name$ [ethos|E]."
  culture_parameter_glass_house_duchy_building: "Предоставляет доступ к [Concept('duchy','герцогской')|E] постройке «Стеклянный дом»."
  culture_parameter_characters_glass_traits_can_make_glass_artifacts: "Персонажи теперь могут ковать стеклянные [Concept('artifacts','артефакты')|E]."

@@ -74,6 +74,9 @@ game_concept_demetros_detheniax: "Деметрос Детениакс"
   
  #GROUPS AND ORGANIZATIONS 
   
+
+
+
  game_concept_aversaria: "Аверсария"
  game_concept_aversarian: "Аверсарии"
  game_concept_aversarians: "Аверсарианине"
@@ -89,6 +92,9 @@ game_concept_demetros_detheniax: "Деметрос Детениакс"
  game_concept_aversaria_encyclopedia: "Аверсария"  #Машинный перевод 28.10.23!
  game_concept_aversaria_encyclopedia_desc: "$GAME_CONCEPT_AVERSARIA_FALLBACK$"  #Машинный перевод 28.10.23!
   
+
+
+
  #LOCATIONS 
   
  game_concept_mayikprolollan: "Майикпрололлан"  #Машинный перевод 28.10.23!
@@ -131,6 +137,19 @@ game_concept_demetros_detheniax: "Деметрос Детениакс"
  game_concept_aversarinas_aagiokratia_no_the: "Аверсария Аагиократия"  #Машинный перевод 28.10.23!
  game_concept_aversarinas_aagiokratia_no_the_desc: "Аверсария Аагиократия (или Имперское Человечество по-аверсриански) — официальная государственная религия [aversarinas_aautokrata|E] (аналогично Империуму Человечества) и исторически крупнейшая религия [greater_aversaria|E]. Сама религия сильно децентрализована: Аверсарины могут свободно выбирать один из многих местных или иностранных монашеских орденов и санкционированных культов, чтобы диктовать свою практику и интерпретацию аверсарианских писаний. Однако все школы согласны с тем, что аверсарианцы являются истинными представителями человечества. The Purest прибыли на [aeras|E] в какой-то момент в прошлом и либо к ним присоединились, либо затем создали [first_men|E]. Чистый был первым и самым могущественным [magi|E] в истории и подарил дар магии (при условии, что они еще не обладали им) Первым Людям в обмен на их верность, предположительно став первым автократиром.\n\nСвободная структура Вера и цинизм аверсарианской аристократии в поздней имперской истории привели к тому, что эта религия часто использовалась не более чем для контроля над многими завоеванными народами Аверсарии. Как правило, когда Аверсария не уничтожает полностью народы или культуры региона, они искажают местные верования, чтобы они в той или иной форме вписывались в Агиократу (обычно смешивая местных богов с Чистейшими и предписывая религиозную практику через закон). Затем начинается культурная ассимиляция, когда часть населения объявляется аверсарианцами и переселяется в другие места, пока, наконец, все люди не считаются аверсарианцами по своей природе, если не по крови, или не уничтожаются в результате военной чистки, а их культурный культ либо распускается, либо еще больше усиливается. соответствуют господствующим убеждениям и в значительной степени отодвинуты на второй план."  #Машинный перевод 28.10.23!
   
+ game_concept_katraddia_tribal_mixing: "Apokiakas and Tribal Mixing"
+ game_concept_katraddia_tribal_mixing_desc: "The northern Apokiakas became known for mixing Aversarian garb with tribal wear, worshipping a mix of Aversarian and native gods, and even marrying into tribal dynasties in order to secure alliances and their borders."
+
+ game_concept_katraddia_province: "Katraddian Reputation"
+ game_concept_katraddia_province_desc: "While Katraddia was considered equal in standing to the other governances ever since the 932 IS Trelytion Dispute, it was nevertheless looked down on as a series of colonies instead of a proper province, and generally remained the most loosely held and rugged frontier of Aversaria until its destruction by the opening of [the_rift|E] and its transformation into the [foglands|E]." 
+
+ game_concept_kalathipsomi_fashion: "Kalathipsomian Fashion"
+ game_concept_kalathipsomi_fashion_desc: "In addition to the traditional Aversarian red, the Kalathipsomian nobility has long used greens, blacks, and greys, imitating the arts of Kalathipsomi's former inhabitants. In addition to the colors, Northern Aversarians picked up a preference for practical, toned-down fashion, though this should not be mistaken for dull spartanism. The Kalathipsomians find beauty in simplicity, and the woodworks carved from the living trees of Kalathipsomi stand as testaments that their philosophy can produce works of splendor to rival any in the rest of Aversaria."
+
+ game_concept_kalathipsomi_province: "Kalathipsomian stature"
+ game_concept_kalathipsomi_province_desc: "While Kalathipsomi was considered equal in stance to Etepezea, Opakhasia, Aironoi and even above Katraddia, its people were considered to have practiced a rather barbaric and unsophisticated version of the Aversarian culture."
+
+
  ##ARTIFACTS 
   
  ###REGIONAL 
@@ -154,3 +173,5 @@ game_concept_demetros_detheniax: "Деметрос Детениакс"
  game_concept_eastern_tower_desc: "Восточная Башня — одна из многих [towers|E], разбросанных по миру, чрезвычайно могущественных магических мест, которые, кажется, убивают любого, кто осмелится подойти слишком близко.\n\nЭта Башня, построенная на острове Амбрасия, остается самой восточной в своем роде за всю историю. напрямую контролируется [aversarians|E], который провел несколько столетий и тысячи жизней (в основном рабов, но иногда и безрассудно [magi|E]), пытаясь найти способ обойти защиту Башни."  #Машинный перевод 28.10.23!
   
  #MISC 
+ game_concept_enisaloi_heritage_customs: "Enisaloi Heritage Customs"
+ game_concept_enisaloi_heritage_customs_desc: "The Enisaloi maintain detailed records of their ancestors, tracing the exact ships they served on and positions they held all the way back to the [war_of_all_islands|E]. It is considered very important to not only respect the deeds of one's ancestors, but to show social deference to others based on the deeds and status of theirs, creating an intricate and oft-incomprehensible web of relations.\n\nThis overriding societal pressure reflects itself in marriages, with intricate ceremonies designed to honor the procession of positions and honors held by each partner's ancestors being a neccesity to secure societal acceptance of a union. Any potential pairing must have a similar combined status, lest the marriage be considered unequal, with one wielding a greater influence due to the honor within their lineage. It is an old joke in Aversaria, perhaps as old as the Archexate itself, that a king might find himself unworthy of marrying a beggar."

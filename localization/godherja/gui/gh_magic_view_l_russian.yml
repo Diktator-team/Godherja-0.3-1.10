@@ -413,7 +413,21 @@
   
  add_character_modifier_shape_change_magic_modifier_name: "Магия изменения формы"  #Машинный перевод 28.10.23!
  add_character_modifier_shape_change_magic_modifier_desc: "Заклинатель трансформируется в более мощную чудовищную форму."  #Машинный перевод 28.10.23!
-  
+
+ add_character_modifier_heavy_infantry_improvement_name: "Magic Infused Heavy Infantry"
+ add_character_modifier_heavy_infantry_improvement_desc: "Magic improves heavy infantry"
+
+ add_character_modifier_slow_army_movement_name: "Slow Army"
+ add_character_modifier_slow_army_movement_desc: "Magic has caused these forces to slow."
+
+ slow_army_movement_modifier: "Slow Army."
+ slow-army_movement_modifier_desc: "Magic has caused these forces to slow."
+
+
+
+ magic_heavy_infantry_improvement_modifier: "Heavy Infantry Magic Modifier"
+ magic_heavy_infantry_improvement_modifier_desc: "Heavy infantry is improved via magic, making them more dangerous in battle."
+
  add_immunity_destruction_magic_name: "Случайная болезнь"  #Машинный перевод 28.10.23!
  add_immunity_destruction_magic_desc: "Разрушает способность организма бороться с болезнями"  #Машинный перевод 28.10.23!
  add_bloodblight_magic_name: "Кровавый упадок"  #Машинный перевод 28.10.23!
@@ -439,6 +453,32 @@
  divination_effect_tooltip: "Получит случайный положительный или, реже, отрицательный модификатор в зависимости от полученного видения."  #Машинный перевод 28.10.23!
  spawn_metal_golem_army_name: "Металлические големы"  #Машинный перевод 28.10.23!
  spawn_metal_golem_army_desc: "Призывает металлических големов"  #Машинный перевод 28.10.23!
+ spawn_ice_golem_army_name: "Ice Golems."
+ spawn_ice_golem_army_desc: "Summons Ice Golems"
+
+ imbued_armor_name: "Strength Armor"
+ imbued_armor_desc: "The armor of the heavy infantry is enhanced and has an increased resistence and density. This has the downside of a slower movement over long distances, but in battle the magi will supply the enhancements with magic, making them fight even better."
+
+ erase_mental_trauma_name: "Erase Mental Trauma"
+ remove_depression_name: "Remove Depression"
+ remove_depression_desc: "Using [aspect_dark] magic, the memory causing depression is erased for a cost"
+
+
+ frozen_visage_name: "Slow to Change"
+ frozen_visage_desc: "Using [aspect_ice] magic has the side effect of causing the caster to become more static in life, they find it harder to learn, or relax or get stressed."
+
+ magic_frozen_experience: "Frozen Mind"
+ magic_frozen_experience_name: "Frozen Mind"
+ magic_frozen_experience_desc: "[aspect_ice] magic caused [ROOT.Char.GetFirstName] to become more static in life, they find it harder to learn, or relax or get stressed."
+
+ frozen_decay_name: "Frozen Decay"
+
+ frozen_decay_desc: "This spell freezes the recipient's physical age in place ensuring they do not lose their body's strength as long as it lasts. However, it has noticeably lowered their body temperature making them more susceptible to disease."
+
+ add_character_modifier_iced_prowess_name: "Static Body"
+ add_character_modifier_iced_prowess_desc: "Spell freezes the recipient's physical age ensuring they do not lose their body's strength as long as it lasts."
+
+
  birth_boon_name: "Прирост характеристик новорожденного"  #Машинный перевод 28.10.23!
  birth_boon_desc: "После рождения новорожденному цели навсегда будут предоставлены дополнительные базовые характеристики. Новорожденные также будут иметь шанс получить положительную статистику."  #Машинный перевод 28.10.23!
  add_character_modifier_magic_significantly_drained_single_stack_name: "Постоянная потеря навыков"  #Машинный перевод 28.10.23!
@@ -755,7 +795,10 @@
   
  shape_change_magic_modifier_4: "Совершенно чудовищная форма"  #Машинный перевод 28.10.23!
  shape_change_magic_modifier_4_desc: "Этот персонаж развил чудовищную ауру и силу, все боятся им противостоять."  #Машинный перевод 28.10.23!
-  
+
+ magic_iced_prowess: "Iced Prowess"
+ magic_iced_prowess_desc: "The essence of hoarfrost has been infused into [ROOT.Char.GetFirstName]'s body, keeping [ROOT.GetCharacter.GetHerHis] prowess in a facsimile of its prime."
+
  hostile_scheme_resistance_add_modifier: "Сопротивление тайным замыслам"  #Машинный перевод 28.10.23!
  hostile_scheme_resistance_add_modifier_desc: "Инстинкты и рефлексы этого персонажа магически усилены."  #Машинный перевод 28.10.23!
   

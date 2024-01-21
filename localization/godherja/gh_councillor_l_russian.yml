@@ -30,7 +30,54 @@
  THEY_MUST_BE_A_MAGI: "Они, должны быть, [[Concept('magi','маги')|E]"
  THEY_ARE_NOT_A_MAGI: "Они не являются [[Concept('magi','магами')|E]" 
   
-  
+ ###Flavor localization for Court Chaplains, sorted by Religion.###
+ #Lifepath
+ councillor_court_chaplain_lifepath_religion_county: "Wayleader"
+ councillor_court_chaplain_lifepath_religion_county_possessive: "Wayleader's"
+ #councillor_court_chaplain_lifepath_religion_duchy: ""
+ #councillor_court_chaplain_lifepath_religion_duchy_possessive: ""
+ #councillor_court_chaplain_lifepath_religion_kingdom: ""
+ #councillor_court_chaplain_lifepath_religion_kingdom_possessive: ""
+ #councillor_court_chaplain_lifepath_religion_empire: ""
+ #councillor_court_chaplain_lifepath_religion_empire_possessive: ""
+
+ #Aversarian
+
+ #Agionist
+
+ #Wardenite
+
+ #Ritualist
+
+ #Partic
+ councillor_court_chaplain_partic_religion_county: "Farmh a'Farmh"
+ councillor_court_chaplain_partic_religion_county_possessive: "Farmh a'Fairmhs"
+ #councillor_court_chaplain_partic_religion_duchy: ""
+ #councillor_court_chaplain_partic_religion_duchy_possessive: ""
+ #councillor_court_chaplain_partic_religion_kingdom: ""
+ #councillor_court_chaplain_partic_religion_kingdom_possessive: ""
+ #councillor_court_chaplain_partic_religion_empire: ""
+ #councillor_court_chaplain_partic_religion_empire_possessive: ""
+
+ #Sjalvolki
+ councillor_court_chaplain_sjalvolki_religion_county: "Vitvarj" #Grove-Ward
+ councillor_court_chaplain_sjalvolki_religion_county_possessive: "Vitvar's"
+ councillor_court_chaplain_sjalvolki_religion_county_female: "Vitvarja"
+ councillor_court_chaplain_sjalvolki_religion_county_female_possessive: "Vitvarja's"
+ councillor_court_chaplain_sjalvolki_religion_duchy: "Alvarj Vitjev" #All-Ward of the Groves
+ councillor_court_chaplain_sjalvolki_religion_duchy_possessive: "Alvarj Vitjev's"
+ councillor_court_chaplain_sjalvolki_religion_duchy_female: "Alvarja Vitjeva"
+ councillor_court_chaplain_sjalvolki_religion_duchy_female_possessive: "Alvarja Vitjeva's"
+ #councillor_court_chaplain_sjalvolki_religion_kingdom: ""
+ #councillor_court_chaplain_sjalvolki_religion_kingdom_possessive: ""
+ #councillor_court_chaplain_sjalvolki_religion_kingdom_female: ""
+ #councillor_court_chaplain_sjalvolki_religion_kingdom_female_possessive: ""
+ councillor_court_chaplain_sjalvolki_religion_empire: "Vog Ovkajev" #Keeper of the Temples
+ councillor_court_chaplain_sjalvolki_religion_empire_possessive: "Vog Ovkajev's"
+ councillor_court_chaplain_sjalvolki_religion_empire_female: "Voha Ovkajeva"
+ councillor_court_chaplain_sjalvolki_religion_empire_female_possessive: "Voha Ovkajeva's"
+
+
   ####################### 
   # QUARTERMASTER TASKS # 
   ####################### 

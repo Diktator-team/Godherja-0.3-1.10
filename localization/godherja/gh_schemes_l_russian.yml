@@ -14,14 +14,18 @@
   
  learn_magic_school_scheme_interaction: "Изучите Школу Магии #weak (Схема)#!"  #Машинный перевод 28.10.23!
  learn_magic_school_scheme_interaction_notification: "Изучите Школу Магии"  #Машинный перевод 28.10.23!
-  
+
+
+ target_does_not_know_unknown_school_loc: "[TARGET_CHARACTER.GetShortUIName] cannot teach any magic schools you do not already know."
+ target_does_not_have_reason_to_teach_magic_school_loc: "[TARGET_CHARACTER.GetShortUIName] is not your #E Friend#!, #E Lover#!, #E Close Family Member#!, #E Court Magi#! or #E Courtier#!."
+ TARGET_DOES_NOT_KNOW_SPELL_UNKNOWN_TO_ME: "[TARGET_CHARACTER.GetShortUIName] cannot teach any spells you do not already know." 
   
   # Learn magic spell Scheme 
  learn_magic_spell_scheme: "Изучите магическое заклинание"  #Машинный перевод 28.10.23!
  learn_magic_spell_scheme_action: "Изучите новый [ritual|E] с помощью"  #Машинный перевод 28.10.23!
  learn_magic_spell_scheme_desc: "Я попытаюсь выучить новое заклинание"  #Машинный перевод 28.10.23!
  START_SCHEME_LEARN_MAGIC_SPELL: "Стартовая схема"  #Машинный перевод 28.10.23!
- scheme_interaction_tt_learn_magic_spell_willing: "Попытайтесь выучить заклинание, известное [recipient.GetShortUINamePossessiveNoTooltip]."  #Машинный перевод 28.10.23!
+ scheme_interaction_tt_learn_magic_spell_willing: "Попытайтесь выучить заклинание, известное [recipient.GetShortUIName]."  #Машинный перевод 28.10.23!
  learn_magic_spell_scheme_success_message: "Выучил новое заклинание"  #Машинный перевод 28.10.23!
  learn_magic_spell_scheme_failed_message: "Не удалось выучить новое заклинание"  #Машинный перевод 28.10.23!
  learn_magic_spell_scheme_dead_desc: "[target.GetShortUIName|U] скончался. Вы больше не можете использовать $learn_magic_school_scheme$ на [target.GetHerHim]."  #Машинный перевод 28.10.23!

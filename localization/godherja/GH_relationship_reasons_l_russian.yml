@@ -24,4 +24,10 @@
  rival_forced_to_drink_kumis_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] с силой влил в горло [CHARACTER.GetShortUINamePossessive] бочонок отвратительного напитка."  #Машинный перевод 28.10.23!
   
  friend_shieldbrother: "[CHARACTER.GetShortUIName|U] [CharAreIs(CHARACTER)] поклялся [TARGET_CHARACTER.GetShortUIName] в качестве Щита[CHARACTER.Custom('SisterBrother')]."  #Машинный перевод 28.10.23!
- friend_shieldbrother_corresponding: "[CHARACTER.GetShortUIName|U] [CharAreIs(CHARACTER)] поклялся [TARGET_CHARACTER.GetShortUIName] в качестве Щита[CHARACTER.Custom('SisterBrother')]."  #Машинный перевод 28.10.23!
+ friend_shieldbrother_corresponding: "[CHARACTER.GetShortUIName|U] [CharAreIs(CHARACTER)] sworn to [TARGET_CHARACTER.GetShortUIName] as a Shield[CHARACTER.Custom('SisterBrother')]."  
+
+ nemesis_killed_parents: "[TARGET_CHARACTER.GetShortUIName|U] murdered [CHARACTER.GetShortUINamePossessive] parents in cold blood."
+ nemesis_killed_parents_corresponding: "[CHARACTER.GetShortUIName|U] murdered [TARGET_CHARACTER.GetShortUINamePossessive] parents in cold blood."
+
+ saved_from_parents_murderer: "[TARGET_CHARACTER.GetShortUIName|U] saved [CHARACTER.GetShortUINamePossessive] life as a child from [TARGET_CHARACTER_2.GetShortUIName]."
+ saved_from_parents_murderer_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] saved [CHARACTER.GetShortUINamePossessive] life as a child from [TARGET_CHARACTER_2.GetShortUIName]."

@@ -478,3 +478,9 @@
  vitrific_grace_modifier_desc: "Вы лучшая версия себя, сейчас и навсегда." #Машинный перевод 28.10.23
   
  fogeater_recuperating: "Сбор сил" #Машинный перевод 28.10.23
+
+ recovery_efforts_modifier: "Recovery Efforts"
+ recovery_efforts_modifier_desc: "This county is trying to rebuild after a devastating raid."
+
+ county_neglect_modifier: "Neglected Recovery"
+ county_neglect_modifier_desc: "This county has been left abandoned after a devastating raid."

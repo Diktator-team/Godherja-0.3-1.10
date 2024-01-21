@@ -1,0 +1,2 @@
+﻿l_russian:
+ HOLDING_VIEW_TITLE_INFORMATION: "#T [Title.GetBaseNameNoTooltip]#!\n[Localize(Concatenate(Title.GetKey, '_desc'))]"

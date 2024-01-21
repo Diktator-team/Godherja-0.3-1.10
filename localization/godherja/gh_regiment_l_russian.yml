@@ -75,6 +75,9 @@
  kanpahuri: "Канпахури"  #Машинный перевод 28.10.23!
  visvasavrak: "Вишвасаврак"  #Машинный перевод 28.10.23!
  kaphral: "Кафрал"  #Машинный перевод 28.10.23!
+theugombrian_warrior_kinband: "Warrior Kinband"
+ theugombrian_iron_brotherhood: "Iron Brotherhood"
+ leki_herdmasters: "Leki Herdmasters"
   
   
   #MaA Descriptions 
@@ -141,7 +144,9 @@
  oltenic_light_horsemen_flavor: "Олтенские всадники происходят из воинских традиций, усвоенных с [aironoian_migration|E]. Эти гонщики считались одними из лучших в [aversaria|E]."  #Машинный перевод 28.10.23!
  oltenic_spearmen_flavor: "Олтеникские копейщики уже давно специализируются на уникальных боевых стилях для борьбы со свирепыми конными лордами Айроноя."  #Машинный перевод 28.10.23!
  oltenic_horse_archers_flavor: "Олтенские лучники происходят от воинских традиций, усвоенных с [aironoian_migration|E]. Они известны своей смертоносностью и точностью, и благодаря этому сохранили контроль над степью."  #Машинный перевод 28.10.23!
-  
+ theugombrian_warrior_kinband_flavor: "Composed of bonded kingroups of young men, Kinbands range far and wide, selling their services to the highest bidder, fighting with metal armor and nearly suicidal bravery. Those bands who survive form the nucleus of future Theugombrian lineages."
+ theugombrian_iron_brotherhood_flavor: "Steeped in the arts of metal and war magic, Theugombrian Iron Brotherhoods are kinbands formed around magi bloodlines, fighting with both spell and sword. Their rites are known to enhance the bite of a blade such that it can cut through mail like paper."
+ leki_herdmasters_flavor: "Pastoralists by nature, in times of need the Leki people pick up their arms and form elusive skirmisher warbands. Putting their knowledge of the lay of the land to a more martial use, they strike hard and fast, disappearing into the surrounding terrain before the enemy can mount a response." 
   #SARRADON STUFF: 
  rayakuux_archers: "Лучники Раякуукса"  #Машинный перевод 28.10.23!
  rayakuux_archers1: "Лучники Раякуукса"  #Машинный перевод 28.10.23!

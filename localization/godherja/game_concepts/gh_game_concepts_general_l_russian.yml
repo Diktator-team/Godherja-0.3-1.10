@@ -6,6 +6,15 @@
   
  ###LORE 
   
+ game_concept_the_last_iyrossi: "King Pothacleas"
+ game_concept_the_last_iyrossi_desc: "King Pothacleas 'The Last Iyrossi' was the legendary last King of the Iyrossi people before their eventual conquest by the Autokratia. King Pothacleas waged a legendary guerilla war against the Aversarians, so effective that it allowed him to bargain for the lives of his entire people at the cost of their enslavement and his life. He remains a legendary figure to both the Iyrossi people and military historians alike, as his battles and tactics remain studied even centuries after his death."
+
+ game_concept_scusstari_guerilla_warfare: "Scusstari Guerilla Warfare"
+ game_concept_scusstari_guerilla_warfare_desc: "Scusstari soldiers are famously stubborn in the face of immeasurable odds. Even before their long fought campaign against Aversaria, they have mastered the use of their hostile landscape to inflict maximum casualties on their foes. If battles cannot be won by a single decisive victory than protracted warfare tactics are used instead, utilizing supply raids and sneak attacks at night to weaken the morale of and eventually starving their foes as weeks of supply shortages turn into months. Passing these kinds of warfare tactics down to the younger generations is a responsibility of tribal elders, making this a vital part of their culture as stubborn guerilla warriors determined to fight for freedom at any cost.
+
+ game_concept_old_iyrossi_culture: "Ancient Iyrossi Customs"
+ game_concept_old_iyrossi_culture_desc: "Occurring primarily in the numerous ethnically Iyrossi rural towns dotting the cliffsides of outer Malcois, vendetta killings and sibling marriages are commonplace. The Iyrossi faith permits both, and even praises such acts as pious in the eyes of the Divine Court. Such practices are hard to wipe from the Iyrossi people altogether, as centuries of tradition and ritual are embedded into the various Iyrossi cultures themselves."
+ 
  ##UNIVERSAL 
   
  #EVENTS 
@@ -207,13 +216,13 @@ game_concept_aersanon: "Aersanon"
  game_concept_aspect_sand_desc: "Вечно изменчивый и бесчисленный [aspect_sand] образуется, когда непоколебимый аспект [aspect_stone] протискивается через дестабилизирующую бесформенность [aspect_air]. Получившийся аспект представляет собой дисперсию - распад материи на более мелкие формы. Однако дисперсность не означает небытия, а лишь переход в более рыхлую структуру."  
   
  game_concept_aspect_dawn: "$dawn_coloring$ $dawn_name$#!"  
- game_concept_aspect_dawn_desc: ""
+ game_concept_aspect_dawn_desc: "$dawn_coloring$ $dawn_name$#! is said to emerge when the [aspect|E] of [aspect_light] mixes with the aspect of [aspect_dreams]. It represents beginnings and ignitions, standing at the inflection point of change. As the aspect of [aspect_light] represents order, [aspect_dawn] therefore emerges when mortals [aspect_dream] of remaking the world anew; for better or for worse."
   
  game_concept_aspect_time: "$time_coloring$ $time_name$#!"  
- game_concept_aspect_time_desc: ""
+ game_concept_aspect_time_desc: "Rare, strange, and dangerous, $time_coloring$ $time_name$#! is said by some to be a subordinate to [aspect_celestial], while others say it is twinned to [aspect_hymns] or even [aspect_fire]. Time represents the eternal march of days and years, the decay of the old and the possibility for the new, and the unbroken chain of cause and effect. All prophecy and precognition is said to hold a bit of this [aspect|E], as is the somewhat less sought after ability to peer into the past to discern buried truths. It is rumored that masters of this aspect may be able to reach into or even travel into that past, though the broad consensus among many [magi|E] is that such time travel is probably impossible due to fundamental arcane laws."
   
  game_concept_aspect_hymns: "$hymns_coloring$ $hymns_name$#!"  
- game_concept_aspect_hymns_desc: ""
+ game_concept_aspect_hymns_desc: "The enigmatic $hymns_coloring$ $hymns_name$#! is said to be a twin to the [aspect_celestial] aspect, though in truth its position within the traditional schemata of aspects is controversial and ultimately unclear to the scholars of [aeras|E]. Those who practice this aspect often speak of a distant-echoing cosmic melody, the last remnant of a divine song which may have birthed reality itself. This aspect's masters are feared for the terrible acts of destruction and creation that they can work by mimicking these half-heard reverberations."
   
  #SCHOOLS 
   
@@ -402,6 +411,8 @@ game_concept_aersanon: "Aersanon"
  game_concept_shadow_trade_capacity: "Теневой торговый потенциал"  
  game_concept_shadow_trade_desc: "Теневая торговля представляет собой сеть дружественных пирату портов, готовых без лишних вопросов принять груз и залатать дыры в корпусе. Мощность теневой торговли - это максимальное количество золота, которое [pirates|E] может заработать на торговых рейдах. Теневой торговый потенциал пирата может быть увеличен за счет роста размера его [realm|E] и создания новых [shadow_ports|E]."  
   
+ 
+ 
  ##GOVERNMENTS 
   
  #DESCRIPTIONS 
