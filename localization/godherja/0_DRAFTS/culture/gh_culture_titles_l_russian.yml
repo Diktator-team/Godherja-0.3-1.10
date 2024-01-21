@@ -51,8 +51,8 @@
  emperor_other_female_rejection_high_king: "Черная королева" #Pfalz
  emperor_other_male_aversarian_high_king: "Верховный архексир" #Pfalz /спорно
  emperor_other_female_aversarian_high_king: "Верховная архекса" #Pfalz /спорно
- emperor_other_male_konijkmener_high_king: "Opperwoder" #Заглушка
- emperor_other_female_konijkmener_high_king: "Opperwodrin" #Заглушка
+ emperor_other_male_konijkmener_high_king: "Opprewoder" #Заглушка
+ emperor_other_female_konijkmener_high_king: "Opprewodrin" #Заглушка
  emperor_republic_konijkmener_high_king: "Alrekanzeler" #Заглушка
  emperor_marcher_male: "Верховный король" #Pfalz
  emperor_marcher_female: "Верховная королева" #Pfalz
@@ -94,7 +94,7 @@
  title_empire_marcher_theocracy_high_kingdom_lifepath: "High Waycrown" #Заглушка
  title_empire_aversarian_high_kingdom: "Arch-Archexate" #Заглушка
  title_empire_konijkmener_republic_high_kingdom: "Alrekanzelerij" #Заглушка
- title_empire_konijkmener_high_kingdom: "Opperwodriek" #Заглушка
+ title_empire_konijkmener_high_kingdom: "Opprewodriek" #Заглушка
  title_empire_ojyczaynz_high_kingdom: "Герцогство-регентство" #Pfalz
  title_empire_oejeynican_high_kingdom: "Герцогство-регентство" #Pfalz
  title_empire_high_kingdom: "Верховное королевство" #Pfalz

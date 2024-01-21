@@ -28,7 +28,10 @@
   
  remove_from_magic_list_interaction: "Удалить из целей [magic|E]"  #Машинный перевод 28.10.23!
  remove_from_magic_list_desc: "Удалить [recipient.GetShortUINameNoTooltip] из списка потенциальных целей в моей книге заклинаний."  #Машинный перевод 28.10.23!
-  
+
+ clear_magic_list_interaction: "Clear [magic|E] Targets"
+ clear_magic_list_desc: "Clears your list of potential targets in my spellbook"
+
  amsari_child_kill_interaction: "Тихо лишить ребенка наследства"  #Машинный перевод 28.10.23!
  amsari_child_kill_interaction_desc: "Вокруг бегает слишком много моих детей... Эти возможные претенденты могут бросить вызов стабильности Империи! С этим надо что-то делать..."  #Машинный перевод 28.10.23!
   

@@ -185,7 +185,7 @@
   
  #marcher_reunification_war_victory_desc: "[attacker.GetShortUIName|U] вассализирует все титулы в пределах королевства [defender.GetShortUINamePossessive]."  #Машинный перевод 28.10.23!
  marcher_reunification_defeat_desc_defender: "Вы не захватите территорию и потеряете золото и престиж."  #Машинный перевод 28.10.23!
- marcher_reunification_war_victory_desc_attacker: "[attacker.GetShortUIName|U] подчиняет вассальные титулы в пределах королевства [defender.GetShortUINamePossessive] и забирает все части Сломанной Короны, имеющиеся у [defender.GetSheHe]."  #Машинный перевод 28.10.23!
+ marcher_reunification_war_victory_desc_attacker: "[attacker.GetShortUIName|U] vassalises all titles within [defender.GetShortUINamePossessive] realm and takes any pieces of the Broken Crown [defender.GetSheHe] has so long as they are a claimaint to the throne."
  marcher_reunification_war_victory_desc: "[attacker.GetShortUIName|U] подчиняет вассальные титулы в королевстве [defender.GetShortUINamePossessive] и забирает все имеющиеся у вас части Сломанной Короны."  #Машинный перевод 28.10.23!
  marcher_reunification_war_white_peace_desc: "[defender.GetShortUIName|U] сохраняет титулы [defender.GetHerHis]."  #Машинный перевод 28.10.23!
  marcher_reunification_war_white_peace_desc_defender: "Вы сохраняете свои титулы."  #Машинный перевод 28.10.23!

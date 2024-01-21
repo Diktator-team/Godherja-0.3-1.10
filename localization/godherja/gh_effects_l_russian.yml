@@ -232,4 +232,3 @@
  TARGET_GAINED_A_ARCANA_LIFESTYLE_PERKPOINT: "They Gained $VALUE|V0$ [arcana_lifestyle|E] Unlock"
   
  add_arcana_skill_tooltip: "Выигрыш [arcana|E]"  #Машинный перевод 28.10.23!
-  

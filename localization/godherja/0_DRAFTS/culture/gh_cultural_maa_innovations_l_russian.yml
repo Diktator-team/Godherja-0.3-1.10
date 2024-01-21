@@ -242,5 +242,13 @@
  innovation_kapmatans: "Капматаны"  #Машинный перевод 28.10.23!
  innovation_kapmatans_desc: "Огромные двойные корпуса и паруса с крабовыми клешнями когда-то способствовали исследованию океана с востока в Роварску. Столетия инноваций в конструкции позволили нашим кораблям ловко перемещаться по узким водным путям и по обширным океанам, в отличие от любых других."  #Машинный перевод 28.10.23!
   
+  ##ANTIIMPERRECH
  innovation_honored_huscarls: "Заслуженные хускарлы"  #Машинный перевод 28.10.23!
  innovation_honored_huscarls_desc: "Быть хускарлом — значит обедать с самим Велосом! Величайшие воины каждого племени награждаются своими землями или разрешаются ночевать в доме вождя и ужинать с ним на каждом пиру. Взамен они выполняют непоколебимый долг, становясь ядром братьев и сестер вождя по щиту и образуя тяжелобронированное ядро ​​любого отряда Сялволки."  #Машинный перевод 28.10.23!
+
+
+ innovation_sword_oaths: "Six Iron Oaths"
+ innovation_sword_oaths_desc: "Among the Theugombrians, armed kinbands are known to swear oaths to ancient sword-spirits of iron and bronze. Anointed with blood and arcane tattoos, these warrior bands form the core of Theogombrian martial society. "
+
+ innovation_roshotzi: "Roshot'zi Vver"
+ innovation_roshotzi_desc: "Frequently nomadic, the Theugombrians travel with their whole lives loaded onto their Roshot'zi Vver, or "road-forts". Each Theugombrian kinband travels with sometimes as many as two dozen of these fortified wagons in their train, functioning as equal parts home and mobile military encampment."
