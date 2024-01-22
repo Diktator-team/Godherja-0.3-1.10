@@ -22,8 +22,8 @@
  republic_playable_government_vassals_label: "Республиканские [obligations|E] одинаковы для всех республиканских [Concept('vassals','вассалов')|E]."
  republic_playable_government_obligations: "Республиканские [obligations|E]"
   
- landed_order_government: "Приземленный Священный Орден"
- landed_order_government_realm: "Приземленный Священный Орден"
+ landed_order_government: "Военный Священный Орден"
+ landed_order_government_realm: "Военный Священный Орден"
  landed_order_government_desc: "Этот священный орден остепенился и взял на себя роль, больше напоминающую королевство, управляемое аристократией. Будучи святыми по названию и по отлову, а также, возможно, по некоторым своим правительственным функциям, братья этого ордена в основном действуют как выборная монархия."
  landed_order_government_adjective: "Священно-орденск"
   
