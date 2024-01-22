@@ -9,20 +9,20 @@
  world_es_eastern_coast: "Восточное побережье"  #Машинный перевод 28.10.23!
  world_es_forgotten_isle: "Забытый остров"  #Машинный перевод 28.10.23!
  world_es_hajjan_mountains: "Горы Хаджан"  #Машинный перевод 28.10.23!
- world_ga_aironoi: "Айроной"  #Машинный перевод 28.10.23!
- world_ga_aironoi_formable: "Айроной"  #Машинный перевод 28.10.23!
+ world_ga_aironoi: "Аироной"  #Машинный перевод 28.10.23!
+ world_ga_aironoi_formable: "Аироной"  #Машинный перевод 28.10.23!
  world_ga_aversarian_homelands: "[aversarian|E] Родина"  #Машинный перевод 28.10.23!
  world_ga_aversarian_isles: "[aversarian|E] [Concept('shatteredisles','Острова')|E]"   
  world_ga_clanlands: "Клановые земли"  #Машинный перевод 28.10.23!
  world_ga_eastern_clanlands: "Восточные клановые земли"  #Машинный перевод 28.10.23!
- world_ga_eastern_marcher_kingdoms: "Восточные марки"  #Машинный перевод 28.10.23!
- world_ga_etepezea_formable: "Этепезеа"  #Машинный перевод 28.10.23!
+ world_ga_eastern_marcher_kingdoms: "Восточные марчеры"  #Машинный перевод 28.10.23!
+ world_ga_etepezea_formable: "Этепезея"  #Машинный перевод 28.10.23!
  world_ga_foglands: "[foglands|E]"  #Машинный перевод 28.10.23!
  world_ga_gurdurbok_formable: "Черные горы"  #Машинный перевод 28.10.23!
  world_ga_imperial_isle: "Имперский остров"  #Машинный перевод 28.10.23!
  world_ga_kashirya: "[kashirya|E]"  #Машинный перевод 28.10.23!
  world_ga_lichdoms: "[lichdoms|E]"  #Машинный перевод 28.10.23!
- world_ga_malcois_formable: "Малкуа"  #Машинный перевод 28.10.23!
+ world_ga_malcois_formable: "Малкоис"  #Машинный перевод 28.10.23!
  world_ga_marcher_kingdoms: "[chevalie|E]"  #Машинный перевод 28.10.23!
  world_ga_mayikprolollan: "[mayikprolollan|E]"  #Машинный перевод 28.10.23!
  world_ga_megos_kalathipsomi_formable: "Мегос Калатипсоми"  #Машинный перевод 28.10.23!
@@ -30,7 +30,7 @@
  world_ga_mountainheights: "Черные горы"  #Машинный перевод 28.10.23!
  world_ga_northeast_opakhasia: "Северо-Западная Опахазия"  #Машинный перевод 28.10.23!
  world_ga_northern_aversaria: "Северный [aversaria|E]"  #Машинный перевод 28.10.23!
- world_ga_opakhasia_formable: "Опахасия"  #Машинный перевод 28.10.23!
+ world_ga_opakhasia_formable: "Опахазия"  #Машинный перевод 28.10.23!
  world_ga_pirate_coast: "[pirate_coast|E]"  #Машинный перевод 28.10.23!
  world_ga_sarradon_horn: "Рог [sarradon|E]"  #Машинный перевод 28.10.23!
  world_ga_western_aversaria: "Вестерн [aversaria|E]"  #Машинный перевод 28.10.23!
@@ -64,12 +64,12 @@
  #malcois_coast_biozone: ""
  #north_amsar_biozone: ""
  aekershaan_biozone: "Кратер Аекершаан"  #Машинный перевод 28.10.23!
- aironoian_southeast_biozone: "Айронойский юго-восток"  #Машинный перевод 28.10.23!
+ aironoian_southeast_biozone: "Юго-восточный Аироной"  #Машинный перевод 28.10.23!
  fools_coast_biozone: "Берег дураков"  #Машинный перевод 28.10.23!
  alghazir_biozone: "Аль-Газир"  #Машинный перевод 28.10.23!
  amaghea_mountains_biozone: "Амагейские горы"  #Машинный перевод 28.10.23!
  amsar_biozone: "Амсар"  #Машинный перевод 28.10.23!
- ayyar_coast_biozone: "Берег Айяр"  #Машинный перевод 28.10.23!
+ ayyar_coast_biozone: "Айярское побережье"  #Машинный перевод 28.10.23!
  black_mountains_biozone: "Черные горы"  #Машинный перевод 28.10.23!
  boneyard_biozone: "Кладбище"  #Машинный перевод 28.10.23!
  brass_sea_coasts_biozone: "Латунные морские побережья"  #Машинный перевод 28.10.23!
@@ -78,11 +78,11 @@
  continental_interior_biozone: "Континентальный интерьер"  #Машинный перевод 28.10.23!
  crater_biozone: "Большой кратер"  #Машинный перевод 28.10.23!
  #crater_biozone: "Кратемезин"  #Машинный перевод 28.10.23!
- cyrat_biozone: "Сират"  #Машинный перевод 28.10.23!
+ cyrat_biozone: "Сайрат"  #Машинный перевод 28.10.23!
  damota_biozone: "Дамота"  #Машинный перевод 28.10.23!
  darmirat_plain_biozone: "Дармиратская равнина"  #Машинный перевод 28.10.23!
  eripomvuno_biozone: "Эрипомвуно"  #Машинный перевод 28.10.23!
- etepezea_biozone: "Этепезеа"  #Машинный перевод 28.10.23!
+ etepezea_biozone: "Этепезея"  #Машинный перевод 28.10.23!
  foglands_biozone: "Туманные земли"  #Машинный перевод 28.10.23!
  great_steppe_biozone: "Олтенская степь"  #Машинный перевод 28.10.23!
  guillate_rocks_biozone: "Скалы Гийлата"  #Машинный перевод 28.10.23!
@@ -92,10 +92,10 @@
  #imperial_isle_biozone: "Имперские острова"  #Машинный перевод 28.10.23!
  kafasali_biozone: "Предгорья Кафасали"  #Машинный перевод 28.10.23!
  #kafasali_biozone: "Кафасали Хиллз"  #Машинный перевод 28.10.23!
- kalath_old_growth_biozone: "Сердцевуд"  #Машинный перевод 28.10.23!
+ kalath_old_growth_biozone: "Хартвуд"  #Машинный перевод 28.10.23!
  kalath_redwoods_biozone: "Редвудс"  #Машинный перевод 28.10.23!
  kalathipsomi_biozone: "Калатипсоми"  #Машинный перевод 28.10.23!
- kashti_flats_biozone: "Кашти Квартиры"  #Машинный перевод 28.10.23!
+ kashti_flats_biozone: "Равнины Кашти"  #Машинный перевод 28.10.23!
  kasiryat_biozone: "Долина реки Касирьят"  #Машинный перевод 28.10.23!
  #kasiryat_biozone: "Река Касирьят"  #Машинный перевод 28.10.23!
  katuppilan_biozone: "Катуппилан"  #Машинный перевод 28.10.23!
@@ -109,7 +109,7 @@
  krejehad_biozone: "Крехеджад"  #Машинный перевод 28.10.23!
  lichdoms_biozone: "Личдомы"  #Машинный перевод 28.10.23!
  magiyor_biozone: "Плато Магиёр"  #Машинный перевод 28.10.23!
- malcois_biozone: "Малкуа"  #Машинный перевод 28.10.23!
+ malcois_biozone: "Малкоис"  #Машинный перевод 28.10.23!
  mayikprolollan_biozone: "Майикпрололлан"  #Машинный перевод 28.10.23!
  #mayikprolollan_biozone: "Майикрата"  #Машинный перевод 28.10.23!
  migraddar_biozone: "Либен Хайлендс"  #Машинный перевод 28.10.23!
@@ -117,10 +117,10 @@
  north_kharadan_biozone: "Северные горы Харадан"  #Машинный перевод 28.10.23!
  #north_kharadan_biozone: "Северные горы Харадан"  #Машинный перевод 28.10.23!
  northern_opakhasia_biozone: "Северная Опахазия"  #Машинный перевод 28.10.23!
- opakhasia_biozone: "Опахасия"  #Машинный перевод 28.10.23!
- pathos_delta_biozone: "Пафос Дельта"  #Машинный перевод 28.10.23!
- red_waste_biozone: "Красные отходы"  #Машинный перевод 28.10.23!
- redlands_biozone: "Редлендс"  #Машинный перевод 28.10.23!
+ opakhasia_biozone: "Опахазия"  #Машинный перевод 28.10.23!
+ pathos_delta_biozone: "Дельта Пафоса"  #Машинный перевод 28.10.23!
+ red_waste_biozone: "Красная пустошь"  #Машинный перевод 28.10.23!
+ redlands_biozone: "Красные земли"  #Машинный перевод 28.10.23!
  rojihlat_biozone: "Роджихлат Мангровые заросли"  #Машинный перевод 28.10.23!
  rovarska_biozone: "Роварска"  #Машинный перевод 28.10.23!
  sarradonian_desert_biozone: "Саррадонская пустыня"  #Машинный перевод 28.10.23!
@@ -130,12 +130,12 @@
  southern_kalath_biozone: "Мечтающие холмы"  #Машинный перевод 28.10.23!
  sulzegg_basin_biozone: "Бассейн Зульцегг"  #Машинный перевод 28.10.23!
  the_isles_biozone: "Западные острова"  #Машинный перевод 28.10.23!
- tower_isles_biozone: "Тауэрские острова"  #Машинный перевод 28.10.23!
- vichacil_biozone: "Леса Вичачил"  #Машинный перевод 28.10.23!
+ tower_isles_biozone: "Острова Башни"  #Машинный перевод 28.10.23!
+ vichacil_biozone: "Леса Вичацил"  #Машинный перевод 28.10.23!
  vyshtanka_biozone: "Выштанка"  #Машинный перевод 28.10.23!
- western_aironoi_biozone: "Западный Айроной"  #Машинный перевод 28.10.23!
+ western_aironoi_biozone: "Западный Аироной"  #Машинный перевод 28.10.23!
  western_opakhasia_biozone: "Западная Опахазия"  #Машинный перевод 28.10.23!
- whisperveil_biozone: "Шепот"  #Машинный перевод 28.10.23!
+ whisperveil_biozone: "Виспервейл"  #Машинный перевод 28.10.23!
   
  # Confluences 
  trade_confluence_ageotaros: "Агеотарос"  #Машинный перевод 28.10.23!
@@ -163,19 +163,19 @@
  custom_holysite_migration_sulzegg_basin: "Бассейн Кепирана"  #Машинный перевод 28.10.23!
  custom_holysite_migration_chevalie: "Шевалье"  #Машинный перевод 28.10.23!
  custom_holysite_migration_knokidbes_valley: "Долина Кнокидбес"  #Машинный перевод 28.10.23!
- custom_holysite_migration_etepezea: "Этепезеа"  #Машинный перевод 28.10.23!
+ custom_holysite_migration_etepezea: "Этепезея"  #Машинный перевод 28.10.23!
  custom_holysite_migration_imperial_isle: "Имперский остров"  #Машинный перевод 28.10.23!
- custom_holysite_migration_malcois: "Малкуа"  #Машинный перевод 28.10.23!
- custom_holysite_migration_opakhasia: "Опахасия"  #Машинный перевод 28.10.23!
- custom_holysite_migration_aironoi: "Айроной"  #Машинный перевод 28.10.23!
+ custom_holysite_migration_malcois: "Малкоис"  #Машинный перевод 28.10.23!
+ custom_holysite_migration_opakhasia: "Опахазия"  #Машинный перевод 28.10.23!
+ custom_holysite_migration_aironoi: "Аироной"  #Машинный перевод 28.10.23!
   
  # Misc 
  struggle_rite_wars: "Берег Сялволки"  #Машинный перевод 28.10.23!
  struggle_rite_wars_north: "Северное побережье Сялволки"  #Машинный перевод 28.10.23!
- struggle_rite_wars_south: "Южный берег Сялволки"  #Машинный перевод 28.10.23!
+ struggle_rite_wars_south: "Южное побережье Сялволки"  #Машинный перевод 28.10.23!
  seventy_seven_cities: "Семьдесят семь городов Большого мира"  #Машинный перевод 28.10.23!
  divergence_island_regions: "Острова"  #Машинный перевод 28.10.23!
- migration_heartwood_controlled_region: "Сердцевина"  #Машинный перевод 28.10.23!
+ migration_heartwood_controlled_region: "Хартвуд"  #Машинный перевод 28.10.23!
  migration_faegift_controlled_region: "Фэгифт"  #Машинный перевод 28.10.23!
  migration_everrain_controlled_region: "Эверрейн"  #Машинный перевод 28.10.23!
  migration_aldergreen_controlled_region: "Олдергрин"  #Машинный перевод 28.10.23!

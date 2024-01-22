@@ -153,7 +153,7 @@
  restore_malcois_decision_tooltip: "Старые [Concept('aversarian','аверсарианские')|E] де-юре королевства Малкоис будут восстановлены вместо любых мелких королевств сьялволков, образовавшихся после завоевания Ценвара."
  restore_malcois_requirement: "Все незатуманенные герцогства с измененными де-юре владениями в #E Малкоисе#! находятся под нашим контролем."
  must_control_majority_of_malcois_decision_tt: "Вы контролируете более [SCOPE.ScriptValue('aversaria_formable_percent_value')|0]% [Concept('region','региона')|E][GetGeographicalRegion('world_ga_malcois_formable').GetName] (текущий: [SCOPE.ScriptValue('current_controlled_malcois_decision_region_owned_percent_value')|0]%)"
- #restore_malcois_decision_tooltip: "#E Иерархия Малкуа#! де-юре будет восстановлена." 
+ #restore_malcois_decision_tooltip: "#E Иерархия Малкоис#! де-юре будет восстановлена." 
  restore_opakhasia_decision: "Восстановить Опахазию"  
  restore_opakhasia_decision_desc: "С огромными усилиями мы отбросили варваров и восстановили границы Опахазии, от Корвионского пролива до блистательного города [GetTitleByKey('c_tinitida').GetNameNoTier]. Пока цветок империи сильно увял, но под нашим решительным руководством он обязательно расцветет вновь!" 
  restore_opakhasia_decision_confirm: "Перерисовать старые границы Опахазии"
@@ -372,7 +372,7 @@
  coalition_holysites_kardawai_imperial_isle_confirm: "Кардвен смотрит за горизонт"  #Машинный перевод 28.10.23!
   
   ## Malcois 
- coalition_holysites_kardawai_malcois: "Подтвердите нашу веру в Малкуа"  #Машинный перевод 28.10.23!
+ coalition_holysites_kardawai_malcois: "Подтвердите нашу веру в Малкоис"  #Машинный перевод 28.10.23!
  coalition_holysites_kardawai_malcois_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Связав свою судьбу с [Concept('sjalvolki_migrations','Cenware and his Imperrech')|E], мы теперь оказываемся в [Concept('malcois','a rugged land')|E] холмистой местности и глубоких горных долин, населенных выносливыми и свирепыми людьми, ненавидящими рабство.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и все равно сделать ее своей."  #Машинный перевод 28.10.23!
  coalition_holysites_kardawai_malcois_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_malcois').GetName] [region|E]."  #Машинный перевод 28.10.23!
  coalition_holysites_kardawai_malcois_confirm: "Кардвен гуляет среди бывших рабов"  #Машинный перевод 28.10.23!
@@ -421,7 +421,7 @@
  coalition_holysites_kakarataki_imperial_isle_confirm: "Новое начало для нашего народа"  #Машинный перевод 28.10.23!
   
   ## Malcois 
- coalition_holysites_kakarataki_malcois: "Подтвердите нашу веру в Малкуа"  #Машинный перевод 28.10.23!
+ coalition_holysites_kakarataki_malcois: "Подтвердите нашу веру в Малкоис"  #Машинный перевод 28.10.23!
  coalition_holysites_kakarataki_malcois_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и лишения, мы теперь оказались в [Concept('malcois','a rugged land')|E] холмистой местности и глубоких горных долин, населенных выносливыми и свирепыми людьми, ненавидящими рабство.\n\nНаш старый дом может быть потерян для нас, но мы приручим это землю и все равно сделать ее своей."  #Машинный перевод 28.10.23!
  coalition_holysites_kakarataki_malcois_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_malcois').GetName] [region|E]."  #Машинный перевод 28.10.23!
  coalition_holysites_kakarataki_malcois_confirm: "Новое начало для нашего народа"  #Машинный перевод 28.10.23!
@@ -433,7 +433,7 @@
  coalition_holysites_kakarataki_opakhasia_confirm: "Новое начало для нашего народа"  #Машинный перевод 28.10.23!
   
   ## Aironoi 
- coalition_holysites_kakarataki_aironoi: "Подтвердите нашу веру в Айроной"  #Машинный перевод 28.10.23!
+ coalition_holysites_kakarataki_aironoi: "Подтвердите нашу веру в Аироной"  #Машинный перевод 28.10.23!
  coalition_holysites_kakarataki_aironoi_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказываемся в [Concept('western_aironoi','a strange land')|E], где бесконечные поля и сады простираются за горизонт, в конечном итоге уступая место [Concept('great_steppe','the harsh steppes')|E] внутренних помещений.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и все равно сделать ее своей."  #Машинный перевод 28.10.23!
  coalition_holysites_kakarataki_aironoi_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_aironoi').GetName] [region|E]."  #Машинный перевод 28.10.23!
  coalition_holysites_kakarataki_aironoi_confirm: "Новое начало для нашего народа"  #Машинный перевод 28.10.23!
@@ -458,7 +458,7 @@
  coalition_holysites_gethian_imperial_isle_confirm: "Новое начало для нашего народа"  #Машинный перевод 28.10.23!
   
   ## Malcois 
- coalition_holysites_gethian_malcois: "Подтвердите нашу веру в Малкуа"  #Машинный перевод 28.10.23!
+ coalition_holysites_gethian_malcois: "Подтвердите нашу веру в Малкоис"  #Машинный перевод 28.10.23!
  coalition_holysites_gethian_malcois_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказались [Concept('malcois','back under the mountains bosom')|E], на земле, населенной выносливыми и свирепыми людьми, ненавидящими рабство.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и сделаем ее своей владеть все равно."  #Машинный перевод 28.10.23!
  coalition_holysites_gethian_malcois_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_malcois').GetName] [region|E]."  #Машинный перевод 28.10.23!
  coalition_holysites_gethian_malcois_confirm: "Новое начало для нашего народа"  #Машинный перевод 28.10.23!
@@ -470,7 +470,7 @@
  coalition_holysites_gethian_opakhasia_confirm: "Новое начало для нашего народа"  #Машинный перевод 28.10.23!
   
   ## Aironoi 
- coalition_holysites_gethian_aironoi: "Подтвердите нашу веру в Айроной"  #Машинный перевод 28.10.23!
+ coalition_holysites_gethian_aironoi: "Подтвердите нашу веру в Аироной"  #Машинный перевод 28.10.23!
  coalition_holysites_gethian_aironoi_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказались в [Concept('western_aironoi','a strange land')|E], где бесконечные поля и сады простираются за горизонт, а высокие горные хребты в конечном итоге уступают место [Concept('great_steppe','the harsh steppes')|E] внутренних помещений.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и все равно сделаем ее своей."  #Машинный перевод 28.10.23!
  coalition_holysites_gethian_aironoi_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_aironoi').GetName] [region|E]."  #Машинный перевод 28.10.23!
  coalition_holysites_gethian_aironoi_confirm: "Новое начало для нашего народа"  #Машинный перевод 28.10.23!
@@ -502,7 +502,7 @@
  coalition_holysites_salacad_imperial_isle_confirm: "Лазурь вверху, Лазурь внизу"  #Машинный перевод 28.10.23!
   
   ## Malcois 
- coalition_holysites_salacad_malcois: "Подтвердите нашу веру в Малкуа"  #Машинный перевод 28.10.23!
+ coalition_holysites_salacad_malcois: "Подтвердите нашу веру в Малкоис"  #Машинный перевод 28.10.23!
  coalition_holysites_salacad_malcois_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказались [Concept('malcois','among the deep mountain valleys')|E], на земле, населенной выносливыми и свирепыми людьми, ненавидящими рабство.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и сделаем ее своей владеть все равно."  #Машинный перевод 28.10.23!
  coalition_holysites_salacad_malcois_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_malcois').GetName] [region|E]."  #Машинный перевод 28.10.23!
  coalition_holysites_salacad_malcois_confirm: "Новое начало для нашего народа"  #Машинный перевод 28.10.23!
@@ -514,7 +514,7 @@
  coalition_holysites_salacad_opakhasia_confirm: "Новое начало для нашего народа"  #Машинный перевод 28.10.23!
   
   ## Aironoi 
- coalition_holysites_salacad_aironoi: "Подтвердите нашу веру в Айроной"  #Машинный перевод 28.10.23!
+ coalition_holysites_salacad_aironoi: "Подтвердите нашу веру в Аироной"  #Машинный перевод 28.10.23!
  coalition_holysites_salacad_aironoi_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через борьбу и трудности, мы наконец достигли конца нашего долгого пути. Не осталось никого, кто помнит наш старый дом — даже тех, кто помнит дни Салазсека, теперь мало. И все же земля перед нами нам знакома, поскольку она отражает нашу потерянную родину — даже люди в масках, которых мы считали потерянными, живут здесь, среди [Concept('western_aironoi','fertile plains and majestic peaks')|E]. \n\nНаш старый дом может быть потерян для нас, но мы все равно приручим эту благословенную землю и сделаем ее своей."  #Машинный перевод 28.10.23!
  coalition_holysites_salacad_aironoi_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_aironoi').GetName] [region|E]."  #Машинный перевод 28.10.23!
  coalition_holysites_salacad_aironoi_confirm: "Новое начало для нашего народа"  #Машинный перевод 28.10.23!
@@ -545,7 +545,7 @@
  coalition_holysites_stodherrn_imperial_isle_confirm: "Новое начало для нашего народа"  #Машинный перевод 28.10.23!
   
   ## Malcois 
- coalition_holysites_stodherrn_malcois: "Подтвердите нашу веру в Малкуа"  #Машинный перевод 28.10.23!
+ coalition_holysites_stodherrn_malcois: "Подтвердите нашу веру в Малкоис"  #Машинный перевод 28.10.23!
  coalition_holysites_stodherrn_malcois_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и лишения, мы теперь оказались в [Concept('malcois','a rugged land')|E] холмистой местности и глубоких горных долин, населенных выносливыми и свирепыми людьми, ненавидящими рабство.\n\nНаш старый дом может быть потерян для нас, но мы приручим это землю и все равно сделать ее своей."  #Машинный перевод 28.10.23!
  coalition_holysites_stodherrn_malcois_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_malcois').GetName] [region|E]."  #Машинный перевод 28.10.23!
  coalition_holysites_stodherrn_malcois_confirm: "Новое начало для нашего народа"  #Машинный перевод 28.10.23!
@@ -557,7 +557,7 @@
  coalition_holysites_stodherrn_opakhasia_confirm: "Новое начало для нашего народа"  #Машинный перевод 28.10.23!
   
   ## Aironoi 
- coalition_holysites_stodherrn_aironoi: "Подтвердите нашу веру в Айроной"  #Машинный перевод 28.10.23!
+ coalition_holysites_stodherrn_aironoi: "Подтвердите нашу веру в Аироной"  #Машинный перевод 28.10.23!
  coalition_holysites_stodherrn_aironoi_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказываемся в [Concept('western_aironoi','a strange land')|E], где бесконечные поля и сады простираются за горизонт, в конечном итоге уступая место [Concept('great_steppe','the harsh steppes')|E] внутренних помещений.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и все равно сделать ее своей."  #Машинный перевод 28.10.23!
  coalition_holysites_stodherrn_aironoi_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_aironoi').GetName] [region|E]."  #Машинный перевод 28.10.23!
  coalition_holysites_stodherrn_aironoi_confirm: "Новое начало для нашего народа"  #Машинный перевод 28.10.23!
@@ -582,7 +582,7 @@
  coalition_holysites_apti_imperial_isle_confirm: "Новое начало для нашего народа"  #Машинный перевод 28.10.23!
   
   ## Malcois 
- coalition_holysites_apti_malcois: "Подтвердите нашу веру в Малкуа"  #Машинный перевод 28.10.23!
+ coalition_holysites_apti_malcois: "Подтвердите нашу веру в Малкоис"  #Машинный перевод 28.10.23!
  coalition_holysites_apti_malcois_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и лишения, мы теперь оказались в [Concept('malcois','a rugged land')|E] холмистой местности и глубоких горных долин, населенных выносливыми и свирепыми людьми, ненавидящими рабство.\n\nНаш старый дом может быть потерян для нас, но мы приручим это землю и все равно сделать ее своей."  #Машинный перевод 28.10.23!
  coalition_holysites_apti_malcois_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_malcois').GetName] [region|E]."  #Машинный перевод 28.10.23!
  coalition_holysites_apti_malcois_confirm: "Новое начало для нашего народа"  #Машинный перевод 28.10.23!
@@ -594,7 +594,7 @@
  coalition_holysites_apti_opakhasia_confirm: "Новое начало для нашего народа"  #Машинный перевод 28.10.23!
   
   ## Aironoi 
- coalition_holysites_apti_aironoi: "Подтвердите нашу веру в Айроной"  #Машинный перевод 28.10.23!
+ coalition_holysites_apti_aironoi: "Подтвердите нашу веру в Аироной"  #Машинный перевод 28.10.23!
  coalition_holysites_apti_aironoi_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказываемся в [Concept('western_aironoi','a strange land')|E], где бесконечные поля и сады простираются за горизонт, в конечном итоге уступая место [Concept('great_steppe','the harsh steppes')|E] внутренних помещений.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и все равно сделать ее своей."  #Машинный перевод 28.10.23!
  coalition_holysites_apti_aironoi_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_aironoi').GetName] [region|E]."  #Машинный перевод 28.10.23!
  coalition_holysites_apti_aironoi_confirm: "Новое начало для нашего народа"  #Машинный перевод 28.10.23!
