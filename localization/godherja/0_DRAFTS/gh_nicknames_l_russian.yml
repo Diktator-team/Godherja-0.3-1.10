@@ -5,238 +5,241 @@
   ######################## 
   
   # AVERSARIA # 
- nick_little_prick_maxios: "Литтл-Прик" #Машинный перевод 28.10.23
- nick_little_prick_maxios_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] слишком часто настаивает на [_s(CHARACTER)], что это имя относится к [CharYourHerHis(CHARACTER)] невысокому росту и плохому характеру." #Машинный перевод 28.10.23
+ nick_little_prick_maxios: "[Select_CString(CHARACTER.IsFemale, 'Мелкая Выскочка', 'Мелкий Выскочка')]
+ nick_little_prick_maxios_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] слишком часто [Select_CString( CHARACTER.IsLocalPlayer, 'повторяете', Select_CString(CHARACTER.IsFemale, 'повторяет', 'повторяет' ))], что это прозвище обозначает [Select_CString( CHARACTER.IsLocalPlayer, 'ваш', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] низкий рост и скверный характер."
   
- nick_skin_muncher: "пожиратель шкур" #Машинный перевод 28.10.23
+ nick_skin_muncher: "[Select_CString(CHARACTER.IsFemale, 'Потрошительница Шкур', 'Потрошитель Шкур')]" 
   
- nick_black_braxos: "Черный" #Машинный перевод 28.10.23
+ nick_black_braxos: "[Select_CString(CHARACTER.IsFemale, 'Черная', 'Черный')]" 
   
- nick_flamecaller: "призыватель огня" #Машинный перевод 28.10.23
- nick_flamecaller_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] прославился тем, что вызывал массовые пожары, поджигая [CharYourHerHis(CHARACTER)] врагов." #Машинный перевод 28.10.23
+ nick_flamecaller: "[Select_CString(CHARACTER.IsFemale, 'Заклинательница Огня', 'Заклинатель Огня')]" 
+ nick_flamecaller_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'прославились тем, что вызываете', Select_CString(CHARACTER.IsFemale, 'прославилась тем, что вызывает', 'прославился тем, что вызывает' ))] огромные пожары, чтобы испепелить своих врагов"
   
- nick_stone_fist: "Каменный Кулак" #Машинный перевод 28.10.23
+ nick_stone_fist: "Каменный Кулак" 
   
- nick_one_eye_prefix: "Один глаз" #Машинный перевод 28.10.23
+ nick_one_eye_prefix: "[Select_CString(CHARACTER.IsFemale, 'Одноглазая', 'Одноглазый')]" 
   
- nick_frostblood: "Ледяная кровь" #Машинный перевод 28.10.23
+ nick_frostblood:0 "Ледяная Кровь"
+ nick_frostblood_desc:0 "В жилах этого персонажа есть лёд."
+ nick_old_frostblood:0 "Древняя Ледяная Кровь"
+ nick_old_frostblood_desc:0 "Несмотря на смерть своих соперников, [ROOT.GetCharacter.GetSheHe] упорно не желает умирать. Каким-то образом жизнь все еще бьется в [ROOT.GetCharacter.GetHerHis] холодном, бесчувственном сердце."
   
- nick_kindblood: "доброкровный" #Машинный перевод 28.10.23
- nick_kindblood_desc: "Названный так крестьянством за [CharYourHerHis(CHARACTER)] великой щедрости, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] рассматривается многими как Аавтократир, спасший [aversaria|E]." #Машинный перевод 28.10.23
+ nick_kindblood: "[Select_CString(CHARACTER.IsFemale, 'Доброкровная', 'Доброкровный')]"
+ nick_kindblood_desc: "[Select_CString( CHARACTER.IsLocalPlayer, 'Вас', Select_CString(CHARACTER.IsFemale, 'Её', 'Его' ))] прозвали так крестьяне за [Select_CString( CHARACTER.IsLocalPlayer, 'своё', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] великодушие, [CHARACTER.GetShortUINameNoTooltipNoFormat] многими [Select_CString( CHARACTER.IsLocalPlayer, 'рассматриваетесь', Select_CString(CHARACTER.IsFemale, 'рассматривается', 'рассматривается' ))] как Аавтократир, который спасет [Concept('aversaria', 'Аверсарию')|E]."
   
- nick_little_wailer: "Маленький Плакальщик" #Машинный перевод 28.10.23
- nick_little_wailer_desc: "Как и сестра [CharYourHerHis(CHARACTER)], [CHARACTER.GetShortUINameNoTooltipNoFormat] также громко бросается в бой[_s(CHARACTER)]. К сожалению, высокий тон [CharYourHerHis(CHARACTER)] визгов лишь сбивает с толку, а не пугает противников [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+ nick_little_wailer: "[Select_CString(CHARACTER.IsFemale, 'Маленькая Ревунья', 'Маленький Ревун')]" 
+ nick_little_wailer_desc: "Как и [Select_CString( CHARACTER.IsLocalPlayer, 'ваша', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] сестра, [CHARACTER.GetShortUINameNoTooltipNoFormat] также с громким криком [Select_CString( CHARACTER.IsLocalPlayer, 'бросаетесь', Select_CString(CHARACTER.IsFemale, 'бросается', 'бросается' ))] в бой. К сожалению, высокая тональность [Select_CString( CHARACTER.IsLocalPlayer, 'ваших', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] криков только запутывает, а не пугает врагов."
   
- nick_big_wailer: "Большой Плакальщик" #Машинный перевод 28.10.23
- nick_big_wailer_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] бросается в бой[_s(CHARACTER)], издавая гортанный рев такой силы, что часто удивляет тех, кто видел [CharYourHerHis(CHARACTER)] маленького кадра." #Машинный перевод 28.10.23
+ nick_big_wailer: "[Select_CString(CHARACTER.IsFemale, 'Большая Ревунья', 'Большой Ревун')]" 
+ nick_big_wailer_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'бросаетесь', Select_CString(CHARACTER.IsFemale, 'бросается', 'бросается' ))] в бой, издавая гортанный рев такой силы, что часто удивляет тех, кто видел [Select_CString( CHARACTER.IsLocalPlayer, 'ваш', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] небольшой рост." 
   
- nick_the_frigid: "Холодный" #Машинный перевод 28.10.23
- nick_the_frigid_desc: "Подаренные многими, кто устал от безумного хвастовства и провозглашений [CharYourHerHis(CHARACTER)], [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] и [CHARACTER.GetWomanMan], застывшие во времена, когда [Concept('aversaria','empire')|E] правил безраздельно." #Машинный перевод 28.10.23
+ nick_the_frigid: "[Select_CString(CHARACTER.IsFemale, 'Безразличная', 'Безразличный')]" 
+ nick_the_frigid_desc: "[Select_CString( CHARACTER.IsLocalPlayer, 'Одаренный', Select_CString(CHARACTER.IsFemale, 'Одаренная', 'Одаренный' ))] многими, кто устал от [Select_CString( CHARACTER.IsLocalPlayer, 'вашего', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] безумного хвастовства и заявлений, [CHARACTER.GetShortUINameNoTooltipNoFormat] - человек, застывший во времена, когда [Concept('aversaria','Империя')|E] правила безраздельно." 
   
- nick_firedrake: "Огненный дракон" #Машинный перевод 28.10.23
- nick_firedrake_desc: "О мастерстве [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] в использовании магии огня ходят легенды, и он прославился тем, что убил дракона, подавив его пламя собственным [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+ nick_firedrake: "[Select_CString(CHARACTER.IsFemale, 'Огнедышащая', 'Огнедышащий')]" 
+ nick_firedrake_desc: "О мастерстве [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] в магии огня ходят легенды, он прославился тем, что убил дракона, подавив его пламя своим собственным."
   
- nick_the_blood_sparrow: "Кровавый Воробей" #Машинный перевод 28.10.23
- nick_the_blood_sparrow_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] известен своей ловкостью [CharYourHerHis(CHARACTER)] на поле боя, появляется в виде красного пятна для противников [CharYourHerHis(CHARACTER)], когда [CharYouSheHe(CHARACTER)] владеет [_s(CHARACTER)] знаменитым копьем Дома [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+ nick_the_blood_sparrow: "Кровавый Воробей"
+ nick_the_blood_sparrow_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'известны', Select_CString(CHARACTER.IsFemale, 'известна', 'известен' ))] своей ловкостью на поле боя, появляясь перед врагами как красное пятно, когда [Select_CString( CHARACTER.IsLocalPlayer, 'вы орудуете', Select_CString(CHARACTER.IsFemale, 'она орудует', 'он орудует' ))] знаменитым копьем своего Дома." 
   
- nick_the_black_sun: "Черное Солнце" #Машинный перевод 28.10.23
- nick_the_black_sun_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] предположительно родился, когда солнце сгорело до черноты, а мир погрузился во тьму — утверждение, используемое последователями [CharYourHerHis(CHARACTER)] для доказательства статуса [CharYourHerHis(CHARACTER)] как спасителя, посланного [CHARACTER.GetFaith.HighGodName]." #Машинный перевод 28.10.23
+ nick_the_black_sun: "Черное Солнце"
+ nick_the_black_sun_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] якобы [Select_CString( CHARACTER.IsLocalPlayer, 'родились', Select_CString(CHARACTER.IsFemale, 'родилась', 'родился' ))] в тот момент, когда солнце полыхало черным пламенем, а мир погрузился во тьму. Это утверждение используется [Select_CString( CHARACTER.IsLocalPlayer, 'вашими', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] последователями для доказательства [Select_CString( CHARACTER.IsLocalPlayer, 'вашего', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] статуса спасителя, посланного самим [CHARACTER.GetFaith.HighGodName]ом." 
   
- nick_skybane: "Скайбейн" #Машинный перевод 28.10.23
- nick_skybane_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] прославился победой над могучей виверной, несмотря на то, что в жилах [CharYourHerHis(CHARACTER)] не было ни капли магии." #Машинный перевод 28.10.23
+ nick_skybane: "Небесный Бич"
+ nick_skybane_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'прославились тем, что убили', Select_CString(CHARACTER.IsFemale, 'прославилась тем, что убила', 'прославился тем, что убил' ))] грозную виверну, несмотря на то, что в [Select_CString( CHARACTER.IsLocalPlayer, 'ваших', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] жилах нет ни капли магии."
   
- nick_skull_taker: "Собиратель Черепов" #Машинный перевод 28.10.23
- nick_skull_taker_desc: "Абсолютный ужас эпохи [CharYourHerHis(CHARACTER)], [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)], печально известный накоплением огромной коллекции черепов и [CharYourHerHis(CHARACTER)] жестокими способами увеличения ее количества." #Машинный перевод 28.10.23
+ nick_skull_taker: "Собиратель Черепов" 
+ nick_skull_taker_desc: "Абсолютный ужас своей эпохи, [CHARACTER.GetShortUINameNoTooltipNoFormat] [Select_CString( CHARACTER.IsLocalPlayer, 'знамениты', Select_CString(CHARACTER.IsFemale, 'знаменита', 'знаменит' ))] тем, что [Select_CString( CHARACTER.IsLocalPlayer, 'собрали', Select_CString(CHARACTER.IsFemale, 'собрала', 'собрал' ))] огромную коллекцию черепов и своими жестокими способами пополнять её число." 
   
- nick_the_most_fair_and_beautiful_ruler: "Самый справедливый и красивый правитель" #Машинный перевод 28.10.23
- nick_the_most_fair_and_beautiful_ruler_desc: "Все [aeras|E] с трепетом смотрят на Мегистоса, ибо единственное существо, на которое стоит смотреть, — это Мегистос, а созерцать Мегистоса — значит созерцать саму божественность." #Машинный перевод 28.10.23
+ nick_the_most_fair_and_beautiful_ruler: "Самый Справедливый и Прекрасный Правитель" 
+ nick_the_most_fair_and_beautiful_ruler_desc: "Весь [aeras|E] с благоговением взирает на Мегистоса, ибо единственное существо, на которое стоит взирать, - это Мегистос, а созерцать Мегистоса - значит созерцать саму божественность."
   
- nick_the_last_iyrossi: "Последний Ийросси" #Машинный перевод 28.10.23
- nick_the_last_iyrossi_desc: "Сражаясь до последнего, [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] удостоен чести Ийросси, которые стремятся подражать [CharYouHerHim(CHARACTER)] в своем стремлении к освобождению." #Машинный перевод 28.10.23
+ nick_the_last_iyrossi: "[Select_CString(CHARACTER.IsFemale, 'Последняя Иросси', 'Последний Иросси')]" 
+ nick_the_last_iyrossi_desc: "Сражаясь до последнего, [CHARACTER.GetShortUINameNoTooltipNoFormat] [Select_CString( CHARACTER.IsLocalPlayer, 'удостаиваетесь', Select_CString(CHARACTER.IsFemale, 'удостаивается', 'удостаивается' ))] почестей от Иросси, которые стремятся подражать [Select_CString( CHARACTER.IsLocalPlayer, 'вам', Select_CString(CHARACTER.IsFemale, 'ей', 'ему' ))] в своем стремлении к освобождению."
   
- nick_the_silver_blood: "Серебряная Кровь" #Машинный перевод 28.10.23
- nick_the_silver_blood_desc: "Когда-то почетное имя предков [CharYourHerHis(CHARACTER)] стало свидетельством [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] обращения с жизнью как с товаром." #Машинный перевод 28.10.23
+ nick_the_silver_blood: "Серебряная Кровь"
+ nick_the_silver_blood_desc: "Когда-то это было почетное имя [Select_CString( CHARACTER.IsLocalPlayer, 'ваших', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] предков, а теперь - свидетельство того, что [CHARACTER.GetShortUINameNoTooltipNoFormat] [Select_CString( CHARACTER.IsLocalPlayer, 'относитесь', Select_CString(CHARACTER.IsFemale, 'относится', 'относится' ))] к жизни как к некоему товару."
   
- nick_the_silverblood: "Серебряная Кровь" #Машинный перевод 28.10.23
- nick_the_silverblood_desc: "Когда-то почетное имя предков [CharYourHerHis(CHARACTER)] стало свидетельством [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] обращения с жизнью как с товаром." #Машинный перевод 28.10.23
+ nick_the_silverblood: "Серебряная Кровь" 
+ nick_the_silverblood_desc: "Когда-то это было почетное имя [Select_CString( CHARACTER.IsLocalPlayer, 'ваших', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] предков, а теперь - свидетельство того, что [CHARACTER.GetShortUINameNoTooltipNoFormat] [Select_CString( CHARACTER.IsLocalPlayer, 'относитесь', Select_CString(CHARACTER.IsFemale, 'относится', 'относится' ))] к жизни как к некоему товару." 
   
- nick_the_last_legionnaire: "Последний легионер" #Машинный перевод 28.10.23
- nick_the_last_legionnaire_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] один из последних оставшихся легионеров, служивших и сражавшихся в [imperial_civil_war|E], переживший даже империю, которой служил [CharYouSheHe(CHARACTER)]." #Машинный перевод 28.10.23
+ nick_the_last_legionnaire: "Последний Легионер" 
+ nick_the_last_legionnaire_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] - один из последних оставшихся в живых легионеров, служивших и сражавшихся в [Concept('imperial_civil_war', 'Имперской гражданской войне')|E], переживший даже империю, которой [Select_CString( CHARACTER.IsLocalPlayer, 'вы служили', Select_CString(CHARACTER.IsFemale, 'она служила', 'он служил' ))]." 
   
- nick_chosen_of_the_purest: "Избранный из чистейших" #Машинный перевод 28.10.23
- nick_chosen_of_the_purest_desc: "Выбран случайно и воспитан как марионетка. Некоторые надеются, что [CHARACTER.GetShortUINameNoTooltipNoFormat] когда-нибудь сможет оправдать это имя, но многие сомневаются в шансах [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+ nick_chosen_of_the_purest: "Избранник Чистейшего" 
+ nick_chosen_of_the_purest_desc: "Случайно выбранный и воспитанный, чтобы стать марионеткой. Некоторые надеются, что [CHARACTER.GetShortUINameNoTooltipNoFormat] когда-нибудь [Select_CString( CHARACTER.IsLocalPlayer, 'сможете', Select_CString(CHARACTER.IsFemale, 'сможет', 'сможет' ))] оправдать это прозвище, но многие сомневаются в [Select_CString( CHARACTER.IsLocalPlayer, 'ваших', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] шансах."
   
- nick_blackguard: "Черный страж" #Машинный перевод 28.10.23
- nick_blackguard_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] повернул [CharYourHerHis(CHARACTER)] против империи, которой когда-то служил [CharYouSheHe(CHARACTER)], заслужив ненависть бывших товарищей [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+ nick_blackguard: "[Select_CString(CHARACTER.IsFemale, 'Подлая', 'Подлый')]"
+ nick_blackguard_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'отвернулись', Select_CString(CHARACTER.IsFemale, 'отвернулась', 'отвернулся' ))] от империи, которой когда-то [Select_CString( CHARACTER.IsLocalPlayer, 'служили, и заслужили', Select_CString(CHARACTER.IsFemale, 'служила, и заслужила', 'служил, и заслужил' ))] ненависть своих бывших товарищей."
   
- nick_lord_of_the_ashes: "Лорд Пепла" #Машинный перевод 28.10.23
- nick_lord_of_the_ashes_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] вызвал [frodbrokna|E], предоставив [Concept('imperial_civil_war','victory')], которого давно желал [CharYouSheHe(CHARACTER)], но ценой разрушения самого [aeras|E]." #Машинный перевод 28.10.23
+ nick_lord_of_the_ashes: "Лорд Пепла" 
+ nick_lord_of_the_ashes_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'вызвали', Select_CString(CHARACTER.IsFemale, 'вызвала', 'вызвал' ))] [frodbrokna|E], одержав долгожданную [Concept('imperial_civil_war','победу')], но ценой разрушения самого [Concept('aeras', 'Аэраса')|E]." 
   
- nick_I: "я" #Машинный перевод 28.10.23
- nick_I_desc: "Названный в честь великого Мегистоса, Мегистос только надеется, что Мегистос сможет оправдать его великолепие." #Машинный перевод 28.10.23
+ nick_I: "I" 
+ nick_I_desc: "Названный в честь великого Мегистоса, Мегистос только надеется, что Мегистос сможет соответствовать великолепию Мегистоса." 
   
- nick_II: "II" #Машинный перевод 28.10.23
- nick_II_desc: "Также названный в честь отца Мегистоса, Мегистоса, Мегистос знает, что Мегистос так же великолепен, как и Мегистос, но выглядит гораздо лучше." #Машинный перевод 28.10.23
+ nick_II: "II" 
+ nick_II_desc: "Названный в честь отца Мегистоса Мегистоса, Мегистос знает, что Мегистос так же великолепен, как и Мегистос, но выглядит гораздо лучше." 
   
- nick_III_the_older_Megistos: "III старший Мегист" #Машинный перевод 28.10.23
- nick_III_the_older_Megistos_desc: "Мегистос назван так, чтобы отличить Мегистоса от младшего Мегистоса, к ужасу старшего Мегистоса." #Машинный перевод 28.10.23
+ nick_III_the_older_Megistos: "III Мегистос Старший" 
+ nick_III_the_older_Megistos_desc: "Мегистос назван так, чтобы отличить Мегистоса от младшего Мегистоса, к смущению старшего Мегистоса."
   
- nick_III_the_younger_Megistos: "III младший Мегист" #Машинный перевод 28.10.23
- nick_III_the_younger_Megistos_desc: "К этому моменту некоторые начинают задаваться вопросом, было ли имя Мегистос дано из-за тщеславия или отсутствия воображения." #Машинный перевод 28.10.23
+ nick_III_the_younger_Megistos: "III Мегистос Младший" 
+ nick_III_the_younger_Megistos_desc: "К этому моменту некоторые начинают сомневаться, что имя Мегистос дано ему из-за тщеславия или недостатка воображения."
   
- nick_bane_of_azzykrazz: "Проклятие Аззи'краза" #Машинный перевод 28.10.23
- nick_bane_of_azzykrazz_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] посвятил [CharYourHerHis(CHARACTER)] жизнь охоте на демона Аззи'кразза, принесшего [fog|E]" #Машинный перевод 28.10.23
+ nick_bane_of_azzykrazz: "Проклятие Аззи'краза" 
+ nick_bane_of_azzykrazz_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'посвятили', Select_CString(CHARACTER.IsFemale, 'посвятила', 'посвятил' ))] свою жизнь охоте на демона Аззикраза, приносящего [Concept('fog', 'туман')|E]" 
   
- nick_the_heart_eater: "Пожиратель сердец" #Машинный перевод 28.10.23
- nick_the_heart_eater_desc: "Многие шепчутся, что [CHARACTER.GetShortUINameNoTooltipNoFormat] практикуют[_s(CHARACTER)] мерзкие обычаи северных варваров, поедая плоть как врагов, так и друзей." #Машинный перевод 28.10.23
+ nick_the_heart_eater: "[Select_CString(CHARACTER.IsFemale, 'Сердцеедка', 'Сердцеед')]" 
+ nick_the_heart_eater_desc: "Многие шепчутся, что [CHARACTER.GetShortUINameNoTooltipNoFormat] [Select_CString( CHARACTER.IsLocalPlayer, 'практикуете', Select_CString(CHARACTER.IsFemale, 'практикует', 'практикует' ))] гнусные обычаи северных варваров, поедая плоть как врагов, так и друзей." 
   
- nick_five_lives: "Пять жизней" #Машинный перевод 28.10.23
- nick_five_lives_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] снова и снова обманывал смерть, к недоумению и ужасу врагов [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+ nick_five_lives: "Пять Жизней" 
+ nick_five_lives_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] снова и снова [Select_CString( CHARACTER.IsLocalPlayer, 'обманывали', Select_CString(CHARACTER.IsFemale, 'обманывала', 'обманывал' ))] смерть, к недоумению и ужасу своих врагов."
   
- nick_the_sea_sword: "Морской Меч" #Машинный перевод 28.10.23
+ nick_the_sea_sword: "Морской Меч" 
   
- nick_ash_killer: "Пепельный убийца" #Машинный перевод 28.10.23
+ nick_ash_killer: "Убийца Пепла"
   
- nick_tharnaz_garnaz: "Самый Амагейский" #Машинный перевод 28.10.23
- nick_tharnaz_garnaz_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] олицетворяет [_s(CHARACTER)] идеального Амагея, построенного как гора, обладающего соответствующей гордостью и способностью к насилию." #Машинный перевод 28.10.23
+ nick_tharnaz_garnaz: "[Select_CString(CHARACTER.IsFemale, 'Самая Амагейская', 'Самый Амагейский')]" 
+ nick_tharnaz_garnaz_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'олицетворяете', Select_CString(CHARACTER.IsFemale, 'олицетворяет', 'олицетворяет' ))] собой идеального амагейца, сложенного как гора, с гордостью и способностью к насилию." 
   
- nick_iron_spike: "Железный Шип" #Машинный перевод 28.10.23
- nick_iron_spike_desc: "Названный так в честь [CharYourHerHis(CHARACTER)] жестокой практики сажания на кол диссидентов и мятежников, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)], которого многие боятся, но никто не считает другом." #Машинный перевод 28.10.23
+ nick_iron_spike: "Железный Шип"
+ nick_iron_spike_desc: "[Select_CString( CHARACTER.IsLocalPlayer, 'Прозванный', Select_CString(CHARACTER.IsFemale, 'Прозванная', 'Прозванный' ))] так за свою жестокую практику обезглавливания несогласных и повстанцев, [CHARACTER.GetShortUINameNoTooltipNoFormat] [Select_CString( CHARACTER.IsLocalPlayer, 'вызываете', Select_CString(CHARACTER.IsFemale, 'вызывает', 'вызывает' ))] страх у многих и не является другом ни для кого." 
   
- nick_black_of_eyes: "Черные глаза" #Машинный перевод 28.10.23
- nick_black_of_eyes_desc: "Некоторые [magi|E] получают глаза, которые светятся силой после постоянного произнесения заклинаний. Иначе обстоит дело с [CHARACTER.GetShortUINameNoTooltipNoFormat], глаза которого нарисованы в темноте, лишенной света." #Машинный перевод 28.10.23
+ nick_black_of_eyes: "[Select_CString(CHARACTER.IsFemale, 'Черноглазая', 'Черноглазый')]" 
+ nick_black_of_eyes_desc: "Некоторые [Concept('magi', 'маги')|E] обретают глаза, которые ярко светятся после постоянных заклинаний. Этого не скажешь о [Select_CString( CHARACTER.IsLocalPlayer, 'вас', Select_CString(CHARACTER.IsFemale, 'ней', 'нём' ))], чьи глаза окрашены во тьму, лишенную света." 
   
- nick_glassblade: "Стеклянный клинок" #Машинный перевод 28.10.23
- nick_glassblade_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] известен своим стеклянным мечом [CharYouSheHe(CHARACTER)] медведь[_s(CHARACTER)], орудием войны, созданным мирной культурой в разгар перемен." #Машинный перевод 28.10.23
+ nick_glassblade: "Стеклянный Клинок" 
+ nick_glassblade_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'известны', Select_CString(CHARACTER.IsFemale, 'известна', 'известен' ))] своим стеклянным мечом, который [Select_CString( CHARACTER.IsLocalPlayer, 'вы носите', Select_CString(CHARACTER.IsFemale, 'она носит', 'он носит' ))], - орудием войны, созданным мирной культурой в разгар перемен." 
   
- nick_splinter: "Осколок" #Машинный перевод 28.10.23
- nick_splinter_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] доказал, что даже самый маленький удар может сразить грозного противника." #Машинный перевод 28.10.23
+ nick_splinter: "Заноза"
+ nick_splinter_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'доказали', Select_CString(CHARACTER.IsFemale, 'доказала', 'доказал' ))], что даже самый маленький порез может уничтожить грозного противника"
   
- nick_smiling_axe: "Улыбающийся Топор" #Машинный перевод 28.10.23
- nick_smiling_axe_desc: "Мало что приносит [CHARACTER.GetShortUINameNoTooltipNoFormat] столько радости, как битва, и на лице [CharYourHerHis(CHARACTER)] всегда присутствует улыбка, когда [CharYouSheHe(CHARACTER)] рубит [_s(CHARACTER)] врагов [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+ nick_smiling_axe: "Улыбающийся Топор" 
+ nick_smiling_axe_desc: "Мало что доставляет [Select_CString( CHARACTER.IsLocalPlayer, 'вам', Select_CString(CHARACTER.IsFemale, 'ей', 'ему' ))] столько радости, как сражения, и ухмылка не сходит с [Select_CString( CHARACTER.IsLocalPlayer, 'вашего', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] лица, когда [Select_CString( CHARACTER.IsLocalPlayer, 'вы', Select_CString(CHARACTER.IsFemale, 'она', 'он' ))] рубит своих врагов."
   
- nick_bleak_speaker: "Мрачный оратор" #Машинный перевод 28.10.23
- nick_bleak_speaker_desc: "Много было сказано об ораторском мастерстве [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] и о том, как аргументы [CharYourHerHis(CHARACTER)] могут легко привести в отчаяние даже самого опытного оппонента." #Машинный перевод 28.10.23
+ nick_bleak_speaker: "Мрачный Оратор" 
+ nick_bleak_speaker_desc: "Многое было сказано о [Select_CString( CHARACTER.IsLocalPlayer, 'вашем', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] ораторском мастерстве и о том, как [Select_CString( CHARACTER.IsLocalPlayer, 'ваши', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] аргументы могут легко привести в отчаяние даже самого подготовленного соперника." 
   
- nick_sub_aautokratia: "«Субавтократия»" #Машинный перевод 28.10.23
- nick_sub_aautokratia_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] объявил [CharYourHerHimself(CHARACTER)] «Суб-автократией», наглая попытка взять на себя полномочия, выходящие далеко за пределы станции [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+ nick_sub_aautokratia: "'Суб-Аавтократия'" 
+ nick_sub_aautokratia_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'объявили', Select_CString(CHARACTER.IsFemale, 'объявила', 'объявил' ))] себя "Суб-Аавтократией" - дерзкая попытка взять на себя полномочия, выходящие далеко за рамки [Select_CString( CHARACTER.IsLocalPlayer, 'вашей', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] должности." 
   
- nick_silverbane: "Сильвер-Бейн" #Машинный перевод 28.10.23
- nick_silverbane_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] полностью уничтожил Легио XLV «Серебрянокровные» во время Восстания Синих Мантий, положив конец его легендарному наследию." #Машинный перевод 28.10.23
+ nick_silverbane: "Серебряное Проклятие" 
+ nick_silverbane_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'полностью уничтожили', Select_CString(CHARACTER.IsFemale, 'полностью уничтожила', 'полностью уничтожил' ))] Легио XLV «Серебрянокровные» во время Восстания Синих Мантий, положив конец его легендарному наследию." 
   
- nick_blackmask: "Черная маска" #Машинный перевод 28.10.23
- nick_blackmask_desc: "Отличительная маска [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] внушает страх среди Олтени, которые видят в ней символ [CHARACTER.GetWomanMan], организовавшего завоевание сотни кланов." #Машинный перевод 28.10.23
+ nick_blackmask: "Черная Маска" 
+ nick_blackmask_desc: "[Select_CString( CHARACTER.IsLocalPlayer, 'Ваша', Select_CString(CHARACTER.IsFemale, 'Её', 'Его' ))] отличительная маска внушает страх среди Олтени, которые видят в ней символ человека, организовавшего завоевание сотни кланов."
   
- nick_voice_kaigan: "Голос Кайгана" #Машинный перевод 28.10.23
- nick_voice_kaigan_desc: "Говорят, что сам Кайган выбрал этого [CHARACTER.GetWomanMan] своим пророком, и верующие в масках не осмеливаются оспаривать слова [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat]." #Машинный перевод 28.10.23
+ nick_voice_kaigan: "Голос Кайгана" 
+ nick_voice_kaigan_desc: "Говорят, что сам Кайган избрал этого человека своим пророком, и верующие в масках не смеют оспаривать [Select_CString( CHARACTER.IsLocalPlayer, 'ваши', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] слова." 
   
- nick_storm_whisper: "Шторм-Шепот" #Машинный перевод 28.10.23
- nick_storm_whisper_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] известен [CharYourHerHis(CHARACTER)] мастерством [aspect_air|E] магии и [CharAreIs(CHARACTER)] известен тем, что способен вызывать целые бури одним лишь вздохом." #Машинный перевод 28.10.23
+ nick_storm_whisper: "Шёпот Бури"
+ nick_storm_whisper_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'славитесь', Select_CString(CHARACTER.IsFemale, 'славится', 'славится' ))] своим мастерством в магии [Concept('aspect_air', 'аспекта воздуха')|E] и [Select_CString( CHARACTER.IsLocalPlayer, 'известны тем, что можете', Select_CString(CHARACTER.IsFemale, 'известна тем, что может', 'известен тем, что может' ))] вызывать целые бури одним лишь вздохом."
   
- nick_the_adventurer: "авантюрист" #Машинный перевод 28.10.23
- nick_the_adventurer_desc: "От морей юга до пустыни севера [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharHaveHas(CHARACTER)] путешествовал по всей широте [aeras|E], становясь свидетелем чудес, невидимых для большинства людей [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+ nick_the_adventurer: "[Select_CString(CHARACTER.IsFemale, 'Авантюристка', 'Авантюрист')]" 
+ nick_the_adventurer_desc: "От южных морей до северных диких земель [CHARACTER.GetShortUINameNoTooltipNoFormat] [Select_CString( CHARACTER.IsLocalPlayer, 'прошли', Select_CString(CHARACTER.IsFemale, 'прошла', 'прошёл' ))] через всю широту [Concept('aeras', 'Аэраса')|E], став свидетелем чудес, невиданных для большинства [Select_CString( CHARACTER.IsLocalPlayer, 'ваших', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] людей." 
   
- nick_black_adriax: "Черный" #Машинный перевод 28.10.23
- nick_black_adriax_desc: "«Адриакс, Адриакс, весь в черном. Знай свое место, чтобы он не восстал обратно." #Машинный перевод 28.10.23
+ nick_black_adriax: "Черный" 
+ nick_black_adriax_desc: "«Адриакс, Адриакс, весь в черном. Знайте свое место, чтобы он не восстал."
   
- nick_ironclad: "Броненосец" #Машинный перевод 28.10.23
- nick_ironclad_desc: "Мало кто когда-либо видел [CHARACTER.GetShortUINameNoTooltipNoFormat] вне доспехов [CharYourHerHis(CHARACTER)], и как подчиненные, так и противники часто принимали [CharYouHerHim(CHARACTER)] за человека из-за телосложения [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+ nick_ironclad: "[Select_CString(CHARACTER.IsFemale, 'Бронированная', 'Бронированный')]"
+ nick_ironclad_desc: "Мало кто когда-либо видел [Select_CString( CHARACTER.IsLocalPlayer, 'вас', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] без доспехов, и как подчиненные, так и противники часто принимали [Select_CString( CHARACTER.IsLocalPlayer, 'вас', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] за мужчину из-за [Select_CString( CHARACTER.IsLocalPlayer, 'вашего', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] телосложения." 
   
- nick_the_old_guard: "Старая гвардия" #Машинный перевод 28.10.23
+ nick_the_old_guard: "Старая Гвардия" 
   
- nick_the_free_one: "свободный" #Машинный перевод 28.10.23
+ nick_the_free_one: "[Select_CString(CHARACTER.IsFemale, 'Свободная', 'Свободный')]"
   
- nick_glorious_esterax: "Славный" #Машинный перевод 28.10.23
+ nick_glorious_esterax: "[Select_CString(CHARACTER.IsFemale, 'Великолепная', 'Великолепный')]" 
   
- nick_dragos_the_dragon: "дракон" #Машинный перевод 28.10.23
+ nick_dragos_the_dragon: "Дракон"
   
- nick_the_metal_mask_krenverso: "Металлической Маски" #Машинный перевод 28.10.23
+ nick_the_metal_mask_krenverso: "Металлическая Маска" 
   
- nick_the_white_lion_akakih: "Белый Лев" #Машинный перевод 28.10.23
+ nick_the_white_lion_akakih: "[Select_CString(CHARACTER.IsFemale, 'Белая Львица', 'Белый Лев')]" 
   
- nick_the_bloody_vakhtan: "Кровавый" #Машинный перевод 28.10.23
+ nick_the_bloody_vakhtan: "[Select_CString(CHARACTER.IsFemale, 'Кровавая', 'Кровавый')]"
   
- nick_the_great_parnaz: "Великий" #Машинный перевод 28.10.23
+ nick_the_great_parnaz: "[Select_CString(CHARACTER.IsFemale, 'Великая', 'Великий')]"
   
- nick_the_black_sheep_nikoloz: "Черная овца" #Машинный перевод 28.10.23
+ nick_the_black_sheep_nikoloz: "[Select_CString(CHARACTER.IsFemale, 'Чёрная Овца', 'Чёрный Баран')]" 
   
- nick_the_heartless_mikheil: "Бессердечный" #Машинный перевод 28.10.23
+ nick_the_heartless_mikheil: "[Select_CString(CHARACTER.IsFemale, 'Бессердечная', 'Бессердечный')]"
   
- nick_the_mountain_that_strikes_gabrieli: "Гора, которая поражает" #Машинный перевод 28.10.23
+ nick_the_mountain_that_strikes_gabrieli: "Поражающая Гора" 
   
- nick_king_of_kings_hirakle: "король королей" #Машинный перевод 28.10.23
+ nick_king_of_kings_hirakle: "Король Королей" 
   
- nick_the_greatclaw_tenex: "Великий Коготь" #Машинный перевод 28.10.23
+ nick_the_greatclaw_tenex: "Великий Коготь"
   
- nick_the_old_dukon: "Старый" #Машинный перевод 28.10.23
+ nick_the_old_dukon: "[Select_CString(CHARACTER.IsFemale, 'Старая', 'Старый')]" 
   
- nick_tiny_meletios: "Крошечный" #Машинный перевод 28.10.23
+ nick_tiny_meletios: "[Select_CString(CHARACTER.IsFemale, 'Крошечная', 'Крошечный')]"
   
- nick_the_victorious_orbeli: "Победоносный" #Машинный перевод 28.10.23
+ nick_the_victorious_orbeli: "[Select_CString(CHARACTER.IsFemale, 'Победоносная', 'Победоносный')]"
   
- nick_the_silly_makarios: "Глупый" #Машинный перевод 28.10.23
+ nick_the_silly_makarios: "[Select_CString(CHARACTER.IsFemale, 'Глупая', 'Глупый')]"
   
- nick_the_sly_iordanes: "хитрый" #Машинный перевод 28.10.23
+ nick_the_sly_iordanes: "[Select_CString(CHARACTER.IsFemale, 'Хитрая', 'Хитрый')]"
   
- nick_the_flash_zekos: "Вспышка" #Машинный перевод 28.10.23
+ nick_the_flash_zekos: "[Select_CString(CHARACTER.IsFemale, 'Яркая', 'Яркий')]"
   
- nick_the_eager_sebastianos: "Стремящийся" #Машинный перевод 28.10.23
+ nick_the_eager_sebastianos: "[Select_CString(CHARACTER.IsFemale, 'Нетерпеливая', 'Нетерпеливый')]"
   
- nick_the_quick_theodoulos: "Быстрый" #Машинный перевод 28.10.23
+ nick_the_quick_theodoulos: "[Select_CString(CHARACTER.IsFemale, 'Быстрая', 'Быстрый')]"
   
- nick_the_enlightened_rhesus: "Просвещенный" #Машинный перевод 28.10.23
+ nick_the_enlightened_rhesus: "[Select_CString(CHARACTER.IsFemale, 'Просветлённая', 'Просветлённый')]" 
   
- nick_the_glorious_dexios: "Славный" #Машинный перевод 28.10.23
+ nick_the_glorious_dexios: "[Select_CString(CHARACTER.IsFemale, 'Блистательная', 'Блистательный')]" 
   
- nick_the_lavender_knight_zeraul: "Лавандовый рыцарь" #Машинный перевод 28.10.23
+ nick_the_lavender_knight_zeraul: "Лавандовый Рыцарь" 
   
- nick_the_marked_archolo: "отмеченный" #Машинный перевод 28.10.23
+ nick_the_marked_archolo: "[Select_CString(CHARACTER.IsFemale, 'Отмеченная', 'Отмеченный')]" 
   
- nick_the_liberator_virja: "Освободитель" #Машинный перевод 28.10.23
+ nick_the_liberator_virja: "[Select_CString(CHARACTER.IsFemale, 'Освободительница', 'Освободитель')]" 
   
- nick_the_betrayer_mirajla: "Предатель" #Машинный перевод 28.10.23
+ nick_the_betrayer_mirajla: "[Select_CString(CHARACTER.IsFemale, 'Предательница', 'Предатель')]"
   
- nick_the_free_vlejin: "Свобода" #Машинный перевод 28.10.23
+ nick_the_free_vlejin: "[Select_CString(CHARACTER.IsFemale, 'Свободная', 'Свободный')]"
   
- nick_shackle_breaker: "Разрушитель кандалов" #Машинный перевод 28.10.23
+ nick_shackle_breaker: "[Select_CString(CHARACTER.IsFemale, 'Разрушительница Оков', 'Разрушитель Оков')]"
   
- nick_the_dull_balkumagan: "скучный" #Машинный перевод 28.10.23
+ nick_the_dull_balkumagan: "[Select_CString(CHARACTER.IsFemale, 'Скучная', 'Скучный')]" 
   
- nick_magi_bane_samjek: "Маги-Бейн" #Машинный перевод 28.10.23
+ nick_magi_bane_samjek: "Проклятие Магов"
   
- nick_savior_of_the_deeps: "Спаситель глубин" #Машинный перевод 28.10.23
+ nick_savior_of_the_deeps: "[Select_CString(CHARACTER.IsFemale, 'Спасительница Глубин', 'Спаситель Глубин')]"
   
- nick_redblade_radosaj: "Красный Клинок" #Машинный перевод 28.10.23
+ nick_redblade_radosaj: "Багровый Клинок" 
   
- nick_the_architect_thasios: "архитектор" #Машинный перевод 28.10.23
+ nick_the_architect_thasios: "Архитектор"
   
- nick_greatspear: "Большое Копье" #Машинный перевод 28.10.23
+ nick_greatspear: "Великое Копье" 
   
- nick_the_feathered: "Пернатый" #Машинный перевод 28.10.23
+ nick_the_feathered: "[Select_CString(CHARACTER.IsFemale, 'Пернатая', 'Пернатый')]" 
   
- nick_the_old_one_dexos: "Старый" #Машинный перевод 28.10.23
+ nick_the_old_one_dexos: "[Select_CString(CHARACTER.IsFemale, 'Старуха', 'Старик')]"
   
  nick_reeve_reaver: "Рив Ривер" #Машинный перевод 28.10.23
   
- nick_heathen_lover: "Любитель-язычник" #Машинный перевод 28.10.23
+ nick_heathen_lover: "[Select_CString(CHARACTER.IsFemale, 'Любительница Язычников', 'Любитель Язычников')]" 
   
- nick_the_bloodletter_of_lesus: "Кровопускатель Лесуса" #Машинный перевод 28.10.23
+ nick_the_bloodletter_of_lesus: "Кровник Лесуса"
   
- nick_the_whisperer_agionist: "Шепчущийся" #Машинный перевод 28.10.23
+ nick_the_whisperer_agionist: "[Select_CString(CHARACTER.IsFemale, 'Шепчущая', 'Шепчущий')]" 
   
- nick_darkblood: "Темная кровь" #Машинный перевод 28.10.23
+ nick_darkblood: "[Select_CString(CHARACTER.IsFemale, 'Темнокровная', 'Темнокровный')]" 
   
- nick_the_pure_of_pure: "Чистый из Чистых" #Машинный перевод 28.10.23
+ nick_the_pure_of_pure: "[Select_CString(CHARACTER.IsFemale, 'Чистая', 'Чистый')] из Чистых" 
   
- nick_bled_bane: "Блед-Бейн" #Машинный перевод 28.10.23
+ nick_bled_bane: "[Select_CString(CHARACTER.IsFemale, 'Проклятая', 'Проклятый')]" 
   
- nick_the_heathen_pascos: "язычник" #Машинный перевод 28.10.23
+ nick_the_heathen_pascos: "[Select_CString(CHARACTER.IsFemale, 'Язычница', 'Язычник')]"
   
- nick_bloodiest: "Самый кровавый" #Машинный перевод 28.10.23
+ nick_bloodiest: "[Select_CString(CHARACTER.IsFemale, 'Кровожадная', 'Кровожадный')]"
   
- nick_bane_star: "Бэйн-Звезда" #Машинный перевод 28.10.23
+ nick_bane_star: "Погибель Звезд"
 
- nick_the_woe_of_the_dragonkin:0 "the Woe of the Dragonkin"
+ nick_the_woe_of_the_dragonkin:0 "Горе Драконов"
   
   # SARRADON # 
  nick_ironheart: "Железное сердце" #Машинный перевод 28.10.23
@@ -293,8 +296,8 @@
  nick_the_just_amunahket: "Справедливый" #Машинный перевод 28.10.23
   
   # SJALVOLKI # 
- nick_witch_breaker: "Ведьма-разрушитель" #Машинный перевод 28.10.23
- nick_witch_breaker_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] сделал невозможное, взобравшись на непроницаемые стены [mayikrata|E] вместе с [CharYourHerHis(CHARACTER)] самыми надежными воинами и ворвавшись в его хранилища, завладев хранившимися там бесценными знаниями и артефактами." #Машинный перевод 28.10.23
+ nick_witch_breaker: "Сокрушитель Ведьм" 
+ nick_witch_breaker_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'сделали', Select_CString(CHARACTER.IsFemale, 'сделала', 'сделал' ))] невозможное, преодолев неприступные стены [Concept('mayikrata', 'Маикрата')|E] с самыми верными воинами и проникнув в его хранилища, завладев бесценными знаниями и артефактами, которые там хранились." 
   
  nick_giantlayer: "Гигантский слой" #Машинный перевод 28.10.23
  nick_giantlayer_desc: "Говорят, что он спал с великаном во время охоты, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)], известный своими [CharYourHerHis(CHARACTER)] непристойными приключениями, из-за которых [CharYouHerHim(CHARACTER)] стало предметом многих непристойных песен." #Машинный перевод 28.10.23
@@ -302,14 +305,14 @@
  nick_the_acolyte: "Послушник" #Машинный перевод 28.10.23
  nick_the_acolyte_desc: "Будучи знатоком заклинаний и заклинаний, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharHaveHas(CHARACTER)] умело оказывал магические услуги мастерам [CharYourHerHis(CHARACTER)] на протяжении многих лет." #Машинный перевод 28.10.23
   
- nick_mad_dog: "Бешеная собака" #Машинный перевод 28.10.23
- nick_mad_dog_desc: "Яростные в битвах и вечно жаждущие славы, никого не удивляет, что [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] сравнивают со знаменитыми боевыми псами севера." #Машинный перевод 28.10.23
+ nick_mad_dog: "[Select_CString(CHARACTER.IsFemale, 'Бешеная Собака', 'Бешеный Пёс')]" 
+ nick_mad_dog_desc: "Яростный в бою и жаждущий славы, [CHARACTER.GetShortUINameNoTooltipNoFormat], к удивлению всех, [Select_CString( CHARACTER.IsLocalPlayer, 'сравниваетесь', Select_CString(CHARACTER.IsFemale, 'сравнивается', 'сравнивается' ))] с прославленными гончими севера."
   
- nick_serpent_speaker: "Змееговорящий" #Машинный перевод 28.10.23
- nick_serpent_speaker_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat] окружает атмосфера ненадежности, и люди знают, что нельзя доверять сладким словам [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+ nick_serpent_speaker: "Змееговорящий" 
+ nick_serpent_speaker_desc: "Вокруг [Select_CString( CHARACTER.IsLocalPlayer, 'вас', Select_CString(CHARACTER.IsFemale, 'неё', 'него' ))] витает атмосфера недоверия, и люди знают, что не стоит доверять [Select_CString( CHARACTER.IsLocalPlayer, 'вашим', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] сладостным речам." 
   
- nick_axe_in_the_hand: "Топор в руке" #Машинный перевод 28.10.23
- nick_axe_in_the_hand_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] наслаждается [_s(CHARACTER)] азартом битвы, а [CharAreIs(CHARACTER)] никогда не появляется без одного-двух топоров со стороны [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+ nick_axe_in_the_hand: "Топор-в-Руке" 
+ nick_axe_in_the_hand_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'любите', Select_CString(CHARACTER.IsFemale, 'любит', 'любит' ))] захватывающие сражения, и [Select_CString( CHARACTER.IsLocalPlayer, 'вас', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] никогда не увидишь без топора или двух топоров под рукой."
   
  nick_the_black_shaman: "Черный Шаман" #Машинный перевод 28.10.23
  nick_the_black_shaman_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] получает удовольствие[_s(CHARACTER)] от использования способностей [CharYourHerHis(CHARACTER)] против других, часто не делая различия между другом и врагом в пылу битвы." #Машинный перевод 28.10.23
@@ -332,8 +335,8 @@
  nick_earthshaker: "Землетрясатель" #Машинный перевод 28.10.23
  nick_earthshaker_desc: "Воспользовавшись упавшим осколком [aervalr|E], [CHARACTER.GetShortUINameNoTooltipNoFormat] усилил и без того значительные полномочия [CharYourHerHis(CHARACTER)] для завоевания гоанских племен." #Машинный перевод 28.10.23
   
- nick_rosewolf: "Розовый Волк" #Машинный перевод 28.10.23
- nick_rosewolf_desc: "Назван так ученым [chevalien|E] Митеуксом Хридидом, который описал [CHARACTER.GetShortUINameNoTooltipNoFormat] как «Розу среди волков», которая позже была адаптирована самими Шялволки в ее нынешней форме." #Машинный перевод 28.10.23
+ nick_rosewolf: "Розовая Волчица"
+ nick_rosewolf_desc: "Названа так ученым-[Concept('chevalien', 'шевалье')|E] Митеуксом Хридидом, который описал [Select_CString( CHARACTER.IsLocalPlayer, 'вас', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] как «Роза среди волков», которая позже была адаптирована самими сьялволками в ее нынешнем виде." 
   
  nick_bloodbeard: "Кровавая Борода" #Машинный перевод 28.10.23
  nick_bloodbeard_desc: ""
@@ -457,20 +460,20 @@
  nick_the_resplendent_thawdar: "Великолепный" #Машинный перевод 28.10.23
   
   # CHEVALIE # 
- nick_the_black_bastard: "Черный ублюдок" #Машинный перевод 28.10.23
- nick_the_black_bastard_desc: "Вся [CharYourHerHis(CHARACTER)] жизнь [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharHaveHas(CHARACTER)] отмечена темными волосами [CharYourHerHis(CHARACTER)] биологической матери." #Машинный перевод 28.10.23
+ nick_the_black_bastard: "Черный Бастард" 
+ nick_the_black_bastard_desc: "Всю свою жизнь [CHARACTER.GetShortUINameNoTooltipNoFormat] [Select_CString( CHARACTER.IsLocalPlayer, 'были отмечены', Select_CString(CHARACTER.IsFemale, 'была отмечена', 'был отмечен' ))] темными волосами своей родной матери."
   
- nick_good_king: "Добрый король" #Машинный перевод 28.10.23
- nick_good_king_desc: "Ни один из них не воплощал в себе достоинства короля, подобного [CHARACTER.GetShortUINameNoTooltipNoFormat], хотя с тех пор многие пытались." #Машинный перевод 28.10.23
+ nick_good_king: "Добрый Король" 
+ nick_good_king_desc: "Никто не воплотил в себе такие добродетели короля, как [CHARACTER.GetShortUINameNoTooltipNoFormat], хотя с тех пор многие пытались."
   
- nick_the_ogre: "огр" #Машинный перевод 28.10.23
- nick_the_ogre_desc: "Как безымянный воин, товарищи [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] шутили по поводу размера [CharYourHerHis(CHARACTER)] и подходящего имени. Мало кто уже осмеливается смеяться." #Машинный перевод 28.10.23
+ nick_the_ogre: "Огр" 
+ nick_the_ogre_desc: "Когда [CHARACTER.GetShortUINameNoTooltipNoFormat] [Select_CString( CHARACTER.IsLocalPlayer, 'были', Select_CString(CHARACTER.IsFemale, 'была', 'был' ))] безымянным воином, товарищи шутили над [Select_CString( CHARACTER.IsLocalPlayer, 'вашими', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] размерами и подходящим прозвищем. Мало кто осмеливается смеяться теперь." 
   
- nick_twisttongue: "Твист-Язык" #Машинный перевод 28.10.23
- nick_twisttongue_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] с детства высмеивали за то, что он говорил так, как будто воюет с [CharYourHerHis(CHARACTER)] собственным языком." #Машинный перевод 28.10.23
+ nick_twisttongue: "Кривой Язык"
+ nick_twisttongue_desc: "[Select_CString( CHARACTER.IsLocalPlayer, 'Вас', Select_CString(CHARACTER.IsFemale, 'Её', 'Его' ))] с детства высмеивали за то, что [Select_CString( CHARACTER.IsLocalPlayer, 'вы говорили так, словно враждовали', Select_CString(CHARACTER.IsFemale, 'она говорила так, словно враждовала', 'он говорил так, словно враждовал' ))] с собственным языком."
   
- nick_blackclaw: "Черный коготь" #Машинный перевод 28.10.23
- nick_blackclaw_desc: "Облачённый в чёрные доспехи верхом на чёрном грифоне, облик [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] внушает страх врагам [CharYourHerHis(CHARACTER)]." #Машинный перевод 28.10.23
+ nick_blackclaw: "Черный Коготь" 
+ nick_blackclaw_desc: "Облаченный в черные доспехи, верхом на черном грифоне, [CHARACTER.GetShortUINameNoTooltipNoFormat] [Select_CString( CHARACTER.IsLocalPlayer, 'внушаете', Select_CString(CHARACTER.IsFemale, 'внушает', 'внушает' ))] страх своим врагам." 
   
  nick_rose_of_the_north: "Роза Севера" #Машинный перевод 28.10.23
  nick_rose_of_the_north_desc: "Известный [CharYourHerHis(CHARACTER)] красотой, [CHARACTER.GetShortUINameNoTooltipNoFormat] удивляет [_s(CHARACTER)] многих тем, что он также обладает потрясающим мастерством обращения с клинком." #Машинный перевод 28.10.23
