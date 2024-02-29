@@ -1,8 +1,38 @@
-﻿l_russian:
- gh_duelist_faith_tt: "[recipient.GetHerHis|U] [faith|E] поощряет [single_combat_duel_plural|E]: $VALUE|=+0$"  #Машинный перевод 28.10.23!
- gh_bloodlusted_faith_tt: "[recipient.GetHerHis|U] [faith|E] настоятельно рекомендует [single_combat_duel_plural|E]: $VALUE|=+0$"  #Машинный перевод 28.10.23!
+l_russian:
+ interaction_category_magic: "Магия"  
   
- IS_ALLOWED_TO_IMPRISON_ANY_CRIMINAL_DESC: "#weak Поскольку [Select_CString( imprisoner.IsLocalPlayer, 'I', imprisoner.GetShortUIName )] [Select_CString( imprisoner.IsLocalPlayer, 'am', 'is' )] способен наказывать преступников по своему желанию [Select_CString( imprisoner.IsLocalPlayer, 'I', 'they' )], никто не подумает [Select_CString( imprisoner.IsLocalPlayer, 'me', 'them' )] а [tyrant|E]#!"  #Машинный перевод 28.10.23!
- IS_ALLOWED_TO_EXECUTE_ANY_CRIMINAL_DESC: "#weak Поскольку вы можете наказывать преступников так, как пожелаете, никто не будет считать вас [tyrant|E]#!"  #Машинный перевод 28.10.23!
- IS_ALLOWED_TO_REVOKE_VASSAL_ANY_CRIMINAL_DESC: "#weak Поскольку вы можете наказывать преступников так, как пожелаете, никто не будет считать вас [tyrant|E]#!"  #Машинный перевод 28.10.23!
- IS_ALLOWED_TO_REVOKE_TITLE_ANY_CRIMINAL_DESC: "#weak Поскольку [Select_CString( recipient.IsLocalPlayer, 'I', recipient.GetShortUIName )] [Select_CString( recipient.IsLocalPlayer, 'am', 'is' )] способен наказывать преступников по своему желанию [Select_CString( recipient.IsLocalPlayer, 'I', 'they' )], никто не подумает [Select_CString( recipient.IsLocalPlayer, 'me', 'them' )] а [tyrant|E]#!"  #Машинный перевод 28.10.23!
+ gh_tribal_settlement_interaction: "Поощрять племенные поселения"  
+ gh_tribal_settlement_interaction_desc: "Пригласите членов вашего племени поселиться в этом регионе, что значительно облегчит религиозное и культурное преобразование."  
+ cultural_acceptance_loss_tribal_settlement: "Первоначальные поселенцы этих земель были вытеснены вашим племенем."  
+  
+ challenge_liege: "Бросьте вызов лидерству"  
+ challenge_liege_interaction_desc: "Бросьте вызов пару на [recipient.GetFirstNameNoTooltip] в [Concept('trial_by_combat,'испытание боем')|E] насмерть"  
+ CHALLENGE_LIEGE_TEXT: "[recipient.Custom('InsultNoun')|U]! Вы не достойны [recipient.GetPrimaryTitle.GetName]. Встретимся со мной в бою, и мы увидим, кто достоин править!"  
+  
+ gh_purge_county_interaction: "Очистка графства"  
+ gh_purge_county_interaction_desc: "Начать неизбирательную резню местного населения."  
+ gh_purge_county_interaction_result: "Вы проводите истребления население округа"  
+ gh_purge_county_interaction_result_1: "Вы сжигаете и грабите землю"  
+ gh_purge_county_interaction_result_2: "Вы разоряете сельскую местность, уничтожая целые деревни"  
+ gh_purge_county_interaction_result_3: "Вы превращаете целые города в пепел и руины"  
+ gh_purge_county_interaction_result_4: "Вы проводите истребления население округа"  
+ gh_purge_county_interaction_result_5: "Вы полностью заменяете первоначальных жителей"  
+ gh_purge_county_interaction_result_6: "Вы не заменяете коренных жителей"  
+ cultural_acceptance_loss_purge: "[target.GetName] был очищен правителем культуры [actor.GetCulture.GetName]"  
+  
+ dehand_interaction: "Деханд"  
+ dehand_interaction_desc: "Сделать [recipient.GetShortUINameNoTooltip] [GetTrait('gh_dehanded').GetName( GetPlayer )]"  
+  
+ add_to_magic_list_interaction: "Добавить к целям [Concept('magic','магии')|E]"  
+ add_to_magic_list_desc: "Добавьте [recipient.GetShortUINameNoTooltip] в свою книгу заклинаний в качестве потенциальной цели."  
+  
+ remove_from_magic_list_interaction: "Удалить из целей [Concept('magic','магии')|E]"  
+ remove_from_magic_list_desc: "Удалить [recipient.GetShortUINameNoTooltip] из списка потенциальных целей в моей книге заклинаний."  
+
+ clear_magic_list_interaction: "Удалить [Concept('magic','магиические')|E] цели"
+ clear_magic_list_desc: "Очищает ваш список потенциальных целей в моей книге заклинаний"
+
+ amsari_child_kill_interaction: "Тихо лишить ребенка наследства"  
+ amsari_child_kill_interaction_desc: "У меня слишком много детей.... стабильность Империи может быть поставлена под сомнение этими возможными претендентами! С этим нужно что-то делать..."
+  
+ happy_heir: "Родитель поддерживает наше требование"  

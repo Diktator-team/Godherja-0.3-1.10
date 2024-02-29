@@ -1,565 +1,565 @@
 ﻿l_russian:
   
   #Character Page 
- GetMagicBreakDown: "Магия: [Character.MakeScope.GetVariable('magic_counter').GetValue|0]"  #Машинный перевод 28.10.23!
+ GetMagicBreakDown: "Магия: [Character.MakeScope.GetVariable('magic_counter').GetValue|0]"  
   
- vampiric_drain_name: "Вампирический истощение"  #Машинный перевод 28.10.23!
- vampiric_drain_spell_effect_desc: "ДЕЛАТЬ"  #Машинный перевод 28.10.23!
- casted_vampiric_drain: "Примените «Высасывание вампира»."  #Машинный перевод 28.10.23!
+ vampiric_drain_name: "Вампирический истощение"  
+ vampiric_drain_spell_effect_desc: "ДЕЛАТЬ"  
+ casted_vampiric_drain: "Примените «Высасывание вампира»."  
   
   #Decisions 
- get_magic_education: "Магическое образование"  #Машинный перевод 28.10.23!
- get_magic_education_desc: "[GetPlayer.GetFirstName] найдет магическое образование для [GetPlayer.GetHerselfHimself]."  #Машинный перевод 28.10.23!
- get_magic_education_tooltip: "Получите магическую черту [education|E]."  #Машинный перевод 28.10.23!
- get_magic_education_confirm: "Я стану величайшим [magi|E]!"  #Машинный перевод 28.10.23!
+ get_magic_education: "Магическое образование"  
+ get_magic_education_desc: "[GetPlayer.GetFirstName] найдет магическое образование для [GetPlayer.GetHerselfHimself]."  
+ get_magic_education_tooltip: "Получите магическую черту [Concept ('education','образованием')|E]."  
+ get_magic_education_confirm: "Я стану величайшим [Concept('magi','магом')|E]!"  
   
   #Triggered Loc 
- vampiric_drain_trigger: "[CHARACTER.GetFirstName] может попытаться заплатить цену."  #Машинный перевод 28.10.23!
- vampiric_effect_text: "[CHARACTER.GetFirstName] может попытаться продлить жизнь [GetHerHim]."  #Машинный перевод 28.10.23!
+ vampiric_drain_trigger: "[CHARACTER.GetFirstName] может попытаться заплатить цену."  
+ vampiric_effect_text: "[CHARACTER.GetFirstName] может попытаться продлить жизнь [GetHerHim]."  
   
   #SpellMenu localization 
- SPELL_GET_NAME: "[Localize(Concatenate(Scope.GetFlagName,'_name'))]"  #Машинный перевод 28.10.23!
- SPELL_GET_EFFECT: "[Concatenate(Scope.GetFlagName,'spell_effect')]"  #Машинный перевод 28.10.23!
- SPELL_GET_COST: "Стоимость: [GuiScope.SetRoot( GetPlayer.MakeScope ).ScriptValue(Concatenate(Scope.GetFlagName,'_cost'))|0]"  #Машинный перевод 28.10.23!
- SPELL_GET_ADD: "Добавляет: [GuiScope.SetRoot( GetPlayer.MakeScope ).ScriptValue(Concatenate(Scope.GetFlagName,'_cost'))|0]"  #Машинный перевод 28.10.23!
- SPELL_GET_ICON: "[Localize(Concatenate(Concatenate('@spell_icon_',Scope.GetFlagName), '!'))]"  #Машинный перевод 28.10.23!
- ALL_MAGIC: "Все заклинания"  #Машинный перевод 28.10.23!
- LIVING_MAGIC: "[living_magic|E] Заклинания"  #Машинный перевод 28.10.23!
- DEAD_MAGIC: "[dead_magic|E] Заклинания"  #Машинный перевод 28.10.23!
- MIXED_MAGIC: "[mixed_magic|E] Заклинания"  #Машинный перевод 28.10.23!
- OTHER_MAGIC: "Другие заклинания"  #Машинный перевод 28.10.23!
- GENERATE_METHOD: "Метод"  #Машинный перевод 28.10.23!
- MAGIC_BUTTON: "Магия"  #Машинный перевод 28.10.23!
- GENERATE_POWER: "Создать магическую силу"  #Машинный перевод 28.10.23!
- GENERATE_POWER_B: "Генерация энергии"  #Машинный перевод 28.10.23!
- SELECT_CHAR: "Выберите персонажа в качестве цели"  #Машинный перевод 28.10.23!
- SELECT_LAND: "Выберите землю в качестве цели"  #Машинный перевод 28.10.23!
- SELECT_CHAR_INV: "Выберите персонажа в качестве цели, вы не сможете убить себя."  #Машинный перевод 28.10.23!
- SELECT_SINGLE_CHAR_MAGIC: "Выберите в качестве цели одного заключенного персонажа. Вы не можете нацеливаться на нескольких людей или убить себя."  #Машинный перевод 28.10.23!
- DESELECT_CHAR: "Отмените выбор персонажа в качестве цели"  #Машинный перевод 28.10.23!
- DESELECT_LAND: "Отменить выбор Земли в качестве цели"  #Машинный перевод 28.10.23!
- MUST_NOT_BE_CRESCENT_OR_NEW_MOON: "Заклинания Мертвой магии 2-го уровня нельзя использовать в период полумесяца/новолуния."  #Машинный перевод 28.10.23!
- MUST_BE_GIBBOUS_OR_FULL_MOON: "Заклинания Мертвой Магии 3-го уровня можно произносить только в условиях Лунной/Полной Луны."  #Машинный перевод 28.10.23!
- FULL_MOON_ONLY_SPELL: "Это заклинание можно использовать только в полнолуние."  #Машинный перевод 28.10.23!
+ SPELL_GET_NAME: "[Localize(Concatenate(Scope.GetFlagName,'_name'))]"  
+ SPELL_GET_EFFECT: "[Concatenate(Scope.GetFlagName,'spell_effect')]"  
+ SPELL_GET_COST: "Стоимость: [GuiScope.SetRoot( GetPlayer.MakeScope ).ScriptValue(Concatenate(Scope.GetFlagName,'_cost'))|0]"  
+ SPELL_GET_ADD: "Добавляет: [GuiScope.SetRoot( GetPlayer.MakeScope ).ScriptValue(Concatenate(Scope.GetFlagName,'_cost'))|0]"  
+ SPELL_GET_ICON: "[Localize(Concatenate(Concatenate('@spell_icon_',Scope.GetFlagName), '!'))]"  
+ ALL_MAGIC: "Все заклинания"  
+ LIVING_MAGIC: "Заклинания [Concept('living_magic','Магии жизни')|E]"  
+ DEAD_MAGIC: "Заклинания [Concept('dead_magic',Магии Смерти')|E]"  
+ MIXED_MAGIC: "Заклинания [Concept('mixed_magic','смешанной магии')|E]"  
+ OTHER_MAGIC: "Другие заклинания"  
+ GENERATE_METHOD: "Метод"  
+ MAGIC_BUTTON: "Магия"  
+ GENERATE_POWER: "Создать магическую силу"  
+ GENERATE_POWER_B: "Генерация энергии"  
+ SELECT_CHAR: "Выберите персонажа в качестве цели"  
+ SELECT_LAND: "Выберите землю в качестве цели"  
+ SELECT_CHAR_INV: "Выберите персонажа в качестве цели, вы не сможете убить себя."  
+ SELECT_SINGLE_CHAR_MAGIC: "Выберите в качестве цели одного заключенного персонажа. Вы не можете нацеливаться на нескольких людей или убить себя."  
+ DESELECT_CHAR: "Отмените выбор персонажа в качестве цели"  
+ DESELECT_LAND: "Отменить выбор Земли в качестве цели"  
+ MUST_NOT_BE_CRESCENT_OR_NEW_MOON: "Заклинания Мертвой магии 2-го уровня нельзя использовать в период полумесяца/новолуния."  
+ MUST_BE_GIBBOUS_OR_FULL_MOON: "Заклинания Мертвой Магии 3-го уровня можно произносить только в условиях Лунной/Полной Луны."  
+ FULL_MOON_ONLY_SPELL: "Это заклинание можно использовать только в полнолуние."  
   
- flagellate_name: "Жгутиконосец"  #Машинный перевод 28.10.23!
- ritual_sacrifice_name: "Ритуальное жертвоприношение"  #Машинный перевод 28.10.23!
- ritual_bloodletting_name: "Ритуальное кровопускание"  #Машинный перевод 28.10.23!
- ritual_consumption_name: "Ритуальное потребление"  #Машинный перевод 28.10.23!
- sacrifice_population_name: "Жертвовать населением"  #Машинный перевод 28.10.23!
- sacrifice_plants_name: "Жертвенные растения"  #Машинный перевод 28.10.23!
- communed_with_the_way_name: "Общайтесь с путем"  #Машинный перевод 28.10.23!
- seeped_into_madness_name: "Проникнуть в безумие"  #Машинный перевод 28.10.23!
- communed_with_eldritch_name: "Жуткое причастие"  #Машинный перевод 28.10.23!
- dreamwalk_name: "Сновидение"  #Машинный перевод 28.10.23!
- dream_invasion_name: "Вторжение мечты"  #Машинный перевод 28.10.23!
- ethereal_ritual_name: "Эфирный Ритуал"  #Машинный перевод 28.10.23!
- moon_pull_name: "Лунное притяжение"  #Машинный перевод 28.10.23!
- skeletal_craft_name: "Создание скелетов"  #Машинный перевод 28.10.23!
- study_arcane_name: "Изучите тайную тайну"  #Машинный перевод 28.10.23!
- expedition_name: "Экспедиция"  #Машинный перевод 28.10.23!
- sacrifice_rare_herbs_name: "Пожертвуйте редкими травами"  #Машинный перевод 28.10.23!
- sacrifice_rare_minerals_name: "Рисуем из драгоценных камней"  #Машинный перевод 28.10.23!
- kemsar_restoration_name: "Восстановление рек"  #Машинный перевод 28.10.23!
+ flagellate_name: "Жгутиконосец"  
+ ritual_sacrifice_name: "Ритуальное жертвоприношение"  
+ ritual_bloodletting_name: "Ритуальное кровопускание"  
+ ritual_consumption_name: "Ритуальное потребление"  
+ sacrifice_population_name: "Жертвовать населением"  
+ sacrifice_plants_name: "Жертвенные растения"  
+ communed_with_the_way_name: "Общайтесь с путем"  
+ seeped_into_madness_name: "Проникнуть в безумие"  
+ communed_with_eldritch_name: "Жуткое причастие"  
+ dreamwalk_name: "Сновидение"  
+ dream_invasion_name: "Вторжение мечты"  
+ ethereal_ritual_name: "Эфирный Ритуал"  
+ moon_pull_name: "Лунное притяжение"  
+ skeletal_craft_name: "Создание скелетов"  
+ study_arcane_name: "Изучите тайную тайну"  
+ expedition_name: "Экспедиция"  
+ sacrifice_rare_herbs_name: "Пожертвуйте редкими травами"  
+ sacrifice_rare_minerals_name: "Рисуем из драгоценных камней"  
+ kemsar_restoration_name: "Восстановление рек"  
   
- test_magic_name: "Испытание магии"  #Машинный перевод 28.10.23!
- strengthening_name: "Укрепление"  #Машинный перевод 28.10.23!
- strengthening_spell_effect: "что-то здесь"  #Машинный перевод 28.10.23!
- fire_magick_name: "Магия Огня"  #Машинный перевод 28.10.23!
- rejuvenating_blood_name: "Омолаживающая кровь"  #Машинный перевод 28.10.23!
- earth_magick_name: "Каменная магия"  #Машинный перевод 28.10.23!
- stone_fortress_name: "Поднимите каменную крепость"  #Машинный перевод 28.10.23!
- stone_building_construction_name: "Камнеобрабатывающее строительство"  #Машинный перевод 28.10.23!
- stoneskin_name: "Каменная плоть"  #Машинный перевод 28.10.23!
- #stoneskin_name: "Каменная кожа"  #Машинный перевод 28.10.23!
- ironskin_name: "Железная плоть"  #Машинный перевод 28.10.23!
- boneshaping_name: "Формирование костей"  #Машинный перевод 28.10.23!
- necrotic_boon_name: "Некромантическая живучесть"  #Машинный перевод 28.10.23!
- moon_blessed_weapons_name: "Благословленное луной оружие"  #Машинный перевод 28.10.23!
- crush_armor_name: "Сокрушить броню"  #Машинный перевод 28.10.23!
- petrify_name: "Окаменеть"  #Машинный перевод 28.10.23!
- stone_serpent_name: "Оживить каменного змея"  #Машинный перевод 28.10.23!
- #stone_serpent_name: "Создать каменного змея"  #Машинный перевод 28.10.23!
- spawn_stone_golem_army_name: "Создание боевых големов"  #Машинный перевод 28.10.23!
- spawn_ethereal_fogbeast_army_name: "Вызывайте малых туманных зверей"  #Машинный перевод 28.10.23!
- pull_meteor_name: "Вытащить Метеор"  #Машинный перевод 28.10.23!
- earthquake_name: "Землетрясение"  #Машинный перевод 28.10.23!
- strengthen_soil_name: "Укрепление почвы"  #Машинный перевод 28.10.23!
- verdant_growth_name: "Зеленый рост"  #Машинный перевод 28.10.23!
- purification_name: "Очистка"  #Машинный перевод 28.10.23!
- mending_name: "Починка"  #Машинный перевод 28.10.23!
- unveiling_name: "Открытие"  #Машинный перевод 28.10.23!
- creation_name: "Создание"  #Машинный перевод 28.10.23!
- plant_growth_name: "Зеленый рост"  #Машинный перевод 28.10.23!
- divination_name: "Гадание"  #Машинный перевод 28.10.23!
- raise_undead2_name: "Поднять нежить"  #Машинный перевод 28.10.23!
- raise_undead_name: "Поднимите Кровавых Рабов"  #Машинный перевод 28.10.23!
- lead_to_gold_name: "Трансмутировать свинец в золото"  #Машинный перевод 28.10.23!
- quicken_name: "Ускорить"  #Машинный перевод 28.10.23!
- magic_cannibalism_name: "Потребление энергии"  #Машинный перевод 28.10.23!
- battle_rage_name: "Боевая ярость"  #Машинный перевод 28.10.23!
- channel_the_rift_name: "Направьте Разлом"  #Машинный перевод 28.10.23!
- summon_lesser_name: "Призвать туманного зверя"  #Машинный перевод 28.10.23!
- fog_cast_name: "Вызов тумана"  #Машинный перевод 28.10.23!
- rift_gaze_name: "Разломный взгляд"  #Машинный перевод 28.10.23!
- raise_lesser_fogbeasts_name: "Поднимите туманных зверей"  #Машинный перевод 28.10.23!
- obliterate_memory_name: "Стереть воспоминания"  #Машинный перевод 28.10.23!
- genocide_region_name: "Очистить регион"  #Машинный перевод 28.10.23!
- rift_walk_name: "Рифт-Прогулка"  #Машинный перевод 28.10.23!
- remove_burdens_name: "Удалить бремя"  #Машинный перевод 28.10.23!
- haunting_power_name: "Призрачная сила"  #Машинный перевод 28.10.23!
- create_golems_name: "Создание големов"  #Машинный перевод 28.10.23!
- necrotic_vitality_name: "Некромантическая энергия"  #Машинный перевод 28.10.23!
- raise_earth_name: "Поднять Землю"  #Машинный перевод 28.10.23!
- improve_soil_name: "Укрепление почвы"  #Машинный перевод 28.10.23!
- earth_fort_name: "Укрепить подземелье"  #Машинный перевод 28.10.23!
- find_minerals_name: "Раскопать минералы"  #Машинный перевод 28.10.23!
- annihilation_name: "Уничтожение"  #Машинный перевод 28.10.23!
- moon_read_name: "Читать Луну"  #Машинный перевод 28.10.23!
- moon_guidance_name: "Руководство Аэрвалара"  #Машинный перевод 28.10.23!
- lunar_astrology_name: "Читать Луну"  #Машинный перевод 28.10.23!
- moon_magic_generation_spell_name: "Ничья из Аэрвалра"  #Машинный перевод 28.10.23!
- poison_name: "Яд"  #Машинный перевод 28.10.23!
- fire_poison_name: "Огненный яд"  #Машинный перевод 28.10.23!
- thralldom_name: "Очарование"  #Машинный перевод 28.10.23!
- domination_name: "Доминировать"  #Машинный перевод 28.10.23!
- thinning_name: "Истончение"  #Машинный перевод 28.10.23!
+ test_magic_name: "Испытание магии"  
+ strengthening_name: "Укрепление"  
+ strengthening_spell_effect: "что-то здесь"  
+ fire_magick_name: "Магия Огня"  
+ rejuvenating_blood_name: "Омолаживающая кровь"  
+ earth_magick_name: "Каменная магия"  
+ stone_fortress_name: "Поднимите каменную крепость"  
+ stone_building_construction_name: "Камнеобрабатывающее строительство"  
+ stoneskin_name: "Каменная плоть"  
+ #stoneskin_name: "Каменная кожа"  
+ ironskin_name: "Железная плоть"  
+ _name: "Формирование костей"  
+ necrotic_boon_name: "Некромантическая живучесть"  
+ moon_blessed_weapons_name: "Благословленное луной оружие"  
+ crush_armor_name: "Сокрушить броню"  
+ petrify_name: "Окаменеть"  
+ stone_serpent_name: "Оживить каменного змея"  
+ #stone_serpent_name: "Создать каменного змея"  
+ spawn_stone_golem_army_name: "Создание боевых големов"  
+ spawn_ethereal_fogbeast_army_name: "Вызывайте малых туманных зверей"  
+ pull_meteor_name: "Вытащить Метеор"  
+ earthquake_name: "Землетрясение"  
+ strengthen_soil_name: "Укрепление почвы"  
+ verdant_growth_name: "Зеленый рост"  
+ purification_name: "Очистка"  
+ mending_name: "Починка"  
+ unveiling_name: "Открытие"  
+ creation_name: "Создание"  
+ plant_growth_name: "Зеленый рост"  
+ divination_name: "Гадание"  
+ raise_undead2_name: "Поднять нежить"  
+ raise_undead_name: "Поднимите Кровавых Рабов"  
+ lead_to_gold_name: "Трансмутировать свинец в золото"  
+ quicken_name: "Ускорить"  
+ magic_cannibalism_name: "Потребление энергии"  
+ battle_rage_name: "Боевая ярость"  
+ channel_the_rift_name: "Направьте Разлом"  
+ summon_lesser_name: "Призвать туманного зверя"  
+ fog_cast_name: "Вызов тумана"  
+ rift_gaze_name: "Разломный взгляд"  
+ raise_lesser_fogbeasts_name: "Поднимите туманных зверей"  
+ obliterate_memory_name: "Стереть воспоминания"  
+ genocide_region_name: "Очистить регион"  
+ rift_walk_name: "Рифт-Прогулка"  
+ remove_burdens_name: "Удалить бремя"  
+ haunting_power_name: "Призрачная сила"  
+ create_golems_name: "Создание големов"  
+ necrotic_vitality_name: "Некромантическая энергия"  
+ raise_earth_name: "Поднять Землю"  
+ improve_soil_name: "Укрепление почвы"  
+ earth_fort_name: "Укрепить подземелье"  
+ find_minerals_name: "Раскопать минералы"  
+ annihilation_name: "Уничтожение"  
+ moon_read_name: "Читать Луну"  
+ moon_guidance_name: "Руководство Аэрвалара"  
+ lunar_astrology_name: "Читать Луну"  
+ moon_magic_generation_spell_name: "Ничья из Аэрвалра"  
+ poison_name: "Яд"  
+ fire_poison_name: "Огненный яд"  
+ thralldom_name: "Очарование"  
+ domination_name: "Доминировать"  
+ thinning_name: "Истончение"  
   
- enchant_arms_name: "Чары для оружия"  #Машинный перевод 28.10.23!
- healing_water_name: "Целебная вода"  #Машинный перевод 28.10.23!
- kemsar_water_spell_name: "Генерировать воду"  #Машинный перевод 28.10.23!
- glimpse_reality_name: "Взгляд на реальность"  #Машинный перевод 28.10.23!
- obliterate_mind_name: "Уничтожить разум"  #Машинный перевод 28.10.23!
- sorrow_name: "Печаль"  #Машинный перевод 28.10.23!
+ enchant_arms_name: "Чары для оружия"  
+ healing_water_name: "Целебная вода"  
+ kemsar_water_spell_name: "Генерировать воду"  
+ glimpse_reality_name: "Взгляд на реальность"  
+ obliterate_mind_name: "Уничтожить разум"  
+ sorrow_name: "Печаль"  
   
- magic_gen_tt_backend: "#E Магия#!:@magic_icon!#positive_value [SCOPE.ScriptValue('GetMagicAdditionTT')]#!"  #Машинный перевод 28.10.23!
- magic_gen_tt_monthly: "$magic_gen_tt_backend$/месяц"  #Машинный перевод 28.10.23!
- magic_gen_tt_percent: "$magic_gen_tt_backend$%"  #Машинный перевод 28.10.23!
+ magic_gen_tt_backend: "#E Магия#!:@magic_icon!#positive_value [SCOPE.ScriptValue('GetMagicAdditionTT')]#!"  
+ magic_gen_tt_monthly: "$magic_gen_tt_backend$/месяц"  
+ magic_gen_tt_percent: "$magic_gen_tt_backend$%"  
   
- SKILL_POINT_FROM_MAGIC_GAIN_CHANCE: "Генерация [magic_power|E] дает:\n$TAB$#V [EmptyScope.ScriptValue('dark_insights_stat_increase_chance')|0]%#! шанс получить либо [intrigue_i]#P 1#! [intrigue|E], либо [prowess_i]#P 1#! $TAB$2 на короткое время."  #Машинный перевод 28.10.23!
- SKILL_POINT_FROM_ME_MAGIC_GAIN_CHANCE: "Когда вы генерируете [magic_power|E]:\n$TAB$#V [EmptyScope.ScriptValue('dark_insights_stat_increase_chance')|0]%#!, есть шанс получить либо [intrigue_i]#P 1#! [intrigue|E], либо [prowess_i]#P 1#! $TAB$2 на короткое время."  #Машинный перевод 28.10.23!
- SKILL_POINT_FROM_THEM_MAGIC_GAIN_CHANCE: "Когда [CHARACTER.GetSheHe] генерирует [magic_power|E]:\n$TAB$#V [EmptyScope.ScriptValue('dark_insights_stat_increase_chance')|0]%#!, шанс получить либо [intrigue_i]#P 1#! [intrigue|E], либо [magic_power|E]0#P 1#! [magic_power|E]3"  #Машинный перевод 28.10.23!
+ SKILL_POINT_FROM_MAGIC_GAIN_CHANCE: "Генерация [magic_power|E] дает:\n$TAB$#V [EmptyScope.ScriptValue('dark_insights_stat_increase_chance')|0]%#! шанс получить либо [intrigue_i]#P 1#! [intrigue|E], либо [prowess_i]#P 1#! $TAB$2 на короткое время."  
+ SKILL_POINT_FROM_ME_MAGIC_GAIN_CHANCE: "Когда вы генерируете [magic_power|E]:\n$TAB$#V [EmptyScope.ScriptValue('dark_insights_stat_increase_chance')|0]%#!, есть шанс получить либо [intrigue_i]#P 1#! [intrigue|E], либо [prowess_i]#P 1#! $TAB$2 на короткое время."  
+ SKILL_POINT_FROM_THEM_MAGIC_GAIN_CHANCE: "Когда [CHARACTER.GetSheHe] генерирует [magic_power|E]:\n$TAB$#V [EmptyScope.ScriptValue('dark_insights_stat_increase_chance')|0]%#!, шанс получить либо [intrigue_i]#P 1#! [intrigue|E], либо [magic_power|E]0#P 1#! [magic_power|E]3"  
   
   #tooltips 
   
- not_yet_implemented.tt: "#R ЕЩЕ НЕ РЕАЛИЗОВАНО#!"  #Машинный перевод 28.10.23!
+ not_yet_implemented.tt: "#R ЕЩЕ НЕ РЕАЛИЗОВАНО#!"  
   
- level_0_warning.tt: "Необходимо использовать на уровне 1 или выше."  #Машинный перевод 28.10.23!
+ level_0_warning.tt: "Необходимо использовать на уровне 1 или выше."  
   
- #natural_power_gain_stats_tt: "Может получить немного [GetPerk('livingmagic_perk3_tree2').GetName(GetPlayer)]"  #Машинный перевод 28.10.23!
- #natural_power_maximum_insight_tt: "Уже выучил все возможное [GetPerk('livingmagic_perk3_tree2').GetName(GetPlayer)]"  #Машинный перевод 28.10.23!
+ #natural_power_gain_stats_tt: "Может получить немного [GetPerk('livingmagic_perk3_tree2').GetName(GetPlayer)]"  
+ #natural_power_maximum_insight_tt: "Уже выучил все возможное [GetPerk('livingmagic_perk3_tree2').GetName(GetPlayer)]"  
   
- summon_fogbeast.tt: "[GetPlayer.GetFirstName] призывает Туманного зверя"  #Машинный перевод 28.10.23!
- summon_fogbeast2.tt: "Цель получает Туманного зверя"  #Машинный перевод 28.10.23!
- # craft_greater_golem.tt: "[GetPlayer.GetFirstName] создает Большого голема"  #Машинный перевод 28.10.23!
- # craft_greater_golem2.tt: "Цель создает Большого Голема"  #Машинный перевод 28.10.23!
- moon_pull_1.tt: "Включает/выключает получение энергии от Луны во время Луны/Полнолуния."  #Машинный перевод 28.10.23!
- moon_pull_2.tt: "Уменьшает затраты магии на 10/20% во время Лунной/Полнолуния, но увеличивает воздействие и усиление мутаций на 20/40%"  #Машинный перевод 28.10.23!
- moon_read.tt: "Угадайте будущее цели, наблюдая [aervalr|E]."  #Машинный перевод 28.10.23!
- moon_read_not_possible.tt: "#N Цель уже получила информацию о своем будущем, и предсказывать ее будущее снова было бы бессмысленно. #!"  #Машинный перевод 28.10.23!
- moon_read_random_backfire.tt: "#N Получите случайный модификатор ложной лунной релевации #!"  #Машинный перевод 28.10.23!
- moon_guidance.tt: "Получите указания от Полнолуния для выполнения определенного типа задачи."  #Машинный перевод 28.10.23!
- moon_guidance_not_possible.tt: "#N Вы уже руководствуетесь [aervalr|E] и не можете получить пользу от дальнейшего руководства в это Полнолуние. #!"  #Машинный перевод 28.10.23!
- moon_guidance_random_backfire.tt: "#N Получите случайный ложный модификатор наведения [aervalr|E] #!"  #Машинный перевод 28.10.23!
- spell_too_weak_to_heal_this_wound.tt: "#N Раны этого персонажа серьёзны, и их можно вылечить этим заклинанием только на более высоком уровне #!"  #Машинный перевод 28.10.23!
- boneshaping_1.tt: "Будет предоставлена ​​возможность магическим образом изменить тело и структуру костей [affected_character.GetName|E].\n Каждый раз, когда персонаж подвергается воздействию Формы костей, заклинание должно быть наложено на более высоком уровне, чтобы снова воздействовать на него."  #Машинный перевод 28.10.23!
- boneshaping_2.tt: "#N [affected_character.GetName|E] слишком много раз принимал форму кости, чтобы на нее мог повлиять этот уровень Формирования костей.\n Заклинание должно быть наложено на более высоком уровне, чтобы оказать какое-либо воздействие на эту цель. #!"  #Машинный перевод 28.10.23!
- magic_cannibalism_1.tt: "Вы поглотите тело [cannibalism_victim.GetName|E], чтобы поглотить часть его генетического или магического потенциала, если он выше вашего.\n Для каждого поглощаемого вами персонажа вы должны использовать это заклинание на более высоком уровне, чтобы поглотить силу другого."  #Машинный перевод 28.10.23!
- magic_cannibalism_2.tt: "#N Вы израсходовали слишком много персонажей, чтобы иметь возможность использовать «Потребление силы».\n Вы должны использовать заклинание на более высоком уровне, чтобы поглотить любую силу из [cannibalism_victim.GetName|E]. #!"  #Машинный перевод 28.10.23!
- magic_cannibalism_3.tt: "#N Вы израсходовали слишком много персонажей, чтобы получить дополнительную силу с помощью заклинания «Потребление силы». #!"  #Машинный перевод 28.10.23!
- enchant_arms0.tt: "Все Рыцари цели получают [GetModifier('enhanced_arms_mod_minor').GetNameWithTooltip|L] на 1 год."  #Машинный перевод 28.10.23!
- enchant_arms1.tt: "Все Рыцари цели получают [GetModifier('enhanced_arms_mod_mid').GetNameWithTooltip|L] на 1 год."  #Машинный перевод 28.10.23!
- enchant_arms2.tt: "Все Рыцари цели получают [GetModifier('enhanced_arms_mod_major').GetNameWithTooltip|L] на 1 год."  #Машинный перевод 28.10.23!
- enchant_arms3.tt: "Все Рыцари цели получают [GetModifier('enhanced_arms_mod_huge').GetNameWithTooltip|L] на 1 год."  #Машинный перевод 28.10.23!
- earthquake.tt: "Все округа, соседние с целью, получат основные эффекты заклинания «Землетрясение» на один уровень ниже."  #Машинный перевод 28.10.23!
- sorrow.tt: "Выкачайте всю жизненную силу из земли и ее людей."  #Машинный перевод 28.10.23!
+ summon_fogbeast.tt: "[GetPlayer.GetFirstName] призывает Туманного зверя"  
+ summon_fogbeast2.tt: "Цель получает Туманного зверя"  
+ # craft_greater_golem.tt: "[GetPlayer.GetFirstName] создает Большого голема"  
+ # craft_greater_golem2.tt: "Цель создает Большого Голема"  
+ moon_pull_1.tt: "Включает/выключает получение энергии от Луны во время Луны/Полнолуния."  
+ moon_pull_2.tt: "Уменьшает затраты магии на 10/20% во время Лунной/Полнолуния, но увеличивает воздействие и усиление мутаций на 20/40%"  
+ moon_read.tt: "Угадайте будущее цели, наблюдая за [Concept('aervalr','Аэрвалром')|E]."  
+ moon_read_not_possible.tt: "#N Цель уже получила информацию о своем будущем, и предсказывать ее будущее снова было бы бессмысленно. #!"  
+ moon_read_random_backfire.tt: "#N Получите случайный модификатор ложной лунной релевации #!"  
+ moon_guidance.tt: "Получите указания от Полнолуния для выполнения определенного типа задачи."  
+ moon_guidance_not_possible.tt: "#N Вы уже руководствуетесь [Concept('aervalr','Аэрвалром')|E] и не можете получить пользу от дальнейшего руководства в это Полнолуние. #!"  
+ moon_guidance_random_backfire.tt: "#N Получите случайный ложный модификатор наведенный [Concept('aervalr','Аэрвалром')|E] #!"  
+ spell_too_weak_to_heal_this_wound.tt: "#N Раны этого персонажа серьёзны, и их можно вылечить этим заклинанием только на более высоком уровне #!"  
+ _1.tt: "Будет предоставлена ​​возможность магическим образом изменить тело и структуру костей [affected_character.GetName|E].\n Каждый раз, когда персонаж подвергается воздействию Формы костей, заклинание должно быть наложено на более высоком уровне, чтобы снова воздействовать на него."  
+ _2.tt: "#N [affected_character.GetName|E] слишком много раз принимал форму кости, чтобы на нее мог повлиять этот уровень Формирования костей.\n Заклинание должно быть наложено на более высоком уровне, чтобы оказать какое-либо воздействие на эту цель. #!"  
+ magic_cannibalism_1.tt: "Вы поглотите тело [cannibalism_victim.GetName|E], чтобы поглотить часть его генетического или магического потенциала, если он выше вашего.\n Для каждого поглощаемого вами персонажа вы должны использовать это заклинание на более высоком уровне, чтобы поглотить силу другого."  
+ magic_cannibalism_2.tt: "#N Вы израсходовали слишком много персонажей, чтобы иметь возможность использовать «Потребление силы».\n Вы должны использовать заклинание на более высоком уровне, чтобы поглотить любую силу из [cannibalism_victim.GetName|E]. #!"  
+ magic_cannibalism_3.tt: "#N Вы израсходовали слишком много персонажей, чтобы получить дополнительную силу с помощью заклинания «Потребление силы». #!"  
+ enchant_arms0.tt: "Все Рыцари цели получают [GetModifier('enhanced_arms_mod_minor').GetNameWithTooltip|L] на 1 год."  
+ enchant_arms1.tt: "Все Рыцари цели получают [GetModifier('enhanced_arms_mod_mid').GetNameWithTooltip|L] на 1 год."  
+ enchant_arms2.tt: "Все Рыцари цели получают [GetModifier('enhanced_arms_mod_major').GetNameWithTooltip|L] на 1 год."  
+ enchant_arms3.tt: "Все Рыцари цели получают [GetModifier('enhanced_arms_mod_huge').GetNameWithTooltip|L] на 1 год."  
+ earthquake.tt: "Все округа, соседние с целью, получат основные эффекты заклинания «Землетрясение» на один уровень ниже."  
+ sorrow.tt: "Выкачайте всю жизненную силу из земли и ее людей."  
   
- initiate_spell_event_interior_journey_name: "Синергия черт"  #Машинный перевод 28.10.23!
- initiate_spell_event_interior_journey_desc: "Общайтесь с аспектами внутренней психики, углубляя силу и недостатки основных черт личности."  #Машинный перевод 28.10.23!
+ initiate_spell_event_interior_journey_name: "Синергия черт"  
+ initiate_spell_event_interior_journey_desc: "Общайтесь с аспектами внутренней психики, углубляя силу и недостатки основных черт личности."  
   
- vampirism_health_pool_tt: "Поддерживайте свою жизнь, истощая жизнь других. \nВы получите #P 0,25 #! очков здоровья в ваш запас здоровья вампира, которые будут преобразованы в стопку [GetModifier('vampirism_mod').GetNameWithTooltip|L], если вы умрете естественной смертью, увеличивая вашу ожидаемую продолжительность жизни на 2 года. \nКаждое применение увеличивает стоимость последующих применений, поскольку магия, необходимая для поддержания вашей жизни, будет увеличиваться."  #Машинный перевод 28.10.23!
- vampirism_health_pool_transfer_tt: "[ROOT.Var('vampiric_drain_amount_show').GetValue|0] очков вампирского запаса здоровья были конвертированы в [ROOT.Var('vampiric_drain_amount_show').GetValue|0] здоровья в форме модификаторов [GetModifier('vampirism_mod')]."  #Машинный перевод 28.10.23!
- vampirism_health_pool_transfer_dying_tt: "[ROOT.Var('vampiric_drain_amount_show').GetValue|0] очков вампирского запаса здоровья были конвертированы в [ROOT.Var('vampiric_drain_amount_show').GetValue|0] здоровья в форме модификаторов [GetModifier('vampirism_mod')]. Поскольку ваш запас здоровья вампира был недостаточно велик, чтобы довести ваше здоровье до «хорошего» здоровья, вы потеряли способность поддерживать свою жизнь дальше посредством вампиризма."  #Машинный перевод 28.10.23!
+ vampirism_health_pool_tt: "Поддерживайте свою жизнь, истощая жизнь других. \nВы получите #P 0,25 #! очков здоровья в ваш запас здоровья вампира, которые будут преобразованы в стопку [GetModifier('vampirism_mod').GetNameWithTooltip|L], если вы умрете естественной смертью, увеличивая вашу ожидаемую продолжительность жизни на 2 года. \nКаждое применение увеличивает стоимость последующих применений, поскольку магия, необходимая для поддержания вашей жизни, будет увеличиваться."  
+ vampirism_health_pool_transfer_tt: "[ROOT.Var('vampiric_drain_amount_show').GetValue|0] очков вампирского запаса здоровья были конвертированы в [ROOT.Var('vampiric_drain_amount_show').GetValue|0] здоровья в форме модификаторов [GetModifier('vampirism_mod')]."  
+ vampirism_health_pool_transfer_dying_tt: "[ROOT.Var('vampiric_drain_amount_show').GetValue|0] очков вампирского запаса здоровья были конвертированы в [ROOT.Var('vampiric_drain_amount_show').GetValue|0] здоровья в форме модификаторов [GetModifier('vampirism_mod')]. Поскольку ваш запас здоровья вампира был недостаточно велик, чтобы довести ваше здоровье до «хорошего» здоровья, вы потеряли способность поддерживать свою жизнь дальше посредством вампиризма."  
   
- necrotic_vitality_0.tt: "#N Оживление себя с помощью Темной некромантии отразится на вашем теле, что приведет к образованию 1 постоянного стека [GetModifier('necrotic_vitality_negative_stack').GetNameWithTooltip|L] #! \nТаким образом, вы получите чистое 0,75 здоровья на время действия и -0,25 здоровья впоследствии."  #Машинный перевод 28.10.23!
- necrotic_vitality_1.tt: "#N Оживление себя с помощью Темной некромантии отразится на вашем теле, что приведет к образованию 2 постоянных стаков [GetModifier('necrotic_vitality_negative_stack').GetNameWithTooltip|L] #! \nТаким образом, вы получите чистое 1,5 здоровья на время действия и -0,5 здоровья впоследствии."  #Машинный перевод 28.10.23!
- necrotic_vitality_2.tt: "#N Оживление себя с помощью Темной некромантии отразится на вашем теле, что приведет к образованию 4 постоянных стаков [GetModifier('necrotic_vitality_negative_stack').GetNameWithTooltip|L] #! \nТаким образом, вы получите чистое здоровье 3 на время действия и -1 здоровье впоследствии."  #Машинный перевод 28.10.23!
- necrotic_vitality_3.tt: "#N Оживление себя с помощью Темной некромантии отразится на вашем теле, что приведет к образованию 6 постоянных стаков [GetModifier('necrotic_vitality_negative_stack').GetNameWithTooltip|L] #! \nТаким образом, вы получите чистое 6,5 здоровья на время действия и -1,5 здоровья впоследствии."  #Машинный перевод 28.10.23!
+ necrotic_vitality_0.tt: "#N Оживление себя с помощью Темной некромантии отразится на вашем теле, что приведет к образованию 1 постоянного стека [GetModifier('necrotic_vitality_negative_stack').GetNameWithTooltip|L] #! \nТаким образом, вы получите чистое 0,75 здоровья на время действия и -0,25 здоровья впоследствии."  
+ necrotic_vitality_1.tt: "#N Оживление себя с помощью Темной некромантии отразится на вашем теле, что приведет к образованию 2 постоянных стаков [GetModifier('necrotic_vitality_negative_stack').GetNameWithTooltip|L] #! \nТаким образом, вы получите чистое 1,5 здоровья на время действия и -0,5 здоровья впоследствии."  
+ necrotic_vitality_2.tt: "#N Оживление себя с помощью Темной некромантии отразится на вашем теле, что приведет к образованию 4 постоянных стаков [GetModifier('necrotic_vitality_negative_stack').GetNameWithTooltip|L] #! \nТаким образом, вы получите чистое здоровье 3 на время действия и -1 здоровье впоследствии."  
+ necrotic_vitality_3.tt: "#N Оживление себя с помощью Темной некромантии отразится на вашем теле, что приведет к образованию 6 постоянных стаков [GetModifier('necrotic_vitality_negative_stack').GetNameWithTooltip|L] #! \nТаким образом, вы получите чистое 6,5 здоровья на время действия и -1,5 здоровья впоследствии."  
   
- lead_to_gold_0.tt: "Обесценит монеты, в результате чего все округа Домена получат #N -3% #! Налоги на владение и рост развития в течение 5 лет, а все соседние округа получат #N -1% #! в течение 5 лет."  #Машинный перевод 28.10.23!
- lead_to_gold_1.tt: "Обесценит монеты, в результате чего все округа Домена получат #N -6% #! Налоги на владение и рост развития в течение 5 лет, а все соседние округа получат #N -3% #! в течение 5 лет."  #Машинный перевод 28.10.23!
- lead_to_gold_2.tt: "Обесценит монеты, в результате чего все округа Домена получат #N -12% #! Налоги на владение и рост развития в течение 5 лет, а все соседние округа получат #N -6% #! в течение 5 лет."  #Машинный перевод 28.10.23!
- lead_to_gold_3.tt: "Обесценит монеты, в результате чего все округа Домена получат #N -24% #! Налоги на владение и рост развития в течение 5 лет, а все соседние округа получат #N -12% #! в течение 5 лет."  #Машинный перевод 28.10.23!
+ lead_to_gold_0.tt: "Обесценит монеты, в результате чего все округа Домена получат #N -3% #! Налоги на владение и рост развития в течение 5 лет, а все соседние округа получат #N -1% #! в течение 5 лет."  
+ lead_to_gold_1.tt: "Обесценит монеты, в результате чего все округа Домена получат #N -6% #! Налоги на владение и рост развития в течение 5 лет, а все соседние округа получат #N -3% #! в течение 5 лет."  
+ lead_to_gold_2.tt: "Обесценит монеты, в результате чего все округа Домена получат #N -12% #! Налоги на владение и рост развития в течение 5 лет, а все соседние округа получат #N -6% #! в течение 5 лет."  
+ lead_to_gold_3.tt: "Обесценит монеты, в результате чего все округа Домена получат #N -24% #! Налоги на владение и рост развития в течение 5 лет, а все соседние округа получат #N -12% #! в течение 5 лет."  
   
- generate_water_non_effective.tt: "#N As [affected_county.GetName|E] не имеет капитала в пустыне/пустыне, генерировать воду не будет очень эффективным."  #Машинный перевод 28.10.23!
+ generate_water_non_effective.tt: "#N As [affected_county.GetName|E] не имеет капитала в пустыне/пустыне, генерировать воду не будет очень эффективным."  
   
- skeletal_crafting.tt: "Получит мероприятие, позволяющее вам пожертвовать любыми принадлежащими артефактами для @magic_icon! [magic|E]."  #Машинный перевод 28.10.23!
- craft_bone_artifact_decision_desc_tooltip: "Вы создадите [artifact|E] из любых имеющихся у вас костей."  #Машинный перевод 28.10.23!
- bonefinding_success_bad.tt: "Поиски мощных костей не очень успешны."  #Машинный перевод 28.10.23!
- bonefinding_success_good.tt: "Поиски мощных костей увенчались успехом."  #Машинный перевод 28.10.23!
- bonefinding_success_great.tt: "Поиски мощных костей очень успешны."  #Машинный перевод 28.10.23!
- bonefinding_magic_prowess.tt: "Шанс на успех зависит от магического мастерства."  #Машинный перевод 28.10.23!
- bonefinding_learning_martial.tt: "Шанс успеха зависит от боевого и обучения."  #Машинный перевод 28.10.23!
- bonefinding_learning_only.tt: "Шанс на успех зависит от обучения."  #Машинный перевод 28.10.23!
- bonefinding_stewardship_intrigue.tt: "Успех шанс зависит от управления и интриги."  #Машинный перевод 28.10.23!
- skeletal_crafting_value_0.tt: "Вы получаете @magic_icon!#P [EmptyScope.ScriptValue('tier_0_bone_gen')|0]#! [magic|E]"  #Машинный перевод 28.10.23!
- skeletal_crafting_value_1.tt: "Вы получаете @magic_icon!#P [EmptyScope.ScriptValue('tier_1_bone_gen')|0]#! [magic|E]"  #Машинный перевод 28.10.23!
- skeletal_crafting_value_2.tt: "Вы получаете @magic_icon!#P [EmptyScope.ScriptValue('tier_2_bone_gen')|0]#! [magic|E]"  #Машинный перевод 28.10.23!
- skeletal_crafting_value_3.tt: "Вы получаете @magic_icon!#P [EmptyScope.ScriptValue('tier_3_bone_gen')|0]#! [magic|E]"  #Машинный перевод 28.10.23!
- skeletal_crafting_value_3x.tt: "Вы получаете @magic_icon!#P [EmptyScope.ScriptValue('tier_3x_bone_gen')|0]#! [magic|E]"  #Машинный перевод 28.10.23!
- skeletal_crafting_value_4.tt: "Вы получаете @magic_icon!#P [EmptyScope.ScriptValue('tier_4_bone_gen')|0]#! [magic|E]"  #Машинный перевод 28.10.23!
- skeletal_crafting_value_5.tt: "Вы получаете @magic_icon!#P [EmptyScope.ScriptValue('tier_5_bone_gen')|0]#! [magic|E]"  #Машинный перевод 28.10.23!
-  
-  
- bone_artifact_value_1.tt: "Использование этих костей для крафта позволит вам создать Артефакт 1 уровня."  #Машинный перевод 28.10.23!
- bone_artifact_value_2.tt: "Использование этих костей для крафта позволит вам создать артефакт 2 уровня 2"  #Машинный перевод 28.10.23!
- bone_artifact_value_3.tt: "Использование этих костей для крафта позволит вам создать артефакт 3 уровня 3"  #Машинный перевод 28.10.23!
- bone_artifact_value_4.tt: "Использование этих костей для крафта позволит вам создать Артефакт 4 уровня."  #Машинный перевод 28.10.23!
-  
- summon_fog.tt: "[GetPlayer.GetFirstName] создает туман"  #Машинный перевод 28.10.23!
-  
- dream_invasion.tt: "[GetPlayer.GetFirstName] вторгается в мечты цели"  #Машинный перевод 28.10.23!
- obliterate_tooltipW.tt: "Вы уверены, что хотите наложить это на себя?"  #Машинный перевод 28.10.23!
- obliterate_tooltipW2.tt: "Будьте осторожны, сон – нехорошее место."  #Машинный перевод 28.10.23!
- obliterate_tooltipW3.tt: "Приятных снов, [GetPlayer.GetFirstName]."  #Машинный перевод 28.10.23!
- obliterate_tooltip1.tt: "Минимальное уничтожение памяти"  #Машинный перевод 28.10.23!
- obliterate_tooltip2.tt: "Умеренное уничтожение памяти"  #Машинный перевод 28.10.23!
- obliterate_tooltip3.tt: "Серьезная облитерация памяти"  #Машинный перевод 28.10.23!
-  
- magic_crush_armor_resistance_tt: "Этот персонаж был атакован с раздавливанием доспехи менее года назад и, таким образом, принимает меры предосторожности против него, что затрудняет причинение им заклинания."  #Машинный перевод 28.10.23!
- magic_poison_resistance_tt: "Этот персонаж пережил заклинание «Яд» менее года назад и, таким образом, развил временную устойчивость к заклинанию, что усложнило причинение ему вреда."  #Машинный перевод 28.10.23!
-  
- sacrifice_plants.tt: "Вы получите событие, сообщающее вам, сколько @magic_icon! [magic|E] вы получите, а также любые другие побочные эффекты. \nДает больше магической силы, если используется в графствах с зелеными или лесными провинциями, и меньше магической силы, если используется в графствах с каменистыми, пустынными или бесплодными провинциями."  #Машинный перевод 28.10.23!
- sacrifice_plants_total_value_tooltip.tt: "Вы получаете @magic_icon!#P [THIS.Var('total_plant_sacrifice_value').GetValue|0]#! [magic|E]"  #Машинный перевод 28.10.23!
- sacrifice_plants_no_longer_possible.tt: "#N [affected_county.GetName|E] практически полностью лишился растительной жизни из-за неоднократных жертвоприношений, что сделало любое дальнейшее жертвоприношение невозможным.#!"  #Машинный перевод 28.10.23!
- vegetation_quality_terrible.tt: "#N Рельеф провинций в [affected_county.GetName|E] почти лишен растительности, что приводит к очень небольшому возможному выигрышу.#!"  #Машинный перевод 28.10.23!
- vegetation_quality_bad.tt: "#N Рельеф провинций в [affected_county.GetName|E] имеет лишь редкую растительность, что приводит к небольшому возможному выигрышу.#!"  #Машинный перевод 28.10.23!
- vegetation_quality_average.tt: "Рельеф провинций в [affected_county.GetName|E] имеет достаточное количество растительности, что приводит к среднему возможному выигрышу."  #Машинный перевод 28.10.23!
- vegetation_quality_good.tt: "Рельеф провинций в [affected_county.GetName|E] имеет количество растительности выше среднего, что приводит к возможному выигрышу выше среднего."  #Машинный перевод 28.10.23!
- vegetation_quality_excellent.tt: "#P Рельеф провинций в [affected_county.GetName|E] богат растительностью, что дает возможность получить большую прибыль.#!"  #Машинный перевод 28.10.23!
- vegetation_quality_best.tt: "#P Рельеф провинций в [affected_county.GetName|E] покрыт зеленой и очень обильной растительностью, что дает возможность получить большую выгоду.#!"  #Машинный перевод 28.10.23!
-  
- sacrifice_population.tt: "Вы получите событие, сообщающее вам, сколько @magic_icon! [magic|E] вы получите, а также любые другие побочные эффекты."  #Машинный перевод 28.10.23!
- sacrifice_population_total_value_min.tt: "Вы получаете @magic_icon!#P [THIS.Var('total_sacrifice_population_value_min').GetValue|0]#! [magic|E]"  #Машинный перевод 28.10.23!
- sacrifice_population_total_value_mid.tt: "Вы получаете @magic_icon!#P [THIS.Var('total_sacrifice_population_value_mid').GetValue|0]#! [magic|E]"  #Машинный перевод 28.10.23!
- sacrifice_population_total_value_major.tt: "Вы получаете @magic_icon!#P [THIS.Var('total_sacrifice_population_value_major').GetValue|0]#! [magic|E]"  #Машинный перевод 28.10.23!
- sacrifice_population_total_value_huge.tt: "Вы получаете @magic_icon!#P [THIS.Var('total_sacrifice_population_value_huge').GetValue|0]#! [magic|E]"  #Машинный перевод 28.10.23!
- sacrifice_population_stack.tt: "Из-за волнений [sacrifice_population_county.GetName|E] получит стаки [GetModifier('sacrificed_population_stack_mod').GetNameWithTooltip|L], равные потерянному развитию за 10 лет."  #Машинный перевод 28.10.23!
+ skeletal_crafting.tt: "Получит мероприятие, позволяющее вам пожертвовать любыми принадлежащими артефактами для @magic_icon! [Concept('magi','магии')|E]."  
+ craft_bone_artifact_decision_desc_tooltip: "Вы создадите [Concept('artifact','артифакт')|E] из любых имеющихся у вас костей."  
+ bonefinding_success_bad.tt: "Поиски мощных костей не очень успешны."  
+ bonefinding_success_good.tt: "Поиски мощных костей увенчались успехом."  
+ bonefinding_success_great.tt: "Поиски мощных костей очень успешны."  
+ bonefinding_magic_prowess.tt: "Шанс на успех зависит от магического мастерства."  
+ bonefinding_learning_martial.tt: "Шанс успеха зависит от боевого и обучения."  
+ bonefinding_learning_only.tt: "Шанс на успех зависит от обучения."  
+ bonefinding_stewardship_intrigue.tt: "Успех шанс зависит от управления и интриги."  
+ skeletal_crafting_value_0.tt: "Вы получаете @magic_icon!#P [EmptyScope.ScriptValue('tier_0_bone_gen')|0]#! [magic|E]"  
+ skeletal_crafting_value_1.tt: "Вы получаете @magic_icon!#P [EmptyScope.ScriptValue('tier_1_bone_gen')|0]#! [magic|E]"  
+ skeletal_crafting_value_2.tt: "Вы получаете @magic_icon!#P [EmptyScope.ScriptValue('tier_2_bone_gen')|0]#! [magic|E]"  
+ skeletal_crafting_value_3.tt: "Вы получаете @magic_icon!#P [EmptyScope.ScriptValue('tier_3_bone_gen')|0]#! [magic|E]"  
+ skeletal_crafting_value_3x.tt: "Вы получаете @magic_icon!#P [EmptyScope.ScriptValue('tier_3x_bone_gen')|0]#! [magic|E]"  
+ skeletal_crafting_value_4.tt: "Вы получаете @magic_icon!#P [EmptyScope.ScriptValue('tier_4_bone_gen')|0]#! [magic|E]"  
+ skeletal_crafting_value_5.tt: "Вы получаете @magic_icon!#P [EmptyScope.ScriptValue('tier_5_bone_gen')|0]#! [magic|E]"  
   
   
- t1_magic_gen_tt: "Вы получаете @magic_icon!#P [EmptyScope.ScriptValue('tier_1_gen')|0]#! [magic|E]"  #Машинный перевод 28.10.23!
- t2_magic_gen_tt: "Вы получаете @magic_icon!#P [EmptyScope.ScriptValue('tier_2_gen')|0]#! [magic|E]"  #Машинный перевод 28.10.23!
- t3_magic_gen_tt: "Вы получаете @magic_icon!#P [EmptyScope.ScriptValue('tier_3_gen')|0]#! [magic|E]"  #Машинный перевод 28.10.23!
- t4_magic_gen_tt: "Вы получаете @magic_icon!#P [EmptyScope.ScriptValue('tier_4_gen')|0]#! [magic|E]"  #Машинный перевод 28.10.23!
+ bone_artifact_value_1.tt: "Использование этих костей для крафта позволит вам создать Артефакт 1 уровня."  
+ bone_artifact_value_2.tt: "Использование этих костей для крафта позволит вам создать артефакт 2 уровня 2"  
+ bone_artifact_value_3.tt: "Использование этих костей для крафта позволит вам создать артефакт 3 уровня 3"  
+ bone_artifact_value_4.tt: "Использование этих костей для крафта позволит вам создать Артефакт 4 уровня."  
   
- lm_perk8.tt: "#P +2#! [aspect_blood]"  #Машинный перевод 28.10.23!
- #lm2_perk8.tt: "#P +2#! [aspect_fire]"  #Машинный перевод 28.10.23!
- lm2_perk1.tt: "Заклинание «Получить магию огня».\n Магия огня — полезное заклинание, влияющее на персонажа, которое дает цели преимущество и другие бонусы в бою на 2 года."  #Машинный перевод 28.10.23!
- lm2_perk2.tt: "Получите заклинание Истончение."  #Машинный перевод 28.10.23!
- lm2_perk4.tt: "Получите заклинание «Ускорение».\n «Ускорение» — полезное заклинание, влияющее на персонажа, которое значительно увеличивает скорость передвижения цели на 2 года."  #Машинный перевод 28.10.23!
- lm2_perk5.tt: "Получите заклинание «Усиление».\n «Усиление» — это полезное заклинание, влияющее на персонажа, которое значительно увеличивает доблесть цели на 2 года, а на более высоких уровнях имеет шанс предоставить или улучшить физические характеристики."  #Машинный перевод 28.10.23!
- lm2_perk6.tt: "Потерять [stress|E] при генерации [magic_power|E]"  #Машинный перевод 28.10.23!
- lm2_perk8.tt: "Получите заклинание Боевая ярость."  #Машинный перевод 28.10.23!
- lm2_perk9.tt: "Получите заклинание «Аннигиляция».\n «Аннигиляция» — это враждебное заклинание, влияющее на графство, которое ослабляет целевой округ и снижает развитие.\nПри использовании на уровне 2/3 «Аннигиляция» имеет шанс ранить или убить каждого персонажа в затронутом графстве.\nЕсли Заклинание Аннигиляция 3-го уровня снижает развитие целевого округа до 0, округ превратится в пустошь."  #Машинный перевод 28.10.23!
+ summon_fog.tt: "[GetPlayer.GetFirstName] создает туман"  
   
- lm3_perk1.tt: "Заклинание «Получить созидание»\nСозидание — это полезное заклинание, нацеленное на персонажа, которое увеличивает плодовитость цели, а на более высоких уровнях вызывает гарантированную беременность для цели или ее супруга."  #Машинный перевод 28.10.23!
- lm3_perk2.tt: "Создайте [magic_power|E], истощая жизненную силу растений."  #Машинный перевод 28.10.23!
- lm3_perk3.tt: "Получить заклинание «Прорицание»\nПрорицание — это полезное заклинание, нацеленное на персонажа, которое дает случайный положительный модификатор, связанный с одним из четырех навыков."  #Машинный перевод 28.10.23!
- lm3_perk4.tt: "Получите заклинание Очищение."  #Машинный перевод 28.10.23!
- lm3_perk5_tt: "Заклинание «Получить целебные воды»\nЦелебные воды — это полезное заклинание, нацеленное на персонажа, которое лечит раны цели и дает бонус к здоровью на 5 лет.\nБолее серьезные раны требуют более высоких уровней целебной воды для лечения."  #Машинный перевод 28.10.23!
- lm3_perk7_tt: "[extended_magic_baseline|E]@magic_icon!за уровень [title|E]: #positive_value +25#!"  #Машинный перевод 28.10.23!
- lm3_perk8_tt: "[extended_magic_baseline|E]@magic_icon! #positive_value +100#!, если [realm_capital|E] лежит на [wayline|E] или #E пересечении линий #!"  #Машинный перевод 28.10.23!
- plant_growth_perk_tt: "Предоставляет заклинание «Зеленый рост».\nЗеленый рост — это полезное заклинание, влияющее на графство, которое дает большой бонус к росту развития и налогам на 1 год."  #Машинный перевод 28.10.23!
+ dream_invasion.tt: "[GetPlayer.GetFirstName] вторгается в мечты цели"  
+ obliterate_tooltipW.tt: "Вы уверены, что хотите наложить это на себя?"  
+ obliterate_tooltipW2.tt: "Будьте осторожны, сон – нехорошее место."  
+ obliterate_tooltipW3.tt: "Приятных снов, [GetPlayer.GetFirstName]."  
+ obliterate_tooltip1.tt: "Минимальное уничтожение памяти"  
+ obliterate_tooltip2.tt: "Умеренное уничтожение памяти"  
+ obliterate_tooltip3.tt: "Серьезная облитерация памяти"  
   
- dm_perk3.tt: "Создайте [magic_power|E] с помощью обработки костей"  #Машинный перевод 28.10.23!
- dm_perk3decision.tt: "Получите решение «Поиск костей»."  #Машинный перевод 28.10.23!
- dm_perk4.tt: "Может создавать артефакты из магически мощных костей с помощью решения «Создание костяного артефакта»."  #Машинный перевод 28.10.23!
- dm_perk5.tt: "Получите заклинание Boneshaping\nBoneshaping — это полезное заклинание, нацеленное на персонажа, которое позволяет вам (или цели) устранить физические уродства или слабости, а также изменить свою форму, чтобы стать сильнее, выше или красивее за счет здоровья."  #Машинный перевод 28.10.23!
- dm_perk6.tt: "Получите заклинание «Создание големов».\nСоздание големов позволяет вам создавать воинов-големов, которые прослужат до вашей смерти."  #Машинный перевод 28.10.23!
- dm_perk7.tt: "Заклинание «Получить некромантическую жизненную силу»\nНекромантическая жизненная сила — это заклинание, нацеленное на самого себя, которое значительно увеличивает ваше здоровье на 10 лет, оживляя его с помощью магии, за счет постоянного снижения вашего здоровья после того, как заклинание перестанет действовать."  #Машинный перевод 28.10.23!
- #dm_perk9.tt: "Получите дополнительно 25% [magic_power|E] от создания скелетов."  #Машинный перевод 28.10.23!
+ magic_crush_armor_resistance_tt: "Этот персонаж был атакован с раздавливанием доспехи менее года назад и, таким образом, принимает меры предосторожности против него, что затрудняет причинение им заклинания."  
+ magic_poison_resistance_tt: "Этот персонаж пережил заклинание «Яд» менее года назад и, таким образом, развил временную устойчивость к заклинанию, что усложнило причинение ему вреда."  
   
- dm2_perk1.tt: "Получить заклинание «Чтение луны»\nЛунное чтение — это полезное заклинание, влияющее на персонажа, которое позволяет вам предсказывать будущее, чтобы выбрать один из 3 случайно выбранных бонусов на 5 лет."  #Машинный перевод 28.10.23!
- dm2_perk2.tt: "Заклинание «Получить сокрушение брони»\nСокрушение доспехов — это враждебное заклинание, воздействующее на персонажа, которое может ранить или убить цель в зависимости от ее здоровья или доблести."  #Машинный перевод 28.10.23!
- dm2_perk3.tt: "Создайте [magic_power|E], извлекая магическую энергию Луны."  #Машинный перевод 28.10.23!
- dm2_perk4.tt: "Заклинание «Получить зачарование оружия»\nЗачарование оружия — это полезное заклинание, влияющее на персонажа, которое увеличивает эффективность рыцаря цели на 1 год и увеличивает доблесть всех рыцарей цели."  #Машинный перевод 28.10.23!
- dm2_perk5.tt: "Получите заклинание «Наведение [aervalr|E]», которое можно использовать один раз за полнолуние.\n[aervalr|E] «Наведение» — это полезное заклинание с самонацеливанием, которое позволяет вам получать информацию от [aervalr|E], чтобы получать огромные бонусы на время полнолуния. (6 месяцев)"  #Машинный перевод 28.10.23!
- dm2_perk7.tt: "Получите заклинание «Притягивание метеора».\nПритяжение метеора — это враждебное заклинание, влияющее на графство, которое накладывает сильный дебафф на затронутую провинцию. \nПри использовании на уровне 2 или 3 заклинание имеет средний шанс ранить или убить каждого персонажа в затронутом графстве и немного снизит развитие.\n Если наложение Притягивающего метеора на 3-м уровне снизит развитие целевого округа до 0, все здания в случайном баронстве будут разрушены"  #Машинный перевод 28.10.23!
- dm2_perk9.tt: "Получите +3/6 ко всем характеристикам во время лунных/полнолуний."  #Машинный перевод 28.10.23!
- dm2_perk9_2.tt: "Получите +5%/10% дополнительного шанса на успех заклинания Мертвой магии во время лунных и полнолуний."  #Машинный перевод 28.10.23!
+ sacrifice_plants.tt: "Вы получите событие, сообщающее вам, сколько @magic_icon! [Concept('magi','магии')|E] вы получите, а также любые другие побочные эффекты. \nДает больше магической силы, если используется в графствах с зелеными или лесными провинциями, и меньше магической силы, если используется в графствах с каменистыми, пустынными или бесплодными провинциями."  
+ sacrifice_plants_total_value_tooltip.tt: "Вы получаете @magic_icon!#P [THIS.Var('total_plant_sacrifice_value').GetValue|0]#! [Concept('magi','магии')|E]"  
+ sacrifice_plants_no_longer_possible.tt: "#N [affected_county.GetName|E] практически полностью лишился растительной жизни из-за неоднократных жертвоприношений, что сделало любое дальнейшее жертвоприношение невозможным.#!"  
+ vegetation_quality_terrible.tt: "#N Рельеф провинций в [affected_county.GetName|E] почти лишен растительности, что приводит к очень небольшому возможному выигрышу.#!"  
+ vegetation_quality_bad.tt: "#N Рельеф провинций в [affected_county.GetName|E] имеет лишь редкую растительность, что приводит к небольшому возможному выигрышу.#!"  
+ vegetation_quality_average.tt: "Рельеф провинций в [affected_county.GetName|E] имеет достаточное количество растительности, что приводит к среднему возможному выигрышу."  
+ vegetation_quality_good.tt: "Рельеф провинций в [affected_county.GetName|E] имеет количество растительности выше среднего, что приводит к возможному выигрышу выше среднего."  
+ vegetation_quality_excellent.tt: "#P Рельеф провинций в [affected_county.GetName|E] богат растительностью, что дает возможность получить большую прибыль.#!"  
+ vegetation_quality_best.tt: "#P Рельеф провинций в [affected_county.GetName|E] покрыт зеленой и очень обильной растительностью, что дает возможность получить большую выгоду.#!"  
   
- dm3_perk1.tt: "Генерируйте [magic_power|E] при исследовании руин"  #Машинный перевод 28.10.23!
- dm3_perk2.tt: "Получите заклинание «Поднять землю».\nПоднимите землю — это полезное заклинание, нацеленное на персонажей, которое дает преимущество и бонусы при командовании в бою, особенно в каменистой, холмистой или гористой местности. Длится 2 года"  #Машинный перевод 28.10.23!
- dm3_perk3.tt: "Получить заклинание «Каменная кожа»\nКаменная кожа — это полезное заклинание, нацеленное на персонажа, которое повышает доблесть и сводит на нет штрафы к здоровью на 4 года."  #Машинный перевод 28.10.23!
- dm3_perk4.tt: "Получите заклинание «Укрепление почвы».\nУкрепление почвы — это полезное заклинание, ориентированное на округ, которое обеспечивает небольшой (но энергоэффективный) рост развития и повышение налогов на 10 лет."  #Машинный перевод 28.10.23!
- dm3_perk5.tt: "Получите заклинание окаменения\nОкаменение — это враждебное заклинание, нацеленное на персонажа, которое имеет шанс убить (окаменеть) или применить отрицательный модификатор к цели в зависимости от ее здоровья."  #Машинный перевод 28.10.23!
- dm3_perk6.tt: "Получите заклинание «Укрепление подземелья».\nУкрепление подземелья — это полезное заклинание, влияющее на графство, которое увеличивает гарнизон, уровень форта и преимущество защитников округа на 2 года за счет создания подземных туннелей и укреплений."  #Машинный перевод 28.10.23!
- dm3_perk8.tt: "Заклинание «Получить вытягивание драгоценных камней»\nДрам из драгоценных камней — это полезное заклинание, ориентированное на округ, которое увеличивает налоги округа, а также снижает скорость и стоимость строительства на 6 лет."  #Машинный перевод 28.10.23!
- dm3_perk9.tt: "Получить заклинание «Землетрясение».\nЗемлетрясение — это враждебное заклинание, нацеленное на графство, которое накладывает на графство значительный дебафф, а на более высоких уровнях снижает развитие затронутых графств.\nПри использовании на уровне 1 или выше все соседние графства становятся пострадало от землетрясения на один уровень ниже. \n При использовании на уровне 2 или 3 заклинание имеет небольшой шанс убить или ранить каждого персонажа в затронутом округе, а если развитие снижено до 0, разрушить все здания в округе."  #Машинный перевод 28.10.23!
+ sacrifice_population.tt: "Вы получите событие, сообщающее вам, сколько @magic_icon! [magic|E] вы получите, а также любые другие побочные эффекты."  
+ sacrifice_population_total_value_min.tt: "Вы получаете @magic_icon!#P [THIS.Var('total_sacrifice_population_value_min').GetValue|0]#! [Concept('magi','магии')|E]"  
+ sacrifice_population_total_value_mid.tt: "Вы получаете @magic_icon!#P [THIS.Var('total_sacrifice_population_value_mid').GetValue|0]#! [Concept('magi','магии')|E]"  
+ sacrifice_population_total_value_major.tt: "Вы получаете @magic_icon!#P [THIS.Var('total_sacrifice_population_value_major').GetValue|0]#! [Concept('magi','магии')|E]"  
+ sacrifice_population_total_value_huge.tt: "Вы получаете @magic_icon!#P [THIS.Var('total_sacrifice_population_value_huge').GetValue|0]#! [Concept('magi','магии')|E]"  
+ sacrifice_population_stack.tt: "Из-за волнений [sacrifice_population_county.GetName|E] получит стаки [GetModifier('sacrificed_population_stack_mod').GetNameWithTooltip|L], равные потерянному развитию за 10 лет."  
   
   
- mm_perk1.tt: "Сифонировать [magic_power|E] из [rift|E]"  #Машинный перевод 28.10.23!
- mm_perk2.tt: "Получите заклинание Riftmark."  #Машинный перевод 28.10.23!
- mm_perk3.tt: "Прибыль -10% [stress|E]"  #Машинный перевод 28.10.23!
- mm_perk4.tt: "Получите заклинание Riftwalk."  #Машинный перевод 28.10.23!
- mm_perk5.tt: "Получите заклинание Распутывание."  #Машинный перевод 28.10.23!
- mm_perk6.tt: "Повышение уровня стресса имеет небольшой шанс улучшить случайный навык."  #Машинный перевод 28.10.23!
- mm_perk7.tt: "Получите заклинание «Вторжение в разлом»."  #Машинный перевод 28.10.23!
- mm_perk8.tt: "Шанс успеха заклинания увеличен против персонажей, отмеченных разломом."  #Машинный перевод 28.10.23!
+ t1_magic_gen_tt: "Вы получаете @magic_icon!#P [EmptyScope.ScriptValue('tier_1_gen')|0]#! [Concept('magi','магии')|E]"  
+ t2_magic_gen_tt: "Вы получаете @magic_icon!#P [EmptyScope.ScriptValue('tier_2_gen')|0]#! [Concept('magi','магии')|E]"  
+ t3_magic_gen_tt: "Вы получаете @magic_icon!#P [EmptyScope.ScriptValue('tier_3_gen')|0]#! [Concept('magi','магии')|E]"  
+ t4_magic_gen_tt: "Вы получаете @magic_icon!#P [EmptyScope.ScriptValue('tier_4_gen')|0]#! [Concept('magi','магии')|E]"  
+  
+ lm_perk8.tt: "#P +2#! [aspect_blood]"  
+ #lm2_perk8.tt: "#P +2#! [aspect_fire]"  
+ lm2_perk1.tt: "Заклинание «Получить магию огня».\n Магия огня — полезное заклинание, влияющее на персонажа, которое дает цели преимущество и другие бонусы в бою на 2 года."  
+ lm2_perk2.tt: "Получите заклинание Истончение."  
+ lm2_perk4.tt: "Получите заклинание «Ускорение».\n «Ускорение» — полезное заклинание, влияющее на персонажа, которое значительно увеличивает скорость передвижения цели на 2 года."  
+ lm2_perk5.tt: "Получите заклинание «Усиление».\n «Усиление» — это полезное заклинание, влияющее на персонажа, которое значительно увеличивает доблесть цели на 2 года, а на более высоких уровнях имеет шанс предоставить или улучшить физические характеристики."  
+ lm2_perk6.tt: "Потерять [Copcept(s'tress','стресс')|E] при генерации [Copcept('magic_power','магической силы')|E]"  
+ lm2_perk8.tt: "Получите заклинание Боевая ярость."  
+ lm2_perk9.tt: "Получите заклинание «Аннигиляция».\n «Аннигиляция» — это враждебное заклинание, влияющее на графство, которое ослабляет целевой округ и снижает развитие.\nПри использовании на уровне 2/3 «Аннигиляция» имеет шанс ранить или убить каждого персонажа в затронутом графстве.\nЕсли Заклинание Аннигиляция 3-го уровня снижает развитие целевого округа до 0, округ превратится в пустошь."  
+  
+ lm3_perk1.tt: "Заклинание «Получить созидание»\nСозидание — это полезное заклинание, нацеленное на персонажа, которое увеличивает плодовитость цели, а на более высоких уровнях вызывает гарантированную беременность для цели или ее супруга."  
+ lm3_perk2.tt: "Создайте [Copcept('magic_power','магическую силу')|E], истощая жизненую силу растений."  
+ lm3_perk3.tt: "Получить заклинание «Прорицание»\nПрорицание — это полезное заклинание, нацеленное на персонажа, которое дает случайный положительный модификатор, связанный с одним из четырех навыков."  
+ lm3_perk4.tt: "Получите заклинание Очищение."  
+ lm3_perk5_tt: "Заклинание «Получить целебные воды»\nЦелебные воды — это полезное заклинание, нацеленное на персонажа, которое лечит раны цели и дает бонус к здоровью на 5 лет.\nБолее серьезные раны требуют более высоких уровней целебной воды для лечения."  
+ lm3_perk7_tt: "[extended_magic_baseline|E]@magic_icon!за уровень [title|E]: #positive_value +25#!"  
+ lm3_perk8_tt: "[extended_magic_baseline|E]@magic_icon! #positive_value +100#!, если [realm_capital|E] лежит на [wayline|E] или #E пересечении линий #!"  
+ plant_growth_perk_tt: "Предоставляет заклинание «Зеленый рост».\nЗеленый рост — это полезное заклинание, влияющее на графство, которое дает большой бонус к росту развития и налогам на 1 год."  
+  
+ dm_perk3.tt: "Создайте [Concept'magic_power','магическую силу'|E] с помощью обработки костей"  
+ dm_perk3decision.tt: "Получите решение «Поиск костей»."  
+ dm_perk4.tt: "Может создавать артефакты из магически мощных костей с помощью решения «Создание костяного артефакта»."  
+ dm_perk5.tt: "Получите заклинание Формирование костей \n Формирование костей— это полезное заклинание, нацеленное на персонажа, которое позволяет вам (или цели) устранить физические уродства или слабости, а также изменить свою форму, чтобы стать сильнее, выше или красивее за счет здоровья."  
+ dm_perk6.tt: "Получите заклинание «Создание големов».\n Создание големов позволяет вам создавать воинов-големов, которые прослужат до вашей смерти."  
+ dm_perk7.tt: "Заклинание «Получить некромантическую жизненную силу» \n Некромантическая жизненная сила — это заклинание, нацеленное на самого себя, которое значительно увеличивает ваше здоровье на 10 лет, оживляя его с помощью магии, за счет постоянного снижения вашего здоровья после того, как заклинание перестанет действовать."  
+ #dm_perk9.tt: "Получите дополнительно 25% [Copcept('magic_power','магическую силу')|E] от создания скелетов."  
+  
+ dm2_perk1.tt: "Получить заклинание «Чтение луны»\nЛунное чтение — это полезное заклинание, влияющее на персонажа, которое позволяет вам предсказывать будущее, чтобы выбрать один из 3 случайно выбранных бонусов на 5 лет."  
+ dm2_perk2.tt: "Заклинание «Получить сокрушение брони»\nСокрушение доспехов — это враждебное заклинание, воздействующее на персонажа, которое может ранить или убить цель в зависимости от ее здоровья или доблести."  
+ dm2_perk3.tt: "Создайте [Copcept('magic_power','магическую силу')|E], извлекая магическую энергию Луны."  
+ dm2_perk4.tt: "Заклинание «Получить зачарование оружия»\nЗачарование оружия — это полезное заклинание, влияющее на персонажа, которое увеличивает эффективность рыцаря цели на 1 год и увеличивает доблесть всех рыцарей цели."  
+ dm2_perk5.tt: "Получите заклинание «Наведение [Concept('aervalr','Аэрвалра')|E]», которое можно использовать один раз за полнолуние.\n«Наведение [Concept('aervalr','Аэрвалр')|E]» — это полезное заклинание с самонацеливанием, которое позволяет вам получать информацию от [Concept('aervalr','Аэрвалра')|E], чтобы получать огромные бонусы на время полнолуния. (6 месяцев)"  
+ dm2_perk7.tt: "Получите заклинание «Притягивание метеора».\nПритяжение метеора — это враждебное заклинание, влияющее на графство, которое накладывает сильный дебафф на затронутую провинцию. \nПри использовании на уровне 2 или 3 заклинание имеет средний шанс ранить или убить каждого персонажа в затронутом графстве и немного снизит развитие.\n Если наложение Притягивающего метеора на 3-м уровне снизит развитие целевого округа до 0, все здания в случайном баронстве будут разрушены"  
+ dm2_perk9.tt: "Получите +3/6 ко всем характеристикам во время лунных/полнолуний."  
+ dm2_perk9_2.tt: "Получите +5%/10% дополнительного шанса на успех заклинания Мертвой магии во время лунных и полнолуний."  
+  
+ dm3_perk1.tt: "Генерируйте [Copcept('magic_power','магическую силу')|E] при исследовании руин"  
+ dm3_perk2.tt: "Получите заклинание «Поднять землю».\nПоднимите землю — это полезное заклинание, нацеленное на персонажей, которое дает преимущество и бонусы при командовании в бою, особенно в каменистой, холмистой или гористой местности. Длится 2 года"  
+ dm3_perk3.tt: "Получить заклинание «Каменная кожа»\nКаменная кожа — это полезное заклинание, нацеленное на персонажа, которое повышает доблесть и сводит на нет штрафы к здоровью на 4 года."  
+ dm3_perk4.tt: "Получите заклинание «Укрепление почвы».\nУкрепление почвы — это полезное заклинание, ориентированное на округ, которое обеспечивает небольшой (но энергоэффективный) рост развития и повышение налогов на 10 лет."  
+ dm3_perk5.tt: "Получите заклинание окаменения\nОкаменение — это враждебное заклинание, нацеленное на персонажа, которое имеет шанс убить (окаменеть) или применить отрицательный модификатор к цели в зависимости от ее здоровья."  
+ dm3_perk6.tt: "Получите заклинание «Укрепление подземелья».\nУкрепление подземелья — это полезное заклинание, влияющее на графство, которое увеличивает гарнизон, уровень форта и преимущество защитников округа на 2 года за счет создания подземных туннелей и укреплений."  
+ dm3_perk8.tt: "Заклинание «Получить вытягивание драгоценных камней»\nДрам из драгоценных камней — это полезное заклинание, ориентированное на округ, которое увеличивает налоги округа, а также снижает скорость и стоимость строительства на 6 лет."  
+ dm3_perk9.tt: "Получить заклинание «Землетрясение».\nЗемлетрясение — это враждебное заклинание, нацеленное на графство, которое накладывает на графство значительный дебафф, а на более высоких уровнях снижает развитие затронутых графств.\nПри использовании на уровне 1 или выше все соседние графства становятся пострадало от землетрясения на один уровень ниже. \n При использовании на уровне 2 или 3 заклинание имеет небольшой шанс убить или ранить каждого персонажа в затронутом округе, а если развитие снижено до 0, разрушить все здания в округе."  
+  
+  
+ mm_perk1.tt: "Сифонировать [Copcept('magic_power','магическую силу')|E] из [Concept'rift','разлома'|E]"  
+ mm_perk2.tt: "Получите заклинание Метка разлома."  
+ mm_perk3.tt: "Получите -10% [Copcept('stress','стресса')|E]"  
+ mm_perk4.tt: "Получите заклинание Хождение по разлому."  
+ mm_perk5.tt: "Получите заклинание Распутывание."  
+ mm_perk6.tt: "Повышение уровня стресса имеет небольшой шанс улучшить случайный навык."  
+ mm_perk7.tt: "Получите заклинание «Вторжение в разлом»."  
+ mm_perk8.tt: "Шанс успеха заклинания увеличен против персонажей, отмеченных разломом."  
  mm_perk9.tt: ""
- mm2_perk1.tt: "Получите заклинание «Проблеск реальности»."  #Машинный перевод 28.10.23!
- mm2_perk2.tt: "Получите заклинание «Слияние с духами»."  #Машинный перевод 28.10.23!
- mm2_perk3.tt: "Получите дополнительный выбор в заклинании «Проблеск реальности»."  #Машинный перевод 28.10.23!
- mm2_perk6.tt: "Получите дополнительный выбор в заклинании «Проблеск реальности»."  #Машинный перевод 28.10.23!
- mm2_perk8.tt: "Получите дополнительный выбор в заклинании «Проблеск реальности»."  #Машинный перевод 28.10.23!
- mm3_perk1.tt: "Создайте [magic_power|E], войдя в мечты"  #Машинный перевод 28.10.23!
- mm3_perk2.tt: "Получите заклинание Riftwalk."  #Машинный перевод 28.10.23!
- mm3_perk3.tt: "#E Сопротивление магии#!: #positive_value +10#!"  #Машинный перевод 28.10.23!
- mm3_perk4.tt: "Получите заклинание Истинное зрение."  #Машинный перевод 28.10.23!
- mm3_perk5.tt: "Создайте [magic_power|E], вторгаясь в сны."  #Машинный перевод 28.10.23!
- mm3_perk6.tt: "Получите заклинание Защиты"  #Машинный перевод 28.10.23!
- mm3_perk7.tt: "Получите заклинание «Снять бремя»."  #Машинный перевод 28.10.23!
- mm3_perk9.tt: "Получите заклинание «Стереть память»."  #Машинный перевод 28.10.23!
+ mm2_perk1.tt: "Получите заклинание «Проблеск реальности»."  
+ mm2_perk2.tt: "Получите заклинание «Слияние с духами»."  
+ mm2_perk3.tt: "Получите дополнительный выбор в заклинании «Проблеск реальности»."  
+ mm2_perk6.tt: "Получите дополнительный выбор в заклинании «Проблеск реальности»."  
+ mm2_perk8.tt: "Получите дополнительный выбор в заклинании «Проблеск реальности»."  
+ mm3_perk1.tt: "Создайте [Copcept('magic_power','магическую силу')|E], войдя в мечты"  
+ mm3_perk2.tt: "Получите заклинание Riftwalk."  
+ mm3_perk3.tt: "#E Сопротивление магии#!: #positive_value +10#!"  
+ mm3_perk4.tt: "Получите заклинание Истинное зрение."  
+ mm3_perk5.tt: "Создайте [Copcept('magic_power','магическую силу')|E], вторгаясь в сны."  
+ mm3_perk6.tt: "Получите заклинание Защиты"  
+ mm3_perk7.tt: "Получите заклинание «Снять бремя»."  
+ mm3_perk9.tt: "Получите заклинание «Стереть память»."  
   
- magic_court_bonus_value_desc: "Способность колдовства (изменяется [GetCourtType('court_magic').GetName] заклинателя"  #Машинный перевод 28.10.23!
+ magic_court_bonus_value_desc: "Способность колдовства (изменяется [GetCourtType('court_magic').GetName] заклинателя"  
   
- arcana_actuation_focus_value_desc: "[GetFocus('arcana_actuation_focus').GetName]"  #Машинный перевод 28.10.23!
- arcana_actuation_perk4_value_desc: "[GetPerk('arcana_actuation_perk4_tree1').GetName(GetPlayer)] [perk|E]"  #Машинный перевод 28.10.23!
+ arcana_actuation_focus_value_desc: "[GetFocus('arcana_actuation_focus').GetName]"  
+ arcana_actuation_perk4_value_desc: "[GetPerk('arcana_actuation_perk4_tree1').GetName(GetPlayer)] [perk|E]"  
   
   #misc 
- test.tt: "тестовый эффект"  #Машинный перевод 28.10.23!
- test1.tt: "тестовый эффект 2"  #Машинный перевод 28.10.23!
- test2.tt: "тестовый эффект 3"  #Машинный перевод 28.10.23!
- will_mass_sacrifice_tt: "Вы получите событие, сообщающее вам, сколько @magic_icon! [magic|E] вы получите, а также любые другие побочные эффекты."  #Машинный перевод 28.10.23!
- will_ritually_consume_tt: "Вы получите событие, сообщающее вам, сколько @magic_icon! [magic|E] вы получите, а также любые другие побочные эффекты.\n Ритуальное потребление дает 30% магической силы, чем ритуальное жертвоприношение, а также временное повышение здоровья, но может вызвать мутации и имеет небольшой шанс подорвать ваше здравомыслие."  #Машинный перевод 28.10.23!
- cannibalistic_vigour_tt: "Получите #V [GetPlayer.MakeScope.ScriptValue('cannibalism_stack_value')|0]#! стаков по [GetModifier('ritual_cannibalism_mod').GetNameWithTooltip|L] на 5 лет."  #Машинный перевод 28.10.23!
- fogbeast_summoned_troops: "Туманные звери"  #Машинный перевод 28.10.23!
- natural_power_gain_message: "Обрел природную силу"  #Машинный перевод 28.10.23!
- temporary_magic_prowess_to_combined_cast_modifier: "Магическое мастерство"  #Машинный перевод 28.10.23!
- temporary_combined_prowess_to_pure_magic_cast_modifier: "Противодействующее магическое мастерство"  #Машинный перевод 28.10.23!
- thralled_minor: "Зачарованные"  #Машинный перевод 28.10.23!
- thralled_mid: "Глубоко очарованный"  #Машинный перевод 28.10.23!
- thralled_major: "влюбленный"  #Машинный перевод 28.10.23!
+ test.tt: "тестовый эффект"  
+ test1.tt: "тестовый эффект 2"  
+ test2.tt: "тестовый эффект 3"  
+ will_mass_sacrifice_tt: "Вы получите событие, сообщающее вам, сколько @magic_icon! [Concept('magic','магии')|E] вы получите, а также любые другие побочные эффекты."  
+ will_ritually_consume_tt: "Вы получите событие, сообщающее вам, сколько @magic_icon! [Concept('magic','магии')|E] вы получите, а также любые другие побочные эффекты.\n Ритуальное потребление дает 30% магической силы, чем ритуальное жертвоприношение, а также временное повышение здоровья, но может вызвать мутации и имеет небольшой шанс подорвать ваше здравомыслие."  
+ cannibalistic_vigour_tt: "Получите #V [GetPlayer.MakeScope.ScriptValue('cannibalism_stack_value')|0]#! стаков по [GetModifier('ritual_cannibalism_mod').GetNameWithTooltip|L] на 5 лет."  
+ fogbeast_summoned_troops: "Туманные звери"  
+ natural_power_gain_message: "Обрел природную силу"  
+ temporary_magic_prowess_to_combined_cast_modifier: "Магическое мастерство"  
+ temporary_combined_prowess_to_pure_magic_cast_modifier: "Противодействующее магическое мастерство"  
+ thralled_minor: "Зачарованные"  
+ thralled_mid: "Глубоко очарованный"  
+ thralled_major: "влюбленный"  
   
   #toasts 
- thralldom_toast: "В ролях Рабство"  #Машинный перевод 28.10.23!
- vampiric_toast: "Применение Вампирического истощения"  #Машинный перевод 28.10.23!
- magic_cannibalism_toast: "Потребление энергии"  #Машинный перевод 28.10.23!
- thinning_toast: "Литое истончение"  #Машинный перевод 28.10.23!
- poison_toast: "Применить яд"  #Машинный перевод 28.10.23!
- domination_toast: "Доминирование актеров"  #Машинный перевод 28.10.23!
- strengthening_toast: "Усиление актерского состава"  #Машинный перевод 28.10.23!
- fire_toast: "Применить Магию Огня"  #Машинный перевод 28.10.23!
- mending_toast: "Починка актеров"  #Машинный перевод 28.10.23!
- purification_toast: "Очищение актеров"  #Машинный перевод 28.10.23!
- unveiling_toast: "Раскрытие актерского состава"  #Машинный перевод 28.10.23!
- creation_toast: "Создание актеров"  #Машинный перевод 28.10.23!
- plant_growth_toast: "В ролях Зеленый рост"  #Машинный перевод 28.10.23!
- divination_toast: "Кастовое гадание"  #Машинный перевод 28.10.23!
- undead_living_toast: "В ролях: Поднять кровавых рабов"  #Машинный перевод 28.10.23!
- purge_region_toast: "Область Очистки Cast"  #Машинный перевод 28.10.23!
- annihilation_toast: "В ролях Аннигиляция"  #Машинный перевод 28.10.23!
- quicken_toast: "В ролях Квикен"  #Машинный перевод 28.10.23!
- battle_rage_toast: "Применить боевую ярость"  #Машинный перевод 28.10.23!
- undead_dead_toast: "Применить Поднятие скелетов"  #Машинный перевод 28.10.23!
- lead_to_gold_toast: "Отлить свинец к золоту"  #Машинный перевод 28.10.23!
- craft_golems_toast: "Литые ремесленные големы"  #Машинный перевод 28.10.23!
- stone_serpent_toast: "Литой каменный змей"  #Машинный перевод 28.10.23!
- necrotic_boon_toast: "Применить Некротический дар"  #Машинный перевод 28.10.23!
- pull_meteor_toast: "Литой Метеор Притяжения"  #Машинный перевод 28.10.23!
- earthquake_toast: "В ролях Землетрясение"  #Машинный перевод 28.10.23!
- improve_soil_toast: "Литое укрепление почвы"  #Машинный перевод 28.10.23!
- earth_fort_toast: "Cast Fortify Underground"  #Машинный перевод 28.10.23!
- raise_earth_toast: "В ролях Поднять Землю"  #Машинный перевод 28.10.23!
- petrify_toast: "В ролях Окаменение"  #Машинный перевод 28.10.23!
- stoneskin_toast: "Литая каменная кожа"  #Машинный перевод 28.10.23!
- find_minerals_toast: "Литые минералы"  #Машинный перевод 28.10.23!
- enchant_arms_toast: "Наложить чары на оружие"  #Машинный перевод 28.10.23!
- moon_read_toast: "В ролях Рид Мун"  #Машинный перевод 28.10.23!
- moon_guidance_toast: "Используйте «Наставление Аэрвалра»"  #Машинный перевод 28.10.23!
- riftmark_toast: "Применить Рифтмарк"  #Машинный перевод 28.10.23!
- greater_fogbeast_toast: "Призвать Большого Туманного Зверя"  #Машинный перевод 28.10.23!
- craft_greater_golem_toast: "Литое ремесло Большого голема"  #Машинный перевод 28.10.23!
- boneshaping_toast: "Литье"  #Машинный перевод 28.10.23!
- necrotic_vitality_toast: "Применить Некромантическую Энергию"  #Машинный перевод 28.10.23!
- summon_fog_toast: "Применить вызов тумана"  #Машинный перевод 28.10.23!
- summon_fogbeasts_toast: "Призыв малых туманных зверей"  #Машинный перевод 28.10.23!
- obliterate_memories_toast: "Наложите «Стирающие воспоминания»"  #Машинный перевод 28.10.23!
- rift_walk_toast: "В ролях"  #Машинный перевод 28.10.23!
- haunting_power_toast: "Используйте Призрачную силу"  #Машинный перевод 28.10.23!
- crush_armor_toast: "Кастинг сокрушающей брони"  #Машинный перевод 28.10.23!
- healing_water_toast: "Применить целебную воду"  #Машинный перевод 28.10.23!
- crush_armor_toast_rejection: "Не могу кастовать на себя"  #Машинный перевод 28.10.23!
- kemsar_water_spell_toast: "Применить Генерировать воду"  #Машинный перевод 28.10.23!
- unraveling_toast: "Распутывание актеров"  #Машинный перевод 28.10.23!
+ thralldom_toast: "В ролях Рабство"  
+ vampiric_toast: "Применение Вампирического истощения"  
+ magic_cannibalism_toast: "Потребление энергии"  
+ thinning_toast: "Литое истончение"  
+ poison_toast: "Применить яд"  
+ domination_toast: "Доминирование актеров"  
+ strengthening_toast: "Усиление актерского состава"  
+ fire_toast: "Применить Магию Огня"  
+ mending_toast: "Починка актеров"  
+ purification_toast: "Очищение актеров"  
+ unveiling_toast: "Раскрытие актерского состава"  
+ creation_toast: "Создание актеров"  
+ plant_growth_toast: "В ролях Зеленый рост"  
+ divination_toast: "Кастовое гадание"  
+ undead_living_toast: "В ролях: Поднять кровавых рабов"  
+ purge_region_toast: "Область Очистки Cast"  
+ annihilation_toast: "В ролях Аннигиляция"  
+ quicken_toast: "В ролях Квикен"  
+ battle_rage_toast: "Применить боевую ярость"  
+ undead_dead_toast: "Применить Поднятие скелетов"  
+ lead_to_gold_toast: "Отлить свинец к золоту"  
+ craft_golems_toast: "Литые ремесленные големы"  
+ stone_serpent_toast: "Литой каменный змей"  
+ necrotic_boon_toast: "Применить Некротический дар"  
+ pull_meteor_toast: "Литой Метеор Притяжения"  
+ earthquake_toast: "В ролях Землетрясение"  
+ improve_soil_toast: "Литое укрепление почвы"  
+ earth_fort_toast: "Кастовать укреплние подземелья"  
+ raise_earth_toast: "В ролях Поднять Землю"  
+ petrify_toast: "В ролях Окаменение"  
+ stoneskin_toast: "Литая каменная кожа"  
+ find_minerals_toast: "Литые минералы"  
+ enchant_arms_toast: "Наложить чары на оружие"  
+ moon_read_toast: "В ролях Рид Мун"  
+ moon_guidance_toast: "Используйте «Наставление Аэрвалра»"  
+ riftmark_toast: "Применить Рифтмарк"  
+ greater_fogbeast_toast: "Призвать Большого Туманного Зверя"  
+ craft_greater_golem_toast: "Литое ремесло Большого голема"  
+ _toast: "Литье"  
+ necrotic_vitality_toast: "Применить Некромантическую Энергию"  
+ summon_fog_toast: "Применить вызов тумана"  
+ summon_fogbeasts_toast: "Призыв малых туманных зверей"  
+ obliterate_memories_toast: "Наложите «Стирающие воспоминания»"  
+ rift_walk_toast: "В ролях"  
+ haunting_power_toast: "Используйте Призрачную силу"  
+ crush_armor_toast: "Кастинг сокрушающей брони"  
+ healing_water_toast: "Применить целебную воду"  
+ crush_armor_toast_rejection: "Не могу кастовать на себя"  
+ kemsar_water_spell_toast: "Применить Генерировать воду"  
+ unraveling_toast: "Распутывание актеров"  
   
- magic_prowess_duel_tt: "@magic_icon!#E Магическое мастерство#! Испытание против [opponent.GetTitledFirstName]"  #Машинный перевод 28.10.23!
+ magic_prowess_duel_tt: "@magic_icon!#E Магическое мастерство#! Испытание против [opponent.GetTitledFirstName]"  
   
   ########### 
   # POTIONS # 
   ########### 
   
- standard_potion_strength: "Зелье силы (стандартное)"  #Машинный перевод 28.10.23!
- standard_potion_skill: "Зелье умения (стандартное)"  #Машинный перевод 28.10.23!
- standard_potion_fertility: "Зелье мужественности (стандартное)"  #Машинный перевод 28.10.23!
- standard_potion_magic: "Зелье магии (стандартное)"  #Машинный перевод 28.10.23!
- standard_potion_experience: "Зелье опыта (стандартное)"  #Машинный перевод 28.10.23!
- standard_potion_life: "Зелье силы (стандартное)"  #Машинный перевод 28.10.23!
+ standard_potion_strength: "Зелье силы (стандартное)"  
+ standard_potion_skill: "Зелье умения (стандартное)"  
+ standard_potion_fertility: "Зелье мужественности (стандартное)"  
+ standard_potion_magic: "Зелье магии (стандартное)"  
+ standard_potion_experience: "Зелье опыта (стандартное)"  
+ standard_potion_life: "Зелье силы (стандартное)"  
   
   ############ 
   # TOOLTIPS # 
   ############ 
   
- spell_fails_tt: "#N Заклинание не работает!#!"  #Машинный перевод 28.10.23!
- spell_backfires_tt: "#N Заклинание имеет неприятные последствия!#!"  #Машинный перевод 28.10.23!
- spell_redirected_tt: "#N Заклинание перенаправляется обратно на вас!#!"  #Машинный перевод 28.10.23!
- will_increase_overwhelmation_extreme_tt: "#N Это увеличит ваше подавление до смертельного уровня! #!"  #Машинный перевод 28.10.23!
- will_increase_overwhelmation_advanced_tt: "#N Это увеличит ваше подавление до чрезвычайно опасного уровня! #!"  #Машинный перевод 28.10.23!
- will_increase_overwhelmation_standard_tt: "#N Это увеличит вашу подавленность до опасного уровня! #!"  #Машинный перевод 28.10.23!
- may_increase_overwhelmation_tt: "#N Поскольку вы будете физически вовлечены в ритуал, это может усилить ваше перенапряжение, если использовать его слишком часто! #!"  #Машинный перевод 28.10.23!
- will_kill_tt: "[victim.GetName|E] умирает!"  #Машинный перевод 28.10.23!
- will_utterly_dominate_tt: "В течение 15 дней вы возьмете на себя полный контроль над своей жертвой и сможете причинять ей любые разрушения, какие пожелаете."  #Машинный перевод 28.10.23!
- dominate_dont_die_tt: "#N Если вы или они умрете в течение этого времени, вы не сможете вернуться в свое тело!#!"  #Машинный перевод 28.10.23!
- dominate_release_from_prison_tt: "Они временно освободятся из тюрьмы, но вернутся в плен, когда истечет срок вашего господства."  #Машинный перевод 28.10.23!
- dominate_cant_imprison_war_targets_tooltip: "#N Вы не можете заключать в тюрьму цели [war|E]."  #Машинный перевод 28.10.23!
- consumes_crime_reasons_tt: "Если у них есть какие-либо причины для тюремного заключения против вас, они их потеряют."  #Машинный перевод 28.10.23!
- domination_upon_return_tt: "По возвращении в собственное тело умственное напряжение контроля над телом другого человека окажет на вас следующие последствия:"  #Машинный перевод 28.10.23!
- relationship_changes_temporary_tt: "Любые изменения в отношениях носят временный характер и обнулятся через 5 лет!"  #Машинный перевод 28.10.23!
- wasteland_potential_tt: "[affected_county.GetName|E] будет превращен в пустошь, если уровень развития снизится до 0."  #Машинный перевод 28.10.23!
- wasteland_effect_tt: "[ruined_county.GetName|E] превратился в пустошь!"  #Машинный перевод 28.10.23!
- injury_potential_micro_tt: "Персонажи в [affected_county.GetName|E] имеют очень небольшой шанс быть ранеными или убитыми."  #Машинный перевод 28.10.23!
- injury_potential_micro_neighbour_tt: "Персонажи в графствах, соседних с [affected_county.GetName|E], имеют очень небольшой шанс быть ранеными или убитыми."  #Машинный перевод 28.10.23!
- injury_potential_small_tt: "Персонажи в [affected_county.GetName|E] имеют небольшой шанс быть ранеными или убитыми."  #Машинный перевод 28.10.23!
- injury_potential_large_tt: "Персонажи в [affected_county.GetName|E], скорее всего, будут ранены или убиты."  #Машинный перевод 28.10.23!
- smash_holding_potential.tt: "Все здания в случайной провинции в [affected_county.GetName|E] будут разрушены, если уровень развития снизится до 0."  #Машинный перевод 28.10.23!
- smash_all_holdings_and_neighbours_potential.tt: "Все здания в [affected_county.GetName|E] (или любом соседнем округе) будут разрушены, если уровень развития снизится до 0."  #Машинный перевод 28.10.23!
- smash_holding_normal.tt: "Все здания в [affected_province.GetName|E] разрушены!"  #Машинный перевод 28.10.23!
- smash_holding_metropolis.tt: "Район мегаполиса [affected_province.GetName|E] разрушен и теперь представляет собой руины!"  #Машинный перевод 28.10.23!
- smash_all_holdings.tt: "Все здания в [affected_county.GetName|E] разрушены!"  #Машинный перевод 28.10.23!
- rift_walk_army_valid_10_tt: "Ничего не произошло! (Вы должны командовать армией численностью не более 500 человек и выбрать титул)."  #Машинный перевод 28.10.23!
- rift_walk_army_valid_100_tt: "Ничего не произошло! (Вы должны командовать армией численностью не более 1000 человек и выбрать титул)."  #Машинный перевод 28.10.23!
- rift_walk_army_valid_1000_tt: "Ничего не произошло! (Вы должны командовать армией численностью не более 5000 человек и выбрать титул)."  #Машинный перевод 28.10.23!
- rift_walk_army_valid_5000_tt: "Ничего не произошло! (Вы должны командовать армией численностью не более 10 000 человек и выбрать титул)."  #Машинный перевод 28.10.23!
- rift_walk_army_valid_10000_tt: "Ничего не произошло! (Вы должны командовать армией численностью не более 50 000 человек и выбрать титул)."  #Машинный перевод 28.10.23!
- rift_walk_army_valid_50000_tt: "Ничего не произошло! (Вы должны командовать армией численностью более 50 000 человек и выбрать титул)."  #Машинный перевод 28.10.23!
- rift_walk_army_invalid_tt: "Ничего не произошло! (Вы должны использовать это заклинание на более высоком уровне)."  #Машинный перевод 28.10.23!
+ spell_fails_tt: "#N Заклинание не работает!#!"  
+ spell_backfires_tt: "#N Заклинание имеет неприятные последствия!#!"  
+ spell_redirected_tt: "#N Заклинание перенаправляется обратно на вас!#!"  
+ will_increase_overwhelmation_extreme_tt: "#N Это увеличит ваше подавление до смертельного уровня! #!"  
+ will_increase_overwhelmation_advanced_tt: "#N Это увеличит ваше подавление до чрезвычайно опасного уровня! #!"  
+ will_increase_overwhelmation_standard_tt: "#N Это увеличит вашу подавленность до опасного уровня! #!"  
+ may_increase_overwhelmation_tt: "#N Поскольку вы будете физически вовлечены в ритуал, это может усилить ваше перенапряжение, если использовать его слишком часто! #!"  
+ will_kill_tt: "[victim.GetName|E] умирает!"  
+ will_utterly_dominate_tt: "В течение 15 дней вы возьмете на себя полный контроль над своей жертвой и сможете причинять ей любые разрушения, какие пожелаете."  
+ dominate_dont_die_tt: "#N Если вы или они умрете в течение этого времени, вы не сможете вернуться в свое тело!#!"  
+ dominate_release_from_prison_tt: "Они временно освободятся из тюрьмы, но вернутся в плен, когда истечет срок вашего господства."  
+ dominate_cant_imprison_war_targets_tooltip: "#N Вы не можете заключать в тюрьму цели [war|E]."  
+ consumes_crime_reasons_tt: "Если у них есть какие-либо причины для тюремного заключения против вас, они их потеряют."  
+ domination_upon_return_tt: "По возвращении в собственное тело умственное напряжение контроля над телом другого человека окажет на вас следующие последствия:"  
+ relationship_changes_temporary_tt: "Любые изменения в отношениях носят временный характер и обнулятся через 5 лет!"  
+ wasteland_potential_tt: "[affected_county.GetName|E] будет превращен в пустошь, если уровень развития снизится до 0."  
+ wasteland_effect_tt: "[ruined_county.GetName|E] превратился в пустошь!"  
+ injury_potential_micro_tt: "Персонажи в [affected_county.GetName|E] имеют очень небольшой шанс быть ранеными или убитыми."  
+ injury_potential_micro_neighbour_tt: "Персонажи в графствах, соседних с [affected_county.GetName|E], имеют очень небольшой шанс быть ранеными или убитыми."  
+ injury_potential_small_tt: "Персонажи в [affected_county.GetName|E] имеют небольшой шанс быть ранеными или убитыми."  
+ injury_potential_large_tt: "Персонажи в [affected_county.GetName|E], скорее всего, будут ранены или убиты."  
+ smash_holding_potential.tt: "Все здания в случайной провинции в [affected_county.GetName|E] будут разрушены, если уровень развития снизится до 0."  
+ smash_all_holdings_and_neighbours_potential.tt: "Все здания в [affected_county.GetName|E] (или любом соседнем округе) будут разрушены, если уровень развития снизится до 0."  
+ smash_holding_normal.tt: "Все здания в [affected_province.GetName|E] разрушены!"  
+ smash_holding_metropolis.tt: "Район мегаполиса [affected_province.GetName|E] разрушен и теперь представляет собой руины!"  
+ smash_all_holdings.tt: "Все здания в [affected_county.GetName|E] разрушены!"  
+ rift_walk_army_valid_10_tt: "Ничего не произошло! (Вы должны командовать армией численностью не более 500 человек и выбрать титул)."  
+ rift_walk_army_valid_100_tt: "Ничего не произошло! (Вы должны командовать армией численностью не более 1000 человек и выбрать титул)."  
+ rift_walk_army_valid_1000_tt: "Ничего не произошло! (Вы должны командовать армией численностью не более 5000 человек и выбрать титул)."  
+ rift_walk_army_valid_5000_tt: "Ничего не произошло! (Вы должны командовать армией численностью не более 10 000 человек и выбрать титул)."  
+ rift_walk_army_valid_10000_tt: "Ничего не произошло! (Вы должны командовать армией численностью не более 50 000 человек и выбрать титул)."  
+ rift_walk_army_valid_50000_tt: "Ничего не произошло! (Вы должны командовать армией численностью более 50 000 человек и выбрать титул)."  
+ rift_walk_army_invalid_tt: "Ничего не произошло! (Вы должны использовать это заклинание на более высоком уровне)."  
   
   ######### 
   # HOOKS # 
   ######### 
   
- charm_hook_weak: "Незначительное очарование"  #Машинный перевод 28.10.23!
- charm_hook_strong: "Мощное очарование"  #Машинный перевод 28.10.23!
- domination_hook_weak: "Слабое доминирование"  #Машинный перевод 28.10.23!
- domination_hook_strong_short: "Умеренное доминирование"  #Машинный перевод 28.10.23!
- domination_hook_strong_long: "Мощное доминирование"  #Машинный перевод 28.10.23!
+ charm_hook_weak: "Незначительное очарование"  
+ charm_hook_strong: "Мощное очарование"  
+ domination_hook_weak: "Слабое доминирование"  
+ domination_hook_strong_short: "Умеренное доминирование"  
+ domination_hook_strong_long: "Мощное доминирование"  
   
   ############## 
   # ARMY NAMES # 
   ############## 
   
- ZOMBIE_HOST: "Кровавый хозяин"  #Машинный перевод 28.10.23!
- SKELETON_HOST: "Скелет-хозяин"  #Машинный перевод 28.10.23!
- UNDEAD_HORDE: "Орда нежити"  #Машинный перевод 28.10.23!
- GOLEM_HOST: "Армия големов"  #Машинный перевод 28.10.23!
- BLACKHORN_HOST: "Хозяин Черного Рога"  #Машинный перевод 28.10.23!
+ ZOMBIE_HOST: "Кровавый хозяин"  
+ SKELETON_HOST: "Скелет-хозяин"  
+ UNDEAD_HORDE: "Орда нежити"  
+ GOLEM_HOST: "Армия големов"  
+ BLACKHORN_HOST: "Хозяин Черного Рога"  
   
   ######################### 
   # SCRIPT VALUE TRIGGERS # 
   ######################### 
   
- education_living_magic_gte_1_tt: "У вас [GetTrait('education_living_magic_1').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- education_living_magic_gte_2_tt: "У вас [GetTrait('education_living_magic_2').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- education_living_magic_gte_3_tt: "У вас [GetTrait('education_living_magic_3').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- education_living_magic_gte_4_tt: "У вас [GetTrait('education_living_magic_4').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- education_dead_magic_gte_1_tt: "У вас [GetTrait('education_dead_magic_1').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- education_dead_magic_gte_2_tt: "У вас [GetTrait('education_dead_magic_2').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- education_dead_magic_gte_3_tt: "У вас [GetTrait('education_dead_magic_3').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- education_dead_magic_gte_4_tt: "У вас [GetTrait('education_dead_magic_4').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- education_mixed_magic_gte_1_tt: "У вас [GetTrait('education_mixed_magic_1').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- education_mixed_magic_gte_2_tt: "У вас [GetTrait('education_mixed_magic_2').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- education_mixed_magic_gte_3_tt: "У вас [GetTrait('education_mixed_magic_3').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- education_mixed_magic_gte_4_tt: "У вас [GetTrait('education_mixed_magic_4').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- education_any_magic_gte_1_tt: "У вас любое [magic|E] образование."  #Машинный перевод 28.10.23!
+ education_living_magic_gte_1_tt: "У вас [GetTrait('education_living_magic_1').GetName(GetNullCharacter)] или выше."  
+ education_living_magic_gte_2_tt: "У вас [GetTrait('education_living_magic_2').GetName(GetNullCharacter)] или выше."  
+ education_living_magic_gte_3_tt: "У вас [GetTrait('education_living_magic_3').GetName(GetNullCharacter)] или выше."  
+ education_living_magic_gte_4_tt: "У вас [GetTrait('education_living_magic_4').GetName(GetNullCharacter)] или выше."  
+ education_dead_magic_gte_1_tt: "У вас [GetTrait('education_dead_magic_1').GetName(GetNullCharacter)] или выше."  
+ education_dead_magic_gte_2_tt: "У вас [GetTrait('education_dead_magic_2').GetName(GetNullCharacter)] или выше."  
+ education_dead_magic_gte_3_tt: "У вас [GetTrait('education_dead_magic_3').GetName(GetNullCharacter)] или выше."  
+ education_dead_magic_gte_4_tt: "У вас [GetTrait('education_dead_magic_4').GetName(GetNullCharacter)] или выше."  
+ education_mixed_magic_gte_1_tt: "У вас [GetTrait('education_mixed_magic_1').GetName(GetNullCharacter)] или выше."  
+ education_mixed_magic_gte_2_tt: "У вас [GetTrait('education_mixed_magic_2').GetName(GetNullCharacter)] или выше."  
+ education_mixed_magic_gte_3_tt: "У вас [GetTrait('education_mixed_magic_3').GetName(GetNullCharacter)] или выше."  
+ education_mixed_magic_gte_4_tt: "У вас [GetTrait('education_mixed_magic_4').GetName(GetNullCharacter)] или выше."  
+ education_any_magic_gte_1_tt: "У вас любое [Concept('magic','магиическое')|E] образование."  
   
- magi_potency_gte_1_tt: "У вас [GetTrait('magic_good_1').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- magi_potency_gte_2_tt: "У вас [GetTrait('magic_good_2').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- magi_potency_gte_3_tt: "У вас [GetTrait('magic_good_3').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- magi_potency_gte_4_tt: "У вас [GetTrait('magic_good_4').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- magi_potency_gte_5_tt: "У вас [GetTrait('magic_good_5').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- magi_potency_gte_6_tt: "У вас [GetTrait('magic_good_6').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- magi_potency_gte_7_tt: "У вас [GetTrait('magic_good_7').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- magi_potency_gte_8_tt: "У вас [GetTrait('magic_good_8').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- magi_potency_gte_9_tt: "У вас [GetTrait('magic_good_9').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- magi_potency_gte_10_tt: "У вас [GetTrait('magic_good_10').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- magi_potency_gte_11_tt: "У вас [GetTrait('magic_good_11').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- magi_potency_gte_12_tt: "У вас [GetTrait('magic_good_12').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- magi_potency_gte_13_tt: "У вас [GetTrait('magic_good_13').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- magi_potency_gte_14_tt: "У вас [GetTrait('magic_good_14').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- magi_potency_gte_15_tt: "У вас [GetTrait('magic_good_15').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- magi_potency_gte_16_tt: "У вас [GetTrait('magic_good_16').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- magi_potency_gte_17_tt: "У вас [GetTrait('magic_good_17').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- magi_potency_gte_18_tt: "У вас [GetTrait('magic_good_18').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- magi_potency_gte_19_tt: "У вас [GetTrait('magic_good_19').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
- magi_potency_gte_20_tt: "У вас [GetTrait('magic_good_20').GetName(GetNullCharacter)] или выше."  #Машинный перевод 28.10.23!
+ magi_potency_gte_1_tt: "У вас [GetTrait('magic_good_1').GetName(GetNullCharacter)] или выше."  
+ magi_potency_gte_2_tt: "У вас [GetTrait('magic_good_2').GetName(GetNullCharacter)] или выше."  
+ magi_potency_gte_3_tt: "У вас [GetTrait('magic_good_3').GetName(GetNullCharacter)] или выше."  
+ magi_potency_gte_4_tt: "У вас [GetTrait('magic_good_4').GetName(GetNullCharacter)] или выше."  
+ magi_potency_gte_5_tt: "У вас [GetTrait('magic_good_5').GetName(GetNullCharacter)] или выше."  
+ magi_potency_gte_6_tt: "У вас [GetTrait('magic_good_6').GetName(GetNullCharacter)] или выше."  
+ magi_potency_gte_7_tt: "У вас [GetTrait('magic_good_7').GetName(GetNullCharacter)] или выше."  
+ magi_potency_gte_8_tt: "У вас [GetTrait('magic_good_8').GetName(GetNullCharacter)] или выше."  
+ magi_potency_gte_9_tt: "У вас [GetTrait('magic_good_9').GetName(GetNullCharacter)] или выше."  
+ magi_potency_gte_10_tt: "У вас [GetTrait('magic_good_10').GetName(GetNullCharacter)] или выше."  
+ magi_potency_gte_11_tt: "У вас [GetTrait('magic_good_11').GetName(GetNullCharacter)] или выше."  
+ magi_potency_gte_12_tt: "У вас [GetTrait('magic_good_12').GetName(GetNullCharacter)] или выше."  
+ magi_potency_gte_13_tt: "У вас [GetTrait('magic_good_13').GetName(GetNullCharacter)] или выше."  
+ magi_potency_gte_14_tt: "У вас [GetTrait('magic_good_14').GetName(GetNullCharacter)] или выше."  
+ magi_potency_gte_15_tt: "У вас [GetTrait('magic_good_15').GetName(GetNullCharacter)] или выше."  
+ magi_potency_gte_16_tt: "У вас [GetTrait('magic_good_16').GetName(GetNullCharacter)] или выше."  
+ magi_potency_gte_17_tt: "У вас [GetTrait('magic_good_17').GetName(GetNullCharacter)] или выше."  
+ magi_potency_gte_18_tt: "У вас [GetTrait('magic_good_18').GetName(GetNullCharacter)] или выше."  
+ magi_potency_gte_19_tt: "У вас [GetTrait('magic_good_19').GetName(GetNullCharacter)] или выше."  
+ magi_potency_gte_20_tt: "У вас [GetTrait('magic_good_20').GetName(GetNullCharacter)] или выше."  
   
   ######################### 
   # INTERACTION BLOCKERS  # 
   ######################### 
- CANNOT_BE_TAKEN_UNDER_DOMINATION: "Это действие нельзя выполнить, пока он находится под доминированием, поскольку оно будет отменено этим персонажем сразу после окончания доминирования."  #Машинный перевод 28.10.23!
+ CANNOT_BE_TAKEN_UNDER_DOMINATION: "Это действие нельзя выполнить, пока он находится под доминированием, поскольку оно будет отменено этим персонажем сразу после окончания доминирования."  
   
   # interface messages 
- thought_theft_title: "Кража мыслей"  #Машинный перевод 28.10.23!
- thought_theft_desc: "Во сне я не нашел артефактов"  #Машинный перевод 28.10.23!
+ thought_theft_title: "Кража мыслей"  
+ thought_theft_desc: "Во сне я не нашел артефактов"  
   
   ######### 
   # CABAL # 
   ######### 
   
- cabal_invitation_pre_answer_key: "Вы укрепите свой [cabal|E]"  #Машинный перевод 28.10.23!
- cabal_invitation_interaction: "Пригласить в [cabal|E]"  #Машинный перевод 28.10.23!
- cabal_invitation_interaction_desc: "Попытайтесь пригласить этого человека в свой [cabal|E]."  #Машинный перевод 28.10.23!
- cabal_invitation_reply_key: "#T Приглашение Кабала#! \n[CHARACTER.GetUIName] хотело бы предложить вам должность в своем [cabal|E]. \п"  #Машинный перевод 28.10.23!
- cabal_invitation_notification_text: "Я считаю, что ты хорошо подходишь для моего [cabal|E]. Если вы согласитесь, я хотел бы вовлечь вас в наши ритуалы."  #Машинный перевод 28.10.23!
- remove_cabal_member_interaction: "Исключить из [cabal|E]"  #Машинный перевод 28.10.23!
- cabal_removal_interaction_desc: "Удалите этого человека из вашего [cabal|E]"  #Машинный перевод 28.10.23!
- cabal_removal_notification_text: "Я считаю, что будет лучше, если вы покинете наш [cabal|E]."  #Машинный перевод 28.10.23!
- removed_from_cabal_notification: "Исключен из [cabal|E]"  #Машинный перевод 28.10.23!
+ cabal_invitation_pre_answer_key: "Вы укрепите свою [Concept('cabal','группу заговорщиков'|E]"  
+ cabal_invitation_interaction: "Пригласить в [Concept('cabal','группу заговорщиков'|E]"  
+ cabal_invitation_interaction_desc: "Попытайтесь пригласить этого человека в свою [Concept('cabal','группу заговорщиков'|E]."  
+ cabal_invitation_reply_key: "#T Приглашение Кабала#! \n[CHARACTER.GetUIName] хотело бы предложить вам должность в своем [Concept('cabal','группу заговорщиков'|E]. \п"  
+ cabal_invitation_notification_text: "Я считаю, что ты хорошо подходишь для моего [cabal|E]. Если вы согласитесь, я хотел бы вовлечь вас в наши ритуалы."  
+ remove_cabal_member_interaction: "Исключить из [Concept('cabal','группы заговорщиков'|E]"  
+ cabal_removal_interaction_desc: "Удалите этого человека из вашей [Concept('cabal','группы заговорщиков'|E]"  
+ cabal_removal_notification_text: "Я считаю, что будет лучше, если вы покинете нашу [Concept('cabal','группу заговорщиков'|E]."  
+ removed_from_cabal_notification: "Исключен из [Concept('cabal','группы заговорщиков'|E]"  
   
- THEY_GET_A_CABAL_MASTER: "[CHARACTER.GetShortUIName|U] становится членом Кабала [TARGET_CHARACTER.GetShortUINamePossessive]"  #Машинный перевод 28.10.23!
- THEY_GOT_A_CABAL_MASTER: "[CHARACTER.GetShortUIName|U] стал членом Кабала [TARGET_CHARACTER.GetShortUINamePossessive]"  #Машинный перевод 28.10.23!
- THEY_LOSE_A_CABAL_MASTER: "[CHARACTER.GetShortUIName|U] больше не является членом Кабала [TARGET_CHARACTER.GetShortUINamePossessive]."  #Машинный перевод 28.10.23!
- GLOBAL_GET_A_CABAL_MASTER: "Получает [TARGET_CHARACTER.GetShortUIName] в качестве своего [cabal|_master|E]"  #Машинный перевод 28.10.23!
- GLOBAL_LOSE_A_CABAL_MASTER: "Теряет [TARGET_CHARACTER.GetShortUIName] как свой [cabal|_master|E]"  #Машинный перевод 28.10.23!
- GLOBAL_GOT_A_CABAL_MASTER: "Получил [TARGET_CHARACTER.GetShortUIName] в качестве своего [cabal|_master|E]"  #Машинный перевод 28.10.23!
- GLOBAL_LOST_A_CABAL_MASTER: "Потеряли [TARGET_CHARACTER.GetShortUIName] как свой [cabal|_master|E]"  #Машинный перевод 28.10.23!
- I_GET_A_CABAL_MASTER: "У вас [TARGET_CHARACTER.GetShortUIName] в качестве [cabal|_master|E]"  #Машинный перевод 28.10.23!
- I_GOT_A_CABAL_MASTER: "Вы потеряли [TARGET_CHARACTER.GetShortUIName] как свой [cabal|_master|E]"  #Машинный перевод 28.10.23!
- I_LOSE_A_CABAL_MASTER: "У вас [TARGET_CHARACTER.GetShortUIName] в качестве [cabal|_master|E]"  #Машинный перевод 28.10.23!
- I_LOST_A_CABAL_MASTER: "Вы потеряли [TARGET_CHARACTER.GetShortUIName] как свой [cabal|_master|E]"  #Машинный перевод 28.10.23!
- remove_relation_cabal_member_first: "Вы удаляете [TARGET_CHARACTER.GetShortUIName] из своего [cabal|E]"  #Машинный перевод 28.10.23!
- remove_relation_cabal_member: "[CHARACTER.GetTitledFirstName] удаляет [TARGET_CHARACTER.GetShortUIName] из своего [cabal|E]"  #Машинный перевод 28.10.23!
- remove_relation_cabal_member_global: "[TARGET_CHARACTER.GetShortUIName] Исключено"  #Машинный перевод 28.10.23!
- remove_relation_cabal_master_first: "Вы покидаете [TARGET_CHARACTER.GetTitledFirstNamePosessessive] [cabal|E]"  #Машинный перевод 28.10.23!
- remove_relation_cabal_master: "[CHARACTER.GetTitledFirstName] уходит [TARGET_CHARACTER.GetTitledFirstNamePosessessive] [cabal|E]"  #Машинный перевод 28.10.23!
- remove_relation_cabal_master_global: "Листья [TARGET_CHARACTER.GetTitledFirstNamePosessessive] [cabal|E]"  #Машинный перевод 28.10.23!
- has_cabal_room_limit_yes: "Предел Кабала: $colored_scoped_cabal_ratio$"  #Машинный перевод 28.10.23!
- has_cabal_limit_not: "Предел Кабала: #N $scoped_current_cabal_count$/$scoped_cabal_limit$#!"  #Машинный перевод 28.10.23!
- scoped_cabal_limit: "[Character.MakeScope.ScriptValue('cabal_limit')|0]"  #Машинный перевод 28.10.23!
- colored_scoped_cabal_ratio: "[Select_CString(LessThanOrEqualTo_CFixedPoint(Character.MakeScope.ScriptValue('cabal_limit'),Character.MakeScope.ScriptValue('current_cabal_count')),'#N','#P')] $scoped_cabal_ratio$#!"  #Машинный перевод 28.10.23!
- scoped_current_cabal_count: "[Character.MakeScope.ScriptValue('current_cabal_count')|0]"  #Машинный перевод 28.10.23!
- scoped_cabal_ratio: "$scoped_current_cabal_count$/$scoped_cabal_limit$#!"  #Машинный перевод 28.10.23!
- cabal_member: "[cabal_member|E]"  #Машинный перевод 28.10.23!
- cabal_master: "[cabal_master|E]"  #Машинный перевод 28.10.23!
+ THEY_GET_A_CABAL_MASTER: "[CHARACTER.GetShortUIName|U] становится членом Кабала [TARGET_CHARACTER.GetShortUINamePossessive]"  
+ THEY_GOT_A_CABAL_MASTER: "[CHARACTER.GetShortUIName|U] стал членом Кабала [TARGET_CHARACTER.GetShortUINamePossessive]"  
+ THEY_LOSE_A_CABAL_MASTER: "[CHARACTER.GetShortUIName|U] больше не является членом Кабала [TARGET_CHARACTER.GetShortUINamePossessive]."  
+ GLOBAL_GET_A_CABAL_MASTER: "Получает [TARGET_CHARACTER.GetShortUIName] в качестве своего [cabal|_master|E]"  
+ GLOBAL_LOSE_A_CABAL_MASTER: "Теряет [TARGET_CHARACTER.GetShortUIName] как свой [cabal|_master|E]"  
+ GLOBAL_GOT_A_CABAL_MASTER: "Получил [TARGET_CHARACTER.GetShortUIName] в качестве своего [cabal|_master|E]"  
+ GLOBAL_LOST_A_CABAL_MASTER: "Потеряли [TARGET_CHARACTER.GetShortUIName] как свой [cabal|_master|E]"  
+ I_GET_A_CABAL_MASTER: "У вас [TARGET_CHARACTER.GetShortUIName] в качестве [cabal|_master|E]"  
+ I_GOT_A_CABAL_MASTER: "Вы потеряли [TARGET_CHARACTER.GetShortUIName] как свой [cabal|_master|E]"  
+ I_LOSE_A_CABAL_MASTER: "У вас [TARGET_CHARACTER.GetShortUIName] в качестве [cabal|_master|E]"  
+ I_LOST_A_CABAL_MASTER: "Вы потеряли [TARGET_CHARACTER.GetShortUIName] как свой [cabal|_master|E]"  
+ remove_relation_cabal_member_first: "Вы удаляете [TARGET_CHARACTER.GetShortUIName] из своего [cabal|E]"  
+ remove_relation_cabal_member: "[CHARACTER.GetTitledFirstName] удаляет [TARGET_CHARACTER.GetShortUIName] из своего [cabal|E]"  
+ remove_relation_cabal_member_global: "[TARGET_CHARACTER.GetShortUIName] Исключено"  
+ remove_relation_cabal_master_first: "Вы покидаете [TARGET_CHARACTER.GetTitledFirstNamePosessessive] [cabal|E]"  
+ remove_relation_cabal_master: "[CHARACTER.GetTitledFirstName] уходит [TARGET_CHARACTER.GetTitledFirstNamePosessessive] [cabal|E]"  
+ remove_relation_cabal_master_global: "Листья [TARGET_CHARACTER.GetTitledFirstNamePosessessive] [cabal|E]"  
+ has_cabal_room_limit_yes: "Предел Кабала: $colored_scoped_cabal_ratio$"  
+ has_cabal_limit_not: "Предел Кабала: #N $scoped_current_cabal_count$/$scoped_cabal_limit$#!"  
+ scoped_cabal_limit: "[Character.MakeScope.ScriptValue('cabal_limit')|0]"  
+ colored_scoped_cabal_ratio: "[Select_CString(LessThanOrEqualTo_CFixedPoint(Character.MakeScope.ScriptValue('cabal_limit'),Character.MakeScope.ScriptValue('current_cabal_count')),'#N','#P')] $scoped_cabal_ratio$#!"  
+ scoped_current_cabal_count: "[Character.MakeScope.ScriptValue('current_cabal_count')|0]"  
+ scoped_cabal_ratio: "$scoped_current_cabal_count$/$scoped_cabal_limit$#!"  
+ cabal_member: "[cabal_member|E]"  
+ cabal_master: "[cabal_master|E]"  
   
- familiar: "Привычный"  #Машинный перевод 28.10.23!
- familiar_master: "Владелец"  #Машинный перевод 28.10.23!
+ familiar: "Привычный"  
+ familiar_master: "Владелец"  
   
- I_GET_A_FAMILIAR: "Вы получили [TARGET_CHARACTER.GetShortUIName] в качестве фамильяра"  #Машинный перевод 28.10.23!
- I_GOT_A_FAMILIAR: "Вы получили [TARGET_CHARACTER.GetShortUIName] в качестве фамильяра"  #Машинный перевод 28.10.23!
+ I_GET_A_FAMILIAR: "Вы получили [TARGET_CHARACTER.GetShortUIName] в качестве фамильяра"  
+ I_GOT_A_FAMILIAR: "Вы получили [TARGET_CHARACTER.GetShortUIName] в качестве фамильяра"  
   
   ## ARCANA 
   
- TRAIT_FLAG_DESC_arcana_add: "[arcana|E]: @arcana_icon![SelectLocalization(GreaterThan_CFixedPoint(GuiScope.ScriptValue(Concatenate(Trait.GetKey, '_character_arcana_value')),'(CFixedPoint)0'),'#positive_value +','#negative_value ')][GuiScope.ScriptValue(Concatenate(Trait.GetKey, '_character_arcana_value'))]"  #Машинный перевод 28.10.23!
- arcana_base_value_desc: "База"  #Машинный перевод 28.10.23!
+ TRAIT_FLAG_DESC_arcana_add: "[arcana|E]: @arcana_icon![SelectLocalization(GreaterThan_CFixedPoint(GuiScope.ScriptValue(Concatenate(Trait.GetKey, '_character_arcana_value')),'(CFixedPoint)0'),'#positive_value +','#negative_value ')][GuiScope.ScriptValue(Concatenate(Trait.GetKey, '_character_arcana_value'))]"  
+ arcana_base_value_desc: "База"  
   

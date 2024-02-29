@@ -1,14 +1,14 @@
 ﻿l_russian:
- NECROPOLIS_TITLE_NAME: "Некрополь [special_county.GetNameNoTierNoTooltip]"  #Машинный перевод 28.10.23!
- #NECROPOLIS_TITLE_NAME: "Некрополь"  #Машинный перевод 28.10.23!
- lich_name_sorrow: "Печаль"  #Машинный перевод 28.10.23!
- lich_name_shadows: "Тени"  #Машинный перевод 28.10.23!
- lich_name_torment: "Мучение"  #Машинный перевод 28.10.23!
- lich_name_unending_horror: "Бесконечный ужас"  #Машинный перевод 28.10.23!
- lich_name_the_abyss: "пропасть"  #Машинный перевод 28.10.23!
- lich_name_the_golden_skull: "Золотой Череп"  #Машинный перевод 28.10.23!
- lich_name_the_god_ruler: "Бог-Правитель"  #Машинный перевод 28.10.23!
- lich_name_the_death_bringer: "Несущий Смерть"  #Машинный перевод 28.10.23!
- lich_name_the_moaning_dead: "Стонущие мертвецы"  #Машинный перевод 28.10.23!
- lich_name_lost_souls: "Потерянные души"  #Машинный перевод 28.10.23!
- lich_name_darkness: "Тьма"  #Машинный перевод 28.10.23!
+ NECROPOLIS_TITLE_NAME: "Некрополь [special_county.GetNameNoTierNoTooltip]"  
+ #NECROPOLIS_TITLE_NAME: "Некрополь"  
+ lich_name_sorrow: "Печаль"  
+ lich_name_shadows: "Тени"  
+ lich_name_torment: "Мучение"  
+ lich_name_unending_horror: "Бесконечный ужас"  
+ lich_name_the_abyss: "Пропасть"  
+ lich_name_the_golden_skull: "Золотой Череп"  
+ lich_name_the_god_ruler: "Бог-Правитель"  
+ lich_name_the_death_bringer: "Несущий Смерть"  
+ lich_name_the_moaning_dead: "Стонущие мертвецы"  
+ lich_name_lost_souls: "Потерянные души"  
+ lich_name_darkness: "Тьма"  

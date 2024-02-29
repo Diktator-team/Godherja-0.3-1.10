@@ -1,16 +1,65 @@
 ﻿l_russian:
+ education_arcana: "Аркана Образования"  
+ education_arcana_desc: "Изучение арканы, сверхъестественных и магических тайн [Concept('aeras','Аэраса')|E] ."  
+ education_arcana_tt.affinity: "\n\n#P [ROOT.Char.Custom('ChildhoodPersonalityTrait')] дети часто преуспевают в Аркане Образования.#!"  
+ education_arcana_tt.disaffinity: "\n\n#N [ROOT.Char.Custom('ChildhoodPersonalityTrait')] дети могут столкнуться с трудностями в Аркане Образования.#!"  
+ education_arcana_effect_desc: "Выбор этого [education_focus|E] также будет иметь следующие эффекты:\n\n#P +1#! @skill_arcana_icon![Concept('arcana','аркана')|E]"  
+ education_arcana_modifier: "Аркана Образования"  
   
-  # Enrichment 
- adventure_lifestyle_name: "Обогащение"  #Машинный перевод 28.10.23!
- adventure_lifestyle_desc: "Сосредоточьтесь на углублении и обогащении души... или своего кармана посредством личных усилий."  #Машинный перевод 28.10.23!
- adventure_lifestyle_highlight_desc: "Благодаря вашему [adventurer|E] [trait|E] вы получаете #P [GetPlayer.Custom('GetEducationLifestylePercentageBoost')]#! ещё [experience|E] в этом образе жизни."  #Машинный перевод 28.10.23!
+ arcana_lifestyle_name: "Арканы"  
+ arcana_lifestyle_desc: "Сосредоточьтесь на раскрытии тайн [Concept('aeras','Аэраса')|E]."  
+ arcana_lifestyle_highlight_desc: "Благодаря вашему Аркане [Concept('education','образования')|E] вы получаете #P [GetPlayer.Custom('GetEducationLifestylePercentageBoost')]#! больше [Concept('experience','опыта')|E] в этом образе жизни."  
+ arcana_actuation_focus: "Активация Фокус"  
+ arcana_actuation_focus_modifier: "[GetFocus('arcana_actuation_focus').GetName]"  
+ arcana_actuation_focus_desc: "Действие и реакция. Понимание скрытых истин."  
+ arcana_actuation_focus_effect_desc: "Сосредоточение внимания на арканых экспериментах:\n\n#P +1#! @skill_arcana_icon![Concept('arcana','аркана')|E]\n#P от +5#! до #E шанса на успех заклинания#!"  
+ arcana_erudition_focus: "Эрудиция Фокус"  
+ arcana_erudition_focus_modifier: "[GetFocus('arcana_erudition_focus').GetName]"  
+ arcana_erudition_focus_desc: "Познание сил древних и новых."  
+ arcana_erudition_focus_effect_desc: "Сосредоточимся на арканых исследованиях:\n\n#P +3#! @skill_arcana_icon![Concept('arcana','аркана')|E]"  
+ arcana_cognition_focus: "Когнитивный фокус"  
+ arcana_cognition_focus_modifier: "[GetFocus('arcana_cognition_focus').GetName]"  
+ arcana_cognition_focus_desc: "Тайны, погребенные в утерянных книгах и под древними камнями, опасны, как никогда"  
+ arcana_cognition_focus_effect_desc: "Сосредоточение внимания на исследованиях материалов:\n\n#P +2#! @skill_arcana_icon![Concept('arcana','аркана')|E]\n#P +25%#! [magic|E] #E Регенерация#!"  
   
- adventure_glory_focus: "Слава Фокус"  #Машинный перевод 28.10.23!
- adventure_glory_focus_desc: "Иметь имя, которое будут помнить – вот истинное призвание жизни."  #Машинный перевод 28.10.23!
- adventure_glory_focus_effect_desc: "Фокус на грантах славы:\n\n#!Gain [dynasty_prestige|E] из [journeys|E]"  #Машинный перевод 28.10.23!
- adventure_fortune_focus: "Фортуна Фокус"  #Машинный перевод 28.10.23!
- adventure_fortune_focus_desc: "[aeras|E] полон богатств, которые готовы собрать те, кто желает испачкать руки."  #Машинный перевод 28.10.23!
- adventure_fortune_focus_effect_desc: "Сосредоточение внимания на грантах Фортуны:\n\n#!Gain дополнительных [gold|E] из [journeys|E]"  #Машинный перевод 28.10.23!
- adventure_enlightenment_focus: "Просвещение Фокус"  #Машинный перевод 28.10.23!
- adventure_enlightenment_focus_desc: "Самая большая радость – это познать глубину мира."  #Машинный перевод 28.10.23!
- adventure_enlightenment_focus_effect_desc: "Фокус на грантах Просвещения:\n\n#!Can получает [skills|E] от [journeys|E]\n[guest|E] Стоимость найма: [gold_i]#P -15%#!"  #Машинный перевод 28.10.23!
+ arcana_prowess_potential_tt: "#P +3#! @magic_icon!#E Магическое мастерство#!"  
+ arcane_defense_tt: "#P +10#! @magic_icon!#E Сопротивление магии#!"  
+ arcane_relief_tt: "Потеряйте [Concept('stress','стресс')|E], получив @magic_icon![Concept('magic','магию')|E] от заклинаний."  
+ arcana_spellcasting_success_bonus_tt: "#P +8#! #E Шанс на успех заклинания#!"  
+ arcana_extended_baseline_bonus_tt: "@magic_icon! #P от +25#! до [Concept('extended_magic_baseline','расширенное магическое основание')|E] за [Concept('title_tier','титульный уровень'|E]"  
+ arcana_secret_knowledge_perk_effect: "#P +10#! #E Шанс открытия заклинаний#!"  
+  
+  
+  # ARCANA PERKS 
+ arcana_tree1_name: "Активация"  
+ arcana_actuation_perk1_tree1_name: "Целенаправленный кастинг"  
+ arcana_actuation_perk2_tree1_name: "Заклинания"  
+ arcana_actuation_perk3_tree1_name: "Медитативные трансы"  
+ arcana_actuation_perk4_tree1_name: "Дополненные заклинания"  
+ arcana_actuation_perk5_tree1_name: "Мощное сопротивление"  
+ arcana_actuation_perk6_tree1_name: "Сверхъестественное открытие"  
+ arcana_actuation_perk7_tree1_name: "Неукротимый"  
+ arcana_actuation_perk8_tree1_name: "Спящие мутации"  
+ arcana_actuation_perk9_tree1_name: "Трансмутург"  
+  
+ arcana_tree2_name: "Познание"  
+ arcana_cognition_perk1_tree2_name: "Глаз Пловца"  
+ arcana_cognition_perk2_tree2_name: "Места силы"  
+ arcana_cognition_perk3_tree2_name: "Мистическое восприятие"  
+ arcana_cognition_perk4_tree2_name: "Эффективная Теургия"  
+ arcana_cognition_perk5_tree2_name: "Настроенное оборудование"  
+ arcana_cognition_perk6_tree2_name: "Сохранение ауры"  
+ arcana_cognition_perk7_tree2_name: "Парейдолическое поглощение"  
+ arcana_cognition_perk8_tree2_name: "Эфирные наручники"  
+ arcana_cognition_perk9_tree2_name: "Арканист"  
+  
+ arcana_tree3_name: "Эрудиция"  
+ arcana_erudition_perk1_tree3_name: "Волшебная стипендия"  
+ arcana_erudition_perk2_tree3_name: "Чародейские стрессоры"  
+ arcana_erudition_perk3_tree3_name: "Глаз для таланта"  
+ arcana_erudition_perk4_tree3_name: "Ораторское искусство"  
+ arcana_erudition_perk5_tree3_name: "Заклинатель"  
+ arcana_erudition_perk6_tree3_name: "Тауматургические инструкции"  
+ arcana_erudition_perk7_tree3_name: "Усиленный Магистр"  
+ arcana_erudition_perk8_tree3_name: "Доктор Магии"  
+ arcana_erudition_perk9_tree3_name: "Мудрец"  
