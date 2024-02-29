@@ -1,23 +1,23 @@
 ﻿l_russian:
- TRAIT_FLAG_DESC_character_magic_baseline_add: "[magic|E] #E Baseline#!:@magic_icon![SelectLocalization(GreaterThan_CFixedPoint(GuiScope.SetRoot(GetPlayer.MakeScope).ScriptValue(Concatenate(Trait.GetKey, '_magic_baseline_add'))'(CFixedPoint)0'),'#positive_value +','#negative_value')][GuiScope.SetRoot(GetPlayer.MakeScope).ScriptValue(Concatenate(Trait.GetKey, '_magic_baseline_add'))]#!" #Машинный перевод 28.10.23
- TRAIT_FLAG_DESC_character_magic_prowess_add: "[magic|E] #E Доблесть#!: [SelectLocalization(GreaterThan_CFixedPoint(GuiScope.SetRoot(GetPlayer.MakeScope).ScriptValue(Concatenate(Trait.GetKey, '_magic_prowess_add')),'(CFixedPoint)0'),'#positive_value +','#negative_value')][GuiScope.SetRoot(GetPlayer.MakeScope).ScriptValue(Concatenate(Trait.GetKey, '_magic_prowess_add'))]#!" #Машинный перевод 28.10.23
+ TRAIT_FLAG_DESC_character_magic_baseline_add: "[Concept('magic','Магия')|E] #E Baseline#!:@magic_icon![SelectLocalization(GreaterThan_CFixedPoint(GuiScope.SetRoot(GetPlayer.MakeScope).ScriptValue(Concatenate(Trait.GetKey, '_magic_baseline_add'))'(CFixedPoint)0'),'#positive_value +','#negative_value')][GuiScope.SetRoot(GetPlayer.MakeScope).ScriptValue(Concatenate(Trait.GetKey, '_magic_baseline_add'))]#!" 
+ TRAIT_FLAG_DESC_character_magic_prowess_add: "[Concept('magic','Магия')|E] #E Доблесть#!: [SelectLocalization(GreaterThan_CFixedPoint(GuiScope.SetRoot(GetPlayer.MakeScope).ScriptValue(Concatenate(Trait.GetKey, '_magic_prowess_add')),'(CFixedPoint)0'),'#positive_value +','#negative_value')][GuiScope.SetRoot(GetPlayer.MakeScope).ScriptValue(Concatenate(Trait.GetKey, '_magic_prowess_add'))]#!" 
   
- TRAIT_FLAG_DESC_character_judicial_power_5: "#E Судебная власть#!:@judicial_power_icon!#positive_value +5#!" #Машинный перевод 28.10.23
- TRAIT_FLAG_DESC_character_judicial_power_10: "#E Судебная власть#!:@judicial_power_icon!#positive_value +10#!" #Машинный перевод 28.10.23
- TRAIT_FLAG_DESC_character_judicial_power_15: "#E Судебная власть#!:@judicial_power_icon!#positive_value +15#!" #Машинный перевод 28.10.23
- TRAIT_FLAG_DESC_character_judicial_power_20: "#E Судебная власть#!:@judicial_power_icon!#positive_value +20#!" #Машинный перевод 28.10.23
- TRAIT_FLAG_DESC_character_judicial_power_25: "#E Судебная власть#!:@judicial_power_icon!#positive_value +25#!" #Машинный перевод 28.10.23
+ TRAIT_FLAG_DESC_character_judicial_power_5: "#E Судебная власть#!:@judicial_power_icon!#positive_value +5#!" 
+ TRAIT_FLAG_DESC_character_judicial_power_10: "#E Судебная власть#!:@judicial_power_icon!#positive_value +10#!" 
+ TRAIT_FLAG_DESC_character_judicial_power_15: "#E Судебная власть#!:@judicial_power_icon!#positive_value +15#!" 
+ TRAIT_FLAG_DESC_character_judicial_power_20: "#E Судебная власть#!:@judicial_power_icon!#positive_value +20#!" 
+ TRAIT_FLAG_DESC_character_judicial_power_25: "#E Судебная власть#!:@judicial_power_icon!#positive_value +25#!" 
   
- TRAIT_FLAG_DESC_character_judicial_power_factor_10: "#E Судебная власть#!:@judicial_power_icon!#positive_value +10%#!" #Машинный перевод 28.10.23
- TRAIT_FLAG_DESC_character_judicial_power_factor_25: "#E Судебная власть#!:@judicial_power_icon!#positive_value +25%#!" #Машинный перевод 28.10.23
- TRAIT_FLAG_DESC_character_judicial_power_factor_50: "#E Судебная власть#!:@judicial_power_icon!#positive_value +50%#!" #Машинный перевод 28.10.23
- TRAIT_FLAG_DESC_character_judicial_power_factor_100: "#E Судебная власть#!:@judicial_power_icon!#positive_value +100%#!" #Машинный перевод 28.10.23
- TRAIT_FLAG_DESC_character_judicial_power_factor_200: "#E Судебная власть#!:@judicial_power_icon!#positive_value +200%#!" #Машинный перевод 28.10.23
+ TRAIT_FLAG_DESC_character_judicial_power_factor_10: "#E Судебная власть#!:@judicial_power_icon!#positive_value +10%#!" 
+ TRAIT_FLAG_DESC_character_judicial_power_factor_25: "#E Судебная власть#!:@judicial_power_icon!#positive_value +25%#!" 
+ TRAIT_FLAG_DESC_character_judicial_power_factor_50: "#E Судебная власть#!:@judicial_power_icon!#positive_value +50%#!" 
+ TRAIT_FLAG_DESC_character_judicial_power_factor_100: "#E Судебная власть#!:@judicial_power_icon!#positive_value +100%#!" 
+ TRAIT_FLAG_DESC_character_judicial_power_factor_200: "#E Судебная власть#!:@judicial_power_icon!#positive_value +200%#!" 
   
- TRAIT_FLAG_DESC_can_preside_over_legal_cases: "Может председательствовать в рассмотрении #E судебных дел#!" #Машинный перевод 28.10.23
- TRAIT_FLAG_DESC_can_adopt_legal_tradition: "Может принять #E правовую традицию#!" #Машинный перевод 28.10.23
+ TRAIT_FLAG_DESC_can_preside_over_legal_cases: "Может председательствовать в рассмотрении #E судебных дел#!" 
+ TRAIT_FLAG_DESC_can_adopt_legal_tradition: "Может принять #E правовую традицию#!" 
   
- TRAIT_FLAG_DESC_can_not_access_magic: "Запрещено использовать [magic|E]" #Машинный перевод 28.10.23
- TRAIT_FLAG_DESC_informs_of_impending_death: "Будет знать о своей неминуемой смерти заблаговременно" #Машинный перевод 28.10.23
+ TRAIT_FLAG_DESC_can_not_access_magic: "Запрещено использовать [Concept('magic','магию')|E]" 
+ TRAIT_FLAG_DESC_informs_of_impending_death: "Будет знать о своей неминуемой смерти заблаговременно" 
   
- THIS_IS_YOU_MEGISTOS: "Это Мегистос, ты Мегистос, разве красота Мегистоса не дивна?" #Машинный перевод 28.10.23
+ THIS_IS_YOU_MEGISTOS: "Это Мегистос, ты Мегистос, разве красота Мегистоса не удивительна?" 
