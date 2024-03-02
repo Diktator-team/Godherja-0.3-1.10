@@ -12,7 +12,7 @@
  soulmate_pirates_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] соблазнил [CHARACTER.GetShortUIName|U] после того, как спас от пиратов." 
 
 # GH versions of BP custom loc
- relation_pathfellow:0 "путник" 
- relation_pactkin:0 "паккин" 
- relation_blood_brother:0 "кровный брат" 
- relation_blood_sister:0 "кровная сестра" 
+ relation_pathfellow:0 "Путник" 
+ relation_pactkin:0 "Паккин" 
+ relation_blood_brother:0 "Кровный брат" 
+ relation_blood_sister:0 "Кровная сестра" 
