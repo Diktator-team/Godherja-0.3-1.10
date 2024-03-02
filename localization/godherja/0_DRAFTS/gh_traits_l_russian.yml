@@ -52,64 +52,64 @@
  trait_magic_school_6: "$trait_magic_school_1$" 
  trait_magic_school_6_desc: "$trait_magic_school_1_desc$" 
   
- trait_education_living_magic: "Живая магия" #Машинный перевод 28.10.23
- trait_education_living_magic_latent: "Скрытые живые маги" #Машинный перевод 28.10.23
- trait_education_living_magic_latent_desc: "Персонаж со скрытым [living_magic|E] вообще не может использовать магию, но она спрятана глубоко внутри него." #Машинный перевод 28.10.23
- trait_education_living_magic_latent_character_desc: "В [ROOT.GetCharacter.GetFirstNameNoTooltip] спрятан [dead_magic|E]. Они не могут использовать какие-либо [living_magic|E]." #Машинный перевод 28.10.23
- trait_education_living_magic_1: "Новичок в живой магии" #Машинный перевод 28.10.23
- trait_education_living_magic_1_desc: "Новичок в [living_magic|E] обладает некоторыми базовыми навыками, как и [living_magi|E], но что-либо более сложное, чем самые базовые заклинания, ускользает от него. По статистике, они чаще совершают самоубийство, чем кто-либо другой." #Машинный перевод 28.10.23
- trait_education_living_magic_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] обладает некоторыми базовыми навыками, как [living_magi|E], но все, что сложнее самых простых заклинаний, ускользает от [ROOT.GetCharacter.GetHerHim]." #Машинный перевод 28.10.23
- trait_education_living_magic_2: "Живой адепт магии" #Машинный перевод 28.10.23
- trait_education_living_magic_2_desc: "Тщательно изучив искусство [living_magic|E], адепт становится компетентным [living_magi|E], имеющим под своим командованием несколько мощных способностей." #Машинный перевод 28.10.23
- trait_education_living_magic_2_character_desc: "Тщательно изучив искусство [living_magic|E], [ROOT.GetCharacter.GetFirstNameNoTooltip] стал компетентным [living_magi|E] с несколькими мощными способностями под командованием [ROOT.GetCharacter.GetHerHis]." #Машинный перевод 28.10.23
- trait_education_living_magic_3: "Живой эксперт по магии" #Машинный перевод 28.10.23
- trait_education_living_magic_3_desc: "Знаток искусства [living_magic|E], имя этого [magi|E] объединяет как страх, так и союзников. Используя свою власть над всеми аспектами искусства, целые города могли быть сровнены с землей одним движением руки такого могущественного [living_magi|E]." #Машинный перевод 28.10.23
- trait_education_living_magic_3_character_desc: "Имя [ROOT.GetCharacter.GetFirstNameNoTooltip], эксперта в искусстве [living_magic|E], объединяет как страх, так и союзников. Используя силу [ROOT.GetCharacter.GetHerHis] во всех аспектах искусства, целые города можно было сравнять с землей одним движением руки такого мощного [living_magi|E]." #Машинный перевод 28.10.23
- trait_education_living_magic_4: "Живой мастер магии" #Машинный перевод 28.10.23
- trait_education_living_magic_4_desc: "Настоящий гений в искусстве [living_magic|E], одного лишь взгляда мастера [magi|E] часто бывает достаточно, чтобы заставить армии разбегаться в страхе. [living_magi|E] легендарной славы, их сила сравнима только с величайшими из [magi|E] времен былых времен. Целые страны могли бы столкнуться со своей гибелью, если бы они действительно этого захотели." #Машинный перевод 28.10.23
- trait_education_living_magic_4_character_desc: "Одного вида [ROOT.GetCharacter.GetFirstNameNoTooltip] часто бывает достаточно, чтобы заставить армии разбегаться в страхе. [living_magi|E] легендарной славы, [ROOT.GetCharacter.GetHerHis] по силе сравнимы лишь с величайшими из [magi|E] прошлых времен. Целые нации могли бы столкнуться со своей гибелью, если бы [ROOT.GetCharacter.GetSheHe] действительно этого захотел." #Машинный перевод 28.10.23
+ trait_education_living_magic: "Живая магия" 
+ trait_education_living_magic_latent: "Скрытые живые маги" 
+ trait_education_living_magic_latent_desc: "Персонаж со скрытым [living_magic|E] вообще не может использовать магию, но она спрятана глубоко внутри него." 
+ trait_education_living_magic_latent_character_desc: "В [ROOT.GetCharacter.GetFirstNameNoTooltip] спрятан [dead_magic|E]. Они не могут использовать какие-либо [living_magic|E]." 
+ trait_education_living_magic_1: "Новичок в живой магии" 
+ trait_education_living_magic_1_desc: "Новичок в [living_magic|E] обладает некоторыми базовыми навыками, как и [Concept('living_magi','живая магия')|E], но что-либо более сложное, чем самые базовые заклинания, ускользает от него. По статистике, они чаще совершают самоубийство, чем кто-либо другой." 
+ trait_education_living_magic_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] обладает некоторыми базовыми навыками, как [Concept('living_magi','живая магия')|E], но все, что сложнее самых простых заклинаний, ускользает от [ROOT.GetCharacter.GetHerHim]." 
+ trait_education_living_magic_2: "Живой адепт магии" 
+ trait_education_living_magic_2_desc: "Тщательно изучив искусство [living_magic|E], адепт становится компетентным [Concept('living_magi','живая магия')|E], имеющим под своим командованием несколько мощных способностей." 
+ trait_education_living_magic_2_character_desc: "Тщательно изучив искусство [living_magic|E], [ROOT.GetCharacter.GetFirstNameNoTooltip] стал компетентным [Concept('living_magi','живая магия')|E] с несколькими мощными способностями под командованием [ROOT.GetCharacter.GetHerHis]." 
+ trait_education_living_magic_3: "Живой эксперт по магии" 
+ trait_education_living_magic_3_desc: "Знаток искусства [living_magic|E], имя этого [Concept('magi','маги')|E] объединяет как страх, так и союзников. Используя свою власть над всеми аспектами искусства, целые города могли быть сровнены с землей одним движением руки такого могущественного [Concept('living_magi','живая магия')|E]." 
+ trait_education_living_magic_3_character_desc: "Имя [ROOT.GetCharacter.GetFirstNameNoTooltip], эксперта в искусстве [living_magic|E], объединяет как страх, так и союзников. Используя силу [ROOT.GetCharacter.GetHerHis] во всех аспектах искусства, целые города можно было сравнять с землей одним движением руки такого мощного [Concept('living_magi','живая магия')|E]." 
+ trait_education_living_magic_4: "Живой мастер магии" 
+ trait_education_living_magic_4_desc: "Настоящий гений в искусстве [living_magic|E], одного лишь взгляда мастера [Concept('magi','маги')|E] часто бывает достаточно, чтобы заставить армии разбегаться в страхе. [Concept('living_magi','живая магия')|E] легендарной славы, их сила сравнима только с величайшими из [Concept('magi','маги')|E] времен былых времен. Целые страны могли бы столкнуться со своей гибелью, если бы они действительно этого захотели." 
+ trait_education_living_magic_4_character_desc: "Одного вида [ROOT.GetCharacter.GetFirstNameNoTooltip] часто бывает достаточно, чтобы заставить армии разбегаться в страхе. [Concept('living_magi','живая магия')|E] легендарной славы, [ROOT.GetCharacter.GetHerHis] по силе сравнимы лишь с величайшими из [Concept('magi','маги')|E] прошлых времен. Целые нации могли бы столкнуться со своей гибелью, если бы [ROOT.GetCharacter.GetSheHe] действительно этого захотел." 
   
- trait_education_dead_magic: "[dead_magic|E]" #Машинный перевод 28.10.23
- trait_education_dead_magic_latent: "Скрытый [dead_magic|E]" #Машинный перевод 28.10.23
- trait_education_dead_magic_latent_desc: "Персонаж со скрытым [dead_magic|E] вообще не может использовать магию, но она спрятана глубоко внутри него." #Машинный перевод 28.10.23
- trait_education_dead_magic_latent_character_desc: "В [ROOT.GetCharacter.GetFirstNameNoTooltip] спрятан [dead_magic|E]. Они не могут использовать [dead_magic|E]." #Машинный перевод 28.10.23
- trait_education_dead_magic_1: "[dead_magic|E] Новичок" #Машинный перевод 28.10.23
- trait_education_dead_magic_1_desc: "Новичок в [dead_magic|E] тщательно изучил движения [aervalr|E], но манипулирование его силами является для него борьбой, а их силы как [dead_magi|E] невелики." #Машинный перевод 28.10.23
- trait_education_dead_magic_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] тщательно изучил движения [aervalr|E], но манипулирование его полномочиями представляет собой борьбу за [ROOT.GetCharacter.GetHerHim], а полномочий [ROOT.GetCharacter.GetHerHis] как [dead_magi|E] мало." #Машинный перевод 28.10.23
- trait_education_dead_magic_2: "[dead_magic|E] Адепт" #Машинный перевод 28.10.23
- trait_education_dead_magic_2_desc: "Циклы [aervalr|E] хорошо известны адепту [magi|E] в дисциплине [dead_magic|E], который знает, как использовать фазы умирающей луны с устрашающей выгодой, как истинный [dead_magi|E]." #Машинный перевод 28.10.23
- trait_education_dead_magic_2_character_desc: "Циклы [aervalr|E] хорошо известны [ROOT.GetCharacter.GetFirstNameNoTooltip], который знает, как использовать фазы умирающей луны для получения грозной пользы [ROOT.GetCharacter.GetHerHis], как истинный [dead_magi|E]." #Машинный перевод 28.10.23
- trait_education_dead_magic_3: "[dead_magic|E] Эксперт" #Машинный перевод 28.10.23
- trait_education_dead_magic_3_desc: "Опытный эксперт в магическом искусстве [dead_magic|E], эксперт овладел редким искусством, которое многие сочли бы неестественным, и может опустошать своих врагов независимо от того, какой цикл проходит умирающая луна. Лишь немногие [dead_magi|E] когда-либо действительно достигали этого уровня." #Машинный перевод 28.10.23
- trait_education_dead_magic_3_character_desc: "Учёный эксперт в мистических искусствах [dead_magic|E], [ROOT.GetCharacter.GetFirstNameNoTooltip] овладел редким искусством, которое многие сочли бы неестественным, и может опустошать врагов [ROOT.GetCharacter.GetHerHis] независимо от того, какой цикл проходит умирающая луна. Лишь немногие [dead_magi|E] когда-либо действительно достигали этого уровня." #Машинный перевод 28.10.23
- trait_education_dead_magic_4: "[dead_magic|E] Мастер" #Машинный перевод 28.10.23
- trait_education_dead_magic_4_desc: "Этот персонаж — легендарный [dead_magi|E], и само его присутствие тревожит окружающих, вставая волосы дыбом, поскольку те, кто рядом, неосознанно ощущают чистую силу и опасность, исходящие от их тела." #Машинный перевод 28.10.23
- trait_education_dead_magic_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] — это легендарный [dead_magi|E], а само присутствие [ROOT.GetCharacter.GetHerHis] тревожит окружающих [ROOT.GetCharacter.GetHerHim], вставая волосы дыбом, поскольку находящиеся поблизости неосознанно ощущают чистую силу и опасность, резонирующие из [ROOT.GetCharacter.GetHerHim]." #Машинный перевод 28.10.23
+ trait_education_dead_magic: "[dead_magic|E]" 
+ trait_education_dead_magic_latent: "Скрытый [dead_magic|E]" 
+ trait_education_dead_magic_latent_desc: "Персонаж со скрытым [dead_magic|E] вообще не может использовать магию, но она спрятана глубоко внутри него." 
+ trait_education_dead_magic_latent_character_desc: "В [ROOT.GetCharacter.GetFirstNameNoTooltip] спрятан [dead_magic|E]. Они не могут использовать [dead_magic|E]." 
+ trait_education_dead_magic_1: "[dead_magic|E] Новичок" 
+ trait_education_dead_magic_1_desc: "Новичок в [dead_magic|E] тщательно изучил движения [aervalr|E], но манипулирование его силами является для него борьбой, а их силы как [dead_magi|E] невелики." 
+ trait_education_dead_magic_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] тщательно изучил движения [aervalr|E], но манипулирование его полномочиями представляет собой борьбу за [ROOT.GetCharacter.GetHerHim], а полномочий [ROOT.GetCharacter.GetHerHis] как [dead_magi|E] мало." 
+ trait_education_dead_magic_2: "[dead_magic|E] Адепт" 
+ trait_education_dead_magic_2_desc: "Циклы [aervalr|E] хорошо известны адепту [Concept('magi','маги')|E] в дисциплине [dead_magic|E], который знает, как использовать фазы умирающей луны с устрашающей выгодой, как истинный [dead_magi|E]." 
+ trait_education_dead_magic_2_character_desc: "Циклы [aervalr|E] хорошо известны [ROOT.GetCharacter.GetFirstNameNoTooltip], который знает, как использовать фазы умирающей луны для получения грозной пользы [ROOT.GetCharacter.GetHerHis], как истинный [dead_magi|E]." 
+ trait_education_dead_magic_3: "[dead_magic|E] Эксперт" 
+ trait_education_dead_magic_3_desc: "Опытный эксперт в магическом искусстве [dead_magic|E], эксперт овладел редким искусством, которое многие сочли бы неестественным, и может опустошать своих врагов независимо от того, какой цикл проходит умирающая луна. Лишь немногие [dead_magi|E] когда-либо действительно достигали этого уровня." 
+ trait_education_dead_magic_3_character_desc: "Учёный эксперт в мистических искусствах [dead_magic|E], [ROOT.GetCharacter.GetFirstNameNoTooltip] овладел редким искусством, которое многие сочли бы неестественным, и может опустошать врагов [ROOT.GetCharacter.GetHerHis] независимо от того, какой цикл проходит умирающая луна. Лишь немногие [dead_magi|E] когда-либо действительно достигали этого уровня." 
+ trait_education_dead_magic_4: "[dead_magic|E] Мастер" 
+ trait_education_dead_magic_4_desc: "Этот персонаж — легендарный [dead_magi|E], и само его присутствие тревожит окружающих, вставая волосы дыбом, поскольку те, кто рядом, неосознанно ощущают чистую силу и опасность, исходящие от их тела." 
+ trait_education_dead_magic_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] — это легендарный [dead_magi|E], а само присутствие [ROOT.GetCharacter.GetHerHis] тревожит окружающих [ROOT.GetCharacter.GetHerHim], вставая волосы дыбом, поскольку находящиеся поблизости неосознанно ощущают чистую силу и опасность, резонирующие из [ROOT.GetCharacter.GetHerHim]." 
   
- trait_education_mixed_magic: "[mixed_magic|E]" #Машинный перевод 28.10.23
- trait_education_mixed_magic_latent: "Скрытый [mixed_magic|E]" #Машинный перевод 28.10.23
- trait_education_mixed_magic_latent_desc: "Персонаж со скрытым [mixed_magic|E] вообще не может использовать магию, но она спрятана глубоко внутри него." #Машинный перевод 28.10.23
- trait_education_mixed_magic_latent_character_desc: "В [ROOT.GetCharacter.GetFirstNameNoTooltip] спрятан [mixed_magic|E]. Они не могут использовать [mixed_magic|E]." #Машинный перевод 28.10.23
- trait_education_mixed_magic_1: "[mixed_magic|E] Новичок" #Машинный перевод 28.10.23
- trait_education_mixed_magic_1_desc: "Новичок в [mixed_magic|E] развил магические навыки, которые его сверстники, не принадлежащие к [mixed_magi|E], считают неестественными и тревожащими, но до сих пор он не продемонстрировал особого контроля над этой силой." #Машинный перевод 28.10.23
- trait_education_mixed_magic_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] развил магические навыки, которые сверстники [ROOT.GetCharacter.GetHerHis], не являющиеся [mixed_magi|E], считают неестественными и тревожными, но до сих пор не продемонстрировал особого контроля над этой силой." #Машинный перевод 28.10.23
- trait_education_mixed_magic_2: "[mixed_magic|E] Адепт" #Машинный перевод 28.10.23
- trait_education_mixed_magic_2_desc: "По мере того, как знания адептов о [mixed_magic|E] растут, их глаза постепенно тускнеют, и животные, кажется, отдаляются от них. Люди постепенно улавливают ту же идею и начинают сторониться ее, опасаясь силы [mixed_magi|E]." #Машинный перевод 28.10.23
- trait_education_mixed_magic_2_character_desc: "По мере того, как знания [ROOT.GetCharacter.GetFirstNameNoTooltip] о [mixed_magic|E] растут, глаза [ROOT.GetCharacter.GetHerHis] постепенно тускнеют, и животные, похоже, отдаляются от [ROOT.GetCharacter.GetHerHim]. Люди постепенно улавливают ту же идею и начали обходить [ROOT.GetCharacter.GetHerHim] стороной, опасаясь силы [mixed_magi|E]." #Машинный перевод 28.10.23
- trait_education_mixed_magic_3: "[mixed_magic|E] Эксперт" #Машинный перевод 28.10.23
- trait_education_mixed_magic_3_desc: "Тени вокруг эксперта в [mixed_magic|E] мерцают и темнеют, когда они проходят, и когда они говорят, другие могут поклясться, что тени шепчутся с ними, поскольку их почти белые глаза смотрят на невидимые вещи. Лишь немногие [mixed_magi|E] достигают этого уровня, всех, кто достигает, боятся." #Машинный перевод 28.10.23
- trait_education_mixed_magic_3_character_desc: "Тени вокруг [ROOT.GetCharacter.GetFirstNameNoTooltip] мерцают и темнеют по мере прохождения [ROOT.GetCharacter.GetSheHe], и когда [ROOT.GetCharacter.GetSheHe] говорит, другие могут поклясться, что тени шепчутся с [ROOT.GetCharacter.GetHerHim], а почти белые глаза [ROOT.GetCharacter.GetHerHis] смотрят на невидимые вещи. Лишь немногие [mixed_magi|E] достигают этого уровня, всех, кто достигает, боятся." #Машинный перевод 28.10.23
- trait_education_mixed_magic_4: "[mixed_magic|E] Мастер" #Машинный перевод 28.10.23
- trait_education_mixed_magic_4_desc: "Как у настоящего Мастера [mixed_magi|E], глаза [ROOT.GetCharacter.GetFirstNameNoTooltip] давно потускнели, но, кажется, все еще двигаются и смотрят глубоко в небытие. Вокруг [ROOT.GetCharacter.GetHerHim] царит аура страха, цвета и свет, кажется, рассеиваются и раздуваются вокруг [ROOT.GetCharacter.GetHerHis], время от времени подергиваясь. Хотя искусство [mixed_magic|E] почти неизвестно, никто не может отрицать, что мастерство [ROOT.GetCharacter.GetFirstNameNoTooltip] в нем превратило [ROOT.GetCharacter.GetHerHim]... в нечто иное." #Машинный перевод 28.10.23
- trait_education_mixed_magic_4_character_desc: "Как у настоящего Мастера [mixed_magi|E], глаза [ROOT.GetCharacter.GetFirstNameNoTooltip] давно потускнели, но, кажется, все еще двигаются и смотрят глубоко в небытие. Вокруг [ROOT.GetCharacter.GetHerHim] царит аура страха, цвета и свет, кажется, рассеиваются и раздуваются вокруг [ROOT.GetCharacter.GetHerHis], время от времени подергиваясь. Хотя искусство [mixed_magic|E] почти неизвестно, никто не может отрицать, что мастерство [ROOT.GetCharacter.GetFirstNameNoTooltip] в нем превратило [ROOT.GetCharacter.GetHerHim]... в нечто иное." #Машинный перевод 28.10.23
+ trait_education_mixed_magic: "[mixed_magic|E]" 
+ trait_education_mixed_magic_latent: "Скрытый [mixed_magic|E]" 
+ trait_education_mixed_magic_latent_desc: "Персонаж со скрытым [mixed_magic|E] вообще не может использовать магию, но она спрятана глубоко внутри него." 
+ trait_education_mixed_magic_latent_character_desc: "В [ROOT.GetCharacter.GetFirstNameNoTooltip] спрятан [mixed_magic|E]. Они не могут использовать [mixed_magic|E]." 
+ trait_education_mixed_magic_1: "[mixed_magic|E] Новичок" 
+ trait_education_mixed_magic_1_desc: "Новичок в [mixed_magic|E] развил магические навыки, которые его сверстники, не принадлежащие к [mixed_magi|E], считают неестественными и тревожащими, но до сих пор он не продемонстрировал особого контроля над этой силой." 
+ trait_education_mixed_magic_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] развил магические навыки, которые сверстники [ROOT.GetCharacter.GetHerHis], не являющиеся [mixed_magi|E], считают неестественными и тревожными, но до сих пор не продемонстрировал особого контроля над этой силой." 
+ trait_education_mixed_magic_2: "[mixed_magic|E] Адепт" 
+ trait_education_mixed_magic_2_desc: "По мере того, как знания адептов о [mixed_magic|E] растут, их глаза постепенно тускнеют, и животные, кажется, отдаляются от них. Люди постепенно улавливают ту же идею и начинают сторониться ее, опасаясь силы [mixed_magi|E]." 
+ trait_education_mixed_magic_2_character_desc: "По мере того, как знания [ROOT.GetCharacter.GetFirstNameNoTooltip] о [mixed_magic|E] растут, глаза [ROOT.GetCharacter.GetHerHis] постепенно тускнеют, и животные, похоже, отдаляются от [ROOT.GetCharacter.GetHerHim]. Люди постепенно улавливают ту же идею и начали обходить [ROOT.GetCharacter.GetHerHim] стороной, опасаясь силы [mixed_magi|E]." 
+ trait_education_mixed_magic_3: "[mixed_magic|E] Эксперт" 
+ trait_education_mixed_magic_3_desc: "Тени вокруг эксперта в [mixed_magic|E] мерцают и темнеют, когда они проходят, и когда они говорят, другие могут поклясться, что тени шепчутся с ними, поскольку их почти белые глаза смотрят на невидимые вещи. Лишь немногие [mixed_magi|E] достигают этого уровня, всех, кто достигает, боятся." 
+ trait_education_mixed_magic_3_character_desc: "Тени вокруг [ROOT.GetCharacter.GetFirstNameNoTooltip] мерцают и темнеют по мере прохождения [ROOT.GetCharacter.GetSheHe], и когда [ROOT.GetCharacter.GetSheHe] говорит, другие могут поклясться, что тени шепчутся с [ROOT.GetCharacter.GetHerHim], а почти белые глаза [ROOT.GetCharacter.GetHerHis] смотрят на невидимые вещи. Лишь немногие [mixed_magi|E] достигают этого уровня, всех, кто достигает, боятся." 
+ trait_education_mixed_magic_4: "[mixed_magic|E] Мастер" 
+ trait_education_mixed_magic_4_desc: "Как у настоящего Мастера [mixed_magi|E], глаза [ROOT.GetCharacter.GetFirstNameNoTooltip] давно потускнели, но, кажется, все еще двигаются и смотрят глубоко в небытие. Вокруг [ROOT.GetCharacter.GetHerHim] царит аура страха, цвета и свет, кажется, рассеиваются и раздуваются вокруг [ROOT.GetCharacter.GetHerHis], время от времени подергиваясь. Хотя искусство [mixed_magic|E] почти неизвестно, никто не может отрицать, что мастерство [ROOT.GetCharacter.GetFirstNameNoTooltip] в нем превратило [ROOT.GetCharacter.GetHerHim]... в нечто иное." 
+ trait_education_mixed_magic_4_character_desc: "Как у настоящего Мастера [mixed_magi|E], глаза [ROOT.GetCharacter.GetFirstNameNoTooltip] давно потускнели, но, кажется, все еще двигаются и смотрят глубоко в небытие. Вокруг [ROOT.GetCharacter.GetHerHim] царит аура страха, цвета и свет, кажется, рассеиваются и раздуваются вокруг [ROOT.GetCharacter.GetHerHis], время от времени подергиваясь. Хотя искусство [mixed_magic|E] почти неизвестно, никто не может отрицать, что мастерство [ROOT.GetCharacter.GetFirstNameNoTooltip] в нем превратило [ROOT.GetCharacter.GetHerHim]... в нечто иное." 
   
  ethereal_necromancy: "Эфирная некромантия" 
  trait_ethereal_necromancy: "Эфирная некромантия" 
- trait_ethereal_necromancy_desc: "Этот [magi|E] обладает способностью связываться с духами, подчинять их своей воле и отправлять выполнять их приказы. Будь то шпионаж за своими врагами или прямое убийство их, духи находятся под покровительством этого [Concept('magi', 'мага')|Е]." 
+ trait_ethereal_necromancy_desc: "Этот [Concept('magi','маг')|E] обладает способностью связываться с духами, подчинять их своей воле и отправлять выполнять их приказы. Будь то шпионаж за своими врагами или прямое убийство их, духи находятся под покровительством этого [Concept('magi', 'мага')|Е]." 
  trait_ethereal_necromancy_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] обладает способностью связываться с духами, связывать их с [ROOT.GetCharacter.GetHerHis] волей и отправлять выполнять их приказы. Будь то шпионаж за [ROOT.GetCharacter.GetHerHis] врагами или прямое их убийство, духи находятся под покровительством [ROOT.GetCharacter.GetFirstNameNoTooltip]." 
   
- trait_pryonism: "Прионизм" #Машинный перевод 28.10.23
- trait_pryonism_desc: "Этот [magi|E] обладает способностью читать мысли других и влиять на мысли и сны людей." 
+ trait_pryonism: "Прионизм" 
+ trait_pryonism_desc: "Этот [Concept('magi','маг')|E] обладает способностью читать мысли других и влиять на мысли и сны людей." 
  trait_pryonism_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] обладает способностью читать мысли других и влиять на их мысли и сны." 
   
  trait_education_anti_magic: "[antimagic|E]" 
@@ -119,11 +119,11 @@
  trait_education_anti_magic_2: "Последователь [Concept('antimagic', 'Антимагии')|Е]" 
  trait_education_anti_magic_2_desc: "Последователь [Concept('antimagic', 'Антимагии')|Е] более чем способен справиться с обычными и, возможно, даже с некоторыми необычными силами магии." 
  trait_education_anti_magic_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] более чем способен справиться с большинством магических противников, с которыми люди могут столкнуться в своей жизни." 
- trait_education_anti_magic_3: "Эксперт [Concept('antimagic', 'Антимагии')|Е]" #Машинный перевод 28.10.23
+ trait_education_anti_magic_3: "Эксперт [Concept('antimagic', 'Антимагии')|Е]" 
  trait_education_anti_magic_3_desc: "Эксперты [Concept('antimagic', 'Антимагии')|Е] входят в число элитных сил борьбы с магией. Когда редкие формы магии угрожают миру, именно Эксперт [Concept('antimagic', 'Антимагии')|Е] призван защитить других." 
  trait_education_anti_magic_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] готов на случай, если их стране или миру угрожает самая грозная магия. Хотя эти силы необычны, [ROOT.GetCharacter.GetFirstNameNoTooltip] готов к тому, когда они проявятся." 
  trait_education_anti_magic_4: "Мастер [Concept('antimagic', 'Антимагии')|Е]" 
- trait_education_anti_magic_4_desc: "[magi|E], монстры и другие магические существа дрожат и прячутся в страхе, когда мимо проходит Мастер [Concept('antimagic', 'Антимагии')|Е]. Он способен расправиться даже с самымм могущественными силами магии, и мало кто осмелится шутить с ним." 
+ trait_education_anti_magic_4_desc: "[Concept('magi','маги')|E], монстры и другие магические существа дрожат и прячутся в страхе, когда мимо проходит Мастер [Concept('antimagic', 'Антимагии')|Е]. Он способен расправиться даже с самымм могущественными силами магии, и мало кто осмелится шутить с ним." 
  trait_education_anti_magic_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] не боится сил магии так сильно, как [ROOT.GetCharacter.GetHerHim], поскольку [ROOT.GetCharacter.GetFirstNameNoTooltip] может покончить с ними одним ударом." 
   
   
@@ -312,23 +312,23 @@ trait_fogeater_invasion_leader:0 "Гарфордер"
  trait_gh_boneshaped_beauty: "Магическая красота" 
   
  trait_gh_boneshaped_beauty_1: "Магическая красота" 
- trait_gh_boneshaped_beauty_1_desc: "Благодаря [dead_magic|E] телосложение этого человека стало более привлекательным. Однако влияние на здоровье использования магии для выборочной мутации тела и структуры костей сомнительно." #Машинный перевод 28.10.23
- trait_gh_boneshaped_beauty_1_character_desc: "Благодаря [dead_magic|E] телосложение [ROOT.GetCharacter.GetFirstNameNoTooltip] стало более привлекательным. Однако влияние на здоровье использования экстремального количества магии для выборочной мутации [ROOT.GetCharacter.GetHerHis] тела и структуры костей сомнительно." #Машинный перевод 28.10.23
+ trait_gh_boneshaped_beauty_1_desc: "Благодаря [dead_magic|E] телосложение этого человека стало более привлекательным. Однако влияние на здоровье использования магии для выборочной мутации тела и структуры костей сомнительно." 
+ trait_gh_boneshaped_beauty_1_character_desc: "Благодаря [dead_magic|E] телосложение [ROOT.GetCharacter.GetFirstNameNoTooltip] стало более привлекательным. Однако влияние на здоровье использования экстремального количества магии для выборочной мутации [ROOT.GetCharacter.GetHerHis] тела и структуры костей сомнительно." 
   
  trait_gh_boneshaped_beauty_2: "Великолепная магическая красота" 
- trait_gh_boneshaped_beauty_2_desc: "Благодаря [dead_magic|E] телосложение этого человека стало гораздо привлекательнее. Однако влияние на здоровье использования экстремального количества магии для выборочной мутации тела сомнительно." #Машинный перевод 28.10.23
- trait_gh_boneshaped_beauty_2_character_desc: "Благодаря [dead_magic|E] телосложение [ROOT.GetCharacter.GetFirstNameNoTooltip] стало намного привлекательнее. Однако влияние на здоровье использования магии для выборочной мутации [ROOT.GetCharacter.GetHerHis] тела и структуры костей сомнительно." #Машинный перевод 28.10.23
+ trait_gh_boneshaped_beauty_2_desc: "Благодаря [dead_magic|E] телосложение этого человека стало гораздо привлекательнее. Однако влияние на здоровье использования экстремального количества магии для выборочной мутации тела сомнительно." 
+ trait_gh_boneshaped_beauty_2_character_desc: "Благодаря [dead_magic|E] телосложение [ROOT.GetCharacter.GetFirstNameNoTooltip] стало намного привлекательнее. Однако влияние на здоровье использования магии для выборочной мутации [ROOT.GetCharacter.GetHerHis] тела и структуры костей сомнительно." 
   
  trait_gh_boneshaped_giant: "Магический рост" 
- trait_gh_boneshaped_giant_desc: "Благодаря [dead_magic|E] телосложение этого человека стало намного крупнее. Однако влияние на здоровье использования экстремального количества магии для выборочной мутации тела и костной структуры сомнительно." #Машинный перевод 28.10.23
- trait_gh_boneshaped_giant_character_desc: "Благодаря [dead_magic|E] телосложение [ROOT.GetCharacter.GetFirstNameNoTooltip] изменилось и стало намного крупнее. Однако влияние на здоровье использования экстремального количества магии для выборочной мутации [ROOT.GetCharacter.GetHerHis] тела и структуры костей сомнительно." #Машинный перевод 28.10.23
+ trait_gh_boneshaped_giant_desc: "Благодаря [dead_magic|E] телосложение этого человека стало намного крупнее. Однако влияние на здоровье использования экстремального количества магии для выборочной мутации тела и костной структуры сомнительно." 
+ trait_gh_boneshaped_giant_character_desc: "Благодаря [dead_magic|E] телосложение [ROOT.GetCharacter.GetFirstNameNoTooltip] изменилось и стало намного крупнее. Однако влияние на здоровье использования экстремального количества магии для выборочной мутации [ROOT.GetCharacter.GetHerHis] тела и структуры костей сомнительно." 
   
  trait_gh_magicsickness_1: "Незначительная [Concept('exposure_sickness','Магическая перегрузка')|E]" 
  trait_gh_magicsickness_1_desc: "Эффекты воздействия больших количеств [Concept('magic','магии')|E] на организм бесчисленны и экстремальны. При низком уровне [Concept('exposure_sickness','Магической перегрузки')|E] этот персонаж испытывает случайные приступы тошноты и рвоты, а также периоды головных болей, усталости и лихорадки. Если присмотреться, можно увидеть, как его вены становятся более выраженными, и увидеть движение крови, текущей под кожей. Иногда кажется, что из одного из его отверстий даже льется кровь." 
  trait_gh_magicsickness_1_character_desc: "Эффекты воздействия количества [Concept('magic','магии')|E] на организм бесчисленное множество и чрезвычайно сильное. При низком уровне [exposure_sickness|E] у [ROOT.GetCharacter.GetFirstNameNoTooltip] наблюдаются случайные приступы тошноты и рвоты, а также периоды головных болей, усталости и лихорадки. Если присмотреться, то можно увидеть, как вены [ROOT.GetCharacter.GetHerHis] становятся чуть более выраженными, и увидеть движение крови, текущей под кожей [ROOT.GetCharacter.GetHerHis]. Иногда даже кажется, что кровь льется из одного из [ROOT.GetCharacter.GetHerHis] отверстий." 
   
  trait_gh_magicsickness_2: "Умеренная [Concept('exposure_sickness','Магическая перегрузка')|E]" 
- trait_gh_magicsickness_2_desc: "Эффекты воздействия больших количеств [Concept('magic','магии')|E] на организм бесчисленны и экстремальны. При умеренном уровне [exposure_sickness|E] этот персонаж испытывает случайные приступы тошноты и рвоты, а также периоды головных болей, усталости и лихорадки. Если присмотреться, можно увидеть, как их вены становятся более выраженными, и увидеть движение крови, текущей под кожей. Иногда кажется, что из одного из его отверстий даже льется кровь." #Машинный перевод 28.10.23
+ trait_gh_magicsickness_2_desc: "Эффекты воздействия больших количеств [Concept('magic','магии')|E] на организм бесчисленны и экстремальны. При умеренном уровне [exposure_sickness|E] этот персонаж испытывает случайные приступы тошноты и рвоты, а также периоды головных болей, усталости и лихорадки. Если присмотреться, можно увидеть, как их вены становятся более выраженными, и увидеть движение крови, текущей под кожей. Иногда кажется, что из одного из его отверстий даже льется кровь." 
  trait_gh_magicsickness_2_character_desc: "Эффекты воздействия количества [Concept('magic','магии')|E] на организм бесчисленное множество и чрезвычайно сильное. При умеренном уровне [exposure_sickness|E] у [ROOT.GetCharacter.GetFirstNameNoTooltip] наблюдаются случайные приступы тошноты и рвоты, а также периоды головных болей, усталости и лихорадки. Если присмотреться, то можно увидеть, как вены [ROOT.GetCharacter.GetHerHis] становятся чуть более выраженными, и увидеть движение крови, текущей под [ROOT.GetCharacter.GetHerHis] кожей. Иногда даже кажется, что кровь льется из одного из [ROOT.GetCharacter.GetHerHis] отверстий." 
   
  trait_gh_magicsickness_3: "[Concept('exposure_sickness','Магическая перегрузка')|E]" 
@@ -343,8 +343,8 @@ trait_fogeater_invasion_leader:0 "Гарфордер"
  trait_gh_magicsickness_5_desc: "Эффекты воздействия больших количеств [Concept('magic','магии')|E] на организм бесчисленны и экстремальны. На предельном уровне [Concept('exposure_sickness','Магической перегрузки')|E] этот персонаж не может даже толком говорить. Кровь свободно льется из всех возможных отверстий или из его пор, а кожа, плоть и волосы начали отпадать с тела комками. Конечности, по-видимому, начинают разрушаться, мышцы, сухожилия и кости плавятся и не могут выдержать собственный вес, а множество отказавших органов и борющихся артерий давят на истонченную кожу, заметно пульсируют и разрываются прямо на глазах. Выживание на этой стадии [Concept('exposure_sickness','Магической перегрузки')|E]]... маловероятно." 
  trait_gh_magicsickness_5_character_desc: "Эффекты воздействия количества [Concept('magic','магии')|E] на организм бесчисленны и экстремальны. На предельном уровне [Concept('exposure_sickness','Магической перегрузки')|E] [ROOT.GetCharacter.GetFirstNameNoTooltip] не может даже толком говорить. Кровь свободно льется из всех возможных отверстий или из [ROOT.GetCharacter.GetHerHis] пор, а кожа, плоть и волосы комками начали отпадать с [ROOT.GetCharacter.GetHerHis] тела. Конечности, по-видимому, начинают разрушаться, мышцы, сухожилия и кости плавятся и не могут выдержать собственный вес, а множество отказавших органов и борющихся артерий давят на [ROOT.GetCharacter.GetHerHis] истончающуюся кожу, заметно пульсируют и разрываются прямо на глазах. Выживание на этой стадии [Concept('exposure_sickness','Магической перегрузки')|E]... маловероятно." 
   
- trait_gh_glowing_eyes: "Светящиеся глаза" #Машинный перевод 28.10.23
- trait_gh_glowing_eyes_desc: "В то время как глаза [Concept('magi','магов')|E] часто светятся во время выполнения магических ритуалов, некоторые [magi] навсегда остаются в состоянии, вызванном постоянным использованием своего дара. Несколько тревожная, хотя и безобидная причуда, которую многие [Concept('magi','маги')|E] считают символом власти." 
+ trait_gh_glowing_eyes: "Светящиеся глаза" 
+ trait_gh_glowing_eyes_desc: "В то время как глаза [Concept('magi','магов')|E] часто светятся во время выполнения магических ритуалов, некоторые [Concept('magi','маги')|E] навсегда остаются в состоянии, вызванном постоянным использованием своего дара. Несколько тревожная, хотя и безобидная причуда, которую многие [Concept('magi','маги')|E] считают символом власти." 
  trait_gh_glowing_eyes_character_desc: "В то время как глаза [Concept('magi','магов')|E] часто светятся во время выполнения магических ритуалов, [ROOT.GetCharacter.GetFirstNameNoTooltip] навсегда остался в состоянии, вызванном постоянным использованием своего дара. Несколько тревожная, хотя и безобидная причуда, которую многие [Concept('magi','маги')|E] считают символом [ROOT.GetCharacter.GetHerHis] власти." 
   
  trait_gh_excessively_pale: "Чрезмерно бледный" 
@@ -355,41 +355,41 @@ trait_fogeater_invasion_leader:0 "Гарфордер"
  trait_gh_glowing_veins_desc: "Хотя цвет варьируется в зависимости от используемого [Concept('magic_type','типа магии')|E], светящиеся вены являются верным признаком [Concept('magi','мага')|E], который использовал свой дар так часто, что он начал оказывать долгосрочное воздействие на его тело. Несмотря на то, что это неприятное зрелище, это относительно распространенное заболевание, которое считается безвредным." 
  trait_gh_glowing_veins_character_desc: "Хотя цвет варьируется в зависимости от используемого [Concept('magic_type','типа магии')|E], светящиеся вены являются верным признаком [Concept('magi','мага')|E], который использовал свой дар так часто, что он начал оказывать долгосрочное воздействие на его тело. Несмотря на то, что это неприятное зрелище, это относительно распространенное заболевание, которое считается безвредным." 
   
- trait_gh_power_bleeder: "Красный потоп" #Машинный перевод 28.10.23
- trait_gh_power_bleeder_desc: "Хотя чрезмерный кровоток является хорошо известным симптомом [exposure_sickness|E], некоторые [living_magi|E] вызывают вариант, который сохраняется, даже если [magi|E] больше не подвергается воздействию [magic|E]. Болезнь, названная учеными 'Алым приливом', характеризуется чрезмерным кровотечением во всех отверстиях тела. Несмотря на то, что Алый Прилив не столь серьезен, как кровотечение, от которого страдают те, кто страдает от отравления, он по-прежнему представляет серьезную опасность для Живых Магов. Те, кто страдает от этого, увидят, что даже самые неглубокие раны могут привести к полной кровопотере, если не оказать срочную помощь." #Машинный перевод 28.10.23
- trait_gh_power_bleeder_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] поражен Алым приливом, болезнью [living_magi|E], вызывающей обильное кровотечение во всех отверстиях тела. Несмотря на то, что Алый Прилив не столь серьезен, как кровотечение, от которого страдают те, кто страдает от [exposure_sickness|E], он по-прежнему представляет серьезную опасность для Живого Мага. Те, кто страдает от этого, увидят, что даже самые неглубокие раны могут привести к полной кровопотере, если не оказать срочную помощь." #Машинный перевод 28.10.23
+ trait_gh_power_bleeder: "Красный потоп" 
+ trait_gh_power_bleeder_desc: "Хотя чрезмерный кровоток является хорошо известным симптомом [Concept('exposure_sickness','Магической перегрузки')|E], некоторые вариант [Concept('living_magi','живая магия')|E] вызывают, который сохраняется, даже если [Concept('magi','маг')|E] больше не подвергается воздействию [Concept('magic','магии')|E]. Болезнь, названная учеными 'Алым приливом', характеризуется чрезмерным кровотечением во всех отверстиях тела. Несмотря на то, что Алый Прилив не столь серьезен, как кровотечение, от которого страдают те, кто страдает от отравления, он по-прежнему представляет серьезную опасность для Живых Магов. Те, кто страдает от этого, увидят, что даже самые неглубокие раны могут привести к полной кровопотере, если не оказать срочную помощь." 
+ trait_gh_power_bleeder_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] поражен Алым приливом, болезнью [Concept('living_magi','живая магия')|E], вызывающей обильное кровотечение во всех отверстиях тела. Несмотря на то, что Алый Прилив не столь серьезен, как кровотечение, от которого страдают те, кто страдает от [Concept('exposure_sickness','Магической перегрузки')|E], он по-прежнему представляет серьезную опасность для Живого Мага. Те, кто страдает от этого, увидят, что даже самые неглубокие раны могут привести к полной кровопотере, если не оказать срочную помощь." 
   
- trait_gh_necronic_skin: "Пепел Эльтиадда" #Машинный перевод 28.10.23
- trait_gh_necronic_skin_desc: "Названный в честь лорда-Мага Элтиадда, который медленно превратился в пепел из-за чрезмерного использования [dead_magic|E], 'Пепел Эльтиадда' (или Кожа Некрона) — это состояние, которое поражает многих [dead_magi|E], хотя редко настолько серьезно, чтобы быть изнурительным. Для пепла Эльтиадда кожа рук, рта и других проводников энергии медленно чернеет и затвердевает, превращаясь в каменистую субстанцию, которая постепенно отслаивается вместе с пеплом. Большинство [magi|E], страдающих таким образом, обычно начинают строгую процедуру увлажнения и в течение некоторых периодов избегают использования своей силы, чтобы ограничить ее воздействие, но длительное и постоянное использование мощного [dead_magic|E] приведет к распространению состояния на остальную часть тела до тех пор, пока [magi|E] мертв." #Машинный перевод 28.10.23
- trait_gh_necronic_skin_character_desc: "Названный в честь лорда-Мага Элтиадда, который медленно превратился в пепел из-за чрезмерного использования [dead_magic|E], 'Пепел Эльтиадда' (или Кожа Некрона) — это состояние, которое поражает многих [dead_magi|E], хотя редко настолько серьезно, чтобы быть изнурительным. Для пепла Эльтиадда кожа рук, рта и других проводников энергии медленно чернеет и затвердевает, превращаясь в каменистую субстанцию, которая постепенно отслаивается вместе с пеплом. Большинство [magi|E], страдающих таким образом, обычно начинают строгую процедуру увлажнения и в течение некоторых периодов избегают использования своей силы, чтобы ограничить ее воздействие, но длительное и постоянное использование мощного [dead_magic|E] приведет к распространению состояния на остальную часть тела до тех пор, пока [magi|E] мертв." #Машинный перевод 28.10.23
+ trait_gh_necronic_skin: "Пепел Эльтиадда" 
+ trait_gh_necronic_skin_desc: "Названный в честь лорда-мага Элтиадда, который медленно превратился в пепел из-за чрезмерного использования [dead_magic|E], 'Пепел Эльтиадда' (или Кожа Некрона) — это состояние, которое поражает многих [dead_magi|E], хотя редко настолько серьезно, чтобы быть изнурительным. Для пепла Эльтиадда кожа рук, рта и других проводников энергии медленно чернеет и затвердевает, превращаясь в каменистую субстанцию, которая постепенно отслаивается вместе с пеплом. Большинство [Concept('magi','маги')|E], страдающих таким образом, обычно начинают строгую процедуру увлажнения и в течение некоторых периодов избегают использования своей силы, чтобы ограничить ее воздействие, но длительное и постоянное использование мощного [dead_magic|E] приведет к распространению состояния на остальную часть тела до тех пор, пока [Concept('magi','маги')|E] мертв." 
+ trait_gh_necronic_skin_character_desc: "Названный в честь лорда-мага Элтиадда, который медленно превратился в пепел из-за чрезмерного использования [dead_magic|E], 'Пепел Эльтиадда' (или Кожа Некрона) — это состояние, которое поражает многих [dead_magi|E], хотя редко настолько серьезно, чтобы быть изнурительным. Для пепла Эльтиадда кожа рук, рта и других проводников энергии медленно чернеет и затвердевает, превращаясь в каменистую субстанцию, которая постепенно отслаивается вместе с пеплом. Большинство [Concept('magi','маги')|E], страдающих таким образом, обычно начинают строгую процедуру увлажнения и в течение некоторых периодов избегают использования своей силы, чтобы ограничить ее воздействие, но длительное и постоянное использование мощного [dead_magic|E] приведет к распространению состояния на остальную часть тела до тех пор, пока [Concept('magi','маги')|E] мертв." 
   
- trait_gh_beset_by_visions: "Окруженный видениями" #Машинный перевод 28.10.23
- trait_gh_beset_by_visions_desc: "Постоянно охваченный видениями, этот персонаж регулярно страдает от длительных периодов, в течение которых он видит все, от жизни членов своего двора до смерти военачальников, удаленных на тысячи лет по всему миру. Тяжесть стольких жизней явно берет свое, и они регулярно оказываются в ловушке в своей постели из-за бесконечных мигреней и приступов случайных изменений личности из-за кровотечения из жизней, которые никогда по-настоящему не проживались." #Машинный перевод 28.10.23
- trait_gh_beset_by_visions_character_desc: "Постоянно охваченный видениями, [ROOT.GetCharacter.GetFirstNameNoTooltip] регулярно страдает от длительных периодов, в течение которых [ROOT.GetCharacter.GetSheHe] видит все: от жизни членов своего двора до смерти военачальников, удаленных на тысячи лет по всему миру. Тяжесть стольких жизней явно берет свое, и [ROOT.GetCharacter.GetFirstNameNoTooltip] регулярно оказывается в ловушке в постели [ROOT.GetCharacter.GetHerHis] из-за бесконечных мигреней и приступов случайных изменений личности из-за кровотечения из никогда по-настоящему не прожитых жизней." #Машинный перевод 28.10.23
+ trait_gh_beset_by_visions: "Окруженный видениями" 
+ trait_gh_beset_by_visions_desc: "Постоянно охваченный видениями, этот персонаж регулярно страдает от длительных периодов, в течение которых он видит все, от жизни членов своего двора до смерти военачальников, удаленных на тысячи лет по всему миру. Тяжесть стольких жизней явно берет свое, и они регулярно оказываются в ловушке в своей постели из-за бесконечных мигреней и приступов случайных изменений личности из-за кровотечения из жизней, которые никогда по-настоящему не проживались." 
+ trait_gh_beset_by_visions_character_desc: "Постоянно охваченный видениями, [ROOT.GetCharacter.GetFirstNameNoTooltip] регулярно страдает от длительных периодов, в течение которых [ROOT.GetCharacter.GetSheHe] видит все: от жизни членов своего двора до смерти военачальников, удаленных на тысячи лет по всему миру. Тяжесть стольких жизней явно берет свое, и [ROOT.GetCharacter.GetFirstNameNoTooltip] регулярно оказывается в ловушке в постели [ROOT.GetCharacter.GetHerHis] из-за бесконечных мигреней и приступов случайных изменений личности из-за кровотечения из никогда по-настоящему не прожитых жизней." 
   
  trait_gh_aervalrian_curse: "Проклятие Аэрвалра" 
- trait_gh_aervalrian_curse_desc: "Этот персонаж охвачен Проклятием [Concept('aervalr','Аэрвалра')|E], недугом, который, как говорят, поражает [dead_magi|E], слишком глубоко погружающегося в свое искусство. Постоянно преследуемые видениями разбитой луны Аэрвалра, они чувствуют, казалось бы, бесконечную тягу к ее болезненно-зеленому облику, и им регулярно приходится идти ночью, чтобы быть поближе к луне. Проклятие настолько сильное, что начало разрушать как их личную жизнь, так и их способности как правителя." #Машинный перевод 28.10.23
- trait_gh_aervalrian_curse_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] поглощен Проклятием [Concept('aervalr','Aervalrian')|E], недугом, который, как говорят, поражает [dead_magi|E], слишком глубоко погружающегося в свое искусство. Постоянно преследуемый видениями разбитой луны Аэрвалра, [ROOT.GetCharacter.GetFirstNameNoTooltip] чувствует, казалось бы, бесконечную тягу к своему болезненно-зеленому облику, а [ROOT.GetCharacter.GetSheHe] регулярно вынужден ходить по ночам, чтобы быть поближе к луне. Проклятие настолько сильное, что начало разрушать как [ROOT.GetCharacter.GetHerHis] личную жизнь, так и [ROOT.GetCharacter.GetHerHis] способности правителя." #Машинный перевод 28.10.23
+ trait_gh_aervalrian_curse_desc: "Этот персонаж охвачен Проклятием [Concept('aervalr','Аэрвалра')|E], недугом, который, как говорят, поражает [dead_magi|E], слишком глубоко погружающегося в свое искусство. Постоянно преследуемые видениями разбитой луны Аэрвалра, они чувствуют, казалось бы, бесконечную тягу к ее болезненно-зеленому облику, и им регулярно приходится идти ночью, чтобы быть поближе к луне. Проклятие настолько сильное, что начало разрушать как их личную жизнь, так и их способности как правителя." 
+ trait_gh_aervalrian_curse_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] поглощен Проклятием [Concept('aervalr','Aervalrian')|E], недугом, который, как говорят, поражает [dead_magi|E], слишком глубоко погружающегося в свое искусство. Постоянно преследуемый видениями разбитой луны Аэрвалра, [ROOT.GetCharacter.GetFirstNameNoTooltip] чувствует, казалось бы, бесконечную тягу к своему болезненно-зеленому облику, а [ROOT.GetCharacter.GetSheHe] регулярно вынужден ходить по ночам, чтобы быть поближе к луне. Проклятие настолько сильное, что начало разрушать как [ROOT.GetCharacter.GetHerHis] личную жизнь, так и [ROOT.GetCharacter.GetHerHis] способности правителя." 
   
- trait_gh_ritual_tattoos: "Ритуальные татуировки" #Машинный перевод 28.10.23
- trait_gh_ritual_tattoos_desc: "Покрытый тайными татуировками, призванными привлечь и сосредоточить магическую силу, этот персонаж явно мало заботился о стиле. Даже там, где чернила были напечатаны с целью эстетики, тревожный характер того, что скрывается за рисунками, и тупая пульсация в глазах, которую чувствуешь, когда слишком долго смотришь на них, отпугивают многих." #Машинный перевод 28.10.23
- trait_gh_ritual_tattoos_character_desc: "Покрытый тайными татуировками, призванными привлечь и сосредоточить магическую силу, [ROOT.GetCharacter.GetFirstNameNoTooltip] явно мало заботился о стиле. Даже там, где чернила были напечатаны с целью эстетики, тревожный характер того, что скрывается за рисунками, и тупая пульсация в глазах, которую чувствуешь, когда слишком долго смотришь на них, отпугивают многих." #Машинный перевод 28.10.23
+ trait_gh_ritual_tattoos: "Ритуальные татуировки" 
+ trait_gh_ritual_tattoos_desc: "Покрытый тайными татуировками, призванными привлечь и сосредоточить магическую силу, этот персонаж явно мало заботился о внешнем виде. Даже там, где чернила были напечатаны с целью эстетики, тревожный характер того, что скрывается за рисунками, и тупая пульсация в глазах, которую чувствуешь, когда слишком долго смотришь на них, отпугивают многих." 
+ trait_gh_ritual_tattoos_character_desc: "Покрытый тайными татуировками, призванными привлечь и сосредоточить магическую силу, [ROOT.GetCharacter.GetFirstNameNoTooltip] явно мало заботился о своем внешнем виде. Даже там, где чернила были напечатаны с целью эстетики, тревожный характер того, что скрывается за рисунками, и тупая пульсация в глазах, которую чувствуешь, когда слишком долго смотришь на них, отпугивают многих." 
   
  trait_gh_ritual_scars_1: "Ритуально шрамированный" 
- trait_gh_ritual_scars_1_desc: "Ритуальное нанесение рубцов — обычная практика для [Concept('magi','магов')|E], либо как попытка истощения крови для магического использования, либо как часть многих ритуалов. Хотя это иногда и тревожит, тем не менее наличие хотя бы одного видимого шрама для [magi|E] считается признаком престижа." #Машинный перевод 28.10.23
- trait_gh_ritual_scars_1_character_desc: "Ритуальное нанесение рубцов — обычная практика для [magi|E], либо как попытка истощения крови для магического использования, либо как часть многих ритуалов. Хотя это иногда и тревожит, тем не менее наличие хотя бы одного видимого шрама для [magi|E] считается признаком престижа." #Машинный перевод 28.10.23
+ trait_gh_ritual_scars_1_desc: "Ритуальное нанесение рубцов — обычная практика для [Concept('magi','магов')|E], либо как попытка истощения крови для магического использования, либо как часть многих ритуалов. Хотя это иногда и тревожит, тем не менее наличие хотя бы одного видимого шрама для [Concept('magi','мага')|E] считается признаком престижа." 
+ trait_gh_ritual_scars_1_character_desc: "Ритуальное нанесение рубцов — обычная практика для [Concept('magi','маги')|E], либо как попытка истощения крови для магического использования, либо как часть многих ритуалов. Хотя это иногда и тревожит, тем не менее наличие хотя бы одного видимого шрама для [Concept('magi','мага')|E] считается признаком престижа." 
   
  trait_gh_ritual_scars_2: "Сильно шрамированный" 
- trait_gh_ritual_scars_2_desc: "Ритуальное нанесение рубцов — обычная практика для [magi|E], либо как попытка истощения крови для магического использования, либо как часть многих ритуалов. [magi|E], мало заботясь о своей внешности, такой как этот, часто начинает выглядеть более шрамами, чем человек, настолько покрытыми шрамами, что они закрывают большую часть их визуальных особенностей." #Машинный перевод 28.10.23
- trait_gh_ritual_scars_2_character_desc: "Ритуальное нанесение рубцов — обычная практика для [magi|E], либо как попытка истощения крови для магического использования, либо как часть многих ритуалов. [magi|E], мало заботящийся о своей внешности, например [ROOT.GetCharacter.GetFirstNameNoTooltip], часто начинает казаться более рубцовым, чем человек, и настолько покрыт шрамами, что закрывает большую часть визуальных особенностей [ROOT.GetCharacter.GetHerHis]." #Машинный перевод 28.10.23
+ trait_gh_ritual_scars_2_desc: "Ритуальное нанесение рубцов — обычная практика для [Concept('magi','маги')|E], либо как попытка истощения крови для магического использования, либо как часть многих ритуалов. [Concept('magi','маги')|E], мало заботясь о своей внешности, такой как этот, часто начинает выглядеть более шрамами, чем человек, настолько покрытыми шрамами, что они закрывают большую часть их визуальных особенностей." 
+ trait_gh_ritual_scars_2_character_desc: "Ритуальное нанесение рубцов — обычная практика для [Concept('magi','маги')|E], либо как попытка истощения крови для магического использования, либо как часть многих ритуалов. [Concept('magi','маги')|E], мало заботящийся о своей внешности, например [ROOT.GetCharacter.GetFirstNameNoTooltip], часто начинает казаться более рубцовым, чем человек, и настолько покрыт шрамами, что закрывает большую часть визуальных особенностей [ROOT.GetCharacter.GetHerHis]." 
   
  trait_gh_ritual_scars_3: "Чрезмерно ритуально травмированный" 
- trait_gh_ritual_scars_3_desc: "Ритуальное нанесение рубцов — обычная практика для [magi|E], либо как попытка истощения крови для магического использования, либо как часть многих ритуалов. Некоторые [magi|E], по-видимому, отказываются от претензий на общественную жизнь вдали от своего [magic|E], и более десятков ритуалов и экзальтации настолько покрываются шрамами, что, по-видимому, не остается никакой незамеченной кожи. Невероятно тревожный и, скорее всего, вредный для здоровья, но признак истинной силы." #Машинный перевод 28.10.23
- trait_gh_ritual_scars_3_character_desc: "Ритуальное нанесение рубцов — обычная практика для [magi|E], либо как попытка истощения крови для магического использования, либо как часть многих ритуалов. [ROOT.GetCharacter.GetFirstNameNoTooltip], по-видимому, отказался от претензий на общественную жизнь вдали от [ROOT.GetCharacter.GetHerHis] [magic|E], и более десятков ритуалов и экзальтации настолько покрываются шрамами, что, по-видимому, не остается незамеченной кожи. Невероятно тревожный и, скорее всего, вредный для здоровья, но признак истинной силы." #Машинный перевод 28.10.23
+ trait_gh_ritual_scars_3_desc: "Ритуальное нанесение рубцов — обычная практика для [Concept('magi','маги')|E], либо как попытка истощения крови для магического использования, либо как часть многих ритуалов. Некоторые [Concept('magi','маги')|E], по-видимому, отказываются от претензий на общественную жизнь вдали от своего [Concept('magic','магия')|E], и более десятков ритуалов и экзальтации настолько покрываются шрамами, что, по-видимому, не остается никакой незамеченной кожи. Невероятно тревожный и, скорее всего, вредный для здоровья, но признак истинной силы." 
+ trait_gh_ritual_scars_3_character_desc: "Ритуальное нанесение рубцов — обычная практика для [Concept('magi','маги')|E], либо как попытка истощения крови для магического использования, либо как часть многих ритуалов. [ROOT.GetCharacter.GetFirstNameNoTooltip], по-видимому, отказался от претензий на общественную жизнь вдали от [ROOT.GetCharacter.GetHerHis] [Concept('magic','магия')|E], и более десятков ритуалов и экзальтации настолько покрываются шрамами, что, по-видимому, не остается незамеченной кожи. Невероятно тревожный и, скорее всего, вредный для здоровья, но признак истинной силы." 
   
- trait_gh_racked_by_voices: "Говорящий с Бездной" #Машинный перевод 28.10.23
- trait_gh_racked_by_voices_desc: "Говорящие с Бездной - это [magi|E] (или, реже, люди, не входящие в [magical|E], подвергающиеся чрезмерному воздействию [magic|E]), которые каким-то образом привязались к потустороннему миру, находящемуся за пределами человеческого понимания. Этот персонаж, регулярно терзаемый голосами, постоянно поглощен шепотом, заявлениями и воплями гнева со стороны невидимых призраков, некоторые из которых кажутся слишком знакомыми..." #Машинный перевод 28.10.23
- trait_gh_racked_by_voices_character_desc: "Говорящие с Бездной - это [magi|E] (или, реже, люди, не входящие в [magical|E], подвергающиеся чрезмерному воздействию [magic|E]), которые каким-то образом привязались к потустороннему миру, находящемуся за пределами человеческого понимания. Регулярно терзаемый голосами, [ROOT.GetCharacter.GetFirstNameNoTooltip] постоянно поглощается шепотом, заявлениями и воплями гнева невидимых призраков, некоторые из которых кажутся слишком знакомыми..." #Машинный перевод 28.10.23
+ trait_gh_racked_by_voices: "Говорящий с Бездной" 
+ trait_gh_racked_by_voices_desc: "Говорящие с Бездной - это [Concept('magi','маги')|E] (или, реже, люди, не входящие в [magical|E], подвергающиеся чрезмерному воздействию [Concept('magic','магии')|E]), которые каким-то образом привязались к потустороннему миру, находящемуся за пределами человеческого понимания. Этот персонаж, регулярно терзаемый голосами, постоянно поглощен шепотом, заявлениями и воплями гнева со стороны невидимых призраков, некоторые из которых кажутся слишком знакомыми..." 
+ trait_gh_racked_by_voices_character_desc: "Говорящие с Бездной - это [Concept('magi','маги')|E] (или, реже, люди, не входящие в [magical|E], подвергающиеся чрезмерному воздействию [Concept('magic','магии')|E]), которые каким-то образом привязались к потустороннему миру, находящемуся за пределами человеческого понимания. Регулярно терзаемый голосами, [ROOT.GetCharacter.GetFirstNameNoTooltip] постоянно поглощается шепотом, заявлениями и воплями гнева невидимых призраков, некоторые из которых кажутся слишком знакомыми..." 
   
  trait_gh_exhausted: "Измученный" 
  trait_gh_exhausted_desc: "Этот персонаж изо всех сил пытается выспаться даже в небольшом количестве и постоянно чувствует себя утомленным и ужасно измученным." 
@@ -399,15 +399,15 @@ trait_fogeater_invasion_leader:0 "Гарфордер"
  trait_gh_stimulated_desc: "Этот персонаж постоянно переполнен энергией и изо всех сил пытается уснуть, если только не работает до изнеможения." 
  trait_gh_stimulated_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] постоянно перегружен энергией и изо всех сил пытается уснуть, если только не работает до изнеможения." 
   
- trait_gh_deep_mutation: "Глубокая мутация" #Машинный перевод 28.10.23
- trait_gh_deep_mutation_desc: "Этот персонаж подвергся экстремальному воздействию [magic|E] либо намеренно в ходе какого-то эксперимента, либо из-за невезения. Ужасно мутировавшие, их телесная структура, кажется, быстро разрушается, новые мутации появляются, казалось бы, случайно, поскольку их здоровье быстро ухудшается." #Машинный перевод 28.10.23
- trait_gh_deep_mutation_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] подвергся воздействию экстремальных количеств [magic|E] либо намеренно в ходе эксперимента, либо по причине невезения. Ужасно мутировавшая структура тела [ROOT.GetCharacter.GetHerHis], кажется, быстро разрушается, новые мутации появляются, казалось бы, случайно, поскольку их здоровье быстро ухудшается." #Машинный перевод 28.10.23
+ trait_gh_deep_mutation: "Глубокая мутация" 
+ trait_gh_deep_mutation_desc: "Этот персонаж подвергся экстремальному воздействию [Concept('magic','магии')|E] либо намеренно в ходе какого-то эксперимента, либо из-за невезения. Ужасно мутировавшие, их телесная структура, кажется, быстро разрушается, новые мутации появляются, казалось бы, случайно, поскольку их здоровье быстро ухудшается." 
+ trait_gh_deep_mutation_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] подвергся воздействию экстремальных количеств [Concept('magic','магии')|E] либо намеренно в ходе эксперимента, либо по причине невезения. Ужасно мутировавшая структура тела [ROOT.GetCharacter.GetHerHis], кажется, быстро разрушается, новые мутации появляются, казалось бы, случайно, поскольку их здоровье быстро ухудшается." 
   
- trait_gh_vampiric: "Вампир" #Машинный перевод 28.10.23
- trait_gh_vampiric_desc: "Почти полностью поддерживаемое тьмой [magic|E], тело этого персонажа уже давно прошло любое состояние, в котором оно может поддерживать человеческую жизнь. Без магии они бы умерли почти сразу, и большинство [magi|E] предпочли бы потерять тело и разум вместо того, чтобы позволить себе достичь такого состояния. Хотя поддержание своей жизни посредством [magic|E] считается приемлемым во многих обществах, делать это так часто и так долго, что человек достигает такого состояния, - нет, особенно из-за растущей и тревожной стоимости ритуалов для его выполнения на протяжении десятилетий." #Машинный перевод 28.10.23
- trait_gh_vampiric_character_desc: "Почти полностью поддерживаемое тьмой [magic|E], тело [ROOT.GetCharacter.GetFirstNameNoTooltip] уже давно прошло любое состояние, в котором оно может поддерживать жизнь [ROOT.GetCharacter.GetHerHis]. Без магии [ROOT.GetCharacter.GetFirstNameNoTooltip] умер бы почти сразу, а большинство [magi|E] предпочли бы потерять тело и разум вместо того, чтобы позволить себе достичь такого состояния. Хотя поддержание своей жизни посредством [magic|E] считается приемлемым во многих обществах, делать это так часто и так долго, что человек достигает такого состояния, - нет, особенно из-за растущей и тревожной стоимости ритуалов для его выполнения на протяжении десятилетий." #Машинный перевод 28.10.23
+ trait_gh_vampiric: "Вампир" 
+ trait_gh_vampiric_desc: "Почти полностью поддерживаемое тьмой [Concept('magic','магии')|E], тело этого персонажа уже давно прошло любое состояние, в котором оно может поддерживать человеческую жизнь. Без магии они бы умерли почти сразу, и большинство [Concept('magi','маги')|E] предпочли бы потерять тело и разум вместо того, чтобы позволить себе достичь такого состояния. Хотя поддержание своей жизни посредством [Concept('magic','магия')|E] считается приемлемым во многих обществах, делать это так часто и так долго, что человек достигает такого состояния, - нет, особенно из-за растущей и тревожной стоимости ритуалов для его выполнения на протяжении десятилетий." 
+ trait_gh_vampiric_character_desc: "Почти полностью поддерживаемое тьмой [Concept('magic','магии')|E], тело [ROOT.GetCharacter.GetFirstNameNoTooltip] уже давно прошло любое состояние, в котором оно может поддерживать жизнь [ROOT.GetCharacter.GetHerHis]. Без магии [ROOT.GetCharacter.GetFirstNameNoTooltip] умер бы почти сразу, а большинство [Concept('magi','маги')|E] предпочли бы потерять тело и разум вместо того, чтобы позволить себе достичь такого состояния. Хотя поддержание своей жизни посредством [Concept('magic','магия')|E] считается приемлемым во многих обществах, делать это так часто и так долго, что человек достигает такого состояния, - нет, особенно из-за растущей и тревожной стоимости ритуалов для его выполнения на протяжении десятилетий." 
   
- trait_gh_dehanded: "Безрукий" #Машинный перевод 28.10.23
+ trait_gh_dehanded: "Безрукий" 
  trait_gh_dehanded_desc: "Руки этого персонажа были отрезаны - он больше никогда не сможет использовать магию." 
  trait_gh_dehanded_character_desc: "Руки [ROOT.GetCharacter.GetFirstNameNoTooltip] были отрезаны в результате наказания, и теперь [ROOT.GetCharacter.GetSheHe] никогда больше не сможет использовать магию." 
   
@@ -457,7 +457,7 @@ trait_fogeater_invasion_leader:0 "Гарфордер"
  trait_gh_wasteland: "Пустошь" 
  trait_gh_wasteland_desc: "Эта территория почти полностью необитаема, и приписывать кому-либо какой-либо политический контроль над ней было бы бессмысленно." 
   
- trait_gh_extended_life: "Продленная жизнь" #Машинный перевод 28.10.23
+ trait_gh_extended_life: "Продленная жизнь" 
  trait_gh_extended_life_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] продлил свою жизнь с помощью паразитической магии, потребляя жизненную энергию других для поддержания собственного неестественного существования [ROOT.GetCharacter.GetHerHis]. В настоящее время [ROOT.GetCharacter.GetFirstNameNoTooltip] хранит [ROOT.Var('vampiric_drain_health_pool').GetValue|0] здоровья в [ROOT.GetCharacter.GetHerHis] резрве вампирического здоровья.\n\n#P Пока [ROOT.GetCharacter.GetFirstNameNoTooltip] имеет очки в [ROOT.GetCharacter.GetHerHis] вампирическом резерве здоровья, всякий раз, когда [ROOT.GetCharacter.GetSheHe] умирает естественной смертью, [ROOT.GetCharacter.GetSheHe] выживает, и количество очков вампирического резерва, необходимое для доведения [ROOT.GetCharacter.GetHerHis]1 до 'Хорошего' уровня здоровья, будет взято из вампирического резерва и преобразовано в фактическое здоровье и стаки [ROOT.GetCharacter.GetHerHis]2 [ROOT.GetCharacter.GetHerHis]3. Предупреждение: если [ROOT.GetCharacter.GetFirstNameNoTooltip] имеет здоровье менее 5 и нет очков в [ROOT.GetCharacter.GetHerHis] вампирическом резерве, [ROOT.GetCharacter.GetSheHe] потеряет способность продолжать [ROOT.GetCharacter.GetHerHis] вампирическое существование.[ROOT.GetCharacter.GetHerHis]8"
   
  trait_magikill:0 "Убийца магов" 
@@ -501,18 +501,18 @@ trait_fogeater_invasion_leader:0 "Гарфордер"
  trait_gh_rift_insanity_2_desc: "Личность этого персонажа еще больше пострадала от пагубного воздействия смешанной магии. Он действует странно и, что еще хуже, непредсказуемо. Сегодня он подражает личностям окружающих, завтра он кажется нормальным, а послезавтра его охватывает жестокое сопротивление. Хотя его первоначальную индивидуальность все еще можно увидеть под маской, ее хватка быстро ослабевает." 
  trait_gh_rift_insanity_2_char_desc: "Личность [ROOT.GetCharacter.GetFirstNameNoTooltip] еще больше пострадала от пагубного воздействия смешанной магии. Они действуют странно и, что еще хуже, непредсказуемо. Сегодня он подражает личностям окружающих, завтра он кажется нормальным, а послезавтра его охватывает жестокое сопротивление. Хотя его первоначальную индивидуальность все еще можно увидеть под маской, ее хватка быстро ослабевает." 
  trait_gh_rift_insanity_3: "Сошедший с ума от Разлома" 
- trait_gh_rift_insanity_3_desc: "Разум этого персонажа действительно исчез. Постоянное скольжение между персонами прекратилось – а может быть, оно просто начало происходить так быстро, что все слились в одно целое. Обычно можно обнаружить, что он проводит свой день, идеально отражая характеры и манеры всех окружающих, вызывая тревожный эффект, но по прихоти этот причудливый ритм может измениться на любое количество шаблонов. От первоначальной личности не осталось ничего различимого. Действительно, некоторые начали шептаться, что даже само его лицо начинает незаметно меняться - хотя, конечно, это игра света." #Машинный перевод 28.10.23
- trait_gh_rift_insanity_3_char_desc: "Разум [ROOT.GetCharacter.GetFirstNameNoTooltip] действительно исчез. Постоянное скольжение между персонами прекратилось – а может быть, оно просто начало происходить так быстро, что все слились в одно целое. Обычно можно обнаружить, что он проводит свой день, идеально отражая характеры и манеры всех окружающих, вызывая тревожный эффект, но по прихоти этот причудливый ритм может измениться на любое количество шаблонов. От первоначальной личности не осталось ничего различимого. Действительно, некоторые начали шептаться, что даже само его лицо начинает незаметно меняться - хотя, конечно, это игра света." #Машинный перевод 28.10.23
+ trait_gh_rift_insanity_3_desc: "Разум этого персонажа действительно исчез. Постоянное скольжение между персонами прекратилось – а может быть, оно просто начало происходить так быстро, что все слились в одно целое. Обычно можно обнаружить, что он проводит свой день, идеально отражая характеры и манеры всех окружающих, вызывая тревожный эффект, но по прихоти этот причудливый ритм может измениться на любое количество шаблонов. От первоначальной личности не осталось ничего различимого. Действительно, некоторые начали шептаться, что даже само его лицо начинает незаметно меняться - хотя, конечно, это игра света." 
+ trait_gh_rift_insanity_3_char_desc: "Разум [ROOT.GetCharacter.GetFirstNameNoTooltip] действительно исчез. Постоянное скольжение между персонами прекратилось – а может быть, оно просто начало происходить так быстро, что все слились в одно целое. Обычно можно обнаружить, что он проводит свой день, идеально отражая характеры и манеры всех окружающих, вызывая тревожный эффект, но по прихоти этот причудливый ритм может измениться на любое количество шаблонов. От первоначальной личности не осталось ничего различимого. Действительно, некоторые начали шептаться, что даже само его лицо начинает незаметно меняться - хотя, конечно, это игра света." 
   
- trait_gh_riftmark_1: "Тронутый Разломом" #Машинный перевод 28.10.23
+ trait_gh_riftmark_1: "Тронутый Разломом" 
  trait_gh_riftmark_1_desc: "У этого персонажа есть странная аура. Кажется, дела идут немного не так: чернила из баночек с краской проливаются на драгоценные книги, двери захлопываются в неподходящий момент, странный и прерывистый кашель. Иногда вокруг него видна слабая дымка, когда солнце в зените." 
  trait_gh_riftmark_1_char_desc: "Вокруг [ROOT.GetCharacter.GetFirstNameNoTooltip] царит странная аура. Кажется, дела идут немного не так: чернила из баночек с краской проливаются на драгоценные книги, двери захлопываются в неподходящий момент, странный и прерывистый кашель. Иногда вокруг него видна слабая дымка, когда солнце в зените." 
- TRAIT_FLAG_DESC_gh_riftmark_1_spell_vulnerability: "Немного более уязвим к [Concept('magic','магии')|E]." #Машинный перевод 28.10.23
- trait_gh_riftmark_2: "Отмеченный Разломом" #Машинный перевод 28.10.23
+ TRAIT_FLAG_DESC_gh_riftmark_1_spell_vulnerability: "Немного более уязвим к [Concept('magic','магии')|E]." 
+ trait_gh_riftmark_2: "Отмеченный Разломом" 
  trait_gh_riftmark_2_desc: "Несчастье этого персонажа усугубилось. Иногда он на короткое мгновение видит фигуры близких в игре света, манящие его через перила балкона и безобидные, изолированные коридоры. Вокруг него часто замечают дурные предзнаменования в традициях их культуры, обозначающие их как обреченных." 
  trait_gh_riftmark_2_char_desc: "Несчастье [ROOT.GetCharacter.GetFirstNameNoTooltip] усугубилось. Иногда он на короткое мгновение видит фигуры близких в игре света, манящие его через перила балкона и безобидные, изолированные коридоры. Вокруг него часто замечают дурные предзнаменования в традициях их культуры, обозначающие их как обреченных." 
- TRAIT_FLAG_DESC_gh_riftmark_2_spell_vulnerability: "Несколько более уязвим к [Concept('magic','магии')|E]." #Машинный перевод 28.10.23
- trait_gh_riftmark_3: "Проклятый Разломом" #Машинный перевод 28.10.23
+ TRAIT_FLAG_DESC_gh_riftmark_2_spell_vulnerability: "Несколько более уязвим к [Concept('magic','магии')|E]." 
+ trait_gh_riftmark_3: "Проклятый Разломом" 
  trait_gh_riftmark_3_desc: "Этот персонаж был сломан магией. Он часто просыпается и обнаруживает, что ходит во сне один в изолированных частях своего поместья. В других случаях его сбивают с пути, он, к сожалению, не расслышал указаний и теряется. Иногда он оглядывается через плечо и видит, что за ним следят – всегда один и тот же человек, и каждый раз всегда ближе." 
  trait_gh_riftmark_3_char_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] был сломан магией. Он часто просыпается и обнаруживает, что ходит во сне один в изолированных частях своего поместья. В других случаях его сбивают с пути, он, к сожалению, не расслышал указаний и теряется. Иногда он оглядывается через плечо и видит, что за ним следят – всегда один и тот же человек, и каждый раз всегда ближе." 
  TRAIT_FLAG_DESC_gh_riftmark_3_spell_vulnerability: "Значительно более уязвим к [Concept('magic','магии')|E]." 
@@ -535,7 +535,7 @@ trait_fogeater_invasion_leader:0 "Гарфордер"
  trait_magicsickness:0 "Магическая болезнь" 
  trait_ritual_scars:0 "Ритуальные шрамы" 
  trait_gh_sight_bad:0 "Плохое зрение" 
- trait_gh_riftsight:0 "Рифтсайт ?" 
+ trait_gh_riftsight:0 "Овеществитель" 
  trait_lifestyle_beasthunter:0 "Охота на зверей" 
  trait_gh_mind_fog:0 "Туман разума" 
  trait_gh_rift_insanity:0 "Безумие от разлома" 
@@ -546,16 +546,16 @@ trait_fogeater_invasion_leader:0 "Гарфордер"
  trait_gh_one_with_mist_char_desc: "Сны [ROOT.GetCharacter.GetFirstNameNoTooltip] клубятся туманом, и он чувствует себя как дома в мире эфирном, так и в физическом." 
  # TRAIT_FLAG_DESC_gh_one_with_mist_spell_variance: "Может использовать более мощные (но более рискованные) варианты заклинаний." 
   
- trait_gh_pale_seer: "Бледный провидец" #Машинный перевод 28.10.23
- trait_gh_pale_seer_desc: "Бледный провидец может почти без усилий перенести свой разум в разлом и танцевать среди изнашивающихся нитей реальности. Хотя большинство из них заблудятся в этом извилистом мире, бледный провидец может свободно перемещаться по нему, получая представление о прошлом, настоящем и будущем." #Машинный перевод 28.10.23
- trait_gh_pale_seer_char_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] может почти без усилий перемещать свой разум в разлом и танцевать среди изнашивающихся нитей реальности. Хотя большинство из них заблудятся в этом извилистом мире, [ROOT.GetCharacter.GetFirstNameNoTooltip] может свободно перемещаться по нему, получая представление о прошлом, настоящем и будущем." #Машинный перевод 28.10.23
- TRAIT_FLAG_DESC_gh_pale_seer_spell_reroll: "Можно изменить результаты Glimpse Reality." #Машинный перевод 28.10.23
+ trait_gh_pale_seer: "Бледный провидец" 
+ trait_gh_pale_seer_desc: "Бледный провидец может почти без усилий перенести свой разум в разлом и танцевать среди изнашивающихся нитей реальности. Хотя большинство из них заблудятся в этом извилистом мире, бледный провидец может свободно перемещаться по нему, получая представление о прошлом, настоящем и будущем." 
+ trait_gh_pale_seer_char_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] может почти без усилий перемещать свой разум в разлом и танцевать среди изнашивающихся нитей реальности. Хотя большинство из них заблудятся в этом извилистом мире, [ROOT.GetCharacter.GetFirstNameNoTooltip] может свободно перемещаться по нему, получая представление о прошлом, настоящем и будущем." 
+ TRAIT_FLAG_DESC_gh_pale_seer_spell_reroll: "Можно изменить результаты Проблеска реальности." 
   
- trait_gh_reifier: "Рейфер" #Машинный перевод 28.10.23
- trait_gh_reifier_desc: "Большинство считают ночные часы временем отдыха. Для этого персонажа начинается другая жизнь. С того момента, как их глаза закрываются, они вступают в спящий мир, окутанное туманом царство страшных тайн, нерожденных мерзостей и жгучих истин. Иногда сложно сказать, какой из двух миров более реален." #Машинный перевод 28.10.23
- trait_gh_reifier_char_desc: "Большинство считают ночные часы временем отдыха. Для [ROOT.GetCharacter.GetFirstNameNoTooltip] начинается их другая жизнь. С того момента, как их глаза закрываются, они вступают в спящий мир, окутанное туманом место страшных тайн, нерожденных мерзостей и жгучих истин. Иногда сложно сказать, какой из двух миров более реален." #Машинный перевод 28.10.23
+ trait_gh_reifier: "Овеществитель" 
+ trait_gh_reifier_desc: "Большинство считают ночные часы временем отдыха. Для этого персонажа начинается другая жизнь. С того момента, как их глаза закрываются, они вступают в спящий мир, окутанное туманом царство страшных тайн, нерожденных мерзостей и жгучих истин. Иногда сложно сказать, какой из двух миров более реален." 
+ trait_gh_reifier_char_desc: "Большинство считают ночные часы временем отдыха. Для [ROOT.GetCharacter.GetFirstNameNoTooltip] начинается их другая жизнь. С того момента, как их глаза закрываются, они вступают в спящий мир, окутанное туманом место страшных тайн, нерожденных мерзостей и жгучих истин. Иногда сложно сказать, какой из двух миров более реален." 
   
- trait_lifestyle_jurist: "Юрист" #Машинный перевод 28.10.23
+ trait_lifestyle_jurist: "Юрист" 
   
  trait_lifestyle_jurist:0 "Юрист" 
 
@@ -619,17 +619,17 @@ trait_fogeater_invasion_leader:0 "Гарфордер"
  trait_gh_glass_smith_03_desc:0 "Этот персонаж приобрел множество навыков, совершенствуя свое искусство стеклодува, становясь известным повсюду." 
  trait_gh_glass_03_smith_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] приобрел множество навыков, совершенствуя свое искусство стеклодува, становясь известным повсюду." 
   
- trait_gh_steppe_queen_1: "Новичок Орзопая" #Машинный перевод 28.10.23
- trait_gh_steppe_queen_1_desc: "Новичок-орзопайя только начинает осваивать сарминские боевые традиции и должен носить только самые короткие косы." #Машинный перевод 28.10.23
- trait_gh_steppe_queen_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] только начал осваивать сарминские боевые традиции и, как ожидается, будет носить только самые короткие косы." #Машинный перевод 28.10.23
- trait_gh_steppe_queen_2: "Стремящаяся Орзопая" #Машинный перевод 28.10.23
- trait_gh_steppe_queen_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] освоил основы орзопаи и получил [ROOT.GetCharacter.GetHerselfHimself] право носить более длинную косу." #Машинный перевод 28.10.23
- trait_gh_steppe_queen_3: "Проверенная Орзопая" #Машинный перевод 28.10.23
- trait_gh_steppe_queen_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] заслужил признание и уважение пэров [ROOT.GetCharacter.GetHerHis] за впечатляющие боевые подвиги и получил право укладывать волосы [ROOT.GetCharacter.GetHerHis] с самой длинной косой." #Машинный перевод 28.10.23
- trait_gh_steppe_queen_4: "Знаменитая Орзопая" #Машинный перевод 28.10.23
- trait_gh_steppe_queen_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] добился почти легендарной известности и считается равным сарминским героям древности, причем длина косы [ROOT.GetCharacter.GetHerHis] столь же впечатляет." #Машинный перевод 28.10.23
- trait_track_lifestyle_gh_steppe_queen: "Орзопая" #Машинный перевод 28.10.23
- trait_track_lifestyle_gh_steppe_queen_desc: "Ожидается, что орзопайя преуспеет в традиционных сарминских воинских занятиях: стрельбе из лука, соколиной охоте и конном бою." #Машинный перевод 28.10.23
+ trait_gh_steppe_queen_1: "Новичок Орзопая" 
+ trait_gh_steppe_queen_1_desc: "Новичок-орзопайя только начинает осваивать сарминские боевые традиции и должен носить только самые короткие косы." 
+ trait_gh_steppe_queen_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] только начал осваивать сарминские боевые традиции и, как ожидается, будет носить только самые короткие косы." 
+ trait_gh_steppe_queen_2: "Стремящаяся Орзопая" 
+ trait_gh_steppe_queen_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] освоил основы орзопаи и получил [ROOT.GetCharacter.GetHerselfHimself] право носить более длинную косу." 
+ trait_gh_steppe_queen_3: "Проверенная Орзопая" 
+ trait_gh_steppe_queen_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] заслужил признание и уважение пэров [ROOT.GetCharacter.GetHerHis] за впечатляющие боевые подвиги и получил право укладывать волосы [ROOT.GetCharacter.GetHerHis] с самой длинной косой." 
+ trait_gh_steppe_queen_4: "Знаменитая Орзопая" 
+ trait_gh_steppe_queen_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] добился почти легендарной известности и считается равным сарминским героям древности, причем длина косы [ROOT.GetCharacter.GetHerHis] столь же впечатляет." 
+ trait_track_lifestyle_gh_steppe_queen: "Орзопая" 
+ trait_track_lifestyle_gh_steppe_queen_desc: "Ожидается, что орзопайя преуспеет в традиционных сарминских воинских занятиях: стрельбе из лука, соколиной охоте и конном бою." 
   
  trait_gh_heir_of_asojiva:0 "Наследник Асодживы" 
  trait_gh_heir_of_asojiva_desc:0 "Этот персонаж объявлен законным наследником престола Асодживы и крови Тарьяад. Применяя те же навыки, что и при возвращении земель своих законных предков, он обязательно возродит золотой век, увиденный во времена их предков, и будет внимательно следить за определенными группами, такие как ученые, чтобы трагедия кончины Тарьяада не повторилась когда-либо вновь." 
@@ -654,7 +654,7 @@ trait_fogeater_invasion_leader:0 "Гарфордер"
   #Lich traits 
  trait_gh_divine: "Верующий" 
  trait_gh_divine_desc: "Этот [lich|E] знает, что боги действительно существуют и что он должен быть одним из них." 
- trait_gh_divine_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] — это [lich|E], который знает, что боги действительно существуют и что [ROOT.GetCharacter.GetSheHe] должен быть одним из них." #Машинный перевод 28.10.23
+ trait_gh_divine_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] — это [lich|E], который знает, что боги действительно существуют и что [ROOT.GetCharacter.GetSheHe] должен быть одним из них." 
   
  trait_gh_godhater: "Богоненавистник" 
  trait_gh_godhater_desc: "Этот [lich|E] либо полностью отвергает концепцию существования богов, более могущественных, чем он сам, либо находит эту идею настолько неправильной, что он намерен ее исправить." 
@@ -722,7 +722,7 @@ trait_fogeater_invasion_leader:0 "Гарфордер"
   
  trait_education_lich_1: "Молодой Лич" 
  trait_education_lich_1_desc: "Молодой [Concept('lich','Лич')|E] сделал лишь первые шаги к тому, чтобы стать отвратительной мерзостью, противоречащей всем законам, управляющим жизнью, и ему еще предстоит собрать черные знания многих более старых и образованных Личей. Или, возможно, он просто не умеет быть Личем, хотя никогда в этом не признается." 
- trait_education_lich_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] сделал всего лишь маленькие шаги [ROOT.GetCharacter.GetHerHis], чтобы стать отвратительной мерзостью, противоречащей всем законам, управляющим жизнью, и ему еще предстоит собрать черные знания многих более старых и образованных [liches|E]. Или, возможно, [ROOT.GetCharacter.GetSheHe] просто ужасен во всем, что связано с Личами, хотя [ROOT.GetCharacter.GetSheHe] никогда этого не признает." #Машинный перевод 28.10.23
+ trait_education_lich_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] сделал всего лишь маленькие шаги [ROOT.GetCharacter.GetHerHis], чтобы стать отвратительной мерзостью, противоречащей всем законам, управляющим жизнью, и ему еще предстоит собрать черные знания многих более старых и образованных [liches|E]. Или, возможно, [ROOT.GetCharacter.GetSheHe] просто ужасен во всем, что связано с Личами, хотя [ROOT.GetCharacter.GetSheHe] никогда этого не признает." 
   
  trait_education_lich_2: "Посвященный Личи" 
  trait_education_lich_2_desc: "Посвященный [Concept('lich','Лич')|E] по-прежнему считается находящимися на более низком уровне власти по сравнению со многими их современниками, либо из-за того, что он еще недавно обратился, либо из-за некомпетентности, хотя вы бы так не подумали, слушая их разглагольствования." 
@@ -741,12 +741,12 @@ trait_fogeater_invasion_leader:0 "Гарфордер"
  trait_education_lich_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] является одним из самых могущественных тёмных существ [ROOT.GetCharacter.GetHerHis]. Независимо от того, достигли ли [ROOT.GetCharacter.GetSheHe] таких ужасающих высот посредством отвратительно долгого издевательства над жизнью или из-за непристойных уровней силы внутри [ROOT.GetCharacter.GetHerHis] души, они представляют собой [lich|E], более способные, чем любой другой, вызывать большие разрушения и произносить позорные многодневные тирады, не требующие ничтожные человеческие действия, такие как 'подышать' или 'дать другим возможность поговорить'. Обычно помогает то, что большинство Старших Личей настолько стары, что их взгляды на современную культуру, как правило, щедро называют 'устаревшими'." 
   
  trait_gh_cult_everlasting: "Культ Вичосвоци" 
- trait_gh_cult_everlasting_desc: "Этот [lich|E] когда-то был членом Культа Вичосвоци, или 'Культа Вечного' в древнем Ойчайнце. Это отмечает его как одного из первых Личей и учеников легендарного [Concept('vilas_venslau','Виласа Венслау')|E]. Один из виновников ужасающего [sorrowing_of_oejeynica|E], иностранцы считают его ужасным монстром, но также признают, возможно, одним из самых опасных людей, которые когда-либо жили или не жили. Член Культа Вечности даже пользуется одним преимуществом, которое почти невозможно получить для любого другого Лича, - неохотным уважением большинства Личей." #Машинный перевод 28.10.23
- trait_gh_cult_everlasting_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] когда-то был членом Культа Вичосвоци, или 'Культа Вечного' в древнем Ойчайнце. Это отмечает [ROOT.GetCharacter.GetHerHis] как одного из оригинальных [liches|E] и последователя легендарного [Concept('vilas_venslau','Виласа Венслау')|E]. Одного из виновников ужасающих [sorrowing_of_oejeynica|E], [ROOT.GetCharacter.GetSheHe] иностранцы считают ужасным монстром, но также признают, возможно, одним из самых опасных людей, которые когда-либо жили или не жили. [ROOT.GetCharacter.GetSheHe] даже пользуется одним преимуществом, которое почти невозможно получить для любого другого Лича, - неохотным уважением большинства Личей." #Машинный перевод 28.10.23
+ trait_gh_cult_everlasting_desc: "Этот [lich|E] когда-то был членом Культа Вичосвоци, или 'Культа Вечного' в древнем Ойчайнце. Это отмечает его как одного из первых Личей и учеников легендарного [Concept('vilas_venslau','Виласа Венслау')|E]. Один из виновников ужасающего [sorrowing_of_oejeynica|E], иностранцы считают его ужасным монстром, но также признают, возможно, одним из самых опасных людей, которые когда-либо жили или не жили. Член Культа Вечности даже пользуется одним преимуществом, которое почти невозможно получить для любого другого Лича, - неохотным уважением большинства Личей." 
+ trait_gh_cult_everlasting_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] когда-то был членом Культа Вичосвоци, или 'Культа Вечного' в древнем Ойчайнце. Это отмечает [ROOT.GetCharacter.GetHerHis] как одного из оригинальных [liches|E] и последователя легендарного [Concept('vilas_venslau','Виласа Венслау')|E]. Одного из виновников ужасающих [sorrowing_of_oejeynica|E], [ROOT.GetCharacter.GetSheHe] иностранцы считают ужасным монстром, но также признают, возможно, одним из самых опасных людей, которые когда-либо жили или не жили. [ROOT.GetCharacter.GetSheHe] даже пользуется одним преимуществом, которое почти невозможно получить для любого другого Лича, - неохотным уважением большинства Личей." 
   
  trait_gh_master_cult_everlasting: "Глава Культа Вичосвоци"
- trait_gh_master_cult_everlasting_desc: "Этот [lich|E] когда-то был главой Культа Вичосвоци, или 'Культа Вечного' в древнем Ойчайнце. Это делает его прародителями почти каждого [Concept('lich','Лича')|E] на [Concept('the_continent','Континенте')|E]. Возможно, самый могущественный Лич из когда-либо существовавших, даже печально известные злобные и склонные к раздорам Личи [Concept('lichdoms','Личдома')|E] вынуждены отдавать дань уважения тому, кто начал [sorrowing_of_oejeynica|E]." #Машинный перевод 28.10.23
- trait_gh_master_cult_everlasting_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] когда-то был магистром Культа Вичосвоци, или 'Культа Вечного' в древнем Ойчайнце. Это отмечает [ROOT.GetCharacter.GetHerHim] как прародителя почти каждого [lich|E] в [the_continent|E]. Возможно, самый могущественный Лич из когда-либо существовавших, даже печально известные злобные и склонные к раздорам Личи [Concept('lichdoms','Личдома')|E] вынуждены уважать [ROOT.GetCharacter.GetSheHe|U], который начал [sorrowing_of_oejeynica|E]." #Машинный перевод 28.10.23
+ trait_gh_master_cult_everlasting_desc: "Этот [lich|E] когда-то был главой Культа Вичосвоци, или 'Культа Вечного' в древнем Ойчайнце. Это делает его прародителями почти каждого [Concept('lich','Лича')|E] на [Concept('the_continent','Континенте')|E]. Возможно, самый могущественный Лич из когда-либо существовавших, даже печально известные злобные и склонные к раздорам Личи [Concept('lichdoms','Личдома')|E] вынуждены отдавать дань уважения тому, кто начал [sorrowing_of_oejeynica|E]." 
+ trait_gh_master_cult_everlasting_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] когда-то был магистром Культа Вичосвоци, или 'Культа Вечного' в древнем Ойчайнце. Это отмечает [ROOT.GetCharacter.GetHerHim] как прародителя почти каждого [lich|E] в [the_continent|E]. Возможно, самый могущественный Лич из когда-либо существовавших, даже печально известные злобные и склонные к раздорам Личи [Concept('lichdoms','Личдома')|E] вынуждены уважать [ROOT.GetCharacter.GetSheHe|U], который начал [sorrowing_of_oejeynica|E]." 
   
  trait_gh_arch_lich_1: "Архилич" 
  trait_gh_arch_lich_1_desc: "Настоящий [archlich|E], этот [lich|E] совершил почти невозможное и временно подчинил себе достаточно конкурирующих Личей [Concept('lichdoms','Личдома')|E], чтобы его признали Архиличом, верховным правителем всех Личей. Это означает, что он, вероятно, возглавляет огромные силы нежити, и его свита состоит из ковена, состоящего из самых могущественных [Concept('magi','Магов')|E], существующих в настоящее время. Будут ли он на самом деле использовать что-либо из этого до того, как один из его подчиненных совершит традиционное политическое убийство, еще предстоит узнать..." 
@@ -803,8 +803,8 @@ trait_gh_legon:0 "Легон"
  trait_magic_court_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] прожил как минимум [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] лет, проживая в знающем [GetCourtType('court_magic').GetName], полном проницательных [Concept('magi','Магов')|E] и учёных." 
   
  trait_gh_magic_debug: "Маг, использующий режим отладки" 
- trait_gh_magic_debug_desc: "Этот персонаж — Маг, используемый в целях отладки. #BOL Скорее всего, вы # жульничаете. Бу!" #Машинный перевод 28.10.23
- trait_gh_magic_debug_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] — это Magi, используемый в целях отладки. #BOL Вы#!, скорее всего, жульничаете. Бу!" #Машинный перевод 28.10.23
+ trait_gh_magic_debug_desc: "Этот персонаж — Маг, используемый в целях отладки. #BOL Скорее всего, вы # жульничаете. Бу!" 
+ trait_gh_magic_debug_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] — это маг, используемый в целях отладки. #BOL Вы#!, скорее всего, жульничаете. Бу!" 
   
  trait_gh_griffon_trait: "Грифон" 
  trait_gh_griffon_trait_desc: "Это [griffon|E] - [Concept('godtouched_creature','Божественное создание')|E], обитающее в [chevalie|E]. Хотя это желаемые твари, они относительно редки и распространены только среди членов королевской семьи." 
@@ -835,112 +835,112 @@ trait_gh_legon:0 "Легон"
  trait_gh_dragon_red_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [dragon|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of ruby, a species known for its mastery over [aspect_fire|E]." 
   
  # Substitute lifestyle traits for history work 
- trait_gh_historical_blademaster_1: "Честолюбивый мастер клинка" #Машинный перевод 28.10.23
- trait_gh_historical_blademaster_1_desc: "Ловкий в личном бою — начинающий мастер клинка знает, с какой целью его использовать." #Машинный перевод 28.10.23
- trait_gh_historical_blademaster_1_character_desc: "Ловкий в личном бою — [ROOT.GetCharacter.GetFirstNameNoTooltip] знает, с какой целью их втыкать." #Машинный перевод 28.10.23
+ trait_gh_historical_blademaster_1: "Честолюбивый мастер клинка" 
+ trait_gh_historical_blademaster_1_desc: "Ловкий в личном бою — начинающий мастер клинка знает, с какой целью его использовать." 
+ trait_gh_historical_blademaster_1_character_desc: "Ловкий в личном бою — [ROOT.GetCharacter.GetFirstNameNoTooltip] знает, с какой целью их втыкать." 
   
- trait_gh_historical_blademaster_2: "Мастер клинка" #Машинный перевод 28.10.23
- trait_gh_historical_blademaster_2_desc: "Мастер клинка — грозный и уважаемый противник во всех видах боя." #Машинный перевод 28.10.23
- trait_gh_historical_blademaster_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] — грозный и уважаемый противник во всех видах боя." #Машинный перевод 28.10.23
+ trait_gh_historical_blademaster_2: "Мастер клинка" 
+ trait_gh_historical_blademaster_2_desc: "Мастер клинка — грозный и уважаемый противник во всех видах боя." 
+ trait_gh_historical_blademaster_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] — грозный и уважаемый противник во всех видах боя." 
   
- trait_gh_historical_blademaster_3: "Легендарный мастер клинка" #Машинный перевод 28.10.23
- trait_gh_historical_blademaster_3_desc: "Годы жизни, потраченные на освоение оружия, чтобы его грация однажды могла спасти одну жизнь и положить конец другой." #Машинный перевод 28.10.23
- trait_gh_historical_blademaster_3_character_desc: "Годы жизни, потраченные на освоение оружия, чтобы его грация однажды могла спасти одну жизнь и положить конец другой." #Машинный перевод 28.10.23
+ trait_gh_historical_blademaster_3: "Легендарный мастер клинка" 
+ trait_gh_historical_blademaster_3_desc: "Годы жизни, потраченные на освоение оружия, чтобы его грация однажды могла спасти одну жизнь и положить конец другой." 
+ trait_gh_historical_blademaster_3_character_desc: "Годы жизни, потраченные на освоение оружия, чтобы его грация однажды могла спасти одну жизнь и положить конец другой." 
   
- trait_gh_historical_reveler_1: "Нетерпеливый гуляка" #Машинный перевод 28.10.23
- trait_gh_historical_reveler_1_desc: "Выпить и посмеяться, и все это в хорошей компании. Что еще есть в жизни?" #Машинный перевод 28.10.23
- trait_gh_historical_reveler_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] попробовал опьяняющую жизнь, полную разгула и разврата, и жаждет большего." #Машинный перевод 28.10.23
+ trait_gh_historical_reveler_1: "Нетерпеливый гуляка" 
+ trait_gh_historical_reveler_1_desc: "Выпить и посмеяться, и все это в хорошей компании. Что еще есть в жизни?" 
+ trait_gh_historical_reveler_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] попробовал опьяняющую жизнь, полную разгула и разврата, и жаждет большего." 
   
- trait_gh_historical_reveler_2: "Знаменитый гуляка" #Машинный перевод 28.10.23
- trait_gh_historical_reveler_2_desc: "Знаменитый гуляка — это жизнь каждого собрания, привлекающая как разврат, так и гламур." #Машинный перевод 28.10.23
- trait_gh_historical_reveler_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] — это жизнь каждого тусовки, привлекающая как разврат, так и гламур." #Машинный перевод 28.10.23
+ trait_gh_historical_reveler_2: "Знаменитый гуляка" 
+ trait_gh_historical_reveler_2_desc: "Знаменитый гуляка — это жизнь каждого собрания, привлекающая как разврат, так и гламур." 
+ trait_gh_historical_reveler_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] — это жизнь каждого тусовки, привлекающая как разврат, так и гламур." 
   
- trait_gh_historical_reveler_3: "Легендарный гуляка" #Машинный перевод 28.10.23
- trait_gh_historical_reveler_3_desc: "Еда, питье, опьянение тела и разума — Легендарный Гуляк ни в чем себе не отказывает и является связующим звеном каждого пиршества." #Машинный перевод 28.10.23
- trait_gh_historical_reveler_3_character_desc: "Еда, питье, опьянение тела и ума — [ROOT.GetCharacter.GetFirstNameNoTooltip] ничего не отрицает [ROOT.GetCharacter.GetHerselfHimself] и является связующим звеном каждого пиршества." #Машинный перевод 28.10.23
+ trait_gh_historical_reveler_3: "Легендарный гуляка" 
+ trait_gh_historical_reveler_3_desc: "Еда, питье, опьянение тела и разума — Легендарный Гуляк ни в чем себе не отказывает и является связующим звеном каждого пиршества." 
+ trait_gh_historical_reveler_3_character_desc: "Еда, питье, опьянение тела и ума — [ROOT.GetCharacter.GetFirstNameNoTooltip] ничего не отрицает [ROOT.GetCharacter.GetHerselfHimself] и является связующим звеном каждого пиршества." 
   
- trait_gh_historical_physician_1: "Начинающий врач" #Машинный перевод 28.10.23
- trait_gh_historical_physician_1_desc: "Этот персонаж обучен искусству исцеления." #Машинный перевод 28.10.23
- trait_gh_historical_physician_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] обучен искусству исцеления." #Машинный перевод 28.10.23
+ trait_gh_historical_physician_1: "Начинающий врач" 
+ trait_gh_historical_physician_1_desc: "Этот персонаж обучен искусству исцеления." 
+ trait_gh_historical_physician_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] обучен искусству исцеления." 
   
- trait_gh_historical_physician_2: "Врач" #Машинный перевод 28.10.23
- trait_gh_historical_physician_2_desc: "Этот персонаж имеет большой опыт ухода за больными и ранеными." #Машинный перевод 28.10.23
- trait_gh_historical_physician_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] имеет большой опыт ухода за больными и ранеными." #Машинный перевод 28.10.23
+ trait_gh_historical_physician_2: "Врач" 
+ trait_gh_historical_physician_2_desc: "Этот персонаж имеет большой опыт ухода за больными и ранеными." 
+ trait_gh_historical_physician_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] имеет большой опыт ухода за больными и ранеными." 
   
- trait_gh_historical_physician_3: "Известный врач" #Машинный перевод 28.10.23
- trait_gh_historical_physician_3_desc: "Целебные способности этого персонажа хорошо известны в научных кругах." #Машинный перевод 28.10.23
- trait_gh_historical_physician_3_character_desc: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] навыки врачевания хорошо известны в научных кругах." #Машинный перевод 28.10.23
+ trait_gh_historical_physician_3: "Известный врач" 
+ trait_gh_historical_physician_3_desc: "Целебные способности этого персонажа хорошо известны в научных кругах." 
+ trait_gh_historical_physician_3_character_desc: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] навыки врачевания хорошо известны в научных кругах." 
   
- trait_gh_historical_pilgrim_1: "Пилигрим" #Машинный перевод 28.10.23
- trait_gh_historical_pilgrim_1_desc: "Мозолистые ноги, болящие конечности, обветренное лицо. Все это небольшая цена за выполнение вашего святого долга." #Машинный перевод 28.10.23
- trait_gh_historical_pilgrim_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] совершил паломничество к святому месту." #Машинный перевод 28.10.23
+ trait_gh_historical_pilgrim_1: "Пилигрим" 
+ trait_gh_historical_pilgrim_1_desc: "Мозолистые ноги, болящие конечности, обветренное лицо. Все это небольшая цена за выполнение вашего святого долга." 
+ trait_gh_historical_pilgrim_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] совершил паломничество к святому месту." 
   
- trait_gh_historical_pilgrim_2: "Опытный паломник" #Машинный перевод 28.10.23
- trait_gh_historical_pilgrim_2_desc: "Этот персонаж много путешествовал в паломничествах и известен как своего рода эксперт в туристических группах паломников." #Машинный перевод 28.10.23
- trait_gh_historical_pilgrim_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] много путешествовал в паломничествах и известен как эксперт в группах паломников." #Машинный перевод 28.10.23
+ trait_gh_historical_pilgrim_2: "Опытный паломник" 
+ trait_gh_historical_pilgrim_2_desc: "Этот персонаж много путешествовал в паломничествах и известен как своего рода эксперт в туристических группах паломников." 
+ trait_gh_historical_pilgrim_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] много путешествовал в паломничествах и известен как эксперт в группах паломников." 
   
- trait_gh_historical_pilgrim_3: "Плодовитый пилигрим" #Машинный перевод 28.10.23
- trait_gh_historical_pilgrim_3_desc: "Этот персонаж хорошо известен в священных кругах как истинный [ROOT.GetCharacter.GetWomanMan] мира. Другие паломники часто обращаются к [ROOT.GetCharacter.GetFirstNameNoTooltip] за советом как в духовных, так и в навигационных вопросах." #Машинный перевод 28.10.23
- trait_gh_historical_pilgrim_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] хорошо известен в священных кругах как истинный [ROOT.GetCharacter.GetWomanMan] мира. Другие паломники часто обращаются к [ROOT.GetCharacter.GetFirstNameNoTooltip] за советом как в духовных, так и в навигационных вопросах." #Машинный перевод 28.10.23
+ trait_gh_historical_pilgrim_3: "Плодовитый пилигрим" 
+ trait_gh_historical_pilgrim_3_desc: "Этот персонаж хорошо известен в священных кругах как истинный [ROOT.GetCharacter.GetWomanMan] мира. Другие паломники часто обращаются к [ROOT.GetCharacter.GetFirstNameNoTooltip] за советом как в духовных, так и в навигационных вопросах." 
+ trait_gh_historical_pilgrim_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] хорошо известен в священных кругах как истинный [ROOT.GetCharacter.GetWomanMan] мира. Другие паломники часто обращаются к [ROOT.GetCharacter.GetFirstNameNoTooltip] за советом как в духовных, так и в навигационных вопросах." 
   
  trait_gh_historical_mystic_1: "Эзотерик" 
- trait_gh_historical_mystic_1_desc: "Этот персонаж известен своим нетрадиционным, но практичным подходом к религии." #Машинный перевод 28.10.23
- trait_gh_historical_mystic_1_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] известен [ROOT.Char.GetHerHis] нетрадиционным, но практичным подходом к религии." #Машинный перевод 28.10.23
+ trait_gh_historical_mystic_1_desc: "Этот персонаж известен своим нетрадиционным, но практичным подходом к религии." 
+ trait_gh_historical_mystic_1_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] известен [ROOT.Char.GetHerHis] нетрадиционным, но практичным подходом к религии." 
   
  trait_gh_historical_mystic_2: "Мистик" 
- trait_gh_historical_mystic_2_desc: "Тайны мира, как физические, так и иные, раскрываются при достаточном размышлении." #Машинный перевод 28.10.23
- trait_gh_historical_mystic_2_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] известен [ROOT.Char.GetHerHis] необычными методами достижения религиозного вознесения." #Машинный перевод 28.10.23
+ trait_gh_historical_mystic_2_desc: "Тайны мира, как физические, так и иные, раскрываются при достаточном размышлении." 
+ trait_gh_historical_mystic_2_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] известен [ROOT.Char.GetHerHis] необычными методами достижения религиозного вознесения." 
   
  trait_gh_historical_mystic_3: "Паранормальный" 
- trait_gh_historical_mystic_3_desc: "Благовония, песнопения и странные заговоры – этот персонаж творит чудеса нетрадиционными способами." #Машинный перевод 28.10.23
- trait_gh_historical_mystic_3_character_desc: "Благовония, песнопения и странные заговоры – [ROOT.Char.GetFirstNameNoTooltip] творит чудеса нетрадиционными способами." #Машинный перевод 28.10.23
+ trait_gh_historical_mystic_3_desc: "Благовония, песнопения и странные заговоры – этот персонаж творит чудеса нетрадиционными способами." 
+ trait_gh_historical_mystic_3_character_desc: "Благовония, песнопения и странные заговоры – [ROOT.Char.GetFirstNameNoTooltip] творит чудеса нетрадиционными способами." 
   
  trait_gh_historical_hunter: "Начинающий охотник" 
- trait_gh_historical_hunter_desc: "Этот персонаж принял зов дикой природы." #Машинный перевод 28.10.23
- trait_gh_historical_hunter_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] принял зов природы." #Машинный перевод 28.10.23
+ trait_gh_historical_hunter_desc: "Этот персонаж принял зов дикой природы." 
+ trait_gh_historical_hunter_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] принял зов природы." 
   
  trait_gh_historical_track_hunter_1: "Охотник" 
- trait_gh_historical_track_hunter_1_desc: "Звук рогов, собаки, добыча! На луке или в конюшне нет никаких ощущений, которые можно было бы сравнить с победой над диким зверем!" #Машинный перевод 28.10.23
- trait_gh_historical_track_hunter_1_character_desc: "Звук рогов, собаки, добыча! На луке или в конюшне нет никаких ощущений, которые можно было бы сравнить с победой над диким зверем!" #Машинный перевод 28.10.23
+ trait_gh_historical_track_hunter_1_desc: "Звук рогов, собаки, добыча! На луке или в конюшне нет никаких ощущений, которые можно было бы сравнить с победой над диким зверем!" 
+ trait_gh_historical_track_hunter_1_character_desc: "Звук рогов, собаки, добыча! На луке или в конюшне нет никаких ощущений, которые можно было бы сравнить с победой над диким зверем!" 
   
  trait_gh_historical_track_hunter_2: "Опытный охотник" 
- trait_gh_historical_track_hunter_2_desc: "Звук рогов, собаки, добыча! На луке или в конюшне нет никаких ощущений, которые можно было бы сравнить с победой над диким зверем!" #Машинный перевод 28.10.23
- trait_gh_historical_track_hunter_2_character_desc: "Звук рогов, собаки, добыча! На луке или в конюшне нет никаких ощущений, которые можно было бы сравнить с победой над диким зверем!" #Машинный перевод 28.10.23
+ trait_gh_historical_track_hunter_2_desc: "Звук рогов, собаки, добыча! На луке или в конюшне нет никаких ощущений, которые можно было бы сравнить с победой над диким зверем!" 
+ trait_gh_historical_track_hunter_2_character_desc: "Звук рогов, собаки, добыча! На луке или в конюшне нет никаких ощущений, которые можно было бы сравнить с победой над диким зверем!" 
   
- trait_gh_historical_track_hunter_3: "Охотник-эксперт" #Машинный перевод 28.10.23
- trait_gh_historical_track_hunter_3_desc: "Опытный охотник — бич дикой природы." #Машинный перевод 28.10.23
- trait_gh_historical_track_hunter_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] — бич дикой природы." #Машинный перевод 28.10.23
+ trait_gh_historical_track_hunter_3: "Охотник-эксперт" 
+ trait_gh_historical_track_hunter_3_desc: "Опытный охотник — бич дикой природы." 
+ trait_gh_historical_track_hunter_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] — бич дикой природы." 
   
- trait_gh_historical_track_hunter_4: "Легендарный охотник" #Машинный перевод 28.10.23
- trait_gh_historical_track_hunter_4_desc: "Легендарный охотник может охотиться так же естественно, как дышать." #Машинный перевод 28.10.23
- trait_gh_historical_track_hunter_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] могут охотиться так же естественно, как дышать." #Машинный перевод 28.10.23
+ trait_gh_historical_track_hunter_4: "Легендарный охотник" 
+ trait_gh_historical_track_hunter_4_desc: "Легендарный охотник может охотиться так же естественно, как дышать." 
+ trait_gh_historical_track_hunter_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] могут охотиться так же естественно, как дышать." 
   
- trait_gh_historical_track_falconer_1: "Сокольничий" #Машинный перевод 28.10.23
- trait_gh_historical_track_falconer_1_desc: "Нет более благородного занятия, чем охота на ястреба и сокола." #Машинный перевод 28.10.23
- trait_gh_historical_track_falconer_1_character_desc: "Нет более благородного занятия, чем охота на ястреба и сокола." #Машинный перевод 28.10.23
+ trait_gh_historical_track_falconer_1: "Сокольничий" 
+ trait_gh_historical_track_falconer_1_desc: "Нет более благородного занятия, чем охота на ястреба и сокола." 
+ trait_gh_historical_track_falconer_1_character_desc: "Нет более благородного занятия, чем охота на ястреба и сокола." 
   
  trait_gh_historical_track_falconer_2: "Опытный сокольничий" 
  trait_gh_historical_track_falconer_2_desc: "Этот персонаж умеет обучать хищных птиц охоте на диких животных."
  trait_gh_historical_track_falconer_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] умеет дрессировать хищных птиц для охоты на диких животных." 
   
- trait_gh_historical_track_beasthunter_1: "Новичок в истреблении монстров" #Машинный перевод 28.10.23
- trait_gh_historical_track_beasthunter_1_desc: "Этот персонаж — новичок в искусстве охоты на самую опасную дичь." #Машинный перевод 28.10.23
- trait_gh_historical_track_beasthunter_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] — новичок в искусстве охоты на самую опасную дичь." #Машинный перевод 28.10.23
+ trait_gh_historical_track_beasthunter_1: "Новичок в истреблении монстров" 
+ trait_gh_historical_track_beasthunter_1_desc: "Этот персонаж — новичок в искусстве охоты на самую опасную дичь." 
+ trait_gh_historical_track_beasthunter_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] — новичок в искусстве охоты на самую опасную дичь." 
   
- trait_gh_historical_track_beasthunter_2: "Убийца монстров" #Машинный перевод 28.10.23
- trait_gh_historical_track_beasthunter_2_desc: "Этот персонаж доказал, что он опытен в охоте на экзотических и опасных существ. А иногда и то и другое." #Машинный перевод 28.10.23
- trait_gh_historical_track_beasthunter_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] доказали свою способность охотиться на экзотических и опасных существ. А иногда и то и другое." #Машинный перевод 28.10.23
+ trait_gh_historical_track_beasthunter_2: "Убийца монстров" 
+ trait_gh_historical_track_beasthunter_2_desc: "Этот персонаж доказал, что он опытен в охоте на экзотических и опасных существ. А иногда и то и другое." 
+ trait_gh_historical_track_beasthunter_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] доказали свою способность охотиться на экзотических и опасных существ. А иногда и то и другое." 
   
- trait_gh_historical_track_beasthunter_3: "Ветеран-истребитель монстров" #Машинный перевод 28.10.23
- trait_gh_historical_track_beasthunter_3_desc: "Этот персонаж известен как эксперт в охоте на все опасное и чудовищное. Они представляют собой зрелище, на которое стоит обратить внимание во время пути." #Машинный перевод 28.10.23
+ trait_gh_historical_track_beasthunter_3: "Ветеран-истребитель монстров" 
+ trait_gh_historical_track_beasthunter_3_desc: "Этот персонаж известен как эксперт в охоте на все опасное и чудовищное. Они представляют собой зрелище, на которое стоит обратить внимание во время пути." 
  trait_gh_historical_track_beasthunter_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] известен как специалист по охоте на все опасные и чудовищные существа. На него стоит посмотреть во время прогулки, особенно при охоте на [SelectLocalization('(bool)no','',Concatenate(ROOT.GetCharacter.MakeScope.Var('game_gain_expert_proficiency_var').GetFlagName,'_name'))]."
   
- trait_gh_historical_track_beasthunter_4: "Легендарный убийца монстров" #Машинный перевод 28.10.23
- trait_gh_historical_track_beasthunter_4_desc: "Охоты этого персонажа овеяны легендами: самые могущественные звери боятся того дня, когда войдут в свое логово." #Машинный перевод 28.10.23
- trait_gh_historical_track_beasthunter_4_character_desc: "Охота [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] стала легендой, самые могучие звери боятся того дня, когда он войдет в их логово, особенно [SelectLocalization('(bool)no','',Concatenate(ROOT.GetCharacter.MakeScope.Var('game_gain_expert_proficiency_var').GetFlagName,'_name'))]."
+ trait_gh_historical_track_beasthunter_4: "Легендарный убийца монстров" 
+ trait_gh_historical_track_beasthunter_4_desc: "Охоты этого персонажа овеяны легендами: самые могущественные звери боятся того дня, когда он найдет их логова." 
+ trait_gh_historical_track_beasthunter_4_character_desc: "Охота [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] стала легендой, самые могучие звери боятся того дня, когда он найдет их логова, особенно [SelectLocalization('(bool)no','',Concatenate(ROOT.GetCharacter.MakeScope.Var('game_gain_expert_proficiency_var').GetFlagName,'_name'))]."
   
- trait_mostly_whole_of_body: "Сильное тело" #Машинный перевод 28.10.23
- trait_mostly_whole_of_body_desc: "Познайте себя, знайте свои ограничения и осознайте всю степень своих несколько ограниченных возможностей." #Машинный перевод 28.10.23
+ trait_mostly_whole_of_body: "Всетельный" 
+ trait_mostly_whole_of_body_desc: "Познайте себя, осознайте свои ограничения и осознайте в полной мере свои несколько ограниченные возможности." 
   
- trait_track_lifestyle_beasthunter: "Охотник на зверей" #Машинный перевод 28.10.23
- trait_track_lifestyle_beasthunter_desc: "Охотник на зверей — это тот, кто имеет опыт охоты и убийства самых чудовищных существ, обитающих в [aeras|E]." #Машинный перевод 28.10.23
+ trait_track_lifestyle_beasthunter: "Охотник на зверей"
+ trait_track_lifestyle_beasthunter_desc: "Охотник на зверей - это тот, у кого есть опыт охоты и убийства некоторых из наиболее чудовищных существ, встречающихся по всему [Concept('aeras','Аэрасу')|E]." 
