@@ -1,22 +1,22 @@
 ﻿l_russian:
- colonize_wasteland_interaction: "[colonize|E] Пустошь"  #Машинный перевод 28.10.23!
- colonize_wasteland_interaction_desc: "Попробуйте вернуть себе кусок бесплодной земли."  #Машинный перевод 28.10.23!
- colonize_wasteland_interaction_title: "Пустошь восстановлена"  #Машинный перевод 28.10.23!
- gh_colonize_wasteland_title: "Пустошь восстановлена"  #Машинный перевод 28.10.23!
- colonize_holding_interaction_title_not_county_or_below: "Выберите [county|E] или [barony|E]"  #Машинный перевод 28.10.23!
- abandon_colony_interaction: "Покинуть колонию"  #Машинный перевод 28.10.23!
- abandon_colony_interaction_desc: "Оставьте свои попытки колонизировать этот [county|E]."  #Машинный перевод 28.10.23!
- COLONISATION_STEP: "Фаза:"  #Машинный перевод 28.10.23!
- COLONISATION_STEP_VALUE: "[HoldingView.GetProvince.Custom('gh_colonisation_phase')]"  #Машинный перевод 28.10.23!
- COLONISATION_POLICY: "Политика:"  #Машинный перевод 28.10.23!
- COLONISATION_POLICY_VALUE: "Человек против Природы"  #Машинный перевод 28.10.23!
- COLONIZE_BUTTON_TEXT: "[colonize|E] [county|E]"  #Машинный перевод 28.10.23!
- ABANDON_COLONY_BUTTON_TEXT: "Покинуть колонию"  #Машинный перевод 28.10.23!
- GH_COLONISATION_PHASE_INITIAL: "Исходный"  #Машинный перевод 28.10.23!
- GH_COLONISATION_PHASE_MAIN: "Основной"  #Машинный перевод 28.10.23!
- GH_COLONISATION_PHASE_MAIN_NONE: "Никто"  #Машинный перевод 28.10.23!
+ colonize_wasteland_interaction: "[Concept('colonize','Колонизировать')|E] Пустошь" 
+ colonize_wasteland_interaction_desc: "Попытайтесь отвоевать кусок бесплодной земли." 
+ colonize_wasteland_interaction_title: "Пустошь возрождена" 
+ gh_colonize_wasteland_title: "Пустошь возрождена" 
+ colonize_holding_interaction_title_not_county_or_below: "Выберите [Concept('county','графство')|E] или [Concept('barony','баронство')|E]" 
+ abandon_colony_interaction: "Покинуть колонию" 
+ abandon_colony_interaction_desc: "Оставьте свои попытки колонизировать этот [Concept('county','графство')|E]." 
+ COLONISATION_STEP: "Фаза:" 
+ COLONISATION_STEP_VALUE: "[HoldingView.GetProvince.Custom('gh_colonisation_phase')]" 
+ COLONISATION_POLICY: "Политика:" 
+ COLONISATION_POLICY_VALUE: "Человек против Природы" 
+ COLONIZE_BUTTON_TEXT: "[Concept('colonize','Колонизировать')|E] [Concept('county','графство')|E]" 
+ ABANDON_COLONY_BUTTON_TEXT: "Покинуть колонию" 
+ GH_COLONISATION_PHASE_INITIAL: "Исходный" 
+ GH_COLONISATION_PHASE_MAIN: "Основной" 
+ GH_COLONISATION_PHASE_MAIN_NONE: "Никто" 
   
- wasteland_kingdom_title_name: "[temporary_kingdom_scope.GetAdjectiveNoTooltip] Отходы"  #Машинный перевод 28.10.23!
+ wasteland_kingdom_title_name: "[temporary_kingdom_scope.GetAdjectiveNoTooltip] Отходы" 
   
- RED_WASTE_NAME: "Красная Пустошь"  #Машинный перевод 28.10.23!
+ RED_WASTE_NAME: "Красная Пустошь" 
  BLANK_KINGDOM_NAME: ""
