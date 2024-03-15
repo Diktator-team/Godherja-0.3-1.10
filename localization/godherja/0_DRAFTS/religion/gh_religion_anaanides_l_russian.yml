@@ -1,72 +1,72 @@
 ﻿l_russian:
   
  #anaanides Loc 
- anaanides_religion: "Анаанид" #Машинный перевод 28.10.23
- anaanides_religion_adj: "Анаанид" #Машинный перевод 28.10.23
- anaanides_religion_adherent: "Анаанид" #Машинный перевод 28.10.23
- anaanides_religion_adherent_plural: "Анааниды" #Машинный перевод 28.10.23
- anaanides_religion_desc: "Вера Анаанидов сосредоточена на одном моменте жизни или, скорее, после жизни - моменте суда, когда души предстают перед Великим Судьей и считаются достойными войти в рай Анаана или погибнуть в пустоте. Однако число душ, способных войти в Анаан, очень невелико, и не все, кто ищет путь, могут достичь его. Умирают только по-настоящему хорошие люди — совсем молодые, еще не знающие зла, или старые, очистившие свою душу от нечистых желаний." #Машинный перевод 28.10.23
- anaanides_high_god_name: "Великий Судья" #Машинный перевод 28.10.23
- anaanides_high_god_name_possessive: "Великий Судья" #Машинный перевод 28.10.23
- anaanides_high_god_name_alternate: "Окончательный арбитр" #Машинный перевод 28.10.23
- anaanides_high_god_name_alternate_possessive: "Окончательный арбитр" #Машинный перевод 28.10.23
- anaanides_devil_name: "Забвение" #Машинный перевод 28.10.23
- anaanides_devil_name_possessive: "Обливиона" #Машинный перевод 28.10.23
- anaanides_death_deity_name: "$anaanides_high_god_name$" #Машинный перевод 28.10.23
- anaanides_death_deity_name_possessive: "$anaanides_high_god_name_possessive$" #Машинный перевод 28.10.23
+ anaanides_religion: "Анаанидск" 
+ anaanides_religion_adj: "Анаанид" 
+ anaanides_religion_adherent: "Анаанид" 
+ anaanides_religion_adherent_plural: "Анааниды" 
+ anaanides_religion_desc: "Вера анаанидов сосредоточена на единственном моменте в жизни, или, скорее, после жизни - моменте страшного суда, когда души предстают перед Великим Судьей и считаются достойными войти в рай Анаан или погибнуть в пустоте. Однако число душ, пригодных для вступления в Анаан, очень невелико, и не все, кто ищет путь, могут достичь его. Единственные по-настоящему хорошие люди, которые умирают, - это очень молодые, которые еще не знают зла, или старики, которые очистили свои души от нечистых желаний".
+ anaanides_high_god_name: "Великий Судья" 
+ anaanides_high_god_name_possessive: "Великий Судья" 
+ anaanides_high_god_name_alternate: "Окончательный арбитр" 
+ anaanides_high_god_name_alternate_possessive: "Окончательный арбитр" 
+ anaanides_devil_name: "Забвение" 
+ anaanides_devil_name_possessive: "Забвение" 
+ anaanides_death_deity_name: "$anaanides_high_god_name$" 
+ anaanides_death_deity_name_possessive: "$anaanides_high_god_name_possessive$" 
   
- anaanides_house_of_worship: "Храм" #Машинный перевод 28.10.23
- anaanides_house_of_worship_plural: "Храмы" #Машинный перевод 28.10.23
- anaanides_religious_symbol: "Весы" #Машинный перевод 28.10.23
- anaanides_religious_text: "Размышления Разина" #Машинный перевод 28.10.23
+ anaanides_house_of_worship: "Храм" 
+ anaanides_house_of_worship_plural: "Храмы" 
+ anaanides_religious_symbol: "Весы" 
+ anaanides_religious_text: "Размышления Разина" 
   
- anaanides_religious_head_title: "Высшее руководство" #Машинный перевод 28.10.23
- anaanides_religious_head_title_name: "Храм Закона" #Машинный перевод 28.10.23
- anaanides_devotee_male: "Анаанид" #Машинный перевод 28.10.23
- anaanides_devotee_male_plural: "Анааниды" #Машинный перевод 28.10.23
- anaanides_devotee_female: "Анаанид" #Машинный перевод 28.10.23
- anaanides_devotee_female_plural: "Анааниды" #Машинный перевод 28.10.23
- anaanides_devotee_neuter: "Анаанид" #Машинный перевод 28.10.23
- anaanides_devotee_neuter_plural: "Анааниды" #Машинный перевод 28.10.23
- anaanides_priest_male: "Гид" #Машинный перевод 28.10.23
- anaanides_priest_male_plural: "Путеводители" #Машинный перевод 28.10.23
- anaanides_priest_female: "Гид" #Машинный перевод 28.10.23
- anaanides_priest_female_plural: "Путеводители" #Машинный перевод 28.10.23
- anaanides_priest_alternate: "Гид" #Машинный перевод 28.10.23
- anaanides_priest_alternate_plural: "Путеводители" #Машинный перевод 28.10.23
- anaanides_bishop: "Высокий гид" #Машинный перевод 28.10.23
- anaanides_bishop_plural: "Высокие гиды" #Машинный перевод 28.10.23
- anaanides_positive_afterlife: "Анаан" #Машинный перевод 28.10.23
- anaanides_negative_afterlife: "Забвение" #Машинный перевод 28.10.23
+ anaanides_religious_head_title: "Высшее руководство" 
+ anaanides_religious_head_title_name: "Храм Закона" 
+ anaanides_devotee_male: "Анаанид" 
+ anaanides_devotee_male_plural: "Анааниды" 
+ anaanides_devotee_female: "Анаанид" 
+ anaanides_devotee_female_plural: "Анааниды" 
+ anaanides_devotee_neuter: "Анаанид" 
+ anaanides_devotee_neuter_plural: "Анааниды" 
+ anaanides_priest_male: "Гид" 
+ anaanides_priest_male_plural: "Путеводители" 
+ anaanides_priest_female: "Гид" 
+ anaanides_priest_female_plural: "Путеводители" 
+ anaanides_priest_alternate: "Гид" 
+ anaanides_priest_alternate_plural: "Путеводители" 
+ anaanides_bishop: "Высокий гид" 
+ anaanides_bishop_plural: "Высокие гиды" 
+ anaanides_positive_afterlife: "Анаан" 
+ anaanides_negative_afterlife: "Забвение" 
   
- anaanides_creator_god_name: "$anaanides_high_god_name$" #Машинный перевод 28.10.23
- anaanides_creator_god_name_possessive: "$anaanides_high_god_name_possessive$" #Машинный перевод 28.10.23
- anaanides_health_god_name: "$anaanides_high_god_name$" #Машинный перевод 28.10.23
- anaanides_health_god_name_possessive: "$anaanides_high_god_name_possessive$" #Машинный перевод 28.10.23
- anaanides_fertility_god_name: "$anaanides_high_god_name$" #Машинный перевод 28.10.23
- anaanides_fertility_god_name_possessive: "$anaanides_high_god_name_possessive$" #Машинный перевод 28.10.23
- anaanides_wealth_god_name: "$anaanides_high_god_name$" #Машинный перевод 28.10.23
- anaanides_wealth_god_name_possessive: "$anaanides_high_god_name_possessive$" #Машинный перевод 28.10.23
- anaanides_household_god_name: "$anaanides_high_god_name$" #Машинный перевод 28.10.23
- anaanides_household_god_name_possessive: "$anaanides_high_god_name_possessive$" #Машинный перевод 28.10.23
- anaanides_fate_god_name: "$anaanides_high_god_name$" #Машинный перевод 28.10.23
- anaanides_fate_god_name_possessive: "$anaanides_high_god_name_possessive$" #Машинный перевод 28.10.23
- anaanides_knowledge_god_name: "$anaanides_high_god_name$" #Машинный перевод 28.10.23
- anaanides_knowledge_god_name_possessive: "$anaanides_high_god_name_possessive$" #Машинный перевод 28.10.23
- anaanides_war_god_name: "$anaanides_devil_name$" #Машинный перевод 28.10.23
- anaanides_war_god_name_possessive: "$anaanides_devil_name_possessive$" #Машинный перевод 28.10.23
- anaanides_trickster_god_name: "$anaanides_devil_name$" #Машинный перевод 28.10.23
- anaanides_trickster_god_name_possessive: "$anaanides_devil_name_possessive$" #Машинный перевод 28.10.23
- anaanides_night_god_name: "$anaanides_devil_name$" #Машинный перевод 28.10.23
- anaanides_night_god_name_possessive: "$anaanides_devil_name_possessive$" #Машинный перевод 28.10.23
- anaanides_water_god_name: "$anaanides_high_god_name$" #Машинный перевод 28.10.23
- anaanides_water_god_name_possessive: "Дерья" #Машинный перевод 28.10.23
- anaanides_witch_god_name: "$anaanides_devil_name$" #Машинный перевод 28.10.23
- anaanides_witch_god_name_possessive: "$anaanides_devil_name_possessive$" #Машинный перевод 28.10.23
+ anaanides_creator_god_name: "$anaanides_high_god_name$" 
+ anaanides_creator_god_name_possessive: "$anaanides_high_god_name_possessive$" 
+ anaanides_health_god_name: "$anaanides_high_god_name$" 
+ anaanides_health_god_name_possessive: "$anaanides_high_god_name_possessive$" 
+ anaanides_fertility_god_name: "$anaanides_high_god_name$" 
+ anaanides_fertility_god_name_possessive: "$anaanides_high_god_name_possessive$" 
+ anaanides_wealth_god_name: "$anaanides_high_god_name$" 
+ anaanides_wealth_god_name_possessive: "$anaanides_high_god_name_possessive$" 
+ anaanides_household_god_name: "$anaanides_high_god_name$" 
+ anaanides_household_god_name_possessive: "$anaanides_high_god_name_possessive$" 
+ anaanides_fate_god_name: "$anaanides_high_god_name$" 
+ anaanides_fate_god_name_possessive: "$anaanides_high_god_name_possessive$" 
+ anaanides_knowledge_god_name: "$anaanides_high_god_name$" 
+ anaanides_knowledge_god_name_possessive: "$anaanides_high_god_name_possessive$" 
+ anaanides_war_god_name: "$anaanides_devil_name$" 
+ anaanides_war_god_name_possessive: "$anaanides_devil_name_possessive$" 
+ anaanides_trickster_god_name: "$anaanides_devil_name$" 
+ anaanides_trickster_god_name_possessive: "$anaanides_devil_name_possessive$" 
+ anaanides_night_god_name: "$anaanides_devil_name$" 
+ anaanides_night_god_name_possessive: "$anaanides_devil_name_possessive$" 
+ anaanides_water_god_name: "$anaanides_high_god_name$" 
+ anaanides_water_god_name_possessive: "Дерья" 
+ anaanides_witch_god_name: "$anaanides_devil_name$" 
+ anaanides_witch_god_name_possessive: "$anaanides_devil_name_possessive$" 
   
  #anaanides loc 
- anaanides: "Анаанид" #Машинный перевод 28.10.23
- anaanides_adj: "Анаанид" #Машинный перевод 28.10.23
- anaanides_adherent: "Анаанид" #Машинный перевод 28.10.23
- anaanides_adherent_plural: "Анааниды" #Машинный перевод 28.10.23
- anaanides_desc: "Вера в то, что войти в рай Анаана можно только через пожизненное путешествие умственного исследования и очищения, означает, что в веру Анаанидов обращено очень мало людей. Их окончательное решение рассматривается его членами как радикальное, но необходимое действие - похищение тех, кто слишком молод, чтобы познать грех, и воспитание их среди Анаанидов, чтобы они могли встать на путь как можно скорее. Это может быть жестоко, но не более ли жестока судьба обречь эти души на забвение?" #Машинный перевод 28.10.23
+ anaanides: "Анаанидск" 
+ anaanides_adj: "Анаанид" 
+ anaanides_adherent: "Анаанид" 
+ anaanides_adherent_plural: "Анааниды" 
+ anaanides_desc: "Вера в то, что попасть в рай Анаан возможно только через путешествие длиною в жизнь, посвященное ментальному исследованию и очищению, означает, что в веру анаанидов обращается очень мало людей. Их конечное решение рассматривается ее членами как радикальное, но необходимое действие - похищение тех, кто слишком молод, чтобы познать грех, и воспитание их среди анаанидов, чтобы они могли как можно скорее встать на путь истинный. Может быть, это и жестоко, но разве не более жестокая судьба - обречь эти души на забвение?"
