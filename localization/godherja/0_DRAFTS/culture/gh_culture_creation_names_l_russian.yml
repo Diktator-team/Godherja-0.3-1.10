@@ -1,478 +1,478 @@
 ﻿l_russian:
- waqgali_name: "Вак'гали"  #Машинный перевод 28.10.23!
- waqgali_collective_noun: "Вак'гали"  #Машинный перевод 28.10.23!
- waqgali_prefix: "Вак'гали"  #Машинный перевод 28.10.23!
- nea_erimatos_name: "Неа Эриматос"  #Машинный перевод 28.10.23!
- nea_erimatos_collective_noun: "Неа Эриматой"  #Машинный перевод 28.10.23!
- nea_erimatos_prefix: "Неа Эриматос"  #Машинный перевод 28.10.23!
- kiykardid_name: "Кийкардид"  #Машинный перевод 28.10.23!
- kiykardid_collective_noun: "Кийкардиды"  #Машинный перевод 28.10.23!
- kiykardid_prefix: "Кийкардид"  #Машинный перевод 28.10.23!
- sarradonjadi_name: "Саррадонжади"  #Машинный перевод 28.10.23!
- sarradonjadi_collective_noun: "Саррадонжади"  #Машинный перевод 28.10.23!
- sarradonjadi_prefix: "Саррадонжади"  #Машинный перевод 28.10.23!
- masintal_name: "Масинтал"  #Машинный перевод 28.10.23!
- masintal_collective_noun: "Масинталс"  #Машинный перевод 28.10.23!
- masintal_prefix: "Масинтал"  #Машинный перевод 28.10.23!
- neavpani_name: "Неавпани"  #Машинный перевод 28.10.23!
- neavpani_collective_noun: "Неавпани"  #Машинный перевод 28.10.23!
- neavpani_prefix: "Неавпани"  #Машинный перевод 28.10.23!
- astavolki_name: "Аставолки"  #Машинный перевод 28.10.23!
- astavolki_collective_noun: "Аставолки"  #Машинный перевод 28.10.23!
- astavolki_prefix: "Аставолки"  #Машинный перевод 28.10.23!
- wellebek_name: "Веллебек"  #Машинный перевод 28.10.23!
- wellebek_collective_noun: "Веллебеки"  #Машинный перевод 28.10.23!
- wellebek_prefix: "Веллебек"  #Машинный перевод 28.10.23!
- laphoxite_name: "Лафоксит"  #Машинный перевод 28.10.23!
- laphoxite_collective_noun: "Лафокситы"  #Машинный перевод 28.10.23!
- laphoxite_prefix: "Лафоксит"  #Машинный перевод 28.10.23!
- anophotami_name: "Анофотами"  #Машинный перевод 28.10.23!
- anophotami_collective_noun: "Анофотами"  #Машинный перевод 28.10.23!
- anophotami_prefix: "Анофотами"  #Машинный перевод 28.10.23!
- verholg_name: "Верхольг"  #Машинный перевод 28.10.23!
- verholg_collective_noun: "Верхольги"  #Машинный перевод 28.10.23!
- verholg_prefix: "Верхольг"  #Машинный перевод 28.10.23!
- maqangid_name: "Макангид"  #Машинный перевод 28.10.23!
- maqangid_collective_noun: "Макангиды"  #Машинный перевод 28.10.23!
- maqangid_prefix: "Макангид"  #Машинный перевод 28.10.23!
- endabari_name: "Эндабари"  #Машинный перевод 28.10.23!
- endabari_collective_noun: "Эндабари"  #Машинный перевод 28.10.23!
- endabari_prefix: "Эндабари"  #Машинный перевод 28.10.23!
- dovbeldok_name: "Дов'Бельдок"  #Машинный перевод 28.10.23!
- dovbeldok_collective_noun: "Дов'Белдокс"  #Машинный перевод 28.10.23!
- dovbeldok_prefix: "Дов'Бельдок"  #Машинный перевод 28.10.23!
- furmazi_name: "Фурмази"  #Машинный перевод 28.10.23!
- furmazi_collective_noun: "Фурмази"  #Машинный перевод 28.10.23!
- furmazi_prefix: "Фурмази"  #Машинный перевод 28.10.23!
- karmore_name: "Карморе"  #Машинный перевод 28.10.23!
- karmore_collective_noun: "Карморе"  #Машинный перевод 28.10.23!
- karmore_prefix: "Карморе"  #Машинный перевод 28.10.23!
- benossen_name: "Беноссен"  #Машинный перевод 28.10.23!
- benossen_collective_noun: "Беноссен"  #Машинный перевод 28.10.23!
- benossen_prefix: "Беноссен"  #Машинный перевод 28.10.23!
- moeneker_name: "Менекер"  #Машинный перевод 28.10.23!
- moeneker_collective_noun: "Менекерс"  #Машинный перевод 28.10.23!
- moeneker_prefix: "Менекер"  #Машинный перевод 28.10.23!
- rutoren_name: "Руторен"  #Машинный перевод 28.10.23!
- rutoren_collective_noun: "Руторен"  #Машинный перевод 28.10.23!
- rutoren_prefix: "Руторен"  #Машинный перевод 28.10.23!
- saudalag_name: "Саудалаг"  #Машинный перевод 28.10.23!
- saudalag_collective_noun: "Саудалагс"  #Машинный перевод 28.10.23!
- saudalag_prefix: "Саудалаг"  #Машинный перевод 28.10.23!
- brulodkin_name: "Брюлодкин"  #Машинный перевод 28.10.23!
- sekvojkin_name: "Секвойкин"  #Машинный перевод 28.10.23!
- rautvigr_name: "Раутвигр"  #Машинный перевод 28.10.23!
- vryhsonski_name: "Врихсонский"  #Машинный перевод 28.10.23!
- hromvolki_name: "Хромволки"  #Машинный перевод 28.10.23!
- senikampi_name: "Сеникампи"  #Машинный перевод 28.10.23!
- vcelitan_name: "Вцелитан"  #Машинный перевод 28.10.23!
- sjmorkeni_name: "Шморкени"  #Машинный перевод 28.10.23!
- sernvryki_name: "Сернврыки"  #Машинный перевод 28.10.23!
- lesalokin_name: "Лесалокин"  #Машинный перевод 28.10.23!
- hramki_name: "Храмки"  #Машинный перевод 28.10.23!
- nozivyki_name: "Нозивики"  #Машинный перевод 28.10.23!
- vaycovolki_name: "Вайковолки"  #Машинный перевод 28.10.23!
- opakasijan_name: "Опакасиджан"  #Машинный перевод 28.10.23!
- plasvarad_name: "Пласварад"  #Машинный перевод 28.10.23!
- destikogr_name: "Дестикогр"  #Машинный перевод 28.10.23!
- usukanarian_name: "Usukanarian"  #Машинный перевод 28.10.23!
- Orsolyot_name: "Орсольот"  #Машинный перевод 28.10.23!
- Skarope_name: "Скаропе"  #Машинный перевод 28.10.23!
- Czaforote_name: "Чафороте"  #Машинный перевод 28.10.23!
- Akaszin_name: "Акашин"  #Машинный перевод 28.10.23!
- Sayelig_name: "Сайелиг"  #Машинный перевод 28.10.23!
- Makomares_name: "Макомарес"  #Машинный перевод 28.10.23!
- Rovingmar_name: "Ровингмар"  #Машинный перевод 28.10.23!
- Tiswingi_name: "Тисвинги"  #Машинный перевод 28.10.23!
- Urdwings_name: "Урдвинги"  #Машинный перевод 28.10.23!
- Viweinocs_name: "Вивейноц"  #Машинный перевод 28.10.23!
- Rithdinics_name: "Ритдиника"  #Машинный перевод 28.10.23!
- Chilodocs_name: "Чилодокс"  #Машинный перевод 28.10.23!
- Dagoberings_name: "Дагоберинги"  #Машинный перевод 28.10.23!
- Clotodor_name: "Клотодор"  #Машинный перевод 28.10.23!
- Farnacs_name: "Фарнакс"  #Машинный перевод 28.10.23!
- Farnotherings_name: "Фарнотеринги"  #Машинный перевод 28.10.23!
- Theugodings_name: "Теугодингс"  #Машинный перевод 28.10.23!
- Cloverod_name: "клеверод"  #Машинный перевод 28.10.23!
- Albelings_name: "Альбелинги"  #Машинный перевод 28.10.23!
- Clotailings_name: "Одежда"  #Машинный перевод 28.10.23!
- Kafodocs_name: "Кафодокс"  #Машинный перевод 28.10.23!
- brulodkin_collective_noun: "Брюлодкин"  #Машинный перевод 28.10.23!
- sekvojkin_collective_noun: "Секвойкин"  #Машинный перевод 28.10.23!
- rautvigr_collective_noun: "Раутвигр"  #Машинный перевод 28.10.23!
- vryhsonski_collective_noun: "Врихсонский"  #Машинный перевод 28.10.23!
- hromvolki_collective_noun: "Хромволки"  #Машинный перевод 28.10.23!
- senikampi_collective_noun: "Сеникампи"  #Машинный перевод 28.10.23!
- vcelitan_collective_noun: "Вцелитан"  #Машинный перевод 28.10.23!
- sjmorkeni_collective_noun: "Шморкени"  #Машинный перевод 28.10.23!
- sernvryki_collective_noun: "Сернврыки"  #Машинный перевод 28.10.23!
- lesalokin_collective_noun: "Лесалокин"  #Машинный перевод 28.10.23!
- hramki_collective_noun: "Храмки"  #Машинный перевод 28.10.23!
- nozivyki_collective_noun: "Нозивики"  #Машинный перевод 28.10.23!
- vaycovolki_collective_noun: "Вайковолки"  #Машинный перевод 28.10.23!
- opakasijan_collective_noun: "Опакасиджан"  #Машинный перевод 28.10.23!
- plasvarad_collective_noun: "Пласварад"  #Машинный перевод 28.10.23!
- destikogr_collective_noun: "Дестикогр"  #Машинный перевод 28.10.23!
- usukanarian_collective_noun: "Usukanarian"  #Машинный перевод 28.10.23!
- Orsolyot_collective_noun: "Орсольот"  #Машинный перевод 28.10.23!
- Skarope_collective_noun: "Скаропе"  #Машинный перевод 28.10.23!
- Czaforote_collective_noun: "Чафороте"  #Машинный перевод 28.10.23!
- Akaszin_collective_noun: "Акашин"  #Машинный перевод 28.10.23!
- Sayelig_collective_noun: "Сайелиг"  #Машинный перевод 28.10.23!
- Makomares_collective_noun: "Макомарес"  #Машинный перевод 28.10.23!
- Rovingmar_collective_noun: "Ровингмар"  #Машинный перевод 28.10.23!
- Tiswingi_collective_noun: "Тисвинги"  #Машинный перевод 28.10.23!
- Urdwings_collective_noun: "Урдвинги"  #Машинный перевод 28.10.23!
- Viweinocs_collective_noun: "Вивейноц"  #Машинный перевод 28.10.23!
- Rithdinics_collective_noun: "Ритдиника"  #Машинный перевод 28.10.23!
- Chilodocs_collective_noun: "Чилодокс"  #Машинный перевод 28.10.23!
- Dagoberings_collective_noun: "Дагоберинги"  #Машинный перевод 28.10.23!
- Clotodor_collective_noun: "Клотодор"  #Машинный перевод 28.10.23!
- Farnacs_collective_noun: "Фарнакс"  #Машинный перевод 28.10.23!
- Farnotherings_collective_noun: "Фарнотеринги"  #Машинный перевод 28.10.23!
- Theugodings_collective_noun: "Теугодингс"  #Машинный перевод 28.10.23!
- Cloverod_collective_noun: "клеверод"  #Машинный перевод 28.10.23!
- Albelings_collective_noun: "Альбелинги"  #Машинный перевод 28.10.23!
- Clotailings_collective_noun: "Одежда"  #Машинный перевод 28.10.23!
- Kafodocs_collective_noun: "Кафодокс"  #Машинный перевод 28.10.23!
- brulodkin_prefix: "Брюлодкин"  #Машинный перевод 28.10.23!
- sekvojkin_prefix: "Секвойкин"  #Машинный перевод 28.10.23!
- rautvigr_prefix: "Раутвигр"  #Машинный перевод 28.10.23!
- vryhsonski_prefix: "Врихсонский"  #Машинный перевод 28.10.23!
- hromvolki_prefix: "Хромволки"  #Машинный перевод 28.10.23!
- senikampi_prefix: "Сеникампи"  #Машинный перевод 28.10.23!
- vcelitan_prefix: "Вцелитан"  #Машинный перевод 28.10.23!
- sjmorkeni_prefix: "Шморкени"  #Машинный перевод 28.10.23!
- sernvryki_prefix: "Сернврыки"  #Машинный перевод 28.10.23!
- lesalokin_prefix: "Лесалокин"  #Машинный перевод 28.10.23!
- hramki_prefix: "Храмки"  #Машинный перевод 28.10.23!
- nozivyki_prefix: "Нозивики"  #Машинный перевод 28.10.23!
- vaycovolki_prefix: "Вайковолки"  #Машинный перевод 28.10.23!
- opakasijan_prefix: "Опакасиджан"  #Машинный перевод 28.10.23!
- plasvarad_prefix: "Пласварад"  #Машинный перевод 28.10.23!
- destikogr_prefix: "Дестикогр"  #Машинный перевод 28.10.23!
- usukanarian_prefix: "Usukanarian"  #Машинный перевод 28.10.23!
- Orsolyot_prefix: "Орсольот"  #Машинный перевод 28.10.23!
- Skarope_prefix: "Скаропе"  #Машинный перевод 28.10.23!
- Czaforote_prefix: "Чафорот"  #Машинный перевод 28.10.23!
- Akaszin_prefix: "Акашин"  #Машинный перевод 28.10.23!
- Sayelig_prefix: "Сайелиг"  #Машинный перевод 28.10.23!
- Makomares_prefix: "Макомар"  #Машинный перевод 28.10.23!
- Rovingmar_prefix: "Ровингмар"  #Машинный перевод 28.10.23!
- Tiswingi_prefix: "Тисвинги"  #Машинный перевод 28.10.23!
- Urdwings_prefix: "Урдвинг"  #Машинный перевод 28.10.23!
- Viweinocs_prefix: "Вивейнок"  #Машинный перевод 28.10.23!
- Rithdinics_prefix: "Ритдиник"  #Машинный перевод 28.10.23!
- Chilodocs_prefix: "Чилодок"  #Машинный перевод 28.10.23!
- Dagoberings_prefix: "Дагоберинги"  #Машинный перевод 28.10.23!
- Clotodor_prefix: "Клотодор"  #Машинный перевод 28.10.23!
- Farnacs_prefix: "Фарнакс"  #Машинный перевод 28.10.23!
- Farnotherings_prefix: "дальний путь"  #Машинный перевод 28.10.23!
- Theugodings_prefix: "Теугодинг"  #Машинный перевод 28.10.23!
- Cloverod_prefix: "клеверод"  #Машинный перевод 28.10.23!
- Albelings_prefix: "Альбелинг"  #Машинный перевод 28.10.23!
- Clotailings_prefix: "Одежда"  #Машинный перевод 28.10.23!
- Kafodocs_prefix: "Кафодок"  #Машинный перевод 28.10.23!
- Solkorvingi_prefix: "Солкорвинги"  #Машинный перевод 28.10.23!
- Spornasdi_prefix: "Спорнасди"  #Машинный перевод 28.10.23!
- Ziliknas_prefix: "Жиликнас"  #Машинный перевод 28.10.23!
- Crezchey_prefix: "Крезчей"  #Машинный перевод 28.10.23!
- Haddinvolki_prefix: "Хаддинволки"  #Машинный перевод 28.10.23!
- Setitriti_prefix: "Сетитрити"  #Машинный перевод 28.10.23!
- Vogori_prefix: "Вогори"  #Машинный перевод 28.10.23!
- Hrithgodi_prefix: "Хритгоди"  #Машинный перевод 28.10.23!
- Kignasti_prefix: "Кигнасти"  #Машинный перевод 28.10.23!
- Inguindodi_prefix: "Ингуиндоди"  #Машинный перевод 28.10.23!
- Denedi_prefix: "Денеди"  #Машинный перевод 28.10.23!
- Zabbikhli_prefix: "Заббихлы"  #Машинный перевод 28.10.23!
- Czurkhdan_prefix: "Чурхдан"  #Машинный перевод 28.10.23!
- Sorkvolki_prefix: "Соркволки"  #Машинный перевод 28.10.23!
- Zunszeral_prefix: "Зуншерал"  #Машинный перевод 28.10.23!
- Kszanofi_prefix: "Кшанофи"  #Машинный перевод 28.10.23!
- Arderovacs_prefix: "Ардеровац"  #Машинный перевод 28.10.23!
- Trustherodoc_prefix: "Трастхеродок"  #Машинный перевод 28.10.23!
- Sjaloferings_prefix: "Сьялоферингс"  #Машинный перевод 28.10.23!
- Menovocs_prefix: "Меновокс"  #Машинный перевод 28.10.23!
- Avirsodocs_prefix: "Авирсодокс"  #Машинный перевод 28.10.23!
- Freton_prefix: "Фретон"  #Машинный перевод 28.10.23!
- Etepezar_prefix: "Этепезар"  #Машинный перевод 28.10.23!
- Opkasjecker_prefix: "Опкашекер"  #Машинный перевод 28.10.23!
- Malockwaard_prefix: "Малокваард"  #Машинный перевод 28.10.23!
- Edjepeck_prefix: "Эджепек"  #Машинный перевод 28.10.23!
- Rifierman_prefix: "Риферман"  #Машинный перевод 28.10.23!
- Zwoetester_prefix: "Звутестер"  #Машинный перевод 28.10.23!
- Ayroejnoy_prefix: "Айроейной"  #Машинный перевод 28.10.23!
- Kalthaproj_prefix: "Калтапрой"  #Машинный перевод 28.10.23!
- Waardmann_prefix: "Ваардманн"  #Машинный перевод 28.10.23!
- Jaagarwad_prefix: "Джаагарвад"  #Машинный перевод 28.10.23!
- Haadstedter_prefix: "Хаадштедтер"  #Машинный перевод 28.10.23!
- Drodje_prefix: "Дродье"  #Машинный перевод 28.10.23!
- Shuleherrn_prefix: "Шулехерн"  #Машинный перевод 28.10.23!
- Toderrol_prefix: "Тодеррол"  #Машинный перевод 28.10.23!
- Urelosk_prefix: "Урелоск"  #Машинный перевод 28.10.23!
- Marerrn_prefix: "Мареррн"  #Машинный перевод 28.10.23!
- Drovdeny_prefix: "Дровдены"  #Машинный перевод 28.10.23!
- Chethawi_prefix: "Четави"  #Машинный перевод 28.10.23!
- Shwihawa_prefix: "Швихава"  #Машинный перевод 28.10.23!
- Athasawi_prefix: "Атасави"  #Машинный перевод 28.10.23!
- Othachasi_prefix: "Отачаси"  #Машинный перевод 28.10.23!
- Chasathosi_prefix: "Часатоси"  #Машинный перевод 28.10.23!
- Ewisi_prefix: "Эвиси"  #Машинный перевод 28.10.23!
- Awachi_prefix: "Awachi"  #Машинный перевод 28.10.23!
- Sawathi_prefix: "Савати"  #Машинный перевод 28.10.23!
- Ohachi_prefix: "Ohachi"  #Машинный перевод 28.10.23!
- Chehawathi_prefix: "Чехавати"  #Машинный перевод 28.10.23!
- Wathesi_prefix: "Ватези"  #Машинный перевод 28.10.23!
- Solkorvingi_name: "Солкорвинги"  #Машинный перевод 28.10.23!
- Spornasdi_name: "Спорнасди"  #Машинный перевод 28.10.23!
- Ziliknas_name: "Жиликнас"  #Машинный перевод 28.10.23!
- Crezchey_name: "Крезчей"  #Машинный перевод 28.10.23!
- Haddinvolki_name: "Хаддинволки"  #Машинный перевод 28.10.23!
- Setitriti_name: "Сетитрити"  #Машинный перевод 28.10.23!
- Vogori_name: "Вогори"  #Машинный перевод 28.10.23!
- Hrithgodi_name: "Хритгоди"  #Машинный перевод 28.10.23!
- Kignasti_name: "Кигнасти"  #Машинный перевод 28.10.23!
- Inguindodi_name: "Ингуиндоди"  #Машинный перевод 28.10.23!
- Denedi_name: "Денеди"  #Машинный перевод 28.10.23!
- Zabbikhli_name: "Заббихлы"  #Машинный перевод 28.10.23!
- Czurkhdan_name: "Чурхдан"  #Машинный перевод 28.10.23!
- Sorkvolki_name: "Соркволки"  #Машинный перевод 28.10.23!
- Zunszeral_name: "Зуншерал"  #Машинный перевод 28.10.23!
- Kszanofi_name: "Кшанофи"  #Машинный перевод 28.10.23!
- Arderovacs_name: "Ардеровац"  #Машинный перевод 28.10.23!
- Trustherodoc_name: "Трастхеродок"  #Машинный перевод 28.10.23!
- Sjaloferings_name: "Сьялоферингс"  #Машинный перевод 28.10.23!
- Menovocs_name: "Меновокс"  #Машинный перевод 28.10.23!
- Avirsodocs_name: "Авирсодокс"  #Машинный перевод 28.10.23!
- Freton_name: "Фретон"  #Машинный перевод 28.10.23!
- Etepezar_name: "Этепезар"  #Машинный перевод 28.10.23!
- Opkasjecker_name: "Опкашекер"  #Машинный перевод 28.10.23!
- Malockwaard_name: "Малокваард"  #Машинный перевод 28.10.23!
- Edjepeck_name: "Эджепек"  #Машинный перевод 28.10.23!
- Rifierman_name: "Риферман"  #Машинный перевод 28.10.23!
- Zwoetester_name: "Звутестер"  #Машинный перевод 28.10.23!
- Ayroejnoy_name: "Айроейной"  #Машинный перевод 28.10.23!
- Kalthaproj_name: "Калтапрой"  #Машинный перевод 28.10.23!
- Waardmann_name: "Ваардманн"  #Машинный перевод 28.10.23!
- Jaagarwad_name: "Джаагарвад"  #Машинный перевод 28.10.23!
- Haadstedter_name: "Хаадштедтер"  #Машинный перевод 28.10.23!
- Drodje_name: "Дродье"  #Машинный перевод 28.10.23!
- Shuleherrn_name: "Шулехерн"  #Машинный перевод 28.10.23!
- Toderrol_name: "Тодеррол"  #Машинный перевод 28.10.23!
- Urelosk_name: "Урелоск"  #Машинный перевод 28.10.23!
- Marerrn_name: "Мареррн"  #Машинный перевод 28.10.23!
- Drovdeny_name: "Дровдены"  #Машинный перевод 28.10.23!
- Chethawi_name: "Четави"  #Машинный перевод 28.10.23!
- Shwihawa_name: "Швихава"  #Машинный перевод 28.10.23!
- Athasawi_name: "Атасави"  #Машинный перевод 28.10.23!
- Othachasi_name: "Отачаси"  #Машинный перевод 28.10.23!
- Chasathosi_name: "Часатоси"  #Машинный перевод 28.10.23!
- Ewisi_name: "Эвиси"  #Машинный перевод 28.10.23!
- Awachi_name: "Awachi"  #Машинный перевод 28.10.23!
- Sawathi_name: "Савати"  #Машинный перевод 28.10.23!
- Ohachi_name: "Ohachi"  #Машинный перевод 28.10.23!
- Chehawathi_name: "Чехавати"  #Машинный перевод 28.10.23!
- Wathesi_name: "Ватези"  #Машинный перевод 28.10.23!
- Solkorvingi_collective_noun: "Солкорвинги"  #Машинный перевод 28.10.23!
- Spornasdi_collective_noun: "Спорнасди"  #Машинный перевод 28.10.23!
- Ziliknas_collective_noun: "Жиликнас"  #Машинный перевод 28.10.23!
- Crezchey_collective_noun: "Крезчей"  #Машинный перевод 28.10.23!
- Haddinvolki_collective_noun: "Хаддинволки"  #Машинный перевод 28.10.23!
- Setitriti_collective_noun: "Сетитрити"  #Машинный перевод 28.10.23!
- Vogori_collective_noun: "Вогори"  #Машинный перевод 28.10.23!
- Hrithgodi_collective_noun: "Хритгоди"  #Машинный перевод 28.10.23!
- Kignasti_collective_noun: "Кигнасти"  #Машинный перевод 28.10.23!
- Inguindodi_collective_noun: "Ингуиндоди"  #Машинный перевод 28.10.23!
- Denedi_collective_noun: "Денеди"  #Машинный перевод 28.10.23!
- Zabbikhli_collective_noun: "Заббихлы"  #Машинный перевод 28.10.23!
- Czurkhdan_collective_noun: "Чурхдан"  #Машинный перевод 28.10.23!
- Sorkvolki_collective_noun: "Соркволки"  #Машинный перевод 28.10.23!
- Zunszeral_collective_noun: "Зуншерал"  #Машинный перевод 28.10.23!
- Kszanofi_collective_noun: "Кшанофи"  #Машинный перевод 28.10.23!
- Arderovacs_collective_noun: "Ардеровац"  #Машинный перевод 28.10.23!
- Trustherodoc_collective_noun: "Трастхеродок"  #Машинный перевод 28.10.23!
- Sjaloferings_collective_noun: "Сьялоферингс"  #Машинный перевод 28.10.23!
- Menovocs_collective_noun: "Меновокс"  #Машинный перевод 28.10.23!
- Avirsodocs_collective_noun: "Авирсодокс"  #Машинный перевод 28.10.23!
- Freton_collective_noun: "Фретон"  #Машинный перевод 28.10.23!
- Etepezar_collective_noun: "Этепезар"  #Машинный перевод 28.10.23!
- Opkasjecker_collective_noun: "Опкашекер"  #Машинный перевод 28.10.23!
- Malockwaard_collective_noun: "Малокваард"  #Машинный перевод 28.10.23!
- Edjepeck_collective_noun: "Эджепек"  #Машинный перевод 28.10.23!
- Rifierman_collective_noun: "Риферман"  #Машинный перевод 28.10.23!
- Zwoetester_collective_noun: "Звутестер"  #Машинный перевод 28.10.23!
- Ayroejnoy_collective_noun: "Айроейной"  #Машинный перевод 28.10.23!
- Kalthaproj_collective_noun: "Калтапрой"  #Машинный перевод 28.10.23!
- Waardmann_collective_noun: "Ваардманн"  #Машинный перевод 28.10.23!
- Jaagarwad_collective_noun: "Джаагарвад"  #Машинный перевод 28.10.23!
- Haadstedter_collective_noun: "Хаадштедтер"  #Машинный перевод 28.10.23!
- Drodje_collective_noun: "Дродье"  #Машинный перевод 28.10.23!
- Shuleherrn_collective_noun: "Шулехерн"  #Машинный перевод 28.10.23!
- Toderrol_collective_noun: "Тодеррол"  #Машинный перевод 28.10.23!
- Urelosk_collective_noun: "Урелоск"  #Машинный перевод 28.10.23!
- Marerrn_collective_noun: "Мареррн"  #Машинный перевод 28.10.23!
- Drovdeny_collective_noun: "Дровдены"  #Машинный перевод 28.10.23!
- Chethawi_collective_noun: "Четави"  #Машинный перевод 28.10.23!
- Shwihawa_collective_noun: "Швихава"  #Машинный перевод 28.10.23!
- Athasawi_collective_noun: "Атасави"  #Машинный перевод 28.10.23!
- Othachasi_collective_noun: "Отачаси"  #Машинный перевод 28.10.23!
- Chasathosi_collective_noun: "Часатоси"  #Машинный перевод 28.10.23!
- Ewisi_collective_noun: "Эвиси"  #Машинный перевод 28.10.23!
- Awachi_collective_noun: "Awachi"  #Машинный перевод 28.10.23!
- Sawathi_collective_noun: "Савати"  #Машинный перевод 28.10.23!
- Ohachi_collective_noun: "Ohachi"  #Машинный перевод 28.10.23!
- Chehawathi_collective_noun: "Чехавати"  #Машинный перевод 28.10.23!
- Wathesi_collective_noun: "Ватези"  #Машинный перевод 28.10.23!
- Iliokas_name: "Илиокас"  #Машинный перевод 28.10.23!
- Iliokas_collective_noun: "Илиоканс"  #Машинный перевод 28.10.23!
- Iliokas_prefix: "Илиокай"  #Машинный перевод 28.10.23!
- Voreioxi_name: "Ворейокси"  #Машинный перевод 28.10.23!
- Voreioxi_collective_noun: "Ворейокси"  #Машинный перевод 28.10.23!
- Voreioxi_prefix: "Ворейокси"  #Машинный перевод 28.10.23!
- Teleoskoi_name: "Телеоской"  #Машинный перевод 28.10.23!
- Teleoskoi_collective_noun: "Телеоской"  #Машинный перевод 28.10.23!
- Teleoskoi_prefix: "Телеоско"  #Машинный перевод 28.10.23!
- Kradoxi_name: "Крадокси"  #Машинный перевод 28.10.23!
- Kradoxi_collective_noun: "Крадоксии"  #Машинный перевод 28.10.23!
- Kradoxi_prefix: "Крадокси"  #Машинный перевод 28.10.23!
- Anouphroi_name: "Ануфрой"  #Машинный перевод 28.10.23!
- Anouphroi_collective_noun: "Ануфрой"  #Машинный перевод 28.10.23!
- Anouphroi_prefix: "Ануфро"  #Машинный перевод 28.10.23!
- Apoktosaioi_name: "Апоктосайой"  #Машинный перевод 28.10.23!
- Apoktosaioi_collective_noun: "Апоктосаи"  #Машинный перевод 28.10.23!
- Apoktosaioi_prefix: "Апоктосай"  #Машинный перевод 28.10.23!
- Ichthyvoi_name: "Ихтивой"  #Машинный перевод 28.10.23!
- Ichthyvoi_collective_noun: "Ихтивой"  #Машинный перевод 28.10.23!
- Ichthyvoi_prefix: "Ихтыво"  #Машинный перевод 28.10.23!
- Kratoxi_name: "Кратокси"  #Машинный перевод 28.10.23!
- Kratoxi_collective_noun: "Кратокси"  #Машинный перевод 28.10.23!
- Kratoxi_prefix: "Кратокси"  #Машинный перевод 28.10.23!
- Mytidoxi_name: "Митидокси"  #Машинный перевод 28.10.23!
- Mytidoxi_collective_noun: "Митидокси"  #Машинный перевод 28.10.23!
- Mytidoxi_prefix: "Митидокси"  #Машинный перевод 28.10.23!
- Mesokhaiexi_name: "Mesokhaiexi"  #Машинный перевод 28.10.23!
- Mesokhaiexi_collective_noun: "Mesokhaiexi"  #Машинный перевод 28.10.23!
- Mesokhaiexi_prefix: "Mesokhaiexi"  #Машинный перевод 28.10.23!
- Anoterioi_name: "Анотериой"  #Машинный перевод 28.10.23!
- Anoterioi_collective_noun: "Анотерии"  #Машинный перевод 28.10.23!
- Anoterioi_prefix: "Анотерио"  #Машинный перевод 28.10.23!
- Paktosonai_name: "Пактосанай"  #Машинный перевод 28.10.23!
- Paktosonai_collective_noun: "Пактосанай"  #Машинный перевод 28.10.23!
- Paktosonai_prefix: "Пактосони"  #Машинный перевод 28.10.23!
- Erythrichroi_name: "Эритрихрой"  #Машинный перевод 28.10.23!
- Erythrichroi_collective_noun: "Эритрихрой"  #Машинный перевод 28.10.23!
- Erythrichroi_prefix: "Эритрихро"  #Машинный перевод 28.10.23!
- Hyperoxthoi_name: "Гиперокстой"  #Машинный перевод 28.10.23!
- Hyperoxthoi_collective_noun: "Гиперокстой"  #Машинный перевод 28.10.23!
- Hyperoxthoi_prefix: "Гипероксто"  #Машинный перевод 28.10.23!
- Aogoi_name: "Аогой"  #Машинный перевод 28.10.23!
- Aogoi_collective_noun: "Аогии"  #Машинный перевод 28.10.23!
- Aogoi_prefix: "Аого"  #Машинный перевод 28.10.23!
- Pyrrhodoi_name: "Пирродой"  #Машинный перевод 28.10.23!
- Pyrrhodoi_collective_noun: "Пирродой"  #Машинный перевод 28.10.23!
- Pyrrhodoi_prefix: "Пирродо"  #Машинный перевод 28.10.23!
- Kavaloi_name: "Кавалой"  #Машинный перевод 28.10.23!
- Kavaloi_collective_noun: "Кавалой"  #Машинный перевод 28.10.23!
- Kavaloi_prefix: "Кавало"  #Машинный перевод 28.10.23!
- Chrydoxtes_name: "Кридокст"  #Машинный перевод 28.10.23!
- Chrydoxtes_collective_noun: "Хридоксти"  #Машинный перевод 28.10.23!
- Chrydoxtes_prefix: "Кридокст"  #Машинный перевод 28.10.23!
- Histatoi_name: "Хистатои"  #Машинный перевод 28.10.23!
- Histatoi_collective_noun: "Хистатои"  #Машинный перевод 28.10.23!
- Histatoi_prefix: "Гистато"  #Машинный перевод 28.10.23!
- Aemeoktas_name: "Аэмеоктас"  #Машинный перевод 28.10.23!
- Aemeoktas_collective_noun: "Эмеоктай"  #Машинный перевод 28.10.23!
- Aemeoktas_prefix: "Аэмеокти"  #Машинный перевод 28.10.23!
- Kathrioi_name: "Катриой"  #Машинный перевод 28.10.23!
- Kathrioi_collective_noun: "Катриой"  #Машинный перевод 28.10.23!
- Kathrioi_prefix: "Катрио"  #Машинный перевод 28.10.23!
- Theorexi_name: "Теорекси"  #Машинный перевод 28.10.23!
- Theorexi_collective_noun: "Теорексии"  #Машинный перевод 28.10.23!
- Theorexi_prefix: "Теорекси"  #Машинный перевод 28.10.23!
- Martrioi_name: "Мартриой"  #Машинный перевод 28.10.23!
- Martrioi_collective_noun: "Мартрии"  #Машинный перевод 28.10.23!
- Martrioi_prefix: "Мартрио"  #Машинный перевод 28.10.23!
- Kalagioi_name: "Калагиой"  #Машинный перевод 28.10.23!
- Kalagioi_collective_noun: "Калагии"  #Машинный перевод 28.10.23!
- Kalagioi_prefix: "Каладжио"  #Машинный перевод 28.10.23!
- Tatalektoi_name: "Таталектой"  #Машинный перевод 28.10.23!
- Tatalektoi_collective_noun: "Таталектой"  #Машинный перевод 28.10.23!
- Tatalektoi_prefix: "Таталекто"  #Машинный перевод 28.10.23!
- Gnossoi_name: "Гноссой"  #Машинный перевод 28.10.23!
- Gnossoi_collective_noun: "Гноссии"  #Машинный перевод 28.10.23!
- Gnossoi_prefix: "Гноссо"  #Машинный перевод 28.10.23!
- Koryphteroi_name: "Корифтеры"  #Машинный перевод 28.10.23!
- Koryphteroi_collective_noun: "Корифтерии"  #Машинный перевод 28.10.23!
- Koryphteroi_prefix: "Корифтеро"  #Машинный перевод 28.10.23!
- Kygnitoi_name: "Кигнитой"  #Машинный перевод 28.10.23!
- Kygnitoi_collective_noun: "Кигнитой"  #Машинный перевод 28.10.23!
- Kygnitoi_prefix: "Кигнито"  #Машинный перевод 28.10.23!
- Veloi_name: "Велои"  #Машинный перевод 28.10.23!
- Veloi_collective_noun: "Велои"  #Машинный перевод 28.10.23!
- Veloi_prefix: "Велейо"  #Машинный перевод 28.10.23!
- Pathiphexi_name: "Патифекси"  #Машинный перевод 28.10.23!
- Pathiphexi_collective_noun: "Патифексии"  #Машинный перевод 28.10.23!
- Pathiphexi_prefix: "Патифекси"  #Машинный перевод 28.10.23!
- Navikteroi_name: "Навиктерой"  #Машинный перевод 28.10.23!
- Navikteroi_collective_noun: "Навиктери"  #Машинный перевод 28.10.23!
- Navikteroi_prefix: "Навиктеро"  #Машинный перевод 28.10.23!
- Pelentoxi_name: "Пелентокси"  #Машинный перевод 28.10.23!
- Pelentoxi_collective_noun: "Пелентоксии"  #Машинный перевод 28.10.23!
- Pelentoxi_prefix: "Пелентокси"  #Машинный перевод 28.10.23!
- Ithrioxi_name: "Итриокси"  #Машинный перевод 28.10.23!
- Ithrioxi_collective_noun: "Итриокси"  #Машинный перевод 28.10.23!
- Ithrioxi_prefix: "Итриокси"  #Машинный перевод 28.10.23!
- Aethrisaxi_name: "Этрисакси"  #Машинный перевод 28.10.23!
- Aethrisaxi_collective_noun: "Этрисакси"  #Машинный перевод 28.10.23!
- Aethrisaxi_prefix: "Этрисакси"  #Машинный перевод 28.10.23!
- Peryphexi_name: "Перифекси"  #Машинный перевод 28.10.23!
- Peryphexi_collective_noun: "Перифекси"  #Машинный перевод 28.10.23!
- Peryphexi_prefix: "Перифекси"  #Машинный перевод 28.10.23!
- Neonoi_name: "Неоной"  #Машинный перевод 28.10.23!
- Neonoi_collective_noun: "Неони"  #Машинный перевод 28.10.23!
- Neonoi_prefix: "Неоно"  #Машинный перевод 28.10.23!
- Parnemoi_name: "Парнемой"  #Машинный перевод 28.10.23!
- Parnemoi_collective_noun: "Парнемии"  #Машинный перевод 28.10.23!
- Parnemoi_prefix: "Парнемо"  #Машинный перевод 28.10.23!
- Cathrevoux_name: "Катреву"  #Машинный перевод 28.10.23!
- Cathrevoux_collective_noun: "Катреву"  #Машинный перевод 28.10.23!
- Cathrevoux_prefix: "Катреву"  #Машинный перевод 28.10.23!
- Parciexi_name: "Парчиеши"  #Машинный перевод 28.10.23!
- Parciexi_collective_noun: "Парчиеши"  #Машинный перевод 28.10.23!
- Parciexi_prefix: "Парчиеши"  #Машинный перевод 28.10.23!
- Calthois_name: "Калтуа"  #Машинный перевод 28.10.23!
- Calthois_collective_noun: "Калтуа"  #Машинный перевод 28.10.23!
- Calthois_prefix: "Калтуа"  #Машинный перевод 28.10.23!
- Avancin_name: "Авансин"  #Машинный перевод 28.10.23!
- Avancin_collective_noun: "Авансин"  #Машинный перевод 28.10.23!
- Avancin_prefix: "Авансин"  #Машинный перевод 28.10.23!
- Axtresient_name: "Акстрезиант"  #Машинный перевод 28.10.23!
- Axtresient_collective_noun: "Акстрезиант"  #Машинный перевод 28.10.23!
- Axtresient_prefix: "Акстрезиант"  #Машинный перевод 28.10.23!
- Aversier_name: "Аверсье"  #Машинный перевод 28.10.23!
- Aversier_collective_noun: "Аверсье"  #Машинный перевод 28.10.23!
- Aversier_prefix: "Аверсье"  #Машинный перевод 28.10.23!
- Encroicher_name: "Энкройшер"  #Машинный перевод 28.10.23!
- Encroicher_collective_noun: "Энкройшер"  #Машинный перевод 28.10.23!
- Encroicher_prefix: "Энкройшер"  #Машинный перевод 28.10.23!
- Haumextis_name: "Хаумекстис"  #Машинный перевод 28.10.23!
- Haumextis_collective_noun: "Хаумекстис"  #Машинный перевод 28.10.23!
- Haumextis_prefix: "Хаумекстис"  #Машинный перевод 28.10.23!
- Rietzaairn_name: "Ритцааирн"  #Машинный перевод 28.10.23!
- Rietzaairn_collective_noun: "Ритцааирн"  #Машинный перевод 28.10.23!
- Rietzaairn_prefix: "Ритцааирн"  #Машинный перевод 28.10.23!
- Lijkvoer_name: "Лейквоер"  #Машинный перевод 28.10.23!
- Lijkvoer_collective_noun: "Лейквоер"  #Машинный перевод 28.10.23!
- Lijkvoer_prefix: "Лейквоер"  #Машинный перевод 28.10.23!
- Haagrevent_name: "Хаагревент"  #Машинный перевод 28.10.23!
- Haagrevent_collective_noun: "Хаагревент"  #Машинный перевод 28.10.23!
- Haagrevent_prefix: "Хаагревент"  #Машинный перевод 28.10.23!
- Roemeeuw_name: "Рёмеув"  #Машинный перевод 28.10.23!
- Roemeeuw_collective_noun: "Рёмеув"  #Машинный перевод 28.10.23!
- Roemeeuw_prefix: "Рёмеув"  #Машинный перевод 28.10.23!
- Equihier_name: "Эквие"  #Машинный перевод 28.10.23!
- Equihier_collective_noun: "Эквие"  #Машинный перевод 28.10.23!
- Equihier_prefix: "Эквие"  #Машинный перевод 28.10.23!
- Geheurn_name: "Гехерн"  #Машинный перевод 28.10.23!
- Geheurn_collective_noun: "Гехерн"  #Машинный перевод 28.10.23!
- Geheurn_prefix: "Гехерн"  #Машинный перевод 28.10.23!
+ waqgali_name: "Вак'гали"  
+ waqgali_collective_noun: "Вак'гали"  
+ waqgali_prefix: "Вак'гали"  
+ nea_erimatos_name: "Неа Эриматос"  
+ nea_erimatos_collective_noun: "Неа Эриматой"  
+ nea_erimatos_prefix: "Неа Эриматос"  
+ kiykardid_name: "Кийкардид"  
+ kiykardid_collective_noun: "Кийкардиды"  
+ kiykardid_prefix: "Кийкардид"  
+ sarradonjadi_name: "Саррадонжади"  
+ sarradonjadi_collective_noun: "Саррадонжади"  
+ sarradonjadi_prefix: "Саррадонжади"  
+ masintal_name: "Масинтал"  
+ masintal_collective_noun: "Масинталс"  
+ masintal_prefix: "Масинтал"  
+ neavpani_name: "Неавпани"  
+ neavpani_collective_noun: "Неавпани"  
+ neavpani_prefix: "Неавпани"  
+ astavolki_name: "Аставолки"  
+ astavolki_collective_noun: "Аставолки"  
+ astavolki_prefix: "Аставолки"  
+ wellebek_name: "Веллебек"  
+ wellebek_collective_noun: "Веллебеки"  
+ wellebek_prefix: "Веллебек"  
+ laphoxite_name: "Лафоксит"  
+ laphoxite_collective_noun: "Лафокситы"  
+ laphoxite_prefix: "Лафоксит"  
+ anophotami_name: "Анофотами"  
+ anophotami_collective_noun: "Анофотами"  
+ anophotami_prefix: "Анофотами"  
+ verholg_name: "Верхольг"  
+ verholg_collective_noun: "Верхольги"  
+ verholg_prefix: "Верхольг"  
+ maqangid_name: "Макангид"  
+ maqangid_collective_noun: "Макангиды"  
+ maqangid_prefix: "Макангид"  
+ endabari_name: "Эндабари"  
+ endabari_collective_noun: "Эндабари"  
+ endabari_prefix: "Эндабари"  
+ dovbeldok_name: "Дов'Бельдок"  
+ dovbeldok_collective_noun: "Дов'Белдокс"  
+ dovbeldok_prefix: "Дов'Бельдок"  
+ furmazi_name: "Фурмази"  
+ furmazi_collective_noun: "Фурмази"  
+ furmazi_prefix: "Фурмази"  
+ karmore_name: "Карморе"  
+ karmore_collective_noun: "Карморе"  
+ karmore_prefix: "Карморе"  
+ benossen_name: "Беноссен"  
+ benossen_collective_noun: "Беноссен"  
+ benossen_prefix: "Беноссен"  
+ moeneker_name: "Менекер"  
+ moeneker_collective_noun: "Менекерс"  
+ moeneker_prefix: "Менекер"  
+ rutoren_name: "Руторен"  
+ rutoren_collective_noun: "Руторен"  
+ rutoren_prefix: "Руторен"  
+ saudalag_name: "Саудалаг"  
+ saudalag_collective_noun: "Саудалагс"  
+ saudalag_prefix: "Саудалаг"  
+ brulodkin_name: "Брюлодкин"  
+ sekvojkin_name: "Секвойкин"  
+ rautvigr_name: "Раутвигр"  
+ vryhsonski_name: "Врихсонский"  
+ hromvolki_name: "Хромволки"  
+ senikampi_name: "Сеникампи"  
+ vcelitan_name: "Вцелитан"  
+ sjmorkeni_name: "Шморкени"  
+ sernvryki_name: "Сернврыки"  
+ lesalokin_name: "Лесалокин"  
+ hramki_name: "Храмки"  
+ nozivyki_name: "Нозивики"  
+ vaycovolki_name: "Вайковолки"  
+ opakasijan_name: "Опакасиджан"  
+ plasvarad_name: "Пласварад"  
+ destikogr_name: "Дестикогр"  
+ usukanarian_name: "Узуканарский"  
+ Orsolyot_name: "Орсольот"  
+ Skarope_name: "Скаропе"  
+ Czaforote_name: "Чафороте"  
+ Akaszin_name: "Акашин"  
+ Sayelig_name: "Сайелиг"  
+ Makomares_name: "Макомарес"  
+ Rovingmar_name: "Ровингмар"  
+ Tiswingi_name: "Тисвинги"  
+ Urdwings_name: "Урдвинги"  
+ Viweinocs_name: "Вивейноц"  
+ Rithdinics_name: "Ритдиника"  
+ Chilodocs_name: "Чилодокс"  
+ Dagoberings_name: "Дагоберинги"  
+ Clotodor_name: "Клотодор"  
+ Farnacs_name: "Фарнакс"  
+ Farnotherings_name: "Фарнотеринги"  
+ Theugodings_name: "Теугодингс"  
+ Cloverod_name: "клеверод"  
+ Albelings_name: "Альбелинги"  
+ Clotailings_name: "Клотаилинки"  
+ Kafodocs_name: "Кафодокс"  
+ brulodkin_collective_noun: "Брюлодкин"  
+ sekvojkin_collective_noun: "Секвойкин"  
+ rautvigr_collective_noun: "Раутвигр"  
+ vryhsonski_collective_noun: "Врихсонский"  
+ hromvolki_collective_noun: "Хромволки"  
+ senikampi_collective_noun: "Сеникампи"  
+ vcelitan_collective_noun: "Вцелитан"  
+ sjmorkeni_collective_noun: "Шморкени"  
+ sernvryki_collective_noun: "Сернврыки"  
+ lesalokin_collective_noun: "Лесалокин"  
+ hramki_collective_noun: "Храмки"  
+ nozivyki_collective_noun: "Нозивики"  
+ vaycovolki_collective_noun: "Вайковолки"  
+ opakasijan_collective_noun: "Опакасиджан"  
+ plasvarad_collective_noun: "Пласварад"  
+ destikogr_collective_noun: "Дестикогр"  
+ usukanarian_collective_noun: "Узуканарский"  
+ Orsolyot_collective_noun: "Орсольот"  
+ Skarope_collective_noun: "Скаропе"  
+ Czaforote_collective_noun: "Чафороте"  
+ Akaszin_collective_noun: "Акашин"  
+ Sayelig_collective_noun: "Сайелиг"  
+ Makomares_collective_noun: "Макомарес"  
+ Rovingmar_collective_noun: "Ровингмар"  
+ Tiswingi_collective_noun: "Тисвинги"  
+ Urdwings_collective_noun: "Урдвинги"  
+ Viweinocs_collective_noun: "Вивейноц"  
+ Rithdinics_collective_noun: "Ритдиника"  
+ Chilodocs_collective_noun: "Чилодокс"  
+ Dagoberings_collective_noun: "Дагоберинги"  
+ Clotodor_collective_noun: "Клотодор"  
+ Farnacs_collective_noun: "Фарнакс"  
+ Farnotherings_collective_noun: "Фарнотеринги"  
+ Theugodings_collective_noun: "Теугодингс"  
+ Cloverod_collective_noun: "Клеверод"  
+ Albelings_collective_noun: "Альбелинги"  
+ Clotailings_collective_noun: "Одежда"  
+ Kafodocs_collective_noun: "Кафодокс"  
+ brulodkin_prefix: "Брюлодкин"  
+ sekvojkin_prefix: "Секвойкин"  
+ rautvigr_prefix: "Раутвигр"  
+ vryhsonski_prefix: "Врихсонский"  
+ hromvolki_prefix: "Хромволки"  
+ senikampi_prefix: "Сеникампи"  
+ vcelitan_prefix: "Вцелитан"  
+ sjmorkeni_prefix: "Шморкени"  
+ sernvryki_prefix: "Сернврыки"  
+ lesalokin_prefix: "Лесалокин"  
+ hramki_prefix: "Храмки"  
+ nozivyki_prefix: "Нозивики"  
+ vaycovolki_prefix: "Вайковолки"  
+ opakasijan_prefix: "Опакасиджан"  
+ plasvarad_prefix: "Пласварад"  
+ destikogr_prefix: "Дестикогр"  
+ usukanarian_prefix: "Узуканарский"  
+ Orsolyot_prefix: "Орсольот"  
+ Skarope_prefix: "Скаропе"  
+ Czaforote_prefix: "Чафорот"  
+ Akaszin_prefix: "Акашин"  
+ Sayelig_prefix: "Сайелиг"  
+ Makomares_prefix: "Макомар"  
+ Rovingmar_prefix: "Ровингмар"  
+ Tiswingi_prefix: "Тисвинги"  
+ Urdwings_prefix: "Урдвинг"  
+ Viweinocs_prefix: "Вивейнок"  
+ Rithdinics_prefix: "Ритдиник"  
+ Chilodocs_prefix: "Чилодок"  
+ Dagoberings_prefix: "Дагоберинги"  
+ Clotodor_prefix: "Клотодор"  
+ Farnacs_prefix: "Фарнакс"  
+ Farnotherings_prefix: "дальний путь"  
+ Theugodings_prefix: "Теугодинг"  
+ Cloverod_prefix: "клеверод"  
+ Albelings_prefix: "Альбелинг"  
+ Clotailings_prefix: "Одежда"  
+ Kafodocs_prefix: "Кафодок"  
+ Solkorvingi_prefix: "Солкорвинги"  
+ Spornasdi_prefix: "Спорнасди"  
+ Ziliknas_prefix: "Жиликнас"  
+ Crezchey_prefix: "Крезчей"  
+ Haddinvolki_prefix: "Хаддинволки"  
+ Setitriti_prefix: "Сетитрити"  
+ Vogori_prefix: "Вогори"  
+ Hrithgodi_prefix: "Хритгоди"  
+ Kignasti_prefix: "Кигнасти"  
+ Inguindodi_prefix: "Ингуиндоди"  
+ Denedi_prefix: "Денеди"  
+ Zabbikhli_prefix: "Заббихлы"  
+ Czurkhdan_prefix: "Чурхдан"  
+ Sorkvolki_prefix: "Соркволки"  
+ Zunszeral_prefix: "Зуншерал"  
+ Kszanofi_prefix: "Кшанофи"  
+ Arderovacs_prefix: "Ардеровац"  
+ Trustherodoc_prefix: "Трастхеродок"  
+ Sjaloferings_prefix: "Сьялоферингс"  
+ Menovocs_prefix: "Меновокс"  
+ Avirsodocs_prefix: "Авирсодокс"  
+ Freton_prefix: "Фретон"  
+ Etepezar_prefix: "Этепезар"  
+ Opkasjecker_prefix: "Опкашекер"  
+ Malockwaard_prefix: "Малокваард"  
+ Edjepeck_prefix: "Эджепек"  
+ Rifierman_prefix: "Риферман"  
+ Zwoetester_prefix: "Звутестер"  
+ Ayroejnoy_prefix: "Айроейной"  
+ Kalthaproj_prefix: "Калтапрой"  
+ Waardmann_prefix: "Ваардманн"  
+ Jaagarwad_prefix: "Джаагарвад"  
+ Haadstedter_prefix: "Хаадштедтер"  
+ Drodje_prefix: "Дродье"  
+ Shuleherrn_prefix: "Шулехерн"  
+ Toderrol_prefix: "Тодеррол"  
+ Urelosk_prefix: "Урелоск"  
+ Marerrn_prefix: "Мареррн"  
+ Drovdeny_prefix: "Дровдены"  
+ Chethawi_prefix: "Четави"  
+ Shwihawa_prefix: "Швихава"  
+ Athasawi_prefix: "Атасави"  
+ Othachasi_prefix: "Отачаси"  
+ Chasathosi_prefix: "Часатоси"  
+ Ewisi_prefix: "Эвиси"  
+ Awachi_prefix: "Awachi"  
+ Sawathi_prefix: "Савати"  
+ Ohachi_prefix: "Охачи"  
+ Chehawathi_prefix: "Чехавати"  
+ Wathesi_prefix: "Ватези"  
+ Solkorvingi_name: "Солкорвинги"  
+ Spornasdi_name: "Спорнасди"  
+ Ziliknas_name: "Жиликнас"  
+ Crezchey_name: "Крезчей"  
+ Haddinvolki_name: "Хаддинволки"  
+ Setitriti_name: "Сетитрити"  
+ Vogori_name: "Вогори"  
+ Hrithgodi_name: "Хритгоди"  
+ Kignasti_name: "Кигнасти"  
+ Inguindodi_name: "Ингуиндоди"  
+ Denedi_name: "Денеди"  
+ Zabbikhli_name: "Заббихлы"  
+ Czurkhdan_name: "Чурхдан"  
+ Sorkvolki_name: "Соркволки"  
+ Zunszeral_name: "Зуншерал"  
+ Kszanofi_name: "Кшанофи"  
+ Arderovacs_name: "Ардеровац"  
+ Trustherodoc_name: "Трастхеродок"  
+ Sjaloferings_name: "Сьялоферингс"  
+ Menovocs_name: "Меновокс"  
+ Avirsodocs_name: "Авирсодокс"  
+ Freton_name: "Фретон"  
+ Etepezar_name: "Этепезар"  
+ Opkasjecker_name: "Опкашекер"  
+ Malockwaard_name: "Малокваард"  
+ Edjepeck_name: "Эджепек"  
+ Rifierman_name: "Риферман"  
+ Zwoetester_name: "Звутестер"  
+ Ayroejnoy_name: "Айроейной"  
+ Kalthaproj_name: "Калтапрой"  
+ Waardmann_name: "Ваардманн"  
+ Jaagarwad_name: "Джаагарвад"  
+ Haadstedter_name: "Хаадштедтер"  
+ Drodje_name: "Дродье"  
+ Shuleherrn_name: "Шулехерн"  
+ Toderrol_name: "Тодеррол"  
+ Urelosk_name: "Урелоск"  
+ Marerrn_name: "Мареррн"  
+ Drovdeny_name: "Дровдены"  
+ Chethawi_name: "Четави"  
+ Shwihawa_name: "Швихава"  
+ Athasawi_name: "Атасави"  
+ Othachasi_name: "Отачаси"  
+ Chasathosi_name: "Часатоси"  
+ Ewisi_name: "Эвиси"  
+ Awachi_name: "Авачи"  
+ Sawathi_name: "Савати"  
+ Ohachi_name: "Охачи"  
+ Chehawathi_name: "Чехавати"  
+ Wathesi_name: "Ватези"  
+ Solkorvingi_collective_noun: "Солкорвинги"  
+ Spornasdi_collective_noun: "Спорнасди"  
+ Ziliknas_collective_noun: "Жиликнас"  
+ Crezchey_collective_noun: "Крезчей"  
+ Haddinvolki_collective_noun: "Хаддинволки"  
+ Setitriti_collective_noun: "Сетитрити"  
+ Vogori_collective_noun: "Вогори"  
+ Hrithgodi_collective_noun: "Хритгоди"  
+ Kignasti_collective_noun: "Кигнасти"  
+ Inguindodi_collective_noun: "Ингуиндоди"  
+ Denedi_collective_noun: "Денеди"  
+ Zabbikhli_collective_noun: "Заббихлы"  
+ Czurkhdan_collective_noun: "Чурхдан"  
+ Sorkvolki_collective_noun: "Соркволки"  
+ Zunszeral_collective_noun: "Зуншерал"  
+ Kszanofi_collective_noun: "Кшанофи"  
+ Arderovacs_collective_noun: "Ардеровац"  
+ Trustherodoc_collective_noun: "Трастхеродок"  
+ Sjaloferings_collective_noun: "Сьялоферингс"  
+ Menovocs_collective_noun: "Меновокс"  
+ Avirsodocs_collective_noun: "Авирсодокс"  
+ Freton_collective_noun: "Фретон"  
+ Etepezar_collective_noun: "Этепезар"  
+ Opkasjecker_collective_noun: "Опкашекер"  
+ Malockwaard_collective_noun: "Малокваард"  
+ Edjepeck_collective_noun: "Эджепек"  
+ Rifierman_collective_noun: "Риферман"  
+ Zwoetester_collective_noun: "Звутестер"  
+ Ayroejnoy_collective_noun: "Айроейной"  
+ Kalthaproj_collective_noun: "Калтапрой"  
+ Waardmann_collective_noun: "Ваардманн"  
+ Jaagarwad_collective_noun: "Джаагарвад"  
+ Haadstedter_collective_noun: "Хаадштедтер"  
+ Drodje_collective_noun: "Дродье"  
+ Shuleherrn_collective_noun: "Шулехерн"  
+ Toderrol_collective_noun: "Тодеррол"  
+ Urelosk_collective_noun: "Урелоск"  
+ Marerrn_collective_noun: "Мареррн"  
+ Drovdeny_collective_noun: "Дровдены"  
+ Chethawi_collective_noun: "Четави"  
+ Shwihawa_collective_noun: "Швихава"  
+ Athasawi_collective_noun: "Атасави"  
+ Othachasi_collective_noun: "Отачаси"  
+ Chasathosi_collective_noun: "Часатоси"  
+ Ewisi_collective_noun: "Эвиси"  
+ Awachi_collective_noun: "Awachi"  
+ Sawathi_collective_noun: "Савати"  
+ Ohachi_collective_noun: "Ohachi"  
+ Chehawathi_collective_noun: "Чехавати"  
+ Wathesi_collective_noun: "Ватези"  
+ Iliokas_name: "Илиокас"  
+ Iliokas_collective_noun: "Илиоканс"  
+ Iliokas_prefix: "Илиокай"  
+ Voreioxi_name: "Ворейокси"  
+ Voreioxi_collective_noun: "Ворейокси"  
+ Voreioxi_prefix: "Ворейокси"  
+ Teleoskoi_name: "Телеоской"  
+ Teleoskoi_collective_noun: "Телеоской"  
+ Teleoskoi_prefix: "Телеоско"  
+ Kradoxi_name: "Крадокси"  
+ Kradoxi_collective_noun: "Крадоксии"  
+ Kradoxi_prefix: "Крадокси"  
+ Anouphroi_name: "Ануфрой"  
+ Anouphroi_collective_noun: "Ануфрой"  
+ Anouphroi_prefix: "Ануфро"  
+ Apoktosaioi_name: "Апоктосайой"  
+ Apoktosaioi_collective_noun: "Апоктосаи"  
+ Apoktosaioi_prefix: "Апоктосай"  
+ Ichthyvoi_name: "Ихтивой"  
+ Ichthyvoi_collective_noun: "Ихтивой"  
+ Ichthyvoi_prefix: "Ихтыво"  
+ Kratoxi_name: "Кратокси"  
+ Kratoxi_collective_noun: "Кратокси"  
+ Kratoxi_prefix: "Кратокси"  
+ Mytidoxi_name: "Митидокси"  
+ Mytidoxi_collective_noun: "Митидокси"  
+ Mytidoxi_prefix: "Митидокси"  
+ Mesokhaiexi_name: "Месохайекси"  
+ Mesokhaiexi_collective_noun: "Месохайекси"  
+ Mesokhaiexi_prefix: "Месохайекси"  
+ Anoterioi_name: "Анотериой"  
+ Anoterioi_collective_noun: "Анотерии"  
+ Anoterioi_prefix: "Анотерио"  
+ Paktosonai_name: "Пактосанай"  
+ Paktosonai_collective_noun: "Пактосанай"  
+ Paktosonai_prefix: "Пактосони"  
+ Erythrichroi_name: "Эритрихрой"  
+ Erythrichroi_collective_noun: "Эритрихрой"  
+ Erythrichroi_prefix: "Эритрихро"  
+ Hyperoxthoi_name: "Гиперокстой"  
+ Hyperoxthoi_collective_noun: "Гиперокстой"  
+ Hyperoxthoi_prefix: "Гипероксто"  
+ Aogoi_name: "Аогой"  
+ Aogoi_collective_noun: "Аогии"  
+ Aogoi_prefix: "Аого"  
+ Pyrrhodoi_name: "Пирродой"  
+ Pyrrhodoi_collective_noun: "Пирродой"  
+ Pyrrhodoi_prefix: "Пирродо"  
+ Kavaloi_name: "Кавалой"  
+ Kavaloi_collective_noun: "Кавалой"  
+ Kavaloi_prefix: "Кавало"  
+ Chrydoxtes_name: "Кридокст"  
+ Chrydoxtes_collective_noun: "Хридоксти"  
+ Chrydoxtes_prefix: "Кридокст"  
+ Histatoi_name: "Хистатои"  
+ Histatoi_collective_noun: "Хистатои"  
+ Histatoi_prefix: "Гистато"  
+ Aemeoktas_name: "Аэмеоктас"  
+ Aemeoktas_collective_noun: "Эмеоктай"  
+ Aemeoktas_prefix: "Аэмеокти"  
+ Kathrioi_name: "Катриой"  
+ Kathrioi_collective_noun: "Катриой"  
+ Kathrioi_prefix: "Катрио"  
+ Theorexi_name: "Теорекси"  
+ Theorexi_collective_noun: "Теорексии"  
+ Theorexi_prefix: "Теорекси"  
+ Martrioi_name: "Мартриой"  
+ Martrioi_collective_noun: "Мартрии"  
+ Martrioi_prefix: "Мартрио"  
+ Kalagioi_name: "Калагиой"  
+ Kalagioi_collective_noun: "Калагии"  
+ Kalagioi_prefix: "Каладжио"  
+ Tatalektoi_name: "Таталектой"  
+ Tatalektoi_collective_noun: "Таталектой"  
+ Tatalektoi_prefix: "Таталекто"  
+ Gnossoi_name: "Гноссой"  
+ Gnossoi_collective_noun: "Гноссии"  
+ Gnossoi_prefix: "Гноссо"  
+ Koryphteroi_name: "Корифтеры"  
+ Koryphteroi_collective_noun: "Корифтерии"  
+ Koryphteroi_prefix: "Корифтеро"  
+ Kygnitoi_name: "Кигнитой"  
+ Kygnitoi_collective_noun: "Кигнитой"  
+ Kygnitoi_prefix: "Кигнито"  
+ Veloi_name: "Велои"  
+ Veloi_collective_noun: "Велои"  
+ Veloi_prefix: "Велейо"  
+ Pathiphexi_name: "Патифекси"  
+ Pathiphexi_collective_noun: "Патифексии"  
+ Pathiphexi_prefix: "Патифекси"  
+ Navikteroi_name: "Навиктерой"  
+ Navikteroi_collective_noun: "Навиктери"  
+ Navikteroi_prefix: "Навиктеро"  
+ Pelentoxi_name: "Пелентокси"  
+ Pelentoxi_collective_noun: "Пелентоксии"  
+ Pelentoxi_prefix: "Пелентокси"  
+ Ithrioxi_name: "Итриокси"  
+ Ithrioxi_collective_noun: "Итриокси"  
+ Ithrioxi_prefix: "Итриокси"  
+ Aethrisaxi_name: "Этрисакси"  
+ Aethrisaxi_collective_noun: "Этрисакси"  
+ Aethrisaxi_prefix: "Этрисакси"  
+ Peryphexi_name: "Перифекси"  
+ Peryphexi_collective_noun: "Перифекси"  
+ Peryphexi_prefix: "Перифекси"  
+ Neonoi_name: "Неоной"  
+ Neonoi_collective_noun: "Неони"  
+ Neonoi_prefix: "Неоно"  
+ Parnemoi_name: "Парнемой"  
+ Parnemoi_collective_noun: "Парнемии"  
+ Parnemoi_prefix: "Парнемо"  
+ Cathrevoux_name: "Катреву"  
+ Cathrevoux_collective_noun: "Катреву"  
+ Cathrevoux_prefix: "Катреву"  
+ Parciexi_name: "Парчиеши"  
+ Parciexi_collective_noun: "Парчиеши"  
+ Parciexi_prefix: "Парчиеши"  
+ Calthois_name: "Калтуа"  
+ Calthois_collective_noun: "Калтуа"  
+ Calthois_prefix: "Калтуа"  
+ Avancin_name: "Авансин"  
+ Avancin_collective_noun: "Авансин"  
+ Avancin_prefix: "Авансин"  
+ Axtresient_name: "Акстрезиант"  
+ Axtresient_collective_noun: "Акстрезиант"  
+ Axtresient_prefix: "Акстрезиант"  
+ Aversier_name: "Аверсье"  
+ Aversier_collective_noun: "Аверсье"  
+ Aversier_prefix: "Аверсье"  
+ Encroicher_name: "Энкройшер"  
+ Encroicher_collective_noun: "Энкройшер"  
+ Encroicher_prefix: "Энкройшер"  
+ Haumextis_name: "Хаумекстис"  
+ Haumextis_collective_noun: "Хаумекстис"  
+ Haumextis_prefix: "Хаумекстис"  
+ Rietzaairn_name: "Ритцааирн"  
+ Rietzaairn_collective_noun: "Ритцааирн"  
+ Rietzaairn_prefix: "Ритцааирн"  
+ Lijkvoer_name: "Лейквоер"  
+ Lijkvoer_collective_noun: "Лейквоер"  
+ Lijkvoer_prefix: "Лейквоер"  
+ Haagrevent_name: "Хаагревент"  
+ Haagrevent_collective_noun: "Хаагревент"  
+ Haagrevent_prefix: "Хаагревент"  
+ Roemeeuw_name: "Рёмеув"  
+ Roemeeuw_collective_noun: "Рёмеув"  
+ Roemeeuw_prefix: "Рёмеув"  
+ Equihier_name: "Эквие"  
+ Equihier_collective_noun: "Эквие"  
+ Equihier_prefix: "Эквие"  
+ Geheurn_name: "Гехерн"  
+ Geheurn_collective_noun: "Гехерн"  
+ Geheurn_prefix: "Гехерн"  
