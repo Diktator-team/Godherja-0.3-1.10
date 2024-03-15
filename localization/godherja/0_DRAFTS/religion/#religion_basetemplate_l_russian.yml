@@ -40,29 +40,29 @@
  xyz_positive_afterlife: ""
  xyz_negative_afterlife: ""
   
- xyz_creator_god_name: "$xyz_high_god_name$" #Машинный перевод 28.10.23
- xyz_creator_god_name_possessive: "$xyz_high_god_name_possessive$" #Машинный перевод 28.10.23
+ xyz_creator_god_name: "$xyz_high_god_name$"
+ xyz_creator_god_name_possessive: "$xyz_high_god_name_possessive$"
  xyz_health_god_name: ""
  xyz_health_god_name_possessive: ""
- xyz_fertility_god_name: "$xyz_high_god_name$" #Машинный перевод 28.10.23
- xyz_fertility_god_name_possessive: "$xyz_high_god_name_possessive$" #Машинный перевод 28.10.23
- xyz_wealth_god_name: "$xyz_high_god_name$" #Машинный перевод 28.10.23
- xyz_wealth_god_name_possessive: "$xyz_high_god_name_possessive$" #Машинный перевод 28.10.23
- xyz_household_god_name: "$xyz_health_god_name$" #Машинный перевод 28.10.23
- xyz_household_god_name_possessive: "$xyz_health_god_name_possessive$" #Машинный перевод 28.10.23
- xyz_fate_god_name: "$xyz_high_god_name$" #Машинный перевод 28.10.23
- xyz_fate_god_name_possessive: "$xyz_high_god_name_possessive$" #Машинный перевод 28.10.23
- xyz_knowledge_god_name: "$xyz_high_god_name$" #Машинный перевод 28.10.23
- xyz_knowledge_god_name_possessive: "$xyz_high_god_name_possessive$" #Машинный перевод 28.10.23
- xyz_war_god_name: "$xyz_high_god_name$" #Машинный перевод 28.10.23
- xyz_war_god_name_possessive: "$xyz_high_god_name_possessive$" #Машинный перевод 28.10.23
- xyz_trickster_god_name: "Фортуна" #Машинный перевод 28.10.23
- xyz_trickster_god_name_possessive: "Фортуны" #Машинный перевод 28.10.23
- xyz_night_god_name: "$xyz_high_god_name$" #Машинный перевод 28.10.23
- xyz_night_god_name_possessive: "$xyz_high_god_name_possessive$" #Машинный перевод 28.10.23
- xyz_water_god_name: "$xyz_health_god_name$" #Машинный перевод 28.10.23
- xyz_water_god_name_possessive: "$xyz_health_god_name_possessive$" #Машинный перевод 28.10.23
- xyz_witchgodname: "Йохан" #Машинный перевод 28.10.23
+ xyz_fertility_god_name: "$xyz_high_god_name$"
+ xyz_fertility_god_name_possessive: "$xyz_high_god_name_possessive$"
+ xyz_wealth_god_name: "$xyz_high_god_name$"
+ xyz_wealth_god_name_possessive: "$xyz_high_god_name_possessive$"
+ xyz_household_god_name: "$xyz_health_god_name$"
+ xyz_household_god_name_possessive: "$xyz_health_god_name_possessive$"
+ xyz_fate_god_name: "$xyz_high_god_name$"
+ xyz_fate_god_name_possessive: "$xyz_high_god_name_possessive$"
+ xyz_knowledge_god_name: "$xyz_high_god_name$"
+ xyz_knowledge_god_name_possessive: "$xyz_high_god_name_possessive$"
+ xyz_war_god_name: "$xyz_high_god_name$"
+ xyz_war_god_name_possessive: "$xyz_high_god_name_possessive$"
+ xyz_trickster_god_name: "Фортуна"
+ xyz_trickster_god_name_possessive: "Фортуны"
+ xyz_night_god_name: "$xyz_high_god_name$"
+ xyz_night_god_name_possessive: "$xyz_high_god_name_possessive$"
+ xyz_water_god_name: "$xyz_health_god_name$"
+ xyz_water_god_name_possessive: "$xyz_health_god_name_possessive$"
+ xyz_witchgodname: "Йохан"
   
  wxyz: ""
  wxyz_adj: ""

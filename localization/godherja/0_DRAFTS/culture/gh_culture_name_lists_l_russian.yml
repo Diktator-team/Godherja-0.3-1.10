@@ -1,124 +1,124 @@
 ﻿l_russian:
- name_list_aversarian: "Аверсарианец"  #Машинный перевод 28.10.23!
- name_list_kholmvolki: "Холмволки"  #Машинный перевод 28.10.23!
- name_list_kholmvolki_inner: "Внутренние Холмволки"  #Машинный перевод 28.10.23!
- name_list_kholmvolki_outer: "Внешние Холмволки"  #Машинный перевод 28.10.23!
- name_list_kholmvolki_fen: "Фен Холмволки"  #Машинный перевод 28.10.23!
- name_list_kholmvolki_aver: "Южные Холмволки"  #Машинный перевод 28.10.23!
- name_list_rekvolki: "Рекволи"  #Машинный перевод 28.10.23!
- name_list_rekvolki_high: "Высокие Рекволи"  #Машинный перевод 28.10.23!
- name_list_rekvolki_low: "Низкие Рекволки"  #Машинный перевод 28.10.23!
- name_list_rekvolki_aver: "Аверсарян Рекволки"  #Машинный перевод 28.10.23!
- name_list_voyagen: "Вояген"  #Машинный перевод 28.10.23!
- name_list_haraja: "Хараджа"  #Машинный перевод 28.10.23!
- name_list_chordhan: "Чордхан"  #Машинный перевод 28.10.23!
- name_list_dayatemi: "Даятеми"  #Машинный перевод 28.10.23!
- name_list_konijkmener: "Конийкменер"  #Машинный перевод 28.10.23!
- name_list_aevakori: "Аэвакори"  #Машинный перевод 28.10.23!
- name_list_kadwana: "Кадвана"  #Машинный перевод 28.10.23!
- name_list_lainar: "Лайнар"  #Машинный перевод 28.10.23!
- name_list_prakaani: "Пракаани"  #Машинный перевод 28.10.23!
- name_list_deraani: "Дераани"  #Машинный перевод 28.10.23!
- name_list_samayani: "Самайани"  #Машинный перевод 28.10.23!
- name_list_nakahanii: "Накахании"  #Машинный перевод 28.10.23!
- name_list_khalai: "Халаи"  #Машинный перевод 28.10.23!
- name_list_adhata: "Адхата"  #Машинный перевод 28.10.23!
- name_list_emanhi: "Эманхи"  #Машинный перевод 28.10.23!
- name_list_amaghvelian: "Амагвелийский"  #Машинный перевод 28.10.23!
- name_list_aygaeri: "Айгаэри"  #Машинный перевод 28.10.23!
- name_list_tsetnera: "Цетнера"  #Машинный перевод 28.10.23!
- name_list_kherkeloi: "Херкелой"  #Машинный перевод 28.10.23!
- name_list_agadari: "Агадари"  #Машинный перевод 28.10.23!
- name_list_athacaya: "Атакайя"  #Машинный перевод 28.10.23!
- name_list_likarkho: "Ликархо"  #Машинный перевод 28.10.23!
- name_list_anandrasi: "Анандраси"  #Машинный перевод 28.10.23!
- name_list_shamrania: "Шамрания"  #Машинный перевод 28.10.23!
- name_list_asariyna: "Асарийна"  #Машинный перевод 28.10.23!
- name_list_veparstva: "Верпарства"  #Машинный перевод 28.10.23!
- #name_list_veparstva: "Веспарства"  #Машинный перевод 28.10.23!
- name_list_afoseniai: "Афосеняй"  #Машинный перевод 28.10.23!
- name_list_daidenos: "Дайденос"  #Машинный перевод 28.10.23!
- name_list_skoronyk: "Скороник"  #Машинный перевод 28.10.23!
- name_list_guillater: "Гильятер"  #Машинный перевод 28.10.23!
- name_list_kelthiunai: "Келтиунай"  #Машинный перевод 28.10.23!
- name_list_oghainos: "Огайнос"  #Машинный перевод 28.10.23!
- name_list_margur: "Маргур"  #Машинный перевод 28.10.23!
- ##name_list_athacaya: "Атакаян"  #Машинный перевод 28.10.23!
- name_list_rekhala: "Рекхала"  #Машинный перевод 28.10.23!
- name_list_agnala: "Агнала"  #Машинный перевод 28.10.23!
- name_list_khokhuud: "Хохууд"  #Машинный перевод 28.10.23!
- name_list_xajirkel: "Хажиркель"  #Машинный перевод 28.10.23!
- name_list_tlakalak: "Тлакалак"  #Машинный перевод 28.10.23!
- name_list_daravani: "Даравани"  #Машинный перевод 28.10.23!
- name_list_aafarzay: "Аафарзай"  #Машинный перевод 28.10.23!
- name_list_kemsar: "Кемсар"  #Машинный перевод 28.10.23!
- name_list_huegodoc: "Уэгодок"  #Машинный перевод 28.10.23!
- name_list_mondecny: "понедельник"  #Машинный перевод 28.10.23!
- name_list_marcher: "Марчер"  #Машинный перевод 28.10.23!
- #name_list_kholmvolki: "Холмволки"  #Машинный перевод 28.10.23!
- name_list_yylaxxaz: "Йилаксаз"  #Машинный перевод 28.10.23!
- name_list_partic: "Партик"  #Машинный перевод 28.10.23!
- name_list_sarradonian: "Саррадонский"  #Машинный перевод 28.10.23!
- name_list_marmaladid: "Мармеладид"  #Машинный перевод 28.10.23!
- name_list_madikirib: "Мадикириб"  #Машинный перевод 28.10.23!
- name_list_arapa: "Арапа"  #Машинный перевод 28.10.23!
- name_list_vhanavid: "Ванавид"  #Машинный перевод 28.10.23!
- name_list_kosharan: "Кошаран"  #Машинный перевод 28.10.23!
- name_list_zarasadari: "Амсарский"  #Машинный перевод 28.10.23!
- name_list_damotan: "Дамотан"  #Машинный перевод 28.10.23!
- name_list_iyrossi: "Ийросси"  #Машинный перевод 28.10.23!
- name_list_takopara: "Такопара"  #Машинный перевод 28.10.23!
- name_list_zanaumaures: "Занамаури"  #Машинный перевод 28.10.23!
- name_list_saradari: "Сарадари"  #Машинный перевод 28.10.23!
- name_list_ojyczayn: "Ойчайн"  #Машинный перевод 28.10.23!
- name_list_canian: "Канианский"  #Машинный перевод 28.10.23!
- name_list_cavetribe: "Пещерное племя"  #Машинный перевод 28.10.23!
- name_list_oejeynican: "Оджейникан"  #Машинный перевод 28.10.23!
- name_list_dezhunic: "Дежунич"  #Машинный перевод 28.10.23!
- name_list_kardwen: "Кардвен"  #Машинный перевод 28.10.23!
- name_list_easterner: "Катуниан"  #Машинный перевод 28.10.23!
- name_list_karzarad: "Карзарад"  #Машинный перевод 28.10.23!
- name_list_theugombrian: "Теугомбрий"  #Машинный перевод 28.10.23!
- name_list_kevaali: "Кеваали"  #Машинный перевод 28.10.23!
- name_list_gallieni: "Галлиени"  #Машинный перевод 28.10.23!
- name_list_goan: "Гоан"  #Машинный перевод 28.10.23!
- name_list_hadiyan: "Хадиян"  #Машинный перевод 28.10.23!
- name_list_korlona: "Корлона"  #Машинный перевод 28.10.23!
- name_list_qoltaam: "Колтаам"  #Машинный перевод 28.10.23!
- name_list_abadelos: "Абаделос"  #Машинный перевод 28.10.23!
- name_list_aekershaani: "Аекершаани"  #Машинный перевод 28.10.23!
- name_list_sarminian: "Сарминский"  #Машинный перевод 28.10.23!
- name_list_samojitian: "Samojitian"  #Машинный перевод 28.10.23!
- name_list_sarridian: "Сарридиан"  #Машинный перевод 28.10.23!
+ name_list_aversarian: "Аверсарианец"  
+ name_list_kholmvolki: "Холмволки"  
+ name_list_kholmvolki_inner: "Внутренние Холмволки"  
+ name_list_kholmvolki_outer: "Внешние Холмволки"  
+ name_list_kholmvolki_fen: "Болотные Холмволки"  
+ name_list_kholmvolki_aver: "Южные Холмволки"  
+ name_list_rekvolki: "Рекволи"  
+ name_list_rekvolki_high: "Высокие Рекволи"  
+ name_list_rekvolki_low: "Низкие Рекволки"  
+ name_list_rekvolki_aver: "Аверсарианские Рекволки"  
+ name_list_voyagen: "Вояжен"  
+ name_list_haraja: "Хараджа"  
+ name_list_chordhan: "Чордхан"  
+ name_list_dayatemi: "Даятеми"  
+ name_list_konijkmener: "Конийкменер"  
+ name_list_aevakori: "Аэвакори"  
+ name_list_kadwana: "Кадвана"  
+ name_list_lainar: "Лайнар"  
+ name_list_prakaani: "Пракаани"  
+ name_list_deraani: "Дераани"  
+ name_list_samayani: "Самайани"  
+ name_list_nakahanii: "Накахании"  
+ name_list_khalai: "Халаи"  
+ name_list_adhata: "Адхата"  
+ name_list_emanhi: "Эманхи"  
+ name_list_amaghvelian: "Амагвелийский"  
+ name_list_aygaeri: "Айгаэри"  
+ name_list_tsetnera: "Цетнера"  
+ name_list_kherkeloi: "Херкелой"  
+ name_list_agadari: "Агадари"  
+ name_list_athacaya: "Атакайя"  
+ name_list_likarkho: "Ликархо"  
+ name_list_anandrasi: "Анандраси"  
+ name_list_shamrania: "Шамрания"  
+ name_list_asariyna: "Асарийна"  
+ name_list_veparstva: "Верпарства"  
+ #name_list_veparstva: "Веспарства"  
+ name_list_afoseniai: "Афосеняй"  
+ name_list_daidenos: "Дайденос"  
+ name_list_skoronyk: "Скороник"  
+ name_list_guillater: "Гильятер"  
+ name_list_kelthiunai: "Келтиунай"  
+ name_list_oghainos: "Огайнос"  
+ name_list_margur: "Маргур"  
+ ##name_list_athacaya: "Атакаян"  
+ name_list_rekhala: "Рекхала"  
+ name_list_agnala: "Агнала"  
+ name_list_khokhuud: "Хохууд"  
+ name_list_xajirkel: "Хажиркель"  
+ name_list_tlakalak: "Тлакалак"  
+ name_list_daravani: "Даравани"  
+ name_list_aafarzay: "Аафарзай"  
+ name_list_kemsar: "Кемсар"  
+ name_list_huegodoc: "Уэгодок"  
+ name_list_mondecny: "понедельник"  
+ name_list_marcher: "Марчер"  
+ #name_list_kholmvolki: "Холмволки"  
+ name_list_yylaxxaz: "Йилаксаз"  
+ name_list_partic: "Партик"  
+ name_list_sarradonian: "Саррадонский"  
+ name_list_marmaladid: "Мармеладид"  
+ name_list_madikirib: "Мадикириб"  
+ name_list_arapa: "Арапа"  
+ name_list_vhanavid: "Ванавид"  
+ name_list_kosharan: "Кошаран"  
+ name_list_zarasadari: "Амсарский"  
+ name_list_damotan: "Дамотан"  
+ name_list_iyrossi: "Ийросси"  
+ name_list_takopara: "Такопара"  
+ name_list_zanaumaures: "Занамаури"  
+ name_list_saradari: "Сарадари"  
+ name_list_ojyczayn: "Ойчайн"  
+ name_list_canian: "Канианский"  
+ name_list_cavetribe: "Пещерное племя"  
+ name_list_oejeynican: "Оджейникан"  
+ name_list_dezhunic: "Дежунич"  
+ name_list_kardwen: "Кардвен"  
+ name_list_easterner: "Катуниан"  
+ name_list_karzarad: "Карзарад"  
+ name_list_theugombrian: "Теугомбрий"  
+ name_list_kevaali: "Кеваали"  
+ name_list_gallieni: "Галлиени"  
+ name_list_goan: "Гоан"  
+ name_list_hadiyan: "Хадиян"  
+ name_list_korlona: "Корлона"  
+ name_list_qoltaam: "Колтаам"  
+ name_list_abadelos: "Абаделос"  
+ name_list_aekershaani: "Аекершаани"  
+ name_list_sarminian: "Сарминский"  
+ name_list_samojitian: "Самоджитский"  
+ name_list_sarridian: "Сарридиан"  
   
- name_list_zonthawa: "Зонтава"  #Машинный перевод 28.10.23!
- name_list_kikarsag: "Кикарсаг"  #Машинный перевод 28.10.23!
- name_list_redlander: "Редлендер"  #Машинный перевод 28.10.23!
- name_list_fog_eaters: "Пожиратель тумана"  #Машинный перевод 28.10.23!
- name_list_chevalo_aversarian: "Чевало-Аверсян"  #Машинный перевод 28.10.23!
- name_list_chevalo_gallien: "Шевало-Гальен"  #Машинный перевод 28.10.23!
- name_list_dubadin: "Дубадин"  #Машинный перевод 28.10.23!
- name_list_mtuwe: "Мтуве"  #Машинный перевод 28.10.23!
- name_list_daikheni: "Дайхени"  #Машинный перевод 28.10.23!
- name_list_enynanthari: "Энинантари"  #Машинный перевод 28.10.23!
- name_list_iseni: "Исеньи"  #Машинный перевод 28.10.23!
- name_list_tiemanam: "Тиеманам"  #Машинный перевод 28.10.23!
- name_list_dergi: "Дерги"  #Машинный перевод 28.10.23!
- name_list_aembarisa: "Аэмбариса"  #Машинный перевод 28.10.23!
- name_list_saielaian: "Saielaian"  #Машинный перевод 28.10.23!
- name_list_blank: "Пустой"  #Машинный перевод 28.10.23!
- name_list_wasteland: "Пустошь"  #Машинный перевод 28.10.23!
- name_list_lonely_lighter: "Одинокая зажигалка"  #Машинный перевод 28.10.23!
- name_list_ouwabadin: "Увабадин"  #Машинный перевод 28.10.23!
- name_list_ashkeschi: "Ашкески"  #Машинный перевод 28.10.23!
- name_list_dadkawji: "Дадкауджи"  #Машинный перевод 28.10.23!
- name_list_narodlek: "Народлек"  #Машинный перевод 28.10.23!
- name_list_sagadavian: "Сагадавян"  #Машинный перевод 28.10.23!
- name_list_clanlander: "житель клана"  #Машинный перевод 28.10.23!
- name_list_talareg: "Таларег"  #Машинный перевод 28.10.23!
- name_list_bestial: "Зверь"  #Машинный перевод 28.10.23!
- name_list_aupagn: "Опань"  #Машинный перевод 28.10.23!
- name_list_skorikiakas: "Скорикиакас"  #Машинный перевод 28.10.23!
- name_list_agiopadis: "Агиопадис"  #Машинный перевод 28.10.23!
+ name_list_zonthawa: "Зонтава"  
+ name_list_kikarsag: "Кикарсаг"  
+ name_list_redlander: "Редлендер"  
+ name_list_fog_eaters: "Пожиратель тумана"  
+ name_list_chevalo_aversarian: "Чевало-Аверсян"  
+ name_list_chevalo_gallien: "Шевало-Гальен"  
+ name_list_dubadin: "Дубадин"  
+ name_list_mtuwe: "Мтуве"  
+ name_list_daikheni: "Дайхени"  
+ name_list_enynanthari: "Энинантари"  
+ name_list_iseni: "Исеньи"  
+ name_list_tiemanam: "Тиеманам"  
+ name_list_dergi: "Дерги"  
+ name_list_aembarisa: "Аэмбариса"  
+ name_list_saielaian: "Сайелайский"  
+ name_list_blank: "Пустой"  
+ name_list_wasteland: "Пустошь"  
+ name_list_lonely_lighter: "Одинокий свет"  
+ name_list_ouwabadin: "Увабадин"  
+ name_list_ashkeschi: "Ашкески"  
+ name_list_dadkawji: "Дадкауджи"  
+ name_list_narodlek: "Народлек"  
+ name_list_sagadavian: "Сагадавян"  
+ name_list_clanlander: "Житель клана"  
+ name_list_talareg: "Таларег"  
+ name_list_bestial: "Зверь"  
+ name_list_aupagn: "Опань"  
+ name_list_skorikiakas: "Скорикиакас"  
+ name_list_agiopadis: "Агиопадис"  
   
- name_list_undead: "Нежить"  #Машинный перевод 28.10.23!
+ name_list_undead: "Нежить"  
