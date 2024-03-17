@@ -1,15 +1,15 @@
 ﻿l_russian:
   #Descs 
  enrolled_at_mayikprolollan_desc: "Я начал свое образование [Concept('mayikprolollan','маикролаллане'|B] в школе [ROOT.Var('landed_title').Title.GetNameNoTier]."  
- enrolled_at_mayikprolollan_desc_second_perspective: "вы начали свое образование [Concept('mayikprolollan','маикролаллане'|B] в [ROOT.Var('landed_title').Title.GetNameNoTier]"  
+ enrolled_at_mayikprolollan_desc_second_perspective: "Вы начали свое образование [Concept('mayikprolollan','маикролаллане'|B] в [ROOT.Var('landed_title').Title.GetNameNoTier]"  
  enrolled_at_mayikprolollan_desc_third_perspective: "[owner.GetName] начал свое образование [Concept('mayikprolollan','маикролаллане'|B] в [ROOT.Var('landed_title').Title.GetNameNoTier]"  
   
  joined_legion_desc: "Я присоединился к [ROOT.Var('landed_title').Title.GetNameNoTier]"  
- joined_legion_desc_second_perspective: "вы присоединились к [ROOT.Var('landed_title').Title.GetNameNoTier]"  
+ joined_legion_desc_second_perspective: "Вы присоединились к [ROOT.Var('landed_title').Title.GetNameNoTier]"  
  joined_legion_desc_third_perspective: "[owner.GetName] присоединился к [ROOT.Var('landed_title').Title.GetNameNoTier]"  
   
  sacrificed_family_for_spell_desc: "Я пожертвовал [sacrificed_family_member_1.GetFirstName], [sacrificed_family_member_2.GetFirstName], [sacrificed_family_member_3.GetFirstName] и [sacrificed_family_member_4.GetFirstName] в [Concept('magical','магическом'|B] ритуале."  
- sacrificed_family_for_spell_desc_second_perspective: "вы пожертвовали [sacrificed_family_member_1.GetFirstName], [sacrificed_family_member_2.GetFirstName], [sacrificed_family_member_3.GetFirstName] и [sacrificed_family_member_4.GetFirstName] в [Concept('magical','магии'|B]."  
+ sacrificed_family_for_spell_desc_second_perspective: "Вы пожертвовали [sacrificed_family_member_1.GetFirstName], [sacrificed_family_member_2.GetFirstName], [sacrificed_family_member_3.GetFirstName] и [sacrificed_family_member_4.GetFirstName] в [Concept('magical','магии'|B]."  
  sacrificed_family_for_spell_desc_third_perspective: "[owner.GetName] принес в жертву [sacrificed_family_member_1.GetFirstName], [sacrificed_family_member_2.GetFirstName], [sacrificed_family_member_3.GetFirstName] и [sacrificed_family_member_4.GetFirstName] в [Concept('magical','магии'|B]."  
   
  casted_srbm_desc: "Я использую [selfreplicating_blood_magic|B]"  
@@ -45,15 +45,15 @@
  resisted_gederoa_desc: "Этот персонаж подвергся нападению Гедеоры, но у него хватило духа противостоять мощной магии, стремящейся изменить его личность."  
   
  fell_into_coma_desc: "Я погрузился в глубокий сон"  
- fell_into_coma_desc_second_perspective: "ты погрузился в глубокий сон"  
+ fell_into_coma_desc_second_perspective: "Ты погрузился в глубокий сон"  
  fell_into_coma_desc_third_perspective: "[owner.GetName] погрузился в глубокий сон"  
   
  woke_up_from_coma_desc: "Я проснулся от глубокого сна"  
- woke_up_from_coma_desc_second_perspective: "ты проснулся от глубокого сна"  
+ woke_up_from_coma_desc_second_perspective: "Ты проснулся от глубокого сна"  
  woke_up_from_coma_desc_third_perspective: "[owner.GetName] проснулся от глубокого сна"  
   
  slew_lich_desc: "Я победил ужас [Concept('lich','лич')|B] [dead_relation.GetFullNameNicknamed]"  
- slew_lich_desc_second_perspective: "ты победил ужас [Concept('lich','лич')|B] [dead_relation.GetFullNameNicknamed]"  
+ slew_lich_desc_second_perspective: "Ты победил ужас [Concept('lich','лич')|B] [dead_relation.GetFullNameNicknamed]"  
  slew_lich_desc_third_perspective: "[owner.GetName] победил ужас [Concept('lich','лич')|B [dead_relation.GetFullNameNicknamed]"  
   
  fought_in_ten_trees_desc: "Я воевал в [Concept('battle_of_ten_trees','Битве десяти древ')|B]"  
@@ -61,15 +61,15 @@
  fought_in_ten_trees_desc_third_perspective: "[owner.GetName] воевал в [Concept('battle_of_ten_trees','Битве десяти древ')|B]"  
   
  fought_in_elysian_pass_sjalvolki_desc: "Я сражался в битве у Елисейского перевала на стороне Cялволки."  
- fought_in_elysian_pass_sjalvolki_desc_second_perspective: "вы сражались в битве у Елисейского перевала на стороне Cялволки"  
+ fought_in_elysian_pass_sjalvolki_desc_second_perspective: "Вы сражались в битве у Елисейского перевала на стороне Cялволки"  
  fought_in_elysian_pass_sjalvolki_desc_third_perspective: "[owner.GetName] сражался в битве у Елисейского перевала на стороне Cялволки."  
   
  fought_in_elysian_pass_aversarian_desc: "Я сражался в битве у Елисейского перевала на стороне аверсарианцев."  
- fought_in_elysian_pass_aversarian_desc_second_perspective: "вы сражались в битве у Елисейского перевала на стороне аверсарианцев"  
+ fought_in_elysian_pass_aversarian_desc_second_perspective: "Вы сражались в битве у Елисейского перевала на стороне аверсарианцев"  
  fought_in_elysian_pass_aversarian_desc_third_perspective: "[owner.GetName] сражался в битве у Елисейского перевала на стороне аверсарианцев."  
   
  fought_in_elysian_pass_marcher_desc: "Я сражался в битве у Елисейского перевала как независимый наемник Марча."  
- fought_in_elysian_pass_marcher_desc_second_perspective: "вы сражались в битве у Елисейского перевала как независимый наемник Марча"  
+ fought_in_elysian_pass_marcher_desc_second_perspective: "Вы сражались в битве у Елисейского перевала как независимый наемник Марча"  
  fought_in_elysian_pass_marcher_desc_third_perspective: "[owner.GetName] участвовал в битве у Елисейского перевала как независимый наемник Марча."  
   
  fought_in_black_mountain_war_desc: "Я воевал в [Concept('black_mountain_war','Черногорская войне')|B]"  
@@ -77,11 +77,11 @@
  fought_in_black_mountain_war_desc_third_perspective: "[owner.GetName] воевал в [Concept('black_mountain_war','Черногорской войне')"  
   
  fought_in_ash_war_desc: "Я воевал в [Concept('ash_war','Эшеровской войне'|B]"  
- fought_in_ash_war_desc_second_perspective: "Ыы сражался в [Concept('ash_war','Эшеровской войне'|B]"  
+ fought_in_ash_war_desc_second_perspective: "Ты сражался в [Concept('ash_war','Эшеровской войне'|B]"  
  fought_in_ash_war_desc_third_perspective: "[owner.GetName] воевал в [Concept('ash_war','Эшеровской войне'|B]"  
   
  fought_in_black_gold_war_desc: "Я воевал в [Concept('black_gold_war','Войне Черного золота'|B]"  
- fought_in_black_gold_war_desc_second_perspective: "ты сражался в [Concept('black_gold_war','Войне Черного золота'|B]"  
+ fought_in_black_gold_war_desc_second_perspective: "Ты сражался в [Concept('black_gold_war','Войне Черного золота'|B]"  
  fought_in_black_gold_war_desc_third_perspective: "[owner.GetName] воевал в [Concept('black_gold_war','Войне Черного золота'|B]"  
   
   #Titles 
