@@ -1,16 +1,16 @@
 ﻿l_russian:
   
- game_concept_county_capital_possessive: "Столица округа"  #Машинный перевод 28.10.23!
+ game_concept_county_capital_possessive: "Столица округа" 
   
- game_concept_uncolonized_wasteland: "Пустошь"  #Машинный перевод 28.10.23!
- game_concept_uncolonized_wasteland_no_waste: "Неколонизированный"  #Машинный перевод 28.10.23!
- game_concept_uncolonized_wastelands: "Пустоши"  #Машинный перевод 28.10.23!
- game_concept_uncolonized_wasteland_desc: "$game_concept_wastelands$ — это [holding_type|E], которым не управляет ни один персонаж либо из-за того, что в регионе нет жизни, либо из-за организованного управления. Большинство соседних [rulers|E] могут [colonize|E] $game_concept_wastelands$, выбрав [barony|E] и нажав кнопку $game_concept_colonize$. Прибрежные правители также могут $game_concept_colonize$ любого прибрежного $game_concept_wasteland$ в пределах их [diplomatic_range|E], если они владеют [holding_type|E]0 в линии [holding_type|E]1 [holding_type|E]2[holding_type|E]3."  #Машинный перевод 28.10.23!
+ game_concept_uncolonized_wasteland: "Пустошь"
+ game_concept_uncolonized_wasteland_no_waste: "Неколонизированный" 
+ game_concept_uncolonized_wastelands: "Пустоши" 
+ game_concept_uncolonized_wasteland_desc: "$game_concept_wastelands$ — это [Concept('holding_type','территория')|E], которой не владеет ни один персонаж из-за того, что регион лишен либо жизни, либо организованного управления. Большинство соседних [Concept('rulers','правителей')|E] могут [Concept('colonize','колонизировать')|E] [Concept('wasteland','пустоши')|E], выбрав [Concept('barony','баронство')|E] и нажав кнопку «Коолонизировать». Прибрежные правители также могут колонизировать любую прибрежную пустошь в пределах их [Concept('diplomatic_range','дипломатического радиуса')|E], если они владеют зданием из линейки #V $building_type_common_tradeport_01$#!."
   
- game_concept_colonization: "Колонизация"  #Машинный перевод 28.10.23!
- game_concept_colonize: "Колонизировать"  #Машинный перевод 28.10.23!
- game_concept_colonized: "Колонизированный"  #Машинный перевод 28.10.23!
- game_concept_colonization_desc: "Если [ruler|E] желает добавить [uncolonized_wasteland|E] к своему [realm|E], он должен сначала добавить $game_concept_colonize$. $game_concept_colonization$ требует больших вложений в размере [gold_i][gold|E], которые увеличиваются по мере уменьшения $game_concept_wasteland$ [county_capital_possessive|E] [supply_limit|E].\n\nПосле этого появится [uncolonized_wasteland|E]0. Как только [uncolonized_wasteland|E]1 достигнет максимума, Колонизатор получит $game_concept_wasteland$ [uncolonized_wasteland|E]3."  #Машинный перевод 28.10.23!
+ game_concept_colonization: "Колонизация" 
+ game_concept_colonize: "Колонизировать" 
+ game_concept_colonized: "Колонизированный" 
+ game_concept_colonization_desc: "Если [Concept('ruler','правитель')|E] желает присоединить [Concept('uncolonized_wasteland','неколонизированную пустошь')|E] к своему [Concept('realm','государству')|E], он должен сначала колонизировать её. $game_concept_colonization$ требует больших вложений [gold_i][Concept('gold','золота')|E], которые увеличиваются по мере уменьшения объемов припасов столицы графства-пустоши.\n\nПосле нажатия соответстующей кнопки появится шкала степени освоения пустоши. Как только эта шкала заполнится, колонизатор получит целевое графство."
   
- game_concept_colonization_progress: "Прогресс колонизации"  #Машинный перевод 28.10.23!
- game_concept_colonization_progress_desc: "[uncolonized_wasteland|E] может стать [colonized|E] только после того, как его $game_concept_colonization_progress$ достигнет #V. 100%#!. $game_concept_colonization_progress$ получается каждый месяц на основе Колонизации [character_possessive|E] [stewardship|E], а также различных событий."  #Машинный перевод 28.10.23!
+ game_concept_colonization_progress: "Прогресс колонизации"
+ game_concept_colonization_progress_desc: "[Concept('uncolonized_wasteland','Неколонизированная пустошь')|E] может стать [Concept('colonized','колонизированной')|E] только после того, как шкала заполнится на 100 из 100. Прогресс колонизации, получаемый каждый месяц, рассчитывается на основе уровня навыка управления колонизатора, а также различных событий."
