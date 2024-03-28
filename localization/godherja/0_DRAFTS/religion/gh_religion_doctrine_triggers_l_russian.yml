@@ -1,0 +1,27 @@
+﻿l_russian:
+ INCOMPABIBLE_TENET_ONLY_ONE_AGIONIST_TENET_TRIGGER: "Вы можете выбрать только одного особого Агионисткого [Concept('core_tenet','принципом')|E] для своей [Concept('faith','веры')|E]."
+ INCOMPATIBLE_TENET_BLOODRIGHT_TRIGGER: "Несовместимо с [Concept('core_tenet','принципом')|E] Кровававого права." 
+ INCOMPATIBLE_TENET_CITIZENSHIP_TRIGGER: "Несовместимо с [Concept('core_tenet','принципом')|E] «Гражданство через службу»."
+  
+ CANNOT_HAVE_KINSLAYING_AND_WARDENITE_MAINSTREAM: "Вера не может быть частью основного [Concept('wardenism','Варденизма')|E] и одновременно принимать [Concept('kinslayers','убийство родственников')|E]!"
+ CANNOT_HAVE_KINSLAYING_AND_WARDENITE_IDEALIST: "Вера не может быть частью Идеалисткого [Concept('wardenism','Варденизма')|E] и одновременно принимать [Concept('kinslayers','убийство родственников')|E]!"
+ CANNOT_HAVE_KINSLAYING_AND_WARDENITE_TRADITIONALIST: "Вера не может быть частью Традиционалисткого [Concept('wardenism','Варденизма')|E] и одновременно принимать [Concept('kinslayers','убийство родственников')|E]!"
+  
+ INCOMPATIBLE_DOCTRINE_MAGIC_ACCEPTED: "Несовместимо с [Concept('doctrine','доктриной')|E] принятия [Concept('magic','магии')|E]"
+ INCOMPATIBLE_DOCTRINE_MAGIC_SUPREMACY: "Несовместимо с [Concept('doctrine','доктриной')|E] [Concept('magic','магического')|E] превосходства"
+ INCOMPATIBLE_DOCTRINE_DEVIANCY_ACCEPTED: "Несовместимо с [Concept('doctrine','доктриной')|E] принятия отклонений."
+ INCOMPATIBLE_DOCTRINE_CONSANGUINITY_UNRESTRICTED: "Несовместимо с [Concept('doctrine','доктриной')|E] неограниченного брака"
+ INCOMPATIBLE_DOCTRINE_ADULTERY_WOMEN_ACCEPTED: "Несовместимо с [Concept('doctrine','доктриной')|E] допущения женской измены."
+ INCOMPATIBLE_DOCTRINE_ADULTERY_MEN_ACCEPTED: "Несовместимо с [Concept('doctrine','доктриной')|E] допущения мужской измены."
+  
+ INCOMPATIBLE_TENET_CARNAL_EXALTATION: "Несовместимо с [Concept('core_tenet','принципом')|E] [GetFaithDoctrine('tenet_carnal_exaltation').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_TENET_DIVINE_MARRIAGE: "Несовместимо с [Concept('core_tenet','принципом')|E] [GetFaithDoctrine('tenet_divine_marriage').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_TENET_NATURAL_PRIMITIVISM: "Несовместимо с [Concept('core_tenet','принципом')|E] [GetFaithDoctrine('tenet_natural_primitivism').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_TENET_RITUAL_CANNIBALISM: "Несовместимо с [Concept('core_tenet','принципом')|E] [GetFaithDoctrine('tenet_ritual_cannibalism').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_TENET_GEDEORA_VENERATION: "Несовместимо с [Concept('core_tenet','принципом')|E] [GetFaithDoctrine('tenet_gedeora_veneration').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_tenet_aversarinas_aagiokrata_religion_syncretism: "Несовместимо с [Concept('core_tenet','принципом')|E] [GetFaithDoctrine('tenet_aversarinas_aagiokrata_religion_syncretism').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_tenet_ritualist_religion_syncretism: "Несовместимо с [Concept('core_tenet','принципом')|E] [GetFaithDoctrine('tenet_ritualist_religion_syncretism').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_TENET_WORSHIPS_DEATH: "Несовместимо с [Concept('core_tenet','принципом')|E] [GetFaithDoctrine('tenet_worships_death').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_TENET_GRUESOME_FESTIVALS: "Несовместимо с [Concept('core_tenet','принципом')|E] [GetFaithDoctrine('tenet_gruesome_festivals').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_TENET_BLOODRIGHT: "Несовместимо с [Concept('core_tenet','принципом')|E] [GetFaithDoctrine('tenet_the_bloodright').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_TENET_CITIZENSHIP: "Несовместимо с [Concept('core_tenet','принципом')|E] [GetFaithDoctrine('tenet_citizenship_through_service').GetName( GetPlayer.GetFaith )]"

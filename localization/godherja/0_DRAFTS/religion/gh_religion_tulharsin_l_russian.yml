@@ -1,70 +1,70 @@
 ﻿l_russian:
   
  #tulharsin Loc 
- tulharsin_religion: "Тулхарсин" #Машинный перевод 28.10.23
- tulharsin_religion_adj: "Тулхарсин" #Машинный перевод 28.10.23
- tulharsin_religion_adjerent: "Тулхарсит" #Машинный перевод 28.10.23
- tulharsin_religion_adherent_plural: "Тулхарситы" #Машинный перевод 28.10.23
- tulharsin_religion_desc: "Древняя система верований, характерная для гор Тарсанид, почитатели богов Тулхарсина существовала на протяжении бесчисленных тысячелетий. Хотя и [wardenites|E], и [ritualists|E] пытались добиться их подавления, негостеприимная природа высокогорного дома религии укрыла и защитила ее, удерживая армии и священников жителей равнин на расстоянии от священных горных вершин, на которых расположены священные дома Боги Тулхарсина." #Машинный перевод 28.10.23
- tulharsin_high_god_name: "Ke-Ren" #Машинный перевод 28.10.23
- tulharsin_high_god_name_possessive: "Ke-Ren's" #Машинный перевод 28.10.23
- tulharsin_high_god_name_alternate: "Мать-Отец" #Машинный перевод 28.10.23
- tulharsin_high_god_name_alternate_possessive: "Матери-Отца" #Машинный перевод 28.10.23
- tulharsin_devil_name: "Изольду" #Машинный перевод 28.10.23
- tulharsin_devil_name_possessive: "Изольду" #Машинный перевод 28.10.23
- tulharsin_death_deity_name: "Кеш" #Машинный перевод 28.10.23
- tulharsin_death_deity_name_possessive: "Кеша" #Машинный перевод 28.10.23
+ tulharsin_religion: "Тулхарсин" 
+ tulharsin_religion_adj: "Тулхарсин"
+ tulharsin_religion_adjerent: "Тулхарсит"
+ tulharsin_religion_adherent_plural: "Тулхарситы"
+ tulharsin_religion_desc: "Древняя система верований, характерная для Тарсанидских гор, культ богов тулхарсинов существовал на протяжении бесчисленных тысячелетий. В то время как как [Concept('wardenites','вардениты')|E], так и [Concept('ritualists','ритуалисты')|E] пытались подавить их, негостеприимная природа горной родины религии укрывала и защищала ее, не подпуская армии и жрецов жителей равнин к священным горным вершинам, на которых находятся священные жилища богов тулхарсина."
+ tulharsin_high_god_name: "Ке-Рен" 
+ tulharsin_high_god_name_possessive: "Ке-Рен" 
+ tulharsin_high_god_name_alternate: "Мать-Отец" 
+ tulharsin_high_god_name_alternate_possessive: "Матери-Отца" 
+ tulharsin_devil_name: "Изольду" 
+ tulharsin_devil_name_possessive: "Изольду" 
+ tulharsin_death_deity_name: "Кеш" 
+ tulharsin_death_deity_name_possessive: "Кеша" 
   
- tulharsin_house_of_worship: "Храм" #Машинный перевод 28.10.23
- tulharsin_house_of_worship_plural: "Храмы" #Машинный перевод 28.10.23
- tulharsin_religious_symbol: "Резной идол" #Машинный перевод 28.10.23
- tulharsin_religious_text: "Люмод Саги" #Машинный перевод 28.10.23
+ tulharsin_house_of_worship: "Храм" 
+ tulharsin_house_of_worship_plural: "Храмы" 
+ tulharsin_religious_symbol: "Резной идол" 
+ tulharsin_religious_text: "Люмод Саги" 
   
- tulharsin_religious_head_title: "Первосвященник" #Машинный перевод 28.10.23
- tulharsin_religious_head_title_name: "Высокое священство" #Машинный перевод 28.10.23
- tulharsin_devotee_male: "поклонник" #Машинный перевод 28.10.23
- tulharsin_devotee_male_plural: "поклонники" #Машинный перевод 28.10.23
- tulharsin_devotee_female: "поклонник" #Машинный перевод 28.10.23
- tulharsin_devotee_female_plural: "поклонники" #Машинный перевод 28.10.23
- tulharsin_devotee_neuter: "поклонник" #Машинный перевод 28.10.23
- tulharsin_devotee_neuter_plural: "поклонники" #Машинный перевод 28.10.23
- tulharsin_priest_male: "священник" #Машинный перевод 28.10.23
- tulharsin_priest_male_plural: "священники" #Машинный перевод 28.10.23
- tulharsin_priest_female: "жрица" #Машинный перевод 28.10.23
- tulharsin_priest_female_plural: "жрицы" #Машинный перевод 28.10.23
- tulharsin_priest_alternate_plural: "священник" #Машинный перевод 28.10.23
- tulharsin_bishop: "хранитель" #Машинный перевод 28.10.23
- tulharsin_bishop_plural: "хранители" #Машинный перевод 28.10.23
- tulharsin_positive_afterlife: "Преисподняя" #Машинный перевод 28.10.23
- tulharsin_negative_afterlife: "Преисподняя" #Машинный перевод 28.10.23
+ tulharsin_religious_head_title: "Первосвященник" 
+ tulharsin_religious_head_title_name: "Высокое священство" 
+ tulharsin_devotee_male: "поклонник" 
+ tulharsin_devotee_male_plural: "поклонники" 
+ tulharsin_devotee_female: "поклонник" 
+ tulharsin_devotee_female_plural: "поклонники" 
+ tulharsin_devotee_neuter: "поклонник" 
+ tulharsin_devotee_neuter_plural: "поклонники" 
+ tulharsin_priest_male: "священник" 
+ tulharsin_priest_male_plural: "священники" 
+ tulharsin_priest_female: "жрица" 
+ tulharsin_priest_female_plural: "жрицы" 
+ tulharsin_priest_alternate_plural: "священник" 
+ tulharsin_bishop: "хранитель" 
+ tulharsin_bishop_plural: "хранители" 
+ tulharsin_positive_afterlife: "Преисподняя" 
+ tulharsin_negative_afterlife: "Преисподняя" 
   
- tulharsin_creator_god_name: "$tulharsin_high_god_name$" #Машинный перевод 28.10.23
- tulharsin_creator_god_name_possessive: "$tulharsin_high_god_name_possessive$" #Машинный перевод 28.10.23
- tulharsin_health_god_name: "Мишкуш" #Машинный перевод 28.10.23
- tulharsin_health_god_name_possessive: "Мишкуша" #Машинный перевод 28.10.23
- tulharsin_fertility_god_name: "$tulharsin_high_god_name$" #Машинный перевод 28.10.23
- tulharsin_fertility_god_name_possessive: "$tulharsin_high_god_name_possessive$" #Машинный перевод 28.10.23
- tulharsin_wealth_god_name: "$tulharsin_health_god_name$" #Машинный перевод 28.10.23
- tulharsin_wealth_god_name_possessive: "$tulharsin_health_god_name_possessive$" #Машинный перевод 28.10.23
- tulharsin_household_god_name: "Аннира" #Машинный перевод 28.10.23
- tulharsin_household_god_name_possessive: "Анниры" #Машинный перевод 28.10.23
- tulharsin_fate_god_name: "$tulharsin_death_deity_name$" #Машинный перевод 28.10.23
- tulharsin_fate_god_name_possessive: "$tulharsin_death_deity_name_possessive$" #Машинный перевод 28.10.23
- tulharsin_knowledge_god_name: "$tulharsin_death_deity_name$" #Машинный перевод 28.10.23
- tulharsin_knowledge_god_name_possessive: "$tulharsin_death_deity_name_possessive$" #Машинный перевод 28.10.23
- tulharsin_war_god_name: "Тарханну" #Машинный перевод 28.10.23
- tulharsin_war_god_name_possessive: "Тарханну" #Машинный перевод 28.10.23
- tulharsin_trickster_god_name: "Ворона" #Машинный перевод 28.10.23
- tulharsin_trickster_god_name_possessive: "Ворона" #Машинный перевод 28.10.23
- tulharsin_night_god_name: "$tulharsin_health_god_name$" #Машинный перевод 28.10.23
- tulharsin_night_god_name_possessive: "$tulharsin_health_god_name_possessive$" #Машинный перевод 28.10.23
- tulharsin_water_god_name: "$tulharsin_high_god_name$" #Машинный перевод 28.10.23
- tulharsin_water_god_name_possessive: "$tulharsin_high_god_name_possessive$" #Машинный перевод 28.10.23
- tulharsin_witch_god_name: "Йохан" #Машинный перевод 28.10.23
- tulharsin_witch_god_name_possessive: "Йохана" #Машинный перевод 28.10.23
+ tulharsin_creator_god_name: "$tulharsin_high_god_name$" 
+ tulharsin_creator_god_name_possessive: "$tulharsin_high_god_name_possessive$" 
+ tulharsin_health_god_name: "Мишкуш" 
+ tulharsin_health_god_name_possessive: "Мишкуша" 
+ tulharsin_fertility_god_name: "$tulharsin_high_god_name$" 
+ tulharsin_fertility_god_name_possessive: "$tulharsin_high_god_name_possessive$" 
+ tulharsin_wealth_god_name: "$tulharsin_health_god_name$" 
+ tulharsin_wealth_god_name_possessive: "$tulharsin_health_god_name_possessive$" 
+ tulharsin_household_god_name: "Аннира" 
+ tulharsin_household_god_name_possessive: "Анниры" 
+ tulharsin_fate_god_name: "$tulharsin_death_deity_name$" 
+ tulharsin_fate_god_name_possessive: "$tulharsin_death_deity_name_possessive$" 
+ tulharsin_knowledge_god_name: "$tulharsin_death_deity_name$" 
+ tulharsin_knowledge_god_name_possessive: "$tulharsin_death_deity_name_possessive$" 
+ tulharsin_war_god_name: "Тарханну" 
+ tulharsin_war_god_name_possessive: "Тарханну" 
+ tulharsin_trickster_god_name: "Ворона" 
+ tulharsin_trickster_god_name_possessive: "Ворона" 
+ tulharsin_night_god_name: "$tulharsin_health_god_name$" 
+ tulharsin_night_god_name_possessive: "$tulharsin_health_god_name_possessive$" 
+ tulharsin_water_god_name: "$tulharsin_high_god_name$" 
+ tulharsin_water_god_name_possessive: "$tulharsin_high_god_name_possessive$" 
+ tulharsin_witch_god_name: "Йохан" 
+ tulharsin_witch_god_name_possessive: "Йохана" 
   
- tulharsin: "Тулхарсин" #Машинный перевод 28.10.23
- tulharsin_adj: "Тулхарсин" #Машинный перевод 28.10.23
- tulharsin_desc: "A faith as old as the ancient and rocky hillsides of the Tarsanides - or at least, human habitation thereof, the Tulharsin, or "family" is the name the Barzawa give to their pantheon. Though lesser gods come and go, the core five dieties of the Tulharsin have remained the same since time out of memory, their faces carved by ancient hands into the highest peaks of the Tarsanides Range. Chief among them is Ke-Ren, the mother-father god who split open their own stomach to birth the universe, and from whose viscera crawled the second-born - The most important were the four eldest gods, Tarhannu, Mishkush, Annira, and Kesh, as well as the moon itself. Once assembled, these siblings then set about populating [aeras|E] by bringing into existence all manner of flora, fauna, and terrible monsters, alongside [Concept('tulharsin_creation_of_man','man')|E]."
- tulharsin_adherent: "Тулхарсит" #Машинный перевод 28.10.23
- tulharsin_adherent_plural: "Тулхарситы" #Машинный перевод 28.10.23
+ tulharsin: "Тулхарсин" 
+ tulharsin_adj: "Тулхарсин" 
+ tulharsin_desc: "Вера, столь же древняя, как древние скалистые склоны Тарсанидов - или, по крайней мере, их обиталище, тулхарсин, или "семья", - это название, которое барзава дают своему пантеону. Хотя меньшие боги приходят и уходят, пять основных божеств тулхарсина остались неизменными с незапамятных времен, их лица высечены древними руками на высочайших вершинах хребта Тарсанид. Главным среди них является Ке-Рен, бог матери-отца, который вспорол свой собственный желудок, чтобы породить вселенную, и из чьих внутренностей выползли второрожденные - самыми важными были четыре старших бога, Тарханну, Мишкуш, Аннира и Кеш, а также сама луна. Собравшись, эти братья и сестры затем приступают к заселению [Concept('aeras','Аэраса')|E], создавая всевозможные виды флоры, фауны и ужасных монстров, наряду с [Concept('tulharsin_creation_of_man','человеком')|E]."
+ tulharsin_adherent: "Тулхарсит" 
+ tulharsin_adherent_plural: "Тулхарситы" 
