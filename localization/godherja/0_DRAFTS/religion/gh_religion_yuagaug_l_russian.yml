@@ -1,73 +1,73 @@
 ﻿l_russian:
   
  #yuagaug Loc 
- yuagaug_religion: "Шуб-Юагуаг" #Машинный перевод 28.10.23
- yuagaug_religion_adj: "Шуб-Юагуаг" #Машинный перевод 28.10.23
- yuagaug_religion_adherent: "Шуб-Юагуаг" #Машинный перевод 28.10.23
- yuagaug_religion_adherent_plural: "Шуб-Юагуаг" #Машинный перевод 28.10.23
- yuagaug_religion_desc: "Шуб-Юагуаг говорят, что все живые существа в мире произошли от одного существа, Юагуага. Мать и Отец для всех, зачинатель и избавитель, приносящий неисчислимые щедроты молока и мяса, он изображается в их произведениях искусства как огромный холм плоти, покрытый множеством отверстий и органов. Хотя представители других религий считают его извращенным и кощунственным, Шуб-Юагуаг считают своего бога чем-то прекрасным. Ибо что может быть прекраснее того, чья единственная цель — дать жизнь всем?" #Машинный перевод 28.10.23
- yuagaug_religion_high_god_name: "Юагуаг, Мать молока" #Машинный перевод 28.10.23
- yuagaug_religion_high_god_name_possessive: "Юагуаг" #Машинный перевод 28.10.23
- yuagaug_religion_high_god_name_alternate: "Плоть, которая размножается" #Машинный перевод 28.10.23
- yuagaug_religion_high_god_name_alternate_possessive: "Плоть" #Машинный перевод 28.10.23
- yuagaug_religion_devil_name: "$yuagaug_religion_death_deity_name$" #Машинный перевод 28.10.23
- yuagaug_religion_devil_name_possessive: "$yuagaug_religion_death_deity_name_possessive$" #Машинный перевод 28.10.23
- yuagaug_religion_death_deity_name: "Потребление" #Машинный перевод 28.10.23
- yuagaug_religion_death_deity_name_possessive: "Потребление" #Машинный перевод 28.10.23
+ yuagaug_religion: "Шуб-Юагуаг"
+ yuagaug_religion_adj: "Шуб-Юагуаг"
+ yuagaug_religion_adherent: "Шуб-Юагуаг"
+ yuagaug_religion_adherent_plural: "Шуб-Юагуаг"
+ yuagaug_religion_desc: "Шуб-Юагуаг говорят, что все живые существа в мире происходят от одного существа, Юагуага. Мать и отец для всех, зачинательница и избавительница, приносящая несметные богатства молока и мяса, она изображена на их картинах в виде огромного холма плоти, покрытого множеством отверстий и органов. Хотя представители других религий отвергают это как извращение и святотатство, Шуб-Юагуаг видят в своем боге воплощение красоты. Ибо что может быть прекраснее того, чья единственная цель - дать жизнь всем?"
+ yuagaug_religion_high_god_name: "Юагуаг, Мать молока"
+ yuagaug_religion_high_god_name_possessive: "Юагуаг" 
+ yuagaug_religion_high_god_name_alternate: "Плоть, которая размножается"
+ yuagaug_religion_high_god_name_alternate_possessive: "Плоть" 
+ yuagaug_religion_devil_name: "$yuagaug_religion_death_deity_name$" 
+ yuagaug_religion_devil_name_possessive: "$yuagaug_religion_death_deity_name_possessive$" 
+ yuagaug_religion_death_deity_name: "Потребление" 
+ yuagaug_religion_death_deity_name_possessive: "Потребление" 
   
   
- yuagaug_religion_house_of_worship: "Храм" #Машинный перевод 28.10.23
- yuagaug_religion_house_of_worship_plural: "Храмы" #Машинный перевод 28.10.23
- yuagaug_religion_religious_symbol: "Молоко Юагуага" #Машинный перевод 28.10.23
- yuagaug_religion_religious_text: "Законы нашей семьи" #Машинный перевод 28.10.23
+ yuagaug_religion_house_of_worship: "Храм"
+ yuagaug_religion_house_of_worship_plural: "Храмы"
+ yuagaug_religion_religious_symbol: "Молоко Юагуага"
+ yuagaug_religion_religious_text: "Законы нашей семьи"
   
- yuagaug_religion_religious_head_title: "Мастер Шаман" #Машинный перевод 28.10.23
- yuagaug_religion_religious_head_title_name: "Храм Плоти" #Машинный перевод 28.10.23
- yuagaug_religion_devotee_male: "Шуб" #Машинный перевод 28.10.23
- yuagaug_religion_devotee_male_plural: "Шуб" #Машинный перевод 28.10.23
- yuagaug_religion_devotee_female: "Шуб" #Машинный перевод 28.10.23
- yuagaug_religion_devotee_female_plural: "Шуб" #Машинный перевод 28.10.23
- yuagaug_religion_devotee_neuter: "Шуб" #Машинный перевод 28.10.23
- yuagaug_religion_devotee_neuter_plural: "Шуб" #Машинный перевод 28.10.23
- yuagaug_religion_priest_male: "Шаман" #Машинный перевод 28.10.23
- yuagaug_religion_priest_male_plural: "Шаман" #Машинный перевод 28.10.23
- yuagaug_religion_priest_female: "Шаман" #Машинный перевод 28.10.23
- yuagaug_religion_priest_female_plural: "Шаман" #Машинный перевод 28.10.23
- yuagaug_religion_priest_alternate_plural: "Шаман" #Машинный перевод 28.10.23
- yuagaug_religion_bishop: "Верховный Шаман" #Машинный перевод 28.10.23
- yuagaug_religion_bishop_plural: "Верховный Шаман" #Машинный перевод 28.10.23
- yuagaug_religion_positive_afterlife: "Вечная жизнь" #Машинный перевод 28.10.23
- yuagaug_religion_negative_afterlife: "Потребление" #Машинный перевод 28.10.23
+ yuagaug_religion_religious_head_title: "Мастер Шаман"
+ yuagaug_religion_religious_head_title_name: "Храм Плоти"
+ yuagaug_religion_devotee_male: "Шуб"
+ yuagaug_religion_devotee_male_plural: "Шуб"
+ yuagaug_religion_devotee_female: "Шуб"
+ yuagaug_religion_devotee_female_plural: "Шуб"
+ yuagaug_religion_devotee_neuter: "Шуб"
+ yuagaug_religion_devotee_neuter_plural: "Шуб"
+ yuagaug_religion_priest_male: "Шаман"
+ yuagaug_religion_priest_male_plural: "Шаман"
+ yuagaug_religion_priest_female: "Шаман"
+ yuagaug_religion_priest_female_plural: "Шаман"
+ yuagaug_religion_priest_alternate_plural: "Шаман"
+ yuagaug_religion_bishop: "Верховный Шаман"
+ yuagaug_religion_bishop_plural: "Верховный Шаман"
+ yuagaug_religion_positive_afterlife: "Вечная жизнь"
+ yuagaug_religion_negative_afterlife: "Потребление"
   
   
- yuagaug_religion_creator_god_name: "$yuagaug_religion_high_god_name$" #Машинный перевод 28.10.23
- yuagaug_religion_creator_god_name_possessive: "$yuagaug_religion_high_god_name_possessive$" #Машинный перевод 28.10.23
- yuagaug_religion_health_god_name: "$yuagaug_religion_high_god_name$" #Машинный перевод 28.10.23
- yuagaug_religion_health_god_name_possessive: "$yuagaug_religion_high_god_name_possessive$" #Машинный перевод 28.10.23
- yuagaug_religion_fertility_god_name: "$yuagaug_religion_high_god_name$" #Машинный перевод 28.10.23
- yuagaug_religion_fertility_god_name_possessive: "$yuagaug_religion_high_god_name_possessive$" #Машинный перевод 28.10.23
- yuagaug_religion_wealth_god_name: "$yuagaug_religion_high_god_name_alternate$" #Машинный перевод 28.10.23
- yuagaug_religion_wealth_god_name_possessive: "$yuagaug_religion_high_god_name_alternate_possessive$" #Машинный перевод 28.10.23
- yuagaug_religion_household_god_name: "$yuagaug_religion_high_god_name_alternate$" #Машинный перевод 28.10.23
- yuagaug_religion_household_god_name_possessive: "$yuagaug_religion_high_god_name_alternate_possessive$" #Машинный перевод 28.10.23
- yuagaug_religion_fate_god_name: "$yuagaug_religion_high_god_name$" #Машинный перевод 28.10.23
- yuagaug_religion_fate_god_name_possessive: "$yuagaug_religion_high_god_name_possessive$" #Машинный перевод 28.10.23
- yuagaug_religion_knowledge_god_name: "$yuagaug_religion_high_god_name$" #Машинный перевод 28.10.23
- yuagaug_religion_knowledge_god_name_possessive: "$yuagaug_religion_high_god_name_possessive$" #Машинный перевод 28.10.23
- yuagaug_religion_war_god_name: "$yuagaug_religion_high_god_name_alternate$" #Машинный перевод 28.10.23
- yuagaug_religion_war_god_name_possessive: "$yuagaug_religion_high_god_name_alternate_possessive$" #Машинный перевод 28.10.23
- yuagaug_religion_trickster_god_name: "Ублюдок" #Машинный перевод 28.10.23
- yuagaug_religion_trickster_god_name_possessive: "Ублюдок ребенка" #Машинный перевод 28.10.23
- yuagaug_religion_night_god_name: "$yuagaug_religion_trickster_god_name$" #Машинный перевод 28.10.23
- yuagaug_religion_night_god_name_possessive: "$yuagaug_religion_trickster_god_name_possessive$" #Машинный перевод 28.10.23
- yuagaug_religion_water_god_name: "$yuagaug_religion_high_god_name_alternate$" #Машинный перевод 28.10.23
- yuagaug_religion_water_god_name_possessive: "$yuagaug_religion_high_god_name_alternate_possessive$" #Машинный перевод 28.10.23
- yuagaug_religion_witch_god_name: "$yuagaug_religion_fate_god_name$" #Машинный перевод 28.10.23
- yuagaug_religion_witch_god_name_possessive: "$yuagaug_religion_fate_god_name_possessive$" #Машинный перевод 28.10.23
+ yuagaug_religion_creator_god_name: "$yuagaug_religion_high_god_name$"
+ yuagaug_religion_creator_god_name_possessive: "$yuagaug_religion_high_god_name_possessive$"
+ yuagaug_religion_health_god_name: "$yuagaug_religion_high_god_name$"
+ yuagaug_religion_health_god_name_possessive: "$yuagaug_religion_high_god_name_possessive$"
+ yuagaug_religion_fertility_god_name: "$yuagaug_religion_high_god_name$"
+ yuagaug_religion_fertility_god_name_possessive: "$yuagaug_religion_high_god_name_possessive$"
+ yuagaug_religion_wealth_god_name: "$yuagaug_religion_high_god_name_alternate$"
+ yuagaug_religion_wealth_god_name_possessive: "$yuagaug_religion_high_god_name_alternate_possessive$"
+ yuagaug_religion_household_god_name: "$yuagaug_religion_high_god_name_alternate$"
+ yuagaug_religion_household_god_name_possessive: "$yuagaug_religion_high_god_name_alternate_possessive$"
+ yuagaug_religion_fate_god_name: "$yuagaug_religion_high_god_name$"
+ yuagaug_religion_fate_god_name_possessive: "$yuagaug_religion_high_god_name_possessive$"
+ yuagaug_religion_knowledge_god_name: "$yuagaug_religion_high_god_name$"
+ yuagaug_religion_knowledge_god_name_possessive: "$yuagaug_religion_high_god_name_possessive$"
+ yuagaug_religion_war_god_name: "$yuagaug_religion_high_god_name_alternate$"
+ yuagaug_religion_war_god_name_possessive: "$yuagaug_religion_high_god_name_alternate_possessive$"
+ yuagaug_religion_trickster_god_name: "Ублюдок"
+ yuagaug_religion_trickster_god_name_possessive: "Ублюдок ребенка"
+ yuagaug_religion_night_god_name: "$yuagaug_religion_trickster_god_name$"
+ yuagaug_religion_night_god_name_possessive: "$yuagaug_religion_trickster_god_name_possessive$"
+ yuagaug_religion_water_god_name: "$yuagaug_religion_high_god_name_alternate$"
+ yuagaug_religion_water_god_name_possessive: "$yuagaug_religion_high_god_name_alternate_possessive$"
+ yuagaug_religion_witch_god_name: "$yuagaug_religion_fate_god_name$"
+ yuagaug_religion_witch_god_name_possessive: "$yuagaug_religion_fate_god_name_possessive$"
  #yuagaug loc 
- yuagaug: "Шуб-Юагуаг" #Машинный перевод 28.10.23
- yuagaug_adj: "Шуб-Юагуаг" #Машинный перевод 28.10.23
- yuagaug_adherent: "Шуб-Юагуаг" #Машинный перевод 28.10.23
- yuagaug_adherent_plural: "Шуб-Юагуаг" #Машинный перевод 28.10.23
+ yuagaug: "Шуб-Юагуаг"
+ yuagaug_adj: "Шуб-Юагуаг"
+ yuagaug_adherent: "Шуб-Юагуаг"
+ yuagaug_adherent_plural: "Шуб-Юагуаг"
   
- yuagaug_desc: "В верованиях Шуб-Юагуаг зачатие и материнство рассматриваются как священные действия, подражающие природе Молочной Матери. Однако это означает, что от женщин ожидается, что они всегда будут выполнять функции матерей и домохозяек, оставляя их ограниченными домашними делами, в то время как мужчины управляют делами вне дома. Конечным результатом является вера с глубоким гендерным дисбалансом, в которой отцы имеют право даже приказать убить своих жен и детей за нарушение священных заповедей." #Машинный перевод 28.10.23
+ yuagaug_desc: "В вере Шуб-юагуагов зачатие и материнство рассматриваются как священные действия, имитирующие природу Матери Молока. Однако это означает, что ожидается, что женщины всегда будут выполнять функции матерей и домохозяек, в результате чего они будут ограничены домашним хозяйством, в то время как мужчины будут заниматься делами вне дома. Конечным результатом является вера с глубоким гендерным дисбалансом, где отцы имеют право даже приказывать казнить своих жен и детей за нарушение священных заповедей."

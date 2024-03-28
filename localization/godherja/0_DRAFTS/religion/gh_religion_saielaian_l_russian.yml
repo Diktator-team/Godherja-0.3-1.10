@@ -1,72 +1,72 @@
 ﻿l_russian:
   
  #saielaian Loc 
- saielaian_religion: "Saielaian" #Машинный перевод 28.10.23
- saielaian_religion_adj: "Saielaian" #Машинный перевод 28.10.23
- saielaian_religion_adjerent: "Saielaian" #Машинный перевод 28.10.23
- saielaian_religion_adherent_plural: "Сайелайцы" #Машинный перевод 28.10.23
- saielaian_religion_desc: "Разнообразные религиозные проявления сайлайского народа склонны к формам поклонения предкам, при этом ожидается, что каждая большая семья будет поддерживать святыню в честь каждого умершего поколения. [magi|E] с возможностью контакта с духами пользуются большим спросом среди тех, кто может позволить себе их услуги. Сайлайский пантеон богов является прямым продолжением частной веры, а легендарные Десять матерей сайэланцев считаются прародительницами своего народа. Легенды гласят, что эти десять предков-матриархов отправились из-за Восточного моря в поисках убежища от далекой родины, ныне затерянной под волнами." #Машинный перевод 28.10.23
- saielaian_high_god_name: "Хоат Дрит" #Машинный перевод 28.10.23
- saielaian_high_god_name_possessive: "Хоат Дритс" #Машинный перевод 28.10.23
- saielaian_high_god_name_alternate: "Десять сестер" #Машинный перевод 28.10.23
- saielaian_high_god_name_alternate_possessive: "Десять сестер" #Машинный перевод 28.10.23
- saielaian_devil_name: "Мдет тайранг" #Машинный перевод 28.10.23
- saielaian_devil_name_possessive: "Мдет тайранг" #Машинный перевод 28.10.23
- saielaian_death_deity_name: "Мдет тайранг" #Машинный перевод 28.10.23
- saielaian_death_deity_name_possessive: "Мдет тайран" #Машинный перевод 28.10.23
+ saielaian_religion: "Сайелайан"
+ saielaian_religion_adj: "Сайелайан"
+ saielaian_religion_adjerent: "Сайелайан"
+ saielaian_religion_adherent_plural: "Сайелайцы"
+ saielaian_religion_desc: "Разнообразные религиозные проявления народа Сайлаи тяготеют к формам поклонения предкам, при этом ожидается, что каждая расширенная семья будет содержать святилище в честь каждого умершего поколения. [Concept('magi','Маги')|E], способные контактировать с духами, пользуются большим спросом у тех, кто может позволить себе их услуги. Сайелайский пантеон богов является прямым продолжением частной веры, а легендарные Десять Матерей сайелайцев считаются прародительницами своего народа. Легенды гласят, что эти десять праматерей-матриархов приплыли из-за Восточного моря в поисках убежища на далекой родине, ныне затерянной под волнами."
+ saielaian_high_god_name: "Хоат Дрит"
+ saielaian_high_god_name_possessive: "Хоат Дритс"
+ saielaian_high_god_name_alternate: "Десять сестер"
+ saielaian_high_god_name_alternate_possessive: "Десять сестер"
+ saielaian_devil_name: "Мдет тайранг"
+ saielaian_devil_name_possessive: "Мдет тайранг"
+ saielaian_death_deity_name: "Мдет тайранг"
+ saielaian_death_deity_name_possessive: "Мдет тайран"
   
   
   
- saielaian_house_of_worship: "Храм" #Машинный перевод 28.10.23
- saielaian_house_of_worship_plural: "Святыни" #Машинный перевод 28.10.23
- saielaian_religious_symbol: "Будьин" #Машинный перевод 28.10.23
- saielaian_religious_text: "Путешествия" #Машинный перевод 28.10.23
+ saielaian_house_of_worship: "Храм"
+ saielaian_house_of_worship_plural: "Святыни"
+ saielaian_religious_symbol: "Будьин"
+ saielaian_religious_text: "Путешествия"
   
- saielaian_religious_head_title: "Первосвященник" #Машинный перевод 28.10.23
+ saielaian_religious_head_title: "Первосвященник"
  saielaian_religious_head_title_name: ""
- saielaian_devotee_male: "поклонник" #Машинный перевод 28.10.23
- saielaian_devotee_male_plural: "поклонники" #Машинный перевод 28.10.23
- saielaian_devotee_female: "поклонник" #Машинный перевод 28.10.23
- saielaian_devotee_female_plural: "поклонники" #Машинный перевод 28.10.23
- saielaian_devotee_neuter: "поклонник" #Машинный перевод 28.10.23
- saielaian_devotee_neuter_plural: "поклонники" #Машинный перевод 28.10.23
- saielaian_priest_male: "священник" #Машинный перевод 28.10.23
- saielaian_priest_male_plural: "священники" #Машинный перевод 28.10.23
- saielaian_priest_female: "жрица" #Машинный перевод 28.10.23
- saielaian_priest_female_plural: "жрицы" #Машинный перевод 28.10.23
- saielaian_priest_alternate_plural: "священник" #Машинный перевод 28.10.23
- saielaian_bishop: "священник" #Машинный перевод 28.10.23
- saielaian_bishop_plural: "священник" #Машинный перевод 28.10.23
- saielaian_positive_afterlife: "Загробная жизнь" #Машинный перевод 28.10.23
- saielaian_negative_afterlife: "Загробная жизнь" #Машинный перевод 28.10.23
+ saielaian_devotee_male: "поклонник"
+ saielaian_devotee_male_plural: "поклонники"
+ saielaian_devotee_female: "поклонник"
+ saielaian_devotee_female_plural: "поклонники"
+ saielaian_devotee_neuter: "поклонник"
+ saielaian_devotee_neuter_plural: "поклонники"
+ saielaian_priest_male: "священник"
+ saielaian_priest_male_plural: "священники"
+ saielaian_priest_female: "жрица"
+ saielaian_priest_female_plural: "жрицы"
+ saielaian_priest_alternate_plural: "священник"
+ saielaian_bishop: "священник"
+ saielaian_bishop_plural: "священник"
+ saielaian_positive_afterlife: "Загробная жизнь"
+ saielaian_negative_afterlife: "Загробная жизнь"
   
- saielaian_creator_god_name: "$saielaian_high_god_name$" #Машинный перевод 28.10.23
- saielaian_creator_god_name_possessive: "$saielaian_high_god_name_possessive$" #Машинный перевод 28.10.23
- saielaian_health_god_name: "Бабушка Куйен" #Машинный перевод 28.10.23
- saielaian_health_god_name_possessive: "Бабушка Куйен" #Машинный перевод 28.10.23
- saielaian_fertility_god_name: "$saielaian_high_god_name$" #Машинный перевод 28.10.23
- saielaian_fertility_god_name_possessive: "$saielaian_high_god_name_possessive$" #Машинный перевод 28.10.23
- saielaian_wealth_god_name: "$saielaian_high_god_name$" #Машинный перевод 28.10.23
- saielaian_wealth_god_name_possessive: "$saielaian_high_god_name_possessive$" #Машинный перевод 28.10.23
- saielaian_household_god_name: "$saielaian_health_god_name$" #Машинный перевод 28.10.23
- saielaian_household_god_name_possessive: "$saielaian_health_god_name_possessive$" #Машинный перевод 28.10.23
- saielaian_fate_god_name: "$saielaian_high_god_name$" #Машинный перевод 28.10.23
- saielaian_fate_god_name_possessive: "$saielaian_high_god_name_possessive$" #Машинный перевод 28.10.23
- saielaian_knowledge_god_name: "$saielaian_high_god_name$" #Машинный перевод 28.10.23
- saielaian_knowledge_god_name_possessive: "$saielaian_high_god_name_possessive$" #Машинный перевод 28.10.23
- saielaian_war_god_name: "$saielaian_high_god_name$" #Машинный перевод 28.10.23
- saielaian_war_god_name_possessive: "$saielaian_high_god_name_possessive$" #Машинный перевод 28.10.23
- saielaian_trickster_god_name: "Фортуна" #Машинный перевод 28.10.23
- saielaian_trickster_god_name_possessive: "Фортуны" #Машинный перевод 28.10.23
- saielaian_night_god_name: "$saielaian_high_god_name$" #Машинный перевод 28.10.23
- saielaian_night_god_name_possessive: "$saielaian_high_god_name_possessive$" #Машинный перевод 28.10.23
- saielaian_water_god_name: "$saielaian_health_god_name$" #Машинный перевод 28.10.23
- saielaian_water_god_name_possessive: "$saielaian_health_god_name_possessive$" #Машинный перевод 28.10.23
- saielaian_witch_god_name: "Йохан" #Машинный перевод 28.10.23
- saielaian_witch_god_name_possessive: "Йохана" #Машинный перевод 28.10.23
+ saielaian_creator_god_name: "$saielaian_high_god_name$"
+ saielaian_creator_god_name_possessive: "$saielaian_high_god_name_possessive$"
+ saielaian_health_god_name: "Бабушка Куйен"
+ saielaian_health_god_name_possessive: "Бабушка Куйен"
+ saielaian_fertility_god_name: "$saielaian_high_god_name$"
+ saielaian_fertility_god_name_possessive: "$saielaian_high_god_name_possessive$"
+ saielaian_wealth_god_name: "$saielaian_high_god_name$"
+ saielaian_wealth_god_name_possessive: "$saielaian_high_god_name_possessive$"
+ saielaian_household_god_name: "$saielaian_health_god_name$"
+ saielaian_household_god_name_possessive: "$saielaian_health_god_name_possessive$"
+ saielaian_fate_god_name: "$saielaian_high_god_name$"
+ saielaian_fate_god_name_possessive: "$saielaian_high_god_name_possessive$"
+ saielaian_knowledge_god_name: "$saielaian_high_god_name$"
+ saielaian_knowledge_god_name_possessive: "$saielaian_high_god_name_possessive$"
+ saielaian_war_god_name: "$saielaian_high_god_name$"
+ saielaian_war_god_name_possessive: "$saielaian_high_god_name_possessive$"
+ saielaian_trickster_god_name: "Фортуна"
+ saielaian_trickster_god_name_possessive: "Фортуны"
+ saielaian_night_god_name: "$saielaian_high_god_name$"
+ saielaian_night_god_name_possessive: "$saielaian_high_god_name_possessive$"
+ saielaian_water_god_name: "$saielaian_health_god_name$"
+ saielaian_water_god_name_possessive: "$saielaian_health_god_name_possessive$"
+ saielaian_witch_god_name: "Йохан"
+ saielaian_witch_god_name_possessive: "Йохана"
   
- bayn_huac: "Бейн Хуак Дрием" #Машинный перевод 28.10.23
- bayn_huac_adj: "Бейн Хуак Дрием" #Машинный перевод 28.10.23
- bayn_huac_adherent: "Поклонник" #Машинный перевод 28.10.23
- bayn_huac_desc: "Вера, возникшая на давно завоеванной, но всегда беспокойной территории Сайелаи, Байн Хуак Дрим, по сути, является формой матриархального поклонения предкам. Ожидается, что приверженцы будут хранить святыни в честь рода своих матерей и бабушек, а более богатые покровители будут делать более сложные подношения. В частности, большим уважением пользуются реалистичные портреты и скульптуры, в результате чего в Сайелаи родились одни из самых известных художников-портретистов и скульпторов Востока. Их лучшая работа, конечно же, всегда заключалась в почитании святынь их матерей." #Машинный перевод 28.10.23
- bayn_huac_adherent_plural: "поклонники" #Машинный перевод 28.10.23
+ bayn_huac: "Бейн Хуак Дрием"
+ bayn_huac_adj: "Бейн Хуак Дрием"
+ bayn_huac_adherent: "Поклонник"
+ bayn_huac_desc: "Вера, распространенная на давно завоеванной, но вечно неспокойной территории Сайлай, Бейн Уак Дрим, по сути, является формой матриархального поклонения предкам. Ожидается, что приверженцы будут содержать святыни, почитающие родословную своих матерей и бабушек, а более состоятельные покровители, как ожидается, будут делать более изысканные подношения. В частности, высоко ценятся реалистичные портреты и скульптура, что привело к тому, что Сайлаи стали одними из самых известных художников-портретистов и скульпторов Востока. Их лучшие работы, конечно, всегда были посвящены почитанию святынь их матерей."
+ bayn_huac_adherent_plural: "поклонники"

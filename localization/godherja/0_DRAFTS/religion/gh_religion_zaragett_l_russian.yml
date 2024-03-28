@@ -1,75 +1,75 @@
 ﻿l_russian:
   
- zaragett_religion: "Сарагетт" #Машинный перевод 28.10.23
- zaragett_religion_adj: "Сарагетский" #Машинный перевод 28.10.23
- zaragett_religion_adherent: "Сарагетт" #Машинный перевод 28.10.23
- zaragett_religion_adherent_plural: "Сарагетти" #Машинный перевод 28.10.23
- zaragett_religion_desc: "Вера Зарагетт в основном сосредоточена вокруг моря, Дакалена, и его священной связи с луной, [aervalr|E]. Их вечный танец и трагическая разлука друг с другом из-за рождения их любимых детей, человечества, являются предметом большого раскаяния среди их народа, и из-за этого они пытаются облегчить страдания своих божественных родителей посредством бесчисленных и бесчисленных проводимых ритуалов. год за годом. Многие из этих вышеупомянутых ритуалов включают в себя использование водной магии, известной только Зарагеттам, чей талант к таким тайным искусствам намного превосходит талант большинства [magi|E] и [aeras|E], которые они рассматривают как фрагмент силы самой матери Дакалин. Такие одаренные люди составляют большинство жречества Зарагеттов из-за их тесной связи с Морякой. Обитатели моря и луны, Зарагетты, остаются послушными и раскаявшимися детьми Морской Матери и Лунного Отца, и они будут продолжать искупать свое рождение до разрушения мира." #Машинный перевод 28.10.23
+ zaragett_religion: "Сарагеттский" 
+ zaragett_religion_adj: "Сарагетт" 
+ zaragett_religion_adherent: "Сарагетт" 
+ zaragett_religion_adherent_plural: "Сарагетти"
+ zaragett_religion_desc: "Вера сарагеттов в основном сосредоточена вокруг моря, Дакалена, и его священной связи с Луной, [Concept('aervalr','Аэрвалром')|E]. Их вечный танец и трагическая разлука друг с другом из-за рождения их любимых детей, человечества, являются предметом большого раскаяния среди их народа, и из-за этого они пытаются облегчить страдания своих божественных родителей с помощью бесчисленных ритуалов, проводимых год за годом. Многие из этих вышеупомянутых ритуалов включают использование основанной на воде магии, известной только сарагеттам, чей талант к таким тайным искусствам намного превосходит способности большинства [Concept('magi','магов')|E] на [Concept('aeras','Аэрасе')|E], которые они рассматривают как частицу силы самой матери Дакалин. Такие одаренные составляют большинство жречества Сарагетты, благодаря их тесной связи с Морской Матерью. Те, кто родом из моря и луны, Сарагетты остаются послушными раскаявшимися детьми Морской Матери и Лунного Отца, и они будут продолжать искупать вину за свое рождение до разрушения мира."
   
- zaragett_high_god_name: "Дакалин" #Машинный перевод 28.10.23
- zaragett_high_god_name_possessive: "Дакелин" #Машинный перевод 28.10.23
- zaragett_high_god_name_alternate: "Моряка" #Машинный перевод 28.10.23
- zaragett_high_god_name_alternate_possessive: "Моряка" #Машинный перевод 28.10.23
+ zaragett_high_god_name: "Дакалин"
+ zaragett_high_god_name_possessive: "Дакелина" 
+ zaragett_high_god_name_alternate: "Морская мать" 
+ zaragett_high_god_name_alternate_possessive: "Морской матери"
   
- zaragett_devil_name: "Arggosu" #Машинный перевод 28.10.23
- zaragett_devil_name_possessive: "Аргоссу" #Машинный перевод 28.10.23
+ zaragett_devil_name: "Аргоссу"
+ zaragett_devil_name_possessive: "Аргоссуа" 
   
- zaragett_house_of_worship: "Эдаэн" #Машинный перевод 28.10.23
- zaragett_house_of_worship_plural: "Эдаенс" #Машинный перевод 28.10.23
- zaragett_pantheon_term: "Море и Луна" #Машинный перевод 28.10.23
- zaragett_religious_symbol: "катящиеся приливы" #Машинный перевод 28.10.23
- zaragett_religious_text: "Дхавлора" #Машинный перевод 28.10.23
- zaragett_religious_head_title: "Ган'ал" #Машинный перевод 28.10.23
- zaragett_religious_head_title_name: "Беренад Ган'ал" #Машинный перевод 28.10.23
- zaragett_devotee_male: "Домеран" #Машинный перевод 28.10.23
- zaragett_devotee_male_plural: "Домерай" #Машинный перевод 28.10.23
- zaragett_devotee_female: "Дометар" #Машинный перевод 28.10.23
- zaragett_devotee_female_plural: "Доматай" #Машинный перевод 28.10.23
- zaragett_devotee_neuter: "Домекас" #Машинный перевод 28.10.23
- zaragett_devotee_neuter_plural: "Домекай" #Машинный перевод 28.10.23
- zaragett_priest: "Земеал" #Машинный перевод 28.10.23
- zaragett_priest_plural: "Земеали" #Машинный перевод 28.10.23
- zaragett_priest_alternate: "Земеал" #Машинный перевод 28.10.23
- zaragett_priest_alternate_plural: "Земеали" #Машинный перевод 28.10.23
- zaragett_priest_male: "Земер'ал" #Машинный перевод 28.10.23
- zaragett_priest_male_plural: "Земерали" #Машинный перевод 28.10.23
- zaragett_priest_female: "Земет'ал" #Машинный перевод 28.10.23
- zaragett_priest_female_plural: "Земетали" #Машинный перевод 28.10.23
- zaragett_priest_alt_priest_term: "Земекаль" #Машинный перевод 28.10.23
- zaragett_bishop: "Деян'ал" #Машинный перевод 28.10.23
- zaragett_bishop_plural: "Деян'ал" #Машинный перевод 28.10.23
- zaragett_positive_afterlife: "Зейдтерон" #Машинный перевод 28.10.23
- zaragett_negative_afterlife: "Зараниэль" #Машинный перевод 28.10.23
- zaragett_creator_god_name: "Аэрвалр" #Машинный перевод 28.10.23
- zaragett_creator_god_name_possessive: "Аэрвалра" #Машинный перевод 28.10.23
- zaragett_health_god_name: "$zaragett_high_god_name$" #Машинный перевод 28.10.23
- zaragett_health_god_name_possessive: "$zaragett_high_god_name_possessive$" #Машинный перевод 28.10.23
- zaragett_fertility_god_name: "$zaragett_high_god_name$" #Машинный перевод 28.10.23
- zaragett_fertility_god_name_possessive: "$zaragett_high_god_name_possessive$" #Машинный перевод 28.10.23
- zaragett_wealth_god_name: "$zaragett_creator_god_name$" #Машинный перевод 28.10.23
- zaragett_wealth_god_name_possessive: "$zaragett_creator_god_name_possessive$" #Машинный перевод 28.10.23
- zaragett_household_god_name: "$zaragett_high_god_name$" #Машинный перевод 28.10.23
- zaragett_household_god_name_possessive: "$zaragett_high_god_name_possessive$" #Машинный перевод 28.10.23
- zaragett_fate_god_name: "$zaragett_creator_god_name$" #Машинный перевод 28.10.23
- zaragett_fate_god_name_possessive: "$zaragett_creator_god_name_possessive$" #Машинный перевод 28.10.23
- zaragett_knowledge_god_name: "$zaragett_high_god_name$" #Машинный перевод 28.10.23
- zaragett_knowledge_god_name_possessive: "$zaragett_high_god_name_possessive$" #Машинный перевод 28.10.23
- zaragett_war_god_name: "$zaragett_creator_god_name$" #Машинный перевод 28.10.23
- zaragett_war_god_name_possessive: "$zaragett_creator_god_name_possessive$" #Машинный перевод 28.10.23
- zaragett_trickster_god_name: "$zaragett_high_god_name$" #Машинный перевод 28.10.23
- zaragett_trickster_god_name_possessive: "$zaragett_high_god_name_possessive$" #Машинный перевод 28.10.23
- zaragett_night_god_name: "$zaragett_creator_god_name$" #Машинный перевод 28.10.23
- zaragett_night_god_name_possessive: "$zaragett_creator_god_name_possessive$" #Машинный перевод 28.10.23
- zaragett_death_deity_name: "$zaragett_high_god_name$" #Машинный перевод 28.10.23
- zaragett_death_deity_name_possessive: "$zaragett_high_god_name_possessive$" #Машинный перевод 28.10.23
- zaragett_water_god_name: "$zaragett_high_god_name$" #Машинный перевод 28.10.23
- zaragett_water_god_name_possessive: "$zaragett_high_god_name_possessive$" #Машинный перевод 28.10.23
- zaragett_witch_god_name: "$zaragett_devil_name$" #Машинный перевод 28.10.23
- zaragett_witch_god_name_possessive: "$zaragett_devil_name_possessive$" #Машинный перевод 28.10.23
+ zaragett_house_of_worship: "эдаэн"
+ zaragett_house_of_worship_plural: "эдаенс" 
+ zaragett_pantheon_term: "Море и Луна"
+ zaragett_religious_symbol: "стремительные приливы"
+ zaragett_religious_text: "Дхавлора"
+ zaragett_religious_head_title: "Ганал"
+ zaragett_religious_head_title_name: "Бхеренад Ганал"
+ zaragett_devotee_male: "Домеран" 
+ zaragett_devotee_male_plural: "Домераи" 
+ zaragett_devotee_female: "Дометар"
+ zaragett_devotee_female_plural: "Доматаи"
+ zaragett_devotee_neuter: "Домекас"
+ zaragett_devotee_neuter_plural: "Домекай"
+ zaragett_priest: "Земеал"
+ zaragett_priest_plural: "Земеали" 
+ zaragett_priest_alternate: "Земеал"
+ zaragett_priest_alternate_plural: "Земеали"
+ zaragett_priest_male: "Земерал"
+ zaragett_priest_male_plural: "Земерали" 
+ zaragett_priest_female: "Земетал" 
+ zaragett_priest_female_plural: "Земетали" 
+ zaragett_priest_alt_priest_term: "Земекаль" 
+ zaragett_bishop: "Деянал"
+ zaragett_bishop_plural: "Деянал"
+ zaragett_positive_afterlife: "Сейдтерон"
+ zaragett_negative_afterlife: "Сараниэль"
+ zaragett_creator_god_name: "Аэрвалр"
+ zaragett_creator_god_name_possessive: "Аэрвалра"
+ zaragett_health_god_name: "$zaragett_high_god_name$"
+ zaragett_health_god_name_possessive: "$zaragett_high_god_name_possessive$"
+ zaragett_fertility_god_name: "$zaragett_high_god_name$"
+ zaragett_fertility_god_name_possessive: "$zaragett_high_god_name_possessive$"
+ zaragett_wealth_god_name: "$zaragett_creator_god_name$"
+ zaragett_wealth_god_name_possessive: "$zaragett_creator_god_name_possessive$"
+ zaragett_household_god_name: "$zaragett_high_god_name$"
+ zaragett_household_god_name_possessive: "$zaragett_high_god_name_possessive$"
+ zaragett_fate_god_name: "$zaragett_creator_god_name$"
+ zaragett_fate_god_name_possessive: "$zaragett_creator_god_name_possessive$"
+ zaragett_knowledge_god_name: "$zaragett_high_god_name$"
+ zaragett_knowledge_god_name_possessive: "$zaragett_high_god_name_possessive$"
+ zaragett_war_god_name: "$zaragett_creator_god_name$"
+ zaragett_war_god_name_possessive: "$zaragett_creator_god_name_possessive$" 
+ zaragett_trickster_god_name: "$zaragett_high_god_name$"
+ zaragett_trickster_god_name_possessive: "$zaragett_high_god_name_possessive$"
+ zaragett_night_god_name: "$zaragett_creator_god_name$"
+ zaragett_night_god_name_possessive: "$zaragett_creator_god_name_possessive$"
+ zaragett_death_deity_name: "$zaragett_high_god_name$"
+ zaragett_death_deity_name_possessive: "$zaragett_high_god_name_possessive$"
+ zaragett_water_god_name: "$zaragett_high_god_name$"
+ zaragett_water_god_name_possessive: "$zaragett_high_god_name_possessive$"
+ zaragett_witch_god_name: "$zaragett_devil_name$"
+ zaragett_witch_god_name_possessive: "$zaragett_devil_name_possessive$"
   
- zaragett: "Сарагетт" #Машинный перевод 28.10.23
- zaragett_adj: "Сарагетский" #Машинный перевод 28.10.23
- zaragett_adherent: "Сарагетт" #Машинный перевод 28.10.23
- zaragett_adherent_plural: "Сарагетти" #Машинный перевод 28.10.23
- zaragett_desc: "Вера Зарагетт в основном сосредоточена вокруг моря, Дакалена, и его священной связи с луной, [aervalr|E]. Их вечный танец и трагическая разлука друг с другом из-за рождения их любимых детей, человечества, являются предметом большого раскаяния среди их народа, и из-за этого они пытаются облегчить страдания своих божественных родителей посредством бесчисленных и бесчисленных проводимых ритуалов. год за годом. Многие из этих вышеупомянутых ритуалов включают в себя использование водной магии, известной только Зарагеттам, чей талант к таким тайным искусствам намного превосходит талант большинства [magi|E] и [aeras|E], которые они рассматривают как фрагмент силы самой матери Дакалин. Такие одаренные люди составляют большинство жречества Зарагеттов из-за их тесной связи с Морякой. Обитатели моря и луны, Зарагетты, остаются послушными и раскаявшимися детьми Морской Матери и Лунного Отца, и они будут продолжать искупать свое рождение до разрушения мира." #Машинный перевод 28.10.23
+ zaragett: "Сарагетский"
+ zaragett_adj: "Сарагетт"
+ zaragett_adherent: "Сарагетт"
+ zaragett_adherent_plural: "Сарагетти"
+ zaragett_desc: "Вера сарагеттов в основном сосредоточена вокруг моря, Дакалена, и его священной связи с Луной, [Concept('aervalr','Аэрвалром')|E]. Их вечный танец и трагическая разлука друг с другом из-за рождения их любимых детей, человечества, являются предметом большого раскаяния среди их народа, и из-за этого они пытаются облегчить страдания своих божественных родителей с помощью бесчисленных ритуалов, проводимых год за годом. Многие из этих вышеупомянутых ритуалов включают использование основанной на воде магии, известной только сарагеттам, чей талант к таким тайным искусствам намного превосходит способности большинства [Concept('magi','магов')|E] на [Concept('aeras','Аэрасе')|E], которые они рассматривают как частицу силы самой матери Дакалин. Такие одаренные составляют большинство жречества Сарагетты, благодаря их тесной связи с Морской Матерью. Те, кто родом из моря и луны, Сарагетты остаются послушными раскаявшимися детьми Морской Матери и Лунного Отца, и они будут продолжать искупать вину за свое рождение до разрушения мира."
   
