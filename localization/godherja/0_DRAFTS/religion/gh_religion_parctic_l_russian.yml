@@ -1,74 +1,74 @@
 ﻿l_russian:
   
  #parctic Loc 
- partic_religion: "Партик" #Машинный перевод 28.10.23
- partic_religion_adj: "Партик" #Машинный перевод 28.10.23
- partic_religion_adjerent: "Участник" #Машинный перевод 28.10.23
- partic_religion_adherent_plural: "Участники" #Машинный перевод 28.10.23
- partic_religion_desc: "Партическая вера — это не традиционная народная религия, а скорее система верований, пронизанная на всех уровнях изучением [magic|E]. Он верит в таинственное существо, называемое на забытом языке «Серфли», которое на другие языки обычно переводится как «Великий». Все вещи, материальные и нематериальные, исходят от Великого, и к Великому все вернется. Существует также пантеон более традиционных богов, которые, как полагают, заимствованы из древней местной веры, но рассматриваются как простые эманации Великих и меньших божеств.\n\nСуществование можно разделить на две сферы: известный мир тело и чувственный мир души. Ощущаемый мир сосуществует внутри и вне известного мира, и посредством тщательной медитации можно заглянуть сквозь тело в душу и черпать силу из ощущаемого мира. Это то, что Участники считают Магией." #Машинный перевод 28.10.23
- partic_high_god_name: "Серфли" #Машинный перевод 28.10.23
- partic_high_god_name_possessive: "Серфли" #Машинный перевод 28.10.23
- partic_high_god_name_alternate: "ан-Сребрех" #Машинный перевод 28.10.23
- partic_high_god_name_alternate_possessive: "ан-Сребрех" #Машинный перевод 28.10.23
- partic_devil_name: "Кагач" #Машинный перевод 28.10.23
- partic_devil_name_possessive: "Кагача" #Машинный перевод 28.10.23
- partic_death_deity_name: "$partic_devil_name$" #Машинный перевод 28.10.23
- partic_death_deity_name_possessive: "$partic_devil_name_possessive$" #Машинный перевод 28.10.23
+ partic_religion: "Партик"
+ partic_religion_adj: "Партик"
+ partic_religion_adjerent: "Патрик"
+ partic_religion_adherent_plural: "Патрики"
+ partic_religion_desc: "Партическая вера - это не столько традиционная народная религия, сколько система верований, пронизанная на каждом уровне изучением [Concept('magic','магии')|E]. Она верит в таинственное существо, называемое "Серфли" на забытом языке, обычно переводимое на другие языки как "Великий". Все вещи, осязаемые и неосязаемые, исходят от Великого, и к Великому все вернется. Существует также пантеон более традиционных богов, которые, как полагают, были заимствованы из более древней местной веры, но к ним относятся просто как к эманациям Великих и меньших божеств.\n\nСуществование можно разделить на две сферы: известный мир тела и ощущаемый мир души. Ощущаемый мир сосуществует внутри известного мира и вне его, и с помощью тщательной медитации можно заглянуть сквозь тело в душу и черпать силу из ощущаемого мира. Это то, что Патрики считают магией."
+ partic_high_god_name: "Серфли"
+ partic_high_god_name_possessive: "Серфли"
+ partic_high_god_name_alternate: "ан-Сребрех"
+ partic_high_god_name_alternate_possessive: "ан-Сребрех"
+ partic_devil_name: "Кагач"
+ partic_devil_name_possessive: "Кагача"
+ partic_death_deity_name: "$partic_devil_name$"
+ partic_death_deity_name_possessive: "$partic_devil_name_possessive$"
   
   
   
- partic_house_of_worship: "Агаклур" #Машинный перевод 28.10.23
- partic_house_of_worship_plural: "агхайклир" #Машинный перевод 28.10.23
- partic_religious_symbol: "Гаос" #Машинный перевод 28.10.23
- partic_religious_text: "Каррам-Лайрр" #Машинный перевод 28.10.23
+ partic_house_of_worship: "Агаклур"
+ partic_house_of_worship_plural: "агхайклир"
+ partic_religious_symbol: "Гаос"
+ partic_religious_text: "Каррам-Лайрр"
   
- partic_religious_head_title: "Фарм-а-Файрм" #Машинный перевод 28.10.23
- partic_religious_head_title_name: "Фармхохт Файрм" #Машинный перевод 28.10.23
- partic_devotee_male: "тес" #Машинный перевод 28.10.23
- partic_devotee_male_plural: "Тейси" #Машинный перевод 28.10.23
- partic_devotee_female: "Сес" #Машинный перевод 28.10.23
- partic_devotee_female_plural: "Цейси" #Машинный перевод 28.10.23
- partic_devotee_neuter: "Ардох" #Машинный перевод 28.10.23
- partic_devotee_neuter_plural: "ардохи" #Машинный перевод 28.10.23
- partic_priest_male: "таирр" #Машинный перевод 28.10.23
- partic_priest_male_plural: "таиррс" #Машинный перевод 28.10.23
- partic_priest_female: "касса" #Машинный перевод 28.10.23
- partic_priest_female_plural: "кессоны" #Машинный перевод 28.10.23
- partic_priest: "Гаор" #Машинный перевод 28.10.23
- partic_priest_plural: "гаорс" #Машинный перевод 28.10.23
- partic_priest_alternate_plural: "гаойры" #Машинный перевод 28.10.23
- partic_bishop: "фарм" #Машинный перевод 28.10.23
- partic_bishop_plural: "фермы" #Машинный перевод 28.10.23
- partic_positive_afterlife: "Бочабх" #Машинный перевод 28.10.23
- partic_negative_afterlife: "Кралт" #Машинный перевод 28.10.23
+ partic_religious_head_title: "Фарм-а-Файрм"
+ partic_religious_head_title_name: "Фармхохт Файрм"
+ partic_devotee_male: "тес"
+ partic_devotee_male_plural: "Тейси"
+ partic_devotee_female: "Сес"
+ partic_devotee_female_plural: "Цейси"
+ partic_devotee_neuter: "Ардох"
+ partic_devotee_neuter_plural: "ардохи"
+ partic_priest_male: "таирр"
+ partic_priest_male_plural: "таиррс"
+ partic_priest_female: "касса"
+ partic_priest_female_plural: "кессоны"
+ partic_priest: "Гаор"
+ partic_priest_plural: "гаорс"
+ partic_priest_alternate_plural: "гаойры"
+ partic_bishop: "фарм"
+ partic_bishop_plural: "фермы"
+ partic_positive_afterlife: "Бочабх"
+ partic_negative_afterlife: "Кралт"
   
- partic_creator_god_name: "$partic_high_god_name$" #Машинный перевод 28.10.23
- partic_creator_god_name_possessive: "$partic_high_god_name_possessive$" #Машинный перевод 28.10.23
- partic_health_god_name: "Ингиобх" #Машинный перевод 28.10.23
- partic_health_god_name_possessive: "Ингиобха" #Машинный перевод 28.10.23
- partic_fertility_god_name: "Сюй" #Машинный перевод 28.10.23
- partic_fertility_god_name_possessive: "Сюйля" #Машинный перевод 28.10.23
- partic_wealth_god_name: "Крохахт" #Машинный перевод 28.10.23
- partic_wealth_god_name_possessive: "Крохахта" #Машинный перевод 28.10.23
- partic_household_god_name: "$partic_health_god_name$" #Машинный перевод 28.10.23
- partic_household_god_name_possessive: "$partic_health_god_name_possessive$" #Машинный перевод 28.10.23
- partic_fate_god_name: "Комхучта" #Машинный перевод 28.10.23
- partic_fate_god_name_possessive: "Комхучта" #Машинный перевод 28.10.23
- partic_knowledge_god_name: "Мамхейс" #Машинный перевод 28.10.23
- partic_knowledge_god_name_possessive: "Мамхейс" #Машинный перевод 28.10.23
- partic_war_god_name: "Кохт" #Машинный перевод 28.10.23
- partic_war_god_name_possessive: "Кохта" #Машинный перевод 28.10.23
- partic_trickster_god_name: "Кайодомх" #Машинный перевод 28.10.23
- partic_trickster_god_name_possessive: "Каяк" #Машинный перевод 28.10.23
- partic_night_god_name: "$partic_high_god_name$" #Машинный перевод 28.10.23
- partic_night_god_name_possessive: "$partic_high_god_name_possessive$" #Машинный перевод 28.10.23
- partic_water_god_name: "$partic_health_god_name$" #Машинный перевод 28.10.23
- partic_water_god_name_possessive: "$partic_health_god_name_possessive$" #Машинный перевод 28.10.23
- partic_witch_god_name: "Каррам" #Машинный перевод 28.10.23
- partic_witch_god_name_possessive: "Каррама" #Машинный перевод 28.10.23
+ partic_creator_god_name: "$partic_high_god_name$"
+ partic_creator_god_name_possessive: "$partic_high_god_name_possessive$"
+ partic_health_god_name: "Ингиобх"
+ partic_health_god_name_possessive: "Ингиобха"
+ partic_fertility_god_name: "Сюй"
+ partic_fertility_god_name_possessive: "Сюйля"
+ partic_wealth_god_name: "Крохахт"
+ partic_wealth_god_name_possessive: "Крохахта"
+ partic_household_god_name: "$partic_health_god_name$"
+ partic_household_god_name_possessive: "$partic_health_god_name_possessive$"
+ partic_fate_god_name: "Комхучта"
+ partic_fate_god_name_possessive: "Комхучта"
+ partic_knowledge_god_name: "Мамхейс"
+ partic_knowledge_god_name_possessive: "Мамхейс"
+ partic_war_god_name: "Кохт"
+ partic_war_god_name_possessive: "Кохта"
+ partic_trickster_god_name: "Кайодомх"
+ partic_trickster_god_name_possessive: "Каяк"
+ partic_night_god_name: "$partic_high_god_name$"
+ partic_night_god_name_possessive: "$partic_high_god_name_possessive$"
+ partic_water_god_name: "$partic_health_god_name$"
+ partic_water_god_name_possessive: "$partic_health_god_name_possessive$"
+ partic_witch_god_name: "Каррам"
+ partic_witch_god_name_possessive: "Каррама"
   
- partic: "Партик" #Машинный перевод 28.10.23
- partic_adj: "Партик" #Машинный перевод 28.10.23
- partic_adherent: "Участник" #Машинный перевод 28.10.23
- partic_adherent_plural: "Участники" #Машинный перевод 28.10.23
- partic_desc: "Участники с большим рвением посвящают свою жизнь изучению и практике [magic|E], причем все это делается в строго формализованных ритуалах, которые передаются через устную традицию из поколения в поколение. В результате появилась линия за линией невероятно искусных магов, владеющих искусством, которое посторонним кажется непостижимо сложным. Многие из самых талантливых [magi|E] в истории были партиками, и их способности столь же огромны, сколь непостижимы их мотивы." #Машинный перевод 28.10.23
+ partic: "Партик"
+ partic_adj: "Партик"
+ partic_adherent: "Патрик"
+ partic_adherent_plural: "Патрики"
+ partic_desc: "Патрики посвящают свою жизнь изучению и практике [Concept('magic','магии')|E] с большим рвением, все это выполняется в строго формализованных ритуалах, которые передаются из поколения в поколение через устную традицию. Это привело к появлению ряда невероятно искусных волшебников, владеющих искусством, которое посторонним кажется непостижимо сложным. Многие из самых талантливых [Concept('magi','магов')|E] в истории были партикуляристами, и их способности столь же огромны, сколь непостижимы их мотивы."

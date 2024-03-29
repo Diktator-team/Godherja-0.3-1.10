@@ -1,457 +1,457 @@
 ﻿l_russian:
   
  #ritualist Loc 
- ritualist_religion: "Ритуалист" #Машинный перевод 28.10.23
- ritualist_religion_adj: "Ритуалист" #Машинный перевод 28.10.23
- ritualist_religion_adjerent: "Ритуалист" #Машинный перевод 28.10.23
- ritualist_religion_adherent_plural: "Ритуалисты" #Машинный перевод 28.10.23
- ritualist_religion_desc: "Ритуализм - это не столько определенная вера, сколько ярлык для совокупности местных верований, это политеистическая группа верований, родом из [sarradon|E], которые имеют тенденцию иметь эзотерические верования и секретные церемонии. Общим среди этих сект является их почитание «Тысячи и одного шага» [GetBuilding('01_sophocos').GetName], [tower|E], где можно достичь просветления, если он преодолеет каждую ступеньку размером с человека и столкнется с множеством испытаний богов. Те немногие, кто достиг этой задачи, собрали свои отчеты в «Истории Шагов», эзотерическом фолианте, к которому обращаются в качестве руководства и значения которого горячо обсуждаются среди его последователей. Пройти «Тысячу и один шаг» — это не только буквальное паломничество для ритуалистов, но и образный поиск самосовершенствования." #Машинный перевод 28.10.23
- ritualist_high_god_name: "Нантала" #Машинный перевод 28.10.23
- ritualist_high_god_name_possessive: "Нантала" #Машинный перевод 28.10.23
- ritualist_high_god_name_alternate: "Светодаритель" #Машинный перевод 28.10.23
- ritualist_high_god_name_alternate_possessive: "Светодаритель" #Машинный перевод 28.10.23
- ritualist_devil_name: "Зезан" #Машинный перевод 28.10.23
- ritualist_devil_name_possessive: "Зезана" #Машинный перевод 28.10.23
- ritualist_death_deity_name: "Мавтал" #Машинный перевод 28.10.23
- ritualist_death_deity_name_possessive: "Маутала" #Машинный перевод 28.10.23
+ ritualist_religion: "Ритуалист" 
+ ritualist_religion_adj: "Ритуалист" 
+ ritualist_religion_adjerent: "Ритуалист" 
+ ritualist_religion_adherent_plural: "Ритуалисты" 
+ ritualist_religion_desc: "Ритуализм - это политеистическая группа верований, родная для [Concept('sarradon','Саррадона')|E], которая, как правило, придерживается эзотерических верований и секретных церемоний. Общим для этих сект является их почитание "Тысячи и одного шага" [GetBuilding('01_sophocos').GetName], [Concept('tower','башня')|E], где можно достичь просветления, если подняться на каждую ступеньку размером с человека и столкнуться с множеством испытаний от богов. Те немногие, кто справился с этой задачей, собрали свои рассказы в "Истории шагов", эзотерическом сборнике, к которому обращаются за руководством и значение которого горячо обсуждается среди его последователей. Пройти тысячу и один шаг - это не только буквальное паломничество для ритуалистов, но и фигуральное стремление к самосовершенствованию".
+ ritualist_high_god_name: "Нантала" 
+ ritualist_high_god_name_possessive: "Нантала" 
+ ritualist_high_god_name_alternate: "Светодаритель" 
+ ritualist_high_god_name_alternate_possessive: "Светодаритель" 
+ ritualist_devil_name: "Зезан" 
+ ritualist_devil_name_possessive: "Зезана" 
+ ritualist_death_deity_name: "Мавтал" 
+ ritualist_death_deity_name_possessive: "Маутала" 
   
   
   
- ritualist_house_of_worship: "иленантала" #Машинный перевод 28.10.23
- ritualist_house_of_worship_plural: "иленанталас" #Машинный перевод 28.10.23
- ritualist_religious_symbol: "аме-тала" #Машинный перевод 28.10.23
- ritualist_religious_text: "История шагов" #Машинный перевод 28.10.23
+ ritualist_house_of_worship: "иленантала" 
+ ritualist_house_of_worship_plural: "иленанталас" 
+ ritualist_religious_symbol: "аме-тала" 
+ ritualist_religious_text: "История шагов" 
   
- ritualist_religious_head_title: "Шахразад" #Машинный перевод 28.10.23
- ritualist_religious_head_title_name: "Шахразади" #Машинный перевод 28.10.23
- ritualist_devotee_male: "пилсера" #Машинный перевод 28.10.23
- ritualist_devotee_male_plural: "пилсера" #Машинный перевод 28.10.23
- ritualist_devotee_female: "пилсерин" #Машинный перевод 28.10.23
- ritualist_devotee_female_plural: "пилсерин" #Машинный перевод 28.10.23
- ritualist_devotee_neuter: "пилс" #Машинный перевод 28.10.23
- ritualist_devotee_neuter_plural: "пилс" #Машинный перевод 28.10.23
- ritualist_priest_male: "итосра" #Машинный перевод 28.10.23
- ritualist_priest_male_plural: "итосра" #Машинный перевод 28.10.23
- ritualist_priest_female: "итосрин" #Машинный перевод 28.10.23
- ritualist_priest_female_plural: "итосрин" #Машинный перевод 28.10.23
- ritualist_priest_alternate: "itose" #Машинный перевод 28.10.23
- ritualist_priest_alternate_plural: "itose" #Машинный перевод 28.10.23
- ritualist_bishop: "олотала" #Машинный перевод 28.10.23
- ritualist_bishop_plural: "олотала" #Машинный перевод 28.10.23
- ritualist_positive_afterlife: "Огбтиё" #Машинный перевод 28.10.23
- ritualist_negative_afterlife: "Аарунле" #Машинный перевод 28.10.23
+ ritualist_religious_head_title: "Шахразад" 
+ ritualist_religious_head_title_name: "Шахразади" 
+ ritualist_devotee_male: "пилсера" 
+ ritualist_devotee_male_plural: "пилсера" 
+ ritualist_devotee_female: "пилсерин" 
+ ritualist_devotee_female_plural: "пилсерин" 
+ ritualist_devotee_neuter: "пилс" 
+ ritualist_devotee_neuter_plural: "пилс" 
+ ritualist_priest_male: "итосра" 
+ ritualist_priest_male_plural: "итосра" 
+ ritualist_priest_female: "итосрин" 
+ ritualist_priest_female_plural: "итосрин" 
+ ritualist_priest_alternate: "итоси" 
+ ritualist_priest_alternate_plural: "итоси" 
+ ritualist_bishop: "олотала" 
+ ritualist_bishop_plural: "олотала" 
+ ritualist_positive_afterlife: "Огбтиё" 
+ ritualist_negative_afterlife: "Аарунле" 
   
- ritualist_creator_god_name: "Олуман" #Машинный перевод 28.10.23
- ritualist_creator_god_name_possessive: "Олумана" #Машинный перевод 28.10.23
- ritualist_health_god_name: "Ботала" #Машинный перевод 28.10.23
- ritualist_health_god_name_possessive: "Боталы" #Машинный перевод 28.10.23
- ritualist_fertility_god_name: "Унгон" #Машинный перевод 28.10.23
- ritualist_fertility_god_name_possessive: "Унгона" #Машинный перевод 28.10.23
- ritualist_wealth_god_name: "Имоджа" #Машинный перевод 28.10.23
- ritualist_wealth_god_name_possessive: "Имоджи" #Машинный перевод 28.10.23
- ritualist_household_god_name: "Enshen" #Машинный перевод 28.10.23
- ritualist_household_god_name_possessive: "Enshen's" #Машинный перевод 28.10.23
- ritualist_fate_god_name: "Агджун" #Машинный перевод 28.10.23
- ritualist_fate_god_name_possessive: "Аджуна" #Машинный перевод 28.10.23
- ritualist_knowledge_god_name: "Айиго" #Машинный перевод 28.10.23
- ritualist_knowledge_god_name_possessive: "Айиго" #Машинный перевод 28.10.23
- ritualist_war_god_name: "Ксанджо" #Машинный перевод 28.10.23
- ritualist_war_god_name_possessive: "Хаджо" #Машинный перевод 28.10.23
- ritualist_trickster_god_name: "Roceji" #Машинный перевод 28.10.23
- ritualist_trickster_god_name_possessive: "Roceji's" #Машинный перевод 28.10.23
- ritualist_night_god_name: "Шумайрн" #Машинный перевод 28.10.23
- ritualist_night_god_name_possessive: "Шумайрн" #Машинный перевод 28.10.23
- ritualist_water_god_name: "Иян" #Машинный перевод 28.10.23
- ritualist_water_god_name_possessive: "Ияна" #Машинный перевод 28.10.23
- ritualist_witch_god_name: "Баблуа" #Машинный перевод 28.10.23
- ritualist_witch_god_name_possessive: "Баблуа" #Машинный перевод 28.10.23
+ ritualist_creator_god_name: "Олуман" 
+ ritualist_creator_god_name_possessive: "Олумана" 
+ ritualist_health_god_name: "Ботала" 
+ ritualist_health_god_name_possessive: "Боталы" 
+ ritualist_fertility_god_name: "Унгон" 
+ ritualist_fertility_god_name_possessive: "Унгона" 
+ ritualist_wealth_god_name: "Имоджа" 
+ ritualist_wealth_god_name_possessive: "Имоджи" 
+ ritualist_household_god_name: "Энсшен" 
+ ritualist_household_god_name_possessive: "Энсшена" 
+ ritualist_fate_god_name: "Агджун" 
+ ritualist_fate_god_name_possessive: "Аджуна" 
+ ritualist_knowledge_god_name: "Айиго" 
+ ritualist_knowledge_god_name_possessive: "Айиго" 
+ ritualist_war_god_name: "Ксанджо" 
+ ritualist_war_god_name_possessive: "Хаджо" 
+ ritualist_trickster_god_name: "Росежи" 
+ ritualist_trickster_god_name_possessive: "Росежис" 
+ ritualist_night_god_name: "Шумайрн" 
+ ritualist_night_god_name_possessive: "Шумайрн" 
+ ritualist_water_god_name: "Иян" 
+ ritualist_water_god_name_possessive: "Ияна" 
+ ritualist_witch_god_name: "Баблуа" 
+ ritualist_witch_god_name_possessive: "Баблуа" 
   
   #ritualist faith loc 
- ritualist: "софист" #Машинный перевод 28.10.23
- ritualist_adj: "софист" #Машинный перевод 28.10.23
- ritualist_adherent: "софист" #Машинный перевод 28.10.23
- ritualist_adherent_plural: "Софисты" #Машинный перевод 28.10.23
- ritualist_desc: "Софисты подчеркивают важность запоминания и выполнения символических божественных ритуалов, которые, как они настаивают, являются истинными Тысячей и одним Шагом [GetBuilding('01_sophocos').GetName]. [tower|E], где лежали физические Шаги, — это просто место, где передавались уроки, а ритуалы предназначались для выполнения где угодно. Благодаря точному выполнению всех 1001 ритуала человек сможет постичь тайны богов и достичь просветления." #Машинный перевод 28.10.23
+ ritualist: "Софоцист" 
+ ritualist_adj: "Софоцист" 
+ ritualist_adherent: "Софоцист" 
+ ritualist_adherent_plural: "Софицисты" 
+ ritualist_desc: "Софоцисты подчеркивают важность запоминания и исполнения символических божественных ритуалов, которые, по их утверждению, являются истинной "Тысячей и одним шагом" [GetBuilding('01_sophocos').GetName]. [Concept('tower','Башня')|E], где расположены физические ступени, - это просто место, где передавались уроки, а ритуалы предназначались для выполнения где угодно. Благодаря точному выполнению всех 1001 ритуала, сможет ли человек понять секреты богов и достичь просветления?"
   
   #kamayed loc 
- kamayed: "Камайед" #Машинный перевод 28.10.23
- kamayed_adj: "Камайед" #Машинный перевод 28.10.23
- kamayed_adherent: "Камайед" #Машинный перевод 28.10.23
- kamayed_adherent_plural: "Камайеди" #Машинный перевод 28.10.23
- kamayed_desc: "Камайеды верят, что «Тысяча и один шаг [GetBuilding('01_sophocos').GetName]» действительно является местом в буквальном смысле слова, но не в великом [tower|E], который обычно описывается как их местоположение в софистском фольклоре. Вместо этого они утверждают, что ступеньки являются местом спуска в огромный кратер «за северными звездами». Они настаивают, что этот кратер является дверью в загробную жизнь, и те, кто достаточно достоин достичь дна, могут войти в царство богов." #Машинный перевод 28.10.23
+ kamayed: "Камайед" 
+ kamayed_adj: "Камайед" 
+ kamayed_adherent: "Камайед" 
+ kamayed_adherent_plural: "Камайеди" 
+ kamayed_desc: "Камайеды верят, что "Тысяча и один шаг" [GetBuilding('01_sophocos').GetName] действительно являются точным местом, но не в великой [Concept('tower','башни')|E], которая обычно описывается как их местоположение в софоцистском фольклоре. Вместо этого они утверждают, что ступени - это место спуска в огромный кратер "за полярными звездами". Этот кратер, настаивают они, является дверью в загробную жизнь, и те, кто достаточно достоин, чтобы достичь дна, могут попасть в царство богов."
   
   #hayawan loc, hayawani 
- hayawan: "Хаяван" #Машинный перевод 28.10.23
- hayawan_adj: "Хаяван" #Машинный перевод 28.10.23
- hayawan_adherent: "Хаяван" #Машинный перевод 28.10.23
- hayawan_adherent_plural: "Хаявани" #Машинный перевод 28.10.23
- hayawan_desc: "Давным-давно Лев, самый могущественный из зверей, был один в мире. С могучим ревом человечество появилось из земли, и Лев больше не был один. Затем появился Пес, хранитель мертвых и воинов. Хаунд был в ярости на Лайона, поскольку Лайон не заботился о жизнях людей, которых он создал, и не был предан своему творению. Прежде чем между ними началась великая война, Рысь обманом заставила Лайона пригласить Хаунда в свой дом. Поскольку весь [aeras|E] был домом Лайона, он был связан правилами гостеприимства, и, таким образом, Лев и Хаунд были связаны друг с другом как братья." #Машинный перевод 28.10.23
- hayawani_high_god_name: "Лев" #Машинный перевод 28.10.23
- hayawani_high_god_name_possessive: "Львиный" #Машинный перевод 28.10.23
- hayawani_high_god_name_alternate: "Светодаритель" #Машинный перевод 28.10.23
- hayawani_high_god_name_alternate_possessive: "Светодаритель" #Машинный перевод 28.10.23
- hayawani_devil_name: "Стервятник" #Машинный перевод 28.10.23
- hayawani_devil_name_possessive: "Стервятник" #Машинный перевод 28.10.23
- hayawani_death_deity_name: "гончая" #Машинный перевод 28.10.23
- hayawani_death_deity_name_possessive: "Хаундс" #Машинный перевод 28.10.23
+ hayawan: "Хаяван" 
+ hayawan_adj: "Хаяван" 
+ hayawan_adherent: "Хаяван" 
+ hayawan_adherent_plural: "Хаявани" 
+ hayawan_desc: ""Давным-давно Лев, могущественнейший из зверей, был один в мире. С могучим ревом человечество поднялось из земли, и Лев больше не был одинок. Затем появился Пес, страж мертвых и воинов. Пес был разгневан на Льва, потому что Льву было наплевать на жизни людей, которых он создал, и он не был предан своему творению. Прежде чем между ними началась великая война, Рысь обманом заставил Льва пригласить Пса в свой дом. Поскольку весь [Concept('aeras','Аэрас')|E] был домом Льва, он был связан правилами гостеприимства, и, таким образом, Лев и Собака были связаны как братья".
+ hayawani_high_god_name: "Лев" 
+ hayawani_high_god_name_possessive: "Львиный" 
+ hayawani_high_god_name_alternate: "Светодаритель" 
+ hayawani_high_god_name_alternate_possessive: "Светодаритель" 
+ hayawani_devil_name: "Стервятник" 
+ hayawani_devil_name_possessive: "Стервятник" 
+ hayawani_death_deity_name: "гончая" 
+ hayawani_death_deity_name_possessive: "Хаундс" 
   
- hayawani_creator_god_name: "$hayawan_high_god_name$" #Машинный перевод 28.10.23
- hayawani_creator_god_name_possessive: "$hayawan_high_god_name_possessive$" #Машинный перевод 28.10.23
- hayawani_health_god_name: "Бык" #Машинный перевод 28.10.23
- hayawani_health_god_name_possessive: "Быка" #Машинный перевод 28.10.23
- hayawani_fertility_god_name: "Кролик" #Машинный перевод 28.10.23
- hayawani_fertility_god_name_possessive: "кролика" #Машинный перевод 28.10.23
- hayawani_wealth_god_name: "Сорока" #Машинный перевод 28.10.23
- hayawani_wealth_god_name_possessive: "Сорока" #Машинный перевод 28.10.23
- hayawani_household_god_name: "Рысь" #Машинный перевод 28.10.23
- hayawani_household_god_name_possessive: "Рысь" #Машинный перевод 28.10.23
- hayawani_fate_god_name: "ворон" #Машинный перевод 28.10.23
- hayawani_fate_god_name_possessive: "Ворона" #Машинный перевод 28.10.23
- hayawani_knowledge_god_name: "$hayawan_fate_god_name$" #Машинный перевод 28.10.23
- hayawani_knowledge_god_name_possessive: "$hayawan_fate_god_name_possessive$" #Машинный перевод 28.10.23
- hayawani_war_god_name: "$hayawan_death_deity_name$" #Машинный перевод 28.10.23
- hayawani_war_god_name_possessive: "$hayawan_death_deity_name_possessive$" #Машинный перевод 28.10.23
- hayawani_trickster_god_name: "$hayawan_household_god_name$" #Машинный перевод 28.10.23
- hayawani_trickster_god_name_possessive: "$hayawan_household_god_name_possessive$" #Машинный перевод 28.10.23
- hayawani_night_god_name: "Летучая мышь" #Машинный перевод 28.10.23
- hayawani_night_god_name_possessive: "летучая мышь" #Машинный перевод 28.10.23
- hayawani_water_god_name: "Дельфин" #Машинный перевод 28.10.23
- hayawani_water_god_name_possessive: "Дельфин" #Машинный перевод 28.10.23
- hayawani_witch_god_name: "Баблуа" #Машинный перевод 28.10.23
- hayawani_witch_god_name_possessive: "Баблуа" #Машинный перевод 28.10.23
+ hayawani_creator_god_name: "$hayawan_high_god_name$" 
+ hayawani_creator_god_name_possessive: "$hayawan_high_god_name_possessive$" 
+ hayawani_health_god_name: "Бык" 
+ hayawani_health_god_name_possessive: "Быка" 
+ hayawani_fertility_god_name: "Кролик" 
+ hayawani_fertility_god_name_possessive: "кролика" 
+ hayawani_wealth_god_name: "Сорока" 
+ hayawani_wealth_god_name_possessive: "Сорока" 
+ hayawani_household_god_name: "Рысь" 
+ hayawani_household_god_name_possessive: "Рысь" 
+ hayawani_fate_god_name: "ворон" 
+ hayawani_fate_god_name_possessive: "Ворона" 
+ hayawani_knowledge_god_name: "$hayawan_fate_god_name$" 
+ hayawani_knowledge_god_name_possessive: "$hayawan_fate_god_name_possessive$" 
+ hayawani_war_god_name: "$hayawan_death_deity_name$" 
+ hayawani_war_god_name_possessive: "$hayawan_death_deity_name_possessive$" 
+ hayawani_trickster_god_name: "$hayawan_household_god_name$" 
+ hayawani_trickster_god_name_possessive: "$hayawan_household_god_name_possessive$" 
+ hayawani_night_god_name: "Летучая мышь" 
+ hayawani_night_god_name_possessive: "летучая мышь" 
+ hayawani_water_god_name: "Дельфин" 
+ hayawani_water_god_name_possessive: "Дельфин" 
+ hayawani_witch_god_name: "Баблуа" 
+ hayawani_witch_god_name_possessive: "Баблуа" 
   
   #mawtalmuninin loc, Mawtalmuminin 
- mawtalmuninin: "Мавталмуминин" #Машинный перевод 28.10.23
- mawtalmuninin_adj: "Мавталмуминин" #Машинный перевод 28.10.23
- mawtalmuninin_adherent: "Мавталмумининит" #Машинный перевод 28.10.23
- mawtalmuninin_adherent_plural: "Мавтальмумининиты" #Машинный перевод 28.10.23
- mawtalmuninin_desc: "За завесой царства смертных лежит только вечность смерти. Мавталмуминины с радостью принимают этот конечный пункт назначения; на самом деле, они жаждут этого. Мавтальмуминину нечего бояться смерти, и на самом деле его следует почитать. Поскольку смерть вечна, все боги и люди — ее слуги." #Машинный перевод 28.10.23
- mawtalmuninin_high_god_name: "$ritualist_death_deity_name$" #Машинный перевод 28.10.23
- mawtalmuninin_high_god_possessive: "$ritualist_death_deity_name_possessive$" #Машинный перевод 28.10.23
- mawtalmuninin_high_god_name_alternate: "Вечное Запределье" #Машинный перевод 28.10.23
- mawtalmuninin_high_god_name_alternate_possessive: "Запредельное" #Машинный перевод 28.10.23
+ mawtalmuninin: "Мавталмуминин" 
+ mawtalmuninin_adj: "Мавталмуминин" 
+ mawtalmuninin_adherent: "Мавталмумининит" 
+ mawtalmuninin_adherent_plural: "Мавтальмумининиты" 
+ mawtalmuninin_desc: "За завесой царства смертных лежит только вечность смерти. Мавталмуминины с радостью принимают это конечное назначение; на самом деле, они жаждут его. Для Маут аль-муминина смерти нечего бояться, и на самом деле ее нужно почитать. Поскольку смерть вечна, все боги и люди - его слуги."
+ mawtalmuninin_high_god_name: "$ritualist_death_deity_name$" 
+ mawtalmuninin_high_god_possessive: "$ritualist_death_deity_name_possessive$" 
+ mawtalmuninin_high_god_name_alternate: "Вечное Запределье" 
+ mawtalmuninin_high_god_name_alternate_possessive: "Запредельное" 
   
- mawtalmuninin_creator_god_name: "$ritualist_death_deity_name$" #Машинный перевод 28.10.23
- mawtalmuninin_creator_god_possessive: "$ritualist_death_deity_name_possessive$" #Машинный перевод 28.10.23
+ mawtalmuninin_creator_god_name: "$ritualist_death_deity_name$" 
+ mawtalmuninin_creator_god_possessive: "$ritualist_death_deity_name_possessive$" 
   
   #ritualist4 loc, Iramite 
- ritualist4: "ирамит" #Машинный перевод 28.10.23
- ritualist4_adj: "ирамит" #Машинный перевод 28.10.23
- ritualist4_adherent: "ирамит" #Машинный перевод 28.10.23
- ritualist4_adherent_plural: "ирамиты" #Машинный перевод 28.10.23
- ritualist4_desc: "Ирам, Город Колонн.\nОна поднимется из песков, как рассвет, но только для тех, чей разум открыт, а сердца достойны.\nОна будет чёрной, как смоль, и украшенной гравировкой из золота, полной драгоценностей, которые сияют, как смоль. тысяча звезд.\nСемиглавый Змей будет с тоской наблюдать за тобой в городе, где ты будешь в безопасности.\nНе ищи Ирама, верного, пока Ирам не найдет тебя." #Машинный перевод 28.10.23
- iramite_high_god_name: "Ирам, Город Колонн" #Машинный перевод 28.10.23
- iramite_high_god_name_possessive: "Города" #Машинный перевод 28.10.23
- iramite_high_god_name_alternate: "Семиглавый Змей" #Машинный перевод 28.10.23
- iramite_high_god_name_alternate_possessive: "Змея" #Машинный перевод 28.10.23
+ ritualist4: "Ирамит" 
+ ritualist4_adj: "Ирамит" 
+ ritualist4_adherent: "Ирамит" 
+ ritualist4_adherent_plural: "Ирамиты" 
+ ritualist4_desc: "Ирам, город колонн.\nОн восстанет из песков, как рассвет, но только для тех, чьи умы открыты, а сердца достойны.\nОн будет черным, как смоль, и покрыт золотом, полным драгоценных камней, которые сверкают, как тысячи звезд.\Семиглавый змей будет с тоской наблюдать за тобой в городе, где ты будешь в безопасности.\nНе ищи Ирама, верный, пока Ирам не найдет тебя."
+ iramite_high_god_name: "Ирам, Город Колонн" 
+ iramite_high_god_name_possessive: "Города" 
+ iramite_high_god_name_alternate: "Семиглавый Змей" 
+ iramite_high_god_name_alternate_possessive: "Змея" 
   
- iramite_fate_god_name: "$iramite_high_god_name" #Машинный перевод 28.10.23
- iramite_fate_god_name_possessive: "$iramite_high_god_name_possessive$" #Машинный перевод 28.10.23
+ iramite_fate_god_name: "$iramite_high_god_name" 
+ iramite_fate_god_name_possessive: "$iramite_high_god_name_possessive$" 
   
- iramite_knowledge_god_name: "$iramite_high_god_name_alternate$" #Машинный перевод 28.10.23
- iramite_knowledge_god_name_possessive: "$iramite_high_god_name_alternate_possessive$" #Машинный перевод 28.10.23
+ iramite_knowledge_god_name: "$iramite_high_god_name_alternate$" 
+ iramite_knowledge_god_name_possessive: "$iramite_high_god_name_alternate_possessive$" 
   
   #monolith_death_cult localization, Eirbaadit al-Muntarisa 
- monolith_death_cult: "Эйрбаадит аль-Мунтариса" #Машинный перевод 28.10.23
- monolith_death_cult_adj: "Хасания" #Машинный перевод 28.10.23
- monolith_death_cult_adherent: "Хасания" #Машинный перевод 28.10.23
- monolith_death_cult_adherent_plural: "Хасании" #Машинный перевод 28.10.23
- monolith_death_cult_desc: "Основанный королем-авантюристом Хасаном аль-Хуром в 727 году ИС, Культ Монолитов поклоняется трем белым монолитам с выгравированными необычайно замысловатыми узорами и чрезвычайно гладкой поверхностью, расположенным в Джубаал-Хуре. Утверждая, что монолиты давали заповеди своим самым верным последователям, когда их обливали кровью, ритуальное кровопускание быстро превратилось в принесение преступников в жертву монолитам, что якобы увеличивает интенсивность их заповедей, поскольку они почти не слышны, когда приносятся только жертвы крови. Считается, что монолиты представляют собой хтонического трехглавого бога жизни и смерти, который был первым существом, поднявшимся по 1001 ступеням [GetBuilding('01_sophocos').GetName], где он стал Царем всех богов." #Машинный перевод 28.10.23
+ monolith_death_cult: "Хасания" 
+ monolith_death_cult_adj: "Эйрбаадит аль-Мунтариса" 
+ monolith_death_cult_adherent: "Хасания" 
+ monolith_death_cult_adherent_plural: "Хасании" 
+ monolith_death_cult_desc: Основанный королем-авантюристом Хасаном аль-Хуром в 727 году нашей эры, культ монолитов поклоняется трем белым монолитам с выгравированными необычайно замысловатыми узорами и чрезвычайно гладкой поверхностью, расположенным в Джубааль-Хуре. Утверждая, что монолитовцы давали заповеди своим самым верным последователям, когда их обмазывали кровью, ритуальное кровопускание быстро превратилось в принесение преступников в жертву монолитовцам, что якобы увеличивает силу их заповедей, поскольку они почти не слышны, когда дается только приношение крови. Считается, что монолиты представляют хтонического трехголового бога жизни и смерти, который был первым существом, поднявшимся по 1001 ступеням [GetBuilding('01_sophocos').GetName], где он стал царем всех богов."
   #monolith_death_cult good gods 
- monolith_death_cult_high_god_name: "Талсит Адаф Илах" #Машинный перевод 28.10.23
- monolith_high_god_name_possessive: "Талсит Адаф Илах" #Машинный перевод 28.10.23
- monolith_high_god_name_alternate: "Талсит если Вахейд" #Машинный перевод 28.10.23
- monolith_high_god_name_alternate_possessive: "Талсит, если Вахейд" #Машинный перевод 28.10.23
- monolith_creator_god_name: "Хаяал" #Машинный перевод 28.10.23
- monolith_creator_god_name_possessive: "Хаяала" #Машинный перевод 28.10.23
- monolith_health_god_name: "Виалидат Яадеда" #Машинный перевод 28.10.23
- monolith_health_god_name_possessive: "Виалидат Джаадеда" #Машинный перевод 28.10.23
- monolith_fertility_god: "$monolith_creator_god_name$" #Машинный перевод 28.10.23
- monolith_fertility_god_possessive: "$monolith_creator_god_name_possessive$" #Машинный перевод 28.10.23
- monolith_death_deity: "Мавтал" #Машинный перевод 28.10.23
- monolith_death_deity_possessive: "Маутала" #Машинный перевод 28.10.23
+ monolith_death_cult_high_god_name: "Талсит Адаф Илах" 
+ monolith_high_god_name_possessive: "Талсит Адаф Илах" 
+ monolith_high_god_name_alternate: "Талсит Иф Вахейд" 
+ monolith_high_god_name_alternate_possessive: "Талсит, Иф Вахейд" 
+ monolith_creator_god_name: "Хаяал" 
+ monolith_creator_god_name_possessive: "Хаяала" 
+ monolith_health_god_name: "Виалидат Яадеда" 
+ monolith_health_god_name_possessive: "Виалидат Джаадеда" 
+ monolith_fertility_god: "$monolith_creator_god_name$" 
+ monolith_fertility_god_possessive: "$monolith_creator_god_name_possessive$" 
+ monolith_death_deity: "Мавтал" 
+ monolith_death_deity_possessive: "Маутала" 
   #monolith_death_cult evil gods 
- monolith_devil_name: "Нисияан" #Машинный перевод 28.10.23
- monolith_devil_name_possessive: "Нисияан" #Машинный перевод 28.10.23
+ monolith_devil_name: "Нисияан" 
+ monolith_devil_name_possessive: "Нисияан" 
   
   
   #suleimania localization, Suleimani'a 
- suleimania: "Suleimani'a" #Машинный перевод 28.10.23
- suleimania_adj: "Suleimani'a" #Машинный перевод 28.10.23
- suleimania_adherent: "Suleimani'a" #Машинный перевод 28.10.23
- suleimania_adherent_plural: "Сулеймании" #Машинный перевод 28.10.23
- suleimania_desc: "Сулеймании следуют учению [magi|E]-философа Сулеймана Мудрого, который утверждал, что [GetBuilding('01_sophocos').GetName] на поверхности мира является эманацией Истинного Софокоса, хранящегося глубоко под землей в пещерах Дома Данияла. Сулеймании верят, что давным-давно люди были наделены великой мудростью и ростом, и что их философия позволяла им манипулировать миром. Со временем они начали вырождаться в размерах и мудрости, и их философия также выродилась в то, что сейчас называется [magic|E], став опасной и склоняющей людей ко злу. Некоторые, называемые Бану Даниял, бежали под землю к Истинным Софокосам, а их родственники превратились в современных людей. Сулеймании верят, что философия божественна, а философы являются воплощениями божественности в [aeras|E]." #Машинный перевод 28.10.23
+ suleimania: "Сулейманиа" 
+ suleimania_adj: "Сулейманиа" 
+ suleimania_adherent: "Сулейманиа" 
+ suleimania_adherent_plural: "Сулеймании" 
+ suleimania_desc: "Сулеймании следуют учению [Concept('magi','мага')|E]-философа Сулеймана Мудрого, который утверждал, что [GetBuilding('01_sophocos').GetName] на поверхности мира находится эманация Истинного Софокла, хранящегося глубоко под землей в пещерах Дома Даниял. Сулеймании верят, что давным-давно люди были наделены великой мудростью и положением, и что их философия позволяла им манипулировать миром. Со временем они начали уменьшаться в размерах и мудрости, и их философия также выродилась в то, что сейчас называется [Concept('magic','магией')|E], став опасной и склоняющей людей ко злу. Несколько человек, называемых бану Даниял, бежали в подполье к Истинному Софокосу, в то время как их сородичи превратились в современных людей. Сулеймании верят, что философия божественна, а философы являются воплощениями божественности на [Concept('aeras','Аэрасе')|E]."
   #suleimania good gods 
- suleimania_creator_god_name: "Фавхадаа" #Машинный перевод 28.10.23
- suleimania_creator_god_possessive: "Фавхадаа" #Машинный перевод 28.10.23
- suleimania_high_god_name: "Сулейман" #Машинный перевод 28.10.23
- suleimania_high_god_possessive: "Suleiman's" #Машинный перевод 28.10.23
- suleimania_high_god_name_alternate: "Сулейман Мудрый" #Машинный перевод 28.10.23
- suleimania_high_god_name_alternate_possessive: "Suleiman's" #Машинный перевод 28.10.23
- suleimania_health_god_name: "Усман аль-Сахарья" #Машинный перевод 28.10.23
- suleimania_health_god_name_possessive: "Усман аль-Сахария" #Машинный перевод 28.10.23
- suleimania_fertility_god_name: "Алисса бинт Сулейманиян" #Машинный перевод 28.10.23
- suleimania_fertility_god_name_possessive: "Алисса бинт Сулейманьян" #Машинный перевод 28.10.23
- suleimania_wealth_god: "Юсуф ибн Малик" #Машинный перевод 28.10.23
- suleimania_wealth_god_possessive: "Юсуф ибн Малик" #Машинный перевод 28.10.23
- suleimania_household_god: "Шарах аль-Сумайшайе" #Машинный перевод 28.10.23
- suleimania_household_god_possessive: "Шарах аль-Сумайшайе" #Машинный перевод 28.10.23
- suleimania_fate_god: "Абд аль-Фавхадаа" #Машинный перевод 28.10.23
- suleimania_fate_god_possessive: "Абд аль-Фавхадаа" #Машинный перевод 28.10.23
- suleimania_war_god: "Хусейн ибн Яхья" #Машинный перевод 28.10.23
- suleimania_war_god_possessive: "Хусейн ибн Яхья" #Машинный перевод 28.10.23
+ suleimania_creator_god_name: "Фавхадаа" 
+ suleimania_creator_god_possessive: "Фавхадаа" 
+ suleimania_high_god_name: "Сулейман" 
+ suleimania_high_god_possessive: "Сулеймана" 
+ suleimania_high_god_name_alternate: "Сулейман Мудрый" 
+ suleimania_high_god_name_alternate_possessive: "Сулеймана" 
+ suleimania_health_god_name: "Усман аль-Сахарья" 
+ suleimania_health_god_name_possessive: "Усман аль-Сахария" 
+ suleimania_fertility_god_name: "Алисса бинт Сулейманиян" 
+ suleimania_fertility_god_name_possessive: "Алисса бинт Сулейманьян" 
+ suleimania_wealth_god: "Юсуф ибн Малик" 
+ suleimania_wealth_god_possessive: "Юсуф ибн Малик" 
+ suleimania_household_god: "Шарах аль-Сумайшайе" 
+ suleimania_household_god_possessive: "Шарах аль-Сумайшайе" 
+ suleimania_fate_god: "Абд аль-Фавхадаа" 
+ suleimania_fate_god_possessive: "Абд аль-Фавхадаа" 
+ suleimania_war_god: "Хусейн ибн Яхья" 
+ suleimania_war_god_possessive: "Хусейн ибн Яхья" 
   
   #ataabay_zatanai localization, 'Ataabay Zatanai 
- ataabay_zatanai: "'Атаабай Затанай" #Машинный перевод 28.10.23
- ataabay_zatanai_adj: "Затания" #Машинный перевод 28.10.23
- ataabay_zatanai_adherent: "Затания" #Машинный перевод 28.10.23
- ataabay_zatanai_adherent_plural: "Затании" #Машинный перевод 28.10.23
- ataabay_zatanai_desc: "Последователи Затаная придерживаются учения пророка-ритуалиста Затаная, который получил свои откровения от [GetBuilding('01_sophocos').GetName] всего в семнадцать лет. Затанай, хотя и был молод, был яростным оратором, заявившим, что [wardenites|E] должен быть полностью уничтожен, и что любой, кто отвергает истины [GetBuilding('01_sophocos').GetName], должен быть убит как враг человечества. Хотя изначально Затанай не предполагалось, что это будет постоянная секта, Затанай включил в свою собственную элементы секты Сулеймании, главным образом веру в Домаха Данияла и точку зрения о том, что любой философии можно научиться, хотя Затанай отверг идею о том, что не Ритуальная философия имеет свои достоинства. Затанай и его последователи верят, что ритуализм — единственный образ жизни человечества; все другие религии — это просто извращения ритуализма, и поэтому их следует либо ассимилировать, если это возможно, либо уничтожить, если нет. Затанай был одним из самых молодых пророков-ритуалистов в истории религии, и он вошел в оккультизм в девятнадцать лет после того, как заявил, что вернется, когда его народ будет нуждаться в нем больше всего." #Машинный перевод 28.10.23
+ ataabay_zatanai: "Затанай" 
+ ataabay_zatanai_adj: "Атаабай Затанай" 
+ ataabay_zatanai_adherent: "Затания" 
+ ataabay_zatanai_adherent_plural: "Затании" 
+ ataabay_zatanai_desc: "Последователи Затанаи придерживаются учения ритуалистического пророка Затанаи, который получил свои откровения от [GetBuilding('01_sophocos').GetName] всего в семнадцать лет. Затанай, хотя и был молод, был яростным оратором, который заявлял, что [Concept('wardenites','вардениты')|E] должны быть полностью уничтожены, и что любой, кто отвергнет истины [GetBuilding('01_sophocos').GetName], должен быть убит как враг человечества. Хотя изначально это не задумывалось как постоянная секта, Затанай включил элементы секты Сулеймани в свою собственную, главным образом веру в Дома Даниял и мнение о том, что из всех философий можно извлечь уроки, хотя Затанай отверг идею о том, что не ритуалистические философии имеют какие-либо достоинства. Затанаи и его последователи верят, что ритуализм - это единственный образ жизни человечества; все остальные религии - просто извращения ритуализма, и поэтому должны быть либо ассимилированы, если это возможно, либо уничтожены, если нет. Затанай был одним из самых молодых пророков-ритуалистов в истории религии, и он ушел в оккультизм в девятнадцать лет после того, как заявил, что вернется, когда его народ будет нуждаться в нем больше всего."
   #zatania good gods 
- ataabay_zatanai_high_god_name: "Затанай" #Машинный перевод 28.10.23
- ataabay_zatanai_high_god_name_possessive: "Затанай" #Машинный перевод 28.10.23
- ataabay_zatanai_high_god_name_alternate: "Двенадцатый Пророк" #Машинный перевод 28.10.23
- ataabay_zatanai_high_god_name_alternate_possessive: "Двенадцатый Пророк" #Машинный перевод 28.10.23
- ataabay_zatanai_war_god_name: "Илах аль-Хубар" #Машинный перевод 28.10.23
- ataabay_zatanai_war_god_name_possessive: "Илах аль-Хубар" #Машинный перевод 28.10.23
- ataabay_zatanai_fate_god_name: "Софокос" #Машинный перевод 28.10.23
- ataabay_zatanai_fate_god_name_possessive: "Софокос" #Машинный перевод 28.10.23
- ataabay_zatanai_fertility_god_name: "Шара аль-Асвад" #Машинный перевод 28.10.23
- ataabay_zatanai_fertility_god_name_possessive: "Шара аль-Асвад" #Машинный перевод 28.10.23
+ ataabay_zatanai_high_god_name: "Затанай" 
+ ataabay_zatanai_high_god_name_possessive: "Затанай" 
+ ataabay_zatanai_high_god_name_alternate: "Двенадцатый Пророк" 
+ ataabay_zatanai_high_god_name_alternate_possessive: "Двенадцатый Пророк" 
+ ataabay_zatanai_war_god_name: "Илах аль-Хубар" 
+ ataabay_zatanai_war_god_name_possessive: "Илах аль-Хубар" 
+ ataabay_zatanai_fate_god_name: "Софокос" 
+ ataabay_zatanai_fate_god_name_possessive: "Софокос" 
+ ataabay_zatanai_fertility_god_name: "Шара аль-Асвад" 
+ ataabay_zatanai_fertility_god_name_possessive: "Шара аль-Асвад" 
   #zatania evil gods 
- zatania_devil_name: "Первый Страж" #Машинный перевод 28.10.23
- zatania_devil_name_possessive: "первого смотрителя" #Машинный перевод 28.10.23
- ataabay_zatanai_witch_god_name: "$zatania_devil_name$" #Машинный перевод 28.10.23
- ataabay_zatanai_witch_god_name_possessive: "$zatania_devil_name_possessive$" #Машинный перевод 28.10.23
+ zatania_devil_name: "Первый Страж" 
+ zatania_devil_name_possessive: "первого смотрителя" 
+ ataabay_zatanai_witch_god_name: "$zatania_devil_name$" 
+ ataabay_zatanai_witch_god_name_possessive: "$zatania_devil_name_possessive$" 
   
   #sabiat_al_malaikiya localization, Sabiat al-Malaikiya 
- sabiat_al_malaikiya: "Сабиат аль-Малайкия" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_adj: "Малаики" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_adherent: "Малаики" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_adherent_plural: "Малаикии" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_desc: "Сабиат аль-Малайкия была основана пророчицей Сарой бинт Шакирой, которая, по общему мнению, поднялась по ступеням [GetBuilding('01_sophocos').GetName] и была встречена сонмом ангелов, которые были ужасны на вид и чьи голоса вызывали у людей судороги. Сару сопровождала группа других ритуалистов, которые также сообщили, что видели ангелов. Разговаривая со своей пророчицей, ангелы похвалили ритуалистов за их преданность [GetBuilding('01_sophocos').GetName] и дали Саре откровение: боги и богини этого мира были всего лишь масками, которые носили ангелы [GetBuilding('01_sophocos').GetName], и каждая религия была лишь еще одним путем к просветлению. . Поэтому ей было поручено принести мир людям, прекратить бесконечные войны Саррадона и добиться взаимопонимания между Ритуалистами и Варденитами, а затем распространить это послание мира по всему миру. Она и ее новообращенные назвали себя Племенем Ангелов и приступили к распространению послания о сосуществовании." #Машинный перевод 28.10.23
+ sabiat_al_malaikiya: "Малаики" 
+ sabiat_al_malaikiya_adj: "Сабиат аль-Малайкия" 
+ sabiat_al_malaikiya_adherent: "Малаики" 
+ sabiat_al_malaikiya_adherent_plural: "Малаикии" 
+ sabiat_al_malaikiya_desc: "Сабиат аль-Малайкия была основана пророчицей Сарой бинт Шакирой, которая, по общему мнению, поднялась по ступеням [GetBuilding('01_sophocos').GetName] и была встречена сонмом ангелов, на которых было ужасно смотреть и чьи голоса заставляли людей биться в конвульсиях. Сару сопровождала группа других участников ритуала, которые также сообщили, что видели ангелов. Беседуя со своей пророчицей, ангелы похвалили ритуалистов за их преданность [GetBuilding('01_sophocos').GetName], и каждая религия была всего лишь другим путем к просветлению. Поэтому ей было поручено принести мир людям, прекратить бесконечные войны Саррадона и добиться взаимопонимания между ритуалистами и варденитами, а затем распространить это послание мира по всему миру. Она и ее новообращенные назвали себя Племенем Ангелов и приступили к распространению этого послания о сосуществовании".
   #sabiat good gods 
- sabiat_al_malaikiya_creator_god_name: "Софокос" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_creator_god_possessive: "Софокос" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_high_god_name: "Малайк аль-Малайкия" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_high_god_name_possessive: "Малайк аль-Малайкия" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_high_god_name_alternate: "Малайк аль-Малаики аль-Алайк" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_high_god_name_alternate_possessive: "Малайк аль-Малаики аль-Алайк" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_health_god_name: "Малаик аль-Ширфаа" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_health_god_name_possessive: "Малаик аль-Ширфаа" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_fertility_god_name: "Малаик аль-Хаяал" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_fertility_god_name_possessive: "Малаик аль-Хаяал" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_wealth_god_name: "Малаик ат-Таарва" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_wealth_god_name_possessive: "Малаик ат-Таарва" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_household_god_name: "Малаик ад-Даур" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_household_god_name_possessive: "Малаик ад-Даур" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_fate_god_name: "Малаик аль-Кадмисир" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_fate_god_name_possessive: "Малаик аль-Кадмисир" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_war_god_name: "Малаик аль-Хубар" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_war_god_name_possessive: "Малаик аль-Хубар" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_night_god_name: "Малаик аль-Лаяла" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_night_god_name_possessive: "Малаик аль-Лаяла" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_water_god_name: "Малаик аль-Таджадад" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_water_god_name_possessive: "Малаик аль-Таджадад" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_witch_god_name: "Малаик аль-Маджус" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_witch_god_name_possessive: "Малаик аль-Маджус" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_death_deity_name: "Малаик аль-Маутал" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_death_deity_name_possessive: "Малаик аль-Маутал" #Машинный перевод 28.10.23
+ sabiat_al_malaikiya_creator_god_name: "Софокос" 
+ sabiat_al_malaikiya_creator_god_possessive: "Софокос" 
+ sabiat_al_malaikiya_high_god_name: "Малайк аль-Малайкия" 
+ sabiat_al_malaikiya_high_god_name_possessive: "Малайк аль-Малайкия" 
+ sabiat_al_malaikiya_high_god_name_alternate: "Малайк аль-Малаики аль-Алайк" 
+ sabiat_al_malaikiya_high_god_name_alternate_possessive: "Малайк аль-Малаики аль-Алайк" 
+ sabiat_al_malaikiya_health_god_name: "Малаик аль-Ширфаа" 
+ sabiat_al_malaikiya_health_god_name_possessive: "Малаик аль-Ширфаа" 
+ sabiat_al_malaikiya_fertility_god_name: "Малаик аль-Хаяал" 
+ sabiat_al_malaikiya_fertility_god_name_possessive: "Малаик аль-Хаяал" 
+ sabiat_al_malaikiya_wealth_god_name: "Малаик ат-Таарва" 
+ sabiat_al_malaikiya_wealth_god_name_possessive: "Малаик ат-Таарва" 
+ sabiat_al_malaikiya_household_god_name: "Малаик ад-Даур" 
+ sabiat_al_malaikiya_household_god_name_possessive: "Малаик ад-Даур" 
+ sabiat_al_malaikiya_fate_god_name: "Малаик аль-Кадмисир" 
+ sabiat_al_malaikiya_fate_god_name_possessive: "Малаик аль-Кадмисир" 
+ sabiat_al_malaikiya_war_god_name: "Малаик аль-Хубар" 
+ sabiat_al_malaikiya_war_god_name_possessive: "Малаик аль-Хубар" 
+ sabiat_al_malaikiya_night_god_name: "Малаик аль-Лаяла" 
+ sabiat_al_malaikiya_night_god_name_possessive: "Малаик аль-Лаяла" 
+ sabiat_al_malaikiya_water_god_name: "Малаик аль-Таджадад" 
+ sabiat_al_malaikiya_water_god_name_possessive: "Малаик аль-Таджадад" 
+ sabiat_al_malaikiya_witch_god_name: "Малаик аль-Маджус" 
+ sabiat_al_malaikiya_witch_god_name_possessive: "Малаик аль-Маджус" 
+ sabiat_al_malaikiya_death_deity_name: "Малаик аль-Маутал" 
+ sabiat_al_malaikiya_death_deity_name_possessive: "Малаик аль-Маутал" 
   #sabiat evil god - they only believe the Angel of Chaos is evil, though the masks the angels assume can be malevolent in other religions 
- sabiat_al_malaikiya_devil_name: "Малаик аль-Фавхадаа" #Машинный перевод 28.10.23
- sabiat_al_malaikiya_devil_name_possessive: "Малаик аль-Фавхадаа" #Машинный перевод 28.10.23
- #sabiat_al_malaikiya_witch_god_name: "$sabiat_al_malaikiya_devil_name$" #Машинный перевод 28.10.23
- #sabiat_al_malaikiya_witch_god_name_possessive: "$sabiat_al_malaikiya_devil_name_possessive$" #Машинный перевод 28.10.23
+ sabiat_al_malaikiya_devil_name: "Малаик аль-Фавхадаа" 
+ sabiat_al_malaikiya_devil_name_possessive: "Малаик аль-Фавхадаа" 
+ #sabiat_al_malaikiya_witch_god_name: "$sabiat_al_malaikiya_devil_name$" 
+ #sabiat_al_malaikiya_witch_god_name_possessive: "$sabiat_al_malaikiya_devil_name_possessive$" 
   
   #zamitilaat_karim localization, Zamitilaat Karim 
- zamitilaat_karim: "Замитилаат Карим" #Машинный перевод 28.10.23
- zamitilaat_karim_adj: "Каримиа" #Машинный перевод 28.10.23
- zamitilaat_karim_adherent: "Каримиа" #Машинный перевод 28.10.23
- zamitilaat_karim_adherent_plural: "Каримии" #Машинный перевод 28.10.23
- zamitilaat_karim_desc: "Братство Карима, или Замитаалат Карим, было основано пророком Каримом ибн Софокосом, неграмотным и необразованным человеком, жившим недалеко от [tower|E]. Карим утверждал, что организованное духовенство является анафемой для откровений [GetBuilding('01_sophocos').GetName] и что не обязательно быть образованным, знатным или даже умным, чтобы быть пророком Башни. Концепция короля-жреца, верховного жреца или короля-бога является мерзостью для Каримии, которые утверждают, что любой вид организованного жречества просто служит для подавления истин, донесенных на шагах Софокоса. Поэтому духовенство должно состоять исключительно из мирян, и любая попытка навязать ему организацию или систематизировать религию должна встречать яростное сопротивление. Вознесение [GetBuilding('01_sophocos').GetName] считается первостепенным для любого истинного Каримиа, и ожидается, что каждый член секты и будущий священник совершит это путешествие хотя бы один раз в жизни." #Машинный перевод 28.10.23
+ zamitilaat_karim: "Каримиа" 
+ zamitilaat_karim_adj: "Замитилаат Карим" 
+ zamitilaat_karim_adherent: "Каримиа" 
+ zamitilaat_karim_adherent_plural: "Каримии" 
+ zamitilaat_karim_desc: "Братство Карима, или Замитаалат Карим, было основано пророком Каримом ибн Софокосом, неграмотным и необразованным человеком, который жил недалеко от [Concept('tower','башни')|E]. Карим утверждал, что организованное духовенство было предано анафеме откровениями  [GetBuilding('01_sophocos').GetName], и что не нужно быть образованным, высокородным или даже умным, чтобы быть пророком Башни. Концепция царя-жреца, первосвященника или бога-царя вызывает отвращение у каримии, которые утверждают, что любой вид организованного священства служит лишь для подавления истин, изложенных на ступенях Софокла. Следовательно, священство должно полностью состоять из мирян, и любой попытке навязать ему организацию или кодифицировать религию следует яростно сопротивляться. Вознесение [GetBuilding('01_sophocos').GetName] считается первостепенным для любого истинного карими'а, и ожидается, что каждый член секты и будущий священник совершит это путешествие хотя бы раз в своей жизни."
   
   
   #eabuyad_ilah_al_atilaam localization, Eabuyad Ilah al-Atilaam 
- eabuyad_ilah_al_atilaam: "Эабуяд Илах аль-Атилам" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_adj: "Эабуд" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_adherent: "Эабуд" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_adherent_plural: "Эабуяд" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_desc: "Рабы Бога Боли верят, что мир был создан злобным богом Ашредом мин Башитан аль-Атиламом. Когда он создал мир, он оторвал от себя собственную плоть, чтобы создать растения, в то время как он измельчил свои кости в пыль, чтобы заполнить полую сферу, которую он использовал для создания земли, которая стала почвой и металлами земли. Затем он создал животных, сжег себя, и создал расу людей, вырвав свое сердце. Наконец, он использовал свой позвоночник, чтобы воздвигнуть [GetBuilding('01_sophocos').GetName] и Шпили Горя. Вложив так много себя в мир, он дал первым людям простую заповедь: идите и убивайте. По мере того, как все больше людей погибает и страдает, Бог Боли будет восстанавливать свое тело. В легендах рабов говорится, что Ашреду когда-то поклонялась империя могучих воинов, но их империя распалась, и, лишившись регулярных жертвоприношений, Ашред сурово наказал человека. Чтобы предотвратить дальнейшие наказания, Рабы должны страдать так, чтобы не страдали другие." #Машинный перевод 28.10.23
+ eabuyad_ilah_al_atilaam: "Эабуд" 
+ eabuyad_ilah_al_atilaam_adj: "Эабуяд Илах аль-Атилам" 
+ eabuyad_ilah_al_atilaam_adherent: "Эабуд" 
+ eabuyad_ilah_al_atilaam_adherent_plural: "Эабуяд" 
+ eabuyad_ilah_al_atilaam_desc: "Рабы Бога боли верят, что мир был создан злобным богом Ашредом мин Баш ит анал-Атилаамом. Когда он сотворил мир, он оторвал свою собственную плоть, чтобы создать растения, в то время как он растер свои кости в пыль, чтобы заполнить полую сферу, которую он использовал для создания земли, которая стала почвой и металлами земли. Затем он создал животных, сжигая себя, и он создал расу людей, вырвав свое собственное сердце. Наконец, он использовал свой позвоночник, чтобы возвести [GetBuilding('01_sophocos').GetName] и Шпили Скорби. Вложив так много себя в этот мир, он дал первым людям простую заповедь: идите и убивайте. По мере того, как все больше людей будут убиты и страдать, Бог Боли восстановит его тело. Легенды о рабах гласят, что давным-давно Ашреду поклонялась империя могучих воинов, но их империя рухнула, и, лишенный регулярных жертвоприношений, Ашред сурово наказал человека. Чтобы предотвратить дальнейшие наказания, рабы должны страдать так, чтобы этого не делали другие."
   #eabuyad gods 
- eabuyad_ilah_al_atilaam_creator_god_name: "Ашред Малайк аль-Аррад" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_creator_god_name_possessive: "Ашред Малайк аль-Аррад" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_high_god_name: "Ашред Малайк аль-Алайк" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_high_god_name_possessive: "Ашред Малайк аль-Алайк" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_high_god_name_alternate: "Ашред мин Башитан аль-Атилам" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_high_god_name_alternate_possessive: "Ашред мин Башитан аль-Атилам" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_water_god_name: "Шенахья аль-Атилам" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_water_god_name_possessive: "Шенахья аль-Атилам" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_devil_name: "Ашред Малайк аль-Атилам" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_devil_name_possessive: "Ашред Малайк аль-Атилам" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_fate_god_name: "Ашред мин Акреш аль-Каадур" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_fate_god_name_possessive: "Ашред мин Акреш аль-Каадур" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_fertility_god_name: "Ашртур" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_fertility_god_name_possessive: "Ашртура" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_health_god_name: "Лебаштур" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_health_god_name_possessive: "Лебаштура" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_household_god_name: "Пазуркаль" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_household_god_name_possessive: "Пазуркала" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_knowledge_god_name: "Атилаам" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_knowledge_god_name_possessive: "Атилама" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_night_god_name: "'Ашад аль-Фавхадаа" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_night_god_name_possessive: "'Ашад аль-Фавхадаа" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_trickster_god_name: "Ашред аль-Асвад" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_trickster_god_name_possessive: "Ашред аль-Асвад" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_war_god_name: "Мудук" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_war_god_name_possessive: "Мудука" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_wealth_god_name: "Эшкутар" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_wealth_god_name_possessive: "Эшкутара" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_witch_god: "Маджус" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_witch_god_possessive: "Маджус" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_death_deity_name: "Мауталатилам" #Машинный перевод 28.10.23
- eabuyad_ilah_al_atilaam_death_deity_name_possessive: "Мавталатилам" #Машинный перевод 28.10.23
+ eabuyad_ilah_al_atilaam_creator_god_name: "Ашред Малайк аль-Аррад" 
+ eabuyad_ilah_al_atilaam_creator_god_name_possessive: "Ашред Малайк аль-Аррад" 
+ eabuyad_ilah_al_atilaam_high_god_name: "Ашред Малайк аль-Алайк" 
+ eabuyad_ilah_al_atilaam_high_god_name_possessive: "Ашред Малайк аль-Алайк" 
+ eabuyad_ilah_al_atilaam_high_god_name_alternate: "Ашред мин Башитан аль-Атилам" 
+ eabuyad_ilah_al_atilaam_high_god_name_alternate_possessive: "Ашред мин Башитан аль-Атилам" 
+ eabuyad_ilah_al_atilaam_water_god_name: "Шенахья аль-Атилам" 
+ eabuyad_ilah_al_atilaam_water_god_name_possessive: "Шенахья аль-Атилам" 
+ eabuyad_ilah_al_atilaam_devil_name: "Ашред Малайк аль-Атилам" 
+ eabuyad_ilah_al_atilaam_devil_name_possessive: "Ашред Малайк аль-Атилам" 
+ eabuyad_ilah_al_atilaam_fate_god_name: "Ашред мин Акреш аль-Каадур" 
+ eabuyad_ilah_al_atilaam_fate_god_name_possessive: "Ашред мин Акреш аль-Каадур" 
+ eabuyad_ilah_al_atilaam_fertility_god_name: "Ашртур" 
+ eabuyad_ilah_al_atilaam_fertility_god_name_possessive: "Ашртура" 
+ eabuyad_ilah_al_atilaam_health_god_name: "Лебаштур" 
+ eabuyad_ilah_al_atilaam_health_god_name_possessive: "Лебаштура" 
+ eabuyad_ilah_al_atilaam_household_god_name: "Пазуркаль" 
+ eabuyad_ilah_al_atilaam_household_god_name_possessive: "Пазуркала" 
+ eabuyad_ilah_al_atilaam_knowledge_god_name: "Атилаам" 
+ eabuyad_ilah_al_atilaam_knowledge_god_name_possessive: "Атилама" 
+ eabuyad_ilah_al_atilaam_night_god_name: "'Ашад аль-Фавхадаа" 
+ eabuyad_ilah_al_atilaam_night_god_name_possessive: "'Ашад аль-Фавхадаа" 
+ eabuyad_ilah_al_atilaam_trickster_god_name: "Ашред аль-Асвад" 
+ eabuyad_ilah_al_atilaam_trickster_god_name_possessive: "Ашред аль-Асвад" 
+ eabuyad_ilah_al_atilaam_war_god_name: "Мудук" 
+ eabuyad_ilah_al_atilaam_war_god_name_possessive: "Мудука" 
+ eabuyad_ilah_al_atilaam_wealth_god_name: "Эшкутар" 
+ eabuyad_ilah_al_atilaam_wealth_god_name_possessive: "Эшкутара" 
+ eabuyad_ilah_al_atilaam_witch_god: "Маджус" 
+ eabuyad_ilah_al_atilaam_witch_god_possessive: "Маджус" 
+ eabuyad_ilah_al_atilaam_death_deity_name: "Мауталатилам" 
+ eabuyad_ilah_al_atilaam_death_deity_name_possessive: "Мавталатилам" 
   
   #eirbaadit_al_hukadir localization, Eirbaadit al-Hukadir 
- eirbaadit_al_hukadir: "Эйрбаадит аль-Хукадир" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_adj: "Хукадирит" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_adherent: "Хукадирит" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_adherent_plural: "Хукадириты" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_desc: "Хукадириты верят, что мир возник из водоворота Фавхадаа, не созданного ни одним разумным существом. Там появились всевозможные звери, и главным среди них было человечество. Но у людей не было богов, а значит, и морали; они приступили к созданию своих собственных богов и собственной морали, но безуспешно. Туда пришел Кубаал, Первый Вампир, который успешно сделал себя богом. Затем Кубаал научил других, как достичь божественности, и первые вампиры правили великолепной империей под названием [GetBuilding('01_sophocos').GetName], из которой Кубал правил на своем великом шпиле. Эйрбаадит аль-Хукадир действует в рамках эвгемеристической структуры, предполагая, что все боги имеют смертное происхождение; они либо не существуют, либо были смертными, ставшими обожествленными. Хотя первое менее действенно, чем второе, в конечном итоге имеет значение то, платит ли кто-то Кровавую Десятину или нет." #Машинный перевод 28.10.23
+ eirbaadit_al_hukadir: "Хукадирит" 
+ eirbaadit_al_hukadir_adj: "Эйрбаадит аль-Хукадир" 
+ eirbaadit_al_hukadir_adherent: "Хукадирит" 
+ eirbaadit_al_hukadir_adherent_plural: "Хукадириты" 
+ eirbaadit_al_hukadir_desc: "Хукадириты верят, что мир возник из бурлящего водоворота Фавхада, не созданного никаким разумным существом. Там появились всевозможные звери, и главным среди них было человечество. Но у людей не было богов, и поэтому у них не было морали; они попытались создать своих собственных богов и свою собственную мораль, но потерпели неудачу. Туда пришел Губаал, первый вампир, который успешно сделал себя богом. Затем Губаал проинструктировал других о том, как достичь божественности, и первые вампиры правили великолепной империей под названием [GetBuilding('01_sophocos').GetName], из которой Губаал правил в своем великом шпиле. Эрбадит аль-Хукадир действует в рамках эвгемеризма, предполагая, что все боги имеют смертное происхождение; они либо не существуют, либо были другими смертными, которые стали обожествленными. Хотя первое менее обоснованно, чем второе, в конечном счете важно то, платит ли кто-то десятину Крови или нет."
   #hukadirite good gods 
- eirbaadit_al_hukadir_creator_god_name: "Фаухаада" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_creator_god_name_possessive: "Фаухаада" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_high_god_name: "Кубал" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_high_god_name_possessive: "Кубаала" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_high_god_name_alternate: "аль-Аваль Машасадима" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_high_god_name_alternate_possessive: "аль-Аваль Машасадима" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_knowledge_god_name: "'Ахишнох" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_knowledge_god_name_possessive: "'Ахишноха" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_war_god_name: "Араяд" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_war_god_name_possessive: "Араяда" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_witch_god_name: "Лалиту" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_witch_god_name_possessive: "Лалиту" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_fertility_god_name: "Захилла" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_fertility_god_name_possessive: "Захиллы" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_wealth_god_name: "Саусекор" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_wealth_god_name_possessive: "Саусекора" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_night_god_name: "Эшерсекор" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_night_god_name_possessive: "Эшерсекора" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_household_god_name: "Табааль-Хакам" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_household_god_name_possessive: "Табааль-Хакам" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_fate_god_name: "Малайкавот" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_fate_god_name_possessive: "Малайкавот" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_water_god_name: "Эннарат" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_water_god_name_possessive: "Эннарата" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_death_deity_name: "Ашранугал" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_death_deity_name_possessive: "Ашранугала" #Машинный перевод 28.10.23
+ eirbaadit_al_hukadir_creator_god_name: "Фаухаада" 
+ eirbaadit_al_hukadir_creator_god_name_possessive: "Фаухаада" 
+ eirbaadit_al_hukadir_high_god_name: "Кубал" 
+ eirbaadit_al_hukadir_high_god_name_possessive: "Кубаала" 
+ eirbaadit_al_hukadir_high_god_name_alternate: "аль-Аваль Машасадима" 
+ eirbaadit_al_hukadir_high_god_name_alternate_possessive: "аль-Аваль Машасадима" 
+ eirbaadit_al_hukadir_knowledge_god_name: "'Ахишнох" 
+ eirbaadit_al_hukadir_knowledge_god_name_possessive: "'Ахишноха" 
+ eirbaadit_al_hukadir_war_god_name: "Араяд" 
+ eirbaadit_al_hukadir_war_god_name_possessive: "Араяда" 
+ eirbaadit_al_hukadir_witch_god_name: "Лалиту" 
+ eirbaadit_al_hukadir_witch_god_name_possessive: "Лалиту" 
+ eirbaadit_al_hukadir_fertility_god_name: "Захилла" 
+ eirbaadit_al_hukadir_fertility_god_name_possessive: "Захиллы" 
+ eirbaadit_al_hukadir_wealth_god_name: "Саусекор" 
+ eirbaadit_al_hukadir_wealth_god_name_possessive: "Саусекора" 
+ eirbaadit_al_hukadir_night_god_name: "Эшерсекор" 
+ eirbaadit_al_hukadir_night_god_name_possessive: "Эшерсекора" 
+ eirbaadit_al_hukadir_household_god_name: "Табааль-Хакам" 
+ eirbaadit_al_hukadir_household_god_name_possessive: "Табааль-Хакам" 
+ eirbaadit_al_hukadir_fate_god_name: "Малайкавот" 
+ eirbaadit_al_hukadir_fate_god_name_possessive: "Малайкавот" 
+ eirbaadit_al_hukadir_water_god_name: "Эннарат" 
+ eirbaadit_al_hukadir_water_god_name_possessive: "Эннарата" 
+ eirbaadit_al_hukadir_death_deity_name: "Ашранугал" 
+ eirbaadit_al_hukadir_death_deity_name_possessive: "Ашранугала" 
   #hukadirite evil gods 
- eirbaadit_al_hukadir_devil_name: "Эбурхуд" #Машинный перевод 28.10.23
- eirbaadit_al_hukadir_devil_name_possessive: "Эбурхуд" #Машинный перевод 28.10.23
+ eirbaadit_al_hukadir_devil_name: "Эбурхуд" 
+ eirbaadit_al_hukadir_devil_name_possessive: "Эбурхуд" 
   
   
   #akhawwat localization, Akhawwat al-Iiraahadat al-Mutajaaluyah 
- akhawwat: "Ахавват аль-Ираахадат аль-Мутаджаалуйя" #Машинный перевод 28.10.23
- akhawwat_adj: "Ахаввати" #Машинный перевод 28.10.23
- akhawwat_adherent: "Ахаввати" #Машинный перевод 28.10.23
- akhawwat_adherent_plural: "Ахаввати" #Машинный перевод 28.10.23
- akhawwat_desc: "Ахавват аль-Ираахадат аль-Мутаджаалуйя — Братство Проявленной Воли — это эзотерическая секта ритуалистов, которая верит, что реальность — это коллективная галлюцинация, а истинная реальность на самом деле является духовным царством. Люди — это не существа из подверженной ошибкам плоти, а скорее бессмертные и нематериальные духовные сущности, которые вечны, но имеют ограниченное творение. Они поймали себя в ловушку этой ложной реальности из-за обмана аль-Хадидруджа, но могут узнать правду через Софокоса, которого самого не существует, и восстановить контроль над своими духовными телами и разрушить иллюзию существования." #Машинный перевод 28.10.23
+ akhawwat: "Ахаввати" 
+ akhawwat_adj: "Ахавват аль-Ираахадат аль-Мутаджаалуйя" 
+ akhawwat_adherent: "Ахаввати" 
+ akhawwat_adherent_plural: "Ахаввати" 
+ akhawwat_desc: "Ахавват аль-Ираахадат аль-Мутаджалуйя - Братство проявленной воли - это эзотерическая ритуалистическая секта, которая верит, что реальность - это коллективная галлюцинация, и что истинная реальность на самом деле является духовной сферой. Люди - это не существа из подверженной ошибкам плоти, а скорее бессмертные и нематериальные духовные сущности, которые вечны, но имеют конечное творение. Они заманили себя в ловушку этой ложной реальности из-за обмана аль-Хадидруджа, но могут узнать правду через Софокос, который сам по себе не существует, и восстановить контроль над своими духовными телами, и разрушить иллюзию существования."
   #akhawwat good philosophical concepts, since they don't worship gods 
- akhawwat_high_god_name: "Софокос" #Машинный перевод 28.10.23
- akhawwat_high_god_name_possessive: "Софокос" #Машинный перевод 28.10.23
- akhawwat_high_god_name_alternate: "Ашайкатан" #Машинный перевод 28.10.23
- akhawwat_high_god_name_alternate_possessive: "Ашайкатана" #Машинный перевод 28.10.23
- akhawwat_knowledge_god_name: "аль-Малаикия" #Машинный перевод 28.10.23
- akhawwat_knowledge_god_name_possessive: "аль-Малаикия" #Машинный перевод 28.10.23
- akhawwat_war_god_name: "Хубар" #Машинный перевод 28.10.23
- akhawwat_war_god_name_possessive: "Хубара" #Машинный перевод 28.10.23
- akhawwat_fertility_god_name: "Хаяал" #Машинный перевод 28.10.23
- akhawwat_fertility_god_name_possessive: "Хаяала" #Машинный перевод 28.10.23
- akhawwat_wealth_god_name: "Таарва" #Машинный перевод 28.10.23
- akhawwat_wealth_god_name_possessive: "Таарвы" #Машинный перевод 28.10.23
- akhawwat_night_god_name: "Лаяла" #Машинный перевод 28.10.23
- akhawwat_night_god_name_possessive: "Лаялы" #Машинный перевод 28.10.23
- akhawwat_household_god_name: "Даур" #Машинный перевод 28.10.23
- akhawwat_household_god_name_possessive: "Даура" #Машинный перевод 28.10.23
- akhawwat_water_god_name: "Таджадад" #Машинный перевод 28.10.23
- akhawwat_water_god_name_possessive: "Таджадада" #Машинный перевод 28.10.23
- akhawwat_death_deity_name: "Ашаймаутал" #Машинный перевод 28.10.23
- akhawwat_death_deity_name_possessive: "Ашаймаутала" #Машинный перевод 28.10.23
+ akhawwat_high_god_name: "Софокос" 
+ akhawwat_high_god_name_possessive: "Софокос" 
+ akhawwat_high_god_name_alternate: "Ашайкатан" 
+ akhawwat_high_god_name_alternate_possessive: "Ашайкатана" 
+ akhawwat_knowledge_god_name: "аль-Малаикия" 
+ akhawwat_knowledge_god_name_possessive: "аль-Малаикия" 
+ akhawwat_war_god_name: "Хубар" 
+ akhawwat_war_god_name_possessive: "Хубара" 
+ akhawwat_fertility_god_name: "Хаяал" 
+ akhawwat_fertility_god_name_possessive: "Хаяала" 
+ akhawwat_wealth_god_name: "Таарва" 
+ akhawwat_wealth_god_name_possessive: "Таарвы" 
+ akhawwat_night_god_name: "Лаяла" 
+ akhawwat_night_god_name_possessive: "Лаялы" 
+ akhawwat_household_god_name: "Даур" 
+ akhawwat_household_god_name_possessive: "Даура" 
+ akhawwat_water_god_name: "Таджадад" 
+ akhawwat_water_god_name_possessive: "Таджадада" 
+ akhawwat_death_deity_name: "Ашаймаутал" 
+ akhawwat_death_deity_name_possessive: "Ашаймаутала" 
   #akhawwat evil gods 
- akhawwat_creator_god_name: "Нисияан аль-Хадидрудж" #Машинный перевод 28.10.23
- akhawwat_creator_god_name_possessive: "Нисияан аль-Хадидрудж" #Машинный перевод 28.10.23
- akhawwat_devil_name: "аль-Хадидрудж" #Машинный перевод 28.10.23
- akhawwat_devil_name_possessive: "аль-Хадидруджа" #Машинный перевод 28.10.23
- akhawwat_fate_god_name: "Хубирадрудж" #Машинный перевод 28.10.23
- akhawwat_fate_god_name_possessive: "Хубирадруджа" #Машинный перевод 28.10.23
- akhawwat_witch_god_name: "аль-Маджидрудж" #Машинный перевод 28.10.23
- akhawwat_witch_god_name_possessive: "аль-Маджидруджа" #Машинный перевод 28.10.23
+ akhawwat_creator_god_name: "Нисияан аль-Хадидрудж" 
+ akhawwat_creator_god_name_possessive: "Нисияан аль-Хадидрудж" 
+ akhawwat_devil_name: "аль-Хадидрудж" 
+ akhawwat_devil_name_possessive: "аль-Хадидруджа" 
+ akhawwat_fate_god_name: "Хубирадрудж" 
+ akhawwat_fate_god_name_possessive: "Хубирадруджа" 
+ akhawwat_witch_god_name: "аль-Маджидрудж" 
+ akhawwat_witch_god_name_possessive: "аль-Маджидруджа" 
   
   #eabuyad_al_dudhaat_khubir localization, Eabuyad al-Dudhaat Khubir 
- eabuyad_al_duhaad_khubir: "Эабуяд ад-Дудхаат Хубир" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_adj: "Духхади" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_adherent: "Духхади" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_adherent_plural: "Духаади" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_desc: "Рабы Великого Червя поклоняются [the_worldeater|E] и тому, что, по их мнению, является его бесчисленным отродьем глубоко под [aeras|E]. Рабы Великого Червя поклоняются Пожирателю Миров как Великому Червю, или ад-Духааду Хубиру, а его потомству — как Великим Червям, или ад-Дийхаадан аль-Изаам. Только принося жертвы и поклоняясь Великим Червям, они могут оставаться спящими под миром, и Рабы считают своим долгом не допустить повторного пробуждения другого Великого Червя." #Машинный перевод 28.10.23
+ eabuyad_al_duhaad_khubir: "Духхади" 
+ eabuyad_al_duhaad_khubir_adj: "Эабуяд ад-Дудхаат Хубир" 
+ eabuyad_al_duhaad_khubir_adherent: "Духхади" 
+ eabuyad_al_duhaad_khubir_adherent_plural: "Духаади" 
+ eabuyad_al_duhaad_khubir_desc: "Рабы Великого Червя поклоняются [Concept('the_worldeater','Пожирателю мира')|E] и тому, что они считают его бесчисленным отродьем глубоко под [Concept('aeras','Аэрасом')|E]. Рабы Великого Червя поклоняются Пожирателю миров как Великому Червю, или аль-Духаду Хубиру, а его потомству как Великим Червям, или аль-Дийхадану аль-Изааму. Только принося Великим Червям жертвы и поклоняясь им, можно сохранить их спящими под миром, и рабы считают своим долгом не допустить повторного пробуждения другого Великого Червя."
   #god 
- eabuyad_al_duhaad_khubir_creator_god_name: "Софокос" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_creator_god_name_possessive: "Софокос" #Машинный перевод 28.10.23
+ eabuyad_al_duhaad_khubir_creator_god_name: "Софокос" 
+ eabuyad_al_duhaad_khubir_creator_god_name_possessive: "Софокос" 
   #worms 
- eabuyad_al_duhaad_khubir_high_god_name: "ад-Духаад Хубир" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_high_god_name_possessive: "аль-Духаад Хубир" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_high_god_name_alternate: "Пожиратель Миров" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_high_god_name_alternate_possessive: "Пожирателя Миров" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_knowledge_god_name: "Пожиратель библиотек" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_knowledge_god_name_possessive: "Пожиратель библиотек»" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_war_god_name: "Пожиратель армий" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_war_god_name_possessive: "Пожиратель армий»" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_fertility_god_name: "Пожиратель ферм" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_fertility_god_name_possessive: "«Пожиратель ферм»" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_wealth_god_name: "Пожиратель богатства" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_wealth_god_name_possessive: "Пожиратель богатства" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_night_god_name: "Лунопожиратель" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_night_god_name_possessive: "Лунопожиратель" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_household_god_name: "Поглотитель городов" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_household_god_name_possessive: "«Поглотитель городов»" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_water_god_name: "Мировой червь" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_water_god_name_possessive: "Мирового Червя" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_death_deity_name: "Пожиратель смерти" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_death_deity_name_possessive: "Пожиратель смерти" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_devil_name: "Пожиратель Миров" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_devil_name_possessive: "Пожирателя Миров" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_fate_god_name: "Поглотитель Судьбы" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_fate_god_name_possessive: "Поглотитель Судьбы" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_witch_god_name: "Маджус-едок" #Машинный перевод 28.10.23
- eabuyad_al_duhaad_khubir_witch_god_name_possessive: "Majus-Eat's" #Машинный перевод 28.10.23
+ eabuyad_al_duhaad_khubir_high_god_name: "ад-Духаад Хубир" 
+ eabuyad_al_duhaad_khubir_high_god_name_possessive: "аль-Духаад Хубир" 
+ eabuyad_al_duhaad_khubir_high_god_name_alternate: "Пожиратель Миров" 
+ eabuyad_al_duhaad_khubir_high_god_name_alternate_possessive: "Пожирателя Миров" 
+ eabuyad_al_duhaad_khubir_knowledge_god_name: "Пожиратель библиотек" 
+ eabuyad_al_duhaad_khubir_knowledge_god_name_possessive: "Пожиратель библиотек»" 
+ eabuyad_al_duhaad_khubir_war_god_name: "Пожиратель армий" 
+ eabuyad_al_duhaad_khubir_war_god_name_possessive: "Пожиратель армий»" 
+ eabuyad_al_duhaad_khubir_fertility_god_name: "Пожиратель ферм" 
+ eabuyad_al_duhaad_khubir_fertility_god_name_possessive: "«Пожиратель ферм»" 
+ eabuyad_al_duhaad_khubir_wealth_god_name: "Пожиратель богатства" 
+ eabuyad_al_duhaad_khubir_wealth_god_name_possessive: "Пожиратель богатства" 
+ eabuyad_al_duhaad_khubir_night_god_name: "Лунопожиратель" 
+ eabuyad_al_duhaad_khubir_night_god_name_possessive: "Лунопожиратель" 
+ eabuyad_al_duhaad_khubir_household_god_name: "Поглотитель городов" 
+ eabuyad_al_duhaad_khubir_household_god_name_possessive: "«Поглотитель городов»" 
+ eabuyad_al_duhaad_khubir_water_god_name: "Мировой червь" 
+ eabuyad_al_duhaad_khubir_water_god_name_possessive: "Мирового Червя" 
+ eabuyad_al_duhaad_khubir_death_deity_name: "Пожиратель смерти" 
+ eabuyad_al_duhaad_khubir_death_deity_name_possessive: "Пожиратель смерти" 
+ eabuyad_al_duhaad_khubir_devil_name: "Пожиратель Миров" 
+ eabuyad_al_duhaad_khubir_devil_name_possessive: "Пожирателя Миров" 
+ eabuyad_al_duhaad_khubir_fate_god_name: "Поглотитель Судьбы" 
+ eabuyad_al_duhaad_khubir_fate_god_name_possessive: "Поглотитель Судьбы" 
+ eabuyad_al_duhaad_khubir_witch_god_name: "Маджус-едок" 
+ eabuyad_al_duhaad_khubir_witch_god_name_possessive: "Маджус-едока" 
   
   #hanaaist localization, Hanaaism 
- hanaaist: "Тарриак аль-Вахейд" #Машинный перевод 28.10.23
- hanaaist_adj: "ханаист" #Машинный перевод 28.10.23
- hanaaist_adherent: "ханаист" #Машинный перевод 28.10.23
- hanaaist_adherent_plural: "Ханаисты" #Машинный перевод 28.10.23
- hanaaist_desc: "Дорога Единого была основана пророчицей по имени Ханаа, женщиной, родившейся под властью [wardenite|E]. Ханаа родилась ритуалисткой, но активно дружила с варденитами. Говорят, что Ханаа, поднявшись по ступеням [GetBuilding('01_sophocos').GetName], получив понимание верований варденитов и сочувствуя делу варденитов, получила откровение, предупредившее ее, что физический мир был создан злонамеренным демиургом и что именно этот демиург со слугами необходимо бороться, когда это возможно. Только через его уничтожение смертные смогут освободиться от оков физического существования и вечно обитать в Садах Жизни. Ханаа также проповедовал, что существует только один бог и что этот бог назван Единым. Единый давно приказал ритуалистам сразиться с демиургом, но эти пророки были неверно истолкованы или убиты их последователями; поэтому Единый дал откровение первому из Варденитов и покинул Ритуалистов. Но если Ритуалисты прислушаются к Ханаа и будут жить в соответствии с Дорогой Единого — списком законов, переданных в Ханаа, — Единый снова окажет им благосклонность." #Машинный перевод 28.10.23
+ hanaaist: "Ханаист" 
+ hanaaist_adj: "Тарриак аль-Вахейд" 
+ hanaaist_adherent: "Ханаист" 
+ hanaaist_adherent_plural: "Ханаисты" 
+ hanaaist_desc: "Дорога Единого была основана пророчицей по имени Ханаа, женщиной, родившейся под властью [Concept('wardenite','варденитов')|E]. Ханаа родилась приверженкой ритуалов, но активно общалась с варденитами. Говорили, что Ханаа, достигшая понимания верований варденитов и сочувствующая делу варденитов, получила откровение, когда поднялась по ступеням [GetBuilding('01_sophocos').GetName], предупреждающий ее, что физический мир был создан злобным демиургом, и что со слугами этого демиурга следует бороться всякий раз, когда это возможно. Только благодаря его уничтожению смертные могут освободиться от оков физического существования и вечно пребывать в Садах Жизни. Ханаа также проповедовал, что есть только один бог, и что этот бог был назван Единым. Единый давным-давно повелел Ритуалистам сразиться с демиургом, но эти пророки были неверно истолкованы или убиты их последователями; поэтому Единый дал откровение первому из Хранителей и покинул Ритуалистов. Но если ритуалисты прислушаются к Ханаа и будут жить в соответствии с Путем Единого - списком законов, переданных Ханаа, - Единый снова будет благосклонен к ним."
   
   #good gods 
- hanaaist_creator_god_name: "Мавтал" #Машинный перевод 28.10.23
- hanaaist_creator_god_name_possessive: "Маутала" #Машинный перевод 28.10.23
- hanaaist_high_god_name: "аль-Вахейд" #Машинный перевод 28.10.23
- hanaaist_high_god_name_possessive: "аль-Вахейд" #Машинный перевод 28.10.23
- hanaaist_high_god_name_alternate: "аль-Вахайд ас-Софокос" #Машинный перевод 28.10.23
- hanaaist_high_god_name_alternate_possessive: "аль-Вахайд ас-Софокос" #Машинный перевод 28.10.23
- hanaaist_fertility_god_name: "Ханаа" #Машинный перевод 28.10.23
- hanaaist_fertility_god_name_possessive: "Ханаа" #Машинный перевод 28.10.23
- hanaaist_health_god: "Это" #Машинный перевод 28.10.23
- hanaaist_health_god_possessive: "Как есть" #Машинный перевод 28.10.23
+ hanaaist_creator_god_name: "Мавтал" 
+ hanaaist_creator_god_name_possessive: "Маутала" 
+ hanaaist_high_god_name: "аль-Вахейд" 
+ hanaaist_high_god_name_possessive: "аль-Вахейд" 
+ hanaaist_high_god_name_alternate: "аль-Вахайд ас-Софокос" 
+ hanaaist_high_god_name_alternate_possessive: "аль-Вахайд ас-Софокос" 
+ hanaaist_fertility_god_name: "Ханаа" 
+ hanaaist_fertility_god_name_possessive: "Ханаа" 
+ hanaaist_health_god: "Иса" 
+ hanaaist_health_god_possessive: "Исаский" 
   
  #Xwestrozen localization 
- xwestrozen: "Квестрозен" #Машинный перевод 28.10.23
- xwestrozen_adj: "Квестрозен" #Машинный перевод 28.10.23
- xwestrozen_adherent: "Квестрозен" #Машинный перевод 28.10.23
- xwestrozen_adherent_plural: "Квестрозенс" #Машинный перевод 28.10.23
- xwestrozen_desc: "Квестрозен возникла вместе с Назой Великой после того, как она получила откровение об истинной природе [GetBuilding('01_sophocos').GetName]. Xwestrosên утверждают, что Софокос на самом деле не настоящее место, а скорее песня с тысячей и одной нотой, каждая из которых поднимается вверх по высоте. Предположительно, владение этой песней даст человеку просветление и большие магические навыки, при этом Xwestrosên верят, что [magi|E] черпают свою силу из знания некоторых нот песни. Однако вся музыка считается священной для Xwestrosen, а не только «Песнь Софокоса», а музыканты широко считаются благочестивыми людьми." #Машинный перевод 28.10.23
+ xwestrozen: "Квестрозен" 
+ xwestrozen_adj: "Квестрозен" 
+ xwestrozen_adherent: "Квестрозен" 
+ xwestrozen_adherent_plural: "Квестрозенс" 
+ xwestrozen_desc: "Квесторозен возник у Назы Великой после того, как она получила откровение об истинной природе [GetBuilding('01_sophocos').GetName]. Квесторозены утверждают, что Софокос на самом деле не является реальным местом, а скорее песней с тысячей и одной нотой, каждая из которых поднимается по высоте. Предположительно, овладение этой песней дарует человеку просветление и великое магическое мастерство, причем западноземцы верят, что [Concept('magi','маги')|E] черпают свою силу из знания некоторых нот песни. Однако для западноземцев вся музыка считается священной, а не только песня Софокла, и музыканты широко известны как благочестивые люди".
   
   # Pirate Coast Ritualists 
- corkkattirkana: "Корккаттиркана" #Машинный перевод 28.10.23
- corkkattirkana_adj: "Корккаттирканан" #Машинный перевод 28.10.23
- corkkattirkana_adherent: "Корккаттирканан" #Машинный перевод 28.10.23
- corkkattirkana_adherent_plural: "Корккаттирканас" #Машинный перевод 28.10.23
- corkkattirkana_desc: "Секта [ritualist|E], родившаяся на [pirate_coast|E], Корккаттиркана верит, что восхождение на [GetBuilding('01_sophocos').GetName] может по-настоящему совершить только величайший из верующих. Каждый последователь стремится превзойти других, как будто соревнуясь за право решить, кто завершит восхождение." #Машинный перевод 28.10.23
+ corkkattirkana: "Корккаттирканан" 
+ corkkattirkana_adj: "Корккаттиркана" 
+ corkkattirkana_adherent: "Корккаттирканан" 
+ corkkattirkana_adherent_plural: "Корккаттирканас" 
+ corkkattirkana_desc: "Секта [Concept('ritualist','ритуалистов')|E], родившаяся на [Concept('pirate_coast','Пиратском побережье')|E], Корккаттиркана верят, что восхождение на [GetBuilding('01_sophocos').GetName] по-настоящему может быть завершен только величайшим из верующих. Каждый последователь стремится быть выше других, как будто соревнуясь в том, кто завершит восхождение."

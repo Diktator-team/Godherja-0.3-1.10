@@ -1,73 +1,73 @@
 ﻿l_russian:
   
  #quwazaw Loc 
- quwazaw_religion: "Кувазау" #Машинный перевод 28.10.23
- quwazaw_religion_adj: "Кувазави" #Машинный перевод 28.10.23
- quwazaw_religion_adherent: "Кувазау" #Машинный перевод 28.10.23
- quwazaw_religion_adherent_plural: "Кувазави" #Машинный перевод 28.10.23
- quwazaw_religion_desc: "Можно было бы простить, увидев кувазави и предположив, что они — ответвление адабисов, почитающих великие статуи людей и животных. Однако на этом сходство заканчивается. Они верят, что эти божественные мегалиты — не просто изображения богов, созданные по их образу, но каменные остатки дремлющих физических аватаров их богов. Они защищают эти статуи изо всех сил, ожидая того дня, когда их покровителям, возможно, придется пробудиться. Боги — истинные правители мира, а Кувазави — лишь временные его смотрители." #Машинный перевод 28.10.23
- quwazaw_high_god_name: "Азесос" #Машинный перевод 28.10.23
- quwazaw_high_god_name_possessive: "Азесос'" #Машинный перевод 28.10.23
- quwazaw_high_god_name_alternate: "Каменный Титан" #Машинный перевод 28.10.23
- quwazaw_high_god_name_alternate_possessive: "Каменный Титан" #Машинный перевод 28.10.23
- quwazaw_devil_name: "Баалак" #Машинный перевод 28.10.23
- quwazaw_devil_name_possessive: "Баалака" #Машинный перевод 28.10.23
- quwazaw_death_deity_name: "Баалальт Гебак" #Машинный перевод 28.10.23
- quwazaw_death_deity_name_possessive: "Баалальт Гебак" #Машинный перевод 28.10.23
+ quwazaw_religion: "Кувазави" 
+ quwazaw_religion_adj: "Кувазау" 
+ quwazaw_religion_adherent: "Кувазау" 
+ quwazaw_religion_adherent_plural: "Кувазави" 
+ quwazaw_religion_desc: "Можно было бы простить, если бы, увидев кувазави, можно было предположить, что они являются ответвлением адабиссийцев, почитающих великие статуи людей и зверей. Однако на этом сходство заканчивается. Они верят, что эти божественные мегалиты - не просто изображения богов, созданные по их образу и подобию, но каменные останки дремлющих физических воплощений их богов. Они защищают эти статуи изо всех сил, ожидая того дня, когда их покровителям, возможно, потребуется пробудиться. Боги - истинные правители мира, а кувазави - всего лишь его временные опекуны."
+ quwazaw_high_god_name: "Азесос" 
+ quwazaw_high_god_name_possessive: "Азесос'" 
+ quwazaw_high_god_name_alternate: "Каменный Титан" 
+ quwazaw_high_god_name_alternate_possessive: "Каменный Титан" 
+ quwazaw_devil_name: "Баалак" 
+ quwazaw_devil_name_possessive: "Баалака" 
+ quwazaw_death_deity_name: "Баалальт Гебак" 
+ quwazaw_death_deity_name_possessive: "Баалальт Гебак" 
   
   
   
- quwazaw_house_of_worship: "храм" #Машинный перевод 28.10.23
- quwazaw_house_of_worship_plural: "храмы" #Машинный перевод 28.10.23
- quwazaw_religious_symbol: "Каменный Титан" #Машинный перевод 28.10.23
- quwazaw_religious_text: "Идолы Божественного" #Машинный перевод 28.10.23
+ quwazaw_house_of_worship: "храм" 
+ quwazaw_house_of_worship_plural: "храмы" 
+ quwazaw_religious_symbol: "Каменный Титан" 
+ quwazaw_religious_text: "Идолы Божественного" 
   
- quwazaw_religious_head_title: "Великое путешествие" #Машинный перевод 28.10.23
- quwazaw_religious_head_title_name: "Алмасафиралрайисиу" #Машинный перевод 28.10.23
- quwazaw_devotee_male: "Путешественник" #Машинный перевод 28.10.23
- quwazaw_devotee_male_plural: "Путешественники" #Машинный перевод 28.10.23
- quwazaw_devotee_female: "Путешественник" #Машинный перевод 28.10.23
- quwazaw_devotee_female_plural: "Путешественники" #Машинный перевод 28.10.23
- quwazaw_devotee_neuter: "Путешественник" #Машинный перевод 28.10.23
- quwazaw_devotee_neuter_plural: "Путешественники" #Машинный перевод 28.10.23
- quwazaw_priest_male: "Алмасафир" #Машинный перевод 28.10.23
- quwazaw_priest_male_plural: "Алмасафири" #Машинный перевод 28.10.23
- quwazaw_priest_female: "Алмасафир" #Машинный перевод 28.10.23
- quwazaw_priest_female_plural: "Алмасафири" #Машинный перевод 28.10.23
- quwazaw_priest_alternate: "Алмасафир" #Машинный перевод 28.10.23
- quwazaw_priest_alternate_plural: "Алмасафири" #Машинный перевод 28.10.23
- quwazaw_bishop: "Мусафирмуртаф" #Машинный перевод 28.10.23
- quwazaw_bishop_plural: "Мусафирмуртаф" #Машинный перевод 28.10.23
- quwazaw_positive_afterlife: "Божественный город" #Машинный перевод 28.10.23
- quwazaw_negative_afterlife: "Город грешников" #Машинный перевод 28.10.23
+ quwazaw_religious_head_title: "Великое путешествие" 
+ quwazaw_religious_head_title_name: "Алмасафиралрайисиу" 
+ quwazaw_devotee_male: "Путешественник" 
+ quwazaw_devotee_male_plural: "Путешественники" 
+ quwazaw_devotee_female: "Путешественник" 
+ quwazaw_devotee_female_plural: "Путешественники" 
+ quwazaw_devotee_neuter: "Путешественник" 
+ quwazaw_devotee_neuter_plural: "Путешественники" 
+ quwazaw_priest_male: "Алмасафир" 
+ quwazaw_priest_male_plural: "Алмасафири" 
+ quwazaw_priest_female: "Алмасафир" 
+ quwazaw_priest_female_plural: "Алмасафири" 
+ quwazaw_priest_alternate: "Алмасафир" 
+ quwazaw_priest_alternate_plural: "Алмасафири" 
+ quwazaw_bishop: "Мусафирмуртаф" 
+ quwazaw_bishop_plural: "Мусафирмуртаф" 
+ quwazaw_positive_afterlife: "Божественный город" 
+ quwazaw_negative_afterlife: "Город грешников" 
   
- quwazaw_creator_god_name: "$quwazaw_high_god_name$" #Машинный перевод 28.10.23
- quwazaw_creator_god_name_possessive: "$quwazaw_high_god_name_possessive$" #Машинный перевод 28.10.23
- quwazaw_health_god_name: "Баал Хадак" #Машинный перевод 28.10.23
- quwazaw_health_god_name_possessive: "Баал Хадак" #Машинный перевод 28.10.23
- quwazaw_fertility_god_name: "Баал Херконен" #Машинный перевод 28.10.23
- quwazaw_fertility_god_name_possessive: "Баал Херконен" #Машинный перевод 28.10.23
- quwazaw_wealth_god_name: "Бэл Хэммон" #Машинный перевод 28.10.23
- quwazaw_wealth_god_name_possessive: "Бэл Хэммон" #Машинный перевод 28.10.23
- quwazaw_household_god_name: "Буульшумин" #Машинный перевод 28.10.23
- quwazaw_household_god_name_possessive: "Буульшумина" #Машинный перевод 28.10.23
- quwazaw_fate_god_name: "$quwazaw_high_god_name$" #Машинный перевод 28.10.23
- quwazaw_fate_god_name_possessive: "$quwazaw_high_god_name_possessive$" #Машинный перевод 28.10.23
- quwazaw_knowledge_god_name: "Баал-Цеф" #Машинный перевод 28.10.23
- quwazaw_knowledge_god_name_possessive: "Баал-Цефа" #Машинный перевод 28.10.23
- quwazaw_war_god_name: "Хемош" #Машинный перевод 28.10.23
- quwazaw_war_god_name_possessive: "Хемоша" #Машинный перевод 28.10.23
- quwazaw_trickster_god_name: "Даган" #Машинный перевод 28.10.23
- quwazaw_trickster_god_name_possessive: "Дагана" #Машинный перевод 28.10.23
- quwazaw_night_god_name: "Эшмунлин" #Машинный перевод 28.10.23
- quwazaw_night_god_name_possessive: "Эшмунлина" #Машинный перевод 28.10.23
- quwazaw_water_god_name: "$quwazaw_health_god_name$" #Машинный перевод 28.10.23
- quwazaw_water_god_name_possessive: "$quwazaw_health_god_name_possessive$" #Машинный перевод 28.10.23
- quwazaw_witch_god_name: "Ишара" #Машинный перевод 28.10.23
- quwazaw_witch_god_name_possessive: "Ишары" #Машинный перевод 28.10.23
+ quwazaw_creator_god_name: "$quwazaw_high_god_name$" 
+ quwazaw_creator_god_name_possessive: "$quwazaw_high_god_name_possessive$" 
+ quwazaw_health_god_name: "Баал Хадак" 
+ quwazaw_health_god_name_possessive: "Баал Хадак" 
+ quwazaw_fertility_god_name: "Баал Херконен" 
+ quwazaw_fertility_god_name_possessive: "Баал Херконен" 
+ quwazaw_wealth_god_name: "Бэл Хэммон" 
+ quwazaw_wealth_god_name_possessive: "Бэл Хэммон" 
+ quwazaw_household_god_name: "Буульшумин" 
+ quwazaw_household_god_name_possessive: "Буульшумина" 
+ quwazaw_fate_god_name: "$quwazaw_high_god_name$" 
+ quwazaw_fate_god_name_possessive: "$quwazaw_high_god_name_possessive$" 
+ quwazaw_knowledge_god_name: "Баал-Цеф" 
+ quwazaw_knowledge_god_name_possessive: "Баал-Цефа" 
+ quwazaw_war_god_name: "Хемош" 
+ quwazaw_war_god_name_possessive: "Хемоша" 
+ quwazaw_trickster_god_name: "Даган" 
+ quwazaw_trickster_god_name_possessive: "Дагана" 
+ quwazaw_night_god_name: "Эшмунлин" 
+ quwazaw_night_god_name_possessive: "Эшмунлина" 
+ quwazaw_water_god_name: "$quwazaw_health_god_name$" 
+ quwazaw_water_god_name_possessive: "$quwazaw_health_god_name_possessive$" 
+ quwazaw_witch_god_name: "Ишара" 
+ quwazaw_witch_god_name_possessive: "Ишары" 
   
- quwazaw: "Кувазау" #Машинный перевод 28.10.23
- quwazaw_adj: "Кувазави" #Машинный перевод 28.10.23
- quwazaw_adherent: "Кувазави" #Машинный перевод 28.10.23
- quwazaw_adherent_plural: "Кувазави" #Машинный перевод 28.10.23
- quwazaw_desc: "Кувазави относятся к титаническим каменным статуям, которым они поклоняются, с величайшим почтением: моют их, перерисовывают замысловатые узоры на них и даже ткут для них огромные плащи, на изготовление которых уходит целая деревня в год. Основной движущей силой этих действий, которые посторонние считают глупой тратой времени и ресурсов, является уверенность в том, что они будут вознаграждены за свое благочестие и долг, когда их боги пробудятся и вновь подтвердят свою власть над человечеством." #Машинный перевод 28.10.23
+ quwazaw: "Кувазави" 
+ quwazaw_adj: "Кувазау" 
+ quwazaw_adherent: "Кувазави" 
+ quwazaw_adherent_plural: "Кувазави" 
+ quwazaw_desc: "Кувазави относятся к гигантским каменным статуям, которым они поклоняются, с величайшим почтением: они моют их, перекрашивают замысловатые узоры на них и даже ткут для них великолепные плащи, на изготовление которых уходит целый год. Главной движущей силой этих действий, отвергаемых посторонними как глупая трата времени и ресурсов, является уверенность в том, что они будут вознаграждены за свое благочестие и долг, когда их боги пробудятся и восстановят свою власть над человечеством."
