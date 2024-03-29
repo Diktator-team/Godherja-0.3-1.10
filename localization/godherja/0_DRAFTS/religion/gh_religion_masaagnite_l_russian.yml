@@ -1,69 +1,69 @@
 ﻿l_russian:
  #masaagnite Loc 
- masaagnite_religion: "Масаагнизм" #Машинный перевод 28.10.23
- masaagnite_religion_adj: "Масаагнит" #Машинный перевод 28.10.23
- masaagnite_religion_adjerent: "Масаагнит" #Машинный перевод 28.10.23
- masaagnite_religion_adherent_plural: "Масаагнит" #Машинный перевод 28.10.23
- masaagnite_religion_desc: "Древние храмы Роджихлат Мара уже давно сбивают с толку тех, кто достаточно заблудился, чтобы наткнуться на них, но для масаанитов разрушающиеся руины представляют собой дома богов и остатки некогда славной эпохи, которой они правили. Масаагниты считают своим долгом удовлетворить свой пантеон бесконечными жертвоприношениями высоко на алтарях, которые они когда-то называли домом, ибо если они этого не сделают, боги вместо этого поглотят саму вселенную. Полагая, что злой дух Корромеш обманом заставил богов съесть голода, те, кто не дает достаточно дани, считаются пожираемыми огромными пастями самих божеств, но тех, кто это делает, ждет вечность пиршества и празднования. ." #Машинный перевод 28.10.23
- masaagnite_high_god_name: "Вошараа" #Машинный перевод 28.10.23
- masaagnite_high_god_name_possessive: "Вошараа" #Машинный перевод 28.10.23
- masaagnite_high_god_name_alternate: "Великий Пожиратель" #Машинный перевод 28.10.23
- masaagnite_high_god_name_alternate_possessive: "Великие Пожиратели" #Машинный перевод 28.10.23
- masaagnite_devil_name: "Корромеш" #Машинный перевод 28.10.23
- masaagnite_devil_name_possessive: "Корромеша" #Машинный перевод 28.10.23
- masaagnite_death_deity_name: "Аргановаа" #Машинный перевод 28.10.23
- masaagnite_death_deity_name_possessive: "Аргановаа" #Машинный перевод 28.10.23
+ masaagnite_religion: "Масаагнит" 
+ masaagnite_religion_adj: "Масаагнизм" 
+ masaagnite_religion_adjerent: "Масаагнит" 
+ masaagnite_religion_adherent_plural: "Масаагнит" 
+ masaagnite_religion_desc: "Древние храмы Рожихлат Мара долгое время приводили в замешательство тех, кто заблудился настолько, что наткнулся на них, но для масаагнит рушащиеся руины представляют собой жилища богов и остатки некогда славной эпохи, во главе которой они стояли. Масаагниты верят, что их долг - удовлетворять свой пантеон бесконечными жертвоприношениями высоко на алтарях, которые они когда-то называли домом, ибо, если они этого не сделают, боги вместо этого поглотят саму вселенную. Полагая, что злой дух Корромеш обманул богов, заставив их съесть сам голод, считается, что те, кто не приносит достаточной дани, будут съедены огромными пастями самих божеств, но тех, кто это делает, ждет вечность пиршеств и празднований."
+ masaagnite_high_god_name: "Вошараа" 
+ masaagnite_high_god_name_possessive: "Вошараа" 
+ masaagnite_high_god_name_alternate: "Великий Пожиратель" 
+ masaagnite_high_god_name_alternate_possessive: "Великие Пожиратели" 
+ masaagnite_devil_name: "Корромеш" 
+ masaagnite_devil_name_possessive: "Корромеша" 
+ masaagnite_death_deity_name: "Аргановаа" 
+ masaagnite_death_deity_name_possessive: "Аргановаа" 
   
   
- masaagnite_house_of_worship: "храм" #Машинный перевод 28.10.23
- masaagnite_house_of_worship_plural: "храмы" #Машинный перевод 28.10.23
- masaagnite_religious_symbol: "Красный Алтарь" #Машинный перевод 28.10.23
- masaagnite_religious_text: "Малаах" #Машинный перевод 28.10.23
+ masaagnite_house_of_worship: "храм" 
+ masaagnite_house_of_worship_plural: "храмы" 
+ masaagnite_religious_symbol: "Красный Алтарь" 
+ masaagnite_religious_text: "Малаах" 
   
- masaagnite_religious_head_title: "Кормокорум" #Машинный перевод 28.10.23
- masaagnite_religious_head_title_name: "Кормокан" #Машинный перевод 28.10.23
- masaagnite_devotee_male: "Масаагнит" #Машинный перевод 28.10.23
- masaagnite_devotee_male_plural: "Масаагниты" #Машинный перевод 28.10.23
- masaagnite_devotee_female: "Масаагнит" #Машинный перевод 28.10.23
- masaagnite_devotee_female_plural: "Масаагниты" #Машинный перевод 28.10.23
- masaagnite_devotee_neuter: "Масаагнит" #Машинный перевод 28.10.23
- masaagnite_devotee_neuter_plural: "Масаагниты" #Машинный перевод 28.10.23
- masaagnite_priest_male: "Замокан" #Машинный перевод 28.10.23
- masaagnite_priest_male_plural: "Замоканцы" #Машинный перевод 28.10.23
- masaagnite_priest_female: "Залокан" #Машинный перевод 28.10.23
- masaagnite_priest_female_plural: "Залоканы" #Машинный перевод 28.10.23
- masaagnite_priest_alternate_plural: "Займан" #Машинный перевод 28.10.23
- masaagnite_bishop: "Ваалора" #Машинный перевод 28.10.23
- masaagnite_bishop_plural: "Ваалорас" #Машинный перевод 28.10.23
- masaagnite_positive_afterlife: "Небесный праздник" #Машинный перевод 28.10.23
- masaagnite_negative_afterlife: "Рот отчаяния" #Машинный перевод 28.10.23
+ masaagnite_religious_head_title: "Кормокорум" 
+ masaagnite_religious_head_title_name: "Кормокан" 
+ masaagnite_devotee_male: "Масаагнит" 
+ masaagnite_devotee_male_plural: "Масаагниты" 
+ masaagnite_devotee_female: "Масаагнит" 
+ masaagnite_devotee_female_plural: "Масаагниты" 
+ masaagnite_devotee_neuter: "Масаагнит" 
+ masaagnite_devotee_neuter_plural: "Масаагниты" 
+ masaagnite_priest_male: "Замокан" 
+ masaagnite_priest_male_plural: "Замоканцы" 
+ masaagnite_priest_female: "Залокан" 
+ masaagnite_priest_female_plural: "Залоканы" 
+ masaagnite_priest_alternate_plural: "Займан" 
+ masaagnite_bishop: "Ваалора" 
+ masaagnite_bishop_plural: "Ваалорас" 
+ masaagnite_positive_afterlife: "Небесный праздник" 
+ masaagnite_negative_afterlife: "Рот отчаяния" 
   
- masaagnite_creator_god_name: "$masaagnite_high_god_name$" #Машинный перевод 28.10.23
- masaagnite_creator_god_name_possessive: "$masaagnite_high_god_name_possessive$" #Машинный перевод 28.10.23
- masaagnite_health_god_name: "Варлаа" #Машинный перевод 28.10.23
- masaagnite_health_god_name_possessive: "Варлаа" #Машинный перевод 28.10.23
- masaagnite_fertility_god_name: "$masaagnite_high_god_name$" #Машинный перевод 28.10.23
- masaagnite_fertility_god_name_possessive: "$masaagnite_health_god_name_possessive$" #Машинный перевод 28.10.23
- masaagnite_wealth_god_name: "$masaagnite_health_god_name$" #Машинный перевод 28.10.23
- masaagnite_wealth_god_name_possessive: "$masaagnite_high_god_name_possessive$" #Машинный перевод 28.10.23
- masaagnite_household_god_name: "$masaagnite_health_god_name$" #Машинный перевод 28.10.23
- masaagnite_household_god_name_possessive: "$masaagnite_health_god_name_possessive$" #Машинный перевод 28.10.23
- masaagnite_fate_god_name: "$masaagnite_high_god_name$" #Машинный перевод 28.10.23
- masaagnite_fate_god_name_possessive: "$masaagnite_high_god_name_possessive$" #Машинный перевод 28.10.23
- masaagnite_knowledge_god_name: "$masaagnite_high_god_name$" #Машинный перевод 28.10.23
- masaagnite_knowledge_god_name_possessive: "$masaagnite_high_god_name_possessive$" #Машинный перевод 28.10.23
- masaagnite_war_god_name: "Хамаз" #Машинный перевод 28.10.23
- masaagnite_war_god_name_possessive: "Хамаза" #Машинный перевод 28.10.23
- masaagnite_trickster_god_name: "Говтана" #Машинный перевод 28.10.23
- masaagnite_trickster_god_name_possessive: "Говтаны" #Машинный перевод 28.10.23
- masaagnite_night_god_name: "$masaagnite_high_god_name$" #Машинный перевод 28.10.23
- masaagnite_night_god_name_possessive: "$masaagnite_high_god_name_possessive$" #Машинный перевод 28.10.23
- masaagnite_water_god_name: "$masaagnite_health_god_name$" #Машинный перевод 28.10.23
- masaagnite_water_god_name_possessive: "$masaagnite_health_god_name_possessive$" #Машинный перевод 28.10.23
- masaagnite_witch_god_name: "Икамприс" #Машинный перевод 28.10.23
- masaagnite_witch_god_name_possessive: "Икамприса" #Машинный перевод 28.10.23
+ masaagnite_creator_god_name: "$masaagnite_high_god_name$" 
+ masaagnite_creator_god_name_possessive: "$masaagnite_high_god_name_possessive$" 
+ masaagnite_health_god_name: "Варлаа" 
+ masaagnite_health_god_name_possessive: "Варлаа" 
+ masaagnite_fertility_god_name: "$masaagnite_high_god_name$" 
+ masaagnite_fertility_god_name_possessive: "$masaagnite_health_god_name_possessive$" 
+ masaagnite_wealth_god_name: "$masaagnite_health_god_name$" 
+ masaagnite_wealth_god_name_possessive: "$masaagnite_high_god_name_possessive$" 
+ masaagnite_household_god_name: "$masaagnite_health_god_name$" 
+ masaagnite_household_god_name_possessive: "$masaagnite_health_god_name_possessive$" 
+ masaagnite_fate_god_name: "$masaagnite_high_god_name$" 
+ masaagnite_fate_god_name_possessive: "$masaagnite_high_god_name_possessive$" 
+ masaagnite_knowledge_god_name: "$masaagnite_high_god_name$" 
+ masaagnite_knowledge_god_name_possessive: "$masaagnite_high_god_name_possessive$" 
+ masaagnite_war_god_name: "Хамаз" 
+ masaagnite_war_god_name_possessive: "Хамаза" 
+ masaagnite_trickster_god_name: "Говтана" 
+ masaagnite_trickster_god_name_possessive: "Говтаны" 
+ masaagnite_night_god_name: "$masaagnite_high_god_name$" 
+ masaagnite_night_god_name_possessive: "$masaagnite_high_god_name_possessive$" 
+ masaagnite_water_god_name: "$masaagnite_health_god_name$" 
+ masaagnite_water_god_name_possessive: "$masaagnite_health_god_name_possessive$" 
+ masaagnite_witch_god_name: "Икамприс" 
+ masaagnite_witch_god_name_possessive: "Икамприса" 
   
- masaagnite: "Масаагнит" #Машинный перевод 28.10.23
- masaagnite_adj: "Масаагнит" #Машинный перевод 28.10.23
- masaagnite_adherent: "Масаагнит" #Машинный перевод 28.10.23
- masaagnite_adherent_plural: "Масаагниты" #Машинный перевод 28.10.23
+ masaagnite: "Масаагнит" 
+ masaagnite_adj: "Масаагнит" 
+ masaagnite_adherent: "Масаагнит" 
+ masaagnite_adherent_plural: "Масаагниты" 

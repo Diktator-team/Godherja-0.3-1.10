@@ -1,82 +1,82 @@
 ﻿l_russian:
   
  #kakarataki Loc 
- kakarataki_religion: "Какаратаки" #Машинный перевод 28.10.23
- kakarataki_religion_adj: "Какаратаки" #Машинный перевод 28.10.23
- kakarataki_religion_adjerent: "Какаратаки" #Машинный перевод 28.10.23
- kakarataki_religion_adherent_plural: "Какаратаки" #Машинный перевод 28.10.23
- kakarataki_religion_desc: "Для Какаратаки, изначально аграрного народа, Солнце является источником всего хорошего. Они считают его аватаром бога Кору, создателя человечества. Однако они считают Луну, создательницу всех созданий ночи, заклятым врагом Солнца. Эти двое вовлечены в дуалистическую битву за контроль над космосом, а внизу их творения борются за контроль над миром." #Машинный перевод 28.10.23
- kakarataki_high_god_name: "Солнце" #Машинный перевод 28.10.23
- kakarataki_high_god_name_possessive: "Солнца" #Машинный перевод 28.10.23
- kakarataki_high_god_name_alternate: "Кору" #Машинный перевод 28.10.23
- kakarataki_high_god_name_alternate_possessive: "Кору" #Машинный перевод 28.10.23
- kakarataki_devil_name: "Луна" #Машинный перевод 28.10.23
- kakarataki_devil_name_possessive: "Луны" #Машинный перевод 28.10.23
- kakarataki_death_deity_name: "$kakarataki_devil_name$" #Машинный перевод 28.10.23
- kakarataki_death_deity_name_possessive: "$kakarataki_devil_name_possessive$" #Машинный перевод 28.10.23
+ kakarataki_religion: "Какаратаки" 
+ kakarataki_religion_adj: "Какаратаки" 
+ kakarataki_religion_adjerent: "Какаратаки" 
+ kakarataki_religion_adherent_plural: "Какаратаки" 
+ kakarataki_religion_desc: "Для какаратаки, изначально аграрного народа, Солнце является носителем всего хорошего. Они считают его аватаром бога Кору, создателя человечества. Однако они считают Луну, создательницу всех ночных созданий, заклятым врагом Солнца. Эти двое вовлечены в дуалистическую битву за контроль над космосом, а внизу их творения сражаются за контроль над миром."
+ kakarataki_high_god_name: "Солнце" 
+ kakarataki_high_god_name_possessive: "Солнца" 
+ kakarataki_high_god_name_alternate: "Кору" 
+ kakarataki_high_god_name_alternate_possessive: "Кору" 
+ kakarataki_devil_name: "Луна" 
+ kakarataki_devil_name_possessive: "Луны" 
+ kakarataki_death_deity_name: "$kakarataki_devil_name$" 
+ kakarataki_death_deity_name_possessive: "$kakarataki_devil_name_possessive$" 
   
- kakarataki_house_of_worship: "Карам" #Машинный перевод 28.10.23
- kakarataki_house_of_worship_plural: "Карами" #Машинный перевод 28.10.23
- kakarataki_religious_symbol: "Сияющее Солнце" #Машинный перевод 28.10.23
- kakarataki_religious_text: "Закон Кору" #Машинный перевод 28.10.23
+ kakarataki_house_of_worship: "Карам" 
+ kakarataki_house_of_worship_plural: "Карами" 
+ kakarataki_religious_symbol: "Сияющее Солнце" 
+ kakarataki_religious_text: "Закон Кору" 
   
- kakarataki_religious_head_title: "Мастер Кяш" #Машинный перевод 28.10.23
- kakarataki_religious_head_title_name: "Карам Солнца" #Машинный перевод 28.10.23
- kakarataki_devotee_male: "Какаратаки" #Машинный перевод 28.10.23
- kakarataki_devotee_male_plural: "Какаратаки" #Машинный перевод 28.10.23
- kakarataki_devotee_female: "Какаратай" #Машинный перевод 28.10.23
- kakarataki_devotee_female_plural: "Какаратаки" #Машинный перевод 28.10.23
- kakarataki_devotee_neuter: "Какаратаки" #Машинный перевод 28.10.23
- kakarataki_devotee_neuter_plural: "Какаратаки" #Машинный перевод 28.10.23
- kakarataki_priest_male: "Kyash" #Машинный перевод 28.10.23
- kakarataki_priest_male_plural: "Кяши" #Машинный перевод 28.10.23
- kakarataki_priest_female: "Kyash" #Машинный перевод 28.10.23
- kakarataki_priest_female_plural: "Кяши" #Машинный перевод 28.10.23
- kakarataki_priest_alternate_plural: "Kyashari" #Машинный перевод 28.10.23
- kakarataki_bishop: "Высокий Кяш" #Машинный перевод 28.10.23
- kakarataki_bishop_plural: "Высокий Кьяши" #Машинный перевод 28.10.23
- kakarataki_positive_afterlife: "Корушалла" #Машинный перевод 28.10.23
- kakarataki_negative_afterlife: "Амнхалла" #Машинный перевод 28.10.23
+ kakarataki_religious_head_title: "Мастер Кяш" 
+ kakarataki_religious_head_title_name: "Карам Солнца" 
+ kakarataki_devotee_male: "Какаратаки" 
+ kakarataki_devotee_male_plural: "Какаратаки" 
+ kakarataki_devotee_female: "Какаратай" 
+ kakarataki_devotee_female_plural: "Какаратаки" 
+ kakarataki_devotee_neuter: "Какаратаки" 
+ kakarataki_devotee_neuter_plural: "Какаратаки" 
+ kakarataki_priest_male: "Kyash" 
+ kakarataki_priest_male_plural: "Кяши" 
+ kakarataki_priest_female: "Kyash" 
+ kakarataki_priest_female_plural: "Кяши" 
+ kakarataki_priest_alternate_plural: "Кьяшири" 
+ kakarataki_bishop: "Высокий Кяш" 
+ kakarataki_bishop_plural: "Высокий Кьяши" 
+ kakarataki_positive_afterlife: "Корушалла" 
+ kakarataki_negative_afterlife: "Амнхалла" 
   
- kakarataki_creator_god_name: "$kakarataki_high_god_name$" #Машинный перевод 28.10.23
- kakarataki_creator_god_name_possessive: "$kakarataki_high_god_name_possessive$" #Машинный перевод 28.10.23
- kakarataki_health_god_name: "$kakarataki_high_god_name$" #Машинный перевод 28.10.23
- kakarataki_health_god_name_possessive: "$kakarataki_high_god_name_possessive$" #Машинный перевод 28.10.23
- kakarataki_fertility_god_name: "$kakarataki_devil_name$" #Машинный перевод 28.10.23
- kakarataki_fertility_god_name_possessive: "$kakarataki_devil_name_possessive$" #Машинный перевод 28.10.23
- kakarataki_wealth_god_name: "$kakarataki_devil_name$" #Машинный перевод 28.10.23
- kakarataki_wealth_god_name_possessive: "$kakarataki_devil_name_possessive$" #Машинный перевод 28.10.23
- kakarataki_household_god_name: "$kakarataki_high_god_name$" #Машинный перевод 28.10.23
- kakarataki_household_god_name_possessive: "$kakarataki_high_god_name_possessive$" #Машинный перевод 28.10.23
- kakarataki_fate_god_name: "$kakarataki_devil_name$" #Машинный перевод 28.10.23
- kakarataki_fate_god_name_possessive: "$kakarataki_devil_name_possessive$" #Машинный перевод 28.10.23
- kakarataki_knowledge_god_name: "$kakarataki_high_god_name$" #Машинный перевод 28.10.23
- kakarataki_knowledge_god_name_possessive: "$kakarataki_high_god_name_possessive$" #Машинный перевод 28.10.23
- kakarataki_war_god_name: "$kakarataki_devil_name$" #Машинный перевод 28.10.23
- kakarataki_war_god_name_possessive: "$kakarataki_devil_name_possessive$" #Машинный перевод 28.10.23
- kakarataki_trickster_god_name: "$kakarataki_devil_name$" #Машинный перевод 28.10.23
- kakarataki_trickster_god_name_possessive: "$kakarataki_devil_name_possessive$" #Машинный перевод 28.10.23
- kakarataki_night_god_name: "$kakarataki_devil_name$" #Машинный перевод 28.10.23
- kakarataki_night_god_name_possessive: "$kakarataki_devil_name_possessive$" #Машинный перевод 28.10.23
- kakarataki_water_god_name: "$kakarataki_devil_name$" #Машинный перевод 28.10.23
- kakarataki_water_god_name_possessive: "$$kakarataki_devil_name_possessive$" #Машинный перевод 28.10.23
- kakarataki_witch_god_name: "$kakarataki_devil_name$" #Машинный перевод 28.10.23
- kakarataki_witch_god_name_possessive: "$kakarataki_devil_name_possessive$" #Машинный перевод 28.10.23
+ kakarataki_creator_god_name: "$kakarataki_high_god_name$" 
+ kakarataki_creator_god_name_possessive: "$kakarataki_high_god_name_possessive$" 
+ kakarataki_health_god_name: "$kakarataki_high_god_name$" 
+ kakarataki_health_god_name_possessive: "$kakarataki_high_god_name_possessive$" 
+ kakarataki_fertility_god_name: "$kakarataki_devil_name$" 
+ kakarataki_fertility_god_name_possessive: "$kakarataki_devil_name_possessive$" 
+ kakarataki_wealth_god_name: "$kakarataki_devil_name$" 
+ kakarataki_wealth_god_name_possessive: "$kakarataki_devil_name_possessive$" 
+ kakarataki_household_god_name: "$kakarataki_high_god_name$" 
+ kakarataki_household_god_name_possessive: "$kakarataki_high_god_name_possessive$" 
+ kakarataki_fate_god_name: "$kakarataki_devil_name$" 
+ kakarataki_fate_god_name_possessive: "$kakarataki_devil_name_possessive$" 
+ kakarataki_knowledge_god_name: "$kakarataki_high_god_name$" 
+ kakarataki_knowledge_god_name_possessive: "$kakarataki_high_god_name_possessive$" 
+ kakarataki_war_god_name: "$kakarataki_devil_name$" 
+ kakarataki_war_god_name_possessive: "$kakarataki_devil_name_possessive$" 
+ kakarataki_trickster_god_name: "$kakarataki_devil_name$" 
+ kakarataki_trickster_god_name_possessive: "$kakarataki_devil_name_possessive$" 
+ kakarataki_night_god_name: "$kakarataki_devil_name$" 
+ kakarataki_night_god_name_possessive: "$kakarataki_devil_name_possessive$" 
+ kakarataki_water_god_name: "$kakarataki_devil_name$" 
+ kakarataki_water_god_name_possessive: "$$kakarataki_devil_name_possessive$" 
+ kakarataki_witch_god_name: "$kakarataki_devil_name$" 
+ kakarataki_witch_god_name_possessive: "$kakarataki_devil_name_possessive$" 
   
   #kakarataki loc 
- kakarataki: "Какаратаки" #Машинный перевод 28.10.23
- kakarataki_adj: "Какаратаки" #Машинный перевод 28.10.23
- kakarataki_adjerent: "Какаратаки" #Машинный перевод 28.10.23
- kakarataki_adherent_plural: "Какаратаки" #Машинный перевод 28.10.23
- kakarataki_desc: "Какаратаки вошли в известный мир вместе с коалицией Шялволки. Из-за веры в то, что Солнце и Луна — два бога, ведущие вечную борьбу, они должны отдавать предпочтение Солнцу и сражаться с Луной. Жрецы ухаживают за садами священных растений, выращенных животворящим светом Солнца, на ночных существ следует охотиться, но никогда не есть их, а животным жертвоприношениям необходимо часто приносить Солнцу, чтобы поддержать его силы в вечной битве." #Машинный перевод 28.10.23
- kakarataki_old: "Старый Какаратаки" #Машинный перевод 28.10.23
- kakarataki_old_adj: "Старый Какаратаки" #Машинный перевод 28.10.23
- kakarataki_old_adherent: "Старый Какаратаки" #Машинный перевод 28.10.23
- kakarataki_old_adherent_plural: "Старый Какаратаки" #Машинный перевод 28.10.23
+ kakarataki: "Какаратаки" 
+ kakarataki_adj: "Какаратаки" 
+ kakarataki_adjerent: "Какаратаки" 
+ kakarataki_adherent_plural: "Какаратаки" 
+ kakarataki_desc: "Какаратаки вошли в известный мир вместе с коалицией Сьялволки. Из-за веры в то, что Солнце и Луна - это два бога, вовлеченные в вечную борьбу, они должны благоволить Солнцу и сражаться с Луной. Жрецы ухаживают за садами священных растений, выращиваемых живительным светом Солнца, на ночных существ следует охотиться, но никогда не употреблять в пищу, и часто следует приносить в жертву Солнцу животных, чтобы поддержать его силу в его вечной битве."
+ kakarataki_old: "Старый Какаратаки" 
+ kakarataki_old_adj: "Старый Какаратаки" 
+ kakarataki_old_adherent: "Старый Какаратаки" 
+ kakarataki_old_adherent_plural: "Старый Какаратаки" 
   
   #akrolenaki loc 
- akrolenaki: "Акроленаки" #Машинный перевод 28.10.23
- akrolenaki_adj: "Акроленаки" #Машинный перевод 28.10.23
- akrolenaki_adjerent: "Акроленаки" #Машинный перевод 28.10.23
- akrolenaki_adherent_plural: "Акроленаки" #Машинный перевод 28.10.23
- akrolenaki_desc: "Акроленаки верят, что война между Солнцем и Луной будет бесконечной, и что победа одного над другим будет означать навсегда конец [aeras|E], чего они стараются избежать. В результате они следуют более строгим убеждениям, чем большинство других, и их воинское жречество неизменно посвящает себя защите Кору. Часто ходят слухи, что Акроленаки радуются жертвоприношениям «врагов» Кору, посвящая большую часть своего времени охоте на неверных. Их экстремизм никогда по-настоящему не становился движущей силой, но их ряды никогда не подчинялись прихотям мира смертных, и они не станут: их божественный долг — сохранять баланс." #Машинный перевод 28.10.23
+ akrolenaki: "Акроленаки" 
+ akrolenaki_adj: "Акроленаки" 
+ akrolenaki_adjerent: "Акроленаки" 
+ akrolenaki_adherent_plural: "Акроленаки" 
+ akrolenaki_desc: "Акроленаки верят, что война между Солнцем и Луной будет бесконечной, и что победа одного над другим будет означать конец [Concept('aeras','Аэраса')|E] навсегда, чего они стремятся избежать. В результате они следуют более строгому вероучению, чем большинство других, их воинственное духовенство неизменно посвящает себя защите Кору. Ходят слухи, что акроленаки часто получают удовольствие от принесения в жертву "врагов" Кору, посвящая большую часть своего времени охоте на неверных. Их экстремизм никогда по-настоящему не становился движущей силой, но их ряды никогда не уступали прихотям мира смертных, и они этого не сделают: поддерживать равновесие - их божественный долг."

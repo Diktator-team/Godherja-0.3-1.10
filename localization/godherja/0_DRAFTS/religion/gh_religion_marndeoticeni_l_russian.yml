@@ -1,43 +1,43 @@
 ﻿l_russian:
   
- marndeoticeni_religion: "Чуеканизм" #Машинный перевод 28.10.23
- marndeoticeni_religion_adj: "Чуеканист" #Машинный перевод 28.10.23
- marndeoticeni_religion_adjerent: "Чуеканист" #Машинный перевод 28.10.23
- marndeoticeni_religion_adherent_plural: "Чуеканисты" #Машинный перевод 28.10.23
- marndeoticeni_religion_desc: "Древние верования народа марндеотичени на северных островах Аиронойя." #Машинный перевод 28.10.23
- marndeoticeni_high_god_name: "Чуэка" #Машинный перевод 28.10.23
- marndeoticeni_high_god_name_possessive: "Чуэка" #Машинный перевод 28.10.23
- marndeoticeni_high_god_name_alternate: "Одетый в черное" #Машинный перевод 28.10.23
- marndeoticeni_high_god_name_alternate_possessive: "Одетый в черное" #Машинный перевод 28.10.23
- marndeoticeni_devil_name: "Смерть" #Машинный перевод 28.10.23
- marndeoticeni_devil_name_possessive: "Летальные исходы" #Машинный перевод 28.10.23
- marndeoticeni_death_deity_name: "$marndeoticeni_devil_name$" #Машинный перевод 28.10.23
- marndeoticeni_death_deity_name_possessive: "$marndeoticeni_devil_name_possessive$" #Машинный перевод 28.10.23
+ marndeoticeni_religion: "Чуеканист" 
+ marndeoticeni_religion_adj: "Чуеканизм" 
+ marndeoticeni_religion_adjerent: "Чуеканист" 
+ marndeoticeni_religion_adherent_plural: "Чуеканисты" 
+ marndeoticeni_religion_desc: "Древние верования народа марндеотени на северных островах Айроноя."
+ marndeoticeni_high_god_name: "Чуека" 
+ marndeoticeni_high_god_name_possessive: "Чуека" 
+ marndeoticeni_high_god_name_alternate: "Одетый в черное" 
+ marndeoticeni_high_god_name_alternate_possessive: "Одетый в черное" 
+ marndeoticeni_devil_name: "Смерть" 
+ marndeoticeni_devil_name_possessive: "Смерти" 
+ marndeoticeni_death_deity_name: "$marndeoticeni_devil_name$" 
+ marndeoticeni_death_deity_name_possessive: "$marndeoticeni_devil_name_possessive$" 
   
- marndeoticeni_house_of_worship: "Руническая горн" #Машинный перевод 28.10.23
- marndeoticeni_house_of_worship_plural: "Рунные кузни" #Машинный перевод 28.10.23
- marndeoticeni_religious_symbol: "Первая Руна" #Машинный перевод 28.10.23
- marndeoticeni_religious_text: "древние руны" #Машинный перевод 28.10.23
+ marndeoticeni_house_of_worship: "Руническая горн" 
+ marndeoticeni_house_of_worship_plural: "Рунные кузни" 
+ marndeoticeni_religious_symbol: "Первая Руна" 
+ marndeoticeni_religious_text: "древние руны" 
   
- marndeoticeni_religious_head_title: "Первый Создатель" #Машинный перевод 28.10.23
- marndeoticeni_religious_head_title_name: "Первый Создатель" #Машинный перевод 28.10.23
- marndeoticeni_devotee: "фальсификатор" #Машинный перевод 28.10.23
- marndeoticeni_devotee_plural: "фальсификаторы" #Машинный перевод 28.10.23
- marndeoticeni_priest: "Создатель" #Машинный перевод 28.10.23
- marndeoticeni_priest_plural: "Шейперы" #Машинный перевод 28.10.23
- marndeoticeni_priest_alternate_plural: "Создатель" #Машинный перевод 28.10.23
- marndeoticeni_bishop: "Высокий формирователь" #Машинный перевод 28.10.23
- marndeoticeni_bishop_plural: "Высокие Шейперы" #Машинный перевод 28.10.23
- marndeoticeni_positive_afterlife: "Великая Кузница" #Машинный перевод 28.10.23
- marndeoticeni_negative_afterlife: "Великая Кузница" #Машинный перевод 28.10.23
+ marndeoticeni_religious_head_title: "Первый Создатель" 
+ marndeoticeni_religious_head_title_name: "Первый Создатель" 
+ marndeoticeni_devotee: "фальсификатор" 
+ marndeoticeni_devotee_plural: "фальсификаторы" 
+ marndeoticeni_priest: "Создатель" 
+ marndeoticeni_priest_plural: "Шейперы" 
+ marndeoticeni_priest_alternate_plural: "Создатель" 
+ marndeoticeni_bishop: "Высокий формирователь" 
+ marndeoticeni_bishop_plural: "Высокие Шейперы" 
+ marndeoticeni_positive_afterlife: "Великая Кузница" 
+ marndeoticeni_negative_afterlife: "Великая Кузница" 
   
- marndeoticeni_creator_god_name: "$marndeoticeni_high_god_name$" #Машинный перевод 28.10.23
- marndeoticeni_creator_god_name_possessive: "$marndeoticeni_high_god_name_possessive$" #Машинный перевод 28.10.23
- marndeoticeni_witch_god_name: "$marndeoticeni_devil_name$" #Машинный перевод 28.10.23
- marndeoticeni_witch_god_name_possessive: "$marndeoticeni_devil_name_possessive$" #Машинный перевод 28.10.23
+ marndeoticeni_creator_god_name: "$marndeoticeni_high_god_name$" 
+ marndeoticeni_creator_god_name_possessive: "$marndeoticeni_high_god_name_possessive$" 
+ marndeoticeni_witch_god_name: "$marndeoticeni_devil_name$" 
+ marndeoticeni_witch_god_name_possessive: "$marndeoticeni_devil_name_possessive$" 
   
- marndeoticeni_cult: "Чуеканизм" #Машинный перевод 28.10.23
- marndeoticeni_cult_adj: "Чуеканист" #Машинный перевод 28.10.23
- marndeoticeni_cult_adherent: "Чуеканист" #Машинный перевод 28.10.23
- marndeoticeni_cult_adherent_plural: "Чуеканисты" #Машинный перевод 28.10.23
- marndeoticeni_cult_desc: "Чуеканисты поклоняются Чуек'а, Одетому в черное, который научил человека искусству волшебства и создания рун, прежде чем погрузиться в глубокий сон. Они верят, что его [Concept('eastern_tower','sleeping form')|E] можно увидеть и по сей день, и всегда имеют сверхъестественное ощущение его местонахождения. В рунах Чуеканиста также говорится, что Чуек'а обучал «Первых Создателей», хотя знание того, что они сформировали, теперь давно утеряно." #Машинный перевод 28.10.23
+ marndeoticeni_cult: "Чуеканист" 
+ marndeoticeni_cult_adj: "Чуеканизм" 
+ marndeoticeni_cult_adherent: "Чуеканист" 
+ marndeoticeni_cult_adherent_plural: "Чуеканисты" 
+ marndeoticeni_cult_desc: "Чуеканисты поклоняются Чуек'а, Тому-Кто-Одет-в-Черное, кто научил человека искусству колдовства и составления рун, прежде чем погрузиться в глубокий сон. Они верят, что его [Concept('eastern_tower','спящая форма')|E] можно увидеть и по сей день, и у них всегда есть сверхъестественное чувство ее местоположения. Руны Чуеканистов также утверждают, что Чуек'а инструктировал "Первых формовщиков", хотя знания о том, что они сформировали, теперь давно утрачены во времени."

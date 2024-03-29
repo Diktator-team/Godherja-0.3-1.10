@@ -1,72 +1,72 @@
 ﻿l_russian:
- kaosahetam_religion: "Као'сахетам" #Машинный перевод 28.10.23
- kaosahetam_religion_adj: "Као'сахетам" #Машинный перевод 28.10.23
- kaosahetam_religion_adherent: "Као'сахетами" #Машинный перевод 28.10.23
- kaosahetam_religion_adherent_plural: "Као'сахетами" #Машинный перевод 28.10.23
- kaosahetam_religion_desc: "Као'сахетами верят в «Као» или «Фортуну», которой, по их мнению, обладает каждый человек, начиная с рождения. Тем, у кого много Као, повезло в своих начинаниях, а тем, у кого его не хватает, погрязли в несчастьях." #Машинный перевод 28.10.23
- kaosahetam_high_god_name: "Као" #Машинный перевод 28.10.23
- kaosahetam_high_god_name_possessive: "Као" #Машинный перевод 28.10.23
- kaosahetam_high_god_name_alternate: "Внутренняя удача" #Машинный перевод 28.10.23
- kaosahetam_high_god_name_alternate_possessive: "Внутренняя удача" #Машинный перевод 28.10.23
- kaosahetam_devil_name: "Хом" #Машинный перевод 28.10.23
- kaosahetam_devil_name_possessive: "Хома" #Машинный перевод 28.10.23
- kaosahetam_death_deity_name: "$kaosahetam_devil_god_name$" #Машинный перевод 28.10.23
- kaosahetam_death_deity_name_possessive: "$kaosahetam_devil_god_name_possessive$" #Машинный перевод 28.10.23
+ kaosahetam_religion: "Као'сахетам"  
+ kaosahetam_religion_adj: "Као'сахетам"  
+ kaosahetam_religion_adherent: "Као'сахетами"  
+ kaosahetam_religion_adherent_plural: "Као'сахетами"  
+ kaosahetam_religion_desc: "Као'сахетами верят в "Као" или "Удачу", которой, по их мнению, обладает каждый человек, начиная с рождения. Те, у кого много Као, благословлены удачей в своих начинаниях, в то время как те, кому ее не хватает, погрязают в несчастьях."
+ kaosahetam_high_god_name: "Као"  
+ kaosahetam_high_god_name_possessive: "Као"  
+ kaosahetam_high_god_name_alternate: "Внутренняя удача"  
+ kaosahetam_high_god_name_alternate_possessive: "Внутренняя удача"  
+ kaosahetam_devil_name: "Хом"  
+ kaosahetam_devil_name_possessive: "Хома"  
+ kaosahetam_death_deity_name: "$kaosahetam_devil_god_name$"  
+ kaosahetam_death_deity_name_possessive: "$kaosahetam_devil_god_name_possessive$"   
   
+ 
+ kaosahetam_house_of_worship: "Каофен"  
+ kaosahetam_house_of_worship_plural: "Каофенс"  
+ kaosahetam_religious_symbol: "Краб"  
+ kaosahetam_religious_text: "Шестьдесят шесть трактатов о Као"
+ 
+ kaosahetam_religious_head_title: "Дай Каотон"  
+ kaosahetam_religious_head_title_name: "Дай Каотонок"  
+ kaosahetam_devotee_male: "Као'сахетами"  
+ kaosahetam_devotee_male_plural: "Као'сахетами"  
+ kaosahetam_devotee_female: "Као'сахетами"  
+ kaosahetam_devotee_female_plural: "Као'сахетами" 
+ kaosahetam_devotee_neuter: "Као'сахетами" 
+ kaosahetam_devotee_neuter_plural: "Као'сахетами" 
+ kaosahetam_priest_male: "Тон"  
+ kaosahetam_priest_male_plural: "Тонай"  
+ kaosahetam_priest_female: "Тон"  
+ kaosahetam_priest_female_plural: "Тонай"  
+ kaosahetam_priest_alternate: "Тон"  
+ kaosahetam_priest_alternate_plural: "Тонай"  
+ kaosahetam_bishop: "Каотон"  
+ kaosahetam_bishop_plural: "Каотонай"  
+ kaosahetam_positive_afterlife: "Као"  
+ kaosahetam_negative_afterlife: "Хом"   
+ kaosahetam_creator_god_name: "$kaosahetam_high_god_name$"  
+ 
+ kaosahetam_creator_god_name_possessive: "$kaosahetam_high_god_name_possessive$"  
+ kaosahetam_health_god_name: "$kaosahetam_high_god_name$"  
+ kaosahetam_health_god_name_possessive: "$kaosahetam_high_god_name_possessive$"  
+ kaosahetam_fertility_god_name: "$kaosahetam_high_god_name$"  
+ kaosahetam_fertility_god_name_possessive: "$kaosahetam_high_god_name_possessive$"  
+ kaosahetam_wealth_god_name: "$kaosahetam_high_god_name$"  
+ kaosahetam_wealth_god_name_possessive: "$kaosahetam_high_god_name_possessive$"  
+ kaosahetam_household_god_name: "$kaosahetam_high_god_name$"  
+ kaosahetam_household_god_name_possessive: "$kaosahetam_high_god_name_possessive$"  
+ kaosahetam_fate_god_name: "$kaosahetam_high_god_name$"  
+ kaosahetam_fate_god_name_possessive: "$kaosahetam_high_god_name_possessive$"  
+ kaosahetam_knowledge_god_name: "$kaosahetam_high_god_name$"  
+ kaosahetam_knowledge_god_name_possessive: "$kaosahetam_high_god_name_possessive$"  
+ kaosahetam_war_god_name: "$kaosahetam_high_god_name$"  
+ kaosahetam_war_god_name_possessive: "$kaosahetam_high_god_name_possessive$"  
+ kaosahetam_trickster_god_name: "$kaosahetam_high_god_name$"  
+ kaosahetam_trickster_god_name_possessive: "$kaosahetam_high_god_name_possessive$"  
+ kaosahetam_night_god_name: "$kaosahetam_high_god_name$"  
+ kaosahetam_night_god_name_possessive: "$kaosahetam_high_god_name_possessive$"  
+ kaosahetam_water_god_name: "$kaosahetam_high_god_name$"  
+ kaosahetam_water_god_name_possessive: "$kaosahetam_high_god_name_possessive$"  
+ kaosahetam_witch_god_name: "$kaosahetam_devil_name$"  
+ kaosahetam_witch_god_name_possessive: "$kaosahetam_devil_name_possessive$"   
+ 
+ kaosahetam: "Као'сахетам"  
+ kaosahetam_adj: "Као'сахетами"  
+ kaosahetam_adherent: "Као'сахетами"  
+ kaosahetam_adherent_plural: "Као'сахетами"  
+ kaosahetam_desc: "Као'сахетами верят, что каждый человек рождается с определенным количеством "Као" или "Удачи" внутри своего духа, которое увеличивается при совершении добрых дел и уменьшается при совершении злых поступков. Те, у кого много Као, благословлены удачей в своих начинаниях, в то время как те, кому ее не хватает, погрязают в несчастьях. Као'сахетами также используют гадание, используя движения и действия крабов, чтобы оценить Као человека. Говорят, что более опытные прорицатели способны использовать движение крабов, чтобы увидеть правду о прошлом и даже предсказать будущие события."
   
- kaosahetam_house_of_worship: "Каофен" #Машинный перевод 28.10.23
- kaosahetam_house_of_worship_plural: "Каофенс" #Машинный перевод 28.10.23
- kaosahetam_religious_symbol: "Краб" #Машинный перевод 28.10.23
- kaosahetam_religious_text: "Шестьдесят шесть трактатов о Као" #Машинный перевод 28.10.23
-  
- kaosahetam_religious_head_title: "Дай Каотон" #Машинный перевод 28.10.23
- kaosahetam_religious_head_title_name: "Дай Каотонок" #Машинный перевод 28.10.23
- kaosahetam_devotee_male: "Као'сахетами" #Машинный перевод 28.10.23
- kaosahetam_devotee_male_plural: "Као'сахетами" #Машинный перевод 28.10.23
- kaosahetam_devotee_female: "Као'сахетами" #Машинный перевод 28.10.23
- kaosahetam_devotee_female_plural: "Као'сахетами" #Машинный перевод 28.10.23
- kaosahetam_devotee_neuter: "Као'сахетами" #Машинный перевод 28.10.23
- kaosahetam_devotee_neuter_plural: "Као'сахетами" #Машинный перевод 28.10.23
- kaosahetam_priest_male: "Тон" #Машинный перевод 28.10.23
- kaosahetam_priest_male_plural: "Тонай" #Машинный перевод 28.10.23
- kaosahetam_priest_female: "Тон" #Машинный перевод 28.10.23
- kaosahetam_priest_female_plural: "Тонай" #Машинный перевод 28.10.23
- kaosahetam_priest_alternate: "Тон" #Машинный перевод 28.10.23
- kaosahetam_priest_alternate_plural: "Тонай" #Машинный перевод 28.10.23
- kaosahetam_bishop: "Каотон" #Машинный перевод 28.10.23
- kaosahetam_bishop_plural: "Каотонай" #Машинный перевод 28.10.23
- kaosahetam_positive_afterlife: "Као" #Машинный перевод 28.10.23
- kaosahetam_negative_afterlife: "Хом" #Машинный перевод 28.10.23
-  
- kaosahetam_creator_god_name: "$kaosahetam_high_god_name$" #Машинный перевод 28.10.23
- kaosahetam_creator_god_name_possessive: "$kaosahetam_high_god_name_possessive$" #Машинный перевод 28.10.23
- kaosahetam_health_god_name: "$kaosahetam_high_god_name$" #Машинный перевод 28.10.23
- kaosahetam_health_god_name_possessive: "$kaosahetam_high_god_name_possessive$" #Машинный перевод 28.10.23
- kaosahetam_fertility_god_name: "$kaosahetam_high_god_name$" #Машинный перевод 28.10.23
- kaosahetam_fertility_god_name_possessive: "$kaosahetam_high_god_name_possessive$" #Машинный перевод 28.10.23
- kaosahetam_wealth_god_name: "$kaosahetam_high_god_name$" #Машинный перевод 28.10.23
- kaosahetam_wealth_god_name_possessive: "$kaosahetam_high_god_name_possessive$" #Машинный перевод 28.10.23
- kaosahetam_household_god_name: "$kaosahetam_high_god_name$" #Машинный перевод 28.10.23
- kaosahetam_household_god_name_possessive: "$kaosahetam_high_god_name_possessive$" #Машинный перевод 28.10.23
- kaosahetam_fate_god_name: "$kaosahetam_high_god_name$" #Машинный перевод 28.10.23
- kaosahetam_fate_god_name_possessive: "$kaosahetam_high_god_name_possessive$" #Машинный перевод 28.10.23
- kaosahetam_knowledge_god_name: "$kaosahetam_high_god_name$" #Машинный перевод 28.10.23
- kaosahetam_knowledge_god_name_possessive: "$kaosahetam_high_god_name_possessive$" #Машинный перевод 28.10.23
- kaosahetam_war_god_name: "$kaosahetam_high_god_name$" #Машинный перевод 28.10.23
- kaosahetam_war_god_name_possessive: "$kaosahetam_high_god_name_possessive$" #Машинный перевод 28.10.23
- kaosahetam_trickster_god_name: "$kaosahetam_high_god_name$" #Машинный перевод 28.10.23
- kaosahetam_trickster_god_name_possessive: "$kaosahetam_high_god_name_possessive$" #Машинный перевод 28.10.23
- kaosahetam_night_god_name: "$kaosahetam_high_god_name$" #Машинный перевод 28.10.23
- kaosahetam_night_god_name_possessive: "$kaosahetam_high_god_name_possessive$" #Машинный перевод 28.10.23
- kaosahetam_water_god_name: "$kaosahetam_high_god_name$" #Машинный перевод 28.10.23
- kaosahetam_water_god_name_possessive: "$kaosahetam_high_god_name_possessive$" #Машинный перевод 28.10.23
- kaosahetam_witch_god_name: "$kaosahetam_devil_name$" #Машинный перевод 28.10.23
- kaosahetam_witch_god_name_possessive: "$kaosahetam_devil_name_possessive$" #Машинный перевод 28.10.23
-  
- kaosahetam: "Као'сахетам" #Машинный перевод 28.10.23
- kaosahetam_adj: "Као'сахетами" #Машинный перевод 28.10.23
- kaosahetam_adherent: "Као'сахетами" #Машинный перевод 28.10.23
- kaosahetam_adherent_plural: "Као'сахетами" #Машинный перевод 28.10.23
- kaosahetam_desc: "Као'сахетами верят, что каждый человек рождается с определенным количеством «Као» или «Удачи» внутри своего духа, которое увеличивается при совершении добрых дел и уменьшается при совершении злых поступков. Тем, у кого много Као, повезло в своих начинаниях, а тем, у кого его не хватает, погрязли в несчастьях. Као'сахетами также используют гадание, используя движения и действия крабов, чтобы оценить Као человека. Говорят, что более опытные прорицатели могут использовать движение крабов, чтобы увидеть правду о прошлом и даже предсказать будущие события." #Машинный перевод 28.10.23
-  
- holy_order_seekers_of_kao: "Искатели Као" #Машинный перевод 28.10.23
+ holy_order_seekers_of_kao: "Искатели Као" 
