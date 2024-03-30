@@ -1,136 +1,136 @@
 ﻿l_russian:
- dravidian_religion: "Авастья Махан" #Машинный перевод 28.10.23
- dravidian_religion_adj: "Авастья Махани" #Машинный перевод 28.10.23
- dravidian_religion_desc: "Авастья Махан, что на древнем каширском языке означает «великий совет», представляет собой пантеон богов, которым в той или иной форме поклоняются на большей части территории Каширии. Первоначально сосредотачиваясь на всеобъемлющей божественности бога-создателя Паэраджатана, многие религии Авастии Махани подчеркивают другие аспекты пантеона, такие как бог знаний Сарват или божество-воин Картикарма." #Машинный перевод 28.10.23
+ dravidian_religion: "Авастья Махани" 
+ dravidian_religion_adj: "Авастья Махан" 
+ dravidian_religion_desc: "Авастья Махан, что на древнем каширском языке означает "великий совет", - это пантеон богов, которым поклоняются в той или иной форме на большей части территории Каширы. Первоначально сосредоточившись на всеобъемлющей божественности бога-творца Паерасджатана, многие религии Авастья Махани подчеркивают другие аспекты пантеона, такие как бог знания Сарват или божество-воин Картикарма."
+
+ dravidian_religion_adherent: "Авастья Маханист" 
+ dravidian_religion_adherent_plural: "Авастья Маханист" 
+ dravidian_high_god_name: "Паэрасятан" 
+ dravidian_high_god_name_possessive: "Паэрасятана" 
+ dravidian_high_god_name_alternate: "Верховный" 
+ dravidian_high_god_name_alternate_possessive: "Верховного" 
+ dravidian_devil_name: "Сур-Вьяд" 
+ dravidian_devil_name_possessive: "Сур-Вьяда" 
   
- dravidian_religion_adherent: "Авастья Маханист" #Машинный перевод 28.10.23
- dravidian_religion_adherent_plural: "Авастья Маханист" #Машинный перевод 28.10.23
- dravidian_high_god_name: "Паэрасятан" #Машинный перевод 28.10.23
- dravidian_high_god_name_possessive: "Паэрасятана" #Машинный перевод 28.10.23
- dravidian_high_god_name_alternate: "Верховный" #Машинный перевод 28.10.23
- dravidian_high_god_name_alternate_possessive: "Верховного" #Машинный перевод 28.10.23
- dravidian_devil_name: "Сур-Вьяд" #Машинный перевод 28.10.23
- dravidian_devil_name_possessive: "Сур-Вьяда" #Машинный перевод 28.10.23
   
+ dravidian_house_of_worship: "храм" 
+ dravidian_house_of_worship_plural: "храмы" 
+ dravidian_religious_symbol: "Глаз Паэрасятана" 
+ dravidian_religious_text: "Калпустакал" 
   
- dravidian_house_of_worship: "храм" #Машинный перевод 28.10.23
- dravidian_house_of_worship_plural: "храмы" #Машинный перевод 28.10.23
- dravidian_religious_symbol: "Глаз Паэрасятана" #Машинный перевод 28.10.23
- dravidian_religious_text: "Калпустакал" #Машинный перевод 28.10.23
+ dravidian_religious_head_title: "Сакама" 
+ dravidian_religious_head_title_name: "Сакамахан" 
+ dravidian_devotee_male: "Атра" 
+ dravidian_devotee_male_plural: "Атрас" 
+ dravidian_devotee_female: "Атри" 
+ dravidian_devotee_female_plural: "Атрис" 
+ dravidian_devotee_neuter: "Атра" 
+ dravidian_devotee_neuter_plural: "Атрас" 
+ dravidian_priest: "Сурин" 
+ dravidian_priest_plural: "Суринс" 
+ dravidian_priest_alternate: "Виддат" 
+ dravidian_priest_alternate_plural: "Виддаты" 
+ dravidian_priest_male: "Сурин" 
+ dravidian_priest_male_plural: "Суринс" 
+ dravidian_priest_female: "Сурин" 
+ dravidian_priest_female_plural: "Суринс" 
+ dravidian_priest_alt_priest_term: "Виддат" 
+ dravidian_bishop: "Велдата" 
+ dravidian_bishop_plural: "Велдатас" 
+ dravidian_divine_realm: "Умерасту" 
+ dravidian_positive_afterlife: "Сагранал" 
+ dravidian_negative_afterlife: "Рахана" 
   
- dravidian_religious_head_title: "Сакама" #Машинный перевод 28.10.23
- dravidian_religious_head_title_name: "Сакамахан" #Машинный перевод 28.10.23
- dravidian_devotee_male: "Атра" #Машинный перевод 28.10.23
- dravidian_devotee_male_plural: "Атрас" #Машинный перевод 28.10.23
- dravidian_devotee_female: "Атри" #Машинный перевод 28.10.23
- dravidian_devotee_female_plural: "Атрис" #Машинный перевод 28.10.23
- dravidian_devotee_neuter: "Атра" #Машинный перевод 28.10.23
- dravidian_devotee_neuter_plural: "Атрас" #Машинный перевод 28.10.23
- dravidian_priest: "Сурин" #Машинный перевод 28.10.23
- dravidian_priest_plural: "Суринс" #Машинный перевод 28.10.23
- dravidian_priest_alternate: "Виддат" #Машинный перевод 28.10.23
- dravidian_priest_alternate_plural: "Виддаты" #Машинный перевод 28.10.23
- dravidian_priest_male: "Сурин" #Машинный перевод 28.10.23
- dravidian_priest_male_plural: "Суринс" #Машинный перевод 28.10.23
- dravidian_priest_female: "Сурин" #Машинный перевод 28.10.23
- dravidian_priest_female_plural: "Суринс" #Машинный перевод 28.10.23
- dravidian_priest_alt_priest_term: "Виддат" #Машинный перевод 28.10.23
- dravidian_bishop: "Велдата" #Машинный перевод 28.10.23
- dravidian_bishop_plural: "Велдатас" #Машинный перевод 28.10.23
- dravidian_divine_realm: "Умерасту" #Машинный перевод 28.10.23
- dravidian_positive_afterlife: "Сагранал" #Машинный перевод 28.10.23
- dravidian_negative_afterlife: "Рахана" #Машинный перевод 28.10.23
+ dravidian_creator_god_name: "Паэрасятан" 
+ dravidian_creator_god_name_possessive: "Паэрасятана" 
+ dravidian_health_god_name: "Вантари" 
+ dravidian_health_god_name_possessive: "Вантари" 
+ dravidian_fertility_god_name: "Телвати" 
+ dravidian_fertility_god_name_possessive: "Телвати" 
+ dravidian_wealth_god_name: "Сарвита" 
+ dravidian_wealth_god_name_possessive: "Сарвита'с" 
+ dravidian_household_god_name: "Грамани Лох" 
+ dravidian_household_god_name_possessive: "Грамани Лох" 
+ dravidian_fate_god_name: "Петика" 
+ dravidian_fate_god_name_possessive: "Петика" 
+ dravidian_knowledge_god_name: "Сарват" 
+ dravidian_knowledge_god_name_possessive: "Сарвата" 
+ dravidian_war_god_name: "Картикарма" 
+ dravidian_war_god_name_possessive: "Картикарма" 
+ dravidian_trickster_god_name: "Атманира" 
+ dravidian_trickster_god_name_possessive: "Атманира" 
+ dravidian_night_god_name: "Дархакарока" 
+ dravidian_night_god_name_possessive: "Дархакарока" 
+ dravidian_death_deity_name: "Дарамарджаратан" 
+ dravidian_death_deity_name_possessive: "Дарамарджаратана" 
+ dravidian_water_god_name: "Варода" 
+ dravidian_water_god_name_possessive: "Варода" 
+ dravidian_witch_god_name: "Тамрат" 
+ dravidian_witch_god_name_possessive: "Тамрата" 
   
- dravidian_creator_god_name: "Паэрасятан" #Машинный перевод 28.10.23
- dravidian_creator_god_name_possessive: "Паэрасятана" #Машинный перевод 28.10.23
- dravidian_health_god_name: "Вантари" #Машинный перевод 28.10.23
- dravidian_health_god_name_possessive: "Вантари" #Машинный перевод 28.10.23
- dravidian_fertility_god_name: "Телвати" #Машинный перевод 28.10.23
- dravidian_fertility_god_name_possessive: "Телвати" #Машинный перевод 28.10.23
- dravidian_wealth_god_name: "Сарвита" #Машинный перевод 28.10.23
- dravidian_wealth_god_name_possessive: "Сарвита'с" #Машинный перевод 28.10.23
- dravidian_household_god_name: "Грамани Лох" #Машинный перевод 28.10.23
- dravidian_household_god_name_possessive: "Грамани Лох" #Машинный перевод 28.10.23
- dravidian_fate_god_name: "Петика" #Машинный перевод 28.10.23
- dravidian_fate_god_name_possessive: "Петика" #Машинный перевод 28.10.23
- dravidian_knowledge_god_name: "Сарват" #Машинный перевод 28.10.23
- dravidian_knowledge_god_name_possessive: "Сарвата" #Машинный перевод 28.10.23
- dravidian_war_god_name: "Картикарма" #Машинный перевод 28.10.23
- dravidian_war_god_name_possessive: "Картикарма" #Машинный перевод 28.10.23
- dravidian_trickster_god_name: "Атманира" #Машинный перевод 28.10.23
- dravidian_trickster_god_name_possessive: "Атманира" #Машинный перевод 28.10.23
- dravidian_night_god_name: "Дархакарока" #Машинный перевод 28.10.23
- dravidian_night_god_name_possessive: "Дархакарока" #Машинный перевод 28.10.23
- dravidian_death_deity_name: "Дарамарджаратан" #Машинный перевод 28.10.23
- dravidian_death_deity_name_possessive: "Дарамарджаратана" #Машинный перевод 28.10.23
- dravidian_water_god_name: "Варода" #Машинный перевод 28.10.23
- dravidian_water_god_name_possessive: "Варода" #Машинный перевод 28.10.23
- dravidian_witch_god_name: "Тамрат" #Машинный перевод 28.10.23
- dravidian_witch_god_name_possessive: "Тамрата" #Машинный перевод 28.10.23
+ vidvaookeyatra: "Видваокеятранизм" 
+ vidvaookeyatra_adj: "Видваокеятра" 
+ vidvaookeyatra_adherent: "Видваокеятран" 
+ vidvaookeyatra_adherent_plural: "Видваокеятранс" 
+ vidvaookeyatra_desc: "Видваукеятра ("Путешествие ученого") - это поклонение гермафродитическому богу знаний Сарвату; считается, что он является источником всех знаний и, следовательно, знанием самого творения. С истоками, уходящими корнями в [Concept('otachedian_empire','Империя')|E] Отачеда, их [Concept('vidvaookeyatran_scholarly_caste','"ученая каста')|E] следует благодарить как за технологический, социальный и исторический прогресс Каширы, так и за ее [Concept('chan_skorpokaipis','многочисленные бедствия')|E]." 
+ vidvaookeyatra_high_god_name: "Сарват" 
+ vidvaookeyatra_high_god_name_possessive: "Сарвата" 
   
- vidvaookeyatra: "Видваокеятра" #Машинный перевод 28.10.23
- vidvaookeyatra_adj: "Видваокеятранизм" #Машинный перевод 28.10.23
- vidvaookeyatra_adherent: "Видваокеятран" #Машинный перевод 28.10.23
- vidvaookeyatra_adherent_plural: "Видваокеятранс" #Машинный перевод 28.10.23
- vidvaookeyatra_desc: "Видваокеятра («Путешествие ученого») — это поклонение гермафродитному богу знаний Сарвату; Говорят, что это источник всего знания и, следовательно, знания самого творения. Истоки которых уходят корнями в [otachedian_empire|E] Отачеда, их [Concept('vidvaookeyatran_scholarly_caste','scholarly caste')|E] обязаны как технологическим, социальным и историческим прогрессом Каширии, так и ее [Concept('chan_skorpokaipis','numerous calamities')|E]." #Машинный перевод 28.10.23
- vidvaookeyatra_high_god_name: "Сарват" #Машинный перевод 28.10.23
- vidvaookeyatra_high_god_name_possessive: "Сарвата" #Машинный перевод 28.10.23
+ askevaryaa: "Аскеварьянизм" 
+ askevaryaa_adj: "Аскеварьяа" 
+ askevaryaa_adherent: "Аскеварян" 
+ askevaryaa_adherent_plural: "Аскеварьянс" 
+ askevaryaa_desc: "Сформированный после событий [Concept('chan_skorpokaipis','Чан скорпокаипис')|E] и [Concept('dharya_varha','Дхарья Варха')|E], Аскеварья разделяет почти тех же богов и принципы Видваокейатры. Однако он расходится с включением так называемого [Concept('evil_lore','злыми историями')|E]." 
+ askevaryaa_high_god_name: "Сарват" 
+ askevaryaa_high_god_name_possessive: "Сарвата" 
   
- askevaryaa: "Аскеварьяа" #Машинный перевод 28.10.23
- askevaryaa_adj: "аскеварьянизм" #Машинный перевод 28.10.23
- askevaryaa_adherent: "Аскеварян" #Машинный перевод 28.10.23
- askevaryaa_adherent_plural: "Аскеварьянс" #Машинный перевод 28.10.23
- askevaryaa_desc: "Сформированная после событий [chan_skorpokaipis|E] и [dharya_varha|E], Аскеварья разделяет почти тех же богов и принципы Видваокейатры. Однако он расходится с включением так называемого [evil_lore|E]." #Машинный перевод 28.10.23
- askevaryaa_high_god_name: "Сарват" #Машинный перевод 28.10.23
- askevaryaa_high_god_name_possessive: "Сарвата" #Машинный перевод 28.10.23
+ nabbarek: "Наббарекизм" 
+ nabbarek_adj: "Наббарек" 
+ nabbarek_adherent: "Наббарекян" 
+ nabbarek_adherent_plural: "Наббарекцы" 
+ nabbarek_desc: "Вера в девяносто книг о "позитивном" просветлении и одну о "нейтральном" просветлении, которое ведет к вознесению после их прочтения, истоки веры можно проследить до гуру по имени [Concept('pethyka','Петика')|E]. После [Concept('dharya_varha','Дхарья Варха')|E] девяносто одна книга считалась содержащей единственное истинное знание в этом мире, а все остальное считалось творением человека."
+ nabbarek_high_god_name: "Сарват" 
+ nabbarek_high_god_name_possessive: "Сарвата" 
+ nabbarek_religious_text: "Девяносто и один" 
   
- nabbarek: "Наббарек" #Машинный перевод 28.10.23
- nabbarek_adj: "Наббарекизм" #Машинный перевод 28.10.23
- nabbarek_adherent: "Наббарекян" #Машинный перевод 28.10.23
- nabbarek_adherent_plural: "Наббарекцы" #Машинный перевод 28.10.23
- nabbarek_desc: "Вера в девяносто книг «позитивного» просветления и одну «нейтральную» книгу просветления, которая ведет к вознесению после их прочтения, истоки веры можно проследить до гуру по имени [pethyka|E]. После [dharya_varha|E] считалось, что девяносто одна книга содержит единственное истинное знание в этом мире, а все остальное считается творением человека." #Машинный перевод 28.10.23
- nabbarek_high_god_name: "Сарват" #Машинный перевод 28.10.23
- nabbarek_high_god_name_possessive: "Сарвата" #Машинный перевод 28.10.23
- nabbarek_religious_text: "Девяносто и один" #Машинный перевод 28.10.23
+ andaronshak: "Андароншиак" 
+ andaronshak_adj: "Андароншак" 
+ andaronshak_adherent: "Андароншиак" 
+ andaronshak_adherent_plural: "Andaronshiaki" 
+ andaronshak_desc: "Андароншиаки верят, что боги - это непознаваемая сила, проявляющаяся в человечестве как [Concept('magic','магия')|E]. Совершенствуя добродетели, человек обретет контроль над магией через своих богов, будь то в текущей жизни или в следующей. Признавая путь к магии личным путешествием, андароншиаки питают лютую ненависть к религиозному формализму, считая его противоречащим их святым целям."
   
- andaronshak: "Андароншак" #Машинный перевод 28.10.23
- andaronshak_adj: "Андароншиак" #Машинный перевод 28.10.23
- andaronshak_adherent: "Андароншиак" #Машинный перевод 28.10.23
- andaronshak_adherent_plural: "Andaronshiaki" #Машинный перевод 28.10.23
- andaronshak_desc: "Андароншиаки верят, что боги — это непознаваемая сила, проявляющаяся в человечестве как [magic|E]. Через совершенствование добродетелей человек обретет контроль над магией через своих богов, будь то в текущей жизни или в следующей. Признавая путь к магии как личное путешествие, андароншиаки испытывают горькую ненависть к религиозному формализму, считая его противоположным своим святым целям." #Машинный перевод 28.10.23
+ varodaism: "Вародаизм" 
+ varodaism_adj: "Вародаизм" 
+ varodaism_adherent: "Вародаист" 
+ varodaism_adherent_plural: "Вародаисты" 
+ varodaism_desc: "Поклонение древнему морскому богу Вароде, [Concept('varodist_creation_myth','Вародистский миф о сотворении мира')|E] является одной из старейших в мире. Наиболее известный своей способностью приручать морских зверей, самый известный вародистский деятель, пророк Могурпа, как говорят, большую часть своей жизни приручал кракена и ездил на нем верхом."
+ varodaism_high_god_name: "Варода" 
+ varodaism_high_god_name_possessive: "Варода" 
   
- varodaism: "Вародаизм" #Машинный перевод 28.10.23
- varodaism_adj: "Вародаизм" #Машинный перевод 28.10.23
- varodaism_adherent: "Вародаист" #Машинный перевод 28.10.23
- varodaism_adherent_plural: "Вародаисты" #Машинный перевод 28.10.23
- varodaism_desc: "Поклоняясь древнему морскому богу Вароде, [Concept('varodist_creation_myth','Varodist creation myth')|E] является одним из старейших в мире. Самый известный деятель вародистов, Пророк Могурпа, наиболее известный своей способностью приручать морских зверей, как говорят, большую часть своей жизни приручал кракена и ездил на нем верхом." #Машинный перевод 28.10.23
- varodaism_high_god_name: "Варода" #Машинный перевод 28.10.23
- varodaism_high_god_name_possessive: "Варода" #Машинный перевод 28.10.23
+ dravadari: "Авастья Маханизм" 
+ dravadari_adj: "Авастья Махани" 
+ dravadari_adherent: "Авастья Махани" 
+ dravadari_adherent_plural: "Авастья Махани" 
+ dravadari_desc: "Политеистическая вера с [Concept('avastya_mahani_history','древней историей')|E], боги - эфемерные творцы, которые могут жить, умирать, возрождаться и испытывать эффекты энтропии и негэнтропии, подобно людям. Паэрасятан (часто забытый в наше время) - бог магии творения, который, как говорят, был тем, кто создал первую итерацию мира, с [Concept('paerasjatan_old_myth','много старых мифов о них')|E]." 
   
- dravadari: "Авастья Махани" #Машинный перевод 28.10.23
- dravadari_adj: "Авастья Маханизм" #Машинный перевод 28.10.23
- dravadari_adherent: "Авастья Махани" #Машинный перевод 28.10.23
- dravadari_adherent_plural: "Авастья Махани" #Машинный перевод 28.10.23
- dravadari_desc: "Политеистическая вера с [Concept('avastya_mahani_history','an old history')|E]. Боги — это эфемерные творцы, которые могут жить, умирать, возрождаться и испытывать на себе эффекты энтропии и негэнтропии, как люди. Паэрасятан (часто забытый в наше время) — бог магии творения, который, как говорят, был тем, кто создал первую итерацию мира с [Concept('paerasjatan_old_myth','many old myths about Them')|E]." #Машинный перевод 28.10.23
+ karitkarmaic: "Кариткармацизм" 
+ karitkarmaic_adj: "Кариткармаик" 
+ karitkarmaic_adherent: "Кариткармаист" 
+ karitkarmaic_adherent_plural: "Кариткармаицисты" 
+ karitkarmaic_desc: "Поклоняясь главным образом богу войны, смерти и справедливости Картикарме, а не другим богам авастьи, кариткармаисты верят в необходимость войны, смерти и мира; необходимый цикл, по которому всегда вращаются общество и мир в целом. Хотя они и не стремятся активно к войне и смерти, они считают, что это также не следует отвергать, а вместо этого воспринимать как часть универсального опыта, формируя мирные, но в то же время стоические миры."
+ karitkarmaic_high_god_name: "Картикарма" 
+ karitkarmaic_high_god_name_possessive: "Картикарма" 
   
- karitkarmaic: "Кариткармаик" #Машинный перевод 28.10.23
- karitkarmaic_adj: "Кариткармацизм" #Машинный перевод 28.10.23
- karitkarmaic_adherent: "Кариткармаист" #Машинный перевод 28.10.23
- karitkarmaic_adherent_plural: "Кариткармаицисты" #Машинный перевод 28.10.23
- karitkarmaic_desc: "Поклоняясь главным образом богу войны, смерти и справедливости Картикарма над другими богами Авастии, кариткармаисты верят в необходимость войны, смерти и мира; необходимый цикл, в котором всегда вращаются общество и мир. Хотя они и не ищут активно войны и смерти, они считают, что их не следует отвергать, а вместо этого принимать как часть универсального опыта, формируя мирные, но стоические миры." #Машинный перевод 28.10.23
- karitkarmaic_high_god_name: "Картикарма" #Машинный перевод 28.10.23
- karitkarmaic_high_god_name_possessive: "Картикарма" #Машинный перевод 28.10.23
+ daramarjaratan: "Дарамарджаратанизм" 
+ daramarjaratan_adj: "Дарамарджаратан" 
+ daramarjaratan_adherent: "Дарамарджаратанист" 
+ daramarjaratan_adherent_plural: "Дарамарджаратанисты" 
+ daramarjaratan_desc: "Дарамарджаратанисты поклоняются богине смерти и жене Кариткармаика, Дарамарджаратану (первоначально Дамаратджарат) как правителю всех остальных богов. Дарамарджатанизм остается спорным из-за их веры в [Concept('pantheon_of_death','патеон смерти')|E]смерть всех других богов. Несмотря на то, что Дарамарджаратан считается опасным культом, он больше заботится о делах мертвых, чем о живых, и редко общается с посторонними. Несмотря на их миролюбие, большинство помнят только [Concept('murtuy_ka_varha','печально известные результаты')|E] культов Дарамарджаратана, открывающих темную магию."
+ daramarjaratan_high_god_name: "Дарамарджаратан" 
+ daramarjaratan_high_god_name_possessive: "Дарамарджаратана" 
   
- daramarjaratan: "Дарамарджаратан" #Машинный перевод 28.10.23
- daramarjaratan_adj: "Дарамарджаратанизм" #Машинный перевод 28.10.23
- daramarjaratan_adherent: "Дарамарджаратанист" #Машинный перевод 28.10.23
- daramarjaratan_adherent_plural: "Дарамарджаратанисты" #Машинный перевод 28.10.23
- daramarjaratan_desc: "Дарамарджаратанисты поклоняются богине смерти и жене Кариткармаика, Дарамарджаратану (первоначально Дамаратджарат) как правителю всех других богов. Дарамарджатизм остается спорным из-за их веры в [pantheon_of_death|E] и смерть всех других богов. Хотя Дарамарджаратан считается опасным культом, он больше заботится о делах мертвых, чем о живых, и редко общается с посторонними. Несмотря на их миролюбие, большинство помнит только [Concept('murtuy_ka_varha','infamous results')|E] о том, как культы Дарамарджаратана открыли темную магию." #Машинный перевод 28.10.23
- daramarjaratan_high_god_name: "Дарамарджаратан" #Машинный перевод 28.10.23
- daramarjaratan_high_god_name_possessive: "Дарамарджаратана" #Машинный перевод 28.10.23
-  
- asritayka: "Асритайка" #Машинный перевод 28.10.23
- asritayka_adj: "Асритайканизм" #Машинный перевод 28.10.23
- asritayka_adherent: "Асритайканист" #Машинный перевод 28.10.23
- asritayka_adherent_plural: "Асритайканисты" #Машинный перевод 28.10.23
- asritayka_desc: "Астрикаяны выступают против большинства религиозных норм традиционных верований и проповедуют мирское во всем, божественном или смертном. От морей до небес и даже до [dragons|E] и [magic|E]. Верующие проводят время в бесконечных дискуссиях о философских концепциях и произведениях философов, подобных [saru|E], которые иногда вызывают большую враждебность, и их можно встретить в большинстве каширских судов." #Машинный перевод 28.10.23
+ asritayka: "Асритайканизм" 
+ asritayka_adj: "Асритайка" 
+ asritayka_adherent: "Асритайканист" 
+ asritayka_adherent_plural: "Асритайканисты" 
+ asritayka_desc: "Астрикайцы выступают против большинства религиозных норм традиционных религий и проповедуют обыденность во всем, божественном или смертном. От морей до небес и даже [Concept('dragons','драконов')|E] и [Concept('magic','магии')|E]. Верующие тратят свое время на бесконечные дебаты о философских концепциях и трудах таких философов, как [Concept('saru','Сару')|E], которые иногда вызывают большую враждебность, и их можно найти в большинстве каширских дворов."

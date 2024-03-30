@@ -1,67 +1,67 @@
 ﻿l_russian:
   
- ehatm: "Эхатм" #Машинный перевод 28.10.23
- ehatm_adj: "Эхатмик" #Машинный перевод 28.10.23
- ehatm_adherent: "Эхатмиан" #Машинный перевод 28.10.23
- ehatm_adherent_plural: "Эхатмианцы" #Машинный перевод 28.10.23
- ehatm_desc: "Когда-то доминирующая вера Крехеджада, Э'Хат'м - это вера в дуотарийскую богиню [ehatm_sister_mother|E]. На протяжении веков островитяне концентрировались вокруг [warrior_women_ehatm|E], пока не потерпели поражение во время [war_of_all_islands|E]." #Машинный перевод 28.10.23
- ehatm_religion: "Эхатм" #Машинный перевод 28.10.23
- ehatm_religion_adj: "Крехеядич" #Машинный перевод 28.10.23
+ ehatm: "Э'хат'мик" 
+ ehatm_adj: "Э'хат"м 
+ ehatm_adherent: "Э'хат'миан" 
+ ehatm_adherent_plural: "Э'хат'мианцы" 
+ ehatm_desc: "Некогда доминирующая вера Крехеджада, Э'хат'м - это вера в дуотарианскую богиню  [Concept('ehatm_sister_mother','Э'хат'мская систра-мать')|E]. На протяжении веков островитяне концентрировались вокруг [Concept('warrior_women_ehatm','воинов женщин')|E], пока не потерпели поражение во время [Concept('war_of_all_islands','Войны на всех островах')|E]." 
+ ehatm_religion: "Э'хат'м" 
+ ehatm_religion_adj: "Крехеядич" 
   
- ehatm_high_god_name: "Корихот" #Машинный перевод 28.10.23
- ehatm_high_god_name_possessive: "Корихота" #Машинный перевод 28.10.23
- ehatm_high_god_name_alternate: "$ehatm_high_god_name$" #Машинный перевод 28.10.23
- ehatm_high_god_name_alternate_possessive: "$ehatm_high_god_name$_притяжательный" #Машинный перевод 28.10.23
- ehatm_devil_name: "Зверь" #Машинный перевод 28.10.23
- ehatm_devil_name_possessive: "Зверь" #Машинный перевод 28.10.23
- ehatm_death_deity_name: "$ehatm_high_god_name$" #Машинный перевод 28.10.23
- ehatm_death_deity_name_possessive: "$ehatm_high_god_name_possessive$" #Машинный перевод 28.10.23
+ ehatm_high_god_name: "Корихот" 
+ ehatm_high_god_name_possessive: "Корихота" 
+ ehatm_high_god_name_alternate: "$ehatm_high_god_name$" 
+ ehatm_high_god_name_alternate_possessive: "$ehatm_high_god_name$_притяжательный" 
+ ehatm_devil_name: "Зверь" 
+ ehatm_devil_name_possessive: "Зверь" 
+ ehatm_death_deity_name: "$ehatm_high_god_name$" 
+ ehatm_death_deity_name_possessive: "$ehatm_high_god_name_possessive$" 
   
- ehatm_house_of_worship: "Храм" #Машинный перевод 28.10.23
- ehatm_house_of_worship_plural: "Храмы" #Машинный перевод 28.10.23
- ehatm_religious_symbol: "Сестры" #Машинный перевод 28.10.23
- ehatm_religious_text: "История сестер" #Машинный перевод 28.10.23
+ ehatm_house_of_worship: "Храм" 
+ ehatm_house_of_worship_plural: "Храмы" 
+ ehatm_religious_symbol: "Сестры" 
+ ehatm_religious_text: "История сестер" 
   
- ehatm_religious_head_title: "ehatm_religious_head_title" #Машинный перевод 28.10.23
- ehatm_religious_head_title_name: "ehatm_religious_head_title_name" #Машинный перевод 28.10.23
- ehatm_devotee_male: "Эхатмиан" #Машинный перевод 28.10.23
- ehatm_devotee_male_plural: "Эхатмианцы" #Машинный перевод 28.10.23
- ehatm_devotee_female: "Эхатмиан" #Машинный перевод 28.10.23
- ehatm_devotee_female_plural: "Эхатмианцы" #Машинный перевод 28.10.23
- ehatm_devotee_neuter: "Эхатмиан" #Машинный перевод 28.10.23
- ehatm_devotee_neuter_plural: "Эхатмианцы" #Машинный перевод 28.10.23
- ehatm_priest_male: "Э'бед" #Машинный перевод 28.10.23
- ehatm_priest_male_plural: "Эбедим" #Машинный перевод 28.10.23
- ehatm_priest_female: "Мат" #Машинный перевод 28.10.23
- ehatm_priest_female_plural: "Матим" #Машинный перевод 28.10.23
- ehatm_priest_alternate: "Мат" #Машинный перевод 28.10.23
- ehatm_priest_alternate_plural: "Матим" #Машинный перевод 28.10.23
- ehatm_bishop: "Микимель" #Машинный перевод 28.10.23
- ehatm_bishop_plural: "Микимелим" #Машинный перевод 28.10.23
- ehatm_positive_afterlife: "Мерез" #Машинный перевод 28.10.23
- ehatm_negative_afterlife: "Молк" #Машинный перевод 28.10.23
+ ehatm_religious_head_title: "ehatm_religious_head_title" 
+ ehatm_religious_head_title_name: "ehatm_religious_head_title_name" 
+ ehatm_devotee_male: "Э'хат'миан" 
+ ehatm_devotee_male_plural: "Э'хат'мианцы" 
+ ehatm_devotee_female: "Э'хат'миан" 
+ ehatm_devotee_female_plural: "Э'хат'мианцы" 
+ ehatm_devotee_neuter: "Э'хат'миан" 
+ ehatm_devotee_neuter_plural: "Э'хат'мианцы" 
+ ehatm_priest_male: "Э'бед" 
+ ehatm_priest_male_plural: "Э'бедим" 
+ ehatm_priest_female: "Мат" 
+ ehatm_priest_female_plural: "Матим" 
+ ehatm_priest_alternate: "Мат" 
+ ehatm_priest_alternate_plural: "Матим" 
+ ehatm_bishop: "Микимель" 
+ ehatm_bishop_plural: "Микимелим" 
+ ehatm_positive_afterlife: "Мерез" 
+ ehatm_negative_afterlife: "Молк" 
   
- ehatm_creator_god_name: "$ehatm_high_god_name$" #Машинный перевод 28.10.23
- ehatm_creator_god_name_possessive: "$ehatm_high_god_name_possessive$" #Машинный перевод 28.10.23
- ehatm_health_god_name: "$ehatm_high_god_name$" #Машинный перевод 28.10.23
- ehatm_health_god_name_possessive: "$ehatm_high_god_name_possessive$" #Машинный перевод 28.10.23
- ehatm_fertility_god_name: "$ehatm_high_god_name$" #Машинный перевод 28.10.23
- ehatm_fertility_god_name_possessive: "$ehatm_high_god_name_possessive$" #Машинный перевод 28.10.23
- ehatm_wealth_god_name: "Корике" #Машинный перевод 28.10.23
- ehatm_wealth_god_name_possessive: "Корике" #Машинный перевод 28.10.23
- ehatm_household_god_name: "$ehatm_wealth_god_name$" #Машинный перевод 28.10.23
- ehatm_household_god_name_possessive: "$ehatm_wealth_god_name_possessive$" #Машинный перевод 28.10.23
- ehatm_fate_god_name: "$ehatm_high_god_name$" #Машинный перевод 28.10.23
- ehatm_fate_god_name_possessive: "$ehatm_high_god_name_possessive$" #Машинный перевод 28.10.23
- ehatm_knowledge_god_name: "$ehatm_high_god_name$" #Машинный перевод 28.10.23
- ehatm_knowledge_god_name_possessive: "$ehatm_high_god_name_possessive$" #Машинный перевод 28.10.23
- ehatm_war_god_name: "$ehatm_devil_name$" #Машинный перевод 28.10.23
- ehatm_war_god_name_possessive: "$ehatm_devil_name_possessive$" #Машинный перевод 28.10.23
- ehatm_trickster_god_name: "Балам" #Машинный перевод 28.10.23
- ehatm_trickster_god_name_possessive: "Балама" #Машинный перевод 28.10.23
- ehatm_night_god_name: "$ehatm_devil_name$" #Машинный перевод 28.10.23
- ehatm_night_god_name_possessive: "$ehatm_devil_name_possessive$" #Машинный перевод 28.10.23
- ehatm_water_god_name: "$ehatm_high_god_name$" #Машинный перевод 28.10.23
- ehatm_water_god_name_possessive: "Дерья" #Машинный перевод 28.10.23
- ehatm_witch_god_name: "$ehatm_devil_name$" #Машинный перевод 28.10.23
- ehatm_witch_god_name_possessive: "$ehatm_devil_name_possessive$" #Машинный перевод 28.10.23
+ ehatm_creator_god_name: "$ehatm_high_god_name$" 
+ ehatm_creator_god_name_possessive: "$ehatm_high_god_name_possessive$" 
+ ehatm_health_god_name: "$ehatm_high_god_name$" 
+ ehatm_health_god_name_possessive: "$ehatm_high_god_name_possessive$" 
+ ehatm_fertility_god_name: "$ehatm_high_god_name$" 
+ ehatm_fertility_god_name_possessive: "$ehatm_high_god_name_possessive$" 
+ ehatm_wealth_god_name: "Корике" 
+ ehatm_wealth_god_name_possessive: "Корике" 
+ ehatm_household_god_name: "$ehatm_wealth_god_name$" 
+ ehatm_household_god_name_possessive: "$ehatm_wealth_god_name_possessive$" 
+ ehatm_fate_god_name: "$ehatm_high_god_name$" 
+ ehatm_fate_god_name_possessive: "$ehatm_high_god_name_possessive$" 
+ ehatm_knowledge_god_name: "$ehatm_high_god_name$" 
+ ehatm_knowledge_god_name_possessive: "$ehatm_high_god_name_possessive$" 
+ ehatm_war_god_name: "$ehatm_devil_name$" 
+ ehatm_war_god_name_possessive: "$ehatm_devil_name_possessive$" 
+ ehatm_trickster_god_name: "Балам" 
+ ehatm_trickster_god_name_possessive: "Балама" 
+ ehatm_night_god_name: "$ehatm_devil_name$" 
+ ehatm_night_god_name_possessive: "$ehatm_devil_name_possessive$" 
+ ehatm_water_god_name: "$ehatm_high_god_name$" 
+ ehatm_water_god_name_possessive: "Дерья" 
+ ehatm_witch_god_name: "$ehatm_devil_name$" 
+ ehatm_witch_god_name_possessive: "$ehatm_devil_name_possessive$" 

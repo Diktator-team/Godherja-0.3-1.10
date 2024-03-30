@@ -1,77 +1,77 @@
 ﻿l_russian:
   
  #hubarism Loc 
- hubarism_religion: "Хубаризм" #Машинный перевод 28.10.23
- hubarism_religion_adj: "Хубарист" #Машинный перевод 28.10.23
- hubarism_religion_adherent: "Хубарист" #Машинный перевод 28.10.23
- hubarism_religion_adherent_plural: "Хубаристы" #Машинный перевод 28.10.23
- hubarism_religion_desc: "Хубаристы являются частью древней веры в [sarradon|E], которая практиковалась [living_magi|E] еще в письменной истории. В центре веры находится Солнце, источник всего сущего, благословения которого нисходят на [magi|E] как лучи света, сияющие на посевы. Путешествуя по небу, Солнце переправляет души умерших в свое царство, где оно вершит свой суд всю ночь. Антагонист Солнца - Олюм, который отправляет своего аватара - [Concept('aervalr','Moon')|E] - охотиться на Солнце ночью." #Машинный перевод 28.10.23
- hubarism_high_god_name: "Шамса" #Машинный перевод 28.10.23
- hubarism_high_god_name_possessive: "Шамса" #Машинный перевод 28.10.23
- hubarism_high_god_name_alternate: "Великое Солнце" #Машинный перевод 28.10.23
- hubarism_high_god_name_alternate_possessive: "Великое Солнце" #Машинный перевод 28.10.23
- hubarism_devil_name: "$hubarism_death_deity_name$" #Машинный перевод 28.10.23
- hubarism_devil_name_possessive: "$hubarism_death_deity_name_possessive$" #Машинный перевод 28.10.23
- hubarism_death_deity_name: "Пустота" #Машинный перевод 28.10.23
- hubarism_death_deity_name_possessive: "Пустота" #Машинный перевод 28.10.23
+ hubarism_religion: "Хубаризм" 
+ hubarism_religion_adj: "Хубарист" 
+ hubarism_religion_adherent: "Хубарист" 
+ hubarism_religion_adherent_plural: "Хубаристы" 
+ hubarism_religion_desc: "Хабаристы являются частью древней веры в [Concept('sarradon','Саррадоне')|E], которую практиковали [Concept('living_magi','живые маги')|E] с незапамятных времен. В центре веры находится Солнце, источник всего сущего, и чьи благословения нисходят на [Concept('magi','магов')|E] в виде лучей света, которые освещают посевы. Когда Солнце путешествует по небу, оно переправляет души умерших в свое царство, где оно вершит суд в течение ночи. Антагонистом Солнца является Олюм, который посылает своего аватара — [Concept('aervalr',''Луна')|E] — охотиться на Солнце ночью."
+ hubarism_high_god_name: "Шамса" 
+ hubarism_high_god_name_possessive: "Шамса" 
+ hubarism_high_god_name_alternate: "Великое Солнце" 
+ hubarism_high_god_name_alternate_possessive: "Великое Солнце" 
+ hubarism_devil_name: "$hubarism_death_deity_name$" 
+ hubarism_devil_name_possessive: "$hubarism_death_deity_name_possessive$" 
+ hubarism_death_deity_name: "Пустота" 
+ hubarism_death_deity_name_possessive: "Пустота" 
   
   
   
- hubarism_house_of_worship: "Храм" #Машинный перевод 28.10.23
- hubarism_house_of_worship_plural: "Храмы" #Машинный перевод 28.10.23
- hubarism_religious_symbol: "Сияние Солнца" #Машинный перевод 28.10.23
- hubarism_religious_text: "Свитки Шамсы" #Машинный перевод 28.10.23
+ hubarism_house_of_worship: "Храм" 
+ hubarism_house_of_worship_plural: "Храмы" 
+ hubarism_religious_symbol: "Сияние Солнца" 
+ hubarism_religious_text: "Свитки Шамсы" 
   
- hubarism_religious_head_title: "Сияющий маг-судья" #Машинный перевод 28.10.23
- hubarism_religious_head_title_name: "Двор Великого Солнца" #Машинный перевод 28.10.23
- hubarism_devotee_male: "Хубарист" #Машинный перевод 28.10.23
- hubarism_devotee_male_plural: "Хубаристы" #Машинный перевод 28.10.23
- hubarism_devotee_female: "Хубарист" #Машинный перевод 28.10.23
- hubarism_devotee_female_plural: "Хубаристы" #Машинный перевод 28.10.23
- hubarism_devotee_neuter: "Хубарист" #Машинный перевод 28.10.23
- hubarism_devotee_neuter_plural: "Хубарист" #Машинный перевод 28.10.23
- hubarism_priest_male: "Маг-Судья" #Машинный перевод 28.10.23
- hubarism_priest_male_plural: "Маги-судьи" #Машинный перевод 28.10.23
- hubarism_priest_female: "Маг-Судья" #Машинный перевод 28.10.23
- hubarism_priest_female_plural: "Маги-судьи" #Машинный перевод 28.10.23
- hubarism_priest_alternate: "Маг-Судья" #Машинный перевод 28.10.23
- hubarism_priest_alternate_plural: "Маги-судьи" #Машинный перевод 28.10.23
- hubarism_bishop: "Блестящий маг-судья" #Машинный перевод 28.10.23
- hubarism_bishop_plural: "Блестящие маги-судьи" #Машинный перевод 28.10.23
- hubarism_positive_afterlife: "Колледж Шамса" #Машинный перевод 28.10.23
- hubarism_negative_afterlife: "Пустота" #Машинный перевод 28.10.23
+ hubarism_religious_head_title: "Сияющий маг-судья" 
+ hubarism_religious_head_title_name: "Двор Великого Солнца" 
+ hubarism_devotee_male: "Хубарист" 
+ hubarism_devotee_male_plural: "Хубаристы" 
+ hubarism_devotee_female: "Хубарист" 
+ hubarism_devotee_female_plural: "Хубаристы" 
+ hubarism_devotee_neuter: "Хубарист" 
+ hubarism_devotee_neuter_plural: "Хубарист" 
+ hubarism_priest_male: "Маг-Судья" 
+ hubarism_priest_male_plural: "Маги-судьи" 
+ hubarism_priest_female: "Маг-Судья" 
+ hubarism_priest_female_plural: "Маги-судьи" 
+ hubarism_priest_alternate: "Маг-Судья" 
+ hubarism_priest_alternate_plural: "Маги-судьи" 
+ hubarism_bishop: "Блестящий маг-судья" 
+ hubarism_bishop_plural: "Блестящие маги-судьи" 
+ hubarism_positive_afterlife: "Колледж Шамса" 
+ hubarism_negative_afterlife: "Пустота" 
   
- hubarism_creator_god_name: "$hubarism_high_god_name$" #Машинный перевод 28.10.23
- hubarism_creator_god_name_possessive: "$hubarism_high_god_name_possessive$" #Машинный перевод 28.10.23
- hubarism_health_god_name: "$hubarism_high_god_name$" #Машинный перевод 28.10.23
- hubarism_health_god_name_possessive: "$hubarism_fertility_god_name_possessive$" #Машинный перевод 28.10.23
- hubarism_fertility_god_name: "$hubarism_high_god_name$" #Машинный перевод 28.10.23
- hubarism_fertility_god_name_possessive: "$hubarism_high_god_name_possessive$" #Машинный перевод 28.10.23
- hubarism_wealth_god_name: "$hubarism_high_god_name$" #Машинный перевод 28.10.23
- hubarism_wealth_god_name_possessive: "$hubarism_high_god_name_possessive$" #Машинный перевод 28.10.23
- hubarism_household_god_name: "$hubarism_high_god_name_alternate$" #Машинный перевод 28.10.23
- hubarism_household_god_name_possessive: "$hubarism_high_god_name_alternate_possessive$" #Машинный перевод 28.10.23
- hubarism_fate_god_name: "$hubarism_high_god_name$" #Машинный перевод 28.10.23
- hubarism_fate_god_name_possessive: "$hubarism_high_god_name_possessive$" #Машинный перевод 28.10.23
- hubarism_knowledge_god_name: "$hubarism_high_god_name$" #Машинный перевод 28.10.23
- hubarism_knowledge_god_name_possessive: "$hubarism_high_god_name_possessive$" #Машинный перевод 28.10.23
- hubarism_war_god_name: "$hubarism_high_god_name_alternate$" #Машинный перевод 28.10.23
- hubarism_war_god_name_possessive: "$hubarism_high_god_name_alternate_possessive$"" #Машинный перевод 28.10.23
- hubarism_trickster_god_name: "$hubarism_death_deity_name$" #Машинный перевод 28.10.23
- hubarism_trickster_god_name_possessive: "$hubarism_death_deity_name_possessive$" #Машинный перевод 28.10.23
- hubarism_night_god_name: "$hubarism_trickster_god_name$" #Машинный перевод 28.10.23
- hubarism_night_god_name_possessive: "$hubarism_trickster_god_name$" #Машинный перевод 28.10.23
- hubarism_water_god_name: "$hubarism_high_god_name_alternate$" #Машинный перевод 28.10.23
- hubarism_water_god_name_possessive: "$hubarism_high_god_name_alternate_possessive$" #Машинный перевод 28.10.23
- hubarism_witch_god_name: "$hubarism_death_deity_name$" #Машинный перевод 28.10.23
- hubarism_witch_god_name_possessive: "$hubarism_death_deity_name_possessive$" #Машинный перевод 28.10.23
+ hubarism_creator_god_name: "$hubarism_high_god_name$" 
+ hubarism_creator_god_name_possessive: "$hubarism_high_god_name_possessive$" 
+ hubarism_health_god_name: "$hubarism_high_god_name$" 
+ hubarism_health_god_name_possessive: "$hubarism_fertility_god_name_possessive$" 
+ hubarism_fertility_god_name: "$hubarism_high_god_name$" 
+ hubarism_fertility_god_name_possessive: "$hubarism_high_god_name_possessive$" 
+ hubarism_wealth_god_name: "$hubarism_high_god_name$" 
+ hubarism_wealth_god_name_possessive: "$hubarism_high_god_name_possessive$" 
+ hubarism_household_god_name: "$hubarism_high_god_name_alternate$" 
+ hubarism_household_god_name_possessive: "$hubarism_high_god_name_alternate_possessive$" 
+ hubarism_fate_god_name: "$hubarism_high_god_name$" 
+ hubarism_fate_god_name_possessive: "$hubarism_high_god_name_possessive$" 
+ hubarism_knowledge_god_name: "$hubarism_high_god_name$" 
+ hubarism_knowledge_god_name_possessive: "$hubarism_high_god_name_possessive$" 
+ hubarism_war_god_name: "$hubarism_high_god_name_alternate$" 
+ hubarism_war_god_name_possessive: "$hubarism_high_god_name_alternate_possessive$"" 
+ hubarism_trickster_god_name: "$hubarism_death_deity_name$" 
+ hubarism_trickster_god_name_possessive: "$hubarism_death_deity_name_possessive$" 
+ hubarism_night_god_name: "$hubarism_trickster_god_name$" 
+ hubarism_night_god_name_possessive: "$hubarism_trickster_god_name$" 
+ hubarism_water_god_name: "$hubarism_high_god_name_alternate$" 
+ hubarism_water_god_name_possessive: "$hubarism_high_god_name_alternate_possessive$" 
+ hubarism_witch_god_name: "$hubarism_death_deity_name$" 
+ hubarism_witch_god_name_possessive: "$hubarism_death_deity_name_possessive$" 
   
   
  #hubarism loc 
- hubarism: "Хубаризм" #Машинный перевод 28.10.23
- hubarism_adj: "Губарит" #Машинный перевод 28.10.23
- hubarism_adherent: "Хубарист" #Машинный перевод 28.10.23
- hubarism_adherent_plural: "Хубаристы" #Машинный перевод 28.10.23
- hubarism_desc: "Хубаристы рассматривают [magi|E], получивших свои дары от Солнца, как хранителей его воли и исполнителей закона. Эта система магов-судей действовала с незапамятных времен, но недавно ее судьба изменилась. Столетия религиозных конфликтов с [wardenites|E], [ritualists|E] и, наконец, с Агионистами значительно уменьшили их власть, и Хубаристы теперь являются тенью того, чем они когда-то были." #Машинный перевод 28.10.23
+ hubarism: "Хубарит" 
+ hubarism_adj: "Хубаризм" 
+ hubarism_adherent: "Хубарист" 
+ hubarism_adherent_plural: "Хубаристы" 
+ hubarism_desc: "Хабаристы относятся к [Concept('magi','магами')|E], получившим свои дары от Солнца, как к хранителям его воли и исполнителям закона. Эта система магов-судей действовала с незапамятных времен, но недавно ее судьба изменилась. Столетия религиозного конфликта с [Concept('wardenites','варденитами')|E], [Concept('ritualists','ритуалистами')|E] и, наконец, агионистами значительно ослабили их власть, и хубаристы теперь являются тенью того, чем они когда-то были."
   
- holy_order_mekter_netaru: "Мектер Нетару" #Машинный перевод 28.10.23
+ holy_order_mekter_netaru: "Мектер Нетару" 
