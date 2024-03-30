@@ -1,78 +1,78 @@
 ﻿l_russian:
   
  #gethian Loc 
- gethian_religion: "гетский" #Машинный перевод 28.10.23
- gethian_religion_adj: "гетский" #Машинный перевод 28.10.23
- gethian_religion_adherent: "гетский" #Машинный перевод 28.10.23
- gethian_religion_adherent_plural: "геты" #Машинный перевод 28.10.23
- gethian_religion_desc: "Гефская космология говорит, что в самые ранние времена первые люди сильно обесчестили Великого Судью Атраха-Адмаха. Они утверждают, что этот грех был настолько оскорбительным и отвратительным, что его особенности затерялись со временем, поскольку никто не осмеливается высказать его гнусность. Великий Судья был мудрым, но суровым и сказал человечеству, что их нельзя судить только по одному этому поступку. Он покинет этот мир на долгое время, а когда вернется, будет судить человечество и смотреть, сделали ли они достаточно добра, чтобы перевесить свой невыразимый грех." #Машинный перевод 28.10.23
- gethian_high_god_name: "Атрах-Адмах" #Машинный перевод 28.10.23
- gethian_high_god_name_possessive: "Атрах-Адмаха" #Машинный перевод 28.10.23
- gethian_high_god_name_alternate: "Великий Судья" #Машинный перевод 28.10.23
- gethian_high_god_name_alternate_possessive: "Великий Судья" #Машинный перевод 28.10.23
- gethian_devil_name: "$gethian_death_deity_name$" #Машинный перевод 28.10.23
- gethian_devil_name_possessive: "$gethian_death_deity_name_possessive$" #Машинный перевод 28.10.23
- gethian_death_deity_name: "Холуя" #Машинный перевод 28.10.23
- gethian_death_deity_name_possessive: "Холуя" #Машинный перевод 28.10.23
+ gethian_religion: "Гетская" 
+ gethian_religion_adj: "Гетская" 
+ gethian_religion_adherent: "Гет" 
+ gethian_religion_adherent_plural: "Геты" 
+ gethian_religion_desc: "Гетская космология гласит, что в незапамятные времена первые люди сильно обесчестили Великого судью Атраха-Адмаха. Этот грех, как они утверждают, был настолько оскорбительным и отвратительным, что его подробности были утрачены во времени, ибо никто не осмеливается произнести его мерзость вслух. Великий Судья был мудр, но суров, и сказал человечеству, что они не будут судимы только по одному этому поступку. Он надолго покинет этот мир, а когда вернется, он будет судить человечество и посмотрит, сделали ли они достаточно добра, чтобы перевесить свой невыразимый грех."
+ gethian_high_god_name: "Атрах-Адмах" 
+ gethian_high_god_name_possessive: "Атрах-Адмаха" 
+ gethian_high_god_name_alternate: "Великий Судья" 
+ gethian_high_god_name_alternate_possessive: "Великий Судья" 
+ gethian_devil_name: "$gethian_death_deity_name$" 
+ gethian_devil_name_possessive: "$gethian_death_deity_name_possessive$" 
+ gethian_death_deity_name: "Холуя" 
+ gethian_death_deity_name_possessive: "Холуя" 
   
   
   
- gethian_house_of_worship: "Храм" #Машинный перевод 28.10.23
- gethian_house_of_worship_plural: "Храмы" #Машинный перевод 28.10.23
- gethian_religious_symbol: "Весы Небес" #Машинный перевод 28.10.23
- gethian_religious_text: "Сага о предках" #Машинный перевод 28.10.23
+ gethian_house_of_worship: "Храм" 
+ gethian_house_of_worship_plural: "Храмы" 
+ gethian_religious_symbol: "Весы Небес" 
+ gethian_religious_text: "Сага о предках" 
   
- gethian_religion_religious_head_title: "Тайи Ньядхиси" #Машинный перевод 28.10.23
- gethian_religious_head_title_name: "Вечная судебная власть" #Машинный перевод 28.10.23
- gethian_devotee_male: "гетский" #Машинный перевод 28.10.23
- gethian_devotee_male_plural: "гетский" #Машинный перевод 28.10.23
- gethian_devotee_female: "гетский" #Машинный перевод 28.10.23
- gethian_devotee_female_plural: "гетский" #Машинный перевод 28.10.23
- gethian_devotee_neuter: "гетский" #Машинный перевод 28.10.23
- gethian_devotee_neuter_plural: "гетский" #Машинный перевод 28.10.23
- gethian_priest_male: "Амафиси" #Машинный перевод 28.10.23
- gethian_priest_male_plural: "Амафизис" #Машинный перевод 28.10.23
- gethian_priest_female: "Амафизия" #Машинный перевод 28.10.23
- gethian_priest_female_plural: "Амафисий" #Машинный перевод 28.10.23
- gethian_priest_alternate: "Ангнухосис" #Машинный перевод 28.10.23
- gethian_priest_alternate_plural: "Ангнухосис" #Машинный перевод 28.10.23
- gethian_bishop: "Кануранви" #Машинный перевод 28.10.23
- gethian_bishop_plural: "Кануранвис" #Машинный перевод 28.10.23
- gethian_positive_afterlife: "Сады Адмахи" #Машинный перевод 28.10.23
- gethian_negative_afterlife: "Десять тысяч мучений" #Машинный перевод 28.10.23
+ gethian_religion_religious_head_title: "Тайи Ньядхиси" 
+ gethian_religious_head_title_name: "Вечная судебная власть" 
+ gethian_devotee_male: "гетский" 
+ gethian_devotee_male_plural: "гетский" 
+ gethian_devotee_female: "гетский" 
+ gethian_devotee_female_plural: "гетский" 
+ gethian_devotee_neuter: "гетский" 
+ gethian_devotee_neuter_plural: "гетский" 
+ gethian_priest_male: "Амафиси" 
+ gethian_priest_male_plural: "Амафизис" 
+ gethian_priest_female: "Амафизия" 
+ gethian_priest_female_plural: "Амафисий" 
+ gethian_priest_alternate: "Ангнухосис" 
+ gethian_priest_alternate_plural: "Ангнухосис" 
+ gethian_bishop: "Кануранви" 
+ gethian_bishop_plural: "Кануранвис" 
+ gethian_positive_afterlife: "Сады Адмахи" 
+ gethian_negative_afterlife: "Десять тысяч мучений" 
   
- gethian_creator_god_name: "$gethian_high_god_name$" #Машинный перевод 28.10.23
- gethian_creator_god_name_possessive: "$gethian_high_god_name_possessive$" #Машинный перевод 28.10.23
- gethian_health_god_name: "$gethian_fertility_god_name$" #Машинный перевод 28.10.23
- gethian_health_god_name_possessive: "$gethian_fertility_god_name_possessive$" #Машинный перевод 28.10.23
- gethian_fertility_god_name: "Паратна" #Машинный перевод 28.10.23
- gethian_fertility_god_name_possessive: "Паратны" #Машинный перевод 28.10.23
- gethian_wealth_god_name: "Мамне" #Машинный перевод 28.10.23
- gethian_wealth_god_name_possessive: "Мамне" #Машинный перевод 28.10.23
- gethian_household_god_name: "Лудауяк" #Машинный перевод 28.10.23
- gethian_household_god_name_possessive: "Людауяка" #Машинный перевод 28.10.23
- gethian_fate_god_name: "$gethian_high_god_name$" #Машинный перевод 28.10.23
- gethian_fate_god_name_possessive: "$gethian_high_god_name_possessive$" #Машинный перевод 28.10.23
- gethian_knowledge_god_name: "$gethian_high_god_name$" #Машинный перевод 28.10.23
- gethian_knowledge_god_name_possessive: "$gethian_high_god_name_possessive$" #Машинный перевод 28.10.23
- gethian_war_god_name: "Ампех" #Машинный перевод 28.10.23
- gethian_war_god_name_possessive: "Ампеха" #Машинный перевод 28.10.23
- gethian_trickster_god_name: "Ака" #Машинный перевод 28.10.23
- gethian_trickster_god_name_possessive: "Ака" #Машинный перевод 28.10.23
- gethian_night_god_name: "$gethian_trickster_god_name$" #Машинный перевод 28.10.23
- gethian_night_god_name_possessive: "$gethian_trickster_god_name$" #Машинный перевод 28.10.23
- gethian_water_god_name: "Эцим" #Машинный перевод 28.10.23
- gethian_water_god_name_possessive: "Эцим'с" #Машинный перевод 28.10.23
- gethian_witch_god_name: "$gethian_fate_god_name$" #Машинный перевод 28.10.23
- gethian_witch_god_name_possessive: "$gethian_fate_god_name_possessive$" #Машинный перевод 28.10.23
+ gethian_creator_god_name: "$gethian_high_god_name$" 
+ gethian_creator_god_name_possessive: "$gethian_high_god_name_possessive$" 
+ gethian_health_god_name: "$gethian_fertility_god_name$" 
+ gethian_health_god_name_possessive: "$gethian_fertility_god_name_possessive$" 
+ gethian_fertility_god_name: "Паратна" 
+ gethian_fertility_god_name_possessive: "Паратны" 
+ gethian_wealth_god_name: "Мамне" 
+ gethian_wealth_god_name_possessive: "Мамне" 
+ gethian_household_god_name: "Лудауяк" 
+ gethian_household_god_name_possessive: "Людауяка" 
+ gethian_fate_god_name: "$gethian_high_god_name$" 
+ gethian_fate_god_name_possessive: "$gethian_high_god_name_possessive$" 
+ gethian_knowledge_god_name: "$gethian_high_god_name$" 
+ gethian_knowledge_god_name_possessive: "$gethian_high_god_name_possessive$" 
+ gethian_war_god_name: "Ампех" 
+ gethian_war_god_name_possessive: "Ампеха" 
+ gethian_trickster_god_name: "Ака" 
+ gethian_trickster_god_name_possessive: "Ака" 
+ gethian_night_god_name: "$gethian_trickster_god_name$" 
+ gethian_night_god_name_possessive: "$gethian_trickster_god_name$" 
+ gethian_water_god_name: "Эцим" 
+ gethian_water_god_name_possessive: "Эцим'с" 
+ gethian_witch_god_name: "$gethian_fate_god_name$" 
+ gethian_witch_god_name_possessive: "$gethian_fate_god_name_possessive$" 
   
  #gethian loc 
- gethian: "гетский" #Машинный перевод 28.10.23
- gethian_adj: "гетский" #Машинный перевод 28.10.23
- gethian_adherent: "гетский" #Машинный перевод 28.10.23
- gethian_adherent_plural: "геты" #Машинный перевод 28.10.23
- gethian_desc: "Геты вошли в известный мир вместе с коалицией Шялволки. Хотя они имели тенденцию быть довольно замкнутыми, Сялволки рассказали им о великом зле [aversarians|E] и их империи. Они надеются, что, искоренив эту презренную и разрушительную веру, они смогут искупить свою вину в глазах Великого Судьи Атраха-Адмаха." #Машинный перевод 28.10.23
- gethian_old: "Старый гетианец" #Машинный перевод 28.10.23
- gethian_old_adj: "Старый гетианец" #Машинный перевод 28.10.23
- gethian_old_adherent: "Старый гетианец" #Машинный перевод 28.10.23
- gethian_old_adherent_plural: "Старые геты" #Машинный перевод 28.10.23
+ gethian: "Гетская" 
+ gethian_adj: "Гетская" 
+ gethian_adherent: "Гет" 
+ gethian_adherent_plural: "Геты" 
+ gethian_desc: "Геты вошли в известный мир вместе с коалицией Сьялволки. Хотя они, как правило, были довольно замкнутыми, сьялволки рассказали им о великом зле [Concept('aversarians','аверсарианцев')|E] и их империи. Они надеются, что, уничтожив эту презренную и разрушительную веру, они смогут искупить свою вину в глазах Великого судьи Атрах-Адмаха."
+ gethian_old: "Старый гетианец" 
+ gethian_old_adj: "Старый гетианец" 
+ gethian_old_adherent: "Старый гетианец" 
+ gethian_old_adherent_plural: "Старые геты" 

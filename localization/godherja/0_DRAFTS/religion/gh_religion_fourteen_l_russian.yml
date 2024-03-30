@@ -1,72 +1,72 @@
 ﻿l_russian:
   
  #China religion loc 
- fourteen_heavenly_methods_religion: "Kai-jiao" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_religion_adj: "Kai-jiao" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_religion_adjerent: "Kai-jiao" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_religion_adherent_plural: "Kai-jiao" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_religion_desc: "Кай-цзяо, или просто «поклонение богу», — это термин, используемый для описания верований, происходящих от местной народной религии Катун-Кай. Все эти веры сосредоточены вокруг поклонения пантеону богов, главой и создателем которого является Шэньван, Великий Царь Небес. Считается, что добродетельные души служат богам в божественном царстве Гуоди, в то время как нечестивцы вечно страдают в Гуйю." #Машинный перевод 28.10.23
- fourteen_heavenly_methods_high_god_name: "Shenwang" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_high_god_name_possessive: "Шэньванга" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_high_god_name_alternate: "Великий Король" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_high_god_name_alternate_possessive: "Великого Короля" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_devil_name: "Xie'e" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_devil_name_possessive: "Xie'e" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_death_deity_name: "Wangsi" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_death_deity_name_possessive: "Wangsi's" #Машинный перевод 28.10.23
+ fourteen_heavenly_methods_religion: "Кай-цзяо" 
+ fourteen_heavenly_methods_religion_adj: "Кай-цзяо" 
+ fourteen_heavenly_methods_religion_adjerent: "Кай-цзяо" 
+ fourteen_heavenly_methods_religion_adherent_plural: "Кай-цзяо" 
+ fourteen_heavenly_methods_religion_desc: "Кай-цзяо, или просто "поклонение богу", - это термин, используемый для описания верований, происходящих от местной народной религии Катун-Кай. Все эти религии сосредоточены вокруг поклонения пантеону богов, главой и создателем которого является Шенванг, великий царь Небес. Считается, что добродетельные души служат богам в божественном царстве Годи, в то время как нечестивые вечно страдают в Гуйю."
+ fourteen_heavenly_methods_high_god_name: "Shenwang" 
+ fourteen_heavenly_methods_high_god_name_possessive: "Шэньванга" 
+ fourteen_heavenly_methods_high_god_name_alternate: "Великий Король" 
+ fourteen_heavenly_methods_high_god_name_alternate_possessive: "Великого Короля" 
+ fourteen_heavenly_methods_devil_name: "Се'е" 
+ fourteen_heavenly_methods_devil_name_possessive: "Се'е" 
+ fourteen_heavenly_methods_death_deity_name: "Вангси" 
+ fourteen_heavenly_methods_death_deity_name_possessive: "Вангсиса" 
   
   
   
- fourteen_heavenly_methods_house_of_worship: "miaosi" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_house_of_worship_plural: "миоз" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_religious_symbol: "печать Дракона" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_religious_text: "трактаты Императрицы Драконов" #Машинный перевод 28.10.23
+ fourteen_heavenly_methods_house_of_worship: "мяоси" 
+ fourteen_heavenly_methods_house_of_worship_plural: "миоз" 
+ fourteen_heavenly_methods_religious_symbol: "печать Дракона" 
+ fourteen_heavenly_methods_religious_text: "трактаты Императрицы Драконов" 
   
- fourteen_heavenly_methods_religious_head_title: "Lingwangdi" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_religious_head_title_name: "Большой монастырь" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_devotee_male: "Тизли" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_devotee_male_plural: "Тизлейи" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_devotee_female: "Кезли" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_devotee_female_plural: "Кезлейи" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_devotee_neuter: "ардик" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_devotee_neuter_plural: "Ардичи" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_priest_male: "суни" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_priest_male_plural: "суни" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_priest_female: "суни" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_priest_female_plural: "суни" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_priest_alternate_plural: "суни" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_bishop: "Мо Би" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_bishop_plural: "Мо Би" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_positive_afterlife: "Guodi" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_negative_afterlife: "Guiyu" #Машинный перевод 28.10.23
+ fourteen_heavenly_methods_religious_head_title: "Лингвангди" 
+ fourteen_heavenly_methods_religious_head_title_name: "Большой монастырь" 
+ fourteen_heavenly_methods_devotee_male: "Тизли" 
+ fourteen_heavenly_methods_devotee_male_plural: "Тизлейи" 
+ fourteen_heavenly_methods_devotee_female: "Кезли" 
+ fourteen_heavenly_methods_devotee_female_plural: "Кезлейи" 
+ fourteen_heavenly_methods_devotee_neuter: "ардик" 
+ fourteen_heavenly_methods_devotee_neuter_plural: "Ардичи" 
+ fourteen_heavenly_methods_priest_male: "суни" 
+ fourteen_heavenly_methods_priest_male_plural: "суни" 
+ fourteen_heavenly_methods_priest_female: "суни" 
+ fourteen_heavenly_methods_priest_female_plural: "суни" 
+ fourteen_heavenly_methods_priest_alternate_plural: "суни" 
+ fourteen_heavenly_methods_bishop: "Мо Би" 
+ fourteen_heavenly_methods_bishop_plural: "Мо Би" 
+ fourteen_heavenly_methods_positive_afterlife: "Годи" 
+ fourteen_heavenly_methods_negative_afterlife: "Гуйю" 
   
- fourteen_heavenly_methods_creator_god_name: "$fourteen_heavenly_methods_high_god_name$" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_creator_god_name_possessive: "$fourteen_heavenly_methods_high_god_name_possessive$" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_health_god_name: "Guan Li" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_health_god_name_possessive: "Guan Li's" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_fertility_god_name: "Xin Jiao" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_fertility_god_name_possessive: "Xin Jiao's" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_wealth_god_name: "Каргеч" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_wealth_god_name_possessive: "Каргеца" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_household_god_name: "Ни Ре" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_household_god_name_possessive: "Ни Ре" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_fate_god_name: "Laojing" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_fate_god_name_possessive: "Лаоцзин" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_knowledge_god_name: "Shu Xy" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_knowledge_god_name_possessive: "Шу Си" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_war_god_name: "Ни Ду" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_war_god_name_possessive: "Ни Ду" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_trickster_god_name: "Zi Zhu" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_trickster_god_name_possessive: "Zi Zhu's" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_night_god_name: "$fourteen_heavenly_methods_trickster_god_name$" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_night_god_name_possessive: "$fourteen_heavenly_methods_trickster_god_name_possessive$" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_water_god_name: "$fourteen_heavenly_methods_war_god_name$" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_water_god_name_possessive: "$fourteen_heavenly_methods_war_god_name_possessive$" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_witch_god_name: "Daode Tianzun" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_witch_god_name_possessive: "Daode Tianzun's" #Машинный перевод 28.10.23
+ fourteen_heavenly_methods_creator_god_name: "$fourteen_heavenly_methods_high_god_name$" 
+ fourteen_heavenly_methods_creator_god_name_possessive: "$fourteen_heavenly_methods_high_god_name_possessive$" 
+ fourteen_heavenly_methods_health_god_name: "Гуань Ли" 
+ fourteen_heavenly_methods_health_god_name_possessive: "Гуань Ли" 
+ fourteen_heavenly_methods_fertility_god_name: "Синь Цзяо" 
+ fourteen_heavenly_methods_fertility_god_name_possessive: "Синь Цзяо" 
+ fourteen_heavenly_methods_wealth_god_name: "Каргеч" 
+ fourteen_heavenly_methods_wealth_god_name_possessive: "Каргеца" 
+ fourteen_heavenly_methods_household_god_name: "Ни Ре" 
+ fourteen_heavenly_methods_household_god_name_possessive: "Ни Ре" 
+ fourteen_heavenly_methods_fate_god_name: "Лаоцзин" 
+ fourteen_heavenly_methods_fate_god_name_possessive: "Лаоцзин" 
+ fourteen_heavenly_methods_knowledge_god_name: "Шу Хи" 
+ fourteen_heavenly_methods_knowledge_god_name_possessive: "Шу Си" 
+ fourteen_heavenly_methods_war_god_name: "Ни Ду" 
+ fourteen_heavenly_methods_war_god_name_possessive: "Ни Ду" 
+ fourteen_heavenly_methods_trickster_god_name: "Цзы Чжу" 
+ fourteen_heavenly_methods_trickster_god_name_possessive: "У Цзы Чжу" 
+ fourteen_heavenly_methods_night_god_name: "$fourteen_heavenly_methods_trickster_god_name$" 
+ fourteen_heavenly_methods_night_god_name_possessive: "$fourteen_heavenly_methods_trickster_god_name_possessive$" 
+ fourteen_heavenly_methods_water_god_name: "$fourteen_heavenly_methods_war_god_name$" 
+ fourteen_heavenly_methods_water_god_name_possessive: "$fourteen_heavenly_methods_war_god_name_possessive$" 
+ fourteen_heavenly_methods_witch_god_name: "Даоде Тяньцзунь" 
+ fourteen_heavenly_methods_witch_god_name_possessive: "Даоде Тяньцзунь" 
   
- fourteen_heavenly_methods: "Четырнадцать небесных методов" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_adj: "Четырнадцать небесных методов" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_adherent: "Метод-хранитель" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_adherent_plural: "Методисты" #Машинный перевод 28.10.23
- fourteen_heavenly_methods_desc: "Четырнадцать Небесных Методов — это название одноименных философских трактатов, приписываемых легендарной Императрице Ни Ду, также известной как Бог-Императрица или Императрица-Дракон. Она была могущественным магом, и ей приписывают как объединение городов Катун-Кай, так и полное подчинение монастырей Мяоси государству. За время своего двухвекового правления она написала эссе о том, как люди четырнадцати профессий и образов жизни в Катун-Кае могут жить добродетельно и достичь прохода на небеса.\n\nГоворят, что после ее смерти душа Ни Ду слилась с семя Шэньвана для создания первого дракона; В альтернативных утверждениях говорится, что ее душа владела самой землей и небом, чтобы охранять свой народ после смерти.\n\nНачиная с ее сына Ни Ре, претенденты на трон Катун-Кая утверждали, что ими одержим дух первого дракона. чтобы укрепить свою легитимность. Многим из этих одержимых императоров поклоняются вместе с Ни Ду, и ее Небесные методы строго соблюдаются." #Машинный перевод 28.10.23
+ fourteen_heavenly_methods: "Четырнадцать небесных методов" 
+ fourteen_heavenly_methods_adj: "Четырнадцать небесных методов" 
+ fourteen_heavenly_methods_adherent: "Метод-хранитель" 
+ fourteen_heavenly_methods_adherent_plural: "Методисты" 
+ fourteen_heavenly_methods_desc: "Четырнадцать небесных методов - это название, данное одноименным философским трактатам, приписываемым легендарной императрице Ни Ду, также известной как Бог-императрица или императрица-Дракон. Она была могущественной магиней, и ей приписывали как объединение городов Катун-Кай, так и полное подчинение монастырей Мяоси государству. За время своего двухвекового правления она написала эссе о том, как люди четырнадцати профессий и стилей жизни в Катун-Кае могут жить добродетельно и достичь попадания на Небеса.\n\nГоворили, что после ее смерти душа Ни Ду слилась с семенем Шенванга, создав первого дракона; альтернативные утверждения гласят, что ее душа овладела самой землей и небом, чтобы присматривать за своим народом после смерти.\n\nНачиная с ее сына Ни Рэ, претенденты на трон Катун-Кая утверждали, что в них вселился дух первого дракона, чтобы укрепить свою легитимность. Многим из этих одержимых императоров поклоняются наряду с Найду, и ее Небесных методов строго придерживаются."
