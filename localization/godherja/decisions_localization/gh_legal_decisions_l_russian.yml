@@ -1,8 +1,8 @@
 ﻿l_russian:
- begin_practicing_law_decision_name: "Начните изучать право"  #Машинный перевод 28.10.23!
- continue_practicing_law_decision_name: "Продолжить изучение права"  #Машинный перевод 28.10.23!
- begin_practicing_law_decision_desc: "Чтобы освоить тонкости закона [GetPlayer.GetFaith.GetReligion.GetAdjectiveNoTooltip], требуется целая жизнь, и начать поиск даже базовых основ - задача устрашающая - [SelectLocalization(GetPlayer.HasTrait(GetTrait('arrogant').Self),'though a brilliant ruler such as myself should have no problem in this regard and',SelectLocalization(GetPlayer.HasTrait(GetTrait('zealous').Self),'though my piety compels me to explore the tenets of my faith and','but'))], если я буду упорствовать, выгоды могут оказаться существенными."  #Машинный перевод 28.10.23!
- continue_practicing_law_decision_desc: "Я достаточно долго пренебрегал учебой в области права. Пришло время смахнуть пыль со старого тома."  #Машинный перевод 28.10.23!
- begin_practicing_law_decision_tooltip: "Я буду изучать запутанный мир [GetPlayer.GetFaith.GetReligion.GetAdjectiveNoTooltip] Закона."  #Машинный перевод 28.10.23!
- begin_practicing_law_decision_confirm: "Начни мое обучение"  #Машинный перевод 28.10.23!
- begin_practicing_law_decision_effect_tt: "Вы начнете получать события, которые могут дать #E навыка правосудия#! за счет получения [stress|E]."  #Машинный перевод 28.10.23!
+ begin_practicing_law_decision_name: "Начните изучать право"
+ continue_practicing_law_decision_name: "Продолжить изучение права"
+ begin_practicing_law_decision_desc: "Чтобы освоить тонкости закона [GetPlayer.GetFaith.GetReligion.GetAdjectiveNoTooltip], требуется целая жизнь, и начать поиск даже базовых основ - задача устрашающая - [SelectLocalization(GetPlayer.HasTrait(GetTrait('arrogant').Self),'хотя у такого блестящего правителя, как я, не должно быть проблем в этом отношении, и',SelectLocalization(GetPlayer.HasTrait(GetTrait('zealous').Self),'хотя мое благочестие вынуждает меня исследовать догматы моей веры и','но'))], если я буду упорствовать, выгоды могут оказаться существенными."
+ continue_practicing_law_decision_desc: "Я достаточно долго пренебрегал учебой в области права. Пришло время смахнуть пыль со старого тома."
+ begin_practicing_law_decision_tooltip: "Я буду изучать запутанный мир [GetPlayer.GetFaith.GetReligion.GetAdjectiveNoTooltip] Закона."
+ begin_practicing_law_decision_confirm: "Начни мое обучение"
+ begin_practicing_law_decision_effect_tt: "Вы начнете получать события, которые могут дать #E навыка правосудия#! за счет получения [Concept('stress','стресса')|E]."
