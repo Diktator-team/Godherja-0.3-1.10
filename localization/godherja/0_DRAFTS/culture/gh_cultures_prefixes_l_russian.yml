@@ -156,7 +156,7 @@
  sarridians_prefix: "Сарридно"
  kardwens_prefix: "Кэрдвено"  
  sarminians_prefix: "Сарридино"
- #mondecny_prefix: "Мондеко"  #Машинный перевод 28.10.23!
+ #mondecny_prefix: "Мондеко"
  huegodocs_prefix: "Хуэгодоко" 
  karzarads_prefix: "Карзарадо"
  goans_prefix: "Гоано"  
@@ -324,4 +324,4 @@
  skorikiakas_prefix: "Скорикиакасо"
  nattanan_prefix: "Наттанано" 
  dathanites_prefix: "Датанито"
- gh_dragon_culture_prefix:0 "Драконо" 
+ gh_dragon_culture_prefix: "Драконо" 
