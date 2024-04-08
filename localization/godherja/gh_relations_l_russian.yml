@@ -14,5 +14,5 @@
 # GH versions of BP custom loc
  relation_pathfellow:0 "Путник" 
  relation_pactkin:0 "Паккин" 
- relation_blood_brother:0 "Кровный брат" 
- relation_blood_sister:0 "Кровная сестра" 
+ relation_blood_brother:0 "кровный брат" 
+ relation_blood_sister:0 "кровная сестра" 

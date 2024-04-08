@@ -1,874 +1,874 @@
 ﻿l_russian:
   #Example 
- #mercenary_company_baltic_band: "Балтийский оркестр"  #Машинный перевод 28.10.23!
- #mercenary_company_baltic_band_article: ""  #Машинный перевод 28.10.23!
+ #mercenary_company_baltic_band: "Балтийский оркестр"  
+ #mercenary_company_baltic_band_article: ""  
   
   #Imperials 
- mercenary_company_legio_xv: "Легио XV «Верные»"  #Машинный перевод 28.10.23!
- mercenary_company_legio_xv_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_firestar_company: "Компания "Файрстар""  #Машинный перевод 28.10.23!
- mercenary_company_firestar_company_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_emperors_wroth: "Гнев Императора"  #Машинный перевод 28.10.23!
- mercenary_company_emperors_wroth_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_legio_ix: "Легио IX «Непорочные»"  #Машинный перевод 28.10.23!
- mercenary_company_legio_ix_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_legio_vii: "Легио VII «Искрос»"  #Машинный перевод 28.10.23!
- mercenary_company_legio_vii_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_lost_sons: "Потерянные сыновья"  #Машинный перевод 28.10.23!
- mercenary_company_lost_sons_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_hammer_company: "Компания молота"  #Машинный перевод 28.10.23!
- mercenary_company_hammer_company_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_bearskin_company: "Компания "Медвежья шкура""  #Машинный перевод 28.10.23!
- mercenary_company_bearskin_company_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_redstone_bandits: "Редстоунские бандиты"  #Машинный перевод 28.10.23!
- mercenary_company_redstone_bandits_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_legio_xxiv: "Легио XXIV «Стойкие»"  #Машинный перевод 28.10.23!
- mercenary_company_legio_xxiv_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_bloodspiller_company: "Компания Кровавоспускателей  #Машинный перевод 28.10.23!
- mercenary_company_bloodspiller_company_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_sons_of_destiny: "Сыны судьбы"  #Машинный перевод 28.10.23!
- mercenary_company_sons_of_destiny_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_broken_arrows: "Сломанные стрелы"  #Машинный перевод 28.10.23!
- mercenary_company_broken_arrows_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_kingslayers: "Цареубийцы"  #Машинный перевод 28.10.23!
- mercenary_company_kingslayers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_old_reliables: "Старые друзья"  #Машинный перевод 28.10.23!
- mercenary_company_old_reliables_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_greyskull_company: "Компания "Серого Черепа""  #Машинный перевод 28.10.23!
- mercenary_company_greyskull_company_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_snakesorrow_bandits: "Бандиты Змеиной скорьби"  #Машинный перевод 28.10.23!
- mercenary_company_snakesorrow_bandits_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_gravedigers: "Могильщики"  #Машинный перевод 28.10.23!
- mercenary_company_gravedigers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_axiaotheas_revenge: "Месть Аксиаотеи"  #Машинный перевод 28.10.23!
- mercenary_company_axiaotheas_revenge_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_crowntakers: "Коронованные"  #Машинный перевод 28.10.23!
- mercenary_company_crowntakers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_golden_nose_band: "Отряд золотого носа"  #Машинный перевод 28.10.23!
- mercenary_company_golden_nose_band_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_champions_of_the_rock: "Чемпионы рока"  #Машинный перевод 28.10.23!
- mercenary_company_champions_of_the_rock_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_rainfall_company: "Дождевая компания"  #Машинный перевод 28.10.23!
- mercenary_company_rainfall_company_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_endless_survivors: "Бесконечные выжившие"  #Машинный перевод 28.10.23!
- mercenary_company_endless_survivors_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_legio_xv: "Легио XV «Верные»"  
+ mercenary_company_legio_xv_article: ""  
+ mercenary_company_firestar_company: "Компания "Файрстар""  
+ mercenary_company_firestar_company_article: ""  
+ mercenary_company_emperors_wroth: "Гнев Императора"  
+ mercenary_company_emperors_wroth_article: ""  
+ mercenary_company_legio_ix: "Легио IX «Непорочные»"  
+ mercenary_company_legio_ix_article: ""  
+ mercenary_company_legio_vii: "Легио VII «Искрос»"  
+ mercenary_company_legio_vii_article: ""  
+ mercenary_company_lost_sons: "Потерянные сыновья"  
+ mercenary_company_lost_sons_article: ""  
+ mercenary_company_hammer_company: "Компания молота"  
+ mercenary_company_hammer_company_article: ""  
+ mercenary_company_bearskin_company: "Компания "Медвежья шкура""  
+ mercenary_company_bearskin_company_article: ""  
+ mercenary_company_redstone_bandits: "Редстоунские бандиты"  
+ mercenary_company_redstone_bandits_article: ""  
+ mercenary_company_legio_xxiv: "Легио XXIV «Стойкие»"  
+ mercenary_company_legio_xxiv_article: ""  
+ mercenary_company_bloodspiller_company: "Компания Кровавоспускателей  
+ mercenary_company_bloodspiller_company_article: ""  
+ mercenary_company_sons_of_destiny: "Сыны судьбы"  
+ mercenary_company_sons_of_destiny_article: ""  
+ mercenary_company_broken_arrows: "Сломанные стрелы"  
+ mercenary_company_broken_arrows_article: ""  
+ mercenary_company_kingslayers: "Цареубийцы"  
+ mercenary_company_kingslayers_article: ""  
+ mercenary_company_old_reliables: "Старые друзья"  
+ mercenary_company_old_reliables_article: ""  
+ mercenary_company_greyskull_company: "Компания "Серого Черепа""  
+ mercenary_company_greyskull_company_article: ""  
+ mercenary_company_snakesorrow_bandits: "Бандиты Змеиной скорьби"  
+ mercenary_company_snakesorrow_bandits_article: ""  
+ mercenary_company_gravedigers: "Могильщики"  
+ mercenary_company_gravedigers_article: ""  
+ mercenary_company_axiaotheas_revenge: "Месть Аксиаотеи"  
+ mercenary_company_axiaotheas_revenge_article: ""  
+ mercenary_company_crowntakers: "Коронованные"  
+ mercenary_company_crowntakers_article: ""  
+ mercenary_company_golden_nose_band: "Отряд золотого носа"  
+ mercenary_company_golden_nose_band_article: ""  
+ mercenary_company_champions_of_the_rock: "Чемпионы рока"  
+ mercenary_company_champions_of_the_rock_article: ""  
+ mercenary_company_rainfall_company: "Дождевая компания"  
+ mercenary_company_rainfall_company_article: ""  
+ mercenary_company_endless_survivors: "Бесконечные выжившие"  
+ mercenary_company_endless_survivors_article: ""  
   
   #sjalvolki 
- mercenary_company_blood_axes: "Кровавые топоры"  #Машинный перевод 28.10.23!
- mercenary_company_blood_axes_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_night_raiders: "Ночные рейдеры"  #Машинный перевод 28.10.23!
- mercenary_company_night_raiders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_children_of_the_grove: "Дети Рощи"  #Машинный перевод 28.10.23!
- mercenary_company_children_of_the_grove_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_ironbiters: "Железнокусатели"  #Машинный перевод 28.10.23!
- mercenary_company_ironbiters_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_burnt_bridge_bandits: "Бандиты сожженного моста"  #Машинный перевод 28.10.23!
- mercenary_company_burnt_bridge_bandits_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_wolves: "Волки"  #Машинный перевод 28.10.23!
- mercenary_company_wolves_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_scaleback_raiders: "Возвращающиеся войны"  #Машинный перевод 28.10.23!
- mercenary_company_scaleback_raiders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_treesplitters: "Дровоколы"  #Машинный перевод 28.10.23!
- mercenary_company_treesplitters_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_fifteen_blades: "Пятнадцать клинков"  #Машинный перевод 28.10.23!
- mercenary_company_fifteen_blades_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_sons_of_erik: "Сыновья Эрика"  #Машинный перевод 28.10.23!
- mercenary_company_sons_of_erik_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_dragon_hunters: "Охотники на драконов"  #Машинный перевод 28.10.23!
- mercenary_company_dragon_hunters_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_skysorrow_bandits: "Бандиты Небесной Скорби"  #Машинный перевод 28.10.23!
- mercenary_company_skysorrow_bandits_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_elk_chargers: "Наследники Элка"  #Машинный перевод 28.10.23!
- mercenary_company_elk_chargers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_burned_men: "Сгоревшие люди"  #Машинный перевод 28.10.23!
- mercenary_company_burned_men_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_six_eyes: "Шестиглазые"  #Машинный перевод 28.10.23!
- mercenary_company_six_eyes_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_roundhill_bandits: "Бандиты круглогохолма"  #Машинный перевод 28.10.23!
- mercenary_company_roundhill_bandits_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_thulkguard_raiders: "Наледчики Тулка"  #Машинный перевод 28.10.23!
- mercenary_company_thulkguard_raiders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_throatslitters: "Перерезатели горла"  #Машинный перевод 28.10.23!
- mercenary_company_throatslitters_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_bitterwood_champions: "Чемпионы горького дерева"  #Машинный перевод 28.10.23!
- mercenary_company_bitterwood_champions_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_imperial_slayers: "Имперские убийцы"  #Машинный перевод 28.10.23!
- mercenary_company_imperial_slayers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_blood_wings: "Кровь победителей"  #Машинный перевод 28.10.23!
- mercenary_company_blood_wings_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_moonshard_followers: "Последователи лунного осколка"  #Машинный перевод 28.10.23!
- mercenary_company_moonshard_followers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_riverfall_raiders: "Рейдеры Риверфолла"  #Машинный перевод 28.10.23!
- mercenary_company_riverfall_raiders_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_blood_axes: "Кровавые топоры"  
+ mercenary_company_blood_axes_article: ""  
+ mercenary_company_night_raiders: "Ночные рейдеры"  
+ mercenary_company_night_raiders_article: ""  
+ mercenary_company_children_of_the_grove: "Дети Рощи"  
+ mercenary_company_children_of_the_grove_article: ""  
+ mercenary_company_ironbiters: "Железнокусатели"  
+ mercenary_company_ironbiters_article: ""  
+ mercenary_company_burnt_bridge_bandits: "Бандиты сожженного моста"  
+ mercenary_company_burnt_bridge_bandits_article: ""  
+ mercenary_company_wolves: "Волки"  
+ mercenary_company_wolves_article: ""  
+ mercenary_company_scaleback_raiders: "Возвращающиеся войны"  
+ mercenary_company_scaleback_raiders_article: ""  
+ mercenary_company_treesplitters: "Дровоколы"  
+ mercenary_company_treesplitters_article: ""  
+ mercenary_company_fifteen_blades: "Пятнадцать клинков"  
+ mercenary_company_fifteen_blades_article: ""  
+ mercenary_company_sons_of_erik: "Сыновья Эрика"  
+ mercenary_company_sons_of_erik_article: ""  
+ mercenary_company_dragon_hunters: "Охотники на драконов"  
+ mercenary_company_dragon_hunters_article: ""  
+ mercenary_company_skysorrow_bandits: "Бандиты Небесной Скорби"  
+ mercenary_company_skysorrow_bandits_article: ""  
+ mercenary_company_elk_chargers: "Наследники Элка"  
+ mercenary_company_elk_chargers_article: ""  
+ mercenary_company_burned_men: "Сгоревшие люди"  
+ mercenary_company_burned_men_article: ""  
+ mercenary_company_six_eyes: "Шестиглазые"  
+ mercenary_company_six_eyes_article: ""  
+ mercenary_company_roundhill_bandits: "Бандиты круглогохолма"  
+ mercenary_company_roundhill_bandits_article: ""  
+ mercenary_company_thulkguard_raiders: "Наледчики Тулка"  
+ mercenary_company_thulkguard_raiders_article: ""  
+ mercenary_company_throatslitters: "Перерезатели горла"  
+ mercenary_company_throatslitters_article: ""  
+ mercenary_company_bitterwood_champions: "Чемпионы горького дерева"  
+ mercenary_company_bitterwood_champions_article: ""  
+ mercenary_company_imperial_slayers: "Имперские убийцы"  
+ mercenary_company_imperial_slayers_article: ""  
+ mercenary_company_blood_wings: "Кровь победителей"  
+ mercenary_company_blood_wings_article: ""  
+ mercenary_company_moonshard_followers: "Последователи лунного осколка"  
+ mercenary_company_moonshard_followers_article: ""  
+ mercenary_company_riverfall_raiders: "Рейдеры Риверфолла"  
+ mercenary_company_riverfall_raiders_article: ""  
   
   #Fog Eaters 
- mercenary_company_children_of_the_fog: "Дети [Concept('fog','тумана')|E]"  #Машинный перевод 28.10.23!
- mercenary_company_children_of_the_fog_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_shadows: "Тени"  #Машинный перевод 28.10.23!
- mercenary_company_shadows_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_mind_breakers: "Разрушители разума"  #Машинный перевод 28.10.23!
- mercenary_company_mind_breakers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_forlorn: "Несчастный"  #Машинный перевод 28.10.23!
- mercenary_company_forlorn_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_forsaken: "Отрекшийся"  #Машинный перевод 28.10.23!
- mercenary_company_forsaken_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_children_of_the_fog: "Дети [Concept('fog','тумана')|E]"  
+ mercenary_company_children_of_the_fog_article: ""  
+ mercenary_company_shadows: "Тени"  
+ mercenary_company_shadows_article: ""  
+ mercenary_company_mind_breakers: "Разрушители разума"  
+ mercenary_company_mind_breakers_article: ""  
+ mercenary_company_forlorn: "Несчастный"  
+ mercenary_company_forlorn_article: ""  
+ mercenary_company_forsaken: "Отрекшиеся"  
+ mercenary_company_forsaken_article: ""  
   
   #Marcher 
- mercenary_company_company_of_the_way: "Компания Пути"  #Машинный перевод 28.10.23!
- mercenary_company_company_of_the_way_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_knights_of_lifes_radiance: "Рыцари сияния жизни"  #Машинный перевод 28.10.23!
- mercenary_company_knights_of_lifes_radiance_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_company_of_the_sword: "Компания Меча"  #Машинный перевод 28.10.23!
- mercenary_company_company_of_the_sword_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_knights_of_the_star: "Рыцари Звезды"  #Машинный перевод 28.10.23!
- mercenary_company_knights_of_the_star_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_gallant_adventurers: "Галантные искатели приключений"  #Машинный перевод 28.10.23!
- mercenary_company_gallant_adventurers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_crownbreakers: "Краунбрейкеры"  #Машинный перевод 28.10.23!
- mercenary_company_crownbreakers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_three_feather_gentlemen: "Три перьевых джентльмена"  #Машинный перевод 28.10.23!
- mercenary_company_three_feather_gentlemen_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_adventurer_guild: "Гильдия искателей приключений"  #Машинный перевод 28.10.23!
- mercenary_company_adventurer_guild_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_bards_of_bacenor: "Барды Басенора"  #Машинный перевод 28.10.23!
- mercenary_company_bards_of_bacenor_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_knights_of_the_full_moon: "Рыцари Полнолуния"  #Машинный перевод 28.10.23!
- mercenary_company_knights_of_the_full_moon_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_ironchargers: "Железные зарядные устройства"  #Машинный перевод 28.10.23!
- mercenary_company_ironchargers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_blind_knights: "Слепые рыцари"  #Машинный перевод 28.10.23!
- mercenary_company_blind_knights_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_redeemers: "Искупители"  #Машинный перевод 28.10.23!
- mercenary_company_redeemers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_company_of_the_lost_sword: "Компания потерянного меча"  #Машинный перевод 28.10.23!
- mercenary_company_company_of_the_lost_sword_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_knights_of_the_eternal_promise: "Рыцари Вечного Обещания"  #Машинный перевод 28.10.23!
- mercenary_company_knights_of_the_eternal_promise_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_company_of_the_saved: "Компания Спасенных"  #Машинный перевод 28.10.23!
- mercenary_company_company_of_the_saved_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_crownsgutter_bandits: "Бандиты из Коронной сточной канавы"  #Машинный перевод 28.10.23!
- mercenary_company_crownsgutter_bandits_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_lichebane_company: "Компания Личебане"  #Машинный перевод 28.10.23!
- mercenary_company_lichebane_company_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_guardians_of_virtue: "Хранители добродетели"  #Машинный перевод 28.10.23!
- mercenary_company_guardians_of_virtue_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_company_of_the_wayward_dawn: "Компания своенравного рассвета"  #Машинный перевод 28.10.23!
- mercenary_company_company_of_the_wayward_dawn_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_five_sword_company: "Компания пяти мечей"  #Машинный перевод 28.10.23!
- mercenary_company_five_sword_company_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_guardians_of_the_light: "Стражи Света"  #Машинный перевод 28.10.23!
- mercenary_company_guardians_of_the_light_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_order_of_the_endless_path: "Орден Бесконечного Пути"  #Машинный перевод 28.10.23!
- mercenary_company_order_of_the_endless_path_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_broken_bastards: "Сломанные ублюдки"  #Машинный перевод 28.10.23!
- mercenary_company_broken_bastards_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_company_of_the_way: "Компания Пути"  
+ mercenary_company_company_of_the_way_article: ""  
+ mercenary_company_knights_of_lifes_radiance: "Рыцари сияния жизни"  
+ mercenary_company_knights_of_lifes_radiance_article: ""  
+ mercenary_company_company_of_the_sword: "Компания Меча"  
+ mercenary_company_company_of_the_sword_article: ""  
+ mercenary_company_knights_of_the_star: "Рыцари Звезды"  
+ mercenary_company_knights_of_the_star_article: ""  
+ mercenary_company_gallant_adventurers: "Галантные искатели приключений"  
+ mercenary_company_gallant_adventurers_article: ""  
+ mercenary_company_crownbreakers: "Разрушители корон"  
+ mercenary_company_crownbreakers_article: ""  
+ mercenary_company_three_feather_gentlemen: "Джентльмены с тремя перьями"  
+ mercenary_company_three_feather_gentlemen_article: ""  
+ mercenary_company_adventurer_guild: "Гильдия искателей приключений"  
+ mercenary_company_adventurer_guild_article: ""  
+ mercenary_company_bards_of_bacenor: "Барды Басенора"  
+ mercenary_company_bards_of_bacenor_article: ""  
+ mercenary_company_knights_of_the_full_moon: "Рыцари Полнолуния"  
+ mercenary_company_knights_of_the_full_moon_article: ""  
+ mercenary_company_ironchargers: "Железноерукие"  
+ mercenary_company_ironchargers_article: ""  
+ mercenary_company_blind_knights: "Слепые рыцари"  
+ mercenary_company_blind_knights_article: ""  
+ mercenary_company_redeemers: "Искупители"  
+ mercenary_company_redeemers_article: ""  
+ mercenary_company_company_of_the_lost_sword: "Компания потерянного меча"  
+ mercenary_company_company_of_the_lost_sword_article: ""  
+ mercenary_company_knights_of_the_eternal_promise: "Рыцари Вечного Обещания"  
+ mercenary_company_knights_of_the_eternal_promise_article: ""  
+ mercenary_company_company_of_the_saved: "Компания Спасенных"  
+ mercenary_company_company_of_the_saved_article: ""  
+ mercenary_company_crownsgutter_bandits: "Бандиты-короновальщики"  
+ mercenary_company_crownsgutter_bandits_article: ""  
+ mercenary_company_lichebane_company: "Компания Личеистребителей"  
+ mercenary_company_lichebane_company_article: ""  
+ mercenary_company_guardians_of_virtue: "Хранители добродетели"  
+ mercenary_company_guardians_of_virtue_article: ""  
+ mercenary_company_company_of_the_wayward_dawn: "Компания потеряного рассвета"  
+ mercenary_company_company_of_the_wayward_dawn_article: ""  
+ mercenary_company_five_sword_company: "Компания пяти мечей"  
+ mercenary_company_five_sword_company_article: ""  
+ mercenary_company_guardians_of_the_light: "Стражи Света"  
+ mercenary_company_guardians_of_the_light_article: ""  
+ mercenary_company_order_of_the_endless_path: "Орден Бесконечного Пути"  
+ mercenary_company_order_of_the_endless_path_article: ""  
+ mercenary_company_broken_bastards: "Сломанные ублюдки"  
+ mercenary_company_broken_bastards_article: ""  
   
   #Partic 
- mercenary_company_red_runners: "Красные бегуны"  #Машинный перевод 28.10.23!
- mercenary_company_red_runners_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_five_knee_bandits: "Пять коленных бандитов"  #Машинный перевод 28.10.23!
- mercenary_company_five_knee_bandits_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_sons_of_the_wood: "Сыны леса"  #Машинный перевод 28.10.23!
- mercenary_company_sons_of_the_wood_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_bear_skins: "Медвежьи шкуры"  #Машинный перевод 28.10.23!
- mercenary_company_bear_skins_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_eye_gougers: "Глазные выщипчики"  #Машинный перевод 28.10.23!
- mercenary_company_eye_gougers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_bronze_guard: "Бронзовый страж"  #Машинный перевод 28.10.23!
- mercenary_company_bronze_guard_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_mud_stalkers: "Грязевые сталкеры"  #Машинный перевод 28.10.23!
- mercenary_company_mud_stalkers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_exiled_brotherhood: "Изгнанное Братство"  #Машинный перевод 28.10.23!
- mercenary_company_exiled_brotherhood_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_river_snakes: "Речные змеи"  #Машинный перевод 28.10.23!
- mercenary_company_river_snakes_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_fog_slayers: "Истребители [Concept('fog','тумана')|E]"  #Машинный перевод 28.10.23!
- mercenary_company_fog_slayers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_wetwood_bandits: "Мокрые бандиты"  #Машинный перевод 28.10.23!
- mercenary_company_wetwood_bandits_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_bonedawn_raiders: "Рейдеры Костерассвета"  #Машинный перевод 28.10.23!
- mercenary_company_bonedawn_raiders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_redhood_company: "Компания Редхуд"  #Машинный перевод 28.10.23!
- mercenary_company_redhood_company_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_hollowguards: "Полые стражи"  #Машинный перевод 28.10.23!
- mercenary_company_hollowguards_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_longbeards: "Длиннобородые"  #Машинный перевод 28.10.23!
- mercenary_company_longbeards_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_way_smashers: "Сокрушители пути"  #Машинный перевод 28.10.23!
- mercenary_company_way_smashers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_barkskin_vanguard: "Дубовая кожа Авангард"  #Машинный перевод 28.10.23!
- mercenary_company_barkskin_vanguard_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_stormsingers: "Штормпевцы"  #Машинный перевод 28.10.23!
- mercenary_company_stormsingers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_shimmerfist_brawlers: "Бойцы Мерцающего Кулака"  #Машинный перевод 28.10.23!
- mercenary_company_shimmerfist_brawlers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_ravens: "Вороны"  #Машинный перевод 28.10.23!
- mercenary_company_ravens_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_bullgot_brood: "Бычий выводок"  #Машинный перевод 28.10.23!
- mercenary_company_bullgot_brood_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_guardians_of_the_spirit: "Хранители Духа"  #Машинный перевод 28.10.23!
- mercenary_company_guardians_of_the_spirit_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_skull_takers: "Похитители черепов"  #Машинный перевод 28.10.23!
- mercenary_company_skull_takers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_blackthorn_bandits: "Блэкторн Бандиты"  #Машинный перевод 28.10.23!
- mercenary_company_blackthorn_bandits_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_red_runners: "Красные бегуны"  
+ mercenary_company_red_runners_article: ""  
+ mercenary_company_five_knee_bandits: "Пятиколенные бандиты"  
+ mercenary_company_five_knee_bandits_article: ""  
+ mercenary_company_sons_of_the_wood: "Сыны леса"  
+ mercenary_company_sons_of_the_wood_article: ""  
+ mercenary_company_bear_skins: "Медвежьи шкуры"  
+ mercenary_company_bear_skins_article: ""  
+ mercenary_company_eye_gougers: "Выкаливатели глаз "  
+ mercenary_company_eye_gougers_article: ""  
+ mercenary_company_bronze_guard: "Бронзовый стражи"  
+ mercenary_company_bronze_guard_article: ""  
+ mercenary_company_mud_stalkers: "Грязевые следопыты"  
+ mercenary_company_mud_stalkers_article: ""  
+ mercenary_company_exiled_brotherhood: "Изгнанное Братство"  
+ mercenary_company_exiled_brotherhood_article: ""  
+ mercenary_company_river_snakes: "Речные змеи"  
+ mercenary_company_river_snakes_article: ""  
+ mercenary_company_fog_slayers: "Истребители [Concept('fog','тумана')|E]"  
+ mercenary_company_fog_slayers_article: ""  
+ mercenary_company_wetwood_bandits: "Мокрые бандиты"  
+ mercenary_company_wetwood_bandits_article: ""  
+ mercenary_company_bonedawn_raiders: "Рейдеры Костлявого рассвета"  
+ mercenary_company_bonedawn_raiders_article: ""  
+ mercenary_company_redhood_company: "Компания Рыжеволосых"  
+ mercenary_company_redhood_company_article: ""  
+ mercenary_company_hollowguards: "Полые стражи"  
+ mercenary_company_hollowguards_article: ""  
+ mercenary_company_longbeards: "Длиннобородые"  
+ mercenary_company_longbeards_article: ""  
+ mercenary_company_way_smashers: "Сокрушители пути"  
+ mercenary_company_way_smashers_article: ""  
+ mercenary_company_barkskin_vanguard: "Отряд коракожих"  
+ mercenary_company_barkskin_vanguard_article: ""  
+ mercenary_company_stormsingers: "Певцы бури"  
+ mercenary_company_stormsingers_article: ""  
+ mercenary_company_shimmerfist_brawlers: "Бойцы Мерцающего Кулака"  
+ mercenary_company_shimmerfist_brawlers_article: ""  
+ mercenary_company_ravens: "Вороны"  
+ mercenary_company_ravens_article: ""  
+ mercenary_company_bullgot_brood: "Бычие выводоки"  
+ mercenary_company_bullgot_brood_article: ""  
+ mercenary_company_guardians_of_the_spirit: "Хранители Духа"  
+ mercenary_company_guardians_of_the_spirit_article: ""  
+ mercenary_company_skull_takers: "Похитители черепов"  
+ mercenary_company_skull_takers_article: ""  
+ mercenary_company_blackthorn_bandits: "Бандиты из терновника"  
+ mercenary_company_blackthorn_bandits_article: ""  
   
   #Mondecny 
- mercenary_company_exiles: "Изгнанники"  #Машинный перевод 28.10.23!
- mercenary_company_exiles_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_forestwards: "Обереги леса"  #Машинный перевод 28.10.23!
- mercenary_company_forestwards_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_treewardens: "Древесные Стражи"  #Машинный перевод 28.10.23!
- mercenary_company_treewardens_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_gardeners: "Садовники"  #Машинный перевод 28.10.23!
- mercenary_company_gardeners_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_rangers: "Блэк Оук Рейнджерс"  #Машинный перевод 28.10.23!
- mercenary_company_rangers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_bloody_handed: "Кровавые руки"  #Машинный перевод 28.10.23!
- mercenary_company_bloody_handed_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_unforgiven: "Непрощенный"  #Машинный перевод 28.10.23!
- mercenary_company_unforgiven_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_banished: "Изгнанный"  #Машинный перевод 28.10.23!
- mercenary_company_banished_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_expatriats: "Эмигранты"  #Машинный перевод 28.10.23!
- mercenary_company_expatriats_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_ejected: "Выброшен"  #Машинный перевод 28.10.23!
- mercenary_company_ejected_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_cast_out: "Вооруженные изгои"  #Машинный перевод 28.10.23!
- mercenary_company_cast_out_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_exiles: "Изгнанники"  
+ mercenary_company_exiles_article: ""  
+ mercenary_company_forestwards: "Обереги леса"  
+ mercenary_company_forestwards_article: ""  
+ mercenary_company_treewardens: "Древесные Стражи"  
+ mercenary_company_treewardens_article: ""  
+ mercenary_company_gardeners: "Садовники"  
+ mercenary_company_gardeners_article: ""  
+ mercenary_company_rangers: "Рейнджеры черного дуба"  
+ mercenary_company_rangers_article: ""  
+ mercenary_company_bloody_handed: "Кровавые руки"  
+ mercenary_company_bloody_handed_article: ""  
+ mercenary_company_unforgiven: "Непрощенные"  
+ mercenary_company_unforgiven_article: ""  
+ mercenary_company_banished: "Изгнанные"  
+ mercenary_company_banished_article: ""  
+ mercenary_company_expatriats: "Эмигранты"  
+ mercenary_company_expatriats_article: ""  
+ mercenary_company_ejected: "Выброшеные"  
+ mercenary_company_ejected_article: ""  
+ mercenary_company_cast_out: "Вооруженные изгои"  
+ mercenary_company_cast_out_article: ""  
   
  #kardwen 
- mercenary_company_whispers_in_the_woods: "Шепот в лесу"  #Машинный перевод 28.10.23!
- mercenary_company_whispers_in_the_woods_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_headtakers: "Головоломки"  #Машинный перевод 28.10.23!
- mercenary_company_the_shades: "Оттенки"  #Машинный перевод 28.10.23!
- mercenary_company_the_shades_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_fleet_foxes: "Флот Лисы"  #Машинный перевод 28.10.23!
- mercenary_company_the_won't_stop_until_we've_got_you_gang: "Не остановимся, пока не соберем вас, банда"  #Машинный перевод 28.10.23!
- mercenary_company_the_won't_stop_until_we've_got_you_gang_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_the_wind_in_the_willows: "Ветер в ивах"  #Машинный перевод 28.10.23!
- mercenary_company_the_wind_in_the_willows_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_ghouls: "Гули"  #Машинный перевод 28.10.23!
+ mercenary_company_whispers_in_the_woods: "Шепот в лесу"  
+ mercenary_company_whispers_in_the_woods_article: ""  
+ mercenary_company_headtakers: "Головоломки"  
+ mercenary_company_the_shades: "Оттенки"  
+ mercenary_company_the_shades_article: ""  
+ mercenary_company_fleet_foxes: "Воины Лисиц"  
+ mercenary_company_the_won't_stop_until_we've_got_you_gang: "Не остановимся, пока не соберем вас, банда"  
+ mercenary_company_the_won't_stop_until_we've_got_you_gang_article: ""  
+ mercenary_company_the_wind_in_the_willows: "Ветер в ивах"  
+ mercenary_company_the_wind_in_the_willows_article: ""  
+ mercenary_company_ghouls: "Гули"  
   
  #Etrandanexi 
- mercenary_company_company_of_knightly_magi: "Компания рыцарских магов"  #Машинный перевод 28.10.23!
- mercenary_company_company_of_knightly_magi_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_the_forest_lodge: "Рыцарский лесной домик"  #Машинный перевод 28.10.23!
- mercenary_company_the_forest_lodge_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_the_barons_finest: "Лучшее от Барона"  #Машинный перевод 28.10.23!
- mercenary_company_the_barons_finest_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_the_kings_imperials: "Королевские Империалы"  #Машинный перевод 28.10.23!
- mercenary_company_the_kings_imperials_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_company_of_knightly_magi: "Компания рыцарских магов"  
+ mercenary_company_company_of_knightly_magi_article: ""  
+ mercenary_company_the_forest_lodge: "Рыцарский лесной домик"  
+ mercenary_company_the_forest_lodge_article: ""  
+ mercenary_company_the_barons_finest: "Лучшее от Барона"  
+ mercenary_company_the_barons_finest_article: ""  
+ mercenary_company_the_kings_imperials: "Королевские Империалы"  
+ mercenary_company_the_kings_imperials_article: ""  
   
  #aafarzay 
- mercenary_company_firewardens: "пожарные"  #Машинный перевод 28.10.23!
- mercenary_company_firewardens_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_order_of_the_glorious_gaur: "Орден Славного Гаура"  #Машинный перевод 28.10.23!
- mercenary_company_order_of_the_glorious_gaur_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_tahrhide_raiders: "Тахридские рейдеры"  #Машинный перевод 28.10.23!
- mercenary_company_tahrhide_raiders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_blades_of_kharadan: "Клинки Харадана"  #Машинный перевод 28.10.23!
- mercenary_company_blades_of_kharadan_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_snake_eaters: "Пожиратели змей"  #Машинный перевод 28.10.23!
- mercenary_company_snake_eaters_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_firewardens: "Пожарные"  
+ mercenary_company_firewardens_article: ""  
+ mercenary_company_order_of_the_glorious_gaur: "Орден Славного Гаура"  
+ mercenary_company_order_of_the_glorious_gaur_article: ""  
+ mercenary_company_tahrhide_raiders: "Тахридские рейдеры"  
+ mercenary_company_tahrhide_raiders_article: ""  
+ mercenary_company_blades_of_kharadan: "Клинки Харадана"  
+ mercenary_company_blades_of_kharadan_article: ""  
+ mercenary_company_snake_eaters: "Пожиратели змей"  
+ mercenary_company_snake_eaters_article: ""  
   
  #abadelos 
- mercenary_company_bridgebreakers: "Разрушители мостов"  #Машинный перевод 28.10.23!
- mercenary_company_bridgebreakers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_sons_of_the_kasiryat: "Сыновья Касирьята"  #Машинный перевод 28.10.23!
- mercenary_company_sons_of_the_kasiryat_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_riverguard: "Ривергард"  #Машинный перевод 28.10.23!
- mercenary_company_riverguard_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_flood_stalkers: "Сталкеры Потопа"  #Машинный перевод 28.10.23!
- mercenary_company_flood_stalkers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_silent_swimmers: "Тихие пловцы"  #Машинный перевод 28.10.23!
- mercenary_company_silent_swimmers_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_bridgebreakers: "Разрушители мостов"  
+ mercenary_company_bridgebreakers_article: ""  
+ mercenary_company_sons_of_the_kasiryat: "Сыновья Касирьята"  
+ mercenary_company_sons_of_the_kasiryat_article: ""  
+ mercenary_company_riverguard: "Речные стражи"  
+ mercenary_company_riverguard_article: ""  
+ mercenary_company_flood_stalkers: "Следопыты Потопа"  
+ mercenary_company_flood_stalkers_article: ""  
+ mercenary_company_silent_swimmers: "Тихие пловцы"  
+ mercenary_company_silent_swimmers_article: ""  
   
  #adhata 
- mercenary_company_shadow_stalkers: "Теневые сталкеры"  #Машинный перевод 28.10.23!
- mercenary_company_shadow_stalkers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_cold_tusks: "Холодные бивни"  #Машинный перевод 28.10.23!
- mercenary_company_cold_tusks_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_guild_of_daggers: "Гильдия Кинжалов"  #Машинный перевод 28.10.23!
- mercenary_company_guild_of_daggers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_swift_spears: "Свифт Спирс"  #Машинный перевод 28.10.23!
- mercenary_company_swift_spears_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_nighthides: "Ночные шкуры"  #Машинный перевод 28.10.23!
- mercenary_company_nighthides_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_shadow_stalkers: "Теневые сталкеры"  
+ mercenary_company_shadow_stalkers_article: ""  
+ mercenary_company_cold_tusks: "Холодные бивни"  
+ mercenary_company_cold_tusks_article: ""  
+ mercenary_company_guild_of_daggers: "Гильдия Кинжалов"  
+ mercenary_company_guild_of_daggers_article: ""  
+ mercenary_company_swift_spears: "Быстрые копья"  
+ mercenary_company_swift_spears_article: ""  
+ mercenary_company_nighthides: "Ночные шкуры"  
+ mercenary_company_nighthides_article: ""  
   
  #aekershaani 
- mercenary_company_reedguard: "Ридгард"  #Машинный перевод 28.10.23!
- mercenary_company_reedguard_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_mezzarb_marauders: "Меззарбские мародеры"  #Машинный перевод 28.10.23!
- mercenary_company_mezzarb_marauders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_sons_of_the_crater: "Сыны Кратера"  #Машинный перевод 28.10.23!
- mercenary_company_sons_of_the_crater_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_urmahlullus_claws: "Когти Урмахлуллу"  #Машинный перевод 28.10.23!
- mercenary_company_urmahlullus_claws_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_ohrasiks_favored: "Избранное Орасика"  #Машинный перевод 28.10.23!
- mercenary_company_ohrasiks_favored_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_reedguard: "Тросниковые стражи"  
+ mercenary_company_reedguard_article: ""  
+ mercenary_company_mezzarb_marauders: "Меззарбские мародеры"  
+ mercenary_company_mezzarb_marauders_article: ""  
+ mercenary_company_sons_of_the_crater: "Сыны Кратера"  
+ mercenary_company_sons_of_the_crater_article: ""  
+ mercenary_company_urmahlullus_claws: "Когти Урмахлуллу"  
+ mercenary_company_urmahlullus_claws_article: ""  
+ mercenary_company_ohrasiks_favored: "Избранное Орасика"  
+ mercenary_company_ohrasiks_favored_article: ""  
   
  #aembarisa 
- mercenary_company_rovarskan_dragonriders: "Роварсканские всадники драконов"  #Машинный перевод 28.10.23!
- mercenary_company_rovarskan_dragonriders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_spears_of_wellatola: "Копья Веллатолы"  #Машинный перевод 28.10.23!
- mercenary_company_spears_of_wellatola_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_delvers_of_paccai: "Искатели Паккаи"  #Машинный перевод 28.10.23!
- mercenary_company_delvers_of_paccai_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_rovarskan_raiders: "Роварсканские рейдеры"  #Машинный перевод 28.10.23!
- mercenary_company_rovarskan_raiders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_brotherhood_phulikama: "Братство потерянной Пхуликамы"  #Машинный перевод 28.10.23!
- mercenary_company_brotherhood_phulikama_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_rovarskan_dragonriders: "Роварсканские всадники драконов"  
+ mercenary_company_rovarskan_dragonriders_article: ""  
+ mercenary_company_spears_of_wellatola: "Копья Веллатолы"  
+ mercenary_company_spears_of_wellatola_article: ""  
+ mercenary_company_delvers_of_paccai: "Искатели Паккаи"  
+ mercenary_company_delvers_of_paccai_article: ""  
+ mercenary_company_rovarskan_raiders: "Роварсканские рейдеры"  
+ mercenary_company_rovarskan_raiders_article: ""  
+ mercenary_company_brotherhood_phulikama: "Братство потерянной Пхуликамы"  
+ mercenary_company_brotherhood_phulikama_article: ""  
   
  #aevakori 
- mercenary_company_golden_blades: "Золотые клинки"  #Машинный перевод 28.10.23!
- mercenary_company_golden_blades_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_hyratan_raiders: "Хиратанские рейдеры"  #Машинный перевод 28.10.23!
- mercenary_company_hyratan_raiders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_order_of_certuku: "Орден Святого Чертуку"  #Машинный перевод 28.10.23!
- mercenary_company_order_of_certuku_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_mountain_men: "Горные люди"  #Машинный перевод 28.10.23!
- mercenary_company_mountain_men_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_kharstrangs_heirs: "Наследники Харстранга"  #Машинный перевод 28.10.23!
- mercenary_company_kharstrangs_heirs_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_golden_blades: "Золотые клинки"  
+ mercenary_company_golden_blades_article: ""  
+ mercenary_company_hyratan_raiders: "Хиратанские рейдеры"  
+ mercenary_company_hyratan_raiders_article: ""  
+ mercenary_company_order_of_certuku: "Орден Святого Чертуку"  
+ mercenary_company_order_of_certuku_article: ""  
+ mercenary_company_mountain_men: "Горные люди"  
+ mercenary_company_mountain_men_article: ""  
+ mercenary_company_kharstrangs_heirs: "Наследники Харстранга"  
+ mercenary_company_kharstrangs_heirs_article: ""  
   
  #afoseniai 
- mercenary_company_firebirds: "Жар-птицы"  #Машинный перевод 28.10.23!
- mercenary_company_firebirds_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_mountainsun_mystics: "Мистики Горы-Солнца"  #Машинный перевод 28.10.23!
- mercenary_company_mountainsun_mystics_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_red_waste_sojourners: "Жители красных пустошей"  #Машинный перевод 28.10.23!
- mercenary_company_red_waste_sojourners_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_crocotta_pack: "Крокотта Пакет"  #Машинный перевод 28.10.23!
- mercenary_company_crocotta_pack_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_brave_bears: "Храбрые медведи"  #Машинный перевод 28.10.23!
- mercenary_company_brave_bears_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_firebirds: "Жар-птицы"  
+ mercenary_company_firebirds_article: ""  
+ mercenary_company_mountainsun_mystics: "Мистики Солнечной горы "  
+ mercenary_company_mountainsun_mystics_article: ""  
+ mercenary_company_red_waste_sojourners: "Жители красных пустошей"  
+ mercenary_company_red_waste_sojourners_article: ""  
+ mercenary_company_crocotta_pack: "Крокотта Пакет"  
+ mercenary_company_crocotta_pack_article: ""  
+ mercenary_company_brave_bears: "Храбрые медведи"  
+ mercenary_company_brave_bears_article: ""  
   
  #agadari 
- mercenary_company_daughters_of_krehejad: "Дочери Крехеджада"  #Машинный перевод 28.10.23!
- mercenary_company_daughters_of_krehejad_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_purple_pillagers: "Пурпурные грабители"  #Машинный перевод 28.10.23!
- mercenary_company_purple_pillagers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_coatl_raiders: "Коатл Рейдерс"  #Машинный перевод 28.10.23!
- mercenary_company_coatl_raiders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_haramar_singers: "Харамарские певцы"  #Машинный перевод 28.10.23!
- mercenary_company_haramar_singers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_sisterhood_xapantha: "Сестричество Ксапанты"  #Машинный перевод 28.10.23!
- mercenary_company_sisterhood_xapantha_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_daughters_of_krehejad: "Дочери Крехеджада"  
+ mercenary_company_daughters_of_krehejad_article: ""  
+ mercenary_company_purple_pillagers: "Пурпурные грабители"  
+ mercenary_company_purple_pillagers_article: ""  
+ mercenary_company_coatl_raiders: "Налетчики Коатля"  
+ mercenary_company_coatl_raiders_article: ""  
+ mercenary_company_haramar_singers: "Певцы Хара'мара"  
+ mercenary_company_haramar_singers_article: ""  
+ mercenary_company_sisterhood_xapantha: "Сестричество Ксапанты"  
+ mercenary_company_sisterhood_xapantha_article: ""  
   
  #agnala 
- mercenary_company_brave_bhramars: "Храбрые Бхрамары"  #Машинный перевод 28.10.23!
- mercenary_company_brave_bhramars_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_vichacil_vanquishers: "Вичачил Покорители"  #Машинный перевод 28.10.23!
- mercenary_company_vichacil_vanquishers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_forestwardens: "лесничие"  #Машинный перевод 28.10.23!
- mercenary_company_forestwardens_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_blackbuck_band: "Блэкбак Бэнд"  #Машинный перевод 28.10.23!
- mercenary_company_blackbuck_band_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_wandering_puppeteers: "Странствующие кукловоды"  #Машинный перевод 28.10.23!
- mercenary_company_wandering_puppeteers_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_brave_bhramars: "Храбрые Бхрамары"  
+ mercenary_company_brave_bhramars_article: ""  
+ mercenary_company_vichacil_vanquishers: "Вичачил Покорители"  
+ mercenary_company_vichacil_vanquishers_article: ""  
+ mercenary_company_forestwardens: "Лесничие"  
+ mercenary_company_forestwardens_article: ""  
+ mercenary_company_blackbuck_band: "Группа черного оленя"  
+ mercenary_company_blackbuck_band_article: ""  
+ mercenary_company_wandering_puppeteers: "Странствующие кукловоды"  
+ mercenary_company_wandering_puppeteers_article: ""  
   
  #anandrasi 
- mercenary_company_blacksails: "Черные паруса"  #Машинный перевод 28.10.23!
- mercenary_company_blacksails_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_waveriders: "Вейврайдеры"  #Машинный перевод 28.10.23!
- mercenary_company_waveriders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_star_slayers: "Звездные убийцы"  #Машинный перевод 28.10.23!
- mercenary_company_star_slayers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_torkyll_raiders: "Торкилл Рейдерс"  #Машинный перевод 28.10.23!
- mercenary_company_torkyll_raiders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_tagognths_crew: "Экипаж Тагогнта"  #Машинный перевод 28.10.23!
- mercenary_company_tagognths_crew_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_blacksails: "Черные паруса"  
+ mercenary_company_blacksails_article: ""  
+ mercenary_company_waveriders: "Колеблющиеся"  
+ mercenary_company_waveriders_article: ""  
+ mercenary_company_star_slayers: "Звездные убийцы"  
+ mercenary_company_star_slayers_article: ""  
+ mercenary_company_torkyll_raiders: "Налетчики Торкилла"  
+ mercenary_company_torkyll_raiders_article: ""  
+ mercenary_company_tagognths_crew: "Бригада Тагогнта"  
+ mercenary_company_tagognths_crew_article: ""  
   
  #arapa 
- mercenary_company_warsingers: "Певцы войны"  #Машинный перевод 28.10.23!
- mercenary_company_warsingers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_zikanyas_requiem: "Реквием Зиканьи"  #Машинный перевод 28.10.23!
- mercenary_company_zikanyas_requiem_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_crater_corsairs: "Кратерные Корсары"  #Машинный перевод 28.10.23!
- mercenary_company_crater_corsairs_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_bellringer_band: "Группа Беллрингер"  #Машинный перевод 28.10.23!
- mercenary_company_bellringer_band_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_warsingers: "Певцы войны"  
+ mercenary_company_warsingers_article: ""  
+ mercenary_company_zikanyas_requiem: "Реквием Зиканьи"  
+ mercenary_company_zikanyas_requiem_article: ""  
+ mercenary_company_crater_corsairs: "Кратерные Корсары"  
+ mercenary_company_crater_corsairs_article: ""  
+ mercenary_company_bellringer_band: "Группа Беллрингер"  
+ mercenary_company_bellringer_band_article: ""  
   
  #tiemanam 
- mercenary_company_sons_saratan: "Сыновья Саратана"  #Машинный перевод 28.10.23!
- mercenary_company_sons_saratan_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_sons_saratan: "Сыновья Саратана"  
+ mercenary_company_sons_saratan_article: ""  
   
  #dergi 
- mercenary_company_garden_guardians: "Стражи сада"  #Машинный перевод 28.10.23!
- mercenary_company_garden_guardians_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_garden_guardians: "Стражи сада"  
+ mercenary_company_garden_guardians_article: ""  
   
  #asariyna 
- mercenary_company_ascendants: "потомки"  #Машинный перевод 28.10.23!
- mercenary_company_ascendants_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_akapura_buccaneers: "Акапура Буканьерс"  #Машинный перевод 28.10.23!
- mercenary_company_akapura_buccaneers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_seekers_victory: "Искатели победы"  #Машинный перевод 28.10.23!
- mercenary_company_seekers_victory_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_rahksasa_raiders: "Раксаса Рейдеры"  #Машинный перевод 28.10.23!
- mercenary_company_rahksasa_raiders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_brotherhood_wandering_isle: "Братство Скитающегося острова"  #Машинный перевод 28.10.23!
- mercenary_company_brotherhood_wandering_isle_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_ascendants: "Потомки"  
+ mercenary_company_ascendants_article: ""  
+ mercenary_company_akapura_buccaneers: "Акапура Буканьерс"  
+ mercenary_company_akapura_buccaneers_article: ""  
+ mercenary_company_seekers_victory: "Искатели победы"  
+ mercenary_company_seekers_victory_article: ""  
+ mercenary_company_rahksasa_raiders: "Рейдеры Раксаса"  
+ mercenary_company_rahksasa_raiders_article: ""  
+ mercenary_company_brotherhood_wandering_isle: "Братство Скитающегося острова"  
+ mercenary_company_brotherhood_wandering_isle_article: ""  
   
  #athacaya 
- mercenary_company_book_burners: "Книжные горелки"  #Машинный перевод 28.10.23!
- mercenary_company_book_burners_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_talons_garuda: "Когти Гаруды"  #Машинный перевод 28.10.23!
- mercenary_company_talons_garuda_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_scholar_beaters: "Ученые-загонщики"  #Машинный перевод 28.10.23!
- mercenary_company_scholar_beaters_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_guardians_asmour: "Стражи Асмура"  #Машинный перевод 28.10.23!
- mercenary_company_guardians_asmour_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_shrewd_sailors: "Проницательные моряки"  #Машинный перевод 28.10.23!
- mercenary_company_shrewd_sailors_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_book_burners: "Поджигатели книг"  
+ mercenary_company_book_burners_article: ""  
+ mercenary_company_talons_garuda: "Когти Гаруды"  
+ mercenary_company_talons_garuda_article: ""  
+ mercenary_company_scholar_beaters: "Ученые-загонщики"  
+ mercenary_company_scholar_beaters_article: ""  
+ mercenary_company_guardians_asmour: "Стражи Асмура"  
+ mercenary_company_guardians_asmour_article: ""  
+ mercenary_company_shrewd_sailors: "Проницательные моряки"  
+ mercenary_company_shrewd_sailors_article: ""  
   
  #Aupagn 
- mercenary_company_northern_raiders: "Северные рейдеры"  #Машинный перевод 28.10.23!
- mercenary_company_northern_raiders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_snowborne: "Сноуборн"  #Машинный перевод 28.10.23!
- mercenary_company_snowborne_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_heavenscalers: "Небесные скалеры"  #Машинный перевод 28.10.23!
- mercenary_company_heavenscalers_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_northern_raiders: "Северные рейдеры"  
+ mercenary_company_northern_raiders_article: ""  
+ mercenary_company_snowborne: "Рожденный снегом"  
+ mercenary_company_snowborne_article: ""  
+ mercenary_company_heavenscalers: "Небесные скалеры"  
+ mercenary_company_heavenscalers_article: ""  
   
  #Balauri
- mercenary_company_chosen_of_balabalos: "Chosen of Balabalos"
+ mercenary_company_chosen_of_balabalos: "Избранный из Балабалоса"
 
  #Izikalek
- mercenary_company_tuls_band: "Tuls band"
+ mercenary_company_tuls_band: "Группа Тулса"
 
  #Theugombrian
- mercenary_company_sunspeakers: "The Sunspeakers"
+ mercenary_company_sunspeakers: "Говорящие с солнцем"
 
  #canian 
- mercenary_company_order_golden_mask: "Орден Золотой Маски"  #Машинный перевод 28.10.23!
- mercenary_company_order_golden_mask_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_swords_shenidad: "Мечи Шенидада"  #Машинный перевод 28.10.23!
- mercenary_company_swords_shenidad_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_sickles_kabyar: "Серпы Кабьяра"  #Машинный перевод 28.10.23!
- mercenary_company_sickles_kabyar_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_four_river_league: "Лига четырех рек"  #Машинный перевод 28.10.23!
- mercenary_company_four_river_league_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_elois_chosen: "Избранник Элоя"  #Машинный перевод 28.10.23!
- mercenary_company_elois_chosen_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_boat_burners: "Лодочные горелки"  #Машинный перевод 28.10.23!
- mercenary_company_boat_burners_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_order_golden_mask: "Орден Золотой Маски"  
+ mercenary_company_order_golden_mask_article: ""  
+ mercenary_company_swords_shenidad: "Мечи Шенидада"  
+ mercenary_company_swords_shenidad_article: ""  
+ mercenary_company_sickles_kabyar: "Серпы Кабьяра"  
+ mercenary_company_sickles_kabyar_article: ""  
+ mercenary_company_four_river_league: "Лига четырех рек"  
+ mercenary_company_four_river_league_article: ""  
+ mercenary_company_elois_chosen: "Избранник Элоя"  
+ mercenary_company_elois_chosen_article: ""  
+ mercenary_company_boat_burners: "Поджигатели лодок"  
+ mercenary_company_boat_burners_article: ""  
   
  #cave tribes 
- mercenary_company_liberators: "Освободители"  #Машинный перевод 28.10.23!
- mercenary_company_liberators_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_tunnelers: "тоннельщики"  #Машинный перевод 28.10.23!
- mercenary_company_tunnelers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_spirit_seers: "Духовидцы"  #Машинный перевод 28.10.23!
- mercenary_company_spirit_seers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_kineaters: "Пожиратели родственников"  #Машинный перевод 28.10.23!
- mercenary_company_kineaters_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_axolotl_axes: "Топоры Аксолотля"  #Машинный перевод 28.10.23!
- mercenary_company_axolotl_axes_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_liberators: "Освободители"  
+ mercenary_company_liberators_article: ""  
+ mercenary_company_tunnelers: "Тоннельщики"  
+ mercenary_company_tunnelers_article: ""  
+ mercenary_company_spirit_seers: "Духовидцы"  
+ mercenary_company_spirit_seers_article: ""  
+ mercenary_company_kineaters: "Пожиратели родственников"  
+ mercenary_company_kineaters_article: ""  
+ mercenary_company_axolotl_axes: "Топоры Аксолотля"  
+ mercenary_company_axolotl_axes_article: ""  
   
  #chordhan 
- mercenary_company_glassracers: "Стеклянные гонщики"  #Машинный перевод 28.10.23!
- mercenary_company_glassracers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_rivermouth_raiders: "Ривермут Рейдерс"  #Машинный перевод 28.10.23!
- mercenary_company_rivermouth_raiders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_wandering_dhows: "Странствующие дау"  #Машинный перевод 28.10.23!
- mercenary_company_wandering_dhows_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_brotherhood_sitar: "Братство Ситара"  #Машинный перевод 28.10.23!
- mercenary_company_brotherhood_sitar_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_brotherhood_tabla: "Братство Таблы"  #Машинный перевод 28.10.23!
- mercenary_company_brotherhood_tabla_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_legio_xlviii: "Легио XLVIII «Ярость Трех Солнц»"  #Машинный перевод 28.10.23!
- mercenary_company_legio_xlviii_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_glassracers: "Стеклянные гонщики"  
+ mercenary_company_glassracers_article: ""  
+ mercenary_company_rivermouth_raiders: "Рейдеры Речного устья"  
+ mercenary_company_rivermouth_raiders_article: ""  
+ mercenary_company_wandering_dhows: "Странствующие дау"  
+ mercenary_company_wandering_dhows_article: ""  
+ mercenary_company_brotherhood_sitar: "Братство Ситара"  
+ mercenary_company_brotherhood_sitar_article: ""  
+ mercenary_company_brotherhood_tabla: "Братство Таблы"  
+ mercenary_company_brotherhood_tabla_article: ""  
+ mercenary_company_legio_xlviii: "Легио XLVIII «Ярость Трех Солнц»"  
+ mercenary_company_legio_xlviii_article: ""  
   
  #daidenos 
- mercenary_company_seadrakes: "Морские змеи"  #Машинный перевод 28.10.23!
- mercenary_company_seadrakes_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_heralds_deep: "Вестники глубин"  #Машинный перевод 28.10.23!
- mercenary_company_heralds_deep_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_scaled_sailors: "Чешуйчатые моряки"  #Машинный перевод 28.10.23!
- mercenary_company_scaled_sailors_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_sons_sea: "Сыны моря"  #Машинный перевод 28.10.23!
- mercenary_company_sons_sea_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_seadrakes: "Морские змеи"  
+ mercenary_company_seadrakes_article: ""  
+ mercenary_company_heralds_deep: "Вестники глубин"  
+ mercenary_company_heralds_deep_article: ""  
+ mercenary_company_scaled_sailors: "Чешуйчатые моряки"  
+ mercenary_company_scaled_sailors_article: ""  
+ mercenary_company_sons_sea: "Сыны моря"  
+ mercenary_company_sons_sea_article: ""  
   
  #damotan 
- mercenary_company_sons_eshwo: "Сыновья Эшво"  #Машинный перевод 28.10.23!
- mercenary_company_sons_of_eshwo_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_ayules_avengers: "Мстители Аюлы"  #Машинный перевод 28.10.23!
- mercenary_company_ayules_avengers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_wandering_rayakuux: "Странствующий Раякуукс"  #Машинный перевод 28.10.23!
- mercenary_company_wandering_rayakuux_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_shetani_stalkers: "Шетани Сталкеры"  #Машинный перевод 28.10.23!
- mercenary_company_shetani_stalkers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_hymn_hunters: "Охотники за гимнами"  #Машинный перевод 28.10.23!
- mercenary_company_hymn_hunters_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_sons_eshwo: "Сыновья Эшво"  
+ mercenary_company_sons_of_eshwo_article: ""  
+ mercenary_company_ayules_avengers: "Мстители Аюлы"  
+ mercenary_company_ayules_avengers_article: ""  
+ mercenary_company_wandering_rayakuux: "Странствующий Раякуукс"  
+ mercenary_company_wandering_rayakuux_article: ""  
+ mercenary_company_shetani_stalkers: "Шетани Сталкеры"  
+ mercenary_company_shetani_stalkers_article: ""  
+ mercenary_company_hymn_hunters: "Охотники за гимнами"  
+ mercenary_company_hymn_hunters_article: ""  
   
  #dayatemi 
- mercenary_company_silver_scars: "Серебряные шрамы"  #Машинный перевод 28.10.23!
- mercenary_company_silver_scars_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_iron_thorns: "Железные Шипы"  #Машинный перевод 28.10.23!
- mercenary_company_iron_thorns_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_brotherhood_scars: "Братство Шрамов"  #Машинный перевод 28.10.23!
- mercenary_company_brotherhood_scars_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_painted_hunters: "Нарисованные охотники"  #Машинный перевод 28.10.23!
- mercenary_company_painted_hunters_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_order_black_bubalus: "Орден Черного Бубала"  #Машинный перевод 28.10.23!
- mercenary_company_order_black_bubalus_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_silver_scars: "Серебряные шрамы"  
+ mercenary_company_silver_scars_article: ""  
+ mercenary_company_iron_thorns: "Железные Шипы"  
+ mercenary_company_iron_thorns_article: ""  
+ mercenary_company_brotherhood_scars: "Братство Шрамов"  
+ mercenary_company_brotherhood_scars_article: ""  
+ mercenary_company_painted_hunters: "Нарисованные охотники"  
+ mercenary_company_painted_hunters_article: ""  
+ mercenary_company_order_black_bubalus: "Орден Черного Бубала"  
+ mercenary_company_order_black_bubalus_article: ""  
   
  #dezhunic 
- mercenary_company_labarqans_lawkeepers: "Законники Лабаркана"  #Машинный перевод 28.10.23!
- mercenary_company_labarqans_lawkeepers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_hattassilas_hunters: "Охотники Хатташшилы"  #Машинный перевод 28.10.23!
- mercenary_company_hattassilas_hunters_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_labarqans_lawkeepers: "Законники Лабаркана"  
+ mercenary_company_labarqans_lawkeepers_article: ""  
+ mercenary_company_hattassilas_hunters: "Охотники Хатташшилы"  
+ mercenary_company_hattassilas_hunters_article: ""  
   
  #dubadin 
- mercenary_company_seekers_namej: "Искатели Намеджа"  #Машинный перевод 28.10.23!
- mercenary_company_seekers_namej_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_emancipators: "Освободители"  #Машинный перевод 28.10.23!
- mercenary_company_emancipators_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_free_brotherhood: "Свободное Братство"  #Машинный перевод 28.10.23!
- mercenary_company_free_brotherhood_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_seekers_namej: "Искатели Намеджа"  
+ mercenary_company_seekers_namej_article: ""  
+ mercenary_company_emancipators: "Освободители"  
+ mercenary_company_emancipators_article: ""  
+ mercenary_company_free_brotherhood: "Свободное Братство"  
+ mercenary_company_free_brotherhood_article: ""  
   
  #easterner 
- mercenary_company_heavenly_halberds: "Небесные алебарды"  #Машинный перевод 28.10.23!
- mercenary_company_heavenly_halberds_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_monks_miaosi: "Монахи Мяоси"  #Машинный перевод 28.10.23!
- mercenary_company_monks_miaosi_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_sword_stewards: "Стюарды меча"  #Машинный перевод 28.10.23!
- mercenary_company_sword_stewards_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_heavenly_halberds: "Небесные алебарды"  
+ mercenary_company_heavenly_halberds_article: ""  
+ mercenary_company_monks_miaosi: "Монахи Мяоси"  
+ mercenary_company_monks_miaosi_article: ""  
+ mercenary_company_sword_stewards: "Стюарды меча"  
+ mercenary_company_sword_stewards_article: ""  
   
  #emanhi 
- mercenary_company_magiyati_marauders: "Магияти Мародеры"  #Машинный перевод 28.10.23!
- mercenary_company_magiyati_marauders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_spire_sojourners: "Шпильные обитатели"  #Машинный перевод 28.10.23!
- mercenary_company_spire_sojourners_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_doomdrums: "Роковые барабаны"  #Машинный перевод 28.10.23!
- mercenary_company_doomdrums_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_magiyati_marauders: "Магияти Мародеры"  
+ mercenary_company_magiyati_marauders_article: ""  
+ mercenary_company_spire_sojourners: "Шпильные обитатели"  
+ mercenary_company_spire_sojourners_article: ""  
+ mercenary_company_doomdrums: "Роковые барабаны"  
+ mercenary_company_doomdrums_article: ""  
   
  #goan 
- mercenary_company_skyseekers: "Искатели неба"  #Машинный перевод 28.10.23!
- mercenary_company_skyseekers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_mountsearchers: "Искатели маунтов"  #Машинный перевод 28.10.23!
- mercenary_company_mountsearchers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_angbos_avengers: "Мстители Анджуна"  #Машинный перевод 28.10.23!
- mercenary_company_angbos_avengers_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_skyseekers: "Искатели неба"  
+ mercenary_company_skyseekers_article: ""  
+ mercenary_company_mountsearchers: "Искатели маунтов"  
+ mercenary_company_mountsearchers_article: ""  
+ mercenary_company_angbos_avengers: "Мстители Анджуна"  
+ mercenary_company_angbos_avengers_article: ""  
   
  #hadiyan 
- mercenary_company_72nd_expeditionary_platoon: "72-й экспедиционный взвод"  #Машинный перевод 28.10.23!
- mercenary_company_72nd_expeditionary_platoon_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_golden_exiles: "Золотые изгнанники"  #Машинный перевод 28.10.23!
- mercenary_company_golden_exiles_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_sky_sailors: "Небесные моряки"  #Машинный перевод 28.10.23!
- mercenary_company_sky_sailors_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_72nd_expeditionary_platoon: "72-й экспедиционный взвод"  
+ mercenary_company_72nd_expeditionary_platoon_article: ""  
+ mercenary_company_golden_exiles: "Золотые изгнанники"  
+ mercenary_company_golden_exiles_article: ""  
+ mercenary_company_sky_sailors: "Небесные моряки"  
+ mercenary_company_sky_sailors_article: ""  
   
  #haraja 
- mercenary_company_smiling_blades: "Улыбающиеся клинки"  #Машинный перевод 28.10.23!
- mercenary_company_smiling_blades_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_bansuri_troupe: "Труппа Бансури"  #Машинный перевод 28.10.23!
- mercenary_company_bansuri_troupe_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_gajara_raiders: "Гаджара Рейдеры"  #Машинный перевод 28.10.23!
- mercenary_company_gajara_raiders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_bloodied_skeins: "Окровавленные мотки"  #Машинный перевод 28.10.23!
- mercenary_company_bloodied_skeins_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_smiling_blades: "Улыбающиеся клинки"  
+ mercenary_company_smiling_blades_article: ""  
+ mercenary_company_bansuri_troupe: "Труппа Бансури"  
+ mercenary_company_bansuri_troupe_article: ""  
+ mercenary_company_gajara_raiders: "Рейдеры Гаджары"  
+ mercenary_company_gajara_raiders_article: ""  
+ mercenary_company_bloodied_skeins: "Окровавленные мотки"  
+ mercenary_company_bloodied_skeins_article: ""  
   
  #huegodoc 
- mercenary_company_dathothicas_devoted: "Преданный Датотике"  #Машинный перевод 28.10.23!
- mercenary_company_dathothicas_devoted_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_children_caradoun: "Дети Карадуна"  #Машинный перевод 28.10.23!
- mercenary_company_children_caradoun_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_heurgordas_heirs: "Наследники Хеургорды"  #Машинный перевод 28.10.23!
- mercenary_company_heurgordas_heirs_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_rithogeds_raiders: "Рейдеры Ритхогеда"  #Машинный перевод 28.10.23!
- mercenary_company_rithogeds_raiders_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_dathothicas_devoted: "Преданные Датотике"  
+ mercenary_company_dathothicas_devoted_article: ""  
+ mercenary_company_children_caradoun: "Дети Карадуна"  
+ mercenary_company_children_caradoun_article: ""  
+ mercenary_company_heurgordas_heirs: "Наследники Хеургорды"  
+ mercenary_company_heurgordas_heirs_article: ""  
+ mercenary_company_rithogeds_raiders: "Налетчики Ритогеда"  
+ mercenary_company_rithogeds_raiders_article: ""  
   
  #iyrossi 
- mercenary_company_claws_tinessia: "Когти Тинессии"  #Машинный перевод 28.10.23!
- mercenary_company_claws_tinessia_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_deiphartoros_chosen: "Избранник Деифартора"  #Машинный перевод 28.10.23!
- mercenary_company_deiphartoros_chosen_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_doyarchu_daggers: "Доярчу Кинжалы"  #Машинный перевод 28.10.23!
- mercenary_company_doyarchu_daggers_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_claws_tinessia: "Когти Тинессии"  
+ mercenary_company_claws_tinessia_article: ""  
+ mercenary_company_deiphartoros_chosen: "Избранный Деифартороса"  
+ mercenary_company_deiphartoros_chosen_article: ""  
+ mercenary_company_doyarchu_daggers: "Кинжалы Доярчу"  
+ mercenary_company_doyarchu_daggers_article: ""  
   
  #karzarad 
- mercenary_company_sunshields: "Солнцезащитные козырьки"  #Машинный перевод 28.10.23!
- mercenary_company_sunshields_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_sons_zhavy: "Сыновья Жавы"  #Машинный перевод 28.10.23!
- mercenary_company_sons_zhavy_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_bloody_gears: "Кровавые шестерни"  #Машинный перевод 28.10.23!
- mercenary_company_bloody_gears_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_sunshields: "Солнечные щиты"  
+ mercenary_company_sunshields_article: ""  
+ mercenary_company_sons_zhavy: "Сыновья Жавы"  
+ mercenary_company_sons_zhavy_article: ""  
+ mercenary_company_bloody_gears: "Кровавые шестерни"  
+ mercenary_company_bloody_gears_article: ""  
   
  #kelthiunai 
- mercenary_company_stormchasers: "Охотники за штормами"  #Машинный перевод 28.10.23!
- mercenary_company_stormchasers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_redsails: "Редсейлс"  #Машинный перевод 28.10.23!
- mercenary_company_redsails_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_nine_shields: "Девять Щитов"  #Машинный перевод 28.10.23!
- mercenary_company_nine_shields_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_stormchasers: "Охотники за штормами"  
+ mercenary_company_stormchasers_article: ""  
+ mercenary_company_redsails: "Алые паруса"  
+ mercenary_company_redsails_article: ""  
+ mercenary_company_nine_shields: "Девять Щитов"  
+ mercenary_company_nine_shields_article: ""  
   
  #kemsar 
- mercenary_company_bronze_talons: "Бронзовые когти"  #Машинный перевод 28.10.23!
- mercenary_company_bronze_talons_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_blades_apoph: "Клинки Апофа"  #Машинный перевод 28.10.23!
- mercenary_company_blades_apoph_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_ibizan_hides: "Ибизанские шкуры"  #Машинный перевод 28.10.23!
- mercenary_company_ibizan_hides_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_bronze_talons: "Бронзовые когти"  
+ mercenary_company_bronze_talons_article: ""  
+ mercenary_company_blades_apoph: "Клинки Апофа"  
+ mercenary_company_blades_apoph_article: ""  
+ mercenary_company_ibizan_hides: "Ибизанские шкуры"  
+ mercenary_company_ibizan_hides_article: ""  
   
  #kevaali 
- mercenary_company_spicetakers: "Сборщики специй"  #Машинный перевод 28.10.23!
- mercenary_company_spicetakers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_paccai_seekers: "Искатели пакаи"  #Машинный перевод 28.10.23!
- mercenary_company_paccai_seekers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_three_blades: "Три клинка"  #Машинный перевод 28.10.23!
- mercenary_company_three_blades_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_bound_men: "Связанные мужчины"  #Машинный перевод 28.10.23!
- mercenary_company_bound_men_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_naga_hunters: "Наги-охотники"  #Машинный перевод 28.10.23!
- mercenary_company_naga_hunters_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_spicetakers: "Сборщики специй"  
+ mercenary_company_spicetakers_article: ""  
+ mercenary_company_paccai_seekers: "Искатели пакаи"  
+ mercenary_company_paccai_seekers_article: ""  
+ mercenary_company_three_blades: "Три клинка"  
+ mercenary_company_three_blades_article: ""  
+ mercenary_company_bound_men: "Связанные мужчины"  
+ mercenary_company_bound_men_article: ""  
+ mercenary_company_naga_hunters: "Наги-охотники"  
+ mercenary_company_naga_hunters_article: ""  
   
  #khalai 
- mercenary_company_sea_tigers: "Морские тигры"  #Машинный перевод 28.10.23!
- mercenary_company_sea_tigers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_akapuras_bane: "Проклятие Акапуры"  #Машинный перевод 28.10.23!
- mercenary_company_akapuras_bane_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_gloryseekers: "Искатели славы"  #Машинный перевод 28.10.23!
- mercenary_company_gloryseekers_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_sea_tigers: "Морские тигры"  
+ mercenary_company_sea_tigers_article: ""  
+ mercenary_company_akapuras_bane: "Проклятие Акапуры"  
+ mercenary_company_akapuras_bane_article: ""  
+ mercenary_company_gloryseekers: "Искатели славы"  
+ mercenary_company_gloryseekers_article: ""  
   
  #kherkeloi 
- mercenary_company_dancing_axes: "Танцующие топоры"  #Машинный перевод 28.10.23!
- mercenary_company_dancing_axes_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_glasscutters: "Стеклорезы"  #Машинный перевод 28.10.23!
- mercenary_company_glasscutters_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_order_golden_saint: "Орден Золотого Святого"  #Машинный перевод 28.10.23!
- mercenary_company_order_golden_saint_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_dancing_axes: "Танцующие топоры"  
+ mercenary_company_dancing_axes_article: ""  
+ mercenary_company_glasscutters: "Стеклорезы"  
+ mercenary_company_glasscutters_article: ""  
+ mercenary_company_order_golden_saint: "Орден Золотого Святого"  
+ mercenary_company_order_golden_saint_article: ""  
   
  #khokhuud 
- mercenary_company_silversteeds: "Сильверстидс"  #Машинный перевод 28.10.23!
- mercenary_company_silversteeds_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_masked_marauders: "Мародеры в масках"  #Машинный перевод 28.10.23!
- mercenary_company_masked_marauders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_riders_olgon: "Всадники Олгона"  #Машинный перевод 28.10.23!
- mercenary_company_riders_olgon_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_silversteeds: "Сильверстидс"  
+ mercenary_company_silversteeds_article: ""  
+ mercenary_company_masked_marauders: "Мародеры в масках"  
+ mercenary_company_masked_marauders_article: ""  
+ mercenary_company_riders_olgon: "Всадники Олгона"  
+ mercenary_company_riders_olgon_article: ""  
   
  #kikarsag 
- mercenary_company_bloodhounds: "ищейки"  #Машинный перевод 28.10.23!
- mercenary_company_bloodhounds_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_wandering_botai: "Странствующий Ботай"  #Машинный перевод 28.10.23!
- mercenary_company_wandering_botai_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_sons_ozkan: "Сыновья Озкана"  #Машинный перевод 28.10.23!
- mercenary_company_sons_ozkan_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_bloodhounds: "Ищейки"  
+ mercenary_company_bloodhounds_article: ""  
+ mercenary_company_wandering_botai: "Странствующие Ботаи"  
+ mercenary_company_wandering_botai_article: ""  
+ mercenary_company_sons_ozkan: "Сыновья Озкана"  
+ mercenary_company_sons_ozkan_article: ""  
   
  #Konijkmener 
- mercenary_company_vyrjilliaar_public_testers: "Публичные тестеры Вырджиллиара"  #Машинный перевод 28.10.23!
- mercenary_company_vyrjilliaar_public_testers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_guild_acquisition: "Гильдия приобретения"  #Машинный перевод 28.10.23!
- mercenary_company_guild_acquisition_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_vordere_loyalists: "Лоялисты Вордера"  #Машинный перевод 28.10.23!
- mercenary_company_vordere_loyalists_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_vyrjilliaar_public_testers: "Гражданские испытатели Вырджиллиара"  
+ mercenary_company_vyrjilliaar_public_testers_article: ""  
+ mercenary_company_guild_acquisition: "Гильдия приобрететателей"  
+ mercenary_company_guild_acquisition_article: ""  
+ mercenary_company_vordere_loyalists: "Лоялисты Вордера"  
+ mercenary_company_vordere_loyalists_article: ""  
   
  #kosharan 
- mercenary_company_caravan_steel: "Караван стали"  #Машинный перевод 28.10.23!
- mercenary_company_caravan_steel_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_rafhamah_raiders: "Рафхама Рейдерс"  #Машинный перевод 28.10.23!
- mercenary_company_rafhamah_raiders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_buraiwf_looters: "Бурайвфские мародеры"  #Машинный перевод 28.10.23!
- mercenary_company_buraiwf_looters_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_caravan_steel: "Караван стали"  
+ mercenary_company_caravan_steel_article: ""  
+ mercenary_company_rafhamah_raiders: "Рейдеры Рафхамы"  
+ mercenary_company_rafhamah_raiders_article: ""  
+ mercenary_company_buraiwf_looters: "Бурайвфские мародеры"  
+ mercenary_company_buraiwf_looters_article: ""  
   
  #lerrardin 
- mercenary_company_twiceborn: "дваждырожденный"  #Машинный перевод 28.10.23!
- mercenary_company_twiceborn_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_vaneli_monks: "Ванели Монкс"  #Машинный перевод 28.10.23!
- mercenary_company_vaneli_monks_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_stone_lions: "Каменные львы"  #Машинный перевод 28.10.23!
- mercenary_company_stone_lions_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_sons_arnaz: "Сыновья Арназа"  #Машинный перевод 28.10.23!
- mercenary_company_sons_arnaz_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_pyrebuilders: "строители костров"  #Машинный перевод 28.10.23!
- mercenary_company_pyrebuilders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_windriders: "Наездники Ветра"  #Машинный перевод 28.10.23!
- mercenary_company_windriders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_armazli_adventurers: "Армазлинские искатели приключений"  #Машинный перевод 28.10.23!
- mercenary_company_armazli_adventurers_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_twiceborn: "Дваждырожденный"  
+ mercenary_company_twiceborn_article: ""  
+ mercenary_company_vaneli_monks: "Монахи Ванели"  
+ mercenary_company_vaneli_monks_article: ""  
+ mercenary_company_stone_lions: "Каменные львы"  
+ mercenary_company_stone_lions_article: ""  
+ mercenary_company_sons_arnaz: "Сыновья Арназа"  
+ mercenary_company_sons_arnaz_article: ""  
+ mercenary_company_pyrebuilders: "Строители костров"  
+ mercenary_company_pyrebuilders_article: ""  
+ mercenary_company_windriders: "Наездники Ветра"  
+ mercenary_company_windriders_article: ""  
+ mercenary_company_armazli_adventurers: "Армазлинские искатели приключений"  
+ mercenary_company_armazli_adventurers_article: ""  
   
  #likarkho 
- mercenary_company_mist_walkers: "Туманные ходоки"  #Машинный перевод 28.10.23!
- mercenary_company_mist_walkers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_monsoon_marauders: "Муссонные мародеры"  #Машинный перевод 28.10.23!
- mercenary_company_monsoon_marauders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_luckseekers: "Искатели удачи"  #Машинный перевод 28.10.23!
- mercenary_company_luckseekers_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_mist_walkers: "Туманные ходоки"  
+ mercenary_company_mist_walkers_article: ""  
+ mercenary_company_monsoon_marauders: "Муссонные мародеры"  
+ mercenary_company_monsoon_marauders_article: ""  
+ mercenary_company_luckseekers: "Искатели удачи"  
+ mercenary_company_luckseekers_article: ""  
   
  #madikirib 
- mercenary_company_tomeseekers: "Искатели томов"  #Машинный перевод 28.10.23!
- mercenary_company_tomeseekers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_warren_wardens: "Уоррен Уорденс"  #Машинный перевод 28.10.23!
- mercenary_company_warren_wardens_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_maze_fillers: "Наполнители лабиринтов"  #Машинный перевод 28.10.23!
- mercenary_company_maze_fillers_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_tomeseekers: "Искатели томов"  
+ mercenary_company_tomeseekers_article: ""  
+ mercenary_company_warren_wardens: "Уоррен Уорденс"  
+ mercenary_company_warren_wardens_article: ""  
+ mercenary_company_maze_fillers: "Наполнители лабиринтов"  
+ mercenary_company_maze_fillers_article: ""  
   
  #margur 
- mercenary_company_broadleaf_brotherhood: "Широколистное Братство"  #Машинный перевод 28.10.23!
- mercenary_company_broadleaf_brotherhood_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_frogriders: "Ледяные наездники"  #Машинный перевод 28.10.23!
- mercenary_company_frogriders_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_broadleaf_brotherhood: "Широколистное Братство"  
+ mercenary_company_broadleaf_brotherhood_article: ""  
+ mercenary_company_frogriders: "Ледяные наездники"  
+ mercenary_company_frogriders_article: ""  
   
  #marmaladid 
- mercenary_company_gilded_guild: "Позолоченная гильдия"  #Машинный перевод 28.10.23!
- mercenary_company_gilded_guild_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_kincaptors: "кинкапторы"  #Машинный перевод 28.10.23!
- mercenary_company_kincaptors_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_stonecarvers: "Резчики по камню"  #Машинный перевод 28.10.23!
- mercenary_company_stonecarvers_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_gilded_guild: "Позолоченная гильдия"  
+ mercenary_company_gilded_guild_article: ""  
+ mercenary_company_kincaptors: "Кинкапторы"  
+ mercenary_company_kincaptors_article: ""  
+ mercenary_company_stonecarvers: "Резчики по камню"  
+ mercenary_company_stonecarvers_article: ""  
   
  #nakahanii 
- mercenary_company_kaiatus_avengers: "Мстители Кайату"  #Машинный перевод 28.10.23!
- mercenary_company_kaiatus_avengers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_thrimbysos_bane: "Проклятие Тримбисо"  #Машинный перевод 28.10.23!
- mercenary_company_thrimbysos_bane_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_comet_chasers: "Охотники за кометами"  #Машинный перевод 28.10.23!
- mercenary_company_comet_chasers_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_kaiatus_avengers: "Мстители Кайату"  
+ mercenary_company_kaiatus_avengers_article: ""  
+ mercenary_company_thrimbysos_bane: "Проклятие Тримбисо"  
+ mercenary_company_thrimbysos_bane_article: ""  
+ mercenary_company_comet_chasers: "Охотники за кометами"  
+ mercenary_company_comet_chasers_article: ""  
   
  #oejeynican 
- mercenary_company_tombseekers: "Искатели гробниц"  #Машинный перевод 28.10.23!
- mercenary_company_tombseekers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_vindicators_vraswyl: "Защитники Врасвиля"  #Машинный перевод 28.10.23!
- mercenary_company_vindicators_vraswyl_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_bonebane_brotherhood: "Братство Костяной Гибели"  #Машинный перевод 28.10.23!
- mercenary_company_bonebane_brotherhood_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_tombseekers: "Искатели гробниц"  
+ mercenary_company_tombseekers_article: ""  
+ mercenary_company_vindicators_vraswyl: "Защитники Врасвиля"  
+ mercenary_company_vindicators_vraswyl_article: ""  
+ mercenary_company_bonebane_brotherhood: "Братство Костяной Гибели"  
+ mercenary_company_bonebane_brotherhood_article: ""  
   
  #oghainos 
- mercenary_company_tattered_sails: "Порванные паруса"  #Машинный перевод 28.10.23!
- mercenary_company_tattered_sails_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_stareaters: "Староеды"  #Машинный перевод 28.10.23!
- mercenary_company_stareaters_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_forgotten_fleet: "Забытый флот"  #Машинный перевод 28.10.23!
- mercenary_company_forgotten_fleet_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_tattered_sails: "Порванные паруса"  
+ mercenary_company_tattered_sails_article: ""  
+ mercenary_company_stareaters: "Староеды"  
+ mercenary_company_stareaters_article: ""  
+ mercenary_company_forgotten_fleet: "Забытый флот"  
+ mercenary_company_forgotten_fleet_article: ""  
   
  #rekhala 
- mercenary_company_bloodwashers: "Кровопромыватели"  #Машинный перевод 28.10.23!
- mercenary_company_bloodwashers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_theraskiyatt_raiders: "Тераскиятт Рейдерс"  #Машинный перевод 28.10.23!
- mercenary_company_theraskiyatt_raiders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_hundred_deaths: "Сто смертей"  #Машинный перевод 28.10.23!
- mercenary_company_hundred_deaths_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_bloodwashers: "Кровопромыватели"  
+ mercenary_company_bloodwashers_article: ""  
+ mercenary_company_theraskiyatt_raiders: "Тераскияттские рейдеры"  
+ mercenary_company_theraskiyatt_raiders_article: ""  
+ mercenary_company_hundred_deaths: "Сто смертей"  
+ mercenary_company_hundred_deaths_article: ""  
   
  #saradari 
- mercenary_company_spears_sheyarla: "Копья Шейарлы"  #Машинный перевод 28.10.23!
- mercenary_company_spears_sheyarla_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_sadduri_yeomen: "Саддури Йомен"  #Машинный перевод 28.10.23!
- mercenary_company_sadduri_yeomen_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_seekers_sereksi: "Искатели Серекси"  #Машинный перевод 28.10.23!
- mercenary_company_seekers_sereksi_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_spears_sheyarla: "Копья Шейарлы"  
+ mercenary_company_spears_sheyarla_article: ""  
+ mercenary_company_sadduri_yeomen: "Йомены Саддури"  
+ mercenary_company_sadduri_yeomen_article: ""  
+ mercenary_company_seekers_sereksi: "Искатели Серекси"  
+ mercenary_company_seekers_sereksi_article: ""  
   
  #sarminian 
- mercenary_company_stormclouds: "Грозовые тучи"  #Машинный перевод 28.10.23!
- mercenary_company_stormclouds_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_czarmaditis_raiders: "Чармадитис Рейдерс"  #Машинный перевод 28.10.23!
- mercenary_company_czarmaditis_raiders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_sisterhood_falcon: "Сестричество Сокола"  #Машинный перевод 28.10.23!
- mercenary_company_sisterhood_falcon_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_stormclouds: "Грозовые тучи"  
+ mercenary_company_stormclouds_article: ""  
+ mercenary_company_czarmaditis_raiders: "Чармадитис Рейдерс"  
+ mercenary_company_czarmaditis_raiders_article: ""  
+ mercenary_company_sisterhood_falcon: "Сестричество Сокола"  
+ mercenary_company_sisterhood_falcon_article: ""  
   
  #sarridian 
- mercenary_company_skiborne_exalted: "Лыжный превознесение"  #Машинный перевод 28.10.23!
- mercenary_company_skiborne_exalted_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_oulnirs_oathkeepers: "Хранители клятвы Оулнира"  #Машинный перевод 28.10.23!
- mercenary_company_oulnirs_oathkeepers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_scrollswords: "Свитки мечей"  #Машинный перевод 28.10.23!
- mercenary_company_scrollswords_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_skiborne_exalted: "Скиборнские возвысившиеся"  
+ mercenary_company_skiborne_exalted_article: ""  
+ mercenary_company_oulnirs_oathkeepers: "Хранители клятвы Оулнира"  
+ mercenary_company_oulnirs_oathkeepers_article: ""  
+ mercenary_company_scrollswords: "Свитки мечей"  
+ mercenary_company_scrollswords_article: ""  
   
  #sarradonian 
- mercenary_company_sandwardens: "Песчаные Стражи"  #Машинный перевод 28.10.23!
- mercenary_company_sandwardens_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_red_vipers: "Красные Змеи"  #Машинный перевод 28.10.23!
- mercenary_company_red_vipers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_lawkeepers: "Законники"  #Машинный перевод 28.10.23!
- mercenary_company_lawkeepers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_sandblades: "Песчаные лезвия"  #Машинный перевод 28.10.23!
- mercenary_company_sandblades_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_elqulatha_acolytes: "Служители Эль-Кулаты"  #Машинный перевод 28.10.23!
- mercenary_company_elqulatha_acolytes_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_afazarianis_bane: "Проклятие Афазариани"  #Машинный перевод 28.10.23!
- mercenary_company_afazarianis_bane_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_sandwardens: "Песчаные Стражи"  
+ mercenary_company_sandwardens_article: ""  
+ mercenary_company_red_vipers: "Красные Змеи"  
+ mercenary_company_red_vipers_article: ""  
+ mercenary_company_lawkeepers: "Законники"  
+ mercenary_company_lawkeepers_article: ""  
+ mercenary_company_sandblades: "Песчаные лезвия"  
+ mercenary_company_sandblades_article: ""  
+ mercenary_company_elqulatha_acolytes: "Служители Эль-Кулаты"  
+ mercenary_company_elqulatha_acolytes_article: ""  
+ mercenary_company_afazarianis_bane: "Проклятие Афазариани"  
+ mercenary_company_afazarianis_bane_article: ""  
   
  #shamrania 
- mercenary_company_silversails: "Сильверсэйлс"  #Машинный перевод 28.10.23!
- mercenary_company_silversails_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_sea_wolves: "Морские волки"  #Машинный перевод 28.10.23!
- mercenary_company_sea_wolves_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_silvercove_raiders: "Рейдеры Серебряной бухты"  #Машинный перевод 28.10.23!
- mercenary_company_silvercove_raiders_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_silversails: "Серебряные паруса"  
+ mercenary_company_silversails_article: ""  
+ mercenary_company_sea_wolves: "Морские волки"  
+ mercenary_company_sea_wolves_article: ""  
+ mercenary_company_silvercove_raiders: "Рейдеры Серебряной бухты"  
+ mercenary_company_silvercove_raiders_article: ""  
   
  #takopara 
- mercenary_company_sandriders: "Сэндрайдеры"  #Машинный перевод 28.10.23!
- mercenary_company_sandriders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_skydancers: "Скайдансерс"  #Машинный перевод 28.10.23!
- mercenary_company_skydancers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_seekers_ocllohan: "Искатели Оклохана"  #Машинный перевод 28.10.23!
- mercenary_company_seekers_ocllohan_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_sandriders: "Песчаные всадники"  
+ mercenary_company_sandriders_article: ""  
+ mercenary_company_skydancers: "Небесные танцоры"  
+ mercenary_company_skydancers_article: ""  
+ mercenary_company_seekers_ocllohan: "Искатели Оклохана"  
+ mercenary_company_seekers_ocllohan_article: ""  
   
  #theugombrian 
- mercenary_company_gilded_horde: "Позолоченная Орда"  #Машинный перевод 28.10.23!
- mercenary_company_gilded_horde_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_golden_spears: "Золотые копья"  #Машинный перевод 28.10.23!
- mercenary_company_golden_spears_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_gilded_horde: "Позолоченная Орда"  
+ mercenary_company_gilded_horde_article: ""  
+ mercenary_company_golden_spears: "Золотые копья"  
+ mercenary_company_golden_spears_article: ""  
   
  #tlakalak 
- mercenary_company_moonlit_raiders: "Лунные рейдеры"  #Машинный перевод 28.10.23!
- mercenary_company_moonlit_raiders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_maltecuhtlas_bane: "Проклятие Малтекутлы"  #Машинный перевод 28.10.23!
- mercenary_company_maltecuhtlas_bane_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_teneses_watchers: "Наблюдатели Тенезе"  #Машинный перевод 28.10.23!
- mercenary_company_teneses_watchers_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_moonlit_raiders: "Лунные рейдеры"  
+ mercenary_company_moonlit_raiders_article: ""  
+ mercenary_company_maltecuhtlas_bane: "Проклятие Малтекутлы"  
+ mercenary_company_maltecuhtlas_bane_article: ""  
+ mercenary_company_teneses_watchers: "Наблюдатели Тенезе"  
+ mercenary_company_teneses_watchers_article: ""  
   
  #vespartsva 
- mercenary_company_painted_pirates: "Нарисованные пираты"  #Машинный перевод 28.10.23!
- mercenary_company_painted_pirates_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_marked_marauders: "Отмеченные мародеры"  #Машинный перевод 28.10.23!
- mercenary_company_marked_marauders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_emptyheart_pillagers: "Грабители пустого сердца"  #Машинный перевод 28.10.23!
- mercenary_company_emptyheart_pillagers_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_painted_pirates: "Нарисованные пираты"  
+ mercenary_company_painted_pirates_article: ""  
+ mercenary_company_marked_marauders: "Отмеченные мародеры"  
+ mercenary_company_marked_marauders_article: ""  
+ mercenary_company_emptyheart_pillagers: "Грабители пустого сердца"  
+ mercenary_company_emptyheart_pillagers_article: ""  
   
  #vhanavid 
- mercenary_company_ironmask_horde: "Железная Маска Орды"  #Машинный перевод 28.10.23!
- mercenary_company_ironmask_horde_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_khaagbreakers: "Хаагбрейкерс"  #Машинный перевод 28.10.23!
- mercenary_company_khaagbreakers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_gilded_masks: "Позолоченные маски"  #Машинный перевод 28.10.23!
- mercenary_company_gilded_masks_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_ironmask_horde: "Орда Железных масок"  
+ mercenary_company_ironmask_horde_article: ""  
+ mercenary_company_khaagbreakers: "Разрушители хаагов"  
+ mercenary_company_khaagbreakers_article: ""  
+ mercenary_company_gilded_masks: "Позолоченные маски"  
+ mercenary_company_gilded_masks_article: ""  
   
  #xajirkel 
- mercenary_company_palemask_horde: "Палемасская Орда"  #Машинный перевод 28.10.23!
- mercenary_company_palemask_horde_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_coldsteeds: "Холодные кони"  #Машинный перевод 28.10.23!
- mercenary_company_coldsteeds_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_magiyor_marauders: "Магийорские мародеры"  #Машинный перевод 28.10.23!
- mercenary_company_magiyor_marauders_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_palemask_horde: "Палемасская Орда"  
+ mercenary_company_palemask_horde_article: ""  
+ mercenary_company_coldsteeds: "Холодные кони"  
+ mercenary_company_coldsteeds_article: ""  
+ mercenary_company_magiyor_marauders: "Магийорские мародеры"  
+ mercenary_company_magiyor_marauders_article: ""  
   
  #zanaumaures 
- mercenary_company_sandstalkers: "Песчаные охотники"  #Машинный перевод 28.10.23!
- mercenary_company_sandstalkers_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_bankatera_brethren: "Банкатера Братья"  #Машинный перевод 28.10.23!
- mercenary_company_bankatera_brethren_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_djinnseekers: "Искатели джиннов"  #Машинный перевод 28.10.23!
- mercenary_company_djinnseekers_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_sandstalkers: "Песчаные охотники"  
+ mercenary_company_sandstalkers_article: ""  
+ mercenary_company_bankatera_brethren: "Банкатера Братья"  
+ mercenary_company_bankatera_brethren_article: ""  
+ mercenary_company_djinnseekers: "Искатели джиннов"  
+ mercenary_company_djinnseekers_article: ""  
   
  #zarasadari 
- mercenary_company_sons_amsar: "Сыновья Амсара"  #Машинный перевод 28.10.23!
- mercenary_company_sons_amsar_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_hassarids_bane: "Проклятие Хассарида"  #Машинный перевод 28.10.23!
- mercenary_company_hassarids_bane_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_khvasht_raiders: "Хваштские Рейдеры"  #Машинный перевод 28.10.23!
- mercenary_company_khvasht_raiders_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_sons_amsar: "Сыновья Амсара"  
+ mercenary_company_sons_amsar_article: ""  
+ mercenary_company_hassarids_bane: "Проклятие Хассарида"  
+ mercenary_company_hassarids_bane_article: ""  
+ mercenary_company_khvasht_raiders: "Хваштские Рейдеры"  
+ mercenary_company_khvasht_raiders_article: ""  
   
  #zonthawa 
- mercenary_company_jeweled_talons: "Драгоценные когти"  #Машинный перевод 28.10.23!
- mercenary_company_jeweled_talons_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_mourning_marauders: "Скорбящие мародеры"  #Машинный перевод 28.10.23!
- mercenary_company_mourning_marauders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_seekers_dihothah: "Искатели Дихоты"  #Машинный перевод 28.10.23!
- mercenary_company_seekers_dihothah_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_jeweled_talons: "Драгоценные когти"  
+ mercenary_company_jeweled_talons_article: ""  
+ mercenary_company_mourning_marauders: "Скорбящие мародеры"  
+ mercenary_company_mourning_marauders_article: ""  
+ mercenary_company_seekers_dihothah: "Искатели Дихоты"  
+ mercenary_company_seekers_dihothah_article: ""  
   
  #daravani 
- mercenary_company_blood_miners: "Шахтеры крови"  #Машинный перевод 28.10.23!
- mercenary_company_blood_miners_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_stoneborn_marauders: "Каменнорожденные мародеры"  #Машинный перевод 28.10.23!
- mercenary_company_stoneborn_marauders_article: ""  #Машинный перевод 28.10.23!
- mercenary_company_nagual_stalkers: "Нагваль Сталкеры"  #Машинный перевод 28.10.23!
- mercenary_company_nagual_stalkers_article: ""  #Машинный перевод 28.10.23!
+ mercenary_company_blood_miners: "Шахтеры крови"  
+ mercenary_company_blood_miners_article: ""  
+ mercenary_company_stoneborn_marauders: "Каменнорожденные мародеры"  
+ mercenary_company_stoneborn_marauders_article: ""  
+ mercenary_company_nagual_stalkers: "Сталкеры-нагвали"  
+ mercenary_company_nagual_stalkers_article: ""  

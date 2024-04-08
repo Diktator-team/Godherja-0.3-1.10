@@ -1,33 +1,33 @@
 ﻿l_russian:
- nemesis_killed_mother: "[TARGET_CHARACTER.GetShortUIName|U] жестоко убил [CHARACTER.GetShortUINamePossessive] мать, [TARGET_CHARACTER_2.GetShortUIName]."  #Машинный перевод 28.10.23!
- nemesis_killed_mother_corresponding: "[CHARACTER.GetShortUIName|U] жестоко убил [TARGET_CHARACTER.GetShortUINamePossessive] мать, [TARGET_CHARACTER_2.GetShortUIName]."  #Машинный перевод 28.10.23!
+ nemesis_killed_mother: "[TARGET_CHARACTER.GetShortUIName|U] жестоко убил [CHARACTER.GetShortUINamePossessive] мать, [TARGET_CHARACTER_2.GetShortUIName]."
+ nemesis_killed_mother_corresponding: "[CHARACTER.GetShortUIName|U] жестоко убил [TARGET_CHARACTER.GetShortUINamePossessive] мать, [TARGET_CHARACTER_2.GetShortUIName]."
   
- nemesis_killed_father: "[TARGET_CHARACTER.GetShortUIName|U] жестоко убил отца [CHARACTER.GetShortUINamePossessive], [TARGET_CHARACTER_2.GetShortUIName]."  #Машинный перевод 28.10.23!
- nemesis_killed_father_corresponding: "[CHARACTER.GetShortUIName|U] жестоко убил отца [TARGET_CHARACTER.GetShortUINamePossessive], [TARGET_CHARACTER_2.GetShortUIName]."  #Машинный перевод 28.10.23!
+ nemesis_killed_father: "[TARGET_CHARACTER.GetShortUIName|U] жестоко убил отца [CHARACTER.GetShortUINamePossessive], [TARGET_CHARACTER_2.GetShortUIName]."
+ nemesis_killed_father_corresponding: "[CHARACTER.GetShortUIName|U] жестоко убил отца [TARGET_CHARACTER.GetShortUINamePossessive], [TARGET_CHARACTER_2.GetShortUIName]."
   
- nemesis_killed_friend: "[TARGET_CHARACTER.GetShortUIName|U] жестоко убил [CHARACTER.GetShortUINamePossessive] друга, [TARGET_CHARACTER_2.GetShortUIName]."  #Машинный перевод 28.10.23!
- nemesis_killed_friend_corresponding: "[CHARACTER.GetShortUIName|U] жестоко убил [TARGET_CHARACTER.GetShortUINamePossessive] друга, [TARGET_CHARACTER_2.GetShortUIName]."  #Машинный перевод 28.10.23!
+ nemesis_killed_friend: "[TARGET_CHARACTER.GetShortUIName|U] жестоко убил [CHARACTER.GetShortUINamePossessive] друга, [TARGET_CHARACTER_2.GetShortUIName]."
+ nemesis_killed_friend_corresponding: "[CHARACTER.GetShortUIName|U] жестоко убил [TARGET_CHARACTER.GetShortUINamePossessive] друга, [TARGET_CHARACTER_2.GetShortUIName]."
   
- nemesis_killed_relative: "[TARGET_CHARACTER.GetShortUIName|U] жестоко убил родственника [CHARACTER.GetShortUINamePossessive], [TARGET_CHARACTER_2.GetShortUIName]."  #Машинный перевод 28.10.23!
- nemesis_killed_relative_corresponding: "[CHARACTER.GetShortUIName|U] жестоко убил родственника [TARGET_CHARACTER.GetShortUINamePossessive], [TARGET_CHARACTER_2.GetShortUIName]."  #Машинный перевод 28.10.23!
+ nemesis_killed_relative: "[TARGET_CHARACTER.GetShortUIName|U] жестоко убил родственника [CHARACTER.GetShortUINamePossessive], [TARGET_CHARACTER_2.GetShortUIName]."
+ nemesis_killed_relative_corresponding: "[CHARACTER.GetShortUIName|U] жестоко убил родственника [TARGET_CHARACTER.GetShortUINamePossessive], [TARGET_CHARACTER_2.GetShortUIName]."
   
- disfigured_with_magic: "[TARGET_CHARACTER.GetShortUIName|U] изуродовал [CHARACTER.GetShortUIName] заклинанием"  #Машинный перевод 28.10.23!
- disfigured_with_magic_corresponding: "[CHARACTER.GetShortUIName|U] изуродовал [TARGET_CHARACTER.GetShortUIName] заклинанием."  #Машинный перевод 28.10.23!
+ disfigured_with_magic: "[TARGET_CHARACTER.GetShortUIName|U] изуродовал [CHARACTER.GetShortUIName] заклинанием"
+ disfigured_with_magic_corresponding: "[CHARACTER.GetShortUIName|U] изуродовал [TARGET_CHARACTER.GetShortUIName] заклинанием."
   
- betrayed_ash_war: "[TARGET_CHARACTER.GetShortUIName|U] без причины предал [CHARACTER.GetShortUIName] во время [ash_war|E]."  #Машинный перевод 28.10.23!
- betrayed_ash_war_corresponding: "[CHARACTER.GetShortUIName|U] без причины предал [TARGET_CHARACTER.GetShortUIName] во время [ash_war|E]."  #Машинный перевод 28.10.23!
+ betrayed_ash_war: "[TARGET_CHARACTER.GetShortUIName|U] без причины предал [CHARACTER.GetShortUIName] во время [Concept('ash_war','Эшреевская войны')|E]."
+ betrayed_ash_war_corresponding: "[CHARACTER.GetShortUIName|U] без причины предал [TARGET_CHARACTER.GetShortUIName] во время [Concept('ash_war','Эшреевская войны')|E]."
   
- rival_mocked_injury: "[CHARACTER.GetShortUIName|U] высмеял травму [TARGET_CHARACTER.GetShortUINamePossessive]."  #Машинный перевод 28.10.23!
- rival_mocked_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] высмеял травму [CHARACTER.GetShortUINamePossessive]."  #Машинный перевод 28.10.23!
+ rival_mocked_injury: "[CHARACTER.GetShortUIName|U] высмеял травму [TARGET_CHARACTER.GetShortUINamePossessive]."
+ rival_mocked_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] высмеял травму [CHARACTER.GetShortUINamePossessive]."
   
- rival_forced_to_drink_kumis: "[CHARACTER.GetShortUIName|U] с силой влил в горло [TARGET_CHARACTER.GetShortUINamePossessive] бочонок отвратительного напитка."  #Машинный перевод 28.10.23!
- rival_forced_to_drink_kumis_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] с силой влил в горло [CHARACTER.GetShortUINamePossessive] бочонок отвратительного напитка."  #Машинный перевод 28.10.23!
+ rival_forced_to_drink_kumis: "[CHARACTER.GetShortUIName|U] с силой влил в горло [TARGET_CHARACTER.GetShortUINamePossessive] бочонок отвратительного напитка."
+ rival_forced_to_drink_kumis_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] с силой влил в горло [CHARACTER.GetShortUINamePossessive] бочонок отвратительного напитка."
   
- friend_shieldbrother: "[CHARACTER.GetShortUIName|U] [CharAreIs(CHARACTER)] поклялся [TARGET_CHARACTER.GetShortUIName] в качестве Щита[CHARACTER.Custom('SisterBrother')]."  #Машинный перевод 28.10.23!
- friend_shieldbrother_corresponding: "[CHARACTER.GetShortUIName|U] [CharAreIs(CHARACTER)] sworn to [TARGET_CHARACTER.GetShortUIName] as a Shield[CHARACTER.Custom('SisterBrother')]."  
+ friend_shieldbrother: "[CHARACTER.GetShortUIName|U] [CharAreIs(CHARACTER)] поклялся [TARGET_CHARACTER.GetShortUIName] в качестве щита[CHARACTER.Custom('SisterBrother')]."
+ friend_shieldbrother_corresponding: "[CHARACTER.GetShortUIName|U] [CharAreIs(CHARACTER)] поклялся [TARGET_CHARACTER.GetShortUIName] в качестве щита[CHARACTER.Custom('SisterBrother')]."  
 
- nemesis_killed_parents: "[TARGET_CHARACTER.GetShortUIName|U] murdered [CHARACTER.GetShortUINamePossessive] parents in cold blood."
- nemesis_killed_parents_corresponding: "[CHARACTER.GetShortUIName|U] murdered [TARGET_CHARACTER.GetShortUINamePossessive] parents in cold blood."
+ nemesis_killed_parents: "[TARGET_CHARACTER.GetShortUIName|U] убит [CHARACTER.GetShortUINamePossessive] хладнокровных родителей."
+ nemesis_killed_parents_corresponding: "[CHARACTER.GetShortUIName|U] убит [TARGET_CHARACTER.GetShortUINamePossessive] хладнокровных родителей."
 
- saved_from_parents_murderer: "[TARGET_CHARACTER.GetShortUIName|U] saved [CHARACTER.GetShortUINamePossessive] life as a child from [TARGET_CHARACTER_2.GetShortUIName]."
- saved_from_parents_murderer_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] saved [CHARACTER.GetShortUINamePossessive] life as a child from [TARGET_CHARACTER_2.GetShortUIName]."
+ saved_from_parents_murderer: "[TARGET_CHARACTER.GetShortUIName|U] спас [CHARACTER.GetShortUINamePossessive] жизнь в детстве с [TARGET_CHARACTER_2.GetShortUIName]."
+ saved_from_parents_murderer_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] спас [CHARACTER.GetShortUINamePossessive] жизнь в детстве с [TARGET_CHARACTER_2.GetShortUIName]."

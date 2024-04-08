@@ -182,3 +182,5 @@
  death_volcanic_eruption: "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] в результате извержения вулкана"
  death_consopite_effigy: "[Select_CString(CHARACTER.IsFemale, 'была найдена мертвой', 'был найден мертвым' )] в луже крови"
  death_reclaimed_by_the_fog: "[Select_CString(CHARACTER.IsFemale, 'была возвращена', 'был возвращен' )] [Concept('fog','туманом')|E]"
+ death_eyes_gouged: "им жестоко выкололи глаза"
+ death_siege_of_ufaliracci: "умер во время [Concept('siege_of_ufaliracci','Осады Уфалираччи')|E]"

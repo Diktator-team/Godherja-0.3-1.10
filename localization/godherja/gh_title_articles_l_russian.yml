@@ -65,6 +65,7 @@
  e_gurdurbok_article: ""  #Pfalz
  k_ufaliracci_article: ""  #Pfalz
  k_spice_cities_article: ""  #Pfalz
+ k_gavan_coalition_article: ""
  k_kinilam_regency_article: ""  #Pfalz
  e_night_coast_article: ""  #Pfalz
  e_karadun_empire_article: ""  #Pfalz
@@ -229,6 +230,8 @@
  e_southern_mamuramat_article: ""  #Pfalz
  e_western_mamuramat_article: ""  #Pfalz
  e_mayikprolollan_article: ""  #Pfalz
+ e_scriptoriums_article: ""
+ e_iron_spines_article: ""
  d_artesmos_isles_article: ""  #Pfalz
  k_military_governorate_malcois_kingdom_article: ""  #Pfalz
  k_governorate_aironoi_kingdom_article: ""  #Pfalz
