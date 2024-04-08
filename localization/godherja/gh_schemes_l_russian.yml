@@ -6,6 +6,7 @@
  scheme_interaction_tt_learn_magic_school_willing: "Попытайтесь изучить школу магии, известную как [recipient.GetShortUINameNoTooltip]."
  learn_magic_school_scheme_success_message: "Изучил новую школу магии."
  learn_magic_school_scheme_failed_message: "Не удалось изучить новую школу магии."
+ learn_magic_school_scheme_invalidated: "$learn_magic_school_scheme$ Invalidated"
  learn_magic_school_scheme_dead_desc: "[target.GetShortUIName|U] скончался. Вы больше не можете использовать $learn_magic_school_scheme$ на [target.GetHerHim]."
  SCHEME_TARGET_ARCANA_MODIFIER: "[Concept('arcana','Аркана')|E] учителя: @skill_arcana_icon!$VALUE|+0=$"
  SCHEME_ARCANA_MODIFIER: "Ваша ('arcana','аркана')|E]: @skill_arcana_icon!$VALUE|+0=$"
@@ -15,11 +16,11 @@
  learn_magic_school_scheme_interaction: "Изучите Школу Магии #weak (Схема)#!"
  learn_magic_school_scheme_interaction_notification: "Изучите Школу Магии"
 
-
  target_does_not_know_unknown_school_loc: "[TARGET_CHARACTER.GetShortUIName] не могу преподавать в каких-либо школах магии, которых вы еще не знаете."
  target_does_not_have_reason_to_teach_magic_school_loc: "[TARGET_CHARACTER.GetShortUIName] не твой #E Friend#!, #E Lover#!, #E Close Family Member#!, #E Court Magi#! or #E Courtier#!."
  TARGET_DOES_NOT_KNOW_SPELL_UNKNOWN_TO_ME: "[TARGET_CHARACTER.GetShortUIName] невозможно научить каким-либо заклинаниям, которых вы еще не знаете." 
   
+
   # Learn magic spell Scheme 
  learn_magic_spell_scheme: "Изучите магическое заклинание"
  learn_magic_spell_scheme_action: "Изучите новый [Concept('ritual','ритуал')|E] с помощью"
@@ -28,6 +29,7 @@
  scheme_interaction_tt_learn_magic_spell_willing: "Попытайтесь выучить заклинание, известное [recipient.GetShortUIName]."
  learn_magic_spell_scheme_success_message: "Выучил новое заклинание"
  learn_magic_spell_scheme_failed_message: "Не удалось выучить новое заклинание"
+ learn_magic_spell_scheme_invalidated: "$learn_magic_spell_scheme$ Invalidated"
  learn_magic_spell_scheme_dead_desc: "[target.GetShortUIName|U] скончался. Вы больше не можете использовать $learn_magic_school_scheme$ на [target.GetHerHim]."
  LEARN_MAGIC_SPELL_SCHEME_SCHOOL_SPELL_MODIFIER: "Это магическое заклинание известно вашей Школе Магии: $VALUE|+0=$."
  LEARN_MAGIC_SPELL_SCHEME_SUCCESS_DESC: "Вы изучаете #underline [CHARACTER.MakeScope.Var('spell_to_learn_from_character').Story.Custom('SpellName')]#! [Concept('ritual','ритуал')|E]."
@@ -95,5 +97,3 @@
   
  widows_harder_to_seduce: "[GetTrait('shy').GetName( owner.Self )]: $VALUE|+0=$"
  widows_struggle_at_seducing: "[GetTrait('shy').GetName( owner.Self )]: $VALUE|+0=$"
-  
-  

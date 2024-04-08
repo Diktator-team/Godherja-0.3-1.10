@@ -1,11 +1,11 @@
 ﻿l_russian:
   
- LAWLESS_CONTEST_OPINION_CRAVEN: "[GetTrait('craven').GetName(recipient.Self)] не хватает смелости: $VALUE|=+0$"  #Машинный перевод 28.10.23!
- LAWLESS_CONTEST_OPINION_BRAVE: "[GetTrait('brave').GetName(recipient.Self)] будет рад этой возможности: $VALUE|=+0$"  #Машинный перевод 28.10.23!
- LAWLESS_CONTEST_OPINION_VENGEFUL: "[GetTrait('vengeful').GetName(recipient.Self)] будет рад этой возможности: $VALUE|=+0$"  #Машинный перевод 28.10.23!
- LAWLESS_CONTEST_OPINION_CALLOUS: "[GetTrait('callous').GetName(recipient.Self)] не против испачкать руки: $VALUE|=+0$"  #Машинный перевод 28.10.23!
- LAWLESS_CONTEST_OPINION_SADISTIC: "[GetTrait('sadistic').GetName(recipient.Self)] любит пачкать руки: $VALUE|=+0$"  #Машинный перевод 28.10.23!
- LAWLESS_CONTEST_OPINION_AMBITIOUS: "[GetTrait('ambitious').GetName(recipient.Self)] будет защищать свою позицию любой ценой: $VALUE|=+0$"  #Машинный перевод 28.10.23!
+ LAWLESS_CONTEST_OPINION_CRAVEN: "[GetTrait('craven').GetName(recipient.Self)] не хватает смелости: $VALUE|=+0$"
+ LAWLESS_CONTEST_OPINION_BRAVE: "[GetTrait('brave').GetName(recipient.Self)] будет рад этой возможности: $VALUE|=+0$"
+ LAWLESS_CONTEST_OPINION_VENGEFUL: "[GetTrait('vengeful').GetName(recipient.Self)] будет рад этой возможности: $VALUE|=+0$"
+ LAWLESS_CONTEST_OPINION_CALLOUS: "[GetTrait('callous').GetName(recipient.Self)] не против испачкать руки: $VALUE|=+0$"
+ LAWLESS_CONTEST_OPINION_SADISTIC: "[GetTrait('sadistic').GetName(recipient.Self)] любит пачкать руки: $VALUE|=+0$"
+ LAWLESS_CONTEST_OPINION_AMBITIOUS: "[GetTrait('ambitious').GetName(recipient.Self)] будет защищать свою позицию любой ценой: $VALUE|=+0$"
   
- must_have_equal_or_higher_prestige_level: "Должно иметь равное или большее значение [prestige_level|E]."  #Машинный перевод 28.10.23!
- other_vassals_may_break_away_tooltip: "Другие [vassals|E] могут #N оторваться#! при такой демонстрации слабости"  #Машинный перевод 28.10.23!
+ must_have_equal_or_higher_prestige_level: "Должно иметь равное или большее значение [Concept('prestige_level','уровню престижа')|E]."
+ other_vassals_may_break_away_tooltip: "Другие [Concept('vassals','вассалы')|E] могут #N отсъединиться#! при такой демонстрации слабости"

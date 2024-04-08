@@ -1,21 +1,21 @@
 ﻿l_russian:
    # No tooltip versions 
- feudal_marcher_no_tooltip: "Феодальный"  #Машинный перевод 28.10.23!
- feudal_marcher_no_tooltip_adjective: "Феодальный"  #Машинный перевод 28.10.23!
+ feudal_marcher_no_tooltip: "Феодальный"
+ feudal_marcher_no_tooltip_adjective: "Феодальный"
   
- feudal_default_no_tooltip: "Аристократический"  #Машинный перевод 28.10.23!
- feudal_default_no_tooltip_adjective: "Благородный"  #Машинный перевод 28.10.23!
+ feudal_default_no_tooltip: "Аристократический"
+ feudal_default_no_tooltip_adjective: "Благородный"
   
    # Lowercase versions 
- feudal_marcher_no_tooltip_lowercase: "феодальный"  #Машинный перевод 28.10.23!
- feudal_marcher_no_tooltip_lowercase_adjective: "феодальный"  #Машинный перевод 28.10.23!
+ feudal_marcher_no_tooltip_lowercase: "феодальный"
+ feudal_marcher_no_tooltip_lowercase_adjective: "феодальный"
   
- feudal_default_no_tooltip_lowercase: "аристократический"  #Машинный перевод 28.10.23!
- feudal_default_no_tooltip_lowercase_adjective: "благородный"  #Машинный перевод 28.10.23!
+ feudal_default_no_tooltip_lowercase: "аристократический"
+ feudal_default_no_tooltip_lowercase_adjective: "благородный"
   
    #Game Concept versions 
- feudal_marcher: "[Concept( 'feudal', '$feudal_marcher_no_tooltip$' )|E]"  #Машинный перевод 28.10.23!
- feudal_marcher_adjective: "[Concept( 'feudal', '$feudal_marcher_no_tooltip_adjective$' )|E]"  #Машинный перевод 28.10.23!
+ feudal_marcher: "[Concept( 'feudal', '$feudal_marcher_no_tooltip$' )|E]"
+ feudal_marcher_adjective: "[Concept( 'feudal', '$feudal_marcher_no_tooltip_adjective$' )|E]"
   
- feudal_default: "[Concept( 'feudal', '$feudal_default_no_tooltip$' )|E]"  #Машинный перевод 28.10.23!
- feudal_default_adjective: "[Concept( 'feudal', '$feudal_default_no_tooltip_adjective$' )|E]"  #Машинный перевод 28.10.23!
+ feudal_default: "[Concept( 'feudal', '$feudal_default_no_tooltip$' )|E]"
+ feudal_default_adjective: "[Concept( 'feudal', '$feudal_default_no_tooltip_adjective$' )|E]"
