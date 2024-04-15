@@ -1,10 +1,10 @@
 ﻿l_russian:
   
  #allemani Loc renaming Stoðherrn due to conflict w/ kardwen culture also being called allemani, leaving the in-code name alone for now to prevent unforseen complications 
- stodherrn_religion: "Стодхерн" 
+ stodherrn_religion: "Стодхернск" 
  stodherrn_religion_adj: "Стодхерн" 
  stodherrn_religion_adjerent: "Стодхерн" 
- stodherrn_religion_adherent_plural: "Стодхерн" 
+ stodherrn_religion_adherent_plural: "Стодхерны" 
  stodherrn_religion_desc: "Вера Стодхернов рассматривает мир как ствол, поддерживающий огромное дерево, которое они называют Стодрусигга.Поднимаясь дальше по стволу, попадаешь в деревья, которые являются жилищами богов, а ниже по стволу находятся корни, где покоятся мертвые. Они верят, что их долг - быть хранителями дерева, поддерживая его так же, как птицы и белки мирно живут на деревьях, которые они называют домом. Почитание богов приносит им щедроты с земли, а плохое обращение в конечном счете приведет к упадку, пока мир не превратится в корявый пень."
  stodherrn_high_god_name: "Мировое Древо" 
  stodherrn_high_god_name_possessive: "Мировое Древо" 
@@ -68,16 +68,16 @@
   ######## 
   
   #portenchant loc 
- portenchant: "Портенчант" 
+ portenchant: "Портенчантск" 
  portenchant_adj: "Портенчант" 
  portenchant_adjerent: "Портенчант" 
- portenchant_adherent_plural: "Портенчант" 
+ portenchant_adherent_plural: "Портенчанты" 
  portenchant_desc: "Портенчаты оказались побежденными и стали жертвами [Concept('aversarians','аверсарианцев')|E], но они не изменили своей вере. Вторжение сьялволки освободило их от рабства, но они не хотят мстить своим бывшим рабовладельцам. Вместо этого они хотят вернуться к путям изоляционизма и тихой веры, как они когда-то практиковали, когда были свободны."
   
- portenchant_old: "Старый Портенчант" 
+ portenchant_old: "Старо-Портенчантск" 
  portenchant_old_adj: "Старый Портенчант" 
- portenchant_old_adherent: "Старый Портенчант" 
- portenchant_old_adherent_plural: "Старый Портенчант" 
+ portenchant_old_adherent: "Старо-Портенчант" 
+ portenchant_old_adherent_plural: "Старо-Портенчанты" 
   
  dethedklann: "Детедкланн" 
  dethedklann_adj: "Детедкланнское соглашение" 

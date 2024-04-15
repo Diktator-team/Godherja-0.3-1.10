@@ -1,6 +1,6 @@
 ﻿l_russian:
   
- sunarwei_religion: "Сунарвейаист"
+ sunarwei_religion: "Сунарвейаистк"
  sunarwei_religion_adj: "Сунарвей"
  sunarwei_religion_adjerent: "Сунарвейя"
  sunarwei_religion_adherent_plural: "Сунарвейя"
@@ -58,7 +58,7 @@
  sunarwei_witch_god_name: "$sunarwei_devil_name$"
  sunarwei_witch_god_name_possessive: "$sunarwei_devil_name_possessive$"
   
- sunarwei: "Сунарвейаист"
+ sunarwei: "Сунарвейаистк"
  sunarwei_adj: "Сунарвей"
  sunarwei_adherent: "Сунарвейя"
  sunarwei_adherent_plural: "Сунарвейя"
