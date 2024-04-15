@@ -1,7 +1,7 @@
 ﻿l_russian:
   
  #sokaloma Loc 
- sokaloma_religion: "Сокалома" 
+ sokaloma_religion: "Сокаломанск" 
  sokaloma_religion_adj: "Сокалома" 
  sokaloma_religion_adherent: "Сокаломан" 
  sokaloma_religion_adherent_plural: "Сокаломаны" 
@@ -65,7 +65,7 @@
  sokaloma_religion_witch_god_name: "$sokaloma_religion_fate_god_name$" 
  sokaloma_religion_witch_god_name_possessive: "$sokaloma_religion_fate_god_name_possessive$" 
  #sokaloma loc 
- sokaloma: "Сокалома" 
+ sokaloma: "Сокаломанск" 
  sokaloma_adj: "Сокалома" 
  sokaloma_adherent: "Сокаломан" 
  sokaloma_adherent_plural: "Сокаломаны" 

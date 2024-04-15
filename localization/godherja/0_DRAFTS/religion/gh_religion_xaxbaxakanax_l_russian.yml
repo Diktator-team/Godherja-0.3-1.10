@@ -1,7 +1,7 @@
 ﻿l_russian:
   
- xaxbaxakanax_religion: "Ксакс'бакса'канакси" 
- xaxbaxakanax_religion_adj: "Ксакс'бакса'канакс" 
+ xaxbaxakanax_religion: "Ксакс'бакса'канакск" 
+ xaxbaxakanax_religion_adj: "Ксакс'бакса'канакси" 
  xaxbaxakanax_religion_adherent: "Ксакс'бакса'канаксиан" 
  xaxbaxakanax_religion_adherent_plural: "Ксакс'бакса'канаксианцы" 
  xaxbaxakanax_religion_desc: "Приверженцы верят, что их, подобно простым стадам овец, направляет правильным путем в этом мире (который является лишь малой частью великой реальности) божественный Пастырь, который сам является скромным обычным человеком в мире над ними, которого вместе со своими сородичами пасет Пастырь над ним и так далее и так далее. Они проповедуют принятие мира и всех происходящих в нем событий, хороших или плохих. Точно так же, как овцы могут стать пугливыми, когда их приводят в загон, так и любое беспокойство о мире - это просто скрытая нервозность, порожденная незнанием плана Пастуха."
@@ -65,7 +65,7 @@
  xaxbaxakanax_witch_god_name: "$xaxbaxakanax_high_god_name$" 
  xaxbaxakanax_witch_god_name_possessive: "$xaxbaxakanax_high_god_name_possessive$" 
   
- xaxbaxakanax: "Ксакс'бакса'канакс" 
+ xaxbaxakanax: "Ксакс'бакса'канакск" 
  xaxbaxakanax_adj: "Ксакс'бакса'канакси" 
  xaxbaxakanax_adherent: "Ксакс'бакса'канаксиан" 
  xaxbaxakanax_adherent_plural: "Ксакс'бакса'канаксианцы" 

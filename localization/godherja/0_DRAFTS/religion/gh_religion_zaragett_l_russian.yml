@@ -1,6 +1,6 @@
 ﻿l_russian:
   
- zaragett_religion: "Сарагеттский" 
+ zaragett_religion: "Сарагеттск" 
  zaragett_religion_adj: "Сарагетт" 
  zaragett_religion_adherent: "Сарагетт" 
  zaragett_religion_adherent_plural: "Сарагетти"
@@ -67,7 +67,7 @@
  zaragett_witch_god_name: "$zaragett_devil_name$"
  zaragett_witch_god_name_possessive: "$zaragett_devil_name_possessive$"
   
- zaragett: "Сарагетский"
+ zaragett: "Сарагетск"
  zaragett_adj: "Сарагетт"
  zaragett_adherent: "Сарагетт"
  zaragett_adherent_plural: "Сарагетти"
