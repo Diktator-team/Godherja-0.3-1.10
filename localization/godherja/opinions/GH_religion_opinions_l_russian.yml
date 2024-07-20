@@ -1,0 +1,226 @@
+﻿l_russian:
+ adabyssian_religion_opinion: "$adabyssian_religion_adherent$ Opinion" #NT!
+ agionism_religion_opinion: "$agionism_religion_adherent$ Opinion" #NT!
+ ahridar_religion_opinion: "$ahridar_religion_adherent$ Opinion" #NT!
+ alau_koev_religion_opinion: "$alau_koev_religion_adherent$ Opinion" #NT!
+ amsari_religion_opinion: "$amsari_religion_adherent$ Opinion" #NT!
+ anaanides_religion_opinion: "$anaanides_religion_adherent$ Opinion" #NT!
+ ancient_religion_opinion: "$ancient_religion_adherent$ Opinion" #NT!
+ apti_religion_opinion: "$apti_religion_adherent$ Opinion" #NT!
+ arnazni_religion_opinion: "$arnazni_religion_adherent$ Opinion" #NT!
+ aruvasue_religion_opinion: "$aruvasue_religion_adherent$ Opinion" #NT!
+ astiliak_religion_opinion: "$astiliak_religion_adherent$ Opinion" #NT!
+ aversarinas_aagiokrata_religion_opinion: "$aversarinas_aagiokrata_religion_adherent$ Opinion" #NT!
+ blackhand_religion_opinion: "$blackhand_religion_adherent$ Opinion" #NT!
+ cnevobarthane_religion_opinion: "$cnevobarthane_religion_adherent$ Opinion" #NT!
+ cuthanagi_religion_opinion: "$cuthanagi_religion_adherent$ Opinion" #NT!
+ dravidian_religion_opinion: "$dravidian_religion_adherent$ Opinion" #NT!
+ ehatm_religion_opinion: "$ehatm_religion_adherent$ Opinion" #NT!
+ ethowos_religion_opinion: "$ethowos_religion_adherent$ Opinion" #NT!
+ fogeater_religion_opinion: "$fogeater_religion_adherent$ Opinion" #NT!
+ fourteen_heavenly_methods_religion_opinion: "$fourteen_heavenly_methods_religion_adherent$ Opinion" #NT!
+ gallieni_religion_opinion: "$gallieni_religion_adherent$ Opinion" #NT!
+ gestanwoder_religion_opinion: "$gestanwoder_religion_adherent$ Opinion" #NT!
+ gethian_religion_opinion: "$gethian_religion_adherent$ Opinion" #NT!
+ graveright_religion_opinion: "$graveright_religion_adherent$ Opinion" #NT!
+ hero_religion_opinion: "$hero_religion_adherent$ Opinion" #NT!
+ hubarism_religion_opinion: "$hubarism_religion_adherent$ Opinion" #NT!
+ hulawite_religion_opinion: "$hulawite_religion_adherent$ Opinion" #NT!
+ islands_religion_opinion: "$islands_religion_adherent$ Opinion" #NT!
+ iyrossi_religion_opinion: "$iyrossi_religion_adherent$ Opinion" #NT!
+ izaerto_bosar_religion_opinion: "$izaerto_bosar_religion_adherent$ Opinion" #NT!
+ kakarataki_religion_opinion: "$kakarataki_religion_adherent$ Opinion" #NT!
+ kaosahetam_religion_opinion: "$kaosahetam_religion_adherent$ Opinion" #NT!
+ kardawai_religion_opinion: "$kardawai_religion_adherent$ Opinion" #NT!
+ kemsar_religion_opinion: "$kemsar_religion_adherent$ Opinion" #NT!
+ kyaalic_religion_opinion: "$kyaalic_religion_adherent$ Opinion" #NT!
+ lifepath_religion_opinion: "$lifepath_religion_adherent$ Opinion" #NT!
+ mahrator_religion_opinion: "$mahrator_religion_adherent$ Opinion" #NT!
+ manats_religion_opinion: "$manats_religion_adherent$ Opinion" #NT!
+ marndeoticeni_religion_opinion: "$marndeoticeni_religion_adherent$ Opinion" #NT!
+ masaagnite_religion_opinion: "$masaagnite_religion_adherent$ Opinion" #NT!
+ mogowai_religion_opinion: "$mogowai_religion_adherent$ Opinion" #NT!
+ nalmavast_religion_opinion: "$nalmavast_religion_adherent$ Opinion" #NT!
+ namejisht_religion_opinion: "$namejisht_religion_adherent$ Opinion" #NT!
+ nolosaanyo_religion_opinion: "$nolosaanyo_religion_adherent$ Opinion" #NT!
+ offended_adabyssian_religion_modifier: "Religious Faux Pas" #NT!
+ offended_adabyssian_religion_modifier_desc: "This character has managed to ostracize themselves from an entire religious group." #NT!
+ offended_agionism_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_agionism_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_ahridar_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_ahridar_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_alau_koev_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_alau_koev_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_amsari_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_amsari_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_anaanides_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_anaanides_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_ancient_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_ancient_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_apti_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_apti_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_arnazni_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_arnazni_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_aruvasue_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_aruvasue_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_astiliak_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_astiliak_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_aversarinas_aagiokrata_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_aversarinas_aagiokrata_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_blackhand_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_blackhand_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_cnevobarthane_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_cnevobarthane_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_cuthanagi_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_cuthanagi_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_dravidian_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_dravidian_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_ehatm_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_ehatm_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_ethowos_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_ethowos_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_fogeater_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_fogeater_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_fourteen_heavenly_methods_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_fourteen_heavenly_methods_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_gallieni_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_gallieni_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_gestanwoder_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_gestanwoder_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_gethian_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_gethian_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_graveright_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_graveright_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_hero_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_hero_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_hubarism_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_hubarism_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_hulawite_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_hulawite_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_islands_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_islands_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_iyrossi_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_iyrossi_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_izaerto_bosar_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_izaerto_bosar_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_kakarataki_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_kakarataki_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_kaosahetam_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_kaosahetam_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_kardawai_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_kardawai_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_kemsar_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_kemsar_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_kyaalic_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_kyaalic_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_lifepath_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_lifepath_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_mahrator_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_mahrator_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_manats_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_manats_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_marndeoticeni_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_marndeoticeni_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_masaagnite_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_masaagnite_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_mogowai_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_mogowai_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_nalmavast_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_nalmavast_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_namejisht_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_namejisht_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_nolosaanyo_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_nolosaanyo_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_oltenic_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_oltenic_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_orgarrd_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_orgarrd_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_partic_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_partic_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_quwazaw_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_quwazaw_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_raider_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_raider_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_redland_cults_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_redland_cults_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_rejection_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_rejection_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_ritualist_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_ritualist_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_saielaian_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_saielaian_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_salacad_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_salacad_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_samojitian_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_samojitian_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_saratan_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_saratan_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_sheharddi_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_sheharddi_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_shyatan_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_shyatan_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_sjalvolki_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_sjalvolki_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_sokaloma_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_sokaloma_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_starvayrd_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_starvayrd_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_stodherrn_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_stodherrn_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_sunarwei_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_sunarwei_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_oulaupi_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_oulaupi_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_orndaehz_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_orndaehz_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_thixanonic_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_thixanonic_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_tulharsin_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_tulharsin_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_uakaklo_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_uakaklo_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_viyagaric_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_viyagaric_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_wardenism_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_wardenism_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_wasteland_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_wasteland_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_xaxbaxakanax_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_xaxbaxakanax_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_yuagaug_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_yuagaug_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_zaldrigas_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_zaldrigas_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ offended_zaragett_religion_modifier: "$offended_adabyssian_religion_modifier$" #NT!
+ offended_zaragett_religion_modifier_desc: "$offended_adabyssian_religion_modifier_desc$" #NT!
+ oltenic_religion_opinion: "$oltenic_religion_adherent$ Opinion" #NT!
+ orgarrd_religion_opinion: "$orgarrd_religion_adherent$ Opinion" #NT!
+ partic_religion_opinion: "$partic_religion_adherent$ Opinion" #NT!
+ quwazaw_religion_opinion: "$quwazaw_religion_adherent$ Opinion" #NT!
+ raider_religion_opinion: "$raider_religion_adherent$ Opinion" #NT!
+ redland_cults_religion_opinion: "$redland_cults_religion_adherent$ Opinion" #NT!
+ rejection_religion_opinion: "$rejection_religion_adherent$ Opinion" #NT!
+ ritualist_religion_opinion: "$ritualist_religion_adherent$ Opinion" #NT!
+ saielaian_religion_opinion: "$saielaian_religion_adherent$ Opinion" #NT!
+ salacad_religion_opinion: "$salacad_religion_adherent$ Opinion" #NT!
+ samojitian_religion_opinion: "$samojitian_religion_adherent$ Opinion" #NT!
+ saratan_religion_opinion: "$saratan_religion_adherent$ Opinion" #NT!
+ sheharddi_religion_opinion: "$sheharddi_religion_adherent$ Opinion" #NT!
+ shyatan_religion_opinion: "$shyatan_religion_adherent$ Opinion" #NT!
+ sjalvolki_religion_opinion: "$sjalvolki_religion_adherent$ Opinion" #NT!
+ sokaloma_religion_opinion: "$sokaloma_religion_adherent$ Opinion" #NT!
+ starvayrd_religion_opinion: "$starvayrd_religion_adherent$ Opinion" #NT!
+ stodherrn_religion_opinion: "$stodherrn_religion_adherent$ Opinion" #NT!
+ sunarwei_religion_opinion: "$sunarwei_religion_adherent$ Opinion" #NT!
+ oulaupi_religion_opinion: "$oulaupi_religion_adherent$ Opinion" #NT!
+ orndaehz_religion_opinion: "$orndaehz_religion_adherent$ Opinion" #NT!
+ thixanonic_religion_opinion: "$thixanonic_religion_adherent$ Opinion" #NT!
+ tulharsin_religion_opinion: "$tulharsin_religion_adherent$ Opinion" #NT!
+ uakaklo_religion_opinion: "$uakaklo_religion_adherent$ Opinion" #NT!
+ viyagaric_religion_opinion: "$viyagaric_religion_adherent$ Opinion" #NT!
+ wardenism_religion_opinion: "$wardenism_religion_adherent$ Opinion" #NT!
+ wasteland_religion_opinion: "$wasteland_religion_adherent$ Opinion" #NT!
+ xaxbaxakanax_religion_opinion: "$xaxbaxakanax_religion_adherent$ Opinion" #NT!
+ yuagaug_religion_opinion: "$yuagaug_religion_adherent$ Opinion" #NT!
+ zaldrigas_religion_opinion: "$zaldrigas_religion_adherent$ Opinion" #NT!
+ zaragett_religion_opinion: "$zaragett_religion_adherent$ Opinion" #NT!

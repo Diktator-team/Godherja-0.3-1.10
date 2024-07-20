@@ -1,133 +1,188 @@
 ﻿l_russian:
   
- deadlands: "Мертвые земли" 
+ deadlands: "Мертвые земли"
   
- antimagic_terrain: "[Concept('antimagic_terrain','антимагическая местность')|E]" 
- marcher_farmlands: "[Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Сельскохозяйственные угодья" 
- marcher_forest: "[Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Лес" 
- marcher_hills: "[Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Холмы" 
- marcher_mountains: "[Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Горы" 
- marcher_plains: "[Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Равнины" 
- marcher_floodplains: "[Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймы" 
- marcher_wetlands: "[Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Водно-болотные угодья" 
- combat_marcher_forest: "Защита в лесу [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]" 
- combat_marcher_hills: "Оборона на холмах [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]" 
- combat_marcher_mountain: "Оборона в горах [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]" 
- combat_marcher_wetlands: "Оборона в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Болотных угодьях" 
- marcher_farmlands_advantage: "[command_modifier_i|E][advantage|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Сельхозугодья" 
- marcher_farmlands_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято на [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] сельскохозяйственных угодьях" 
- marcher_farmlands_cancel_negative_supply: "[command_modifier_i|E]Отменить [supply_limit|E] штраф на [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] сельскохозяйственных угодьях" 
- marcher_farmlands_max_combat_roll: "[command_modifier_i|E]Максимум [combat_roll|E] на [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] сельскохозяйственных угодьях" 
- marcher_farmlands_min_combat_roll: "[command_modifier_i|E]Минимум [combat_roll|E] на [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] сельскохозяйственных угодьях" 
- marcher_forest_advantage: "[command_modifier_i|E][advantage|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Лесу" 
- marcher_forest_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Лесу" 
- marcher_forest_cancel_negative_supply: "[command_modifier_i|E]Отменить [supply_limit|E] штраф в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] лесу" 
- marcher_forest_max_combat_roll: "[command_modifier_i|E]Максимум [combat_roll|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] лесу" 
- marcher_forest_min_combat_roll: "[command_modifier_i|E]Минимум [combat_roll|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Лесу" 
- marcher_hills_advantage: "[command_modifier_i|E][advantage|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Холмах" 
- marcher_hills_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято на холмах [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]" 
- marcher_hills_cancel_negative_supply: "[command_modifier_i|E]Отмена штрафа [supply_limit|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Hills" 
- marcher_hills_max_combat_roll: "[command_modifier_i|E]Максимум [combat_roll|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Холмах" 
- marcher_hills_min_combat_roll: "[command_modifier_i|E]Минимум [combat_roll|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Холмах" 
- marcher_mountains_advantage: "[command_modifier_i|E][advantage|E] в горах [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]" 
- marcher_mountains_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Горах" 
- marcher_mountains_cancel_negative_supply: "[command_modifier_i|E]Отменить [supply_limit|E] штраф в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] горах" 
- marcher_mountains_max_combat_roll: "[command_modifier_i|E]Максимум [combat_roll|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Горах" 
- marcher_mountains_min_combat_roll: "[command_modifier_i|E]Минимум [combat_roll|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Горах" 
- antimagic_terrain_advantage: "[command_modifier_i|E][advantage|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]" 
- marcher_plains_advantage: "[command_modifier_i|E][advantage|E] на равнинах [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]" 
- marcher_plains_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято на равнинах [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]" 
- marcher_plains_cancel_negative_supply: "[command_modifier_i|E]Отменить штраф [supply_limit|E] на равнинах [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]" 
- marcher_plains_max_combat_roll: "[command_modifier_i|E]Максимум [combat_roll|E] на равнинах [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]" 
- marcher_plains_min_combat_roll: "[command_modifier_i|E]Минимум [combat_roll|E] на равнинах [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]" 
- marcher_floodplains_advantage: "[command_modifier_i|E][advantage|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймах" 
- marcher_floodplains_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймах" 
- marcher_floodplains_cancel_negative_supply: "[command_modifier_i|E]Отменить [supply_limit|E] штраф в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймах" 
- marcher_floodplains_max_combat_roll: "[command_modifier_i|E]Максимум [combat_roll|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймах" 
- marcher_floodplains_min_combat_roll: "[command_modifier_i|E]Минимум [combat_roll|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймах" 
- marcher_wetlands_advantage: "[command_modifier_i|E][advantage|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] водно-болотных угодий" 
- marcher_wetlands_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] водно-болотных угодий" 
- marcher_wetlands_cancel_negative_supply: "[command_modifier_i|E]Отменить штраф [supply_limit|E] на [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] водно-болотных угодьях" 
- marcher_wetlands_max_combat_roll: "[command_modifier_i|E]Максимум [combat_roll|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] водно-болотных угодьях" 
- marcher_wetlands_min_combat_roll: "[command_modifier_i|E]Минимум [combat_roll|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] водно-болотных угодий" 
- marcher_plains_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ на [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Равнинах" 
- marcher_farmlands_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Сельхозугодья" 
- marcher_hills_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Холмах" 
- marcher_mountains_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Горах" 
- marcher_forest_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] лесу" 
- marcher_wetlands_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] водно-болотных угодий" 
- marcher_floodplains_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймах" 
- marcher_plains_construction_prestige_cost: "$plains_construction_gold_cost$" 
- marcher_farmlands_construction_prestige_cost: "$farmlands_construction_gold_cost$" 
- marcher_hills_construction_prestige_cost: "$hills_construction_gold_cost$" 
- marcher_mountains_construction_prestige_cost: "$mountains_construction_gold_cost$" 
- marcher_forest_construction_prestige_cost: "$forest_construction_gold_cost$" 
- marcher_wetlands_construction_prestige_cost: "$wetlands_construction_gold_cost$" 
- marcher_floodplains_construction_prestige_cost: "$floodplains_construction_gold_cost$" 
- marcher_plains_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ на равнинах [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] ([Concept('terrain','местность')|E])" 
- marcher_farmlands_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Сельхозугоденый ([Concept('terrain','местность')|E])" 
- marcher_farmlands_development_growth: "$farmlands_development_growth_factor$" 
- marcher_hills_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Холмах ([Concept('terrain','местность')|E])" 
- marcher_mountains_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Горах ([Concept('terrain','местность')|E])" 
- marcher_forest_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] лесу ([Concept('terrain','местность')|E])" 
- marcher_wetlands_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] водно-болотных угодий ([Concept('terrain','местность')|E])" 
- marcher_floodplains_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймах ([Concept('terrain','местность')|E])" 
- marcher_plains_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ на [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Равнинах" 
- marcher_farmlands_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Сельхозугодья" 
- marcher_hills_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Холмах" 
- marcher_mountains_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Горах" 
- marcher_forest_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] лесу" 
- marcher_wetlands_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] водно-болотных угодий" 
- marcher_floodplains_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймах" 
- marcher_plains_holding_construction_prestige_cost: "$plains_holding_construction_gold_cost$" 
- marcher_farmlands_holding_construction_prestige_cost: "$farmlands_holding_construction_gold_cost$" 
- marcher_hills_holding_construction_prestige_cost: "$hills_holding_construction_gold_cost$" 
- marcher_mountains_holding_construction_prestige_cost: "$mountains_holding_construction_gold_cost$" 
- marcher_forest_holding_construction_prestige_cost: "$forest_holding_construction_gold_cost$" 
- marcher_wetlands_holding_construction_prestige_cost: "$wetlands_holding_construction_gold_cost$" 
- marcher_floodplains_holding_construction_prestige_cost: "$floodplains_holding_construction_gold_cost$" 
- marcher_plains_tax_mult: "$MOD_TAX_MULT$ на [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Равнинах" 
- marcher_farmlands_tax_mult: "$MOD_TAX_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Сельхозугодья" 
- marcher_hills_tax_mult: "$MOD_TAX_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Холмах" 
- marcher_mountains_tax_mult: "$MOD_TAX_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Горах" 
- marcher_forest_tax_mult: "$MOD_TAX_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] лесу" 
- marcher_wetlands_tax_mult: "$MOD_TAX_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] водно-болотных угодий" 
- marcher_floodplains_tax_mult: "$MOD_TAX_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймах" 
- marcher_plains_levy_size: "$MOD_LEVY_SIZE$ на [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Равнинах" 
- marcher_farmlands_levy_size: "$MOD_LEVY_SIZE$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Сельхозугодья" 
- marcher_hills_levy_size: "$MOD_LEVY_SIZE$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Холмах" 
- marcher_mountains_levy_size: "$MOD_LEVY_SIZE$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Горах" 
- marcher_forest_levy_size: "$MOD_LEVY_SIZE$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] лесу" 
- marcher_wetlands_levy_size: "$MOD_LEVY_SIZE$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] водно-болотных угодий" 
- marcher_floodplains_levy_size: "$MOD_LEVY_SIZE$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймах" 
- marcher_plains_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ на [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Равнинах" 
- marcher_farmlands_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Сельхозугодья" 
- marcher_hills_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Холмах" 
- marcher_mountains_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Горах" 
- marcher_forest_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] лесу" 
- marcher_wetlands_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] водно-болотных угодий" 
- marcher_floodplains_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймах" 
+ antimagic_terrain: "[Concept('antimagic_terrain','антимагическая местность')|E]"
+ marcher_farmlands: "[Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Сельскохозяйственные угодья"
+ marcher_forest: "[Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Лес"
+ marcher_hills: "[Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Холмы"
+ marcher_mountains: "[Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Горы"
+ marcher_plains: "[Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Равнины"
+ marcher_floodplains: "[Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймы"
+ marcher_wetlands: "[Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Водно-болотные угодья"
+ marcher_farmlands_advantage: "[command_modifier_i|E][advantage|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Сельхозугодья"
+ marcher_farmlands_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято на [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] сельскохозяйственных угодьях"
+ marcher_farmlands_cancel_negative_supply: "[command_modifier_i|E]Отменить [supply_limit|E] штраф на [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] сельскохозяйственных угодьях"
+ marcher_farmlands_max_combat_roll: "[command_modifier_i|E]Максимум [combat_roll|E] на [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] сельскохозяйственных угодьях"
+ marcher_farmlands_min_combat_roll: "[command_modifier_i|E]Минимум [combat_roll|E] на [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] сельскохозяйственных угодьях"
+ marcher_forest_advantage: "[command_modifier_i|E][advantage|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Лесу"
+ marcher_forest_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Лесу"
+ marcher_forest_cancel_negative_supply: "[command_modifier_i|E]Отменить [supply_limit|E] штраф в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] лесу"
+ marcher_forest_max_combat_roll: "[command_modifier_i|E]Максимум [combat_roll|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] лесу"
+ marcher_forest_min_combat_roll: "[command_modifier_i|E]Минимум [combat_roll|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Лесу"
+ marcher_hills_advantage: "[command_modifier_i|E][advantage|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Холмах"
+ marcher_hills_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято на холмах [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]"
+ marcher_hills_cancel_negative_supply: "[command_modifier_i|E]Отмена штрафа [supply_limit|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Hills"
+ marcher_hills_max_combat_roll: "[command_modifier_i|E]Максимум [combat_roll|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Холмах"
+ marcher_hills_min_combat_roll: "[command_modifier_i|E]Минимум [combat_roll|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Холмах"
+ marcher_mountains_advantage: "[command_modifier_i|E][advantage|E] в горах [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]"
+ marcher_mountains_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Горах"
+ marcher_mountains_cancel_negative_supply: "[command_modifier_i|E]Отменить [supply_limit|E] штраф в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] горах"
+ marcher_mountains_max_combat_roll: "[command_modifier_i|E]Максимум [combat_roll|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Горах"
+ marcher_mountains_min_combat_roll: "[command_modifier_i|E]Минимум [combat_roll|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Горах"
+ antimagic_terrain_advantage: "[command_modifier_i|E][advantage|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]"
+ marcher_plains_advantage: "[command_modifier_i|E][advantage|E] на равнинах [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]"
+ marcher_plains_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято на равнинах [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]"
+ marcher_plains_cancel_negative_supply: "[command_modifier_i|E]Отменить штраф [supply_limit|E] на равнинах [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]"
+ marcher_plains_max_combat_roll: "[command_modifier_i|E]Максимум [combat_roll|E] на равнинах [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]"
+ marcher_plains_min_combat_roll: "[command_modifier_i|E]Минимум [combat_roll|E] на равнинах [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]"
+ marcher_floodplains_advantage: "[command_modifier_i|E][advantage|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймах"
+ marcher_floodplains_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймах"
+ marcher_floodplains_cancel_negative_supply: "[command_modifier_i|E]Отменить [supply_limit|E] штраф в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймах"
+ marcher_floodplains_max_combat_roll: "[command_modifier_i|E]Максимум [combat_roll|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймах"
+ marcher_floodplains_min_combat_roll: "[command_modifier_i|E]Минимум [combat_roll|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймах"
+ marcher_wetlands_advantage: "[command_modifier_i|E][advantage|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] водно-болотных угодий"
+ marcher_wetlands_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] водно-болотных угодий"
+ marcher_wetlands_cancel_negative_supply: "[command_modifier_i|E]Отменить штраф [supply_limit|E] на [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] водно-болотных угодьях"
+ marcher_wetlands_max_combat_roll: "[command_modifier_i|E]Максимум [combat_roll|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] водно-болотных угодьях"
+ marcher_wetlands_min_combat_roll: "[command_modifier_i|E]Минимум [combat_roll|E] в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] водно-болотных угодий"
+ marcher_plains_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ на [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Равнинах"
+ marcher_farmlands_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Сельхозугодья"
+ marcher_hills_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Холмах"
+ marcher_mountains_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Горах"
+ marcher_forest_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] лесу"
+ marcher_wetlands_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] водно-болотных угодий"
+ marcher_floodplains_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймах"
+ marcher_plains_construction_prestige_cost: "$plains_construction_gold_cost$"
+ marcher_farmlands_construction_prestige_cost: "$farmlands_construction_gold_cost$"
+ marcher_hills_construction_prestige_cost: "$hills_construction_gold_cost$"
+ marcher_mountains_construction_prestige_cost: "$mountains_construction_gold_cost$"
+ marcher_forest_construction_prestige_cost: "$forest_construction_gold_cost$"
+ marcher_wetlands_construction_prestige_cost: "$wetlands_construction_gold_cost$"
+ marcher_floodplains_construction_prestige_cost: "$floodplains_construction_gold_cost$"
+ marcher_plains_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ на равнинах [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] ([Concept('terrain','местность')|E])"
+ marcher_farmlands_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Сельхозугоденый ([Concept('terrain','местность')|E])"
+ marcher_farmlands_development_growth: "$farmlands_development_growth_factor$"
+ marcher_hills_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Холмах ([Concept('terrain','местность')|E])"
+ marcher_mountains_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Горах ([Concept('terrain','местность')|E])"
+ marcher_forest_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] лесу ([Concept('terrain','местность')|E])"
+ marcher_wetlands_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] водно-болотных угодий ([Concept('terrain','местность')|E])"
+ marcher_floodplains_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймах ([Concept('terrain','местность')|E])"
+ marcher_plains_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ на [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Равнинах"
+ marcher_farmlands_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Сельхозугодья"
+ marcher_hills_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Холмах"
+ marcher_mountains_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Горах"
+ marcher_forest_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] лесу"
+ marcher_wetlands_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] водно-болотных угодий"
+ marcher_floodplains_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймах"
+ marcher_plains_holding_construction_prestige_cost: "$plains_holding_construction_gold_cost$"
+ marcher_farmlands_holding_construction_prestige_cost: "$farmlands_holding_construction_gold_cost$"
+ marcher_hills_holding_construction_prestige_cost: "$hills_holding_construction_gold_cost$"
+ marcher_mountains_holding_construction_prestige_cost: "$mountains_holding_construction_gold_cost$"
+ marcher_forest_holding_construction_prestige_cost: "$forest_holding_construction_gold_cost$"
+ marcher_wetlands_holding_construction_prestige_cost: "$wetlands_holding_construction_gold_cost$"
+ marcher_floodplains_holding_construction_prestige_cost: "$floodplains_holding_construction_gold_cost$"
+ marcher_plains_tax_mult: "$MOD_TAX_MULT$ на [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Равнинах"
+ marcher_farmlands_tax_mult: "$MOD_TAX_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Сельхозугодья"
+ marcher_hills_tax_mult: "$MOD_TAX_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Холмах"
+ marcher_mountains_tax_mult: "$MOD_TAX_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Горах"
+ marcher_forest_tax_mult: "$MOD_TAX_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] лесу"
+ marcher_wetlands_tax_mult: "$MOD_TAX_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] водно-болотных угодий"
+ marcher_floodplains_tax_mult: "$MOD_TAX_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймах"
+ marcher_plains_levy_size: "$MOD_LEVY_SIZE$ на [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Равнинах"
+ marcher_farmlands_levy_size: "$MOD_LEVY_SIZE$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Сельхозугодья"
+ marcher_hills_levy_size: "$MOD_LEVY_SIZE$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Холмах"
+ marcher_mountains_levy_size: "$MOD_LEVY_SIZE$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Горах"
+ marcher_forest_levy_size: "$MOD_LEVY_SIZE$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] лесу"
+ marcher_wetlands_levy_size: "$MOD_LEVY_SIZE$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] водно-болотных угодий"
+ marcher_floodplains_levy_size: "$MOD_LEVY_SIZE$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймах"
+ marcher_plains_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ на [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Равнинах"
+ marcher_farmlands_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Сельхозугодья"
+ marcher_hills_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Холмах"
+ marcher_mountains_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Горах"
+ marcher_forest_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] лесу"
+ marcher_wetlands_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] водно-болотных угодий"
+ marcher_floodplains_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] поймах"
   
- mayik_caverns: "Подземная пещера" 
- mayik_caverns_advantage: "[command_modifier_i|E][advantage|E] в подземных пещерах" 
- mayik_caverns_levy_size: "$MOD_LEVY_SIZE$ в подземных пещерах" 
- mayik_caverns_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в подземных пещерах" 
+ mayik_caverns: "Подземная пещера"
+ mayik_caverns_advantage: "[command_modifier_i|E][advantage|E] в подземных пещерах"
+ mayik_caverns_levy_size: "$MOD_LEVY_SIZE$ в подземных пещерах"
+ mayik_caverns_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в подземных пещерах"
  mayik_caverns_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято в подземных пещерах"
-
- mayik_chamber: "Подземная палата" 
- mayik_chamber_advantage: "[command_modifier_i|E][advantage|E] в подземных камерах" 
- mayik_chamber_levy_size: "$MOD_LEVY_SIZE$ в подземных камерах" 
- mayik_chamber_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в подземных камерах" 
+  
+ mayik_chamber: "Подземная палата"
+ mayik_chamber_advantage: "[command_modifier_i|E][advantage|E] в подземных камерах"
+ mayik_chamber_levy_size: "$MOD_LEVY_SIZE$ в подземных камерах"
+ mayik_chamber_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в подземных камерах"
  mayik_chamber_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято в подземных палатах"
- 
- mayik_corridors: "Подземный коридор" 
- mayik_corridors_advantage: "[command_modifier_i|E][advantage|E] в подземных коридорах" 
- mayik_corridors_levy_size: "$MOD_LEVY_SIZE$ в подземных коридорах" 
- mayik_corridors_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в подземных коридорах" 
+  
+ mayik_corridors: "Подземный коридор"
+ mayik_corridors_advantage: "[command_modifier_i|E][advantage|E] в подземных коридорах"
+ mayik_corridors_levy_size: "$MOD_LEVY_SIZE$ в подземных коридорах"
+ mayik_corridors_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в подземных коридорах"
  mayik_corridors_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято в подземных коридоров"
-
- mayik_tunnels: "Подземные туннели" 
- mayik_tunnels_advantage: "[command_modifier_i|E][advantage|E] в подземных туннелях" 
- mayik_tunnels_levy_size: "$MOD_LEVY_SIZE$ в подземных туннелях" 
- mayik_tunnels_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в подземных туннелях" 
+  
+ mayik_tunnels: "Подземные туннели"
+ mayik_tunnels_advantage: "[command_modifier_i|E][advantage|E] в подземных туннелях"
+ mayik_tunnels_levy_size: "$MOD_LEVY_SIZE$ в подземных туннелях"
+ mayik_tunnels_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в подземных туннелях"
  mayik_tunnels_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято в подземных туннелях"
+  
+ redlands_chasms: "Redlands Chasms" #NT!
+ redlands_chasms_advantage: "[command_modifier_i|E][advantage|E] in Redlands Chasms" #NT!
+ redlands_chasms_levy_size: "$MOD_LEVY_SIZE$ in Redlands Chasms" #NT!
+ redlands_chasms_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Redlands Chasms" #NT!
+ redlands_chasms_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Redlands Chasms" #NT!
+  
+ redlands_drylands: "Redlands Drylands" #NT!
+ redlands_drylands_advantage: "[command_modifier_i|E][advantage|E] in Redlands Drylands" #NT!
+ redlands_drylands_levy_size: "$MOD_LEVY_SIZE$ in Redlands Drylands" #NT!
+ redlands_drylands_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Redlands Drylands" #NT!
+ redlands_drylands_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Redlands Drylands" #NT!
+  
+ redlands_desert: "Redlands Desert" #NT!
+ redlands_desert_advantage: "[command_modifier_i|E][advantage|E] in Redlands Desert" #NT!
+ redlands_desert_levy_size: "$MOD_LEVY_SIZE$ in Redlands Desert" #NT!
+ redlands_desert_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Redlands Desert" #NT!
+ redlands_desert_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Redlands Desert" #NT!
+  
+ redlands_mountains: "Redlands Mountains" #NT!
+ redlands_mountains_advantage: "[command_modifier_i|E][advantage|E] in Redlands Mountains" #NT!
+ redlands_mountains_levy_size: "$MOD_LEVY_SIZE$ in Redlands Mountains" #NT!
+ redlands_mountains_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Redlands Mountains" #NT!
+ redlands_mountains_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Redlands Mountains" #NT!
+  
+ archipelagic: "Archipelagic" #NT!
+ archipelagic_advantage: "[command_modifier_i|E][advantage|E] in Archipelagos" #NT!
+ archipelagic_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Archipelagos" #NT!
+ archipelagic_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Archipelagos" #NT!
+ archipelagic_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Archipelagos" #NT!
+ archipelagic_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Archipelagos" #NT!
+ archipelagic_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Archipelagos" #NT!
+ archipelagic_construction_prestige_cost: "$archipelagic_construction_gold_cost$" #NT!
+ archipelagic_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Archipelagos ([terrain|E])" #NT!
+ archipelagic_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Archipelagos" #NT!
+ archipelagic_holding_construction_prestige_cost: "$archipelagic_holding_construction_gold_cost$" #NT!
+ archipelagic_tax_mult: "$MOD_TAX_MULT$ in Archipelagos" #NT!
+ archipelagic_levy_size: "$MOD_LEVY_SIZE$ in Archipelagos" #NT!
+ archipelagic_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Archipelagos" #NT!
+ archipelagic_travel_danger: "[GetTerrain( 'archipelagic' ).GetName] [travel_danger|E]" #NT!
+  
+  # Combat Localization # 
+ combat_marcher_farmlands: "Defending in Anti-Magic Farmlands" #NT!
+ combat_marcher_forest: "Защита в лесу [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]"
+ combat_marcher_hills: "Оборона на холмах [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]"
+ combat_marcher_mountains: "Defending in Anti-Magic Mountains" #NT!
+ combat_antimagic_terrain: "Defending in Anti-Magic Terrain" #NT!
+ combat_marcher_plains: "Defending in Anti-Magic Plains" #NT!
+ combat_marcher_floodplains: "Defending in Anti-Magic Floodplains" #NT!
+ combat_marcher_wetlands: "Оборона в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Болотных угодьях"
+ combat_mayik_caverns: "Defending in Subterranean Caverns" #NT!
+ combat_mayik_chamber: "Defending in Subterranean Chambers" #NT!
+ combat_mayik_corridors: "Defending in Subterranean Corridors" #NT!
+ combat_mayik_tunnels: "Defending in Subterranean Tunnels" #NT!
+ combat_redlands_chasms: "Defending in Redland Chasms" #NT!
+ combat_redlands_drylands: "Defending in Redland Drylands" #NT!
+ combat_redlands_desert: "Defending in Redland Desert" #NT!
+ combat_redlands_mountains: "Defeending in Redland Mountains" #NT!
+ combat_archipelagic: "Defending in Archipelagos" #NT!

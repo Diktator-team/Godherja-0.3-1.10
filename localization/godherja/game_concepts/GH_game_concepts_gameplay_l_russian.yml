@@ -1,16 +1,42 @@
 ﻿l_russian:
   
- game_concept_county_capital_possessive: "Столица округа" 
+ game_concept_county_capital_possessive: "Столица округа"
   
  game_concept_uncolonized_wasteland: "Пустошь"
- game_concept_uncolonized_wasteland_no_waste: "Неколонизированный" 
- game_concept_uncolonized_wastelands: "Пустоши" 
- game_concept_uncolonized_wasteland_desc: "$game_concept_wastelands$ — это [Concept('holding_type','территория')|E], которой не владеет ни один персонаж из-за того, что регион лишен либо жизни, либо организованного управления. Большинство соседних [Concept('rulers','правителей')|E] могут [Concept('colonize','колонизировать')|E] [Concept('wasteland','пустоши')|E], выбрав [Concept('barony','баронство')|E] и нажав кнопку «Коолонизировать». Прибрежные правители также могут колонизировать любую прибрежную пустошь в пределах их [Concept('diplomatic_range','дипломатического радиуса')|E], если они владеют зданием из линейки #V $building_type_common_tradeport_01$#!."
+ game_concept_uncolonized_wasteland_no_waste: "Неколонизированный"
+ game_concept_uncolonized_wastelands: "Пустоши"
+ game_concept_uncolonized_wasteland_desc: $game_concept_wastelands$ — это [Concept('holding_type','территория')|E], которыми не управляет ни один персонаж либо из-за того, что регион лишен жизни, либо из-за организованного управления. Большинство соседних [Concept('rulers','правителей')|E] могут [Concept('colonize','колонизировать')|E] $game_concept_wastelands$, выбрав [Concept('barony','баронство')|E] и нажав кнопку $game_concept_colonize$. Прибрежные правители также могут $game_concept_colonize$ любого прибрежного $game_concept_wasteland$ в пределах их [Concept('diplomatic_range','дипломатического радиуса')|E], если они владеют [holding_type|E]0 в линии [holding_type|E]1 [holding_type|E]2[holding_type|E]3."
   
- game_concept_colonization: "Колонизация" 
- game_concept_colonize: "Колонизировать" 
- game_concept_colonized: "Колонизированный" 
- game_concept_colonization_desc: "Если [Concept('ruler','правитель')|E] желает присоединить [Concept('uncolonized_wasteland','неколонизированную пустошь')|E] к своему [Concept('realm','государству')|E], он должен сначала колонизировать её. $game_concept_colonization$ требует больших вложений [gold_i][Concept('gold','золота')|E], которые увеличиваются по мере уменьшения объемов припасов столицы графства-пустоши.\n\nПосле нажатия соответстующей кнопки появится шкала степени освоения пустоши. Как только эта шкала заполнится, колонизатор получит целевое графство."
+ game_concept_colonization: "Колонизация"
+ game_concept_colonize: "Колонизировать"
+ game_concept_colonized: "Колонизированный"
+ game_concept_colonizing: "Колонизирующий"
+ game_concept_colonization_desc: "Если [Concept('ruler','правитель')|E] желает добавить [Concept('uncolonized_wasteland','неколонизированную пустошь')|E] к своему [Concept('realm','государству')|E], он должен сначала добавить $game_concept_colonize$. $game_concept_colonization$ требует больших вложений в размере [gold_i][Concept('gold','золота')|E], которые увеличиваются по мере уменьшения $game_concept_wasteland$ [county_capital_possessive|E] [supply_limit|E].\n\nПосле этого появится  [Concept('uncolonized_wasteland','неколонизированная пустошь')|E]0. Как только [uncolonized_wasteland|E]1 достигнет максимума, Колонизатор получит $game_concept_wasteland$ [Concept('uncolonized_wasteland','неколонизированная пустошь')|E]3."
   
  game_concept_colonization_progress: "Прогресс колонизации"
- game_concept_colonization_progress_desc: "[Concept('uncolonized_wasteland','Неколонизированная пустошь')|E] может стать [Concept('colonized','колонизированной')|E] только после того, как шкала заполнится на 100 из 100. Прогресс колонизации, получаемый каждый месяц, рассчитывается на основе уровня навыка управления колонизатора, а также различных событий."
+ game_concept_colonization_progress_desc: "[Concept('uncolonized_wasteland','Неколонизированная пустошь')|E] может стать [Concept('colonized','колонизированной')|E] только после того, как его $game_concept_colonization_progress$ достигнет #V. 100%#!. $game_concept_colonization_progress$ получается каждый месяц на основе Колонизации [character_possessive|E] [Concept('stewardship','управления')|E], а также различных событий."
+  
+ game_concept_habitability: "Habitability" #NT!
+ game_concept_habitability_desc: "Antediluvian forests, scorching deserts, and magically blasted [uncolonized_wastelands|E]; Habitability represents how suitable a particular region is for sustained human habitation. It is affected primarily by the type of [terrain|E] in the [county_capital|E], [ambient_magic|E], various [modifiers|E], and whether the [county|E] is coastal.\n\nCharacters can only [colonize|E] Counties that are above the [habitability_threshold|E] of their [culture|E]." #NT!
+  
+ game_concept_habitability_threshold: "Habitability Threshold" #NT!
+ game_concept_habitability_threshold_desc: "Habitability Threshold represents the minimum possible level of [county|E] [habitability|E] a particular [culture|E] can tolerate in order to [colonize|E] the County. It can be decreased through the adoption of various [terrain|E]-adapting [Concept('traditions','Cultural Traditions')|E], and the discovery of certain [innovations|E]." #NT!
+  
+ game_concept_colony_holding: "Colony Holding" #NT!
+ game_concept_colony: "Colony" #NT!
+ game_concept_colonies: "Colonies" #NT!
+ game_concept_colony_holdings: "Colony Holdings" #NT!
+ game_concept_colony_holding_desc: "Colonies are a [holding_type|E] that is unique to [counties|E] undergoing [colonization|E]. They do not produce any [taxes|E] and [levies|E], but turn into regular [castle|E] [holdings|E] once colonization is complete." #NT!
+  
+ game_concept_ruin_holding: "Ruin Holding" #NT!
+ game_concept_ruin: "Ruin" #NT!
+ game_concept_ruins: "Ruins" #NT!
+ game_concept_ruin_holdings: "Ruins Holdings" #NT!
+ game_concept_ruin_holding_desc: "Ruins are a special [holding_type|E] that represents derelict unclaimed structures in a particular [county|E]. Ruins do not provide any [taxes|E] or [levies|E], but can be settled at a reduced cost compared to normal [holding|E] Construction." #NT!
+  
+ #game_concept_opening_events: "Opening Events" #NT!
+ #game_concept_opening_event: "Opening Event" #NT!
+ #game_concept_opening_events_desc: "[opening_events|E] are introductory events blah blah blah fuck it im cutting this one who cares" #NT!
+  
+ game_concept_story_content: "Story Content" #NT!
+ game_concept_story_content_desc: "Many Characters in Godherja have unique content ranging from flavor events to entirely custom mechanics and paths.\n\nLike the vanilla game, Godherja is designed around being a sandbox and Story Content is supplementary to the rest of a Character's content and is thus not mandatory for a 'proper' Godherja experience." #NT!

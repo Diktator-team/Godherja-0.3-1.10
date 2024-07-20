@@ -1,38 +1,17 @@
-l_russian:
- interaction_category_magic: "Магия"  
+﻿l_russian:
+ gh_duelist_faith_tt: "[recipient.GetHerHis|U] [faith|E] encourages [single_combat_duel_plural|E]: $VALUE|=+0$" #NT!
+ gh_bloodlusted_faith_tt: "[recipient.GetHerHis|U] [faith|E] strongly encourages [single_combat_duel_plural|E]: $VALUE|=+0$" #NT!
   
- gh_tribal_settlement_interaction: "Поощрять племенные поселения"  
- gh_tribal_settlement_interaction_desc: "Пригласите членов вашего племени поселиться в этом регионе, что значительно облегчит религиозное и культурное преобразование."  
- cultural_acceptance_loss_tribal_settlement: "Первоначальные поселенцы этих земель были вытеснены вашим племенем."  
+ IS_ALLOWED_TO_IMPRISON_ANY_CRIMINAL_DESC: "#weak As [Select_CString( imprisoner.IsLocalPlayer, 'I', imprisoner.GetShortUIName )] [Select_CString( imprisoner.IsLocalPlayer, 'am', 'is' )] able to punish criminals however [Select_CString( imprisoner.IsLocalPlayer, 'I', 'they' )] wish, no one will think [Select_CString( imprisoner.IsLocalPlayer, 'me', 'them' )] a [tyrant|E]#!" #NT!
+ IS_ALLOWED_TO_EXECUTE_ANY_CRIMINAL_DESC: "#weak As you are able to punish criminals however you wish, none will view you as a [tyrant|E]#!" #NT!
+ IS_ALLOWED_TO_REVOKE_VASSAL_ANY_CRIMINAL_DESC: "#weak As you are able to punish criminals however you wish, none will view you as a [tyrant|E]#!" #NT!
+ IS_ALLOWED_TO_REVOKE_TITLE_ANY_CRIMINAL_DESC: "#weak As [Select_CString( recipient.IsLocalPlayer, 'I', recipient.GetShortUIName )] [Select_CString( recipient.IsLocalPlayer, 'am', 'is' )] able to punish criminals however [Select_CString( recipient.IsLocalPlayer, 'I', 'they' )] wish, no one will think [Select_CString( recipient.IsLocalPlayer, 'me', 'them' )] a [tyrant|E]#!" #NT!
+ EXECUTION_TOWER: "Tower Exposure" #NT!
+ execution_tower_tt: "Gains the [trait|E] [GetTrait('gh_magicsickness_5').GetName( GetNullCharacter )]" #NT!
   
- challenge_liege: "Бросьте вызов лидерству"  
- challenge_liege_interaction_desc: "Бросьте вызов пару на [recipient.GetFirstNameNoTooltip] в [Concept('trial_by_combat,'испытание боем')|E] насмерть"  
- CHALLENGE_LIEGE_TEXT: "[recipient.Custom('InsultNoun')|U]! Вы не достойны [recipient.GetPrimaryTitle.GetName]. Встретимся со мной в бою, и мы увидим, кто достоин править!"  
-  
- gh_purge_county_interaction: "Очистка графства"  
- gh_purge_county_interaction_desc: "Начать неизбирательную резню местного населения."  
- gh_purge_county_interaction_result: "Вы проводите истребления население округа"  
- gh_purge_county_interaction_result_1: "Вы сжигаете и грабите землю"  
- gh_purge_county_interaction_result_2: "Вы разоряете сельскую местность, уничтожая целые деревни"  
- gh_purge_county_interaction_result_3: "Вы превращаете целые города в пепел и руины"  
- gh_purge_county_interaction_result_4: "Вы проводите истребления население округа"  
- gh_purge_county_interaction_result_5: "Вы полностью заменяете первоначальных жителей"  
- gh_purge_county_interaction_result_6: "Вы не заменяете коренных жителей"  
- cultural_acceptance_loss_purge: "[target.GetName] был очищен правителем культуры [actor.GetCulture.GetName]"  
-  
- dehand_interaction: "Деханд"  
- dehand_interaction_desc: "Сделать [recipient.GetShortUINameNoTooltip] [GetTrait('gh_dehanded').GetName( GetPlayer )]"  
-  
- add_to_magic_list_interaction: "Добавить к целям [Concept('magic','магии')|E]"  
- add_to_magic_list_desc: "Добавьте [recipient.GetShortUINameNoTooltip] в свою книгу заклинаний в качестве потенциальной цели."  
-  
- remove_from_magic_list_interaction: "Удалить из целей [Concept('magic','магии')|E]"  
- remove_from_magic_list_desc: "Удалить [recipient.GetShortUINameNoTooltip] из списка потенциальных целей в моей книге заклинаний."  
-
- clear_magic_list_interaction: "Удалить [Concept('magic','магиические')|E] цели"
- clear_magic_list_desc: "Очищает ваш список потенциальных целей в моей книге заклинаний"
-
- amsari_child_kill_interaction: "Тихо лишить ребенка наследства"  
- amsari_child_kill_interaction_desc: "У меня слишком много детей.... стабильность Империи может быть поставлена под сомнение этими возможными претендентами! С этим нужно что-то делать..."
-  
- happy_heir: "Родитель поддерживает наше требование"  
+ sear_interaction: "Sear" #NT!
+ sear_interaction_desc: "[banish|E] [recipient.GetShortUINameNoTooltip] as an [Concept('anohelis_outcasts','Anohêla')|E]" #NT!
+ has_already_been_seared: "[recipient.GetShortUINameNoTooltip] has already been seared" #NT!
+ culture_does_not_use_steppe_queen_mechanics: "Hair is not a status symbol for [recipient.GetCulture.GetCollectiveNoun]" #NT!
+ searing_claim_loss_tooltip: "Loses all [title|E] [claims|E]" #NT!
+ clan_unity_searing.desc: "seared [unity_target.GetName]" #NT!

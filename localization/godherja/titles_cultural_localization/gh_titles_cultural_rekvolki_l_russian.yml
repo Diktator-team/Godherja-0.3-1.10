@@ -465,7 +465,7 @@
  cn_triebl: "Трибл"
  cn_krzemusch: "Кшемуш"
  cn_zitenice: "Зитенице"
- cn_wojitz: "Войцех"
+ cn_wojitz: "Wojitz"
  cn_radimer: "Радимер"
  cn_klikov: "Кликов"
  cn_wlkawa: "Влкава"
@@ -597,7 +597,7 @@
  cn_kleppel: "Клеппель"
  cn_horomyslice: "Горомысрез"
  cn_schmieding: "Шмидинг"
- cn_deutschbundesort: "Дойчбундезорт"
+ cn_deutschbundesort: "Deutschbundesort"
  cn_wlastiboritz: "Властибориц"
  cn_kahudowa: "Kahudowa"
  cn_zlukov: "Злуков"
@@ -669,7 +669,7 @@
  cn_svarcava: "Сварцава"
  cn_jersice: "Джерси"
  cn_kamaik: "Камайк"
- cn_korkusova_hut: "Коркусова Хат"
+ cn_korkusova_hut: "Коркусова Хата"
  cn_myslocovice: "Мышлочовице"
  cn_olbramovice: "Ольбрамовице"
  cn_vernerov: "Вернеров"
@@ -715,7 +715,7 @@
  cn_kacova_lhota: "Качова Лгота"
  cn_gross_tschochau: "Гросс Чохау"
  cn_phillippsdorf: "Филлиппсдорф"
- cn_zebin: "Зебин"
+ cn_zebin: "Zebin"
  cn_rouchowan: "Рушован"
  cn_klouzovice: "Клоузовице"
  cn_holicky: "Холики"
@@ -1468,7 +1468,7 @@
  cn_kochov: "Кохов"
  cn_lenzhof: "Ленцхоф"
  cn_tachov: "Тахов"
- cn_sec: "Сек"
+ cn_sec: "сек."
  cn_philippsberg: "Филиппсберг"
  cn_herbertov: "Гербертов"
  cn_obce: "Обце"
@@ -1648,7 +1648,7 @@
  cn_hultschen: "Хультшен"
  cn_mirotice: "Миротице"
  cn_hareth: "Харет"
- cn_mukowa: "Мукова"
+ cn_mukowa: "Mukowa"
  cn_neustift: "Нойштифт"
  cn_svor: "Свор"
  cn_brozan: "Брозан"
@@ -1691,7 +1691,7 @@
  cn_svatonice: "Сватонице"
  cn_bouschitz: "Бушиц"
  cn_piska: "Писка"
- cn_semily: "Семили"
+ cn_semily: "полумилый"
  cn_dobrne: "Добрне"
  cn_srby: "Срби"
  cn_bundol: "Бундол"
@@ -2322,8 +2322,298 @@
  cn_rothwasser: "Ротвассер"
  cn_spittengruen: "Шпиттенгрюен"
   
- cn_listmer: "Листмер"
- cn_medinvod: "Мединвод"
+  
+  ### HANDMADE BUT UNSORTE STUFF BELOW 
+  
+ cn_rechovka: "Rechovka" #NT!
+ cn_reszovce: "Reszovce" #NT!
+ cn_lobedice: "Lobedice" #NT!
+ cn_lobediC_i: "Lobediči" #NT!
+ cn_lobedis: "Lobedis" #NT!
+ cn_vinahiz: "Vinahiz" #NT!
+ cn_vinahyz: "Vinahyz" #NT!
+ cn_vinais: "Vinais" #NT!
+  
+ cn_netrakalic: "Netrakalic" #NT!
+ cn_nitrikalic: "Nitrikalic" #NT!
+ cn_netrakalis: "Netrakalis" #NT!
+ cn_kelenevetj: "Kelenevetj" #NT!
+ cn_kelnovitj: "Kelnovitj" #NT!
+ cn_keleneveti: "Keleneveti" #NT!
+ cn_lovmistak: "Lovmistak" #NT!
+ cn_lovmiS_ce: "Lovmišce" #NT!
+ cn_lovmistas: "Lovmistas" #NT!
+ cn_rahaprotj: "Rahaprotj" #NT!
+ cn_rihaprod: "Rihaprod" #NT!
+ cn_raeproti: "Raeproti" #NT!
+ cn_krongstat: "Krongstat" #NT!
+ cn_kronstatj: "Kronstatj" #NT!
+ cn_kronstatis: "Kronstatis" #NT!
+ cn_vulkevech: "Vulkevech" #NT!
+ cn_vukovih: "Vukovih" #NT!
+ cn_olkovis: "Olkovis" #NT!
+ cn_ronasten: "Ronasten" #NT!
+ cn_ronastjan: "Ronastjan" #NT!
+ cn_drenzbag: "Drenzbag" #NT!
+ cn_drezbog: "Drezbog" #NT!
+ cn_leska: "Leska" #NT!
+ cn_leS_ce: "Lešce" #NT!
+ cn_kelenbag: "Kelenbag" #NT!
+ cn_kelnbog: "Kelnbog" #NT!
+ cn_nihablem: "Nihablem" #NT!
+ cn_niC_abljem: "Ničabljem" #NT!
+ cn_kannicen: "Kannicen" #NT!
+ cn_kanniC_e: "Kanniče" #NT!
+ cn_ivakolis: "Ivakolis" #NT!
+ cn_rephult: "Rephult" #NT!
+ cn_rephluc: "Rephluc" #NT!
+ cn_stenovka: "Stenovka" #NT!
+ cn_stenovce: "Stenovce" #NT!
+ cn_stenovis: "Stenovis" #NT!
+ cn_lovikmerk: "Lovikmerk" #NT!
+ cn_lovkemrek: "Lovkemrek" #NT!
+ cn_aulbdal: "Aulbdal" #NT!
+ cn_albdol: "Albdol" #NT!
+ cn_kradrev: "Kradrev" #NT!
+ cn_kredrav: "Kredrav" #NT!
+ cn_kradrevis: "Kradrevis" #NT!
+ cn_zarignija: "Zarignija" #NT!
+ cn_zragnije: "Zragnije" #NT!
+ cn_sarignia: "Sarignia" #NT!
+ cn_zarigusta: "Zarigusta" #NT!
+ cn_zragustj: "Zragustj" #NT!
+ cn_sarigusta: "Sarigusta" #NT!
+ cn_kaubrun: "Kaubrun" #NT!
+ cn_kavbrnj: "Kavbrnj" #NT!
+ cn_vydrabag: "Vydrabag" #NT!
+ cn_vydrabog: "Vydrabog" #NT!
+ cn_kremekov: "Kremekov" #NT!
+ cn_krzemkiev: "Krzemkiev" #NT!
+ cn_kremkaos: "Kremkaos" #NT!
+ cn_nadusta: "Nadusta" #NT!
+ cn_naduS_ce: "Nadušce" #NT!
+ cn_lugvulkev: "Lugvulkev" #NT!
+ cn_lugvukov: "Lugvukov" #NT!
+ cn_luvkovis: "Luvkovis" #NT!
+ cn_kulodol: "Kulodol" #NT!
+ cn_klodol: "Klodol" #NT!
+ cn_kulodolos: "Kulodolos" #NT!
+ cn_ojravirsev: "Ojravirsev" #NT!
+ cn_ojravrszov: "Ojravrsov" #NT!
+ cn_desovki: "Desovki" #NT!
+ cn_dzesovci: "Dzesovci" #NT!
+ cn_cervenavalt: "Cervenavalt" #NT!
+ cn_C_ernavlat: "Černavlat" #NT!
+ cn_vorajevech: "Vorajevech" #NT!
+ cn_vorajovih: "Vorajovih" #NT!
+ cn_kuloborg: "Kuloborg" #NT!
+ cn_klobrog: "Klobrog" #NT!
+ cn_klotborg: "Klotborg" #NT!
+ cn_klocbrog: "Klocbrog" #NT!
+ cn_lokusta: "Lokusta" #NT!
+ cn_lokustj: "Lokustj" #NT!
+ cn_jablebag: "Jablebag" #NT!
+ cn_jabcebog: "Jabcebog" #NT!
+ cn_valt_vezlev: "Valt Vezlev" #NT!
+ cn_vlat_valS_ov: "Vlat Valšov" #NT!
+ cn_valavos: "Valavos" #NT!
+ cn_velostat: "Velostat" #NT!
+ cn_velS_tatj: "Velštatj" #NT!
+ cn_valostatis: "Valostatis" #NT!
+ cn_torg_urhev: "Torg Urhev" #NT!
+ cn_torg_urjov: "Torg Urjov" #NT!
+ cn_kosprodol: "Kosprodol" #NT!
+ cn_koprodol: "Korpodol" #NT!
+ cn_kosprodolos: "Kosprodolos" #NT!
+ cn_rozjabag: "Rozjabag" #NT!
+ cn_roZ_abog: "Rožabog" #NT!
+ cn_dvur_prohenev: "Dvur Prohenev" #NT!
+ cn_dvor_prahjov: "Dvor Prahjov" #NT!
+ cn_migragord: "Migragord" #NT!
+ cn_migrahrad: "Migrahrad" #NT!
+ cn_sirnaprotj: "Sirnaprotj" #NT!
+ cn_S_ernaprod: "Šernaprod" #NT!
+ cn_sirnaproti: "Sirnaproti" #NT!
+ cn_novhiz: "Novhiz" #NT!
+ cn_novihyz: "Novihyz" #NT!
+ cn_hrasajovka: "Hrasajovka" #NT!
+ cn_hrajovce: "Hrajovce" #NT!
+ cn_rasaiovis: "Rasaiovis" #NT!
+ cn_jezbag: "Jezbag" #NT!
+ cn_jazbog: "Jazbog" #NT!
+ cn_asnalesa: "Asnalesa" #NT!
+ cn_aS_aleS_a: "Ašaleša" #NT!
+ cn_zimavalt: "Zimavalt" #NT!
+ cn_zymavlat: "Zymavlat" #NT!
+ cn_kenstorg: "Kenstorg" #NT!
+ cn_C_enatorg: "Čenatorg" #NT!
+ cn_stenamost: "Stenamost" #NT!
+ cn_stjanamost: "Stjanamost" #NT!
+ cn_stenamos: "Stenamos" #NT!
+ cn_vichraterm: "Vichraterm" #NT!
+ cn_vichratrem: "Vichratrem" #NT!
+ cn_hrasaborg: "Hrasaborg" #NT!
+ cn_hrajabrog: "Hrajabrog" #NT!
+ cn_raiabourgos: "Raiabourgos" #NT!
+ cn_kelengord: "Kelengord" #NT!
+ cn_kelnahrad: "Kelnahrad" #NT!
+ cn_keleradis: "Keleradis" #NT!
+ cn_soltorg: "Soltorg" #NT!
+ cn_sultorg: "Sultorg" #NT!
+  
+   ######################## 
+   # e_etepezea           # 
+   ######################## 
+        ##e_etepezea 
+ cn_maskiv: "Maskiv" #NT!
+         ## k_palitake 
+           # Baronies 
+           # Counties 
+           # Duchies 
+ cn_vozvystroj: "Vožvýstroj" #NT!
+         ## k_assocaea 
+ cn_drakvad: "Drakvad" #NT!
+  
+   ############# 
+   # e_aironoi # 
+   ############# 
+       ## k_hyrea 
+ cn_sernzem: "Šernzem" #NT!
+       ## k_kalliados 
+ cn_priaspolj: "Priaspolj" #NT!
+       ## k_kteumaxa 
+ cn_osledreh: "Osledreh" #NT!
+  
+       ## e_asiupoliox 
+ cn_hranicina: "Hranicina" #NT!
+   ############### 
+   # e_opakhasia # 
+   ############### 
+       ## k_eve 
+ cn_podarek: "Podarek" #NT!
+         ## d_tegina 
+ cn_soncerig: "Soncerig" #NT!
+         ## d_karthos_isles1 
+ cn_mramostroj: "Mramostroj" #NT!
+       ## k_suncourt 
+ cn_limanovo: "Limanovo" #NT!
+         ## d_vathopus 
+ cn_arl_noclas: "Arl Nocl'as" #NT!
+         ## d_sanctum 
+ cn_khrom: "Khrom" #NT!
+ cn_chram: "Chram" #NT!
+ cn_kormos: "Kormos" #NT!
+       ## e_opakhasia 
+ cn_opakasija: "Opakasija" #NT!
+  
+     ######################### 
+ 	# e_the_reach # 
+ 	######################### 
+  
+         ## k_everrain ## 
+             # Baronies 
+             # Counties 
+             # Duchies 
+         ## k_faegift ## 
+             # Baronies 
+             # Counties 
+             # Duchies 
+         ## k_aldergreen ## 
+         ## k_heartwood ## 
+             # Baronies 
+ cn_mostirhrac: "Mostirhrac" #NT!
+ cn_lugoblak: "Lugoblak" #NT!
+ cn_sivern_u_mostire: "Sivern u Mostire" #NT!
+ cn_preprot: "Preprot" #NT!
+ cn_zlatech_odih: "Zlatech Odih" #NT!
+ cn_hrasech_mlyn: "Hrasech Mlyn" #NT!
+ cn_hrojech_mlyn: "Hrojech Mlyn" #NT!
+ cn_klebnikec: "Klebnikec" #NT!
+ cn_sjonina: "Sjonina" #NT!
+ cn_hramsud: "Hramsud" #NT!
+ cn_jablemost: "Jablemost" #NT!
+ cn_zlatovod: "Zlatovod" #NT!
+ cn_cirveni_votar: "Cirveni Votar" #NT!
+ cn_C_erveni_ovoC_ar: "Červeni Ovoćar" #NT!
+ cn_karavogi: "Karavogi" #NT!
+ cn_C_areno_pole: "Чарено Поле"
+ cn_svistkovka: "Svistkovka" #NT!
+ cn_S_visjovce: "Švisjovce" #NT!
+ cn_vidminsten: "Vidminsten" #NT!
+ cn_kupinZ_bor: "Kupinžbor" #NT!
+ cn_svotlokus: "Svotlokus" #NT!
+ cn_stineZ_bor: "Stinežbor" #NT!
+ cn_molehram: "Molehram" #NT!
+             # Counties 
+ cn_mostir: "Mostir" #NT!
+ cn_senoreh: "Senoreh" #NT!
+ cn_cedrastoda: "Cedrastoda" #NT!
+ cn_cedraS_toda: "Cedraštoda" #NT!
+ cn_svotsad: "Svotsad" #NT!
+ cn_aulbevi_vodopadi: "Aulbevi Vodopadi" #NT!
+ cn_kirolesja: "Kirolesja" #NT!
+ cn_kiroleS_a: "Kiroleša" #NT!
  cn_bukovec: "Буковец"
  cn_leS_ihrob: "Лешихроб"
- cn_C_areno_pole: "Чарено Поле"
+ cn_tila: "Tila" #NT!
+ cn_vihrojmost: "Vihrojmost" #NT!
+ cn_vassalia: "Vassalia" #NT!
+ cn_pomorprotj: "Pomorprotj" #NT!
+ cn_pomrprod: "Pomrprod" #NT!
+ cn_pomorproti: "Pomorproti" #NT!
+             # Duchies 
+ cn_listmer: "Листмер"
+ cn_medorek: "Medorek" #NT!
+ cn_sirnozemka: "Sirnozemka" #NT!
+ cn_S_ernozemka: "Šernozemka" #NT!
+         ## k_skycrown ## 
+  
+             # Duchies 
+ cn_jivakol: "Jivakol" #NT!
+ cn_ivakol: "Ivakol" #NT!
+ cn_ivakoli: "Ivakoli" #NT!
+ cn_grani: "Grani" #NT!
+ cn_hranj: "Hranj" #NT!
+  
+     ######################## 
+     # e_cornucopia # 
+     ######################## 
+  
+         ## k_redwald ## 
+             # Duchies 
+ cn_pomorbalka: "Pomorbalka" #NT!
+ cn_pomrbalce: "Pomrbalce" #NT!
+ cn_pomobalas: "Pomobalas" #NT!
+         ## k_cornucopia ## 
+             # Baronies 
+ cn_termopolj: "Termopolj" #NT!
+ cn_tjermopol: "Tjermopol" #NT!
+ cn_termopoli: "Termopoli" #NT!
+ cn_avonsborg: "Avonsborg" #NT!
+ cn_avonsbrog: "Avonsbrog" #NT!
+ cn_vislok: "Vislok" #NT!
+ cn_vSeloka: "Všeloka" #NT!
+ cn_vilos: "Vilos" #NT!
+             # Counties 
+ cn_kopeli: "Kopeli" #NT!
+ cn_kapjeli: "Kapjeli" #NT!
+ cn_avonsklar: "Avonsklar" #NT!
+ cn_avonS_lar: "Avonšlar" #NT!
+ cn_vejsreka: "Vejsreka" #NT!
+ cn_vS_ereka: "Všereka" #NT!
+ cn_veisreka: "Veisreka" #NT!
+ cn_vilnatorg: "Vilnatorg" #NT!
+ cn_vlnatorg: "Vlnatorg" #NT!
+ cn_pesikusta: "Pesikusta" #NT!
+ cn_piskustj: "Piskustj" #NT!
+ cn_pisusta: "Pisusta" #NT!
+ cn_drezlanos: "Drezlanos" #NT!
+ cn_troljinos: "Troljinos" #NT!
+ cn_drelanos: "Drelanos" #NT!
+  
+     ########################### 
+     # e_malcois # 
+     ########################### 
+  
+         ##e_malcois## 
+ cn_hramzujo: "Hramzujo" #NT!

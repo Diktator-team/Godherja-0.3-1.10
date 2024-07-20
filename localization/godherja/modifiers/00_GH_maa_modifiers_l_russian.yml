@@ -1,140 +1,594 @@
 ﻿l_russian:
- constructs_damage_add: "[constructs|E] [damage|E]"  #Машинный перевод 28.10.23!
- constructs_damage_mult: "$constructs_damage_add$"  #Машинный перевод 28.10.23!
- constructs_maintenance_mult: "[constructs|E] Техническое обслуживание"  #Машинный перевод 28.10.23!
- constructs_max_size_add: "Максимальный размер [constructs|E] [regiments|E]"  #Машинный перевод 28.10.23!
- constructs_pursuit_add: "[constructs|E] [pursuit|E]"  #Машинный перевод 28.10.23!
- constructs_pursuit_mult: "$constructs_pursuit_add$"  #Машинный перевод 28.10.23!
- constructs_recruitment_cost_mult: "[constructs|E] Стоимость найма"  #Машинный перевод 28.10.23!
- constructs_screen_add: "[constructs|E] [screen|E]"  #Машинный перевод 28.10.23!
- constructs_screen_mult: "$constructs_screen_add$"  #Машинный перевод 28.10.23!
- constructs_siege_value_add: "[constructs|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
- constructs_siege_value_mult: "[constructs|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
- constructs_toughness_add: "[constructs|E] [toughness|E]"  #Машинный перевод 28.10.23!
- constructs_toughness_mult: "$constructs_toughness_add$"  #Машинный перевод 28.10.23!
- flying_damage_add: "[flying|E] [damage|E]"  #Машинный перевод 28.10.23!
- flying_damage_mult: "$flying_damage_add$"  #Машинный перевод 28.10.23!
- flying_maintenance_mult: "[flying|E] Техническое обслуживание"  #Машинный перевод 28.10.23!
- flying_max_size_add: "Максимальный размер [flying|E] [regiments|E]"  #Машинный перевод 28.10.23!
- flying_pursuit_add: "[flying|E] [pursuit|E]"  #Машинный перевод 28.10.23!
- flying_pursuit_mult: "$flying_pursuit_add$"  #Машинный перевод 28.10.23!
- flying_recruitment_cost_mult: "[flying|E] Стоимость найма"  #Машинный перевод 28.10.23!
- flying_screen_add: "[flying|E] [screen|E]"  #Машинный перевод 28.10.23!
- flying_screen_mult: "$flying_screen_add$"  #Машинный перевод 28.10.23!
- flying_siege_value_add: "[flying|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
- flying_siege_value_mult: "[flying|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
- flying_toughness_add: "[flying|E] [toughness|E]"  #Машинный перевод 28.10.23!
- flying_toughness_mult: "$flying_toughness_add$"  #Машинный перевод 28.10.23!
- magi_damage_add: "[magi|E] [damage|E]"  #Машинный перевод 28.10.23!
- magi_damage_mult: "$magi_damage_add$"  #Машинный перевод 28.10.23!
- magi_maintenance_mult: "[magi|E] Техническое обслуживание"  #Машинный перевод 28.10.23!
- magi_max_size_add: "Максимальный размер [magi|E] [regiments|E]"  #Машинный перевод 28.10.23!
- magi_pursuit_add: "[magi|E] [pursuit|E]"  #Машинный перевод 28.10.23!
- magi_pursuit_mult: "$magi_pursuit_add$"  #Машинный перевод 28.10.23!
- magi_recruitment_cost_mult: "[magi|E] Стоимость найма"  #Машинный перевод 28.10.23!
- magi_screen_add: "[magi|E] [screen|E]"  #Машинный перевод 28.10.23!
- magi_screen_mult: "$magi_screen_add$"  #Машинный перевод 28.10.23!
- magi_siege_value_add: "[magi|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
- magi_siege_value_mult: "[magi|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
- magi_toughness_add: "[magi|E] [toughness|E]"  #Машинный перевод 28.10.23!
- magi_toughness_mult: "$magi_toughness_add$"  #Машинный перевод 28.10.23!
- magical_damage_add: "[magical|E] [damage|E]"  #Машинный перевод 28.10.23!
- magical_damage_mult: "$magical_damage_add$"  #Машинный перевод 28.10.23!
- magical_maintenance_mult: "[magical|E] Техническое обслуживание"  #Машинный перевод 28.10.23!
- magical_max_size_add: "Максимальный размер [magical|E] [regiments|E]"  #Машинный перевод 28.10.23!
- magical_pursuit_add: "[magical|E] [pursuit|E]"  #Машинный перевод 28.10.23!
- magical_pursuit_mult: "$magical_pursuit_add$"  #Машинный перевод 28.10.23!
- magical_recruitment_cost_mult: "[magical|E] Стоимость найма"  #Машинный перевод 28.10.23!
- magical_screen_add: "[magical|E] [screen|E]"  #Машинный перевод 28.10.23!
- magical_screen_mult: "$magical_screen_add$"  #Машинный перевод 28.10.23!
- magical_siege_value_add: "[magical|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
- magical_siege_value_mult: "[magical|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
- magical_toughness_add: "[magical|E] [toughness|E]"  #Машинный перевод 28.10.23!
- magical_toughness_mult: "$magical_toughness_add$"  #Машинный перевод 28.10.23!
- monsters_damage_add: "[monsters|E] [damage|E]"  #Машинный перевод 28.10.23!
- monsters_damage_mult: "$monsters_damage_add$"  #Машинный перевод 28.10.23!
- monsters_maintenance_mult: "[monsters|E] Техническое обслуживание"  #Машинный перевод 28.10.23!
- monsters_max_size_add: "Максимальный размер [monsters|E] [regiments|E]"  #Машинный перевод 28.10.23!
- monsters_pursuit_add: "[monsters|E] [pursuit|E]"  #Машинный перевод 28.10.23!
- monsters_pursuit_mult: "$monsters_pursuit_add$"  #Машинный перевод 28.10.23!
- monsters_recruitment_cost_mult: "[monsters|E] Стоимость найма"  #Машинный перевод 28.10.23!
- monsters_screen_add: "[monsters|E] [screen|E]"  #Машинный перевод 28.10.23!
- monsters_screen_mult: "$monsters_screen_add$"  #Машинный перевод 28.10.23!
- monsters_siege_value_add: "[monsters|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
- monsters_siege_value_mult: "[monsters|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
- monsters_toughness_add: "[monsters|E] [toughness|E]"  #Машинный перевод 28.10.23!
- monsters_toughness_mult: "$monsters_toughness_add$"  #Машинный перевод 28.10.23!
- undead_damage_add: "[gh_general_undead|E] [damage|E]"  #Машинный перевод 28.10.23!
- undead_damage_mult: "$undead_damage_add$"  #Машинный перевод 28.10.23!
- undead_maintenance_mult: "[gh_general_undead|E] Техническое обслуживание"  #Машинный перевод 28.10.23!
- undead_max_size_add: "Максимальный размер [gh_general_undead|E] [regiments|E]"  #Машинный перевод 28.10.23!
- undead_pursuit_add: "[gh_general_undead|E] [pursuit|E]"  #Машинный перевод 28.10.23!
- undead_pursuit_mult: "$undead_pursuit_add$"  #Машинный перевод 28.10.23!
- undead_recruitment_cost_mult: "[gh_general_undead|E] Стоимость найма"  #Машинный перевод 28.10.23!
- undead_screen_add: "[gh_general_undead|E] [screen|E]"  #Машинный перевод 28.10.23!
- undead_screen_mult: "$undead_screen_add$"  #Машинный перевод 28.10.23!
- undead_siege_value_add: "[gh_general_undead|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
- undead_siege_value_mult: "[gh_general_undead|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
- undead_toughness_add: "[gh_general_undead|E] [toughness|E]"  #Машинный перевод 28.10.23!
- undead_toughness_mult: "$undead_toughness_add$"  #Машинный перевод 28.10.23!
+ constructs_damage_add: "[constructs|E] [damage|E]"
+ constructs_damage_mult: "$constructs_damage_add$"
+ constructs_maintenance_mult: "[constructs|E] Техническое обслуживание"
+ constructs_max_size_add: "Максимальный размер [constructs|E] [regiments|E]"
+ constructs_pursuit_add: "[constructs|E] [pursuit|E]"
+ constructs_pursuit_mult: "$constructs_pursuit_add$"
+ constructs_recruitment_cost_mult: "[constructs|E] Стоимость найма"
+ constructs_screen_add: "[constructs|E] [screen|E]"
+ constructs_screen_mult: "$constructs_screen_add$"
+ constructs_siege_value_add: "[constructs|E] [siege_progress|E]"
+ constructs_siege_value_mult: "[constructs|E] [siege|E] Эффективность"
+ constructs_toughness_add: "[constructs|E] [toughness|E]"
+ constructs_toughness_mult: "$constructs_toughness_add$"
+ flying_damage_add: "[flying|E] [damage|E]"
+ flying_damage_mult: "$flying_damage_add$"
+ flying_maintenance_mult: "[flying|E] Техническое обслуживание"
+ flying_max_size_add: "Максимальный размер [flying|E] [regiments|E]"
+ flying_pursuit_add: "[flying|E] [pursuit|E]"
+ flying_pursuit_mult: "$flying_pursuit_add$"
+ flying_recruitment_cost_mult: "[flying|E] Стоимость найма"
+ flying_screen_add: "[flying|E] [screen|E]"
+ flying_screen_mult: "$flying_screen_add$"
+ flying_siege_value_add: "[flying|E] [siege_progress|E]"
+ flying_siege_value_mult: "[flying|E] [siege|E] Эффективность"
+ flying_toughness_add: "[flying|E] [toughness|E]"
+ flying_toughness_mult: "$flying_toughness_add$"
+ magi_damage_add: "[magi|E] [damage|E]"
+ magi_damage_mult: "$magi_damage_add$"
+ magi_maintenance_mult: "[magi|E] Техническое обслуживание"
+ magi_max_size_add: "Максимальный размер [magi|E] [regiments|E]"
+ magi_pursuit_add: "[magi|E] [pursuit|E]"
+ magi_pursuit_mult: "$magi_pursuit_add$"
+ magi_recruitment_cost_mult: "[magi|E] Стоимость найма"
+ magi_screen_add: "[magi|E] [screen|E]"
+ magi_screen_mult: "$magi_screen_add$"
+ magi_siege_value_add: "[magi|E] [siege_progress|E]"
+ magi_siege_value_mult: "[magi|E] [siege|E] Эффективность"
+ magi_toughness_add: "[magi|E] [toughness|E]"
+ magi_toughness_mult: "$magi_toughness_add$"
   
- stationed_constructs_damage_add: "[stationed|E] [constructs|E] [damage|E]"  #Машинный перевод 28.10.23!
- stationed_constructs_damage_mult: "$stationed_constructs_damage_add$"  #Машинный перевод 28.10.23!
- stationed_constructs_pursuit_add: "[stationed|E] [constructs|E] [pursuit|E]"  #Машинный перевод 28.10.23!
- stationed_constructs_pursuit_mult: "$stationed_constructs_pursuit_add$"  #Машинный перевод 28.10.23!
- stationed_constructs_screen_add: "[stationed|E] [constructs|E] [screen|E]"  #Машинный перевод 28.10.23!
- stationed_constructs_screen_mult: "$stationed_constructs_screen_add$"  #Машинный перевод 28.10.23!
- stationed_constructs_siege_value_add: "[stationed|E] [constructs|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
- stationed_constructs_siege_value_mult: "[stationed|E] [constructs|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
- stationed_constructs_toughness_add: "[stationed|E] [constructs|E] [toughness|E]"  #Машинный перевод 28.10.23!
- stationed_constructs_toughness_mult: "$stationed_constructs_toughness_add$"  #Машинный перевод 28.10.23!
- stationed_flying_damage_add: "[stationed|E] [flying|E] [damage|E]"  #Машинный перевод 28.10.23!
- stationed_flying_damage_mult: "$stationed_flying_damage_add$"  #Машинный перевод 28.10.23!
- stationed_flying_pursuit_add: "[stationed|E] [flying|E] [pursuit|E]"  #Машинный перевод 28.10.23!
- stationed_flying_pursuit_mult: "$stationed_flying_pursuit_add$"  #Машинный перевод 28.10.23!
- stationed_flying_screen_add: "[stationed|E] [flying|E] [screen|E]"  #Машинный перевод 28.10.23!
- stationed_flying_screen_mult: "$stationed_flying_screen_add$"  #Машинный перевод 28.10.23!
- stationed_flying_siege_value_add: "[stationed|E] [flying|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
- stationed_flying_siege_value_mult: "[stationed|E] [flying|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
- stationed_flying_toughness_add: "[stationed|E] [flying|E] [toughness|E]"  #Машинный перевод 28.10.23!
- stationed_flying_toughness_mult: "$stationed_flying_toughness_add$"  #Машинный перевод 28.10.23!
- stationed_magi_damage_add: "[stationed|E] [magi|E] [damage|E]"  #Машинный перевод 28.10.23!
- stationed_magi_damage_mult: "$stationed_magi_damage_add$"  #Машинный перевод 28.10.23!
- stationed_magi_pursuit_add: "[stationed|E] [magi|E] [pursuit|E]"  #Машинный перевод 28.10.23!
- stationed_magi_pursuit_mult: "$stationed_magi_pursuit_add$"  #Машинный перевод 28.10.23!
- stationed_magi_screen_add: "[stationed|E] [magi|E] [screen|E]"  #Машинный перевод 28.10.23!
- stationed_magi_screen_mult: "$stationed_magi_screen_add$"  #Машинный перевод 28.10.23!
- stationed_magi_siege_value_add: "[stationed|E] [magi|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
- stationed_magi_siege_value_mult: "[stationed|E] [magi|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
- stationed_magi_toughness_add: "[stationed|E] [magi|E] [toughness|E]"  #Машинный перевод 28.10.23!
- stationed_magi_toughness_mult: "$stationed_magi_toughness_add$"  #Машинный перевод 28.10.23!
- stationed_magical_damage_add: "[stationed|E] [magical|E] [damage|E]"  #Машинный перевод 28.10.23!
- stationed_magical_damage_mult: "$stationed_magical_damage_add$"  #Машинный перевод 28.10.23!
- stationed_magical_pursuit_add: "[stationed|E] [magical|E] [pursuit|E]"  #Машинный перевод 28.10.23!
- stationed_magical_pursuit_mult: "$stationed_magical_pursuit_add$"  #Машинный перевод 28.10.23!
- stationed_magical_screen_add: "[stationed|E] [magical|E] [screen|E]"  #Машинный перевод 28.10.23!
- stationed_magical_screen_mult: "$stationed_magical_screen_add$"  #Машинный перевод 28.10.23!
- stationed_magical_siege_value_add: "[stationed|E] [magical|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
- stationed_magical_siege_value_mult: "[stationed|E] [magical|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
- stationed_magical_toughness_add: "[stationed|E] [magical|E] [toughness|E]"  #Машинный перевод 28.10.23!
- stationed_magical_toughness_mult: "$stationed_magical_toughness_add$"  #Машинный перевод 28.10.23!
- stationed_monsters_damage_add: "[stationed|E] [monsters|E] [damage|E]"  #Машинный перевод 28.10.23!
- stationed_monsters_damage_mult: "$stationed_monsters_damage_add$"  #Машинный перевод 28.10.23!
- stationed_monsters_pursuit_add: "[stationed|E] [monsters|E] [pursuit|E]"  #Машинный перевод 28.10.23!
- stationed_monsters_pursuit_mult: "$stationed_monsters_pursuit_add$"  #Машинный перевод 28.10.23!
- stationed_monsters_screen_add: "[stationed|E] [monsters|E] [screen|E]"  #Машинный перевод 28.10.23!
- stationed_monsters_screen_mult: "$stationed_monsters_screen_add$"  #Машинный перевод 28.10.23!
- stationed_monsters_siege_value_add: "[stationed|E] [monsters|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
- stationed_monsters_siege_value_mult: "[stationed|E] [monsters|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
- stationed_monsters_toughness_add: "[stationed|E] [monsters|E] [toughness|E]"  #Машинный перевод 28.10.23!
- stationed_monsters_toughness_mult: "$stationed_monsters_toughness_add$"  #Машинный перевод 28.10.23!
- stationed_undead_damage_add: "[stationed|E] [gh_general_undead|E] [damage|E]"  #Машинный перевод 28.10.23!
- stationed_undead_damage_mult: "$stationed_undead_damage_add$"  #Машинный перевод 28.10.23!
- stationed_undead_pursuit_add: "[stationed|E] [gh_general_undead|E] [pursuit|E]"  #Машинный перевод 28.10.23!
- stationed_undead_pursuit_mult: "$stationed_undead_pursuit_add$"  #Машинный перевод 28.10.23!
- stationed_undead_screen_add: "[stationed|E] [gh_general_undead|E] [screen|E]"  #Машинный перевод 28.10.23!
- stationed_undead_screen_mult: "$stationed_undead_screen_add$"  #Машинный перевод 28.10.23!
- stationed_undead_siege_value_add: "[stationed|E] [gh_general_undead|E] [siege_progress|E]"  #Машинный перевод 28.10.23!
- stationed_undead_siege_value_mult: "[stationed|E] [gh_general_undead|E] [siege|E] Эффективность"  #Машинный перевод 28.10.23!
- stationed_undead_toughness_add: "[stationed|E] [gh_general_undead|E] [toughness|E]"  #Машинный перевод 28.10.23!
- stationed_undead_toughness_mult: "$stationed_undead_toughness_add$"  #Машинный перевод 28.10.23!
+ monsters_damage_add: "[monsters|E] [damage|E]"
+ monsters_damage_mult: "$monsters_damage_add$"
+ monsters_maintenance_mult: "[monsters|E] Техническое обслуживание"
+ monsters_max_size_add: "Максимальный размер [monsters|E] [regiments|E]"
+ monsters_pursuit_add: "[monsters|E] [pursuit|E]"
+ monsters_pursuit_mult: "$monsters_pursuit_add$"
+ monsters_recruitment_cost_mult: "[monsters|E] Стоимость найма"
+ monsters_screen_add: "[monsters|E] [screen|E]"
+ monsters_screen_mult: "$monsters_screen_add$"
+ monsters_siege_value_add: "[monsters|E] [siege_progress|E]"
+ monsters_siege_value_mult: "[monsters|E] [siege|E] Эффективность"
+ monsters_toughness_add: "[monsters|E] [toughness|E]"
+ monsters_toughness_mult: "$monsters_toughness_add$"
+ undead_damage_add: "[gh_general_undead|E] [damage|E]"
+ undead_damage_mult: "$undead_damage_add$"
+ undead_maintenance_mult: "[gh_general_undead|E] Техническое обслуживание"
+ undead_max_size_add: "Максимальный размер [gh_general_undead|E] [regiments|E]"
+ undead_pursuit_add: "[gh_general_undead|E] [pursuit|E]"
+ undead_pursuit_mult: "$undead_pursuit_add$"
+ undead_recruitment_cost_mult: "[gh_general_undead|E] Стоимость найма"
+ undead_screen_add: "[gh_general_undead|E] [screen|E]"
+ undead_screen_mult: "$undead_screen_add$"
+ undead_siege_value_add: "[gh_general_undead|E] [siege_progress|E]"
+ undead_siege_value_mult: "[gh_general_undead|E] [siege|E] Эффективность"
+ undead_toughness_add: "[gh_general_undead|E] [toughness|E]"
+ undead_toughness_mult: "$undead_toughness_add$"
+  
+ stationed_constructs_damage_add: "[stationed|E] [constructs|E] [damage|E]"
+ stationed_constructs_damage_mult: "$stationed_constructs_damage_add$"
+ stationed_constructs_pursuit_add: "[stationed|E] [constructs|E] [pursuit|E]"
+ stationed_constructs_pursuit_mult: "$stationed_constructs_pursuit_add$"
+ stationed_constructs_screen_add: "[stationed|E] [constructs|E] [screen|E]"
+ stationed_constructs_screen_mult: "$stationed_constructs_screen_add$"
+ stationed_constructs_siege_value_add: "[stationed|E] [constructs|E] [siege_progress|E]"
+ stationed_constructs_siege_value_mult: "[stationed|E] [constructs|E] [siege|E] Эффективность"
+ stationed_constructs_toughness_add: "[stationed|E] [constructs|E] [toughness|E]"
+ stationed_constructs_toughness_mult: "$stationed_constructs_toughness_add$"
+ stationed_flying_damage_add: "[stationed|E] [flying|E] [damage|E]"
+ stationed_flying_damage_mult: "$stationed_flying_damage_add$"
+ stationed_flying_pursuit_add: "[stationed|E] [flying|E] [pursuit|E]"
+ stationed_flying_pursuit_mult: "$stationed_flying_pursuit_add$"
+ stationed_flying_screen_add: "[stationed|E] [flying|E] [screen|E]"
+ stationed_flying_screen_mult: "$stationed_flying_screen_add$"
+ stationed_flying_siege_value_add: "[stationed|E] [flying|E] [siege_progress|E]"
+ stationed_flying_siege_value_mult: "[stationed|E] [flying|E] [siege|E] Эффективность"
+ stationed_flying_toughness_add: "[stationed|E] [flying|E] [toughness|E]"
+ stationed_flying_toughness_mult: "$stationed_flying_toughness_add$"
+ stationed_magi_damage_add: "[stationed|E] [magi|E] [damage|E]"
+ stationed_magi_damage_mult: "$stationed_magi_damage_add$"
+ stationed_magi_pursuit_add: "[stationed|E] [magi|E] [pursuit|E]"
+ stationed_magi_pursuit_mult: "$stationed_magi_pursuit_add$"
+ stationed_magi_screen_add: "[stationed|E] [magi|E] [screen|E]"
+ stationed_magi_screen_mult: "$stationed_magi_screen_add$"
+ stationed_magi_siege_value_add: "[stationed|E] [magi|E] [siege_progress|E]"
+ stationed_magi_siege_value_mult: "[stationed|E] [magi|E] [siege|E] Эффективность"
+ stationed_magi_toughness_add: "[stationed|E] [magi|E] [toughness|E]"
+ stationed_magi_toughness_mult: "$stationed_magi_toughness_add$"
+ stationed_monsters_damage_add: "[stationed|E] [monsters|E] [damage|E]"
+ stationed_monsters_damage_mult: "$stationed_monsters_damage_add$"
+ stationed_monsters_pursuit_add: "[stationed|E] [monsters|E] [pursuit|E]"
+ stationed_monsters_pursuit_mult: "$stationed_monsters_pursuit_add$"
+ stationed_monsters_screen_add: "[stationed|E] [monsters|E] [screen|E]"
+ stationed_monsters_screen_mult: "$stationed_monsters_screen_add$"
+ stationed_monsters_siege_value_add: "[stationed|E] [monsters|E] [siege_progress|E]"
+ stationed_monsters_siege_value_mult: "[stationed|E] [monsters|E] [siege|E] Эффективность"
+ stationed_monsters_toughness_add: "[stationed|E] [monsters|E] [toughness|E]"
+ stationed_monsters_toughness_mult: "$stationed_monsters_toughness_add$"
+ stationed_undead_damage_add: "[stationed|E] [gh_general_undead|E] [damage|E]"
+ stationed_undead_damage_mult: "$stationed_undead_damage_add$"
+ stationed_undead_pursuit_add: "[stationed|E] [gh_general_undead|E] [pursuit|E]"
+ stationed_undead_pursuit_mult: "$stationed_undead_pursuit_add$"
+ stationed_undead_screen_add: "[stationed|E] [gh_general_undead|E] [screen|E]"
+ stationed_undead_screen_mult: "$stationed_undead_screen_add$"
+ stationed_undead_siege_value_add: "[stationed|E] [gh_general_undead|E] [siege_progress|E]"
+ stationed_undead_siege_value_mult: "[stationed|E] [gh_general_undead|E] [siege|E] Эффективность"
+ stationed_undead_toughness_add: "[stationed|E] [gh_general_undead|E] [toughness|E]"
+ stationed_undead_toughness_mult: "$stationed_undead_toughness_add$"
+  
+  
+  #Magical 
+ magical_damage_add: "[magical|E] [damage|E]"
+ magical_damage_mult: "$magical_damage_add$"
+ magical_maintenance_mult: "[magical|E] Техническое обслуживание"
+ magical_max_size_add: "Максимальный размер [magical|E] [regiments|E]"
+ magical_pursuit_add: "[magical|E] [pursuit|E]"
+ magical_pursuit_mult: "$magical_pursuit_add$"
+ magical_recruitment_cost_mult: "[magical|E] Стоимость найма"
+ magical_screen_add: "[magical|E] [screen|E]"
+ magical_screen_mult: "$magical_screen_add$"
+ magical_siege_value_add: "[magical|E] [siege_progress|E]"
+ magical_siege_value_mult: "[magical|E] [siege|E] Эффективность"
+ magical_toughness_add: "[magical|E] [toughness|E]"
+ magical_toughness_mult: "$magical_toughness_add$"
+ stationed_magical_damage_add: "[stationed|E] [magical|E] [damage|E]"
+ stationed_magical_damage_mult: "$stationed_magical_damage_add$"
+ stationed_magical_pursuit_add: "[stationed|E] [magical|E] [pursuit|E]"
+ stationed_magical_pursuit_mult: "$stationed_magical_pursuit_add$"
+ stationed_magical_screen_add: "[stationed|E] [magical|E] [screen|E]"
+ stationed_magical_screen_mult: "$stationed_magical_screen_add$"
+ stationed_magical_siege_value_add: "[stationed|E] [magical|E] [siege_progress|E]"
+ stationed_magical_siege_value_mult: "[stationed|E] [magical|E] [siege|E] Эффективность"
+ stationed_magical_toughness_add: "[stationed|E] [magical|E] [toughness|E]"
+ stationed_magical_toughness_mult: "$stationed_magical_toughness_add$"
+  ##fire 
+ magical_fire_damage_add: "[magical|E] [damage|E]" #NT!
+ magical_fire_damage_mult: "$magical_fire_damage_add$" #NT!
+ magical_fire_maintenance_mult: "[magical|E] Maintenance" #NT!
+ magical_fire_max_size_add: "Max Size of [magical|E] [regiments|E]" #NT!
+ magical_fire_pursuit_add: "[magical|E] [pursuit|E]" #NT!
+ magical_fire_pursuit_mult: "$magical_fire_pursuit_add$" #NT!
+ magical_fire_recruitment_cost_mult: "[magical|E] Recruitment Cost" #NT!
+ magical_fire_screen_add: "[magical|E] [screen|E]" #NT!
+ magical_fire_screen_mult: "$magical_fire_screen_add$" #NT!
+ magical_fire_siege_value_add: "[magical|E] [siege_progress|E]" #NT!
+ magical_fire_siege_value_mult: "[magical|E] [siege|E] Effectiveness" #NT!
+ magical_fire_toughness_add: "[magical|E] [toughness|E]" #NT!
+ magical_fire_toughness_mult: "$magical_fire_toughness_add$" #NT!
+ stationed_magical_fire_damage_add: "[stationed|E] [magical|E] [damage|E]" #NT!
+ stationed_magical_fire_damage_mult: "$stationed_magical_fire_damage_add$" #NT!
+ stationed_magical_fire_pursuit_add: "[stationed|E] [magical|E] [pursuit|E]" #NT!
+ stationed_magical_fire_pursuit_mult: "$stationed_magical_fire_pursuit_add$" #NT!
+ stationed_magical_fire_screen_add: "[stationed|E] [magical|E] [screen|E]" #NT!
+ stationed_magical_fire_screen_mult: "$stationed_magical_fire_screen_add$" #NT!
+ stationed_magical_fire_siege_value_add: "[stationed|E] [magical|E] [siege_progress|E]" #NT!
+ stationed_magical_fire_siege_value_mult: "[stationed|E] [magical|E] [siege|E] Effectiveness" #NT!
+ stationed_magical_fire_toughness_add: "[stationed|E] [magical|E] [toughness|E]" #NT!
+ stationed_magical_fire_toughness_mult: "$stationed_magical_fire_toughness_add$" #NT!
+  
+  #ice 
+ magical_ice_damage_add: "[magical|E] [damage|E]" #NT!
+ magical_ice_damage_mult: "$magical_ice_damage_add$" #NT!
+ magical_ice_maintenance_mult: "[magical|E] Maintenance" #NT!
+ magical_ice_max_size_add: "Max Size of [magical|E] [regiments|E]" #NT!
+ magical_ice_pursuit_add: "[magical|E] [pursuit|E]" #NT!
+ magical_ice_pursuit_mult: "$magical_ice_pursuit_add$" #NT!
+ magical_ice_recruitment_cost_mult: "[magical|E] Recruitment Cost" #NT!
+ magical_ice_screen_add: "[magical|E] [screen|E]" #NT!
+ magical_ice_screen_mult: "$magical_ice_screen_add$" #NT!
+ magical_ice_siege_value_add: "[magical|E] [siege_progress|E]" #NT!
+ magical_ice_siege_value_mult: "[magical|E] [siege|E] Effectiveness" #NT!
+ magical_ice_toughness_add: "[magical|E] [toughness|E]" #NT!
+ magical_ice_toughness_mult: "$magical_ice_toughness_add$" #NT!
+ stationed_magical_ice_damage_add: "[stationed|E] [magical|E] [damage|E]" #NT!
+ stationed_magical_ice_damage_mult: "$stationed_magical_ice_damage_add$" #NT!
+ stationed_magical_ice_pursuit_add: "[stationed|E] [magical|E] [pursuit|E]" #NT!
+ stationed_magical_ice_pursuit_mult: "$stationed_magical_ice_pursuit_add$" #NT!
+ stationed_magical_ice_screen_add: "[stationed|E] [magical|E] [screen|E]" #NT!
+ stationed_magical_ice_screen_mult: "$stationed_magical_ice_screen_add$" #NT!
+ stationed_magical_ice_siege_value_add: "[stationed|E] [magical|E] [siege_progress|E]" #NT!
+ stationed_magical_ice_siege_value_mult: "[stationed|E] [magical|E] [siege|E] Effectiveness" #NT!
+ stationed_magical_ice_toughness_add: "[stationed|E] [magical|E] [toughness|E]" #NT!
+ stationed_magical_ice_toughness_mult: "$stationed_magical_ice_toughness_add$" #NT!
+  
+  #water 
+ magical_water_damage_add: "[magical|E] [damage|E]" #NT!
+ magical_water_damage_mult: "$magical_water_damage_add$" #NT!
+ magical_water_maintenance_mult: "[magical|E] Maintenance" #NT!
+ magical_water_max_size_add: "Max Size of [magical|E] [regiments|E]" #NT!
+ magical_water_pursuit_add: "[magical|E] [pursuit|E]" #NT!
+ magical_water_pursuit_mult: "$magical_water_pursuit_add$" #NT!
+ magical_water_recruitment_cost_mult: "[magical|E] Recruitment Cost" #NT!
+ magical_water_screen_add: "[magical|E] [screen|E]" #NT!
+ magical_water_screen_mult: "$magical_water_screen_add$" #NT!
+ magical_water_siege_value_add: "[magical|E] [siege_progress|E]" #NT!
+ magical_water_siege_value_mult: "[magical|E] [siege|E] Effectiveness" #NT!
+ magical_water_toughness_add: "[magical|E] [toughness|E]" #NT!
+ magical_water_toughness_mult: "$magical_water_toughness_add$" #NT!
+ stationed_magical_water_damage_add: "[stationed|E] [magical|E] [damage|E]" #NT!
+ stationed_magical_water_damage_mult: "$stationed_magical_water_damage_add$" #NT!
+ stationed_magical_water_pursuit_add: "[stationed|E] [magical|E] [pursuit|E]" #NT!
+ stationed_magical_water_pursuit_mult: "$stationed_magical_water_pursuit_add$" #NT!
+ stationed_magical_water_screen_add: "[stationed|E] [magical|E] [screen|E]" #NT!
+ stationed_magical_water_screen_mult: "$stationed_magical_water_screen_add$" #NT!
+ stationed_magical_water_siege_value_add: "[stationed|E] [magical|E] [siege_progress|E]" #NT!
+ stationed_magical_water_siege_value_mult: "[stationed|E] [magical|E] [siege|E] Effectiveness" #NT!
+ stationed_magical_water_toughness_add: "[stationed|E] [magical|E] [toughness|E]" #NT!
+ stationed_magical_water_toughness_mult: "$stationed_magical_water_toughness_add$" #NT!
+  
+  #air 
+ magical_air_damage_add: "[magical|E] [damage|E]" #NT!
+ magical_air_damage_mult: "$magical_air_damage_add$" #NT!
+ magical_air_maintenance_mult: "[magical|E] Maintenance" #NT!
+ magical_air_max_size_add: "Max Size of [magical|E] [regiments|E]" #NT!
+ magical_air_pursuit_add: "[magical|E] [pursuit|E]" #NT!
+ magical_air_pursuit_mult: "$magical_air_pursuit_add$" #NT!
+ magical_air_recruitment_cost_mult: "[magical|E] Recruitment Cost" #NT!
+ magical_air_screen_add: "[magical|E] [screen|E]" #NT!
+ magical_air_screen_mult: "$magical_air_screen_add$" #NT!
+ magical_air_siege_value_add: "[magical|E] [siege_progress|E]" #NT!
+ magical_air_siege_value_mult: "[magical|E] [siege|E] Effectiveness" #NT!
+ magical_air_toughness_add: "[magical|E] [toughness|E]" #NT!
+ magical_air_toughness_mult: "$magical_air_toughness_add$" #NT!
+ stationed_magical_air_damage_add: "[stationed|E] [magical|E] [damage|E]" #NT!
+ stationed_magical_air_damage_mult: "$stationed_magical_air_damage_add$" #NT!
+ stationed_magical_air_pursuit_add: "[stationed|E] [magical|E] [pursuit|E]" #NT!
+ stationed_magical_air_pursuit_mult: "$stationed_magical_air_pursuit_add$" #NT!
+ stationed_magical_air_screen_add: "[stationed|E] [magical|E] [screen|E]" #NT!
+ stationed_magical_air_screen_mult: "$stationed_magical_air_screen_add$" #NT!
+ stationed_magical_air_siege_value_add: "[stationed|E] [magical|E] [siege_progress|E]" #NT!
+ stationed_magical_air_siege_value_mult: "[stationed|E] [magical|E] [siege|E] Effectiveness" #NT!
+ stationed_magical_air_toughness_add: "[stationed|E] [magical|E] [toughness|E]" #NT!
+ stationed_magical_air_toughness_mult: "$stationed_magical_air_toughness_add$" #NT!
+  
+  #stone 
+ magical_stone_damage_add: "[magical|E] [damage|E]" #NT!
+ magical_stone_damage_mult: "$magical_stone_damage_add$" #NT!
+ magical_stone_maintenance_mult: "[magical|E] Maintenance" #NT!
+ magical_stone_max_size_add: "Max Size of [magical|E] [regiments|E]" #NT!
+ magical_stone_pursuit_add: "[magical|E] [pursuit|E]" #NT!
+ magical_stone_pursuit_mult: "$magical_stone_pursuit_add$" #NT!
+ magical_stone_recruitment_cost_mult: "[magical|E] Recruitment Cost" #NT!
+ magical_stone_screen_add: "[magical|E] [screen|E]" #NT!
+ magical_stone_screen_mult: "$magical_stone_screen_add$" #NT!
+ magical_stone_siege_value_add: "[magical|E] [siege_progress|E]" #NT!
+ magical_stone_siege_value_mult: "[magical|E] [siege|E] Effectiveness" #NT!
+ magical_stone_toughness_add: "[magical|E] [toughness|E]" #NT!
+ magical_stone_toughness_mult: "$magical_stone_toughness_add$" #NT!
+ stationed_magical_stone_damage_add: "[stationed|E] [magical|E] [damage|E]" #NT!
+ stationed_magical_stone_damage_mult: "$stationed_magical_stone_damage_add$" #NT!
+ stationed_magical_stone_pursuit_add: "[stationed|E] [magical|E] [pursuit|E]" #NT!
+ stationed_magical_stone_pursuit_mult: "$stationed_magical_stone_pursuit_add$" #NT!
+ stationed_magical_stone_screen_add: "[stationed|E] [magical|E] [screen|E]" #NT!
+ stationed_magical_stone_screen_mult: "$stationed_magical_stone_screen_add$" #NT!
+ stationed_magical_stone_siege_value_add: "[stationed|E] [magical|E] [siege_progress|E]" #NT!
+ stationed_magical_stone_siege_value_mult: "[stationed|E] [magical|E] [siege|E] Effectiveness" #NT!
+ stationed_magical_stone_toughness_add: "[stationed|E] [magical|E] [toughness|E]" #NT!
+ stationed_magical_stone_toughness_mult: "$stationed_magical_stone_toughness_add$" #NT!
+  
+  #dark 
+ magical_dark_damage_add: "[magical|E] [damage|E]" #NT!
+ magical_dark_damage_mult: "$magical_dark_damage_add$" #NT!
+ magical_dark_maintenance_mult: "[magical|E] Maintenance" #NT!
+ magical_dark_max_size_add: "Max Size of [magical|E] [regiments|E]" #NT!
+ magical_dark_pursuit_add: "[magical|E] [pursuit|E]" #NT!
+ magical_dark_pursuit_mult: "$magical_dark_pursuit_add$" #NT!
+ magical_dark_recruitment_cost_mult: "[magical|E] Recruitment Cost" #NT!
+ magical_dark_screen_add: "[magical|E] [screen|E]" #NT!
+ magical_dark_screen_mult: "$magical_dark_screen_add$" #NT!
+ magical_dark_siege_value_add: "[magical|E] [siege_progress|E]" #NT!
+ magical_dark_siege_value_mult: "[magical|E] [siege|E] Effectiveness" #NT!
+ magical_dark_toughness_add: "[magical|E] [toughness|E]" #NT!
+ magical_dark_toughness_mult: "$magical_dark_toughness_add$" #NT!
+ stationed_magical_dark_damage_add: "[stationed|E] [magical|E] [damage|E]" #NT!
+ stationed_magical_dark_damage_mult: "$stationed_magical_dark_damage_add$" #NT!
+ stationed_magical_dark_pursuit_add: "[stationed|E] [magical|E] [pursuit|E]" #NT!
+ stationed_magical_dark_pursuit_mult: "$stationed_magical_dark_pursuit_add$" #NT!
+ stationed_magical_dark_screen_add: "[stationed|E] [magical|E] [screen|E]" #NT!
+ stationed_magical_dark_screen_mult: "$stationed_magical_dark_screen_add$" #NT!
+ stationed_magical_dark_siege_value_add: "[stationed|E] [magical|E] [siege_progress|E]" #NT!
+ stationed_magical_dark_siege_value_mult: "[stationed|E] [magical|E] [siege|E] Effectiveness" #NT!
+ stationed_magical_dark_toughness_add: "[stationed|E] [magical|E] [toughness|E]" #NT!
+ stationed_magical_dark_toughness_mult: "$stationed_magical_dark_toughness_add$" #NT!
+  
+  #dream 
+ magical_dream_damage_add: "[magical|E] [damage|E]" #NT!
+ magical_dream_damage_mult: "$magical_dream_damage_add$" #NT!
+ magical_dream_maintenance_mult: "[magical|E] Maintenance" #NT!
+ magical_dream_max_size_add: "Max Size of [magical|E] [regiments|E]" #NT!
+ magical_dream_pursuit_add: "[magical|E] [pursuit|E]" #NT!
+ magical_dream_pursuit_mult: "$magical_dream_pursuit_add$" #NT!
+ magical_dream_recruitment_cost_mult: "[magical|E] Recruitment Cost" #NT!
+ magical_dream_screen_add: "[magical|E] [screen|E]" #NT!
+ magical_dream_screen_mult: "$magical_dream_screen_add$" #NT!
+ magical_dream_siege_value_add: "[magical|E] [siege_progress|E]" #NT!
+ magical_dream_siege_value_mult: "[magical|E] [siege|E] Effectiveness" #NT!
+ magical_dream_toughness_add: "[magical|E] [toughness|E]" #NT!
+ magical_dream_toughness_mult: "$magical_dream_toughness_add$" #NT!
+ stationed_magical_dream_damage_add: "[stationed|E] [magical|E] [damage|E]" #NT!
+ stationed_magical_dream_damage_mult: "$stationed_magical_dream_damage_add$" #NT!
+ stationed_magical_dream_pursuit_add: "[stationed|E] [magical|E] [pursuit|E]" #NT!
+ stationed_magical_dream_pursuit_mult: "$stationed_magical_dream_pursuit_add$" #NT!
+ stationed_magical_dream_screen_add: "[stationed|E] [magical|E] [screen|E]" #NT!
+ stationed_magical_dream_screen_mult: "$stationed_magical_dream_screen_add$" #NT!
+ stationed_magical_dream_siege_value_add: "[stationed|E] [magical|E] [siege_progress|E]" #NT!
+ stationed_magical_dream_siege_value_mult: "[stationed|E] [magical|E] [siege|E] Effectiveness" #NT!
+ stationed_magical_dream_toughness_add: "[stationed|E] [magical|E] [toughness|E]" #NT!
+ stationed_magical_dream_toughness_mult: "$stationed_magical_dream_toughness_add$" #NT!
+  
+  #light 
+ magical_light_damage_add: "[magical|E] [damage|E]" #NT!
+ magical_light_damage_mult: "$magical_light_damage_add$" #NT!
+ magical_light_maintenance_mult: "[magical|E] Maintenance" #NT!
+ magical_light_max_size_add: "Max Size of [magical|E] [regiments|E]" #NT!
+ magical_light_pursuit_add: "[magical|E] [pursuit|E]" #NT!
+ magical_light_pursuit_mult: "$magical_light_pursuit_add$" #NT!
+ magical_light_recruitment_cost_mult: "[magical|E] Recruitment Cost" #NT!
+ magical_light_screen_add: "[magical|E] [screen|E]" #NT!
+ magical_light_screen_mult: "$magical_light_screen_add$" #NT!
+ magical_light_siege_value_add: "[magical|E] [siege_progress|E]" #NT!
+ magical_light_siege_value_mult: "[magical|E] [siege|E] Effectiveness" #NT!
+ magical_light_toughness_add: "[magical|E] [toughness|E]" #NT!
+ magical_light_toughness_mult: "$magical_light_toughness_add$" #NT!
+ stationed_magical_light_damage_add: "[stationed|E] [magical|E] [damage|E]" #NT!
+ stationed_magical_light_damage_mult: "$stationed_magical_light_damage_add$" #NT!
+ stationed_magical_light_pursuit_add: "[stationed|E] [magical|E] [pursuit|E]" #NT!
+ stationed_magical_light_pursuit_mult: "$stationed_magical_light_pursuit_add$" #NT!
+ stationed_magical_light_screen_add: "[stationed|E] [magical|E] [screen|E]" #NT!
+ stationed_magical_light_screen_mult: "$stationed_magical_light_screen_add$" #NT!
+ stationed_magical_light_siege_value_add: "[stationed|E] [magical|E] [siege_progress|E]" #NT!
+ stationed_magical_light_siege_value_mult: "[stationed|E] [magical|E] [siege|E] Effectiveness" #NT!
+ stationed_magical_light_toughness_add: "[stationed|E] [magical|E] [toughness|E]" #NT!
+ stationed_magical_light_toughness_mult: "$stationed_magical_light_toughness_add$" #NT!
+  
+  #nature 
+ magical_nature_damage_add: "[magical|E] [damage|E]" #NT!
+ magical_nature_damage_mult: "$magical_nature_damage_add$" #NT!
+ magical_nature_maintenance_mult: "[magical|E] Maintenance" #NT!
+ magical_nature_max_size_add: "Max Size of [magical|E] [regiments|E]" #NT!
+ magical_nature_pursuit_add: "[magical|E] [pursuit|E]" #NT!
+ magical_nature_pursuit_mult: "$magical_nature_pursuit_add$" #NT!
+ magical_nature_recruitment_cost_mult: "[magical|E] Recruitment Cost" #NT!
+ magical_nature_screen_add: "[magical|E] [screen|E]" #NT!
+ magical_nature_screen_mult: "$magical_nature_screen_add$" #NT!
+ magical_nature_siege_value_add: "[magical|E] [siege_progress|E]" #NT!
+ magical_nature_siege_value_mult: "[magical|E] [siege|E] Effectiveness" #NT!
+ magical_nature_toughness_add: "[magical|E] [toughness|E]" #NT!
+ magical_nature_toughness_mult: "$magical_nature_toughness_add$" #NT!
+ stationed_magical_nature_damage_add: "[stationed|E] [magical|E] [damage|E]" #NT!
+ stationed_magical_nature_damage_mult: "$stationed_magical_nature_damage_add$" #NT!
+ stationed_magical_nature_pursuit_add: "[stationed|E] [magical|E] [pursuit|E]" #NT!
+ stationed_magical_nature_pursuit_mult: "$stationed_magical_nature_pursuit_add$" #NT!
+ stationed_magical_nature_screen_add: "[stationed|E] [magical|E] [screen|E]" #NT!
+ stationed_magical_nature_screen_mult: "$stationed_magical_nature_screen_add$" #NT!
+ stationed_magical_nature_siege_value_add: "[stationed|E] [magical|E] [siege_progress|E]" #NT!
+ stationed_magical_nature_siege_value_mult: "[stationed|E] [magical|E] [siege|E] Effectiveness" #NT!
+ stationed_magical_nature_toughness_add: "[stationed|E] [magical|E] [toughness|E]" #NT!
+ stationed_magical_nature_toughness_mult: "$stationed_magical_nature_toughness_add$" #NT!
+  
+  #celestial 
+ magical_celestial_damage_add: "[magical|E] [damage|E]" #NT!
+ magical_celestial_damage_mult: "$magical_celestial_damage_add$" #NT!
+ magical_celestial_maintenance_mult: "[magical|E] Maintenance" #NT!
+ magical_celestial_max_size_add: "Max Size of [magical|E] [regiments|E]" #NT!
+ magical_celestial_pursuit_add: "[magical|E] [pursuit|E]" #NT!
+ magical_celestial_pursuit_mult: "$magical_celestial_pursuit_add$" #NT!
+ magical_celestial_recruitment_cost_mult: "[magical|E] Recruitment Cost" #NT!
+ magical_celestial_screen_add: "[magical|E] [screen|E]" #NT!
+ magical_celestial_screen_mult: "$magical_celestial_screen_add$" #NT!
+ magical_celestial_siege_value_add: "[magical|E] [siege_progress|E]" #NT!
+ magical_celestial_siege_value_mult: "[magical|E] [siege|E] Effectiveness" #NT!
+ magical_celestial_toughness_add: "[magical|E] [toughness|E]" #NT!
+ magical_celestial_toughness_mult: "$magical_celestial_toughness_add$" #NT!
+ stationed_magical_celestial_damage_add: "[stationed|E] [magical|E] [damage|E]" #NT!
+ stationed_magical_celestial_damage_mult: "$stationed_magical_celestial_damage_add$" #NT!
+ stationed_magical_celestial_pursuit_add: "[stationed|E] [magical|E] [pursuit|E]" #NT!
+ stationed_magical_celestial_pursuit_mult: "$stationed_magical_celestial_pursuit_add$" #NT!
+ stationed_magical_celestial_screen_add: "[stationed|E] [magical|E] [screen|E]" #NT!
+ stationed_magical_celestial_screen_mult: "$stationed_magical_celestial_screen_add$" #NT!
+ stationed_magical_celestial_siege_value_add: "[stationed|E] [magical|E] [siege_progress|E]" #NT!
+ stationed_magical_celestial_siege_value_mult: "[stationed|E] [magical|E] [siege|E] Effectiveness" #NT!
+ stationed_magical_celestial_toughness_add: "[stationed|E] [magical|E] [toughness|E]" #NT!
+ stationed_magical_celestial_toughness_mult: "$stationed_magical_celestial_toughness_add$" #NT!
+  
+  #metal 
+ magical_metal_damage_add: "[magical|E] [damage|E]" #NT!
+ magical_metal_damage_mult: "$magical_metal_damage_add$" #NT!
+ magical_metal_maintenance_mult: "[magical|E] Maintenance" #NT!
+ magical_metal_max_size_add: "Max Size of [magical|E] [regiments|E]" #NT!
+ magical_metal_pursuit_add: "[magical|E] [pursuit|E]" #NT!
+ magical_metal_pursuit_mult: "$magical_metal_pursuit_add$" #NT!
+ magical_metal_recruitment_cost_mult: "[magical|E] Recruitment Cost" #NT!
+ magical_metal_screen_add: "[magical|E] [screen|E]" #NT!
+ magical_metal_screen_mult: "$magical_metal_screen_add$" #NT!
+ magical_metal_siege_value_add: "[magical|E] [siege_progress|E]" #NT!
+ magical_metal_siege_value_mult: "[magical|E] [siege|E] Effectiveness" #NT!
+ magical_metal_toughness_add: "[magical|E] [toughness|E]" #NT!
+ magical_metal_toughness_mult: "$magical_metal_toughness_add$" #NT!
+ stationed_magical_metal_damage_add: "[stationed|E] [magical|E] [damage|E]" #NT!
+ stationed_magical_metal_damage_mult: "$stationed_magical_metal_damage_add$" #NT!
+ stationed_magical_metal_pursuit_add: "[stationed|E] [magical|E] [pursuit|E]" #NT!
+ stationed_magical_metal_pursuit_mult: "$stationed_magical_metal_pursuit_add$" #NT!
+ stationed_magical_metal_screen_add: "[stationed|E] [magical|E] [screen|E]" #NT!
+ stationed_magical_metal_screen_mult: "$stationed_magical_metal_screen_add$" #NT!
+ stationed_magical_metal_siege_value_add: "[stationed|E] [magical|E] [siege_progress|E]" #NT!
+ stationed_magical_metal_siege_value_mult: "[stationed|E] [magical|E] [siege|E] Effectiveness" #NT!
+ stationed_magical_metal_toughness_add: "[stationed|E] [magical|E] [toughness|E]" #NT!
+ stationed_magical_metal_toughness_mult: "$stationed_magical_metal_toughness_add$" #NT!
+  
+  #sand 
+ magical_sand_damage_add: "[magical|E] [damage|E]" #NT!
+ magical_sand_damage_mult: "$magical_sand_damage_add$" #NT!
+ magical_sand_maintenance_mult: "[magical|E] Maintenance" #NT!
+ magical_sand_max_size_add: "Max Size of [magical|E] [regiments|E]" #NT!
+ magical_sand_pursuit_add: "[magical|E] [pursuit|E]" #NT!
+ magical_sand_pursuit_mult: "$magical_sand_pursuit_add$" #NT!
+ magical_sand_recruitment_cost_mult: "[magical|E] Recruitment Cost" #NT!
+ magical_sand_screen_add: "[magical|E] [screen|E]" #NT!
+ magical_sand_screen_mult: "$magical_sand_screen_add$" #NT!
+ magical_sand_siege_value_add: "[magical|E] [siege_progress|E]" #NT!
+ magical_sand_siege_value_mult: "[magical|E] [siege|E] Effectiveness" #NT!
+ magical_sand_toughness_add: "[magical|E] [toughness|E]" #NT!
+ magical_sand_toughness_mult: "$magical_sand_toughness_add$" #NT!
+ stationed_magical_sand_damage_add: "[stationed|E] [magical|E] [damage|E]" #NT!
+ stationed_magical_sand_damage_mult: "$stationed_magical_sand_damage_add$" #NT!
+ stationed_magical_sand_pursuit_add: "[stationed|E] [magical|E] [pursuit|E]" #NT!
+ stationed_magical_sand_pursuit_mult: "$stationed_magical_sand_pursuit_add$" #NT!
+ stationed_magical_sand_screen_add: "[stationed|E] [magical|E] [screen|E]" #NT!
+ stationed_magical_sand_screen_mult: "$stationed_magical_sand_screen_add$" #NT!
+ stationed_magical_sand_siege_value_add: "[stationed|E] [magical|E] [siege_progress|E]" #NT!
+ stationed_magical_sand_siege_value_mult: "[stationed|E] [magical|E] [siege|E] Effectiveness" #NT!
+ stationed_magical_sand_toughness_add: "[stationed|E] [magical|E] [toughness|E]" #NT!
+ stationed_magical_sand_toughness_mult: "$stationed_magical_sand_toughness_add$" #NT!
+  
+  #ethereal 
+ magical_ethereal_damage_add: "[magical|E] [damage|E]" #NT!
+ magical_ethereal_damage_mult: "$magical_ethereal_damage_add$" #NT!
+ magical_ethereal_maintenance_mult: "[magical|E] Maintenance" #NT!
+ magical_ethereal_max_size_add: "Max Size of [magical|E] [regiments|E]" #NT!
+ magical_ethereal_pursuit_add: "[magical|E] [pursuit|E]" #NT!
+ magical_ethereal_pursuit_mult: "$magical_ethereal_pursuit_add$" #NT!
+ magical_ethereal_recruitment_cost_mult: "[magical|E] Recruitment Cost" #NT!
+ magical_ethereal_screen_add: "[magical|E] [screen|E]" #NT!
+ magical_ethereal_screen_mult: "$magical_ethereal_screen_add$" #NT!
+ magical_ethereal_siege_value_add: "[magical|E] [siege_progress|E]" #NT!
+ magical_ethereal_siege_value_mult: "[magical|E] [siege|E] Effectiveness" #NT!
+ magical_ethereal_toughness_add: "[magical|E] [toughness|E]" #NT!
+ magical_ethereal_toughness_mult: "$magical_ethereal_toughness_add$" #NT!
+ stationed_magical_ethereal_damage_add: "[stationed|E] [magical|E] [damage|E]" #NT!
+ stationed_magical_ethereal_damage_mult: "$stationed_magical_ethereal_damage_add$" #NT!
+ stationed_magical_ethereal_pursuit_add: "[stationed|E] [magical|E] [pursuit|E]" #NT!
+ stationed_magical_ethereal_pursuit_mult: "$stationed_magical_ethereal_pursuit_add$" #NT!
+ stationed_magical_ethereal_screen_add: "[stationed|E] [magical|E] [screen|E]" #NT!
+ stationed_magical_ethereal_screen_mult: "$stationed_magical_ethereal_screen_add$" #NT!
+ stationed_magical_ethereal_siege_value_add: "[stationed|E] [magical|E] [siege_progress|E]" #NT!
+ stationed_magical_ethereal_siege_value_mult: "[stationed|E] [magical|E] [siege|E] Effectiveness" #NT!
+ stationed_magical_ethereal_toughness_add: "[stationed|E] [magical|E] [toughness|E]" #NT!
+ stationed_magical_ethereal_toughness_mult: "$stationed_magical_ethereal_toughness_add$" #NT!
+  
+  #death 
+ magical_death_damage_add: "[magical|E] [damage|E]" #NT!
+ magical_death_damage_mult: "$magical_death_damage_add$" #NT!
+ magical_death_maintenance_mult: "[magical|E] Maintenance" #NT!
+ magical_death_max_size_add: "Max Size of [magical|E] [regiments|E]" #NT!
+ magical_death_pursuit_add: "[magical|E] [pursuit|E]" #NT!
+ magical_death_pursuit_mult: "$magical_death_pursuit_add$" #NT!
+ magical_death_recruitment_cost_mult: "[magical|E] Recruitment Cost" #NT!
+ magical_death_screen_add: "[magical|E] [screen|E]" #NT!
+ magical_death_screen_mult: "$magical_death_screen_add$" #NT!
+ magical_death_siege_value_add: "[magical|E] [siege_progress|E]" #NT!
+ magical_death_siege_value_mult: "[magical|E] [siege|E] Effectiveness" #NT!
+ magical_death_toughness_add: "[magical|E] [toughness|E]" #NT!
+ magical_death_toughness_mult: "$magical_death_toughness_add$" #NT!
+ stationed_magical_death_damage_add: "[stationed|E] [magical|E] [damage|E]" #NT!
+ stationed_magical_death_damage_mult: "$stationed_magical_death_damage_add$" #NT!
+ stationed_magical_death_pursuit_add: "[stationed|E] [magical|E] [pursuit|E]" #NT!
+ stationed_magical_death_pursuit_mult: "$stationed_magical_death_pursuit_add$" #NT!
+ stationed_magical_death_screen_add: "[stationed|E] [magical|E] [screen|E]" #NT!
+ stationed_magical_death_screen_mult: "$stationed_magical_death_screen_add$" #NT!
+ stationed_magical_death_siege_value_add: "[stationed|E] [magical|E] [siege_progress|E]" #NT!
+ stationed_magical_death_siege_value_mult: "[stationed|E] [magical|E] [siege|E] Effectiveness" #NT!
+ stationed_magical_death_toughness_add: "[stationed|E] [magical|E] [toughness|E]" #NT!
+ stationed_magical_death_toughness_mult: "$stationed_magical_death_toughness_add$" #NT!
+  
+  #blood 
+ magical_blood_damage_add: "[magical|E] [damage|E]" #NT!
+ magical_blood_damage_mult: "$magical_blood_damage_add$" #NT!
+ magical_blood_maintenance_mult: "[magical|E] Maintenance" #NT!
+ magical_blood_max_size_add: "Max Size of [magical|E] [regiments|E]" #NT!
+ magical_blood_pursuit_add: "[magical|E] [pursuit|E]" #NT!
+ magical_blood_pursuit_mult: "$magical_blood_pursuit_add$" #NT!
+ magical_blood_recruitment_cost_mult: "[magical|E] Recruitment Cost" #NT!
+ magical_blood_screen_add: "[magical|E] [screen|E]" #NT!
+ magical_blood_screen_mult: "$magical_blood_screen_add$" #NT!
+ magical_blood_siege_value_add: "[magical|E] [siege_progress|E]" #NT!
+ magical_blood_siege_value_mult: "[magical|E] [siege|E] Effectiveness" #NT!
+ magical_blood_toughness_add: "[magical|E] [toughness|E]" #NT!
+ magical_blood_toughness_mult: "$magical_blood_toughness_add$" #NT!
+ stationed_magical_blood_damage_add: "[stationed|E] [magical|E] [damage|E]" #NT!
+ stationed_magical_blood_damage_mult: "$stationed_magical_blood_damage_add$" #NT!
+ stationed_magical_blood_pursuit_add: "[stationed|E] [magical|E] [pursuit|E]" #NT!
+ stationed_magical_blood_pursuit_mult: "$stationed_magical_blood_pursuit_add$" #NT!
+ stationed_magical_blood_screen_add: "[stationed|E] [magical|E] [screen|E]" #NT!
+ stationed_magical_blood_screen_mult: "$stationed_magical_blood_screen_add$" #NT!
+ stationed_magical_blood_siege_value_add: "[stationed|E] [magical|E] [siege_progress|E]" #NT!
+ stationed_magical_blood_siege_value_mult: "[stationed|E] [magical|E] [siege|E] Effectiveness" #NT!
+ stationed_magical_blood_toughness_add: "[stationed|E] [magical|E] [toughness|E]" #NT!
+ stationed_magical_blood_toughness_mult: "$stationed_magical_blood_toughness_add$" #NT!
+  
+  #hymns 
+ magical_hymns_damage_add: "[magical|E] [damage|E]" #NT!
+ magical_hymns_damage_mult: "$magical_hymns_damage_add$" #NT!
+ magical_hymns_maintenance_mult: "[magical|E] Maintenance" #NT!
+ magical_hymns_max_size_add: "Max Size of [magical|E] [regiments|E]" #NT!
+ magical_hymns_pursuit_add: "[magical|E] [pursuit|E]" #NT!
+ magical_hymns_pursuit_mult: "$magical_hymns_pursuit_add$" #NT!
+ magical_hymns_recruitment_cost_mult: "[magical|E] Recruitment Cost" #NT!
+ magical_hymns_screen_add: "[magical|E] [screen|E]" #NT!
+ magical_hymns_screen_mult: "$magical_hymns_screen_add$" #NT!
+ magical_hymns_siege_value_add: "[magical|E] [siege_progress|E]" #NT!
+ magical_hymns_siege_value_mult: "[magical|E] [siege|E] Effectiveness" #NT!
+ magical_hymns_toughness_add: "[magical|E] [toughness|E]" #NT!
+ magical_hymns_toughness_mult: "$magical_hymns_toughness_add$" #NT!
+ stationed_magical_hymns_damage_add: "[stationed|E] [magical|E] [damage|E]" #NT!
+ stationed_magical_hymns_damage_mult: "$stationed_magical_hymns_damage_add$" #NT!
+ stationed_magical_hymns_pursuit_add: "[stationed|E] [magical|E] [pursuit|E]" #NT!
+ stationed_magical_hymns_pursuit_mult: "$stationed_magical_hymns_pursuit_add$" #NT!
+ stationed_magical_hymns_screen_add: "[stationed|E] [magical|E] [screen|E]" #NT!
+ stationed_magical_hymns_screen_mult: "$stationed_magical_hymns_screen_add$" #NT!
+ stationed_magical_hymns_siege_value_add: "[stationed|E] [magical|E] [siege_progress|E]" #NT!
+ stationed_magical_hymns_siege_value_mult: "[stationed|E] [magical|E] [siege|E] Effectiveness" #NT!
+ stationed_magical_hymns_toughness_add: "[stationed|E] [magical|E] [toughness|E]" #NT!
+ stationed_magical_hymns_toughness_mult: "$stationed_magical_hymns_toughness_add$" #NT!
+  
+ #time 
+ magical_time_damage_add: "[magical|E] [damage|E]" #NT!
+ magical_time_damage_mult: "$magical_time_damage_add$" #NT!
+ magical_time_maintenance_mult: "[magical|E] Maintenance" #NT!
+ magical_time_max_size_add: "Max Size of [magical|E] [regiments|E]" #NT!
+ magical_time_pursuit_add: "[magical|E] [pursuit|E]" #NT!
+ magical_time_pursuit_mult: "$magical_time_pursuit_add$" #NT!
+ magical_time_recruitment_cost_mult: "[magical|E] Recruitment Cost" #NT!
+ magical_time_screen_add: "[magical|E] [screen|E]" #NT!
+ magical_time_screen_mult: "$magical_time_screen_add$" #NT!
+ magical_time_siege_value_add: "[magical|E] [siege_progress|E]" #NT!
+ magical_time_siege_value_mult: "[magical|E] [siege|E] Effectiveness" #NT!
+ magical_time_toughness_add: "[magical|E] [toughness|E]" #NT!
+ magical_time_toughness_mult: "$magical_time_toughness_add$" #NT!
+ stationed_magical_time_damage_add: "[stationed|E] [magical|E] [damage|E]" #NT!
+ stationed_magical_time_damage_mult: "$stationed_magical_time_damage_add$" #NT!
+ stationed_magical_time_pursuit_add: "[stationed|E] [magical|E] [pursuit|E]" #NT!
+ stationed_magical_time_pursuit_mult: "$stationed_magical_time_pursuit_add$" #NT!
+ stationed_magical_time_screen_add: "[stationed|E] [magical|E] [screen|E]" #NT!
+ stationed_magical_time_screen_mult: "$stationed_magical_time_screen_add$" #NT!
+ stationed_magical_time_siege_value_add: "[stationed|E] [magical|E] [siege_progress|E]" #NT!
+ stationed_magical_time_siege_value_mult: "[stationed|E] [magical|E] [siege|E] Effectiveness" #NT!
+ stationed_magical_time_toughness_add: "[stationed|E] [magical|E] [toughness|E]" #NT!
+ stationed_magical_time_toughness_mult: "$stationed_magical_time_toughness_add$" #NT!
+  
+  
+  #dawn 
+ magical_dawn_damage_add: "[magical|E] [damage|E]" #NT!
+ magical_dawn_damage_mult: "$magical_dawn_damage_add$" #NT!
+ magical_dawn_maintenance_mult: "[magical|E] Maintenance" #NT!
+ magical_dawn_max_size_add: "Max Size of [magical|E] [regiments|E]" #NT!
+ magical_dawn_pursuit_add: "[magical|E] [pursuit|E]" #NT!
+ magical_dawn_pursuit_mult: "$magical_dawn_pursuit_add$" #NT!
+ magical_dawn_recruitment_cost_mult: "[magical|E] Recruitment Cost" #NT!
+ magical_dawn_screen_add: "[magical|E] [screen|E]" #NT!
+ magical_dawn_screen_mult: "$magical_dawn_screen_add$" #NT!
+ magical_dawn_siege_value_add: "[magical|E] [siege_progress|E]" #NT!
+ magical_dawn_siege_value_mult: "[magical|E] [siege|E] Effectiveness" #NT!
+ magical_dawn_toughness_add: "[magical|E] [toughness|E]" #NT!
+ magical_dawn_toughness_mult: "$magical_dawn_toughness_add$" #NT!
+ stationed_magical_dawn_damage_add: "[stationed|E] [magical|E] [damage|E]" #NT!
+ stationed_magical_dawn_damage_mult: "$stationed_magical_dawn_damage_add$" #NT!
+ stationed_magical_dawn_pursuit_add: "[stationed|E] [magical|E] [pursuit|E]" #NT!
+ stationed_magical_dawn_pursuit_mult: "$stationed_magical_dawn_pursuit_add$" #NT!
+ stationed_magical_dawn_screen_add: "[stationed|E] [magical|E] [screen|E]" #NT!
+ stationed_magical_dawn_screen_mult: "$stationed_magical_dawn_screen_add$" #NT!
+ stationed_magical_dawn_siege_value_add: "[stationed|E] [magical|E] [siege_progress|E]" #NT!
+ stationed_magical_dawn_siege_value_mult: "[stationed|E] [magical|E] [siege|E] Effectiveness" #NT!
+ stationed_magical_dawn_toughness_add: "[stationed|E] [magical|E] [toughness|E]" #NT!
+ stationed_magical_dawn_toughness_mult: "$stationed_magical_dawn_toughness_add$" #NT!

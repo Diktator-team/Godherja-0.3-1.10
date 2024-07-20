@@ -1,4 +1,12 @@
 ﻿l_russian:
- fools_curse.0001.t: "Проклятие золота"  #Машинный перевод 28.10.23!
- fools_curse.0001.desc: "В течение нескольких дней [cursed_fool.GetFirstNameNoTooltip] становился все слабее и слабее. Теперь кровь, которую [cursed_fool.GetSheHe] кашляет, кажется окрашенной хлопьями золота. Я думал, что мы сможем выбраться из [fools_curse|E], но, похоже, эта смертельная земля не позволит нам выйти из-под ее контроля. Теперь я могу только надеяться, что боль терпима, а если нет, то смерть наступит быстро."  #Машинный перевод 28.10.23!
- fools_curse.0001.a: "Ох, каким же я был дураком."  #Машинный перевод 28.10.23!
+ gh_health.1001.t: "[SCOPE.Custom('EventTitleDisease')]: Cursed by Gold" #NT!
+ gh_health.1001.desc: "For days now [cursed_fool.GetFirstNameNoTooltip] has grown weaker and weaker. Now, the blood [cursed_fool.GetSheHe] coughes up seems tinged with flakes of gold. I thought we might escape the [fools_curse|E] but it seems this deadly land will not let us leave its grasp. I can only hope now that the pain is bearable, and if not, that death comes quickly." #NT!
+ gh_health.1001.a: "Oh what a fool I was." #NT!
+ gh_health.2002.t: "[SCOPE.Custom('EventTitleDisease')]: Blight Sickness" #NT!
+ gh_health.2002.desc: "Shades have always been something of a ghost story, told when I was a child to scare us to sleep. None but wild [magi|E] believed it.\n\nBut now I have seen otherwise. The coal colored rot aflicting my skin is coarse and rough to the touch, as if turning to dust." #NT!
+ gh_health.2002.court_physician.desc: "\n\n"My [ROOT.Char.GetLadyLord], I will do everything in my power to help, but nevertheless some things are beyond the power of Man..."" #NT!
+ gh_health.2002.a: "Oh, [ROOt.Char.GetFaith.HealthGodName]! Save me!" #NT!
+ gh_health.2001.t: "[SCOPE.Custom('EventTitleDisease')]: Into the Light" #NT!
+ gh_health.2001.desc: "It seems as if I have been either blessed or used up all my luck, as last night I feared would be my last yet I awaken today refreshed, the shadowy blight withering away from my flesh.\n\n This sickness has claimed many lives, but I will not be one of them." #NT!
+ gh_health.2001.a: "Praise [ROOT.Char.GetFaith.HealthGodName] for this miracle!" #NT!
+ gh_health.2001.tt: "I can still get sick with [GetTrait('shade_stricken').GetName( GetNullCharacter )]" #NT!

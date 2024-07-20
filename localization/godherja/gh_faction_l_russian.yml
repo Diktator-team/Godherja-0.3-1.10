@@ -1,7 +1,8 @@
 ﻿l_russian:
- omiltos_conclave_faction: "Конклав"  
- omiltos_conclave_faction_desc: "Конклав постепенно подчинит себе весь государственный аппарат."  
+ omiltos_conclave_faction: "Конклав"
+ omiltos_conclave_faction_desc: "Конклав постепенно подчинит себе весь государственный аппарат."
   
- CANNOT_DO_PUPPET: "Я марионетка. У меня нет почти никакого влияния, чтобы сделать это."  
- CANNOT_IMPRISON_CONCLAVE_MEMBER_TOO_STRONG: "Конклав слишком силен, чтобы мы могли напрямую сажать его членов в тюрьму."  
- CANNOT_FIRE_CONCLAVE_MEMBER_TOO_STRONG: "Конклав слишком силен, чтобы я мог исключить его членов из совета."  
+ CANNOT_DO_PUPPET: "Я марионетка. У меня нет почти никакого влияния, чтобы сделать это."
+ CANNOT_IMPRISON_CONCLAVE_MEMBER_TOO_STRONG: "Конклав слишком силен, чтобы мы могли напрямую сажать его членов в тюрьму."
+ CANNOT_FIRE_CONCLAVE_MEMBER_TOO_STRONG: "Конклав слишком силен, чтобы я мог исключить его членов из совета."
+ FACTIONS_COMMON_IN_REDRUNNER_HIVES: "Factions are more common in cultures with [GetCultureTradition('tradition_hives_of_scum_and_villainy').GetName]." #NT!

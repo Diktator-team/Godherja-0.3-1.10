@@ -1,19 +1,24 @@
 ﻿l_russian:
  metropolis.0001.t: "Восстановленная слава"
- metropolis.0001.desc: "Огромные средства, рабочие руки и время, потраченные на восстановление [cleared_ruins_province.GetName]наконец-то принесли свои плоды. Последние завалы разобраны, и район может начать жизнь с чистого листа.\n\nоскольку первые постоянные поселенцы начали переезжать в быстро расширяющиеся, оживленные жилые районы, перед нами встал выбор, как специализировать эту новую часть города."
- metropolis.0001.a: "Прекрасные дворцы станут главной жемчужиной этого района."
- metropolis.0001.b: "Цитадель, обеспечат безопасность всему городу."
+ metropolis.0001.desc: "Огромное количество богатства, рабочих и времени, вложенное в восстановление [cleared_ruins_province.GetName], наконец, принесло свои плоды. Последние завалы уже сметены, и район может начать жизнь с чистого листа.\n\nПоскольку первые постоянные поселенцы начали переселяться в быстро расширяющиеся, оживающие жилые районы, у нас остается выбор, как специализироваться в этом новом часть города."
+ metropolis.0001.a: "Красивые дворцы станут жемчужиной района."
+  metropolis.0001.a.tt:0 "An #E Administration District#! will be constructed in [cleared_ruins_province.GetName] 
+ metropolis.0001.b: "Цитадель, обеспечивающая безопасность всего города."
+  metropolis.0001.b.tt:0 "A #E Scholarly District#! will be constructed in [cleared_ruins_province.GetName] 
  metropolis.0001.c: "Рынки и торговые центры, движущие силы цивилизации."
- metropolis.0001.d: "Гавани, величественные окна в мир."
- metropolis.0001.e: "Храмы и другие символы посвящения божественному."
- metropolis.0001.f: "Не нужно слишком узко специализироваться."
- metropolis.0001.g: "Центр труда для наших граждан."
- metropolis.0001.a.tt: "#E Дворцовый район#! будет построен в [cleared_ruins_province.GetName]
- metropolis.0001.b.tt: "#E Военный округ#! будет построен в [cleared_ruins_province.GetName]
- metropolis.0001.c.tt: "#E Торговый район#! будет построен в [cleared_ruins_province.GetName]
- metropolis.0001.d.tt: "#E Морской район#! будет построен в [cleared_ruins_province.GetName].
- metropolis.0001.e.tt: "#E Храмовый район#! будет построен в [cleared_ruins_province.GetName].
- metropolis.0001.f.tt: "#E Городской округ#! будет построен в [cleared_ruins_province.GetName]
- metropolis.0001.g.tt: "#E Район мастерских#! будет построен в [cleared_ruins_province.GetName].
+  metropolis.0001.c.tt:0 "An #E Economic District#! will be constructed in [cleared_ruins_province.GetName] 
   
- NOT_CAPITAL_COUNTY_METROPOLIS_BUILDING: "Это здание может быть построено (и будет функционировать) только в столичном округе его владельца."
+ #  metropolis.0001.a: "Beautiful palaces shall be the crowning jewel of the district." #NT!
+ #  metropolis.0001.b: "A citadel, to keep the entire city safe." #NT!
+ #  metropolis.0001.c: "Markets and commerce centers, the movers and shakers of civilization." #NT!
+ #  metropolis.0001.d: "Harbours, grand windows to the world." #NT!
+ #  metropolis.0001.e: "Temples and other tokens of dedication to the divine." #NT!
+ #  metropolis.0001.f: "No need to specialize too narrowly." #NT!
+ #  metropolis.0001.g: "A centre of work for our citizens." #NT!
+ #  metropolis.0001.a.tt: "A #E Palatial District#! will be constructed in [cleared_ruins_province.GetName]" #NT!
+ #  metropolis.0001.b.tt: "A #E Military District#! will be constructed in [cleared_ruins_province.GetName]" #NT!
+ #  metropolis.0001.c.tt: "A #E Trade District#! will be constructed in [cleared_ruins_province.GetName]" #NT!
+ #  metropolis.0001.d.tt: "A #E Maritime District#! will be constructed in [cleared_ruins_province.GetName]" #NT!
+ #  metropolis.0001.e.tt: "A #E Temple District#! will be constructed in [cleared_ruins_province.GetName]" #NT!
+ #  metropolis.0001.f.tt: "An #E Urban District#! will be constructed in [cleared_ruins_province.GetName]" #NT!
+ #  metropolis.0001.g.tt: "A #E Workshop District#! will be constructed in [cleared_ruins_province.GetName]" #NT!

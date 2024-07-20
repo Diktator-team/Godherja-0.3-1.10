@@ -1,6 +1,6 @@
 ﻿l_russian:
- court_magic: "Магический двор" 
- court_magic_desc: "#low Мудрость и знания [Concept('magi','магов')|E] нашего королевства приведут нашу землю к еще большим высотам." 
- court_magic_tooltip_desc: "$court_magic$ — это [Concept('court','совет')|E], посвященный практикам [Concept('magi','магов')|E]." 
- cheaper_court_magi_desc: "[Concept('magi','Магов')|E] дешевле нанять в свой [Concept('court','совет')|E]." 
- better_spell_success_chance_desc: "Шанс на успех заклинания #positive_value 10% #!" 
+ court_magic: "Магический двор"
+ court_magic_desc: "#low Мудрость и знания [Concept('magi','магов')|E] нашего королевства приведут нашу землю к еще большим высотам."
+ court_magic_tooltip_desc: "$court_magic$ — это [Concept('court','совет')|E], посвященный практикам [Concept('magi','магов')|E]."
+ cheaper_court_magi_desc: "[Concept('magi','Магов')|E] дешевле нанять в свой [Concept('court','совет')|E]."
+ better_spell_success_chance_desc: "Шанс на успех заклинания #positive_value 10% #!"

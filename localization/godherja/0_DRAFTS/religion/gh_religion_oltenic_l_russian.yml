@@ -1,98 +1,103 @@
 ﻿l_russian:
   
  #cumani Loc 
- oltenic_religion: "Олтенизск" 
- oltenic_religion_adj: "Олтенизм" 
- oltenic_religion_adherent: "Олтеник" 
+ oltenic_religion: "Олтенизск"
+ oltenic_religion_adj: "Олтенизм"
+ oltenic_religion_adherent: "Олтеник"
  oltenic_religion_adherent_plural: "Олтеники"
- oltenic_religion_desc: "Олтеники верят, что мир разделен на две сферы: небо, царство доброжелательного отца Олгон-тена, и земля, царство злобной матери Йеру-май. Однажды Йеру-май в порыве ревности попыталась убить своего мужа, но ее старший сын Олик остановил ее ценой своей жизни. Их второй сын Кайган, закрыв лицо при виде этого, убежал и поклялся никогда не строить дом из земли и не собирать ее плоды. И из чресл Кайгана произошли все народы степи." 
- cumani_high_god_name: "Олгон-тен" 
- cumani_high_god_name_possessive: "Олгон-тен" #Машинный перевод 28.10.23
- cumani_high_god_name_alternate: "Великолепное небо" #Машинный перевод 28.10.23
- cumani_high_god_name_alternate_possessive: "Великолепное небо" #Машинный перевод 28.10.23
- cumani_devil_name: "Селанья" #Машинный перевод 28.10.23
- cumani_devil_name_possessive: "Селанья" #Машинный перевод 28.10.23
- cumani_death_deity_name: "Селанья" #Машинный перевод 28.10.23
- cumani_death_deity_name_possessive: "Селанья" #Машинный перевод 28.10.23
+ oltenic_religion_desc: "Олтеники верят, что мир разделен на две сферы: небо, царство доброжелательного отца Олгон-тена, и земля, царство злобной матери Йеру-май. Однажды Йеру-май в порыве ревности попыталась убить своего мужа, но ее старший сын Олик остановил ее ценой своей жизни. Их второй сын Кайган, закрыв лицо при виде этого, убежал и поклялся никогда не строить дом из земли и не собирать ее плоды. И из чресл Кайгана произошли все народы степи."
+ northern_oltenic_religion: "Northern Öltenism" #NT!
+ northern_oltenic_religion_adj: "Öltenic" #NT!
+ northern_oltenic_religion_adherent: "Ölteni" #NT!
+ northern_oltenic_religion_adherent_plural: "Öltenis" #NT!
+ northern_oltenic_religion_desc: "Öltenis believe that the world is divided into two spheres: the sky, realm of the benevolent father Ölgon-ten, and the earth, realm of the malevolent mother Yeru-mai. Yeru-mai once tried to slay her husband in a fit of jealousy, but was stopped by their eldest son Ölik at the cost of his life. Their second son Kaigan, covering his face at the sight, fled and swore to never build a home of earth or harvest its fruits. And from Kaigan's loins came all the peoples of the steppe." #NT!
+ cumani_high_god_name: "Олгон-тен"
+ cumani_high_god_name_possessive: "Олгон-тен"
+ cumani_high_god_name_alternate: "Великолепное небо"
+ cumani_high_god_name_alternate_possessive: "Великолепное небо"
+ cumani_devil_name: "Селанья"
+ cumani_devil_name_possessive: "Селанья"
+ cumani_death_deity_name: "Селанья"
+ cumani_death_deity_name_possessive: "Селанья"
   
- cumani_house_of_worship: "Кидин-тен" #Машинный перевод 28.10.23
- cumani_house_of_worship_plural: "Кидин-тени" #Машинный перевод 28.10.23
- cumani_religious_symbol: "Лошадь-под-небом" #Машинный перевод 28.10.23
- cumani_religious_text: "Ик-Битик" #Машинный перевод 28.10.23
+ cumani_house_of_worship: "Кидин-тен"
+ cumani_house_of_worship_plural: "Кидин-тени"
+ cumani_religious_symbol: "Лошадь-под-небом"
+ cumani_religious_text: "Ик-Битик"
   
- cumani_religious_head_title: "Олгон-торог" #Машинный перевод 28.10.23
- cumani_religious_head_title_name: "Олгон-кидин" #Машинный перевод 28.10.23
- cumani_devotee_male: "Эйгю-ог" #Машинный перевод 28.10.23
- cumani_devotee_male_plural: "Эйгю-огс" #Машинный перевод 28.10.23
- cumani_devotee_female: "Эйгю-ог" #Машинный перевод 28.10.23
- cumani_devotee_female_plural: "Эйгю-огс" #Машинный перевод 28.10.23
- cumani_devotee_neuter: "Эйгю-ог" #Машинный перевод 28.10.23
- cumani_devotee_neuter_plural: "Эйгю-огс" #Машинный перевод 28.10.23
- cumani_priest_male: "Эйгю-торог" #Машинный перевод 28.10.23
- cumani_priest_male_plural: "Эйгю-торогс" #Машинный перевод 28.10.23
- cumani_priest_female: "Эйгю-торогс" #Машинный перевод 28.10.23
- cumani_priest_female_plural: "Эйгю-торогс" #Машинный перевод 28.10.23
- cumani_priest_alternate_plural: "Эйгю-торогс" #Машинный перевод 28.10.23
- cumani_bishop: "Олгон-ог" #Машинный перевод 28.10.23
- cumani_bishop_plural: "Олгон-огс" #Машинный перевод 28.10.23
- cumani_positive_afterlife: "открытое небо" #Машинный перевод 28.10.23
- cumani_negative_afterlife: "холодная земля" #Машинный перевод 28.10.23
+ cumani_religious_head_title: "Олгон-торог"
+ cumani_religious_head_title_name: "Олгон-кидин"
+ cumani_devotee_male: "Эйгю-ог"
+ cumani_devotee_male_plural: "Эйгю-огс"
+ cumani_devotee_female: "Эйгю-ог"
+ cumani_devotee_female_plural: "Эйгю-огс"
+ cumani_devotee_neuter: "Эйгю-ог"
+ cumani_devotee_neuter_plural: "Эйгю-огс"
+ cumani_priest_male: "Эйгю-торог"
+ cumani_priest_male_plural: "Эйгю-торогс"
+ cumani_priest_female: "Эйгю-торогс"
+ cumani_priest_female_plural: "Эйгю-торогс"
+ cumani_priest_alternate_plural: "Эйгю-торогс"
+ cumani_bishop: "Олгон-ог"
+ cumani_bishop_plural: "Олгон-огс"
+ cumani_positive_afterlife: "открытое небо"
+ cumani_negative_afterlife: "холодная земля"
   
- cumani_creator_god_name: "$cumani_high_god_name$" #Машинный перевод 28.10.23
- cumani_creator_god_name_possessive: "$cumani_high_god_name_possessive$" #Машинный перевод 28.10.23
- cumani_health_god_name: "Олик" #Машинный перевод 28.10.23
- cumani_health_god_name_possessive: "Олика" #Машинный перевод 28.10.23
- cumani_fertility_god_name: "$cumani_high_god_name$" #Машинный перевод 28.10.23
- cumani_fertility_god_name_possessive: "$cumani_high_god_name_possessive$" #Машинный перевод 28.10.23
- cumani_wealth_god_name: "$cumani_high_god_name$" #Машинный перевод 28.10.23
- cumani_wealth_god_name_possessive: "$cumani_high_god_name_possessive$" #Машинный перевод 28.10.23
- cumani_household_god_name: "Kaigan" #Машинный перевод 28.10.23
- cumani_household_god_name_possessive: "Kaigan's" #Машинный перевод 28.10.23
- cumani_fate_god_name: "$cumani_high_god_name$" #Машинный перевод 28.10.23
- cumani_fate_god_name_possessive: "$cumani_high_god_name_possessive$" #Машинный перевод 28.10.23
- cumani_knowledge_god_name: "$cumani_high_god_name$" #Машинный перевод 28.10.23
- cumani_knowledge_god_name_possessive: "$cumani_high_god_name_possessive$" #Машинный перевод 28.10.23
- cumani_war_god_name: "$cumani_high_god_name$" #Машинный перевод 28.10.23
- cumani_war_god_name_possessive: "$cumani_high_god_name_possessive$" #Машинный перевод 28.10.23
- cumani_trickster_god_name: "$cumani_devil_name$" #Машинный перевод 28.10.23
- cumani_trickster_god_name_possessive: "$cumani_devil_name_possessive$" #Машинный перевод 28.10.23
- cumani_night_god_name: "$cumani_devil_name$" #Машинный перевод 28.10.23
- cumani_night_god_name_possessive: "$cumani_devil_name_possessive$" #Машинный перевод 28.10.23
- cumani_water_god_name: "$cumani_health_god_name$" #Машинный перевод 28.10.23
- cumani_water_god_name_possessive: "$cumani_health_god_name_possessive$" #Машинный перевод 28.10.23
- cumani_witch_god_name: "$cumani_devil_name$" #Машинный перевод 28.10.23
- cumani_witch_god_name_possessive: "$cumani_devil_name_possessive$" #Машинный перевод 28.10.23
+ cumani_creator_god_name: "$cumani_high_god_name$"
+ cumani_creator_god_name_possessive: "$cumani_high_god_name_possessive$"
+ cumani_health_god_name: "Олик"
+ cumani_health_god_name_possessive: "Олика"
+ cumani_fertility_god_name: "$cumani_high_god_name$"
+ cumani_fertility_god_name_possessive: "$cumani_high_god_name_possessive$"
+ cumani_wealth_god_name: "$cumani_high_god_name$"
+ cumani_wealth_god_name_possessive: "$cumani_high_god_name_possessive$"
+ cumani_household_god_name: "Kaigan"
+ cumani_household_god_name_possessive: "Kaigan's"
+ cumani_fate_god_name: "$cumani_high_god_name$"
+ cumani_fate_god_name_possessive: "$cumani_high_god_name_possessive$"
+ cumani_knowledge_god_name: "$cumani_high_god_name$"
+ cumani_knowledge_god_name_possessive: "$cumani_high_god_name_possessive$"
+ cumani_war_god_name: "$cumani_high_god_name$"
+ cumani_war_god_name_possessive: "$cumani_high_god_name_possessive$"
+ cumani_trickster_god_name: "$cumani_devil_name$"
+ cumani_trickster_god_name_possessive: "$cumani_devil_name_possessive$"
+ cumani_night_god_name: "$cumani_devil_name$"
+ cumani_night_god_name_possessive: "$cumani_devil_name_possessive$"
+ cumani_water_god_name: "$cumani_health_god_name$"
+ cumani_water_god_name_possessive: "$cumani_health_god_name_possessive$"
+ cumani_witch_god_name: "$cumani_devil_name$"
+ cumani_witch_god_name_possessive: "$cumani_devil_name_possessive$"
   
- cumani: "Олтенизск" 
- cumani_adj: "Олтенизм" 
- cumani_adherent: "Олтеник" 
- cumani_adherent_plural: "Олтеники" 
- cumani_desc: "Олтеники верят, что если они слишком долго оставят свои лица открытыми, ревнивая Йеру-май узнает в них детей Калгана и украдет их души. Таким образом, они скрывают себя масками, которые носят всегда, находясь на улице или в компании других. Эти маски снимаются только в интимные или ритуально важные моменты, как знак чистой преданности и уязвимости." 
- cumani_old: "Старо-олтенизск" 
- cumani_old_adj: "Старый Олтенизм" 
- cumani_old_adherent: "Старый Олтеник" 
- cumani_old_adherent_plural: "Старые Олтеники" 
+ cumani: "Олтенизск"
+ cumani_adj: "Олтенизм"
+ cumani_adherent: "Олтеник"
+ cumani_adherent_plural: "Олтеники"
+ cumani_desc: "Олтеники верят, что если они слишком долго оставят свои лица открытыми, ревнивая Йеру-май узнает в них детей Калгана и украдет их души. Таким образом, они скрывают себя масками, которые носят всегда, находясь на улице или в компании других. Эти маски снимаются только в интимные или ритуально важные моменты, как знак чистой преданности и уязвимости."
+ cumani_old: "Старо-олтенизск"
+ cumani_old_adj: "Старый Олтенизм"
+ cumani_old_adherent: "Старый Олтеник"
+ cumani_old_adherent_plural: "Старые Олтеники"
   
- iek_otached: "Иек-отачедск" 
- iek_otached_adj: "Иек Отачед" 
- iek_otached_adherent: "Иек Отачеди" #Машинный перевод 28.10.23
- iek_otached_adherent_plural: "Иек Отачедис" #Машинный перевод 28.10.23
- iek_otached_desc: "Иек Отачед («Великий Отачед») - это олтенская вера, сосредоточенная вокруг олтенского военачальника Отачеда, от которого произошла большая часть современной олтенской культуры и религии (а также их становление как часть семьи [Concept('the_continent','Континента')|E]). Несмотря на то, что Отачед жил совсем недавно, мало что известно о том, что он действительно покровительствовал культу своего имени или вообще обращал на него внимание. Вместо этого вера набрала популярность после его смерти: Отачед был объявляен Богом - физическим отражением самого Кайгана." 
+ iek_otached: "Иек-отачедск"
+ iek_otached_adj: "Иек Отачед"
+ iek_otached_adherent: "Иек Отачеди"
+ iek_otached_adherent_plural: "Иек Отачедис"
+ iek_otached_desc: "Иек Отачед («Великий Отачед») - это олтенская вера, сосредоточенная вокруг олтенского военачальника Отачеда, от которого произошла большая часть современной олтенской культуры и религии (а также их становление как часть семьи [Concept('the_continent','Континента')|E]). Несмотря на то, что Отачед жил совсем недавно, мало что известно о том, что он действительно покровительствовал культу своего имени или вообще обращал на него внимание. Вместо этого вера набрала популярность после его смерти: Отачед был объявляен Богом - физическим отражением самого Кайгана."
   
- arayymorog: "Арааймёрёг" #Машинный перевод 28.10.23
- arayymorog_adj: "Арааймёрогизм" #Машинный перевод 28.10.23
- arayymorog_adherent: "Арааймёрогян" #Машинный перевод 28.10.23
- arayymorog_adherent_plural: "Арааймёрогцы" #Машинный перевод 28.10.23
- arayymorog_desc: "Означая «поклонение воздуху», эта вера является общим термином для ольтенских религий, утверждающих, что их боги отражаются на [aeras|E] через действия воздуха и ветра, возникающие в результате взаимодействия богов с миром. Они избегают обычных попыток гадания в обмен на навязчивое наблюдение за движением ветра, что приводит к поражению даже на грани победы из-за изменения характера ветра." #Машинный перевод 28.10.23
+ arayymorog: "Арааймёрёг"
+ arayymorog_adj: "Арааймёрогизм"
+ arayymorog_adherent: "Арааймёрогян"
+ arayymorog_adherent_plural: "Арааймёрогцы"
+ arayymorog_desc: "Означая «поклонение воздуху», эта вера является общим термином для ольтенских религий, утверждающих, что их боги отражаются на [aeras|E] через действия воздуха и ветра, возникающие в результате взаимодействия богов с миром. Они избегают обычных попыток гадания в обмен на навязчивое наблюдение за движением ветра, что приводит к поражению даже на грани победы из-за изменения характера ветра."
   
- chakkarai: "Чаккарай" #Машинный перевод 28.10.23
- chakkarai_adj: "Чаккаран" #Машинный перевод 28.10.23
- chakkarai_adherent: "Чаккаран" #Машинный перевод 28.10.23
- chakkarai_adherent_plural: "Чаккарай" #Машинный перевод 28.10.23
- chakkarai_desc: "Поклонники Отачеда, приверженцы этой веры держат его и его семью в божественном свете; его потомки, как говорят, обладали некоторой божественностью. Вера также включает в себя многие философские принципы каширских религий, согласно которым бесчисленные боги Каширии были вассалами Чаккар-Отачеда. Они придерживаются отрицательного мнения о внуке Отачеда Байторе, который, по их мнению, был развращен Йеру-малом, чтобы разрушить божественную империю Отачеда." #Машинный перевод 28.10.23
+ chakkarai: "Чаккарай"
+ chakkarai_adj: "Чаккаран"
+ chakkarai_adherent: "Чаккаран"
+ chakkarai_adherent_plural: "Чаккарай"
+ chakkarai_desc: "Поклонники Отачеда, приверженцы этой веры держат его и его семью в божественном свете; его потомки, как говорят, обладали некоторой божественностью. Вера также включает в себя многие философские принципы каширских религий, согласно которым бесчисленные боги Каширии были вассалами Чаккар-Отачеда. Они придерживаются отрицательного мнения о внуке Отачеда Байторе, который, по их мнению, был развращен Йеру-малом, чтобы разрушить божественную империю Отачеда."
   
- ebohephai_olten: "Эбохефай-Ольтен" #Машинный перевод 28.10.23
- ebohephai_olten_adj: "Эбохефан-Ольтен" #Машинный перевод 28.10.23
- ebohephai_olten_adherent: "Эбохефан-Ольтен" #Машинный перевод 28.10.23
- ebohephai_olten_adherent_plural: "Эбохефай-Ольтен" #Машинный перевод 28.10.23
- ebohephai_olten_desc: "Поклоняясь огромному пантеону духов и богов огня, Эбохефаи считают землю священной из-за своего [Concept('ebohephai_mythology','unique religious heritage')|E]. Хороня людей в курганах, они поклоняются Арлихану и его пяти тысячам духов-демонов и ста богам огня." #Машинный перевод 28.10.23
+ ebohephai_olten: "Эбохефай-Ольтен"
+ ebohephai_olten_adj: "Эбохефан-Ольтен"
+ ebohephai_olten_adherent: "Эбохефан-Ольтен"
+ ebohephai_olten_adherent_plural: "Эбохефай-Ольтен"
+ ebohephai_olten_desc: "Поклоняясь огромному пантеону духов и богов огня, Эбохефаи считают землю священной из-за своего [Concept('ebohephai_mythology','unique religious heritage')|E]. Хороня людей в курганах, они поклоняются Арлихану и его пяти тысячам духов-демонов и ста богам огня."

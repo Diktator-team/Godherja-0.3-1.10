@@ -1,6 +1,6 @@
 ﻿l_russian:
   
- force_join_clique_interaction: "Принуждение к присоединению к клике"  #Машинный перевод 28.10.23!
- force_join_clique_interaction_desc: "Используйте [hook|E] на [recipient.GetShortUIName], чтобы заставить их присоединиться к вашей текущей клике."  #Машинный перевод 28.10.23!
- force_join_clique_interaction_notification: "Вынужден присоединиться к клике"  #Машинный перевод 28.10.23!
- FORCE_JOIN_CLIQUE_NOTIFICATION: "Я решил использовать свое влияние на тебя, чтобы заставить тебя присоединиться к моей клике."  #Машинный перевод 28.10.23!
+ force_join_clique_interaction: "Принуждение к присоединению к клике"
+ force_join_clique_interaction_desc: "Используйте [hook|E] на [recipient.GetShortUIName], чтобы заставить их присоединиться к вашей текущей клике."
+ force_join_clique_interaction_notification: "Вынужден присоединиться к клике"
+ FORCE_JOIN_CLIQUE_NOTIFICATION: "Я решил использовать свое влияние на тебя, чтобы заставить тебя присоединиться к моей клике."

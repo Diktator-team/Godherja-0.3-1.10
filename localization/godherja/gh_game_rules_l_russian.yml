@@ -1,107 +1,158 @@
 ﻿l_russian:
- setting_1653_end_date: "1653"   
- setting_1653_end_date_desc: "Игра закончится в 1653 году."   
+ setting_1653_end_date: "1653"
+ setting_1653_end_date_desc: "Игра закончится в 1653 году."
   
- rule_gedeora: "[gedeora|E]"   
- setting_gedeora_enabled: "Включено"   
- setting_gedeora_enabled_desc: "[gedeora|E] будет случайным образом сотрясать мир, вызывая множество непредсказуемых эффектов примерно раз в 5 лет."   
- setting_gedeora_rare: "Редко"   
- setting_gedeora_rare_desc: "[gedeora|E] будет появляться редко — примерно раз в 20 лет."   
- setting_gedeora_disabled: "Выключенно"   
- setting_gedeora_disabled_desc: "[gedeora|E] не будет появляться."   
+ rule_gedeora: "[gedeora|E]"
+ setting_gedeora_enabled: "Включено"
+ setting_gedeora_enabled_desc: "[gedeora|E] будет случайным образом сотрясать мир, вызывая множество непредсказуемых эффектов примерно раз в 5 лет."
+ setting_gedeora_rare: "Редко"
+ setting_gedeora_rare_desc: "[gedeora|E] будет появляться редко — примерно раз в 20 лет."
+ setting_gedeora_disabled: "Выключенно"
+ setting_gedeora_disabled_desc: "[gedeora|E] не будет появляться."
   
- rule_fogeater_invasion: "Вторжение [Concept('fogeater','туманников')|E]"   
- setting_default_fogeater_invasion: "По умолчанию"   
- setting_default_fogeater_invasion_desc: "[Concept('fogeater','Туманники')|E] вторгнутся в конце 14 века."   
- setting_never_fogeater_invasion: "#high Никогда#!"   
- setting_never_fogeater_invasion_desc: "[Concept('fogeater','Туманники')|E] не будут вторгаться."   
- setting_random_fogeater_invasion: "#high Случайно#!"   
- setting_random_fogeater_invasion_desc: "[Concept('fogeater','Туманники')|E] вторгнутся в случайную дату."   
+ rule_fogeater_invasion: "Вторжение [Concept('fogeater','туманников')|E]"
+ setting_default_fogeater_invasion: "По умолчанию"
+ setting_default_fogeater_invasion_desc: "[Concept('fogeater','Туманники')|E] вторгнутся в конце 14 века."
+ setting_never_fogeater_invasion: "#high Никогда#!"
+ setting_never_fogeater_invasion_desc: "[Concept('fogeater','Туманники')|E] не будут вторгаться."
+ setting_random_fogeater_invasion: "#high Случайно#!"
+ setting_random_fogeater_invasion_desc: "[Concept('fogeater','Туманники')|E] вторгнутся в случайную дату."
   
- rule_adabyss_invasion: "Вторжение Адабисса"   
- setting_default_adabyss_invasion: "По умолчанию"   
- setting_default_adabyss_invasion_desc: "Адабиссское вторжение начнется через 50-80 лет после старта игры."   
- setting_never_adabyss_invasion: "#high Никогда#!"   
- setting_never_adabyss_invasion_desc: "Адабисс не вторгнется на север."   
+ rule_fogeater_spawn: "[fogeater|E] Invasion Direction" #NT!
+ setting_default_fogeater_spawn_location: "Default" #NT!
+ setting_default_fogeater_spawn_location_desc: "The [fogeaters|E] will invade from a random direction" #NT!
+ setting_kalath_fogeater_spawn_location: "Grey Gates" #NT!
+ setting_kalath_fogeater_spawn_location_desc: "The [fogeaters|E] will invade through the Grey Gates" #NT!
+ setting_aironoi_fogeater_spawn_location: "Amaghea" #NT!
+ setting_aironoi_fogeater_spawn_location_desc: "The [fogeaters|E] will invade through Amaghea" #NT!
   
- rule_cenware_conquest_extent: "Завоевание Ценвара: масштабы"   
- setting_cenware_conquest_mainland_etepezea: "Материк Этепезея"   
- setting_cenware_conquest_mainland_etepezea_desc: "ИИ Ценвара завершит свое великое завоевание, захватив материковую Этепезею, но Острова Башни и южная империя не будут захвачены."   
- setting_cenware_conquest_greater_etepezea: "Большая Этепезея"   
- setting_cenware_conquest_greater_etepezea_desc: "ИИ Ценвара завершит свое завоевание после завоевания всей Этепезеи, включая Острова Башни, но не вторгнется в южную империю."   
- setting_cenware_conquest_opakhasia: "Опахазия"   
- setting_cenware_conquest_opakhasia_desc: "ИИ Ценвара завершит свое великое завоевание, захватив Опахазию, но Аироной и Малкоис не будут захвачены."   
- setting_cenware_conquest_entire_empire: "Аверсария"   
- setting_cenware_conquest_entire_empire_desc: "ИИ Ценвара вторгнется до Аиронои или, реже, даже до Малкоиса."   
+ rule_adabyss_invasion: "Вторжение Адабисса"
+ setting_default_adabyss_invasion: "По умолчанию"
+ setting_default_adabyss_invasion_desc: "Адабиссское вторжение начнется через 50-80 лет после старта игры."
+ setting_never_adabyss_invasion: "#high Никогда#!"
+ setting_never_adabyss_invasion_desc: "Адабисс не вторгнется на север."
   
- #rule_cenware_conquest_randomness: "ЗавоеваниеЦенвара: Случайность"   
- #setting_cenware_conquest_randomness_off: "Случайность отключена"   
- #setting_cenware_conquest_randomness_off_desc: "Cenware всегда будет брать точные де-юре очертания империй по правилу экстента, а не отдельного графства в большей или меньшей степени."   
- #setting_cenware_conquest_randomness_on: "Случайность включена"   
- #setting_cenware_conquest_randomness_on_desc: "Завоевание Ценвара может игнорировать второстепенные острова, а иногда даже всю Башню и архипелаг Ититейя. Он также может преждевременно прекратить свое завоевание Южной империи, если Имперрех начнет терять темп."   
+ rule_cenware_conquest_extent: "Завоевание Ценвара: масштабы"
+ setting_cenware_conquest_mainland_etepezea: "Материк Этепезея"
+ setting_cenware_conquest_mainland_etepezea_desc: "ИИ Ценвара завершит свое великое завоевание, захватив материковую Этепезею, но Острова Башни и южная империя не будут захвачены."
+ setting_cenware_conquest_greater_etepezea: "Большая Этепезея"
+ setting_cenware_conquest_greater_etepezea_desc: "ИИ Ценвара завершит свое завоевание после завоевания всей Этепезеи, включая Острова Башни, но не вторгнется в южную империю."
+ setting_cenware_conquest_opakhasia: "Опахазия"
+ setting_cenware_conquest_opakhasia_desc: "ИИ Ценвара завершит свое великое завоевание, захватив Опахазию, но Аироной и Малкоис не будут захвачены."
+ setting_cenware_conquest_entire_empire: "Аверсария"
+ setting_cenware_conquest_entire_empire_desc: "ИИ Ценвара вторгнется до Аиронои или, реже, даже до Малкоиса."
   
- rule_destroy_imperrech: "Сьялволки Имперрех"   
- setting_imperrech_intact: "По умолчанию"   
- setting_imperrech_intact_desc: "Как и предполагалось, Сьялволки Имперрех существует с самого начала."   
- setting_imperrech_destroyed: "#high Уничтожен#!"   
- setting_imperrech_destroyed_desc: "Некоторым игрокам не нравится существование Имперреха, поэтому это игровое правило (если оно выполнено до выхода на карту) уничтожит титул. (Обратите внимание, эта функция находится в стадии разработки)"   
+ #rule_cenware_conquest_randomness: "ЗавоеваниеЦенвара: Случайность"
+ #setting_cenware_conquest_randomness_off: "Случайность отключена"
+ #setting_cenware_conquest_randomness_off_desc: "Cenware всегда будет брать точные де-юре очертания империй по правилу экстента, а не отдельного графства в большей или меньшей степени."
+ #setting_cenware_conquest_randomness_on: "Случайность включена"
+ #setting_cenware_conquest_randomness_on_desc: "Завоевание Ценвара может игнорировать второстепенные острова, а иногда даже всю Башню и архипелаг Ититейя. Он также может преждевременно прекратить свое завоевание Южной империи, если Имперрех начнет терять темп."
   
- rule_opening_events: "Открытие событий"   
- setting_opening_events_enabled: "По умолчанию"   
- setting_opening_events_enabled_desc: "Открытие событий включено."   
- setting_opening_events_disabled: "#high Отключено#!"   
- setting_opening_events_disabled_desc: "Открытие событий отключено."   
+ rule_destroy_imperrech: "Сьялволки Имперрех"
+ setting_imperrech_intact: "По умолчанию"
+ setting_imperrech_intact_desc: "Как и предполагалось, Сьялволки Имперрех существует с самого начала."
+ setting_imperrech_destroyed: "#high Уничтожен#!"
+ setting_imperrech_destroyed_desc: "Некоторым игрокам не нравится существование Имперреха, поэтому это игровое правило (если оно выполнено до выхода на карту) уничтожит титул. (Обратите внимание, эта функция находится в стадии разработки)"
   
- rule_story_content: "Содержание истории"   
- setting_story_content_enabled: "По умолчанию"   
- setting_story_content_enabled_desc: "Содержимое истории включено."   
- setting_story_content_disabled: "#high Отключено#!"   
- setting_story_content_disabled_desc: "Для игроков, которые чувствуют, что вступительные события нарушают их канон, ролевую игру и т. д., сюжетный контент отключается."   
+ rule_common_cause_deterioration: "Common Cause Deterioration" #NT!
+ setting_default_common_cause: "Default" #NT!
+ setting_default_common_cause_desc: "The [faiths|E] of the Imperrech will naturally lose their high [opinion|E] of fellow faiths in the [sjalvolki_migrations|E] within 10 years of the coalition's disbandment." #NT!
+ setting_leisurely_common_cause: "Leisurely" #NT!
+ setting_leisurely_common_cause_desc: "The [faiths|E] of the Imperrech will slowly and reluctantly lose their high [opinion|E] of fellow faiths in the [sjalvolki_migrations|E] within 15 years of the coalition's disbandment." #NT!
+ setting_rapid_common_cause: "Rapid" #NT!
+ setting_rapid_common_cause_desc: "The [faiths|E] of the Imperrech will quickly and abruptly lose their high [opinion|E] of fellow faiths in the [sjalvolki_migrations|E] within 5 years." #NT!
   
- rule_fog_speed: "Скорость распространения [Concept('fog','тумана')|E]"   
- setting_fog_speed_disabled: "Отключено"   
- setting_fog_speed_disabled_desc: "[Concept('fog','Туман')|E] не будет распространяться."   
- setting_fog_speed_glacial: "Очень медленно"   
- setting_fog_speed_glacial_desc: "[Concept('fog','Туман')|E] не может распространяться быстрее, чем на один округ за 30 лет."   
- setting_fog_speed_slow: "Медленно"   
- setting_fog_speed_slow_desc: "[Concept('fog','Туман')|E] не может распространяться быстрее, чем на одно графство раз в 10 лет."   
- setting_fog_speed_default: "По умолчанию"   
- setting_fog_speed_default_desc: "[Concept('fog','Туман')|E] не может распространяться быстрее, чем на одно графство раз в 5 лет."   
- setting_fog_speed_fast: "Быстро"   
- setting_fog_speed_fast_desc: "[Concept('fog','Туман')|E] не может распространяться быстрее, чем на одно графство раз в 2,5 года."   
- setting_fog_speed_apocalypse: "Апокалипсис"   
- setting_fog_speed_apocalypse_desc: "Конец близок, поскольку [Concept('fog','туман')|E] может распространяться на два графства раз в год!"   
+ rule_epiromnuvo_colonization: "Epiromnuvo Colonization" #NT!
+ setting_default_lore_epiromnuvo: "Default" #NT!
+ setting_default_lore_epiromnuvo_desc: "[colonizing|E] [eripomvuno_biozone|E] remains as bad an idea as it does in lore... for now!" #NT!
+ setting_colonizable_epiromnuvo: "Colonizable" #NT!
+ setting_colonizable_epiromnuvo_desc: "Cowards rejoice, as [eripomvuno_biozone|E] is now open for [colonization|E]." #NT!
   
- rule_aervalr_shard: "Осколки [Concept( 'aervalr', 'Аэрвалра' )|E]"   
- setting_aervalr_shard_enabled: "Включено"   
- setting_aervalr_shard_enabled_desc: "Фрагменты разбитого [Concept( 'aervalr', 'Аэрвалра' )|E] разных размеров будут беспорядочно падать на землю, сея хаос."   
- setting_aervalr_shard_disabled: "Отключено"   
- setting_aervalr_shard_disabled_desc: "Осколки [Concept( 'aervalr', 'Аэрвалра' )|E] не будут падать на землю."   
+ rule_colonization_speed: "Colonization Speed" #NT!
+ setting_half_colonization_speed: "Half Speed" #NT!
+ setting_half_colonization_speed_desc: "[colonization|E] progresses half as quickly as default." #NT!
+ setting_default_colonization_speed: "Default" #NT!
+ setting_default_colonization_speed_desc: "[colonization|E] progresses at a normal rate." #NT!
+ setting_x2_colonization_speed: "x2 Speed" #NT!
+ setting_x2_colonization_speed_desc: "[colonization|E] progresses at double the normal speed." #NT!
+ setting_x4_colonization_speed: "x4 Speed" #NT!
+ setting_x4_colonization_speed_desc: "[colonization|E] progresses at quadruple the normal rate." #NT!
+ setting_x10_colonization_speed: "#high x10 Speed#!" #NT!
+ setting_x10_colonization_speed_desc: "[colonization|E] progresses fast. Too fast." #NT!
   
- rule_fog_spread_sarradon: "Распространение [Concept('fog','тумана')|E]: [Concept( 'sarradon', 'Саррадон' )|E]"   
- setting_fog_spread_sarradon_enabled: "Включено"   
- setting_fog_spread_sarradon_enabled_desc: "[Concept('fog','Туман')|E] может пересечь море и прибудет к берегам [Concept( 'sarradon', 'Саррадона' )|E]."   
- setting_fog_spread_sarradon_disabled: "Отключено"   
- setting_fog_spread_sarradon_disabled_desc: "[Concept('fog','Туман')|E] не сможет добраться до [Concept( 'sarradon', 'Саррадона' )|E]."   
+ rule_easteregg_characters: "Easter Egg Characters" #NT!
+ setting_easteregg_characters_default: "Default" #NT!
+ setting_easteregg_characters_default_desc: "Easter egg [characters|E] will remain in their intended places." #NT!
+ setting_easteregg_characters_promoted: "Promoted" #NT!
+ setting_easteregg_characters_promoted_desc: "Easter egg [barons|E] will take the title of their ruling [count|E] so that they can be played." #NT!
   
- rule_hammarts_wild_ride: "Дикая езда Хаммарта"   
- setting_hammarts_wild_ride_enabled: "Включено"   
- setting_hammarts_wild_ride_enabled_desc: "Каждый живой персонаж за пределами [Concept( 'chevalie', 'Шевалье' )|E], а также Хаммарта, станет [Concept('magi','магом')|E] 20-го уровня с образованием во всех формах [Concept('magic','магии')|E]. Это просто настройка для развлечения, производительность не гарантирована."   
- setting_hammarts_wild_ride_disabled: "Отключено"   
- setting_hammarts_wild_ride_disabled_desc: "Распределение магических черт будет таким же, как в обычной игре."   
+ rule_opening_events: "Открытие событий"
+ setting_opening_events_enabled: "По умолчанию"
+ setting_opening_events_enabled_desc: "Открытие событий включено."
+ setting_opening_events_disabled: "#high Отключено#!"
+ setting_opening_events_disabled_desc: "Открытие событий отключено."
   
- rule_wasteland_color: "Цвет пустоши"   
- setting_wasteland_color_gray: "Серый"   
- setting_wasteland_color_gray_desc: "Пустые графства будут на карте серыми."   
- setting_wasteland_color_white: "Белый"   
- setting_wasteland_color_white_desc: "Пустые графства будут на карте белыми."   
- setting_wasteland_color_black: "Черный"   
- setting_wasteland_color_black_desc: "Пустые графства будут на карте черными."   
+ rule_story_content: "Содержание истории"
+ setting_story_content_enabled: "По умолчанию"
+ setting_story_content_enabled_desc: "Содержимое истории включено."
+ setting_story_content_disabled: "#high Отключено#!"
+ setting_story_content_disabled_desc: "Для игроков, которые чувствуют, что вступительные события нарушают их канон, ролевую игру и т. д., сюжетный контент отключается."
+  
+ rule_fog_speed: "Скорость распространения [Concept('fog','тумана')|E]"
+ setting_fog_speed_disabled: "Отключено"
+ setting_fog_speed_disabled_desc: "[Concept('fog','Туман')|E] не будет распространяться."
+ setting_fog_speed_glacial: "Очень медленно"
+ setting_fog_speed_glacial_desc: "[Concept('fog','Туман')|E] не может распространяться быстрее, чем на один округ за 30 лет."
+ setting_fog_speed_slow: "Медленно"
+ setting_fog_speed_slow_desc: "[Concept('fog','Туман')|E] не может распространяться быстрее, чем на одно графство раз в 10 лет."
+ setting_fog_speed_default: "По умолчанию"
+ setting_fog_speed_default_desc: "[Concept('fog','Туман')|E] не может распространяться быстрее, чем на одно графство раз в 5 лет."
+ setting_fog_speed_fast: "Быстро"
+ setting_fog_speed_fast_desc: "[Concept('fog','Туман')|E] не может распространяться быстрее, чем на одно графство раз в 2,5 года."
+ setting_fog_speed_apocalypse: "Апокалипсис"
+ setting_fog_speed_apocalypse_desc: "Конец близок, поскольку [Concept('fog','туман')|E] может распространяться на два графства раз в год!"
+  
+ rule_aervalr_shard: "Осколки [Concept( 'aervalr', 'Аэрвалра' )|E]"
+ setting_aervalr_shard_enabled: "Включено"
+ setting_aervalr_shard_enabled_desc: "Фрагменты разбитого [Concept( 'aervalr', 'Аэрвалра' )|E] разных размеров будут беспорядочно падать на землю, сея хаос."
+ setting_aervalr_shard_disabled: "Отключено"
+ setting_aervalr_shard_disabled_desc: "Осколки [Concept( 'aervalr', 'Аэрвалра' )|E] не будут падать на землю."
+ setting_aervalr_shard_doubled: "Double Chance" #NT!
+ setting_aervalr_shard_doubled_desc: "[aervalr|E] shards will be twice as likely to fall upon [aeras|E]." #NT!
+ setting_aervalr_shard_quadrupled: "Quadruple Chance" #NT!
+ setting_aervalr_shard_quadrupled_desc: "[aervalr|E] shards will be four times as likely to fall upon [aeras|E]." #NT!
+ setting_aervalr_shard_apocalyptic: "#N Armageddon!#!" #NT!
+ setting_aervalr_shard_apocalyptic_desc: "[aervalr|E] shards will fall up to once a day instead of once a year. Watch your head!" #NT!
+  
+ rule_fog_spread_sarradon: "Распространение [Concept('fog','тумана')|E]: [Concept( 'sarradon', 'Саррадон' )|E]"
+ setting_fog_spread_sarradon_enabled: "Включено"
+ setting_fog_spread_sarradon_enabled_desc: "[Concept('fog','Туман')|E] может пересечь море и прибудет к берегам [Concept( 'sarradon', 'Саррадона' )|E]."
+ setting_fog_spread_sarradon_disabled: "Отключено"
+ setting_fog_spread_sarradon_disabled_desc: "[Concept('fog','Туман')|E] не сможет добраться до [Concept( 'sarradon', 'Саррадона' )|E]."
+  
+ rule_hammarts_wild_ride: "Дикая езда Хаммарта"
+ setting_hammarts_wild_ride_enabled: "Включено"
+ setting_hammarts_wild_ride_enabled_desc: "Каждый живой персонаж за пределами [Concept( 'chevalie', 'Шевалье' )|E], а также Хаммарта, станет [Concept('magi','магом')|E] 20-го уровня с образованием во всех формах [Concept('magic','магии')|E]. Это просто настройка для развлечения, производительность не гарантирована."
+ setting_hammarts_wild_ride_disabled: "Отключено"
+ setting_hammarts_wild_ride_disabled_desc: "Распределение магических черт будет таким же, как в обычной игре."
+  
+ rule_wasteland_color: "Цвет пустоши"
+ setting_wasteland_color_gray: "Серый"
+ setting_wasteland_color_gray_desc: "Пустые графства будут на карте серыми."
+ setting_wasteland_color_white: "Белый"
+ setting_wasteland_color_white_desc: "Пустые графства будут на карте белыми."
+ setting_wasteland_color_black: "Черный"
+ setting_wasteland_color_black_desc: "Пустые графства будут на карте черными."
   
   ############## 
   # CATEGORIES # 
   ############## 
- general_category_name: "Общий"   
- borders_category_name: "Границы"   
- magic_category_name: "Магия"   
- story_content_category_name: "Содержание сюжета #X (МОЖЕТ СОДЕРЖАТЬ СПОЙЛЕРЫ)#!"   
+ general_category_name: "Общий"
+ borders_category_name: "Границы"
+ game_rule_category_story_content: "Story Content #X (MAY CONTAIN SPOILERS)#!" #NT!
+ game_rule_category_magic: "Magic" #NT!
+ game_rule_category_lore: "Lore" #NT!
+ game_rule_category_godherja_mechanics: "Godherja Mechanics" #NT!
+ game_rule_category_fun: "Just for Fun" #NT!
+ game_rule_category_godherja: "Godherja" #NT!
+ game_rule_category_fog: "Fog" #NT!

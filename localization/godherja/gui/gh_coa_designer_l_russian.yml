@@ -1,10 +1,20 @@
 ﻿l_russian:
- COA_DESIGNER_CATEGORY_0gh_aversaria: "GH - Аверсария"  
- COA_DESIGNER_CATEGORY_0gh_agionism: "GH - Агионисты"  
- COA_DESIGNER_CATEGORY_0gh_chevalie: "GH - Шевалье"  
- COA_DESIGNER_CATEGORY_0gh_sarradon: "GH - Саррадон"  
- COA_DESIGNER_CATEGORY_0gh_partic: "GH - Партик"  
- COA_DESIGNER_CATEGORY_0gh_sjalvolki: "GH - Сялволки"  
- COA_DESIGNER_CATEGORY_0gh_fogeaters: "GH – Туманники"  
- COA_DESIGNER_CATEGORY_9gh_patterns: "GH — Оттенки"  
- COA_DESIGNER_CATEGORY_9gh_other: "GH – другое"  
+ COA_DESIGNER_CATEGORY_0gh_aversaria: "GH - Аверсария"
+ COA_DESIGNER_CATEGORY_0gh_agionism: "GH - Агионисты"
+ COA_DESIGNER_CATEGORY_0gh_chevalie: "GH - Шевалье"
+ COA_DESIGNER_CATEGORY_0gh_sarradon: "GH - Саррадон"
+ COA_DESIGNER_CATEGORY_0gh_partic: "GH - Партик"
+ COA_DESIGNER_CATEGORY_0gh_sjalvolki: "GH - Сялволки"
+ COA_DESIGNER_CATEGORY_0gh_fogeaters: "GH – Туманники"
+ COA_DESIGNER_CATEGORY_1gh_patterns: "GH - Patterns" #NT!
+ COA_DESIGNER_CATEGORY_1gh_other: "GH - Other" #NT!
+ COA_DESIGNER_CATEGORY_1gh_arcana: "GH - Arcana" #NT!
+ COA_DESIGNER_CATEGORY_1gh_writing: "GH - Writing" #NT!
+  
+ COA_DESIGNER_CATEGORY_2_ps_ordinaries: "PS - Partitions & Ordinaries" #NT!
+ COA_DESIGNER_CATEGORY_3_ps_beasts: "PS - Beasts" #NT!
+ COA_DESIGNER_CATEGORY_3_ps_charges: "PS - Charges" #NT!
+ COA_DESIGNER_CATEGORY_4_ps_misc: "PS - Misc" #NT!
+ PS_COA_DESIGNER_DELETE_INSTANCE_FROM_SELECTION: "Click to REMOVE"
+  
+ COA_DESIGNER_CATEGORY_2_apotheosis: "Apotheosis Emblems" #NT!

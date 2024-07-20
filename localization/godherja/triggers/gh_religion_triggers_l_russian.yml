@@ -1,3 +1,7 @@
 ﻿l_russian:
   
- AHRIDAR_CANNOT_CREATE_HOF_TITLE_WITHOUT_DECISION_TRIGGER: "[Concept('faiths','Веры')|E] с доктриной [GetFaithDoctrine('tenet_veneration_of_ohrasik').GetBaseName] [core_tenet|E] может создать своего [Concept('head_of_faith','лидера')|E] только через [Concept('decision','решения')|E]"
+ AHRIDAR_CANNOT_CREATE_HOF_TITLE_WITHOUT_DECISION_TRIGGER: "[faiths|E] с [GetFaithDoctrine('tenet_veneration_of_ohrasik').GetBaseName] [core_tenet|E] может создать свой [head_of_faith|E] только через [decision|E]"
+  
+ INCOMPATIBLE_TENET_DAKASAN_EXHAUSTION_TRIGGER: "Incompatible with the [core_tenet|E] [GetFaithDoctrine('tenet_dakasan_exhaustion').GetName( GetPlayer.GetFaith )]" #NT!
+  
+ INCOMPATIBLE_TENET_DAKASAN_PURITY_TRIGGER: "Incompatible with the [core_tenet|E] [GetFaithDoctrine('tenet_dakasan_purity').GetName( GetPlayer.GetFaith )]" #NT!

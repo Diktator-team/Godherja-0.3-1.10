@@ -1,9 +1,315 @@
 ﻿l_russian:
- cn_grunnmere: "Гроннмер"  
- cn_gronnmar: "Гроннмар"  
- cn_graunmeir: "Граунмейр"  
- cn_hunigstrom: "Хунигстром"  
- cn_grosbuch: "Гросбух"  
- cn_bokholm: "Бокхольм"  
- cn_leshengrav: "Лешенграв"  
- cn_fortrifeld: "Фортрифельд"  
+ cn_drangsbak: "Drangsbak" #NT!
+ cn_drengsbekk: "Drengsbekk" #NT!
+ cn_kannith: "Kannith" #NT!
+ cn_konniD_i: "Konniði" #NT!
+ cn_raiphuls: "Raiphuls" #NT!
+ cn_reipholt: "Reipholt" #NT!
+ cn_stanahuf: "Stanahof" #NT!
+ cn_stejnahof: "Stejnahof" #NT!
+ cn_steinahov: "Steinahov" #NT!
+ cn_stanahovis: "Stanahovis" #NT!
+ cn_zargnia: "Zargnia" #NT!
+ cn_sargneja: "Sargneja" #NT!
+ cn_sargneia: "Sargneia" #NT!
+ cn_sargnia: "Sargnia" #NT!
+ cn_zargost: "Zargost" #NT!
+ cn_sargoss: "Sargoss" #NT!
+ cn_sargos: "Sargos" #NT!
+ cn_haubrun: "Haubrun" #NT!
+ cn_horbrun: "Horbrun" #NT!
+ cn_hobyrn: "Hobyrn" #NT!
+ cn_utrabak: "Utrabak" #NT!
+ cn_otrabekk: "Otrabekk" #NT!
+ cn_kremeko: "Kremeko" #NT!
+ cn_kremkof: "Kremkof" #NT!
+ cn_nodost: "Nodost" #NT!
+ cn_nodoss: "Nodoss" #NT!
+ cn_nodos: "Nodos" #NT!
+ cn_lagwulgif: "Lagwulgif" #NT!
+ cn_lajgvolgvi: "Lajgvolgvi" #NT!
+ cn_lagvolgvi: "Lagvolgvi" #NT!
+ cn_lagvokis: "Lagvokis" #NT!
+ cn_kloidaln: "Kloidaln" #NT!
+ cn_klodal: "Klodal" #NT!
+ cn_klodalis: "Klodalis" #NT!
+ cn_ejrisif: "Ejrisif" #NT!
+ cn_yrisvi: "Yrisvi" #NT!
+ cn_tehunhufi: "Tehunhofi" #NT!
+ cn_teinhofi: "Teinhofi" #NT!
+ cn_teinhovi: "Teinhovi" #NT!
+ cn_tenovi: "Tenovi" #NT!
+ cn_krinawalth: "Krinawalth" #NT!
+ cn_krajnavolD: "Krajnavolð" #NT!
+ cn_vorichifisk: "Vorichifisk" #NT!
+ cn_voraivisk: "Voraivisk" #NT!
+ cn_kloiburg: "Kloiburg" #NT!
+ cn_kloborg: "Kloborg" #NT!
+ cn_klutburg: "Klutburg" #NT!
+ cn_klodeborg: "Klodeborg" #NT!
+ cn_logost: "Logost" #NT!
+ cn_laugoss: "Laugoss" #NT!
+ cn_logos: "Logos" #NT!
+ cn_abelbak: "Abelbak" #NT!
+ cn_aplibekk: "Aplibekk" #NT!
+ cn_wulth_valraif: "Wulth Valraif" #NT!
+ cn_volD_vjorvi: "Volð Vjorvi" #NT!
+ cn_volD_viori: "Volð Viori" #NT!
+ cn_voloras: "Voloras" #NT!
+ cn_valrastath: "Valrastath" #NT!
+ cn_vjorstaD: "Vjorstað" #NT!
+ cn_viorstaD: "Viorstað" #NT!
+ cn_vilrastatis: "Vilrastatis" #NT!
+ cn_torg_vorchaif: "Torg Vorchaif" #NT!
+ cn_torg_urvi: "Torg Urvi" #NT!
+ cn_hoprodal: "Hoprodal" #NT!
+ cn_oprodolos: "Oprodolos" #NT!
+ cn_rosabak: "Rosabak" #NT!
+ cn_rosbekk: "Rosbekk" #NT!
+ cn_iwaham: "Iwaham" #NT!
+ cn_yrhaum: "Yrhaum" #NT!
+ cn_mihragratha: "Mihragratha" #NT!
+ cn_miragarD: "Miragarð" #NT!
+ cn_sornafurd: "Sornafurd" #NT!
+ cn_sjoraforD: "Sjoraforð" #NT!
+ cn_sioraforD: "Sioraforð" #NT!
+ cn_niuhus: "Niuhus" #NT!
+ cn_nyhus: "Nyhus" #NT!
+ cn_harahuf: "Harahof" #NT!
+ cn_hjorhof: "Hjorhof" #NT!
+ cn_hiorhov: "Hiorhov" #NT!
+ cn_araovis: "Araovis" #NT!
+ cn_jasbak: "Jasbak" #NT!
+ cn_jasbekk: "Jasbekk" #NT!
+ cn_askiles: "Askiles" #NT!
+ cn_askilas: "Askilas" #NT!
+ cn_goimawulth: "Goimawulth" #NT!
+ cn_gymravolD: "Gymravolð" #NT!
+ cn_kynstorg: "Kynstorg" #NT!
+ cn_cynstor: "Cynstor" #NT!
+ cn_vichraturm: "Vichraturm" #NT!
+ cn_viD_ratorr: "Viðratorr" #NT!
+ cn_haraburg: "Haraburg" #NT!
+ cn_hjoraborg: "Hjoraborg" #NT!
+ cn_hirnborg: "Hirnborg" #NT!
+ cn_arabourgos: "Arabourgos" #NT!
+ cn_alnigratha: "Alnigratha" #NT!
+ cn_ilnigarD: "Ilnigarð" #NT!
+ cn_elnigarD: "Elnigarð" #NT!
+ cn_anigrathas: "Anigrathas" #NT!
+ cn_saltorg: "Saltorg" #NT!
+  
+     ######################## 
+     # e_etepezea           # 
+     ######################## 
+           ## k_palitake 
+             # Baronies 
+             # Counties 
+             # Duchies 
+ cn_tarnoya: "Tarnoya" #NT!
+           ## k_assocaea 
+ cn_drekvild: "Drekvild" #NT!
+     ############# 
+     # e_aironoi # 
+     ############# 
+         ## k_hyrea 
+ cn_svarnbod: "Svarnbod" #NT!
+         ## k_kalliados 
+ cn_aironen: "Aironen" #NT!
+         ## k_kteumaxa 
+ cn_langmark: "Langmark" #NT!
+         ## e_asiupoliox 
+ cn_aestakrona: "Aestakrona" #NT!
+  
+     ############### 
+     # e_malcois   # 
+     ############### 
+         ## e_malcois 
+ cn_steinmar: "Steinmar" #NT!
+  
+     ############### 
+     # e_opakhasia # 
+     ############### 
+         ## k_eve 
+ cn_garv: "Garv" #NT!
+             #d_tegina 
+ cn_sonnenhorn: "Sonnenhorn" #NT!
+             #d_karthos_isles1 
+ cn_marmeyjaer: "Marmeyjaer" #NT!
+         ## k_suncourt 
+ cn_zafankast: "Zafankast" #NT!
+ cn_vryhkast: "Vrýhkast" #NT!
+             # d_vathopus 
+ cn_kvelitindr: "Kvelitindr" #NT!
+             # d_sanctum 
+ cn_dragahuf: "Dragahof" #NT!
+ cn_draughof: "Draughovn" #NT!
+ cn_droghov: "Droghov" #NT!
+ cn_dragovis: "Dragovis" #NT!
+  
+     ######################### 
+ 	# e_the_reach # 
+ 	######################### 
+  
+         ## k_everrain ## 
+             # Baronies 
+ cn_swangarth: "Swangarth" #NT!
+ cn_svangarD_r: "Svangarðr" #NT!
+             # Counties 
+             # Duchies 
+ cn_grimwith: "Grimwith" #NT!
+ cn_grimviD_r: "Grimviðr" #NT!
+ cn_laueigmark: "Laueigmark" #NT!
+ cn_lauegmark: "Lauegmark" #NT!
+ cn_laugmarg: "Laugmark" #NT!
+         ## k_faegift ## 
+             # Baronies 
+             # Counties 
+             # Duchies 
+         ## k_aldergreen ## 
+         ## k_heartwood ## 
+             # Baronies 
+ cn_strumgrathi: "Strumgrathi" #NT!
+ cn_strumgarD_: "Strumgarð" #NT!
+ cn_lagtur: "Lagtur" #NT!
+ cn_lajgdor: "Lajgdor" #NT!
+ cn_nordkris: "Nordkris" #NT!
+ cn_oerbrid: "Oerbrid" #NT!
+ cn_guldstel: "Guldstel" #NT!
+ cn_haramon: "Haramon" #NT!
+ cn_hjormon: "Hjormon" #NT!
+ cn_hirnmon: "Hirnmon" #NT!
+ cn_bakerstad: "Bakerstad" #NT!
+ cn_brunhus: "Brunhus" #NT!
+ cn_stantonn: "Stantonn" #NT!
+ cn_abelbrog: "Abelbrog" #NT!
+ cn_guldawode: "Guldawode" #NT!
+ cn_kriv_obgart: "Kriv Obgart" #NT!
+ cn_krajv_obgart: "Krajv Obgart" #NT!
+ cn_plomport: "Plomport" #NT!
+ cn_hexestan: "Hexestan" #NT!
+ cn_barbrun: "Barbrun" #NT!
+ cn_sotla: "Sotla" #NT!
+ cn_svuD_la: "Svuðla" #NT!
+ cn_ossostrum: "Ossostrum" #NT!
+ cn_melklingstan: "Melklingstan" #NT!
+ cn_laumist: "Laumist" #NT!
+ cn_laumistas: "Laumistas" #NT!
+ cn_irchafurd: "Irchafurd" #NT!
+ cn_raiforD_r: "Raiforðr" #NT!
+ cn_rapordos: "Rapordos" #NT!
+ cn_hriggstath: "Hriggstath" #NT!
+ cn_hringstaD_r: "Hringstaðr" #NT!
+ cn_rigstaD_r: "Rigstaðr" #NT!
+ cn_rinstatis: "Rinstatis" #NT!
+ cn_runastan: "Runastan" #NT!
+ cn_runsteinn: "Runsteinn" #NT!
+ cn_fortrifeld: "Фортрифельд"
+             # Counties 
+ cn_vichrinbrog: "Vichrinbrog" #NT!
+ cn_hoirech: "Hoirech" #NT!
+ cn_sedirwiel: "Sedirwiel" #NT!
+ cn_sotgart: "Sotgart" #NT!
+ cn_svuD_gart: "Svuðgart" #NT!
+ cn_sibhen: "Sibhen" #NT!
+ cn_haselvolth: "Haselvolth" #NT!
+ cn_kaselvolD_: "Haselvolð" #NT!
+ cn_alniwith: "Alniwith" #NT!
+ cn_ilniviD_r: "Ilniviðr" #NT!
+ cn_alnivis: "Alnivis" #NT!
+ cn_wulgifisk: "Wulgifisk" #NT!
+ cn_volgvisk: "Volgvisk" #NT!
+ cn_lesga: "Lesga" #NT!
+ cn_lasgja: "Lasgja" #NT!
+ cn_grosbuch: "Гросбух"
+ cn_bokholm: "Бохольм"
+ cn_leshengrav: "Лешенграв"
+ cn_andel: "Andel" #NT!
+ cn_sornfurd: "Sornfurd" #NT!
+ cn_sjorforD: "Sjorforð" #NT!
+ cn_siorforD: "Siorforð" #NT!
+ cn_sorfori: "Sorfori" #NT!
+             # Duchies 
+ cn_nitherkalath: "Nitherkalath" #NT!
+ cn_niD_klajD_r: "Niðklajðr" #NT!
+ cn_niD_claiD_r: "Niðclaiðr" #NT!
+ cn_nigtablom: "Nigtablom" #NT!
+ cn_nagtablom: "Nagtablom" #NT!
+ cn_hunigstrom: "Хунигстрем"
+ cn_grunnmere: "Гроннмер"
+ cn_gronnmar: "Гроннмар"
+ cn_graunmeir: "Граунмейр"
+ cn_alvidal: "Alvidal" #NT!
+         ## k_skycrown ## 
+  
+             # Duchies 
+ cn_iwahal: "Iwahal" #NT!
+ cn_yrihal: "Yrihal" #NT!
+ cn_yrehal: "Yrehal" #NT!
+ cn_ivahal: "Ivahal" #NT!
+ cn_westerfals: "Westerfals" #NT!
+ cn_vestrfjall: "Vestrfjall" #NT!
+ cn_vestrfiol: "Vestrfiol" #NT!
+ cn_vestrefal: "Vestrefal" #NT!
+  
+     ######################## 
+     # e_cornucopia # 
+     ######################## 
+  
+         ## k_redwald ## 
+             # Baronies 
+ cn_richahuf: "Richahof" #NT!
+ cn_rihjahof: "Rihjahov" #NT!
+ cn_rigahof: "Rigahof" #NT!
+ cn_stanamast: "Stanamast" #NT!
+ cn_steinamest: "Steinamest" #NT!
+ cn_stanamas: "Stanamas" #NT!
+             # Counties 
+ cn_lobethiz: "Lobethiz" #NT!
+ cn_lobeD_ir: "Lobeðir" #NT!
+ cn_lobethis: "Lobethis" #NT!
+ cn_wenhus: "Wenhus" #NT!
+ cn_vinhus: "Vinhus" #NT!
+ cn_vinos: "Vinos" #NT!
+             # Duchies 
+ cn_hradtrew: "Hradtrew" #NT!
+ cn_hreD_tre: "Hreðtre" #NT!
+ cn_reD_tre: "Reðtre" #NT!
+ cn_redtres: "Redtres" #NT!
+ cn_fydorbaki: "Fydorbaki" #NT!
+ cn_fyribekki: "Fyribekki" #NT!
+ cn_fyrebekke: "Fyrebekke" #NT!
+ cn_fydoron: "Fydoron" #NT!
+         ## k_cornucopia 
+             # Baronies 
+ cn_virthla: "Virthla" #NT!
+ cn_virD_la: "Virðla" #NT!
+ cn_afinsburg: "Afinsburg" #NT!
+ cn_avnsborg: "Avnsborg" #NT!
+ cn_furohavna: "Furohavna" #NT!
+ cn_furahavn: "Furahavn" #NT!
+ cn_forehavn: "Forehavn" #NT!
+ cn_furoana: "Furoana" #NT!
+             # Counties 
+ cn_habeli: "Habeli" #NT!
+ cn_habli: "Habli" #NT!
+ cn_afinsklar: "Afinsklar" #NT!
+ cn_avnsklarr: "Avnsklarr" #NT!
+ cn_skallund: "Skallund" #NT!
+ cn_skjellundr: "Skjellundr" #NT!
+ cn_scallund: "Scallund" #NT!
+ cn_scaludos: "Scaludos" #NT!
+ cn_trullnasi: "Trullnasi" #NT!
+ cn_trollnes: "Trollnes" #NT!
+ cn_troldnes: "Troldnes" #NT!
+ cn_trulnasi: "Trulnasi" #NT!
+         ## k_schoweiler ## 
+             # Counties 
+ cn_alnibak: "Alnibak" #NT!
+ cn_kjalnbekk: "Kjalnbekk" #NT!
+ cn_elnbekk: "Elnbekk" #NT!
+ cn_vasstrum: "Vasstrum" #NT!
+ cn_vejD_strum: "Vejðstrum" #NT!
+ cn_veiD_strum: "Veiðstrum" #NT!
+ cn_wullatorg: "Wullatorg" #NT!
+ cn_ullatorg: "Ullatorg" #NT!

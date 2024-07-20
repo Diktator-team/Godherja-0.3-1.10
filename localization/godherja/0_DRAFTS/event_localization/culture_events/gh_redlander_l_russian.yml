@@ -1,0 +1,17 @@
+﻿l_russian:
+ gh_redlander_events.0001.t: "Scions of the Pit" #NT!
+ gh_redlander_events.0001.desc.intro: "They emerge under the cover of darkness, their dark robes blending with the bleeding red landscape. Of them, there are two—two scions of the pit, two servants of the profane gods, two... disciples who can one day carry on my legacy.\n\n" #NT!
+ gh_redlander_events.0001.desc.heir: "I can choose none, one, or the other—although I have little doubt that [old_heir.GetFirstName] will not be pleased with being denied what [old_heir.GetSheHe] believes is [old_heir.GetHerHis] rightful place." #NT!
+ gh_redlander_events.0001.desc.no_heir: "I can choose one or the other—but not both." #NT!
+ gh_redlander_events.0001.a: "[first.GetNameNoTooltip] shows potential." #NT!
+ gh_redlander_events.0001.b: "[second.GetNameNoTooltip] will be the one." #NT!
+ gh_redlander_events.0001.claim_tt: "Gets [pressed_claims|E] on all your [titles|E]" #NT!
+ gh_redlander_events.0001.c: "Neither of them is good enough." #NT!
+ gh_redlander_events.0001.c.tt: "You dismiss [first.GetName] and [second.GetName]" #NT!
+ gh_redlander_events.0002.t: "A Dark Ritual" #NT!
+ gh_redlander_events.0002.desc: "I am in the midst of sharpening my sacrificial dagger for the offerings I must make to the Dark Gods I serve when I hear a noise behind me. I turn to see an unfamiliar hooded figure approaching me, dragging two bound and beaten captive Redrunners in tow. "Greetings [ROOT.GetCharacter.GetFirstName] [ROOT.GetCharacter.GetDynasty.GetName], my name is [great_commander.GetFirstName]. I bring you new candidates to please our dark masters."\n\nThe dim lighting of [great_commander.GetFirstNamePossessive] torch casts a series of eerie shadows across the dark, towering walls of the canyon around us. Our captives struggle weakly against their bonds as we approach the site of the ritual altar, its hewn jet-black stone stained crimson with dried blood. As I place both captives on the altar, I ponder whether or not two sacrifices will be sufficient to please my dark masters. Perhaps more blood is needed... " #NT!
+ gh_redlander_events.0002.a: "Ahhh... Fresh meat..." #NT!
+ gh_redlander_events.0002.b: "This one will prove useful, I am sure of it." #NT!
+  
+  
+  

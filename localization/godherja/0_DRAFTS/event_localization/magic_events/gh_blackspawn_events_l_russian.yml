@@ -1,0 +1,31 @@
+﻿l_russian:
+ new_divine_mission_notification_tt: "You have been tasked with fulfilling the following task:" #NT!
+ mission_type_notification_tt: "#BOL Type#!: [Localize(Concatenate(new_divine_mission_scope.MakeScope.Var('mission_type').GetFlagName, '_name'))]" #NT!
+ mission_multiplicity_notification_tt: "#BOL Count#!: [new_divine_mission_scope.MakeScope.Var('mission_multiplicity').GetValue|0]" #NT!
+ mission_multiplicity_notification_count_tt: "#BOL Count#!: [new_divine_mission_scope.MakeScope.Var('completed_subtasks').GetValue|0]/[new_divine_mission_scope.MakeScope.Var('mission_multiplicity').GetValue|0]" #NT!
+ mission_target_primary_title_tier_barony_notification_tt: "#BOL Tier#!: [baron|E]" #NT!
+ mission_target_primary_title_tier_county_notification_tt: "#BOL Tier#!: [count|E]" #NT!
+ mission_target_primary_title_tier_duchy_notification_tt: "#BOL Tier#!: [duchy|E]" #NT!
+ mission_target_primary_title_tier_kingdom_notification_tt: "#BOL Tier#!: [kingdom|E]" #NT!
+ mission_target_primary_title_tier_empire_notification_tt: "#BOL Tier#!: [empire|E]" #NT!
+ mission_kill_method_murder_notification_tt: "#BOL Kill Method#!: Murder" #NT!
+ mission_kill_method_mysterious_notification_tt: "#BOL Kill Method#!: Mysterious" #NT!
+ mission_kill_method_sacrifice_notification_tt: "#BOL Kill Method#!: Ritual Sacrifice" #NT!
+ mission_kill_method_death_magic_targeted_spell_notification_tt: "#BOL Kill Method!: Magic" #NT!
+ mission_target_development_notification_tt: "#BOL Minimum [development|E]#!: [new_divine_mission_scope.MakeScope.Var('mission_target_development').GetValue|0]" #NT!
+ mission_target_virtue_number_notification_tt: "#BOL Number of [virtues|E]#!: [new_divine_mission_scope.MakeScope.Var('mission_target_virtue_number').GetValue|0]" #NT!
+ mission_target_magic_level_1_notification_tt: "#BOL Magic Level#!: [GetTrait('magic_good_1').GetName( GetNullCharacter )] or above" #NT!
+ mission_target_magic_level_2_notification_tt: "#BOL Magic Level#!: [GetTrait('magic_good_2').GetName( GetNullCharacter )] or above" #NT!
+ mission_target_magic_level_3_notification_tt: "#BOL Magic Level#!: [GetTrait('magic_good_3').GetName( GetNullCharacter )] or above" #NT!
+ mission_target_magic_level_4_notification_tt: "#BOL Magic Level#!: [GetTrait('magic_good_4').GetName( GetNullCharacter )] or above" #NT!
+ mission_target_magic_level_5_notification_tt: "#BOL Magic Level#!: [GetTrait('magic_good_5').GetName( GetNullCharacter )] or above" #NT!
+ mission_target_magic_level_high_notification_tt: "#BOL Magic Level#!: [GetTrait('magic_good_6')] or above" #NT!
+ mission_remaining_time_notification_tt: "#BOL Remaining time#!: [new_divine_mission_scope.MakeScope.Var('mission_timer_total').GetValue|0] years" #NT!
+ mission_remaining_time_penalty_notification_tt: "#BOL Remaining time until penalty#!: [new_divine_mission_scope.MakeScope.Var('mission_timer_stage').GetValue|0] years" #NT!
+ blackspawn_mission_update_title: "Divine Mission Progress" #NT!
+ decrease_divine_mission_penalties_effect_tt: "You gained more time to complete your mission" #NT!
+  
+ mission_type_kill_name: "Kill Character" #NT!
+ mission_type_raid_name: "Raid Province" #NT!
+ mission_type_child_pit_name: "Send Child to the Pit" #NT!
+  

@@ -1,3 +1,54 @@
 ﻿l_russian:
- cn_machrolac: "Махролак"  
- cn_futhostria: "Футхострия"  
+ cn_machrolac: "Макролак"
+  
+     ######################### 
+ 	# e_the_reach # 
+ 	######################### 
+  
+         ## k_everrain ## 
+             # Baronies 
+             # Counties 
+             # Duchies 
+         ## k_faegift ## 
+             # Baronies 
+             # Counties 
+             # Duchies 
+         ## k_aldergreen ## 
+         ## k_heartwood ## 
+ cn_futhostria: "Футострия"
+             # Baronies 
+ cn_rivierkastil: "Rivierkastil" #NT!
+ cn_greitora: "Greitora" #NT!
+ cn_nortikrus: "Nortikrus" #NT!
+ cn_orbrit: "Orbrit" #NT!
+ cn_gudstam: "Gudstam" #NT!
+ cn_altemun: "Âltemûn" #NT!
+ cn_praketur: "Praketûr" #NT!
+ cn_withas: "Withas" #NT!
+ cn_hamarton: "Hamarton" #NT!
+ cn_appelbrego: "Appelbrêgo" #NT!
+ cn_gildoed: "Gildoed" #NT!
+ cn_krochgart: "Krochgart" #NT!
+ cn_promfort: "Promfort" #NT!
+ cn_magohamar: "Magohamar" #NT!
+ cn_berivieren: "Berivieren" #NT!
+ cn_svittelik: "Svittelik" #NT!
+ cn_skadrivieren: "Skadrivieren" #NT!
+ cn_palderot: "Palderot" #NT!
+             # Counties 
+ cn_altebrego: "Âltebrêgo" #NT!
+ cn_heilano: "Heilâno" #NT!
+ cn_sidrewel: "Sidrewel" #NT!
+ cn_svittern: "Svittern" #NT!
+ cn_cibonne: "Cibenno" #NT!
+ cn_gildspalt: "Gildspalt" #NT!
+ cn_hunigkrus: "Hunigkrus" #NT!
+             # Duchies 
+ cn_huniglano: "Huniglâno" #NT!
+         ## k_skycrown ## 
+  
+     ######################## 
+     # e_cornucopia # 
+     ######################## 
+  
+         ## k_redwald ## 

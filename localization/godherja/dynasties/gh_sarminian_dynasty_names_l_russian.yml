@@ -1,92 +1,114 @@
 ﻿l_russian:
   ### Historic Dynasties ### 
- dynn_Tauromilai: "Тавромилай"  #Машинный перевод 28.10.23!
- dynn_Tauromilai_motto: "Салазсек все еще жив"  #Машинный перевод 28.10.23!
- dynn_AllI_spdial: "Allispdial"  #Машинный перевод 28.10.23!
- dynn_AllI_spdial_motto: "Верные дочери Небесной Матери"  #Машинный перевод 28.10.23!
- dynn_CzarmA_ditis: "Чармадитис"  #Машинный перевод 28.10.23!
- dynn_CzarmA_ditis_motto: "Лазурная родословная Салазы"  #Машинный перевод 28.10.23!
+ dynn_Tauromilai: "Тавромилай"
+ dynn_Tauromilai_motto: "Салазсек все еще жив"
+ dynn_AllI_spdial: "Allispdial"
+ dynn_AllI_spdial_motto: "Верные дочери Небесной Матери"
+ dynn_CzarmA_ditis: "Чармадитис"
+ dynn_CzarmA_ditis_motto: "Лазурная родословная Салазы"
   ### Cultural Dynasties ### 
- dynn_AE_nis: "Энис"  #Машинный перевод 28.10.23!
- dynn_AgA_fatis: "Агафатис"  #Машинный перевод 28.10.23!
- dynn_A_ldisz: "Алдис"  #Машинный перевод 28.10.23!
- dynn_AltI_ris: "Альтирис"  #Машинный перевод 28.10.23!
- dynn_AmA_tonos: "Аматонос"  #Машинный перевод 28.10.23!
- dynn_Ardygis: "Ардигис"  #Машинный перевод 28.10.23!
- dynn_ArgA_pelis: "Аргапелис"  #Машинный перевод 28.10.23!
- dynn_A_ris: "Арис"  #Машинный перевод 28.10.23!
- dynn_Arszyan: "Арсян"  #Машинный перевод 28.10.23!
- dynn_AU_rsigal: "Аурсигаль"  #Машинный перевод 28.10.23!
- dynn_AzA_lkely: "Азалкели"  #Машинный перевод 28.10.23!
- dynn_BA_lkaris: "Балкарис"  #Машинный перевод 28.10.23!
- dynn_BA_torosz: "Баторош"  #Машинный перевод 28.10.23!
- dynn_BO_menkeles: "Боменкелес"  #Машинный перевод 28.10.23!
- dynn_BudI_nas: "Будинас"  #Машинный перевод 28.10.23!
- dynn_ChI_lias: "Чилиас"  #Машинный перевод 28.10.23!
- dynn_CzA_gasis: "Чагасис"  #Машинный перевод 28.10.23!
- dynn_CzanI_gy: "Чаниги"  #Машинный перевод 28.10.23!
- dynn_CzA_rdy: "Чарды"  #Машинный перевод 28.10.23!
- dynn_Czarmaty: "Царматии"  #Машинный перевод 28.10.23!
- dynn_CzarU_nes: "Царунес"  #Машинный перевод 28.10.23!
- dynn_CzA_uraty: "Чаурати"  #Машинный перевод 28.10.23!
- dynn_CzA_zar: "Царь"  #Машинный перевод 28.10.23!
- dynn_CzE_rsonetis: "Черсонетис"  #Машинный перевод 28.10.23!
- dynn_CzI_rke: "Чирке"  #Машинный перевод 28.10.23!
- dynn_DO_ndares: "Дондарес"  #Машинный перевод 28.10.23!
- dynn_DszU_mohazy: "Джумохазы"  #Машинный перевод 28.10.23!
- dynn_E_igodis: "Когодис"  #Машинный перевод 28.10.23!
- dynn_E_lbaris: "Эльбарис"  #Машинный перевод 28.10.23!
- dynn_E_szterhazy: "Эстерхази"  #Машинный перевод 28.10.23!
- dynn_E_tephar: "Этефар"  #Машинный перевод 28.10.23!
- dynn_GadE_kely: "Гадекели"  #Машинный перевод 28.10.23!
- dynn_GA_latuj: "Галатуй"  #Машинный перевод 28.10.23!
- dynn_GjE_kely: "Гьекели"  #Машинный перевод 28.10.23!
- dynn_GO_rdianoj: "Гордианой"  #Машинный перевод 28.10.23!
- dynn_HU_nyaj: "Хуньядж"  #Машинный перевод 28.10.23!
- dynn_IrA_dy: "Иради"  #Машинный перевод 28.10.23!
- dynn_IsO_: "Исо"  #Машинный перевод 28.10.23!
- dynn_IszA_natis: "Исанатис"  #Машинный перевод 28.10.23!
- dynn_KamarazE_s: "Камаразеш"  #Машинный перевод 28.10.23!
- dynn_KA_rczosz: "Карчош"  #Машинный перевод 28.10.23!
- dynn_KarzU_hazy: "Карзухази"  #Машинный перевод 28.10.23!
- dynn_KavridE_s: "Кавридес"  #Машинный перевод 28.10.23!
- dynn_KhI_mriz: "Химриз"  #Машинный перевод 28.10.23!
- dynn_KhI_tas: "Хитас"  #Машинный перевод 28.10.23!
- dynn_KinE_khatis: "Кинехатис"  #Машинный перевод 28.10.23!
- dynn_LamI_szi: "Ламиси"  #Машинный перевод 28.10.23!
- dynn_LE_ity: "Лейти"  #Машинный перевод 28.10.23!
- dynn_MA_itosz: "Майтош"  #Машинный перевод 28.10.23!
- dynn_MarkyA_ri: "Маркьяри"  #Машинный перевод 28.10.23!
- dynn_MA_rmA_hazy: "Мармахази"  #Машинный перевод 28.10.23!
- dynn_MedO_za: "Медоса"  #Машинный перевод 28.10.23!
- dynn_MirI_noj: "Мириной"  #Машинный перевод 28.10.23!
- dynn_MU_retis: "Муретис"  #Машинный перевод 28.10.23!
- dynn_NA_mus: "Намус"  #Машинный перевод 28.10.23!
- dynn_Nepetis: "Непетис"  #Машинный перевод 28.10.23!
- dynn_O_chakes: "Очакес"  #Машинный перевод 28.10.23!
- dynn_OkO_rzanE_s: "Окурзанес"  #Машинный перевод 28.10.23!
- dynn_OlbI_yanes: "Ольбианес"  #Машинный перевод 28.10.23!
- dynn_Omnedis: "Омнедис"  #Машинный перевод 28.10.23!
- dynn_O_mramakosz: "Омрамакош"  #Машинный перевод 28.10.23!
- dynn_O_ranis: "Оранис"  #Машинный перевод 28.10.23!
- dynn_O_rbis: "Орбис"  #Машинный перевод 28.10.23!
- dynn_O_rismI_kos: "Орисмикос"  #Машинный перевод 28.10.23!
- dynn_O_rozal: "Орозал"  #Машинный перевод 28.10.23!
- dynn_Ossigatis: "Оссигатис"  #Машинный перевод 28.10.23!
- dynn_PhA_rusz: "Фаруш"  #Машинный перевод 28.10.23!
- dynn_Phetis: "Фетис"  #Машинный перевод 28.10.23!
- dynn_PO_charis: "Похарис"  #Машинный перевод 28.10.23!
- dynn_Psimetis: "Псиметис"  #Машинный перевод 28.10.23!
- dynn_RadamO_rfis: "Радаморфис"  #Машинный перевод 28.10.23!
- dynn_RO_ksalany: "Роксаланы"  #Машинный перевод 28.10.23!
- dynn_SA_ggari: "Саггари"  #Машинный перевод 28.10.23!
- dynn_SaitafarE_s: "Сайтафарес"  #Машинный перевод 28.10.23!
- dynn_SA_ranis: "Саранис"  #Машинный перевод 28.10.23!
- dynn_ScI_tis: "скитис"  #Машинный перевод 28.10.23!
- dynn_SiU_makos: "Сиумакос"  #Машинный перевод 28.10.23!
- dynn_SkylU_ris: "Скилюрис"  #Машинный перевод 28.10.23!
- dynn_SzA_poly: "Саполи"  #Машинный перевод 28.10.23!
- dynn_TA_rnais: "Тарнаис"  #Машинный перевод 28.10.23!
- dynn_TI_moklis: "Тимоклис"  #Машинный перевод 28.10.23!
- dynn_Toksamis: "Токсамис"  #Машинный перевод 28.10.23!
- dynn_ZU_ary: "Зуари"  #Машинный перевод 28.10.23!
+ dynn_AE_nis: "Энис"
+ dynn_AgA_fatis: "Агафатис"
+ dynn_Agarotis: "Agarotis" #NT!
+ dynn_A_ldis: "Áldis" #NT!
+ dynn_AltI_ris: "Альтирис"
+ dynn_Amaton: "Amaton" #NT!
+ dynn_Amurgis: "Amurgis" #NT!
+ dynn_Ardygis: "Ардигис"
+ dynn_ArgA_halis: "Argáhalis" #NT!
+ dynn_A_ris: "Арис"
+ dynn_Armadis: "Armadis" #NT!
+ dynn_Arsigalis: "Arsigalis" #NT!
+ dynn_Arszan: "Arszan" #NT!
+ dynn_Astrahalis: "Astrahalis" #NT!
+ dynn_AvhA_ta: "Avháta" #NT!
+ dynn_Azalhalis: "Azalhalis" #NT!
+ dynn_BalkA_ris: "Balkáris" #NT!
+ dynn_BatU_ros: "Batúros" #NT!
+ dynn_BO_menhalis: "Bómenhalis" #NT!
+ dynn_BorystE_nes: "Borystênes" #NT!
+ dynn_BudI_nas: "Будинас"
+ dynn_ChI_lon: "Chílon" #NT!
+ dynn_CzagA_sis: "Czagásis" #NT!
+ dynn_CzanI_gis: "Czanígis" #NT!
+ dynn_CzA_rdys: "Czárdys" #NT!
+ dynn_Czarmaty: "Царматии"
+ dynn_CzarU_nes: "Царунес"
+ dynn_CzazA_r: "Czazár" #NT!
+ dynn_CzE_rsonetis: "Черсонетис"
+ dynn_Czimeris: "Czimeris" #NT!
+ dynn_CzI_rkola: "Czírkola" #NT!
+ dynn_CzU_ratis: "Czúratis" #NT!
+ dynn_DszU_mos: "Dszúmos" #NT!
+ dynn_DU_ndares: "Dúndares" #NT!
+ dynn_E_igodis: "Когодис"
+ dynn_E_ksampei: "Êksampei" #NT!
+ dynn_E_lbaris: "Эльбарис"
+ dynn_E_lithI_s: "Êlithís" #NT!
+ dynn_E_lizonis: "Êlizonis" #NT!
+ dynn_E_rhippei: "Êrhippei" #NT!
+ dynn_E_rimolis: "Êrimolis" #NT!
+ dynn_E_ssalis: "Êssalis" #NT!
+ dynn_E_tephar: "Этефар"
+ dynn_GadE_kes: "Gadêkes" #NT!
+ dynn_GalA_tu: "Galátu" #NT!
+ dynn_Geroson: "Geroson" #NT!
+ dynn_Gudamis: "Gudamis" #NT!
+ dynn_Horsaris: "Horsaris" #NT!
+ dynn_HU_nyasz: "Húnyasz" #NT!
+ dynn_Hycarnis: "Hycarnis" #NT!
+ dynn_IrA_dy: "Иради"
+ dynn_IsO_s: "Isós" #NT!
+ dynn_IszA_nagis: "Iszánagis" #NT!
+ dynn_KamarazE_: "Kamarazê" #NT!
+ dynn_Karczosz: "Karczosz" #NT!
+ dynn_KarU_halis: "Karúhalis" #NT!
+ dynn_Katyaris: "Katyaris" #NT!
+ dynn_KavridE_: "Kavridê" #NT!
+ dynn_KhI_mris: "Khímris" #NT!
+ dynn_KhI_tas: "Хитас"
+ dynn_KinE_khatis: "Кинехатис"
+ dynn_Krozis: "Krozis" #NT!
+ dynn_LamI_szis: "Lamíszis" #NT!
+ dynn_LE_itys: "Lêitys" #NT!
+ dynn_MA_itosz: "Майтош"
+ dynn_Markoyaris: "Markoyaris" #NT!
+ dynn_Marmahalis: "Marmahalis" #NT!
+ dynn_MedO_sa: "Medósa" #NT!
+ dynn_MI_rnos: "Mírnos" #NT!
+ dynn_MU_retis: "Муретис"
+ dynn_Nagathyris: "Nagathyris" #NT!
+ dynn_NA_mus: "Намус"
+ dynn_Nepetis: "Непетис"
+ dynn_OdelI_s: "Odelís" #NT!
+ dynn_O_korzan: "Ókorzan" #NT!
+ dynn_Omnedis: "Омнедис"
+ dynn_O_ramakosz: "Óramakosz" #NT!
+ dynn_O_ranis: "Оранис"
+ dynn_O_rbis: "Орбис"
+ dynn_OrdE_s: "Ordês" #NT!
+ dynn_O_rismI_kos: "Орисмикос"
+ dynn_O_roszal: "Óroszal" #NT!
+ dynn_Ossigatis: "Оссигатис"
+ dynn_ParalA_t: "Paralát" #NT!
+ dynn_Partis: "Partis" #NT!
+ dynn_PhA_rusz: "Фаруш"
+ dynn_Phetis: "Фетис"
+ dynn_Psedvark: "Psedvark" #NT!
+ dynn_Psimetis: "Псиметис"
+ dynn_PU_char: "Púchar" #NT!
+ dynn_Radamorfis: "Radamorfis" #NT!
+ dynn_RU_nsalanis: "Rúnsalanis" #NT!
+ dynn_SaggA_ris: "Saggáris" #NT!
+ dynn_SarA_nis: "Saránis" #NT!
+ dynn_ScI_tis: "скитис"
+ dynn_SkilU_ris: "Skilúris" #NT!
+ dynn_SzA_poly: "Саполи"
+ dynn_SzE_kelis: "Szêkelis" #NT!
+ dynn_TarnA_is: "Tarnáis" #NT!
+ dynn_TI_moklis: "Тимоклис"
+ dynn_Toksamis: "Токсамис"
+ dynn_TrerE_: "Trerê" #NT!
+ dynn_Zatafar: "Zatafar" #NT!
+ dynn_Zimahelis: "Zimahelis" #NT!
+ dynn_ZU_ary: "Зуари"

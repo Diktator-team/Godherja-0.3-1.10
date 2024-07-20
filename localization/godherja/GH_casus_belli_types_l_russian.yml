@@ -1,0 +1,33 @@
+﻿l_russian:
+  
+  
+ redlands_adventure_war: "Redlands Evacuation" #NT!
+ REDLANDS_ADVENTURE_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] Redlands Evacuation in [TITLE.GetBaseNameNoTooltip]" #NT!
+ REDLANDS_ADVENTURE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" #NT!
+ REDLANDS_ADVENTURE_CB_NAME: "Redlands Evacuation" #NT!
+ redlands_crisis_must_be_active: "The [redlands_biozone|E] Crisis must be active" #NT!
+ has_coast_access: "Has a coastal [county|E]" #NT!
+ MORE_EXPENSIVE_BEYOND_THE_ISLANDS: "Fleeing Beyond the [GetGeographicalRegion('GH_geographic_redrunner_islands').GetName]" #NT!
+  
+ antipiracy_cb: "Борьба с пиратством"
+ ANTIPIRACY_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] Действия по борьбе с пиратством в [TITLE.GetBaseNameNoTooltip]"
+ ANTIPIRACY_CB_NAME: "Борьба с пиратством"
+ ANTIPIRACY_CB_SPECIFIC_NAME: "Борьба с пиратством в [TITLE.GetBaseName]"
+ ANTIPIRACY_WAR_NAME_FALLBACK: "Борьба с пиратством"
+  
+ antipeasants_cb: "Squash Peasantry" #NT!
+ ANTIPEASANTS_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] Anti-Peasant action in [TITLE.GetBaseNameNoTooltip]" #NT!
+ ANTIPEASANTS_CB_NAME: "Squash Peasantry" #NT!
+ ANTIPEASANTS_WAR_NAME_FALLBACK: "Squash Peasantry" #NT!
+  
+ ISLES_CLAIM_CONQUEST_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] Завоевание островов в [TITLE.GetBaseNameNoTooltip]"
+ ISLES_CLAIM_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ ISLES_CLAIM_CONQUEST_CB_NAME: "Завоевание островов"
+ isles_retribution_cb: "Превосходство островитян"
+ isles_claimant_conquest_cb: "Претендующий на острова"
+  
+  
+ redland_cull_war: "Culling" #NT!
+ REDLANDS_CULL_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] Redlander Chaos in [TITLE.GetBaseNameNoTooltip]" #NT!
+ REDLANDS_CULL_CB_NAME: "Redlander's Cull" #NT!
+ REDLANDS_CULL_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" #NT!

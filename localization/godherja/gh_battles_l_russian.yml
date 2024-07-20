@@ -1,0 +1,9 @@
+﻿l_russian:
+  # Olteni mask-taking 
+ knight_killed_by_enemy_mask_looted_friendly: "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] was slain by [TARGET_CHARACTER.GetShortUINameNoTooltip], who took [CHARACTER.GetHerHis] mask as spoils of war!" #NT!
+ knight_killed_by_enemy_mask_looted_enemy: "Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] killed [CHARACTER.GetShortUINameNoTooltip] and took [CHARACTER.GetHerHis] mask as spoils of war!" #NT!
+ commander_killed_by_enemy_mask_looted_friendly_player: "You were slain by [TARGET_CHARACTER.GetUINameNoTooltip], who took your mask as spoils of war!" #NT!
+ commander_killed_by_enemy_mask_looted_friendly: "Commander [CHARACTER.GetUINameNoTooltip] was slain by [TARGET_CHARACTER.GetUINameNoTooltip], who took [CHARACTER.GetHerHis] mask as spoils of war!" #NT!
+ commander_killed_by_enemy_mask_looted_enemy: "[TARGET_CHARACTER.GetUINameNoTooltip] has slain the enemy commander, [CHARACTER.GetUINameNoTooltip], and took [CHARACTER.GetHerHis] mask as spoils of war!" #NT!
+ commander_killed_by_enemy_mask_looted_interface_friendly: "[ROOT.Char.GetUINameNoTooltip] was slain by [enemy_combatant.GetUINameNoTooltip], who had taken [ROOT.Char.GetHerHis] mask as spoils of war!" #NT!
+  

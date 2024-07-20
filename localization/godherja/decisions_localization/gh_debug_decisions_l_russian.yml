@@ -1,9 +1,15 @@
 ﻿l_russian:
- instant_colonization_debug_toggle: "Переключатель быстрой колонизации (DEBUG)"  #Машинный перевод 28.10.23!
- instant_colonization_debug_desc: "Включает/выключает быструю колонизацию. Работает только на недавно основанных колониях. Вам необходимо подождать 30 дней, чтобы колонизация завершилась."  #Машинный перевод 28.10.23!
- instant_colonization_debug_toggle_tooltip: "ОТЛАДОЧНОЕ РЕШЕНИЕ"  #Машинный перевод 28.10.23!
- instant_colonization_debug_toggle_confirm: "Пришло время рисовать карты"  #Машинный перевод 28.10.23!
+ instant_colonization_debug_toggle: "Переключатель быстрой колонизации (DEBUG)"
+ instant_colonization_debug_desc: "Включает/выключает быструю колонизацию. Работает только на недавно основанных колониях. Вам необходимо подождать 30 дней, чтобы колонизация завершилась."
+ instant_colonization_debug_toggle_tooltip: "ОТЛАДОЧНОЕ РЕШЕНИЕ"
+ instant_colonization_debug_toggle_confirm: "Пришло время рисовать карты"
  add_all_new_unit_types: "Add all new unit types"
  add_all_new_unit_types_tooltip: "DEBUG DECISION"
  add_all_new_unit_types_desc: "Adds a stack of all new unit types for testing."
  add_all_new_unit_types_confirm: "Bazinga!"
+ add_olteni_masks: "Add Ölteni Masks" #NT!
+ add_olteni_masks_tooltip: "DEBUG DECISION" #NT!
+ add_olteni_masks_desc: "Adds a bunch of Olteni Masks for testing" #NT!
+ add_olteni_masks_effect_tooltip: "Adds #V 100#! Olteni Mask artifacts or random quality" #NT!
+ add_olteni_masks_confirm: "Bazinga!" #NT!
+  

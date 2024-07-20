@@ -1,0 +1,83 @@
+﻿l_russian:
+  
+ dahala_religion: "Dahala" #NT!
+ dahala_religion_adj: "Dahala" #NT!
+ dahala_religion_adherent: "Dahalai" #NT!
+ dahala_religion_adherent_plural: "Dahalai" #NT!
+ dahala_religion_desc: "To the Dahala, power is a concrete resource dispensed to those who earn it." #NT!
+ dahala_high_god_name: "Datal" #NT!
+ dahala_high_god_name_possessive: "Datal's" #NT!
+ dahala_high_god_name_alternate: "The Source" #NT!
+ dahala_high_god_name_alternate_possessive: "The Source's" #NT!
+ dahala_devil_name: "Datal" #NT!
+ dahala_devil_name_possessive: "Datal's" #NT!
+ dahala_death_deity_name: "$dahala_devil_name$" #NT!
+ dahala_death_deity_name_possessive: "$dahala_devil_name_possessive$" #NT!
+  
+ dahala_house_of_worship: "Lakong" #NT!
+ dahala_house_of_worship_plural: "Lakonga" #NT!
+ dahala_religious_symbol: "The Holy Mountain" #NT!
+ dahala_religious_text: "Paths to Power" #NT!
+  
+ dahala_religious_head_title: "Dalamyan" #NT!
+ dahala_religious_head_title_name: "the Dalamyan" #NT!
+ dahala_devotee: "Devotee" #NT!
+ dahala_devotee_plural: "Devotees" #NT!
+ dahala_devotee_neuter: "Devotee" #NT!
+ dahala_devotee_neuter_plural: "Devotees" #NT!
+ dahala_priest: "Lamyan" #NT!
+ dahala_priest_plural: "Lamyana" #NT!
+ dahala_priest_female: "Lamyan" #NT!
+ dahala_priest_female_plural: "Lamyana" #NT!
+ dahala_priest_neuter: "Lamyan" #NT!
+ dahala_priest_neuter_plural: "Lamyana" #NT!
+ dahala_priest_alternate_plural: "Lamyana" #NT!
+ dahala_bishop: "Kalamyan" #NT!
+ dahala_bishop_plural: "Kalamyan" #NT!
+ dahala_bishop_neuter: "Kalamyan" #NT!
+ dahala_bishop_neuter_plural: "Kalamyan" #NT!
+ dahala_positive_afterlife: "$dahala_high_god_name$" #NT!
+ dahala_negative_afterlife: "$dahala_devil_name$" #NT!
+  
+ dahala_creator_god_name: "$dahala_high_god_name$" #NT!
+ dahala_creator_god_name_possessive: "$dahala_high_god_name_possessive$" #NT!
+ dahala_health_god_name: "$dahala_high_god_name$" #NT!
+ dahala_health_god_name_possessive: "$dahala_high_god_name_possessive$" #NT!
+ dahala_fertility_god_name: "$dahala_high_god_name$" #NT!
+ dahala_fertility_god_name_possessive: "$dahala_high_god_name_possessive$" #NT!
+ dahala_wealth_god_name: "$dahala_high_god_name$" #NT!
+ dahala_wealth_god_name_possessive: "$dahala_high_god_name_possessive$" #NT!
+ dahala_household_god_name: "$dahala_health_god_name$" #NT!
+ dahala_household_god_name_possessive: "$dahala_health_god_name_possessive$" #NT!
+ dahala_fate_god_name: "$dahala_high_god_name$" #NT!
+ dahala_fate_god_name_possessive: "$dahala_high_god_name_possessive$" #NT!
+ dahala_knowledge_god_name: "$dahala_high_god_name$" #NT!
+ dahala_knowledge_god_name_possessive: "$dahala_high_god_name_possessive$" #NT!
+ dahala_war_god_name: "$dahala_high_god_name$" #NT!
+ dahala_war_god_name_possessive: "$dahala_high_god_name_possessive$" #NT!
+ dahala_trickster_god_name: "$dahala_devil_name$" #NT!
+ dahala_trickster_god_name_possessive: "$dahala_devil_name_possessive$" #NT!
+ dahala_night_god_name: "$dahala_high_god_name$" #NT!
+ dahala_night_god_name_possessive: "$dahala_high_god_name_possessive$" #NT!
+ dahala_water_god_name: "$dahala_health_god_name$" #NT!
+ dahala_water_god_name_possessive: "$dahala_health_god_name_possessive$" #NT!
+ dahala_witch_god_name: "$dahala_devil_name$" #NT!
+ dahala_witch_god_name_possessive: "$dahala_devil_name_possessive$" #NT!
+  
+ dahala: "Dahala" #NT!
+ dahala_adj: "Dahala" #NT!
+ dahala_adherent: "Dahalai" #NT!
+ dahala_adherent_plural: "Dahalai" #NT!
+ dahala_desc: "To the Dahalai, power, much like gold or water, is a concrete resource that can be gained or spent. Its faithful believe that the best way to obtain power is through the cleansing of one's body through meditation and abstinence. As one then accumulates power, they manifest desirable qualities — and those that possess great beauty and fertility are honored as paragons." #NT!
+  
+ narina: "Narina" #NT!
+ narina_adj: "Narina" #NT!
+ narina_adherent: "Narinai" #NT!
+ narina_adherent_plural: "Narinai" #NT!
+ narina_desc: "While the orthodox teachings of the Dahalan faith preach that power is obtained through purity, the Narinai believe that power is already present in one's body, and must be freed from the passions that contaminate it. To this end, adherents constantly strive to exhaust these passions — whether through revelry, deviancy or even murder. This has led the Narinai to be persecuted in Dahangon, though it has taken root in the land and is oft practiced by ambitious lords seeking dominion." #NT!
+  
+ saldakas: "Saldakas" #NT!
+ saldakas_adj: "Saldakas" #NT!
+ saldakas_adherent: "Saldakai" #NT!
+ saldakas_adherent_plural: "Saldakai" #NT!
+ saldakas_desc: "A remote sect centered in the northwestern mountains of Dahangon, the Saldakai maintain that power is not only concrete but also tangible in the form of [magic|E]. Practitioners of this sect seek to accumulate magical energies within their bodies, and Saldakai rituals are heavily pervaded by the arcane." #NT!

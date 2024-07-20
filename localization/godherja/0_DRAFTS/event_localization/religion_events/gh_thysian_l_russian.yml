@@ -1,0 +1,54 @@
+﻿l_russian:
+ # Notification events 
+  
+ thysian.0010.opening: "[recipient.Custom2('AppropriateGreeting', actor )]" #NT!
+ thysian.0010.desc: "you're a great doctor please treat me" #NT!
+ thysian.0010.a: "Begin treatment" #NT!
+  
+ thysian.0011.opening: "[recipient.Custom2('AppropriateGreeting', actor )]" #NT!
+ thysian.0011.desc: "you're a shit doctor stay away from me" #NT!
+ thysian.0011.a: "Damnit" #NT!
+  
+ thysian.0012.t: "Treatment Options" #NT!
+ thysian.0012.desc: "what treatment to choose?" #NT!
+ thysian.0012.a: "Safe Treatment" #NT!
+ thysian.0012.b: "Risky Treatment" #NT!
+ thysian.0012.c: "Mystic Treatment" #NT!
+  
+ # Safe Treatment Events 
+  
+ thysian.0013.t: "Safe Treatment: Success" #NT!
+ thysian.0013.desc: "treatment went good" #NT!
+ thysian.0013.a: "yay" #NT!
+  
+ thysian.0014.t: "Safe Treatment: Failure" #NT!
+ thysian.0014.desc: "treatment went badly" #NT!
+ thysian.0014.a: "crap" #NT!
+  
+ # Risky Treatment Events 
+  
+ thysian.0015.t: "Risky Treatment: Critical Success" #NT!
+ thysian.0015.desc: "treatment went super good" #NT!
+ thysian.0015.a: "double yay" #NT!
+  
+ thysian.0016.t: "Risky Treatment: Success" #NT!
+ thysian.0016.desc: "treatment went good" #NT!
+ thysian.0016.a: "yay" #NT!
+  
+ thysian.0017.t: "Risky Treatment: Failure" #NT!
+ thysian.0017.desc: "treatment went badly" #NT!
+ thysian.0017.a: "crap" #NT!
+  
+ # Mystic Treatment Events 
+  
+ thysian.0018.t: "Mystic Treatment: Critical Success" #NT!
+ thysian.0018.desc: "treatment went super good" #NT!
+ thysian.0018.a: "double yay" #NT!
+  
+ thysian.0019.t: "Mystic Treatment: Success" #NT!
+ thysian.0019.desc: "treatment went good" #NT!
+ thysian.0019.a: "yay" #NT!
+  
+ thysian.0020.t: "Mysstic Treatment: Failure" #NT!
+ thysian.0020.desc: "treatment went badly" #NT!
+ thysian.0020.a: "crap" #NT!

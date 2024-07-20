@@ -1,116 +1,148 @@
 ﻿l_russian:
- nick_sjal_thin_hair: "Тонкие волосы" #Машинный перевод 28.10.23
- nick_sjal_flat_nose: "Плоский нос" #Машинный перевод 28.10.23
- nick_sjal_the_two_handed: "Двуручный" #Машинный перевод 28.10.23
- nick_sjal_black_eyes: "Черные глаза" #Машинный перевод 28.10.23
- nick_sjal_long_tusk: "Длинный Клык" #Машинный перевод 28.10.23
- nick_sjal_bear_cloak: "Медведь-Плащ" #Машинный перевод 28.10.23
- nick_sjal_hoar_frost: "Иней" #Машинный перевод 28.10.23
- nick_sjal_horse_wolf: "Лошадь-Волк" #Машинный перевод 28.10.23
- nick_sjal_bee_wolf: "Пчела-волк" #Машинный перевод 28.10.23
- nick_sjal_boar_tooth: "Кабаньий Зуб" #Машинный перевод 28.10.23
- nick_sjal_the_reed_born: "Рожденный из тростника" #Машинный перевод 28.10.23
- nick_sjal_black_shield: "Черный Щит" #Машинный перевод 28.10.23
- nick_sjal_white_shield: "Белый Щит" #Машинный перевод 28.10.23
- nick_sjal_red_shield: "Красный Щит" #Машинный перевод 28.10.23
- nick_sjal_stone_jaw: "Каменная Челюсть" #Машинный перевод 28.10.23
- nick_sjal_hang_jaw: "Висящая челюсть" #Машинный перевод 28.10.23
- nick_sjal_red_mane: "Рыжая Грива" #Машинный перевод 28.10.23
- nick_sjal_long_mane: "Длинногривый" #Машинный перевод 28.10.23
- nick_sjal_the_left_handed: "Левша" #Машинный перевод 28.10.23
- nick_sjal_longbraids: "Длинные косы" #Машинный перевод 28.10.23
- nick_sjal_right_brow: "Правая бровь" #Машинный перевод 28.10.23
- nick_sjal_oak_breast: "Дуб-грудка" #Машинный перевод 28.10.23
- nick_sjal_far_host: "Дальний хост" #Машинный перевод 28.10.23
- nick_sjal_fur_cloak: "Меховой плащ" #Машинный перевод 28.10.23
- nick_sjal_bright_helm: "Светлый Шлем" #Машинный перевод 28.10.23
- nick_sjal_broad_neck: "Широкая шея" #Машинный перевод 28.10.23
- nick_sjal_dog_lover: "Любитель собак" #Машинный перевод 28.10.23
- nick_sjal_the_mare_led: "Кобыла под предводительством" #Машинный перевод 28.10.23
- nick_sjal_blue_grin: "Блю-Грин" #Машинный перевод 28.10.23
+ possible_sjal_nick_tooltip: "You earn a relevant Sjalvolki Nickname" #NT!
+ nick_sjal_thin_hair: "Тонкие волосы"
+ nick_sjal_flat_nose: "Плоский нос"
+ nick_sjal_the_two_handed: "Двуручный"
+ nick_sjal_black_eyes: "Черные глаза"
+ nick_sjal_long_tusk: "Длинный Клык"
+ nick_sjal_bear_cloak: "Медведь-Плащ"
+ nick_sjal_hoar_frost: "Иней"
+ nick_sjal_horse_wolf: "Лошадь-Волк"
+ nick_sjal_bee_wolf: "Пчела-волк"
+ nick_sjal_boar_tooth: "Кабаньий Зуб"
+ nick_sjal_the_reed_born: "Рожденный из тростника"
+ nick_sjal_black_shield: "Черный Щит"
+ nick_sjal_white_shield: "Белый Щит"
+ nick_sjal_red_shield: "Красный Щит"
+ nick_sjal_stone_jaw: "Каменная Челюсть"
+ nick_sjal_hang_jaw: "Висящая челюсть"
+ nick_sjal_red_mane: "Рыжая Грива"
+ nick_sjal_long_mane: "Длинногривый"
+ nick_sjal_the_left_handed: "Левша"
+ nick_sjal_longbraids: "Длинные косы"
+ nick_sjal_right_brow: "Правая бровь"
+ nick_sjal_oak_breast: "Дуб-грудка"
+ nick_sjal_far_host: "Дальний хост"
+ nick_sjal_fur_cloak: "Меховой плащ"
+ nick_sjal_bright_helm: "Светлый Шлем"
+ nick_sjal_broad_neck: "Широкая шея"
+ nick_sjal_dog_lover: "Любитель собак"
+ nick_sjal_the_mare_led: "Кобыла под предводительством"
+ nick_sjal_blue_grin: "Блю-Грин"
   
- nick_sjal_long_beard: "Длинная борода" #Машинный перевод 28.10.23
- nick_sjal_long_braid: "Длинная коса" #Машинный перевод 28.10.23
- nick_sjal_bend_back: "Прогиб назад" #Машинный перевод 28.10.23
- nick_sjal_strong_arm: "Сильная рука" #Машинный перевод 28.10.23
- nick_sjal_the_all_sister: "Всесестра" #Машинный перевод 28.10.23
- nick_sjal_hot_blood: "Вспыльчивость" #Машинный перевод 28.10.23
- nick_sjal_red_blood: "Красная кровь" #Машинный перевод 28.10.23
- nick_sjal_ring_giver: "Даритель Кольца" #Машинный перевод 28.10.23
- nick_sjal_the_shield_born: "Рожденный со Щитом" #Машинный перевод 28.10.23
- nick_sjal_the_shield_born_desc: "Предположительно [CHARACTER.GetShortUINameNoTooltipNoFormat|U] считает [CharYourselfHerselfHimself(CHARACTER)] слишком важным, чтобы ходить пешком." #Машинный перевод 28.10.23
- nick_sjal_way_finder: "Путеводитель" #Машинный перевод 28.10.23
- nick_sjal_the_wayfinder: "Путеводитель" #Машинный перевод 28.10.23
- nick_sjal_blade_tongue: "Клинок-Язык" #Машинный перевод 28.10.23
- nick_sjal_grey_beard: "Седобородый" #Машинный перевод 28.10.23
- nick_sjal_cold_eyes: "Холодные глаза" #Машинный перевод 28.10.23
- nick_sjal_the_farm_hand: "работник с фермы" #Машинный перевод 28.10.23
- nick_sjal_spring_caller: "Звонок весны" #Машинный перевод 28.10.23
- nick_sjal_warm_hearth: "Теплый очаг" #Машинный перевод 28.10.23
- nick_sjal_the_forge_hand: "Кузница" #Машинный перевод 28.10.23
- nick_sjal_shape_steel: "Форма-Сталь" #Машинный перевод 28.10.23
- nick_sjal_the_far_sung: "Дальнее Солнце" #Машинный перевод 28.10.23
- nick_sjal_tall_stride: "Высокий шаг" #Машинный перевод 28.10.23
- nick_sjal_gold_cloak: "Золотой плащ" #Машинный перевод 28.10.23
- nick_sjal_gold_wreath: "Золотой Венок" #Машинный перевод 28.10.23
- nick_sjal_the_rock_hewn: "высеченный в скале" #Машинный перевод 28.10.23
- nick_sjal_shield_bearer: "Щитоносец" #Машинный перевод 28.10.23
- nick_sjal_the_shield_bearer: "Щитоносец" #Машинный перевод 28.10.23
- nick_sjal_the_beardless: "Безбородый" #Машинный перевод 28.10.23
- nick_sjal_the_shaggy: "Лохматый" #Машинный перевод 28.10.23
- nick_sjal_shaggy: "Лохматый" #Машинный перевод 28.10.23
- nick_sjal_the_stone: "камень" #Машинный перевод 28.10.23
- nick_sjal_stone: "Камень" #Машинный перевод 28.10.23
- nick_sjal_ragged: "Рваный" #Машинный перевод 28.10.23
- nick_sjal_bleak: "Мрачный" #Машинный перевод 28.10.23
- nick_sjal_pale: "Бледный" #Машинный перевод 28.10.23
- nick_sjal_mad: "Безумный" #Машинный перевод 28.10.23
- nick_sjal_tall: "Высокий" #Машинный перевод 28.10.23
- nick_sjal_the_thane: "Тан" #Машинный перевод 28.10.23
- nick_sjal_screaming: "Кричать" #Машинный перевод 28.10.23
- nick_sjal_whistling: "Свист" #Машинный перевод 28.10.23
- nick_sjal_whistling_desc: "Многие среди других племен обращают внимание на странный свистящий язык, который [CHARACTER.GetShortUINameNoTooltipNoFormat|U] использует для подачи сигналов членам клана [CharYourHerHis(CHARACTER)] на расстоянии." #Машинный перевод 28.10.23
- nick_sjal_the_flute: "флейта" #Машинный перевод 28.10.23
- nick_sjal_the_flute_desc: "Многие среди других племен обращают внимание на странный свистящий язык, который [CHARACTER.GetShortUINameNoTooltipNoFormat|U] использует для подачи сигналов членам клана [CharYourHerHis(CHARACTER)] на расстоянии." #Машинный перевод 28.10.23
- nick_sjal_the_bloodbrother: "Кровавый Брат" #Машинный перевод 28.10.23
- nick_sjal_the_bowman: "лучник" #Машинный перевод 28.10.23
- nick_sjal_the_talker: "Говорящий" #Машинный перевод 28.10.23
- nick_sjal_long_spear: "Длинное Копье" #Машинный перевод 28.10.23
- nick_sjal_the_horse_drawn: "конный" #Машинный перевод 28.10.23
- nick_sjal_the_horse_drawn_desc: "Предположительно [CHARACTER.GetShortUINameNoTooltipNoFormat|U] считает [CharYourselfHerselfHimself(CHARACTER)] слишком важным, чтобы ходить пешком." #Машинный перевод 28.10.23
- nick_sjal_white_ears: "Белоухий" #Машинный перевод 28.10.23
- nick_sjal_white_heart: "Белое сердце" #Машинный перевод 28.10.23
- nick_sjal_of_the_sworn_oath: "принесенной присяги" #Машинный перевод 28.10.23
- nick_sjal_bale_song: "Бэйл-Сонг" #Машинный перевод 28.10.23
- nick_sjal_yore_tongue: "Старый язык" #Машинный перевод 28.10.23
- nick_sjal_stone_singer: "Камень-певец" #Машинный перевод 28.10.23
- nick_sjal_of_godspeech: "Божьей речи" #Машинный перевод 28.10.23
- nick_sjal_war_skald: "Война-Скальд" #Машинный перевод 28.10.23
- nick_sjal_blood_skald: "Кровавый Скальд" #Машинный перевод 28.10.23
- nick_sjal_blood_brow: "Кроваво-бровный" #Машинный перевод 28.10.23
- nick_sjal_the_bride_fed: "Невеста-Фед" #Машинный перевод 28.10.23
- nick_sjal_the_bride_fed_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] настолько неудовлетворительный охотник, что некоторые доходят до того, что шепчутся, что у [CharYouSheHe(CHARACTER)] есть жена [CharYourHerHis(CHARACTER)], готовящая для [CharYouHerHim(CHARACTER)]." #Машинный перевод 28.10.23
- nick_sjal_witch_blood: "Ведьма-Кровь" #Машинный перевод 28.10.23
- nick_sjal_blood_curse: "Проклятие крови" #Машинный перевод 28.10.23
- nick_sjal_curse_blood: "Проклятие-Кровь" #Машинный перевод 28.10.23
+ nick_sjal_long_beard: "Длинная борода"
+ nick_sjal_long_braid: "Длинная коса"
+ nick_sjal_bend_back: "Прогиб назад"
+ nick_sjal_strong_arm: "Сильная рука"
+ nick_sjal_the_all_sister: "Всесестра"
+ nick_sjal_hot_blood: "Вспыльчивость"
+ nick_sjal_red_blood: "Красная кровь"
+ nick_sjal_ring_giver: "Даритель Кольца"
+ nick_sjal_the_shield_born: "Рожденный со Щитом"
+ nick_sjal_the_shield_born_desc: "Предположительно [CHARACTER.GetShortUINameNoTooltipNoFormat|U] считает [CharYourselfHerselfHimself(CHARACTER)] слишком важным, чтобы ходить пешком."
+ nick_sjal_way_finder: "Путеводитель"
+ nick_sjal_the_wayfinder: "Путеводитель"
+ nick_sjal_blade_tongue: "Клинок-Язык"
+ nick_sjal_grey_beard: "Седобородый"
+ nick_sjal_cold_eyes: "Холодные глаза"
+ nick_sjal_the_farm_hand: "работник с фермы"
+ nick_sjal_spring_caller: "Звонок весны"
+ nick_sjal_warm_hearth: "Теплый очаг"
+ nick_sjal_the_forge_hand: "Кузница"
+ nick_sjal_shape_steel: "Форма-Сталь"
+ nick_sjal_the_far_sung: "Дальнее Солнце"
+ nick_sjal_tall_stride: "Высокий шаг"
+ nick_sjal_gold_cloak: "Золотой плащ"
+ nick_sjal_gold_wreath: "Золотой Венок"
+ nick_sjal_the_rock_hewn: "высеченный в скале"
+ nick_sjal_shield_bearer: "Щитоносец"
+ nick_sjal_the_shield_bearer: "Щитоносец"
+ nick_sjal_the_beardless: "Безбородый"
+ nick_sjal_the_shaggy: "Лохматый"
+ nick_sjal_shaggy: "Лохматый"
+ nick_sjal_the_stone: "камень"
+ nick_sjal_stone: "Камень"
+ nick_sjal_ragged: "Рваный"
+ nick_sjal_bleak: "Мрачный"
+ nick_sjal_pale: "Бледный"
+ nick_sjal_mad: "Безумный"
+ nick_sjal_tall: "Высокий"
+ nick_sjal_the_thane: "Тан"
+ nick_sjal_screaming: "Кричать"
+ nick_sjal_whistling: "Свист"
+ nick_sjal_whistling_desc: "Многие среди других племен обращают внимание на странный свистящий язык, который [CHARACTER.GetShortUINameNoTooltipNoFormat|U] использует для подачи сигналов членам клана [CharYourHerHis(CHARACTER)] на расстоянии."
+ nick_sjal_the_flute: "флейта"
+ nick_sjal_the_flute_desc: "Многие среди других племен обращают внимание на странный свистящий язык, который [CHARACTER.GetShortUINameNoTooltipNoFormat|U] использует для подачи сигналов членам клана [CharYourHerHis(CHARACTER)] на расстоянии."
+ nick_sjal_the_bloodbrother: "Кровавый Брат"
+ nick_sjal_the_bowman: "лучник"
+ nick_sjal_the_talker: "Говорящий"
+ nick_sjal_long_spear: "Длинное Копье"
+ nick_sjal_the_horse_drawn: "конный"
+ nick_sjal_the_horse_drawn_desc: "Предположительно [CHARACTER.GetShortUINameNoTooltipNoFormat|U] считает [CharYourselfHerselfHimself(CHARACTER)] слишком важным, чтобы ходить пешком."
+ nick_sjal_white_ears: "Белоухий"
+ nick_sjal_white_heart: "Белое сердце"
+ nick_sjal_of_the_sworn_oath: "принесенной присяги"
+ nick_sjal_bale_song: "Бэйл-Сонг"
+ nick_sjal_yore_tongue: "Старый язык"
+ nick_sjal_stone_singer: "Камень-певец"
+ nick_sjal_of_godspeech: "Божьей речи"
+ nick_sjal_war_skald: "Война-Скальд"
+ nick_sjal_blood_skald: "Кровавый Скальд"
+ nick_sjal_blood_brow: "Кроваво-бровный"
+ nick_sjal_the_bride_fed: "Невеста-Фед"
+ nick_sjal_the_bride_fed_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] настолько неудовлетворительный охотник, что некоторые доходят до того, что шепчутся, что у [CharYouSheHe(CHARACTER)] есть жена [CharYourHerHis(CHARACTER)], готовящая для [CharYouHerHim(CHARACTER)]."
+ nick_sjal_witch_blood: "Ведьма-Кровь"
+ nick_sjal_blood_curse: "Проклятие крови"
+ nick_sjal_curse_blood: "Проклятие-Кровь"
+ nick_sjal_the_unborn: "the Unborn" #NT!
+ nick_sjal_the_whelp: "the Whelp" #NT!
+ nick_sjal_half_troll: "Half-Troll" #NT!
   
- nick_sjal_witch_hater: "Ненавистник ведьм" #Машинный перевод 28.10.23
- nick_sjal_legion_breaker: "Разрушитель Легиона" #Машинный перевод 28.10.23
- nick_sjal_sun_taker: "Собиратель Солнца" #Машинный перевод 28.10.23
- nick_sjal_blood_breaker: "Кровопийца" #Машинный перевод 28.10.23
- nick_sjal_the_magi_slayer: "Маг-Убийца" #Машинный перевод 28.10.23
- nick_sjal_spear_shaker: "Копейщик" #Машинный перевод 28.10.23
- nick_sjal_shield_breaker: "Разрушитель щита" #Машинный перевод 28.10.23
- nick_sjal_break_shield: "Разбить щит" #Машинный перевод 28.10.23
- nick_sjal_the_death_of_legions: "Смерть Легиона" #Машинный перевод 28.10.23
- nick_sjal_the_fear_of_magi: "Страх перед Магами" #Машинный перевод 28.10.23
- nick_sjal_the_bloodless: "Бескровный" #Машинный перевод 28.10.23
- nick_sjal_above_the_slain: "Над убитыми" #Машинный перевод 28.10.23
- nick_sjal_witch_bane: "Ведьма-Проклятие" #Машинный перевод 28.10.23
- nick_sjal_ash_sower: "Сеятель Золы" #Машинный перевод 28.10.23
- nick_sjal_salt_sower: "Соляная Сеятельница" #Машинный перевод 28.10.23
- nick_sjal_land_taker: "землевладелец" #Машинный перевод 28.10.23
- nick_sjal_all_thane: "Все-Тейн" #Машинный перевод 28.10.23
- nick_sjal_axe_crowned: "Коронованный топором" #Машинный перевод 28.10.23
- nick_sjal_south_crown: "Южная Корона" #Машинный перевод 28.10.23
- nick_sjal_gallow_knot: "Виселичный узел" #Машинный перевод 28.10.23
+ nick_sjal_witch_hater: "Ненавистник ведьм"
+ nick_sjal_legion_breaker: "Разрушитель Легиона"
+ nick_sjal_sun_taker: "Собиратель Солнца"
+ nick_sjal_blood_breaker: "Кровопийца"
+ nick_sjal_the_magi_slayer: "Маг-Убийца"
+ nick_sjal_spear_shaker: "Копейщик"
+ nick_sjal_shield_breaker: "Разрушитель щита"
+ nick_sjal_break_shield: "Разбить щит"
+ nick_sjal_the_death_of_legions: "Смерть Легиона"
+ nick_sjal_the_fear_of_magi: "Страх перед Магами"
+ nick_sjal_the_bloodless: "Бескровный"
+ nick_sjal_above_the_slain: "Над убитыми"
+ nick_sjal_witch_bane: "Ведьма-Проклятие"
+ nick_sjal_ash_sower: "Сеятель Золы"
+ nick_sjal_salt_sower: "Соляная Сеятельница"
+ nick_sjal_land_taker: "землевладелец"
+ nick_sjal_all_thane: "Все-Тейн"
+ nick_sjal_axe_crowned: "Коронованный топором"
+ nick_sjal_south_crown: "Южная Корона"
+ nick_sjal_gallow_knot: "Виселичный узел"
+ nick_sjal_gold_throne: "Gold-Throne" #NT!
+ nick_sjal_the_southron: "the Southron" #NT!
+ nick_sjal_the_unread: "the Unread" #NT!
+ nick_sjal_sun_breaker: "Sun-Breaker" #NT!
+ nick_sjal_banner_cloak: "Banner-Cloak" #NT!
+ nick_sjal_wail_rider: "Wail-Rider" #NT!
+ nick_sjal_snow_thunder: "Snow-Thunder" #NT!
+ nick_sjal_before_the_banners: "Before-the-Banners" #NT!
+ nick_sjal_the_horn_called: "the Horn-Called" #NT!
+ nick_sjal_of_the_man_price: "of the Man-Price" #NT!
+ nick_sjal_the_holm_thane: "the Holm-Thane" #NT!
+ nick_sjal_hand_taker: "Hand-Taker" #NT!
+ nick_sjal_hand_ring: "Hand-Ring" #NT!
+ nick_sjal_milk_drinker: "Milk-Drinker" #NT!
+ nick_sjal_raw_rent: "Raw-Rent" #NT!
+ nick_sjal_girl_arm: "Girl-Arm" #NT!
+ nick_sjal_red_writ: "Red-Writ" #NT!
+ nick_sjal_turn_tail: "Turn-Tail" #NT!
+ nick_sjal_far_flight: "Far-Flight" #NT!
+ nick_sjal_the_gutless: "the Gutless" #NT!
+ nick_sjal_lack_heart: "Lack-Heart" #NT!
+ nick_sjal_ash_hair: "Ash-Hair" #NT!
+ nick_sjal_black_brand: "Black-Brand" #NT!
+ nick_sjal_grave_breaker: "Grave-Breaker" #NT!
+ nick_sjal_crow_herald: "Crow-Herald" #NT!
+ nick_sjal_son_taker: "Son-Taker" #NT!
+ nick_sjal_thrall_skin: "Thrall-Skin" #NT!
+ nick_sjal_tan_cloak: "Tan-Cloak" #NT!

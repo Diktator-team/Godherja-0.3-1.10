@@ -1,12 +1,19 @@
 ﻿l_russian:
- cn_culoghai: "Куллогаи"
- cn_culoghai_adj: "Куллогайох"
+ cn_culoghai: "Каллогаи"
+ cn_culoghai_adj: "Кулогайох"
  cn_ardluthoch: "Ардлутог"
- cn_abhna-gchraigh: "Абхна'гХрайгх"
- cn_caoirr_a-mhraigh: "Каойрр а'Мхрайгх"
- cn_abhaloch: "Абхалогх"
- cn_craomhor: "Краомхо"
- cn_fiogh_fen: "Фиогх Фен"
- cn_rath_a-bhfell: "Рат а'бхФелл"
+ cn_abhna-gchraigh: "Абхна'гЧрейг"
+ cn_caoirr_a-mhraigh: "Каойрр а'Мрейг"
+ cn_abhaloch: "Абхалог"
+ cn_craomhor: "Краомхор"
+ cn_fiogh_fen: "Фиог Фен"
+ cn_rath_a-bhfell: "Рат абФелл"
  cn_cronocht: "Кронохт"
- cn_selch_an_iorthu: "Селх ан'Иорти"
+ cn_selch_an_iorthu: "Селч ан'Иорту"
+ cn_coill_mhilis: "Coill Mhilis" #NT!
+ cn_crann_chradh: "Crann Chradh" #NT!
+ cn_ros_thuaidh: "Ros Thuaidh" #NT!
+ cn_gleann_abhainn: "Gleann Abhainn" #NT!
+ cn_gleann_leith: "Gleann Léith" #NT!
+ cn_glas_ban: "Glas Bán" #NT!
+ cn_greensea: "the Greensea" #NT!

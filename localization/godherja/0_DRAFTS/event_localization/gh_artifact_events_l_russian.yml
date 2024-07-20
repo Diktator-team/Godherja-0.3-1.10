@@ -1,45 +1,88 @@
 ﻿l_russian:
- gh_artifact.0002.t: "Книжный торговец"  #Машинный перевод 28.10.23!
- gh_artifact.0002.desc: "Странствующий книготорговец пробирался по сельской местности и предстал перед моим судом. Они глубоко кланяются, когда их проводят передо мной.\n\n «Мой [ROOT.Char.GetTitleAsNameNoTooltip], я хотел с вами познакомиться. У меня действительно есть несколько очень редких книг, намного превосходящих те вещи, которые могли бы заинтересовать риффа. - сброд и простые торговцы. Но для такого эрудированного человека, как вы и ваш двор, я подозревал, что они могут представлять интерес..."  #Машинный перевод 28.10.23!
- gh_artifact.0002.steal_all_books: "Думаю, я возьму их всех, спасибо."  #Машинный перевод 28.10.23!
- gh_artifact.0002.a: "Хм, а что насчет этого?"  #Машинный перевод 28.10.23!
- gh_artifact.0002.b: "Мне это интересно!"  #Машинный перевод 28.10.23!
- gh_artifact.0002.c: "Расскажи мне подробнее об этом..."  #Машинный перевод 28.10.23!
- gh_artifact.0002.d: "Меня не интересует эта халтура."  #Машинный перевод 28.10.23!
+ gh_artifact.0002.t: "Книжный торговец"
+ gh_artifact.0002.desc: "Странствующий книготорговец пробирался по сельской местности и предстал перед моим судом. Они глубоко кланяются, когда их проводят передо мной.\n\n «Мой [ROOT.Char.GetTitleAsNameNoTooltip], я хотел с вами познакомиться. У меня действительно есть несколько очень редких книг, намного превосходящих те вещи, которые могли бы заинтересовать риффа. - сброд и простые торговцы. Но для такого эрудированного человека, как вы и ваш двор, я подозревал, что они могут представлять интерес..."
+ gh_artifact.0002.steal_all_books: "Думаю, я возьму их всех, спасибо."
+ gh_artifact.0002.a: "Хм, а что насчет этого?"
+ gh_artifact.0002.b: "Мне это интересно!"
+ gh_artifact.0002.c: "Расскажи мне подробнее об этом..."
+ gh_artifact.0002.d: "Меня не интересует эта халтура."
   
- #artifact.0010.t: "Зверинец торговца"  #Машинный перевод 28.10.23!
- #artifact.0010.desc: "Весь двор гудит от любопытного торговца, проходящего через мои земли, который, очевидно, приезжает с животными в клетках со всех четырех уголков Эраса. По настоянию практически всех членов моей семьи я пригласил [menagerie_merchant.GetHerHim] в гости.\n\nМеня устроили настоящее представление: торговец демонстрирует множество зверей, о которых я до сих пор слышал только в рассказах, с самым ярким моментом является [ROOT.GetCharacter.Custom('GetRandomExoticAnimal')]!"  #Машинный перевод 28.10.23!
- #artifact.0010.a: "Я продан. Дайте мне один из них."  #Машинный перевод 28.10.23!
- #artifact.0010.b: "Это весьма очаровательное существо!"  #Машинный перевод 28.10.23!
- #artifact.0010.c: "Я бы пожалел, что не приобрел такого чудесного зверя."  #Машинный перевод 28.10.23!
- #artifact.0010.d: "Все! Я хочу все!"  #Машинный перевод 28.10.23!
- #artifact.0010.e: "Забавно, но мне не нужны зловонные звери."  #Машинный перевод 28.10.23!
+ #artifact.0010.t: "Зверинец торговца"
+ #artifact.0010.desc: "Весь двор гудит от любопытного торговца, проходящего через мои земли, который, очевидно, приезжает с животными в клетках со всех четырех уголков Эраса. По настоянию практически всех членов моей семьи я пригласил [menagerie_merchant.GetHerHim] в гости.\n\nМеня устроили настоящее представление: торговец демонстрирует множество зверей, о которых я до сих пор слышал только в рассказах, с самым ярким моментом является [ROOT.GetCharacter.Custom('GetRandomExoticAnimal')]!"
+ #artifact.0010.a: "Я продан. Дайте мне один из них."
+ #artifact.0010.b: "Это весьма очаровательное существо!"
+ #artifact.0010.c: "Я бы пожалел, что не приобрел такого чудесного зверя."
+ #artifact.0010.d: "Все! Я хочу все!"
+ #artifact.0010.e: "Забавно, но мне не нужны зловонные звери."
   
- #artifact.0011.t: "Просьба прочитать."  #Машинный перевод 28.10.23!
- #artifact.0011.desc: "Когда я стоял возле своих покоев, пытаясь придумать что-нибудь еще, помимо своих обычных обязанностей, ко мне подошел мой придворный капеллан. Они вежливо поприветствовали меня, и я вернул его. Вскоре они заговорили со мной. Они сказали: «Мой господин, я надеюсь, что вы будете готовы ответить на мою просьбу. Видите ли, я подумал, что вам может быть полезно чтение, поскольку это, несомненно, добавит вам понимания. Я собрал несколько книг для Вы бы хотели подумать. Готовы ли вы попытаться уделить им немного времени сейчас?"  #Машинный перевод 28.10.23!
- #artifact.0011.a: "Конечно. Я искал, чем бы заняться."  #Машинный перевод 28.10.23!
- #artifact.0011.b: "Я пока не могу этого сделать."  #Машинный перевод 28.10.23!
+ #artifact.0011.t: "Просьба прочитать."
+ #artifact.0011.desc: "Когда я стоял возле своих покоев, пытаясь придумать что-нибудь еще, помимо своих обычных обязанностей, ко мне подошел мой придворный капеллан. Они вежливо поприветствовали меня, и я вернул его. Вскоре они заговорили со мной. Они сказали: «Мой господин, я надеюсь, что вы будете готовы ответить на мою просьбу. Видите ли, я подумал, что вам может быть полезно чтение, поскольку это, несомненно, добавит вам понимания. Я собрал несколько книг для Вы бы хотели подумать. Готовы ли вы попытаться уделить им немного времени сейчас?"
+ #artifact.0011.a: "Конечно. Я искал, чем бы заняться."
+ #artifact.0011.b: "Я пока не могу этого сделать."
   
- #artifact.0012.t: "Внутри библиотеки."  #Машинный перевод 28.10.23!
- #artifact.0012.desc: "Я вошел в библиотеку, и меня сразу же встретили, казалось бы, безграничные полки, каждая из которых была заполнена книгами в обложках разного дизайна и цвета. Я огляделся, углубляясь в него, и обнаружил, что стою у одной полки, моя рука поднялась, чтобы коснуться корешков книг, которые она держала. Я чувствовал твердость их материала, думая о страницах каждой книги и задаваясь вопросом, что они могут содержать, чтобы я мог прочитать. Я остановился и подумал, что можно прочитать."  #Машинный перевод 28.10.23!
- #artifact.0012.a: "Возможно, я смогу выбрать что-то, не слишком задумываясь о том, о чем это может быть."  #Машинный перевод 28.10.23!
- #artifact.0012.b: "Возможно, мне следует прочитать что-нибудь об истории вещей."  #Машинный перевод 28.10.23!
- #artifact.0012.c: "Я мог бы попытаться поучиться у магов."  #Машинный перевод 28.10.23!
- #artifact.0012.a.success: "Я смог понять произведение."  #Машинный перевод 28.10.23!
- #artifact.0012.a.failure: "Книга поставила меня в тупик."  #Машинный перевод 28.10.23!
+ #artifact.0012.t: "Внутри библиотеки."
+ #artifact.0012.desc: "Я вошел в библиотеку, и меня сразу же встретили, казалось бы, безграничные полки, каждая из которых была заполнена книгами в обложках разного дизайна и цвета. Я огляделся, углубляясь в него, и обнаружил, что стою у одной полки, моя рука поднялась, чтобы коснуться корешков книг, которые она держала. Я чувствовал твердость их материала, думая о страницах каждой книги и задаваясь вопросом, что они могут содержать, чтобы я мог прочитать. Я остановился и подумал, что можно прочитать."
+ #artifact.0012.a: "Возможно, я смогу выбрать что-то, не слишком задумываясь о том, о чем это может быть."
+ #artifact.0012.b: "Возможно, мне следует прочитать что-нибудь об истории вещей."
+ #artifact.0012.c: "Я мог бы попытаться поучиться у магов."
+ #artifact.0012.a.success: "Я смог понять произведение."
+ #artifact.0012.a.failure: "Книга поставила меня в тупик."
   
- etepezean_eagle: "впечатляющий орел с гор Этепезея"  #Машинный перевод 28.10.23!
- kalathipsomi_bear: "огромный медведь из дебрей Калатипсоми"  #Машинный перевод 28.10.23!
- marcher_griffon: "красивый [griffon|E] из Маркей"  #Машинный перевод 28.10.23!
- far_north_bear: "гигантский медведь из дебрей [greater_aversaria|E]"  #Машинный перевод 28.10.23!
- far_north_mammoth: "мамонт из дебрей севера"  #Машинный перевод 28.10.23!
- kikarsagi_steed: "необыкновенно впечатляющий конь из земель Кикарсаги"  #Машинный перевод 28.10.23!
- sarradon_giant_snake: "колоссальная змея из глубин самых темных джунглей [sarradon|E]"  #Машинный перевод 28.10.23!
- giant_kathun_kai_snake: "колоссальная змея из глубин самых темных джунглей Катун Кая"  #Машинный перевод 28.10.23!
- sarradon_monkey: "озорная обезьянка из джунглей [sarradon|E]"  #Машинный перевод 28.10.23!
- sarradonian_elephant: "высокий слон из саванны [sarradon|E]"  #Машинный перевод 28.10.23!
- far_east_elephant: "слон из джунглей Дальнего Востока"  #Машинный перевод 28.10.23!
- sarradon_bird: "красивая птица, великолепная позами и окраской, из джунглей [sarradon|E]"  #Машинный перевод 28.10.23!
+ etepezean_eagle: "впечатляющий орел с гор Этепезея"
+ kalathipsomi_bear: "огромный медведь из дебрей Калатипсоми"
+ marcher_griffon: "красивый [griffon|E] из Маркей"
+ far_north_bear: "гигантский медведь из дебрей [greater_aversaria|E]"
+ far_north_mammoth: "мамонт из дебрей севера"
+ kikarsagi_steed: "необыкновенно впечатляющий конь из земель Кикарсаги"
+ sarradon_giant_snake: "колоссальная змея из глубин самых темных джунглей [sarradon|E]"
+ giant_kathun_kai_snake: "колоссальная змея из глубин самых темных джунглей Катун Кая"
+ sarradon_monkey: "озорная обезьянка из джунглей [sarradon|E]"
+ sarradonian_elephant: "высокий слон из саванны [sarradon|E]"
+ far_east_elephant: "слон из джунглей Дальнего Востока"
+ sarradon_bird: "красивая птица, великолепная позами и окраской, из джунглей [sarradon|E]"
   
- menagerie_modifier: "Зверинец"  #Машинный перевод 28.10.23!
- menagerie_modifier_desc: "Местный аристократ с глубокими карманами основал здесь личный зверинец."  #Машинный перевод 28.10.23!
+ menagerie_modifier: "Зверинец"
+ menagerie_modifier_desc: "Местный аристократ с глубокими карманами основал здесь личный зверинец."
+  
+ gh_fund_inspiration.1001.t: "$fund_inspiration.title$ Essence and Emulation" #NT!
+ gh_fund_inspiration.1001.desc: ""My [ROOT.Char.GetLadyLord|U], please take a look at these casts."\n\n[inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] arranges a handful of plaster masks on the table before me; some of the faces on them are more recognisable than the others.\n\n"These are meant to represent mighty heroes and leaders of old, your Highness. By donning the likeness of their visage, one could lay claim to a part of their legacy, as well as all that comes with it."\n\n[inspiration_owner.GetSheHe|U] clasps [inspiration_owner.GetHerHis] hands behind [inspiration_owner.GetHerHis] back. "Should your [ROOT.Char.GetLadyLord]ship wish it, I could create the mask in the desired image of your choosing."" #NT!
+ gh_fund_inspiration.1001.otached: "I shall become the second Otached!" #NT!
+ gh_fund_inspiration.1001.otached.tt: "#EMP Otached#! was a legendary Ölteni warlord and conqueror, founder of the [otachedian_empire|E], and the wielder of the mythical [Concept('iorne_seld', 'Sword of Eons')|E]. Descending onto [kashirya|E] with his enormous [Concept('iorne_horde', 'horde')|E], he created what is perhaps the greatest empire that the region has ever seen.\n" #NT!
+ gh_fund_inspiration.1001.otached_bonus: "Your artifact may gain a rulership modifier" #NT!
+ gh_fund_inspiration.1001.ayran: "Ayran is the one to emulate." #NT!
+ gh_fund_inspiration.1001.ayran.tt: "Ayran was the eldest son of Otached and the inheritor of the [Concept('kashirya', 'Kashiryan')|E] heartlands of the [otachedian_empire|E]. Having spent most of his reign consolidating the young realm that was left to him, many consider his time to be the golden age of the region before the chaos of the Five Brothers' War and [bayyuralar|E].\n" #NT!
+ gh_fund_inspiration.1001.ayran_bonus: "Your artifact may gain a majesty modifier" #NT!
+ gh_fund_inspiration.1001.kusan: "I seek Kusan's tenacity." #NT!
+ gh_fund_inspiration.1001.kusan.tt: "#EMP Kusan#! was the youngest of [Concept('otachedian_empire', 'Otached’s')|E] children, and the one who was given leadership of the few Ölteni who had made it across [Concept('kasiryat', 'Kasiryat')|E] before the [aironoian_migration|E]. Endowed with neither wealth nor large warbands under his command, he had nevertheless persisted through the brutal succession wars and remained in power until he was felled by Baytor's hand at the outset of [bayyuralar|E].\n" #NT!
+ gh_fund_inspiration.1001.kusan_bonus: "Your artifact may gain a personal modifier" #NT!
+ gh_fund_inspiration.1001.ayar: "Ayar's industriousness was unmatched." #NT!
+ gh_fund_inspiration.1001.ayar.tt: "#EMP Ayar#! was one of the sons of [Concept('otachedian_empire', 'Otached')|E] who had inherited his father's southern holdings and the empire's tributaries in the [pirate_coast|E]. He greatly expanded the region's spice plantations, which in their day almost single-handedly financed the operations of the imperial court.\n" #NT!
+ gh_fund_inspiration.1001.ayar_bonus: "Your artifact may gain a gold-related modifier" #NT!
+ gh_fund_inspiration.1001.ioa: "The exploits of Ioa are second to none." #NT!
+ gh_fund_inspiration.1001.ioa.tt: "#EMP Ioa#! was the daughter of [Concept('otachedian_empire', 'Otached')|E] and the inheritor of the steppe portion of his empire. Far more concerned with personal glory than rulership, she nevertheless had the backing of the major clans of the Kolrgii steppes, and her realm persisted for longer than those of her brothers.\n" #NT!
+ gh_fund_inspiration.1001.ioa_bonus: "Your artifact may gain a vassal opinion modifier" #NT!
+ gh_fund_inspiration.1001.baytor: "Say what you will, but Baytor had #EMP ambition#!." #NT!
+ gh_fund_inspiration.1001.baytor.tt: "#EMP Baytor#! was the last Kagakhatan of the [otachedian_empire|E], claiming it as the victor of the Five Brothers' War. With his death at the [battle_of_the_wall_of_astila|E] during the [bayyuralar|E], his empire shattered, and he remains a divisive figure ever since.\n" #NT!
+ gh_fund_inspiration.1001.baytor_bonus: "Your artifact may gain a combat modifier" #NT!
+ gh_fund_inspiration.1001.mogha: "It is Mogha who outlasted them all." #NT!
+ gh_fund_inspiration.1001.mogha.tt: "#EMP Mogha#! was the eldest son of Ayran and one of the few survivors of the Five Brothers' War. Having become Baytor's bannerman in its aftermath and surviving through the [bayyuralar|E], he had returned to [kashirya|E] to tend to the remains of the [otachedian_empire|E].\n" #NT!
+ gh_fund_inspiration.1001.mogha_bonus: "Your artifact may gain a prowess modifier" #NT!
+ gh_fund_inspiration.1001.ogotei: "Ögotei is remembered for his honor." #NT!
+ gh_fund_inspiration.1001.ogotei.tt: "#EMP Ögotei Tankhatan#! was the leader of the Khaiasheg, Baytor's elite guard at the time of [bayyuralar|E]. Skilled with the blade, bow, and on horseback, it was said that he had grown on the milk of the Horse-beneath-the-Sky herself.\n" #NT!
+ gh_fund_inspiration.1001.ogotei_bonus: "Your artifact may gain a knight-related modifier" #NT!
+ gh_fund_inspiration.1001.korsakai: "Korsakai built an empire out of ashes." #NT!
+ gh_fund_inspiration.1001.korsakai.tt: "#EMP Korsakai Hayakhatan#! was an [Concept('otachedian_empire', 'Otachedian')|E] general-turned-warlord who had carved a realm for himself in the wake of the [bayyuralar|E]. A renowned warrior and a skilled diplomat, he had cowed as many tribes with his word as he did with his sword.\n" #NT!
+ gh_fund_inspiration.1001.korsakai_bonus: "Your artifact may gain a rulers' opinion modifier" #NT!
+ gh_fund_inspiration.1001.toragei: "The Mahratians would not be here without Töragei." #NT!
+ gh_fund_inspiration.1001.toragei.tt: "#EMP Töragei Khatan#! was a self-proclaimed son of Otached and the leader of the Ölteni clans that had pushed into Amaghea during the [aironoian_migration|E], eventually settling around the [north_kharadan_biozone|E] and adopting many Lerrardin rites and customs.\n" #NT!
+ gh_fund_inspiration.1001.toragei_bonus: "Your artifact may gain an acceptance modifier" #NT!
+ gh_fund_inspiration.1001.none: "Staying true to oneself is enough." #NT!
+ gh_fund_inspiration.1001.none_bonus: "Your artifact may gain a prestige modifier" #NT!
+  
+ gh_fund_inspiration.1002.t: "$fund_inspiration.title$ Crystal Blood" #NT!
+ gh_fund_inspiration.1002.desc: "Stepping inside the workshop of [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)], I am immediately gripped by a sense of unease. The place is dark, humid, and a tangy metallic smell assaults my nostrils. By [ROOT.Char.GetFaith.HighGodName], how can this [inspiration_owner.GetWomanMan] even work here?\n\n"Ah, My [ROOT.Char.GetLadyLord|U], I was just about to go searching for you!" [inspiration_owner.GetTitledFirstNameNoTooltip] emerges from somewhere deeper within the room, a strange glint in [inspiration_owner.GetHerHis] bloodshot [inspiration_owner.Custom('EyeEyes')].\n\n"I beg you, please, take a look." [inspiration_owner.GetSheHe|U] presents me with a small box that contains a shimmering crimson gem, its sharp glow causing a prickling sensation on my skin.\n\n"This is but a sliver of [bloodcrystal|El], the noblest of gems. With just a bit of extra funds, I will be able to obtain one large enough to make a mask unlike any seen before."" #NT!
+ gh_fund_inspiration.1002.a: "No, just... No." #NT!
+ gh_fund_inspiration.1002.a.tt: "[inspiration_owner.GetTitledFirstNameNoTooltip] will craft the mask from more traditional materials" #NT!
+ gh_fund_inspiration.1002.b: "It is... beautiful..." #NT!
+ gh_fund_inspiration.1002.b.tt: "[inspiration_owner.GetTitledFirstNameNoTooltip] will craft the mask out of [bloodcrystal|El]" #NT!
+ gh_fund_inspiration.1002.c: "You are a madman, get out of my sight!" #NT!

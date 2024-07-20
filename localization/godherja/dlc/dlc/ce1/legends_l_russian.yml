@@ -1,0 +1,132 @@
+﻿l_russian:
+  ##Character Generic 
+ legend_blood_of_the_giants: "Blood of the Giants" #NT!
+ legend_blood_of_the_giants_desc: "In primordial times, when giants are said to have had a proper civilization, they reputedly sometimes intermarried with human realms. Though eons have passed, their blood still might flow strong in some." #NT!
+  ##Character Specific 
+ legend_anesimasios: "Blood of Anesimasios" #NT!
+ legend_anesimasios_desc: "[ancestor.GetTitledFirstName|U] took the reins of a collapsing empire and tried to fight the tides of history; alas, he was taken from this world before completing his grand undertaking." #NT!
+ legend_theyssia: "Golden Blood of Theyssia" #NT!
+ legend_theyssia_desc: "From ashes and ruin, [ancestor.GetTitledFirstName|U] built a glittering empire of marble and gold. During her hundred-and-a-half year long reign, entire generations were born, grew old and died knowing only prosperity and peace." #NT!
+ legend_tayberl: "Heir of the Tayberl" #NT!
+ legend_tayberl_desc: "Long ago, the Tayberl kings ruled one of the only realms to unite all the southern Sjalvolki clans. Though their reign might not have been long, it left its imprint on their subjects nonetheless." #NT!
+ legend_coc_melani: "Heroic Legacy of Mélanî Illurdian" #NT!
+ legend_coc_melani_desc: "One of the three companions of [champion_of_chevalie|E], [ancestor.GetFirstName|U] would lose and then reclaim her kingdom from the treacherous [rival.GetFirstName|U] of Vy, only to abdicate after [silas_stavro|E]'s defeat and spend the remainder of her life wandering [aeras|E]." #NT!
+ legend_coc_raven: "Heroic Legacy of Raven den va Pontaget" #NT!
+ legend_coc_raven_desc: "One of the three companions of [champion_of_chevalie|E], [ancestor.GetFirstName|U] traveled across the world as a mercenary for much of his life before returning to his homeland to fight in the [red_river_war|E]. He would be instrumental in overthrowing his father and rallying the kingdom of Rohr to the Champion's cause, and after [silas_stavro|E]'s defeat would abdicate and live out the rest of his life in [peti_gisredde|E]." #NT!
+ legend_coc_pierre: "Martyr's Legacy of Pierre Valadec" #NT!
+ legend_coc_pierre_desc: "An ally of [champion_of_chevalie|E], [ancestor.GetFirstName|U] died while holding off [silas_stavro|E]'s forces at the Battle of Grande Lafadai, buying precious time for the forces of the living to escape west and mount a final defense at [peti_gisredde|E]." #NT!
+ legend_coc_gofrei: "Heroic Legacy of Gofrei Monteaux" #NT!
+ legend_coc_gofrei_desc: "The only original king of the [anarchy_of_the_five_crowns|E] still alive at the time of the [red_river_war|E], [ancestor.GetFirstName|U] would attempt to rally the rest of [chevalie|E] against [silas_stavro|E], only to be betrayed by the Pontagets and slain while personally leading an army against the risen dead." #NT!
+ legend_valden: "Legacy of High King Valden" #NT!
+ legend_valden_desc: "Faced with an invasion by the dreaded [lich|E] [lich.GetNameNicknamed|U], [ancestor.GetFirstName|U] would show himself a true sovereign after personally slaying the fiend that threatened his realm in battle." #NT!
+ legend_wayfather_peyton: "Saintly Blood of Wayfather Peyton" #NT!
+ legend_wayfather_peyton_desc: "Wayfather [ancestor.GetFirstName|U] of the Way of Harvests declared that no harvest could be safely done while the undead yet still 'lived', and that bonemeal did wonders for the crop, and thus declared that the best way to perfect his path would be in the destruction of the undead. Peyton became legendary for his excursions into the [the_lichdoms|E], even slaying the [lich|E] [lich.GetFullName|U] in an assault on his citadel with only 566 losses in his party of 570." #NT!
+ legend_high_king_marcomer: "Heir of the High King of the Reach" #NT!
+ legend_high_king_marcomer_desc: "The only High King outside of [chevalie|E], [ancestor.GetFirstName|U] was thrust onto the helm of a freshly-forged realm that was facing the full might of [aversaria|E] — though he reputedly tried to turn down the crown numerous times and deeply resented his role. Nonetheless, he vigorously resisted Aversarian encroachment for two decades, but ultimately agreed to abdicate and swear fealty to the Aautokratir in exchange for generous terms for all his former subjects." #NT!
+ legend_aeschraes: "Blood of the World-Maker" #NT!
+ legend_aeschraes_desc: "[ancestor.GetFirstNameNicknamed|U] in their great and terrible casting of [selfreplicating_blood_magic|E], had become the 'World-Breaker'. In its sundering, the [second_empire_to_aversaria|E] was shattered beyond any means of repair, reality screamed, and [aeras|E] would drown in seas of blood. Whatever legitimacy he held being the strongest [magi|E] alive would fade, and undermined by Aversaria's new warlords. Ultimately driven from Orasipol in the aftermath of the [vilnian_assault|E], he was overthrown and believed dead.\n\nHow wrong they had been, and how dearly they would pay." #NT!
+ legend_cenware: "Song of the Witch-Breaker" #NT!
+ legend_cenware_desc: "A legendary warrior and leader, [founder.GetFirstName|U] was named 'Witch-Breaker' for his great raid on the [mayikrata|E], its walls previously thought to be insurmountable. Scourge of [aversaria|E] and herald of a new world, skalds shall sing of Cenware's mighty deeds for ages to come." #NT!
+ legend_seignon: "Rightful Kings of Chevalie" #NT!
+ legend_seignon_desc: "Our forefather [ancestor.GetTitledFirstName|U] demonstrated his capability to unite the disparate marches of [chevalie|E], and [absentdad.GetFirstName|U] would triumph over the [black_gold_league|E] in the [black_gold_war|E]. Our claim to the High Kingship is strong, and we shall prove fit for it time and time again!" #NT!
+ legend_black_sun: "Born Under a Black Sun" #NT!
+ legend_black_sun_desc: "In the [Concept('aversaria','Aautokrata')|E]#E 's#! darkest hour, the [Concept('aersanon','Purest')|E] himself shrouded the sun in black to herald the coming of a hero: [founder.GetFirstName|U], saviour of Aversaria. He remained firm against the [Concept('sjalvolki_migrations','barbarian hordes')|E] and the [Concept('chevalie', 'thieving Marcher warlords')|E]. So long as his line remains, Aversaria will never truly fall." #NT!
+ legend_last_iyrossi: "Last of the Iyrossi Kings" #NT!
+ legend_last_iyrossi_desc: "" #NT!
+ legend_skull_taker: "Dreadful Legacy of the Skull-Taker" #NT!
+ legend_skull_taker_desc: "" #NT!
+ legend_ogier: "Slayer of 'the Solstice Scourge'" #NT!
+ legend_ogier_desc: "" #NT!
+ legend_esterax: "Divine Child of Aeschraes and Axiothea" #NT!
+ legend_esterax_desc: "" #NT!
+ legend_harthah: "The Father of Sarradon" #NT!
+ legend_harthah_desc: "In the long and arduous [saints_war|E], [founder.GetTitledFirstName|U] had witnessed and fought the oppression brought by the Agionist crusaders. Declaring the people of [sarradon|E] as his children, he swore they would be freed from their heathen overlords. With his dream finally achieved, Sarradon stands strong, ready to repel any would-be invaders." #NT!
+ legend_earthshaker: "Might of the Earthshaker" #NT!
+ legend_earthshaker_desc: "" #NT!
+  ##Story Achievement 
+ legend_victorious_cois: "Cois the Victorious" #NT!
+ legend_victorious_cois_desc: "Though [winner.GetFirstName|U] had proven himself more than a puppet when [loser.GetFirstNameNicknamed|U]#underline 's #! great Imperrech failed it's first foray into the [aversarian|E] heartland, his second victory and dismantlement of the coalition carved his name into the annals of history. His great feat lending credence to the idea of a completely revived Aautokrata." #NT!
+ legend_last_aautokratir: "Heirs of the Last Aautokratir" #NT!
+ legend_last_aautokratir_desc: "[defender.GetFirstName|U] had performed a miracle in beating back [attacker.GetFirstNameNicknamed|U]#underline 's #! invasion of Etepezea, but faltered when Cenware redoubled his efforts. The last true Aautokratir of the West died cornered in a valley, though his dreams live on in his exiled heirs." #NT!
+ legend_narses: "The Avenger of Elysia" #NT!
+ legend_narses_desc: "In the bloodbath of Elysia, any semblance of remaining [aversarian|E] might was thought to have been shattered, and its survivors uncertain whether the Sjalvolki horde could be stopped. [winner.GetFirstName|U] persevered though, and ultimately avenged Elysia's lost legions, and halted [loser.GetFirstNameNicknamed|U]#underline 's #! Southmarch." #NT!
+ legend_hecaeda_aironoi: "A New Eastern Aautokrata" #NT!
+ legend_hecaeda_aironoi_desc: "" #NT!
+ legend_hecaeda_liberator: "Just Legacy of the Liberator" #NT!
+ legend_hecaeda_liberator_desc: "" #NT!
+ legend_hecaeda_reformed: "Righteous Blood of the Reformer" #NT!
+ legend_hecaeda_reformed_desc: "" #NT!
+ legend_nicky_voreias: "The Nea Aautokrata" #NT!
+ legend_nicky_voreias_desc: "" #NT!
+ legend_nicky_reformed: "The Purest Reborn" #NT!
+ legend_nicky_reformed_desc: "" #NT!
+  ##Generic Achievement 
+ legend_gatecrasher: "The Scourge of Adabyss" #NT!
+ legend_gatecrasher_desc: "" #NT!
+ legend_not_lelmand_beaten: "Adabyss Defied" #NT!
+ legend_not_lelmand_beaten_desc: "[winner.GetFirstNameNicknamed] broke the great armies of [loser.GetFirstName], saving [damota|E] from the yoke of Adabyss. A true triumph over foes that vastly outmatched us technologically, [winner.GetFirstNameNoTooltip] has carved their name into the annals of history." #NT!
+ legend_lelmand_beaten: "The Colossus Toppled" #NT!
+ legend_lelmand_beaten_desc: "Against all odds, [winner.GetFirstNameNicknamed] fended off the tremendous armies of [GetTrait('adabyss_invasion_leader').GetName( loser )] [loser.GetFirstName], saving our people, and perhaps all of [sarradon|E] from slavery and subjugation. With Adabyss' mighty flying fortressess felled and dreadful war golems shattered, we are forever indebted to [winner.GetHerHis] line." #NT!
+ legend_fog_beaten: "Bane of the Aelhyoer" #NT!
+ legend_fog_beaten_desc: "" #NT!
+ legend_lich_slayer_necropolis: "Slayer of the Lich [loser.GetFirstNameNicknamedNoTooltip]" #NT!
+ legend_lich_slayer_necropolis_desc: "In a legendary duel to the death, [winner.GetFirstName|U] slew the fearsome [lich|E] [loser.GetFirstNameNicknamed] in their lair of [location.GetName|U]. Plundering the dark necropolis of its treasures, [winner.GetFirstNameNoTooltip|U] would return home facing a hero's welcome, knowing there would be one less master of undeath threatening the realms of the living." #NT!
+ legend_lich_slayer_border: "Stand Against the Lich [loser.GetFirstNameNicknamedNoTooltip]" #NT!
+ legend_lich_slayer_border_desc: "In a raid of [location.GetName|U] from the vile [lich|E] [loser.GetFirstNameNicknamed], [winner.GetFirstName|U] made [winner.GetHerHis] heroic stand, repelling the abomination and their undead army. [winner.GetHerHis|U] lands defended, toasts to [winner.GetFirstNamePossessiveNoTooltip] name could be heard in every tavern." #NT!
+  ##Formables 
+ legend_restored_aversaria: "The Third Empire of the Purest" #NT!
+ legend_restored_aversaria_desc: "Just as the [Culture('aelarvisian', 'ancients')|E] restored the realm of the [Concept('aelfir', 'First Men')|E], so too did [founder.GetTitledFirstName] restore the realm of the ancients. With [founder.GetHerHis] might, [founder.GetSheHe] proved that while humanity may bend, it will never break." #NT!
+ legend_successor_aautokrata: "An Empire Risen from Bloody Ashes" #NT!
+ legend_oraispol_aautokrata_desc: "" #NT!
+ legend_asiupoli_aautokrata_desc: "" #NT!
+ legend_stellios_aautokrata_desc: "" #NT!
+ legend_restored_aversarian_province: "Restoration of the Province of [title.GetNameNoToolstip]" #NT!
+ legend_restored_aversarian_province_desc: "" #NT!
+ legend_viesuados_restored: "True Heirs to Viesuados" #NT!
+ legend_viesuados_restored_desc: "" #NT!
+ legend_chevalie_uniter_generic: "Uniter of the Marches" #NT!
+ legend_chevalie_uniter_generic_desc: "" #NT!
+ legend_chevalie_uniter_mathilde_desc: "" #NT!
+ legend_marcher_amsar: "The Subjugation of Amsar" #NT!
+ legend_marcher_amsar_desc: "" #NT!
+ legend_amsar_shattered_reforged: "" #NT!
+ legend_amsar_shattered_reforged_desc: "" #NT!
+ legend_amsar_obliterated_reforged: "" #NT!
+ legend_amsar_obliterated_reforged_desc: "" #NT!
+ legend_skycrown: "A New Kingdom in the Clouds" #NT!
+ legend_skycrown_desc: "" #NT!
+ legend_huegodoc_kingdom: "The Founding of [title.GetNameNoToolstip]" #NT!
+ legend_heurgordica_desc: "" #NT!
+ legend_dathothica_desc: "" #NT!
+ legend_rithogedica_desc: "" #NT!
+ legend_mountain_home: "" #NT!
+ legend_mountain_home_desc: "" #NT!
+ legend_malaak: "The Avatar of Ohrasik" #NT!
+ legend_malaak_desc: "" #NT!
+ legend_shanisu_hubarin: "Shamsah Over Sarradon Once More" #NT!
+ legend_shanisu_hubarin_desc: "" #NT!
+ legend_mountain_sun: "Dawn of a New Concordat" #NT!
+ legend_mountain_sun_desc: "Amidst the Sjalvolki's religous and political turmoil in the Southern Rite Wars, [struggle_ender.GetFirstNameNicknamed] reclaimed rightful Opakhasian soil, and put an end to the petty squabbling of [struggle_ender.GetHerHis] invaders. In this new world without [aversaria|E] though, [struggle_ender.GetFirstNamePossessiveNoTooltip] would forge a new Opakhasian identity, harkening back to the days before the empire, when [GetBuilding('01_vounill').GetName] was the seat of power and faith in the region." #NT!
+ legend_new_mamuramat: "The Establishment of the [title.GetNameNoTooltip]" #NT!
+ legend_continental_mamuramat_desc: "" #NT!
+ legend_south_mamuramat_desc: "" #NT!
+ legend_west_mamuramat_desc: "" #NT!
+ legend_east_mamuramat_desc: "" #NT!
+ legend_far_east_mamuramat_desc: "" #NT!
+ legend_far_west_mamuramat_desc: "" #NT!
+ legend_boqqarut: "" #NT!
+ legend_boqqarut_desc: "" #NT!
+ legend_kemsar_warlord: "" #NT!
+ legend_kemsar_warlord_desc: "" #NT!
+ legend_pirate_king: "" #NT!
+ legend_pirate_king_desc: "" #NT!
+ legend_pirate_emperor: "" #NT!
+ legend_pirate_emperor_desc: "" #NT!
+ legend_ufaliracci: "" #NT!
+ legend_ufaliracci_desc: "" #NT!
+ legend_kash_east: "" #NT!
+ legend_kash_east_desc: "" #NT!
+ legend_taryaad: "" #NT!
+ legend_taryaad_desc: "" #NT!
+ legend_riverlands_kingdom: "The [title.GetNameNoTooltip] Rises" #NT!
+ legend_riverlands_kingdom_desc: "[founder.GetName], through [founder.GetHerHis] political savvy and stewardship, has elevated the Riverlands to a new kingdom, rivaling those of [chevalie|E]#E 's#! historical de jure." #NT!

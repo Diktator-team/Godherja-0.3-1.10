@@ -1,0 +1,9 @@
+﻿l_russian:
+ study_knowledge_entry.0001.t: "A Successful Study" #NT!
+ study_knowledge_entry.0001.desc: "After countless hours of studying the section on #underline [Localize(Concatenate(knowledge_entry_scope.MakeScope.Var('knowledge_entry_name').GetFlagName, '_name'))]#!, I have finally grasped what the author of [artifact_being_studied.GetName] was trying to convey. I now have the bothersome task of compiling my notes so that the information does not slip through my grasp. However, I do feel as if I’ve overcome a large hurdle in my understanding." #NT!
+ study_knowledge_entry.0001.a: "Onto the next!" #NT!
+ study_knowledge_entry_complete: "You have learned the secrets of #underline [Localize(Concatenate(knowledge_entry_scope.MakeScope.Var('knowledge_entry_name').GetFlagName, '_name'))]#!" #NT!
+ study_knowledge_entry.0002.t: "A Disastrous Study" #NT!
+ study_knowledge_entry.0002.desc: "After countless hours of studying the section on #underline [Localize(Concatenate(knowledge_entry_scope.MakeScope.Var('knowledge_entry_name').GetFlagName, '_name'))]#!, all I have are the words of [artifact_being_studied.GetName] swimming haphazardly around my head and a throbbing headache. My notes are strewn in disorganized piles on my desk and on the floor. I must get some rest before I can even get close to understanding this section." #NT!
+ study_knowledge_entry.0002.a: "Time for bed." #NT!
+ study_knowledge_entry.0002.b: "No! I can feel that I'm close!" #NT!

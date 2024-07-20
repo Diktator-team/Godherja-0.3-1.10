@@ -7,5 +7,5 @@
  LAWLESS_CONTEST_OPINION_SADISTIC: "[GetTrait('sadistic').GetName(recipient.Self)] любит пачкать руки: $VALUE|=+0$"
  LAWLESS_CONTEST_OPINION_AMBITIOUS: "[GetTrait('ambitious').GetName(recipient.Self)] будет защищать свою позицию любой ценой: $VALUE|=+0$"
   
- must_have_equal_or_higher_prestige_level: "Должно иметь равное или большее значение [Concept('prestige_level','уровню престижа')|E]."
- other_vassals_may_break_away_tooltip: "Другие [Concept('vassals','вассалы')|E] могут #N отсъединиться#! при такой демонстрации слабости"
+ must_have_equal_or_higher_prestige_level: "Должно иметь равное или большее значение [prestige_level|E]."
+ other_vassals_may_break_away_tooltip: "Другие [vassals|E] могут #N оторваться#! при такой демонстрации слабости"

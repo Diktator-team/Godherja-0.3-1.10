@@ -1,0 +1,82 @@
+﻿l_russian:
+ redlander_mission_kill: "slay [ROOT.Char.Custom('GetRedlanderMissionKillCriteria')]" #NT!
+ redlander_mission_kill_tier_virtue: "[ROOT.Char.Custom('GetRedlanderMissionKillQuantityCriteria')] of [ROOT.Char.Custom('GetRedlanderMissionKillTierCriteria')] and [ROOT.Char.Custom('GetRedlanderMissionKillVirtueCriteria')]" #NT!
+ redlander_mission_kill_tier_method: "[ROOT.Char.Custom('GetRedlanderMissionKillQuantityCriteria')] of [ROOT.Char.Custom('GetRedlanderMissionKillTierCriteria')] through [ROOT.Char.Custom('GetRedlanderMissionKillMethodCriteria')]" #NT!
+ redlander_mission_kill_virtue_method: "[ROOT.Char.Custom('GetRedlanderMissionKillQuantityCriteria')] of [ROOT.Char.Custom('GetRedlanderMissionKillVirtueCriteria')] through [ROOT.Char.Custom('GetRedlanderMissionKillMethodCriteria')]" #NT!
+ redlander_mission_kill_method: "[ROOT.Char.Custom('GetRedlanderMissionKillQuantityCriteria')] through [ROOT.Char.Custom('GetRedlanderMissionKillMethodCriteria')]" #NT!
+ redlander_mission_kill_tier: "[ROOT.Char.Custom('GetRedlanderMissionKillQuantityCriteria')] of [ROOT.Char.Custom('GetRedlanderMissionKillTierCriteria')]" #NT!
+ redlander_mission_kill_virtue: "[ROOT.Char.Custom('GetRedlanderMissionKillQuantityCriteria')] of [ROOT.Char.Custom('GetRedlanderMissionKillVirtueCriteria')]" #NT!
+ redlander_mission_kill_none: "[ROOT.Char.Custom('GetRedlanderMissionKillQuantityCriteria')]" #NT!
+ redlander_mission_kill_tier_empire: "imperial stature" #NT!
+ redlander_mission_kill_tier_kingdom: "royal stature" #NT!
+ redlander_mission_kill_tier_duchy: "ducal stature" #NT!
+ redlander_mission_kill_tier_county: "comital stature" #NT!
+ redlander_mission_kill_tier_barony: "baronial stature" #NT!
+ redlander_mission_kill_virtue_3: "saintly disposition" #NT!
+ redlander_mission_kill_virtue_2: "virtuous essence" #NT!
+ redlander_mission_kill_virtue_1: "righteous spirit" #NT!
+ redlander_mission_kill_quantity_high: "umpteen people" #NT!
+ redlander_mission_kill_quantity_5: "five people" #NT!
+ redlander_mission_kill_quantity_4: "four people" #NT!
+ redlander_mission_kill_quantity_3: "three people" #NT!
+ redlander_mission_kill_quantity_2: "two people" #NT!
+ redlander_mission_kill_quantity_1: "a person" #NT!
+ redlander_mission_kill_method_murder: "cold-blooded murder" #NT!
+ redlander_mission_kill_method_sacrifice: "ritual sacrifice" #NT!
+ redlander_mission_kill_method_mysterious: "mysterious murder" #NT!
+ redlander_mission_kill_method_magic_targeted_spell: "occult murder" #NT!
+ redlander_mission_raid: "raid [ROOT.Char.Custom('GetRedlanderMissionRaidCriteria')]" #NT!
+ redlander_mission_raid_development: "[ROOT.Char.Custom('GetRedlanderMissionRaidQuantityCriteria')] of [ROOT.Char.Custom('GetRedlanderMissionRaidDevelopmentCriteria')]" #NT!
+ redlander_mission_raid_none: "[ROOT.Char.Custom('GetRedlanderMissionRaidQuantityCriteria')]" #NT!
+ redlander_mission_raid_quantity_high: "umpteen provinces" #NT!
+ redlander_mission_raid_quantity_5: "five provinces" #NT!
+ redlander_mission_raid_quantity_4: "four provinces" #NT!
+ redlander_mission_raid_quantity_3: "three provinces" #NT!
+ redlander_mission_raid_quantity_2: "two provinces" #NT!
+ redlander_mission_raid_quantity_1: "a province" #NT!
+ redlander_mission_raid_development_5: "blasphemous decadence" #NT!
+ redlander_mission_raid_development_4: "profane excess" #NT!
+ redlander_mission_raid_development_3: "middling wealth" #NT!
+ redlander_mission_raid_development_2: "inferior stature" #NT!
+ redlander_mission_raid_development_1: "pitiful prominence" #NT!
+ redlander_mission_child_pit: "send [ROOT.Char.Custom('GetRedlanderMissionChildPitCriteria')] to the Pits" #NT!
+ redlander_mission_child_pit_magic_level: "[ROOT.Char.Custom('GetRedlanderMissionChildPitQuantityCriteria')] of [ROOT.Char.Custom('GetRedlanderMissionChildPitMagicLevelCriteria')] magical potential" #NT!
+ redlander_mission_child_pit_none: "[ROOT.Char.Custom('GetRedlanderMissionChildPitQuantityCriteria')]" #NT!
+ redlander_mission_child_pit_quantity_high: "umpteen children" #NT!
+ redlander_mission_child_pit_quantity_5: "five children" #NT!
+ redlander_mission_child_pit_quantity_4: "four children" #NT!
+ redlander_mission_child_pit_quantity_3: "three children" #NT!
+ redlander_mission_child_pit_quantity_2: "two children" #NT!
+ redlander_mission_child_pit_quantity_1: "a child" #NT!
+ redlander_mission_child_pit_magic_level_high: "extremely exceptional" #NT!
+ redlander_mission_child_pit_magic_level_5: "exceptional" #NT!
+ redlander_mission_child_pit_magic_level_4: "advanced" #NT!
+ redlander_mission_child_pit_magic_level_3: "gifted" #NT!
+ redlander_mission_child_pit_magic_level_2: "basic" #NT!
+ redlander_mission_child_pit_magic_level_1: "latent" #NT!
+  
+ blackspawn.0001.t: "A Test of Faith" #NT!
+ blackspawn.0001.desc.redlander: "I have begun to hear the call of the dark beyond, just as I had awaited. At first, I only caught mere glimpses of the Void's unspoiled beauty in my dreams, but now, the gods' whispers start to reveal the dark truths I had desired for so long in the back of my mind.\n\nMy masters command me to [ROOT.Char.Custom('GetRedlanderMissionCriteria')]; it is not my place to question their decrees—only to obey. It will not be easy, but only those who feed the darkness without will truly understand the one within." #NT!
+ blackspawn.0001.desc.other: "At first, I assumed they were only nightmares, but over time, I have become convinced there is something more to my dark dreams. They began as a maddening, ineffable darkness, with some malevolent force beckoning me to look at it, but soon I began to hear them—voices whispering terrible truths to me and promising more if only I would listen.\n\nNow, the whispers command me to [ROOT.Char.Custom('GetRedlanderMissionCriteria')], and my dreams are filled with pain and death. If some dark power beyond my understanding wants blood, I refuse to be the executioner... though perhaps if this... #EMP thing#! is placated, my waking hours will no longer be ruled by fear." #NT!
+ blackspawn.0001.a.redlander: "The Masters' will be done." #NT!
+ blackspawn.0001.a.other: "What should I do?" #NT!
+  
+ blackspawn.0011.t: "A Servant of Darkness" #NT!
+ blackspawn.0011.desc: "It is done.\n\nThe covenant is fulfilled, and a surge of dark power fills my veins with cold fire and burning ice. My knees grow weak as an exhilarating feeling of elation fills my entire being with joy, for I am like a newborn crawling out of the ruptured and discarded shell of my former self.\n\nMy power has grown, and I am one step closer to being remade in my gods' image. Who is to tell how far I shall go?" #NT!
+ blackspawn.0011.a: "I am destined for yet greater things." #NT!
+ blackspawn.0011.b: "$blackspawn.0011.a$" #NT!
+ blackspawn.0011.c: "$blackspawn.0011.a$" #NT!
+ blackspawn.0011.d: "$blackspawn.0011.a$" #NT!
+  
+ blackspawn.0012.t: "Ire of the Gods" #NT!
+ blackspawn.0012.desc.first: "Lately, the voices at the edge of my consciousness have become more violent, demanding submission, obedience, and the furtherance of their goals. My progress has been insufficient thus far, and the displeasure of my dark masters makes itself known as immaterial tendrils of their power grip my blackened heart, denying me rest and respite.\n\nAlready, my disciples and acolytes glance at me with distrust and haughtiness, the glint of ambition sparkling in the corners of their eyes. Should I not remedy the situation, my position, life, and soul might be in danger." #NT!
+ blackspawn.0012.desc.second: "The gods' wrath grows.\n\nNo longer mere whispers, inhuman howls occupy the fraying edges of my consciousness, resonating in my bones and flesh alike. For too long, I have neglected my purpose, my very reason for being as ordained by my dark masters; I have spent my time in the mortal world idly.\n\nWhat respect I had among my peers has long since vanished, and the most zealous of the flock are already calling for my extermination. I still hold hope, but soon, the damage might become irreparable." #NT!
+ blackspawn.0012.desc.third: "The gods' wrath is incandescent.\n\nLances of searing agony threaten to splinter my entire being, as the gods threaten to unmake my very soul. How foolish I have been to tarry, to delay, to refuse my masters' absolute commands. The cracks in my sanity fester, thick ichor clots my veins, and I know for sure that I am one step from oblivion.\n\nEach day, I expect a dagger in my back. Each acolyte is a potential enemy, eager to dispose of the heathen I have become. One more chance remains for me, but it will be my last." #NT!
+ blackspawn.0012.desc.final: "The end, as it does, came abruptly. The darkness rose and swallowed me, or perhaps I faded into it myself.\n\nNow, I am blind.\n\nI cannot see, for I have nothing to see with.\n\nNow, I am deaf.\n\nI cannot hear, for there is no sound in the Void.\n\nNow, I do not exist.\n\nI cannot be, for nothing is left of me." #NT!
+ blackspawn.0012.a: "I must advance, lest I be left behind." #NT!
+ blackspawn.0012.a.tt: "The gods are displeased" #NT!
+ blackspawn.0012.b: "I must advance, lest nothing will be left of me." #NT!
+ blackspawn.0012.b.tt: "The gods are angry" #NT!
+ blackspawn.0012.c: "Is there even anything left of me?" #NT!
+ blackspawn.0012.c.tt: "The gods are furious" #NT!
+ blackspawn.0012.d: "This is the end." #NT!

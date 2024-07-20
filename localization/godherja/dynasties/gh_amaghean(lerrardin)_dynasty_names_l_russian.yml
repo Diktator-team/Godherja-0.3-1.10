@@ -1,182 +1,182 @@
 ﻿l_russian:
   ###Dynastic Prefixes### 
   #Amaghean 
- dynnpat_suf_sdze: "Сдзе"  #Машинный перевод 28.10.23!
- dynnpat_suf_dze: "ве"  #Машинный перевод 28.10.23!
- dynnp_seye_nas: "смотри нас"  #Машинный перевод 28.10.23!
+ dynnpat_suf_sdze: "Сдзе"
+ dynnpat_suf_dze: "ве"
+ dynnp_seye_nas: "смотри нас"
   #Yylaxxaz 
- dynnp_dvze: "дззе"  #Машинный перевод 28.10.23!
- dynnpat_suf_s_dzzy: "головокружение"  #Машинный перевод 28.10.23!
- dynnpat_suf_zhvyyly: "жвийлы"  #Машинный перевод 28.10.23!
+ dynnp_dvze: "дззе"
+ dynnpat_suf_s_dzzy: "головокружение"
+ dynnpat_suf_zhvyyly: "жвийлы"
   #Tsetnera 
- dynnpat_suf_mak: "Мак"  #Машинный перевод 28.10.23!
- dynnpat_suf_makl: "Макл"  #Машинный перевод 28.10.23!
+ dynnpat_suf_mak: "Мак"
+ dynnpat_suf_makl: "Макл"
   ###Historic Dynasties### 
   #Amaghean 
- dynn_Darashbal: "Дарашбал"  #Машинный перевод 28.10.23!
- dynn_Darashbal_motto: "Стражи ворот"  #Машинный перевод 28.10.23!
- dynn_Kartvana: "Картвана"  #Машинный перевод 28.10.23!
- dynn_Kartvana_motto: "Мы отомстим за себя"  #Машинный перевод 28.10.23!
- dynn_Kazvelli: "Казвелли"  #Машинный перевод 28.10.23!
- dynn_Kazvelli_motto: "Услышьте зов льва"  #Машинный перевод 28.10.23!
- dynn_Khkervili: "Хкервили"  #Машинный перевод 28.10.23!
- dynn_Khkervili_motto: "Восстаньте, сыны огня"  #Машинный перевод 28.10.23!
- dynn_Melhozir: "Мельхозир"  #Машинный перевод 28.10.23!
- dynn_Melhozir_motto: "Мечи Арназа"  #Машинный перевод 28.10.23!
- dynn_Mtavarvili: "Мтарварвили"  #Машинный перевод 28.10.23!
- dynn_Mtavarvili_motto: "Мы стоим после того, как все остальные пали."  #Машинный перевод 28.10.23!
- dynn_Orbelishvili: "Орбелишвили"  #Машинный перевод 28.10.23!
- dynn_Orbelishvili_motto: "Слава свободному гонщику"  #Машинный перевод 28.10.23!
- dynn_Parnaz: "Парнзде"  #Машинный перевод 28.10.23!
- dynn_Parnaz_motto: "Слава Великому Армазли, самому высокому из существующих!"  #Машинный перевод 28.10.23!
- dynn_Vashvili: "Вашвили"  #Машинный перевод 28.10.23!
- dynn_Vashvili_motto: "Горная крепость"  #Машинный перевод 28.10.23!
- dynn_Volzolo: "Волзоло"  #Машинный перевод 28.10.23!
- dynn_Volzolo_motto: "Время неограничено"  #Машинный перевод 28.10.23!
+ dynn_Darashbal: "Дарашбал"
+ dynn_Darashbal_motto: "Стражи ворот"
+ dynn_Kartvana: "Картвана"
+ dynn_Kartvana_motto: "Мы отомстим за себя"
+ dynn_Kazvelli: "Казвелли"
+ dynn_Kazvelli_motto: "Услышьте зов льва"
+ dynn_Khkervili: "Хкервили"
+ dynn_Khkervili_motto: "Восстаньте, сыны огня"
+ dynn_Melhozir: "Мельхозир"
+ dynn_Melhozir_motto: "Мечи Арназа"
+ dynn_Mtavarvili: "Мтарварвили"
+ dynn_Mtavarvili_motto: "Мы стоим после того, как все остальные пали."
+ dynn_Orbelishvili: "Орбелишвили"
+ dynn_Orbelishvili_motto: "Слава свободному гонщику"
+ dynn_Parnaz: "Парнзде"
+ dynn_Parnaz_motto: "Слава Великому Армазли, самому высокому из существующих!"
+ dynn_Vashvili: "Вашвили"
+ dynn_Vashvili_motto: "Горная крепость"
+ dynn_Volzolo: "Волзоло"
+ dynn_Volzolo_motto: "Время неограничено"
   #Yylaxxaz 
- dynn_Pxxt_zztl_kxxyy: "Pxxt'zztl'kxxyy"  #Машинный перевод 28.10.23!
- dynn_Pxxt_zztl_kxxyy_motto: "Он ведет, мы следуем"  #Машинный перевод 28.10.23!
- dynn_Wkzzipty_xxptlyy: "Wkzzipty'xxptlyy"  #Машинный перевод 28.10.23!
- dynn_Wkzzipty_xxptlyy_motto: "Пастырь, направляй нас"  #Машинный перевод 28.10.23!
- dynn_Ptl_apl_ypl_zzy: "Птл'апл'ыпл'ззи"  #Машинный перевод 28.10.23!
- dynn_Ptl_apl_ypl_zzy_motto: "Все определено"  #Машинный перевод 28.10.23!
- dynn_Xyzxyzxyz_p: "Xyzxyzxyz'p"  #Машинный перевод 28.10.23!
- dynn_Xyzxyzxyz_p_motto: "Тот, кто не знает, знает все"  #Машинный перевод 28.10.23!
- dynn_Xxzyyo_yylayy: "Xxzyyo'yylayy"  #Машинный перевод 28.10.23!
- dynn_Xxzyyo_yylayy_motto: "Нет более зеленых пастбищ"  #Машинный перевод 28.10.23!
+ dynn_Pxxt_zztl_kxxyy: "Pxxt'zztl'kxxyy"
+ dynn_Pxxt_zztl_kxxyy_motto: "Он ведет, мы следуем"
+ dynn_Wkzzipty_xxptlyy: "Wkzzipty'xxptlyy"
+ dynn_Wkzzipty_xxptlyy_motto: "Пастырь, направляй нас"
+ dynn_Ptl_apl_ypl_zzy: "Птл'апл'ыпл'ззи"
+ dynn_Ptl_apl_ypl_zzy_motto: "Все определено"
+ dynn_Xyzxyzxyz_p: "Xyzxyzxyz'p"
+ dynn_Xyzxyzxyz_p_motto: "Тот, кто не знает, знает все"
+ dynn_Xxzyyo_yylayy: "Xxzyyo'yylayy"
+ dynn_Xxzyyo_yylayy_motto: "Нет более зеленых пастбищ"
   ###Cultural Dynasties### 
   #Amaghean 
- dynn_Kaunulo: "Каунуло"  #Машинный перевод 28.10.23!
- dynn_Silijausholo: "Силияушоло"  #Машинный перевод 28.10.23!
- dynn_Taukjorokso: "Таукьороксо"  #Машинный перевод 28.10.23!
- dynn_Vaurhosholo: "Ваурхошоло"  #Машинный перевод 28.10.23!
- dynn_Baujausho: "Baujausho"  #Машинный перевод 28.10.23!
- dynn_Aphirauzo: "Афираузо"  #Машинный перевод 28.10.23!
- dynn_Ankrizolo: "Анкризоло"  #Машинный перевод 28.10.23!
- dynn_Geroulo: "Геруло"  #Машинный перевод 28.10.23!
- dynn_Alesurosksu: "Алесуроссксу"  #Машинный перевод 28.10.23!
- dynn_Seraumulo: "Сераумуло"  #Машинный перевод 28.10.23!
- dynn_Zuzkjonoksu: "Зузкёноксу"  #Машинный перевод 28.10.23!
- dynn_Amorutolo: "Аморутоло"  #Машинный перевод 28.10.23!
- dynn_Saumiulosu: "Саумиулосу"  #Машинный перевод 28.10.23!
- dynn_Gelausu: "Gelausu"  #Машинный перевод 28.10.23!
- dynn_Oshmursu: "Ошмурсу"  #Машинный перевод 28.10.23!
- dynn_Gulizo: "Гулизо"  #Машинный перевод 28.10.23!
- dynn_Paunausrursulo: "Паунаусрурсуло"  #Машинный перевод 28.10.23!
- dynn_Ajoaushzolo: "Аджоаушзоло"  #Машинный перевод 28.10.23!
- dynn_Kaucholauksu: "Каучолауксу"  #Машинный перевод 28.10.23!
- dynn_Kurulausu: "Курулаусу"  #Машинный перевод 28.10.23!
- dynn_Chilzolo: "Чильзоло"  #Машинный перевод 28.10.23!
- dynn_Dosaumoksu: "Досаумоксу"  #Машинный перевод 28.10.23!
- dynn_Khersoksu: "Херсоксу"  #Машинный перевод 28.10.23!
- dynn_Sholkosauno: "Sholkosauno"  #Машинный перевод 28.10.23!
- dynn_Shauzloauno: "Шаузлоауно"  #Машинный перевод 28.10.23!
- dynn_Dinauero: "Динауэро"  #Машинный перевод 28.10.23!
- dynn_Orlauno: "Орлауно"  #Машинный перевод 28.10.23!
- dynn_Jauphauroksu: "Яуфауроксу"  #Машинный перевод 28.10.23!
- dynn_Jauzaurolo: "Яузауроло"  #Машинный перевод 28.10.23!
- dynn_Jirtauksu: "Йиртауксу"  #Машинный перевод 28.10.23!
- dynn_Maurjulo: "Маурхуло"  #Машинный перевод 28.10.23!
- dynn_Kurosksu: "Куроссксу"  #Машинный перевод 28.10.23!
- dynn_Khueloksu: "Хуэлоксу"  #Машинный перевод 28.10.23!
- dynn_Maunraulurkulo: "Маунраулуркуло"  #Машинный перевод 28.10.23!
- dynn_Khomshoaushzolo: "Хомшоаушзоло"  #Машинный перевод 28.10.23!
- dynn_Shurzaushoksu: "Шурзаушоксу"  #Машинный перевод 28.10.23!
- dynn_Daukoauno: "Даукоауно"  #Машинный перевод 28.10.23!
- dynn_Kilelaushzolo: "Килелаушзоло"  #Машинный перевод 28.10.23!
- dynn_Mauchesauksu: "Маучесауксу"  #Машинный перевод 28.10.23!
- dynn_Gaumrurulo: "Гаумруруло"  #Машинный перевод 28.10.23!
- dynn_Morulauksu: "Морулауксу"  #Машинный перевод 28.10.23!
- dynn_Mhussoksu: "Мхусоксу"  #Машинный перевод 28.10.23!
- dynn_Tailosu: "Тайлосу"  #Машинный перевод 28.10.23!
- dynn_Paunkolo: "Паунколо"  #Машинный перевод 28.10.23!
+ dynn_Kaunulo: "Каунуло"
+ dynn_Silijausholo: "Силияушоло"
+ dynn_Taukjorokso: "Таукьороксо"
+ dynn_Vaurhosholo: "Ваурхошоло"
+ dynn_Baujausho: "Baujausho"
+ dynn_Aphirauzo: "Афираузо"
+ dynn_Ankrizolo: "Анкризоло"
+ dynn_Geroulo: "Геруло"
+ dynn_Alesurosksu: "Алесуроссксу"
+ dynn_Seraumulo: "Сераумуло"
+ dynn_Zuzkjonoksu: "Зузкёноксу"
+ dynn_Amorutolo: "Аморутоло"
+ dynn_Saumiulosu: "Саумиулосу"
+ dynn_Gelausu: "Gelausu"
+ dynn_Oshmursu: "Ошмурсу"
+ dynn_Gulizo: "Гулизо"
+ dynn_Paunausrursulo: "Паунаусрурсуло"
+ dynn_Ajoaushzolo: "Аджоаушзоло"
+ dynn_Kaucholauksu: "Каучолауксу"
+ dynn_Kurulausu: "Курулаусу"
+ dynn_Chilzolo: "Чильзоло"
+ dynn_Dosaumoksu: "Досаумоксу"
+ dynn_Khersoksu: "Херсоксу"
+ dynn_Sholkosauno: "Sholkosauno"
+ dynn_Shauzloauno: "Шаузлоауно"
+ dynn_Dinauero: "Динауэро"
+ dynn_Orlauno: "Орлауно"
+ dynn_Jauphauroksu: "Яуфауроксу"
+ dynn_Jauzaurolo: "Яузауроло"
+ dynn_Jirtauksu: "Йиртауксу"
+ dynn_Maurjulo: "Маурхуло"
+ dynn_Kurosksu: "Куроссксу"
+ dynn_Khueloksu: "Хуэлоксу"
+ dynn_Maunraulurkulo: "Маунраулуркуло"
+ dynn_Khomshoaushzolo: "Хомшоаушзоло"
+ dynn_Shurzaushoksu: "Шурзаушоксу"
+ dynn_Daukoauno: "Даукоауно"
+ dynn_Kilelaushzolo: "Килелаушзоло"
+ dynn_Mauchesauksu: "Маучесауксу"
+ dynn_Gaumrurulo: "Гаумруруло"
+ dynn_Morulauksu: "Морулауксу"
+ dynn_Mhussoksu: "Мхусоксу"
+ dynn_Tailosu: "Тайлосу"
+ dynn_Paunkolo: "Паунколо"
   #Charchac 
- dynn_Kenfrai: "Кенфраи"  #Машинный перевод 28.10.23!
- dynn_Jeyarai: "Джиярай"  #Машинный перевод 28.10.23!
- dynn_Suryai: "Сурьяй"  #Машинный перевод 28.10.23!
- dynn_Teynraisna: "Тейнрайсна"  #Машинный перевод 28.10.23!
- dynn_Vhyarai: "Вьярай"  #Машинный перевод 28.10.23!
- dynn_Berhyer: "Берьер"  #Машинный перевод 28.10.23!
- dynn_Afucefar: "Афуцефар"  #Машинный перевод 28.10.23!
- dynn_Alsur: "Алсур"  #Машинный перевод 28.10.23!
- dynn_Gisai: "Gisai"  #Машинный перевод 28.10.23!
- dynn_Afirnna: "Афирна"  #Машинный перевод 28.10.23!
- dynn_Alemak: "Алемак"  #Машинный перевод 28.10.23!
- dynn_Zayrilai: "Зайрилай"  #Машинный перевод 28.10.23!
- dynn_Isashafai: "Исашафаи"  #Машинный перевод 28.10.23!
- dynn_Ayetanna: "Айетанна"  #Машинный перевод 28.10.23!
- dynn_Chadainna: "Чадаинна"  #Машинный перевод 28.10.23!
- dynn_Garuyelai: "Garuyelai"  #Машинный перевод 28.10.23!
- dynn_Peledarai: "Пеледарай"  #Машинный перевод 28.10.23!
- dynn_Araihyairanna: "Araihyairanna"  #Машинный перевод 28.10.23!
- dynn_Keshaif: "Кешаиф"  #Машинный перевод 28.10.23!
- dynn_Cheysheyenna: "Чейшейенна"  #Машинный перевод 28.10.23!
- dynn_Shoylarmak: "Шойлармак"  #Машинный перевод 28.10.23!
- dynn_Daienna: "Daienna"  #Машинный перевод 28.10.23!
- dynn_Khisrainna: "Хисраинна"  #Машинный перевод 28.10.23!
- dynn_Shairelai: "Шайрелай"  #Машинный перевод 28.10.23!
- dynn_Salaikar: "Салайкар"  #Машинный перевод 28.10.23!
- dynn_Duleisai: "Duleisai"  #Машинный перевод 28.10.23!
- dynn_Osfaraielai: "Осфараилай"  #Машинный перевод 28.10.23!
- dynn_Jefesainna: "Джефесайнна"  #Машинный перевод 28.10.23!
- dynn_Jeyehyairai: "Джехьяйрай"  #Машинный перевод 28.10.23!
- dynn_Jusnna: "Юснна"  #Машинный перевод 28.10.23!
- dynn_Naraif: "Нараиф"  #Машинный перевод 28.10.23!
- dynn_Khasna: "Хасна"  #Машинный перевод 28.10.23!
- dynn_Fasnarai: "Фаснарай"  #Машинный перевод 28.10.23!
- dynn_Khainrai: "Хайнрай"  #Машинный перевод 28.10.23!
- dynn_Shasnna: "Шаснна"  #Машинный перевод 28.10.23!
- dynn_Denylai: "Денилай"  #Машинный перевод 28.10.23!
- dynn_Hykakai: "Хикакай"  #Машинный перевод 28.10.23!
- dynn_Meshidenna: "Meshidenna"  #Машинный перевод 28.10.23!
- dynn_Gensacarai: "Генсакарай"  #Машинный перевод 28.10.23!
- dynn_Maicarenna: "Майкаренна"  #Машинный перевод 28.10.23!
- dynn_Draiynna: "Драйинна"  #Машинный перевод 28.10.23!
- dynn_Tarafenna: "Тарафенна"  #Машинный перевод 28.10.23!
- dynn_Verikishvili: "Верикишвили"  #Машинный перевод 28.10.23!
- dynn_Reyshirrshvili: "Рейширршвили"  #Машинный перевод 28.10.23!
+ dynn_Kenfrai: "Кенфраи"
+ dynn_Jeyarai: "Джиярай"
+ dynn_Suryai: "Сурьяй"
+ dynn_Teynraisna: "Тейнрайсна"
+ dynn_Vhyarai: "Вьярай"
+ dynn_Berhyer: "Берьер"
+ dynn_Afucefar: "Афуцефар"
+ dynn_Alsur: "Алсур"
+ dynn_Gisai: "Gisai"
+ dynn_Afirnna: "Афирна"
+ dynn_Alemak: "Алемак"
+ dynn_Zayrilai: "Зайрилай"
+ dynn_Isashafai: "Исашафаи"
+ dynn_Ayetanna: "Айетанна"
+ dynn_Chadainna: "Чадаинна"
+ dynn_Garuyelai: "Garuyelai"
+ dynn_Peledarai: "Пеледарай"
+ dynn_Araihyairanna: "Araihyairanna"
+ dynn_Keshaif: "Кешаиф"
+ dynn_Cheysheyenna: "Чейшейенна"
+ dynn_Shoylarmak: "Шойлармак"
+ dynn_Daienna: "Daienna"
+ dynn_Khisrainna: "Хисраинна"
+ dynn_Shairelai: "Шайрелай"
+ dynn_Salaikar: "Салайкар"
+ dynn_Duleisai: "Duleisai"
+ dynn_Osfaraielai: "Осфараилай"
+ dynn_Jefesainna: "Джефесайнна"
+ dynn_Jeyehyairai: "Джехьяйрай"
+ dynn_Jusnna: "Юснна"
+ dynn_Naraif: "Нараиф"
+ dynn_Khasna: "Хасна"
+ dynn_Fasnarai: "Фаснарай"
+ dynn_Khainrai: "Хайнрай"
+ dynn_Shasnna: "Шаснна"
+ dynn_Denylai: "Денилай"
+ dynn_Hykakai: "Хикакай"
+ dynn_Meshidenna: "Meshidenna"
+ dynn_Gensacarai: "Генсакарай"
+ dynn_Maicarenna: "Майкаренна"
+ dynn_Draiynna: "Драйинна"
+ dynn_Tarafenna: "Тарафенна"
+ dynn_Verikishvili: "Верикишвили"
+ dynn_Reyshirrshvili: "Рейширршвили"
   #yylaxxaz 
- dynn_Jaqyxxy: "Жакыкси"  #Машинный перевод 28.10.23!
- dynn_Zlgazvyyly: "Злга'звыйлы"  #Машинный перевод 28.10.23!
- dynn_Tyvdvgydadzy: "Тыв'дв'гыда'дзы"  #Машинный перевод 28.10.23!
- dynn_Vykkvakkzvyyly: "Выкк'вакк'звыйлы"  #Машинный перевод 28.10.23!
- dynn_Byyghvyshvy: "Быйгвышвий"  #Машинный перевод 28.10.23!
- dynn_Appykapzzy: "Аппык'апззи"  #Машинный перевод 28.10.23!
- dynn_Adzraxxzvyyly: "Адзракс'звыйлы"  #Машинный перевод 28.10.23!
- dynn_Gryyly: "Грыйли"  #Машинный перевод 28.10.23!
- dynn_Ybzryyzdzy: "Ыбз'рыыз'дзы"  #Машинный перевод 28.10.23!
- dynn_Sramyyxzly: "Срам'ыыксзли"  #Машинный перевод 28.10.23!
- dynn_Zevdryydznyydzy: "Зевдрийдзьнийдзы"  #Машинный перевод 28.10.23!
- dynn_Ymrjyyby: "Ымр'йыби"  #Машинный перевод 28.10.23!
- dynn_Ybzdzy: "Ыбздзы"  #Машинный перевод 28.10.23!
- dynn_Ybldzy: "Ыблдзы"  #Машинный перевод 28.10.23!
- dynn_Chxxhytdzy: "Чххыт'дзы"  #Машинный перевод 28.10.23!
- dynn_Glvandzy: "Глваньдзы"  #Машинный перевод 28.10.23!
- dynn_Pnyzdyrytyly: "Пнизды'рытылы"  #Машинный перевод 28.10.23!
- dynn_Ygyyzhvyyly: "Ыгыйжвыйлы"  #Машинный перевод 28.10.23!
- dynn_Xxchzybadzy: "Ххчзъыбадзы"  #Машинный перевод 28.10.23!
- dynn_Chvachavdzy: "Чвачавдзы"  #Машинный перевод 28.10.23!
- dynn_Dzylxxxaxxzvyyly: "Дзылхх'хахх'звыйлы"  #Машинный перевод 28.10.23!
- dynn_Dyyasamydzy: "Диясамыдзы"  #Машинный перевод 28.10.23!
- dynn_Xxhyrzzydzy: "Xxhy'rzzy'dzy"  #Машинный перевод 28.10.23!
- dynn_Zhldyyzny: "Жлдызный"  #Машинный перевод 28.10.23!
- dynn_Shyvlyxxny: "Шивльский"  #Машинный перевод 28.10.23!
- dynn_Dnaxxry: "ДНК'xxry"  #Машинный перевод 28.10.23!
- dynn_Rblyyany: "Рубльый'любой"  #Машинный перевод 28.10.23!
- dynn_Zzapryydzy: "Ззап'рый'дзы"  #Машинный перевод 28.10.23!
- dynn_Zzavxxhyzvyyly: "Ззав'xxhy'звийлы"  #Машинный перевод 28.10.23!
- dynn_Zzrzzadzy: "Ззрзадзы"  #Машинный перевод 28.10.23!
- dynn_Mkhargrdzyly: "Мхаргрдзылы"  #Машинный перевод 28.10.23!
- dynn_Xxaxxbbryydzy: "Xxaxx'bbr'yydzy"  #Машинный перевод 28.10.23!
- dynn_Xxhyrxxhlyydzy: "Xxhyr'xxhl'yydzy"  #Машинный перевод 28.10.23!
- dynn_Mnaxxbbrdyyly: "Mnaxx'bbr'dyyly"  #Машинный перевод 28.10.23!
- dynn_Xximzyzvyyly: "Xximz'yzvyyly"  #Машинный перевод 28.10.23!
- dynn_Zrvzzyydzy: "Зрвззийдзи"  #Машинный перевод 28.10.23!
- dynn_Dadzzyyany: "Дадзз'ияни"  #Машинный перевод 28.10.23!
- dynn_Xxoblzvyyly: "Xxоблзвыйлы"  #Машинный перевод 28.10.23!
- dynn_Machtadzy: "Махтадзи"  #Машинный перевод 28.10.23!
- dynn_Gamrkyly: "Гамркулы"  #Машинный перевод 28.10.23!
- dynn_Myxxladzy: "Myxx'ladzy"  #Машинный перевод 28.10.23!
- dynn_Myxxzhetsydzy: "Myxx'жет'сидзы"  #Машинный перевод 28.10.23!
- dynn_Taoyyly: "Таойили"  #Машинный перевод 28.10.23!
- dynn_Bylvndzvyyly: "Былвнд'звыйлы"  #Машинный перевод 28.10.23!
+ dynn_Jaqyxxy: "Жакыкси"
+ dynn_Zlgazvyyly: "Злга'звыйлы"
+ dynn_Tyvdvgydadzy: "Тыв'дв'гыда'дзы"
+ dynn_Vykkvakkzvyyly: "Выкк'вакк'звыйлы"
+ dynn_Byyghvyshvy: "Быйгвышвий"
+ dynn_Appykapzzy: "Аппык'апззи"
+ dynn_Adzraxxzvyyly: "Адзракс'звыйлы"
+ dynn_Gryyly: "Грыйли"
+ dynn_Ybzryyzdzy: "Ыбз'рыыз'дзы"
+ dynn_Sramyyxzly: "Срам'ыыксзли"
+ dynn_Zevdryydznyydzy: "Зевдрийдзьнийдзы"
+ dynn_Ymrjyyby: "Ымр'йыби"
+ dynn_Ybzdzy: "Ыбздзы"
+ dynn_Ybldzy: "Ыблдзы"
+ dynn_Chxxhytdzy: "Чххыт'дзы"
+ dynn_Glvandzy: "Глваньдзы"
+ dynn_Pnyzdyrytyly: "Пнизды'рытылы"
+ dynn_Ygyyzhvyyly: "Ыгыйжвыйлы"
+ dynn_Xxchzybadzy: "Ххчзъыбадзы"
+ dynn_Chvachavdzy: "Чвачавдзы"
+ dynn_Dzylxxxaxxzvyyly: "Дзылхх'хахх'звыйлы"
+ dynn_Dyyasamydzy: "Диясамыдзы"
+ dynn_Xxhyrzzydzy: "Xxhy'rzzy'dzy"
+ dynn_Zhldyyzny: "Жлдызный"
+ dynn_Shyvlyxxny: "Шивльский"
+ dynn_Dnaxxry: "ДНК'xxry"
+ dynn_Rblyyany: "Рубльый'любой"
+ dynn_Zzapryydzy: "Ззап'рый'дзы"
+ dynn_Zzavxxhyzvyyly: "Ззав'xxhy'звийлы"
+ dynn_Zzrzzadzy: "Ззрзадзы"
+ dynn_Mkhargrdzyly: "Мхаргрдзылы"
+ dynn_Xxaxxbbryydzy: "Xxaxx'bbr'yydzy"
+ dynn_Xxhyrxxhlyydzy: "Xxhyr'xxhl'yydzy"
+ dynn_Mnaxxbbrdyyly: "Mnaxx'bbr'dyyly"
+ dynn_Xximzyzvyyly: "Xximz'yzvyyly"
+ dynn_Zrvzzyydzy: "Зрвззийдзи"
+ dynn_Dadzzyyany: "Дадзз'ияни"
+ dynn_Xxoblzvyyly: "Xxоблзвыйлы"
+ dynn_Machtadzy: "Махтадзи"
+ dynn_Gamrkyly: "Гамркулы"
+ dynn_Myxxladzy: "Myxx'ladzy"
+ dynn_Myxxzhetsydzy: "Myxx'жет'сидзы"
+ dynn_Taoyyly: "Таойили"
+ dynn_Bylvndzvyyly: "Былвнд'звыйлы"

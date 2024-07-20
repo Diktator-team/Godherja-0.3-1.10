@@ -1,0 +1,31 @@
+﻿l_russian:
+ ## Ice Sculptures 
+ artifact_ice_sculpture_name: "Ледяная скульптура [inter_in_ice_prisoner_scope.GetTitledFirstName]"
+ artifact_ice_sculpture_description: "Застывший облик [inter_in_ice_prisoner_scope.GetTitledFirstName], навсегда застывший во льду. Он служит мрачным напоминанием об экзотической и потусторонней магии, которой владеет [owner.GetTitledFirstName], и о потенциальной судьбе любого, кто перейдет ей дорогу."
+ artifact_ice_sculpture_description.brave: "Стоический облик [inter_in_ice_prisoner_scope.GetTitledFirstName], навсегда застывший во льду. Он служит мрачным напоминанием об экзотической и потусторонней магии, которой владеет [owner.GetTitledFirstName], и о потенциальной судьбе любого, кто перейдет ей дорогу."
+ artifact_ice_sculpture_description.neutral: "Паническое лицо [inter_in_ice_prisoner_scope.GetTitledFirstName], навсегда застывшее во льду. Он служит мрачным напоминанием об экзотической и потусторонней магии, которой владеет [owner.GetTitledFirstName], и о потенциальной судьбе любого, кто перейдет ей дорогу."
+ artifact_ice_sculpture_description.craven: "Испуганный облик [inter_in_ice_prisoner_scope.GetTitledFirstName], навсегда застывший во льду. Он служит мрачным напоминанием об экзотической и потусторонней магии, которой владеет [owner.GetTitledFirstName], и о потенциальной судьбе любого, кто перейдет ей дорогу."
+  
+  # Ice sculpture epitaphs # 
+  
+ daukeni_sjalvolki_1.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak "[owner.GetName] заморозил то, чего не смогли сделать Десять Деревьев." #!"
+ westernimperial_aeschraes_aagiokrata_1.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak «Похоже, что за эти годы его сердце замерзло не просто так». #!"
+ easternimperial_aironoian_aagiokrata_1.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak «Реформатора ждал не только холодный прием». #!"
+ apokiakas_aversarinas_aagiokratia_23.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak "Можно утверждать, что Черное Солнце все еще не так холодно, как его личность." #!"
+ apokiakas_militant_cliques_1.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak «Достойный конец Зимнего Легиона, хотя и без тени, под которой можно умереть». #!"
+ voyagen_lifepath_8.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak «Черный ублюдок все еще стоит стоически, его тело так же застыло, как и его великие стремления». #!"
+ scusstari_iyrossi_aagiokrata_13.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak «Даже во льду Черный Страж, несомненно, кипит из-за неоплаченных долгов». #!"
+ southernimperial_aversarian_gorassos_1.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak "Можно было бы надеяться, что Горасос обладал потрясающей личностью, если бы лед был точным, поскольку похоже, что тот, кто заморозил этого безумца, возможно, уронил статую лицом ему в несколько десятков раз больше". #!"
+ westernimperial_omitilos_aagiokrata_2.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak «Заключенный в этом льду, Койс правит так же, как и всегда». #!"
+ westernimperial_omitilos_aagiokrata_1.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak «Отмороженные пальцы не могут ловко играть с марионеткой». #!"
+ voyagen_lifepath_7.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak "Encased alone in ice, Benouet looks... scared, as if he does not understand such cruelty is even possible." #!"
+ tasurmad_harthahi_1.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak "Давным-давно где-то в пустынной пустыне Отец Саррадона, вероятно, хотел, чтобы ему было так же холодно, как сейчас." #!"
+ curgerski_sjalvolki_2.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak «Эта холодная магия едва могла сдержать огонь в его чреслах». #!"
+ vrodkin_sjalvolki_1.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak "Будем надеяться, что после смерти он веселится вдвое так же усердно, как и при жизни, ибо и рай, и ад будут изо всех сил пытаться сдержать веселье." #!"
+ centralislander_aversarinas_aagiokrata_1.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak "Кто знал, что ледяные скульптуры делают такими короткими!" #!"
+ caemansi_sjalvolki_14.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak "Некоторые говорят, что хорошая заморозка укрепляет мышцы. Однако, похоже, это не работает..." #!"
+ fenvir_sjalvolki_1.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak "Как всегда застыл в своих привычках..." #!"
+ southernimperial_aversarinas_aagiokrata_30.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak «Тепло человеческого сердца мало что может сделать против такой холодной магии». #!"
+ southernimperial_manikos_aagiokrata_1.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak "Почему Мегистос сказал бы, что Мегистос делает только лучшую статую Мегистоса!" #!"
+ kawoch_mogowai_9.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak "Возможно, его глаза все еще видят озеро." #!"
+ easternimperial_aversarinas_aagiokrata_7.epitaph: "[newly_created_artifact.GetDesc]\n\n #weak "They did always say that the Frigid's intelligence could be measured by the temperature of an icebox..." #!"

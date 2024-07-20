@@ -1,24 +1,27 @@
 ﻿l_russian:
   
  magocratic_government: "Магократия"
- magocratic_government_realm: "Магократия"
- magocratic_government_desc: "$game_concept_magocracy_desc$\n\n#F Магократия — это земли, управляемые единственным [Concept('magi','магом')|E]. Этот [Concept('magi','маг')|E] правит подобно аристократическому правителю, за исключением того, что аппарат государства построен таким образом, что править может только [Concept('magi','маг')|E]. В результате возникает феодальная система, при которой любой ребенок, не обладающий магическим даром, автоматически считается лишенным наследства." 
+ magocratic_government_desc: "$game_concept_magocracy_desc$\n\n#F Магократия — это земли, управляемые единственным [Concept('magi','магом')|E]. Этот [Concept('magi','маг')|E] правит подобно аристократическому правителю, за исключением того, что аппарат государства построен таким образом, что править может только [Concept('magi','маг')|E]. В результате возникает феодальная система, при которой любой ребенок, не обладающий магическим даром, автоматически считается лишенным наследства."
  magocratic_government_adjective: "Магократическ"
+ magocratic_government_realm: "Магократия"
+ magocratic_government_label: "[magi|E] [obligations|E] are based on each [vassal|E]'s [feudal_contract|E]" #NT!
   
- magocratic_republic: "Магократическая Республика" 
- magocratic_republic_realm: "Магократическая Республика"  
+ magocratic_republic: "Магократическая Республика"
  magocratic_republic_desc: "$game_concept_magocratic_republic_desc$\n\n#F Магократические республики похожи на стандартную магократию, за исключением того факта, что правитель является не династическим автократом, а автократом, избранным из числа [Concept('magi','магов')|E], обладающих властью в соответствующих королевствах."
- magocratic_republic_adjective: "Магократическ" 
+ magocratic_republic_adjective: "Магократическ"
+ magocratic_republic_realm: "Магократическая Республика"
+ magocratic_republic_label: "[magi|E] Republican [obligations|E] work similarly to Republican [vassals|E], with more coming from higher [opinion|E]." #NT!
   
- peasant_republic: "Крестьянская Республика" 
- peasant_republic_realm: "Крестьянская Республика" 
- peasant_republic_desc: "$game_concept_peasant_republic_desc$\n\n#F Крестьянские республики - это слабо демократические "государства", полностью подконтрольные местному крестьянству. Крестьянские республики часто возникают во время беспорядков, но редко существуют долго из-за угрозы, которую они представляют для современных систем власти." 
- peasant_republic_adjective: "Крестьянск"  
+ peasant_republic: "Крестьянская Республика"
+ peasant_republic_desc: "$game_concept_peasant_republic_desc$\n\n#F Крестьянские республики - это слабо демократические "государства", полностью подконтрольные местному крестьянству. Крестьянские республики часто возникают во время беспорядков, но редко существуют долго из-за угрозы, которую они представляют для современных систем власти."
+ peasant_republic_adjective: "Крестьянск"
+ peasant_republic_realm: "Крестьянская Республика"
+ peasant_republic_label: "Peasant Republics [obligations|E] are the same for all Republican [vassals|E]" #NT!
   
  republic_playable_government: "Республика"
- republic_playable_government_adjective: "Республиканск"  
- republic_playable_government_realm: "Республика" 
- republic_playable_government_desc: "$game_concept_republic_desc$\n\n#F Городами управляют привилегированные граждане, принадлежащие к классу бюргеров, среди которых один выбирается мэром. Хотя мэр обладает значительным влиянием, его переизбрание зависит от популярности. #!" 
+ republic_playable_government_adjective: "Республиканск"
+ republic_playable_government_realm: "Республика"
+ republic_playable_government_desc: "$game_concept_republic_desc$\n\n#F Городами управляют привилегированные граждане, принадлежащие к классу бюргеров, среди которых один выбирается мэром. Хотя мэр обладает значительным влиянием, его переизбрание зависит от популярности. #!"
  republic_playable_government_vassals_label: "Республиканские [obligations|E] одинаковы для всех республиканских [Concept('vassals','вассалов')|E]."
  republic_playable_government_obligations: "Республиканские [obligations|E]"
   
@@ -26,63 +29,154 @@
  landed_order_government_realm: "Военный Священный Орден"
  landed_order_government_desc: "Этот священный орден остепенился и взял на себя роль, больше напоминающую королевство, управляемое аристократией. Будучи святыми по названию и по отлову, а также, возможно, по некоторым своим правительственным функциям, братья этого ордена в основном действуют как выборная монархия."
  landed_order_government_adjective: "Священно-орденск"
+ landed_order_government_vassals_label: "Order [vassals|E] [obligations|E] depend on [opinion|E]" #NT!
   
- military_unit_government: "Воинская часть"  
- military_unit_government_realm: "Воинская часть" 
- military_unit_government_desc: "Остатки [Concept('aversarian','аверсарианских')|E] военных сил, оставшихся после падения Империи. Будь то [Concept('aversarian','аверсарианский')|E] легион, выделивший свое собственное королевство, или остатки [Concept('aversaria_possessive','аверсарианских')|E] военных границ, это подразделение теперь в основном сражается само за себя." 
- military_unit_government_adjective: "Воинск"  
+ military_unit_government: "Воинская часть"
+ military_unit_government_realm: "Воинская часть"
+ military_unit_government_desc: "Остатки [Concept('aversarian','аверсарианских')|E] военных сил, оставшихся после падения Империи. Будь то [Concept('aversarian','аверсарианский')|E] легион, выделивший свое собственное королевство, или остатки [Concept('aversaria_possessive','аверсарианских')|E] военных границ, это подразделение теперь в основном сражается само за себя."
+ military_unit_government_adjective: "Воинск"
   
  pirate_government: "Пираты"
- pirate_government_adjective: "Пиратск"  
- pirate_government_realm: "Пиратское королевство" 
+ pirate_government_adjective: "Пиратск"
+ pirate_government_realm: "Пиратское королевство"
  pirate_government_desc: "$game_concept_pirate_desc$\n\n#F Пираты очень редко придерживаются какого-либо кодекса, кроме одного - правила самого сильного и хитрого. Любой мужчина или женщина со стальным сердцем и недюжинной смекалкой могут подняться на вершину над горой поверженных врагов, если только приложат к этому усилия. #!"
+ pirate_government_vassals_label: "Pirate [obligations|E] are based on how fearful [vassals|E] are and their general [opinion|E] of their [liege|E]" #NT!
   
- administrative_bureaucracy_government: "Административная бюрократия"  
- administrative_bureaucracy_government_adjective: "Бюрократcк"  
- administrative_bureaucracy_government_realm: "Административная бюрократия"  
+ administrative_bureaucracy_government: "Административная бюрократия"
+ administrative_bureaucracy_government_adjective: "Бюрократcк"
+ administrative_bureaucracy_government_realm: "Административная бюрократия"
  administrative_bureaucracy_government_desc: "Могущественная империя Адабисс - родина, пожалуй, самого централизованного государства на планете [aeras|E], сильный император и священнослужители эффективно управляют огромной территорией, используя передовые технологии для организации масштабных строительных проектов и создания гигантских стандартизированных армий.\n \n#N Бюрократические сферы в настоящее время недоступны для воспроизведения!#!"
   
- migratory_government: "Миграционный" 
+ migratory_government: "Миграционный"
  migratory_government_adjective: "Миграционн"
- migratory_government_realm: "Миграционное" 
+ migratory_government_realm: "Миграционное"
  migratory_government_desc: "Мигрирующие королевства либо не имеют дома, либо мигрируют между несколькими. Кочевники [Concept('aeras','Аэраса')|E] варьируются от пустынных кланов до странствующих компаний искателей приключений и [Concept('fogeaters','обезумевших некогда людей')|E]. Миграционные королевста не следует путать с большими группами, совершающими [Concept('migrations','великие переселения')|E] после катаклизмов [frodbrokna|E].\n\n#N Скоро появятся игровые мигрирующие королевства!#!"
   
- lichdom_government: "Личдом"  
- lichdom_government_realm: "Личдом"  
+ lichdom_government: "Личдом"
+ lichdom_government_realm: "Личдом"
  lichdom_government_desc: "Это королевство, управляемое личем, состоит только из рабов нежити, бездумно марширующих под дудку своего хозяина, и низших личей, ожидающих своего шанса убить своего временного правителя."
- lichdom_government_adjective: "Танатократск" 
+ lichdom_government_adjective: "Танатократск"
   
- wasteland_government: "Пустошь"  
- wasteland_government_realm: "Пустошь" 
- #wasteland_government_desc: "Разрушенные руины и пустая дикая местность - эта пустошь не тронута признаками цивилизации, будь то из-за ужасной опасности или простого отсутствия исследований." 
- wasteland_government_desc: "$wasteland_faith_desc$"  
- wasteland_government_adjective: "Пустошск" 
+ wasteland_government: "Пустошь"
+ wasteland_government_realm: "Пустошь"
+ #wasteland_government_desc: "Разрушенные руины и пустая дикая местность - эта пустошь не тронута признаками цивилизации, будь то из-за ужасной опасности или простого отсутствия исследований."
+ wasteland_government_desc: "$wasteland_faith_desc$"
+ wasteland_government_adjective: "Пустошск"
   
- government_can_raid_over_water_rule: "Позволяет совершать [Concept('raiding','набеги')|E] на заморские [Concept('counties','графства')|E] с целью получения добычи"  
+ continental_clan_government: "Tribal Clan" #NT!
+ continental_clan_government_realm: "Clan" #NT!
+ continental_clan_government_desc: "$game_concept_continental_clan_desc$\n\n#F Tribal Clans from the [continental_interior|E] are often incredibly large in size and adhere to very traditionalist practices. [taxes|E] and [levies|E] to the [liege|E] are determined by the Liege's [prestige|E].#!" #NT!
+ continental_clan_government_adjective: "Tribal Clan" #NT!
   
- GAME_OVER_CANNOT_PLAY_WASTELAND: "Невозможно играть за Пустошь." 
- NOT_GAME_OVER_CANNOT_PLAY_WASTELAND: "$GAME_OVER_CANNOT_PLAY_WASTELAND$"  
- GAME_OVER_CANNOT_PLAY_ADMINISTRATIVE_BUREAUCRACY: "Невозможно играть за административную бюрократию." 
- NOT_GAME_OVER_CANNOT_PLAY_ADMINISTRATIVE_BUREAUCRACY: "$GAME_OVER_CANNOT_PLAY_ADMINISTRATIVE_BUREAUCRACY$" 
- GAME_OVER_CANNOT_PLAY_MIGRATORY: "Не может играть за мигрирующее королевство."  
- NOT_GAME_OVER_CANNOT_PLAY_MIGRATORY: "$GAME_OVER_CANNOT_PLAY_MIGRATORY$"  
- GAME_OVER_CANNOT_PLAY_LICHDOM: "Невозможно играть за Личдом." 
- NOT_GAME_OVER_CANNOT_PLAY_LICHDOM: "$GAME_OVER_CANNOT_PLAY_LICHDOM$" 
+ government_can_raid_over_water_rule: "Позволяет совершать [Concept('raiding','набеги')|E] на заморские [Concept('counties','графства')|E] с целью получения добычи"
+  
+ GAME_OVER_CANNOT_PLAY_WASTELAND: "Невозможно играть за Пустошь."
+ NOT_GAME_OVER_CANNOT_PLAY_WASTELAND: "$GAME_OVER_CANNOT_PLAY_WASTELAND$"
+ GAME_OVER_CANNOT_PLAY_ADMINISTRATIVE_BUREAUCRACY: "Невозможно играть за административную бюрократию."
+ NOT_GAME_OVER_CANNOT_PLAY_ADMINISTRATIVE_BUREAUCRACY: "$GAME_OVER_CANNOT_PLAY_ADMINISTRATIVE_BUREAUCRACY$"
+ GAME_OVER_CANNOT_PLAY_MIGRATORY: "Не может играть за мигрирующее королевство."
+ NOT_GAME_OVER_CANNOT_PLAY_MIGRATORY: "$GAME_OVER_CANNOT_PLAY_MIGRATORY$"
+ GAME_OVER_CANNOT_PLAY_LICHDOM: "Невозможно играть за Личдом."
+ NOT_GAME_OVER_CANNOT_PLAY_LICHDOM: "$GAME_OVER_CANNOT_PLAY_LICHDOM$"
+ GAME_OVER_DISABLED_FOR_TESTING_REDLANDS: "Cannot play as Redlanders nor Redrunners in this build (0.3.1-Patreon First Release)" #NT!
+ NOT_GAME_OVER_DISABLED_FOR_TESTING_REDLANDS: "Cannot play as Redlanders nor Redrunners in this build (0.3.1-Patreon First Release)" #NT!
   
   ## Contribs 
- vassal_contribution_group: Вассальные взносы" 
- vassal_contribution_none: "Нет взносов" 
+ vassal_contribution_group: "Vassal Contributions" #NT!
+ vassal_contribution_none: "Нет взносов"
  vassal_contribution_none_short: "Нет взносов"
  vassal_contribution_none_desc: "#emphasis [vassal|E] ничего не вносит в пользу своего [Concept('liege','сюзерена')|E].#!"
  vassal_contribution_dread: "Основанные на страхе"
  vassal_contribution_dread_short: "Основанные на страхе"
  vassal_contribution_dread_desc: "#emphasis Размер налогов и сборов, которые должен вносить [Concept('vassal','вассал')|E], зависит от @dread_icon![Concept('dread','ужаса')|E] [Concept('liege','сюзерена')|E].#!\n\n#flavor Пиратских вассалов будут запугивать только те правители, которые вселяют страх в их сердца.#!"
- vassal_contribution_prestige: "На основе известности"  
- vassal_contribution_prestige_short: "На основе известности"  
- vassal_contribution_prestige_desc: "#emphasis Размер налогов и сборов, которые должен вносить [Concept('vassal','вассал')|E], зависит от @prestige_icon![Concept('prestige','престижа')|E] [Concept('liege','сюзерена')|E].#!\n\n#flavor Воинские части будут склоняться только перед теми правителями, которых они уважают.#!" 
+ vassal_contribution_prestige: "На основе известности"
+ vassal_contribution_prestige_short: "На основе известности"
+ vassal_contribution_prestige_desc: "#emphasis Размер налогов и сборов, которые должен вносить [Concept('vassal','вассал')|E], зависит от @prestige_icon![Concept('prestige','престижа')|E] [Concept('liege','сюзерена')|E].#!\n\n#flavor Воинские части будут склоняться только перед теми правителями, которых они уважают.#!"
   
  pirate_government_obligations: "Ужасающие обязательства"
- pirate_government_obligations_tt: "[feudal_contract|E] начинается с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_dread' )]" !
- military_unit_government_obligations: "Обязательства по известности" 
+ pirate_government_obligations_tt: "[feudal_contract|E] начинается с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_dread' )]"
+ military_unit_government_obligations: "Обязательства по известности"
  military_unit_government_obligations_tt: "[feudal_contract|E] начинается с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_prestige' )]"
   
+  ## TAX SLOTS ## 
+  
+ republic_playable_tax_slot: "Bailate District" #NT!
+ republic_playable_tax_slot_add: "$MOD_NUM_TAX_SLOT$" #NT!
+ republic_playable_tax_slot_no_tax_collector: "Bailate District" #NT!
+ republic_playable_tax_slot_tax_collector: "Bailate District: [character.GetName]" #NT!
+ republic_playable_government_vassal_opinion: "[republic|E] [vassal|E] opinion" #NT!
+ republic_playable_tax_collector_court_position: "Bailate" #NT!
+  
+ burgher_tax_collector: "Burgher Collectors" #NT!
+ burgher_tax_collector_desc: "#emphasis #bold [vassal|E] Privileges:#!#!\nThe [liege|E] cannot revoke the [vassals_possessive|E] [titles|E]\n\n#flavor The [vassal|E] is guaranteed ownership of their [titles], preventing the [liege|E] from revoking them – regardless of the $game_concept_liege$ having a [revoke_title_reason|E] or not.#!" #NT!
+ burgher_tax_collector_flavor_desc: "The people of this city emphasize trade and commerce above all else and give up work to maintain their freedoms." #NT!
+ plantation_tax_collector: "Plantation Rights" #NT!
+ plantation_tax_collector_flavor_desc: "Requirements: the [vassal|E] must have a minimum percentage of farmland or floodplain [terrain|E]." #NT!
+ mining_tax_collector: "Mining Rights" #NT!
+ mining_tax_collector_flavor_desc: "Requirements: the [vassal|E] must have a minimum percentage of material rich [terrain|E] such as mountains or hills." #NT!
+ autonomy_special_rights_tax_collector: "Autonomy" #NT!
+ autonomy_special_rights_tax_collector_desc: "#emphasis #bold [vassal|E] Privileges:#!#!\nThe [liege|E] cannot [demand_conversion|E] of the [vassal|E]\nThe [liege|E] cannot use [convert_county|E] in the [vassals|E]' lands\nThe [liege|E] cannot use [faith|E] as a reason to avoid [tyranny|E] when revoking titles\nThe [liege|E] cannot revoke the [vassals_possessive|E] [titles|E]\n\n#flavor The [vassal|E] is guaranteed ownership of their [titles], preventing the [liege|E] from revoking them – regardless of the $game_concept_liege$ having a [revoke_title_reason|E] or not.\nThe $game_concept_vassal$ is also granted a special protected status, with the realm officially recognizing their right to practice their own [faith|E].#!" #NT!
+ autonomy_special_rights_tax_collector_flavor_desc: "These cities have been granted even more authority over their own affairs in exchange for larger and longer served regiments of conscripts." #NT!
+ march_special_rights_tax_collector: "March" #NT!
+ march_special_rights_tax_collector_desc: "#emphasis #bold [vassal|E] Privileges:#!#!\nThe [liege|E] cannot revoke the [vassals_possessive|E] [titles|E]\nThe [vassal|E] can use Conquest [casus_bellis|E].\n\n#flavor  The [vassal|E] is guaranteed ownership of their [titles], preventing the [liege|E] from revoking them – regardless of the $game_concept_liege$ having a [revoke_title_reason|E] or not.\nThe $game_concept_vassal$ is also granted special right to conquer neighboring lands, regardless of the [liege|E]'s [crown_authority|E] or [clique_authority|E].#!" #NT!
+ march_special_rights_tax_collector_flavor_desc: "The [vassal|E] has been granted reduced taxes and levies in exchange for guarding and strengthening this borderland." #NT!
+ privateer_special_rights_tax_collector: "Privateer Rights" #NT!
+ privateer_special_rights_tax_collector_desc: "#emphasis #bold [vassal|E] Privileges:#!#!\nThe [liege|E] cannot revoke the [vassals_possessive|E] [titles|E]\nThe [vassal|E] can use Conquest [casus_bellis|E].\n\n#flavor  The [vassal|E] is guaranteed ownership of their [titles], preventing the [liege|E] from revoking them – regardless of the $game_concept_liege$ having a [revoke_title_reason|E] or not.\nThe $game_concept_vassal$ is also granted special right to conquer neighboring lands, regardless of the [liege|E]'s [crown_authority|E] or [clique_authority|E].#!" #NT!
+ privateer_special_rights_tax_collector_flavor_desc: "The [vassal|E] has been granted raiding rights against ships not belonging to their Liege." #NT!
+  
+  
+ landed_order_tax_slot: "Order Magistrate" #NT!
+ landed_order_tax_slot_add: "$MOD_NUM_TAX_SLOT$" #NT!
+ landed_order_tax_slot_no_tax_collector: "Order Magistrate" #NT!
+ landed_order_tax_slot_tax_collector: "Order Magistrate: [character.GetName]" #NT!
+ landed_order_government_vassal_opinion: "[landed_order|E] [vassal|E] opinion" #NT!
+ landed_order_tax_collector_court_position: "Magistrate" #NT!
+  
+ commandry_tax_collector: "Commandry" #NT!
+ commandry_tax_collector_desc: "#emphasis #bold [vassal|E] Privileges:#!#!\nThe [vassal|E] can use Conquest [casus_bellis|E].\n\n#flavor  The $game_concept_vassal$ is granted special right to conquer neighboring lands, regardless of the [liege|E]'s [crown_authority|E] or [clique_authority|E].#!" #NT!
+ commandry_tax_collector_flavor_desc: "In exchange for reduced conscripts, these Ordermembers exact steep taxes on the local population." #NT!
+ trade_rights_special_tax_collector: "Trade Rights" #NT!
+ trade_rights_special_tax_collector_flavor_desc: "This [vassal|E] has been granted special trade rights to bring better goods with reduced tariffs." #NT!
+ exploitative_tax_collector: "Exploitation" #NT!
+ exploitative_tax_collector_flavor_desc: "This [vassal|E] has been directed to exploit as much from the land and its peoples as possible." #NT!
+ inquisitive_special_rights_tax_collector: "Inquisitive Undertakings" #NT!
+ inquisitive_special_rights_tax_collector_flavor_desc: "While less is taken from the locals, more efforts are put in to educate and develop the populace on the correct ways of faith." #NT!
+  
+ pirate_tax_slot: "Boatswains Duties" #NT!
+ pirate_tax_slot_add: "$MOD_NUM_TAX_SLOT$" #NT!
+ pirate_tax_slot_no_tax_collector: "Boatswain Duties" #NT!
+ pirate_tax_slot_tax_collector: "Boatswain:0 [character.GetName]" #NT!
+ pirate_government_vassal_opinion: "[pirate|E] [vassal|E] opinion" #NT!
+ pirate_tax_collector_court_position: "Boatswain" #NT!
+  
+ first_loot_tax_collector: "First Loot" #NT!
+ first_loot_tax_collector_desc: "#emphasis #bold [vassal|E] Privileges:#!#!\nThe [liege|E] cannot [demand_conversion|E] of the [vassal|E]\nThe [liege|E] cannot use [convert_county|E] in the [vassals|E]' lands\n\n#flavor The $game_concept_vassal$ is granted special right to conquer neighboring lands, regardless of the [liege|E]'s [crown_authority|E] or [clique_authority|E].\nThe $game_concept_vassal$ is also granted a special protected status, with the realm officially recognizing their right to practice their own [faith|E].#!" #NT!
+ first_loot_tax_collector_flavor_desc: "In exchange for reduced taxes and conscription, this [vassal|E] is expected to defend and expand the territory." #NT!
+ raw_deal_tax_collector: "Raw Deal" #NT!
+ raw_deal_tax_collector_flavor_desc: "This [vassal|E] is expected to pay steep taxes and round up large numbers of locals for labor or conscription, much to their chagrin." #NT!
+ commune_tax_collector: "Commune" #NT!
+ commune_tax_collector_flavor_desc: "These cities are expected to pay higher taxes in exchange for their populace remaining unharmed." #NT!
+ smuggling_tax_collector: "Smuggling Rights" #NT!
+ smuggling_tax_collector_flavor_desc: "This [vassal|E] has been granted exclusive rights to bring illicit cargo through this domain for trade." #NT!
+  
+ VASSAL_IS_REPUBLICAN_OR_SINGLE: "[CHARACTER.GetShortUIName] is a [republic|E] or possesses only one [county|E]" #NT!
+ VASSAL_NEEDS_40_FARMLAND_OR_FLOODPLAIN: "[CHARACTER.GetShortUIName] has at least 40% of their [domain|E] in Farmlands, Floodplains, or Oasis [terrain|E]." #NT!
+ VASSAL_NEEDS_40_MINERAL_LANDS: "[CHARACTER.GetShortUIName] has at least 40% of their [domain|E] in Mountains, Hills, Forest, Jungle or Taiga [terrain|E]." #NT!
+  
+ government_is_magocratic: "[government|E] type is [GetGovernment( 'magocratic_government' ).GetName]" #NT!
+ government_is_magocratic_republic: "[government|E] type is [GetGovernment( 'magocratic_republic' ).GetName]" #NT!
+ government_is_peasant_republic: "[government|E] type is [GetGovernment( 'peasant_republic' ).GetName]" #NT!
+ government_is_landed_order: "[government|E] type is [GetGovernment( 'landed_order_government' ).GetName]" #NT!
+ government_is_military_unit: "[government|E] type is [GetGovernment( 'military_unit_government' ).GetName]" #NT!
+ government_is_pirate: "[government|E] type is [GetGovernment( 'pirate_government' ).GetName]" #NT!
+ government_is_wasteland: "[government|E] type is [GetGovernment( 'wasteland_government' ).GetName]" #NT!
+ government_is_administrative_bureaucracy: "[government|E] type is [GetGovernment( 'administrative_bureaucracy_government' ).GetName]" #NT!
+ government_is_migratory: "[government|E] type is [GetGovernment( 'migratory_government' ).GetName]" #NT!
+ government_is_lichdom: "[government|E] type is [GetGovernment( 'lichdom_government' ).GetName]" #NT!
+ government_is_republic_playable: "[government|E] type is [GetGovernment( 'republic_playable_government' ).GetName]" #NT!
+ government_is_continental_clan: "[government|E] type is [GetGovernment( 'continental_clan_government' ).GetName]" #NT!
+  
+ LIEGE_LACKS_LAW_ALLOWING_TITLE_REVOCATION_CLIQUE: "Your [liege|E] does not have Liege Dominance [clique_authority|E] or better" #NT!
+ LIEGE_LACKS_LAW_ALLOWING_VASSAL_RETRACTION_CLIQUE: "Your [liege|E] does not have Liege Empowerment [clique_authority|E] or better" #NT!
+ I_LACK_LAW_ALLOWING_VASSAL_RETRACTION_CLIQUE: "I do not have Liege Empowerment [clique_authority|E] or better" #NT!
+ CLIQUE_AUTHORITY_IS_ON_COOLDOWN: "You recently changed Clique Authority. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'clique_authority_cooldown') )]" #NT!

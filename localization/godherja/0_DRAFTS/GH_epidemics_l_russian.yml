@@ -1,0 +1,29 @@
+﻿l_russian:
+ epidemic_ruler_curse: "$epidemic_ruler_possessive_loc$ Curse" #NT!
+ epidemic_titled_ruler_curse: "$epidemic_titled_ruler_possessive_loc$ Curse" #NT!
+ epidemic_holder_curse: "$epidemic_holder_loc$ Curse" #NT!
+ epidemic_culture_curse: "$epidemic_culture_loc$ Curse" #NT!
+ epidemic_location_curse: "$epidemic_province_loc$ Curse" #NT!
+ epidemic_fools_curse: "Golden Curse" #NT!
+ #epidemic_wicked_blight: "Wicked Blights" #NT!
+ epidemic_the_miasma: "The Miasma" #NT!
+ epidemic_random_saint_shadow: "$epidemic_random_saint_loc$ Shadow" #NT!
+ epidemic_ruler_blight: "$epidemic_ruler_possessive_loc$ Blight" #NT!
+ epidemic_titled_ruler_blight: "$epidemic_titled_ruler_possessive_loc$ Blight" #NT!
+ epidemic_holder_blight: "$epidemic_holder_loc$ Blight" #NT!
+ epidemic_culture_blight: "$epidemic_culture_loc$ Blight" #NT!
+ epidemic_location_blight: "$epidemic_province_loc$ Shadows" #NT!
+ epidemic_realm_blight: "$epidemic_realm_loc$ Blight" #NT!
+ epidemic_evil_god_blight: "$epidemic_devils_loc$ Blight" #NT!
+ epidemic_shade_stricken: "Shade-Stricken" #NT!
+ epidemic_pellagra: "Aironoian Leprosy" #NT!
+ epidemic_steppe_sores: "Steppe Sores" #NT!
+ epidemic_aironoian_burns: "Aironoian Burns" #NT!
+ epidemic_realm_sores: "$epidemic_realm_loc$ Sores" #NT!
+ epidemic_ruler_sores: "$epidemic_ruler_possessive_loc$ Sores" #NT!
+ gh_health.5999.t: "A Growing Shadow" #NT!
+ gh_health.5999.desc: "Strange reports and fear-riddled messages have begun pouring in. A deep dread builds in my stomach.\n\n The sickness is altogether unnatural, brought about by what can only be described as a vile, fuliginous shadow, cannibalizing everything it swallows. Those poor souls unfortunate enough to be touched by these ghosts of the past seem near death, and in excruciating pain.\n\nThe stories are coming from far away, yet the refugees grow by the day. How long before the shadow reaches our door step?" #NT!
+ gh_health.5999.a: "Ha! let them die!" #NT!
+ gh_health.5999.a.tt: "It is so far away! We may as well rejoice in their misfortune." #NT!
+ gh_health.5999.b: "We need to do something!" #NT!
+ gh_health.5999.b.tt: "Lock up buildings! Close the borders!" #NT!

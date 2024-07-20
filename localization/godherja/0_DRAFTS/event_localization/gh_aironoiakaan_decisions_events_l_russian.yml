@@ -1,9 +1,9 @@
 ﻿l_russian:
-
- aironoiakaan.0001.t: "Обладатели власти"
- aironoiakaan.0001.desc: "Поход по изрезанным каньонам был трудным и опасным, извилистая тропа напоминала лабиринт и была коварной, и есть все шансы, что из-за стен каньона могут появиться бандиты или монстры. В конце концов, тропа привела меня к месту назначения - Маикпрололлан Айроноякаан, главному центру магии и обучения в Айронои. Как только я переступаю порог, передо мной открывается удивительное зрелище: богато украшенное сооружение, окруженное мерцающими стенами, украшенными драгоценными камнями и светящимися рунами, небо гудит от силы и наполнено [Сoncept('magi','магами')|E], путешествующими взад и вперед, а вдалеке сияет знаменитая Звездная башня.\n\nВнутри меня встречает морщинистый Маг, который, каким-то сверхъестественным образом уже зная о моем предназначении, вручил мне несколько досье. "Это самые выдающиеся маги года, - сказал он. - Вы можете быть уверены, что мастерство этих заклинателей намного превосходит даже тех, кто живет в Кашире или на Западе."
-
- aironoiakaan.0001.a: "Мне сказали, что [excellent_skill_option.GetFirstNameNoTooltip] является лучшим [Сoncept('magi','магом')|E] в рейтинге этого года."
- aironoiakaan.0001.b: "[high_skill_option.GetFirstNameNoTooltip] предположительно владеет всеми видами заклинаний."
- aironoiakaan.0001.c: "[high_skill_2_option.GetFirstNameNoTooltip] говорят, что он победил десятерых всего одним заклинанием.
- aironoiakaan.0001.d: "Я передумал, мне никто не нужен."
+  
+ aironoiakaan.0001.t: "Wielders of Power" #NT!
+ aironoiakaan.0001.desc: "The trek through the rugged canyons was difficult and perilous, the winding trail was labyrinthine and treacherous, and there is every chance that bandits or monsters would emerge from the canyon walls. Eventually, the trail opened up to reveal my destination - the Mayikprolollan Aironoiakaan, premiere center of magic and learning in Aironoi. As I step through the threshold, I am greeted by a wondrous sight: an ornate structure surrounded by shimmering walls adorned with gems and glowing runes, the sky humming with power and full of [magi|E] travelling to and fro, and in the distance, the famed Tower of Stars stands resplendent.\n\nInside, I am greeted by a wizened Magi, who, preternaturally already aware of my purpose, presented me with several dossiers. 'These are the most outstanding Magi of the year' he said, 'You can be rest assured that the skill of these spellcasters far eclipse even those from Kashirya or the West.'" #NT!
+  
+ aironoiakaan.0001.a: "I am told [excellent_skill_option.GetFirstNameNoTooltip] is the top [magi|E] in this year's rankings." #NT!
+ aironoiakaan.0001.b: "[high_skill_option.GetFirstNameNoTooltip] is allegedly proficient in all manner of spells." #NT!
+ aironoiakaan.0001.c: "[high_skill_2_option.GetFirstNameNoTooltip] is said to have defeated ten men with but a single spell." #NT!
+ aironoiakaan.0001.d: "I've changed my mind, I don't want anyone." #NT!

@@ -1,0 +1,1754 @@
+﻿l_russian:
+  
+  # GH TODO: SORT OUT AND DELETE THIS FILE 
+  
+  ############################## 
+  # Procedural court artifacts # 
+  ############################## 
+  
+  # Animals (used in ArtifactAnimalType) 
+ animal_type_blackbuck: "Блэкбак"
+ animal_type_ibex: "козерог"
+ animal_type_camel: "верблюд"
+ animal_type_monkey: "обезьяна"
+ animal_type_mongoose: "мангуста"
+ animal_type_king_cobra: "Королевская кобра"
+ animal_type_zebra: "зебра"
+ animal_type_warthog: "бородавочник"
+ animal_type_jackal: "шакал"
+ animal_type_seal: "тюлень"
+ animal_type_ostrich: "страус"
+ animal_type_torkyll: "Торкилл"
+ animal_type_bubalus: "бубал"
+ animal_type_gaur: "гаур"
+ animal_type_sloth_bear: "ленивец"
+ animal_type_vampire_bat: "летучая мышь вампир"
+ animal_type_doyarchu: "doyarchu"
+ animal_type_emperor_peafowl: "Императорский павлин"
+ animal_type_rovarskan_dragon: "роварсканский дракон"
+ animal_type_giant_bee: "гигантская пчела"
+ animal_type_giant_spider: "гигантский паук"
+ animal_type_dire_crab: "ужасный краб"
+ animal_type_spirit: "дух"
+ animal_type_kursha: "Курша"
+ animal_type_lymrill: "Лимрилл"
+ animal_type_snow_leopard: "снежный барс"
+ animal_type_panther: "пантера"
+ animal_type_hippopotamus: "бегемот"
+ animal_type_rhinoceros: "носорог"
+ animal_type_pegasus: "пегас"
+ animal_type_tinessian_lion: "Тинесский лев"
+ animal_type_owlbear: "совомедведь"
+ animal_type_damotan_elephant: "Дамотанский слон"
+ animal_type_sarradon_elephant: "саррадонский слон"
+ animal_type_kashiryan_elephant: "Каширянский слон"
+ animal_type_emperor_cobra: "императорская кобра"
+ animal_type_dire_mosquito: "ужасный комар"
+ animal_type_sea_scorpion: "морской скорпион"
+ animal_type_pooka: "пука"
+ animal_type_shade: "оттенок"
+ animal_type_hammerhead: "голова-молот"
+ animal_type_brittlestar: "хрупкая звезда"
+ animal_type_sea_spirit: "морской_дух"
+ animal_type_karkadann: "Каркаданн"
+ animal_type_crocotta: "крокотта"
+ animal_type_manticore: "мантикора"
+ animal_type_dire_lion: "ужасный лев"
+ animal_type_mammoth: "мамонт"
+ animal_type_gajara: "Гаджара"
+ animal_type_griffon: "грифон"
+ animal_type_crocodile: "крокодил"
+ animal_type_great_rahksasa: "великий ракшаса"
+ animal_type_ukhinbooum: "ухинбум"
+ animal_type_ugkilrrrmag: "Угкилрррмаг"
+ animal_type_dreadleech: "дредлич"
+ animal_type_cockatrice: "кокатрис"
+ animal_type_reef_automata: "рифовые автоматы"
+ animal_type_terrestrial_mutant: "наземный мутант"
+ animal_type_sea_mutant: "морской мутант"
+ animal_type_crystal_wisp: "хрустальный огонек"
+ animal_type_merbeast: "мерзверь"
+ animal_type_urmahlullu: "Урмахлуллу"
+ animal_type_peluda: "пелуда"
+ animal_type_roc: "Рок"
+ animal_type_gargoyle: "горгулья"
+ animal_type_naga: "нага"
+ animal_type_adze: "тесло"
+ animal_type_bhramar: "бхрамар"
+ animal_type_devouring_worm: "пожирающий червь"
+ animal_type_karankoncolos: "каранконколос"
+ animal_type_nagual: "нагваль"
+ animal_type_ochokochi: "ochokochi"
+ animal_type_ubir: "убир"
+ animal_type_gaunt: "изможденный"
+ animal_type_false_kraken: "ложный кракен"
+ animal_type_werewolf: "оборотень"
+ animal_type_chimera: "химера"
+ animal_type_daggertusk: "кинжалбивень"
+ animal_type_dire_griffon: "ужасный грифон"
+ animal_type_coatl: "коатль"
+ animal_type_myrmeke: "мирмеке"
+ animal_type_wyrm: "змей"
+ animal_type_forest_troll: "лесной тролль"
+ animal_type_vampire: "вампир"
+ animal_type_giant: "гигант"
+ animal_type_almas: "Алмас"
+ animal_type_wildhunt: "Дикая охота"
+ animal_type_valien_diamond: "Валиен Даймонд"
+ animal_type_zilant: "Зилант"
+ animal_type_hieracosphinx: "иеракосфинкс"
+ animal_type_hydra: "гидра"
+ animal_type_running_raptor: "бегущий хищник"
+ animal_type_twin_serpent: "близнец_змей"
+ animal_type_roaring_lizard: "Ревущая ящерица"
+ animal_type_pyralis: "пиралис"
+ animal_type_false_hydra: "ложная гидра"
+ animal_type_djinn: "джинн"
+ animal_type_cor: "кор"
+ animal_type_apep_ibizan: "Апеп Ибизан"
+ animal_type_simurgh: "симург"
+ animal_type_akapura: "Акапура"
+ animal_type_tarasque: "тараск"
+ animal_type_devi: "Деви"
+ animal_type_shahmaran: "Шахмаран"
+ animal_type_banshee: "банши"
+ animal_type_fortune_eater: "пожиратель удачи"
+ animal_type_leshen: "leshen"
+ animal_type_rock_giant: "рок-гигант"
+ animal_type_manzasiri: "Манзасири"
+ animal_type_living_blizzard: "живая метель"
+ animal_type_whisperwind: "шепот ветра"
+ animal_type_aboleth: "аболет"
+ animal_type_fogbeast: "туманный зверь"
+ animal_type_vendarja: "вендарья"
+ animal_type_seamonster: "морское чудовище"
+ animal_type_snake: "змея"
+ animal_type_animal_spirit: "животный дух"
+ animal_type_blackbuck_plural: "Блэкбакс"
+ animal_type_ibex_plural: "козероги"
+ animal_type_camel_plural: "верблюды"
+ animal_type_monkey_plural: "обезьяны"
+ animal_type_mongoose_plural: "мангусты"
+ animal_type_king_cobra_plural: "король_кобры"
+ animal_type_zebra_plural: "зебры"
+ animal_type_warthog_plural: "бородавочники"
+ animal_type_jackal_plural: "шакалы"
+ animal_type_seal_plural: "морские котики"
+ animal_type_ostrich_plural: "страусы"
+ animal_type_torkyll_plural: "Торкиллы"
+ animal_type_bubalus_plural: "бубалусс"
+ animal_type_gaur_plural: "гауры"
+ animal_type_sloth_bear_plural: "ленивцы медведи"
+ animal_type_vampire_bat_plural: "летучие мыши-вампиры"
+ animal_type_doyarchu_plural: "доярх"
+ animal_type_emperor_peafowl_plural: "Императорские павлины"
+ animal_type_rovarskan_dragon_plural: "роварсканские драконы"
+ animal_type_giant_bee_plural: "гигантские_пчелы"
+ animal_type_giant_spider_plural: "гигантские_пауки"
+ animal_type_dire_crab_plural: "ужасные крабы"
+ animal_type_spirit_plural: "духи"
+ animal_type_kursha_plural: "куршас"
+ animal_type_lymrill_plural: "лимриллы"
+ animal_type_snow_leopard_plural: "снежные барсы"
+ animal_type_panther_plural: "пантеры"
+ animal_type_hippopotamus_plural: "бегемот"
+ animal_type_rhinoceros_plural: "носорог"
+ animal_type_pegasus_plural: "пегас"
+ animal_type_tinessian_lion_plural: "тинесские львы"
+ animal_type_owlbear_plural: "совымедведи"
+ animal_type_damotan_elephant_plural: "Дамотанские слоны"
+ animal_type_sarradon_elephant_plural: "саррадонские слоны"
+ animal_type_kashiryan_elephant_plural: "каширянские слоны"
+ animal_type_emperor_cobra_plural: "императорские кобры"
+ animal_type_dire_mosquito_plural: "ужасные комары"
+ animal_type_sea_scorpion_plural: "морские скорпионы"
+ animal_type_pooka_plural: "пуки"
+ animal_type_shade_plural: "оттенки"
+ animal_type_hammerhead_plural: "молотоголовые"
+ animal_type_brittlestar_plural: "хрупкие звезды"
+ animal_type_sea_spirit_plural: "морские_духи"
+ animal_type_karkadann_plural: "Каркаданс"
+ animal_type_crocotta_plural: "крокотты"
+ animal_type_manticore_plural: "мантикоры"
+ animal_type_dire_lion_plural: "ужасные львы"
+ animal_type_mammoth_plural: "мамонты"
+ animal_type_gajara_plural: "Гаджарас"
+ animal_type_griffon_plural: "грифоны"
+ animal_type_crocodile_plural: "крокодилы"
+ animal_type_great_rahksasa_plural: "великие ракшасы"
+ animal_type_ukhinbooum_plural: "ухинбумс"
+ animal_type_ugkilrrrmag_plural: "Угкилрррмагс"
+ animal_type_dreadleech_plural: "дреды"
+ animal_type_cockatrice_plural: "кокатрисы"
+ animal_type_reef_automata_plural: "рифовые автоматы"
+ animal_type_terrestrial_mutant_plural: "наземные мутанты"
+ animal_type_sea_mutant_plural: "морские_мутанты"
+ animal_type_crystal_wisp_plural: "хрустальные пучки"
+ animal_type_merbeast_plural: "мерзвери"
+ animal_type_urmahlullu_plural: "Урмахлуллус"
+ animal_type_peluda_plural: "пелудас"
+ animal_type_roc_plural: "рокс"
+ animal_type_gargoyle_plural: "горгульи"
+ animal_type_naga_plural: "наги"
+ animal_type_adze_plural: "тесла"
+ animal_type_bhramar_plural: "бхрамары"
+ animal_type_devouring_worm_plural: "пожирающие черви"
+ animal_type_karankoncolos_plural: "каранкоколосс"
+ animal_type_nagual_plural: "нагвали"
+ animal_type_ochokochi_plural: "ochokochis"
+ animal_type_ubir_plural: "убиры"
+ animal_type_gaunt_plural: "изможденные"
+ animal_type_false_kraken_plural: "ложные кракены"
+ animal_type_werewolf_plural: "оборотни"
+ animal_type_chimera_plural: "химеры"
+ animal_type_daggertusk_plural: "кинжалы клыки"
+ animal_type_dire_griffon_plural: "ужасные грифоны"
+ animal_type_coatl_plural: "пальто"
+ animal_type_myrmeke_plural: "мирмекес"
+ animal_type_wyrm_plural: "змеи"
+ animal_type_forest_troll_plural: "лесные тролли"
+ animal_type_vampire_plural: "вампиры"
+ animal_type_giant_plural: "гиганты"
+ animal_type_almas_plural: "Алмасс"
+ animal_type_wildhunt_plural: "дикая охота"
+ animal_type_valien_diamond_plural: "валиенские бриллианты"
+ animal_type_zilant_plural: "Зиланты"
+ animal_type_hieracosphinx_plural: "иеракосфинксы"
+ animal_type_hydra_plural: "гидры"
+ animal_type_running_raptor_plural: "бегущие хищники"
+ animal_type_twin_serpent_plural: "близнец_змеи"
+ animal_type_roaring_lizard_plural: "ревущие ящерицы"
+ animal_type_pyralis_plural: "Пиралис"
+ animal_type_false_hydra_plural: "ложные гидры"
+ animal_type_djinn_plural: "джинны"
+ animal_type_cor_plural: "корс"
+ animal_type_apep_ibizan_plural: "апеп ибизанцы"
+ animal_type_simurgh_plural: "симурги"
+ animal_type_akapura_plural: "акапуры"
+ animal_type_tarasque_plural: "тараски"
+ animal_type_devi_plural: "Девис"
+ animal_type_shahmaran_plural: "шахмаранцы"
+ animal_type_banshee_plural: "банши"
+ animal_type_fortune_eater_plural: "пожиратели удачи"
+ animal_type_leshen_plural: "лешени"
+ animal_type_rock_giant_plural: "рок-гиганты"
+ animal_type_manzasiri_plural: "манзасирис"
+ animal_type_living_blizzard_plural: "живые метели"
+ animal_type_whisperwind_plural: "шепот ветра"
+ animal_type_aboleth_plural: "аболеты"
+ animal_type_fogbeast_plural: "туманные звери"
+ animal_type_vendarja_plural: "вендарьяс"
+ animal_type_seamonster_plural: "Морские монстры"
+ animal_type_stag_plural: "олени"
+  
+ may_gain_artifact_hide_tooltip: "#positive_value Охотники, скорее всего, получат [artifact|E].#!."
+  
+ artifact_monster_hide_big_name: "Скрыть [newly_created_artifact.GetFeatureText( 'animal_hide_type' )]"
+ artifact_monster_hide_big_description: "Дубленая шкура [newly_created_artifact.GetFeatureText( 'animal_hide_type' )]. Шкура массивная по размеру и качеству [SCOPE.Custom('ArtifactQuality')]."
+ artifact_hunt_animal_hide_big_description: "Дубленая шкура [newly_created_artifact.GetFeatureText( 'animal_hide_type' )], на которую охотились в [Localize(Concatenate(GetPlayer.MakeScope.Var('temporary_hunt_biozone_variable').GetFlagName,'_name'))]. Шкура массивная по размеру и качеству [SCOPE.Custom('ArtifactQuality')]."
+ artifact_hunt_animal_hide_medium_description: "Дубленая шкура [newly_created_artifact.GetFeatureText( 'animal_hide_type' )], на которую охотились в [Localize(Concatenate(GetPlayer.MakeScope.Var('temporary_hunt_biozone_variable').GetFlagName,'_name'))]. Шкура качества [SCOPE.Custom('ArtifactQuality')]."
+ artifact_hunt_animal_hide_medium_name: "Скрыть [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] из [Localize(Concatenate(GetPlayer.MakeScope.Var('temporary_hunt_biozone_variable').GetFlagName,'_name'))]"
+ artifact_hunt_animal_hide_big_name: "Скрыть [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] из [Localize(Concatenate(GetPlayer.MakeScope.Var('temporary_hunt_biozone_variable').GetFlagName,'_name'))]"
+ artifact_hunt_animal_hide_small_name: "Скрыть [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] из [Localize(Concatenate(GetPlayer.MakeScope.Var('temporary_hunt_biozone_variable').GetFlagName,'_name'))]"
+ artifact_hunt_animal_hide_fogbeast_name: "Скрыть [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] из [Localize(Concatenate(GetPlayer.MakeScope.Var('temporary_hunt_biozone_variable').GetFlagName,'_name'))]"
+ artifact_hunt_fogbeast_hide_description: "Дубленая шкура [newly_created_artifact.GetFeatureText( 'animal_hide_type' )], добытая в [Localize(Concatenate(GetPlayer.MakeScope.Var('temporary_hunt_biozone_variable').GetFlagName,'_name'))]. Несмотря на качество шкуры, выглядит она жутковато."
+ artifact_hunt_essence_name: "Суть [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] из [Localize(Concatenate(GetPlayer.MakeScope.Var('temporary_hunt_biozone_variable').GetFlagName,'_name'))]"
+ artifact_hunt_essence_description: "Суть [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] из [Localize(Concatenate(GetPlayer.MakeScope.Var('temporary_hunt_biozone_variable').GetFlagName,'_name'))], [newly_created_artifact.GetFeatureText( 'animal_essence_infusion' )]. Пары по-прежнему выходят из контейнера."
+ artifact_animal_toxin_name: "Экстракт токсина [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] из [Localize(Concatenate(GetPlayer.MakeScope.Var('temporary_hunt_biozone_variable').GetFlagName,'_name'))]"
+ artifact_animal_toxin_description: "Токсины, извлеченные из [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] из [Localize(Concatenate(GetPlayer.MakeScope.Var('temporary_hunt_biozone_variable').GetFlagName,'_name'))]. [newly_created_artifact.GetFeatureText( 'animal_toxin_infusion' )]"
+  
+ artifact_shahmaran_heart_name: "Сердце Шахмарана [Localize(Concatenate(GetPlayer.MakeScope.Var('temporary_hunt_biozone_variable').GetFlagName,'_name'))]"
+ artifact_shahmaran_heart_description: "Сердце Шахмарана совсем не кристаллическое образование из драгоценных камней и камней, пульсирующее слабой магической энергией. Вызывает тревогу то, что кристаллы приобрели форму человека, сгорбившегося в позе эмбриона."
+ artifact_simurgh_feathers_name: "Перья Симурга [Localize(Concatenate(GetPlayer.MakeScope.Var('temporary_hunt_biozone_variable').GetFlagName,'_name'))]"
+ artifact_simurgh_feathers_description: "Эти перья до сих пор сохраняют яркий цвет и мудрость величественного Симурга."
+ artifact_shahmaran_heart: "Шахмаран Сердце"
+ artifact_simurgh_feathers: "Симург Перья"
+ artifact_wild_hunt_helmet: "Шлем дикого всадника"
+ artifact_wild_hunt_name: "Шлем дикого всадника"
+ artifact_wild_hunt_description: "Несмотря на то, что он разлучен со своим грозным владельцем, он все еще способен вызвать дрожь по спине противника."
+ artifact_gargoyle_figure: "Фигурка горгульи"
+ artifact_gargoyle_name: "Горгулья [Localize(Concatenate(GetPlayer.MakeScope.Var('temporary_hunt_biozone_variable').GetFlagName,'_name'))]"
+ artifact_gargoyle_description: "Эта сморщенная фигура когда-то была могучей горгульей, а теперь превратилась в немногим больше домашней кошки."
+ artifact_seamonster_treasure: "Сокровища чудовищ бездны"
+ artifact_seamonster_name: "Бездонное чудовище [Localize(Concatenate(GetPlayer.MakeScope.Var('temporary_hunt_biozone_variable').GetFlagName,'_name'))]"
+ artifact_seamonster_description: "Когда-то его защищало Бездное чудовище, но теперь оно принадлежит нам."
+ artifact_iye_gem: "Айе Кристалл"
+ artifact_iye_name: "Таинственный кристалл"
+ artifact_iye_description: "Это было благословение таинственного духа, найденного в Степи. Он светится переливами и согревает тело, когда его держат в руках."
+  
+ # Gemstones 
+  
+ artifact_gemstone_name: "$artifact_name_prefix$ [newly_created_artifact.GetFeatureText( 'gemstone_cut' )|U]-Вырез [newly_created_artifact.GetFeatureText( 'gemstone_type' )]"
+ artifact_gemstone_name_manzasiri_heart: "$artifact_name_prefix$ [newly_created_artifact.GetFeatureText( 'gemstone_cut' )|U]-Вырез [newly_created_artifact.GetFeatureText( 'gemstone_type' )] Сердце Манзашири"
+ artifact_gemstone_name_shard: "$artifact_name_prefix$ [newly_created_artifact.GetFeatureText( 'gemstone_type' )] Осколок"
+ artifact_gemstone_description: "Красивый, наполненный магией [newly_created_artifact.GetFeatureText( 'gemstone_type' )] в версии [newly_created_artifact.GetFeatureText( 'gemstone_cut' )]. У драгоценного камня есть [newly_created_artifact.GetFeatureText( 'gemstone_magical_texture' )] и [newly_created_artifact.GetFeatureText( 'gemstone_magical_aura' )]."
+ artifact_gemstone_description_manzasiri_heart: "Красивый, наполненный магией [newly_created_artifact.GetFeatureText( 'gemstone_type' )] в версии [newly_created_artifact.GetFeatureText( 'gemstone_cut' )]. У драгоценного камня есть [newly_created_artifact.GetFeatureText( 'gemstone_magical_texture' )] и [newly_created_artifact.GetFeatureText( 'gemstone_magical_aura' )].\n\nКогда-то этот камень был «сердцем» ужасного Манзашири, который наделил его исключительными магическими свойствами."
+ artifact_gemstone_description_manzasiri_shard: "Красивый, наполненный магией [newly_created_artifact.GetFeatureText( 'gemstone_type' )] в версии [newly_created_artifact.GetFeatureText( 'gemstone_cut' )]. У драгоценного камня есть [newly_created_artifact.GetFeatureText( 'gemstone_magical_texture' )] и [newly_created_artifact.GetFeatureText( 'gemstone_magical_aura' )].\n\nКамень был извлечен из тела Манзашири, который наделил его значительными магическими свойствами."
+  
+  
+ ## Extra Types 
+ feature_gemstone_type_sunstone: "Солнечный камень"
+ feature_gemstone_type_citrine: "Цитрин"
+ feature_gemstone_type_chrysoberyl: "Хризоберилл"
+ feature_gemstone_type_black_zircon: "Черный Циркон"
+ feature_gemstone_type_red_zircon: "Красный Циркон"
+ feature_gemstone_type_yellow_zircon: "Желтый циркон"
+ feature_gemstone_type_brown_zircon: "Коричневый циркон"
+ feature_gemstone_type_green_zircon: "Зеленый Циркон"
+ feature_gemstone_type_clear_zircon: "Прозрачный циркон"
+ feature_gemstone_type_blue_zircon: "Голубой циркон"
+ feature_gemstone_type_fire_opal: "Огненный опал"
+ feature_gemstone_type_cherry_opal: "Вишневый опал"
+ feature_gemstone_type_sapphire: "Сапфир"
+ feature_gemstone_type_manzasiri_obsidian: "Манзашири Обсидиан"
+  
+ artifact_tooltip_sunstone: "#BOL Солнечный камень#!"
+ artifact_tooltip_black_zircon: "#BOL #color_green Черный Циркон#!#!"
+ artifact_tooltip_red_zircon: "#BOL #color_green Красный Циркон#!#!"
+ artifact_tooltip_yellow_zircon: "#BOL #color_green Желтый Циркон#!#!"
+ artifact_tooltip_brown_zircon: "#BOL #color_green Коричневый циркон#!#!"
+ artifact_tooltip_green_zircon: "#BOL #color_green Зеленый Циркон#!#!"
+ artifact_tooltip_clear_zircon: "#BOL #color_light_blue Прозрачный циркон#!#!"
+ artifact_tooltip_blue_zircon: "#BOL #color_goldy_yellow Голубой циркон#!#!"
+ artifact_tooltip_fire_opal: "#BOL #color_green Огненный опал#!#!"
+  
+ ## Cuts 
+ feature_gemstone_cut_brilliant: "блестящий"
+ feature_gemstone_cut_emerald: "изумруд"
+ feature_gemstone_cut_baguette: "багет"
+ feature_gemstone_cut_briolette: "бриолет"
+ feature_gemstone_cut_cushion: "подушка"
+ feature_gemstone_cut_marquise: "маркиза"
+ feature_gemstone_cut_octagonal: "восьмиугольный"
+ feature_gemstone_cut_oval: "овал"
+ feature_gemstone_cut_pear: "груша"
+ feature_gemstone_cut_point: "точка"
+ feature_gemstone_cut_radiant: "сияющий"
+ feature_gemstone_cut_table: "стол"
+ feature_gemstone_cut_trilliant: "блестящий"
+ feature_gemstone_cut_shard: "осколок"
+  
+ ## Magical Textures 
+ feature_gemstone_magical_texture_swirling: "волшебные усики нежно кружатся [Artifact.Custom('ArtifactGemstoneWithinOrOverSurface')]"
+ feature_gemstone_magical_texture_hypnotic: "гипнотические волшебные усики нежно катятся [Artifact.Custom('ArtifactGemstoneWithinOrOverSurface')]"
+ feature_gemstone_magical_texture_geometric: "медленно меняющиеся геометрические фигуры и узоры [Artifact.Custom('ArtifactGemstoneWithinOrOverSurface')]"
+ feature_gemstone_magical_texture_fire: "огненное, оживленное пламя, горящее [Artifact.Custom('ArtifactGemstoneWithinOrOverSurface')], его яркость заставляет его светиться в темноте"
+ feature_gemstone_magical_texture_water: "волнообразные движения [Artifact.Custom('ArtifactGemstoneWithinOrOverSurface')], создающие впечатление запертого внутри океана"
+ feature_gemstone_magical_texture_air: "движения ветра и небольших облаков [Artifact.Custom('ArtifactGemstoneWithinOrOverSurface')]"
+ feature_gemstone_magical_texture_thunder: "возникают электрические искры и небольшие вспышки света [Artifact.Custom('ArtifactGemstoneWithinOrOverSurface')]"
+ feature_gemstone_magical_texture_vortex: "волшебные щупальца, кружащиеся в вихре [Artifact.Custom('ArtifactGemstoneWithinOrOverSurface')]"
+ feature_gemstone_magical_texture_night_sky: "блестящее, туманное ночное небо, полное звезд [Artifact.Custom('ArtifactGemstoneWithinOrOverSurface')]"
+ feature_gemstone_magical_texture_visions: "странные, похожие на сон видения событий прошлого и будущего воспроизводятся [Artifact.Custom('ArtifactGemstoneWithinOrOverSurface')]"
+  
+ ## Magical Auras 
+ feature_gemstone_magical_aura_hot: "горячий на ощупь и излучает тепло на значительный радиус вокруг себя"
+ feature_gemstone_magical_aura_cold: "очень холоден на ощупь и снижает температуру окружающей среды на значительный радиус вокруг себя"
+ feature_gemstone_magical_aura_dark: "кажется, что он поглощает окружающий свет, в результате чего ближайшие источники света тускнеют, а тени становятся глубже."
+ feature_gemstone_magical_aura_wind: "вызывает ветер в окрестностях, даже если он находится в помещении"
+ feature_gemstone_magical_aura_whispers: "известен зловещим шепотом, который часто можно услышать в окрестностях"
+ feature_gemstone_magical_aura_euphoria: "вызывает чувство эйфории, а иногда и мании у тех, кто стоит рядом и особенно долго смотрит на него"
+ feature_gemstone_magical_aura_melancholy: "вызывает у окружающих чувство меланхолии"
+ feature_gemstone_magical_aura_washes_out_colors: "размывает цвета окружающей среды, ярко выделяя свой собственный цвет"
+ feature_gemstone_magical_aura_increases_vibrancy: "кажется, делает цвета окружающих предметов значительно более яркими и насыщенными"
+ feature_gemstone_magical_aura_necromantic: "обладает некромантическими свойствами, заставляя близлежащие кости начинать трястись и слегка двигаться сами по себе, привлекая любую находящуюся поблизости нежить, как маяк"
+ feature_gemstone_magical_aura_plant_growth: "заставляет растения поблизости цвести и расти значительно быстрее, чем это возможно естественным путем."
+ feature_gemstone_magical_aura_alluring: "вызывает почти непреодолимую жадность у существ, которые его видят"
+ feature_gemstone_magical_aura_magic_boosting: "значительно усиливает все виды магии, творимые поблизости."
+ feature_gemstone_magical_aura_anti_magic: "имеет небольшое антимагическое поле вокруг себя"
+  
+ ## Misc Gemstone Localize 
+ artifact_gemstone_within: "в пределах"
+ artifact_gemstone_over_surface: "над его поверхностью"
+  
+  # Misc 
+  
+ artifact_iye_crystal: "драгоценный камень"
+ artifact_votive: "Вотивная фигура"
+ artifact_tablet: "Каменная табличка"
+ artifact_coin: "Монета"
+ artifact_gemstone: "драгоценный камень"
+ artifact_gemstone_type: "драгоценный камень"
+  
+  
+ take_their_skull_tooltip: "#positive_value Вы получите [artifact|E]"
+  
+  
+  
+  
+ ## From the artifacts_loc_l_english file, fuck me ## 
+  
+ artifact_skull: "Череп"
+  
+ artifact_hunt.0001.a: "Время отправляться на охоту!"
+ artifact_hunt.0001.b: "Может быть, в другой раз."
+ artifact_hunt.0001.desc: "Благодаря своим недавним подвигам я наткнулся на свидетельства возможного предмета, который некоторое время оставался скрытым от историков. Конечно, все это могли быть просто вымышленные слухи, бабушкины сказки, а может быть, и вовсе выдумки. Тем не менее, если эти слухи верны, было бы глупо упустить такую ​​возможность. Артефакты, имеющие историческое значение, могут иметь огромную ценность для тех, кто к ним присматривается, и любой правитель, обладающий таким артефактом, несомненно, будет предметом разговоров на всей земле еще долгое время. Мой разум наполняется образами великолепных шлемов, блестящих и позолоченных мечей и нагрудников, изготовленных только самыми искусными руками в истории. У меня такое чувство, будто я держу их всех даже сейчас..."
+ artifact_hunt.0001.t: "Охота начинается"
+ artifact_hunt.0002.a: "Удачи!"
+ artifact_hunt.0002.b: "Возможно, мне следует сохранить свое золото для более надежных целей."
+ artifact_hunt.0002.desc: "Зачем мне искать зацепки в том, что вполне может оказаться бесполезной погоней? У меня есть гораздо более важные и совершенно реальные проблемы, которые мне предстоит решить в суде. У меня просто нет времени тратить время на то, чтобы лично разобраться в слухах. Однако это не значит, что я должен их игнорировать, потому что это действительно может оказаться довольно глупо. Вместо того, чтобы отправиться в путь самостоятельно, я решил нанять местных жителей, чтобы те меня разыскали. Охотники, звероловы, ветераны прошлых войн, люди, которым следовало бы знать местность. Они будут хорошими и заслуживающими доверия, если я заплачу им изрядную сумму в обмен на нахождение артефакта."
+ artifact_hunt.0002.t: "Наемный помощник"
+ artifact_hunt.0003.a: "Мы едем!"
+ artifact_hunt.0003.b: "Мне предстоит победить в других битвах."
+ artifact_hunt.0003.desc: "Любой хороший лидер должен быть готов запачкать руки в погоне за славой и властью, по крайней мере, так нам рассказывали рассказчики. Сегодня я поведу большую часть своей личной свиты на поиски предположительно находящегося неподалеку артефакта. Отряд будет разбит на пары и отправлен на агитацию на максимально широкой территории. Будем надеяться, что экскурсия окажется быстрой и без какого-либо вмешательства со стороны человека, зверя или темной сущности. Охота не приспособлена для тяжелого боя, и нашим главным преимуществом будет скорость. Если повезет, я вернусь домой не позднее завтрашнего дня с моим новым артефактом."
+ artifact_hunt.0003.t: "Ранжирование"
+ artifact_hunt.0004.a: "Пора накатать приглашение."
+ artifact_hunt.0004.b: "Возможно, мне следует сохранить свое золото для более надежных целей."
+ artifact_hunt.0004.desc: "Судя по всему, артефакт, который я искал, действительно попал в руки мелкого соседнего дворянина. Возможно, они не захотят просто расстаться с ним, даже за хорошую сумму денег. Конечно, учитывая, что я являюсь доминирующим лордом в этом регионе, я мог бы применить свою силу, а также свое личное обаяние, чтобы заставить их сдвинуться с места. Если этого окажется недостаточно, я мог бы пойти еще дальше и прибегнуть к угрозам и уговорам. Я просто надеюсь, что они прислушаются к разуму, прежде чем дело дойдет до чего-то столь жестокого."
+ artifact_hunt.0004.t: "Заключение сделки"
+ artifact_hunt.0005.a: "Какой же это был свиток?"
+ artifact_hunt.0005.b: "Если подумать, это, скорее всего, будет бессмысленным занятием."
+ artifact_hunt.0005.desc: "Бесцельные поиски, может быть, и полезны для простых людей, но я выше такой траты времени! Я нашел обрывки информации об артефакте, который, по слухам, находится неподалеку. Анализируя подсказки, оставленные в этих древних фолиантах и ​​свитках, я могу значительно сузить возможное место упокоения моей цели, делая самую сложную часть этой задачи еще проще. Как только я расшифрую местоположение, я смогу просто послать нескольких ученых, обладающих навыками археологии, за своим новым призом."
+ artifact_hunt.0005.t: "Удар по свиткам"
+ artifact_hunt.0006.a: "Принеси мне счеты."
+ artifact_hunt.0006.b: "Возможно, нам придется дождаться черного дня, чтобы раскрыть эту тайну."
+ artifact_hunt.0006.desc: "Мой управляющий сообщил мне о весьма удачном развитии событий в поисках артефакта! Похоже, что местные записи могут содержать ключ к возвращению моей цели. Конечно, многие из этих документов довольно объемны и потребуют внимательного прочтения и перекрестных ссылок, если я хочу обеспечить их понимание. Мой стюард пообещал помочь мне распознать некоторые возможные шифры и коды, которые, по его мнению, были спрятаны в этих записях. Тем не менее, учитывая, как усердно кто-то работал, чтобы спрятать это сокровище, я не могу быть уверен, что мы сможем добиться успеха."
+ artifact_hunt.0006.t: "Бюрократический перерыв"
+ artifact_hunt.0007.a: "Возможно, это судьба..."
+ artifact_hunt.0007.b: "Возможно, некоторые вещи лучше оставить в покое..."
+ artifact_hunt.0007.desc: "Когда я заканчиваю охоту, успех которой приносит мне огромную радость, меня охватывает какое-то странное чувство. Это не неприятное чувство, а скорее теплое побуждение, тянущее меня к чему-то неизведанному. Я сворачиваю со своего пути и иду навстречу таинственной и незнакомой силе, влекущей меня куда-то еще. Неизбежно я достигаю того места, куда он пытался меня привести, нахожу определенный объект, к которому притяжение сильнее всего, и в этот момент чувство исчезает."
+ artifact_hunt.0007.t: "Доброжелательное принуждение"
+ artifact_hunt.0008.a: "Какой позор."
+ artifact_hunt.0008.desc: "Несмотря на все мои усилия, поиски того, что могло быть легендарным артефактом, ни к чему не привели. То ли из-за моих собственных ошибок, то ли из-за ошибок других, кого я завербовал, след затерялся."
+ artifact_hunt.0008.t: "Не повезло"
+  
+  ## Mounts ## 
+  
+ artifact_mountgriffon_desc: "#size:15 Грифон с самых высоких вершин гор [chevalie|E]. Зимой грифоны обычно мигрируют из своих домов на западе на юго-восток, во время миграции предприимчивые жители Марша, рожденные как из высокого, так и из низкого происхождения, выходят, чтобы попытаться поймать и обучить детенышей."
+ artifact_mountgriffon_modifier: "Грифон"
+ artifact_mountgriffon_name: "Грифон"
+  
+ artifact_mountgreatergolem_desc: "#size:15 С помощью тайного ритуала это огромное создание из металла и камня подчиняется вашей воле. Эта огромная конструкция поможет вам в бою и разрушит стены ваших врагов."
+ artifact_mountgreatergolem_modifier: "Большой Голем"
+ artifact_mountgreatergolem_name: "Большой Голем"
+  
+ artifact_fellcharm_desc: "#size:15 Это ожерелье источает темную и неизвестную магию. Отлитый из странного и инопланетного металла, он выглядит так, как будто его неоднократно перековывали в прошлом, возможно, в попытке уничтожить его.\n\nВладелец кулона, без сомнения, будет наделен огромной силой против своих врагов.. ... но следует задаться вопросом, имеет ли оно равную или большую стоимость..."
+ artifact_fellcharm_modifier: "Падшее очарование"
+ artifact_fellcharm_modifier_desc: "Ожерелье, сочащееся темной непредвиденной магией"
+ artifact_fellcharm_name: "Падшее очарование"
+  
+ artifact_gift.1.desc: "Любой [GetPlayer.Custom('WomanManGirlBoy')] может использовать только определенное количество артефактов одновременно, поэтому в интересах моей династии обеспечить, чтобы наши артефакты использовались с пользой.\n\nС этой целью я решил подарить [recipient.GetTitledFirstName] артефакт."
+ artifact_karthynskull_desc: "Этот череп принадлежал аверсарскому военачальнику [Concept('karthyn_delenel','Delenel')|E]. Известен своими террористическими кампаниями в Опахасии и Малкойсе, с помощью которых он держал восток под контролем своего сюзерена Аутократира Эшраеса во время и после [imperial_civil_war|E] (наряду со своим столь же печально известным коллегой [Concept('demetros_detheniax','Demetros Iron-Spike')|E]); на этом черепе мало что видно из того ужасающего облика, о котором рассказывали немногие выжившие после его резни.\n\nДеленель был смертельно ранен Леганом Исацеей из XXI Легио «Аксиаотея» во время Вильнского нападения, хотя он прожил достаточно долго, чтобы отступить на восток, в свои личные поместья. . Там, брошенный своими людьми и союзниками, под знаками дружбы вошел его ученик Горасс. Произошедшие события неизвестны, но известно то, что Горасос зарезал своего наставника, отобрал у него голову, изнасиловал и убил то, что осталось от его семьи и слуг, прежде чем поджечь поместье. Принято считать, что это событие произошло в тот момент, когда Горас оставил службу Эшрею и стал независимым военачальником."
+ artifact_karthynskull_modifier: "Череп Картин Деленель"
+ artifact_karthynskull_modifier_desc: "Череп покойной Картин Деленель"
+ artifact_karthynskull_name: "Череп [delenel.GetName]"
+  
+ artifact_marias_blade_battle_desc: "#size:15 Этот клинок, позолоченный серебром и с красивой надписью по краю, принадлежал [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFullName] во время вторжения [lich|E] [newly_created_artifact.MakeScope.Var('prominent_foe').Char.GetFirstNameNicknamed]. Мария была дочерью зажиточной дворянской династии Тейдиа, и ожидалось, что она примет Путь семьи в своем «Пути Выбора» в ожидании ее брака с семьей Кальменсон.\n\nОднако, когда она услышала о терроре, принесенном на ее родину, вместо этого она выбрала Путь аннулирования, вызвав большой скандал. Ее отец, обезумевший, но желавший обеспечить безопасность своей дочери, заказал этот огромный клинок, чтобы обеспечить ее выживание, который, как говорят легенды, позже вонзится в «глаз» Лича в конце ее вторжения."
+ artifact_marias_blade_desc: "#size:15 Этим клинком, позолоченным серебром и с красивой надписью по краю, владела Мария ден ва Тейдия во время вторжения [lich|E] Дексаса, «Смерторезного». Мария была дочерью зажиточной дворянской династии Тейдиа, и ожидалось, что она примет Путь семьи в своем «Пути Выбора» в ожидании ее брака с семьей Кальменсон.\n\nОднако, когда она услышала о терроре, принесенном на ее родину, вместо этого она выбрала Путь аннулирования, вызвав большой скандал. Ее отец, обезумевший, но желавший обеспечить безопасность своей дочери, заказал этот огромный клинок, чтобы обеспечить ее выживание, который, как говорят легенды, позже вонзится в «глаз» Лича в конце ее вторжения."
+ artifact_marias_blade_modifier: "Мария ден ва Клинок Онидии"
+ artifact_marias_blade_modifier_desc: "Говорят, что серебряный меч убил [lich|E]"
+ artifact_marias_blade_name: "Мария ден ва Клинок Онидии"
+  
+ artifact_ringofwaysaints_desc: "#size:15 Красивое позолоченное кольцо, которое, как говорят, было заказано для Путеводителя Катд ден ва Крекче Конклавом Раокурта незадолго до его мученической кончины. Он был подарен молодому Верховному королю Реми Адкурт-Ведрону после его коронации в 974 году Ис. 1. и служил могущественным символом его веры и верности Пути."
+ artifact_ringofwaysaints_modifier: "Кольцо Путеводителя"
+ artifact_ringofwaysaints_modifier_desc: "Красивое кольцо, предположительно выкованное для руки Путного святого."
+ artifact_ringofwaysaints_name: "Кольцо Путеводителя"
+  
+ artifact_sackofsmokebombs_desc: "#size:15 «Курильщики» — сравнительно недавнее алхимическое изобретение, использованное Антимагическими Орденами [chevalie|E] в их попытках уравнять правила игры с Личами, Магами и всеми остальными. Вдохновленные саррадонскими изобретениями, наблюдаемыми во время приключений Марчера на юге, эти устройства создают довольно впечатляющее облако, которое скрывает все, что находится внутри него, при зажигании простого запала. Вы думаете, что вдыхать слишком много этого будет не особенно полезно для здоровья."
+ artifact_sackofsmokebombs_modifier: "Мешок с дымовыми шашками"
+ artifact_sackofsmokebombs_modifier_desc: "Мешок с алхимическими дымовыми шашками, предназначенный для того, чтобы скрыть пользователя и, возможно, вызвать рак."
+ artifact_sackofsmokebombs_name: "Мешок с дымовыми шашками"
+  
+ ##artifact_sackofsmokebombs_desc: "#size:15 «Курильщики» — сравнительно недавнее алхимическое изобретение, использованное Антимагическими Орденами [chevalie|E] в их попытках уравнять правила игры с Личами, Магами и всеми остальными. Вдохновленные саррадонскими изобретениями, наблюдаемыми во время приключений Марчера на юге, эти устройства создают довольно впечатляющее облако, которое скрывает все, что находится внутри него, при зажигании простого запала. Вы думаете, что вдыхать слишком много этого будет не особенно полезно для здоровья."
+ ##artifact_sackofsmokebombs_modifier: "Мешок с дымовыми шашками"
+ ##artifact_sackofsmokebombs_modifier_desc: "Мешок с алхимическими дымовыми шашками, предназначенный для того, чтобы скрыть пользователя и, возможно, вызвать рак."
+ ##artifact_sackofsmokebombs_name: "Мешок с дымовыми шашками"
+  
+  
+ artifact_sirtheyvnsbreastplate_desc: "#size:15 Говорят, что сэр Тейвн «Мученик» был первым участником марша, убитым [lich|E]. В легендах говорится, что когда [vilas_venslau|E] вторгся на юг, он сначала подошел к воротам пограничного форта Метенс и потребовал, чтобы гарнизон открыл свои ворота для своего нового лорда. Сэр Тейвн, начальник гарнизона, вышел один и заявил, что ни один живой человек не сможет удержать марширующих в цепях, тем более мертвый. Остальную часть истории рассказывает почерневшая дыра в центре нагрудника, а о его наследии рассказывают многочисленные песни и баллады, посвященные Тейвену."
+ artifact_sirtheyvnsbreastplate_modifier: "Кираса сэра Тивна"
+ artifact_sirtheyvnsbreastplate_modifier_desc: "Сломанный нагрудник, предположительно принадлежавший первому маршировщику, убитому [lich|E]. Возможно, репродукция"
+ artifact_sirtheyvnsbreastplate_name: "Кираса сэра Тивна"
+  
+ artifact_create.degrade.desc: "Качество артефакта снизилось."
+ artifact_create.degrade.t: "Потеря качества"
+ artifact_create.degrade.tt: "Качество артефакта снизится."
+  
+ artifact_create.improvement.desc: "Качество артефакта возросло."
+ artifact_create.improvement.t: "Повышение качества"
+ artifact_create.improvement.tt: "Качество артефакта повысится."
+  
+ artifact_adabyssiancontrolrod_desc: "#size:15 Этот золотой жезл имеет по бокам странную серию эзотерических кнопок, циферблатов и переключателей. Хотя принцип его действия остается загадкой для всех, кто не живет в дальних уголках юга, слухи гласят, что если вы владеете им, то сможете управлять одной из их легендарных живых статуй..."
+ artifact_adabyssiancontrolrod_modifier: "Адабиссийский жезл управления"
+ artifact_adabyssiancontrolrod_name: "Адабиссийский жезл управления"
+  
+ artifact_adabyssianfirearbalest_desc: "#size:15 Это странное устройство было выковано на одной из огромных мануфактур в Лавапитах горы Вирирен'эго или, возможно, одним из личных кузнецов Императора из Города Золотых Статуй. Огненный арбалет — странный прототип, над совершенствованием которого адабиссийцы работали десятилетиями. Пока это оружие еще находится в стадии эксперимента, разрушительный треск этого оружия вселяет страх в солдат противника, а странная пуля, которую оно выпускает, пробивает броню насквозь. Маркировка на ручке указывает на [owner.MakeScope.Var('model_number').GetValue|0] из 50."
+ artifact_adabyssianfirearbalest_modifier: "Адабиссийский огненный арбалет"
+ artifact_adabyssianfirearbalest_modifier_desc: "Может использоваться в [monster_hunts|E]"
+ artifact_adabyssianfirearbalest_name: "Адабиссийский огненный арбалет"
+  
+ artifact_aersanonstaff1_desc: "#size:15 Этот странный посох сделан из совершенно чуждого всем материала. Жесткая черная конструкция кажется почти неземной, идеальной по своей конструкции. Возможно, самое странное в его конструкции то, что, несмотря на то, что он явно является объектом магической силы, острая головка посоха, похоже, активно высасывает магическую силу из всего вокруг с поразительной скоростью. Кто знает, какое Древнее Существо когда-то держало его?"
+ artifact_aersanonstaff1_modifier: "#E Магия#!:@magic_icon!#positive_value -1#!/month\n#E Магия#!:@magic_icon!#positive_value +50%#!/month"
+ artifact_aersanonstaff1_modifier_desc: "#E Магия#!:@magic_icon!#positive_value; +8#!/month"
+ artifact_aersanonstaff1_name: "Верхняя половина древнего посоха"
+  
+ artifact_aersanonstaff2_desc: "#size:15 Этот странный посох сделан из совершенно чуждого всем материала. Жесткая черная конструкция кажется почти неземной, идеальной по своей конструкции. Несмотря на то, что верхняя часть посоха отломана, нижняя часть по-прежнему излучает огромное количество магической силы, хотя никто понятия не имеет, как они извлекут эту силу, простое удерживание посоха, кажется, расширяет границы того, что может содержать [magi|E]. Кто знает, какое Древнее Существо когда-то держало его?"
+ artifact_aersanonstaff2_modifier: "#E Магия#!:@magic_icon!#positive_value +2#!/month\n#E Магия#!:@magic_icon!#positive_value +25%#!/month"
+ artifact_aersanonstaff2_modifier_desc: "#E Магия#!:@magic_icon!#positive_value; +8#!/month"
+ artifact_aersanonstaff2_name: "Нижняя половина древнего посоха"
+  
+ artifact_alienwhip_desc: "#size:15 Похоже, что этот кнут представляет собой конструкцию, на которую ни один человек не может претендовать. Каждый раз, когда он щелкает, кажется, что летят искры, как будто ударяет молния. Невозможно удержаться от дрожи каждый раз, когда видишь это, как будто почти вспоминаешь что-то давно забытое..."
+ artifact_alienwhip_modifier: "Чужой кнут"
+ artifact_alienwhip_name: "Чужой кнут"
+  
+ artifact_ancienttablet_desc: "#size:15 Древняя табличка протоаверсарианской культуры. Кажется, что он изображает Чистейших и Первых Людей, создающих мир, но содержит множество странностей, не соответствующих аверсарианским писаниям, таких как нетронутый берег, люди с заостренными ушами и другие загадки."
+ artifact_ancienttablet_modifier: "Древняя табличка"
+ artifact_ancienttablet_name: "Древняя табличка"
+  
+ artifact_ante_apocalyptic_prophecy_amsari_description: "До откровений Пророка народ Амсари на протяжении веков получал руководство, заверения и проблески грядущей славы от ряда второстепенных пророческих личностей, чьи сочинения известны под общим названием «Антеапокалиптические пророчества». Хотя их сохранение было весьма фрагментарным из-за кемсарианских преследований и специального характера, в котором большинство из них было записано, и их значимость в значительной степени была вытеснена откровениями Пророка, подлинные сохранившиеся тексты этого типа до сих пор пользуются большим уважением."
+ artifact_ante_apocalyptic_prophecy_amsari_name: "Анте-апокалиптическое пророчество"
+  
+ artifact_atracorde_battle_desc: "Лезвие из черного железа с золотой рукоятью. Эта рапира является шедевром сализийской металлургии и считается одним из лучших произведений искусства, когда-либо созданных Цитаделью Мечей. Эта рапира, заказанная богатыми лордами Лиги Черного Золота, была подарена молодому [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFirstNameNicknamed], чтобы служить достойным клинком Верховного Короля. Молодой лорд назвал меч «Атракорд», или «Черный Союз», что, по мнению многих, было названо в честь лиги, которая привела его к власти. Однако те, кто был ближе к нему, уже знали о недовольстве Терина махинациями отца и полагали, что это имя — проклятие против этой самой Лиги."
+ artifact_atracorde_desc: "Лезвие из черного железа с золотой рукоятью. Эта рапира является шедевром сализийской металлургии и считается одним из лучших произведений искусства, когда-либо созданных Цитаделью Мечей."
+ artifact_atracorde_name: "Атракорде"
+  
+ artifact_automaticgemlion_desc: "#size:15 Потрясающий образец утраченного корабля Картарадди, это элегантное, но тяжелое изобретение стоит на уровне плеч. Похоже, он был спроектирован как своего рода безопасный футляр для хранения драгоценностей, которые его латунные когти деликатно раскладывают по различным искусно спрятанным полостям, изолированным вокруг его тела. Вся эта штуковина управляется путем поворота и натягивания ряда рычагов, выступающих из ее основания. Находка для тех, у кого коллекция украшений слишком велика, чтобы за ней можно было следить, но ее использование ограничено для кого-либо еще. По фрагментарным записям предполагается, что они были сделаны для использования Картарадди [magi|E], хотя с какой именно целью до сих пор неясно."
+ artifact_automaticgemlion_modifier: "Декоративные автоматы-лев"
+ artifact_automaticgemlion_modifier_desc: "Потрясающая шкатулка-автомат для драгоценностей."
+ artifact_automaticgemlion_name: "Декоративные автоматы-лев"
+  
+ artifact_aversariacrown_desc: "#size:15 Корону [aversaria|E] носили все правящие автократиры, кроме двух, на протяжении более тысячи лет. Внушительная и богато украшенная корона вызывает смешанные чувства страха и трепета, и легенды говорят, что головы очень многих могущественных [magi|E] покинули корону, наполняя ее собственной магической аурой."
+ artifact_aversariacrown_modifier: "Аверсианская Корона"
+ artifact_aversariacrown_modifier_desc:89 "artifact_ringofthelich_modifier_desc: "artifact_ringofthelich_modifier_desc:89 "#E Magic#!:@magic_icon!#positive_value +1#!/month\n" #NT!
+ artifact_aversariacrown_name: "Аверсианская Корона"
+  
+ artifact_aversarian_crown_base_desc: "Этот тусклый золотой головной убор когда-то был оправой Короны [aversarian|E]. Теперь это матовая оболочка прежнего «я», лишенная своих компонентов и обнаженная."
+ artifact_aversarian_crown_base_name: "База Аверсарианской Короны"
+  
+ artifact_aversarian_crown_chain_desc: "Эта богато украшенная цепь когда-то связывала Корону [aversarian|E] вместе. Теперь его искусно вырезанные заклинания мало что делают, кроме как сияют на свету."
+ artifact_aversarian_crown_chain_name: "Аверсарская коронная цепочка"
+  
+ artifact_aversarian_crown_diamond_desc: "Этот массивный бриллиант когда-то был центральным элементом короны [aversarian|E]. Его ослепительные цвета и размеры заставляли всех взирать на его блеск; теперь отделенный от короны, бриллиант потерял свой блеск."
+ artifact_aversarian_crown_diamond_name: "Аверсианский коронный бриллиант"
+  
+ artifact_aversarian_crown_dragonveil_desc: "Эта тонкая серебристая вуаль когда-то свисала с Короны [aversarian|E], символизируя древнюю связь [aversaria|E] и [dragons|E]."
+ artifact_aversarian_crown_dragonveil_name: "Аверсарийская коронная вуаль из чешуи дракона"
+  
+ artifact_aversarian_crown_jewels_desc: "Эти сверкающие драгоценные камни когда-то украшали Корону [aversarian|E], но уже давно вырваны из гнезд."
+ artifact_aversarian_crown_jewels_name: "Аверсарские королевские регалии"
+  
+ artifact_aversarianspear_desc: "#size:15 Это копье аверсарианского дизайна и исключительно хорошо изготовлено. Скорее всего, это изделие, выкованное в конце XII века, оно блестит полосами электрума вокруг полированного железного стержня. Голова выкована так, чтобы напоминать каплю крови, с единственным блестящим рубином там, где она встречается с основанием.\n\nПодобные копья были обычным явлением в легионах Аверсариана, хотя мастерство указывает на то, что это оружие высокопоставленного офицера или знати. ."
+ artifact_aversarianspear_modifier: "Аверсарское копье"
+ artifact_aversarianspear_modifier_desc: "Копье с лезвием в форме капли крови."
+ artifact_aversarianspear_name: "Аверсарское копье"
+  
+ artifact_banner_wardenism_description: "Хотя нет никаких доказательств того, что [first_warden|E] за всю свою жизнь использовал только одно боевое знамя, как часто утверждается, это знамя, безусловно, самое известное — оно присутствовало в знаменательной битве у Пылающего Ключа, в которой произошла решающая битва. поражение саррадонского регента Улатира силами [wardenite|E] и начало тысячелетнего господства в долине Синхамия.\n\nНесмотря на то, что он загорелся в середине битвы и стал целью многочисленных попыток противника уничтожить, он в основном уцелел. (вероятно, из-за особого типа ткани, использованной при его изготовлении, а не из-за чуда, как иногда утверждают) и служил точкой сбора превосходящих по численности сил [wardenite|E] и впоследствии дал битве свое название."
+ artifact_banner_wardenism_name: "Знамя Пылающего Ключа"
+  
+ artifact_blackhorn_desc: "#size:15 Черный Рог — это легендарный рог Бога Шялволки [velos|E], или, по крайней мере, так утверждается. Рог регулярно появляется в мифологии различных культур со всех уголков [aeras|E], всегда в той или иной форме он используется для вызова духов для войны, но при этом убивает трубача. Рог делает различие: убивают того, кто приказывает его использовать, а не того, кто в него трубит."
+ artifact_blackhorn_modifier: "Черный Рог"
+ artifact_blackhorn_modifier_desc: "Легендарный Черный Рог, который, как говорят, призывает души павших, чтобы они сражались за живых."
+ artifact_blackhorn_name: "Черный Рог"
+  
+ artifact_bloodofthearchmagi_desc: "#size:15 Когда одним холодным утром 1098 года архиМаг Каталит из [mayikrata|E] был найден пронзенным на люстре своего кабинета, первой реакцией его помощника было, вопреки всему разуму и логике, собрать его кровь в бутылку. При этом Каталитос истек кровью, и, хотя подозревали темную магию, ничего так и не было доказано. После того, как его помощник вскоре исчез во время расследования, несколько флаконов появились по всему миру десятилетия спустя, а кровь в бутылках все еще обладала большой силой."
+ ####artifact_bloodofthearchmagi_desc: "#size:15 Когда одним холодным утром 1098 года архиМаг Каталитос из Майикпрололана был найден пронзенным на люстре своего кабинета, первой реакцией его помощника было, вопреки всем разумным соображениям и логике, собрать его кровь в бутылку. При этом Каталитос истек кровью, и, хотя подозревали темную магию, ничего так и не было доказано. После того, как его помощник вскоре исчез во время расследования, несколько флаконов появились по всему миру десятилетия спустя, а кровь в бутылках все еще обладала большой силой."
+ artifact_bloodofthearchmagi_modifier: "Кровь архимагов"
+ artifact_bloodofthearchmagi_modifier_desc: "#E Магия#!:@magic_icon!#positive_value +25%#!/month"
+ artifact_bloodofthearchmagi_name: "Кровь архимагов"
+  
+ artifact_bone: "кость"
+ artifact_bone_amulet_dread_1_desc: "#size:15 Этот костяной амулет создает вокруг своего владельца ауру беспокойства.."
+ artifact_bone_amulet_dread_1_modifier: "Малый амулет ужаса"
+ artifact_bone_amulet_dread_1_modifier_desc: "Этот костяной амулет создает вокруг своего владельца ауру беспокойства."
+ artifact_bone_amulet_dread_1_name: "Малый амулет ужаса"
+  
+ artifact_bone_amulet_dread_2_desc: "#size:15 Этот костяной амулет создает вокруг своего владельца тяжелую ауру беспокойства."
+ artifact_bone_amulet_dread_2_modifier: "Амулет Ужаса"
+ ####artifact_bone_amulet_dread_2_modifier_desc: "Этот костяной амулет создает вокруг своего владельца тяжелую ауру беспокойства."
+ artifact_bone_amulet_dread_2_modifier_desc: "Этот костяной амулет дает своему владельцу инстинкт поиска скрытого богатства, а также повышенную склонность к извлечению богатства из своих подданных."
+ artifact_bone_amulet_dread_2_name: "Амулет Ужаса"
+  
+ artifact_bone_amulet_dread_3_desc: "#size:15 Этот костяной амулет вселяет страх в окружающих его владельца."
+ artifact_bone_amulet_dread_3_modifier: "Большой амулет ужаса"
+ artifact_bone_amulet_dread_3_modifier_desc: "Этот костяной амулет дает своему владельцу острый инстинкт поиска скрытого богатства, а также значительно повышенную склонность к извлечению богатства из своих подданных."
+ ####artifact_bone_amulet_dread_3_modifier_desc: "Этот костяной амулет вселяет страх в окружающих своего владельца."
+ artifact_bone_amulet_dread_3_name: "Большой амулет ужаса"
+  
+ artifact_bone_amulet_dread_4_desc: "#size:15 Этот костяной амулет вселяет ужас в окружающих его носителей."
+ artifact_bone_amulet_dread_4_modifier: "Большой Амулет Ужаса"
+ artifact_bone_amulet_dread_4_modifier_desc: "Этот костяной амулет вселяет ужас в окружающих его владельца."
+ artifact_bone_amulet_dread_4_name: "Большой Амулет Ужаса"
+  
+ artifact_bone_amulet_greed_1_desc: "#size:15 Этот костяной амулет дает своему владельцу легкий инстинкт поиска спрятанного богатства, а также немного повышенную склонность к извлечению богатства из своих подданных."
+ artifact_bone_amulet_greed_1_modifier: "Малый амулет алчности"
+ artifact_bone_amulet_greed_1_modifier_desc: "Этот костяной амулет дает своему владельцу легкий инстинкт поиска скрытого богатства, а также немного повышенную склонность к извлечению богатства из своих подданных."
+ artifact_bone_amulet_greed_1_name: "Малый амулет алчности"
+  
+ artifact_bone_amulet_greed_2_desc: "#size:15 Этот костяной амулет дает своему владельцу инстинкт поиска скрытого богатства, а также повышенную склонность к извлечению богатства у своих подданных."
+ artifact_bone_amulet_greed_2_modifier: "Амулет Алчности"
+ artifact_bone_amulet_greed_2_name: "Амулет Алчности"
+  
+ artifact_bone_amulet_greed_3_desc: "#size:15 Этот костяной амулет дает своему владельцу острый инстинкт поиска скрытого богатства, а также значительно повышенную склонность к извлечению богатства из своих подданных."
+ artifact_bone_amulet_greed_3_modifier: "Большой амулет алчности"
+ artifact_bone_amulet_greed_3_name: "Большой амулет алчности"
+  
+ artifact_bone_amulet_greed_4_desc: "#size:15 Этот костяной амулет дает своему владельцу мощный инстинкт поиска скрытых богатств, а также значительно повышенную склонность к извлечению богатства у своих подданных."
+ artifact_bone_amulet_greed_4_modifier: "Большой Амулет Алчности"
+ artifact_bone_amulet_greed_4_modifier_desc: "Этот костяной амулет дает своему владельцу отличный инстинкт поиска скрытого богатства, а также значительно повышенную склонность к извлечению богатства из своих подданных."
+ artifact_bone_amulet_greed_4_name: "Большой Амулет Алчности"
+  
+ artifact_bone_amulet_health_1_desc: "#size:15 Этот костяной амулет повышает жизненную силу своего владельца, хотя выглядит он немного необычно.."
+ artifact_bone_amulet_health_1_modifier: "Малый амулет некротической жизненной силы"
+ artifact_bone_amulet_health_1_modifier_desc: "Этот костяной амулет повышает жизненную силу своего владельца, хотя выглядит он немного нестандартно."
+ artifact_bone_amulet_health_1_name: "Малый амулет некротической жизненной силы"
+  
+ artifact_bone_amulet_health_2_desc: "#size:15 Этот костяной амулет повышает жизненную силу своего владельца, хотя выглядит он несколько необычно.."
+ artifact_bone_amulet_health_2_modifier: "Амулет некротической жизненной силы"
+ artifact_bone_amulet_health_2_modifier_desc: "Этот костяной амулет повышает жизненную силу своего владельца, хотя выглядит он несколько необычно."
+ artifact_bone_amulet_health_2_name: "Амулет некротической жизненной силы"
+  
+ artifact_bone_amulet_health_3_desc: "#size:15 Этот костяной амулет значительно повышает жизненные силы своего владельца, но при этом делает его лицо похожим на труп.."
+ artifact_bone_amulet_health_3_modifier: "Амулет некротической жизненной силы"
+ artifact_bone_amulet_health_3_modifier_desc: "Этот костяной амулет значительно повышает жизненные силы своего владельца, но при этом вызывает трупоподобный вид."
+ artifact_bone_amulet_health_3_name: "Большой амулет некротической жизненной силы"
+  
+ artifact_bone_amulet_health_4_desc: "#size:15 Этот костяной амулет значительно повышает жизненные силы своего владельца, но при этом делает его лицо похожим на труп.."
+ artifact_bone_amulet_health_4_modifier: "Большой амулет некротической жизненной силы"
+ artifact_bone_amulet_health_4_modifier_desc: "Этот костяной амулет значительно повышает жизненные силы своего владельца, но при этом делает его лицо похожим на труп."
+ artifact_bone_amulet_health_4_name: "Большой амулет некротической жизненной силы"
+  
+ artifact_bone_amulet_magic_1_desc: "#size:15 Этот костяной амулет предоставляет своему пользователю небольшой источник силы Мертвой магии."
+ artifact_bone_amulet_magic_1_modifier: "Малый амулет ужаса"
+ artifact_bone_amulet_magic_1_modifier_desc: "Этот костяной амулет предоставляет своему пользователю небольшой источник силы Мертвой магии.\n\n#E Магия#!:@magic_icon!#positive_value; +0,25#!/месяц\n#E Магия#!:@dead_magic_icon!#positive_value; +0,05#! за уровень [dead_magic|E]/месяц."
+ artifact_bone_amulet_magic_1_name: "Малый костяной амулет"
+  
+ artifact_bone_amulet_magic_2_desc: "#size:15 Этот костяной амулет предоставляет своему владельцу источник силы Мертвой магии."
+ artifact_bone_amulet_magic_2_modifier: "Костяной амулет"
+ artifact_bone_amulet_magic_2_modifier_desc: "Этот костяной амулет предоставляет своему пользователю источник силы Мертвой магии.\n\n#E Магия#!:@magic_icon!#positive_value; +0,5#!/месяц\n#E Магия#!:@dead_magic_icon!#positive_value; +0,15#! за уровень [dead_magic|E]/месяц."
+ artifact_bone_amulet_magic_2_name: "Костяной амулет"
+  
+ artifact_bone_amulet_magic_3_desc: "#size:15 Этот костяной амулет предоставляет своему пользователю значительный источник силы Мертвой Магии."
+ artifact_bone_amulet_magic_3_modifier: "Большой костяной амулет"
+ artifact_bone_amulet_magic_3_modifier_desc: "Этот костяной амулет предоставляет своему пользователю значительный источник силы Мертвой магии.\n\n#E Магия#!:@magic_icon!#positive_value; +0,75#!/месяц\n#E Магия#!:@dead_magic_icon!#positive_value; +0,2#! за уровень [dead_magic|E]/месяц."
+ artifact_bone_amulet_magic_3_name: "Большой костяной амулет"
+  
+ artifact_bone_amulet_magic_4_desc: "#size:15 Этот костяной амулет предоставляет своему владельцу великолепный источник силы Мертвой магии."
+ artifact_bone_amulet_magic_4_modifier: "Большой костяной амулет"
+ artifact_bone_amulet_magic_4_modifier_desc: "Этот костяной амулет предоставляет своему пользователю великолепный источник силы Мертвой магии.\n\n#E Магия#!:@magic_icon!#positive_value; +1#!/месяц\n#E Магия#!:@dead_magic_icon!#positive_value; +0,25#! за уровень [dead_magic|E]/месяц."
+ artifact_bone_amulet_magic_4_name: "Большой костяной амулет"
+  
+ artifact_bone_amulet_watchfulness_1_desc: "#size:15 Этот костяной амулет слегка повышает осведомленность владельца, заставляя его с большей подозрительностью относиться к окружающему."
+ artifact_bone_amulet_watchfulness_1_modifier: "Малый амулет подозрений"
+ artifact_bone_amulet_watchfulness_1_modifier_desc: "Этот костяной амулет слегка повышает осведомленность владельца, заставляя его с большей подозрительностью относиться к своему окружению."
+ artifact_bone_amulet_watchfulness_1_name: "Малый амулет подозрений"
+  
+ artifact_bone_amulet_watchfulness_2_desc: "#size:15 Этот костяной амулет повышает осведомленность владельца, заставляя его с большей подозрительностью относиться к окружающему."
+ artifact_bone_amulet_watchfulness_2_modifier: "Амулет подозрений"
+ artifact_bone_amulet_watchfulness_2_modifier_desc: "Этот костяной амулет повышает осведомленность своего владельца, заставляя его становиться более подозрительным к своему окружению."
+ artifact_bone_amulet_watchfulness_2_name: "Амулет подозрений"
+  
+ artifact_bone_amulet_watchfulness_3_desc: "#size:15 Этот костяной амулет нашептывает о возможных заговорах близких ему людей, защищая их от замыслов, но разжигая необоснованные подозрения."
+ artifact_bone_amulet_watchfulness_3_modifier: "Большой амулет подозрений"
+ artifact_bone_amulet_watchfulness_3_modifier_desc: "Этот костяной амулет нашептывает о возможных заговорах близких ему людей, защищая их от замыслов, но разжигая необоснованные подозрения."
+ artifact_bone_amulet_watchfulness_3_name: "Большой амулет подозрений"
+  
+ artifact_bone_amulet_watchfulness_4_desc: "#size:15 Этот костяной амулет нашептывает о возможных заговорах близких ему людей, защищая их от замыслов, но разжигая необоснованные подозрения."
+ artifact_bone_amulet_watchfulness_4_modifier: "Большой амулет подозрений"
+ artifact_bone_amulet_watchfulness_4_modifier_desc: "Этот костяной амулет нашептывает о возможных заговорах близких ему людей, защищая их от замыслов, но разжигая необоснованные подозрения."
+ artifact_bone_amulet_watchfulness_4_name: "Большой амулет подозрений"
+  
+ artifact_bone_artifact_description: "Кость [SCOPE.Custom('ArtifactQuality')], гладкая на ощупь."
+ artifact_bone_artifact_name: "$artifact_name_prefix$ [newly_created_artifact.GetFeatureText( 'bone_type' )|U] Кость"
+  
+ artifact_bone_crown: "Костяная Корона"
+ artifact_bone_crown_1_desc: "#size:15 Эта простая костяная корона изготовлена ​​из костей, обладающих заметной магической силой, что вызывает легкое чувство беспокойства и уважения к ее владельцу."
+ artifact_bone_crown_1_modifier: "Простая костяная корона"
+ artifact_bone_crown_1_modifier_desc: "Эта простая костяная корона изготовлена ​​из костей, обладающих заметной магической силой, что вызывает легкое чувство беспокойства и уважения к ее владельцу.\n\n#E Магия#!:@magic_icon!#positive_value; +0.1#!/month"
+ artifact_bone_crown_1_name: "Простая костяная корона"
+  
+ artifact_bone_crown_2_desc: "#size:15 Эта костяная корона изготовлена ​​из костей, обладающих значительной магической силой, что вызывает чувство беспокойства и уважения к ее владельцу."
+ artifact_bone_crown_2_modifier: "Костяная Корона"
+ artifact_bone_crown_2_modifier_desc: "Эта костяная корона изготовлена ​​из костей, обладающих значительной магической силой, что вызывает чувство беспокойства и уважения к ее владельцу.\n\n#E Магия#!:@magic_icon!#positive_value; +0,2#!/месяц\n#E Магия#!:@dead_magic_icon!#positive_value; +0,05#! за штуку. уровень [dead_magic|E]/мес."
+ artifact_bone_crown_2_name: "Костяная Корона"
+  
+ artifact_bone_crown_3_desc: "#size:15 Эта внушительная корона изготовлена ​​из костей, обладающих огромной магической силой, вызывающих у ее владельца чувство беспокойства и страха."
+ artifact_bone_crown_3_modifier: "Внушительная костяная корона"
+ artifact_bone_crown_3_modifier_desc: "Эта внушительная корона изготовлена ​​из костей огромной магической силы, вызывающих у ее владельца чувство беспокойства и страха.\n\n#E Магия#!:@magic_icon!#positive_value; +0,3#!/месяц\n#E Магия#!:@dead_magic_icon!#positive_value; +0,05#! за штуку. уровень [dead_magic|E]/мес."
+ artifact_bone_crown_3_name: "Внушительная костяная корона"
+  
+ artifact_bone_crown_4_desc: "#size:15 Эта величественная и ужасная корона изготовлена ​​из костей, обладающих огромной магической силой, вызывающих у ее владельца чувство беспокойства и страха."
+ artifact_bone_crown_4_modifier: "Ужасная костяная корона"
+ artifact_bone_crown_4_modifier_desc: "Эта величественная и ужасная корона изготовлена ​​из костей, обладающих огромной магической силой, вызывающих у ее владельца чувство беспокойства и страха.\n\n#E Magic#!:@magic_icon!#positive_value; +0.4#!/месяц\n#E Magic#!:@dead_magic_icon!#positive_value; +0.1§ _4 за уровень [dead_magic|E] в месяц"
+ artifact_bone_crown_4_name: "Ужасная костяная корона"
+  
+ artifact_bone_crown_description: "Костяная корона мастерства [SCOPE.Custom('ArtifactQuality')], это [newly_created_artifact.GetFeatureText( 'bone_crown_type')]."
+ artifact_bone_crown_name: "$artifact_name_prefix$ [newly_created_artifact.GetFeatureText( 'bone_constitution' )] Костяная корона"
+  
+ artifact_bone_dagger: "Костяной кинжал"
+ artifact_bone_dagger_1_desc: "#size:15 Этот костяной кинжал поможет вам сосредоточиться при планировании причинения вреда людям."
+ artifact_bone_dagger_1_modifier: "Костяной кинжал"
+ artifact_bone_dagger_1_modifier_desc: "Этот костяной кинжал поможет вам сосредоточиться при планировании причинения вреда людям.\n\n#E Магия#!:@magic_icon!#positive_value; +0,05#!/month"
+ artifact_bone_dagger_1_name: "Костяной кинжал"
+  
+ artifact_bone_dagger_2_desc: "#size:15 Этот костяной кинжал усиливает вашу способность строить заговоры против врагов."
+ artifact_bone_dagger_2_modifier: "Яростный костяной кинжал"
+ artifact_bone_dagger_2_modifier_desc: "Этот костяной кинжал усиливает вашу способность строить заговоры против врагов.\n\n#E Магия#!:@magic_icon!#positive_value; +0,1#!/month"
+ artifact_bone_dagger_2_name: "Яростный костяной кинжал"
+  
+ artifact_bone_dagger_3_desc: "#size:15 Этот костяной кинжал усиливает вашу способность строить заговоры против врагов."
+ artifact_bone_dagger_3_modifier: "Большой яростный костяной кинжал"
+ artifact_bone_dagger_3_modifier_desc: "Этот костяной кинжал усиливает вашу способность строить заговоры против врагов.\n\n#E Магия#!:@magic_icon!#positive_value; +0,15#!/month"
+ artifact_bone_dagger_3_name: "Большой яростный костяной кинжал"
+  
+ artifact_bone_dagger_4_desc: "#size:15 Этот костяной кинжал значительно усиливает ваши способности строить заговоры против врагов, усиливая ваши убийственные намерения."
+ artifact_bone_dagger_4_modifier: "Убийственный костяной кинжал"
+ artifact_bone_dagger_4_modifier_desc: "Этот костяной кинжал значительно усиливает ваши способности строить заговоры против врагов, усиливая ваши убийственные намерения.\n\n#E Магия#!:@magic_icon!#positive_value; +0,2#!/month"
+ artifact_bone_dagger_4_name: "Убийственный костяной кинжал"
+  
+ artifact_bone_dagger_description: "Костяной кинжал [SCOPE.Custom('ArtifactQuality')], это [newly_created_artifact.GetFeatureText( 'bone_dagger_type')]."
+ artifact_bone_dagger_name: "$artifact_name_prefix$ [newly_created_artifact.GetFeatureText( 'bone_constitution' )] Костяной кинжал"
+  
+ artifact_bone_helmet_1_desc: "#size:15 Этот костяной шлем изготовлен из костей, обладающих заметной магической силой, магические обереги усиливают его долговечность."
+ artifact_bone_helmet_1_modifier: "Костяной шлем"
+ artifact_bone_helmet_1_modifier_desc: "Этот костяной шлем изготовлен из костей, обладающих заметной магической силой, магические обереги усиливают его долговечность.\n\n#E Магия#!:@magic_icon!#positive_value; +0.1#!/month"
+ artifact_bone_helmet_1_name: "Костяной шлем"
+  
+ artifact_bone_helmet_2_desc: "#size:15 Этот костяной шлем изготовлен из костей, обладающих значительной магической силой, и магических оберегов, повышающих его долговечность."
+ artifact_bone_helmet_2_modifier: "Мощный костяной шлем"
+ artifact_bone_helmet_2_modifier_desc: "Этот костяной шлем изготовлен из костей, обладающих значительной магической силой, магические обереги усиливают его долговечность.\n\n#E Магия#!:@magic_icon!#positive_value; +0,2#!/месяц\n#E Магия#!:@dead_magic_icon!#positive_value; +0,05#! за уровень [dead_magic|E]/ месяц"
+ artifact_bone_helmet_2_name: "Мощный костяной шлем"
+  
+ artifact_bone_helmet_3_desc: "#size:15 Этот костяной шлем изготовлен из костей огромной магической силы, мощных магических оберегов, значительно повышающих его долговечность."
+ artifact_bone_helmet_3_modifier: "Большой костяной шлем"
+ artifact_bone_helmet_3_modifier_desc: "Этот костяной шлем изготовлен из костей огромной магической силы, мощных магических оберегов, значительно повышающих его долговечность.\n\n#E Магия#!:@magic_icon!#positive_value; +0,3#!/месяц\n#E Магия#!:@dead_magic_icon!#positive_value; +0,05#! за уровень § _5 месяцев"
+ artifact_bone_helmet_3_name: "Большой костяной шлем"
+  
+ artifact_bone_helmet_4_desc: "#size:15 Этот костяной шлем изготовлен из костей, обладающих огромной магической силой, а мощные магические обереги делают его практически неразрушимым."
+ artifact_bone_helmet_4_modifier: "Ужасная костяная корона"
+ artifact_bone_helmet_4_modifier_desc: "Этот костяной шлем изготовлен из костей огромной магической силы, мощные магические обереги делают его практически неразрушимым.\n\n#E Магия#!:@magic_icon!#positive_value; +0,4#!/месяц\n#E Магия#!:@dead_magic_icon!#positive_value; +0,1#! за уровень [dead_magic|E] месяцев"
+ artifact_bone_helmet_4_name: "Большой костяной шлем"
+  
+ artifact_bone_mask_1_desc: "#size:15 Эта костяная маска сделана из костей, обладающих заметной магической силой, и была зачарована, чтобы немного повысить способность ее владельца чувствовать и понимать Мертвую Магию."
+ artifact_bone_mask_1_modifier: "Малая костяная маска"
+ artifact_bone_mask_1_modifier_desc: "Эта костяная маска сделана из костей, обладающих заметной магической силой, и была зачарована, чтобы немного увеличить способность ее владельца чувствовать и понимать Мертвую Магию.\n\n#E Магия#!:@magic_icon!#positive_value; +0,2#!/месяц\n#E Магия§ _3 +0,05#! за уровень [dead_magic|E]/мес."
+ artifact_bone_mask_1_name: "Малая костяная маска"
+  
+ artifact_bone_mask_2_desc: "#size:15 Эта костяная маска сделана из костей, обладающих заметной магической силой, и зачарована, чтобы повысить способность ее владельца чувствовать и понимать Мертвую Магию."
+ artifact_bone_mask_2_modifier: "Костяная маска"
+ artifact_bone_mask_2_modifier_desc: "Эта костяная маска сделана из костей, обладающих заметной магической силой, и была зачарована, чтобы повысить способность ее владельца чувствовать и понимать Мертвую Магию.\n\n#E Магия#!:@magic_icon!#positive_value; +0,41#!/месяц\n#E Магия#!:@dead_magic_icon!#positive_value; +0,1#! за уровень [dead_magic|E]/месяц"
+ artifact_bone_mask_2_name: "Костяная маска"
+  
+ artifact_bone_mask_3_desc: "#size:15 Эта костяная маска сделана из костей, обладающих огромной магической силой, и была зачарована, чтобы значительно повысить способность ее владельца чувствовать и понимать Мертвую Магию."
+ artifact_bone_mask_3_modifier: "Мощная костная маска"
+ artifact_bone_mask_3_modifier_desc: "Эта костяная маска сделана из костей, обладающих огромной магической силой, и была зачарована, чтобы значительно повысить способность ее владельца чувствовать и понимать Мертвую Магию.\n\n#E Магия#!:@magic_icon!#positive_value; +0,6#!/месяц\n#E Магия§ _3 +0,15#! за уровень [dead_magic|E]/мес."
+ artifact_bone_mask_3_name: "Мощная костная маска"
+  
+ artifact_bone_mask_4_desc: "#size:15 Эта простая костяная маска сделана из костей, обладающих огромной магической силой, и была зачарована, чтобы значительно повысить способность ее владельца чувствовать и понимать Мертвую Магию."
+ artifact_bone_mask_4_modifier: "Мощная костяная маска"
+ artifact_bone_mask_4_modifier_desc: "Эта простая костяная маска сделана из костей, обладающих огромной магической силой, и была зачарована, чтобы значительно повысить способность ее владельца чувствовать и понимать Мертвую магию.\n\n#E Магия#!:@magic_icon!#positive_value; +0,8#!/месяц\n#E Магия #!:@dead_magic_icon!#positive_value; +0,2#! за уровень [dead_magic|E] в месяц"
+ artifact_bone_mask_4_name: "Мощная костяная маска"
+  
+ artifact_bone_regalia: "Костяные регалии"
+ artifact_bone_regalia_description: "Костяные регалии мастерства [SCOPE.Custom('ArtifactQuality')], это [newly_created_artifact.GetFeatureText( 'bone_regalia_type')]."
+ artifact_bone_regalia_name: "$artifact_name_prefix$ [newly_created_artifact.GetFeatureText( 'bone_constitution' )] Костяные регалии"
+  
+ artifact_bone_scepter_1_desc: "#size:15 Этот простой костяной скипетр изготовлен из костей, обладающих заметной магической силой, что вызывает легкое чувство беспокойства и уважения к его владельцу."
+ artifact_bone_scepter_1_modifier: "Простой костяной скипетр"
+ artifact_bone_scepter_1_modifier_desc: "Этот простой костяной скипетр изготовлен из костей, обладающих заметной магической силой, что вызывает легкое чувство беспокойства и уважения к его владельцу.\n\n#E Магия#!:@magic_icon!#positive_value; +0.1#!/month"
+ artifact_bone_scepter_1_name: "Простой костяной скипетр"
+  
+ artifact_bone_scepter_2_desc: "#size:15 Этот костяной скипетр изготовлен из костей, обладающих значительной магической силой, что вызывает чувство беспокойства и уважения к его владельцу."
+ artifact_bone_scepter_2_modifier: "Костяной скипетр"
+ artifact_bone_scepter_2_modifier_desc: "Этот костяной скипетр изготовлен из костей, обладающих значительной магической силой, что вызывает чувство беспокойства и уважения к его владельцу.\n\n#E Магия#!:@magic_icon!#positive_value; +0,2#!/месяц\n#E Магия#!:@dead_magic_icon!#positive_value; +0,05#! за каждый уровень [dead_magic|E]/мес."
+ artifact_bone_scepter_2_name: "Костяной скипетр"
+  
+ artifact_bone_scepter_3_desc: "#size:15 Этот богато украшенный костяной скипетр изготовлен из костей, обладающих огромной магической силой, вызывающих чувство страха и уважения к своему владельцу."
+ artifact_bone_scepter_3_modifier: "Изысканный костяной скипетр"
+ artifact_bone_scepter_3_modifier_desc: "Этот богато украшенный костяной скипетр изготовлен из костей, обладающих огромной магической силой, вызывающих чувство страха и уважения к своему владельцу.\n\n#E Magic#!:@magic_icon!#positive_value; +0,3#!/месяц\n#E Магия#!:@dead_magic_icon!#positive_value; +0,05#! за уровень [dead_magic|E]/мес."
+ artifact_bone_scepter_3_name: "Изысканный костяной скипетр"
+  
+ artifact_bone_scepter_4_desc: "#size:15 Этот изящно изготовленный костяной скипетр изготовлен из костей огромной магической силы, вызывающих чувство страха и уважения к своему владельцу."
+ artifact_bone_scepter_4_modifier: "Большой костяной скипетр"
+ artifact_bone_scepter_4_modifier_desc: "Этот изящно изготовленный костяной скипетр изготовлен из костей огромной магической силы, вызывающих чувство страха и уважения к своему владельцу.\n\n#E Magic#!:@magic_icon!#positive_value; +0,4#!/месяц\n#E Магия#!:@dead_magic_icon!#positive_value; +0,1§ _4 за уровень [dead_magic|E] в месяц"
+ artifact_bone_scepter_4_name: "Большой костяной скипетр"
+  
+ artifact_bone_spear: "Костяное копье"
+ artifact_bone_spear_1_desc: "#size:15 Это костяное копье изготовлено из костей, обладающих заметной магической силой, увеличивающей его силу."
+ artifact_bone_spear_1_modifier: "Костяное копье"
+ artifact_bone_spear_1_modifier_desc: "Это костяное копье изготовлено из костей, обладающих заметной магической силой, увеличивающей его силу.\n\n#E Магия#!:@magic_icon!#positive_value; +0,1#!/month"
+ artifact_bone_spear_1_name: "Костяное копье"
+  
+ artifact_bone_spear_2_desc: "#size:15 Это костяное копье изготовлено из костей, обладающих значительной магической силой, увеличивающей его силу."
+ artifact_bone_spear_2_modifier: "Мощное костяное копье"
+ artifact_bone_spear_2_modifier_desc: "Это костяное копье изготовлено из костей, обладающих значительной магической силой, увеличивающей его силу.\n\n#E Магия#!:@magic_icon!#positive_value; +0,2#!/месяц\n#E Магия#!:@dead_magic_icon!#positive_value; +0,05#! за уровень [dead_magic|E]/месяц."
+ artifact_bone_spear_2_name: "Мощное костяное копье"
+  
+ artifact_bone_spear_3_desc: "#size:15 Это костяное копье изготовлено из костей, обладающих огромной магической силой, значительно увеличивающей его силу."
+ artifact_bone_spear_3_modifier: "Большое костяное копье"
+ artifact_bone_spear_3_modifier_desc: "Это костяное копье изготовлено из костей, обладающих огромной магической силой, что значительно увеличивает его силу.\n\n#E Магия#!:@magic_icon!#positive_value; +0,3#!/месяц\n#E Магия#!:@dead_magic_icon!#positive_value; +0,05#! за уровень [dead_magic|E]/месяц."
+ artifact_bone_spear_3_name: "Большое костяное копье"
+  
+ artifact_bone_spear_4_desc: "#size:15 Это костяное копье изготовлено из костей, обладающих огромной магической силой, значительно увеличивающей его силу."
+ artifact_bone_spear_4_modifier: "Большое костяное копье"
+ artifact_bone_spear_4_modifier_desc: "Это костяное копье изготовлено из костей, обладающих огромной магической силой, значительно увеличивающей его силу.\n\n#E Магия#!:@magic_icon!#positive_value; +0,4#!/месяц\n#E Магия#!:@dead_magic_icon!#positive_value; +0,1#! за уровень [dead_magic|E]/месяц."
+ artifact_bone_spear_4_name: "Большое костяное копье"
+  
+ artifact_bone_spear_description: "Костяное копье [SCOPE.Custom('ArtifactQuality')] мастерства, [newly_created_artifact.GetFeatureText( 'bone_spear_type')]."
+ artifact_bone_spear_name: "$artifact_name_prefix$ [newly_created_artifact.GetFeatureText( 'bone_constitution' )] Костяное копье"
+  
+ artifact_bone_staff: "Костяной посох"
+ artifact_bone_staff_1_desc: "#size:15 Эту костяную палочку можно использовать в качестве фокуса, чтобы немного улучшить Мертвую магию ее владельца."
+ artifact_bone_staff_1_modifier: "Костяная палочка"
+ artifact_bone_staff_1_modifier_desc: "Эту костяную палочку можно использовать в качестве фокуса, чтобы слегка улучшить Мертвую Магию ее владельца.\n\n#E Магия#!:@magic_icon!#positive_value; +0,2#!/месяц\n#E Магия#!:@dead_magic_icon!#positive_value; +0,05#! за уровень [dead_magic|E]/месяц."
+ artifact_bone_staff_1_name: "Костяная палочка"
+  
+ artifact_bone_staff_2_desc: "#size:15 Этот костяной посох можно использовать в качестве фокуса для улучшения Мертвой магии его владельца."
+ artifact_bone_staff_2_modifier: "Костяной посох"
+ artifact_bone_staff_2_modifier_desc: "Костяной посох #This можно использовать в качестве фокуса для улучшения Мертвой магии его владельца.\n\nE Магия#!:@magic_icon!#positive_value; +0,4#!/month\n#E Магия#!:@dead_magic_icon!#positive_value; +0,1#! за уровень [dead_magic|E] в месяц."
+ artifact_bone_staff_2_name: "Костяной посох"
+  
+ artifact_bone_staff_3_desc: "#size:15 Этот костяной посох можно использовать в качестве фокуса для значительного улучшения Мертвой магии его владельца."
+ artifact_bone_staff_3_modifier: "Большой костяной посох"
+ artifact_bone_staff_3_modifier_desc: "Этот костяной посох можно использовать в качестве фокуса для значительного улучшения Мертвой магии его владельца.\n\n#E Магия#!:@magic_icon!#positive_value; +0,6#!/месяц\n#E Магия#!:@dead_magic_icon!#positive_value; +0,15#! за уровень [dead_magic|E]/месяц."
+ artifact_bone_staff_3_name: "Большой костяной посох"
+  
+ artifact_bone_staff_4_desc: "#size:15 Этот мощный костяной посох можно использовать в качестве фокуса для значительного улучшения Мертвой магии его владельца."
+ artifact_bone_staff_4_modifier: "Большой костяной посох"
+ artifact_bone_staff_4_modifier_desc: "Этот мощный костяной посох можно использовать в качестве фокуса для значительного улучшения Мертвой магии его владельца.\n\n#E Магия#!:@magic_icon!#positive_value; +0,8#!/месяц\n#E Магия#!:@dead_magic_icon!#positive_value; +0,2#! за уровень [dead_magic|E]/ месяц"
+ artifact_bone_staff_4_name: "Большой костяной посох"
+  
+ artifact_bone_staff_description: "Костяной посох [SCOPE.Custom('ArtifactQuality')] мастерства, это [newly_created_artifact.GetFeatureText( 'bone_staff_type' )]. Персонал — [newly_created_artifact.GetFeatureText( 'staff_decoration' )] и [newly_created_artifact.Custom('ArtifactBoneStaffFocusCharacteristic')].\n\n$artifact_bone_staff_explanation$"
+ artifact_bone_staff_explanation: "Известно, что некоторые [dead_magi|E] способны формировать мощные посохи из скелетных останков живых существ. Длина этих посохов может варьироваться от длины руки до мощных скипетров, которые выше роста их владельца."
+ artifact_bone_staff_name: "$artifact_name_prefix$ [newly_created_artifact.GetFeatureText( 'staff_characteristic' )|U] [newly_created_artifact.GetFeatureText( 'bone_constitution' )] Костяной посох"
+  
+ artifact_brokenavianautomata_desc: "#size:15 По-прежнему пользующиеся большим спросом, Птичьи Автоматы якобы были обычным явлением в домах сказочно богатых людей, по крайней мере, до тех пор, пока Аверсарианцы не завоевали Картараддов и не подавили искусство создания автоматов на достаточно долгое время, чтобы полностью обречь его на гибель. Записи показывают, что некоторые из этих потрясающе сложных машин во время строительства даже были зачарованы, чтобы имитировать поведение настоящих птиц, а лучшие из них могли даже реагировать на простые инструкции.\n\nЭтот конкретный образец утраченного искусства может только петь и бесполезно махать руками. оставшееся крыло, но, тем не менее, это впечатляющий экспонат."
+ artifact_brokenavianautomata_modifier: "Сломанные птичьи автоматы"
+ artifact_brokenavianautomata_modifier_desc: "Потрясающие, хотя и едва функциональные птичьи автоматы."
+ artifact_brokenavianautomata_name: "Сломанные птичьи автоматы"
+  
+ artifact_cloak_amsari_description: "Элегантный реликварий, содержащий святую реликвию: простой шерстяной плащ Пророка."
+ artifact_cloak_amsari_name: "Плащ Пророка"
+  
+ artifact_consopite_effigy_desc: "Жуткое на вид чучело неизвестного производителя, которое всегда кажется холодным на ощупь. Два необычных янтарных камня [bloodcrystal|E] украшают его птичью голову и слабо светятся в темноте. Он достаточно мал, чтобы его можно было поставить на прикроватную тумбочку, а в остальном кажется довольно обыденным и инертным, возможно, являясь не более чем странной диковинкой, созданной каким-то эксцентричным ремесленником, имя которого затерялось в истории.\n\nПо какой-то необъяснимой причине он кажется особенно восприимчив к тому, что его теряют на месте, часто утром оказываясь в другом месте, чем то, где он был оставлен вечером."
+ artifact_consopite_effigy_name: "Сосоставное чучело"
+  
+ artifact_achromatic_mirror_desc: "Это высокое стоячее зеркало неопределенной модели заключено в бледную металлическую раму и, кажется, отражает больше света, чем падает на него. Его безупречная поверхность улавливает даже самые тонкие детали наблюдателя, придавая их отраженному образу чарующую, почти неземную природу. Изящество этого зеркального призрака таково, что кажется, что оно живет собственной жизнью – как безупречная, превосходная версия оригинала."
+ artifact_achromatic_mirror_name: "Ахроматическое зеркало"
+  
+ artifact_crimsonseal_description: "Изготовленная из неизвестного, абсолютно черного материала со странными гипнотическими узорами, вырезанными на нем светящимся малиновым цветом, эта королевская печать прошла через руки нескольких крупных саррадонских империй. Впервые появившись в Иркалитской империи в 12 веке до нашей эры, впоследствии он принадлежал Гаштани, Асреду, Аккарику и, наконец, Саррадону. История артефакта заканчивается в 1233 году IS, когда последний регент Саррадона бросил его в море, провозгласив, что «ни одно царство людей никогда больше не будет достойно вас!»"
+ artifact_crimsonseal_name: "Багровая печать"
+  
+ artifact_crown_wardenism_description: "Сюжет одного из наиболее известных эпизодов возвышения [first_warden|E]. Эта корона принадлежала печально известному тирану [arachas|E] до его кончины в результате самого первого восстания [wardenite|E] в Аль-Газире. Согласно легенде, после того, как его извлекли из пепловых останков крепости покойного короля, его немедленно предложили мессии [wardenite|E], который отверг это предложение и вместо этого приказал продать его в целях благотворительности.\n\nОт него почти ничего не осталось. прежняя слава головного убора превратилась в ржавый, сломанный скелет. Если присмотреться, то все еще можно различить искаженные и поврежденные изображения иконографии [ritualist|E], искаженные пожаром, унесшим жизнь самого Арахаса."
+ artifact_crown_wardenism_name: "Корона Арахаса"
+  
+ artifact_crownofprawladsyl_desc: "#size:15 Древняя Корона Правладсила — единственный сохранившийся предмет королевского облачения, оставшийся от любого из древних королей Оджейницы, или, по крайней мере, единственный сохранившийся предмет, который не находился в руках [liches|E] и не был давно украден другими. Сама корона простая, помятая и потертая, но тяжесть такой трагедии придает ей торжественную и мощную ауру."
+ artifact_crownofprawladsyl_modifier: "Корона Правладсила"
+ artifact_crownofprawladsyl_name: "Корона Правладсила"
+  
+ artifact_dagun_mask_desc: "Эту маску, выкованную из черного метеоритного железа, носил [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFirstNameNicknamed], печально известный олтенский военачальник, живший в конце XII века. Вместе со своим племянником Дагун завоевал большую часть восточной Аиронойской степи и создал одну из величайших олтенских орд за столетия."
+ artifact_dagun_mask_fall_desc: "Эту маску, выкованную из черного метеоритного железа, носил [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFirstNameNicknamed], печально известный олтенский военачальник, живший в конце XII века. Вместе со своим племянником Дагун завоевал большую часть восточной Аиронойской степи и создал одну из величайших олтенских орд за столетия.\n\nПока [jajak_otroka|E] вел свою могучую орду на передовой линии битвы, Дагун командовал «Пепельными наездниками», элитной группой всадников, которые глубокой ночью атаковали вражеские лагеря. Многие из олтени стали относиться к появлению черной маски как к дурному предзнаменованию, и немногие горевали, когда внушающий страх рейдер наконец встретил свой конец в бою."
+ artifact_dagun_mask_name: "Маска Дагуна «Черная маска»"
+  
+ artifact_deadlykartharaddimusicautomata_desc: "#size:15 Автоматы в форме человека, оснащенные, как можно предположить, высокой [kartharaddi|E] модой эпохи падения Империума. Эти автоматы предназначены для адекватной игры на флейте Картарадди. По мере того, как его исполнение заканчивается, дьявольское изобретение опускает инструмент и запускает дротик из механизма, похожего на арбалет, ловко спрятанного за одним из его «глаз», попадая во что-либо или в кого-либо, кому не повезло оказаться прямо перед ним. Умный, хотя и трудный для осуществления метод убийства."
+ artifact_deadlykartharaddimusicautomata_modifier: "Смертоносный Заводной Музыкант Картарадди"
+ artifact_deadlykartharaddimusicautomata_modifier_desc: "Дьявольский способ убить кого-то."
+ artifact_deadlykartharaddimusicautomata_name: "Смертоносный Заводной Музыкант Картарадди"
+  
+ artifact_kartharaddidancingautomata_desc: "#size:15 Автомат в форме человека, раскрашенный в яркие цвета и одетый в причудливую одежду. Эта конструкция стоит на уровне талии. Если его правильно замотать и смазать, он придет в движение, исполняя серию безумных танцев и играя отвратительную мелодию из свистка, который, по-видимому, встроен в его заднюю часть. По мере того, как его исполнение заканчивается, оно начинает звучать так, как будто оно смеется над вами. Неясно, считали ли Картарадды это чудо инженерной мысли хорошим вкусом или нет.\n\nПятна плохо нанесенной краски указывают на то, что текущая цветовая гамма и одежда автоматов, вероятно, были грубо применены более поздними аверсарианцами. Более пристальный взгляд на то немногое, что осталось от его первоначального дизайна, позволяет предположить, что эта озорная маленькая машина когда-то задумывалась как нелестное изображение Чистейшего."
+ artifact_kartharaddidancingautomata_modifier: "Картарадди Заводная танцовщица"
+ artifact_kartharaddidancingautomata_modifier_desc: "Маленький автомат для тех, у кого сомнительный вкус."
+ artifact_kartharaddidancingautomata_name: "Картарадди Заводная танцовщица"
+  
+ artifact_kartharaddimanautomata_desc: "#size:15 Шедевр утраченного часового искусства [kartharaddi|E], этот человекоподобный автомат на две головы выше среднего человека, с потрясающими подвижными суставами, с тонкими стальными пружинами вместо сухожилий и пугающе реалистичными стеклянными глазами, которые смотрят невидящим взглядом. До своего падения Картарадды приложили все усилия, чтобы сохранить в секрете любую информацию об этих шедеврах, и даже сегодня их предполагаемое предназначение остается полной загадкой, горячо обсуждаемой в аверсарианских научных кругах. Некоторые утверждают, что Картарадды создали армию бесстрашных железных солдат, другие полагают, что они были предназначены для размещения человеческой души в безумной попытке обрести бессмертие. Какими бы ни были истинные намерения этого проекта, смерть его создателей в Ночь Кровавой Луны оставила его незавершенным и неодушевленным. Несмотря на эту путаницу, они по-прежнему остаются объектами глубокого восхищения и изучения. Известно, что шесть из них сохранились относительно нетронутыми до наших дней, а Майикпрололлан может похвастаться двумя из этих бесценных артефактов."
+ artifact_kartharaddimanautomata_modifier: "Картарадди Человек"
+ artifact_kartharaddimanautomata_modifier_desc: "Загадочный пример утраченного искусства."
+ artifact_kartharaddimanautomata_name: "Человек Картарадди"
+  
+ artifact_kartharaddimusicautomata_desc: "#size:15 Автоматы в форме человека, оснащенные, как можно предположить, высокой [kartharaddi|E] модой эпохи падения Империума. Эти автоматы предназначены для адекватной игры на уникальном струнном инструменте Картарадди, известном как Жарра. Еще более впечатляюще то, что ряд трубок и мехов в его туловище позволяет ему также воспроизводить грубое факсимиле пения. Веселая мелодия, которую он производит, — это все, что осталось от музыкальной культуры мертвой цивилизации."
+ artifact_kartharaddimusicautomata_modifier: "Картарадди Заводной музыкант"
+ artifact_kartharaddimusicautomata_modifier_desc: "Прекрасный пример утраченного искусства."
+ artifact_kartharaddimusicautomata_name: "Картарадди Заводной музыкант"
+  
+  
+  
+ artifact_glass_sword_desc: "Шедевр стекольного дела Зелкавани, Стеклянный клинок — это оружие, которое противоречит культуре его создателей-пацифистов, и мощный символ влияния [aversarian|E], вдохновляющего их на воинственность."
+ artifact_glass_sword_name: "Стеклянный клинок"
+ artifact_glass_sword_xipheos_desc: "Шедевр стекольного дела Зелкавани, Стеклянный клинок — это оружие, которое противоречит культуре его создателей-пацифистов и является мощным символом влияния [aversarian|E], вдохновляющего их на воинственность.\n\n Меч был выкован и знаменито владел им [newly_created_artifact.MakeScope.Var('prominent_creator').Char.GetFirstNameNicknamed], но был взят из трупа своего создателя после его смерти во время [blue_robe_revolt|E]. Легон [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFirstName] успешно владел Стеклянным клинком до конца войны, прежде чем был убит в финальной битве [jajak_otroka|E].\n\nВыжившие легионеры XXXIX Легио «Протемаксос» смогли вернуть клинок, и он стал с тех пор является семейной реликвией Дома [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetHouse.GetName]."
+  
+ artifact_greednecklace_desc: "Это железное ожерелье предположительно носил аверсарийский военачальник [Concept('demetros_detheniax','Demetros Iron-Spike')|E] во время своего правления в Калатипсоми, и часто утверждается, что оно было самым большим инструментом, используемым для обеспечения господства на севере.\n\nПростая черная железная цепь и кулон, спереди На одном из украшений изображено искривленное лицо, застрявшее на середине крика, похожее на естественное образование, затвердевшее из плавящегося железа. Глядя на него, невозможно не представить глубину его гримасничающего рта и огромные затраты на его прокормление...\n\nНекоторые говорят, что ожерелье просто заставляет тех, кто слушает его владельца, подчиняться его командам, в то время как другие утверждают, что за эту услугу взимают ужасную цену..."
+ artifact_greednecklace_modifier: "Подвеска жадности"
+ artifact_greednecklace_modifier_desc: "Железное ожерелье с кричащим лицом"
+ artifact_greednecklace_name: "Подвеска жадности"
+  
+ artifact_ice_sculpture: "Ледяная Скульптура"
+ artifact_jajak_mask_desc: "Изысканная маска знаменитого олтенского военачальника Яджака Отрока. Хотя эта маска не сделана из чистого золота, как легендарная маска Отачеда, она покрыта драгоценным металлом и выкована из прочной стали Марндеотичени."
+ artifact_jajak_mask_lost_desc: "Изысканная маска знаменитого олтенского военачальника Яджака Отрока. Хотя эта маска не сделана из чистого золота, как легендарная маска Отачеда, она покрыта драгоценным металлом и выкована из прочной марндеотиченской стали.\n\nСчиталось, что маска утеряна после того, как Яджак Отрока бросил ее в каньоны. Айроноя из-за того, что ему не удалось убить Агоса Слина, и многие Олтени считают, что только воин его калибра мог снова раскопать маску."
+ artifact_jajak_mask_name: "Маска Яджака Отрока"
+  
+ artifact_magical_infusion_sweetly_1: "Most who come into contact with this item notice a faintly sweet aroma." #NT!
+ artifact_magical_infusion_badhear_1: "Большинство из тех, кто вступает в контакт с этим предметом, испытывают проблемы со слухом при тихих звуках."
+ artifact_magical_infusion_badhear_2: "Всем, кто соприкасается с этим предметом, кажется, трудно слышать тихие разговоры."
+ artifact_magical_infusion_badhear_3: "Кажется, что всем, кто вступает в контакт с этим предметом, трудно слышать громкие звуки."
+ artifact_magical_infusion_bitter_1: "Все, кто вступает в контакт с этим предметом, впоследствии замечают горький привкус в своей слюне."
+ artifact_magical_infusion_bitter_2: "Все, кто соприкасался с этим предметом, замечают горький привкус на языке."
+ artifact_magical_infusion_bitter_3: "Все, кто соприкасается с этим предметом, отмечают горький вкус, вызывающий тошноту."
+ artifact_magical_infusion_crosseye_1: "У большинства из тех, кто соприкасается с этим предметом, глаза косятся."
+ artifact_magical_infusion_crosseye_2: "У всех, кто соприкасается с этим предметом, возникают проблемы с фокусировкой зрения."
+ artifact_magical_infusion_crosseye_3: "У всех, кто вступает в контакт с этим предметом, возникают проблемы с восприятием цвета окружающего мира."
+ artifact_magical_infusion_decay: "Все, кто соприкасается с этим предметом, замечают слабый запах гниения."
+ artifact_magical_infusion_drums_1: "Большинство из тех, кто соприкасается с этим предметом, могут услышать барабан в груди."
+ artifact_magical_infusion_drums_2: "Все, кто соприкасается с этим предметом, могут услышать кровоток."
+ artifact_magical_infusion_fecal: "Все, кто соприкасается с этим предметом, замечают невыносимый запах фекалий."
+ artifact_magical_infusion_flickers_1: "Большинство из тех, кто вступает в контакт с этим предметом, замечают мерцание в уголках глаз."
+ artifact_magical_infusion_flickers_2: "Все, кто соприкасается с этим предметом, замечают мерцание краем глаза."
+ artifact_magical_infusion_flickers_3: "Все, кто соприкасается с этим предметом, замечают мерцание, пересекающее их поле зрения."
+ artifact_magical_infusion_foul_1: "Большинство из тех, кто вступает в контакт с этим предметом, замечают слабый неприятный запах."
+ artifact_magical_infusion_foul_2: "Все, кто соприкасается с этим предметом, чувствуют неприятный запах в воздухе."
+ artifact_magical_infusion_foul_3: "Все, кто соприкасается с этим предметом, чувствуют неприятный запах, вызывающий тошноту."
+ artifact_magical_infusion_goodhear_1: "Большинство из тех, кто вступает в контакт с этим предметом, похоже, способны издалека слышать тихий шепот."
+ artifact_magical_infusion_goodhear_2: "Кажется, что все, кто соприкасается с этим предметом, способны уловить шепот сквозь стены."
+ artifact_magical_infusion_goodhear_3: "Все, кто соприкасается с этим предметом, словно слышат все вокруг."
+ artifact_magical_infusion_hawkeye_1: "Большинство из тех, кто вступает в контакт с этим предметом, замечают больше в своем окружении."
+ artifact_magical_infusion_hawkeye_2: "Все, кто соприкасается с этим предметом, легче замечают мельчайшие детали."
+ artifact_magical_infusion_hawkeye_3: "Все, кто соприкасается с этим предметом, могут ясно видеть мелких насекомых и удаленные объекты."
+ artifact_magical_infusion_hue_1: "Большинство из тех, кто вступает в контакт с этим предметом, замечают зеленый оттенок в своем окружении."
+ artifact_magical_infusion_hue_2: "Все, кто соприкасается с этим предметом, кажется, замечают синий оттенок в своем окружении."
+ artifact_magical_infusion_hue_3: "Все, кто соприкасается с этим предметом, кажется, замечают красный оттенок в своем окружении."
+ artifact_magical_infusion_mildew: "Большинство из тех, кто соприкасается с этим предметом, замечают слабый запах плесени."
+ artifact_magical_infusion_mud: "Все, кто соприкасался с этим предметом, замечают слабый запах свежей грязи."
+ artifact_magical_infusion_numb_1: "У всех, кто соприкасается с этим предметом, теряют чувствительность кончиков пальцев."
+ artifact_magical_infusion_numb_2: "У всех, кто соприкасается с этим предметом, теряют чувствительность кончиков пальцев ног."
+ artifact_magical_infusion_nutty_1: "Все, кто вступает в контакт с этим предметом, замечают ореховый привкус в своей слюне."
+ artifact_magical_infusion_nutty_2: "Все, кто соприкасается с этим предметом, замечают во рту висящий ореховый привкус."
+ artifact_magical_infusion_nutty_3: "Все, кто соприкасается с этим предметом, ощущают на зубах ореховый привкус."
+ artifact_magical_infusion_rain: "Большинство из тех, кто соприкасается с этим предметом, замечают слабый запах свежего дождя."
+ artifact_magical_infusion_sand: "Все, кто соприкасался с этим предметом, замечают слабый запах сухого песка."
+ artifact_magical_infusion_shadows_1: "Большинство из тех, кто соприкасается с этим предметом, видят тени."
+ artifact_magical_infusion_smoke_1: "Большинство из тех, кто соприкасается с этим предметом, отмечают легкий дымный аромат."
+ artifact_magical_infusion_smoke_2: "Все, кто соприкасается с этим предметом, чувствуют в воздухе дымный аромат."
+ artifact_magical_infusion_smoke_3: "Все, кто соприкасается с этим предметом, чувствуют запах свежего огня."
+ artifact_magical_infusion_smokey_1: "Все, кто соприкасается с этим предметом, кажется, замечают дымный привкус, который висит в ноздрях."
+ artifact_magical_infusion_smokey_2: "Все, кто соприкасается с этим предметом, замечают дымный привкус, покрывающий заднюю часть горла."
+ artifact_magical_infusion_smokey_3: "Все, кто соприкасается с этим предметом, ощущают дымный аромат, помнящий его огонь."
+ artifact_magical_infusion_sour_1: "Все, кто соприкасается с этим предметом, замечают кислый привкус в своей слюне."
+ artifact_magical_infusion_sour_2: "Все, кто соприкасается с этим предметом, отмечают кислый привкус, от которого потеют щеки."
+ artifact_magical_infusion_sour_3: "Все, кто вступает в контакт с этим предметом, ощущают кислый привкус, искривляющий рот."
+ artifact_magical_infusion_sweet_1: "Все, кто соприкасается с этим предметом, кажется, замечают сладкий привкус в своей слюне."
+ artifact_magical_infusion_sweet_2: "Все, кто соприкасается с этим предметом, отмечают сладкий привкус, покрывающий зубы."
+ artifact_magical_infusion_sweet_3: "Все, кто соприкасается с этим предметом, ощущают сладкий вкус, который через долгое время вызывает отвращение."
+ artifact_magical_infusion_sweetly_2: "Все, кто соприкасается с этим предметом, чувствуют в воздухе сладкий аромат."
+ artifact_magical_infusion_sweetly_3: "Все, кто соприкасается с этим предметом, ощущают сладкий аромат, подавляющий чувства."
+ artifact_magical_infusion_tinge_1: "Все, кто соприкасается с этим предметом, ощущают покалывание в руке."
+ artifact_magical_infusion_tinge_2: "Все, кто соприкасается с этим предметом, чувствуют щекотку в локте."
+ artifact_magical_infusion_tinge_3: "Все, кто соприкасается с этим предметом, чувствуют излом в руке."
+ artifact_magical_infusion_veins_1: "Большинство из тех, кто вступает в контакт с этим предметом, видят вены у других."
+ artifact_magical_infusion_veins_2: "Все, кто соприкасается с этим предметом, кажется, видят кости у других."
+ artifact_magical_infusion_veins_3: "Кажется, что все, кто соприкасается с этим предметом, видят мясо своих внутренностей."
+ artifact_magical_infusion_whispers_1: "Большинство из тех, кто вступает в контакт с этим предметом, кажется, слышат шепот там, где его нет."
+ artifact_magical_infusion_whispers_2: "Кажется, что все, кто соприкасается с этим предметом, слышат далекие завывания."
+ artifact_magical_infusion_whispers_3: "Кажется, что все, кто соприкасается с этим предметом, слышат разговоры с ним."
+ artifact_magically_infusion_description: "[newly_created_artifact.GetDesc]\n\n[SCOPE.Custom('ArtifactMagicalInfusion')]"
+ artifact_magically_infusion_name: "Магическое наполнение [newly_created_artifact.GetNameNoTooltip]"
+  
+  ## Unique Artifacts 
+ artifact_spear_thaxaon_desc: "Впечатляющее копье из черного дерева с большой инкрустацией [bloodcrystal|E], это оружие было семейной реликвией [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetHouse.GetName], крупного западно-аверсарианского благородного дома."
+ artifact_spear_thaxaon_jaxor_desc: "Впечатляющее копье из черного дерева с большой инкрустацией [bloodcrystal|E], это оружие было семейной реликвией [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetHouse.GetName], крупного западно-аверсарианского благородного дома. Среди наиболее выдающихся его обладателей — самозванец-Аавтократир [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFirstNameNicknamed], который возглавил широкомасштабное [thaxaonic_blood_pact_revolt|E] против Эшраеса сразу после [frodbrokna|E]."
+ artifact_spear_thaxaon_name: "Таксаонское копье"
+  
+ artifact_staff: "персонал"
+ artifact_staff_amsari_description: "Простой корявый деревянный посох, когда-то принадлежавший Пророку Амсари. Понятно, что этот объект имеет огромную историческую и религиозную ценность: редко встречаются произведения искусства, изображающие Пророка, где бы он не держал в руках свой культовый посох, и последующие поколения его паствы следили за тем, чтобы его лакировали и сохраняли в первозданном состоянии."
+ artifact_staff_amsari_name: "Посох Пророка"
+  
+ artifact_staff_description: "Персонал [SCOPE.Custom('ArtifactQuality')] мастерства. Это [newly_created_artifact.GetFeatureText( 'staff_decoration' )] и [newly_created_artifact.Custom('ArtifactStaffFocusCharacteristic')].\n\n$artifact_staff_explanation$"
+ artifact_staff_explanation: "Многие [magi|E] получают выгоду от использования фокуса для своей магии, например посоха, который либо наделен магической силой их пользователем, либо сделан из материалов, из которых пользователь может черпать."
+ artifact_staff_name: "$artifact_name_prefix$ [newly_created_artifact.GetFeatureText( 'staff_characteristic' )|U] [newly_created_artifact.GetFeatureText( 'staff_material' )] Персонал"
+  
+ artifact_staffofkatharitos_desc: "#size:15 Посох святого Катарита, святого-агиониста, который вместе с семью другими поднялся, чтобы проповедовать лучшую Аверсарию. Хотя Катаритос, к сожалению, погиб при этом, его послание и, казалось бы, бесконечные банальности продолжали жить, а его последователи до сих пор поклоняются его мудрым словам."
+ artifact_staffofkatharitos_modifier: "Посох Катаритоса"
+ artifact_staffofkatharitos_modifier_desc: "#E Магия#!:@magic_icon!#positive_value; +4#!/month"
+ artifact_staffofkatharitos_name: "Посох Катаритоса"
+  
+ artifact_staffofthewizardking_desc: "#size:15 Этот зазубренный черный посох украшен несколькими красными драгоценными камнями, которые, кажется, пульсируют и светятся в такт биению сердца того, кто его держит. Хотя некоторые из них пропали без вести, персонал по-прежнему излучает ауру ненависти и власти. Что такое «волшебник» или кто был их королем — это вопросы, о которых вы вряд ли когда-нибудь узнаете."
+ artifact_staffofthewizardking_modifier: "Посох Короля-волшебника"
+ artifact_staffofthewizardking_modifier_desc: "#E Магия#!:@magic_icon!#positive_value; +6#!/month"
+ artifact_staffofthewizardking_name: "Посох Короля-волшебника"
+  
+ artifact_standardofanoterion_desc: "#size:15 Бело-красное знамя Легио LXI было поднято повсюду, от самых высоких гор Калатипсоми до края великой реки на Дальнем Востоке. Хотя легион, который он представляет, дважды за свою историю был уничтожен, знамя всегда выживало, чтобы вдохновлять следующее поколение."
+ artifact_standardofanoterion_modifier: "Штандарт Легио LXI"
+ artifact_standardofanoterion_name: "Штандарт Легио LXI"
+  
+ artifact_strangetalkingskull_desc: "#size:15 Этот череп, кажется, очень рассердился на свое положение. Называя себя [vilas_venslau|E], он ругается на вас на множестве языков и утверждает, что как только у него появятся руки, он вас уничтожит.\n\nКакую забавную игрушку можно показывать на вечеринках!"
+ artifact_strangetalkingskull_modifier: "Странный говорящий череп"
+ artifact_strangetalkingskull_name: "Странный говорящий череп"
+  
+ artifact_sun_piercer_battle_desc: "Легендарное копье героев и чемпионов «Пронзатель Солнца» выковано из неизвестного черного материала, обладающего необычным свойством поглощать свет и пламя. Из-за странной формы этого оружия его могут использовать только самые опытные воины, но его почти неразрушимость делает его достойным использования в любом бою.\n\nЭтим копьем, как известно, владел герой [chevalien|E] сэр [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFirstNameNicknamed] из Озер, который использовал его, чтобы убить ужасного [lich|E] [newly_created_artifact.MakeScope.Var('prominent_foe').Char.GetFirstNameNicknamed]."
+ artifact_sun_piercer_desc: "Легендарное копье героев и чемпионов «Пронзатель Солнца» выковано из неизвестного черного материала, обладающего необычным свойством поглощать свет и пламя. Необычная форма оружия делает его трудным для владения любым, кроме самых опытных воинов, но его почти неразрушимость делает его достойным использования в любом бою."
+ artifact_sun_piercer_name: "Солнечный Пирсер"
+  
+ artifact_black_legion_standard_battle_desc: "На этом порванном и выцветшем знамени изображен знак одного из Черных легионов Катраддии, известного своим черным вооружением и боевыми способностями. Большая часть Черных Легионов была потеряна в различных войнах, которые потрясли начало 13-го века, и немногие оставшиеся в живых присоединились к Губернатору [newly_created_artifact.MakeScope.Var('governor_ioldon').Char.GetFirstNameNicknamed] в его марше на юг, а позже к его сыну [newly_created_artifact.MakeScope.Var('black_sun').Char.GetFirstNameNicknamed]."
+ artifact_black_legion_standard_desc: "На этом знамени изображен знак одного из Черных легионов Катраддии, известного своим черным вооружением и боевыми способностями."
+ artifact_black_legion_standard_name: "Стандарт Черного Легиона"
+  
+ artifact_black_gold_standard_battle_desc: "На этом пыльном куске ткани изображены объединенные знаки отличия Дома Монто и Дома Валадека — ведущих домов печально известной Лиги Черного-Золота, союза восточных лордов [chevalien|E], которые объединились, чтобы посадить [newly_created_artifact.MakeScope.Var('teryn_valadec').Char.GetFirstNameNicknamed] на трон Шевалье после загадочной смерти. Верховного Короля [newly_created_artifact.MakeScope.Var('high_king_dendon').Char.GetFirstNameNicknamed]. Так называемый [black_gold_war|E] закончился полным поражением Лиги, не оставив ничего, кроме сожаления тем, кто видел это некогда гордое знамя."
+ artifact_black_gold_standard_desc: "На этом знамени изображены объединенные знаки отличия Дома Монтео и Дома Валадека — ведущих домов печально известной Лиги Черного Золота."
+ artifact_black_gold_standard_name: "Стандарт Лиги Черного-Золота"
+  
+ artifact_staff_of_the_high_seer_desc: "Вырезанный из упавшей ветви Драйоганн Дтохт, Мирового Древа, этот посох передается из поколения в поколение Верховными Видящими Партиков. К посоху прикреплен хрустальный шар, окрашенный кроваво-красным соком Мирового Древа, повышающий способность его владельца использовать заклинания [aspect_nature] и [aspect_blood]. Появление [fog|E] и затуманивание Воли Мира несколько ослабили силу посоха, но, что любопытно, также наделили посох вновь обретённой способностью к магии [aspect_ethereal]."
+ artifact_staff_of_the_high_seer_name: "Посох Верховного Провидца"
+  
+ artifact_bane_star_ring_battle_desc: "Это кольцо, изготовленное из прочного обсидиана, названо так в честь своего знаменитого владельца [newly_created_artifact.MakeScope.Var('ring_bearer').Char.GetFirstNameNicknamed]. Драгоценным камнем кольца является бледно-зеленый осколок [Concept('aervalr','star')|E], упавший во время рождения Эльдрадда. Хотя нет никаких историй о том, что его носитель когда-либо совершал тайные подвиги с этим кольцом, его подданные шепчут, что оно излучает ауру страха и может принести огромную силу, если его носить в правильных руках."
+ artifact_bane_star_ring_desc: "Это кольцо, изготовленное из прочного обсидиана, названо так в честь его знаменитого владельца, Эльдрада Бейн-Звезды. Драгоценным камнем кольца является бледно-зеленый осколок [Concept('aervalr','star')|E], упавший во время рождения Эльдрадда. Хотя нет никаких историй о том, что его носитель когда-либо совершал тайные подвиги с этим кольцом, его подданные шепчут, что оно излучает ауру страха и может принести огромную силу, если его носить в правильных руках."
+ artifact_bane_star_ring_name: "Кольцо Бейн-Звезды"
+  
+ artifact_swordofeos_battle_desc: "#size:15 Легендарный меч Святого [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFirstName], святого-агиониста, который вместе с семью другими поднялся, чтобы проповедовать лучшую Аверсарию. Эос украл этот меч из арсенала Особого Ордена и использовал его, чтобы убить [lich|E] [newly_created_artifact.MakeScope.Var('prominent_foe').Char.GetFullName], после чего клинок был вручен ему впоследствии в качестве награды.\n\nМеч Эоса считался утерянным после его смерти во время осады Геки. , но вот оно сейчас сидит. С каждым взмахом вырывается пламя, и в каждом угольке можно увидеть праведную ярость."
+ artifact_swordofeos_desc: "#size:15 Легендарный меч Святой Эос, святой-агионистки, которая вместе с семью другими восстала, чтобы проповедовать лучшую Аверсарию. Меч Эоса считался утерянным после его смерти во время осады Геки, но теперь он находится здесь. С каждым взмахом вырывается пламя, и в каждом угольке можно увидеть праведную ярость."
+ artifact_swordofeos_modifier: "Меч Эос"
+ artifact_swordofeos_name: "Меч Эос"
+  
+ artifact_theiyrossicrown_desc: "#size:15 Корона царя Потаклея, последнего царя ииророссийцев. Хотя он был всего лишь одним из многих королей, его последний бой и легендарная партизанская война против [aversarians|E] закрепили его в истории как «Последнего Иироросси»."
+ artifact_theiyrossicrown_modifier: "Корона Ийросси"
+ artifact_theiyrossicrown_name: "Корона последнего Ийросси"
+  
+ artifact_vorpal_blade_desc: "Верпальные мечи — это древние зачарованные клинки, способные проходить сквозь что угодно, включая стены, доспехи и даже сам мир. Единственное, что мешает ему пройти сквозь землю внизу, - это охрана, на которой он установлен.\n\nДревний тайник с примерно шестью тысячами мечей был впервые обнаружен авантюристами [marcher|E] в Калатипсоми около 550 ИС, что сразу же спровоцировало небольшую войну. поскольку многочисленные фракции, включая первых [aversarian|E] колонистов в регионе, боролись за контроль над этим чудесным вооружением. В последовавшем конфликте авантюристы, вооружившиеся клинками, были убиты почти до последнего человека, поскольку выяснилось, что мечи безвредно проходят сквозь все... включая плоть.\n\nНа протяжении столетий верпальные клинки были распространены во всем мире это не более чем праздная диковинка, ценимая только театральными труппами и мошенниками, с множеством идиом, сказок на ночь и шуток, возникающих вокруг фразы «Режешь, как ворпал»."
+ artifact_vorpal_blade_name: "Верпальный клинок"
+ artifact_useless_sword: "Бесполезный меч"
+  
+ artifact_whisperingskull_desc: "#size:15 Никто не знает происхождения этого странного черепа, но ты можешь поклясться, что тогда, когда ты останешься с ним наедине и сидишь в темноте, он шепчет тебе. Некоторые из этих шепотов весьма интересны: череп намекает на многие тайны и скрытые желания."
+ artifact_whisperingskull_modifier: "Шепчущий череп"
+ artifact_whisperingskull_name: "Шепчущий череп"
+  
+ artifact_wall_sword_wardenism_description: "Элегантный реликварий, содержащий святую реликвию: меч [first_warden|E]."
+ artifact_wall_sword_wardenism_name: "Меч Первого Стража"
+  
+ artifact_manswelbestiarium_desc: "#size:15 Рагамбальд Мансвел был чрезвычайно много путешествовавшим авантюристом из Марша, который якобы доплыл до границ Катун Кая на восток. По возвращении в [chevalie|E] Рагамбальд приступил к кропотливому процессу перевода своих многочисленных дневников и зарисовок в письменную форму. Содержащиеся в нем отчеты представляют собой беспрецедентный и удивительно точный путеводитель по разнообразной фауне, магической и иной, населяющей отдаленные регионы [aeras|E]. Биография Рагамбальда, предположительно записанная в отдельном томе, к сожалению, почти полностью потеряна для истории, но, судя по его сохранившимся работам, он должен был быть замечательным и хорошо образованным человеком. Некоторые даже предположили, что Мансвел мог быть псевдонимом, но это, как и все остальное в жизни Мансвела, вызывает серьезные споры среди литераторов Chevalien."
+ artifact_manswelbestiarium_modifier: "Бестиарий Рагамбальда Мансвела"
+ artifact_manswelbestiarium_modifier_desc: "Фантастически хорошо написанный бестиарий.\nДает небольшой бонус в [monster_hunts|E]."
+ artifact_manswelbestiarium_name: "Бестиарий Рагамбальда Мансвела"
+  
+ artifact_maskofforgottensaint_desc: "#size:15 Легендарная маска Забытого святого, святого-агиониста, который поднялся вместе с семью другими, чтобы проповедовать лучшую Аверсарию. Простая металлическая маска Забытого Святого кажется намного тяжелее, чем можно было бы ожидать, а внутри нее, кажется, есть несколько светящихся оберегов, тщательно начертанных на поверхности."
+ artifact_maskofforgottensaint_modifier: "Маска забытого святого"
+ artifact_maskofforgottensaint_name: "Маска забытого святого"
+  
+ artifact_panickedeye_desc: "#size:15 На этом амулете изображен единственный глаз, зрачок которого постоянно мечется по комнате, словно опасаясь того, что он может увидеть. Если вы прижмете амулет к своему глазу, то можете поклясться, что тоже почти видите Их... наблюдая из теней, которые лучше оставить пустыми."
+ artifact_panickedeye_modifier: "Амулет испуганного глаза"
+ artifact_panickedeye_name: "Амулет испуганного глаза"
+  
+ artifact_peytonsbonecracker_battle_desc: "#size:15 Путеотец [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFullName] Пути Жатвы заявил, что ни один урожай не может быть безопасно собран, пока нежить еще «жива», и что костная мука творит чудеса с урожаем, и поэтому заявил, что лучший способ усовершенствовать свой путь — это уничтожение нежити. Пейтон стал легендарным благодаря своим экскурсиям в [lichdoms|E], он даже убил [lich|E] [newly_created_artifact.MakeScope.Var('prominent_foe').Char.GetFullName] при штурме его цитадели, потеряв всего 566 человек из своей группы из 570 человек. На его булаве до сих пор сохранились небольшие бороздки, без сомнения, образовавшиеся после четырех десятилетий ударов по скелетам. над головой."
+ artifact_peytonsbonecracker_desc: "#size:15 Путешественник Пейтон с Пути Жатвы заявил, что ни один урожай не может быть безопасно собран, пока нежить еще «жива», и что костная мука творит чудеса с урожаем, и поэтому заявил, что лучший способ усовершенствовать свой путь — это уничтожение нежити. Пейтон стал легендарным благодаря своим экскурсиям в [lichdoms|E], даже убив Красмера Красвира [lich|E] при штурме его цитадели, потеряв всего 566 человек в своей группе из 570 человек. На его булаве до сих пор сохранились небольшие бороздки, без сомнения, образовавшиеся после четырех десятилетий ударов по скелетам. над головой."
+ artifact_peytonsbonecracker_modifier: "Костеколка Путного Отца Пейтона"
+ artifact_peytonsbonecracker_modifier_desc: "Простая булава, которой можно было убить множество нежити."
+ artifact_peytonsbonecracker_name: "Костеколка Путного Отца Пейтона"
+  
+ artifact_rehdyia_uddayir_spear_description: "Хотя теперь он заржавел, потерял рукоятку и давно лишился своей магии, это наконечник копья, который легендарный заклинательный меч — а позже и королева [sarradon|E] — Рехдия Уддайир вонзила в колоссальный синяк [worldeater|E], нанеся наконец смертельный удар чудовищному зверь, который едва не привел к гибели всей цивилизации на континенте и за его пределами."
+ artifact_rehdyia_uddayir_spear_name: "Копье Рехдии Уддайра"
+  
+ artifact_ringofthelich_desc: "#size:15 Сочащееся темной магией это кольцо на протяжении всей истории носили на костлявом пальце многие Архиличи. [vilas_venslau|E], [stavro|E], Ввенславив Вислейкс. Как он оказался в ваших землях — загадка, которую вы вряд ли когда-нибудь разгадаете."
+ artifact_ringofthelich_modifier: "Кольцо Королей-личей"
+ ##artifact_ringofthelich_modifier_desc: "#E Магия#!:@magic_icon!#positive_value +15#!/month"
+ artifact_ringofthelich_modifier_desc: "#E Магия#!:@magic_icon!#positive_value +4#!/month\n#E Магия#!:@magic_icon!#positive_value +100%#!/month"
+ artifact_ringofthelich_name: "Кольцо Королей-личей"
+  
+ artifact_sacrifical_dagger_age: "Вероятно, это произведение было сделано примерно в [owner.MakeScope.Var('dagger_age').GetValue|0] года."
+ artifact_sacrifical_dagger_description: "[newly_created_artifact.GetFeatureText( 'blade_metal' )] кинжал [SCOPE.Custom('ArtifactQuality')] мастерства. [newly_created_artifact.Custom('ArtifactDaggerDecoration')] Сам клинок - [newly_created_artifact.GetFeatureText( 'sacrifical_decoration' )].\n\n$artifact_sacrifical_dagger_explanation$ $artifact_sacrifical_dagger_age$"
+ artifact_sacrifical_dagger_explanation: "Жертвенные кинжалы издавна использовались в [aversaria|E] как в религиозных, так и в магических целях. Бесчисленные ритуалы предполагают принесение жертв, и в Аверсарии ничто не считалось сильнее крови."
+ artifact_sacrifical_dagger_name: "[owner.GetTitledFirstNamePossessiveNoTooltip] Аверсарийский жертвенный кинжал"
+  
+ artifact_sandals_amsari_description: "Элегантный реликварий, содержащий святую реликвию: скромные сандалии, на которых Пророк произносил Слова."
+ artifact_sandals_amsari_name: "Сандалии Пророка"
+  
+ artifact_sculpture_mask_of_ankepy_ix_description: "Известный декадентский и показной кемсарский король Анкепий IX, несомненно, оставил после себя погребальную маску, соответствующую его титулу и личности. Не довольствуясь простым золотом, Анкепи кропотливо отлил свою маску из нескольких магически мощных метеоритов — процесс, который потребовал совместных усилий некоторых из величайших саррадонских [magi|E] и кузнецов по металлу того времени. Затем эта основа была инкрустирована бесчисленным количеством драгоценных камней, причем, казалось бы, присутствовали все их разновидности, существующие в [aeras|E], а два смертных глаза маски сделаны из особенно больших и впечатляющих кристаллов крови.\n\nОднако наиболее примечательным является то, что маска " третий глаз". Как и большинство кемсарских правителей, Анкепи отправился в загробную жизнь в сопровождении слуг, однако их количество и ранг — его высшие чиновники, супруга, наложницы, домашний персонал, личная охрана, клика [magi|E] и десятки тысяч рабов — превосходят излишества даже подавляющее большинство его предшественников и преемников. Все они были ритуально убиты, а их души захоронены в черном драгоценном камне неизвестного происхождения, составляющем третий глаз маски, чтобы они могли продолжать служить своему хозяину вечно."
+ artifact_sculpture_mask_of_ankepy_ix_name: "Погребальная маска Анкепи IX"
+  
+ artifact_seal_wardenism_description: "Простая глиняная печать с изображением ключа, окруженного текстом, слишком сильно выветренным, чтобы его можно было разобрать. Хотя на первый взгляд это не что иное, как изношенный аксессуар незначительного судьи [wardenite|E], достоверные источники связывают этот конкретный предмет с самим [first_warden|E] — это была та самая печать, которой была поставлена ​​печать легитимности практически на всех [wardenism|E]. самые ранние, наиболее основополагающие тексты и постановления, которые их вдохновили."
+ artifact_seal_wardenism_name: "Печать Первого Стража"
+  
+ artifact_seignonsword_desc: "#size:15 Фамильный клинок семьи Ден ва Сеньон использовался в сотнях сражений на протяжении четырех столетий. Первоначально обнаруженный (самопровозглашенным) королем Кредоном ден ва Сеньоном незадолго до [red_river_war|E] в древнем склепе неизвестного происхождения, его мерцающий черный клинок, казалось, то появлялся, то исчезал из поля зрения, разрезая воздух с тошнотворным шипением. Металл и стиль клинка являются загадкой для всех, кто его видел, как и его способность прорезать сквозь поле зрения."
+ artifact_seignonsword_modifier: "Семейный меч Ден ва Сеньон"
+ artifact_seignonsword_modifier_desc: "Фамильный меч семьи Ден ва Сенньон, создания [aelfir_alien|E]."
+ artifact_seignonsword_name: "Семейный меч Ден ва Сеньон"
+  
+ artifact_skull_title: "[killed.GetTitledFirstNamePossessive] [newly_created_artifact.GetFeatureText( 'bone_constitution' )] Череп"
+ artifact_skullofanancient_desc: "#size:15 Этот странный череп кажется похожим на человеческий, но содержит несколько отличий, которые явно указывают на то, что он... нечто иное. Вы понятия не имеете, творческое ли это произведение искусства или останки какого-то забытого существа, но магическая сила, исходящая от кости, неоспорима."
+ artifact_skullofanancient_modifier: "Череп Древнего"
+ artifact_skullofanancient_name: "Череп Древнего"
+  
+ #artifact_skullofaxiaothea_desc: "#size:15 Череп [axiaothea.GetName], овдовевшей жены Анесимасия, последнего автократира [aversaria|E] и главного соперника Эсхрея. Эшрэс и Аксиаофея, как известно, сражались с [Concept('imperial_civil_war','a great civil war')|E] по всей Аверсарии за контроль над империей, которая закончилась, когда Эшрей высвободил [frodbrokna|E] и положил конец миру. Этот череп был обнаружен в руинах Асиуполя Собирателем Черепов Горассом, посланным Эшрасом много лет спустя, чтобы убедиться, что никто не остался в живых, скрываясь."
+ artifact_skullofaxiaothea_desc: "#size:15 Череп [axiaothea.GetName], овдовевшей жены Анесимасия, последнего автократира [aversaria|E] и главного соперника Эсхрея. Эшрэс и Аксиаофея, как известно, сражались с [Concept('imperial_civil_war','a great civil war')|E] по всей Аверсарии за контроль над империей, которая закончилась, когда Эшрей высвободил [frodbrokna|E] и положил конец миру. Этот череп был обнаружен в руинах Асиуполи Собирателем Черепов Горассом, посланным Эшрасом много лет спустя, чтобы убедиться, что никто не остался в живых, скрываясь."
+ artifact_skullofaxiaothea_modifier: "Череп Аксиаотеи"
+ artifact_skullofaxiaothea_name: "Череп [axiaothea.GetName]"
+  
+ artifact_skullofduvaken_desc: "#size:15 Череп Дувакена, «Серебряного Говорящего», вождя Карзарадов, который возглавил отряд своих соплеменников и добровольцев Сялволки, чтобы создать королевство в северной Опахазии. Первоначально он добился успеха, частично из-за мощной способности Дувакена [magical|E], но в конце концов был убит Горассом «Собирателем Черепов» на дуэли."
+ artifact_skullofduvaken_modifier: "Череп Дувакена «Серебряный говорящий»"
+ artifact_skullofduvaken_name: "Череп Дувакена «Серебряный говорящий»"
+  
+ artifact_skullofpridni_desc: "#size:15 Череп Придни «Младшего», [aversarian|E] военачальника и ребенка управляющего Анесимасия, последнего автократира Аверсарии. Придни завоевал большое королевство на большей части Этепезеи, Малкойса и Опахасии, прежде чем был убит в битве Горассом «Собирателем Черепов». Смерть Придни вызвала в его владениях великую гражданскую войну, которая закончилась тем, что Шялволки воспользовались преимуществом и вторглись в его земли."
+ artifact_skullofpridni_modifier: "Череп Придни Младшего."
+ artifact_skullofpridni_name: "Череп Придни Младшего."
+  
+  # Misc Adjectives 
+ mystery_mysteries: "mysteries" #NT!
+ mystery_riddles: "riddles" #NT!
+ collected_assembled: "Собранный"
+ collected_assorted: "Ассорти"
+ collected_collected: "Собрано"
+ collected_compiled: "Скомпилировано"
+  
+  # Emotions 
+ emotion_joy: "joy" #NT!
+ emotion_delight: "delight" #NT!
+ emotion_ecstasy: "ecstasy" #NT!
+ emotion_pleasure: "pleasure" #NT!
+ emotion_temptation: "temptation" #NT!
+ emotion_sorrow: "sorrow" #NT!
+ emotion_rage: "rage" #NT!
+ emotion_suffering: "suffering" #NT!
+  
+  # Activities 
+ activity_sacrifice: "sacrifice" #NT!
+ activity_suffering: "suffering" #NT!
+ activity_exsanguination: "exsanguination" #NT!
+ activity_flaying: "flaying" #NT!
+  
+  # Organs 
+ organ_heart: "heart" #NT!
+ organ_brain: "brain" #NT!
+ organ_eyes: "eyes" #NT!
+ organ_stomach: "stomach" #NT!
+ organ_guts: "guts" #NT!
+ organ_esophagus: "esophagus" #NT!
+ organ_spleen: "spleen" #NT!
+  
+ medicine_medicine: "medicine" #NT!
+ medicine_anatomy: "anatomy" #NT!
+ medicine_healing: "healing" #NT!
+ medicine_therapy: "therapy" #NT!
+  
+ principles_principles: "principles" #NT!
+ principles_essentials: "essentials" #NT!
+  
+  # Adjectives 
+  
+  # General 
+ adjective_great: "great" #NT!
+ adjective_grand: "grand" #NT!
+ adjective_magnificent: "magnificent" #NT!
+  
+  ## Colors 
+ adjective_white: "white" #NT!
+ adjective_pale: "pale" #NT!
+ adjective_red: "red" #NT!
+ adjective_crimson: "crimson" #NT!
+  
+  ## Possessive 
+ adjective_blood_possessive: "blood's" #NT!
+ adjective_heart_possessive: "heart's" #NT!
+  
+  ## Other 
+ adjective_decadent: "decadent" #NT!
+ adjective_bloody: "bloody" #NT!
+ adjective_sanguine: "sanguine" #NT!
+  
+ functioning_functioning: "functioning" #NT!
+ functioning_workings: "workings" #NT!
+ functioning_operations: "operations" #NT!
+  
+ physician_physician: "physician" #NT!
+ physician_healer: "healer" #NT!
+ physician_chirurgeon: "chirurgeon" #NT!
+  
+ magic_magic: "magic" #NT!
+ magic_arcanology: "arcanology" #NT!
+ magic_sorcery: "sorcery" #NT!
+ magic_witchcraft: "witchcraft" #NT!
+ magic_the_arcane: "the Arcane" #NT!
+ magic_the_gift: "the Gift" #NT!
+  
+ spell_spells: "spells" #NT!
+ spell_rituals: "rituals" #NT!
+ spell_incantations: "incantations" #NT!
+ spell_magic: "magic" #NT!
+ spell_sorcery: "sorcery" #NT!
+  
+ artifact_dragonskull_desc: "#size:15 Ужасный череп некогда великого зверя, потемневшая кость этого древнего монстра все еще излучает небольшое количество тепла, и один только череп вдвое больше тебя. Как вообще можно было убить такое существо?"
+ artifact_dragonskull_name: "Череп Дракона"
+  
+ artifact_boneoftheworldeater_desc: "#size:15 Древняя пожелтевшая кость зверя, которого когда-то называли «[worldeater|E]». Когда-то в истории [worldeater|E] пожирал целые города [sarradonian|E], опустошая целые регионы из-за своего ненасытного голода. Поглотив саму правительницу [sarradon|E], зверь был убит Рехдией Уддайир, которая затем была объявлена ​​​​законной королевой."
+ artifact_boneoftheworldeater_modifier: "Кость Пожирателя Миров"
+ artifact_boneoftheworldeater_name: "Кость Пожирателя Миров"
+  
+ crown_of_chevalie: "Корона [chevalie|E]"
+ crown_of_chevalie_description: "Восстановленная единственным истинным правителем [chevalie|E], корона участников марша [chevalie|E] снова стала символом единства. Можно только надеяться, что эта новая линия королей сможет сохранить святость короны и защитить северную границу от некромантической тьмы за ее пределами."
+ broken_crown_name: "Часть сломанной короны"
+ broken_crown_description: "#size:15 Маркерская корона была разбита на четыре части Верховным королем Гардфреем ден ва Сеньоном на Совете Клуа, который, когда ему представили требования своих детей выбрать преемника, провозгласил, что тот, кто соберет ее обратно, получит трон «навсегда». он заботился». С тех пор эти осколки стали символом утраченной славы [chevalie|E], и многие ждут того дня, когда подходящий правитель сможет собрать воедино и корону, и царство."
+  
+  
+  
+ destroy_artifact_tt: "Уничтожить артефакт"
+ destructible_artifact: "#N Разрушаемый#!"
+ equip_artifact_tt: "Экипировать Артефакт"
+ equipped_artifact: "#P Оборудован#!"
+ feature_bone_constitution_cracked: "Треснутый"
+ feature_bone_constitution_healthy: "Здоровый"
+ feature_bone_constitution_spiked: "Шипастый"
+ feature_bone_constitution_strong: "Сильный"
+ feature_bone_constitution_weak: "Слабый"
+ feature_bone_crown_type_grafted_bone: "сделанный из различных частей и осколков, сросшихся вместе"
+ feature_bone_crown_type_human_bone: "сделанный из другого человека"
+ feature_bone_crown_type_large_animal: "сделанный из крупного животного"
+ feature_bone_crown_type_medium_animal: "сделанный из животного среднего размера"
+ feature_bone_crown_type_monster_bone: "сделанный из какого-то чудовища"
+ feature_bone_crown_type_small_animal: "сделанный из маленького животного"
+ feature_bone_dagger_type_grafted_bone: "сделанный из различных частей и осколков, сросшихся вместе"
+ feature_bone_dagger_type_human_bone: "сделанный из другого человека"
+ feature_bone_dagger_type_large_animal: "сделанный из крупного животного"
+ feature_bone_dagger_type_medium_animal: "сделанный из животного среднего размера"
+ feature_bone_dagger_type_monster_bone: "сделанный из какого-то чудовища"
+ feature_bone_dagger_type_small_animal: "сделанный из маленького животного"
+ feature_bone_regalia_type_grafted_bone: "сделанный из различных частей и осколков, сросшихся вместе"
+ feature_bone_regalia_type_human_bone: "сделанный из другого человека"
+ feature_bone_regalia_type_large_animal: "сделанный из крупного животного"
+ feature_bone_regalia_type_medium_animal: "сделанный из животного среднего размера"
+ feature_bone_regalia_type_monster_bone: "сделанный из какого-то чудовища"
+ feature_bone_regalia_type_small_animal: "сделанный из маленького животного"
+ feature_bone_spear_type_grafted_bone: "сделанный из различных частей и осколков, сросшихся вместе"
+ feature_bone_spear_type_human_bone: "сделанный из другого человека"
+ feature_bone_spear_type_large_animal: "сделанный из крупного животного"
+ feature_bone_spear_type_medium_animal: "сделанный из животного среднего размера"
+ feature_bone_spear_type_monster_bone: "сделанный из какого-то чудовища"
+ feature_bone_spear_type_small_animal: "сделанный из маленького животного"
+ feature_bone_staff_focus_characteristic_animalskull: "увенчан черепом животного, на пасти которого выгравированы ритуальные символы."
+ feature_bone_staff_focus_characteristic_diamond: "на конце окружает массивный и, несомненно, ценный бриллиант"
+ feature_bone_staff_focus_characteristic_hand: "увенчан скелетной рукой, вывернутой внутрь и сжимающей фулигиновый камень."
+ feature_bone_staff_focus_characteristic_lichfist: "увенчан скелетным кулаком давно умершего Лича. Иногда даже кажется, что он дергается, правда, только когда не смотришь."
+ feature_bone_staff_focus_characteristic_magical_ice: "на конце заключает кусок магического льда, туман слегка рассеивается, но фокус никогда не тает"
+ feature_bone_staff_focus_characteristic_none: "без какого-либо фокуса на кончике"
+ feature_bone_staff_focus_characteristic_ruby: "на конце окружает блестящий кроваво-красный рубин"
+ feature_bone_staff_focus_characteristic_skull: "увенчан гримасничающим черепом, на котором выгравированы ритуальные символы."
+ feature_bone_staff_type_grafted_bone: "сделанный из различных частей и осколков, сросшихся вместе"
+ feature_bone_staff_type_human_bone: "сделанный из другого человека"
+ feature_bone_staff_type_large_animal: "сделанный из крупного животного"
+ feature_bone_staff_type_medium_animal: "сделанный из животного среднего размера"
+ feature_bone_staff_type_monster_bone: "сделанный из какого-то чудовища"
+ feature_bone_staff_type_small_animal: "сделанный из маленького животного"
+ feature_bone_type_grafted_bone: "Привитый"
+ feature_bone_type_human_bone: "Человек"
+ feature_bone_type_large_animal: "Большое животное"
+ feature_bone_type_medium_animal: "Животное среднего размера"
+ feature_bone_type_monster_bone: "Монстр"
+ feature_bone_type_small_animal: "Маленькое животное"
+ feature_sacrifical_decoration_battle: "украшен сценами сражения"
+ feature_sacrifical_decoration_blood_drops: "украшен каплями крови"
+ feature_sacrifical_decoration_chimerae: "украшен мотивами химеры"
+ feature_sacrifical_decoration_cups: "украшен изображениями чашек"
+ feature_sacrifical_decoration_dragons: "украшен мотивами красного дракона"
+ feature_sacrifical_decoration_flowers: "украшен цветочными мотивами"
+ feature_sacrifical_decoration_heraldry: "украшен геральдикой вероятно давно умершего дворянского дома"
+ feature_sacrifical_decoration_lions: "украшен львиными мотивами"
+ feature_sacrifical_decoration_magical_geometric_shapes: "украшен волшебными геометрическими фигурами."
+ feature_sacrifical_decoration_magical_runes: "украшен магическими рунами со всех сторон"
+ feature_sacrifical_decoration_mayikprolollan: "украшен символами, обозначающими свойство [mayikrata|E]"
+ feature_sacrifical_decoration_moons: "украшен изображениями [aervalr|E]"
+ feature_sacrifical_decoration_mountain_sun_iconography: "украшен иконографией старого храма Горы-Солнца"
+ feature_sacrifical_decoration_rivers: "украшен переплетающимися реками"
+ feature_sacrifical_decoration_the_purest: "украшен тщательно продуманным изображением чистейших и первых людей."
+ feature_sacrifical_decoration_the_sea_tower: "украшен тщательно продуманной версией Морской башни."
+ feature_staff_characteristic_disturbing: "тревожный"
+ feature_staff_characteristic_flawless: "безупречный"
+ feature_staff_characteristic_radiating: "излучающий"
+ feature_staff_characteristic_simple: "простой"
+ feature_staff_characteristic_twisted: "искривленный"
+ feature_staff_characteristic_whispering: "шепот"
+ feature_staff_decoration_bare: "без каких-либо настоящих украшений"
+ feature_staff_decoration_bejeweled: "украшенный десятками сверкающих драгоценных камней"
+ feature_staff_decoration_inlaid: "инкрустация изображениями различных зверей"
+ feature_staff_decoration_inlaid_incantations: "инкрустированный светящимися руническими заклинаниями"
+ feature_staff_decoration_seals: "покрыты сургучными печатями и свитками молитв."
+ feature_staff_focus_characteristic_blood_sphere: "завершается большим стеклянным шаром, по которому мягко плещется малиновая кровь."
+ feature_staff_focus_characteristic_bloodcrystal: "держит мерцающий кусок кровавого кристалла, шепча ушам, которые никогда не услышат, о эпохе, в которой никто никогда не вспомнит"
+ feature_staff_focus_characteristic_diamond: "на конце окружает массивный и, несомненно, ценный бриллиант"
+ feature_staff_focus_characteristic_glass_prism: "увенчан стеклянной призмой, которая, кажется, отражает все известные цвета, а некоторые и нет."
+ feature_staff_focus_characteristic_incenseburner: "увенчана курильницей, из которой исходит приятный и, безусловно, волшебный дым."
+ feature_staff_focus_characteristic_lich_fist: "увенчан скелетным кулаком давно умершего Лича. Иногда даже кажется, что он дергается, правда, только когда не смотришь."
+ feature_staff_focus_characteristic_magical_ice: "на конце заключает кусок магического льда, туман слегка рассеивается, но фокус никогда не тает"
+ feature_staff_focus_characteristic_none: "без какого-либо фокуса на кончике"
+ feature_staff_focus_characteristic_ruby: "на конце окружает блестящий кроваво-красный рубин"
+ feature_staff_focus_characteristic_shrunken_head: "увенчан сморщенной головой, в которой едва можно узнать когда-то человеческую"
+ feature_staff_focus_characteristic_skull: "увенчан гримасничающим черепом, на котором выгравированы ритуальные символы."
+ feature_staff_focus_characteristic_spiritgem: "увенчан тревожным серым драгоценным камнем, внутри которого, если присмотреться, можно увидеть просто умоляющие глаза, смотрящие в ответ.."
+ feature_staff_focus_characteristic_twisted_hand: "увенчан почерневшей рукой, вывернутой внутрь и сжимающей блестящий драгоценный камень."
+ feature_staff_focus_characteristic_twitching_eye: "заканчивается огромным глазом, который дергается, глядя взад и вперед"
+ feature_staff_material_ash: "Ясень"
+ feature_staff_material_blue_steel: "Голубая сталь"
+ feature_staff_material_bone: "Кость"
+ feature_staff_material_bronze: "Бронза"
+ feature_staff_material_coromandel: "Коромандел"
+ feature_staff_material_dragonbone: "Драконья кость"
+ feature_staff_material_ebon_steel: "Эбеновая сталь"
+ feature_staff_material_ebony: "эбони"
+ feature_staff_material_elm: "Вяз"
+ feature_staff_material_fir: "Пихта"
+ feature_staff_material_fleroya: "Флеройя"
+ feature_staff_material_gold: "Золото"
+ feature_staff_material_hell_steel: "Адская сталь"
+ feature_staff_material_living_wood: "Живой лес"
+ feature_staff_material_maple: "Клен"
+ feature_staff_material_oak: "Дуб"
+ feature_staff_material_olivewood: "Оливвуд"
+ feature_staff_material_padauk: "падаук"
+ feature_staff_material_pine: "Сосна"
+ feature_staff_material_rosewood: "палисандр"
+ feature_staff_material_sal: "Сал"
+ feature_staff_material_satinwood: "Сатинвуд"
+ feature_staff_material_silver: "Серебро"
+ feature_staff_material_steel: "Сталь"
+ feature_staff_material_sycomore: "Сикомор"
+ feature_staff_material_teak: "Тик"
+ feature_staff_material_walnut: "грецкий орех"
+ feature_staff_material_wrought_iron: "Кованое железо"
+ feature_staff_material_yew: "Тис"
+  
+  # Thumb Rings 
+ fund_inspiration.5011.thumb_ring: "Прочное кольцо для стрельбы из лука."
+ inspiration_smith_type_thumb_ring: "кольцо на большом пальце"
+ artifact_thumb_ring: "Кольцо для большого пальца"
+ tournament_prize_thumb_ring_name: "Приз $artifact_thumb_ring$"
+ artifact_thumb_ring_pedestal: "$artifact_thumb_ring$"
+ artifact_thumb_ring_name: "$artifact_name_prefix$ Кольцо для большого пальца"
+ artifact_thumb_ring_description: "Кольцо для большого пальца [SCOPE.Custom('ArtifactArticleWealth')], мастерство изготовления [SCOPE.Custom('ArtifactQuality')]. [newly_created_artifact.GetFeatureText( 'thumb_ring_decoration' )]."
+  
+ feature_thumb_ring_decoration_centerpiece_and_adornment: "Он состоит из [Artifact.GetFeatureText( 'thumb_ring_centerpiece' )], то есть [Artifact.GetFeatureText( 'thumb_ring_adornment' )]"
+ feature_thumb_ring_decoration_centerpiece: "Он состоит из [Artifact.GetFeatureText( 'thumb_ring_centerpiece' )], закрепленного на крепежном элементе [Artifact.GetFeatureText( 'decoration_material_wire' )]."
+ feature_thumb_ring_decoration_adornment: "Состоит из крепежа [Artifact.GetFeatureText( 'decoration_material_wire' )] [Artifact.GetFeatureText( 'thumb_ring_adornment' )]."
+ feature_thumb_ring_centerpiece_cabochon: "кабошон [Artifact.GetFeatureText( 'decoration_material_gem' )]"
+ feature_thumb_ring_centerpiece_signet: "символ [Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip], выгравированный на голове [Artifact.GetFeatureText( 'decoration_material_wire' )]"
+ feature_thumb_ring_centerpiece_religious: "[Artifact.GetOwner.GetFaith.GetAdjective] [Artifact.GetOwner.GetFaith.ReligiousSymbol] выгравирован на заголовке [Artifact.GetFeatureText( 'decoration_material_wire' )]"
+ feature_thumb_ring_adornment_motto: "окружен девизом дома [Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip]: '#EMP [Artifact.GetOwner.GetHouse.GetMotto]#!'"
+ feature_thumb_ring_centerpiece_cross: "распятие [Artifact.GetFeatureText( 'decoration_material_wire' )]"
+ feature_thumb_ring_centerpiece_sword: "фигурка меча [Artifact.GetFeatureText( 'decoration_material_wire' )]"
+ feature_thumb_ring_adornment_filigree: "украшен сложной филигранью"
+ feature_thumb_ring_adornment_gems: "украшен небольшими кусочками [Artifact.GetFeatureText( 'decoration_material_gem' )]"
+ feature_thumb_ring_adornment_runes: "в обрамлении кольца [Artifact.GetFeatureText( 'decoration_material_wire' )] с рунами"
+ feature_thumb_ring_adornment_religious: "окружен сценами из [Artifact.GetOwner.GetFaith.GetAdjective] [Artifact.GetOwner.GetFaith.ReligiousText]"
+ create_artifact_thumb_ring_tooltip: "[inspiration_owner.GetShortUIName] изготовил кольцо для большого пальца [SCOPE.Custom('ArtifactArticleWealth')|l] с мастерством [SCOPE.Custom('ArtifactQuality')]"
+  
+ artifact_skymothers_tear_name: "Слезы Матери Неба"
+ artifact_skymothers_tear_desc: "Изысканное кольцо на большом пальце с синим драгоценным камнем, который, как полагают, является кристаллизованной слезой самой Матери-Неба."
+ artifact_skymothers_tear_rezpendia_desc: "Изысканное кольцо на большом пальце с синим драгоценным камнем, который, как полагают, является кристаллизованной слезой самой Матери-Неба."
+  
+  # Oltenic Masks 
+ HAS_A_CULTURAL_REASON_TO_WEAR_A_MASK: "Has a cultural reason to wear a mask" #NT!
+ HAS_A_RELIGIOUS_REASON_TO_WEAR_A_MASK: "Has a religious reason to wear a mask" #NT!
+ HAS_A_PERSONAL_REASON_TO_WEAR_A_MASK: "Has a personal reason to wear a mask" #NT!
+ oltenic_mask_user_trigger_no_reasons: "You have neither a cultural, religious, or personal reason to wear a mask" #NT!
+ fund_inspiration.5011.oltenic_mask: "A new mask to protect me from the spirits." #NT!
+ fund_inspiration.0071.oltenic_mask: "$fund_inspiration.5011.oltenic_mask$" #NT!
+ inspiration_smith_type_oltenic_mask: "a mask" #NT!
+ artifact_oltenic_mask: "Mask" #NT!
+ tournament_prize_oltenic_mask_name: "Prize $artifact_oltenic_mask$" #NT!
+ artifact_oltenic_mask_pedestal: "$artifact_oltenic_mask$" #NT!
+ artifact_oltenic_mask_name: "$artifact_name_prefix$ Mask" #NT!
+ artifact_oltenic_mask_description: "[SCOPE.Custom('ArtifactArticleWealth')] [newly_created_artifact.GetFeatureText('oltenic_mask_material')] mask of [SCOPE.Custom('ArtifactQuality')] Ölteni craftsmanship[newly_created_artifact.GetFeatureText('oltenic_mask_base')][newly_created_artifact.Custom('ArtifactOltenicMaskDecoration')]" #NT!
+  
+ feature_oltenic_mask_base_human: ", made in resemblance of [Artifact.GetFeatureText('oltenic_mask_visage_human')]" #NT!
+ feature_oltenic_mask_base_bestial: ", shaped to resemble the bestial visage of [Artifact.GetFeatureText('oltenic_mask_visage_bestial')]" #NT!
+ feature_oltenic_mask_base_other: " in the shape of [Artifact.GetFeatureText('oltenic_mask_visage_other')]" #NT!
+  
+ feature_oltenic_mask_material_linen: "linen" #NT!
+ feature_oltenic_mask_material_leather: "leather" #NT!
+ feature_oltenic_mask_material_burlap: "burlap" #NT!
+ feature_oltenic_mask_material_wicker: "wicker" #NT!
+ feature_oltenic_mask_material_clay: "clay" #NT!
+ feature_oltenic_mask_material_wood: "wood" #NT!
+ feature_oltenic_mask_material_stone: "stone" #NT!
+ feature_oltenic_mask_material_terracota: "terracota" #NT!
+ feature_oltenic_mask_material_ceramic: "ceramic" #NT!
+ feature_oltenic_mask_material_iron: "iron" #NT!
+ feature_oltenic_mask_material_obsidian: "obsidian" #NT!
+ feature_oltenic_mask_material_copper: "copper" #NT!
+ feature_oltenic_mask_material_tin: "tin" #NT!
+ feature_oltenic_mask_material_pewter: "pewter" #NT!
+ feature_oltenic_mask_material_bronze: "bronze" #NT!
+ feature_oltenic_mask_material_brass: "brass" #NT!
+ feature_oltenic_mask_material_steel: "steel" #NT!
+ feature_oltenic_mask_material_magisteel: "magi-steel" #NT!
+ feature_oltenic_mask_material_silver: "silver" #NT!
+ feature_oltenic_mask_material_electrum: "electrum" #NT!
+ feature_oltenic_mask_material_gold: "gold" #NT!
+ feature_oltenic_mask_material_white_gold: "white-gold" #NT!
+ feature_oltenic_mask_material_rose_gold: "rose-gold" #NT!
+ feature_oltenic_mask_material_platinum: "platinum" #NT!
+ feature_oltenic_mask_material_jade: "jade" #NT!
+ feature_oltenic_mask_material_porcelain: "porcelain" #NT!
+ feature_oltenic_mask_material_ivory: "ivory" #NT!
+ feature_oltenic_mask_material_ebony: "ebony" #NT!
+ feature_oltenic_mask_material_bloodcrystal: "[bloodcrystal|El]" #NT!
+  
+ feature_oltenic_mask_gender_male: "male" #NT!
+ feature_oltenic_mask_gender_female: "female" #NT!
+ feature_oltenic_mask_gender_androgynous: "androgynous" #NT!
+  
+ feature_oltenic_mask_visage_human_plain: "a [Artifact.GetFeatureText('oltenic_mask_expression')] [Artifact.GetFeatureText('oltenic_mask_gender')] face." #NT!
+ feature_oltenic_mask_visage_human_kathuni: "a vaguely [Concept('oltenic_kathuni_wars', 'Kathuni')|E] [Artifact.GetFeatureText('oltenic_mask_gender')] face." #NT!
+ feature_oltenic_mask_visage_human_aversarin: "a vaguely [aversarian|E] [Artifact.GetFeatureText('oltenic_mask_gender')] face." #NT!
+ feature_oltenic_mask_visage_human_parent: "the late [Artifact.MakeScope.Var('mask_likeness').GetCharacter.GetFullNameRegnal] for [Artifact.MakeScope.Var('mask_likeness').GetCharacter.GetHerHis] grieving [Artifact.GetOwner.Custom('GetDaughterSon')], [Artifact.GetOwner.GetTitledFirstName]." #NT!
+ feature_oltenic_mask_visage_human_child: "the late [Artifact.MakeScope.Var('mask_likeness').GetCharacter.GetTitledFirstName] for [Artifact.MakeScope.Var('mask_likeness').GetCharacter.GetHerHis] grieving [Artifact.GetOwner.GetMotherFather], [Artifact.GetOwner.GetFullNameRegnal]." #NT!
+ feature_oltenic_mask_visage_human_sibling: "the late [Artifact.MakeScope.Var('mask_likeness').GetCharacter.GetTitledFirstName] for [Artifact.MakeScope.Var('mask_likeness').GetCharacter.GetHerHis] grieving [Artifact.GetOwner.Custom('SisterBrother')], [Artifact.GetOwner.GetFullNameRegnal]." #NT!
+ feature_oltenic_mask_visage_human_spouse: "the late [Artifact.MakeScope.Var('mask_likeness').GetCharacter.GetTitledFirstName] for [Artifact.MakeScope.Var('mask_likeness').GetCharacter.GetHerHis] grieving [Artifact.GetOwner.Custom('WifeHusband')], [Artifact.GetOwner.GetFullNameRegnal]." #NT!
+ feature_oltenic_mask_visage_human_twin_faces: "the twin faces of [Artifact.GetOwner.GetTitledFirstName] and [Artifact.MakeScope.Var('mask_likeness').GetCharacter.GetTitledFirstName] that are joined in the middle." #NT!
+ feature_oltenic_mask_visage_human_old: "an old [Artifact.GetFeatureText('oltenic_mask_gender')] face." #NT!
+ feature_oltenic_mask_visage_human_young: "a young [Artifact.GetFeatureText('oltenic_mask_gender')] face." #NT!
+ feature_oltenic_mask_visage_human_baby: "a [Artifact.GetFeatureText('oltenic_mask_expression')] cherubic face." #NT!
+ feature_oltenic_mask_visage_human_beautiful: "a beautiful [Artifact.GetFeatureText('oltenic_mask_gender')] face." #NT!
+ feature_oltenic_mask_visage_human_hideous: "a hideous [Artifact.GetFeatureText('oltenic_mask_expression')] face." #NT!
+ feature_oltenic_mask_visage_human_otached: "the legendary [Concept('otachedian_empire', 'Otached')|E] himself." #NT!
+ feature_oltenic_mask_visage_human_ayran: "Ayran, the son of [Concept('otachedian_empire', 'Otached')|E] and father of [Concept('bayyuralar', 'Baytor')|E]." #NT!
+ feature_oltenic_mask_visage_human_kusan: "Kusan, [Concept('otachedian_empire', 'Otached’s')|E] wayward son." #NT!
+ feature_oltenic_mask_visage_human_ayar: "Ayar, the oft-forgotten son of [Concept('otachedian_empire', 'Otached')|E]." #NT!
+ feature_oltenic_mask_visage_human_ioa: "Ioa, the only daughter of the legendary [Concept('otachedian_empire', 'Otached')|E]." #NT!
+ feature_oltenic_mask_visage_human_baytor: "[Concept('bayyuralar', 'Baytor')|E], the last true Kagakhatan of the [otachedian_empire|E]." #NT!
+ feature_oltenic_mask_visage_human_mogha: "Mogha, the grandson of [Concept('otachedian_empire', 'Otached')|E] and brother of [Concept('bayyuralar', 'Baytor')|E]." #NT!
+ feature_oltenic_mask_visage_human_ogotei: "Ögotei Tankhatan, the leader of Khaiasheg, [Concept('bayyuralar', 'Baytor’s')|E] elite guard." #NT!
+ feature_oltenic_mask_visage_human_korsakai: "Korsakai Hayakhatan, the undisputed leader of Aironoan Ölteni in the aftermath of [bayyuralar|E]." #NT!
+ feature_oltenic_mask_visage_human_toragei: "Töragei Khatan, the warlord who led the Ölteni to Amaghea." #NT!
+  
+ feature_oltenic_mask_visage_bestial_horse: "a horse." #NT!
+ feature_oltenic_mask_visage_bestial_dog: "a [Artifact.GetFeatureText('oltenic_mask_expression')] dog." #NT!
+ feature_oltenic_mask_visage_bestial_cat: "a [Artifact.GetFeatureText('oltenic_mask_expression')] cat." #NT!
+ feature_oltenic_mask_visage_bestial_fox: "a [Artifact.GetFeatureText('oltenic_mask_expression')] fox." #NT!
+ feature_oltenic_mask_visage_bestial_mouse: "a mouse." #NT!
+ feature_oltenic_mask_visage_bestial_boar: "a boar." #NT!
+ feature_oltenic_mask_visage_bestial_hawk: "a hawk." #NT!
+ feature_oltenic_mask_visage_bestial_sparrow: "a sparrow." #NT!
+ feature_oltenic_mask_visage_bestial_frillneck_lizard: "a frillneck lizard." #NT!
+ feature_oltenic_mask_visage_bestial_viper: "a viper." #NT!
+ feature_oltenic_mask_visage_bestial_fish: "a fish." #NT!
+ feature_oltenic_mask_visage_bestial_bear: "a [Artifact.GetFeatureText('oltenic_mask_expression')] bear." #NT!
+ feature_oltenic_mask_visage_bestial_frog: "a frog." #NT!
+ feature_oltenic_mask_visage_bestial_wolf: "a [Artifact.GetFeatureText('oltenic_mask_expression')] wolf." #NT!
+ feature_oltenic_mask_visage_bestial_zilant: "the mighty zilant." #NT!
+ feature_oltenic_mask_visage_bestial_kursha: "a [Artifact.GetFeatureText('oltenic_mask_expression')] kursha." #NT!
+ feature_oltenic_mask_visage_bestial_elephant: "an elephant." #NT!
+ feature_oltenic_mask_visage_bestial_gaur: "the mighty gaur." #NT!
+ feature_oltenic_mask_visage_bestial_snow_leopard: "a [Artifact.GetFeatureText('oltenic_mask_expression')] snow leopard." #NT!
+ feature_oltenic_mask_visage_bestial_tiger: "a [Artifact.GetFeatureText('oltenic_mask_expression')] tiger." #NT!
+ feature_oltenic_mask_visage_bestial_jackal: "a [Artifact.GetFeatureText('oltenic_mask_expression')] jackal." #NT!
+ feature_oltenic_mask_visage_bestial_gajara: "a [Artifact.GetFeatureText('oltenic_mask_expression')] gajara." #NT!
+ feature_oltenic_mask_visage_bestial_peacock: "a peacock." #NT!
+  
+ feature_oltenic_mask_visage_other_demonic: "the face of a terrible demon." #NT!
+ feature_oltenic_mask_visage_other_featureless: "a featureless face." #NT!
+ feature_oltenic_mask_visage_other_twisted: "a twisted mockery of human form." #NT!
+ feature_oltenic_mask_visage_other_aelfir: "a disturbingly beautiful face with long pointed ears." #NT!
+ feature_oltenic_mask_visage_other_draconic: "a fierce dragon." #NT!
+ feature_oltenic_mask_visage_other_skull: "a skull." #NT!
+ feature_oltenic_mask_visage_other_upside_down: "an upside-down face, so that the wearer peers out from its mouth." #NT!
+ feature_oltenic_mask_visage_other_glitterhoof: "a majestic horse with a tag proclaiming its name as 'GLITTERHOOF'." #NT!
+ feature_oltenic_mask_visage_other_corncob: "an... end of a corncob?" #NT!
+ feature_oltenic_mask_visage_other_pickle: "a pickle." #NT!
+  
+ feature_oltenic_mask_expression_blank: "blank" #NT!
+ feature_oltenic_mask_expression_neutral: "neutral" #NT!
+ feature_oltenic_mask_expression_placid: "placid" #NT!
+ feature_oltenic_mask_expression_grinning: "grinning" #NT!
+ feature_oltenic_mask_expression_laughing: "laughing" #NT!
+ feature_oltenic_mask_expression_crying: "crying" #NT!
+ feature_oltenic_mask_expression_sobbing: "sobbing" #NT!
+ feature_oltenic_mask_expression_sad: "sad" #NT!
+ feature_oltenic_mask_expression_brooding: "brooding" #NT!
+ feature_oltenic_mask_expression_screaming: "screaming" #NT!
+ feature_oltenic_mask_expression_snarling: "snarling" #NT!
+ feature_oltenic_mask_expression_surprised: "surprised" #NT!
+ feature_oltenic_mask_expression_grimacing: "grimacing" #NT!
+ feature_oltenic_mask_expression_taunting: "taunting" #NT!
+ feature_oltenic_mask_expression_wary: "wary" #NT!
+ feature_oltenic_mask_expression_lecherous: "lecherous" #NT!
+ feature_oltenic_mask_expression_smirking: "smirking" #NT!
+ feature_oltenic_mask_expression_demure: "demure" #NT!
+ feature_oltenic_mask_expression_plump: "plump" #NT!
+ feature_oltenic_mask_expression_stout: "stout" #NT!
+ feature_oltenic_mask_expression_ravenous: "ravenous" #NT!
+ feature_oltenic_mask_expression_lethargic: "lethargic" #NT!
+ feature_oltenic_mask_expression_listless: "listless" #NT!
+ feature_oltenic_mask_expression_languid: "languid" #NT!
+ feature_oltenic_mask_expression_focused: "focused" #NT!
+ feature_oltenic_mask_expression_frowning: "frowning" #NT!
+ feature_oltenic_mask_expression_scowling: "scowling" #NT!
+ feature_oltenic_mask_expression_furious: "furious" #NT!
+ feature_oltenic_mask_expression_growling: "growling" #NT!
+ feature_oltenic_mask_expression_glowering: "glowering" #NT!
+ feature_oltenic_mask_expression_serene: "serene" #NT!
+ feature_oltenic_mask_expression_meditative: "meditative" #NT!
+ feature_oltenic_mask_expression_calm: "calm" #NT!
+ feature_oltenic_mask_expression_steady: "steady" #NT!
+ feature_oltenic_mask_expression_watchful: "watchful" #NT!
+ feature_oltenic_mask_expression_champing: "champing" #NT!
+ feature_oltenic_mask_expression_haughty: "haughty" #NT!
+ feature_oltenic_mask_expression_disdainful: "disdainful" #NT!
+ feature_oltenic_mask_expression_confident: "confident" #NT!
+ feature_oltenic_mask_expression_trustworthy: "trustworthy" #NT!
+ feature_oltenic_mask_expression_cowering: "cowering" #NT!
+ feature_oltenic_mask_expression_timid: "timid" #NT!
+ feature_oltenic_mask_expression_courageous: "courageous" #NT!
+ feature_oltenic_mask_expression_diffident: "diffident" #NT!
+ feature_oltenic_mask_expression_reticent: "reticent" #NT!
+ feature_oltenic_mask_expression_gentle: "gentle" #NT!
+ feature_oltenic_mask_expression_kindly: "kindly" #NT!
+ feature_oltenic_mask_expression_jovial: "jovial" #NT!
+ feature_oltenic_mask_expression_boisterous: "boisterous" #NT!
+ feature_oltenic_mask_expression_reverent: "reverent" #NT!
+ feature_oltenic_mask_expression_frightened: "frightened" #NT!
+ feature_oltenic_mask_expression_cruel: "cruel" #NT!
+ feature_oltenic_mask_expression_sinister: "sinister" #NT!
+ feature_oltenic_mask_expression_dark: "dark" #NT!
+ feature_oltenic_mask_expression_menacing: "menacing" #NT!
+ feature_oltenic_mask_expression_capricious: "capricious" #NT!
+ feature_oltenic_mask_expression_sly: "sly" #NT!
+ feature_oltenic_mask_expression_sneaky: "sneaky" #NT!
+ feature_oltenic_mask_expression_shifty: "shifty" #NT!
+ feature_oltenic_mask_expression_thoughtful: "thoughtful" #NT!
+ feature_oltenic_mask_expression_winking: "winking" #NT!
+ feature_oltenic_mask_expression_shrewd: "shrewd" #NT!
+ feature_oltenic_mask_expression_calculating: "calculating" #NT!
+ feature_oltenic_mask_expression_grizzled: "grizzled" #NT!
+ feature_oltenic_mask_expression_bellicose: "bellicose" #NT!
+ feature_oltenic_mask_expression_wizened: "wizened" #NT!
+ feature_oltenic_mask_expression_studious: "studious" #NT!
+ feature_oltenic_mask_expression_paternal: "paternal" #NT!
+ feature_oltenic_mask_expression_maternal: "maternal" #NT!
+ feature_oltenic_mask_expression_gallant: "gallant" #NT!
+ feature_oltenic_mask_expression_scheming: "scheming" #NT!
+ feature_oltenic_mask_expression_tipsy: "tipsy" #NT!
+ feature_oltenic_mask_expression_wasted: "wasted" #NT!
+ feature_oltenic_mask_expression_smarked: "smarked" #NT!
+ feature_oltenic_mask_expression_miserable: "miserable" #NT!
+ feature_oltenic_mask_expression_dejected: "dejected" #NT!
+ feature_oltenic_mask_expression_resigned: "resigned" #NT!
+ feature_oltenic_mask_expression_googly_eyes: "googly-eyed" #NT!
+  
+ feature_oltenic_mask_detail_runes: "[Artifact.GetFeatureText('oltenic_mask_detail_paint_color')]runes are [Artifact.GetFeatureText('oltenic_mask_detail_type')] the surface of the mask to invite luck" #NT!
+ feature_oltenic_mask_detail_prayers: "[Artifact.GetOwner.GetFaith.GetAdjective] lithanies are proudly [Artifact.GetFeatureText('oltenic_mask_detail_type')] the chin of the mask to ward against both demon and infidel" #NT!
+ feature_oltenic_mask_detail_religious_symbol: "[Artifact.GetOwner.GetFaith.ReligiousSymbol] is prominently [Artifact.GetFeatureText('oltenic_mask_detail_type')] the mask in a display of piety and devotion" #NT!
+ feature_oltenic_mask_detail_esoteric_scribbles: "a handful of esotheric scribbles are [Artifact.GetFeatureText('oltenic_mask_detail_type')] the mask in a bid to appease the spirits" #NT!
+ feature_oltenic_mask_detail_handprint: "a large [Artifact.GetFeatureText('oltenic_mask_detail_paint_color')]handprint is painted across the mask, inviting both dread and admiration from onlookers" #NT!
+ feature_oltenic_mask_detail_war_graffiti: "several martial blessings are [Artifact.GetFeatureText('oltenic_mask_detail_type')] the mask's forehead to ward off mortal blows and guide its wearer towards glory on the battlefield" #NT!
+ feature_oltenic_mask_detail_eye_rays_right: "dozens of deep grooves are radiating from the mask's right eye" #NT!
+ feature_oltenic_mask_detail_eye_rays_left: "dozens of deep grooves are radiating from the mask's left eye" #NT!
+ feature_oltenic_mask_detail_eye_rays_both: "dozens of deep grooves are radiating from both of the mask's eyes" #NT!
+ feature_oltenic_mask_detail_teardrop_right: "a stylized [Artifact.GetFeatureText('oltenic_mask_detail_paint_color')]teardrop is painted running down the mask's right cheek" #NT!
+ feature_oltenic_mask_detail_teardrop_left: "a stylized [Artifact.GetFeatureText('oltenic_mask_detail_paint_color')]teardrop is painted running down the mask's right cheek" #NT!
+ feature_oltenic_mask_detail_teardrop_both: "stylized [Artifact.GetFeatureText('oltenic_mask_detail_paint_color')]teardrops are painted running down both of the mask's cheeks" #NT!
+ feature_oltenic_mask_detail_too_many_eyes: "countless [Artifact.GetFeatureText('oltenic_mask_detail_paint_color')]eyes, big and small, are [Artifact.GetFeatureText('oltenic_mask_detail_type')] both the outside and the inside of the mask" #NT!
+ feature_oltenic_mask_detail_tribal_symbols: "sacred tribal oaths are [Artifact.GetFeatureText('oltenic_mask_detail_type')] the mask around its mouth" #NT!
+ feature_oltenic_mask_detail_inscriptions: "a few [Artifact.GetFeatureText('oltenic_mask_detail_paint_color')]inscriptions of personal nature are [Artifact.GetFeatureText('oltenic_mask_detail_type')] the mask just beneath its cheeks" #NT!
+ feature_oltenic_mask_detail_personal_legend: "a glorious recount of [Artifact.GetOwner.GetTitledFirstNameNicknamedPossessive] life and legend is boldly inscribed across the mask" #NT!
+ feature_oltenic_mask_detail_dynastic_legend: "a noble tale of the virtues of [Artifact.GetOwner.GetDynastyName] dynasty is carefully inscribed across the mask" #NT!
+ feature_oltenic_mask_detail_travel_list: "an extensive list of places to which [Artifact.GetOwner.GetTitledFirstNameNicknamed] had journeyed to is proudly inscribed across the mask" #NT!
+ feature_oltenic_mask_detail_forgive_me_mama: "a remorseful recount of the cruel realties of war is [Artifact.GetFeatureText('oltenic_mask_detail_type')] the right temple of the mask" #NT!
+ feature_oltenic_mask_detail_spirals: "a hypnotic [Artifact.GetFeatureText('oltenic_mask_detail_paint_color')]spiral is [Artifact.GetFeatureText('oltenic_mask_detail_type')] the surface of the mask" #NT!
+ feature_oltenic_mask_detail_fractals: "dizzying [Artifact.GetFeatureText('oltenic_mask_detail_paint_color')]fractal shapes are [Artifact.GetFeatureText('oltenic_mask_detail_type')] the mask, radiating outwards from its center" #NT!
+ feature_oltenic_mask_detail_historical_record: "historic records of [Artifact.GetOwner.GetCulture.GetName] origin are engraved onto the mask's forehead for the sake of future generations" #NT!
+ feature_oltenic_mask_detail_mini_masks: "two additional, smaller faces are skillfully engraved on the cheeks of the mask" #NT!
+ feature_oltenic_mask_detail_kill_notches: "several notches are carved onto the mask under one of its eyes to show the number of opponents that [Artifact.GetOwner.GetTitledFirstNameNicknamed] had slain in combat" #NT!
+ feature_oltenic_mask_detail_kill_notches_over_dozen: "over a dozen notches are carved onto the mask to show the number of opponents that [Artifact.GetOwner.GetTitledFirstNameNicknamed] had slain in combat" #NT!
+ feature_oltenic_mask_detail_kill_notches_innumerable: "the whole mask is covered in innumerable carved notches that show the hordes of opponents that [Artifact.GetOwner.GetTitledFirstNameNicknamed] had slain in combat" #NT!
+  
+ feature_oltenic_mask_detail_type_painted: "painted on" #NT!
+ feature_oltenic_mask_detail_type_carved: "carved onto" #NT!
+  
+ feature_oltenic_mask_detail_paint_color_red: "red " #NT!
+ feature_oltenic_mask_detail_paint_color_green: "green " #NT!
+ feature_oltenic_mask_detail_paint_color_blue: "blue " #NT!
+ feature_oltenic_mask_detail_paint_color_yellow: "yellow " #NT!
+ feature_oltenic_mask_detail_paint_color_purple: "purple " #NT!
+ feature_oltenic_mask_detail_paint_color_pink: "pink " #NT!
+ feature_oltenic_mask_detail_paint_color_orange: "orange " #NT!
+ feature_oltenic_mask_detail_paint_color_black: "black " #NT!
+ feature_oltenic_mask_detail_paint_color_white: "white " #NT!
+ feature_oltenic_mask_detail_paint_color_empty: "" #NT!
+  
+ feature_oltenic_mask_addon_bands_of_wood: "it is banded with fine wood" #NT!
+ feature_oltenic_mask_addon_bands_of_iron: "it is banded with wrought iron" #NT!
+ feature_oltenic_mask_addon_bands_of_steel: "it is banded with quality steel" #NT!
+ feature_oltenic_mask_addon_colorful_ribbons: "it is adorned with colorful ribbons" #NT!
+ feature_oltenic_mask_addon_horse_hair_ponytail: "it is topped by a bushy head of horse-hair" #NT!
+ feature_oltenic_mask_addon_sculpted_beard: "it has a large sculpted beard" #NT!
+ feature_oltenic_mask_addon_gem_inlay: "it is set with pieces of [Artifact.GetFeatureText('decoration_material_gem')]" #NT!
+ feature_oltenic_mask_addon_gem_cabochon: "it is adorned with a large [Artifact.GetFeatureText('decoration_material_gem')] cabochon" #NT!
+ feature_oltenic_mask_addon_shrouded_eyes: "its gaze is constantly shrouded by a magical illusion" #NT!
+ feature_oltenic_mask_addon_glowing_eyes: "eerie glow is leaking from behind its eyeholes" #NT!
+ feature_oltenic_mask_addon_glowing_runes: "it is adorned with brightly glowing ritual sigils" #NT!
+ feature_oltenic_mask_addon_shifting_features: "it is constantly shifting, rearranging its features as pleases the wearer" #NT!
+ feature_oltenic_mask_addon_iridescent: "it is strikingly iridescent, changing color depending on the angle one looks at it" #NT!
+ feature_oltenic_mask_addon_reflective: "it is unnaturally reflective, beyond what even the finest mirror can achieve" #NT!
+ feature_oltenic_mask_addon_shimmering: "it is subtly shimmering, as if it is not entirely of this world" #NT!
+ feature_oltenic_mask_addon_glowing_gems: "it is inlaid with several glowing magical gems" #NT!
+  
+ oltenic_mask_decoration_detail_and_addon: " [ROOT.Artifact.GetFeatureText('oltenic_mask_addon')|U], and [ROOT.Artifact.GetFeatureText('oltenic_mask_detail')]." #NT!
+ oltenic_mask_decoration_addon: " [ROOT.Artifact.GetFeatureText('oltenic_mask_addon')|U]." #NT!
+ oltenic_mask_decoration_detail: " [ROOT.Artifact.GetFeatureText('oltenic_mask_detail')|U]." #NT!
+ oltenic_mask_decoration_none_alt: " It is otherwise rather plain, yet still striking in appearance." #NT!
+ oltenic_mask_decoration_none: " It is otherwise quite plain and lacks any pretense of opulence." #NT!
+  
+ awakened_mask_name_bound: "Bound Mask of [defiled_nadir_caster.GetTitledFirstName]" #NT!
+ awakened_mask_name_dormant: "Dormant Mask" #NT!
+ awakened_mask_name_vitiated: "Vitiated Mask" #NT!
+ awakened_mask_desc_1: "[defiled_nadir_mask.GetDesc]\n\nEver since [defiled_nadir_mask.GetOwner.GetNamePossessive] passing, it feels slightly warm to the touch." #NT!
+ awakened_mask_desc_2: "[defiled_nadir_mask.GetDesc]\n\nAfter the death of [defiled_nadir_mask.GetOwner.GetName], distant whispers can be heard in the vicinity of the mask." #NT!
+ awakened_mask_desc_3: "[defiled_nadir_mask.GetDesc]\n\nOnce worn by the late [defiled_nadir_mask.GetOwner.GetName], it has seemingly taken on a life of its own." #NT!
+ awakened_mask_desc_4: "[defiled_nadir_mask.GetDesc]\n\n#XBAnd now, the mask is ice-cold and the spirits inside are screaming.#!" #NT!
+ awakened_mask_reclaimed.tt: "You have reclaimed your bound mask" #NT!
+  
+ artifact_spiritshard: "Shard" #NT!
+ spiritshard: "Spiritshard" #NT!
+ spiritshard_desc: "Although their exact origin is unknown, Spiritshards are generally viewed as remnants of powerful [aspect_dream|color:{0.65,0.65,1.0}] entities that have met their end due to being forced to comprehend their own nonexistence. Worth more than a king's ransom and vanishingly rare, they are typically used as powerful [ritual|E] foci by the few [magi|E] lucky enough to possess them." #NT!
+  
+ artifact_effigy: "Статуэтка"
+ artifact_mirror: "Зеркало"
+  
+ fogged_artifact_desc: "[newly_created_artifact.GetDesc]\n\nТе, у кого слабая воля, съеживаются и потеют в присутствии этого неестественного предмета."
+ fogged_artifact_inspiration_desc: "[this_artifact.GetDesc]\n\nТе, у кого слабая воля, съеживаются и потеют в присутствии этого неестественного предмета."
+ fogged_artifact_inspiration_name: "Туман [this_artifact.GetNameNoTooltip]"
+  
+ fogged_artifact_name: "Туман [newly_created_artifact.GetNameNoTooltip]"
+  
+ fund_inspiration.5011.f: "Великолепный посох, способный усилить мою магию."
+ fund_inspiration.5011.g: "A pristine bone, thrumming with magic, to craft with." #NT!
+ gain_griffon_familiar.tt: "[GetTrait('gh_griffon_trait').GetName(GetNullCharacter)] присоединяется к вашему [court|E] как #E Знакомый#!"
+ gave_artifacts_opinion: "Дал Артефакты"
+  
+ gh_armor_black_sun_description: "Доспехи Никанонея «Черное Солнце». Несмотря на то, что он был относительно неизвестен, его кампании на западе и его упорная вера в своих людей привели к тому, что его солдаты обожествили его."
+ gh_armor_black_sun_name: "Доспех Черного Солнца"
+  
+ gh_helmet_black_sun_description: "Маска Никанонея «Черное Солнце». Несмотря на то, что он был относительно неизвестен, его кампании на западе и его упорная вера в своих людей привели к тому, что его солдаты обожествили его. Никаноней, увидев возможность, решил использовать их любовь в своих целях. Этот красивый шлем был создан именно для этой цели: он скрывал боевые шрамы Никанонея и делал его фигурой из потустороннего мира."
+ gh_helmet_black_sun_name: "Шлем Черного Солнца"
+  
+ gh_helmet_skull_helmet_description: "Этот мрачный головной убор был изготовлен Горасосом «Собирателем Черепов» из черепов многочисленных врагов, которых он сразил в бою."
+ gh_helmet_skull_helmet_name: "Череп Шлем"
+  
+ gift_artifact: "Подарочные артефакты"
+ gift_artifacts_interaction: "Подарочные артефакты"
+ gift_artifacts_interaction_desc: "#size:15 Подарите этому человеку артефакт"
+ gift_artifacts_interaction_notification: "Одаренный Артефакт"
+ indestructible_artifact: "#P Неразрушимый#!"
+ magic_bone_power_name: "#E Магия#!:@magic_icon!"
+  
+ magic_staff_power_desc: "[magic|E] получено от мощных артефактов"
+ magic_staff_power_name: "#E Магия#!:@magic_icon!"
+  
+ make_new_artifact.desc: "Вооружение, доспехи и регалии правителя. Пришло время заказать что-нибудь, чтобы показать себя на голову выше своих сверстников. Вопрос только в том, чего я хочу и сколько я готов потратить..."
+ make_new_artifact.effect.tt: "Я смогу выбрать, какой тип артефакта я хочу выковать и какое качество предмета я хочу, хотя конечный результат может измениться..."
+ make_new_artifact.tt: "Начать создание нового артефакта."
+ make_new_artifact: "Создание предмета"
+ make_new_artifact_confirm: "Начнем."
+ mysterious_enigmatic: "загадочный"
+ mysterious_forbidden: "Запрещенный"
+ mysterious_forgotten: "Забытый"
+ mysterious_hidden: "Скрытый"
+ mysterious_secret: "Секрет"
+ mysterious_shrouded: "окутанный"
+ mysterious_veiled: "завуалированный"
+ mystery_noun_plural_conundrums: "Загадки"
+ mystery_noun_plural_enigmas: "загадки"
+ mystery_noun_plural_mysteries: "Тайны"
+ mystery_noun_plural_riddles: "Загадки"
+ mystery_noun_plural_secrets: "Секреты"
+ mythology_fables: "Басни"
+ mythology_folklore: "Фольклор"
+ mythology_legends: "Легенды"
+ mythology_lore: "Лор"
+ mythology_mythology: "Мифология"
+ mythology_myths: "Мифы"
+ mythology_tales: "Сказки"
+ organization_brotherhood: "Братство"
+ organization_cabal: "Кабал"
+ organization_fraternity: "Братство"
+ organization_order: "Заказ"
+ organization_organization: "Организация"
+ organization_sisterhood: "Сестричество"
+ organization_society: "Общество"
+ organization_sorority: "женское общество"
+ rites_customs: "Таможня"
+ rites_practices: "Практики"
+ rites_rites: "Обряды"
+ rites_rites_and_practices: "Обряды и практики"
+ rites_rituals: "Ритуалы"
+ rites_sacraments: "Таинства"
+ rites_traditions: "Традиции"
+ selected_artifact: "[ROOT.Var('artifact_selection').GetFlagName]"
+ selected_artifact_desc: "#size:15 [GetPlayer.Custom('GetSelectedArtifactDesc')]"
+ selected_artifact_equipped: "[GetPlayer.Custom('GetSelectedArtifactEquipped')]"
+ selected_artifact_indestructible: "[GetPlayer.Custom('GetSelectedArtifactIndestructible')]"
+ selected_artifact_rarity: "[GetPlayer.Custom('GetSelectedArtifactRarity')]"
+ selected_artifact_title: "[GetPlayer.Custom('GetSelectedArtifactTitle')]"
+ selected_artifact_type: "[GetPlayer.Custom('GetArtifactType')]"
+ send_artifacts: "Отправить артефакты"
+ steal_all_artifacts: "Украсть все артефакты"
+ steal_all_artifacts_desc: "#size:15 Украсть артефакты этого человека"
+ steal_all_artifacts_notification: "Артефакты украдены"
+ #TABLE_OF_CONTENTS_HEADER: "ОГЛАВЛЕНИЕ"
+ talavara_description: "Талавара Ванеламакир, также известный как «Меч нарисованных», является самым древним знаком царской власти Рахикайи. С его помощью достойные смогут претендовать на трон всего Кафасали."
+ talavara_name: "Талавара Ванеламакир"
+  
+ weapon_staff_inspiration_description: "персонал"
+ weapon_staff_inspiration_name: "персонал"
+  
+  
+ artifact_belar_seal_description: "На этой инкрустированной драгоценными камнями серебряной печати изображена эмблема [boqqarut_damotada|E], окруженная художественным изображением стены. Он использовался во время [belar_dynasty|E], его знак ставился на такие заказы, как строительство Ироти Дамотада, и сохранялся потомками династии даже после их падения от власти."
+ artifact_belar_seal_name: "Печать Беларов"
+  
+ #artifact_belar_seal_description: "На этой инкрустированной драгоценными камнями серебряной печати изображена эмблема [boqqarut_damotada|E], окруженная художественным изображением стены. Он использовался во время [belar_dynasty|E], его знак ставился на такие заказы, как строительство Ироти Дамотада, и сохранялся потомками династии даже после их падения от власти."
+ #artifact_belar_seal_name: "Печать Беларов"
+  
+ artifact_mesir_seal_description: "На этой бронзовой печати изображен череп и надпись «Один правитель и одна миссия». Он использовался [mesir_dynasty|E], потенциально украшая такие ордена, как [karururi_chorus|E] и формируя сам [boqqarut|E]."
+ artifact_mesir_seal_name: "Печать Месиров"
+  
+ #artifact_mesir_seal_description: "На этой бронзовой печати изображен череп и надпись «Один правитель и одна миссия». Он использовался [mesir_dynasty|E], потенциально украшая такие ордена, как [karururi_chorus|E] и формируя сам [boqqarut|E]."
+ #artifact_mesir_seal_name: "Печать Месиров"
+  
+  
+  
+ artifact_necklace_of_the_baarilka_description: "Это ожерелье было захвачено силами [boqqarut_damotada|E] примерно в 500 г. ИС у племени, которое они называли «Баарилка», или «Западные люди». Поскольку Адабисс уничтожил исходную культуру вскоре после ее приобретения, ожерелье теперь, пожалуй, является единственным материальным свидетельством ныне потерянного племени."
+ artifact_necklace_of_the_baarilka_name: "Ожерелье Баарилки"
+  
+  
+ #artifact_necklace_of_the_baarilka_description: "Это ожерелье было захвачено силами [boqqarut_damotada|E] примерно в 500 г. ИС у племени, которое они называли «Баарилка», или «Западные люди». Поскольку Адабисс уничтожил исходную культуру вскоре после ее приобретения, ожерелье теперь, пожалуй, является единственным материальным свидетельством ныне потерянного племени."
+ #artifact_necklace_of_the_baarilka_name: "Ожерелье Баарилки"
+  
+  
+  
+ artifact_olani_seal_description: "На этой золотой печати изображена эмблема [boqqarut_damotada|E] и надпись «Ас Боккар и Кихинет». Он использовался во время [olani_dynasty|E], и его отпечаток был отмечен такими важными приказами, как создание [rayakuux_orders|E] и формализация Голкави."
+ artifact_olani_seal_name: "Печать Оланиса"
+  
+ #artifact_olani_seal_description: "На этой золотой печати изображена эмблема [boqqarut_damotada|E] и надпись «Ас Боккар и Кихинет». Он использовался во время [olani_dynasty|E], и его отпечаток был отмечен такими важными приказами, как создание [rayakuux_orders|E] и формализация Голкави."
+ #artifact_olani_seal_name: "Печать Оланиса"
+  
+  
+ artifact_skull_of_kayoba_description: "Этот неукрашенный череп предположительно принадлежал Боккару Кайобе, последнему правителю [zalreb_dynasty|E] и самого [boqqarut|E]. Как и у любого другого Боккара, его череп был магическим образом сохранен после его смерти и в конечном итоге был показан в [GetBuilding('01_tabik_betemisit').GetName]. Однако прежде чем это могло произойти, череп исчез, а битва при Захали и начало [etami_tetenik|E] сделали все попытки его поиска тщетными."
+ artifact_skull_of_kayoba_name: "Череп Кайобы"
+ #artifact_skull_of_kayoba_description: "Этот неукрашенный череп предположительно принадлежал Боккару Кайобе, последнему правителю [zalreb_dynasty|E] и самого [boqqarut|E]. Как и у любого другого Боккара, его череп был магическим образом сохранен после его смерти и в конечном итоге был показан в [GetBuilding('01_tabik_betemisit').GetName]. Однако прежде чем это могло произойти, череп исчез, а битва при Захали и начало [etami_tetenik|E] сделали все попытки его поиска тщетными."
+ #artifact_skull_of_kayoba_name: "Череп Кайобы"
+  
+ artifact_spear_of_eshwo_description: "Этим наконечником копья с большим изумрудом, инкрустированным в его наконечник, владел Эшво во время [war_of_songs|E]. Хотя это оружие, скорее всего, никогда не использовалось непосредственно в бою, оно является мощным символом, изображенным в бесчисленных произведениях дамотского искусства в честь их легендарного основателя."
+ artifact_spear_of_eshwo_name: "Копье Эшво"
+ #artifact_spear_of_eshwo_description: "Этим наконечником копья с большим изумрудом, инкрустированным в его наконечник, владел Эшво во время [war_of_songs|E]. Хотя это оружие, скорее всего, никогда не использовалось непосредственно в бою, оно является мощным символом, изображенным в бесчисленных произведениях дамотского искусства в честь их легендарного основателя."
+ #artifact_spear_of_eshwo_name: "Копье Эшво"
+  
+  
+ artifact_zalreb_seal_description: "На этой довольно простой серебряной печати изображена эмблема [boqqarut_damotada|E] с копьями, окружающими знамя. Он использовался во время [zalreb_dynasty|E], его знак ставился на такие приказы, как чистки Ралери и [ayule_expedition|E]."
+ artifact_zalreb_seal_name: "Печать Залребов"
+  
+ artifact_abyssal_prism_name: "Abyssal Prism" #NT!
+ artifact_abyssal_prism_noncultist_desc: "This curious prism seems to trap all light within it, and one can see no end when looking through it. Though innocuous, its unnerving nature gives the impression that it's capable of untold destruction..." #NT!
+ artifact_abyssal_prism_cultist_desc: "[extended_magic_baseline|E]:@magic_icon!#positive_value; +500#!\nThe last component to finally fulfill our dark masters' bidding. Utter Sundeath is finally at hand...\n" #NT!
+ #artifact_abyssal_prism_modifier: "Abyssal Prism" #NT!
+ #artifact_abyssal_prism_modifier_desc: "Abyssal Prism.\n\n[extended_magic_baseline|E]:@magic_icon!#positive_value; +500#!" #NT!
+ artifact_sun_prism_name: "Imprisoned Sun" #NT!
+ artifact_sun_prism_desc: "This prism radiates with the unfathomable power of the imprisoned Sun, in all its former glory." #NT!
+  
+ #artifact_zalreb_seal_description: "На этой довольно простой серебряной печати изображена эмблема [boqqarut_damotada|E] с копьями, окружающими знамя. Он использовался во время [zalreb_dynasty|E], его знак ставился на такие приказы, как чистки Ралери и [ayule_expedition|E]."
+ #artifact_zalreb_seal_name: "Печать Залребов"
+  
+ prism: "Prism" #NT!
+ artifact_prism: "Prism" #NT!
+  
+  
+  # Aervalr Shard Quality 
+  
+ artifact_aervalr_shard_name: "$artifact_name_prefix$ Aervalr Shard" #NT!
+ artifact_aervalr_shard_description: "A piece of [aervalr|E], fallen from the heavens. It is said these rocks can act as resevoirs of potent magical energy, and they have proven to be exceptional boons to the rare [magi|E] that possess one.\n\n[newly_created_artifact.GetFeatureText( 'shard_quality' )]" #NT!
+  
+ feature_shard_quality_crumbling: "This one crumbles at the touch." #NT!
+ feature_shard_quality_cracked: "This one is jagged and cracked nearly in two." #NT!
+ feature_shard_quality_sharp: "This one has sharp angles and a crystal embedded in it." #NT!
+ feature_shard_quality_glowing: "This one glows in the light as if lit from the inside." #NT!
+ aervalr_shard: "[aervalr|E] Shard" #NT!
+ artifact_aervalr_shard: "[aervalr|E] Shard" #NT!

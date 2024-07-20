@@ -1,21 +1,65 @@
 ﻿l_russian:
  #ACCOLADE NAME COMPONENTS 
   
- accolade_griffon: "Грифон"  #Машинный перевод 28.10.23!
- accolade_hippogriff: "Гиппогриф"  #Машинный перевод 28.10.23!
+ accolade_griffon:89 "Грифон"
+ accolade_hippogriff:89 "Гиппогриф"
   
- accolade_the_impure: "нечистый"  #Машинный перевод 28.10.23!
- accolade_nonhumans: "Нелюди"  #Машинный перевод 28.10.23!
- accolade_voidspawn: "Нелюди"  #Машинный перевод 28.10.23!
- accolade_imperials: "Имперцы"  #Машинный перевод 28.10.23!
- accolade_the_empire: "империя"  #Машинный перевод 28.10.23!
+ accolade_the_impure:89 "нечистый"
+ accolade_nonhumans:89 "Нелюди"
+ accolade_voidspawn:89 "Нелюди"
+ accolade_imperials:89 "Имперцы"
+ accolade_the_empire:89 "империя"
   
- accolade_bloodcrystal: "Кровавый Кристалл"  #Машинный перевод 28.10.23!
- accolade_magi_steel: "Маги Сталь"  #Машинный перевод 28.10.23!
+ accolade_bloodcrystal:89 "Кровавый Кристалл"
+ accolade_magi_steel:89 "Маги Сталь"
   
- mammothry_attribute_modifier: "$mammothry_attribute$ [acclaimed_knight|E]"  #Машинный перевод 28.10.23!
- mammothry_attribute: "Мамонтовый всадник"  #Машинный перевод 28.10.23!
- accolade_mammoth_riding: "Верховая езда на мамонте"  #Машинный перевод 28.10.23!
- accolade_mammotheer: "Мамонтовый всадник"  #Машинный перевод 28.10.23!
- accolade_maa_mammothiers_only_available_on_primary: "#color_red НЕ: [GetMaA('accolade_maa_mammothiers').GetName] (требуется основной [accolade_type|E])#!"  #Машинный перевод 28.10.23!
- accolade_mammoths: "Мамонты"  #Машинный перевод 28.10.23!
+ mammothry_attribute_modifier:89 "$mammothry_attribute$ [acclaimed_knight|E]"
+ mammothry_attribute:89 "Мамонтовый всадник"
+ accolade_mammoth_riding:89 "Верховая езда на мамонте"
+ accolade_mammotheer:89 "Мамонтовый всадник"
+ accolade_maa_mammothiers_only_available_on_primary:89 "#color_red НЕ: [GetMaA('accolade_maa_mammothiers').GetName] (требуется основной [accolade_type|E])#!"
+ accolade_mammoths:89 "Мамонты"
+  
+ accolade_maa_magi_only_available_on_primary:90 "#color_red НЕ: [GetMaA('accolade_maa_magi').GetName] (требуется основной [accolade_type|E])#!"
+ accolade_maa_chariot_cavalry_only_available_on_primary:90 "#color_red НЕ: [GetMaA('accolade_maa_chariot_cavalry').GetName] (требуется основной [accolade_type|E])#!"
+ accolade_maa_adventurers_only_available_on_primary:90 "#color_red НЕ: [GetMaA('accolade_maa_adventurers').GetName] (требуется основной [accolade_type|E])#!"
+ accolade_maa_monsters_only_available_on_primary:90 "#color_red НЕ: [GetMaA('accolade_maa_monsters').GetName] (требуется основной [accolade_type|E])#!"
+  
+ magi_attribute_modifier:89 "$magi_attribute$ [acclaimed_knight|E]"
+ magi_attribute:90 "Маги"
+ monster_attribute:90 "Монстры"
+ adventurer_attribute:90 "Авантюристы"
+ charioteer_attribute:90 "Возничие"
+  
+ accolade_magi_leading:90 "Ведущие маги"
+ accolade_magi:90 "Маги"
+ accolade_sorcerers:90 "Колдуны"
+ accolade_warlocks:90 "Колдуны"
+ accolade_spellcasters:90 "Заклинатели"
+ accolade_magisters:90 "Магистры"
+ accolade_practitioners:90 "Практикующие"
+ accolade_fey_weavers:90 "Фейри-ткачи"
+ accolade_tamed:90 "Укрощенные"
+ accolade_monster:90 "Монстры"
+ accolade_chariot_riding:90 "Езда на колеснице"
+ accolade_charioteer:90 "Возничий"
+ accolade_adventuring:90 "Искатели приключений"
+ accolade_adventurer:90 "Авантюристы"
+ accolade_cabal_leader:90 "Предводитель заговорщиков"
+ accolade_ritualmaster:90 "Мастер ритуала"
+ accolade_first_enchanter:90 "Первый чародей"
+ accolade_archmagi:90 "Архимаги"
+ accolade_scrolls:90 "Свитки"
+ accolade_esoterica:90 "Эзотерика"
+ accolade_arcana:90 "Аркана"
+ accolade_orbs:90 "Сферы"
+ accolade_staves:90 "Шесты"
+ accolade_wands:90 "Жезлы"
+ accolade_rituals:90 "Ритуалы"
+ accolade_of_the_cabal:90 "из клики заговорщиков"
+ accolade_of_the_spellmasters:90 "из мастеров заклинаний"
+ accolade_of_the_magi:90 "из магов"
+ accolade_the_magi:90 "маги"
+ accolade_enchanter:90 "Чародей"
+ accolade_witches:90 "Ведьмы"
+ accolade_shaman:90 "Шаман"

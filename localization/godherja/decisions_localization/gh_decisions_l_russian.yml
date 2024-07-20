@@ -1,2 +1,876 @@
 ﻿l_russian:
- amsari_vassals_will_convert: "Поскольку я Амсари, мои [Concept('tribal','племенные')|E] вассалы перейдут к [Concept('clan','клановому')|E] управлению."
+ reunite_the_empire_decision: "Воссоединение Империи"
+ reunite_the_empire_decision_tooltip: "Воссоедините Аверсарианскую Аавтократу и вновь объедините всех аверсарианцев под единым знаменем!"
+ reunite_the_empire_decision_desc: "Горе детям [Concept('aversaria','Аверсарии')|E]! Когда-то мы были целыми и сильными, правили [Concept('continent','континентом')|E] и распространялись по миру - наше право по рождению, - как мы того заслуживали. Годы прошлого не были к нам благосклонны, но больше нет!\n\nМы вновь объединили под единым знаменем большую часть центральных владений Аавтократии, и теперь настало время провозгласить себя истинными наследниками великой империи древности!"
+ reunite_the_empire_decision_titles_tt: "Все основные [Concept('aversarian','аверсарианские')|E] [Concept('empire','империи')|E], которыми вы владеете и которые полностью контролируете, будут уничтожены, а их территории станут [Concept('de_jure','де-юре')|E] принадлежать вашему новому основному титулу (Аверсарианская Аавтократа)"
+ reunite_the_empire_decision_titles_empire_tt: "Все принадлежащие вам [Concept('title','титулы')|E] западнославянских [Concept('kingdom','королевств')|E] (кроме вашего [Concept('primary_title','основного титула'))|E]), будут уничтожены, а их территории станут [Concept('de_jure','де-юре')|E] принадлежать случайному западнославянскому королевству."
+ reunite_the_empire_decision_confirm: "Воссоединить Империю"
+ reunite_the_empire_valid_desc: "Должны контролировать не менее 4 традиционных провинций [Concept('aversaria','Аверсарии')|E], Катраддия и Калатипсоми считаются за две."
+ reunite_the_empire_valid_desc_short: "Поскольку вы владеете [Concept('artifact','артефактом')|E] "Аверсарская корона", вы должны контролировать как минимум 1 из традиционных провинций [Concept('aversaria','Аверсарии')|E], считая Катраддию и Калатипсоми за две."
+  
+ reunite_the_north_decision: "Воссоединить Север"
+ reunite_the_north_decision_tooltip: "Провозгласить себя законным преемником Аверсарии, находящимся в [GetTitleByKey('c_oraispol').GetNameNoTier]."
+ reunite_the_north_decision_desc: "Некогда находившаяся на грани краха из-за орд варваров северная часть [Concept('aversaria','Аверсарии')|E] воссоединилась под моей властью. Теперь я не просто мелкий военачальник, и [GetTitleByKey('c_oraispol').GetNameNoTier] снова является резиденцией грозного королевства."
+ reunite_the_north_decision_oraispol_capital_tt: "Наша столица расположена в [GetTitleByKey('c_oraispol').GetNameNoTier]."
+ reunite_the_north_decision_confirm: "Воссоединить Север"
+  
+ reunite_the_south_decision: "Воссоединить Юг"
+ reunite_the_south_decision_tooltip: "Провозгласить себя законным преемником Аверсарии, находящимся в [GetTitleByKey('c_asiupoli').GetNameNoTier]."
+ reunite_the_south_decision_desc: "Бесчисленные военачальники юга были раздавлены под нашими сапогами, а сильно пострадавший, но все еще славный город [GetTitleByKey('c_asiupoli').GetNameNoTier] находится в наших руках. Поскольку в старой столице [GetTitleByKey('c_oraispol').GetNameNoTier] нет законного преемника, на нас ложится обязанность принять мантию правления."
+ reunite_the_south_decision_asiupoli_capital_tt: "Наша столица расположена в [GetTitleByKey('c_asiupoli').GetNameNoTier]."
+ reunite_the_south_decision_confirm: "Воссоединить Юг"
+  
+ reintegrate_core_aversarian_territory: "Реинтегрировать оставшихся"
+ reintegrate_core_aversarian_territory_desc: "Наконец-то территории, отколовшиеся от Империи Чистейших, могут быть возвращены в лоно, где им самое место. Нечистые расы когда-то считали [Concept('aversaria','Аверсарию')|E] мертвой и исчезнувшей, но что может быть лучшим знаком нашего возрождения? Мир признает наше возвращение и будет трепетать при виде возрождения нашей славной империи."
+ pryonism_negative_dreams: "Показать негативные сны"
+ pryonism_positive_dreams: "Показать позитивные сны"
+ pryonism_negative_dreams_desc: "Влияйте на их сны с помощью ужасных кошмаров."
+ pryonism_positive_dreams_desc: "Влияйте на их сны с помощью образов рая."
+ kemsar_towers_decision: "Восстановление Так'хана"
+ kemsar_towers_decision_tooltip: "Получите право собственности на все святые места нашей религии и начните процесс восстановления этих древних охранных сооружений!"
+ kemsar_towers_decision_desc: "Когда-то давно Тот, Кто Был, доверил нам священную задачу, а мы его подвели! Мы вернемся к зениту нашего могущества и вновь возьмем на себя мантию служения, которую мы оставили на долгие годы.\n\nПуть предстоит долгий, трудный, полный страданий, но мы пройдем его ради всех."
+ kemsar_towers_decision_confirm: "Наш долг выполнен, Его воля будет исполнена."
+  
+ announce_aversaria_voreias_decision: "Провозгласить Аверсария Ворейас"
+ announce_aversaria_voreias_decision_desc: "Первый шаг к восстановлению нашей священной родины сделан. На севере был создан плацдарм, чтобы противостоять орде Сьялволки. Пришло время мне короновать себя Аавтократором новой [Concept('aversaria','Аверсарии')|E] и готовиться к походу на юг..."
+ announce_aversaria_voreias_decision_tt: "Вы создаете титул [GetTitleByKey('e_aversaria_voreias').GetNameNoTier]\nБудут доступны новые решения"
+ announce_aversaria_voreias_decision_confirm: "Провозгласить Аверсария Ворейас"
+ announce_aversaria_voreias_decision_tooltip: "Объявить о создании новой северной [Concept('aversaria','Аверсарии')|E], посвященной отвоеванию старой"
+ convert_to_suncult_decision: "Провозгласить себя воплощением Чистейшего"
+ convert_to_suncult_decision_desc: "Если есть хоть какая-то надежда на будущее Империи, она должна обрести новый дух, который поведет ее к победе. Дух, который проповедует полное доверие к видению лидера и непоколебимое следование каждому его приказу. Такой, который поощряет фанатичную преданность до смерти.\n\nА где еще можно найти такой фанатизм, как не в вере?"
+ convert_to_suncult_decision_confirm: "Обратить всех в культ Чёрного Солнца"
+ convert_to_suncult_decision_tooltip: "Пришло время всем преклонить колени и поклониться мне."
+ pryonism_decision: "Читать мысли"
+ pryonism_decision_desc: "Пора почитать мысли и узнать суперсекретные тайны, например, что Ричард Никсон совершил ограбление "Wet n' Wild Water Heist" Трики Дика в 1967 году."
+ pryonism_decision_confirm: "Прочитать их мысли."
+ contact_spirits: "Контакт с духами"
+ contact_spirits_desc: "Я свяжусь с духами и узнаю их тайны."
+ raise_spirit_army: "Поднять армию из духов"
+ raise_spirit_army_desc: "Поднятие духов - дело опасное, но возможность получить легион лучших воинов, которых может предложить это королевство, с дополнительным преимуществом в виде почти полной невосприимчивости к битвам, слишком хороша, чтобы упустить ее."
+ hire_court_magi_decision: "Найти мага"
+ hire_court_magi_decision_desc: "Придворный [Concept('magi','маг')|E] необходим для поддержания магических обязанностей и обучения тех, кто желает учиться при дворе. Я прикажу своим слугам прочесать землю в поисках талантливых кандидатов, готовых служить мне."
+ hire_court_magi_decision_tooltip: "Вам будет представлена группа [Concept('magi','магов')|E], и вы сможете нанять одного из них за определенную плату."
+ hire_court_magi_decision_effect_tooltip: "Вы будете искать #E придворного#! [Concept('magi','мага')|E], который войдет в ваш Совет."
+ hire_court_magi_decision_confirm: "Начать поиски!"
+ hire_court_magi_decision_desc_tooltip: "Вы будете искать [Concept('magi','мага')|E]"
+ spirit_journey_decision: "Отправиться в духовное путешествие"
+ spirit_journey_decision_desc: "Моя религия допускает путешествие в Царство Духов. С помощью силы грибов я познаю секреты Вселенной"
+ spirit_journey_decision_tooltip: "Отправляйтесь в духовное путешествие и познайте истинную природу Вселенной"
+ spirit_journey_trigger: "В настоящее время вы не можете отправиться в духовное путешествие."
+ spirit_journey_effect: "Вы приобретете благочестие и престиж за счет золота; чем больше вы рискуете, тем больше вы получите."
+ spirit_journey_confirm: "В Царство Духов"
+ eastern_reforms_side_governor_decision: "Обвинить Хатан Алтана"
+ eastern_reforms_side_governor_decision_desc: "Хатан Алтан и олтенские племена, хотя и часто заявляли о своей верности [Concept('aversaria','Аверсарии')|E], на протяжении веков, как известно, желали править Аироноем. Дестабилизация Легиона, несомненно, дала бы им прекрасную возможность, и многие факторы, кажется, указывают на то, что, если не Алтан напрямую, то к смерти Валерикса приложили руку олтенские племена.\n\nВ свое оправдание Алтан напомнил мне, что они с Валериксом были в дружеских отношениях и что Валерикс никогда бы не смог пройти на запад из степей, если бы олтенские люди не провели их домой.\n\nГубернатор Тетрадиа сообщил нам, что если мы сговоримся с олтенскими людьми по этому вопросу, то он с радостью окажет нам финансовую и военную помощь и обещает, что после того, как Валерикс будет отомщен, легион станет владельцем олтенских владений на востоке. Однако, несомненно, это свяжет нас с Тетрадией теснее, чем что-либо другое, и любые мечты о реформах будут сильно затруднены..."
+ eastern_reforms_side_governor_decision_confirm: "Алтан — убийца, готовьте людей"
+ eastern_reforms_side_mongols_decision: "Обвинить губернатора Тетрадия"
+ eastern_reforms_side_mongols_decision_desc: "Губернатор Тетрадиа много лет враждовал с Валериксом из-за судьбы Аавтократы. Хотя Валерикс обещал помочь ему вернуть [GetTitleByKey('c_asiupoli').GetNameNoTier], губернатор всегда отказывался слышать какие-либо слова о реформах или изменениях, особенно когда дело касалось его обширных рабских поместий. Кроме того, Тетрадиа и его соратники — известные интриганы, ветераны старых времен Имперского двора до того, как фенвирцы высадились на восточных берегах.\n\nСо своей стороны, Тетрадиа отрицает какие-либо правонарушения. Он указал на то, насколько идиотским было бы с его стороны дестабилизировать Легион, когда это его единственный шанс вернуть свой город, а также на то, как Ктеумакса давно жаждут завладеть южным Аироноем.\n\nСам Алтан сообщил нам, что если бы мы выступили против Тетрадии, его силы будут в нашем распоряжении в случае гражданской войны, и он также заявил, что его товарищи на северо-востоке будут впоследствии служить моими вассалами. Кроме того, он пообещал помочь нам в нашей вражде с Фенрусом в качестве союзника в обмен на южные владения Фенвира."
+ eastern_reforms_side_mongols_decision_confirm: "Приказать арестовать Тетрадия"
+ invade_fenvir_clanrech_decision: "Начать завоевание"
+ invade_fenvir_clanrech_decision_tooltip: "Начните кампанию по возвращению [GetTitleByKey('c_asiupoli').GetNameNoTier]"
+ invade_fenvir_clanrech_decision_tt: "Мы объявим [Concept('war','войну')|E] Кланреху Фенвира с целью вернуть себе [GetTitleByKey('c_asiupoli').GetNameNoTier]."
+ invade_fenvir_clanrech_decision_desc: "Время настало. Псы Фенвира слишком долго сидели на законной [Concept('aversarian','аверсарианской')|E] земле, и мы никогда не сможем спасти нашу родину от нее самой и ее врагов, пока они сидят на корточках в ее величайшем городе. Пришло время призвать наших союзников и написать первую букву саги о нашем священном завоевании."
+ invade_fenvir_clanrech_decision_confirm: "Объявить войну!"
+ iyrossi_kill_aversarians_decision: "Убить аверсарианцев"
+ iyrossi_kill_aversarians_decision_desc: "Наши недавно завоеванные земли населены [Concept('aversarians','аверсарианцами')|E], нашими вековыми мучителями, их необходимо очистить, чтобы мы могли снова стать свободными. Солнце воссияет на наших исконных землях, очищенных теперь от вечного врага!"
+ iyrossi_kill_aversarians_decision_confirm: "Это необходимо сделать"
+ iyrossi_united_desc: "Иросси объединились"
+ bloody_throne_decision: "Утвердить «Кровавый трон»"
+ bloody_throne_decision_desc: "Горассос оставил после себя наследие резни, воздвигнув для себя трон из черепов на горе трупов. Чтобы сохранить это наследие, мы должны убедиться, что все знают, что мы, и только мы, достойны восседать на нем."
+ bloody_throne_decision_confirm: "«Кровавый трон» вечен"
+ bloody_throne_decision_custom_tooltip: "Если не принять его в ближайшее время, титул «Кровавый трон» ускользнет из наших рук."
+ bloody_throne_decision_tooltip: "Мы должны подтвердить наше право на «Кровавый трон», чтобы не потерять титул."
+ renounce_gorassos_decision: "Гниющий трон"
+ renounce_gorassos_decision_desc: "Отец Кровавого Трона пал, его череп теперь украшает символ его кровавого могущества. Как и твой, однажды. Ты - наследник его кровавого наследия, и ничтожества будут трепетать перед твоими священными клинками!"
+ renounce_gorassos_decision_confirm: "Кровь будет литься рекой!"
+ renounce_gorassos_decision_tooltip: "Отречься от Горассоса и его ереси"
+ renounce_megistos_decision: "Прощай, Мегистос."
+ renounce_megistos_decision_desc: "Ты не Мегистос. Вы знаете это в своем сердце. Ты никогда не будешь Мегистосом и никогда не сможешь быть Мегистосом. Возможно... возможно, пришло время отпустить его. Мегистос больше не является светом нашей вселенной, но, возможно, он снова окажется в конце всего сущего. Прощай, Мегистос..."
+ renounce_megistos_decision_confirm: "Еще одно шепотом произнесенное имя, потерянное временем."
+ renounce_megistos_decision_tooltip: "Отречься от Мегистоса и его ереси"
+ redistrict_metro_cap: "Перераспределить столицу"
+ redistrict_metro_cap_desc: "Мегаполисы мира — это поистине великолепные жемчужины, каждая из которых является уникальным двигателем производства. Эти производительные силы можно еще больше увеличить. Все, что для этого нужно, — это достаточные средства и планирование для организации масс в дисциплинированные ряды, ориентированные на дальнейшую войну, или ваше собственное богатство…"
+ redistrict_metro_cap_confirm: "Время заняться делом!"
+ redistrict_metro_cap_tooltip: "Тратьте щедро, чтобы специализировать свой мегаполис."
+ found_metro_in_kingdom_cap: "Основать Великий Полис"
+ found_metro_in_kingdom_cap_desc: "Каждое великое королевство заслуживает такого же великого полиса, который стал бы резиденцией его правителя. Моя страна лишена такого места, но ненадолго. Я позабочусь о том, чтобы поколения помнили не только мое имя и мои дела, но и саму землю, по которой я ходил, и фундамент, который я построил."
+ found_metro_in_kingdom_cap_confirm: "Постараться оставить свой след."
+ found_metro_in_kingdom_cap_tooltip: "Вам предстоит построить район мегаполиса, основываясь на своих основных характеристиках и образе жизни."
+ gh_sack_ostrapol: "Мешок Остраполь"
+ gh_sack_ostrapol_desc: ""
+ gh_sack_ostrapol_confirm: "Сжечь дотла!"
+ gh_sack_ostrapol_tooltip: "Вы начнете грабить мегаполис Остраполь!"
+ gh_debase_currency_decision: "Обесценить валюту"
+ gh_debase_currency_decision_desc: "В жизни каждого правителя, неважно, большого или маленького, неважно, где он находится, наступает момент, когда он должен принять решение. Действительно ли деньги важнее, чем отношение к ним народа и самой истории?\n\nДля тех, кто решит, что да, важнее, возможность обесценить свою драгоценную валюту ради прибыли - это простой выбор."
+ gh_debase_currency_decision_confirm: "Пусть золото льется рекой."
+ gh_debase_currency_decision_tooltip: "Пожертвуйте большим количеством [Concept('prestige','престижа')|E] в обмен на мгновенный приток золота."
+ gh_debase_currency_decision_2: "Обесценить валюту"
+ gh_debase_currency_decision_2_desc: "В жизни каждого правителя, неважно, большого или маленького, неважно, где он находится, наступает момент, когда он должен принять решение. Действительно ли деньги важнее, чем отношение к ним народа и самой истории?\n\nДля тех, кто решит, что да, важнее, возможность обесценить свою драгоценную валюту ради прибыли - это простой выбор."
+ gh_debase_currency_decision_2_confirm: "Пусть золото льется рекой."
+ gh_debase_currency_2_decision_tooltip: "Пожертвуйте большим количеством [Concept('prestige','престижа')|E] в обмен на мгновенный приток золота."
+ gh_debase_currency_decision_3: "Обесценить валюту"
+ gh_debase_currency_decision_3_desc: "В жизни каждого правителя, неважно, большого или маленького, неважно, где он находится, наступает момент, когда он должен принять решение. Действительно ли деньги важнее, чем отношение к ним народа и самой истории?\n\nДля тех, кто решит, что да, важнее, возможность обесценить свою драгоценную валюту ради прибыли - это простой выбор."
+ gh_debase_currency_decision_3_confirm: "Пусть золото льется рекой."
+ gh_debase_currency_decision_3_tooltip: "Пожертвуйте большим количеством [Concept('prestige','престижа')|E] в обмен на мгновенный приток золота."
+ gh_debase_currency_4_decision: "Обесценить валюту"
+ gh_debase_currency_decision_4_desc: "В жизни каждого правителя, неважно, большого или маленького, неважно, где он находится, наступает момент, когда он должен принять решение. Действительно ли деньги важнее, чем отношение к ним народа и самой истории?\n\nДля тех, кто решит, что да, важнее, возможность обесценить свою драгоценную валюту ради прибыли - это простой выбор."
+ gh_debase_currency_decision_4_confirm: "Пусть золото льется рекой."
+ gh_debase_currency_decision_4_tooltip: "Пожертвуйте большим количеством [Concept('prestige','престижа')|E] в обмен на мгновенный приток золота."
+ gh_strengthen_currency_decision: "Укрепить валюту"
+ gh_strengthen_currency_decision_desc: "Поскольку в нашей столице теперь находится Королевский монетный двор, у нас настала возможность принять новые меры по укреплению нашей валюты. С помощью таких мер, как изъятие валюты, уже находящейся в обращении, продажа иностранных активов, реформы и переговоры с кредиторами, мы можем добиться столь необходимого увеличения стоимости нашей валюты."
+ gh_strengthen_currency_decision_confirm: "Новый рассвет экономики."
+ gh_strengthen_currency_decision_tooltip: "Пожертвуйте большое количество золота в обмен на мгновенный приток [Concept('prestige','престижа')|E]."
+ gh_strengthen_currency_decision_2: "Укрепить валюту"
+ gh_strengthen_currency_decision_2_desc: "Поскольку в нашей столице теперь находится Королевский монетный двор, у нас настала возможность принять новые меры по укреплению нашей валюты. С помощью таких мер, как изъятие валюты, уже находящейся в обращении, продажа иностранных активов, реформы и переговоры с кредиторами, мы можем добиться столь необходимого увеличения стоимости нашей валюты."
+ gh_strengthen_currency_decision_2_confirm: "Новый рассвет экономики."
+ gh_strengthen_currency_decision_2_tooltip: "Пожертвуйте большое количество золота в обмен на мгновенный приток [Concept('prestige','престижа')|E]."
+ gh_strengthen_currency_decision_3: "Укрепить валюту"
+ gh_strengthen_currency_decision_3_desc: "Поскольку в нашей столице теперь находится Королевский монетный двор, у нас настала возможность принять новые меры по укреплению нашей валюты. С помощью таких мер, как изъятие валюты, уже находящейся в обращении, продажа иностранных активов, реформы и переговоры с кредиторами, мы можем добиться столь необходимого увеличения стоимости нашей валюты."
+ gh_strengthen_currency_decision_3_confirm: "Новый рассвет экономики."
+ gh_strengthen_currency_decision_3_tooltip: "Пожертвуйте большое количество золота в обмен на мгновенный приток [Concept('prestige','престижа')|E]."
+ gh_strengthen_currency_decision_4: "Укрепить валюту"
+ gh_strengthen_currency_decision_4_desc: "Поскольку в нашей столице теперь находится Королевский монетный двор, у нас настала возможность принять новые меры по укреплению нашей валюты. С помощью таких мер, как изъятие валюты, уже находящейся в обращении, продажа иностранных активов, реформы и переговоры с кредиторами, мы можем добиться столь необходимого увеличения стоимости нашей валюты."
+ gh_strengthen_currency_decision_4_confirm: "Новый рассвет экономики."
+ gh_strengthen_currency_decision_4_tooltip: "Пожертвуйте большое количество золота в обмен на мгновенный приток [Concept('prestige','престижа')|E]."
+ restore_etepezea_decision: "Восстановить Этепезею"
+ restore_etepezea_decision_desc: "Крах Этепезеи стал трагедией для аверсарианцев во всем мире. Кошмарный сон о том, что непорочный [GetTitleByKey('c_oraispol').GetNameNoTier], попал под контроль Сьялволков, что бьющееся сердце Аверсарианской Аавтократа вырвалось из наших рук - это слишком тяжело вспоминать! Теперь все это осталось в прошлом, ведь родина предков, которую даровал нам сам Чистейший, снова в безопасности."
+ restore_etepezea_decision_confirm: "Перерисовать старые границы Этепезеи."
+ restore_etepezea_decision_tooltip: "Старые [Concept('aversarian','аверсарианские')|E] де-юре королевства Этепезеи будут восстановлены вместо любых мелких королевств сьялволков, образовавшихся после завоевания Ценвара."
+ restore_etepezea_requirement: "Все незатуманенные герцогства с измененными де-юре владениями в #E Этепезеи#! находятся под нашим контролем."
+ must_control_majority_of_etepezea_decision_tt: "You control more than [SCOPE.ScriptValue('aversaria_formable_percent_value')|0]% of the [GetGeographicalRegion('world_ga_etepezea_formable').GetName] [region|E] (Current: [SCOPE.ScriptValue('current_controlled_etepezea_decision_region_owned_percent_value')|0]%)" #NT!
+ #restore_etepezea_decision_tooltip: "#E Иерархия #! Этепезеи де-юре будет восстановлена."
+ restore_cornucopia_decision: "Restore Megos Kalathipsomi" #NT!
+ restore_cornucopia_decision_desc: "The rugged beauty of Megos Kalathipsomi, once stolen from us by the devilish Cenware, is now ours once more, and lucrative trade is already flowing into our empire through [GetBuilding('01_bastonport').GetName]. There is much work to be done to restore the province, but once we rebuild the imposing mountain fortresses we should be able to secure our heartland against future would-be conquerors." #NT!
+ restore_cornucopia_decision_confirm: "Redraw Megos Kalathipsomi's old borders" #NT!
+ restore_cornucopia_decision_tooltip: "The old [aversarian|E] de jure kingdoms of Megos Kalathipsomi will be restored in place of any petty Sjalvolki kingdoms drawn up following Cenware's Conquest." #NT!
+ restore_cornucopia_requirement: "All non-fogswept duchies with changed de jure lieges in #E Megos Kalathipsomi#! are controlled by us" #NT!
+ must_control_majority_of_megos_kalathipsomi_decision_tt: "You control more than [SCOPE.ScriptValue('aversaria_formable_percent_value')|0]% of the [GetGeographicalRegion('world_ga_megos_kalathipsomi_formable').GetName] [region|E] (Current: [SCOPE.ScriptValue('current_controlled_megos_kalathipsomi_decision_region_owned_percent_value')|0]%)" #NT!
+ #restore_cornucopia_decision_tooltip: "#E Megos Kalathipsomi's#! de jure hierarchy will be restored." #NT!
+ restore_the_reach_decision: "Restore Mikros Kalathipsomi" #NT!
+ restore_the_reach_decision_desc: "The rustic border province of Mikros Kalathipsomi is once more under our control. The Pathos river valley will be crucial to feed our slowly recovering population. We must be wary however - the Marchers have always been a threat, but more worrisome are the bizarre monsters that slouch out of the encroaching Fog every day." #NT!
+ restore_the_reach_decision_confirm: "Redraw Mikros Kalathipsomi's old borders" #NT!
+ restore_the_reach_decision_tooltip: "The old [aversarian|E] de jure kingdoms of Mikros Kalathipsomi will be restored in place of any petty Sjalvolki kingdoms drawn up following Cenware's Conquest." #NT!
+ restore_the_reach_requirement: "All non-fogswept duchies with changed de jure lieges in #E Mikros Kalathipsomi#! are controlled by us" #NT!
+ must_control_majority_of_mikros_kalathipsomi_decision_tt: "You control more than [SCOPE.ScriptValue('aversaria_formable_percent_value')|0]% of the [GetGeographicalRegion('world_ga_mikros_kalathipsomi_formable').GetName] [region|E] (Current: [SCOPE.ScriptValue('current_controlled_mikros_kalathipsomi_decision_region_owned_percent_value')|0]%)" #NT!
+ #restore_the_reach_decision_tooltip: "#E Mikros Kalathipsomi's#! de jure hierarchy will be restored." #NT!
+ restore_malcois_decision: "Восстановить Малкоис"
+ restore_malcois_decision_desc: "Рабы, вероломные Марчеры и хищные Сьялволки - все они делали все возможное, чтобы отнять у нас Малкоис, но их успехи оказались для нас лишь временными неудачами. Теперь, когда власть Аверсарии вновь прочно утвердилась в этом дворце на Митидоне, наш авторитет больше не будет оспариваться."
+ restore_malcois_decision_confirm: "Перерисовать старые границы Малкоиса"
+ restore_malcois_decision_tooltip: "Старые [Concept('aversarian','аверсарианские')|E] де-юре королевства Малкоис будут восстановлены вместо любых мелких королевств сьялволков, образовавшихся после завоевания Ценвара."
+ restore_malcois_requirement: "Все незатуманенные герцогства с измененными де-юре владениями в #E Малкоисе#! находятся под нашим контролем."
+ must_control_majority_of_malcois_decision_tt: "Вы контролируете более [SCOPE.ScriptValue('aversaria_formable_percent_value')|0]% [Concept('region','региона')|E][GetGeographicalRegion('world_ga_malcois_formable').GetName] (текущий: [SCOPE.ScriptValue('current_controlled_malcois_decision_region_owned_percent_value')|0]%)"
+ #restore_malcois_decision_tooltip: "#E Иерархия Малкоис#! де-юре будет восстановлена."
+ restore_opakhasia_decision: "Восстановить Опахазию"
+ restore_opakhasia_decision_desc: "С огромными усилиями мы отбросили варваров и восстановили границы Опахазии, от Корвионского пролива до блистательного города [GetTitleByKey('c_tinitida').GetNameNoTier]. Пока цветок империи сильно увял, но под нашим решительным руководством он обязательно расцветет вновь!"
+ restore_opakhasia_decision_confirm: "Перерисовать старые границы Опахазии"
+ restore_opakhasia_decision_tooltip: "Старые [Concept('aversarian','аверсарианские')|E] де-юре королевства Опахазии будут восстановлены вместо любых мелких королевств сьялволков, образовавшихся после завоевания Ценвара."
+ restore_opakhasia_requirement: "Все незатуманенные герцогства с измененными де-юре владениями в #E Опахазии#! находятся под нашим контролем."
+ must_control_majority_of_opakhasia_decision_tt: "You control more than [SCOPE.ScriptValue('aversaria_formable_percent_value')|0]% of the [GetGeographicalRegion('world_ga_opakhasia_formable').GetName] [region|E] (Current: [SCOPE.ScriptValue('current_controlled_opakhasia_decision_region_owned_percent_value')|0]%)" #NT!
+ #restore_opakhasia_decision_tooltip: "#E Иерархия #! Опахасии де-юре будет восстановлена."
+ expand_opakhasia_decision: "Восстановить Опахазию"
+ expand_opakhasia_decision_desc: "С огромными усилиями мы отбросили варваров и восстановили границы Опахазии, от Корвионского пролива до блистательного города [GetTitleByKey('c_tinitida').GetNameNoTier]. Пока цветок империи сильно увял, но под нашим решительным руководством он обязательно расцветет вновь!"
+ expand_opakhasia_decision_confirm: "Перерисовать старые границы Опахазии"
+ expand_opakhasia_decision_tooltip: "Старые [Concept('aversarian','аверсарианские')|E] де-юре королевства Опахазии будут восстановлены вместо любых мелких королевств сьялволков, образовавшихся после завоевания Ценвара."
+ expand_opakhasia_requirement: "Все незатуманенные герцогства с измененными де-юре владениями в #E Опахазии#! находятся под нашим контролем."
+ #expand_opakhasia_decision_tooltip: "#E Провинциальное владычество Опахасии#! будет восстановлено."
+ restore_aironoi_decision: "Восстановить Аироной"
+ restore_aironoi_decision_desc: "В то время как разрушения от [frodbrokna|E] ставят перед нами сложную задачу, из разрушенного [GetTitleByKey('c_asiupoli').GetNameNoTier] мы отбили варваров как с востока, так и с запада. Окровавленный, но не сломленный, Аироной вновь станет мощным восточным оплотом восстановленной Аверсарии."
+ restore_aironoi_decision_confirm: "Перерисовать старые границы Аироной."
+ restore_aironoi_decision_tooltip: "Старые [Concept('aversarian','аверсарианские')|E] де-юре королевства Аироноя будут восстановлены вместо любых мелких королевств сьялволков, образовавшихся после завоевания Ценвара."
+ restore_aironoi_requirement: "Все незатуманенные герцогства с измененными де-юре владениями в #E Аироное#! находятся под нашим контролем."
+ must_control_majority_of_aironoi_decision_tt: "You control more than [SCOPE.ScriptValue('aversaria_formable_percent_value')|0]% of the [GetGeographicalRegion('world_ga_aironoi_formable').GetName] [region|E] (Current: [SCOPE.ScriptValue('current_controlled_aironoi_decision_region_owned_percent_value')|0]%)" #NT!
+ #restore_aironoi_decision_tooltip: "#E Иерархия #! Aironoi де-юре будет восстановлена."
+ restore_gurdurbok_decision: "Восстановить Черные Горы"
+ restore_gurdurbok_decision_desc: "Провинция [GetTitleByKey('e_gurdurbok').GetNameNoTier], отрезанная Ценваром от [Concept('aversaria','Аверсарии')|E], вернулась под наш праведный контроль, от границы с Шевалье до [Concept('mayikrata','Маикрата')|E]. Уже сейчас в Детиклосе начинаются работы по восстановлению, и весь мир должен знать, что [Concept('aversaria','Аверсария')|E] никогда не допустит, чтобы ее территории были разделены."
+ restore_gurdurbok_decision_confirm: "Перерисовать старые границы Мааурроса."
+ restore_gurdurbok_decision_tooltip: "Старые [Concept('aversarian','аверсарианские')|E] де-юре королевства [GetTitleByKey('e_gurdurbok').GetNameNoTier] будут восстановлены вместо любых мелких королевств сьялволков, образовавшихся после завоевания Ценвара."
+ restore_gurdurbok_requirement: "Все незатуманенные герцогства с измененными де-юре владениями в [GetTitleByKey('e_gurdurbok').GetNameNoTier] находятся под нашим контролем."
+ must_control_majority_of_gurdurbok_decision_tt: "You control more than [SCOPE.ScriptValue('aversaria_formable_percent_value')|0]% of the [GetGeographicalRegion('world_ga_gurdurbok_formable').GetName] [region|E] (Current: [SCOPE.ScriptValue('current_controlled_gurdurbok_decision_region_owned_percent_value')|0]%)" #NT!
+ #restore_gurdurbok_decision_tooltip: "#E Иерархия #! Мааурроса де-юре будет восстановлена."
+ kikarsagi_kill_aversarians_decision: "Убить аверсарианцев"
+ kikarsagi_kill_aversarians_decision_desc: "[Concept('aversarians','Аверсарианцы')|E] показали себя слабыми, а слабых бьют. Лишенные Мандата Чистоты и псы в глазах Чистейшего, мы должны уничтожить их слабую расу, чтобы стать Избранными и спасти Империю. Никакой пощады для слабых! Никакого отступления для сильных!"
+ kikarsagi_kill_aversarians_decision_confirm: "Сегодня мы стали избранными!"
+ kikarsagi_kill_aversarians_decision_tooltip: "Уничтожьте [Concept('aversarians','аверсарианцев')|E] и станьте одним из избранных."
+ bonefinding_decision: "Поиск костей, обладающих магической силой"
+ bonefinding_decision_desc: "Для усиления моей Магии Мертвого было бы полезно приобрести кости могущественных магов. Я попытаюсь найти кости, обладающие достаточной магической силой для достижения моих целей."
+ bonefinding_decision_tooltip: "Вам будет предоставлен выбор способа нахождения магически мощных костей."
+ bonefinding_decision_effect_tooltip: "Вы будете искать кости могущественных магов."
+ bonefinding_decision_confirm: "Начать поиски!"
+ bonefinding_decision_desc_tooltip: "Вы будете искать магически мощные кости."
+ craft_bone_artifact_decision: "Создание костяного артефакта"
+ craft_bone_artifact_decision_desc: "Чтобы усилить свою [Concept('dead_magic','Магию Мертвого')|E], я создам из магически мощных костей могущественный [Concept('artifact','артефакт')|E]."
+ craft_bone_artifact_decision_tooltip: "Чтобы изготовить костяной [Concept('artifact','артефакт')|E], вам понадобятся магически мощные кости, найденные с помощью решения «Поиск костей, обладающих магической силой»."
+ craft_bone_artifact_decision_effect_tooltip: "Вы попытаетесь превратить некоторые из своих магических костей в [Concept('artifact','артефакт')|E]."
+ craft_bone_artifact_decision_confirm: "Я создам магический шедевр!"
+ reforge_aversarian_crown_decision: "Перековать аверсарианскую корону"
+ reforge_aversarian_crown_decision_desc: "В течение предыдущих столетий различные части [Concept('aversarian','аверсарианской')|E] короны были украдены или проданы гнусными личностями по всему [Concept('shattered_coast','Расколотому Побережью')|E]. Теперь, когда все части короны в моих руках, я могу выковать корону и заявить права на [Concept('aversaria','Аверсарию')|E]."
+ reforge_aversarian_crown_valid_condition: "Все пять частей Аверсарианской короны в вашем распоряжении."
+ reforge_aversarian_crown_decision_effect: "Все части Аверсарианской короны уничтожены."
+ reforge_aversarian_crown_decision_confirm: "Аверсария ожидает своего возрождения"
+ reforge_aversarian_crown_decision_tooltip: "Перековать корону Аверсарианской Аавтократа!"
+ reforge_aversarian_crown_has_base: "[SelectLocalization( EqualTo_string(GetGlobalVariable('aversarian_crown_base_link').Artifact.GetNameNoTooltip, Localize('artifact_aversarian_crown_base_name')), 'aversarian_crown_base_exists', 'aversarian_crown_base_missing')]" #NT!
+ aversarian_crown_base_exists: "You have the [GetGlobalVariable('aversarian_crown_base_link').Artifact.GetName]" #NT!
+ aversarian_crown_base_missing: "The [Localize('artifact_aversarian_crown_base_name')] must be rediscovered" #NT!
+ reforge_aversarian_crown_has_jewels: "[SelectLocalization( EqualTo_string(GetGlobalVariable('aversarian_crown_jewels_link').Artifact.GetNameNoTooltip, Localize('artifact_aversarian_crown_jewels_name')), 'aversarian_crown_jewels_exists', 'aversarian_crown_jewels_missing')]" #NT!
+ aversarian_crown_jewels_exists: "You have the [GetGlobalVariable('aversarian_crown_jewels_link').Artifact.GetName]" #NT!
+ aversarian_crown_jewels_missing: "The [Localize('artifact_aversarian_crown_jewels_name')] must be rediscovered" #NT!
+ reforge_aversarian_crown_has_veil: "[SelectLocalization( EqualTo_string(GetGlobalVariable('aversarian_crown_veil_link').Artifact.GetNameNoTooltip, Localize('artifact_aversarian_crown_dragonveil_name')), 'aversarian_crown_veil_exists', 'aversarian_crown_veil_missing')]" #NT!
+ aversarian_crown_veil_exists: "You have the [GetGlobalVariable('aversarian_crown_veil_link').Artifact.GetName]" #NT!
+ aversarian_crown_veil_missing: "The [Localize('artifact_aversarian_crown_dragonveil_name')] must be rediscovered" #NT!
+ reforge_aversarian_crown_has_chain: "[SelectLocalization( EqualTo_string(GetGlobalVariable('aversarian_crown_chain_link').Artifact.GetNameNoTooltip, Localize('artifact_aversarian_crown_chain_name')), 'aversarian_crown_chain_exists', 'aversarian_crown_chain_missing')]" #NT!
+ aversarian_crown_chain_exists: "You have the [GetGlobalVariable('aversarian_crown_chain_link').Artifact.GetName]" #NT!
+ aversarian_crown_chain_missing: "The [Localize('artifact_aversarian_crown_chain_name')] must be rediscovered" #NT!
+ reforge_aversarian_crown_has_diamond: "[SelectLocalization( EqualTo_string(GetGlobalVariable('aversarian_crown_diamond_link').Artifact.GetNameNoTooltip, Localize('artifact_aversarian_crown_diamond_name')), 'aversarian_crown_diamond_exists', 'aversarian_crown_diamond_missing')]" #NT!
+ aversarian_crown_diamond_exists: "You have the [GetGlobalVariable('aversarian_crown_diamond_link').Artifact.GetName]" #NT!
+ aversarian_crown_diamond_missing: "The [Localize('artifact_aversarian_crown_diamond_name')] must be rediscovered" #NT!
+ unite_the_eastern_coast.t: "Объединение Восточного побережья"
+ unite_the_eastern_coast_decision_desc: "Говорят, что когда-то этими берегами правило великое [Concept('kingdom','королевство')|E]. С нашей мощью, не имеющей себе равных в восточных проходах, пришло время снова править ими."
+ unite_the_eastern_coast_decision_tooltip: "Объединить восточные [Concept('pirate_coast','Пиратские Берега')|E]"
+ unite_the_eastern_coast_decision_confirm: "Звезды направят нас"
+ unite_the_eastern_coast_decision_tt: "Ваш основной титул [Concept('kingdom','королевства')|E] [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] будет объединять все королевства, которые вы [Concept('completely_control','полностью контролируете')|E] в [GetGeographicalRegion('nightcoast_biozone').GetName], за исключением $k_ufaliracci$."
+ take_control_of_spice_trade.t: "Обеспечение безопасности торговли пряностями"
+ take_control_of_spice_trade_decision_desc: "Огромные богатства торговлей пряностями на [Concept('pirate_coast','Пиратском Берегу')|E] многих приводили в отчаяние, но наконец-то они стали досягаемы для нас."
+ take_control_of_spice_trade_decision_tooltip: "Обеспечьте безопасность торговлю пряностями"
+ take_control_of_spice_trade_decision_confirm: "Попробуйте кардамон на вкус"
+ control_the_spice_tt: "У вас будет выбор в [Concept('county','графстве')|E] для строительства порта."
+ controls_the_spice_trade_house_modifier: "Контролирует роварскую торговлю пряностями."
+ controls_the_spice_trade_house_modifier_desc: "Эта династия установила контроль над торговлей пряностями на [Concept('pirate_coast','Пиратском Берегу')|E]."
+ flourishing_pirate_coast_trade_modifier_desc: "Это [Concept('county','графство')|E] переживает золотой век коммерции и меркантилизма."
+ flourishing_pirate_coast_trade_modifier: "Процветающая торговля"
+ reformed_ufaliracci_modifier: "Реформированный Уфалираччи"
+ reformed_ufaliracci_modifier_desc: "Этот персонаж реформировал королевство [ufaliracci|E] в его старой [Concept('ritualist','ритуальной')|E] столице."
+ reform_ufaliracci_decision: "Реформировать Серебряное королевство"
+ reform_ufaliracci_decision_desc: "Прошли века после [Concept('siege_of_ufaliracci','осады Уфалираччи')|E], но [Concept('silver_palace','Серебряный Дворец')|E] вновь возвышается над [Concept('pirate_coast','Пиратскими Берегами')|E]. Пришло время и его королевству сделать то же самое."
+ reform_ufaliracci_decision_tooltip: "Реформировать Серебряное королевство"
+ reform_ufaliracci_decision_confirm: "Мы взбираемся все выше"
+ reform_ufaliracci_duchy_tt: "Вы [Concept('hold','владеете')|E] и [Concept('completely_control','полностью контролируте')|E] любое [Concept('duchy','герцогство')|E], которое [Concept('de_jure','де-юре')|E] граничит с [GetTitleByKey('d_trinapaawa').GetName] и которое является частью [Concept('kingdom','королевства')|E] с более чем двумя [Concept('de_jure','де-юре')|E] [Concept('duchies','герцогствами')|E]."
+  
+  #################### 
+  # STORYLINE - COIS # 
+ conclave_faction_power_below_200: "Фракция Конклава имеет менее 200% силы."
+ abolish_the_conclave_decision: "Упразднить Конклав"
+ abolish_the_conclave_decision_tooltip: "Пришло время моим бывшим поработителям заплатить по счетам."
+ rhesus_defeated: "Резус либо мертв, либо свергнут с престола."
+ conclave_faction_power_below_50: "Фракция Конклава имеет менее 50% силы."
+ abolish_the_conclave_decision_tt: "Все земли и золото Конклава будут конфискованы. Вы обратитесь в основную [Concept('aversarian', 'аверсарианскую')|E] веру."
+ abolish_the_conclave_decision_desc: "Возможно, интриги Конклава случайно сделали возможным мое возвышение, но они не мои союзники и не будут определять мое правление. Пришло время покончить с этим фарсом."
+ abolish_the_conclave_decision_confirm: "Уничтожить наследие Резуса"
+ sjalvolki_defectors_decision: "Пригласить перебежчиков-сьялволки"
+ sjalvolki_defectors_decision_tooltip: "В конце концов, враг моего врага – мой друг."
+ sjalvolki_defectors_decision_tt: "Пять графств будут заселены переселенцами-сьялволки, восстанавливая местное население."
+ sjalvolki_defectors_decision_increases_event_troops_tt: "Вы сможете выставить более мощный отряд, когда Ценвар вторгнется в страну."
+ sjalvolki_defectors_decision_unpopular_tt: "#N Это будет непопулярно среди ваших подданных.#!"
+ sjalvolki_defectors_decision_desc: "Как бы Ценвару ни хотелось, чтобы мы верили в обратное, его Имперрех далеко не застрахован от раскола. Некоторых из его вождей, вероятно, можно было бы уговорить присоединиться к нам в обмен на землю. Естественно, эта идея получила некоторый отпор."
+ sjalvolki_defectors_decision_confirm: "Мы должны, если хотим выжить"
+ #sjalvolki_defectors_decision: "Пригласить перебежчиков Сялволки"
+ #sjalvolki_defectors_decision_tooltip: "В конце концов, враг моего врага – мой друг."
+ #sjalvolki_defectors_decision_tt: "Пять уездов будут заселены поселенцами из Шялволки, восстанавливая местное население."
+ #sjalvolki_defectors_decision_increases_event_troops_tt: "Вы сможете выставить более крупный хост, когда Cenware в следующий раз вторгнется."
+ #sjalvolki_defectors_decision_unpopular_tt: "#N Это будет непопулярно среди ваших субъектов#!"
+ #sjalvolki_defectors_decision_desc: "Как бы Ценвару ни хотелось, чтобы мы верили в обратное, его Имперрех далеко не застрахован от разделения. Некоторых из его вождей, вероятно, можно было бы уговорить присоединиться к нам в обмен на землю. Естественно, эта идея получила некоторый отпор."
+ #sjalvolki_defectors_decision_confirm: "Мы должны, если хотим выжить"
+  
+  
+ ask_conclave_for_help_decision: "Обратиться за помощью в Конклав"
+ ask_conclave_for_help_decision_tooltip: "Возможно, нам придется отложить политические дрязги в сторону в интересах взаимного самосохранения"
+ ask_conclave_for_help_decision_tt: "В течение следующих трех лет вы будете теснее сотрудничать с Конклавом, чтобы лучше координировать военные действия"
+ ask_conclave_for_help_decision_increases_concave_power_tt: "#N Вероятно, это увеличит силу Конклава#!"
+ ask_conclave_for_help_decision_conclave_immune_tt: "#N Конклав будет невосприимчив к враждебным интригам в течение следующих 3 лет#!"
+ ask_conclave_for_help_decision_desc: "Хотя мои интересы по своей сути противоречат интересам Конклава, и обе стороны это прекрасно понимают, Ценвар представляет собой экзистенциальную угрозу для обоих - Резус, по крайней мере, достаточно разумен, чтобы это понять. Я мог бы предложить временное перемирие, пока мы не разберемся со сьялволками."
+ ask_conclave_for_help_decision_confirm: "Сделать мирное пожертвование"
+ move_against_conclave_decision: "Выступить против члена Конклава"
+ move_against_conclave_decision_tooltip: "Мои враги - не только те, кто за пределами, но и те, кто внутри королевства."
+ move_against_conclave_decision_tt: "Я попытаюсь расправиться с одним из членов Конклава."
+ move_against_conclave_cooldown: "Это можно делать только раз в 6 месяцев."
+ move_against_conclave_decision_desc: "Конклав, похоже, непоколебимо держит бразды правления государством. Если я и, надеюсь, мои преемники когда-нибудь станут править по-своему, мне нужно будет взять под контроль эту группу интриганов.\n\nХотя действовать напрямую против них всех было бы глупостью, которая наверняка стоила бы мне головы, я могу попробовать отбирать их членов одного за другим."
+ move_against_conclave_decision_confirm: "Собраться с моими сторонниками"
+ conclave_no_councillors: "В вашем совете нет членов Конклава, кроме самого Резуса."
+ defeat_rhesus_decision: "Падение Кукловода"
+ defeat_rhesus_decision_tooltip: "Лишь один может занять трон, и мы с Резусом не упускаем его из виду."
+ defeat_rhesus_decision_tt: "Вам предстоит решить судьбу своего наставника, бывшего похитителя и соперника."
+ defeat_rhesus_decision_desc: "Резус – политик и интриган, которому нет равных. Насколько грозен Ценвар на поле битвы, настолько же грозен и Резус в залах власти. И как верховный король Сьялволки, он не будет побежден в одной битве, а битва будет действительно напряженной"
+ defeat_rhesus_decision_confirm: "Провести последнюю встречу"
+ #defeat_rhesus_decision: "Падение Кукловода"
+ #defeat_rhesus_decision_tooltip: "Только один может занять трон, и он у меня и у Резуса в поле зрения."
+ #defeat_rhesus_decision_tt: "Вам предстоит решить судьбу своего наставника, бывшего похитителя и соперника."
+ #defeat_rhesus_decision_desc: "Резус – политик и интриган, которому нет равных. Насколько грозен Ценвар на поле битвы, настолько же грозен и Резус в залах власти. И, как и Верховного короля Шялволков, его не победить в одном бою, и битва действительно будет напряженной."
+ #defeat_rhesus_decision_confirm: "Проведите последнюю встречу"
+  
+ lessons_of_cenware_decision: "Уроки Ценвара"
+ lessons_of_cenware_decision_tooltip: "Столкновение с верховным королем варваров преподало мне не один урок."
+ lessons_of_cenware_decision_desc: "Ценвар считался величайшим воином и тактиком последнего времени и был человеком, которому не было равных на поле боя.\n\nПока мы не пересеклись.\n\nТеперь мир смотрит на меня, потрясенный: орды Ценвара разбиты на острие моего меча, [Concept('aversaria','Аверсария')|E] спасена моей рукой. Я вошел в число величайших военных полководцев всех времен и народов."
+ lessons_of_cenware_decision_confirm: "Принять мою новую репутацию"
+ #lessons_of_cenware_decision: "Уроки Cenware"
+ #lessons_of_cenware_decision_tooltip: "Мое столкновение с Верховным королем варваров преподало мне больше, чем несколько уроков."
+ #lessons_of_cenware_decision_desc: "Ценвара считали величайшим воином и тактиком недавнего времени и человеком, которому нет равных на поле битвы.\n\nПока мы не пересеклись.\n\nТеперь мир смотрит на меня в шоке, когда орды Ценвара разбиты вдребезги. на кончике моего меча [aversaria|E], спасенный моей рукой. Я вошел в ряды величайших военных гениев всех времен."
+ #lessons_of_cenware_decision_confirm: "Примите мою новую репутацию"
+ purge_conclave_decision: "Очистить Конклав"
+ purge_conclave_decision_tooltip: "Время тонкой политики прошло."
+ purge_conclave_decision_tt: "Вы начнете массовую чистку против всех нынешних и бывших членов фракции Конклава, чтобы окончательно стереть ее с лица земли. Очевидно, что такое кровопролитие будет воспринято как чрезвычайно тираническое."
+ conclave_faction_power_below_100: "Фракция Конклава имеет менее 100% силы."
+ purge_conclave_decision_desc: "Падение Рэзуса приближается, но и кинжалы его приспешников упираются мне в спину. Если я - лучшая надежда [Concept('aversaria_possessive', 'Аверсарии')|E], то не могу допустить, чтобы мое внимание было поглощено мелочной политикой при дворе.\n\nНеобходимо принять решительные меры."
+ purge_conclave_decision_confirm: "Начать подготовку..."
+ invite_legio_axiaothea_decision: "Связаться с Легио XXI"
+ invite_legio_axiaothea_decision_tooltip: "Маловероятный союзник, но вполне возможный."
+ invite_legio_axiaothea_decision_tt: "Легио XXI «Аксиатея» получит одно из ваших графств и окажет вам значительную поддержку в предстоящей войне."
+ invite_legio_axiaothea_decision_desc: "Имперские легионы, мягко говоря, в полном беспорядке. Единственные два, которые хоть сколько-нибудь боеспособны, - это Анотерион, который находится слишком далеко на востоке, чтобы быть полезным, и Аксиатея, чья слепая приверженность мертвому делу сделает любые переговоры напряженными.\n\nОднако у меня есть небольшое преимущество: сам Разрушитель Мира сейчас со всех сторон окружен моими союзниками. Если я пошлю им его голову, возможно, они присоединятся ко мне?"
+ invite_legio_axiaothea_decision_confirm: "Отправьте голову Эшрея на юг"
+ defeated_cenware: "Вы победили Ценвара хотя бы один раз."
+ aeschraes_killed: "Эшрей был убит в результате моих собственных действий"
+  
+ new_iyrossi_capital_decision: "Постройте новую столицу Ийросси"
+ new_iyrossi_capital_decision_tooltip: "Новая столица для новой эпохи."
+ new_iyrossi_capital_decision_tt: "Ваша столица будет преобразована в дворцовый или храмовый мегаполис по вашему выбору и получит особое здание. На это уйдет год работы."
+ new_iyrossi_capital_decision_desc: "Наконец-то ийросси освободились от аверсарианского ига. Увы, большая часть нашей истории была запятнана их руками. Наша историческая столица То Педитипси представляет собой необитаемую пустошь, скорее насмешливое проявление имперского высокомерия, чем жизнеспособную основу для центра нашего нового государства, а о Палате Митидоне не может быть и речи по очевидным причинам. Хоть нам и дорого наше прошлое, мы должны основать новую столицу, из которой будем править прекрасным Митидоном. Имейте в виду, что затраты будут высокими, а строительство займет целый год."
+ new_iyrossi_capital_decision_confirm: "Строится новая столица."
+  
+ new_mountain_home_decision: "Новый горный дом"
+ new_mountain_home_decision_tooltip: "Объявите о новой родине для своего народа"
+ new_mountain_home_decision_tt: "Ваше столичное графство является столицей одного из следующих герцогств:"
+ new_mountain_home_decision_desc: "Наша старая родина, расположившаяся среди самых высоких вершин, теперь потеряна для нас навсегда. Так долго мы скитались по незнакомым землям, отчаянно ища новый дом. Сегодня это закончится!\n\nМы нашли подходящее место, и гоанцы уже начали собираться. Здесь, в этом Новом Горном Доме, мы восстановим наше общество и, несомненно, выстоим до конца времен."
+ new_mountain_home_decision_confirm: "Провозгласите нашу новую родину."
+ #new_mountain_home_decision: "Новый горный дом"
+ #new_mountain_home_decision_tooltip: "Объявите о новой родине для своего народа"
+ #new_mountain_home_decision_desc: "Наша старая родина, расположившаяся среди самых высоких вершин, теперь потеряна для нас навсегда. Так долго мы скитались по незнакомым землям, отчаянно ища новый дом. Сегодня это закончится!\n\nМы нашли подходящее место, и гоанцы уже начали собираться. Здесь, в этом Новом Горном Доме, мы восстановим наше общество и, несомненно, выстоим до конца времен."
+ #new_mountain_home_decision_confirm: "Провозгласите нашу новую родину."
+  
+  
+  
+ fogeater_consume_decision: "Потреблять"
+ fogeater_consume_decision_desc: "У новых земель нет слушателей, это плохо. Мать Тумана говорит: поглотите их, да, питайтесь ими, они присоединятся к туману, присоединяйтесь к нам, нужна еда, нужна она, да, Мать Тумана приказывает, мы подчиняемся, мы слушаем, мы слушатели, мы питаемся ими, мы распространяем, мы потребляем, они присоединятся к нам, они будут будь нами, мы будем ими, все будут ими, все будут нами, мы будем расти, мы будем кормить, мы будем расширяться, мы должны, мы должны, мы должны кормить."
+ fogeater_consume_decision_tooltip: "Мы очистим наши земли."
+ fogeater_consume_decision_confirm: "Ешь их."
+ fogeater_consume_effect.army: "Создайте армию, пропорциональную количеству поглощенных провинций."
+ fogeater_consume_effect.execute: "Убейте всех заключенных, не являющихся фогитерами."
+ fogeater_consume_effect.convert: "Уничтожить всех не-фогитеров в поглощенных провинциях."
+ fogeater_consume_effect.devastate: "Удалить все развитие из провинций, не относящихся к Фогитеру."
+ kingdom_of_the_clouds_decision: "Королевство в облаках"
+ kingdom_of_the_clouds_decision_tooltip: "Объявить новый дом для сарминцев"
+ kingdom_of_the_clouds_desc: "Многое изменилось со времени нашей миграции на запад, но преданность нашей великой матери своим детям не изменилась. Пришло время провозгласить новую родину Дочерей Неба, ту, которая станет колыбелью, из которой зародится новый золотой век Сарминиан!"
+ kingdom_of_the_clouds_decision_confirm: "Объявить самазонас"
+ kingdom_of_the_clouds_decision_tt: "Станьте правителем Самазонаса"
+ found_kingdom_samazonas_boczoj_or_kingdom_rank: "У вас есть 2 или более [duchies|E] в качестве последнего Бочой."
+ found_kingdom_samazonas_skymothers_tear: "У вас есть 3 или более [duchies|E], при этом у вас есть $artifact_skymothers_tear_name$ [artifact|E]."
+ found_kingdom_samazonas_generic: "У вас есть 4 или более [duchies|E] в качестве любого [ruler|E] из $gh_sarminian_group$ [heritage|E]."
+ just_one_kingdom: "Должен иметь титул одного уровня королевства и не иметь титулов уровня империи."
+ renovate_palat_to_mytidon_decision: "Отремонтируйте Дворец до Митидона"
+ renovate_palat_to_mytidon_decision_tooltip: "Превратите это пятно на нашем ландшафте в новую столицу."
+ renovate_palat_to_mytidon_decision_tt: "Ваша столица будет преобразована в дворцовый или храмовый мегаполис по вашему выбору и получит особое здание. Это займет год работы и заменит Дворец на Митидоне новым зданием.\n\n#W Это решение будет означать фактически полный отказ от любых попыток строительства новой столицы.#!"
+ renovate_palat_to_mytidon_decision_desc: "Мы снова свободны и основали новое сильное королевство. Остается еще мучительный вопрос: откуда мы будем править Митидоном? Педитипси — это призрачные руины, непригодные для короля. А создание новой столицы вообще может оказаться за пределами нашей досягаемости. К счастью, аверсарианцы оставили на нашей территории административное здание, которое мы могли просто отремонтировать для своих целей."
+ hubarite_codex_decision: "Написать Кодекс"
+ hubarite_codex_decision_desc: "Как и другие на протяжении всей истории нашего народа, я гарантирую, что мое имя и практика будут жить вечно, написав юридический кодекс, которым будут руководствоваться будущие поколения."
+ hubarite_codex_decision_tooltip: "Вы напишете юридический кодекс"
+ hubarite_codex_decision_confirm: "Принеси мне ручку!"
+ create_filosi_school_decision: "Юридически гармонизироваться с Шялволками"
+ create_filosi_school_decision_desc: "Наши новые друзья и соседи из Шялволки имеют правовую и религиозную традицию, которая уходит корнями в глубь веков и которую они, безусловно, считают равной по уважению и легитимности с нашей собственной. Хотя мы явно с этим не согласны, особенно в отношении поклонения их странному иностранному богу охоты «Филосу», они придерживаются многих принципов, которые, возможно, заслуживают дальнейшего рассмотрения."
+ create_filosi_school_decision_confirm: "Создайте школу Филоси!"
+ create_filosi_school_tt: "Создает новую юридическую школу вашей веры, называемую Школой Филоси."
+ create_filosi_school_decision_tooltip: "Создать новую юридическую школу"
+ hubarite_empire_decision: "Возвысьте Хубаритскую империю"
+ hubarite_empire_decision_desc: "Самые древние сказания о нашей вере повествуют о времени, когда [magi|E]-Судьи правили золотым веком процветания, когда огромные части [sarradon|E] и, возможно, даже части [the_continent|E] находились под властью великодушных императоров, правивших близко к Великому Само Солнце. Хотя народ этой империи так долго был раздавлен чередующимися сапогами [wardenites|E] и [ritualists|E], и хотя даже точные границы нашего древнего царства были потеряны в тумане истории, оно, наконец, было восстановлено."
+ hubarite_empire_decision_valid_desc: "Вы полностью контролируете как минимум 3 королевства, которые находятся либо в Харадамате, исключая горное королевство, либо в Ухташе, не включая Фелайайлу, либо являются королевствами Корканададд или Керкония."
+ hubarite_empire_decision_confirm: "Слава Великому Солнцу!"
+ hubarite_empire_decision_tooltip: "Восстановите древнюю Хубаритскую империю."
+  
+  #################################### 
+  ## Holy Site Relocation Decisions ## 
+  #################################### 
+  
+  # Kardawai 
+  ## Pathos Delta 
+ coalition_holysites_kardawai_pathos_delta: "Подтвердите нашу веру в Бухте Мечей"
+ coalition_holysites_kardawai_pathos_delta_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Связав свою судьбу с [Concept('sjalvolki_migrations','Cenware and his Imperrech')|E], мы теперь оказываемся в [Concept('pathos_delta','a rich and plentiful land')|E], где привычные леса со временем уступают место кажущемуся бесконечным голубому пространству, подобного которому глаза нашего народа никогда раньше не видели.\n\nНаш старый дом может быть, потеряна для нас, но мы все равно приручим эту землю и сделаем ее своей."
+ coalition_holysites_kardawai_pathos_delta_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_pathos_delta').GetName] [region|E]."
+ coalition_holysites_kardawai_pathos_delta_confirm: "Испить досуха бескрайнее море!"
+  
+  ## Etepezea 
+ coalition_holysites_kardawai_etepezea: "Подтвердите нашу веру в Этепезее"
+ coalition_holysites_kardawai_etepezea_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Связав свою судьбу с [Concept('sjalvolki_migrations','Cenware and his Imperrech')|E], мы теперь оказываемся в [Concept('etepezea','a wholly alien demesne')|E] среди прожженных солнцем холмов и каменных лесов, подобных которым наш народ никогда раньше не видел.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и все равно сделаем ее своей."
+ coalition_holysites_kardawai_etepezea_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_etepezea').GetName] [region|E]."
+ coalition_holysites_kardawai_etepezea_confirm: "Кардвен пирует среди горожан"
+  
+  ## Imperial Isle 
+ coalition_holysites_kardawai_imperial_isle: "Подтвердите нашу веру на Имперском острове"
+ coalition_holysites_kardawai_imperial_isle_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Связав свою судьбу с [Concept('sjalvolki_migrations','Cenware and his Imperrech')|E], мы теперь оказываемся [Concept('imperial_isle','away from the mainland')|E], окруженные голубыми морями и бесчисленными островами.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и сделаем ее своей такой же."
+ coalition_holysites_kardawai_imperial_isle_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_imperial_isle').GetName] [region|E]."
+ coalition_holysites_kardawai_imperial_isle_confirm: "Кардвен смотрит за горизонт"
+  
+  ## Malcois 
+ coalition_holysites_kardawai_malcois: "Подтвердите нашу веру в Малкоис"
+ coalition_holysites_kardawai_malcois_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Связав свою судьбу с [Concept('sjalvolki_migrations','Cenware and his Imperrech')|E], мы теперь оказываемся в [Concept('malcois','a rugged land')|E] холмистой местности и глубоких горных долин, населенных выносливыми и свирепыми людьми, ненавидящими рабство.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и все равно сделать ее своей."
+ coalition_holysites_kardawai_malcois_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_malcois').GetName] [region|E]."
+ coalition_holysites_kardawai_malcois_confirm: "Кардвен гуляет среди бывших рабов"
+  
+  ## Opakhasia 
+ coalition_holysites_kardawai_opakhasia: "Подтвердите нашу веру в Опахазию"
+ coalition_holysites_kardawai_opakhasia_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Связав свою судьбу с [Concept('sjalvolki_migrations','Cenware and his Imperrech')|E], мы теперь попадаем в [Concept('western_opakhasia','a land carved by jagged coasts and mild fells')|E], где наши люди будут жить без нужды.\n\nНаш старый дом может быть потерян для нас, но мы все равно приручим эту землю и сделаем ее своей. ."
+ coalition_holysites_kardawai_opakhasia_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_opakhasia').GetName] [region|E]."
+ coalition_holysites_kardawai_opakhasia_confirm: "Кардвен желает обильных жертв"
+  
+  ## Aironoi 
+ coalition_holysites_kardawai_aironoi: "Подтвердите нашу веру в Aironoi"
+ coalition_holysites_kardawai_aironoi_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Связав свою судьбу с [Concept('sjalvolki_migrations','Cenware and his Imperrech')|E], мы теперь оказываемся в [Concept('western_aironoi','a strange land')|E], где бесконечные поля и сады простираются за горизонт, в конечном итоге уступая место [Concept('great_steppe','the harsh steppes')|E] внутренних помещений.\n\nНаш старый дом может быть потерян для нас, но мы это сделаем приручить эту землю и все равно сделать ее своей."
+ coalition_holysites_kardawai_aironoi_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_aironoi').GetName] [region|E]."
+ coalition_holysites_kardawai_aironoi_confirm: "Кардвен бродит по равнинам и городам Востока."
+  
+  ## Red Wastes 
+ coalition_holysites_kardawai_red_wastes: "Найдите Кардвен в Красных Пустошах."
+ coalition_holysites_kardawai_red_wastes_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Теперь, когда наш [Concept('sjalvolki_migrations','migration')|E] подошел к концу, мы оказываемся потерянными и преданными. Богатые и щедрые земли, обещанные нам Ценваром, были ложью, все они были отданы предателям Сялволки и их приспешникам. При этом у нас не осталось ничего, кроме голых холмов, граничащих с [Concept('red_waste','a desolate wasteland')|E].\n\nНо разве мы не всегда искали одиночества? Не жили ли мы в изоляции задолго до [frodbrokna|E], с затерянных в памяти времен? Снова и снова нам показывали, что посторонним нельзя доверять, которые так стремятся обмануть, презирать и презирать нас, называя нас демонами, монстрами и еще хуже.\n\nНаш старый дом может быть потерян для нас, наши люди преданы — но мы приручим эту проклятую землю и все равно сделаем ее своей."
+ coalition_holysites_kardawai_red_wastes_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_red_wastes').GetName] [region|E]."
+ coalition_holysites_kardawai_red_wastes_confirm: "Эта награда имеет вкус пепла"
+  
+  # Kakarataki 
+  ## Eastern Kalathipsomi 
+ coalition_holysites_kakarataki_eastern_kalathipsomi: "Подтвердите нашу веру в Восточном Калатипсоми"
+ coalition_holysites_kakarataki_eastern_kalathipsomi_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказались на богатой земле высоких [Concept('sulzegg_basin','mountains')|E], первобытных [Concept('kalath_old_growth','forests')|E] и аллювиальных [Concept('pathos_delta','rivers')|E], наполненных рыбой и дичью.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и все равно сделать ее своей."
+ coalition_holysites_kakarataki_eastern_kalathipsomi_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_eastern_kalathipsomi').GetName] [region|E]."
+ coalition_holysites_kakarataki_eastern_kalathipsomi_confirm: "Новое начало для нашего народа"
+  
+  ## Western Kalathipsomi 
+ coalition_holysites_kakarataki_western_kalathipsomi: "Подтвердите нашу веру в Западный Калатипсоми"
+ coalition_holysites_kakarataki_western_kalathipsomi_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и трудности, мы теперь оказываемся в стране небесных [Concept('kalath_redwoods','trees')|E], перемежающихся нежными [Concept('southern_kalath','linns and springs')|E], которые исцеляют и тело, и разум.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и все равно сделать ее своей."
+ coalition_holysites_kakarataki_western_kalathipsomi_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_western_kalathipsomi').GetName] [region|E]."
+ coalition_holysites_kakarataki_western_kalathipsomi_confirm: "Новое начало для нашего народа"
+  
+  ## Etepezea 
+ coalition_holysites_kakarataki_etepezea: "Подтвердите нашу веру в Этепезее"
+ coalition_holysites_kakarataki_etepezea_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказались в [Concept('etepezea','a rocky land full of monumental ruins')|E], подобного которому наш народ никогда раньше не видел.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и сделаем ее своей. одинаковый."
+ coalition_holysites_kakarataki_etepezea_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_etepezea').GetName] [region|E]."
+ coalition_holysites_kakarataki_etepezea_confirm: "Новое начало для нашего народа"
+  
+  ## Imperial Isle 
+ coalition_holysites_kakarataki_imperial_isle: "Подтвердите нашу веру на Имперском острове"
+ coalition_holysites_kakarataki_imperial_isle_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказались [Concept('imperial_isle','away from the mainland')|E], окруженные голубыми морями и бесчисленными островами.\n\nНаш старый дом может быть потерян для нас, но мы все равно приручим эту землю и сделаем ее своей. ."
+ coalition_holysites_kakarataki_imperial_isle_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_imperial_isle').GetName] [region|E]."
+ coalition_holysites_kakarataki_imperial_isle_confirm: "Новое начало для нашего народа"
+  
+  ## Malcois 
+ coalition_holysites_kakarataki_malcois: "Подтвердите нашу веру в Малкоис"
+ coalition_holysites_kakarataki_malcois_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и лишения, мы теперь оказались в [Concept('malcois','a rugged land')|E] холмистой местности и глубоких горных долин, населенных выносливыми и свирепыми людьми, ненавидящими рабство.\n\nНаш старый дом может быть потерян для нас, но мы приручим это землю и все равно сделать ее своей."
+ coalition_holysites_kakarataki_malcois_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_malcois').GetName] [region|E]."
+ coalition_holysites_kakarataki_malcois_confirm: "Новое начало для нашего народа"
+  
+  ## Opakhasia 
+ coalition_holysites_kakarataki_opakhasia: "Подтвердите нашу веру в Опахасии"
+ coalition_holysites_kakarataki_opakhasia_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и лишения, мы теперь оказались в [Concept('western_opakhasia','a land carved by jagged coasts and mild fells')|E], где наши люди будут жить без нужды.\n\nНаш старый дом может быть потерян для нас, но мы все равно приручим эту землю и сделаем ее своей."
+ coalition_holysites_kakarataki_opakhasia_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_opakhasia').GetName] [region|E]."
+ coalition_holysites_kakarataki_opakhasia_confirm: "Новое начало для нашего народа"
+  
+  ## Aironoi 
+ coalition_holysites_kakarataki_aironoi: "Подтвердите нашу веру в Аироной"
+ coalition_holysites_kakarataki_aironoi_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказываемся в [Concept('western_aironoi','a strange land')|E], где бесконечные поля и сады простираются за горизонт, в конечном итоге уступая место [Concept('great_steppe','the harsh steppes')|E] внутренних помещений.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и все равно сделать ее своей."
+ coalition_holysites_kakarataki_aironoi_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_aironoi').GetName] [region|E]."
+ coalition_holysites_kakarataki_aironoi_confirm: "Новое начало для нашего народа"
+  
+  # Gethian 
+  ## Eramasic Delta 
+ coalition_holysites_gethian_eramasic_delta: "Подтвердите нашу веру в заливе Пафос"
+ coalition_holysites_gethian_eramasic_delta_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через борьбу и лишения, мы теперь оказываемся на краю уцелевшего мира, в [Concept('knokidbes_biozone','a rugged land of rivers and mountains')|E], на берегу залива, богатого рыбой и суетящегося с кораблями.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и все равно сделаем ее своей."
+ coalition_holysites_gethian_eramasic_delta_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_eramasic_delta').GetName] [region|E]."
+ coalition_holysites_gethian_eramasic_delta_confirm: "Наше путешествие наконец заканчивается"
+  
+  ## Etepezea 
+ coalition_holysites_gethian_etepezea: "Подтвердите нашу веру в Этепезее"
+ coalition_holysites_gethian_etepezea_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказались в [Concept('etepezea','an arid land full of monumental ruins')|E], подобного которому наш народ никогда раньше не видел.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и сделаем ее своей. одинаковый."
+ coalition_holysites_gethian_etepezea_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_etepezea').GetName] [region|E]."
+ coalition_holysites_gethian_etepezea_confirm: "Новое начало для нашего народа"
+  
+  ## Imperial Isle 
+ coalition_holysites_gethian_imperial_isle: "Подтвердите нашу веру на Имперском острове"
+ coalition_holysites_gethian_imperial_isle_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь обнаруживаем [Concept('imperial_isle','away from the mainland')|E] и его знакомые горы, окруженные со всех сторон голубыми морями и бесчисленными островами.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и все равно сделаем его своим."
+ coalition_holysites_gethian_imperial_isle_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_imperial_isle').GetName] [region|E]."
+ coalition_holysites_gethian_imperial_isle_confirm: "Новое начало для нашего народа"
+  
+  ## Malcois 
+ coalition_holysites_gethian_malcois: "Подтвердите нашу веру в Малкоис"
+ coalition_holysites_gethian_malcois_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказались [Concept('malcois','back under the mountains bosom')|E], на земле, населенной выносливыми и свирепыми людьми, ненавидящими рабство.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и сделаем ее своей владеть все равно."
+ coalition_holysites_gethian_malcois_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_malcois').GetName] [region|E]."
+ coalition_holysites_gethian_malcois_confirm: "Новое начало для нашего народа"
+  
+  ## Opakhasia 
+ coalition_holysites_gethian_opakhasia: "Подтвердите нашу веру в Опахасии"
+ coalition_holysites_gethian_opakhasia_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и лишения, мы теперь попадаем в [Concept('western_opakhasia','a fair mountainous land')|E], где крутые скалы и обильные сопки спускаются на резные берега, и наш народ будет жить без нужды.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и все равно сделать ее своей."
+ coalition_holysites_gethian_opakhasia_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_opakhasia').GetName] [region|E]."
+ coalition_holysites_gethian_opakhasia_confirm: "Новое начало для нашего народа"
+  
+  ## Aironoi 
+ coalition_holysites_gethian_aironoi: "Подтвердите нашу веру в Аироной"
+ coalition_holysites_gethian_aironoi_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказались в [Concept('western_aironoi','a strange land')|E], где бесконечные поля и сады простираются за горизонт, а высокие горные хребты в конечном итоге уступают место [Concept('great_steppe','the harsh steppes')|E] внутренних помещений.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и все равно сделаем ее своей."
+ coalition_holysites_gethian_aironoi_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_aironoi').GetName] [region|E]."
+ coalition_holysites_gethian_aironoi_confirm: "Новое начало для нашего народа"
+  
+  # Salacad 
+  
+  ## Kepyran Basin 
+ coalition_holysites_salacad_sulzegg_basin: "Подтвердите нашу веру в бассейн Кепирана"
+ coalition_holysites_salacad_sulzegg_basin_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказались в [Concept('sulzegg_basin','a plentiful mountainous land')|E], богатом дичью и древесиной, где наши дочери могут беспрепятственно бродить.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и сделаем ее своей. все так же."
+ coalition_holysites_salacad_sulzegg_basin_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_sulzegg_basin').GetName] [region|E]."
+ coalition_holysites_salacad_sulzegg_basin_confirm: "Новое начало для нашего народа"
+  
+  ## Chevalie 
+ coalition_holysites_salacad_chevalie: "Подтвердите нашу веру в Шевалье"
+ coalition_holysites_salacad_chevalie_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через борьбу и трудности, мы проложили свой собственный путь и теперь оказываемся в стране [Concept('ash_war','torn by conflict')|E], в уголке известного мира [Concept('antimagic','known for its lack of magic')|E].\n\nНаш старый дом может быть потерян для нас, но мы приручим это землю и все равно сделать ее своей."
+ coalition_holysites_salacad_chevalie_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_chevalie').GetName] [region|E]."
+ coalition_holysites_salacad_chevalie_confirm: "Новое начало для нашего народа"
+  
+  ## Etepezea 
+ coalition_holysites_salacad_etepezea: "Подтвердите нашу веру в Этепезее"
+ coalition_holysites_salacad_etepezea_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и трудности, мы теперь оказываемся в [Concept('etepezea','a rugged, arid land')|E], который медленно поднимается к величественным горным вершинам внутренних районов.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и сделаем ее своей. одинаковый."
+ coalition_holysites_salacad_etepezea_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_etepezea').GetName] [region|E]."
+ coalition_holysites_salacad_etepezea_confirm: "Новое начало для нашего народа"
+  
+  ## Imperial Isle 
+ coalition_holysites_salacad_imperial_isle: "Подтвердите нашу веру на Имперском острове"
+ coalition_holysites_salacad_imperial_isle_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказались [Concept('imperial_isle','away from the mainland')|E] и его священными горными вершинами, окруженными со всех сторон чужими морями и бесчисленными островами.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и все равно сделаем его своим."
+ coalition_holysites_salacad_imperial_isle_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_imperial_isle').GetName] [region|E]."
+ coalition_holysites_salacad_imperial_isle_confirm: "Лазурь вверху, Лазурь внизу"
+  
+  ## Malcois 
+ coalition_holysites_salacad_malcois: "Подтвердите нашу веру в Малкоис"
+ coalition_holysites_salacad_malcois_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказались [Concept('malcois','among the deep mountain valleys')|E], на земле, населенной выносливыми и свирепыми людьми, ненавидящими рабство.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и сделаем ее своей владеть все равно."
+ coalition_holysites_salacad_malcois_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_malcois').GetName] [region|E]."
+ coalition_holysites_salacad_malcois_confirm: "Новое начало для нашего народа"
+  
+  ## Opakhasia 
+ coalition_holysites_salacad_opakhasia: "Подтвердите нашу веру в Опахасии"
+ coalition_holysites_salacad_opakhasia_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказались в [Concept('western_opakhasia','a land of jagged coasts and hallowed mountains')|E], где прекрасные дочери Саласы будут жить без нужды.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и сделаем ее своей. одинаковый."
+ coalition_holysites_salacad_opakhasia_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_opakhasia').GetName] [region|E]."
+ coalition_holysites_salacad_opakhasia_confirm: "Новое начало для нашего народа"
+  
+  ## Aironoi 
+ coalition_holysites_salacad_aironoi: "Подтвердите нашу веру в Аироной"
+ coalition_holysites_salacad_aironoi_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через борьбу и трудности, мы наконец достигли конца нашего долгого пути. Не осталось никого, кто помнит наш старый дом — даже тех, кто помнит дни Салазсека, теперь мало. И все же земля перед нами нам знакома, поскольку она отражает нашу потерянную родину — даже люди в масках, которых мы считали потерянными, живут здесь, среди [Concept('western_aironoi','fertile plains and majestic peaks')|E]. \n\nНаш старый дом может быть потерян для нас, но мы все равно приручим эту благословенную землю и сделаем ее своей."
+ coalition_holysites_salacad_aironoi_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_aironoi').GetName] [region|E]."
+ coalition_holysites_salacad_aironoi_confirm: "Новое начало для нашего народа"
+  
+  # Stodherrn 
+  ## Eastern Kalathipsomi 
+ coalition_holysites_stodherrn_eastern_kalathipsomi: "Подтвердите нашу веру в Восточном Калатипсоми"
+ coalition_holysites_stodherrn_eastern_kalathipsomi_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказались на богатой земле высоких [Concept('sulzegg_basin','mountains')|E], первобытных [Concept('kalath_old_growth','forests')|E] и аллювиальных [Concept('pathos_delta','rivers')|E], наполненных рыбой и дичью.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и все равно сделать ее своей."
+ coalition_holysites_stodherrn_eastern_kalathipsomi_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_eastern_kalathipsomi').GetName] [region|E]."
+ coalition_holysites_stodherrn_eastern_kalathipsomi_confirm: "Новое начало для нашего народа"
+  
+  ## Knokidbes Valley 
+ coalition_holysites_stodherrn_knokidbes_valley: "Подтвердите нашу веру в долине Кнокидбес"
+ coalition_holysites_stodherrn_knokidbes_valley_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказались в [Concept('knokidbes_biozone','a rugged land of rivers and mountains')|E], среди нежных лесов и долин.\n\nНаш старый дом, возможно, потерян для нас, но мы все равно приручим эту землю и сделаем ее своей."
+ coalition_holysites_stodherrn_knokidbes_valley_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_knokidbes_valley').GetName] [region|E]."
+ coalition_holysites_stodherrn_knokidbes_valley_confirm: "Новое начало для нашего народа"
+  
+  ## Etepezea 
+ coalition_holysites_stodherrn_etepezea: "Подтвердите нашу веру в Этепезее"
+ coalition_holysites_stodherrn_etepezea_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказались в [Concept('etepezea','an arid land full of monumental ruins')|E], подобного которому наш народ никогда раньше не видел.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и сделаем ее своей. одинаковый."
+ coalition_holysites_stodherrn_etepezea_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_etepezea').GetName] [region|E]."
+ coalition_holysites_stodherrn_etepezea_confirm: "Новое начало для нашего народа"
+  
+  ## Imperial Isle 
+ coalition_holysites_stodherrn_imperial_isle: "Подтвердите нашу веру на Имперском острове"
+ coalition_holysites_stodherrn_imperial_isle_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказались [Concept('imperial_isle','away from the mainland')|E], окруженные голубыми морями и бесчисленными островами.\n\nНаш старый дом может быть потерян для нас, но мы все равно приручим эту землю и сделаем ее своей. ."
+ coalition_holysites_stodherrn_imperial_isle_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_imperial_isle').GetName] [region|E]."
+ coalition_holysites_stodherrn_imperial_isle_confirm: "Новое начало для нашего народа"
+  
+  ## Malcois 
+ coalition_holysites_stodherrn_malcois: "Подтвердите нашу веру в Малкоис"
+ coalition_holysites_stodherrn_malcois_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и лишения, мы теперь оказались в [Concept('malcois','a rugged land')|E] холмистой местности и глубоких горных долин, населенных выносливыми и свирепыми людьми, ненавидящими рабство.\n\nНаш старый дом может быть потерян для нас, но мы приручим это землю и все равно сделать ее своей."
+ coalition_holysites_stodherrn_malcois_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_malcois').GetName] [region|E]."
+ coalition_holysites_stodherrn_malcois_confirm: "Новое начало для нашего народа"
+  
+  ## Opakhasia 
+ coalition_holysites_stodherrn_opakhasia: "Подтвердите нашу веру в Опахасии"
+ coalition_holysites_stodherrn_opakhasia_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и лишения, мы теперь оказались в [Concept('western_opakhasia','a land carved by jagged coasts and mild fells')|E], где наши люди будут жить без нужды.\n\nНаш старый дом может быть потерян для нас, но мы все равно приручим эту землю и сделаем ее своей."
+ coalition_holysites_stodherrn_opakhasia_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_opakhasia').GetName] [region|E]."
+ coalition_holysites_stodherrn_opakhasia_confirm: "Новое начало для нашего народа"
+  
+  ## Aironoi 
+ coalition_holysites_stodherrn_aironoi: "Подтвердите нашу веру в Аироной"
+ coalition_holysites_stodherrn_aironoi_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказываемся в [Concept('western_aironoi','a strange land')|E], где бесконечные поля и сады простираются за горизонт, в конечном итоге уступая место [Concept('great_steppe','the harsh steppes')|E] внутренних помещений.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и все равно сделать ее своей."
+ coalition_holysites_stodherrn_aironoi_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_aironoi').GetName] [region|E]."
+ coalition_holysites_stodherrn_aironoi_confirm: "Новое начало для нашего народа"
+  
+  # Apti 
+  ## Eastern Kalathipsomi 
+ coalition_holysites_apti_eastern_kalathipsomi: "Подтвердите нашу веру в Восточном Калатипсоми"
+ coalition_holysites_apti_eastern_kalathipsomi_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказались на богатой земле высоких [Concept('sulzegg_basin','mountains')|E], первобытных [Concept('kalath_old_growth','forests')|E] и аллювиальных [Concept('pathos_delta','rivers')|E], наполненных рыбой и дичью.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и все равно сделать ее своей."
+ coalition_holysites_apti_eastern_kalathipsomi_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_eastern_kalathipsomi').GetName] [region|E]."
+ coalition_holysites_apti_eastern_kalathipsomi_confirm: "Новое начало для нашего народа"
+  
+  ## Etepezea 
+ coalition_holysites_apti_etepezea: "Подтвердите нашу веру в Этепезее"
+ coalition_holysites_apti_etepezea_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказались в [Concept('etepezea','an arid land full of monumental ruins')|E], подобного которому наш народ никогда раньше не видел.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и сделаем ее своей. одинаковый."
+ coalition_holysites_apti_etepezea_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_etepezea').GetName] [region|E]."
+ coalition_holysites_apti_etepezea_confirm: "Новое начало для нашего народа"
+  
+  ## Imperial Isle 
+ coalition_holysites_apti_imperial_isle: "Подтвердите нашу веру на Имперском острове"
+ coalition_holysites_apti_imperial_isle_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказались [Concept('imperial_isle','away from the mainland')|E], окруженные голубыми морями и бесчисленными островами.\n\nНаш старый дом может быть потерян для нас, но мы все равно приручим эту землю и сделаем ее своей. ."
+ coalition_holysites_apti_imperial_isle_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_imperial_isle').GetName] [region|E]."
+ coalition_holysites_apti_imperial_isle_confirm: "Новое начало для нашего народа"
+  
+  ## Malcois 
+ coalition_holysites_apti_malcois: "Подтвердите нашу веру в Малкоис"
+ coalition_holysites_apti_malcois_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и лишения, мы теперь оказались в [Concept('malcois','a rugged land')|E] холмистой местности и глубоких горных долин, населенных выносливыми и свирепыми людьми, ненавидящими рабство.\n\nНаш старый дом может быть потерян для нас, но мы приручим это землю и все равно сделать ее своей."
+ coalition_holysites_apti_malcois_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_malcois').GetName] [region|E]."
+ coalition_holysites_apti_malcois_confirm: "Новое начало для нашего народа"
+  
+  ## Opakhasia 
+ coalition_holysites_apti_opakhasia: "Подтвердите нашу веру в Опахасии"
+ coalition_holysites_apti_opakhasia_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и лишения, мы теперь оказались в [Concept('western_opakhasia','a land carved by jagged coasts and mild fells')|E], где наши люди будут жить без нужды.\n\nНаш старый дом может быть потерян для нас, но мы все равно приручим эту землю и сделаем ее своей."
+ coalition_holysites_apti_opakhasia_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_opakhasia').GetName] [region|E]."
+ coalition_holysites_apti_opakhasia_confirm: "Новое начало для нашего народа"
+  
+  ## Aironoi 
+ coalition_holysites_apti_aironoi: "Подтвердите нашу веру в Аироной"
+ coalition_holysites_apti_aironoi_desc: "Прошло много лет с тех пор, как мы покинули нашу родину, спасаясь от вторгающегося [fog|E]. Пройдя через раздоры и невзгоды, мы теперь оказываемся в [Concept('western_aironoi','a strange land')|E], где бесконечные поля и сады простираются за горизонт, в конечном итоге уступая место [Concept('great_steppe','the harsh steppes')|E] внутренних помещений.\n\nНаш старый дом может быть потерян для нас, но мы приручим эту землю и все равно сделать ее своей."
+ coalition_holysites_apti_aironoi_tooltip: "В вашем [realm|E] есть хотя бы один [county|E] в [GetGeographicalRegion('custom_holysite_migration_aironoi').GetName] [region|E]."
+ coalition_holysites_apti_aironoi_confirm: "Новое начало для нашего народа"
+  
+  # Northern Oltenic 
+  ## Kashirya 
+ coalition_holysites_ebohephai_olten_kashirya: "Affirm our Faith in Otached's Lands" #NT!
+ coalition_holysites_ebohephai_olten_kashirya_desc: "Long ago, our southern brethren [Concept('otachedian_empire','settled')|E] in these [Concept('kashirya','lands')|E]. Now, with the [fog|E] spreading far and wide across our home, we must do the same, to ensure the survival of our ways in these strange lands." #NT!
+ coalition_holysites_ebohephai_olten_kashirya_tooltip: "Your [realm|E] has at least one [county|e] in the [GetGeographicalRegion('custom_holysite_migration_kashirya').GetName] [region|E]" #NT!
+ coalition_holysites_ebohephai_olten_kashirya_confirm: "A new beginning for our people" #NT!
+  
+ stress_loss_chort_decision: "Употребляйте торты «Чорт»"
+ stress_loss_chort_decision_desc: "Всего несколько укусов, и стресс, кажется, покидает мое тело. Мой разум начинает затуманиваться, и меня охватывает чувство мира и покоя. Нет ничего более расслабляющего, чем хороший хорт!"
+ stress_loss_chort_decision_tooltip: "Позвольте вашему стрессу раствориться в тумане, вызванном наркотиками"
+ stress_loss_chort_decision_confirm: "Принеси мне тарелку!"
+ revive_ertomax_kingdom_decision: "Возвращение Ариванна Воса"
+ revive_ertomax_kingdom_decision_tooltip: "Объявить королевство [ertomax|E] восстановленным"
+ revive_ertomax_kingdom_decision_desc: "Древнее королевство Ариванн Вос было потеряно для нашего народа с [ertomax|E], но оно еще не подлежит восстановлению. Если бы мне пришлось объединить сердце Земли под своим знаменем, никто не смог бы отрицать возвращение царства Эртомакса в лицо Айроноя."
+ revive_ertomax_kingdom_decision_confirm: "Восстановите королевство [ertomax|E]"
+ revive_ertomax_kingdom_decision_tt: "Станьте правителем Ариванна Воса."
+ anaanide_purification_decision: "Сделайте шаг очищения"
+ anaanide_purification_decision_desc: "Чтобы достичь святой земли Анаан, я должен очистить себя от греха. Пришло время сделать следующий шаг в этом долгом путешествии."
+ anaanide_purification_decision_tooltip: "Вы делаете шаг очищения, чтобы очистить свою душу."
+ anaanide_purification_decision_confirm: "Начинайте подготовку!"
+ anaanide_final_step_decision: "Сделайте последний шаг к Анаану"
+ anaanide_final_step_decision_desc: "Мои усилия по очищению себя посредством медитации и молитвы завершились тем, что моя душа очистилась от греха. Наконец-то пришло время сделать последний шаг к Анаану и предстать перед Великим Судьей."
+ anaanide_final_step_decision_tooltip: "Вы делаете последний шаг на пути к Анаану."
+ anaanide_final_step_decision_confirm: "Пришло время закончить этот долгий путь."
+ anaan_ascension_desc: "Зилот вознесся в Анаан"
+ eloi_reclaimed_desc: "Элой был возвращен"
+ alau_koev_flame_festival_decision: "Празднуйте Алау Пьесали"
+ alau_koev_flame_festival_decision_tooltip: "Подготовьте свою плоть к открытию [fire_gate|E]"
+ alau_koev_flame_festival_decision_desc: "Алау Пьесали, Праздник Огня, — древняя традиция моего народа. Если я хочу доказать, что достоин покинуть этот холодный мир, я должен позволить священному пламени коснуться моей плоти."
+ alau_koev_flame_festival_decision_confirm: "Я очистюсь!"
+ alau_koev_flame_festival_decision_tt: "Сделайте шаги к Великому Пламени"
+ iyrossi_kill_aversarians_decision_valid_desc: "Любое вассальное или удерживаемое графство является аверсианским."
+ iyrossi_kill_aversarians_desc: "Убитые аверсарианцы"
+ gh_debase_currency_decision_2_tooltip: "Пожертвуйте большое количество [prestige|E] в обмен на мгновенный приток золота."
+ gh_debase_currency_decision_4: "Обесценивание валюты"
+ new_eastern_empire: "Создайте новую империю на Востоке"
+ new_eastern_empire_desc: "Теперь, когда наша база власти прочно устоялась, а кризисы прошлого остались позади, мы можем, наконец, попытаться создать настоящую [aversarians|E] Империю на Востоке. Асуипол долгое время был столицей старой Империи, и она будет снова. Пришло время новому государству восстать из пепла и вернуть себе право первородства! Слава Автократии Гекеде!"
+ new_eastern_empire_confirm: "Создать новое государство"
+ new_eastern_empire_tooltip: "Пришло время сформировать новую [aversarians|E] Империю на Востоке."
+ legio_xcv_reborn: "Реформировать Легио XCV Виесуадос."
+ legio_xcv_reborn_desc: "Когда повстанцы окончательно разгромлены, а проблемы нашего прошлого побеждены, теперь мы можем начать строить заново и вернуть славу нашему легиону."
+ legio_xcv_reborn_confirm: "Реформировать Легион"
+ legio_xcv_reborn_tooltip: "Пришло время вернуть славу Легио XCV Виесуадос."
+ legio_xcv_rivals: "Остатки Легио XCV «Вьесуадос», должно быть, были возвращены в состав или раздавлены ногой."
+ legio_xcv_reborn_2: "Реформировать Легио XCV Виесуадос."
+ legio_xcv_reborn_2_desc: "Когда повстанцы окончательно разгромлены, а проблемы нашего прошлого побеждены, теперь мы можем начать строить заново и вернуть славу нашему легиону."
+ legio_xcv_reborn_2_confirm: "Реформировать Легион"
+ legio_xcv_reborn_2_tooltip: "Пришло время вернуть славу Легио XCV Виесуадос."
+ become_pirate_emperor: "Объявить империю на пиратском побережье"
+ become_pirate_emperor_desc: "Никто не может противостоять мне и моему бесконечному богатству. Пришло время увековечить себя за морями."
+ become_pirate_emperor_tooltip: "Станьте пиратом, которому нет равных на морях."
+ become_pirate_emperor_confirm: "Легендам неисчислимым!"
+ the_scarred_rise_up: "Шатранджая!"
+ the_scarred_rise_up_desc: "В течение многих лет наши братья и сестры страдали от сурового правления так называемых «торговцев». Слишком долго нас использовали и оскорбляли, над нашим образом жизни высмеивали, наши семьи разлучали. Мы, тихий шепот леса, быстрый движущийся поток густых джунглей, высшие хищники. Больше никогда! Связанные Шрамом приведут нас к славному будущему. Мы клянемся ему в своей решимости, шрамируя лица и обнажая грудь. Мы выбрали подходящее название для этого восстания; Шатранджая, или «Полная победа», поскольку мы знаем, что добьемся успеха или погибнем, пытаясь."
+ the_scarred_rise_up_tt: "Воины Танумарея сплотятся вокруг вас. Называя себя Азаки Мард или «Воины Свободы», их единственная цель находит отклик в их сердцах; освобождение своей родины от жестоких повелителей."
+ the_scarred_rise_up_tooltip: "Возьмите под свой контроль судьбу своего народа"
+ the_scarred_rise_up_confirm: "Испуганные рвутся к свободе!"
+ azaki_mard: "Азаки Мард"
+  
+ become_king_taykovi_decision: "Royal Ambitions?"
+ belisarios_enemies_dead_desc: "Aeschraes, Gorassos, and Maurikios must be dead and buried for you to consider anything like this."
+ become_king_taykovi_decision_confirm: "Bring me my crown."
+ become_king_taykovi_decision_tooltip: "King Frostblood has a nice ring to it."
+ become_king_taykovi_decision_desc: "King?  What need have I to be a king?  There are men I must kill."
+ become_king_taykovi_decision_enemies_dead: "Why should I not be a king?  Are there not those who already name me rightful Aautokrator of a dead Aversaria?  And none rival my prestige and pedigree in the Straits of Ageotaros.  Let us drop all pretense.  If I am to redeem the Drakaxiad, it must be in fortune as well as blood."
+  
+ belisarios_tries_to_forget: "More to Life"
+ belisarios_tries_to_forget_desc: "Now that I am a king, perhaps I ought to focus on other things than revenge."
+ belisarios_tries_to_forget_tooltip: "Has your bloodlust been sated, oh mighty king?"
+ belisarios_tries_to_forget_confirm: "Reflect on your life."
+ belisarios_enemies_must_not_bedead_desc: "My sword is thirsty."
+  #################### 
+  # STORYLINE - COIS # 
+ break_strings_decision: "Разорви мои струны"
+ break_strings_decision_tooltip: "Я уже не так контролируем, как раньше"
+ break_strings_decision_desc: "Хотя я все еще далек от того, чтобы полностью контролировать свое царство, я больше не марионетка, танцующая на струнах моего хозяина."
+ break_strings_decision_confirm: "Возьмите под контроль свою судьбу"
+ recruit_wayfather_decision: "Нанять Путеводителя"
+ recruit_wayfather_decision_tooltip: "Ваши слуги предложат несколько подходящих кандидатов на должность Мастера Путей в качестве нашего придворного капеллана."
+ recruit_wayfather_decision_tt: "Мы сможем нанять Путеводителя в качестве нашего придворного капеллана."
+ recruit_wayfather_decision_desc: "В нашей вере каждый из нас посвящает себя выбранному жизненному пути, а Путеводители служат нашими проводниками на пути к самосовершенствованию. Любой двор был бы духовно потерян без настоящего Отца Пути или Матери Пути."
+ recruit_wayfather_decision_confirm: "Отправить посланник"
+ search_for_notable_decision: "Поиск выдающейся личности"
+ search_for_notable_decision_tooltip: "Ищите образованного человека, принадлежащего к вашей культуре и религии, который сможет выполнить любую роль, которая вам нужна."
+ search_for_notable_decision_desc: "Я соберу лучших искателей талантов в королевстве и попрошу их найти опытных людей из низшего рода, которые будут служить при моем дворе или выполнять другие роли."
+ search_for_notable_decision_confirm: "Пошлите за искателями талантов."
+ reunite_boqqarut_decision: "Воссоединить Боккарут"
+ reunite_boqqarut_decision_tooltip: "Вы провозгласите себя Боккаром воссоединенной Дамоты."
+ reunite_boqqarut_valid_desc: "У вас есть и Гидаха, и Дибеда Дамота."
+ reunite_boqqarut_decision_desc: "Несмотря на то, что [etami_tetenik|E] сгорел в огне [etami_tetenik|E], а мелкие военачальники вырезали из его трупа свои королевства, [boqqarut_damotada|E] снова восстанет. Там, где когда-то царил хаос и разруха, воцарятся порядок и процветание, и вся Дамота будет греться в нашей славе и великолепии. Нам нужно только сделать провозглашение."
+ reunite_boqqarut_decision_effects: "You will become known as the restorer of Damota" #NT!
+ reunite_boqqarut_decision_confirm: "Дамота возрождается!"
+ integrate_gisreddes_decision: "Интегрируйте Гисреддес"
+ integrate_gisreddes_decision_desc: "На протяжении веков [peti_gisredde|E] и его двоюродный брат [grande_gisredde|E] были аномалией внутри Шевальи, всегда сопротивляясь власти Верховного Короля. Теперь мы можем, наконец, покончить с юридической нелепостью, известной как [gisreddepact|E], и формально подчинить города и [council_of_gisredde|E] нашему правлению."
+ integrate_gisreddes_control_timer_no: "Вы должны были иметь непрерывный контроль над обоими Гисреддами в течение 80 лет (до [GetCurrentDateWithDiff( GetVarTimeRemaining( TITLE.MakeScope, 'integrate_gisreddes_timer') )])."
+ integrate_gisreddes_control_timer_yes: "Вы должны были иметь непрерывный контроль над $c_peti_gisredde$ и $c_grande_gisredde$ в течение 80 лет."
+ integrate_gisreddes_decision_complete_desc: "Семья Гисред де-юре интегрируется в Шевалье и больше не будет создавать беспорядков."
+ integrate_gisreddes_decision_confirm: "[gisreddepact|E] больше нет!"
+ gisreddi: "Гисреддин"
+ adopt_pirate_ways: "Примите пиратство"
+ adopt_pirate_ways_desc: "Будь то бедность вашего королевства, жажда приключений или просто жадность, наступает время, когда каждый правитель задумывается о пиратстве."
+ adopt_pirate_ways_confirm: "Поднимите якорь!"
+ adopt_pirate_ways_tooltip: "Вы откажетесь от своих старых привычек и превратите свое королевство в убежище [pirate|E]!"
+ adopt_pirate_ways_through_liege: "Примите пиратство"
+ adopt_pirate_ways_through_liege_desc: "Будь то бедность вашего королевства, жажда приключений или просто жадность, наступает момент, когда каждый правитель задумывается о том, чтобы свернуть [pirate|E]."
+ adopt_pirate_ways_through_liege_confirm: "Поднимите якорь!"
+ adopt_pirate_ways_through_liege_tooltip: "Вы откажетесь от своих старых привычек и превратите свое королевство в убежище [pirate|E], подобное вашему сюзерену."
+ avenge_ayule_expedition_decision: "Отомстить [ayule_expedition|E]"
+ avenge_ayule_expedition_decision_tooltip: "Вы провозгласите власть Дамотана над северными землями."
+ avenge_ayule_expedition_decision_desc: "Давным-давно Аюле попыталась завоевать прибыльные земли на севере, что навсегда обеспечило бы торговлю Дамоты и поставило бы жизненно важную дорогу в Гонан под нашу гегемонию. Хотя его попытка закончилась унизительной катастрофой, мы отомстили за поражение при Лаццане, и поля его поражения навсегда останутся нашими."
+ avenge_ayule_expedition_decision_confirm: "Высоко поднимите знамена!"
+ declare_yourself_malaak: "Объявите себя Малааком"
+ declare_yourself_malaak_tooltip: "Воля Орасика течет через тебя"
+ declare_yourself_malaak_desc: "Вот уже много лет я следую воле Орасика, снова и снова доказывая, что я праведник. Однако теперь пришло время официально связать мою волю с его и объявить себя Малааком."
+ declare_yourself_malaak_confirm: "Пусть церемония начнется"
+ declare_yourself_malaak.tt: "Титул главы конфессии не будет унаследован при преемственности."
+ declare_yourself_malaak_holy_sites: "Вы должны контролировать как минимум 3 Ахридара [CHARACTER.GetFaith.GetAdjective] [holy_sites|E]."
+ abandon_pirate_ways: "Отказаться от пиратства"
+ #abandon_pirate_ways: "Перестань быть пиратом"
+ abandon_pirate_ways_desc: "Пиратство больше не служит нашим потребностям. Пришло время вновь вернуться к традиционному правлению."
+ abandon_pirate_ways_confirm: "Ну, по крайней мере, мы сохраним добычу."
+ abandon_pirate_ways_tooltip: "Вы откажетесь от своих путей [pirate|E] и станете лордом [feudal|E]!"
+ declare_yourself_the_pirate_king: "Объявите себя королем пиратов"
+ declare_yourself_the_pirate_king_tooltip: "Станьте королем пиратов"
+ declare_yourself_the_pirate_king_desc: "Мои подвиги не имеют себе равных, а моя казна переполнена. Пришло время увековечить мое имя."
+ declare_yourself_the_pirate_king_confirm: "К славе и богатству!"
+ invite_rogues_decision: "Пригласить разбойников"
+ invite_rogues_decision_desc: "Как пират, я не могу позволить себе быть слишком разборчивым в отношении компании, с которой состою. Мне нужны способные бойцы и лейтенанты, и если я распространим свое послание по всем портам, многие наверняка устремятся в мой флот."
+ loot_tabik_betemisit: "Ограбьте Табика Бетемисита."
+ loot_tabik_betemisit_desc: "Моговаи долго ждали в своих позолоченных залах, молясь о возвращении своего мертвого бога. И ничто более не символизирует их темную цель, чем [GetBuilding('01_tabik_betemisit').GetName], Пустой Дворец, предназначенный для размещения их «Всевышнего» после Его возвращения из могилы. Подобный памятник Узнику в капюшоне нельзя терпеть, потому что мы знаем правду. Бог мертв, и наш долг — обеспечить, чтобы Он оставался таковым. Кроме того, такое инкрустированное драгоценными камнями сооружение наверняка сможет обеспечить нас средствами, с помощью которых мы сможем продолжать борьбу со злом."
+ loot_tabik_betemisit_tooltip: "Преобразить древний памятник"
+ loot_tabik_betemisit_confirm: "Он никогда не вернется!"
+ train_falcons_decision: "Перейти на тренировку сокола"
+ train_falcons_desc: "Соколиная охота — древнее искусство, на освоение которого уходят годы, и оно сопровождается равными периодами восторга и разочарования. Однако сокол станет отличным спутником в моих охотничьих начинаниях."
+ train_falcons_tooltip: "Вы получите сокола и будете обучать его в течение нескольких месяцев."
+ train_falcons_decision_confirm: "Время взлететь."
+ gh_abdicate_decision: "Отречься от престола"
+ gh_abdicate_decision_desc: "По мере приближения моих закатных лет, возможно, пришло время задуматься о моем правлении – и о его возможном конце. Передача власти моему преемнику и принятие на себя роли уважаемого [GetTrait('gh_alatan').GetName(GetNullCharacter)] было бы благородным поступком, но от атрибутов власти не всегда легко отказаться..."
+ gh_abdicate_decision_tooltip: "Отдать бразды правления и с честью отречься от престола"
+ gh_abdicate_decision_confirm: "Время выходить на пенсию"
+ gh_magocratic_reformation_decision: "Магократическая реформация"
+ gh_magocratic_reformation_decision_desc: "[magi|E] всегда были одними из самых мудрых и почитаемых представителей нашего общества, и мое царство постепенно скатилось к состоянию, в котором его правящая элита почти полностью состоит из практиков. Таким образом, в значительной степени это всего лишь вопрос формальности — взяться за перо и официально закрепить магические способности как юридическое условие удержания власти."
+ gh_magocratic_reformation_decision_tooltip: "К великому, более просвещенному правлению!"
+ gh_magocratic_reformation_decision_confirm: "Издать указ"
+ elephant_race_decision: "Посетите гонку на слонах"
+ elephant_race_decision_desc: "#F У многих культур Каширии существует древняя традиция соревноваться на слонах друг с другом. Я мог бы посетить такое мероприятие, чтобы продемонстрировать свое богатство и престиж#!"
+ start_elephant_race_decision: "Вы посещаете местные игры"
+ start_elephant_race_decision_stress_lazy: "#N Вы не потеряете [stress|E], так как вам [GetTrait('lazy').GetName( GetPlayer )]#!"
+ elephant_race_decision_tooltip: "Вы отправляетесь на тропу слонов"
+ elephant_race_decision_confirm: "Гонки ждут!"
+ gh_taryaad_saramsaasan_unification_decision: "Восстановите Королевство Паэрасятан!"
+ taryaad_reformed_valid_desc: "Вы должны полностью контролировать империи Наавджагарад и Вичачил."
+ gh_taryaad_saramsaasan_unification_decision_confirm: "Наша династия навсегда останется в истории Каширян!"
+ gh_taryaad_saramsaasan_unification_decision_tooltip: "Воссоедините земли династии Тариадов."
+ gh_taryaad_saramsaasan_unification_decision_desc: "Имя Тариад – это больше, чем просто имя. Значение этого слова проникло в саму жизнь каширского народа, символизируя конец анархии и сошествие самих богов, чтобы принести гармоничное правление народу Каширии.\n\nНаша династия, пройдя через множество испытаний и невзгод, стали правителями земель [taryaad_saramsaasan|E] и породили золотой век, подобный предыдущим!"
+ gh_taryaad_pretender_decision: "Претендуйте на трон Асодживы"
+ gh_taryaad_pretender_decision_confirm: "Вернуть эти земли — мое право по рождению!"
+ gh_taryaad_pretender_decision_tooltip: "Вы доказали, что достойны наследия Асодживы."
+ gh_taryaad_pretender_decision_desc: "Каширянам всегда не хватало хорошего лидера, который мог бы привести их к светлому будущему. И только когда сами боги спустились в Каширью в образе Асодживы, чтобы избавить нас от нашего высокомерия, мы наконец вступили в период мира и прогресса. Теперь, когда его родословная ушла, Каширье нужен новый лидер — божественное существо, которое может принести Каширье еще одну процветающую эпоху, как Тарьяад. Такое существо, как я. Ибо теперь я доказал всем в этих землях, что я достоин. Достойно возглавить имя Тарьяад."
+ otachedian_restoration_decision: "Rebuild Otached's Empire" #NT!
+ otachedian_restoration_decision_desc: "Once, a great conqueror ruled the lands of [kashirya|E]. Devastation and conflict followed after its fall, yet glory is still in reach. Reforge the imperial ambitions of Otached and his sons, and bring Kashirya into a new age!" #NT!
+ otachedian_restoration_decision_tooltip: "Forge a new empire in Kashirya" #NT!
+ otachedian_restoration_decision_confirm: "For the Glory of the Ölteni!" #NT!
+ otached_restoration_decision_titles_tt: "All [titles|E] [de_jure|E] in Kashirya and Aironoi that you [completely_control|E] will become part of your new empire." #NT!
+ otachedian_restoration_troops_effect_tt: "You get a loyal [army|E] of Öltenic [soldiers|E]:\n$BULLET_WITH_TAB$#V 1000#! $oltenic_horse_archers$ #weak ([archer_cavalry|E])#!\n$BULLET_WITH_TAB$#V 1000#! $oltenic_spearmen$ #weak ([spearmen|E])#!" #NT!
+ otachedian_restoration_modifier_vassalization_effect_tt: "Increases Otachedian Law [tradition|E] #V $offer_vassalization_interaction$#! acceptance by #P +15#!" #NT!
+ nick_lord_of_the_kasir: "Lord of the Kasiryat" #NT!
+ form_stellios_aautokrata_decision: "Заявите права на Аавтократу"
+ form_stellios_aautokrata_desc: "Материк исчез, раздавленный ордами Шялволки. Аавтократиров не осталось, только мелкие военачальники, выдвигающие абсурдные заявления. Но здесь, в этом Архексате, старая империя все еще стоит. Как правитель Крехеджада, я являюсь последней функционирующей частью имперского правительства. И от Архекса до Аавтократира не так уж и далеко..."
+ form_stellios_aautokrata_decision_tooltip: "Крехеджад будет преобразован в автократу и разделен на две провинции."
+ form_stellios_aautokrata_decision_confirm: "Поднимите старые знамена!"
+ blow_the_black_horn_decision: "Ударьте в черный рог"
+ blow_the_black_horn_decision_desc: "Протрубите в Черный Рог и вызовите армию духов, но будьте осторожны: говорят, что те, кто призывает силу Рога, обречены почувствовать его гнев."
+ blow_the_black_horn_decision_tooltip: "Протрубите в Черный Рог!"
+ blow_the_black_horn_decision_confirm: "Я приму эту судьбу."
+ death_by_blackhorn_tooltip: "#negative_value Когда закончится ваш следующий [war|E], Черный Рог придет за вами.#"
+ blow_the_blackhorn_decision_valid: "У вас есть Черный Рог [artifact|E]"
+ change_to_feudal: "Перейдите на Аристократический."
+ change_to_feudal_confirm: "Перейдите на Аристократический."
+ change_to_feudal_tooltip: "Перейдите на Аристократический."
+ change_to_feudal_desc: "Сменить на аристократический."
+ add_magic: "Добавьте магии."
+ add_magic_confirm: "Добавьте магии."
+ add_magic_tooltip: "Добавьте магии."
+ add_magic_desc: "Добавьте магии."
+ get_blood_desc: "Это заполнитель."
+ add_province_modifiers: "Добавьте модификаторы провинций."
+ add_province_modifiers_confirm: "Добавьте модификаторы провинций."
+ add_province_modifiers_tooltip: "Добавьте модификаторы провинций."
+ add_province_modifiers_desc: "Добавьте модификаторы провинций."
+ gh_military_to_feudalism_decision: "Объятия [feudalism|E]"
+ gh_military_to_feudalism_decision_desc: "Пришло время распустить правление Легиона и адаптироваться к традиционным методам правления."
+ gh_military_to_feudalism_decision_confirm: "Быть по сему."
+ gh_military_to_feudalism_decision_tooltip: "Измените [government|E] на [feudalism|E]."
+  
+ raze_sophocos_decision: "Снести башню Софокоса"
+ raze_sophocos_decision_desc: "Башня [GetBuilding('01_sophocos').GetName] простояла на протяжении бесчисленных тысячелетий, привлекая паломников и путешественников со всего [aeras|E]. Он наверняка полон сокровищ, готовых к тому, чтобы мы их забрали."
+ raze_sophocos_decision_tooltip: "Разрушьте Софокос и заберите его сокровища"
+ raze_sophocos_decision_confirm: "Получите сокровища Софокоса"
+ raze_sophocos_effect_tooltip: "Вы разрушите [GetBuilding('01_sophocos').GetName], заберете его сокровища и вернете здание на первый уровень."
+  
+ claim_the_isles_decision: "Захватить острова"
+ claim_the_isles_decision_desc: "[shatteredisles|E] раскинулся по Морю Империй, словно неровные фрагменты целого. Пришло время собрать кусочки воедино."
+ claim_the_isles_decision_tooltip: "Заявите о своих правах на Расколотые острова"
+ claim_the_isles_decision_confirm: "Захватить острова"
+  
+ isles_retribution_war_decision: "Островитянский суверенитет"
+ isles_retribution_war_decision_desc: "Слишком долго жители континента вторгались на изрытые солью берега нашего дома, забирая то, что по праву принадлежит нам. Мы должны положить этому конец и выбросить их обратно в море."
+ isles_retribution_war_decision_tooltip: "Защитить острова"
+ isles_retribution_war_decision_confirm: "Возмездие!"
+ islander_warriors: "Островитяне Воины"
+ claim_the_isles_decision_effects_tooltip: "Ваш [house|E] получает доступ к [casus_belli|E] для [counties|E] в [shatteredisles|E]."
+ isles_retribution_decision_effects_tooltip: "Ваш [house|E] получает доступ к [casus_belli|E] для [counties|E], контролируемому не островитянами в [shatteredisles|E]."
+ isles_retribution_war_tt: "Более 25% [GetGeographicalRegion('world_ga_isles').GetName] должно контролироваться устройством, отличным от [Concept('shatteredisles','Islander')|E]."
+  
+ hire_protoshliti_warrior_decision: "Наймите воина у протошлитов"
+ hire_protoshliti_warrior_decision_desc: "Протошлити славятся тем, что снабжают легионы [aversarian|E] опытными и способными солдатами. Теперь, когда Земля Чемпионов возобновила свою деятельность, возможно, я смогу найти одного из этих талантливых воинов для службы при моем Дворе."
+ hire_protoshliti_warrior_decision_tooltip: "Вам будет представлена ​​группа воинов, обученных Протошлити, и вы сможете нанять одного из них за определенную плату."
+ hire_protoshliti_warrior_decision_effect_tooltip: "Вы будете искать воина, обученного протошлитами, который присоединится к вашему двору."
+ hire_protoshliti_warrior_decision_confirm: "Посетите Протошлити"
+ hire_protoshliti_warrior_decision_desc_tooltip: "Вы попытаетесь нанять воина, обученного Протошлити."
+  
+ hire_protoshliti_legon_decision: "Наймите Легона у Протошлити"
+ hire_protoshliti_legon_decision_desc: "Известно, что Протошлиты дали не только опытных воинов, но и величайших полководцев, когда-либо служивших [aversaria|E]. Офицеры, прошедшие изнурительные курсы академии, обладают острым умом, отточенным в стратегии, и сыграли важную роль в многовековом военном превосходстве Империи."
+ hire_protoshliti_legon_decision_tooltip: "Вам будет представлена ​​группа Легонов, обученных Протошлити, и вы сможете нанять одного из них за определенную плату."
+ hire_protoshliti_legon_decision_effect_tooltip: "Вы будете искать обученного Протошлити Легона, который присоединится к вашему Двору."
+ hire_protoshliti_legon_decision_confirm: "Посетите Протошлити"
+ hire_protoshliti_legon_decision_desc_tooltip: "Вы попытаетесь нанять Легона, обученного Протошлити."
+  
+ hire_aironoiakaan_magi_decision: "Hire a [magi|E] from the Aironoiakaan" #NT!
+ hire_aironoiakaan_magi_decision_desc: "With the restoration of the Mayikprollolan Aironoiakaan, the east once again has a center of magical learning. Graduates from the prestigious academy are sure to be among the greatest [magi|E] of their generation — and for a price, I can have one of them serving in my court." #NT!
+ hire_aironoiakaan_magi_decision_tooltip: "You will be presented with a group of Aironoiakaan-trained [magi|E] and may hire one of them for a fee." #NT!
+ hire_aironoiakaan_magi_decision_effect_tooltip: "You will look for a Aironoiakaan-trained [magi|E] to join your Court" #NT!
+ hire_aironoiakaan_magi_decision_confirm: "Send an emissary" #NT!
+ hire_aironoiakaan_magi_decision_desc_tooltip: "You will attempt to hire a Aironoiakaan-trained [magi|E]" #NT!
+  
+ request_heir_from_the_pit_decision: "Seek a Disciple from the Pit" #NT!
+ request_heir_from_the_pit_decision_desc: "From whence we come and to where we all return—the Pit is the beginning and the end of all things, the caress of the true gods beyond [aeras|E], and the place where flesh and ichor are joined into black blood. It is from there that I shall call forth an initiate worthy to be my disciple." #NT!
+ request_heir_from_the_pit_decision_tooltip: "You will be presented with a group of [GetTrait('gh_blackspawn_1').GetName( GetNullCharacter )] candidates to pick your [heir|E] from" #NT!
+ request_heir_from_the_pit_decision_quality_tooltip: "The quality of the candidates will depend on your $PF_piety_opposite$ and the Blackspawn [trait|E] level" #NT!
+ request_heir_from_the_pit_decision_confirm: "Send the messenger" #NT!
+  
+ declare_rivarisian_kingdom_decision: "Declare a Kingdom for the Rivarisians" #NT!
+ declare_rivarisian_kingdom_decision_desc: "For too long have the people of the rivers been persecuted by warring lords, [Concept('clerical_control_of_chevalie','power-hungry theocrats')|E] and greedy merchants. No longer! Our people shall form a new kingdom, and prove ourselves equal to all the other children of [chevalie|E]! Let them see the riches of our cities and the pride in our hearts, and bow to our freedoms forever!" #NT!
+ declare_rivarisian_kingdom_decision_confirm: "Forge a new path for our people!" #NT!
+ declare_rivarisian_kingdom_decision_tooltip: "The oppression of the Riverfolk shall end!" #NT!
+  
+ gh_divine_mission_decision: "The Will of the Gods" #NT!
+ gh_divine_mission_decision_desc: "Darkness swells, and the schemes of my dark masters tighten around the throat of the world. In their majesty, the gods have given me a task—a divine mission to further their will upon this plane. They are capricious, and I must make haste to act upon my sworn purpose." #NT!
+ gh_divine_mission_decision_tt: "The gods shall commune with you once the mission is complete" #NT!
+ gh_divine_mission_decision_tooltip: "Track the progress of the assigned mission" #NT!
+ gh_divine_mission_decision_confirm: "Masters' will be done" #NT!

@@ -1,9 +1,61 @@
 ﻿l_russian:
- cn_beulloeth: "Беуллоет"
- cn_vyddrioch: "Виддриох"
- cn_illyn_auncydd: "Иллин Аунсидд"
+ cn_vyddrioch: "Выдриох"
+  
+     ######################### 
+ 	# e_the_reach # 
+ 	######################### 
+  
+         ## k_everrain ## 
+ cn_melchrychau: "Мелькрихау"
+             # Baronies 
+             # Counties 
+             # Duchies 
+         ## k_faegift ## 
+ cn_illyn_auncydd: "Иллин Онкидд"
+             # Baronies 
+             # Counties 
+             # Duchies 
+         ## k_aldergreen ## 
+ cn_beulloeth: "Бёллот"
+         ## k_heartwood ## 
  cn_croiddin: "Кроиддин"
- cn_caurrych: "Каррич"
+             # Baronies 
+ cn_abhainndun_i_droudrochet: "Abhainndún i Droudrochet" #NT!
+ cn_muineargeat: "Múinéargeat" #NT!
+ cn_thaidhbrach: "Thaidbrach" #NT!
+ cn_trafhath: "Trafháth" #NT!
+ cn_orgas: "Órgas" #NT!
+ cn_seanmileann: "Seanmileann" #NT!
+ cn_arano: "Aráno" #NT!
+ cn_nechtpol: "Nechtpol" #NT!
+ cn_clochbisal: "Clochbisal" #NT!
+ cn_abaldrochet: "Abaldrochet" #NT!
+ cn_rugaird: "Rugaird" #NT!
+ cn_oruden: "Óruden" #NT!
+ cn_plumgeat: "Plumgeat" #NT!
+ cn_callach_cloch: "Callach Cloch" #NT!
+ cn_caorabroc: "Caorabroc" #NT!
+ cn_cruithenacht: "Cruithenacht" #NT!
+ cn_mailinn: "Mailinn" #NT!
+ cn_scathainne_sruthom: "Scáthainne Sruthom" #NT!
+ cn_carraig_etelachan: "Carraig Eteláchan" #NT!
+             # Counties 
+ cn_droudrochet: "Droudrochet" #NT!
+ cn_nechtalamh: "Nechtalamh" #NT!
+ cn_abaltopur: "Abaltópur" #NT!
+ cn_sinnichcaill: "Sinnichcoell" #NT!
+ cn_mealgaird: "Mealgaird" #NT!
+ cn_siobeas: "Sióbeas" #NT!
+ cn_clyttancoell: "Clyttancoell" #NT!
+ cn_artantelech: "Artantelech" #NT!
+             # Duchies 
+         ## k_skycrown ## 
+  
+     ######################## 
+     # e_cornucopia # 
+     ######################## 
+  
+         ## k_redwald ## 
+ cn_caurrych: "Каррик"
  cn_crachlog: "Крахлог"
- cn_melchrychau: "Мельхрихау"
- cn_helg_gorlleu: "Хельг Горллеу"
+  
