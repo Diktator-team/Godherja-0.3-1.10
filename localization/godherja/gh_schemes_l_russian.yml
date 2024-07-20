@@ -6,7 +6,7 @@
  scheme_interaction_tt_learn_magic_school_willing: "Попытайтесь изучить школу магии, известную как [recipient.GetShortUINameNoTooltip]."
  learn_magic_school_scheme_success_message: "Изучил новую школу магии."
  learn_magic_school_scheme_failed_message: "Не удалось изучить новую школу магии."
- learn_magic_school_scheme_invalidated: "$learn_magic_school_scheme$ Invalidated"
+ learn_magic_school_scheme_invalidated: "$learn_magic_school_scheme$ Invalidated" #NT!
  learn_magic_school_scheme_dead_desc: "[target.GetShortUIName|U] скончался. Вы больше не можете использовать $learn_magic_school_scheme$ на [target.GetHerHim]."
  SCHEME_TARGET_ARCANA_MODIFIER: "[Concept('arcana','Аркана')|E] учителя: @skill_arcana_icon!$VALUE|+0=$"
  SCHEME_ARCANA_MODIFIER: "Ваша ('arcana','аркана')|E]: @skill_arcana_icon!$VALUE|+0=$"
@@ -15,12 +15,12 @@
   
  learn_magic_school_scheme_interaction: "Изучите Школу Магии #weak (Схема)#!"
  learn_magic_school_scheme_interaction_notification: "Изучите Школу Магии"
-
+  
  target_does_not_know_unknown_school_loc: "[TARGET_CHARACTER.GetShortUIName] не могу преподавать в каких-либо школах магии, которых вы еще не знаете."
  target_does_not_have_reason_to_teach_magic_school_loc: "[TARGET_CHARACTER.GetShortUIName] не твой #E Friend#!, #E Lover#!, #E Close Family Member#!, #E Court Magi#! or #E Courtier#!."
- TARGET_DOES_NOT_KNOW_SPELL_UNKNOWN_TO_ME: "[TARGET_CHARACTER.GetShortUIName] невозможно научить каким-либо заклинаниям, которых вы еще не знаете." 
+ TARGET_DOES_NOT_KNOW_SPELL_UNKNOWN_TO_ME: "[TARGET_CHARACTER.GetShortUIName] невозможно научить каким-либо заклинаниям, которых вы еще не знаете."
   
-
+  
   # Learn magic spell Scheme 
  learn_magic_spell_scheme: "Изучите магическое заклинание"
  learn_magic_spell_scheme_action: "Изучите новый [Concept('ritual','ритуал')|E] с помощью"
@@ -29,8 +29,9 @@
  scheme_interaction_tt_learn_magic_spell_willing: "Попытайтесь выучить заклинание, известное [recipient.GetShortUIName]."
  learn_magic_spell_scheme_success_message: "Выучил новое заклинание"
  learn_magic_spell_scheme_failed_message: "Не удалось выучить новое заклинание"
- learn_magic_spell_scheme_invalidated: "$learn_magic_spell_scheme$ Invalidated"
+ learn_magic_spell_scheme_invalidated: "$learn_magic_spell_scheme$ Invalidated" #NT!
  learn_magic_spell_scheme_dead_desc: "[target.GetShortUIName|U] скончался. Вы больше не можете использовать $learn_magic_school_scheme$ на [target.GetHerHim]."
+ LEARN_MAGIC_SCHOOL_SCHEME: "Start Scheme " #NT!
  LEARN_MAGIC_SPELL_SCHEME_SCHOOL_SPELL_MODIFIER: "Это магическое заклинание известно вашей Школе Магии: $VALUE|+0=$."
  LEARN_MAGIC_SPELL_SCHEME_SUCCESS_DESC: "Вы изучаете #underline [CHARACTER.MakeScope.Var('spell_to_learn_from_character').Story.Custom('SpellName')]#! [Concept('ritual','ритуал')|E]."
   
@@ -40,6 +41,27 @@
  ANSWER_CANT_ACCEPT: "#N Будет ли #bold не принимать#! #!"
  learn_magic_spell_decline_summary: "@warning_icon!#X Если [recipient.GetShortUINameNoTooltip] отклонит ваш запрос, вы все равно сможете попытаться украсть рассматриваемый [Concept('ritual','ритуал')|E], но это будет немного сложнее, чем обычно, поскольку [recipient.GetShortUINameNoTooltip] знает о вашем интересе.#!"
   
+  # Medical Experiment Scheme 
+ medical_experiment_scheme: "Perform Medical Experiments" #NT!
+ medical_experiment_scheme_action: "Perform Medical Experiments on" #NT!
+ medical_experiment_scheme_interaction_notification: "Performed Medical Experiments" #NT!
+ medical_experiment_scheme_general_desc: "I will attempt to advance the field of medicine through medical experiments" #NT!
+ scheme_interaction_tt_medical_experiment: "Attempt to increase your medical knowledge by performing experiments on [recipient.GetShortUINamePossessiveNoTooltip]" #NT!
+ START_SCHEME_MEDICAL_EXPERIMENT: "Start Scheme " #NT!
+ medical_experiment_scheme_success_message: "Succesful medical experiments" #NT!
+ medical_experiment_scheme_failed_message: "Failed medical experiments" #NT!
+ medical_experiment_scheme_dead_desc: "[target.GetShortUIName|U] has passed away. You can no longer use the $medical_experiment_scheme$ on [target.GetHerHim]." #NT!
+ medical_experiment_scheme_imprisoned_desc: "[target.GetShortUIName|U] is no longer in your dungeons. You can no longer use the $medical_experiment_scheme$ on [target.GetHerHim]." #NT!
+ medical_experiment_scheme_invalidated: "$medical_experiment_scheme$ Invalidated" #NT!
+ MEDICAL_EXPERIMENT_SCHEME_SUCCESS_DESC: "You increase your medical knowledge." #NT!
+ SCHEME_PHYSICIAN_SKILL_MODIFIER: "Physician Level: $VALUE|+0=$" #NT!
+ SCHEME_COURT_PHYSICIAN_LEARNING_MODIFIER: "Court Physician Learning: $VALUE|+0=$" #NT!
+ SCHEME_COURT_PHYSICIAN_PHYSICIAN_SKILL_MODIFIER: "Court Physician Physician Level: $VALUE|+0=$" #NT!
+  
+ medical_experiment_scheme_interaction: "Perform Medical Experiments #weak (Scheme)#!" #NT!
+  
+ experimented_on_family_member: "Experimented On Family Member" #NT!
+ experimented_on_me: "Experimented On Me" #NT!
   
   # Learn magic schemes 
  learn_living_magic_scheme: "Изучите живую магию"
@@ -97,3 +119,5 @@
   
  widows_harder_to_seduce: "[GetTrait('shy').GetName( owner.Self )]: $VALUE|+0=$"
  widows_struggle_at_seducing: "[GetTrait('shy').GetName( owner.Self )]: $VALUE|+0=$"
+  
+  

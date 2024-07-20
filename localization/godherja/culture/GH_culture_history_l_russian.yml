@@ -1,0 +1,15 @@
+﻿l_russian:
+ bricotaves_history_loc: "Спустился с последнего $gh_kelthiunai_group$ Сердцевины, чтобы противостоять колонизации Калатипсоми."
+ ardothanes_history_loc: "Происходил из северной части $gh_kelthiunai_group$, изгнанной в пустыню [Concept( 'aversarians', 'аверсареанцев' )|E]."
+ ordikin_history_loc: "Происходил от древнего $gh_kelthiunai_group$, изгнанного в пустыню [Concept( marchers', 'марчеров' )|E]."
+ corvosnari_history_loc: "Происходил из восточного $gh_kelthiunai_group$, изгнанного в пустыню [Concept( 'aversarians', 'аверсареанцев' )|E]."
+ dodragn_history_loc: "Происходили от различных изгнанников $gh_aupagn_group$, изгнанных из своих племен."
+ skorikiakas_history_loc: "Происходили от поселенцев Картарадда, оккупировавших Малкойс в седьмом веке."
+ dielecender_history_loc: "Developed from a melting pot of [marcher|E], [aversarian|E], [Concept('shatteredisles','Islander')|E], and [Concept('kathanouxaic_empire','Clanlander')|E] cultures" #NT!
+ skolix_history_loc: "Developed from a a variety of exiled [mutants|E] from across the [Concept('aversaria','Empire')|E]" #NT!
+ kuridorig_history_loc: "Descended from the first Ölteni to cross the Kasiryat before the [bayyuralar|E]" #NT!
+ murarut_history_loc: "Formed from Pre-Öltenic [Concept('great_steppe_biozone','Aironoian Steppe')|E] natives under [GetCulturePillar('heritage_vhanavid').GetName] influence" #NT!
+ muhadamd_history_loc: "Descended from subjugated [GetCulturePillar('heritage_kherkeloi').GetName] peoples under [GetCulturePillar('heritage_vhanavid').GetName] rule" #NT!
+ khorinot_history_loc: "Developed from various Öltenic tribes in the wake of the [aironoian_migration|E]" #NT!
+ arderwan_history_loc: "Formed from [CULTURE.GetName] tribes who have settled [TARGET_CULTURE.GetName] ruins under [aversarian|E] influence" #NT!
+ sarminians_history_loc: "Diverged from [GetCulturePillar('heritage_narodlek').GetName] tribes under Öltenic influence around the year 700" #NT!

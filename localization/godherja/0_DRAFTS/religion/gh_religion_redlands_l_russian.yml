@@ -1,11 +1,10 @@
 ﻿l_russian:
-  #generics, will only be used as a fallback for custom faiths probably. This pantheon is kind of a "baseline" Pantheon "базовый уровень"
- redland_cults_religion: "Культы Красных земель"
- redland_cults_religion_desc: "В глубинах многочисленных извилистых каньонов Красных земель процветает множество культов, поклоняющихся таинственным и часто темным богам. Часто противоречивые по своей природе, с их мотивами, часто окутанными тайной, они иногда действуют согласованно, например, когда каждый культ приветствует [Concept('aversaria','Аверсарию')|E] на своем берегу."
- redland_cults_religion_adj: "Красноземельщик"
- redland_cult: "Красноземельный Культ"
- redland_cult_desc: ""
- redland_cult_adj: "Красноземельный Культ"
+  #generics, will only be used as a fallback for custom faiths probably. This pantheon is kind of a "baseline" Pantheon "baseline" #NT!
+ redland_cults_religion: "Культы Редленда"
+ redland_cults_religion_desc: "В глубинах многочисленных извилистых каньонов Редленда процветает множество культов, поклоняющихся таинственным и зачастую темным богам. Часто противоречивые по своей природе, со своими мотивами, часто покрытыми тайной, они иногда действуют в согласии, например, когда каждый культ приветствует [aversaria|E] на своем берегу."
+ redland_cults_religion_adj: "Редлендер"
+ redland_cult: "Редленд Культ"
+ redland_cult_adj: "Редленд Культ"
  redland_cult_adherent: "культист"
  redland_cult_adherent_plural: "Культисты"
  redland_cult_high_god_name: "Пылающее заклинание"
@@ -58,677 +57,735 @@
  redland_cult_positive_afterlife: "Первобытный рай"
  redland_cult_negative_afterlife: "Царство внизу"
   
-  #Black martyr 
- black_martyr: "Культ Черного мученика"
- black_martyr_desc: "Приверженцы культа Черного мученика считаются извращенцами и чрезмерно эксцентричными даже другими жителями Красных земель. Секта, посвященная почитанию легендарного "Черного мученика", который многим пожертвовал в погоне за знаниями. Наконец, достижение понимания Аэраса и его внутренней работы свело Черного мученика с ума и оставило от него невнятную оболочку, нуждающуюся в помощи многочисленных священных хранителей. Эти хранители облачают своего подопечного в черные одежды и пытаются разделить его невменяемый, но часто пророческий бред на те, которые непонятны нашему смертному пониманию, и те, которые могут быть расшифрованы с большим усилием. Однако эти хранители и в лучшие времена бывают неточны, и им редко удается предсказать будущие события. Большинство считает, что это происходит из-за их некомпетентности, а непредсказуемое поведение хранителей мало что делает для того, чтобы развеять их сомнения. Немногие избранные придерживаются мнения, что это связано с тем, что способности Черного мученика не являются по-настоящему пророческими, а вместо этого позволяют безумцу предвидеть все возможные варианты будущего. Что еще более зловеще, в последнее время бредни Черного Мученика начали зацикливаться почти исключительно на катастрофических событиях, а сам Мученик становился все более и более подавленным, временами даже кричал от боли, прежде чем впасть в кататоническое состояние. Даже обезумевший мученик остается в отчаянии от ужасающей участи, которая ждет его впереди."
- black_martyr_adj: "Черный мученик"
- black_martyr_adherent: "Мартирит"
- black_martyr_adherent_plural: "мученики"
- black_martyr_high_god_name: "Черный мученик"
- black_martyr_high_god_name_possessive: "Черный мученик"
- black_martyr_high_god_name_alternate: "Его пророчества"
- black_martyr_high_god_name_alternate_possessive: "Его пророчества»"
- black_martyr_creator_god_name: "Шрифт"
- black_martyr_creator_god_name_possessive: "Шрифт"
- black_martyr_health_god_name: "Месеф"
- black_martyr_health_god_name_possessive: "Месефа"
- black_martyr_fertility_god_name: "Толторотот"
- black_martyr_fertility_god_name_possessive: "Толторотота"
- black_martyr_wealth_god_name: "Мин"
- black_martyr_wealth_god_name_possessive: "Мин"
- black_martyr_household_god_name: "Блазерт"
- black_martyr_household_god_name_possessive: "Блазерта"
- black_martyr_fate_god_name: "Мимниосин"
- black_martyr_fate_god_name_possessive: "Мимниосина"
- black_martyr_knowledge_god_name: "Тальт"
- black_martyr_knowledge_god_name_possessive: "Тальта"
- black_martyr_war_god_name: "Кышт"
- black_martyr_war_god_name_possessive: "Кышта"
- black_martyr_trickster_god_name: "Марбор"
- black_martyr_trickster_god_name_possessive: "Марбора"
- black_martyr_night_god_name: "Асаха"
- black_martyr_night_god_name_possessive: "Асаха"
- black_martyr_water_god_name: "Беллхор"
- black_martyr_water_god_name_possessive: "Беллхор"
- black_martyr_death_deity_name: "Мимниосин"
- black_martyr_death_deity_name_possessive: "Мимниосина"
- black_martyr_devil_name: "Улкынз Тортар"
- black_martyr_devil_name_possessive: "Улькинз Тортар"
- black_martyr_witch_god_name: "Вулкинз Тортар"
- black_martyr_witch_god_name_possessive: "Вулкинз Тортар"
- black_martyr_house_of_worship: "Кирх"
- black_martyr_house_of_worship_plural: "Кирхи"
- black_martyr_religious_symbol: "Крылатый вихрь"
- black_martyr_religious_text: "Завещание Изта"
- black_martyr_religious_head_title: "Верховный Жрец"
- black_martyr_religious_head_title_name: "Верховный жрец"
- black_martyr_devotee_male: "Связанный искатель"
- black_martyr_devotee_male_plural: "Связанные искатели"
- black_martyr_devotee_female: "Связанный искатель"
- black_martyr_devotee_female_plural: "Связанные искатели"
- black_martyr_devotee_neuter: "Связанный искатель"
- black_martyr_devotee_neuter_plural: "Связанные искатели"
- black_martyr_priest_alternate_plural: "Священники"
- black_martyr_bishop: "Диакон"
- black_martyr_bishop_plural: "Дьяконы"
- black_martyr_positive_afterlife: "Рай"
- black_martyr_negative_afterlife: "Демоническое царство"
+ # Redland Cults 
+ redland_cults: "Redland Cults" #NT!
+ redland_cults_desc: "The Redland Cults are as mysterious as they are esoteric. Shadowy and insular, the number of times they have interacted with the world as a group can be counted on one hand. Redland Cultists worship dark and unknowable gods, the sound of their names said to be enough to drive foreigners to madness." #NT!
+ redland_cults_adj: "Redland Cults" #NT!
+ redland_cults_adherent: "Redland Cultist" #NT!
+ redland_cults_adherent_plural: "Redland Cultists" #NT!
+ redland_cults_high_god_name: "The Void" #NT!
+ redland_cults_high_god_name_possessive: "The Void's" #NT!
+ redland_cults_high_god_name_alternate: "The Dark Gods" #NT!
+ redland_cults_high_god_name_alternate_possessive: "The Dark God's" #NT!
+ redland_cults_creator_god_name: "Entropy" #NT!
+ redland_cults_creator_god_name_possessive: "Entropy's" #NT!
+ redland_cults_health_god_name: "Meseph" #NT!
+ redland_cults_health_god_name_possessive: "Meseph's" #NT!
+ redland_cults_fertility_god_name: "Toltorototh" #NT!
+ redland_cults_fertility_god_name_possessive: "Toltorototh's" #NT!
+ redland_cults_wealth_god_name: "Myn" #NT!
+ redland_cults_wealth_god_name_possessive: "Myn's" #NT!
+ redland_cults_household_god_name: "Blaserth" #NT!
+ redland_cults_household_god_name_possessive: "Blaserth's" #NT!
+ redland_cults_fate_god_name: "Mymniosyn" #NT!
+ redland_cults_fate_god_name_possessive: "Mymniosyn's" #NT!
+ redland_cults_knowledge_god_name: "Talt" #NT!
+ redland_cults_knowledge_god_name_possessive: "Talt's" #NT!
+ redland_cults_war_god_name: "Kysht" #NT!
+ redland_cults_war_god_name_possessive: "Kysht's" #NT!
+ redland_cults_trickster_god_name: "Marbor" #NT!
+ redland_cults_trickster_god_name_possessive: "Marbor's" #NT!
+ redland_cults_night_god_name: "Asakh's" #NT!
+ redland_cults_night_god_name_possessive: "Asakh's" #NT!
+ redland_cults_water_god_name: "Bellhor" #NT!
+ redland_cults_water_god_name_possessive: "Bellhor" #NT!
+ redland_cults_death_deity_name: "Mymniosyn" #NT!
+ redland_cults_death_deity_name_possessive: "Mymniosyn's" #NT!
+ redland_cults_devil_name: "Ulkynz Tortar" #NT!
+ redland_cults_devil_name_possessive: "Ulkynz Tortar's" #NT!
+ redland_cults_witch_god_name: "Vulkynz Tortar" #NT!
+ redland_cults_witch_god_name_possessive: "Vulkynz Tortar's" #NT!
+ redland_cults_house_of_worship: "Kirch" #NT!
+ redland_cults_house_of_worship_plural: "Kirches" #NT!
+ redland_cults_religious_symbol: "The Winged Vortex" #NT!
+ redland_cults_religious_text: "Testament of Izt" #NT!
+ redland_cults_religious_head_title: "Highest Priest" #NT!
+ redland_cults_religious_head_title_name: "Highest priest" #NT!
+ redland_cults_devotee_male: "Bound Searcher" #NT!
+ redland_cults_devotee_male_plural: "Bound Searchers" #NT!
+ redland_cults_devotee_female: "Bound Searcher" #NT!
+ redland_cults_devotee_female_plural: "Bound Searchers" #NT!
+ redland_cults_devotee_neuter: "Bound Searcher" #NT!
+ redland_cults_devotee_neuter_plural: "Bound Searchers" #NT!
+ redland_cults_priest_alternate_plural: "Priests" #NT!
+ redland_cults_bishop: "Deacon" #NT!
+ redland_cults_bishop_plural: "Deacons" #NT!
+ redland_cults_positive_afterlife: "The Primeval Paradise" #NT!
+ redland_cults_negative_afterlife: "The Realm Below" #NT!
   
-  #Spider Feast 
+ # GH TODO: Uncomment and move to their own file when generic cults are implemented 
   
- spider_feast: "Паучий праздник"
- spider_feast_desc: "Культ, поклоняющийся гигантским паукам по всей Редландии, считающийся посланниками богини-паучихи Араннии. Их [Concept('giant_spiders_and_humans','симбиотические отношения')|E] распространяется на их религиозные и общинные традиции."
- spider_feast_adj: "Паучий праздник"
- spider_feast_adherent: "Слуга"
- spider_feast_adherent_plural: "Слуги"
- spider_feast_high_god_name: "Аранния"
- spider_feast_high_god_name_possessive: "Араннии"
- spider_feast_high_god_name_alternate: "Ее паукообразная слава"
- spider_feast_high_god_name_alternate_possessive: "Ее паукообразная слава"
- spider_feast_creator_god_name: "Аранния"
- spider_feast_creator_god_name_possessive: "Араннии"
- spider_feast_devil_name: "Аутсайдер"
- spider_feast_devil_name_possessive: "Неудачники"
- spider_feast_witch_god_name: "Оса"
- spider_feast_witch_god_name_possessive: "Осы"
- spider_feast_house_of_worship: "Дом кормления"
- spider_feast_house_of_worship_plural: "Дома кормления"
- spider_feast_religious_symbol: "Восьминогий символ"
- spider_feast_religious_text: "Священные тексты"
- spider_feast_religious_head_title: "Мастер Восьми"
- spider_feast_religious_head_title_name: "Мастер Восьми"
- spider_feast_devotee_male: "Фидер"
- spider_feast_devotee_male_plural: "Кормушки"
- spider_feast_devotee_female: "Фидер"
- spider_feast_devotee_female_plural: "Кормушки"
- spider_feast_devotee_neuter: "Фидер"
- spider_feast_devotee_neuter_plural: "Кормушки"
- spider_feast_priest_alternate_plural: "Кормушки"
- spider_feast_bishop: "Высокий фидер"
- spider_feast_bishop_plural: "Высокие кормушки"
- spider_feast_positive_afterlife: "Паутина"
- spider_feast_negative_afterlife: "Тьма"
-  
-  #Fallen Star 
- fallen_star: "Культ упавшей звезды"
- fallen_star_desc: "Загадочный культ, сосредоточенный вокруг существа [Concept('fallen_star','Упавшей звезды')|E], которое проповедует, что просветление может быть достигнуто только через осознание бессмысленности жизни на [Concept('aeras','Аэрас')|E], утверждая, что истинный смысл достижим только через поклонение самой Упавшей Звезде, а те, кто не принимает его, должны быть стерты в порошок. и удалены из этого мира, ибо они являются распространителями нынешнего состояния человечества."
- fallen_star_adj: "Культ Упавшей Звезды"
- fallen_star_adherent: "Просвещенный"
- fallen_star_adherent_plural: "Просвещенный"
- fallen_star_high_god_name: "Упавшая звезда"
- fallen_star_high_god_name_possessive: "Упавшая звезда"
- fallen_star_high_god_name_alternate: "Трансцендентный"
- fallen_star_high_god_name_alternate_possessive: "Трансцендентный"
- fallen_star_creator_god_name: "Безумный Демиург"
- fallen_star_creator_god_name_possessive: "Безумный Демиург"
- fallen_star_health_god_name: "Правда в Звезде"
- fallen_star_health_god_name_possessive: "Правда в Звезде"
- fallen_star_fertility_god_name: "Ложное распространение"
- fallen_star_fertility_god_name_possessive: "Ложное распространение"
- fallen_star_wealth_god_name: "Цель для бедняков"
- fallen_star_wealth_god_name_possessive: "Цель для бедняков"
- fallen_star_household_god_name: "Значение для всех"
- fallen_star_household_god_name_possessive: "Значение для всех"
- fallen_star_fate_god_name: "Директива звезды"
- fallen_star_fate_god_name_possessive: "Директивы звезды"
- fallen_star_knowledge_god_name: "Трансцендентные учения"
- fallen_star_knowledge_god_name_possessive: "Трансцендентные учения"
- fallen_star_war_god_name: "Владычество над негодяями"
- fallen_star_war_god_name_possessive: "Владычество над негодяями"
- fallen_star_trickster_god_name: "Ложь для недостойных"
- fallen_star_trickster_god_name_possessive: "Ложь для недостойных"
- fallen_star_night_god_name: "Тень упавшей звезды"
- fallen_star_night_god_name_possessive: "Тень упавшей звезды"
- fallen_star_death_deity_name: "Конец цели"
- fallen_star_death_deity_name_possessive: "Конец цели"
-  
- fallen_star_devil_name: "Бесцельность"
- fallen_star_devil_name_possessive: "Бесцельность"
- fallen_star_witch_god_name: "Секрет"
- fallen_star_witch_god_name_possessive: "Секреты"
- fallen_star_house_of_worship: "работный дом"
- fallen_star_house_of_worship_plural: "Работные дома"
- fallen_star_religious_symbol: "Знак Звезды"
- fallen_star_religious_text: "Направления"
- fallen_star_religious_head_title: "Высокий уровень обучения"
- fallen_star_religious_head_title_name: "Высокий уровень обучения"
- fallen_star_devotee_male: "Режиссер"
- fallen_star_devotee_male_plural: "Режиссер"
- fallen_star_devotee_female: "Режиссер"
- fallen_star_devotee_female_plural: "Режиссер"
- fallen_star_devotee_neuter: "Режиссер"
- fallen_star_devotee_neuter_plural: "Режиссер"
- fallen_star_priest_alternate_plural: "Директор"
- fallen_star_bishop: "Директор"
- fallen_star_bishop_plural: "Директора"
- fallen_star_positive_afterlife: "Истинная цель [Concept('aeras','Аэраса')|E]"
- fallen_star_negative_afterlife: "Бессмысленная земля"
-  
-  #Devourer of All 
- devourer_of_all: "Культ Всепожирателя"
- devourer_of_all_desc: "Культ верит, что их мир находится в постоянном цикле разрушения и возрождения, вечно поглощаемый их богиней-покровительницей каждые десять тысяч лет, если его сочтут слишком прогнившим и испорченным. Изначально надеясь предотвратить это будущее, культ теперь принял статус обреченного мира."
- devourer_of_all_adj: "Культ Всепожирателя"
- devourer_of_all_adherent: "культист"
- devourer_of_all_adherent_plural: "Культисты"
- devourer_of_all_high_god_name: "Акпеселя Мать"
- devourer_of_all_high_god_name_possessive: "Акпеселя"
- devourer_of_all_high_god_name_alternate: "Богиня-Пожиратель"
- devourer_of_all_high_god_name_alternate_possessive: "Богиня-Пожирательница"
- devourer_of_all_devil_name: "Извращение"
- devourer_of_all_devil_name_possessive: "Извращение"
- devourer_of_all_witch_god_name: "Танцор в ночи"
- devourer_of_all_witch_god_name_possessive: "Танцор в ночи"
- devourer_of_all_house_of_worship: "Место созерцания"
- devourer_of_all_house_of_worship_plural: "Места созерцания"
- devourer_of_all_religious_symbol: "Утроба Матери"
- devourer_of_all_religious_text: "Пути матери"
- devourer_of_all_religious_head_title: "Оратор"
- devourer_of_all_religious_head_title_name: "Оратор"
- devourer_of_all_devotee_male: "Поклонник"
- devourer_of_all_devotee_male_plural: "Прихожане"
- devourer_of_all_devotee_female: "Поклонник"
- devourer_of_all_devotee_female_plural: "Прихожане"
- devourer_of_all_devotee_neuter: "Поклонник"
- devourer_of_all_devotee_neuter_plural: "Прихожане"
- devourer_of_all_priest_alternate_plural: "Молитвенный лидер"
- devourer_of_all_bishop: "Маленький спикер"
- devourer_of_all_bishop_plural: "Маленькие колонки"
- devourer_of_all_positive_afterlife: "Объятия Матери"
- devourer_of_all_negative_afterlife: "Место покинутости"
-  
-  #Eternal Flame 
- flame_eternal: "Культ Вечного Пламени"
- flame_eternal_desc: "Приверженцы этого культа почитают некое Вечное Пламя, поддерживая огонь в грандиозных храмах, чтобы установить общение, и верят, что Вечное Пламя однажды снизойдет на [Concept('aeras','Аэрас')|E], вознаграждая верных последователей и уничтожая неверных. Однако в последнее время пламя начало вспыхивать и гаснуть, что привело к всплеску ужасных действий, предпринимаемых культистами, которые хотят поджечь все, чтобы сохранить небесное пламя, не заботясь о последствиях."
- flame_eternal_adj: "Культ Вечного Пламени"
- flame_eternal_adherent: "Огненосец"
- flame_eternal_adherent_plural: "Огненосцы"
- flame_eternal_high_god_name: "Вечное пламя"
- flame_eternal_high_god_name_possessive: "Пламя Вечного Пламени"
- flame_eternal_high_god_name_alternate: "Небесное пламя"
- flame_eternal_high_god_name_alternate_possessive: "Небесное пламя"
- flame_eternal_creator_god_name: "Белое Пламя"
- flame_eternal_creator_god_name_possessive: "Белое Пламя"
- flame_eternal_health_god_name: "Красное пламя"
- flame_eternal_health_god_name_possessive: "Красное Пламя"
- flame_eternal_fertility_god_name: "Красное пламя"
- flame_eternal_fertility_god_name_possessive: "Красное Пламя"
- flame_eternal_wealth_god_name: "Зеленое пламя"
- flame_eternal_wealth_god_name_possessive: "Зеленое пламя"
- flame_eternal_household_god_name: "Черное пламя"
- flame_eternal_household_god_name_possessive: "Черное Пламя"
- flame_eternal_fate_god_name: "Желтое пламя"
- flame_eternal_fate_god_name_possessive: "Желтое Пламя"
- flame_eternal_knowledge_god_name: "Странствующее пламя"
- flame_eternal_knowledge_god_name_possessive: "Странствующее пламя"
- flame_eternal_war_god_name: "Пламя войны"
- flame_eternal_war_god_name_possessive: "Пламя войны"
- flame_eternal_trickster_god_name: "Мерцающее пламя"
- flame_eternal_trickster_god_name_possessive: "Мерцающее пламя"
- flame_eternal_night_god_name: "Пламя, которого нет"
- flame_eternal_night_god_name_possessive: "Пламя, которого нет"
- flame_eternal_water_god_name: "Кипение"
- flame_eternal_water_god_name_possessive: "Кипение"
- flame_eternal_death_deity_name: "Вечное пламя"
- flame_eternal_death_deity_name_possessive: "Пламя Вечного Пламени"
- flame_eternal_devil_name: "Демпфер"
- flame_eternal_devil_name_possessive: "Демпфер"
- flame_eternal_witch_god_name: "Демпфер"
- flame_eternal_witch_god_name_possessive: "Демпфер"
- flame_eternal_house_of_worship: "Храм Огня"
- flame_eternal_house_of_worship_plural: "Храмы Огня"
- flame_eternal_religious_symbol: "Золотая жаровня"
- flame_eternal_religious_text: "Факел"
- flame_eternal_religious_head_title: "Великий поджигатель"
- flame_eternal_religious_head_title_name: "Великий поджигатель"
- flame_eternal_devotee_male: "Поджигатель"
- flame_eternal_devotee_male_plural: "Поджигатели"
- flame_eternal_devotee_female: "Поджигатель"
- flame_eternal_devotee_female_plural: "Поджигатели"
- flame_eternal_devotee_neuter: "Поджигатель"
- flame_eternal_devotee_neuter_plural: "Поджигатели"
- flame_eternal_priest_alternate_plural: "Распространитель пламени"
- flame_eternal_bishop: "Распространитель пламени"
- flame_eternal_bishop_plural: "Распределители пламени"
- flame_eternal_positive_afterlife: "Всепоглощающее пламя"
- flame_eternal_negative_afterlife: "Холодная тьма"
-  
-  #Speaking Moon 
- speaking_moon: "Говорящий лунный культ"
- speaking_moon_desc: "Эзотерический культ, состоящий из многих верований, главным из которых является то, что [Concept('aervalr','Аэрвалр')|E] обращается к немногим избранным, настроенным на божественность, которые могут воспринимать и понимать его божественные речи в отличие от простых смертных. Их догматы представляют собой мириады противоречий со стороны священников по поводу самых простых и бессмысленных интерпретаций, приводящих к смешению [Concept('schism_of_moon_cult','раскола')|E]на протяжении веков."
- speaking_moon_adj: "Культ говорящей луны"
- speaking_moon_adherent: "Ученик"
- speaking_moon_adherent_plural: "Ученики"
- speaking_moon_high_god_name: "Аэрвалр"
- speaking_moon_high_god_name_possessive: "Аэрвалра"
- speaking_moon_high_god_name_alternate: "Говорящая луна"
- speaking_moon_high_god_name_alternate_possessive: "Говорящая Луна"
- speaking_moon_house_of_worship: "Дом слушания"
- speaking_moon_house_of_worship_plural: "Дома слушания"
- speaking_moon_religious_symbol: "Сигил Аэрвалра"
- speaking_moon_religious_text: "Знаки Луны"
- speaking_moon_religious_head_title: "Высокий переводчик"
- speaking_moon_religious_head_title_name: "Высокий переводчик"
- speaking_moon_devotee_male: "Слушатель"
- speaking_moon_devotee_male_plural: "Слушатели"
- speaking_moon_devotee_female: "Слушатель"
- speaking_moon_devotee_female_plural: "Слушатели"
- speaking_moon_devotee_neuter: "Слушатель"
- speaking_moon_devotee_neuter_plural: "Слушатели"
- speaking_moon_priest_alternate_plural: "Устный переводчик"
- speaking_moon_bishop: "Высокий слушатель"
- speaking_moon_bishop_plural: "Высокие слушатели"
- speaking_moon_positive_afterlife: "Серебристые равнины"
- speaking_moon_negative_afterlife: "Ничто"
-  
-  #bloody feast 
- bloody_feast: "Культ Кровавого пира"
- bloody_feast_desc: "Культ, основанный на инструкциях, предоставляемых [Concept('being_of_the_bloody_feast','небесным существом')|E], проповедующий концепцию так называемого [Concept('bloody_feast','Кровавого пира')|E. Считается, что, используя человеческую кровь на празднике, можно подняться над человечеством и перевоплотиться во что-то большее."
- bloody_feast_adj: "Культ Кровавого пира"
- bloody_feast_adherent: "Праздник"
- bloody_feast_adherent_plural: "Праздники"
- bloody_feast_high_god_name: "Тот, кто спустился"
- bloody_feast_high_god_name_possessive: "Тот, кто спустился"
- bloody_feast_high_god_name_alternate: "Лицо"
- bloody_feast_high_god_name_alternate_possessive: "Сущности"
- bloody_feast_creator_god_name: "Тот, кто спустился"
- bloody_feast_creator_god_name_possessive: "Тот, кто спустился"
- bloody_feast_health_god_name: "Скрывающийся в крови"
- bloody_feast_health_god_name_possessive: "Скрывающийся в Крови"
- bloody_feast_fertility_god_name: "Шепот во вздохе"
- bloody_feast_fertility_god_name_possessive: "Шепот во вздохе"
- bloody_feast_wealth_god_name: "Тень монеты"
- bloody_feast_wealth_god_name_possessive: "Тень монеты"
- bloody_feast_household_god_name: "Обновитель"
- bloody_feast_household_god_name_possessive: "Обновление"
- bloody_feast_fate_god_name: "Наблюдатель в углах"
- bloody_feast_fate_god_name_possessive: "Наблюдатель в углах"
- bloody_feast_knowledge_god_name: "Праздник мысли"
- bloody_feast_knowledge_god_name_possessive: "Мысль Фестера"
- bloody_feast_war_god_name: "Захватчик"
- bloody_feast_war_god_name_possessive: "Захватчика"
- bloody_feast_trickster_god_name: "Мерцание"
- bloody_feast_trickster_god_name_possessive: "Фликера"
- bloody_feast_night_god_name: "Плащ"
- bloody_feast_night_god_name_possessive: "Плащ"
- bloody_feast_water_god_name: "Дом Глубин"
- bloody_feast_water_god_name_possessive: "Дом Глубин"
- bloody_feast_death_deity_name: "Коллектор"
- bloody_feast_death_deity_name_possessive: "Коллекционер"
- bloody_feast_devil_name: "Тот, кто сбивается с пути"
- bloody_feast_devil_name_possessive: "Тот, кто сбивается»"
- bloody_feast_witch_god_name: "Танцор"
- bloody_feast_witch_god_name_possessive: "Танцора"
- bloody_feast_house_of_worship: "Праздничный зал"
- bloody_feast_house_of_worship_plural: "Праздничные залы"
- bloody_feast_religious_symbol: "Фонтан крови"
- bloody_feast_religious_text: "Кричащие свитки"
- bloody_feast_religious_head_title: "Мастер праздника"
- bloody_feast_religious_head_title_name: "Мастер праздника"
- bloody_feast_devotee_male: "Праздник"
- bloody_feast_devotee_male_plural: "Праздники"
- bloody_feast_devotee_female: "Праздник"
- bloody_feast_devotee_female_plural: "Праздники"
- bloody_feast_devotee_neuter: "Праздник"
- bloody_feast_devotee_neuter_plural: "Праздники"
- bloody_feast_priest_alternate_plural: "Главный праздник"
- bloody_feast_bishop: "Главный праздник"
- bloody_feast_bishop_plural: "Головные праздники"
- bloody_feast_positive_afterlife: "Восхождение"
- bloody_feast_negative_afterlife: "Котел"
-  
-  #Great Unknown One 
- great_unknown_one: "Культ Великого Неизвестного"
- great_unknown_one_desc: "Культ, лишенный каких-либо реальных догматов, веры в богов или какой-либо философии, за исключением одноименного Великого Неизвестного, который, как известно, скитался бесчисленные века в [Concept('aeras','Аэрасе')|E], ненадолго появляясь преданным во снах или в реальном мире. С бесчисленными записями и книгами о встречах их одержимость раскрытием секретов Великого Неизвестного является их единственной целью."
- great_unknown_one_adj: "Культ Великого Неизвестного"
- great_unknown_one_adherent: "Последователь"
- great_unknown_one_adherent_plural: "Последователи"
- great_unknown_one_high_god_name: "Великий Неизвестный"
- great_unknown_one_high_god_name_possessive: "Великий Неизвестный"
- great_unknown_one_high_god_name_alternate: "Путешественник в капюшоне"
- great_unknown_one_high_god_name_alternate_possessive: "Путешественник в капюшоне"
- great_unknown_one_creator_god_name: "Тайна творения"
- great_unknown_one_creator_god_name_possessive: "Тайна творения"
- great_unknown_one_health_god_name: "Секрет вечной жизни"
- great_unknown_one_health_god_name_possessive: "Секрет жизни вечной"
- great_unknown_one_fertility_god_name: "Секрет умножения"
- great_unknown_one_fertility_god_name_possessive: "Секрет умножения"
- great_unknown_one_wealth_god_name: "Секрет трансмутации"
- great_unknown_one_wealth_god_name_possessive: "Секрет трансмутации"
- great_unknown_one_household_god_name: "Секрет укрепления"
- great_unknown_one_household_god_name_possessive: "Секрет укрепления здоровья"
- great_unknown_one_fate_god_name: "Тайна предвидения"
- great_unknown_one_fate_god_name_possessive: "Тайна предвидения"
- great_unknown_one_knowledge_god_name: "Тайна скрытых знаний"
- great_unknown_one_knowledge_god_name_possessive: "Тайна скрытых знаний"
- great_unknown_one_war_god_name: "Секрет насилия"
- great_unknown_one_war_god_name_possessive: "Секрет насилия"
- great_unknown_one_trickster_god_name: "Секрет лжи"
- great_unknown_one_trickster_god_name_possessive: "Тайна лжи»"
- great_unknown_one_night_god_name: "Секрет транспорта"
- great_unknown_one_night_god_name_possessive: "Секрет транспорта"
- great_unknown_one_water_god_name: "Секрет вечной поддержки"
- great_unknown_one_water_god_name_possessive: "Секрет вечной поддержки"
- great_unknown_one_death_deity_name: "Секрет выхода за пределы"
- great_unknown_one_death_deity_name_possessive: "Секрет выхода за пределы"
- great_unknown_one_devil_name: "Великий Неизвестный"
- great_unknown_one_devil_name_possessive: "Великий Неизвестный"
- great_unknown_one_witch_god_name: "Вражеские маги"
- great_unknown_one_witch_god_name_possessive: "Вражеские маги"
- great_unknown_one_house_of_worship: "Рекорд-Холл"
- great_unknown_one_house_of_worship_plural: "Залы Рекордов"
- great_unknown_one_religious_symbol: "Знак путешественника"
- great_unknown_one_religious_text: "Записи путешественника в капюшоне"
- great_unknown_one_religious_head_title: "Главный каталогизатор"
- great_unknown_one_religious_head_title_name: "Главный каталогизатор"
- great_unknown_one_devotee_male: "Искатель"
- great_unknown_one_devotee_male_plural: "Искатели"
- great_unknown_one_devotee_female: "Искатель"
- great_unknown_one_devotee_female_plural: "Искатели"
- great_unknown_one_devotee_neuter: "Искатель"
- great_unknown_one_devotee_neuter_plural: "Искатели"
- great_unknown_one_priest_alternate_plural: "Главный Искатель"
- great_unknown_one_bishop: "Главный Искатель"
- great_unknown_one_bishop_plural: "Главные искатели"
- great_unknown_one_positive_afterlife: "Главный секрет"
- great_unknown_one_negative_afterlife: "Смерть Вечная"
-  
-  #Zegarillian Dance 
- zegarillian_dance: "Круг Зегариллийского танца"
- zegarillian_dance_desc: "Культ, который рабски поклоняется [Concept('magi','магам')|E] и рассматривает [Concept('magic','магию')|E] как послания от так называемых [Concept('hidden_kings','Скрытых королей')|E]. Одноименный "Танец" - это сумма загадочных движений, скрытых как в тайном, так и в обыденном. Их [Concept('origins_of_the_cult_of_zagrillion_dance','истоки')|E] интригует, а их одержимость магией сделала их привлекательным местом для [Concept('aversarian','аверсарианских')|E] магов-изгоев."
- zegarillian_dance_adj: "Круг Зегариллийского танца"
- zegarillian_dance_adherent: "Искатель"
- zegarillian_dance_adherent_plural: "Искатели"
- zegarillian_dance_high_god_name: "Первый и Высший"
- #zegarillian_dance_high_god_name: "Повелители"
- zegarillian_dance_high_god_name_possessive: "Первый и Высший"
- zegarillian_dance_high_god_name_alternate: "Атокир Центра"
- zegarillian_dance_high_god_name_alternate_possessive: "Атокир Центра"
- zegarillian_dance_creator_god_name: "Первый из сыновей"
- zegarillian_dance_creator_god_name_possessive: "Первый из сыновей"
- zegarillian_dance_health_god_name: "Клептаск"
- zegarillian_dance_health_god_name_possessive: "Клептаска"
- zegarillian_dance_fertility_god_name: "Лоле"
- zegarillian_dance_fertility_god_name_possessive: "Лоле"
- zegarillian_dance_wealth_god_name: "Патос"
- zegarillian_dance_wealth_god_name_possessive: "Патос"
- zegarillian_dance_household_god_name: "Маколеа"
- zegarillian_dance_household_god_name_possessive: "Маколеа"
- zegarillian_dance_fate_god_name: "Рефонус"
- zegarillian_dance_fate_god_name_possessive: "Рефонус"
- zegarillian_dance_knowledge_god_name: "Нессетер"
- zegarillian_dance_knowledge_god_name_possessive: "Нессетера"
- zegarillian_dance_war_god_name: "Нотерикс"
- zegarillian_dance_war_god_name_possessive: "Нотерикс'"
- zegarillian_dance_trickster_god_name: "Оэной"
- zegarillian_dance_trickster_god_name_possessive: "Оэноя"
- zegarillian_dance_night_god_name: "Иктнар"
- zegarillian_dance_night_god_name_possessive: "Икнара"
- zegarillian_dance_water_god_name: "Ласстела"
- zegarillian_dance_water_god_name_possessive: "Ласстелы"
- zegarillian_dance_death_deity_name: "Фанкорар"
- zegarillian_dance_death_deity_name_possessive: "Фанкорара"
- zegarillian_dance_devil_name: "Все еще один"
- zegarillian_dance_devil_name_possessive: "Все еще один"
- zegarillian_dance_witch_god_name: "Ворота"
- zegarillian_dance_witch_god_name_possessive: "Ворота"
- zegarillian_dance_house_of_worship: "Танцевальный зал"
- zegarillian_dance_house_of_worship_plural: "Танцевальные залы"
- zegarillian_dance_religious_symbol: "Круг"
- zegarillian_dance_religious_text: "Секретные тексты"
- zegarillian_dance_religious_head_title: "Читатель танца"
- zegarillian_dance_religious_head_title_name: "Читатель танца"
- zegarillian_dance_devotee_male: "Слуга"
- zegarillian_dance_devotee_male_plural: "Слуги"
- zegarillian_dance_devotee_female: "Слуга"
- zegarillian_dance_devotee_female_plural: "Слуги"
- zegarillian_dance_devotee_neuter: "Слуга"
- zegarillian_dance_devotee_neuter_plural: "Слуги"
- zegarillian_dance_priest_alternate_plural: "Верховный Слуга"
- zegarillian_dance_bishop: "Верховный Слуга"
- zegarillian_dance_bishop_plural: "Высшие Слуги"
- zegarillian_dance_positive_afterlife: "Полое Королевство"
- zegarillian_dance_negative_afterlife: "Холодное небо"
-  
-  #Infinite Feast 
- infinite_feast: "Культ бесконечного пира"
- infinite_feast_desc: "Гротескный культ, который рассматривает мир как труп мертвого бога, вечно поглощаемый чудовищными личинками, обитающими под поверхностью. Говорят, что этот бесконечный праздник божественности и даже реальности является истинной причиной [Concept('gedeora','Гедеора')|E], некоторые утверждают, что личинки медленно пробиваются на поверхность по мере остывания трупа."
- infinite_feast_adj: "Культ бесконечного пира"
- infinite_feast_adherent: "культист"
- infinite_feast_adherent_plural: "Культисты"
- infinite_feast_high_god_name: "Мертвый Бог"
- infinite_feast_high_god_name_possessive: "Мертвый Бог"
- infinite_feast_high_god_name_alternate: "Они, прошедшие"
- infinite_feast_high_god_name_alternate_possessive: "Те, кто прошел"
- infinite_feast_creator_god_name: "Мертвый"
- infinite_feast_creator_god_name_possessive: "Мертвый"
- infinite_feast_health_god_name: "Извивающаяся личинка"
- infinite_feast_health_god_name_possessive: "Извивающаяся личинка"
- infinite_feast_fertility_god_name: "Плодородная личинка"
- infinite_feast_fertility_god_name_possessive: "Плодородная личинка"
- infinite_feast_wealth_god_name: "Драгоценный личинка"
- infinite_feast_wealth_god_name_possessive: "Драгоценный личинка"
- infinite_feast_fate_god_name: "Знающая личинка"
- infinite_feast_fate_god_name_possessive: "Знающая Личинка"
- infinite_feast_war_god_name: "Извивающаяся личинка"
- infinite_feast_war_god_name_possessive: "Извивающаяся личинка"
- infinite_feast_night_god_name: "Звездный личинка"
- infinite_feast_night_god_name_possessive: "Звездный личинка"
- infinite_feast_water_god_name: "Огромная личинка"
- infinite_feast_water_god_name_possessive: "Огромная Личинка"
- infinite_feast_death_deity_name: "Последняя личинка"
- infinite_feast_death_deity_name_possessive: "Последняя личинка"
-  
- infinite_feast_devil_name: "Ненавистная личинка"
- infinite_feast_devil_name_possessive: "Ненавистная личинка"
- infinite_feast_witch_god_name: "Шепчущий личинка"
- infinite_feast_witch_god_name_possessive: "Шепчущий личинка"
- infinite_feast_house_of_worship: "Приют"
- infinite_feast_house_of_worship_plural: "Приюты"
- infinite_feast_religious_symbol: "Ротсайн"
- infinite_feast_religious_text: "Отчеты"
- infinite_feast_religious_head_title: "Первосвященник"
- infinite_feast_religious_head_title_name: "Первосвященник"
- infinite_feast_devotee_male: "культист"
- infinite_feast_devotee_male_plural: "Культисты"
- infinite_feast_devotee_female: "культист"
- infinite_feast_devotee_female_plural: "Культисты"
- infinite_feast_devotee_neuter: "культист"
- infinite_feast_devotee_neuter_plural: "Культисты"
- infinite_feast_priest_alternate_plural: "Священник"
- infinite_feast_bishop: "Главный священник"
- infinite_feast_bishop_plural: "Первосвященники"
- infinite_feast_positive_afterlife: "Скрытая роща"
- infinite_feast_negative_afterlife: "Холодный труп"
-  
-  #Elated Victim 
- elated_victim: "Культ восторженной жертвы"
- elated_victim_desc: "Культ поклоняется женщине, известной как [Concept('elated_victim','Ликующая жертва')], которая проповедует святость потребления, потворства своим желаниям и едкости. Они также превозносят смерть, боль и все формы страданий и считают наиболее измученных представителей человечества святыми."
- elated_victim_adj: "Культ восторженной жертвы"
- elated_victim_adherent: "восторженный"
- elated_victim_adherent_plural: "Экстатики"
- elated_victim_high_god_name: "Ликующая жертва"
- elated_victim_high_god_name_possessive: "Ликующая жертва"
- elated_victim_high_god_name_alternate: "Ликующая жертва"
- elated_victim_high_god_name_alternate_possessive: "Ликующая жертва"
- elated_victim_devil_name: "Враг"
- elated_victim_devil_name_possessive: "Враг"
- elated_victim_witch_god_name: "Искривленный гигант"
- elated_victim_witch_god_name_possessive: "Искривленный гигант"
- elated_victim_house_of_worship: "Дом экстаза"
- elated_victim_house_of_worship_plural: "Дома экстаза"
- elated_victim_religious_symbol: "Экстатическая звезда"
- elated_victim_religious_text: "Экстази"
- elated_victim_religious_head_title: "Верховный жрец"
- elated_victim_religious_head_title_name: "Верховный жрец"
- elated_victim_devotee_male: "Празднующий"
- elated_victim_devotee_male_plural: "Празднующие"
- elated_victim_devotee_female: "Празднующий"
- elated_victim_devotee_female_plural: "Празднующие"
- elated_victim_devotee_neuter: "Празднующий"
- elated_victim_devotee_neuter_plural: "Празднующие"
- elated_victim_priest_alternate_plural: "жертвующий"
- elated_victim_bishop: "жертвующий"
- elated_victim_bishop_plural: "жертвующий"
- elated_victim_positive_afterlife: "Царство снисходительности"
- elated_victim_negative_afterlife: "Серые туманы"
-  
-  #Burning Maiden 
- burning_maiden: "Культ Пылающей Девы"
- burning_maiden_desc: "Культ, который верит в [Concept('burning_maiden','существо')|E], которая может дать мудрость ограниченным образом, если последователи совершают ритуал эльбората, который включает в себя сжигание живой девы, хотя заменяющие изображения используются во многих обстоятельствах (в основном политических)."
- burning_maiden_adj: "Культ Пылающей Девы"
- burning_maiden_adherent: "культист"
- burning_maiden_adherent_plural: "Культисты"
- burning_maiden_high_god_name: "Пылающая дева"
- burning_maiden_high_god_name_possessive: "Пылающая дева"
- burning_maiden_high_god_name_alternate: "Девушка в огне"
- burning_maiden_high_god_name_alternate_possessive: "Девушка в огне"
- burning_maiden_creator_god_name: "Толторотот"
- burning_maiden_creator_god_name_possessive: "Толторотота"
- burning_maiden_wealth_god_name: "Блазерт"
- burning_maiden_wealth_god_name_possessive: "Блазерта"
- burning_maiden_fate_god_name: "Асах"
- burning_maiden_fate_god_name_possessive: "Асаха"
- burning_maiden_knowledge_god_name: "Вилхор"
- burning_maiden_knowledge_god_name_possessive: "Вилхора"
- burning_maiden_war_god_name: "Вулкинз"
- burning_maiden_war_god_name_possessive: "Вулкинза"
- burning_maiden_trickster_god_name: "Тотор"
- burning_maiden_trickster_god_name_possessive: "Тотора"
- burning_maiden_night_god_name: "Король ночи"
- burning_maiden_night_god_name_possessive: "Король Ночи"
- burning_maiden_water_god_name: "Вилхор"
- burning_maiden_water_god_name_possessive: "Вилхора"
- burning_maiden_death_deity_name: "Улькинз"
- burning_maiden_death_deity_name_possessive: "Улькинза"
- burning_maiden_devil_name: "Мимниосин"
- burning_maiden_devil_name_possessive: "Мимниосина"
- burning_maiden_witch_god_name: "Ведьма"
- burning_maiden_witch_god_name_possessive: "Ведьмы"
- burning_maiden_house_of_worship: "Храм"
- burning_maiden_house_of_worship_plural: "Храмы"
- burning_maiden_religious_symbol: "Девичий костер"
- burning_maiden_religious_text: "Священные записи"
- burning_maiden_religious_head_title: "Верховный Жрец"
- burning_maiden_religious_head_title_name: "Верховный Жрец"
- burning_maiden_devotee_male: "культист"
- burning_maiden_devotee_male_plural: "Культисты"
- burning_maiden_devotee_female: "Весталка"
- burning_maiden_devotee_female_plural: "Весталки"
- burning_maiden_devotee_neuter: "культист"
- burning_maiden_devotee_neuter_plural: "Культисты"
- burning_maiden_priest_alternate_plural: "Священники"
- burning_maiden_bishop: "Первосвященник"
- burning_maiden_bishop_plural: "Первосвященники"
- burning_maiden_positive_afterlife: "Преисподняя"
- burning_maiden_negative_afterlife: "Обреченный костер"
-  
-  #Screaming host 
- screaming_host: "Церковь Кричащего Воинства"
- screaming_host_desc: "Культ, который верит, что их божественный защитник и небесный страж— Аасах был уведен крылатыми демонами в их логово глубоко под землей, и поэтому они роют "ямы провидца" размером с человека, чтобы спасти его. Члены Церкви печально известны своими навязчивыми песнопениями и гимнами, которые якобы имитируют вопли их бога, дающего указания спасти его."
- screaming_host_adj: "Церковь Кричащего Воинства"
- screaming_host_adherent: "Искатель"
- screaming_host_adherent_plural: "Искатели"
- screaming_host_high_god_name: "Асах"
- screaming_host_high_god_name_possessive: "Асаха"
- screaming_host_high_god_name_alternate: "Хранитель"
- screaming_host_high_god_name_alternate_possessive: "Гардиан"
- screaming_host_creator_god_name: "Вилхор"
- screaming_host_creator_god_name_possessive: "Вилхора"
- screaming_host_health_god_name: "Месеф"
- screaming_host_health_god_name_possessive: "Месефа"
- screaming_host_fertility_god_name: "Толторотот"
- screaming_host_fertility_god_name_possessive: "Толторотота"
- screaming_host_wealth_god_name: "Мин"
- screaming_host_wealth_god_name_possessive: "Мин"
- screaming_host_household_god_name: "Блазерт"
- screaming_host_household_god_name_possessive: "Блазерта"
- screaming_host_fate_god_name: "Мимниосин"
- screaming_host_fate_god_name_possessive: "Мимниосина"
- screaming_host_knowledge_god_name: "Тальт"
- screaming_host_knowledge_god_name_possessive: "Тальта"
- screaming_host_war_god_name: "Кышт"
- screaming_host_war_god_name_possessive: "Кышта"
- screaming_host_trickster_god_name: "Марбор"
- screaming_host_trickster_god_name_possessive: "Марбора"
- screaming_host_night_god_name: "Асаха"
- screaming_host_night_god_name_possessive: "Асаха"
- screaming_host_water_god_name: "Беллхор"
- screaming_host_water_god_name_possessive: "Беллхор"
- screaming_host_death_deity_name: "Мимниосин"
- screaming_host_death_deity_name_possessive: "Мимниосина"
- screaming_host_devil_name: "Улкынз Тортар"
- screaming_host_devil_name_possessive: "Улькинз Тортар"
- screaming_host_witch_god_name: "Вулкинз Тортар"
- screaming_host_witch_god_name_possessive: "Вулкинз Тортар"
- screaming_host_house_of_worship: "Кирх"
- screaming_host_house_of_worship_plural: "Кирхи"
- screaming_host_religious_symbol: "Крылатый вихрь"
- screaming_host_religious_text: "Завещание Изта"
- screaming_host_religious_head_title: "Верховный Жрец"
- screaming_host_religious_head_title_name: "Верховный жрец"
- screaming_host_devotee_male: "Связанный искатель"
- screaming_host_devotee_male_plural: "Связанные искатели"
- screaming_host_devotee_female: "Связанный искатель"
- screaming_host_devotee_female_plural: "Связанные искатели"
- screaming_host_devotee_neuter: "Связанный искатель"
- screaming_host_devotee_neuter_plural: "Связанные искатели"
- screaming_host_priest_alternate_plural: "Священники"
- screaming_host_bishop: "Диакон"
- screaming_host_bishop_plural: "Дьяконы"
- screaming_host_positive_afterlife: "Рай Асаха"
- screaming_host_negative_afterlife: "Демоническое царство"
-  
- yalgabaot: "Культ Ялгабаоти"
- yalgabaot_desc: "Ялгабаоти поклоняются [Concept('yalgabaot','Яглабаоту')|E] и многим другим богам, веря, что они достигнут знания и понимания физического мира. Богам молятся, изучая природные и неестественные явления, принося жертвы Ялгабаоту и его слугам и участвуя в [Concept('magic','магических')|E] ритуалах в честь богов".
- yalgabaot_adj: "Культ Ялгабаоти"
- yalgabaot_adherent: "культист"
- yalgabaot_adherent_plural: "Культисты"
- yalgabaot_high_god_name: "Ялгабаот"
- yalgabaot_high_god_name_possessive: "Ялгабаот"
- yalgabaot_high_god_name_alternate: "Универсальная ось"
- yalgabaot_high_god_name_alternate_possessive: "Универсальная ось"
- yalgabaot_creator_god_name: "Невыразимый Бог"
- yalgabaot_creator_god_name_possessive: "Невыразимый Бог"
- yalgabaot_health_god_name: "Месеф"
- yalgabaot_health_god_name_possessive: "Месефа"
- yalgabaot_fertility_god_name: "Толторотот"
- yalgabaot_fertility_god_name_possessive: "Толторотота"
- yalgabaot_wealth_god_name: "Мин"
- yalgabaot_wealth_god_name_possessive: "Мин"
- yalgabaot_household_god_name: "Блазерт"
- yalgabaot_household_god_name_possessive: "Блазерта"
- yalgabaot_fate_god_name: "Мимниосин"
- yalgabaot_fate_god_name_possessive: "Мимниосина"
- yalgabaot_knowledge_god_name: "Тальт"
- yalgabaot_knowledge_god_name_possessive: "Тальта"
- yalgabaot_war_god_name: "Кышт"
- yalgabaot_war_god_name_possessive: "Кышта"
- yalgabaot_trickster_god_name: "Марбор"
- yalgabaot_trickster_god_name_possessive: "Марбора"
- yalgabaot_night_god_name: "Асаха"
- yalgabaot_night_god_name_possessive: "Асаха"
- yalgabaot_water_god_name: "Беллхор"
- yalgabaot_water_god_name_possessive: "Беллхор"
- yalgabaot_death_deity_name: "Мимниосин"
- yalgabaot_death_deity_name_possessive: "Мимниосина"
- yalgabaot_devil_name: "Улкынз Тортар"
- yalgabaot_devil_name_possessive: "Улькинз Тортар"
- yalgabaot_witch_god_name: "Вулкинз Тортар"
- yalgabaot_witch_god_name_possessive: "Вулкинз Тортар"
- yalgabaot_house_of_worship: "Кирх"
- yalgabaot_house_of_worship_plural: "Кирхи"
- yalgabaot_religious_symbol: "Крылатый вихрь"
- yalgabaot_religious_text: "Завещание Изта"
- yalgabaot_religious_head_title: "Верховный Жрец"
- yalgabaot_religious_head_title_name: "Верховный жрец"
- yalgabaot_devotee_male: "Связанный искатель"
- yalgabaot_devotee_male_plural: "Связанные искатели"
- yalgabaot_devotee_female: "Связанный искатель"
- yalgabaot_devotee_female_plural: "Связанные искатели"
- yalgabaot_devotee_neuter: "Связанный искатель"
- yalgabaot_devotee_neuter_plural: "Связанные искатели"
- yalgabaot_priest_alternate_plural: "Священники"
- yalgabaot_bishop: "Диакон"
- yalgabaot_bishop_plural: "Дьяконы"
- yalgabaot_positive_afterlife: "Тишина после этого"
- yalgabaot_negative_afterlife: "Кричащее место"
+ # #Black martyr 
+ # black_martyr: "Cult of the Black Martyr" #NT!
+ # black_martyr_desc: "Those of the Black Martyr's cult are seen as deviants and overly eccentric even by other Redlanders. A sect dedicated to the veneration of the legendary 'Black Martyr' who sacrificed much in the pursuit of knowledge. Finally achieving understanding of Aeras and its inner workings drove the Black Martyr mad, and left him a gibbering husk requiring aid from numerous sacred custodians. These custodians dress their charge in black robes and attempt to divide his deranged but oftentimes oracular ramblings into those that are incomprehensible to our mortal ken and those that can be deciphered with great effort.  However, these custodians are at the best of times inaccurate and have but rarely managed to predict future happenings. Most believe that this is due to their incompetence, with the erratic behavior of the custodians doing little to assuage their doubts. A select few are of the school that this is due to the Black Martyr’s abilities not being truly prophetic but instead enabling the madman to foresee all possible futures. More sinisterly, in recent times the Black Martyr’s ramblings have begun to fixate almost exclusively on cataclysmic events, and the Martyr himself has grown more and more distressed, at times even screaming in anguish before falling into a catatonic state. Even the maddened Martyr is left in despair at the horrific doom that lies ahead." #NT!
+ # black_martyr_adj: "Black Martyr" #NT!
+ # black_martyr_adherent: "Martyrite" #NT!
+ # black_martyr_adherent_plural: "Martyrites" #NT!
+ # black_martyr_high_god_name: "The Black Martyr" #NT!
+ # black_martyr_high_god_name_possessive: "The Black martyr's" #NT!
+ # black_martyr_high_god_name_alternate: "His Prophecies" #NT!
+ # black_martyr_high_god_name_alternate_possessive: "His Prophecies'" #NT!
+ # black_martyr_creator_god_name: "The Font" #NT!
+ # black_martyr_creator_god_name_possessive: "The Font's" #NT!
+ # black_martyr_health_god_name: "Meseph" #NT!
+ # black_martyr_health_god_name_possessive: "Meseph's" #NT!
+ # black_martyr_fertility_god_name: "Toltorototh" #NT!
+ # black_martyr_fertility_god_name_possessive: "Toltorototh's" #NT!
+ # black_martyr_wealth_god_name: "Myn" #NT!
+ # black_martyr_wealth_god_name_possessive: "Myn's" #NT!
+ # black_martyr_household_god_name: "Blaserth" #NT!
+ # black_martyr_household_god_name_possessive: "Blaserth's" #NT!
+ # black_martyr_fate_god_name: "Mymniosyn" #NT!
+ # black_martyr_fate_god_name_possessive: "Mymniosyn's" #NT!
+ # black_martyr_knowledge_god_name: "Talt" #NT!
+ # black_martyr_knowledge_god_name_possessive: "Talt's" #NT!
+ # black_martyr_war_god_name: "Kysht" #NT!
+ # black_martyr_war_god_name_possessive: "Kysht's" #NT!
+ # black_martyr_trickster_god_name: "Marbor" #NT!
+ # black_martyr_trickster_god_name_possessive: "Marbor's" #NT!
+ # black_martyr_night_god_name: "Asakh's" #NT!
+ # black_martyr_night_god_name_possessive: "Asakh's" #NT!
+ # black_martyr_water_god_name: "Bellhor" #NT!
+ # black_martyr_water_god_name_possessive: "Bellhor" #NT!
+ # black_martyr_death_deity_name: "Mymniosyn" #NT!
+ # black_martyr_death_deity_name_possessive: "Mymniosyn's" #NT!
+ # black_martyr_devil_name: "Ulkynz Tortar" #NT!
+ # black_martyr_devil_name_possessive: "Ulkynz Tortar's" #NT!
+ # black_martyr_witch_god_name: "Vulkynz Tortar" #NT!
+ # black_martyr_witch_god_name_possessive: "Vulkynz Tortar's" #NT!
+ # black_martyr_house_of_worship: "Kirch" #NT!
+ # black_martyr_house_of_worship_plural: "Kirches" #NT!
+ # black_martyr_religious_symbol: "The Winged Vortex" #NT!
+ # black_martyr_religious_text: "Testament of Izt" #NT!
+ # black_martyr_religious_head_title: "Highest Priest" #NT!
+ # black_martyr_religious_head_title_name: "Highest priest" #NT!
+ # black_martyr_devotee_male: "Bound Searcher" #NT!
+ # black_martyr_devotee_male_plural: "Bound Searchers" #NT!
+ # black_martyr_devotee_female: "Bound Searcher" #NT!
+ # black_martyr_devotee_female_plural: "Bound Searchers" #NT!
+ # black_martyr_devotee_neuter: "Bound Searcher" #NT!
+ # black_martyr_devotee_neuter_plural: "Bound Searchers" #NT!
+ # black_martyr_priest_alternate_plural: "Priests" #NT!
+ # black_martyr_bishop: "Deacon" #NT!
+ # black_martyr_bishop_plural: "Deacons" #NT!
+ # black_martyr_positive_afterlife: "Paradise" #NT!
+ # black_martyr_negative_afterlife: "The Demonic Realm" #NT!
+ # 
+ # #Spider Feast 
+ # 
+ # spider_feast: "The Spider Feast" #NT!
+ # spider_feast_desc: "A cult worshipping the Giant Spiders throughout the Redlands, considered the Spider goddess Arannia's emissaries. Their [Concept('giant_spiders_and_humans','symbiotic relationship')|E] extends to their religious and communal traditions." #NT!
+ # spider_feast_adj: "Spider Feast" #NT!
+ # spider_feast_adherent: "Servant" #NT!
+ # spider_feast_adherent_plural: "Servants" #NT!
+ # spider_feast_high_god_name: "Arannia" #NT!
+ # spider_feast_high_god_name_possessive: "Arannia's" #NT!
+ # spider_feast_high_god_name_alternate: "Her Arachnid Glory" #NT!
+ # spider_feast_high_god_name_alternate_possessive: "Her Arachnid Glory's" #NT!
+ # spider_feast_creator_god_name: "Arannia" #NT!
+ # spider_feast_creator_god_name_possessive: "Arannia's" #NT!
+ # spider_feast_devil_name: "The Outsider" #NT!
+ # spider_feast_devil_name_possessive: "The Outsider's" #NT!
+ # spider_feast_witch_god_name: "The Wasp" #NT!
+ # spider_feast_witch_god_name_possessive: "The Wasp's" #NT!
+ # spider_feast_house_of_worship: "House of Feeding" #NT!
+ # spider_feast_house_of_worship_plural: "Houses of Feeding" #NT!
+ # spider_feast_religious_symbol: "The Eight Legged Sigil" #NT!
+ # spider_feast_religious_text: "The Holy Texts" #NT!
+ # spider_feast_religious_head_title: "Master of the Eight" #NT!
+ # spider_feast_religious_head_title_name: "Master of the Eight" #NT!
+ # spider_feast_devotee_male: "Feeder" #NT!
+ # spider_feast_devotee_male_plural: "Feeders" #NT!
+ # spider_feast_devotee_female: "Feeder" #NT!
+ # spider_feast_devotee_female_plural: "Feeders" #NT!
+ # spider_feast_devotee_neuter: "Feeder" #NT!
+ # spider_feast_devotee_neuter_plural: "Feeders" #NT!
+ # spider_feast_priest_alternate_plural: "Feeders" #NT!
+ # spider_feast_bishop: "High Feeder" #NT!
+ # spider_feast_bishop_plural: "High Feeders" #NT!
+ # spider_feast_positive_afterlife: "The Web" #NT!
+ # spider_feast_negative_afterlife: "Darkness" #NT!
+ # 
+ # #Fallen Star 
+ # fallen_star: "The Cult of the Fallen Star" #NT!
+ # fallen_star_desc: "An enigmatic cult centered around the creature [fallen_star|E] who preaches that enlightenment can only be obtained through realization of the meaningless of life on [aeras|E], claiming that the true meaning is only obtainable through worship of the Fallen Star itself and those who do not accept must be ground to dust and removed from this world, for they are the propagators of mankind's current state." #NT!
+ # fallen_star_adj: "Cult of the Fallen Star" #NT!
+ # fallen_star_adherent: "The Enlightened" #NT!
+ # fallen_star_adherent_plural: "The Enlightened" #NT!
+ # fallen_star_high_god_name: "The Fallen Star" #NT!
+ # fallen_star_high_god_name_possessive: "The Fallen Star's" #NT!
+ # fallen_star_high_god_name_alternate: "The Transcendent One" #NT!
+ # fallen_star_high_god_name_alternate_possessive: "The Transcendent One's" #NT!
+ # fallen_star_creator_god_name: "The Mad Demiurge" #NT!
+ # fallen_star_creator_god_name_possessive: "The Mad Demiurge" #NT!
+ # fallen_star_health_god_name: "Truth in the Star" #NT!
+ # fallen_star_health_god_name_possessive: "Truth in the Star" #NT!
+ # fallen_star_fertility_god_name: "False Propogation" #NT!
+ # fallen_star_fertility_god_name_possessive: "False Propogation" #NT!
+ # fallen_star_wealth_god_name: "Purpose for Paupers" #NT!
+ # fallen_star_wealth_god_name_possessive: "Purpose for Paupers" #NT!
+ # fallen_star_household_god_name: "A Meaning for All" #NT!
+ # fallen_star_household_god_name_possessive: "A Meaning for All" #NT!
+ # fallen_star_fate_god_name: "The Star's Directive" #NT!
+ # fallen_star_fate_god_name_possessive: "The Star's Directives" #NT!
+ # fallen_star_knowledge_god_name: "The Transcendent Teachings" #NT!
+ # fallen_star_knowledge_god_name_possessive: "The Transcendent Teachings" #NT!
+ # fallen_star_war_god_name: "Dominion over Wretches" #NT!
+ # fallen_star_war_god_name_possessive: "Dominion over Wretches" #NT!
+ # fallen_star_trickster_god_name: "Lies for the Unworthy" #NT!
+ # fallen_star_trickster_god_name_possessive: "Lies for the Unworthy" #NT!
+ # fallen_star_night_god_name: "The Shadow of the Fallen Star" #NT!
+ # fallen_star_night_god_name_possessive: "The Shadow of the Fallen Star" #NT!
+ # fallen_star_death_deity_name: "An End to Purpose" #NT!
+ # fallen_star_death_deity_name_possessive: "An End to Purpose" #NT!
+ # 
+ # fallen_star_devil_name: "Purposelessness" #NT!
+ # fallen_star_devil_name_possessive: "Purposelessness" #NT!
+ # fallen_star_witch_god_name: "Secret" #NT!
+ # fallen_star_witch_god_name_possessive: "Secrets" #NT!
+ # fallen_star_house_of_worship: "Workhouse" #NT!
+ # fallen_star_house_of_worship_plural: "Workhouses" #NT!
+ # fallen_star_religious_symbol: "Sign of the Star" #NT!
+ # fallen_star_religious_text: "The Directions" #NT!
+ # fallen_star_religious_head_title: "High Learner" #NT!
+ # fallen_star_religious_head_title_name: "High Learner" #NT!
+ # fallen_star_devotee_male: "Directed" #NT!
+ # fallen_star_devotee_male_plural: "Directeds" #NT!
+ # fallen_star_devotee_female: "Directed" #NT!
+ # fallen_star_devotee_female_plural: "Directed" #NT!
+ # fallen_star_devotee_neuter: "Directed" #NT!
+ # fallen_star_devotee_neuter_plural: "Directeds" #NT!
+ # fallen_star_priest_alternate_plural: "Director" #NT!
+ # fallen_star_bishop: "Director" #NT!
+ # fallen_star_bishop_plural: "Directors" #NT!
+ # fallen_star_positive_afterlife: "True Purpose on [aeras|E]" #NT!
+ # fallen_star_negative_afterlife: "The Meaningless Land" #NT!
+ # 
+ # #Devourer of All 
+ # devourer_of_all: "Cult of the All-Devourer" #NT!
+ # devourer_of_all_desc: "The cult believes their world is in a constant cycle of destruction and rebirth, eternally devoured by their patron goddess every ten thousand years if deemed too rotten and corrupted. While initially hoping to avert this future, the cult has now accepted this world's doomed status. " #NT!
+ # devourer_of_all_adj: "Cult of the All-Devourer" #NT!
+ # devourer_of_all_adherent: "Cultist" #NT!
+ # devourer_of_all_adherent_plural: "Cultists" #NT!
+ # devourer_of_all_high_god_name: "Akpescelea the Mother" #NT!
+ # devourer_of_all_high_god_name_possessive: "Akpescelea's" #NT!
+ # devourer_of_all_high_god_name_alternate: "The Devourer Goddess" #NT!
+ # devourer_of_all_high_god_name_alternate_possessive: "The Devourer Goddess'" #NT!
+ # devourer_of_all_devil_name: "Perversion" #NT!
+ # devourer_of_all_devil_name_possessive: "Perversion's" #NT!
+ # devourer_of_all_witch_god_name: "The Dancer in the Night" #NT!
+ # devourer_of_all_witch_god_name_possessive: "The Dancer in the Night's" #NT!
+ # devourer_of_all_house_of_worship: "Place of Contemplation" #NT!
+ # devourer_of_all_house_of_worship_plural: "Places of Contemplation" #NT!
+ # devourer_of_all_religious_symbol: "The Maw of the Mother" #NT!
+ # devourer_of_all_religious_text: "Mother's Ways" #NT!
+ # devourer_of_all_religious_head_title: "Speaker" #NT!
+ # devourer_of_all_religious_head_title_name: "Speaker" #NT!
+ # devourer_of_all_devotee_male: "Worshipper" #NT!
+ # devourer_of_all_devotee_male_plural: "Worshippers" #NT!
+ # devourer_of_all_devotee_female: "Worshipper" #NT!
+ # devourer_of_all_devotee_female_plural: "Worshippers" #NT!
+ # devourer_of_all_devotee_neuter: "Worshipper" #NT!
+ # devourer_of_all_devotee_neuter_plural: "Worshippers" #NT!
+ # devourer_of_all_priest_alternate_plural: "Prayer Leader" #NT!
+ # devourer_of_all_bishop: "Little Speaker" #NT!
+ # devourer_of_all_bishop_plural: "Little Speakers" #NT!
+ # devourer_of_all_positive_afterlife: "The Mother's Embrace" #NT!
+ # devourer_of_all_negative_afterlife: "The Place of Abandonment" #NT!
+ # 
+ # #Eternal Flame 
+ # flame_eternal: "Cult of the Flame Eternal" #NT!
+ # flame_eternal_desc: "Adherents of this cult revere a certain Flame Eternal, maintaining fires withing grandiose temples to establish communion and believing the Flame Eternal will one day descend upon [aeras|E] rewarding loyal followers and wiping out the unfaithful. Recently, however, the flames have begun to flicker on and off leading to a surge of dreastic actions taken by the the cultists who want to set everything alight to preserve the heavenly blaze, uncaring of the consequnces." #NT!
+ # flame_eternal_adj: "Cult of the Flame Eternal" #NT!
+ # flame_eternal_adherent: "Flamebearer" #NT!
+ # flame_eternal_adherent_plural: "Flamebearers" #NT!
+ # flame_eternal_high_god_name: "The Flame Eternal" #NT!
+ # flame_eternal_high_god_name_possessive: "The Flame Eternal's" #NT!
+ # flame_eternal_high_god_name_alternate: "The Heavenly Blaze" #NT!
+ # flame_eternal_high_god_name_alternate_possessive: "The Heavenely Blaze's" #NT!
+ # flame_eternal_creator_god_name: "The White Flame" #NT!
+ # flame_eternal_creator_god_name_possessive: "The White Flame's" #NT!
+ # flame_eternal_health_god_name: "The Red Flame" #NT!
+ # flame_eternal_health_god_name_possessive: "The Red Flame's" #NT!
+ # flame_eternal_fertility_god_name: "The Red Flame" #NT!
+ # flame_eternal_fertility_god_name_possessive: "The Red Flame's" #NT!
+ # flame_eternal_wealth_god_name: "The Green Flame" #NT!
+ # flame_eternal_wealth_god_name_possessive: "The Green Flame's" #NT!
+ # flame_eternal_household_god_name: "The Black Flame" #NT!
+ # flame_eternal_household_god_name_possessive: "The Black Flame's" #NT!
+ # flame_eternal_fate_god_name: "The Yellow Flame" #NT!
+ # flame_eternal_fate_god_name_possessive: "The Yellow Flame's" #NT!
+ # flame_eternal_knowledge_god_name: "The Errant Flame" #NT!
+ # flame_eternal_knowledge_god_name_possessive: "The Errant Flame's" #NT!
+ # flame_eternal_war_god_name: "The War Flame" #NT!
+ # flame_eternal_war_god_name_possessive: "The War Flame's" #NT!
+ # flame_eternal_trickster_god_name: "The Flickering Flame" #NT!
+ # flame_eternal_trickster_god_name_possessive: "The Flickering Flame's" #NT!
+ # flame_eternal_night_god_name: "The Flame that is Not" #NT!
+ # flame_eternal_night_god_name_possessive: "The Flame that is Not's" #NT!
+ # flame_eternal_water_god_name: "The Boil" #NT!
+ # flame_eternal_water_god_name_possessive: "The Boil's" #NT!
+ # flame_eternal_death_deity_name: "The Flame Eternal" #NT!
+ # flame_eternal_death_deity_name_possessive: "The Flame Eternal's" #NT!
+ # flame_eternal_devil_name: "The Dampener" #NT!
+ # flame_eternal_devil_name_possessive: "The Dampener's" #NT!
+ # flame_eternal_witch_god_name: "The Dampener" #NT!
+ # flame_eternal_witch_god_name_possessive: "The Dampener's" #NT!
+ # flame_eternal_house_of_worship: "Temple of Fire" #NT!
+ # flame_eternal_house_of_worship_plural: "Temples of Fire" #NT!
+ # flame_eternal_religious_symbol: "Golden Brazier" #NT!
+ # flame_eternal_religious_text: "The Torch" #NT!
+ # flame_eternal_religious_head_title: "Grand Arsonist" #NT!
+ # flame_eternal_religious_head_title_name: "Grand Arsonist" #NT!
+ # flame_eternal_devotee_male: "Arsonist" #NT!
+ # flame_eternal_devotee_male_plural: "Arsonists" #NT!
+ # flame_eternal_devotee_female: "Arsonist" #NT!
+ # flame_eternal_devotee_female_plural: "Arsonists" #NT!
+ # flame_eternal_devotee_neuter: "Arsonist" #NT!
+ # flame_eternal_devotee_neuter_plural: "Arsonists" #NT!
+ # flame_eternal_priest_alternate_plural: "Flame Spreader" #NT!
+ # flame_eternal_bishop: "Flame Spreader" #NT!
+ # flame_eternal_bishop_plural: "Flame Spreaders" #NT!
+ # flame_eternal_positive_afterlife: "The Consuming Blaze" #NT!
+ # flame_eternal_negative_afterlife: "The Cold Dark" #NT!
+ # 
+ # #Speaking Moon 
+ # speaking_moon: "Speaking Moon Cult" #NT!
+ # speaking_moon_desc: "An esoteric cult of many beliefs, foremost is that [aervalr|E] speaks to a chosen few that are attuned to divinity who can perceive and understand its divine speeches unlike mere mortals. Their tenets are a myriad of contradictions by priests over the most simplest and nonsensical of interpretations, leading to mutliple [Concept('schism_of_moon_cult','schism')|E] over the ages." #NT!
+ # speaking_moon_adj: "Cult of the Speaking Moon" #NT!
+ # speaking_moon_adherent: "Disciple" #NT!
+ # speaking_moon_adherent_plural: "Disciples" #NT!
+ # speaking_moon_high_god_name: "Aervalr" #NT!
+ # speaking_moon_high_god_name_possessive: "Aervalr's" #NT!
+ # speaking_moon_high_god_name_alternate: "The Speaking Moon" #NT!
+ # speaking_moon_high_god_name_alternate_possessive: "The Speaking Moon's" #NT!
+ # speaking_moon_house_of_worship: "House of Listening" #NT!
+ # speaking_moon_house_of_worship_plural: "Houses of Listening" #NT!
+ # speaking_moon_religious_symbol: "Sigil of Aervalr" #NT!
+ # speaking_moon_religious_text: "Signs of the Moon" #NT!
+ # speaking_moon_religious_head_title: "High Interpreter" #NT!
+ # speaking_moon_religious_head_title_name: "High Interpreter" #NT!
+ # speaking_moon_devotee_male: "Listener" #NT!
+ # speaking_moon_devotee_male_plural: "Listeners" #NT!
+ # speaking_moon_devotee_female: "Listener" #NT!
+ # speaking_moon_devotee_female_plural: "Listeners" #NT!
+ # speaking_moon_devotee_neuter: "Listener" #NT!
+ # speaking_moon_devotee_neuter_plural: "Listeners" #NT!
+ # speaking_moon_priest_alternate_plural: "Interpreter" #NT!
+ # speaking_moon_bishop: "High Listener" #NT!
+ # speaking_moon_bishop_plural: "High Listeners" #NT!
+ # speaking_moon_positive_afterlife: "The Silvery Plains" #NT!
+ # speaking_moon_negative_afterlife: "Nothingness" #NT!
+ # 
+ # #bloody feast 
+ # bloody_feast: "Cult of the Bloody Feast" #NT!
+ # bloody_feast_desc: "A cult based on the instructions provided by a [Concept('being_of_the_bloody_feast','heavenly being')|E], preaching the concept of the so-called [bloody_feast|E]. Through the use of human blood in the Feast, it is believed one can rise above humanity and reincarnate into something greater." #NT!
+ # bloody_feast_adj: "Cult of the Bloody Feast" #NT!
+ # bloody_feast_adherent: "Feaster" #NT!
+ # bloody_feast_adherent_plural: "Feasters" #NT!
+ # bloody_feast_high_god_name: "The One Who Descended" #NT!
+ # bloody_feast_high_god_name_possessive: "The One Who Descended's" #NT!
+ # bloody_feast_high_god_name_alternate: "The Entity" #NT!
+ # bloody_feast_high_god_name_alternate_possessive: "The Entity's" #NT!
+ # bloody_feast_creator_god_name: "The One Who Descended" #NT!
+ # bloody_feast_creator_god_name_possessive: "The One Who Descended's" #NT!
+ # bloody_feast_health_god_name: "The Lurker in Blood" #NT!
+ # bloody_feast_health_god_name_possessive: "The Lurker in Blood's" #NT!
+ # bloody_feast_fertility_god_name: "The Whisper in a Sigh" #NT!
+ # bloody_feast_fertility_god_name_possessive: "The Whisper in a Sigh" #NT!
+ # bloody_feast_wealth_god_name: "Shadow of the Coin" #NT!
+ # bloody_feast_wealth_god_name_possessive: "Shadow of the Coin's" #NT!
+ # bloody_feast_household_god_name: "Renewer" #NT!
+ # bloody_feast_household_god_name_possessive: "Renewer's" #NT!
+ # bloody_feast_fate_god_name: "Watcher in Corners" #NT!
+ # bloody_feast_fate_god_name_possessive: "Watcher in Corners'" #NT!
+ # bloody_feast_knowledge_god_name: "Thought Feaster" #NT!
+ # bloody_feast_knowledge_god_name_possessive: "Thought Feaster's" #NT!
+ # bloody_feast_war_god_name: "The Capturer" #NT!
+ # bloody_feast_war_god_name_possessive: "The Capturer's" #NT!
+ # bloody_feast_trickster_god_name: "Flicker" #NT!
+ # bloody_feast_trickster_god_name_possessive: "Flicker's" #NT!
+ # bloody_feast_night_god_name: "The Cloak" #NT!
+ # bloody_feast_night_god_name_possessive: "The Cloak's" #NT!
+ # bloody_feast_water_god_name: "The House of Deeps" #NT!
+ # bloody_feast_water_god_name_possessive: "The House of Deeps'" #NT!
+ # bloody_feast_death_deity_name: "The Collector" #NT!
+ # bloody_feast_death_deity_name_possessive: "The Collector's" #NT!
+ # bloody_feast_devil_name: "The One Who Strays" #NT!
+ # bloody_feast_devil_name_possessive: "The One Who Strays'" #NT!
+ # bloody_feast_witch_god_name: "The Dancer" #NT!
+ # bloody_feast_witch_god_name_possessive: "The Dancer's" #NT!
+ # bloody_feast_house_of_worship: "Feasting Hall" #NT!
+ # bloody_feast_house_of_worship_plural: "Feasting Halls" #NT!
+ # bloody_feast_religious_symbol: "The Blood Fountain" #NT!
+ # bloody_feast_religious_text: "Screaming Scrolls" #NT!
+ # bloody_feast_religious_head_title: "Feastmaster" #NT!
+ # bloody_feast_religious_head_title_name: "Feastmaster" #NT!
+ # bloody_feast_devotee_male: "Feaster" #NT!
+ # bloody_feast_devotee_male_plural: "Feasters" #NT!
+ # bloody_feast_devotee_female: "Feaster" #NT!
+ # bloody_feast_devotee_female_plural: "Feasters" #NT!
+ # bloody_feast_devotee_neuter: "Feaster" #NT!
+ # bloody_feast_devotee_neuter_plural: "Feasters" #NT!
+ # bloody_feast_priest_alternate_plural: "Head Feaster" #NT!
+ # bloody_feast_bishop: "Head Feaster" #NT!
+ # bloody_feast_bishop_plural: "Head Feasters" #NT!
+ # bloody_feast_positive_afterlife: "Ascent" #NT!
+ # bloody_feast_negative_afterlife: "The Cauldron" #NT!
+ # 
+ # #Great Unknown One 
+ # great_unknown_one: "Cult of the Great Unknown One" #NT!
+ # great_unknown_one_desc: "A cult devoid of any real tenets or beliefs in gods or any philosophy, with the exception of the eponymous Great Unknown One who is known to have wandered [aeras|E] for countless ages appearing briefly to devotees in dreams or the real world. With countless records and books of encounters, their obsession with unlocking the secrets of the Great Unknown One is their sole purpose." #NT!
+ # great_unknown_one_adj: "Cult of the Great Unknown One" #NT!
+ # great_unknown_one_adherent: "Follower" #NT!
+ # great_unknown_one_adherent_plural: "Followers" #NT!
+ # great_unknown_one_high_god_name: "The Great Unknown One" #NT!
+ # great_unknown_one_high_god_name_possessive: "The Great Unknown One's" #NT!
+ # great_unknown_one_high_god_name_alternate: "The Hooded Traveler" #NT!
+ # great_unknown_one_high_god_name_alternate_possessive: "The Hooded Traveler" #NT!
+ # great_unknown_one_creator_god_name: "The Secret of Creation" #NT!
+ # great_unknown_one_creator_god_name_possessive: "The Secret of Creation's" #NT!
+ # great_unknown_one_health_god_name: "The Secret of Life Eternal" #NT!
+ # great_unknown_one_health_god_name_possessive: "The Secret of Life Eternal's" #NT!
+ # great_unknown_one_fertility_god_name: "The Secret of Multiplication" #NT!
+ # great_unknown_one_fertility_god_name_possessive: "The Secret of Multiplication's" #NT!
+ # great_unknown_one_wealth_god_name: "The Secret of Transmutation" #NT!
+ # great_unknown_one_wealth_god_name_possessive: "The Secret of Transmutation's" #NT!
+ # great_unknown_one_household_god_name: "The Secret of Fortification" #NT!
+ # great_unknown_one_household_god_name_possessive: "The Secret of Fortification's" #NT!
+ # great_unknown_one_fate_god_name: "The Secret of Prescience" #NT!
+ # great_unknown_one_fate_god_name_possessive: "The Secret of Prescience's" #NT!
+ # great_unknown_one_knowledge_god_name: "The Secret of Hidden Knowledge" #NT!
+ # great_unknown_one_knowledge_god_name_possessive: "The Secret of Hidden Knowledge's" #NT!
+ # great_unknown_one_war_god_name: "The Secret of Violence" #NT!
+ # great_unknown_one_war_god_name_possessive: "The Secret of Violence's" #NT!
+ # great_unknown_one_trickster_god_name: "The Secret of Lies" #NT!
+ # great_unknown_one_trickster_god_name_possessive: "The Secret of Lies'" #NT!
+ # great_unknown_one_night_god_name: "The Secret of Transportation" #NT!
+ # great_unknown_one_night_god_name_possessive: "The Secret of Transportation's" #NT!
+ # great_unknown_one_water_god_name: "The Secret of Eternal Sustenance" #NT!
+ # great_unknown_one_water_god_name_possessive: "The Secret of Eternal Sustenance's" #NT!
+ # great_unknown_one_death_deity_name: "The Secret of Passing Beyond" #NT!
+ # great_unknown_one_death_deity_name_possessive: "The Secret of Passing Beyond's" #NT!
+ # great_unknown_one_devil_name: "The Great Unknown One" #NT!
+ # great_unknown_one_devil_name_possessive: "The Great Unknown One's" #NT!
+ # great_unknown_one_witch_god_name: "Enemy Magi" #NT!
+ # great_unknown_one_witch_god_name_possessive: "Enemy Magi's" #NT!
+ # great_unknown_one_house_of_worship: "Record-Hall" #NT!
+ # great_unknown_one_house_of_worship_plural: "Record-Halls" #NT!
+ # great_unknown_one_religious_symbol: "Sign of the Traveler" #NT!
+ # great_unknown_one_religious_text: "Records of the Hooded Traveler" #NT!
+ # great_unknown_one_religious_head_title: "Head Cataloger" #NT!
+ # great_unknown_one_religious_head_title_name: "Head cataloger" #NT!
+ # great_unknown_one_devotee_male: "Seeker" #NT!
+ # great_unknown_one_devotee_male_plural: "Seekers" #NT!
+ # great_unknown_one_devotee_female: "Seeker" #NT!
+ # great_unknown_one_devotee_female_plural: "Seekers" #NT!
+ # great_unknown_one_devotee_neuter: "Seeker" #NT!
+ # great_unknown_one_devotee_neuter_plural: "Seekers" #NT!
+ # great_unknown_one_priest_alternate_plural: "Head Seeker" #NT!
+ # great_unknown_one_bishop: "Head Seeker" #NT!
+ # great_unknown_one_bishop_plural: "Head Seekers" #NT!
+ # great_unknown_one_positive_afterlife: "The Ultimate Secret" #NT!
+ # great_unknown_one_negative_afterlife: "Death Everlasting" #NT!
+ # 
+ # #Zegarillian Dance 
+ # zegarillian_dance: "Circle of the Zegarillian Dance" #NT!
+ # zegarillian_dance_desc: "A cult that slavishly worships [magi|E] and consider [magic|E] as messages from the so-called [hidden_kings|E]. The eponymous "Dance" is the sum of the enigmatic movements hidden in both the arcane and the mundane. Their [Concept('origins_of_the_cult_of_zagrillion_dance','origins')|E] are intriguing and their obsession with magic has made them an attrractive destination for rogue [aversarian|E] Magi." #NT!
+ # zegarillian_dance_adj: "Circle of the Zegarillian Dance" #NT!
+ # zegarillian_dance_adherent: "Seeker" #NT!
+ # zegarillian_dance_adherent_plural: "Seekers" #NT!
+ # zegarillian_dance_high_god_name: "The First and Highest" #NT!
+ # #zegarillian_dance_high_god_name: "The Overlords" #NT!
+ # zegarillian_dance_high_god_name_possessive: "The First and Highest" #NT!
+ # zegarillian_dance_high_god_name_alternate: "Atokir of the Center" #NT!
+ # zegarillian_dance_high_god_name_alternate_possessive: "Atokir of the Center" #NT!
+ # zegarillian_dance_creator_god_name: "First of the Sons" #NT!
+ # zegarillian_dance_creator_god_name_possessive: "First of the Sons" #NT!
+ # zegarillian_dance_health_god_name: "Kleptasc" #NT!
+ # zegarillian_dance_health_god_name_possessive: "Kleptasc's" #NT!
+ # zegarillian_dance_fertility_god_name: "Lhole" #NT!
+ # zegarillian_dance_fertility_god_name_possessive: "Lhole's" #NT!
+ # zegarillian_dance_wealth_god_name: "Patos" #NT!
+ # zegarillian_dance_wealth_god_name_possessive: "Patos'" #NT!
+ # zegarillian_dance_household_god_name: "Makolea" #NT!
+ # zegarillian_dance_household_god_name_possessive: "Makolea's" #NT!
+ # zegarillian_dance_fate_god_name: "Rephonus" #NT!
+ # zegarillian_dance_fate_god_name_possessive: "Rephonus'" #NT!
+ # zegarillian_dance_knowledge_god_name: "Nesseter" #NT!
+ # zegarillian_dance_knowledge_god_name_possessive: "Nesseter's" #NT!
+ # zegarillian_dance_war_god_name: "Notericks" #NT!
+ # zegarillian_dance_war_god_name_possessive: "Notericks'" #NT!
+ # zegarillian_dance_trickster_god_name: "Oenoi" #NT!
+ # zegarillian_dance_trickster_god_name_possessive: "Oenoi's" #NT!
+ # zegarillian_dance_night_god_name: "Yctnar" #NT!
+ # zegarillian_dance_night_god_name_possessive: "Yctnar's" #NT!
+ # zegarillian_dance_water_god_name: "Lasstela" #NT!
+ # zegarillian_dance_water_god_name_possessive: "Lasstela's" #NT!
+ # zegarillian_dance_death_deity_name: "Fankorar" #NT!
+ # zegarillian_dance_death_deity_name_possessive: "Fankorar's" #NT!
+ # zegarillian_dance_devil_name: "The Still One" #NT!
+ # zegarillian_dance_devil_name_possessive: "The Still One's" #NT!
+ # zegarillian_dance_witch_god_name: "The Gate" #NT!
+ # zegarillian_dance_witch_god_name_possessive: "The Gate's" #NT!
+ # zegarillian_dance_house_of_worship: "Dancing Hall" #NT!
+ # zegarillian_dance_house_of_worship_plural: "Dancing Halls" #NT!
+ # zegarillian_dance_religious_symbol: "The Circle" #NT!
+ # zegarillian_dance_religious_text: "Secret Texts" #NT!
+ # zegarillian_dance_religious_head_title: "Reader of the Dance" #NT!
+ # zegarillian_dance_religious_head_title_name: "Reader of the Dance" #NT!
+ # zegarillian_dance_devotee_male: "Servant" #NT!
+ # zegarillian_dance_devotee_male_plural: "Servants" #NT!
+ # zegarillian_dance_devotee_female: "Servant" #NT!
+ # zegarillian_dance_devotee_female_plural: "Servants" #NT!
+ # zegarillian_dance_devotee_neuter: "Servant" #NT!
+ # zegarillian_dance_devotee_neuter_plural: "Servants" #NT!
+ # zegarillian_dance_priest_alternate_plural: "High Servant" #NT!
+ # zegarillian_dance_bishop: "High Servant" #NT!
+ # zegarillian_dance_bishop_plural: "High Servants" #NT!
+ # zegarillian_dance_positive_afterlife: "The Hollow Kingdom" #NT!
+ # zegarillian_dance_negative_afterlife: "The Cold Skies" #NT!
+ # 
+ # #Infinite Feast 
+ # infinite_feast: "Cult of the Infinite Feast" #NT!
+ # infinite_feast_desc: "A grotesque cult that considers the world to be the corpse of a dead god being eternally consumed by monstrous maggots dwelling underneath the surface. This infinite feast of divinity and even reality is said to be the true cause of [gedeora|E], some claiming the maggots are slowly making their way to the surface as the corpse cools." #NT!
+ # infinite_feast_adj: "Cult of the Infinite Feast" #NT!
+ # infinite_feast_adherent: "Cultist" #NT!
+ # infinite_feast_adherent_plural: "Cultists" #NT!
+ # infinite_feast_high_god_name: "The Dead God" #NT!
+ # infinite_feast_high_god_name_possessive: "The Dead God's" #NT!
+ # infinite_feast_high_god_name_alternate: "They Who Passed" #NT!
+ # infinite_feast_high_god_name_alternate_possessive: "They Who Passed's" #NT!
+ # infinite_feast_creator_god_name: "The Dead One" #NT!
+ # infinite_feast_creator_god_name_possessive: "The Dead One" #NT!
+ # infinite_feast_health_god_name: "The Writhing Maggot" #NT!
+ # infinite_feast_health_god_name_possessive: "The Writhing Maggot's" #NT!
+ # infinite_feast_fertility_god_name: "The Fecund Maggot" #NT!
+ # infinite_feast_fertility_god_name_possessive: "The Fecund Maggot's" #NT!
+ # infinite_feast_wealth_god_name: "The Gem Maggot" #NT!
+ # infinite_feast_wealth_god_name_possessive: "The Gem Maggot's" #NT!
+ # infinite_feast_fate_god_name: "The Knowing Maggot" #NT!
+ # infinite_feast_fate_god_name_possessive: "The Knowing Maggot's" #NT!
+ # infinite_feast_war_god_name: "The Twisting Maggot" #NT!
+ # infinite_feast_war_god_name_possessive: "The Twisting Maggot's" #NT!
+ # infinite_feast_night_god_name: "The Star Maggot" #NT!
+ # infinite_feast_night_god_name_possessive: "The Star Maggot's" #NT!
+ # infinite_feast_water_god_name: "The Vast Maggot" #NT!
+ # infinite_feast_water_god_name_possessive: "The Vast Maggot's" #NT!
+ # infinite_feast_death_deity_name: "The Last Maggot" #NT!
+ # infinite_feast_death_deity_name_possessive: "The Last Maggot's" #NT!
+ # 
+ # infinite_feast_devil_name: "The Hateful Maggot" #NT!
+ # infinite_feast_devil_name_possessive: "The Hateful Maggot's" #NT!
+ # infinite_feast_witch_god_name: "The Whispering Maggot" #NT!
+ # infinite_feast_witch_god_name_possessive: "The Whispering Maggot's" #NT!
+ # infinite_feast_house_of_worship: "Shelter" #NT!
+ # infinite_feast_house_of_worship_plural: "Shelters" #NT!
+ # infinite_feast_religious_symbol: "The Rotsign" #NT!
+ # infinite_feast_religious_text: "The Records" #NT!
+ # infinite_feast_religious_head_title: "High Priest" #NT!
+ # infinite_feast_religious_head_title_name: "High Priest" #NT!
+ # infinite_feast_devotee_male: "Cultist" #NT!
+ # infinite_feast_devotee_male_plural: "Cultists" #NT!
+ # infinite_feast_devotee_female: "Cultist" #NT!
+ # infinite_feast_devotee_female_plural: "Cultists" #NT!
+ # infinite_feast_devotee_neuter: "Cultist" #NT!
+ # infinite_feast_devotee_neuter_plural: "Cultists" #NT!
+ # infinite_feast_priest_alternate_plural: "Priest" #NT!
+ # infinite_feast_bishop: "Chief Priest" #NT!
+ # infinite_feast_bishop_plural: "Chief Priests" #NT!
+ # infinite_feast_positive_afterlife: "The Hidden Grove" #NT!
+ # infinite_feast_negative_afterlife: "The Cold Corpse" #NT!
+ # 
+ # #Elated Victim 
+ # elated_victim: "Cult of the Elated Victim" #NT!
+ # elated_victim_desc: "The cult worships a woman known as the [elated_victim] that preaches sanctity of consumption, indulgence and edacity. They also exalt death, pain and all forms of suffering and view the most tormented among humanity as holy." #NT!
+ # elated_victim_adj: "Cult of the Elated Victim" #NT!
+ # elated_victim_adherent: "Ecstatic" #NT!
+ # elated_victim_adherent_plural: "Ecstatics" #NT!
+ # elated_victim_high_god_name: "The Elated Victim" #NT!
+ # elated_victim_high_god_name_possessive: "The Elated Victim" #NT!
+ # elated_victim_high_god_name_alternate: "The Elated Victim" #NT!
+ # elated_victim_high_god_name_alternate_possessive: "The Elated Victim" #NT!
+ # elated_victim_devil_name: "The Enemy" #NT!
+ # elated_victim_devil_name_possessive: "The Enemy's" #NT!
+ # elated_victim_witch_god_name: "The Twisted Giant" #NT!
+ # elated_victim_witch_god_name_possessive: "The Twisted Giant's" #NT!
+ # elated_victim_house_of_worship: "House of Ecstasy" #NT!
+ # elated_victim_house_of_worship_plural: "Houses of Ecstasy" #NT!
+ # elated_victim_religious_symbol: "The Ecstatic Star" #NT!
+ # elated_victim_religious_text: "The Ecstasies" #NT!
+ # elated_victim_religious_head_title: "High Celebrant" #NT!
+ # elated_victim_religious_head_title_name: "High Celebrant" #NT!
+ # elated_victim_devotee_male: "Celebrant" #NT!
+ # elated_victim_devotee_male_plural: "Celebrants" #NT!
+ # elated_victim_devotee_female: "Celebrant" #NT!
+ # elated_victim_devotee_female_plural: "Celebrants" #NT!
+ # elated_victim_devotee_neuter: "Celebrant" #NT!
+ # elated_victim_devotee_neuter_plural: "Celebrants" #NT!
+ # elated_victim_priest_alternate_plural: "Sacrificiant" #NT!
+ # elated_victim_bishop: "Sacrificiant" #NT!
+ # elated_victim_bishop_plural: "Sacrificiant" #NT!
+ # elated_victim_positive_afterlife: "The Indulgent Realm" #NT!
+ # elated_victim_negative_afterlife: "The Gray Mists" #NT!
+ # 
+ # #Burning Maiden 
+ # burning_maiden: "Cult of the Burning Maiden" #NT!
+ # burning_maiden_desc: "A cult that believes in a [Concept('burning_maiden','being')|E] that can provide wisdom in a limited fashion if followers perform an elborate ritual that involves burning a live maiden, although substitute effigies are used in many circumstances (mainly political)." #NT!
+ # burning_maiden_adj: "Cult of the Burning Maiden" #NT!
+ # burning_maiden_adherent: "Cultist" #NT!
+ # burning_maiden_adherent_plural: "Cultists" #NT!
+ # burning_maiden_high_god_name: "The Burning Maiden" #NT!
+ # burning_maiden_high_god_name_possessive: "The Burning Maiden's" #NT!
+ # burning_maiden_high_god_name_alternate: "The Maiden in Fire" #NT!
+ # burning_maiden_high_god_name_alternate_possessive: "The Maiden in Fire's" #NT!
+ # burning_maiden_creator_god_name: "Toltorototh" #NT!
+ # burning_maiden_creator_god_name_possessive: "Toltorototh's" #NT!
+ # burning_maiden_wealth_god_name: "Blaserth" #NT!
+ # burning_maiden_wealth_god_name_possessive: "Blaserth's" #NT!
+ # burning_maiden_fate_god_name: "Asakh" #NT!
+ # burning_maiden_fate_god_name_possessive: "Asakh's" #NT!
+ # burning_maiden_knowledge_god_name: "Vilkhor" #NT!
+ # burning_maiden_knowledge_god_name_possessive: "Vilkhor's" #NT!
+ # burning_maiden_war_god_name: "Vulkynz" #NT!
+ # burning_maiden_war_god_name_possessive: "Vulkynz's" #NT!
+ # burning_maiden_trickster_god_name: "Totor" #NT!
+ # burning_maiden_trickster_god_name_possessive: "Totor's" #NT!
+ # burning_maiden_night_god_name: "King of Night" #NT!
+ # burning_maiden_night_god_name_possessive: "King of Night's" #NT!
+ # burning_maiden_water_god_name: "Vilkhor" #NT!
+ # burning_maiden_water_god_name_possessive: "Vilkhor's" #NT!
+ # burning_maiden_death_deity_name: "Ulkynz" #NT!
+ # burning_maiden_death_deity_name_possessive: "Ulkynz's" #NT!
+ # burning_maiden_devil_name: "Mymniosyn" #NT!
+ # burning_maiden_devil_name_possessive: "Mymniosyn's" #NT!
+ # burning_maiden_witch_god_name: "The Witch" #NT!
+ # burning_maiden_witch_god_name_possessive: "The Witch's" #NT!
+ # burning_maiden_house_of_worship: "Temple" #NT!
+ # burning_maiden_house_of_worship_plural: "Temples" #NT!
+ # burning_maiden_religious_symbol: "The Maiden Pyre" #NT!
+ # burning_maiden_religious_text: "The Holy Records" #NT!
+ # burning_maiden_religious_head_title: "Highest Priest" #NT!
+ # burning_maiden_religious_head_title_name: "Highest Priest" #NT!
+ # burning_maiden_devotee_male: "Cultist" #NT!
+ # burning_maiden_devotee_male_plural: "Cultists" #NT!
+ # burning_maiden_devotee_female: "Vestal Maiden" #NT!
+ # burning_maiden_devotee_female_plural: "Vestal Maidens" #NT!
+ # burning_maiden_devotee_neuter: "Cultist" #NT!
+ # burning_maiden_devotee_neuter_plural: "Cultists" #NT!
+ # burning_maiden_priest_alternate_plural: "Priests" #NT!
+ # burning_maiden_bishop: "High Priest" #NT!
+ # burning_maiden_bishop_plural: "High Priests" #NT!
+ # burning_maiden_positive_afterlife: "The Underworld" #NT!
+ # burning_maiden_negative_afterlife: "The Fated Pyre" #NT!
+ # 
+ # #Screaming host 
+ # screaming_host: "Church of the Screaming Host" #NT!
+ # screaming_host_desc: "A cult that believes their divine protector and sky guardian— Aasakh was taken by winged demons to their lair deep below grounds, and thus dig man-sized "seer pits" to rescue. Members of the Church are infamous for their haunting chants and hymns that supposedely imitate the wails of their god giving instructions to rescue him." #NT!
+ # screaming_host_adj: "Church of the Screaming Host" #NT!
+ # screaming_host_adherent: "Searcher" #NT!
+ # screaming_host_adherent_plural: "Searchers" #NT!
+ # screaming_host_high_god_name: "Asakh" #NT!
+ # screaming_host_high_god_name_possessive: "Asakh's" #NT!
+ # screaming_host_high_god_name_alternate: "The Guardian" #NT!
+ # screaming_host_high_god_name_alternate_possessive: "The Guardian's" #NT!
+ # screaming_host_creator_god_name: "Vilkhor" #NT!
+ # screaming_host_creator_god_name_possessive: "Vilkhor's" #NT!
+ # screaming_host_health_god_name: "Meseph" #NT!
+ # screaming_host_health_god_name_possessive: "Meseph's" #NT!
+ # screaming_host_fertility_god_name: "Toltorototh" #NT!
+ # screaming_host_fertility_god_name_possessive: "Toltorototh's" #NT!
+ # screaming_host_wealth_god_name: "Myn" #NT!
+ # screaming_host_wealth_god_name_possessive: "Myn's" #NT!
+ # screaming_host_household_god_name: "Blaserth" #NT!
+ # screaming_host_household_god_name_possessive: "Blaserth's" #NT!
+ # screaming_host_fate_god_name: "Mymniosyn" #NT!
+ # screaming_host_fate_god_name_possessive: "Mymniosyn's" #NT!
+ # screaming_host_knowledge_god_name: "Talt" #NT!
+ # screaming_host_knowledge_god_name_possessive: "Talt's" #NT!
+ # screaming_host_war_god_name: "Kysht" #NT!
+ # screaming_host_war_god_name_possessive: "Kysht's" #NT!
+ # screaming_host_trickster_god_name: "Marbor" #NT!
+ # screaming_host_trickster_god_name_possessive: "Marbor's" #NT!
+ # screaming_host_night_god_name: "Asakh's" #NT!
+ # screaming_host_night_god_name_possessive: "Asakh's" #NT!
+ # screaming_host_water_god_name: "Bellhor" #NT!
+ # screaming_host_water_god_name_possessive: "Bellhor" #NT!
+ # screaming_host_death_deity_name: "Mymniosyn" #NT!
+ # screaming_host_death_deity_name_possessive: "Mymniosyn's" #NT!
+ # screaming_host_devil_name: "Ulkynz Tortar" #NT!
+ # screaming_host_devil_name_possessive: "Ulkynz Tortar's" #NT!
+ # screaming_host_witch_god_name: "Vulkynz Tortar" #NT!
+ # screaming_host_witch_god_name_possessive: "Vulkynz Tortar's" #NT!
+ # screaming_host_house_of_worship: "Kirch" #NT!
+ # screaming_host_house_of_worship_plural: "Kirches" #NT!
+ # screaming_host_religious_symbol: "The Winged Vortex" #NT!
+ # screaming_host_religious_text: "Testament of Izt" #NT!
+ # screaming_host_religious_head_title: "Highest Priest" #NT!
+ # screaming_host_religious_head_title_name: "Highest priest" #NT!
+ # screaming_host_devotee_male: "Bound Searcher" #NT!
+ # screaming_host_devotee_male_plural: "Bound Searchers" #NT!
+ # screaming_host_devotee_female: "Bound Searcher" #NT!
+ # screaming_host_devotee_female_plural: "Bound Searchers" #NT!
+ # screaming_host_devotee_neuter: "Bound Searcher" #NT!
+ # screaming_host_devotee_neuter_plural: "Bound Searchers" #NT!
+ # screaming_host_priest_alternate_plural: "Priests" #NT!
+ # screaming_host_bishop: "Deacon" #NT!
+ # screaming_host_bishop_plural: "Deacons" #NT!
+ # screaming_host_positive_afterlife: "Asakh's Paradise" #NT!
+ # screaming_host_negative_afterlife: "The Demonic Realm" #NT!
+ # 
+ # yalgabaot: "Yalgabaoti Cult" #NT!
+ # yalgabaot_desc: "The Yalgabaoti worship [yalgabaot|E] and many other gods, in the belief that they shall attain knowledge and understanding of the physical world. The gods are supplicated through studying natural and unnatural phenomenon, giving sacrifices to Yalgabaot and his servitors and participating in [magic|E] rituals honoring the gods." #NT!
+ # yalgabaot_adj: "Yalgabaoti Cult" #NT!
+ # yalgabaot_adherent: "Cultist" #NT!
+ # yalgabaot_adherent_plural: "Cultists" #NT!
+ # yalgabaot_high_god_name: "Yalgabaot" #NT!
+ # yalgabaot_high_god_name_possessive: "Yalgabaot's" #NT!
+ # yalgabaot_high_god_name_alternate: "The Universaal Axis" #NT!
+ # yalgabaot_high_god_name_alternate_possessive: "The Universal Axis'" #NT!
+ # yalgabaot_creator_god_name: "The Unspeakable God" #NT!
+ # yalgabaot_creator_god_name_possessive: "The Unspeakable God's" #NT!
+ # yalgabaot_health_god_name: "Meseph" #NT!
+ # yalgabaot_health_god_name_possessive: "Meseph's" #NT!
+ # yalgabaot_fertility_god_name: "Toltorototh" #NT!
+ # yalgabaot_fertility_god_name_possessive: "Toltorototh's" #NT!
+ # yalgabaot_wealth_god_name: "Myn" #NT!
+ # yalgabaot_wealth_god_name_possessive: "Myn's" #NT!
+ # yalgabaot_household_god_name: "Blaserth" #NT!
+ # yalgabaot_household_god_name_possessive: "Blaserth's" #NT!
+ # yalgabaot_fate_god_name: "Mymniosyn" #NT!
+ # yalgabaot_fate_god_name_possessive: "Mymniosyn's" #NT!
+ # yalgabaot_knowledge_god_name: "Talt" #NT!
+ # yalgabaot_knowledge_god_name_possessive: "Talt's" #NT!
+ # yalgabaot_war_god_name: "Kysht" #NT!
+ # yalgabaot_war_god_name_possessive: "Kysht's" #NT!
+ # yalgabaot_trickster_god_name: "Marbor" #NT!
+ # yalgabaot_trickster_god_name_possessive: "Marbor's" #NT!
+ # yalgabaot_night_god_name: "Asakh's" #NT!
+ # yalgabaot_night_god_name_possessive: "Asakh's" #NT!
+ # yalgabaot_water_god_name: "Bellhor" #NT!
+ # yalgabaot_water_god_name_possessive: "Bellhor" #NT!
+ # yalgabaot_death_deity_name: "Mymniosyn" #NT!
+ # yalgabaot_death_deity_name_possessive: "Mymniosyn's" #NT!
+ # yalgabaot_devil_name: "Ulkynz Tortar" #NT!
+ # yalgabaot_devil_name_possessive: "Ulkynz Tortar's" #NT!
+ # yalgabaot_witch_god_name: "Vulkynz Tortar" #NT!
+ # yalgabaot_witch_god_name_possessive: "Vulkynz Tortar's" #NT!
+ # yalgabaot_house_of_worship: "Kirch" #NT!
+ # yalgabaot_house_of_worship_plural: "Kirches" #NT!
+ # yalgabaot_religious_symbol: "The Winged Vortex" #NT!
+ # yalgabaot_religious_text: "Testament of Izt" #NT!
+ # yalgabaot_religious_head_title: "Highest Priest" #NT!
+ # yalgabaot_religious_head_title_name: "Highest priest" #NT!
+ # yalgabaot_devotee_male: "Bound Searcher" #NT!
+ # yalgabaot_devotee_male_plural: "Bound Searchers" #NT!
+ # yalgabaot_devotee_female: "Bound Searcher" #NT!
+ # yalgabaot_devotee_female_plural: "Bound Searchers" #NT!
+ # yalgabaot_devotee_neuter: "Bound Searcher" #NT!
+ # yalgabaot_devotee_neuter_plural: "Bound Searchers" #NT!
+ # yalgabaot_priest_alternate_plural: "Priests" #NT!
+ # yalgabaot_bishop: "Deacon" #NT!
+ # yalgabaot_bishop_plural: "Deacons" #NT!
+ # yalgabaot_positive_afterlife: "The Silence Thereafter" #NT!
+ # yalgabaot_negative_afterlife: "The Screaming Place" #NT!

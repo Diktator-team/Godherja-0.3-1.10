@@ -1,0 +1,4 @@
+﻿l_russian:
+  
+ #NOT_CAPITAL_COUNTY_METROPOLIS_BUILDING: "[PROVINCE.GetName] must be a [metro|E] [holding|E]" #NT!
+ NOT_CAPITAL_COUNTY_METROPOLIS_BUILDING: "Это здание можно построить (и оно будет функционировать) только в столице его владельца."

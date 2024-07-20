@@ -1,76 +1,76 @@
 ﻿l_russian:
   
  #gestanwoder Loc 
- gestanwoder_religion: "Гестанводерск" 
- gestanwoder_religion_adj: "Гестанводер" 
- gestanwoder_religion_adjerent: "Гестанводер" 
- gestanwoder_religion_adherent_plural: "Гестанводеры" 
- gestanwoder_religion_desc: "Религия гестанводеров верит в богов, но они не добры и не заботливы; это жестокие и капризные существа, небесные деспоты, которые видят в людях свои игрушки и не более того. Жизнь — это бесконечная цепь страданий, и единственная надежда — влачить сносное существование под каблуком богов. Если повезет, они могут заключить однобокую сделку с божеством, так что их бесконечным мучениям хотя бы на короткое время предшествуют смертные удовольствия." 
- gestanwoder_high_god_name: "Нерзаал, Посланник Богов" 
- gestanwoder_high_god_name_possessive: "Нерзаала" 
- gestanwoder_high_god_name_alternate: "Ползучий хаос" #Машинный перевод 28.10.23
- gestanwoder_high_god_name_alternate_possessive: "Ползучий хаос»" #Машинный перевод 28.10.23
- gestanwoder_devil_name: "Могучий Альребригт" #Машинный перевод 28.10.23
- gestanwoder_devil_name_possessive: "Могучий Альребригт" #Машинный перевод 28.10.23
- gestanwoder_death_deity_name: "Без кожи" #Машинный перевод 28.10.23
- gestanwoder_death_deity_name_possessive: "Без Кожи" #Машинный перевод 28.10.23
+ gestanwoder_religion: "Гестанводерск"
+ gestanwoder_religion_adj: "Гестанводер"
+ gestanwoder_religion_adjerent: "Гестанводер"
+ gestanwoder_religion_adherent_plural: "Гестанводеры"
+ gestanwoder_religion_desc: "Религия гестанводеров верит в богов, но они не добры и не заботливы; это жестокие и капризные существа, небесные деспоты, которые видят в людях свои игрушки и не более того. Жизнь — это бесконечная цепь страданий, и единственная надежда — влачить сносное существование под каблуком богов. Если повезет, они могут заключить однобокую сделку с божеством, так что их бесконечным мучениям хотя бы на короткое время предшествуют смертные удовольствия."
+ gestanwoder_high_god_name: "Нерзаал, Посланник Богов"
+ gestanwoder_high_god_name_possessive: "Нерзаала"
+ gestanwoder_high_god_name_alternate: "Ползучий хаос"
+ gestanwoder_high_god_name_alternate_possessive: "Ползучий хаос»"
+ gestanwoder_devil_name: "Могучий Альребригт"
+ gestanwoder_devil_name_possessive: "Могучий Альребригт"
+ gestanwoder_death_deity_name: "Без кожи"
+ gestanwoder_death_deity_name_possessive: "Без Кожи"
   
   
   
- gestanwoder_house_of_worship: "Ковен" #Машинный перевод 28.10.23
- gestanwoder_house_of_worship_plural: "Ковен" #Машинный перевод 28.10.23
- gestanwoder_religious_symbol: "Смеющийся Бог" #Машинный перевод 28.10.23
- gestanwoder_religious_text: "Шепот ползущего хаоса" #Машинный перевод 28.10.23
+ gestanwoder_house_of_worship: "Ковен"
+ gestanwoder_house_of_worship_plural: "Ковен"
+ gestanwoder_religious_symbol: "Смеющийся Бог"
+ gestanwoder_religious_text: "Шепот ползущего хаоса"
   
- gestanwoder_religious_head_title: "Водер-Товерейс" #Машинный перевод 28.10.23
- gestanwoder_religious_head_title_name: "Водрик-Товерейс" #Машинный перевод 28.10.23
- gestanwoder_devotee_male: "Гестанводер" #Машинный перевод 28.10.23
- gestanwoder_devotee_male_plural: "Гестанводре" #Машинный перевод 28.10.23
- gestanwoder_devotee_female: "Гестанводер" #Машинный перевод 28.10.23
- gestanwoder_devotee_female_plural: "Гестанводре" #Машинный перевод 28.10.23
- gestanwoder_devotee_neuter: "Гестанводер" #Машинный перевод 28.10.23
- gestanwoder_devotee_neuter_plural: "Гестанводре" #Машинный перевод 28.10.23
- gestanwoder_priest_male: "Товер" #Машинный перевод 28.10.23
- gestanwoder_priest_male_plural: "Товерс" #Машинный перевод 28.10.23
- gestanwoder_priest_female: "Хекс" #Машинный перевод 28.10.23
- gestanwoder_priest_female_plural: "Хексе" #Машинный перевод 28.10.23
- gestanwoder_priest_alternate_plural: "Товере" #Машинный перевод 28.10.23
- gestanwoder_bishop: "Товрехаар" #Машинный перевод 28.10.23
- gestanwoder_bishop_plural: "Товрехаарс" #Машинный перевод 28.10.23
- gestanwoder_positive_afterlife: "гестолам" #Машинный перевод 28.10.23
- gestanwoder_negative_afterlife: "Гризебор" #Машинный перевод 28.10.23
+ gestanwoder_religious_head_title: "Водер-Товерейс"
+ gestanwoder_religious_head_title_name: "Водрик-Товерейс"
+ gestanwoder_devotee_male: "Гестанводер"
+ gestanwoder_devotee_male_plural: "Гестанводре"
+ gestanwoder_devotee_female: "Гестанводер"
+ gestanwoder_devotee_female_plural: "Гестанводре"
+ gestanwoder_devotee_neuter: "Гестанводер"
+ gestanwoder_devotee_neuter_plural: "Гестанводре"
+ gestanwoder_priest_male: "Товер"
+ gestanwoder_priest_male_plural: "Товерс"
+ gestanwoder_priest_female: "Хекс"
+ gestanwoder_priest_female_plural: "Хексе"
+ gestanwoder_priest_alternate_plural: "Товере"
+ gestanwoder_bishop: "Товрехаар"
+ gestanwoder_bishop_plural: "Товрехаарс"
+ gestanwoder_positive_afterlife: "гестолам"
+ gestanwoder_negative_afterlife: "Гризебор"
   
- gestanwoder_creator_god_name: "$gestanwoder_high_god_name_alternate$" #Машинный перевод 28.10.23
- gestanwoder_creator_god_name_possessive: "$gestanwoder_high_god_name_alternate_possessive$" #Машинный перевод 28.10.23
- gestanwoder_health_god_name: "$gestanwoder_fertility_god_name$" #Машинный перевод 28.10.23
- gestanwoder_health_god_name_possessive: "$gestanwoder_fertility_god_name_possessive$" #Машинный перевод 28.10.23
- gestanwoder_fertility_god_name: "Пустлевро" #Машинный перевод 28.10.23
- gestanwoder_fertility_god_name_possessive: "Пустлевро" #Машинный перевод 28.10.23
- gestanwoder_wealth_god_name: "Геланмасктге Вис" #Машинный перевод 28.10.23
- gestanwoder_wealth_god_name_possessive: "Геланмасктге Виса" #Машинный перевод 28.10.23
- gestanwoder_household_god_name: "Маанваас" #Машинный перевод 28.10.23
- gestanwoder_household_god_name_possessive: "Маанваас" #Машинный перевод 28.10.23
- gestanwoder_fate_god_name: "Старнаволгт" #Машинный перевод 28.10.23
- gestanwoder_fate_god_name_possessive: "Старнавольгт" #Машинный перевод 28.10.23
- gestanwoder_knowledge_god_name: "Мастре Бригт" #Машинный перевод 28.10.23
- gestanwoder_knowledge_god_name_possessive: "Мастре Бригт" #Машинный перевод 28.10.23
- gestanwoder_war_god_name: "Отец, любимый миллионами" #Машинный перевод 28.10.23
- gestanwoder_war_god_name_possessive: "отца" #Машинный перевод 28.10.23
- gestanwoder_trickster_god_name: "Кровавый Язык" #Машинный перевод 28.10.23
- gestanwoder_trickster_god_name_possessive: "Кровавый Язык" #Машинный перевод 28.10.23
- gestanwoder_night_god_name: "$gestanwoder_devil_name$" #Машинный перевод 28.10.23
- gestanwoder_night_god_name_possessive: "$gestanwoder_devil_name_possessive$" #Машинный перевод 28.10.23
- gestanwoder_water_god_name: "$gestanwoder_health_god_name$" #Машинный перевод 28.10.23
- gestanwoder_water_god_name_possessive: "$gestanwoder_health_god_name_possessive$" #Машинный перевод 28.10.23
- gestanwoder_witch_god_name: "Мама Альребригт" #Машинный перевод 28.10.23
- gestanwoder_witch_god_name_possessive: "мама Олребригт" #Машинный перевод 28.10.23
+ gestanwoder_creator_god_name: "$gestanwoder_high_god_name_alternate$"
+ gestanwoder_creator_god_name_possessive: "$gestanwoder_high_god_name_alternate_possessive$"
+ gestanwoder_health_god_name: "$gestanwoder_fertility_god_name$"
+ gestanwoder_health_god_name_possessive: "$gestanwoder_fertility_god_name_possessive$"
+ gestanwoder_fertility_god_name: "Пустлевро"
+ gestanwoder_fertility_god_name_possessive: "Пустлевро"
+ gestanwoder_wealth_god_name: "Геланмасктге Вис"
+ gestanwoder_wealth_god_name_possessive: "Геланмасктге Виса"
+ gestanwoder_household_god_name: "Маанваас"
+ gestanwoder_household_god_name_possessive: "Маанваас"
+ gestanwoder_fate_god_name: "Старнаволгт"
+ gestanwoder_fate_god_name_possessive: "Старнавольгт"
+ gestanwoder_knowledge_god_name: "Мастре Бригт"
+ gestanwoder_knowledge_god_name_possessive: "Мастре Бригт"
+ gestanwoder_war_god_name: "Отец, любимый миллионами"
+ gestanwoder_war_god_name_possessive: "отца"
+ gestanwoder_trickster_god_name: "Кровавый Язык"
+ gestanwoder_trickster_god_name_possessive: "Кровавый Язык"
+ gestanwoder_night_god_name: "$gestanwoder_devil_name$"
+ gestanwoder_night_god_name_possessive: "$gestanwoder_devil_name_possessive$"
+ gestanwoder_water_god_name: "$gestanwoder_health_god_name$"
+ gestanwoder_water_god_name_possessive: "$gestanwoder_health_god_name_possessive$"
+ gestanwoder_witch_god_name: "Мама Альребригт"
+ gestanwoder_witch_god_name_possessive: "мама Олребригт"
   
- gestanwoder: "Гестанводерск" 
- gestanwoder_adj: "Гестанводеры" 
- gestanwoder_adjerent: "Гестанводер" 
- gestanwoder_adherent_plural: "Гестанводеры" 
+ gestanwoder: "Гестанводерск"
+ gestanwoder_adj: "Гестанводеры"
+ gestanwoder_adjerent: "Гестанводер"
+ gestanwoder_adherent_plural: "Гестанводеры"
  gestanwoder_desc: "Гестанводеры когда-то правили болотами Конийкменера, но затем были вытеснены захватчиками-Следопытами. Они выживают только в самых глубоких и труднодоступных болотах, цепляясь за свою исконную веру и полагая, что это просто еще одно наказание от их жестоких богов. Но некоторые превратились в темных и невыразимых существ в местах, куда не осмеливаются ступить даже бесстрашные, ища краткие мгновения невыразимой силы в своей короткой жизни..."
- gestanwoder_old: "Старо-гестанводерск" 
- gestanwoder_old_adj: "Старый Гестанводер" 
- gestanwoder_old_adherent: "Старый Гестанводер" 
- gestanwoder_old_adherent_plural: "Старые Гестанводеры" 
+ gestanwoder_old: "Старо-гестанводерск"
+ gestanwoder_old_adj: "Старый Гестанводер"
+ gestanwoder_old_adherent: "Старый Гестанводер"
+ gestanwoder_old_adherent_plural: "Старые Гестанводеры"

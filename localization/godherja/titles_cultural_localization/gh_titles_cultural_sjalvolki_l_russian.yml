@@ -1,294 +1,458 @@
 ﻿l_russian:
- cn_soncepad: "Сонцепад" #Машинный перевод 28.10.23
- cn_soncipadj: "Сончипадж" #Машинный перевод 28.10.23
- cn_konipolj: "Кониполь" #Машинный перевод 28.10.23
- cn_solnivala: "Солнивалла" #Машинный перевод 28.10.23
- cn_solvjalla: "Солвьялла" #Машинный перевод 28.10.23
- cn_solnvala: "Солнвала" #Машинный перевод 28.10.23
- cn_sonnenvall: "Зонненвалль" #Машинный перевод 28.10.23
- cn_bolhavin: "Болгавин" #Машинный перевод 28.10.23
- cn_tacajnik: "Такайник" #Машинный перевод 28.10.23
- cn_tacinik: "Тачиник" #Машинный перевод 28.10.23
- cn_taC_zaj: "Тачай" #Машинный перевод 28.10.23
- cn_sirvrihicja: "Сирврихича" #Машинный перевод 28.10.23
- cn_S_ervrihC_e: "Шерврихче" #Машинный перевод 28.10.23
- cn_maorrhos: "Маоррос" #Машинный перевод 28.10.23
- cn_savrabrocha: "Савраброча" #Машинный перевод 28.10.23
- cn_svirD_brihja: "Свирбрихья" #Машинный перевод 28.10.23
- cn_siorbraga: "Сиорбрага" #Машинный перевод 28.10.23
- cn_seibrauchne: "Зайбраухне" #Машинный перевод 28.10.23
- cn_hrasjovce: "Храсёвция" #Машинный перевод 28.10.23
- cn_hraS_ovce: "Грашовче" #Машинный перевод 28.10.23
- cn_chrassox: "Крассокс" #Машинный перевод 28.10.23
- cn_harimoth: "Харамот" #Машинный перевод 28.10.23
- cn_hjormonD_: "Хьёрмонд" #Машинный перевод 28.10.23
- cn_hiormonD_: "Хиормонд" #Машинный перевод 28.10.23
- cn_pathosmund: "Патосмунд" #Машинный перевод 28.10.23
- cn_vystancja: "Выстанция" #Машинный перевод 28.10.23
- cn_vejS_tnice: "Вейштнице" #Машинный перевод 28.10.23
- cn_nysnia: "Нисния" #Машинный перевод 28.10.23
- cn_vaithroch: "Вайтрох" #Машинный перевод 28.10.23
- cn_viD_rog: "Видрог" #Машинный перевод 28.10.23
- cn_widros: "Видрос" #Машинный перевод 28.10.23
- cn_caesicja: "Цесикья" #Машинный перевод 28.10.23
- cn_cuS_cihaj: "Кушчихай" #Машинный перевод 28.10.23
- cn_kaschae: "Кащее" #Машинный перевод 28.10.23
- cn_laithulm: "Лайтхулм" #Машинный перевод 28.10.23
- cn_loD_holm: "Лодхольм" #Машинный перевод 28.10.23
- cn_laiD_golm: "Лайдгольм" #Машинный перевод 28.10.23
- cn_lithcholm: "Литхольм" #Машинный перевод 28.10.23
- cn_sjavrech: "Сявреч" #Машинный перевод 28.10.23
- cn_S_avriha: "Шавриха" #Машинный перевод 28.10.23
- cn_savrocha: "Савроча" #Машинный перевод 28.10.23
- cn_othragard: "Отрагард" #Машинный перевод 28.10.23
- cn_utgarD_: "Утгард" #Машинный перевод 28.10.23
- cn_otgarD_: "Отгард" #Машинный перевод 28.10.23
- cn_autgard: "Аутгард" #Машинный перевод 28.10.23
- cn_ljevnovrek: "Левноврек" #Машинный перевод 28.10.23
- cn_ilnivrocha: "Ильнивроча" #Машинный перевод 28.10.23
- cn_jolnivrihja: "Йолниврихья" #Машинный перевод 28.10.23
- cn_ilnivrig: "Ильнивриг" #Машинный перевод 28.10.23
- cn_ilnevorch: "Ильневорч" #Машинный перевод 28.10.23
- cn_svarcet: "Сварцет" #Машинный перевод 28.10.23
- cn_sverC_taj: "Сверчтай" #Машинный перевод 28.10.23
- cn_askivala: "Аскивала" #Машинный перевод 28.10.23
- cn_askvalra: "Асквалра" #Машинный перевод 28.10.23
- cn_avrasa: "Авраса" #Машинный перевод 28.10.23
- cn_kabrjek: "Кабрьек" #Машинный перевод 28.10.23
- cn_kamparna: "Кампарна" #Машинный перевод 28.10.23
- cn_gambjorna: "Гамбьерна" #Машинный перевод 28.10.23
- cn_kampern: "Камперн" #Машинный перевод 28.10.23
- cn_aulblesja: "Аулблеся" #Машинный перевод 28.10.23
- cn_dimlina: "Димлина" #Машинный перевод 28.10.23
- cn_raukerei: "Раукерей" #Машинный перевод 28.10.23
- cn_ulvleS_a: "Улблеша" #Машинный перевод 28.10.23
- cn_ablassea: "Аблассеа" #Машинный перевод 28.10.23
- cn_alvolth: "Альвольт" #Машинный перевод 28.10.23
- cn_ulvolD_: "Ульволд" #Машинный перевод 28.10.23
- cn_nedweis: "Недвейс" #Машинный перевод 28.10.23
- cn_pranja: "Пранья" #Машинный перевод 28.10.23
- cn_hariskolth: "Харисколт" #Машинный перевод 28.10.23
- cn_groskilD_: "Гроскилд" #Машинный перевод 28.10.23
- cn_groscailD_: "Гроскайль" #Машинный перевод 28.10.23
- cn_liebnesse: "Либнессе" #Машинный перевод 28.10.23
- cn_vysortrja: "Высортря" #Машинный перевод 28.10.23
- cn_vS_ortrja: "Вшертря" #Машинный перевод 28.10.23
- cn_vysarthrios: "Визартриос" #Машинный перевод 28.10.23
- cn_vithravaga: "Витривига" #Машинный перевод 28.10.23
- cn_viD_vejgi: "Видвейги" #Машинный перевод 28.10.23
- cn_vasaiD_ri: "Васайдри" #Машинный перевод 28.10.23
- cn_trosche: "Троше" #Машинный перевод 28.10.23
- cn_kalicpesvi: "Каличпесви" #Машинный перевод 28.10.23
- cn_kalicpeS_vi: "Каличпешви" #Машинный перевод 28.10.23
- cn_kalathipsomi: "Калатипсоми" #Машинный перевод 28.10.23
- cn_kalathrich: "Калатрича" #Машинный перевод 28.10.23
- cn_klajD_ihja: "Клайдрихья" #Машинный перевод 28.10.23
- cn_claiD_rig: "Клайдрига" #Машинный перевод 28.10.23
- cn_pomorbal: "Поморбал" #Машинный перевод 28.10.23
- cn_pomrbal: "Помрбал" #Машинный перевод 28.10.23
- cn_rasikostha: "Расикостха" #Машинный перевод 28.10.23
- cn_volgarD_: "Волгард" #Машинный перевод 28.10.23
- cn_rosgarD_: "Росгард" #Машинный перевод 28.10.23
- cn_ladanthe: "Ладанте" #Машинный перевод 28.10.23
- cn_lesjovce: "Лесёвце" #Машинный перевод 28.10.23
- cn_leS_ovce: "Лешовце" #Машинный перевод 28.10.23
- cn_uloska: "Улоска" #Машинный перевод 28.10.23
- cn_uljosk: "Ульоск" #Машинный перевод 28.10.23
- cn_liosca: "Лиоска" #Машинный перевод 28.10.23
- cn_kalicrek: "Каликрек" #Машинный перевод 28.10.23
- cn_kralthricha: "Кралтрича" #Машинный перевод 28.10.23
- cn_kralD_rihja: "Кральдрихья" #Машинный перевод 28.10.23
- cn_karalD_ras: "Каральдрас" #Машинный перевод 28.10.23
- cn_cervrek: "Черврек" #Машинный перевод 28.10.23
- cn_C_ervirk: "Черврек" #Машинный перевод 28.10.23
- cn_rothros: "Ротрос" #Машинный перевод 28.10.23
- cn_roD_ros: "Родрос" #Машинный перевод 28.10.23
- cn_schaulren: "Шольре" #Машинный перевод 28.10.23
- cn_kactrek: "Кактрек" #Машинный перевод 28.10.23
- cn_kasthrox: "Кастрокс" #Машинный перевод 28.10.23
- cn_abrikircha: "Абрикрича" #Машинный перевод 28.10.23
- cn_ovkrihja: "Оркрихья" #Машинный перевод 28.10.23
- cn_obcrigi: "Обкриги" #Машинный перевод 28.10.23
- cn_obrekrichne: "Обречное" #Машинный перевод 28.10.23
- cn_cekricojre: "Чекрикойре" #Машинный перевод 28.10.23
- cn_cekriC_ojre: "Цекричойре" #Машинный перевод 28.10.23
- cn_rothorna: "Роторна" #Машинный перевод 28.10.23
- cn_roD_yrir: "Родирир" #Машинный перевод 28.10.23
- cn_roD_airi: "Родайри" #Машинный перевод 28.10.23
- cn_rodrilne: "Родрилне" #Машинный перевод 28.10.23
- cn_kostorrech: "Косторреч" #Машинный перевод 28.10.23
- cn_ilkhom: "Ильхом" #Машинный перевод 28.10.23
- cn_abrasos: "Абрасос" #Машинный перевод 28.10.23
- cn_mohlicech: "Мохличех" #Машинный перевод 28.10.23
- cn_nivlgaro: "Нивлгаро" #Машинный перевод 28.10.23
- cn_zapodnoj: "Заподной" #Машинный перевод 28.10.23
- cn_vystregard: "Выстрегард" #Машинный перевод 28.10.23
- cn_prlabrjezt: "Прлабрежт" #Машинный перевод 28.10.23
- cn_margridkyst: "Маргридкист" #Машинный перевод 28.10.23
- cn_drakprost: "Дракпрост" #Машинный перевод 28.10.23
- cn_drakhrad: "Дракрад" #Машинный перевод 28.10.23
- cn_laessox: "Лессокс" #Машинный перевод 28.10.23
- cn_ztohvrna: "Зтохврна" #Машинный перевод 28.10.23
- cn_logrn: "Логрн" #Машинный перевод 28.10.23
- cn_dautsif: "Дауциф" #Машинный перевод 28.10.23
- cn_majikprolan: "Маджикпролан"
- cn_majiprolan: "Маджепролан"
- cn_opojnas: "Опойнас"
- cn_openja: "Опенйа"
- cn_borjas: "Борхас"
- cn_apaina: "Апаине"
- cn_apojne: "Апойне"
- cn_bolhavna: "Болгавна"
- cn_bolhavn: "Болхавн"
- cn_bolheiven: "Болхейвен"
- cn_lok_vojazik: "Лок Воязик"
- cn_lok_voyaZek: "Лок Вояжек"
- cn_port_vojazich: "Порт-Вояжич"
- cn_vojarhavn: "Воархавн"
- cn_polajcev: "Полайцев"
- cn_polajC_ev: "Полайчев"
- cn_viljecpolj: "Вилецполь"
- cn_viljaspoli: "Вильясполи"
- cn_vjolkaspol: "Виолкасполь"
- cn_wiljaspol: "Вильясполь"
- cn_onactrev: "Онактрев"
- cn_onaC_trev: "Йонахтрев"
- cn_tilsjehrac: "Тильшерац"
- cn_tilS_ehrac: "Тильшехрац"
- cn_torog_pojecha: "Торог Ройечша"
- cn_thalsigratha: "Талсиграт"
- cn_thjolgarD_: "Тьолгард"
- cn_thalsegard: "Тальсегард"
- cn_torg_pojech: "Торг Пойеч"
- cn_mispolj: "Мисполи"
- cn_mespol: "Меспол"
- cn_mispol: "Миспол"
- cn_hajce: "Хайце"
- cn_hruje: "Груже"
- cn_rhoje: "Ройе"
- cn_chroje: "Хроже"
- cn_asipolj: "Асиполь"
- cn_aS_polj: "Ашполь"
- cn_asipol: "Асипол"
- cn_ispol: "Испол"
- cn_aspol: "Аспол"
- cn_lok_zjalcev: "Лок Зяльцев"
- cn_loka_Z_elca: "Лока Зельца"
- cn_lokas_hrise: "Локас Хрисе"
- cn_golthrihavni: "Голтрихавни"
- cn_golD_rhavn: "Голдрихавн"
- cn_havn_apalD_ir: "Хавн Ивальдир"
- cn_goltheiven: "Голтхейвен"
- cn_orispol: "Орисполь"
- cn_miropolj: "Мирополь"
- cn_miropol: "Миропол"
- cn_grothri_orispol: "Гротур Орисполь"
- cn_groD_ri_orispol: "Гродир Орисполь"
- cn_kajs: "Кайс"
- cn_kajsce: "Кайсе"
- cn_kaios: "Кайос"
- cn_kajsa: "Кайса"
- cn_keise: "Кейсе"
- cn_horn_udoljev: "Хорн Удолев"
- cn_naprojev: "Напроев"
- cn_nabrojech: "Наброеч"
- cn_nabroja: "Наброя"
- cn_nebreine: "Небрейн"
- cn_dikajnek: "Дикайнек"
- cn_dikajnox: "Дикайнокс"
- cn_dakainech: "Дакайнеч"
- cn_dikainech: "Дикайнеч"
- cn_dikeinech: "Дайкинеч"
- cn_iljecpojeka: "Илечпойка"
- cn_iltapoiexos: "Илтапоэксос"
- cn_ilthifecha: "Илтифеча"
- cn_ilD_ifjag: "Илдифьяг"
- cn_hilteveich: "Хилтевейч"
- cn_tominopaj: "Томинопай"
- cn_comnopaj: "Комнопай"
- cn_tomnope: "Томноуп"
- cn_tominaifa: "Томинайфа"
- cn_tonajfi: "Тонаджфи"
- cn_tomineife: "Томинайф"
- cn_kralvojech: "Кралвоеч"
- cn_kralfaicha: "Кральфейча"
- cn_kralvojgir: "Кралвойгир"
- cn_kralvauch: "Кральвауч"
- cn_dvur_rodrajek: "Двур Родраек"
- cn_rothrocha: "Ротроха"
- cn_roD_rajgi: "Родрайги"
- cn_rotreiche: "Ротрайш"
- cn_rodrajek: "Родраек"
- cn_mistak_misticajev: "Мистак Мистикаев"
- cn_miS_ce_miS_cajev: "Мишце Мишцаев"
- cn_armistoka: "Армистока"
- cn_lapthale: "Лапталин"
- cn_mistak_zjelcev: "Мистак Зельцев"
- cn_miS_ce_Z_elcev: "Мишце Зельцев"
- cn_mistokas_chrise: "Мистокас Хрисае"
- cn_tinestei: "Тинестей"
- cn_agojnicev: "Агойничев"
- cn_prazdnojca_saumrev: "Праздноча Сомрев"
- cn_dimastvoka: "Димаства"
- cn_dimastvojce: "Димаствойце"
- cn_vilsvjamak: "Вильсвьямак"
- cn_hajmstak: "Хемстак"
- cn_lug_spikacja: "Луг Спикача"
- cn_lug_spikac_a: "Луг Спикача"
- cn_tancja_aulbdano: "Танция Ольбдано"
- cn_itnic_e_ulbdano: "Итниче Улбдано"
- cn_drahadvur: "Драхадвур"
- cn_samvitj: "Самвитдж"
- cn_cjas_morovecht: "Джас Моровехт"
- cn_c_as_morovecht: "Час Моровехт"
- cn_vilug: "Вилюг"
- cn_blojnak: "Блойнак"
- cn_belkomorce: "Белкоморце"
- cn_drevactojna: "Древактойна"
- cn_stilubspor: "Стилубспор"
- cn_svotmakvetj: "Свотмакветж"
- cn_druma: "Друма"
- cn_drumlok: "Драмлок"
- cn_bagmodrev: "Багмодрев"
- cn_vesnikarlev: "Весникарлев"
- cn_karskosj: "Карскосж"
- cn_karskos_: "Карскош"
- cn_bljavalje: "Блявалье"
- cn_celratorg: "Челраторг"
- cn_c_elratorg: "Челраторг"
- cn_kapscevriha: "Капшевриха"
- cn_tisnamajs: "Тиснамайс"
- cn_tis_namajs: "Тишнамай"
- cn_cervnat: "Червнат"
- cn_c_ervnat: "Червнат"
- cn_boljeclug: "Больеклуг"
- cn_motsporajg: "Мотспорайг"
- cn_svjamgort: "Свямгорт"
- cn_geljetko: "Желетко"
- cn_belojmeksten: "Белоймекстен"
- cn_belojmeks_ten: "Белоймекштен"
- cn_olujdvur: "Олудждвур"
- cn_obolkmotic: "Оболкмотик"
- cn_hromsin: "Хромсин"
- cn_richnicica: "Ричничика"
- cn_olujhak: "Олуджак"
- cn_zujovistak: "Зуйовистак"
- cn_zujovis_ce: "Жужовишка"
- cn_hitviha: "Хитвиха"
- cn_majs_olujka: "Майс Олуйка"
- cn_hromurka: "Хромурка"
- cn_drinikorj: "Дриникорж"
- cn_richnihrotj: "Ричнихротж"
- cn_svartvipostak: "Свартвипостак"
- cn_s_vercvipos_tak: "Шверцвипоштак"
- cn_zujovka_vi_drinokorj: "Зуевка ви Дринокорж"
- cn_mechprotj: "Мехпротж"
- cn_mokbrus: "Мокбрус"
- cn_oj_bolhav: "Ож Болхав"
- cn_mohlavorj: "Мохлавордж"
- cn_sachmatva: "Сахматва"
- cn_vanja_seva: "Ванья Сева"
- cn_grimvetj: "Гримветж"
- cn_podklajni: "Подкладни"
- cn_pod_vihnikev: "Под Вихникев"
- cn_kraulbrona: "Краульброна"
+ cn_soncepad: "Сонцепад"
+ cn_soncipadj: "Сончипадж"
+ cn_konipolj: "Кониполь"
+ cn_solnivala: "Солнивалла"
+ cn_solvjalla: "Солвьялла"
+ cn_solnvala: "Солнвала"
+ cn_sonnenvall: "Зонненвалль"
+ cn_bolhavin: "Болгавин"
+ cn_tacajnik: "Такайник"
+ cn_tacinik: "Тачиник"
+ cn_taC_zaj: "Тачай"
+ cn_sirvrihicja: "Сирврихича"
+ cn_S_ervrihC_e: "Шерврихче"
+ cn_maorrhos: "Маоррос"
+ cn_savrabrocha: "Савраброча"
+ cn_svirD_brihja: "Свирбрихья"
+ cn_siorbraga: "Сиорбрага"
+ cn_seibrauchne: "Зайбраухне"
+ cn_hrasjovce: "Храсёвция"
+ cn_hraS_ovce: "Грашовче"
+ cn_chrassox: "Крассокс"
+ cn_harimoth: "Харамот"
+ cn_hjormonD_: "Хьёрмонд"
+ cn_hiormonD_: "Хиормонд"
+ cn_pathosmund: "Патосмунд"
+ cn_vystancja: "Выстанция"
+ cn_vejS_tnice: "Вейштнице"
+ cn_nysnia: "Нисния"
+ cn_vaithroch: "Вайтрох"
+ cn_viD_rog: "Видрог"
+ cn_widros: "Видрос"
+ cn_caesicja: "Цесикья"
+ cn_cuS_cihaj: "Кушчихай"
+ cn_kaschae: "Кащее"
+ cn_laithulm: "Лайтхулм"
+ cn_loD_holm: "Лодхольм"
+ cn_laiD_golm: "Лайдгольм"
+ cn_lithcholm: "Литхольм"
+ cn_sjavrech: "Сявреч"
+ cn_S_avriha: "Шавриха"
+ cn_savrocha: "Савроча"
+ cn_othragard: "Отрагард"
+ cn_utgarD_: "Утгард"
+ cn_otgarD_: "Отгард"
+ cn_autgard: "Аутгард"
+ cn_ljevnovrek: "Левноврек"
+ cn_ilnivrocha: "Ильнивроча"
+ cn_jolnivrihja: "Йолниврихья"
+ cn_ilnivrig: "Ильнивриг"
+ cn_ilnevorch: "Ильневорч"
+ cn_svarcet: "Сварцет"
+ cn_sverC_taj: "Сверчтай"
+ cn_askivala: "Аскивала"
+ cn_askvalra: "Асквалра"
+ cn_avrasa: "Авраса"
+ cn_kabrjek: "Кабрьек"
+ cn_kamparna: "Кампарна"
+ cn_gambjorna: "Гамбьерна"
+ cn_kampern: "Камперн"
+ cn_aulblesja: "Аулблеся"
+ cn_dimlina: "Димлина"
+ cn_raukerei: "Раукерей"
+ cn_ulvleS_a: "Улблеша"
+ cn_ablassea: "Аблассеа"
+ cn_alvolth: "Альвольт"
+ cn_ulvolD_: "Ульволд"
+ cn_nedweis: "Недвейс"
+ cn_pranja: "Пранья"
+ cn_hariskolth: "Харисколт"
+ cn_groskilD_: "Гроскилд"
+ cn_groscailD_: "Гроскайль"
+ cn_liebnesse: "Либнессе"
+ cn_vysortrja: "Высортря"
+ cn_vS_ortrja: "Вшертря"
+ cn_vysarthrios: "Визартриос"
+ cn_vithravaga: "Витривига"
+ cn_viD_vejgi: "Видвейги"
+ cn_vasaiD_ri: "Васайдри"
+ cn_trosche: "Троше"
+ cn_kalicpesvi: "Каличпесви"
+ cn_kalicpeS_vi: "Каличпешви"
+ cn_kalathipsomi: "Калатипсоми"
+ cn_kalathrich: "Калатрича"
+ cn_klajD_ihja: "Клайдрихья"
+ cn_claiD_rig: "Клайдрига"
+ cn_pomorbal: "Поморбал"
+ cn_pomrbal: "Помрбал"
+ cn_rasikostha: "Расикостха"
+ cn_volgarD_: "Волгард"
+ cn_rosgarD_: "Росгард"
+ cn_ladanthe: "Ладанте"
+ cn_lesjovce: "Лесёвце"
+ cn_leS_ovce: "Лешовце"
+ cn_uloska: "Улоска"
+ cn_uljosk: "Ульоск"
+ cn_liosca: "Лиоска"
+ cn_kalicrek: "Каликрек"
+ cn_kralthricha: "Кралтрича"
+ cn_kralD_rihja: "Кральдрихья"
+ cn_karalD_ras: "Каральдрас"
+ cn_cervrek: "Черврек"
+ cn_C_ervirk: "Черврек"
+ cn_rothros: "Ротрос"
+ cn_roD_ros: "Родрос"
+ cn_schaulren: "Шольре"
+ cn_kactrek: "Кактрек"
+ cn_kasthrox: "Кастрокс"
+ cn_abrikircha: "Абрикрича"
+ cn_ovkrihja: "Оркрихья"
+ cn_obcrigi: "Обкриги"
+ cn_obrekrichne: "Обречное"
+ cn_cekricojre: "Чекрикойре"
+ cn_cekriC_ojre: "Цекричойре"
+ cn_rothorna: "Роторна"
+ cn_roD_yrir: "Родирир"
+ cn_roD_airi: "Родайри"
+ cn_rodrilne: "Родрилне"
+ cn_kostorrech: "Косторреч"
+ cn_ilkhom: "Ильхом"
+ cn_abrasos: "Абрасос"
+ cn_mohlicech: "Мохличех"
+ cn_nivlgaro: "Нивлгаро"
+ cn_zapodnoj: "Заподной"
+ cn_vystregard: "Выстрегард"
+ cn_prlabrjezt: "Прлабрежт"
+ cn_margridkyst: "Маргридкист"
+ cn_drakprost: "Дракпрост"
+ cn_drakhrad: "Дракрад"
+ cn_laessox: "Лессокс"
+ cn_parcos: "Parcos" #NT!
+ cn_ztohvrna: "Зтохврна"
+ cn_logrn: "Логрн"
+ cn_dautsif: "Дауциф"
+ cn_majikprolan: "Majikprolan"
+ cn_majiprolan: "Majeprolan"
+ cn_opojnas: "Opojnas"
+ cn_openja: "Openja"
+ cn_borjas: "Borjas"
+ cn_apaina: "Apaine"
+ cn_apojne: "Apojne"
+ cn_bolhavna: "Bolhavna"
+ cn_bolhavn: "Bolhavn"
+ cn_bolheiven: "Bolheiven"
+ cn_lok_vojazik: "Lok Vojazik"
+ cn_lok_voyaZek: "Lok Vojažek"
+ cn_port_vojazich: "Port Vojazich"
+ cn_vojarhavn: "Vojarhavn"
+ cn_polajcev: "Polajcev"
+ cn_polajC_ev: "Polajčev"
+ cn_viljecpolj: "Viljecpolj"
+ cn_viljaspoli: "Viljaspoli"
+ cn_vjolkaspol: "Vjolkaspol"
+ cn_wiljaspol: "Wiljaspol"
+ cn_onactrev: "Onactrev"
+ cn_onaC_trev: "Jonačtrev"
+ cn_tilsjehrac: "Tilsjehrac"
+ cn_tilS_ehrac: "Tilšehrac"
+ cn_torog_pojecha: "Torog Pojecha"
+ cn_thalsigratha: "Thalsigratha"
+ cn_thjolgarD_: "Thjolgarð"
+ cn_thalsegard: "Thalsegard"
+ cn_torg_pojech: "Torg Pojech"
+ cn_mispolj: "Mispolj"
+ cn_mespol: "Mespol"
+ cn_mispol: "Mispol"
+ cn_hajce: "Hajce"
+ cn_hruje: "Hruje"
+ cn_rhoje: "Rhoje"
+ cn_chroje: "Chroje"
+ cn_asipolj: "Asipolj"
+ cn_aS_polj: "Ašpolj"
+ cn_asipol: "Asipol"
+ cn_ispol: "Ispol"
+ cn_aspol: "Aspol"
+ cn_lok_zjalcev: "Lok Zjalcev"
+ cn_loka_Z_elca: "Loka Želca"
+ cn_lokas_hrise: "Lokas Hrise"
+ cn_golthrihavni: "Golthrihavni"
+ cn_golD_rhavn: "Golðrihavn"
+ cn_havn_apalD_ir: "Havn Ivalðir"
+ cn_goltheiven: "Goltheiven"
+ cn_orispol: "Orispol"
+ cn_miropolj: "Miropolj"
+ cn_miropol: "Miropol"
+ cn_grothri_orispol: "Grothur Orispol"
+ cn_groD_ri_orispol: "Groðir Orispol"
+ cn_kajs: "Kajs"
+ cn_kajsce: "Kajsce"
+ cn_kaios: "Kaios"
+ cn_kajsa: "Kajsa"
+ cn_keise: "Keise"
+ cn_horn_udoljev: "Horn Udoljev"
+ cn_naprojev: "Naprojev"
+ cn_nabrojech: "Nabrojech"
+ cn_nabroja: "Nabroja"
+ cn_nebreine: "Nebreine"
+ cn_dikajnek: "Dikajnek"
+ cn_dikajnox: "Dikainox"
+ cn_dakainech: "Dakainech"
+ cn_dikainech: "Dikainech"
+ cn_dikeinech: "Dikeinech"
+ cn_iljecpojeka: "Iljecpojeka"
+ cn_iltapoiexos: "Iltapoiexos"
+ cn_ilthifecha: "Ilthifecha"
+ cn_ilD_ifjag: "Ilðifjag"
+ cn_hilteveich: "Hilteveich"
+ cn_tominopaj: "Tominopaj"
+ cn_comnopaj: "Comnopaj"
+ cn_tomnope: "Tomnope"
+ cn_tominaifa: "Tominaifa"
+ cn_tonajfi: "Tonajfi"
+ cn_tomineife: "Tomineife"
+ cn_kralvojech: "Kralvojech"
+ cn_kralfaicha: "Kralfaicha"
+ cn_kralvojgir: "Kralvojgir"
+ cn_kralvauch: "Kralvauch"
+ cn_dvur_rodrajek: "Dvur Rodrajek"
+ cn_rothrocha: "Rothrocha"
+ cn_roD_rajgi: "Roðrajgi"
+ cn_rotreiche: "Rotreiche"
+ cn_rodrajek: "Rodrajek"
+ cn_mistak_misticajev: "Mistak Misticajev"
+ cn_miS_ce_miS_cajev: "Mišce Mišcajev"
+ cn_armistoka: "Armistoka"
+ cn_lapthale: "Lapthalen"
+ cn_mistak_zjelcev: "Mistak Zjelcev"
+ cn_miS_ce_Z_elcev: "Mišce Želcev"
+ cn_mistokas_chrise: "Mistokas Chrisae"
+ cn_tinestei: "Tinestei"
+ cn_agojnicev: "Agojnicev"
+ cn_prazdnojca_saumrev: "Prazdnojca Saumrev"
+ cn_dimastvoka: "Dimastvoka"
+ cn_dimastvojce: "Dimastvojce"
+ cn_vilsvjamak: "Vilsvjamak"
+ cn_hajmstak: "Hemstak"
+ cn_lug_spikacja: "Lug Spikacja"
+ cn_lug_spikac_a: "Lug Spikača"
+ cn_tancja_aulbdano: "Tancja Aulbdano"
+ cn_itnic_e_ulbdano: "Itniče Ulbdano"
+ cn_drahadvur: "Drahadvur"
+ cn_samvitj: "Samvitj"
+ cn_cjas_morovecht: "Cjas Morovecht"
+ cn_c_as_morovecht: "Čas Morovecht"
+ cn_vilug: "Vilug"
+ cn_blojnak: "Blojnak"
+ cn_belkomorce: "Belkomorce"
+ cn_drevactojna: "Drevactojna"
+ cn_stilubspor: "Stilubspor"
+ cn_svotmakvetj: "Svotmakvetj"
+ cn_druma: "Druma"
+ cn_drumlok: "Drumlok"
+ cn_bagmodrev: "Bagmodrev"
+ cn_vesnikarlev: "Vesnikarlev"
+ cn_karskosj: "Karskosj"
+ cn_karskos_: "Karskoš"
+ cn_bljavalje: "Bljavalje"
+ cn_celratorg: "Cjelratorg"
+ cn_c_elratorg: "Čelratorg"
+ cn_marktorg: "Marktorg" #NT!
+ cn_kapscevriha: "Kapscevriha"
+ cn_kaulibroch: "Kaulibroch" #NT!
+ cn_kalabraug: "Kaljabraug" #NT!
+ cn_calabraig: "Calabraig" #NT!
+ cn_tisnamajs: "Tisnamajs"
+ cn_tis_namajs: "Tišnamajs"
+ cn_cervnat: "Cervnat"
+ cn_c_ervnat: "Červnat"
+ cn_boljeclug: "Boljeclug"
+ cn_bolkrilaga: "Bolkrilaga" #NT!
+ cn_boljarlajg: "Boljarlajg" #NT!
+ cn_bolralaig: "Bolralaig" #NT!
+ cn_bolkriloch: "Bolkriloch" #NT!
+ cn_motsporajg: "Motsporajg"
+ cn_svjamgort: "Svjamgort"
+ cn_geljetko: "Geljetko"
+ cn_galthikin: "Galithkin" #NT!
+ cn_gilD_ja: "Gilðja" #NT!
+ cn_galthchen: "Galthchen" #NT!
+ cn_belojmeksten: "Belojmeksten"
+ cn_belojmeks_ten: "Belojmekšten"
+ cn_kwalgistana: "Kwalgistana" #NT!
+ cn_svanstejni: "Svanstejni" #NT!
+ cn_callistaini: "Caulstaini" #NT!
+ cn_eirthsten: "Eirthsten" #NT!
+ cn_olujdvur: "Olujdvur"
+ cn_obolkmotic: "Obolkmotic"
+ cn_hromsin: "Hromsin"
+ cn_richnicica: "Richnicica"
+ cn_vulkevoj: "Vulkevoj" #NT!
+ cn_wulgifai: "Wulgifai" #NT!
+ cn_volgvej: "Volgvej" #NT!
+ cn_wulgfei: "Wulgfei" #NT!
+ cn_olujhak: "Olujhak"
+ cn_zujovistak: "Zujovistak"
+ cn_zujovis_ce: "Zujovišce"
+ cn_hitviha: "Hitviha"
+ cn_valsviha: "Valsviha" #NT!
+ cn_valrahavna: "Valrahavna" #NT!
+ cn_vjornhavn: "Vjornhavn" #NT!
+ cn_vilrehaun: "Vilrehaun" #NT!
+ cn_majs_olujka: "Majs Olujka"
+ cn_burjalok: "Burjalok" #NT!
+ cn_hromurka: "Hromurka"
+ cn_grumarka: "Grumarka" #NT!
+ cn_hromjamerk: "Hromjamerk" #NT!
+ cn_raumarka: "Raumarkne" #NT!
+ cn_drinikorj: "Drinikorj"
+ cn_alnilag: "Alnilag" #NT!
+ cn_ilnlajg: "Ilnlajg" #NT!
+ cn_ilnlaig: "Ilnlaig" #NT!
+ cn_ilnleig: "Elnleig" #NT!
+ cn_richnihrotj: "Richnihrotj"
+ cn_rignabroch: "Rignabroch" #NT!
+ cn_rignbraug: "Rignbraug" #NT!
+ cn_reinbroch: "Rinbroch" #NT!
+ cn_svartust: "Svartust" #NT!
+ cn_s_vartust: "Švartust" #NT!
+ cn_leipsas: "Leipsas" #NT!
+ cn_sirnos: "Sirnos" #NT!
+ cn_sjoros: "Sjoros" #NT!
+ cn_zujovka_vi_drinokorj: "Zujovka vi Drinokorj"
+ cn_zujovka: "Zujovka" #NT!
+ cn_zujovkas: "Zujovkas" #NT!
+ cn_saifrihof: "Saifrihof" #NT!
+ cn_sjarhov: "Sjarhov" #NT!
+ cn_seifrehaun: "Seifrehaun" #NT!
+ cn_mechprotj: "Mechprotj"
+ cn_mokbrus: "Mokbrus"
+ cn_waidistan: "Waidistan" #NT!
+ cn_vatnastajn: "Vatnastajn" #NT!
+ cn_vatnastain: "Vatnastain" #NT!
+ cn_weidnestan: "Weidnestan" #NT!
+ cn_oj_bolhav: "Oj Bolhav"
+ cn_balhafair: "Balhafair" #NT!
+ cn_boljavej: "Boljavej" #NT!
+ cn_balfeir: "Balfeir" #NT!
+ cn_mohlavorj: "Mohlavorj"
+ cn_muldochra: "Muldochra" #NT!
+ cn_moljavog: "Moljavog" #NT!
+ cn_sachmatva: "Sachmatva"
+ cn_vanja_seva: "Vanja Seva"
+ cn_grimvetj: "Grimvetj"
+ cn_podklajni: "Podklajni"
+ cn_pod_vihnikev: "Pod Vihnikev"
+ cn_kraulbrona: "Kraulbrona"
+ cn_mastpodja: "Mastpodja" #NT!
+ cn_mastpodje: "Mastpodje" #NT!
+ cn_agladon: "Agladon" #NT!
+ cn_volark: "Volark" #NT!
+ cn_rizatna: "Rizatna" #NT!
+ cn_carnikija: "Carnikija" #NT!
+ cn_carnikja: "Carnikja" #NT!
+ cn_tsarnikia: "Tsarnikia" #NT!
+ cn_zilodras: "Zilodras" #NT!
+ cn_nispodja: "Nispodja" #NT!
+ cn_nispodae: "Nispodae" #NT!
+ cn_svotmori: "Svotmori" #NT!
+ cn_svotmorka: "Svotmorka" #NT!
+ cn_grimrasja: "Grimrasja" #NT!
+ cn_grimras_a: "Grimraša" #NT!
+ cn_hram_molecva: "Hram Molecva" #NT!
+ cn_trajnos: "Trajnos" #NT!
+ cn_kiroskau: "Kiroskau" #NT!
+ cn_kirs_kav: "Kirškav" #NT!
+ cn_medverc: "Medverc" #NT!
+ cn_milikspol: "Milikspol" #NT!
+ cn_vuhkasjakica: "Vuhkasjakica" #NT!
+ cn_vuc_as_kica: "Vujčaškica" #NT!
+ cn_veclika: "Veclika" #NT!
+ cn_vec_lica: "Večlica" #NT!
+ cn_vetsilkias: "Vetsilkias" #NT!
+ cn_sjemvjatra: "Sjemvjatra" #NT!
+ cn_s_emvitra: "Šemvitra" #NT!
+ cn_semvitra: "Semvitra" #NT!
+ cn_drevnikech: "Drevnikech" #NT!
+ cn_hrindj: "Hrindj" #NT!
+ cn_drivak_bohulja: "Drivak Bohulja" #NT!
+ cn_bolajcech: "Bolajcech" #NT!
+ cn_drivaksos: "Drivaksos" #NT!
+ cn_kotiljeva: "Kotiljeva" #NT!
+ cn_kotilka: "Kotelka" #NT!
+ cn_kotilkas: "Kotilkas" #NT!
+ cn_zjeltvidlak: "Zjeltvidlak" #NT!
+ cn_ziltvidlak: "Ziltvidlak" #NT!
+ cn_metseia: "Metseia" #NT!
+ cn_vaskmost: "Vaskmost" #NT!
+ cn_dahat_driva: "Dahat Driva" #NT!
+ cn_dah_drive: "Dah' Drive" #NT!
+ cn_centrivos: "Kentrivos" #NT!
+ cn_sjakravcil: "Sjakravcil" #NT!
+ cn_s_akravcil: "Šakravcil" #NT!
+ cn_sakraklos: "Sakraklos" #NT!
+ cn_rekovka: "Rekovka" #NT!
+ cn_rikovce: "Rikovce" #NT!
+ cn_mostmistak: "Mostmistak" #NT!
+ cn_mostmis_ce: "Mostmišce" #NT!
+ cn_lugbrona: "Lugbrona" #NT!
+ cn_hromiste: "Hromiste" #NT!
+ cn_hromis_te: "Hromiše" #NT!
+ cn_chromiste: "Chromiste" #NT!
+ cn_jablek_most: "Jablek Most" #NT!
+ cn_jablekmost: "Jablekmost" #NT!
+ cn_olakmost: "Olakmost" #NT!
+ cn_cervnavetj: "Cervnavetj" #NT!
+ cn_c_arnavitj: "Čarnavitj" #NT!
+ cn_karnouthos: "Karnouthos" #NT!
+ cn_krinawith: "Krinawith" #NT!
+ cn_krajnavold_: "Krajnavolð" #NT!
+ cn_crainavold_: "Crainavolð" #NT!
+ cn_hram_vihrojcech: "Hram Vihrojce" #NT!
+ cn_vihrojcech: "Vihrojcech" #NT!
+ cn_nihblojce: "Nihblojce" #NT!
+ cn_urjalug: "Urjalug" #NT!
+ cn_vorchalag: "Vorchalag" #NT!
+ cn_urjalajg: "Urjalajg" #NT!
+ cn_urjalaig: "Urjalaig" #NT!
+ cn_urchaleig: "Urchaleig" #NT!
+ cn_hrasrotj: "Hrasrotj" #NT!
+ cn_chrasrotos: "Chrasrotos" #NT!
+ cn_hararoth: "Hararoth" #NT!
+ cn_hjorarajd_: "Hjorarajð" #NT!
+ cn_hioraid_: "Hioraið" #NT!
+ cn_heirroth: "Heirroth" #NT!
+ cn_irvalhovak_vi_nihblojce: "Irvalhovak vi Nihblojce" #NT!
+ cn_irvalhovce: "Irvalhovce" #NT!
+ cn_ovaks_aervala: "Ovaks Aervalla" #NT!
+ cn_oblak_nitvihrajca: "Oblak Nitvihrajca" #NT!
+ cn_i_nitvihrajcek: "i Nitvihrajcek" #NT!
+ cn_oulakos: "Oulakos" #NT!
+ cn_hrasjovak: "Hrasjovak" #NT!
+ cn_chrasokas: "Chrasokas" #NT!
+ cn_haragrathi: "Haragrathi" #NT!
+ cn_hjoragard_: "Hjoragarð" #NT!
+ cn_hiorgard_: "Hiorgarð" #NT!
+ cn_heirgart: "Heirgart" #NT!
+ cn_miseharga: "Miseharga" #NT!
+ cn_mis_harje: "Mišharje" #NT!
+ cn_misgrochos: "Misgrochos" #NT!
+ cn_mosaharga: "Mosaharga" #NT!
+ cn_mosaharja: "Mosiharja" #NT!
+ cn_lindpol: "Lindpol" #NT!
+ cn_vejsovka: "Vejsovka" #NT!
+ cn_vs_ovce: "Všovce" #NT!
+ cn_vasahof: "Vasahof" #NT!
+ cn_vejd_ihov: "Vejðihov" #NT!
+ cn_veid_hov: "Veiðhov" #NT!
+ cn_veithof: "Veithof" #NT!
+ cn_dvur_aulbukralca: "Dvur Aulbukralca" #NT!
+ cn_dvurka: "Dvurka" #NT!
+ cn_dourochsae: "Dourochsae" #NT!
+ cn_dobvitancja: "Dobvitancja" #NT!
+ cn_dovtnic_e: "Dovitniče" #NT!
+ cn_hlicprotj: "Hlicprotj" #NT!
+ cn_illits_porotha: "Illits Porotha" #NT!
+ cn_sevhora: "Sevhora" #NT!
+ cn_sevora: "Sevora" #NT!
+ cn_tarnojo: "Tarnojo" #NT!

@@ -1,0 +1,388 @@
+﻿l_russian:
+ ADOPT_PATRON_SAINT: "Adopt" #NT!
+ RENOUNCE_PATRON_SAINT: "Renounce" #NT!
+  
+  ############# 
+  # MODIFIERS # 
+  ############# 
+  
+ eos_pure_patron_saint_modifier_1: "$eos_pure_patron_saint_modifier_1_name$" #NT!
+ eos_pure_patron_saint_modifier_1_name: "Follower of Eos" #NT!
+ eos_pure_patron_saint_modifier_1_desc: "" #NT!
+ eos_pure_patron_saint_modifier_2: "$eos_pure_patron_saint_modifier_2_name$" #NT!
+ eos_pure_patron_saint_modifier_2_name: "Devotee of Eos" #NT!
+ eos_pure_patron_saint_modifier_2_desc: "" #NT!
+ eos_pure_patron_saint_modifier_3: "$eos_pure_patron_saint_modifier_3_name$" #NT!
+ eos_pure_patron_saint_modifier_3_name: "Exemplar of Eos" #NT!
+ eos_pure_patron_saint_modifier_3_desc: "" #NT!
+ eos_pure_patron_saint_modifier_4: "$eos_pure_patron_saint_modifier_4_name$" #NT!
+ eos_pure_patron_saint_modifier_4_name: "Paragon of Eos" #NT!
+ eos_pure_patron_saint_modifier_4_desc: "" #NT!
+ eos_pure_patron_saint_modifier_5: "$eos_pure_patron_saint_modifier_5_name$" #NT!
+ eos_pure_patron_saint_modifier_5_name: "Incarnation of Eos" #NT!
+ eos_pure_patron_saint_modifier_5_desc: "" #NT!
+  
+ sansia_pure_patron_saint_modifier_1: "$sansia_pure_patron_saint_modifier_1_name$" #NT!
+ sansia_pure_patron_saint_modifier_1_name: "Follower of Sansia" #NT!
+ sansia_pure_patron_saint_modifier_1_desc: "" #NT!
+ sansia_pure_patron_saint_modifier_2: "$sansia_pure_patron_saint_modifier_2_name$" #NT!
+ sansia_pure_patron_saint_modifier_2_name: "Devotee of Sansia" #NT!
+ sansia_pure_patron_saint_modifier_2_desc: "" #NT!
+ sansia_pure_patron_saint_modifier_3: "$sansia_pure_patron_saint_modifier_3_name$" #NT!
+ sansia_pure_patron_saint_modifier_3_name: "Exemplar of Sansia" #NT!
+ sansia_pure_patron_saint_modifier_3_desc: "" #NT!
+ sansia_pure_patron_saint_modifier_4: "$sansia_pure_patron_saint_modifier_4_name$" #NT!
+ sansia_pure_patron_saint_modifier_4_name: "Paragon of Sansia" #NT!
+ sansia_pure_patron_saint_modifier_4_desc: "" #NT!
+ sansia_pure_patron_saint_modifier_5: "$sansia_pure_patron_saint_modifier_5_name$" #NT!
+ sansia_pure_patron_saint_modifier_5_name: "Incarnation of Sansia" #NT!
+ sansia_pure_patron_saint_modifier_5_desc: "" #NT!
+  
+ dikaynos_pure_patron_saint_modifier_1: "$dikaynos_pure_patron_saint_modifier_1_name$" #NT!
+ dikaynos_pure_patron_saint_modifier_1_name: "Follower of Dikaynos" #NT!
+ dikaynos_pure_patron_saint_modifier_1_desc: "" #NT!
+ dikaynos_pure_patron_saint_modifier_2: "$dikaynos_pure_patron_saint_modifier_2_name$" #NT!
+ dikaynos_pure_patron_saint_modifier_2_name: "Devotee of Dikaynos" #NT!
+ dikaynos_pure_patron_saint_modifier_2_desc: "" #NT!
+ dikaynos_pure_patron_saint_modifier_3: "$dikaynos_pure_patron_saint_modifier_3_name$" #NT!
+ dikaynos_pure_patron_saint_modifier_3_name: "Exemplar of Dikaynos" #NT!
+ dikaynos_pure_patron_saint_modifier_3_desc: "" #NT!
+ dikaynos_pure_patron_saint_modifier_4: "$dikaynos_pure_patron_saint_modifier_4_name$" #NT!
+ dikaynos_pure_patron_saint_modifier_4_name: "Paragon of Dikaynos" #NT!
+ dikaynos_pure_patron_saint_modifier_4_desc: "" #NT!
+ dikaynos_pure_patron_saint_modifier_5: "$dikaynos_pure_patron_saint_modifier_5_name$" #NT!
+ dikaynos_pure_patron_saint_modifier_5_name: "Incarnation of Dikaynos" #NT!
+ dikaynos_pure_patron_saint_modifier_5_desc: "" #NT!
+  
+ katharitos_pure_patron_saint_modifier_1: "$katharitos_pure_patron_saint_modifier_1_name$" #NT!
+ katharitos_pure_patron_saint_modifier_1_name: "Follower of Katharitos" #NT!
+ katharitos_pure_patron_saint_modifier_1_desc: "" #NT!
+ katharitos_pure_patron_saint_modifier_2: "$katharitos_pure_patron_saint_modifier_2_name$" #NT!
+ katharitos_pure_patron_saint_modifier_2_name: "Devotee of Katharitos" #NT!
+ katharitos_pure_patron_saint_modifier_2_desc: "" #NT!
+ katharitos_pure_patron_saint_modifier_3: "$katharitos_pure_patron_saint_modifier_3_name$" #NT!
+ katharitos_pure_patron_saint_modifier_3_name: "Exemplar of Katharitos" #NT!
+ katharitos_pure_patron_saint_modifier_3_desc: "" #NT!
+ katharitos_pure_patron_saint_modifier_4: "$katharitos_pure_patron_saint_modifier_4_name$" #NT!
+ katharitos_pure_patron_saint_modifier_4_name: "Paragon of Katharitos" #NT!
+ katharitos_pure_patron_saint_modifier_4_desc: "" #NT!
+ katharitos_pure_patron_saint_modifier_5: "$katharitos_pure_patron_saint_modifier_5_name$" #NT!
+ katharitos_pure_patron_saint_modifier_5_name: "Incarnation of Katharitos" #NT!
+ katharitos_pure_patron_saint_modifier_5_desc: "" #NT!
+  
+ thysia_pure_patron_saint_modifier_1: "$thysia_pure_patron_saint_modifier_1_name$" #NT!
+ thysia_pure_patron_saint_modifier_1_name: "Follower of Thysia" #NT!
+ thysia_pure_patron_saint_modifier_1_desc: "" #NT!
+ thysia_pure_patron_saint_modifier_2: "$thysia_pure_patron_saint_modifier_2_name$" #NT!
+ thysia_pure_patron_saint_modifier_2_name: "Devotee of Thysia" #NT!
+ thysia_pure_patron_saint_modifier_2_desc: "" #NT!
+ thysia_pure_patron_saint_modifier_3: "$thysia_pure_patron_saint_modifier_3_name$" #NT!
+ thysia_pure_patron_saint_modifier_3_name: "Exemplar of Thysia" #NT!
+ thysia_pure_patron_saint_modifier_3_desc: "" #NT!
+ thysia_pure_patron_saint_modifier_4: "$thysia_pure_patron_saint_modifier_5_name$" #NT!
+ thysia_pure_patron_saint_modifier_4_name: "Paragon of Thysia" #NT!
+ thysia_pure_patron_saint_modifier_4_desc: "" #NT!
+ thysia_pure_patron_saint_modifier_5: "$thysia_pure_patron_saint_modifier_5_name$" #NT!
+ thysia_pure_patron_saint_modifier_5_name: "Incarnation of Thysia" #NT!
+ thysia_pure_patron_saint_modifier_5_desc: "" #NT!
+  
+ philanthros_pure_patron_saint_modifier_1: "$philanthros_pure_patron_saint_modifier_1_name$" #NT!
+ philanthros_pure_patron_saint_modifier_1_name: "Follower of Philanthros" #NT!
+ philanthros_pure_patron_saint_modifier_1_desc: "" #NT!
+ philanthros_pure_patron_saint_modifier_2: "$philanthros_pure_patron_saint_modifier_2_name$" #NT!
+ philanthros_pure_patron_saint_modifier_2_name: "Devotee of Philanthros" #NT!
+ philanthros_pure_patron_saint_modifier_2_desc: "" #NT!
+ philanthros_pure_patron_saint_modifier_3: "$philanthros_pure_patron_saint_modifier_3_name$" #NT!
+ philanthros_pure_patron_saint_modifier_3_name: "Exemplar of Philanthros" #NT!
+ philanthros_pure_patron_saint_modifier_3_desc: "" #NT!
+ philanthros_pure_patron_saint_modifier_4: "$philanthros_pure_patron_saint_modifier_4_name$" #NT!
+ philanthros_pure_patron_saint_modifier_4_name: "Paragon of Philanthros" #NT!
+ philanthros_pure_patron_saint_modifier_4_desc: "" #NT!
+ philanthros_pure_patron_saint_modifier_5: "$philanthros_pure_patron_saint_modifier_5_name$" #NT!
+ philanthros_pure_patron_saint_modifier_5_name: "Incarnation of Philanthros" #NT!
+ philanthros_pure_patron_saint_modifier_5_desc: "" #NT!
+  
+ forgotten_pure_patron_saint_modifier_1: "$forgotten_pure_patron_saint_modifier_1_name$" #NT!
+ forgotten_pure_patron_saint_modifier_1_name: "Follower of The Forgotten Saint" #NT!
+ forgotten_pure_patron_saint_modifier_1_desc: "" #NT!
+ forgotten_pure_patron_saint_modifier_2: "$forgotten_pure_patron_saint_modifier_2_name$" #NT!
+ forgotten_pure_patron_saint_modifier_2_name: "Devotee of The Forgotten Saint" #NT!
+ forgotten_pure_patron_saint_modifier_2_desc: "" #NT!
+ forgotten_pure_patron_saint_modifier_3: "$forgotten_pure_patron_saint_modifier_3_name$" #NT!
+ forgotten_pure_patron_saint_modifier_3_name: "Exemplar of The Forgotten Saint" #NT!
+ forgotten_pure_patron_saint_modifier_3_desc: "" #NT!
+ forgotten_pure_patron_saint_modifier_4: "$forgotten_pure_patron_saint_modifier_4_name$" #NT!
+ forgotten_pure_patron_saint_modifier_4_name: "Paragon of The Forgotten Saint" #NT!
+ forgotten_pure_patron_saint_modifier_4_desc: "" #NT!
+ forgotten_pure_patron_saint_modifier_5: "$forgotten_pure_patron_saint_modifier_5_name$" #NT!
+ forgotten_pure_patron_saint_modifier_5_name: "Incarnation of The Forgotten Saint" #NT!
+ forgotten_pure_patron_saint_modifier_5_desc: "" #NT!
+  
+ calysto_pure_patron_saint_modifier_1: "$calysto_pure_patron_saint_modifier_1_name$" #NT!
+ calysto_pure_patron_saint_modifier_1_name: "Follower of Calysto" #NT!
+ calysto_pure_patron_saint_modifier_1_desc: "" #NT!
+ calysto_pure_patron_saint_modifier_2: "$calysto_pure_patron_saint_modifier_2_name$" #NT!
+ calysto_pure_patron_saint_modifier_2_name: "Devotee of Calysto" #NT!
+ calysto_pure_patron_saint_modifier_2_desc: "" #NT!
+ calysto_pure_patron_saint_modifier_3: "$calysto_pure_patron_saint_modifier_3_name$" #NT!
+ calysto_pure_patron_saint_modifier_3_name: "Exemplar of Calysto" #NT!
+ calysto_pure_patron_saint_modifier_3_desc: "" #NT!
+ calysto_pure_patron_saint_modifier_4: "$calysto_pure_patron_saint_modifier_4_name$" #NT!
+ calysto_pure_patron_saint_modifier_4_name: "Paragon of Calysto" #NT!
+ calysto_pure_patron_saint_modifier_4_desc: "" #NT!
+ calysto_pure_patron_saint_modifier_5: "$calysto_pure_patron_saint_modifier_5_name$" #NT!
+ calysto_pure_patron_saint_modifier_5_name: "Incarnation of Calysto" #NT!
+ calysto_pure_patron_saint_modifier_5_desc: "" #NT!
+  
+ eos_corrupt_patron_saint_modifier_1: "$eos_corrupt_patron_saint_modifier_1_name$" #NT!
+ eos_corrupt_patron_saint_modifier_1_name: "Follower of Eos" #NT!
+ eos_corrupt_patron_saint_modifier_1_desc: "" #NT!
+ eos_corrupt_patron_saint_modifier_2: "$eos_corrupt_patron_saint_modifier_2_name$" #NT!
+ eos_corrupt_patron_saint_modifier_2_name: "Devotee of Eos" #NT!
+ eos_corrupt_patron_saint_modifier_2_desc: "" #NT!
+ eos_corrupt_patron_saint_modifier_3: "$eos_corrupt_patron_saint_modifier_3_name$" #NT!
+ eos_corrupt_patron_saint_modifier_3_name: "Exemplar of Eos" #NT!
+ eos_corrupt_patron_saint_modifier_3_desc: "" #NT!
+ eos_corrupt_patron_saint_modifier_4: "$eos_corrupt_patron_saint_modifier_4_name$" #NT!
+ eos_corrupt_patron_saint_modifier_4_name: "Paragon of Eos" #NT!
+ eos_corrupt_patron_saint_modifier_4_desc: "" #NT!
+ eos_corrupt_patron_saint_modifier_5: "$eos_corrupt_patron_saint_modifier_5_name$" #NT!
+ eos_corrupt_patron_saint_modifier_5_name: "Incarnation of Eos" #NT!
+ eos_corrupt_patron_saint_modifier_5_desc: "" #NT!
+  
+ sansia_corrupt_patron_saint_modifier_1: "$sansia_corrupt_patron_saint_modifier_1_name$" #NT!
+ sansia_corrupt_patron_saint_modifier_1_name: "Follower of Sansia" #NT!
+ sansia_corrupt_patron_saint_modifier_1_desc: "" #NT!
+ sansia_corrupt_patron_saint_modifier_2: "$sansia_corrupt_patron_saint_modifier_2_name$" #NT!
+ sansia_corrupt_patron_saint_modifier_2_name: "Devotee of Sansia" #NT!
+ sansia_corrupt_patron_saint_modifier_2_desc: "" #NT!
+ sansia_corrupt_patron_saint_modifier_3: "$sansia_corrupt_patron_saint_modifier_3_name$" #NT!
+ sansia_corrupt_patron_saint_modifier_3_name: "Exemplar of Sansia" #NT!
+ sansia_corrupt_patron_saint_modifier_3_desc: "" #NT!
+ sansia_corrupt_patron_saint_modifier_4: "$sansia_corrupt_patron_saint_modifier_4_name$" #NT!
+ sansia_corrupt_patron_saint_modifier_4_name: "Paragon of Sansia" #NT!
+ sansia_corrupt_patron_saint_modifier_4_desc: "" #NT!
+ sansia_corrupt_patron_saint_modifier_5: "$sansia_corrupt_patron_saint_modifier_5_name$" #NT!
+ sansia_corrupt_patron_saint_modifier_5_name: "Incarnation of Sansia" #NT!
+ sansia_corrupt_patron_saint_modifier_5_desc: "" #NT!
+  
+ dikaynos_corrupt_patron_saint_modifier_1: "$dikaynos_corrupt_patron_saint_modifier_1_name$" #NT!
+ dikaynos_corrupt_patron_saint_modifier_1_name: "Follower of Dikaynos" #NT!
+ dikaynos_corrupt_patron_saint_modifier_1_desc: "" #NT!
+ dikaynos_corrupt_patron_saint_modifier_2: "$dikaynos_corrupt_patron_saint_modifier_2_name$" #NT!
+ dikaynos_corrupt_patron_saint_modifier_2_name: "Devotee of Dikaynos" #NT!
+ dikaynos_corrupt_patron_saint_modifier_2_desc: "" #NT!
+ dikaynos_corrupt_patron_saint_modifier_3: "$dikaynos_corrupt_patron_saint_modifier_3_name$" #NT!
+ dikaynos_corrupt_patron_saint_modifier_3_name: "Exemplar of Dikaynos" #NT!
+ dikaynos_corrupt_patron_saint_modifier_3_desc: "" #NT!
+ dikaynos_corrupt_patron_saint_modifier_4: "$dikaynos_corrupt_patron_saint_modifier_4_name$" #NT!
+ dikaynos_corrupt_patron_saint_modifier_4_name: "Paragon of Dikaynos" #NT!
+ dikaynos_corrupt_patron_saint_modifier_4_desc: "" #NT!
+ dikaynos_corrupt_patron_saint_modifier_5: "$dikaynos_corrupt_patron_saint_modifier_5_name$" #NT!
+ dikaynos_corrupt_patron_saint_modifier_5_name: "Incarnation of Dikaynos" #NT!
+ dikaynos_corrupt_patron_saint_modifier_5_desc: "" #NT!
+  
+ katharitos_corrupt_patron_saint_modifier_1: "$katharitos_corrupt_patron_saint_modifier_1_name$" #NT!
+ katharitos_corrupt_patron_saint_modifier_1_name: "Follower of Katharitos" #NT!
+ katharitos_corrupt_patron_saint_modifier_1_desc: "" #NT!
+ katharitos_corrupt_patron_saint_modifier_2: "$katharitos_corrupt_patron_saint_modifier_2_name$" #NT!
+ katharitos_corrupt_patron_saint_modifier_2_name: "Devotee of Katharitos" #NT!
+ katharitos_corrupt_patron_saint_modifier_2_desc: "" #NT!
+ katharitos_corrupt_patron_saint_modifier_3: "$katharitos_corrupt_patron_saint_modifier_3_name$" #NT!
+ katharitos_corrupt_patron_saint_modifier_3_name: "Exemplar of Katharitos" #NT!
+ katharitos_corrupt_patron_saint_modifier_3_desc: "" #NT!
+ katharitos_corrupt_patron_saint_modifier_4: "$katharitos_corrupt_patron_saint_modifier_4_name$" #NT!
+ katharitos_corrupt_patron_saint_modifier_4_name: "Paragon of Katharitos" #NT!
+ katharitos_corrupt_patron_saint_modifier_4_desc: "" #NT!
+ katharitos_corrupt_patron_saint_modifier_5: "$katharitos_corrupt_patron_saint_modifier_5_name$" #NT!
+ katharitos_corrupt_patron_saint_modifier_5_name: "Incarnation of Katharitos" #NT!
+ katharitos_corrupt_patron_saint_modifier_5_desc: "" #NT!
+  
+ thysia_corrupt_patron_saint_modifier_1: "$thysia_corrupt_patron_saint_modifier_1_name$" #NT!
+ thysia_corrupt_patron_saint_modifier_1_name: "Follower of Thysia" #NT!
+ thysia_corrupt_patron_saint_modifier_1_desc: "" #NT!
+ thysia_corrupt_patron_saint_modifier_2: "$thysia_corrupt_patron_saint_modifier_2_name$" #NT!
+ thysia_corrupt_patron_saint_modifier_2_name: "Devotee of Thysia" #NT!
+ thysia_corrupt_patron_saint_modifier_2_desc: "" #NT!
+ thysia_corrupt_patron_saint_modifier_3: "$thysia_corrupt_patron_saint_modifier_3_name$" #NT!
+ thysia_corrupt_patron_saint_modifier_3_name: "Exemplar of Thysia" #NT!
+ thysia_corrupt_patron_saint_modifier_3_desc: "" #NT!
+ thysia_corrupt_patron_saint_modifier_4: "$thysia_corrupt_patron_saint_modifier_5_name$" #NT!
+ thysia_corrupt_patron_saint_modifier_4_name: "Paragon of Thysia" #NT!
+ thysia_corrupt_patron_saint_modifier_4_desc: "" #NT!
+ thysia_corrupt_patron_saint_modifier_5: "$thysia_corrupt_patron_saint_modifier_5_name$" #NT!
+ thysia_corrupt_patron_saint_modifier_5_name: "Incarnation of Thysia" #NT!
+ thysia_corrupt_patron_saint_modifier_5_desc: "" #NT!
+  
+ philanthros_corrupt_patron_saint_modifier_1: "$philanthros_corrupt_patron_saint_modifier_1_name$" #NT!
+ philanthros_corrupt_patron_saint_modifier_1_name: "Follower of Philanthros" #NT!
+ philanthros_corrupt_patron_saint_modifier_1_desc: "" #NT!
+ philanthros_corrupt_patron_saint_modifier_2: "$philanthros_corrupt_patron_saint_modifier_2_name$" #NT!
+ philanthros_corrupt_patron_saint_modifier_2_name: "Devotee of Philanthros" #NT!
+ philanthros_corrupt_patron_saint_modifier_2_desc: "" #NT!
+ philanthros_corrupt_patron_saint_modifier_3: "$philanthros_corrupt_patron_saint_modifier_3_name$" #NT!
+ philanthros_corrupt_patron_saint_modifier_3_name: "Exemplar of Philanthros" #NT!
+ philanthros_corrupt_patron_saint_modifier_3_desc: "" #NT!
+ philanthros_corrupt_patron_saint_modifier_4: "$philanthros_corrupt_patron_saint_modifier_4_name$" #NT!
+ philanthros_corrupt_patron_saint_modifier_4_name: "Paragon of Philanthros" #NT!
+ philanthros_corrupt_patron_saint_modifier_4_desc: "" #NT!
+ philanthros_corrupt_patron_saint_modifier_5: "$philanthros_corrupt_patron_saint_modifier_5_name$" #NT!
+ philanthros_corrupt_patron_saint_modifier_5_name: "Incarnation of Philanthros" #NT!
+ philanthros_corrupt_patron_saint_modifier_5_desc: "" #NT!
+  
+ forgotten_corrupt_patron_saint_modifier_1: "$forgotten_corrupt_patron_saint_modifier_1_name$" #NT!
+ forgotten_corrupt_patron_saint_modifier_1_name: "Follower of The Forgotten Saint" #NT!
+ forgotten_corrupt_patron_saint_modifier_1_desc: "" #NT!
+ forgotten_corrupt_patron_saint_modifier_2: "$forgotten_corrupt_patron_saint_modifier_2_name$" #NT!
+ forgotten_corrupt_patron_saint_modifier_2_name: "Devotee of The Forgotten Saint" #NT!
+ forgotten_corrupt_patron_saint_modifier_2_desc: "" #NT!
+ forgotten_corrupt_patron_saint_modifier_3: "$forgotten_corrupt_patron_saint_modifier_3_name$" #NT!
+ forgotten_corrupt_patron_saint_modifier_3_name: "Exemplar of The Forgotten Saint" #NT!
+ forgotten_corrupt_patron_saint_modifier_3_desc: "" #NT!
+ forgotten_corrupt_patron_saint_modifier_4: "$forgotten_corrupt_patron_saint_modifier_4_name$" #NT!
+ forgotten_corrupt_patron_saint_modifier_4_name: "Paragon of The Forgotten Saint" #NT!
+ forgotten_corrupt_patron_saint_modifier_4_desc: "" #NT!
+ forgotten_corrupt_patron_saint_modifier_5: "$forgotten_corrupt_patron_saint_modifier_5_name$" #NT!
+ forgotten_corrupt_patron_saint_modifier_5_name: "Incarnation of The Forgotten Saint" #NT!
+ forgotten_corrupt_patron_saint_modifier_5_desc: "" #NT!
+  
+ calysto_corrupt_patron_saint_modifier_1: "$calysto_corrupt_patron_saint_modifier_1_name$" #NT!
+ calysto_corrupt_patron_saint_modifier_1_name: "Follower of Calysto" #NT!
+ calysto_corrupt_patron_saint_modifier_1_desc: "" #NT!
+ calysto_corrupt_patron_saint_modifier_2: "$calysto_corrupt_patron_saint_modifier_2_name$" #NT!
+ calysto_corrupt_patron_saint_modifier_2_name: "Devotee of Calysto" #NT!
+ calysto_corrupt_patron_saint_modifier_2_desc: "" #NT!
+ calysto_corrupt_patron_saint_modifier_3: "$calysto_corrupt_patron_saint_modifier_3_name$" #NT!
+ calysto_corrupt_patron_saint_modifier_3_name: "Exemplar of Calysto" #NT!
+ calysto_corrupt_patron_saint_modifier_3_desc: "" #NT!
+ calysto_corrupt_patron_saint_modifier_4: "$calysto_corrupt_patron_saint_modifier_4_name$" #NT!
+ calysto_corrupt_patron_saint_modifier_4_name: "Paragon of Calysto" #NT!
+ calysto_corrupt_patron_saint_modifier_4_desc: "" #NT!
+ calysto_corrupt_patron_saint_modifier_5: "$calysto_corrupt_patron_saint_modifier_5_name$" #NT!
+ calysto_corrupt_patron_saint_modifier_5_name: "Incarnation of Calysto" #NT!
+ calysto_corrupt_patron_saint_modifier_5_desc: "" #NT!
+  
+  ####################### 
+  # PATRON SAINTS       # 
+  ####################### 
+  
+ PATRON_SAINTS: "Patron Saints" #NT!
+ PATRON_SAINTS_EXPLANATION: "Agionism holds that the Saints were the most enlightened beings to ever walk Aeras, and that the goals of all pious Agionists should be to follow in their footsteps. Thus, many Agionism chose a particular saint as their "Patron Saint", one whom they seek to emulate in order to purge themselves of impurity." #NT!
+  
+  RECOGNIZED_PATRON_SAINTS_EXPLANATION: 90 "Though our faith recognizeds the following figures as divine, we do not devote ourselves to them. Those that do follow in their footsteps are no less pious than ourselves, however." "Though our faith recognizeds the following figures as divine, we do not devote ourselves to them. Those that do follow in their footsteps are no less pious than ourselves, however." #NT!
+  
+ TOTAL_PATRON_SAINT_NUMBER: "" #NT!
+ MAXIMUM_PATRON_SAINT_LEVEL: "" #NT!
+ AVALABLE_PATRON_SAINT_LEVELS: "" #NT!
+  
+ eos_pure_patron_saint_name: "Eos the Valiant" #NT!
+ eos_pure_patron_saint_desc: "A Malcoisiac noble, mercenary, adventurer, [antimagi|E] and military reformer, Eos was considered to possibly the greatest swordsman of his age. Upon the beginning of the Rebellions he would beg the commander of his legion to allow him leave to aid the slaves. To his surprise, Legan Sansia instead declared the Legion would march there with him, and the Rebellions began soon after. The burning sword of Saint Eos is held true by those who dedicate themselves to martial perfection and the protection of the weak." #NT!
+ sansia_pure_patron_saint_name: "Sansia the Protector" #NT!
+ sansia_pure_patron_saint_desc: "An orphan girl born in the slums of Aironoi, by adulthood Sansia would be one of the most respected military leaders in the legion and a hero across [aversaria|E]. Renowned for her beauty and wit, the 'Rose of the Legions' would cement her fame by marching her legions to defend freed slaves from the Opakhasian Governorial Legions in the Battle of Plateira, beginning the Agionist rebellions. Sansia believed that a general must not only be a master of warfare, but a model of virtue for their soldiers and those they protect." #NT!
+ dikaynos_pure_patron_saint_name: "Dikaynos the Just" #NT!
+ dikaynos_pure_patron_saint_desc: "Dikaynos brought mercy to those in need through his unmatched knowledge of the law, never once allowing hatred or lust for vengeance to cloud his judgment. We, too, must not let obsequience to the letter of the law obstruct our war against injustice, and always put the absolute moral law before the laws of man." #NT!
+ katharitos_pure_patron_saint_name: "Katharitos the Traveler" #NT!
+ katharitos_pure_patron_saint_desc: "Born into a small religious commune in Opakhasia to a respected local preacher and a native wife, Katharitos would become a famous orator, writer and explorer in his old age. Traveling [aeras|E], Katharitos would preach extensively on the virtues of self-improvement and equality between all peoples." #NT!
+ thysia_pure_patron_saint_name: "Thysia the Healer" #NT!
+ thysia_pure_patron_saint_desc: "An acclaimed healer and scholar, Thysia would travel from her homelands in Kalathipsomi and earn a reputation across [aversaria|E] for not only healing thousands and ending many plagues, but for her constant sermons calling for healers to put aside their prejudices and heal the weak and strong, slave and citizen, human and non-human. She would gain the love of Aautokratir Phancis which many believe to be the ultimate reason most of the Saints would survive their rebellion, but would become martyred not long after. For centuries hence her name has been called upon for good health and fortune by the descendents of her thankful patients, and the Thysian Code remains one of the most comprehensive medical charters on [the_continent|E]." #NT!
+ philanthros_pure_patron_saint_name: "Philanthros the Generous" #NT!
+ philanthros_pure_patron_saint_desc: "After seeing the poor and needy suffer so beneath the  Aversarian aristocracy, Philantros made it his goal in life to help. He castigated the Opakhasian nobles who starved their peasantry to throw ever more opulent feasts. He called upon all with the means to give to aid the destitute, and strive against those who hoard wealth the expense of their charges. We strive to follow his example by collecting donations from the people to help those in need, and tricking the wealthy who are not worthy of it." #NT!
+ forgotten_pure_patron_saint_name: "The Forgotten Saint" #NT!
+ forgotten_pure_patron_saint_desc: "The most mysterious and illusive of the Agionist Saints, the Forgotten Saint was allegedly a monk of the Scarlet Chosen of the Vounill who struck out along with a small clique of other monks after forming an extremist faction within the Mountain-Sun. The Forgotten Saint targeted the [magi|E] as a political class and challenged the concept of 'Divine Reincarnation' of the Aautokratirs, claiming that the worship of Magi and their powers were a rot upon the world that had to be excised. To show humility and reject the idolatry of the Empire is to show faith and piety, for all men and women are equal, and the destruction of the false separations between humanity is the only path to collective salvation." #NT!
+ calysto_pure_patron_saint_name: "Calysto the Liberator" #NT!
+ calysto_pure_patron_saint_desc: "A famed pirate captain and liberator of slaves, Calysto was born into a small fishing village in the southeastern isles. Taken as a galley slave first by pirates, and later by the Marine Legions of Aversaria, Calysto successfully lead a slave mutiny to establish his own pirate fleet. Sailing accross all of [aversaria|E], Saint Calysto would raid slave markets and plantations, freeing the slaves and starting rebellions in his wake, for he believed that nothing was worth more than freedom." #NT!
+  
+  
+ eos_corrupt_patron_saint_name: "Eos the Strong" #NT!
+ eos_corrupt_patron_saint_desc: "#N WORK IN PROGRESS!#!" #NT!
+ sansia_corrupt_patron_saint_name: "Sansia the Conqueror" #NT!
+ sansia_corrupt_patron_saint_desc: "Sansia the Conqueror embodied the strength of [aversaria|E] by becoming a powerful Arch-Legan that was feared across the continent. Renowned for her skill in battle, she would cement her fame by defeating the Opakhasian Governorial Legions in the Battle of Plateria, where she slaughtered them to the last. Sansia believed that a general must master both warfare and fear and that it is only through suffering, sacrifice, and pain that people become closer to the Purest. Therefore, to bring salvation for the heathens’ souls and safeguard the Orders, we must practice the craft not only on our enemies, but even ourselves." #NT!
+ dikaynos_corrupt_patron_saint_name: "Dikaynos the Lawkeeper" #NT!
+ dikaynos_corrupt_patron_saint_desc: "Dikaynos was a merciless crusader in the name of justice, never once allowing empathy or sensitivity to cloud his judgment. We, too, must not let our own human weakness obstruct our relentless war against disorder, for the law is both blind and pitiless.!" #NT!
+ katharitos_corrupt_patron_saint_name: "Katharitos the Pure" #NT!
+ katharitos_corrupt_patron_saint_desc: "Katharitos would travel the world and speak extensively of the purety of the heart, mind and body. While some say that this purety was to be found in self-improvement and free love, it has long been obvious to true believers that the Saint truly meant purety of blood and the physical form." #NT!
+ thysia_corrupt_patron_saint_name: "Thysia the Researcher" #NT!
+ thysia_corrupt_patron_saint_desc: "Thysia believed that medical knowledge must be saved and expanded upon, and dreamed of a world where those deserving of the title of physician would know the cures for all diseases and poisons. It is only natural then that those who follow the great Saint do anything in their power to learn of the body and its ailments. #N Anything#!." #NT!
+ philanthros_corrupt_patron_saint_name: "Philanthros the Shrewd" #NT!
+ philanthros_corrupt_patron_saint_desc: "Philantros saw the poor and needy suffer under the [aversarian|E] aristocracy and endeavored to help them by collecting donations. Yet the desert heathens cannot see this and refuse to provide what is due to the saint’s own chosen. For in these current times, who is more in need than the Order, the most noble and devoted followers of Philantros? It is our tireless duty to use these offerings to aid those that most deserve it - ourselves. So, bring out the wine and the finest food. Let us dine like the nobility of Opakhasia!" #NT!
+ forgotten_corrupt_patron_saint_name: "The Forgotten Saint" #NT!
+ forgotten_corrupt_patron_saint_desc: "A being of power and might, the Forgotten Saint descended from the holy Vounill as a mythic figure, unidentifiable and eclipsing the power of the petty Aautokratirs who They proved were naught but pretenders to Their own vaunted divinity. In the Rebellions, the Forgotten Saint's holiest followers proved the most zealous and holy, showing Them their allegiance with a sacrifice to destroy the Purest's false-reincarnation by slaughtering the devilish children of Aautokratir Phancis in the Forgotten One's holy name. Their followers mask themselves still, imitating their glory, and paying Them worship in memory of their ascent to divinity upon the destruction and sacrifice of so many weaker gods." #NT!
+ calysto_corrupt_patron_saint_name: "Calysto the Reaver" #NT!
+ calysto_corrupt_patron_saint_desc: "A famed pirate captain and liberator of slaves, Calysto seized power from humble origins. He sailed across all of [aversaria|E], raiding slave markets, plantations and mansions for all their riches and slaves. He freed the needy by enslaving them in this life to serve us, so in their next life they will be true believers. In this way, he gave us all the most important things, freedom." #NT!
+  
+  ############### 
+  # TRIGGER LOC # 
+  ############### 
+ HAS_PATRON_SAINT_COOLDOWN: "Cannot do this action again until [GetCurrentDateWithDiff( GetVarTimeRemaining( GetPlayer.MakeScope, 'patron_saint_change_cooldown') )]" #NT!
+ NO_PATRON_SAINT_COOLDOWN: "I am not under the effects of a #E Patron Saint#! change cooldown" #NT!
+ FAITH_HAS_PATRON_SAINT_DESC: "Faith must allow worship of this Patron Saint" #NT!
+  
+ PATRON_SAINT_AFFINITY_MUST_BE_30_DESC: "Your #E Saint Affinity#! must be 30 or greater" #NT!
+ PATRON_SAINT_AFFINITY_MUST_BE_65_DESC: "Your #E Saint Affinity#! must be 65 or greater" #NT!
+ PATRON_SAINT_AFFINITY_MUST_BE_100_DESC: "Your #E Saint Affinity#! must be 100 or greater" #NT!
+ PATRON_SAINT_AFFINITY_MUST_BE_140_DESC: "Your #E Saint Affinity#! must be 140 or greater" #NT!
+  
+ FAITH_DOES_NOT_PERMIT_THIS_PATRON_SAINT_LEVEL_DESC: "This Patron Saint Level exceeds the maximum level permitted by your Faith" #NT!
+  
+ CHARACTER_CANNOT_TAKE_MORE_PATRON_SAINTS_DESC: "You have already reached your maximum number of Patron Saints" #NT!
+ CHARACTER_CANNOT_TAKE_MORE_PATRON_SAINT_LEVELS_DESC: "This Patron Saint Level would make you exceed your total Patron Saint Level limit" #NT!
+  
+  ############ 
+  # TOOLTIPS # 
+  ############ 
+  
+ pilgrimage_will_gain_saint_affinity_tt: "As your Patron Saint has a special connection to this Holy Site, visiting it will improve your #E Saint Affinity#!" #NT!
+ pilgrimage_will_not_gain_saint_affinity_tt: "As you have already visited this Holy Site, visiting it again will no longer improve your #E Saint Affinity#!" #NT!
+ pilgrimage_improves_saint_affinity_tt: "Visiting this Holy Site has improved your #E Saint Affinity#!" #NT!
+  
+ single_combat_no_increase_to_saint_affinity_tt: "As your opponents Prowess is higher than your #E Saint Affinity#! from Duel Victories, your victory does not increase your #E Saint Affinity#!" #NT!
+ single_combat_actual_increase_to_saint_affinity_tt: "As your Patron Saint values honorable combat, winning this duel has increased your #E Saint Affinity#!" #NT!
+  
+ hunting_combat_actual_increase_to_saint_affinity_tt: "As your Patron Saint values bravery in battle, slaying this creature has increased your #E Saint Affinity#!" #NT!
+ hunting_combat_no_increase_to_saint_affinity_tt: "This creature is not sufficiently dangerous to further increase your #E Saint Affinity#! from Duel Victories" #NT!
+  
+ heathen_execution_increase_to_saint_affinity_tt: "Executing [victim.GetTitledFirstName] will increase your #E Saint Affinity#! by [victim.MakeScope.ScriptValue('patron_saint_from_heathen_execution_gain_value')] to a maximum of [victim.MakeScope.ScriptValue('patron_saint_from_heathen_execution_max_value')]" #NT!
+ heathen_execution_no_increase_to_saint_affinity_tt: "[victim.GetTitledFirstName]s rank is too low to further increase your #E Saint Affinity#! from Executing Heathens" #NT!
+  
+ patron_saint_scheme_has_given_affinity_tt: "Successfully completing this scheme has increased your #E Saint Affinity#! with all Patron Saints who value scheming" #NT!
+ patron_saint_scheme_has_not_given_affinity_tt: "Your #E Saint Affinity#! affinity from Scheming is too high to be increased by succeeding in a scheme against this target" #NT!
+  
+ healing_success_increase_to_saint_affinity_tt: "As your patron saint values healing the sick and wounded, treating [sick_character.GetTitledFirstName] has increased your #E Saint Affinity#!" #NT!
+ healing_success_no_increase_to_saint_affinity_tt: "Your #E Saint Affinity#! affinity from Healing is too high to be increased by your level of success in treating [sick_character.GetTitledFirstName]" #NT!
+ offer_treatment_begin_tt: "test" #NT!
+  
+ medical_experiments_increase_to_saint_affinity_tt: "As your patron saint values advancing the art of medicine, your medical experiments increase your #E Saint Affinity#!" #NT!
+ medical_experiments_no_increase_to_saint_affinity_tt: "You cannot further increase your #E Saint Affinity#! through medical experiments" #NT!
+  
+ medical_experiments_following_effects_tooltip_tt: "Upon success, the scheme will have the following effects:" #NT!
+ medical_experiments_damage_to_victim_tooltip_tt: "Experimenting on [victim.GetTitledFirstName] may cause [victim.GetHerHim] permanent damage." #NT!
+ medical_experiments_learning_and_physician_gain_tooltip_tt: "You will gain [learning_lifestyle|E] and [GetTrait('physician_2').GetName( GetNullCharacter )] Experience depending on your level of success." #NT!
+ medical_experiments_future_increase_to_saint_affinity_tt: "As your patron saint values advancing the art of medicine, your will gain #E Saint Affinity#! depending on your level of success." #NT!
+  
+ frivolous_spending_increase_to_saint_affinity_tt: "This expense will show off your wealth and thus increase your #E Saint Affinity#!" #NT!
+  
+ generosity_increase_to_saint_affinity_tt: "Being generous with your wealth will increase your #E Saint Affinity#!" #NT!
+  
+ pain_increase_to_saint_affinity_tt: "As your patron saint values pain, this action will increase your #E Saint Affinity#!" #NT!
+  
+  ########### 
+  # ASPECTS # 
+  ########### 
+  
+ values_duels_desc: "Winning duels increases #E Affinity#!" #NT!
+ values_just_rule_desc: "Passing lawful punishments and revealing [secrets|E] increases #E Affinity#!" #NT!
+ values_healing_desc: "Healing the sick increases #E Affinity#!" #NT!
+ values_languages_desc: "Learning new [languages|E] increases #E Affinity#!" #NT!
+ values_executing_heathens_desc: "[executing|E] impure heathens increases #E Affinity#!" #NT!
+ values_raiding_desc: "[raiding|E] increases #E Affinity#!" #NT!
+ values_raiding_antislavery_desc: "[raiding|E] pro-slavery [faiths|E] increases #E Affinity#!" #NT!
+ values_battle_slaughter_desc: "Slaughtering enemy troops in [battle|E] as a [commander|E] increases #E Affinity#!" #NT!
+ values_battle_victory_desc: "Defeating enemies in [battle|E] as a [commander|E] increases #E Affinity#!" #NT!
+ values_dread_desc: "Ruling with [dread|E] increases #E Affinity#!" #NT!
+ values_frivolous_expenses_desc: "Showing off your wealth increases #E Affinity#!" #NT!
+ values_generosity_desc: "Being generous to others increase #E Affinity#!" #NT!
+ values_scheming_desc: "[scheming|E] increases #E Affinity#!" #NT!
+ values_piety_desc: "[piety_levels|E] greatly increases #E Affinity#!" #NT!
+ values_humility_desc: "[prestige_levels|E] decreases #E Affinity#!" #NT!
+ values_medical_experiments_desc: "#E Medical Experiments#! increases #E Affinity#!" #NT!
+ values_pain_desc: "Torturing others or flagellating yourself increases #E Affinity#!" #NT!

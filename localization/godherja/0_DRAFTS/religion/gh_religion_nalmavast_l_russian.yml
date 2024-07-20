@@ -1,43 +1,43 @@
 ﻿l_russian:
   
- nalmavast_religion: "Налмавастск"  
- nalmavast_religion_adj: "Налмаваст"  
- nalmavast_religion_adjerent: "Nalmavak"  
- nalmavast_religion_adherent_plural: "Nalmavaki"  
- nalmavast_religion_desc: "Nalmavast is the worship of the eponymous Nalma, the traditional harvest and fertility goddess of the Leki peoples. Yet she is but one of many, for the Nalmavaki do not contend that there are many gods on [aeras|E] – gods that belong to others, gods that belong to no one, and gods that do not belong at all. Out of them, only Nalma is truly theirs, and as such, only they are hers.\n\nTypically depicted in the form of either a large heifer or a young maiden, Nalma is said to watch over her people through the gaps between trees, from beneath the waters of forest streams, and guide them to fertile pastures with the rustling of leaves. In both of her forms, her stone-hewn horns are many, and her skin is covered in multitudes of swirling, fractal red patterns through which flows the lifeblood of the natural world."  
- nalmavast_high_god_name: "Налма"  
- nalmavast_high_god_name_possessive: "Налмы"  
- nalmavast_high_god_name_alternate: "Красная Дева"  
- nalmavast_high_god_name_alternate_possessive: "Красной Девы"  
- nalmavast_devil_name: "Kuggmal" # Great Blasphemer/Azure Mother
- nalmavast_devil_name_possessive: "Kuggmal's" 
+ nalmavast_religion: "Налмавастск"
+ nalmavast_religion_adj: "Налмаваст"
+ nalmavast_religion_adjerent: "Nalmavak"
+ nalmavast_religion_adherent_plural: "Nalmavaki"
+ nalmavast_religion_desc: "Nalmavast is the worship of the eponymous Nalma, the traditional harvest and fertility goddess of the Leki peoples. Yet she is but one of many, for the Nalmavaki do not contend that there are many gods on [aeras|E] – gods that belong to others, gods that belong to no one, and gods that do not belong at all. Out of them, only Nalma is truly theirs, and as such, only they are hers.\n\nTypically depicted in the form of either a large heifer or a young maiden, Nalma is said to watch over her people through the gaps between trees, from beneath the waters of forest streams, and guide them to fertile pastures with the rustling of leaves. In both of her forms, her stone-hewn horns are many, and her skin is covered in multitudes of swirling, fractal red patterns through which flows the lifeblood of the natural world."
+ nalmavast_high_god_name: "Налма"
+ nalmavast_high_god_name_possessive: "Налмы"
+ nalmavast_high_god_name_alternate: "Красная Дева"
+ nalmavast_high_god_name_alternate_possessive: "Красной Девы"
+ nalmavast_devil_name: "Kuggmal"
+ nalmavast_devil_name_possessive: "Kuggmal's"
   
   
- nalmavast_house_of_worship: "Nymilar" # House of Prayer
+ nalmavast_house_of_worship: "Nymilar"
  nalmavast_house_of_worship_plural: "Nymilarki"
  nalmavast_religious_symbol: "Nalmic Sigil"
  nalmavast_religious_text: "Herdstone Carving"
   
  nalmavast_religious_head_title: "Kugg Nalmik"
- nalmavast_religious_head_title_name: "Kugg Nalmvark" # Great Adherence
- nalmavast_devotee_male: "Nalmik" # Of Nalma
+ nalmavast_religious_head_title_name: "Kugg Nalmvark"
+ nalmavast_devotee_male: "Nalmik"
  nalmavast_devotee_male_plural: "Nalmiks"
  nalmavast_devotee_female: "Nalmika"
  nalmavast_devotee_female_plural: "Nalmikas"
  nalmavast_devotee_neuter: "Nalmik"
  nalmavast_devotee_neuter_plural: "Nalmiks"
- nalmavast_priest_male: "Онари"  
- nalmavast_priest_male_plural: "Онары"  
- nalmavast_priest_female: "Onara" # Priestess
+ nalmavast_priest_male: "Онари"
+ nalmavast_priest_male_plural: "Онары"
+ nalmavast_priest_female: "Onara"
  nalmavast_priest_female_plural: "Onaras"
  nalmavast_priest_alternate_plural: "Onara"
- nalmavast_bishop: "Kugg Onari" # Great Priest
+ nalmavast_bishop: "Kugg Onari"
  nalmavast_bishop_plural: "Kugg Onaris"
  nalmavast_positive_afterlife: "Uilara"
- nalmavast_negative_afterlife: "Nayulik" # To where one's taken 
+ nalmavast_negative_afterlife: "Nayulik"
   
- nalmavast: "Налмавастск"  
- nalmavast_adj: "Налмаваст"  
+ nalmavast: "Налмавастск"
+ nalmavast_adj: "Налмаваст"
  nalmavast_adherent: "Nalmavak"
  nalmavast_adherent_plural: "Nalmavaki"
  nalmavast_desc: "$nalmavast_religion_desc$"

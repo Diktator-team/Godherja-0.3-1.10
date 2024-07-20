@@ -1,464 +1,464 @@
 ﻿l_russian:
- ADOPT_LEGAL_SCHOOL: "Усыновить"  #Машинный перевод 28.10.23!
- RENOUNCE_LEGAL_SCHOOL: "Отречься"  #Машинный перевод 28.10.23!
+ ADOPT_LEGAL_SCHOOL: "Усыновить"
+ RENOUNCE_LEGAL_SCHOOL: "Отречься"
   
- no_legal_tradition_application_level: "Никто"  #Машинный перевод 28.10.23!
- low_legal_tradition_application_level: "Низкий"  #Машинный перевод 28.10.23!
- medium_legal_tradition_application_level: "Середина"  #Машинный перевод 28.10.23!
- high_legal_tradition_application_level: "Высокий"  #Машинный перевод 28.10.23!
+ no_legal_tradition_application_level: "Никто"
+ low_legal_tradition_application_level: "Низкий"
+ medium_legal_tradition_application_level: "Середина"
+ high_legal_tradition_application_level: "Высокий"
   
   ############## 
   # CATEGORIES # 
   ############## 
   
- interpretative_approach_name: "Интерпретативный подход"  #Машинный перевод 28.10.23!
- epistemology_name: "Эпистемология"  #Машинный перевод 28.10.23!
- scriptural_diversity_name: "Библейское разнообразие"  #Машинный перевод 28.10.23!
- harshness_name: "Резкость"  #Машинный перевод 28.10.23!
- complexity_name: "Сложность"  #Машинный перевод 28.10.23!
- classism_name: "Классизм"  #Машинный перевод 28.10.23!
- uniformity_name: "Единообразие"  #Машинный перевод 28.10.23!
- belligerence_name: "воинственность"  #Машинный перевод 28.10.23!
- economic_focus_name: "Экономический фокус"  #Машинный перевод 28.10.23!
- tolerance_name: "Толерантность"  #Машинный перевод 28.10.23!
- special_name: "Особенный"  #Машинный перевод 28.10.23!
+ interpretative_approach_name: "Интерпретативный подход"
+ epistemology_name: "Эпистемология"
+ scriptural_diversity_name: "Библейское разнообразие"
+ harshness_name: "Резкость"
+ complexity_name: "Сложность"
+ classism_name: "Классизм"
+ uniformity_name: "Единообразие"
+ belligerence_name: "воинственность"
+ economic_focus_name: "Экономический фокус"
+ tolerance_name: "Толерантность"
+ special_name: "Особенный"
   
   ########## 
   # TRAITS # 
   ########## 
   
- metaphorialist_name: "Метафорист"  #Машинный перевод 28.10.23!
- literalist_name: "Буквалист"  #Машинный перевод 28.10.23!
- rationalist_name: "Рационалист"  #Машинный перевод 28.10.23!
- emotionalist_name: "Эмоционалист"  #Машинный перевод 28.10.23!
- broad_name: "Широкий"  #Машинный перевод 28.10.23!
- narrow_name: "Узкий"  #Машинный перевод 28.10.23!
- liberal_name: "Либеральный"  #Машинный перевод 28.10.23!
- draconian_name: "драконовский"  #Машинный перевод 28.10.23!
- egalitarian_name: "Эгалитарный"  #Машинный перевод 28.10.23!
- hierarchical_name: "Иерархический"  #Машинный перевод 28.10.23!
- parochial_name: "Приходской"  #Машинный перевод 28.10.23!
- uniform_name: "Униформа"  #Машинный перевод 28.10.23!
- warlike_name: "Воинственный"  #Машинный перевод 28.10.23!
- pacifistic_name: "Пацифистский"  #Машинный перевод 28.10.23!
- agrarian_name: "Аграрный"  #Машинный перевод 28.10.23!
- majoritarian_name: "Мажоритарный"  #Машинный перевод 28.10.23!
- minoritarian_name: "Миноритарный"  #Машинный перевод 28.10.23!
- mysticistic_name: "Мистик"  #Машинный перевод 28.10.23!
+ metaphorialist_name: "Метафорист"
+ literalist_name: "Буквалист"
+ rationalist_name: "Рационалист"
+ emotionalist_name: "Эмоционалист"
+ broad_name: "Широкий"
+ narrow_name: "Узкий"
+ liberal_name: "Либеральный"
+ draconian_name: "драконовский"
+ egalitarian_name: "Эгалитарный"
+ hierarchical_name: "Иерархический"
+ parochial_name: "Приходской"
+ uniform_name: "Униформа"
+ warlike_name: "Воинственный"
+ pacifistic_name: "Пацифистский"
+ agrarian_name: "Аграрный"
+ majoritarian_name: "Мажоритарный"
+ minoritarian_name: "Миноритарный"
+ mysticistic_name: "Мистик"
   
   ############ 
   # TOOLTIPS # 
   ############ 
   
- legal_tradition_patron_header_tooltip: "#weak Покровители#!"  #Машинный перевод 28.10.23!
- legal_tradition_patron_tooltip: "[ROOT.Char.GetFirstName]"  #Машинный перевод 28.10.23!
+ legal_tradition_patron_header_tooltip: "#weak Покровители#!"
+ legal_tradition_patron_tooltip: "[ROOT.Char.GetFirstName]"
   
- diligent_gives_judicial_power_tooltip: "[GetTrait('diligent').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"  #Машинный перевод 28.10.23!
- overseer_gives_judicial_power_tooltip: "[GetTrait('overseer').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"  #Машинный перевод 28.10.23!
- greedy_gives_judicial_power_tooltip: "[GetTrait('greedy').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"  #Машинный перевод 28.10.23!
- avaricious_gives_judicial_power_tooltip: "[GetTrait('avaricious').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"  #Машинный перевод 28.10.23!
- cynical_gives_judicial_power_tooltip: "[GetTrait('cynical').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"  #Машинный перевод 28.10.23!
- zealous_gives_judicial_power_tooltip: "[GetTrait('zealous').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"  #Машинный перевод 28.10.23!
- calm_gives_judicial_power_tooltip: "[GetTrait('calm').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"  #Машинный перевод 28.10.23!
- forgiving_gives_judicial_power_tooltip: "[GetTrait('forgiving').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"  #Машинный перевод 28.10.23!
- compassionate_gives_judicial_power_tooltip: "[GetTrait('compassionate').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"  #Машинный перевод 28.10.23!
- vengeful_gives_judicial_power_tooltip: "[GetTrait('vengeful').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"  #Машинный перевод 28.10.23!
- sadistic_gives_judicial_power_tooltip: "[GetTrait('sadistic').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"  #Машинный перевод 28.10.23!
- humble_gives_judicial_power_tooltip: "[GetTrait('humble').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"  #Машинный перевод 28.10.23!
- content_gives_judicial_power_tooltip: "[GetTrait('content').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"  #Машинный перевод 28.10.23!
- arrogant_gives_judicial_power_tooltip: "[GetTrait('arrogant').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"  #Машинный перевод 28.10.23!
- ambitious_gives_judicial_power_tooltip: "[GetTrait('ambitious').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"  #Машинный перевод 28.10.23!
- patient_gives_judicial_power_tooltip: "[GetTrait('patient').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"  #Машинный перевод 28.10.23!
- impatient_gives_judicial_power_tooltip: "[GetTrait('impatient').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"  #Машинный перевод 28.10.23!
- wrathful_gives_judicial_power_tooltip: "[GetTrait('wrathful').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"  #Машинный перевод 28.10.23!
- scholar_gives_judicial_power_tooltip: "[GetTrait('scholar').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"  #Машинный перевод 28.10.23!
- theologian_gives_judicial_power_tooltip: "[GetTrait('theologian').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"  #Машинный перевод 28.10.23!
- mystic_gives_judicial_power_tooltip: "Каждый уровень [GetTrait('mystic_1').GetName( GetNullCharacter )] [trait|E] дает возрастающее количество #E Судебной власти#! за каждый уровень #E Мистицизма#! традиции."  #Машинный перевод 28.10.23!
+ diligent_gives_judicial_power_tooltip: "[GetTrait('diligent').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"
+ overseer_gives_judicial_power_tooltip: "[GetTrait('overseer').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"
+ greedy_gives_judicial_power_tooltip: "[GetTrait('greedy').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"
+ avaricious_gives_judicial_power_tooltip: "[GetTrait('avaricious').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"
+ cynical_gives_judicial_power_tooltip: "[GetTrait('cynical').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"
+ zealous_gives_judicial_power_tooltip: "[GetTrait('zealous').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"
+ calm_gives_judicial_power_tooltip: "[GetTrait('calm').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"
+ forgiving_gives_judicial_power_tooltip: "[GetTrait('forgiving').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"
+ compassionate_gives_judicial_power_tooltip: "[GetTrait('compassionate').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"
+ vengeful_gives_judicial_power_tooltip: "[GetTrait('vengeful').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"
+ sadistic_gives_judicial_power_tooltip: "[GetTrait('sadistic').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"
+ humble_gives_judicial_power_tooltip: "[GetTrait('humble').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"
+ content_gives_judicial_power_tooltip: "[GetTrait('content').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"
+ arrogant_gives_judicial_power_tooltip: "[GetTrait('arrogant').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"
+ ambitious_gives_judicial_power_tooltip: "[GetTrait('ambitious').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"
+ patient_gives_judicial_power_tooltip: "[GetTrait('patient').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"
+ impatient_gives_judicial_power_tooltip: "[GetTrait('impatient').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"
+ wrathful_gives_judicial_power_tooltip: "[GetTrait('wrathful').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"
+ scholar_gives_judicial_power_tooltip: "[GetTrait('scholar').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"
+ theologian_gives_judicial_power_tooltip: "[GetTrait('theologian').GetName( GetNullCharacter )] [trait|E] дает #E судебную власть#!"
+ mystic_gives_judicial_power_tooltip: "Каждый уровень [GetTrait('mystic_1').GetName( GetNullCharacter )] [trait|E] дает возрастающее количество #E Судебной власти#! за каждый уровень #E Мистицизма#! традиции."
   
- mystic_increases_piety_reward_tooltip: "Каждый уровень [GetTrait('mystic_1').GetName( GetNullCharacter )] [trait|E] пропорционально увеличивает награду [piety|E] за хорошее решение."  #Машинный перевод 28.10.23!
- may_gain_mystic_from_trials_tooltip: "Шанс повышения уровня [GetTrait('mystic_1').GetName( GetNullCharacter )] [trait|E] после принятия каждого хорошего решения."  #Машинный перевод 28.10.23!
- learning_gives_double_judicial_power_tooltip: "@skill_learning_icon![learning|E] имеет значение в два раза больше для #E судебной власти#!"  #Машинный перевод 28.10.23!
- diplomacy_gives_judicial_power_tooltip: "@skill_diplomacy_icon![diplomacy|E] засчитывается в #E судебной власти#!"  #Машинный перевод 28.10.23!
- stewardship_gives_judicial_power_tooltip: "@skill_stewardship_icon![stewardship|E] засчитывается в #E судебной власти#!"  #Машинный перевод 28.10.23!
- martial_gives_judicial_power_tooltip: "@skill_martial_icon![martial|E] засчитывается в #E судебной власти#!"  #Машинный перевод 28.10.23!
- each_virtue_increases_judicial_power_tooltip: "Каждый [virtue|E] дает #E судебную власть#!"  #Машинный перевод 28.10.23!
- piety_level_gives_judicial_power_tooltip: "Каждый [piety_level|E] дает #E судебную власть#!"  #Машинный перевод 28.10.23!
- renown_level_gives_judicial_power_tooltip: "Каждый [dynasty_prestige_level|E] дает #E судебную власть#!"  #Машинный перевод 28.10.23!
- radicalism_gives_judicial_power_tooltip: "Каждая точка @radicalism_icon! #E Радикализм#! увеличивает #E Судебную власть#! на #positive_value 0.2#!, максимум до 20"  #Машинный перевод 28.10.23!
+ mystic_increases_piety_reward_tooltip: "Каждый уровень [GetTrait('mystic_1').GetName( GetNullCharacter )] [trait|E] пропорционально увеличивает награду [piety|E] за хорошее решение."
+ may_gain_mystic_from_trials_tooltip: "Шанс повышения уровня [GetTrait('mystic_1').GetName( GetNullCharacter )] [trait|E] после принятия каждого хорошего решения."
+ learning_gives_double_judicial_power_tooltip: "@skill_learning_icon![learning|E] имеет значение в два раза больше для #E судебной власти#!"
+ diplomacy_gives_judicial_power_tooltip: "@skill_diplomacy_icon![diplomacy|E] засчитывается в #E судебной власти#!"
+ stewardship_gives_judicial_power_tooltip: "@skill_stewardship_icon![stewardship|E] засчитывается в #E судебной власти#!"
+ martial_gives_judicial_power_tooltip: "@skill_martial_icon![martial|E] засчитывается в #E судебной власти#!"
+ each_virtue_increases_judicial_power_tooltip: "Каждый [virtue|E] дает #E судебную власть#!"
+ piety_level_gives_judicial_power_tooltip: "Каждый [piety_level|E] дает #E судебную власть#!"
+ renown_level_gives_judicial_power_tooltip: "Каждый [dynasty_prestige_level|E] дает #E судебную власть#!"
+ radicalism_gives_judicial_power_tooltip: "Каждая точка @radicalism_icon! #E Радикализм#! увеличивает #E Судебную власть#! на #positive_value 0.2#!, максимум до 20"
   
- can_justify_claims_tooltip: "Включает взаимодействие #E Justify#! [claim|E]."  #Машинный перевод 28.10.23!
- can_censure_sinful_characters_tooltip: "Может ли #E осуждать#! [sinful|E] символа"  #Машинный перевод 28.10.23!
- can_disinherit_sinful_characters_with_piety_tooltip: "Могут ли символы [disinherit|E] [sinful|E] содержать [piety|E] вместо [dynasty_prestige|E]"  #Машинный перевод 28.10.23!
- can_censure_less_virtuous_characters_tooltip: "Может ли #E осуждать#! персонажей, у которых меньше [virtues|E], чем у вас"  #Машинный перевод 28.10.23!
- can_designate_heir_tooltip: "Включает взаимодействие #E Назначить#! [heir|E]."  #Машинный перевод 28.10.23!
+ can_justify_claims_tooltip: "Включает взаимодействие #E Justify#! [claim|E]."
+ can_censure_sinful_characters_tooltip: "Может ли #E осуждать#! [sinful|E] символа"
+ can_disinherit_sinful_characters_with_piety_tooltip: "Могут ли символы [disinherit|E] [sinful|E] содержать [piety|E] вместо [dynasty_prestige|E]"
+ can_censure_less_virtuous_characters_tooltip: "Может ли #E осуждать#! персонажей, у которых меньше [virtues|E], чем у вас"
+ can_designate_heir_tooltip: "Включает взаимодействие #E Назначить#! [heir|E]."
   
- learning_boosts_piety_gain_from_trials_tooltip: "Каждый уровень @skill_learning_icon![learning|E] увеличивает [piety|E] выигрыш от испытаний на #positive_value 1%#!"  #Машинный перевод 28.10.23!
- participating_in_legal_action_can_give_learning_tooltip: "Каждая успешная проверка навыка #E Судебная власть#! имеет шанс увеличить ваш @skill_learning_icon![learning|E]"  #Машинный перевод 28.10.23!
+ learning_boosts_piety_gain_from_trials_tooltip: "Каждый уровень @skill_learning_icon![learning|E] увеличивает [piety|E] выигрыш от испытаний на #positive_value 1%#!"
+ participating_in_legal_action_can_give_learning_tooltip: "Каждая успешная проверка навыка #E Судебная власть#! имеет шанс увеличить ваш @skill_learning_icon![learning|E]"
   
- stronger_offensive_judicial_power_tooltip: "#E Судебная власть#! становится #positive_value на 50% выше#! при возбуждении судебного иска"  #Машинный перевод 28.10.23!
- stronger_defensive_judicial_power_tooltip: "#E Судебная власть#! на 100% выше #positive_value#! при защите от судебного иска"  #Машинный перевод 28.10.23!
+ stronger_offensive_judicial_power_tooltip: "#E Судебная власть#! становится #positive_value на 50% выше#! при возбуждении судебного иска"
+ stronger_defensive_judicial_power_tooltip: "#E Судебная власть#! на 100% выше #positive_value#! при защите от судебного иска"
   
- random_bonus_legal_rewards_tooltip: "Каждое успешное судебное дело имеет шанс получить [hooks|E] или [claims|E] против случайной группы персонажей, связанных с защитником."  #Машинный перевод 28.10.23!
- countersuit_tooltip: "Успешная защита от судебного иска имеет шанс обратить вспять последствия первоначального иска для инициатора."  #Машинный перевод 28.10.23!
- can_exchange_imprisonment_reasons_for_prestige_tooltip: "Можно обменять причины тюремного заключения на [prestige|E] #X (не реализовано)#!"  #Машинный перевод 28.10.23!
- crimes_allow_any_punishment_tooltip: "[crimes|E] допускают любое наказание, включая [execution|E], независимо от степени тяжести"  #Машинный перевод 28.10.23!
- apolitical_suits_give_better_rewards_tooltip: "#E Аполитичные костюмы#! дают лучшие награды"  #Машинный перевод 28.10.23!
- censured_characters_can_be_imprisoned_tooltip: "#E Осужденных#! персонажей можно посадить в тюрьму"  #Машинный перевод 28.10.23!
- can_depose_vassals_tooltip: "Открывает взаимодействие #E «Свержение вассала»#!."  #Машинный перевод 28.10.23!
- each_level_increases_difficulty_and_rewards_tooltip: "Каждый ранг этой юридической особенности увеличивает как сложность, так и [piety|E] наград за судебные разбирательства."  #Машинный перевод 28.10.23!
- each_level_decreases_difficulty_tooltip: "Каждый ранг этой юридической характеристики снижает сложность судебных разбирательств."  #Машинный перевод 28.10.23!
+ random_bonus_legal_rewards_tooltip: "Каждое успешное судебное дело имеет шанс получить [hooks|E] или [claims|E] против случайной группы персонажей, связанных с защитником."
+ countersuit_tooltip: "Успешная защита от судебного иска имеет шанс обратить вспять последствия первоначального иска для инициатора."
+ can_exchange_imprisonment_reasons_for_prestige_tooltip: "Можно обменять причины тюремного заключения на [prestige|E] #X (не реализовано)#!"
+ crimes_allow_any_punishment_tooltip: "[crimes|E] допускают любое наказание, включая [execution|E], независимо от степени тяжести"
+ apolitical_suits_give_better_rewards_tooltip: "#E Аполитичные костюмы#! дают лучшие награды"
+ censured_characters_can_be_imprisoned_tooltip: "#E Осужденных#! персонажей можно посадить в тюрьму"
+ can_depose_vassals_tooltip: "Открывает взаимодействие #E «Свержение вассала»#!."
+ each_level_increases_difficulty_and_rewards_tooltip: "Каждый ранг этой юридической особенности увеличивает как сложность, так и [piety|E] наград за судебные разбирательства."
+ each_level_decreases_difficulty_tooltip: "Каждый ранг этой юридической характеристики снижает сложность судебных разбирательств."
   
- medium_stress_gain_reduction_from_tradition_modifier_tooltip: "[GetModifier('medium_stress_gain_reduction_from_tradition_modifier').GetDesc]"  #Машинный перевод 28.10.23!
- popular_opinion_from_tradition_modifier_tooltip: "[GetModifier('popular_opinion_from_tradition_modifier').GetDesc]"  #Машинный перевод 28.10.23!
- vassal_tax_from_tradition_modifier_tooltip: "[GetModifier('vassal_tax_from_tradition_modifier').GetDesc]"  #Машинный перевод 28.10.23!
- cultural_head_fascination_mult_from_tradition_modifier_tooltip: "[GetModifier('cultural_head_fascination_mult_from_tradition_modifier').GetDesc]"  #Машинный перевод 28.10.23!
- learning_per_piety_level_from_tradition_modifier_tooltip: "[GetModifier('learning_per_piety_level_from_tradition_modifier').GetDesc]"  #Машинный перевод 28.10.23!
- control_growth_from_tradition_modifier_tooltip: "[GetModifier('control_growth_from_tradition_modifier').GetDesc]"  #Машинный перевод 28.10.23!
- tyranny_gain_reduction_from_tradition_modifier_tooltip: "[GetModifier('tyranny_gain_reduction_from_tradition_modifier').GetDesc]"  #Машинный перевод 28.10.23!
- diplomacy_from_tradition_modifier_tooltip: "[GetModifier('diplomacy_from_tradition_modifier').GetDesc]"  #Машинный перевод 28.10.23!
- prestige_from_tradition_modifier_tooltip: "[GetModifier('prestige_from_tradition_modifier').GetDesc]"  #Машинный перевод 28.10.23!
- diplomacy_per_prestige_level_from_tradition_modifier_tooltip: "[GetModifier('diplomacy_per_prestige_level_from_tradition_modifier').GetDesc]"  #Машинный перевод 28.10.23!
- vassal_opinion_from_tradition_modifier_tooltip: "[GetModifier('vassal_opinion_from_tradition_modifier').GetDesc]"  #Машинный перевод 28.10.23!
- development_from_tradition_modifier_tooltip: "[GetModifier('development_from_tradition_modifier').GetDesc]"  #Машинный перевод 28.10.23!
- domain_tax_mult_from_tradition_modifier_tooltip: "[GetModifier('domain_tax_mult_from_tradition_modifier').GetDesc]"  #Машинный перевод 28.10.23!
- domain_limit_from_tradition_modifier_tooltip: "[GetModifier('domain_limit_from_tradition_modifier').GetDesc]"  #Машинный перевод 28.10.23!
- knight_effectiveness_from_tradition_modifier_tooltip: "[GetModifier('knight_effectiveness_from_tradition_modifier').GetDesc]"  #Машинный перевод 28.10.23!
- vassal_contribution_from_tradition_modifier_tooltip: "[GetModifier('vassal_contribution_from_tradition_modifier').GetDesc]"  #Машинный перевод 28.10.23!
- martial_per_piety_from_tradition_modifier_tooltip: "[GetModifier('martial_per_piety_from_tradition_modifier').GetDesc]"  #Машинный перевод 28.10.23!
+ medium_stress_gain_reduction_from_tradition_modifier_tooltip: "[GetModifier('medium_stress_gain_reduction_from_tradition_modifier').GetDesc]"
+ popular_opinion_from_tradition_modifier_tooltip: "[GetModifier('popular_opinion_from_tradition_modifier').GetDesc]"
+ vassal_tax_from_tradition_modifier_tooltip: "[GetModifier('vassal_tax_from_tradition_modifier').GetDesc]"
+ cultural_head_fascination_mult_from_tradition_modifier_tooltip: "[GetModifier('cultural_head_fascination_mult_from_tradition_modifier').GetDesc]"
+ learning_per_piety_level_from_tradition_modifier_tooltip: "[GetModifier('learning_per_piety_level_from_tradition_modifier').GetDesc]"
+ control_growth_from_tradition_modifier_tooltip: "[GetModifier('control_growth_from_tradition_modifier').GetDesc]"
+ tyranny_gain_reduction_from_tradition_modifier_tooltip: "[GetModifier('tyranny_gain_reduction_from_tradition_modifier').GetDesc]"
+ diplomacy_from_tradition_modifier_tooltip: "[GetModifier('diplomacy_from_tradition_modifier').GetDesc]"
+ prestige_from_tradition_modifier_tooltip: "[GetModifier('prestige_from_tradition_modifier').GetDesc]"
+ diplomacy_per_prestige_level_from_tradition_modifier_tooltip: "[GetModifier('diplomacy_per_prestige_level_from_tradition_modifier').GetDesc]"
+ vassal_opinion_from_tradition_modifier_tooltip: "[GetModifier('vassal_opinion_from_tradition_modifier').GetDesc]"
+ development_from_tradition_modifier_tooltip: "[GetModifier('development_from_tradition_modifier').GetDesc]"
+ domain_tax_mult_from_tradition_modifier_tooltip: "[GetModifier('domain_tax_mult_from_tradition_modifier').GetDesc]"
+ domain_limit_from_tradition_modifier_tooltip: "[GetModifier('domain_limit_from_tradition_modifier').GetDesc]"
+ knight_effectiveness_from_tradition_modifier_tooltip: "[GetModifier('knight_effectiveness_from_tradition_modifier').GetDesc]"
+ vassal_contribution_from_tradition_modifier_tooltip: "[GetModifier('vassal_contribution_from_tradition_modifier').GetDesc]"
+ martial_per_piety_from_tradition_modifier_tooltip: "[GetModifier('martial_per_piety_from_tradition_modifier').GetDesc]"
   
- provisional_court_will_preside_tooltip: "#E Временный суд#! будет председательствовать по делу."  #Машинный перевод 28.10.23!
- liege_will_preside_tooltip: "[trial_presiding_character.GetTitledFirstName] будет председательствовать по делу"  #Машинный перевод 28.10.23!
- high_court_will_preside_tooltip: "#E Высокий суд#! будет председательствовать по делу."  #Машинный перевод 28.10.23!
+ provisional_court_will_preside_tooltip: "#E Временный суд#! будет председательствовать по делу."
+ liege_will_preside_tooltip: "[trial_presiding_character.GetTitledFirstName] будет председательствовать по делу"
+ high_court_will_preside_tooltip: "#E Высокий суд#! будет председательствовать по делу."
   
- major_conflict_of_interest_exists_tooltip: "@warning_icon! #X Из-за отношений [trial_presiding_character.GetFirstNamePossessiveRegnal] с одной или обеими сторонами возникает серьезный конфликт интересов, и они могут отказаться от участия#!"  #Машинный перевод 28.10.23!
- minor_conflict_of_interest_exists_tooltip: "@warning_icon! #X В связи с отношениями [trial_presiding_character.GetFirstNamePossessiveRegnal] с одной или обеими сторонами возникает незначительный конфликт интересов, и они могут отказаться от участия#!"  #Машинный перевод 28.10.23!
+ major_conflict_of_interest_exists_tooltip: "@warning_icon! #X Из-за отношений [trial_presiding_character.GetFirstNamePossessiveRegnal] с одной или обеими сторонами возникает серьезный конфликт интересов, и они могут отказаться от участия#!"
+ minor_conflict_of_interest_exists_tooltip: "@warning_icon! #X В связи с отношениями [trial_presiding_character.GetFirstNamePossessiveRegnal] с одной или обеими сторонами возникает незначительный конфликт интересов, и они могут отказаться от участия#!"
   
- legal_tradition_action_virtuous_ruling_tooltip: "Обоснование вашего решения считается проницательным и справедливым."  #Машинный перевод 28.10.23!
- legal_tradition_action_acceptable_ruling_tooltip: "Обоснование вашего решения считается имеющим достаточное юридическое обоснование."  #Машинный перевод 28.10.23!
- legal_tradition_action_shoddy_ruling_tooltip: "Обоснование вашего решения считается дрянным и глупым."  #Машинный перевод 28.10.23!
+ legal_tradition_action_virtuous_ruling_tooltip: "Обоснование вашего решения считается проницательным и справедливым."
+ legal_tradition_action_acceptable_ruling_tooltip: "Обоснование вашего решения считается имеющим достаточное юридическое обоснование."
+ legal_tradition_action_shoddy_ruling_tooltip: "Обоснование вашего решения считается дрянным и глупым."
   
- legal_tradition_high_court_breakdown_tooltip: "[Localize(Concatenate(THIS.Var('legal_tradition_name').GetFlagName,'_name'))]: [GuiScope.SetRoot( THIS.Province.MakeScope ).AddScope('high_court_scope',high_court_scope.MakeScope).ScriptValue('legal_tradition_high_court_control_value')|0]%"  #Машинный перевод 28.10.23!
+ legal_tradition_high_court_breakdown_tooltip: "[Localize(Concatenate(THIS.Var('legal_tradition_name').GetFlagName,'_name'))]: [GuiScope.SetRoot( THIS.Province.MakeScope ).AddScope('high_court_scope',high_court_scope.MakeScope).ScriptValue('legal_tradition_high_court_control_value')|0]%"
   
- study_critical_success_tt: "Вы полностью усвоите учебный материал"  #Машинный перевод 28.10.23!
- study_success_tt: "Вы успешно усвоили учебный материал"  #Машинный перевод 28.10.23!
- study_failure_tt: "Твоя учеба идет плохо"  #Машинный перевод 28.10.23!
+ study_critical_success_tt: "Вы полностью усвоите учебный материал"
+ study_success_tt: "Вы успешно усвоили учебный материал"
+ study_failure_tt: "Твоя учеба идет плохо"
   
- USE_PIETY: "Используйте [piety|E]"  #Машинный перевод 28.10.23!
+ USE_PIETY: "Используйте [piety|E]"
   
   ##################### 
   # OPINION MODIFIERS # 
   ##################### 
   
- ruled_against_me_minor_legal_action: "Правило против меня"  #Машинный перевод 28.10.23!
- ruled_in_favor_of_me_minor_legal_action: "Решение в мою пользу"  #Машинный перевод 28.10.23!
- censure_opinion: "Осужденный"  #Машинный перевод 28.10.23!
- censured_me_opinion: "осудил меня"  #Машинный перевод 28.10.23!
+ ruled_against_me_minor_legal_action: "Правило против меня"
+ ruled_in_favor_of_me_minor_legal_action: "Решение в мою пользу"
+ censure_opinion: "Осужденный"
+ censured_me_opinion: "осудил меня"
   
   ############# 
   # MODIFIERS # 
   ############# 
- patronizing_legal_tradition_modifier_1: "Покровительство правовой традиции"  #Машинный перевод 28.10.23!
- patronizing_legal_tradition_modifier_2: "Покровительство правовой традиции"  #Машинный перевод 28.10.23!
- patronizing_legal_tradition_modifier_3: "Покровительство правовой традиции"  #Машинный перевод 28.10.23!
- patronizing_legal_tradition_modifier_4: "Покровительство правовой традиции"  #Машинный перевод 28.10.23!
- patronizing_legal_tradition_modifier_5: "Покровительство правовой традиции"  #Машинный перевод 28.10.23!
+ patronizing_legal_tradition_modifier_1: "Покровительство правовой традиции"
+ patronizing_legal_tradition_modifier_2: "Покровительство правовой традиции"
+ patronizing_legal_tradition_modifier_3: "Покровительство правовой традиции"
+ patronizing_legal_tradition_modifier_4: "Покровительство правовой традиции"
+ patronizing_legal_tradition_modifier_5: "Покровительство правовой традиции"
   
- censured_modifier: "Недавно осужденный"  #Машинный перевод 28.10.23!
+ censured_modifier: "Недавно осужденный"
   
- radicalism_modifier_low: "Обходя радикализм"  #Машинный перевод 28.10.23!
- radicalism_modifier_high: "Радикальный"  #Машинный перевод 28.10.23!
+ radicalism_modifier_low: "Обходя радикализм"
+ radicalism_modifier_high: "Радикальный"
   
- corruption_modifier_low: "Коррумпированный"  #Машинный перевод 28.10.23!
- corruption_modifier_high: "Чрезвычайно коррумпированный"  #Машинный перевод 28.10.23!
+ corruption_modifier_low: "Коррумпированный"
+ corruption_modifier_high: "Чрезвычайно коррумпированный"
   
- medium_stress_gain_reduction_from_tradition_modifier: "$medium_stress_gain_reduction_from_tradition_modifier_name$"  #Машинный перевод 28.10.23!
- medium_stress_gain_reduction_from_tradition_modifier_name: "Правовая традиция"  #Машинный перевод 28.10.23!
+ medium_stress_gain_reduction_from_tradition_modifier: "$medium_stress_gain_reduction_from_tradition_modifier_name$"
+ medium_stress_gain_reduction_from_tradition_modifier_name: "Правовая традиция"
  medium_stress_gain_reduction_from_tradition_modifier_desc: ""
- popular_opinion_from_tradition_modifier: "$popular_opinion_from_tradition_modifier_name$"  #Машинный перевод 28.10.23!
- popular_opinion_from_tradition_modifier_name: "Правовая традиция"  #Машинный перевод 28.10.23!
+ popular_opinion_from_tradition_modifier: "$popular_opinion_from_tradition_modifier_name$"
+ popular_opinion_from_tradition_modifier_name: "Правовая традиция"
  popular_opinion_from_tradition_modifier_desc: ""
- vassal_tax_from_tradition_modifier: "$vassal_tax_from_tradition_modifier_name$"  #Машинный перевод 28.10.23!
- vassal_tax_from_tradition_modifier_name: "Правовая традиция"  #Машинный перевод 28.10.23!
+ vassal_tax_from_tradition_modifier: "$vassal_tax_from_tradition_modifier_name$"
+ vassal_tax_from_tradition_modifier_name: "Правовая традиция"
  vassal_tax_from_tradition_modifier_desc: ""
- cultural_head_fascination_mult_from_tradition_modifier: "$cultural_head_fascination_mult_from_tradition_modifier_name$"  #Машинный перевод 28.10.23!
- cultural_head_fascination_mult_from_tradition_modifier_name: "Правовая традиция"  #Машинный перевод 28.10.23!
+ cultural_head_fascination_mult_from_tradition_modifier: "$cultural_head_fascination_mult_from_tradition_modifier_name$"
+ cultural_head_fascination_mult_from_tradition_modifier_name: "Правовая традиция"
  cultural_head_fascination_mult_from_tradition_modifier_desc: ""
- learning_per_piety_level_from_tradition_modifier: "$learning_per_piety_level_from_tradition_modifier_name$"  #Машинный перевод 28.10.23!
- learning_per_piety_level_from_tradition_modifier_name: "Правовая традиция"  #Машинный перевод 28.10.23!
+ learning_per_piety_level_from_tradition_modifier: "$learning_per_piety_level_from_tradition_modifier_name$"
+ learning_per_piety_level_from_tradition_modifier_name: "Правовая традиция"
  learning_per_piety_level_from_tradition_modifier_desc: ""
- control_growth_from_tradition_modifier: "$control_growth_from_tradition_modifier_name$"  #Машинный перевод 28.10.23!
- control_growth_from_tradition_modifier_name: "Правовая традиция"  #Машинный перевод 28.10.23!
+ control_growth_from_tradition_modifier: "$control_growth_from_tradition_modifier_name$"
+ control_growth_from_tradition_modifier_name: "Правовая традиция"
  control_growth_from_tradition_modifier_desc: ""
- tyranny_gain_reduction_from_tradition_modifier: "$tyranny_gain_reduction_from_tradition_modifier_name$"  #Машинный перевод 28.10.23!
- tyranny_gain_reduction_from_tradition_modifier_name: "Правовая традиция"  #Машинный перевод 28.10.23!
+ tyranny_gain_reduction_from_tradition_modifier: "$tyranny_gain_reduction_from_tradition_modifier_name$"
+ tyranny_gain_reduction_from_tradition_modifier_name: "Правовая традиция"
  tyranny_gain_reduction_from_tradition_modifier_desc: ""
- diplomacy_from_tradition_modifier: "$diplomacy_from_tradition_modifier_name$"  #Машинный перевод 28.10.23!
- diplomacy_from_tradition_modifier_name: "Правовая традиция"  #Машинный перевод 28.10.23!
+ diplomacy_from_tradition_modifier: "$diplomacy_from_tradition_modifier_name$"
+ diplomacy_from_tradition_modifier_name: "Правовая традиция"
  diplomacy_from_tradition_modifier_desc: ""
- prestige_from_tradition_modifier: "$prestige_from_tradition_modifier_name$"  #Машинный перевод 28.10.23!
- prestige_from_tradition_modifier_name: "Правовая традиция"  #Машинный перевод 28.10.23!
+ prestige_from_tradition_modifier: "$prestige_from_tradition_modifier_name$"
+ prestige_from_tradition_modifier_name: "Правовая традиция"
  prestige_from_tradition_modifier_desc: ""
- diplomacy_per_prestige_level_from_tradition_modifier: "$diplomacy_per_prestige_level_from_tradition_modifier_name$"  #Машинный перевод 28.10.23!
- diplomacy_per_prestige_level_from_tradition_modifier_name: "Правовая традиция"  #Машинный перевод 28.10.23!
+ diplomacy_per_prestige_level_from_tradition_modifier: "$diplomacy_per_prestige_level_from_tradition_modifier_name$"
+ diplomacy_per_prestige_level_from_tradition_modifier_name: "Правовая традиция"
  diplomacy_per_prestige_level_from_tradition_modifier_desc: ""
- vassal_opinion_from_tradition_modifier: "$vassal_opinion_from_tradition_modifier_name$"  #Машинный перевод 28.10.23!
- vassal_opinion_from_tradition_modifier_name: "Правовая традиция"  #Машинный перевод 28.10.23!
+ vassal_opinion_from_tradition_modifier: "$vassal_opinion_from_tradition_modifier_name$"
+ vassal_opinion_from_tradition_modifier_name: "Правовая традиция"
  vassal_opinion_from_tradition_modifier_desc: ""
- development_from_tradition_modifier: "$development_from_tradition_modifier_name$"  #Машинный перевод 28.10.23!
- development_from_tradition_modifier_name: "Правовая традиция"  #Машинный перевод 28.10.23!
+ development_from_tradition_modifier: "$development_from_tradition_modifier_name$"
+ development_from_tradition_modifier_name: "Правовая традиция"
  development_from_tradition_modifier_desc: ""
- domain_tax_mult_from_tradition_modifier: "$domain_tax_mult_from_tradition_modifier_name$"  #Машинный перевод 28.10.23!
- domain_tax_mult_from_tradition_modifier_name: "Правовая традиция"  #Машинный перевод 28.10.23!
+ domain_tax_mult_from_tradition_modifier: "$domain_tax_mult_from_tradition_modifier_name$"
+ domain_tax_mult_from_tradition_modifier_name: "Правовая традиция"
  domain_tax_mult_from_tradition_modifier_desc: ""
- domain_limit_from_tradition_modifier: "$domain_limit_from_tradition_modifier_name$"  #Машинный перевод 28.10.23!
- domain_limit_from_tradition_modifier_name: "Правовая традиция"  #Машинный перевод 28.10.23!
+ domain_limit_from_tradition_modifier: "$domain_limit_from_tradition_modifier_name$"
+ domain_limit_from_tradition_modifier_name: "Правовая традиция"
  domain_limit_from_tradition_modifier_desc: ""
- knight_effectiveness_from_tradition_modifier: "$knight_effectiveness_from_tradition_modifier_name$"  #Машинный перевод 28.10.23!
- knight_effectiveness_from_tradition_modifier_name: "Правовая традиция"  #Машинный перевод 28.10.23!
+ knight_effectiveness_from_tradition_modifier: "$knight_effectiveness_from_tradition_modifier_name$"
+ knight_effectiveness_from_tradition_modifier_name: "Правовая традиция"
  knight_effectiveness_from_tradition_modifier_desc: ""
- vassal_contribution_from_tradition_modifier: "$vassal_contribution_from_tradition_modifier_name$"  #Машинный перевод 28.10.23!
- vassal_contribution_from_tradition_modifier_name: "Правовая традиция"  #Машинный перевод 28.10.23!
+ vassal_contribution_from_tradition_modifier: "$vassal_contribution_from_tradition_modifier_name$"
+ vassal_contribution_from_tradition_modifier_name: "Правовая традиция"
  vassal_contribution_from_tradition_modifier_desc: ""
- martial_per_piety_from_tradition_modifier: "$martial_per_piety_from_tradition_modifier_name$"  #Машинный перевод 28.10.23!
- martial_per_piety_from_tradition_modifier_name: "Правовая традиция"  #Машинный перевод 28.10.23!
+ martial_per_piety_from_tradition_modifier: "$martial_per_piety_from_tradition_modifier_name$"
+ martial_per_piety_from_tradition_modifier_name: "Правовая традиция"
  martial_per_piety_from_tradition_modifier_desc: ""
   
- high_court_legitimacy_very_low_mamur_modifier: "$wardenite_high_court_legitimacy_very_low_doctrine_name$"  #Машинный перевод 28.10.23!
- high_court_legitimacy_low_mamur_modifier: "$wardenite_high_court_legitimacy_low_doctrine_name$"  #Машинный перевод 28.10.23!
- high_court_legitimacy_high_mamur_modifier: "$wardenite_high_court_legitimacy_high_doctrine_name$"  #Машинный перевод 28.10.23!
- high_court_legitimacy_very_high_mamur_modifier: "$wardenite_high_court_legitimacy_very_high_doctrine_name$"  #Машинный перевод 28.10.23!
+ high_court_legitimacy_very_low_mamur_modifier: "$wardenite_high_court_legitimacy_very_low_doctrine_name$"
+ high_court_legitimacy_low_mamur_modifier: "$wardenite_high_court_legitimacy_low_doctrine_name$"
+ high_court_legitimacy_high_mamur_modifier: "$wardenite_high_court_legitimacy_high_doctrine_name$"
+ high_court_legitimacy_very_high_mamur_modifier: "$wardenite_high_court_legitimacy_very_high_doctrine_name$"
   
   ########### 
   # GUI LOC # 
   ########### 
- INNOVATION_APPROACH: "Вы сосредоточитесь на более быстром повышении своего #E судебного навыка#!, занимаясь нетрадиционной методологией и юридическими экспериментами. Все юридические проблемы станут значительно сложнее, но дадут #P двойного #! @judicial_power_icon!#E Прогресс черты юриста#!. Однако каждое судебное разбирательство, в котором вы участвуете, имеет значительную вероятность поднять ваш @radicalism_icon!#E Радикализм#!."  #Машинный перевод 28.10.23!
- SCHOLARSHIP_APPROACH: "Вы сосредоточитесь на повышении прогресса вашей #E правовой традиции#!, внося свой вклад в ее юридический корпус, используя свои дела. Все юридические вызовы дадут #N больше#! @stress_gain_icon![stress|E], но дадут @prestige_icon![prestige|E] и внесут вклад в @judicial_power_icon!#E Прогресс правовой традиции#! вашей традиции. Каждое судебное разбирательство, в котором вы участвуете, имеет небольшой шанс повысить ваш @radicalism_icon!#E Радикализм#!, но гораздо меньший, чем при использовании подхода #E Инновации#!."  #Машинный перевод 28.10.23!
- GRIFTING_APPROACH: "Вы сосредоточитесь на злоупотреблениях правовой системой, чтобы набить свои карманы и расширить свою власть. Каждый #E Legal Challenge#!, в котором вы участвуете, добавит ваш @skill_intrigue_icon![intrigue|E] к вашему @judicial_power_icon!#E Судебной власти#! и у вас будет шанс дать вам @gold_icon![gold|E]. Однако существует также значительная вероятность того, что вы получите @corruption_icon!#E Corruption#! и потеряете @piety_icon![piety|E] из-за вашей тайной деятельности."  #Машинный перевод 28.10.23!
- ORTHODOXY_APPROACH: "Вы сосредоточитесь на том, чтобы не раскачивать лодку, а просто применять закон в рамках ортодоксальности в меру своих возможностей. @piety_icon![piety|E] награды за #E Юридические испытания#! будут увеличены на #P +20%#!, а ваши @radicalism_icon!#E Радикализм#! и @corruption_icon!#E Коррупция#! будут постепенно снижаться."  #Машинный перевод 28.10.23!
+ INNOVATION_APPROACH: "Вы сосредоточитесь на более быстром повышении своего #E судебного навыка#!, занимаясь нетрадиционной методологией и юридическими экспериментами. Все юридические проблемы станут значительно сложнее, но дадут #P двойного #! @judicial_power_icon!#E Прогресс черты юриста#!. Однако каждое судебное разбирательство, в котором вы участвуете, имеет значительную вероятность поднять ваш @radicalism_icon!#E Радикализм#!."
+ SCHOLARSHIP_APPROACH: "Вы сосредоточитесь на повышении прогресса вашей #E правовой традиции#!, внося свой вклад в ее юридический корпус, используя свои дела. Все юридические вызовы дадут #N больше#! @stress_gain_icon![stress|E], но дадут @prestige_icon![prestige|E] и внесут вклад в @judicial_power_icon!#E Прогресс правовой традиции#! вашей традиции. Каждое судебное разбирательство, в котором вы участвуете, имеет небольшой шанс повысить ваш @radicalism_icon!#E Радикализм#!, но гораздо меньший, чем при использовании подхода #E Инновации#!."
+ GRIFTING_APPROACH: "Вы сосредоточитесь на злоупотреблениях правовой системой, чтобы набить свои карманы и расширить свою власть. Каждый #E Legal Challenge#!, в котором вы участвуете, добавит ваш @skill_intrigue_icon![intrigue|E] к вашему @judicial_power_icon!#E Судебной власти#! и у вас будет шанс дать вам @gold_icon![gold|E]. Однако существует также значительная вероятность того, что вы получите @corruption_icon!#E Corruption#! и потеряете @piety_icon![piety|E] из-за вашей тайной деятельности."
+ ORTHODOXY_APPROACH: "Вы сосредоточитесь на том, чтобы не раскачивать лодку, а просто применять закон в рамках ортодоксальности в меру своих возможностей. @piety_icon![piety|E] награды за #E Юридические испытания#! будут увеличены на #P +20%#!, а ваши @radicalism_icon!#E Радикализм#! и @corruption_icon!#E Коррупция#! будут постепенно снижаться."
   
   ####################### 
   # PRESCRIPTED SCHOOLS # 
   ####################### 
   
- doctrine_wardenite_school_name: "Юридическая школа"  #Машинный перевод 28.10.23!
- wardenite_mainstream_doctrine_name: "А'Баджармиа - основная традиция"  #Машинный перевод 28.10.23!
- wardenite_mainstream_doctrine_desc: "Школа А'Баджармиа, или «Основная линия», - это прагматики, признающие необходимость единственного Мамура в принципе и теории - хотя и не обязательно соглашающиеся с тем, кто на самом деле является истинным Мамуром. Школа предлагает широкую терпимость к разным правовым традициям, придерживаясь в целом принципа, согласно которому единство традиций веры варденитов важнее строгой чистоты мыслей и практики. На протяжении веков школа впитала в себя несколько конкурирующих традиций и теперь считает некогда пограничных еретиков Ташбариа (метафоралистов) и Хаариа (эмоционалистов) как придатки к своему корпусу. Конечно, терпимость имеет пределы, и многие другие традиции канули в безвестность из-за подавления Абаджармиа."  #Машинный перевод 28.10.23!
- wardenite_idealist_doctrine_name: "Затмалиа – идеалистическая традиция"  #Машинный перевод 28.10.23!
- wardenite_idealist_doctrine_desc: "Идеалисты в целом не признают необходимость Мамура, считая эту должность чем-то необходимым только в контексте ранних кампаний Первого Стража, пережитком менее сложных времен. Наиболее динамичные из Варденитов придерживаются законнических традиций, которые подчеркивают необходимость нового толкования, во многом полагаясь на конкретную серию отрывков, написанных Первым Стражем в «Видении Башни Ангела», описывающих возможные судьбы человечества в далеком будущем. В то время как другие школы сразу же отмечают, что эти отрывки почти наверняка были предостережением против безрассудных нововведений, засмалиа придерживаются противоположной интерпретации."  #Машинный перевод 28.10.23!
- wardenite_traditionalist_doctrine_name: "Табакайа – традиционалистская традиция"  #Машинный перевод 28.10.23!
- wardenite_traditionalist_doctrine_desc: "Традиционалисты Табакаи признают существование и необходимость нескольких Мамуров, полагая, что их роль как светских военных лидеров крайне необходима, поскольку кампании Первого Стража никогда по-настоящему не заканчивались Ритуалистами - и теперь их эффективная замена Агионистам все еще существующий. Примечательно, что табакаи часто довольно терпимы к язычникам, которых они считают не вовлеченными в их великую борьбу, часто предпочитая игнорировать и полностью избегать их."  #Машинный перевод 28.10.23!
- wardenite_radical_doctrine_name: "Мататазариа - Радикалы"  #Машинный перевод 28.10.23!
- wardenite_radical_doctrine_desc: "Обобщение весьма различных отраслей права. Между А'Баджармиа, Затмалиа и Табакаиа существует непростой мир, и они чаще борются со своими религиозными спорами в зале суда, чем на поле боя. Это хрупкое соглашение было достигнуто ценой нескольких правовых традиций, которые не смогли объединиться с одним из трех основных направлений, получившим уничижительный термин «мататазариа» - радикальный. У них мало общего, о чем свидетельствуют как пацифистская «Зубатайа», так и печально известная жестокая бандитская правовая традиция «Катирриа», которые разделяют осуждение."  #Машинный перевод 28.10.23!
+ doctrine_wardenite_school_name: "Юридическая школа"
+ wardenite_mainstream_doctrine_name: "А'Баджармиа - основная традиция"
+ wardenite_mainstream_doctrine_desc: "Школа А'Баджармиа, или «Основная линия», - это прагматики, признающие необходимость единственного Мамура в принципе и теории - хотя и не обязательно соглашающиеся с тем, кто на самом деле является истинным Мамуром. Школа предлагает широкую терпимость к разным правовым традициям, придерживаясь в целом принципа, согласно которому единство традиций веры варденитов важнее строгой чистоты мыслей и практики. На протяжении веков школа впитала в себя несколько конкурирующих традиций и теперь считает некогда пограничных еретиков Ташбариа (метафоралистов) и Хаариа (эмоционалистов) как придатки к своему корпусу. Конечно, терпимость имеет пределы, и многие другие традиции канули в безвестность из-за подавления Абаджармиа."
+ wardenite_idealist_doctrine_name: "Затмалиа – идеалистическая традиция"
+ wardenite_idealist_doctrine_desc: "Идеалисты в целом не признают необходимость Мамура, считая эту должность чем-то необходимым только в контексте ранних кампаний Первого Стража, пережитком менее сложных времен. Наиболее динамичные из Варденитов придерживаются законнических традиций, которые подчеркивают необходимость нового толкования, во многом полагаясь на конкретную серию отрывков, написанных Первым Стражем в «Видении Башни Ангела», описывающих возможные судьбы человечества в далеком будущем. В то время как другие школы сразу же отмечают, что эти отрывки почти наверняка были предостережением против безрассудных нововведений, засмалиа придерживаются противоположной интерпретации."
+ wardenite_traditionalist_doctrine_name: "Табакайа – традиционалистская традиция"
+ wardenite_traditionalist_doctrine_desc: "Традиционалисты Табакаи признают существование и необходимость нескольких Мамуров, полагая, что их роль как светских военных лидеров крайне необходима, поскольку кампании Первого Стража никогда по-настоящему не заканчивались Ритуалистами - и теперь их эффективная замена Агионистам все еще существующий. Примечательно, что табакаи часто довольно терпимы к язычникам, которых они считают не вовлеченными в их великую борьбу, часто предпочитая игнорировать и полностью избегать их."
+ wardenite_radical_doctrine_name: "Мататазариа - Радикалы"
+ wardenite_radical_doctrine_desc: "Обобщение весьма различных отраслей права. Между А'Баджармиа, Затмалиа и Табакаиа существует непростой мир, и они чаще борются со своими религиозными спорами в зале суда, чем на поле боя. Это хрупкое соглашение было достигнуто ценой нескольких правовых традиций, которые не смогли объединиться с одним из трех основных направлений, получившим уничижительный термин «мататазариа» - радикальный. У них мало общего, о чем свидетельствуют как пацифистская «Зубатайа», так и печально известная жестокая бандитская правовая традиция «Катирриа», которые разделяют осуждение."
   
- doctrine_high_court_legitimacy_name: "Легитимность Высокого суда"  #Машинный перевод 28.10.23!
- wardenite_high_court_legitimacy_very_low_doctrine_name: "Ужасный Высокий суд"  #Машинный перевод 28.10.23!
+ doctrine_high_court_legitimacy_name: "Легитимность Высокого суда"
+ wardenite_high_court_legitimacy_very_low_doctrine_name: "Ужасный Высокий суд"
  wardenite_high_court_legitimacy_very_low_doctrine_desc: ""
- wardenite_high_court_legitimacy_low_doctrine_name: "Нечестивый Высокий суд"  #Машинный перевод 28.10.23!
+ wardenite_high_court_legitimacy_low_doctrine_name: "Нечестивый Высокий суд"
  wardenite_high_court_legitimacy_low_doctrine_desc: ""
- wardenite_high_court_legitimacy_neutral_doctrine_name: "Респектабельный Высокий суд"  #Машинный перевод 28.10.23!
+ wardenite_high_court_legitimacy_neutral_doctrine_name: "Респектабельный Высокий суд"
  wardenite_high_court_legitimacy_neutral_doctrine_desc: ""
- wardenite_high_court_legitimacy_high_doctrine_name: "Славный Высокий суд"  #Машинный перевод 28.10.23!
+ wardenite_high_court_legitimacy_high_doctrine_name: "Славный Высокий суд"
  wardenite_high_court_legitimacy_high_doctrine_desc: ""
- wardenite_high_court_legitimacy_very_high_doctrine_name: "Легендарный Высокий суд"  #Машинный перевод 28.10.23!
+ wardenite_high_court_legitimacy_very_high_doctrine_name: "Легендарный Высокий суд"
  wardenite_high_court_legitimacy_very_high_doctrine_desc: ""
   
- special_doctrine_singular_mamur_hostility_name: "Узнаёт одного Мамура"  #Машинный перевод 28.10.23!
- special_doctrine_singular_mamur_hostility_desc: "Только один истинный [mamur|E] может руководить [wardenism|E], а все остальные являются лишь радикальными претендентами."  #Машинный перевод 28.10.23!
- FAITH_TRADITIONS: "Юридические школы"  #Машинный перевод 28.10.23!
- FAITH_TRADITIONS_EXPLANATION: "Варденизм имеет давнюю и гордую легалистическую традицию, восходящую к заре веры и Первого Стража. Фундаментальные убеждения варденитов в равенстве разума и праве на правовую защиту привели к появлению множества различных юридических школ, расходящихся по различным деталям религиозного права варденитов."  #Машинный перевод 28.10.23!
+ special_doctrine_singular_mamur_hostility_name: "Узнаёт одного Мамура"
+ special_doctrine_singular_mamur_hostility_desc: "Только один истинный [mamur|E] может руководить [wardenism|E], а все остальные являются лишь радикальными претендентами."
+ FAITH_TRADITIONS: "Юридические школы"
+ FAITH_TRADITIONS_EXPLANATION: "Варденизм имеет давнюю и гордую легалистическую традицию, восходящую к заре веры и Первого Стража. Фундаментальные убеждения варденитов в равенстве разума и праве на правовую защиту привели к появлению множества различных юридических школ, расходящихся по различным деталям религиозного права варденитов."
   
- maridai_name: "Maridai'a"  #Машинный перевод 28.10.23!
- maridai_desc: "Реформаторское движение, возглавленное харизматичным верховным судьей Мудабариком в 1203 году, оно заигрывает с радикализмом разными способами, например, подчеркивает ответственность верующих варденитов выносить независимое суждение в ситуациях, когда мамуры могут быть не в состоянии вынести свое собственное решение. суждение. Поскольку это явно включает в себя ситуации, когда у верующих могут быть основания полагать, что Мамур не обладает необходимыми знаниями о местных делах, чтобы точно выносить суждения, школу иногда обвиняют в том, что она превращает «каждого вольноотпущенника в Мамура» - обвинение, которое Мудабарик выдвинул своему серьёзное отрицание."  #Машинный перевод 28.10.23!
- tashbari_name: "Ташбария"  #Машинный перевод 28.10.23!
- tashbari_desc: "Ташбариа, или метафоралисты, когда-то считались радикальной сектой, поскольку они украсили списки запрещенных школ Мамура Насира ибн Усмана в 895 году. Однако школа сумела выдержать как жестокие чистки, так и юридическое давление, и добилась повышения до основного направления. статус, когда преемник Насира Юсуф назначил четырех их ученых высшими судьями, закрепив с тех пор свою власть над правовой традицией варденитов. Они подчеркивают необходимость понимания использования метафоры Первым смотрителем в своих произведениях, чтобы сделать юридические выводы."  #Машинный перевод 28.10.23!
- babatadi_name: "Бабатадиа"  #Машинный перевод 28.10.23!
- babatadi_desc: "Бабатадиа имеют сомнительную честь быть традиционной школой, которой покровительствует Мамурамат, во многом благодаря их стойкой защите права Мамура на окончательное решение во всех юридических вопросах. Хотя судьи Бабатадиа, обвиняемые в подхалиме, сразу же отмечают, что школа устанавливает строгие ограничения на то, что именно находится в юрисдикции Мамура для вынесения решений, ученым было трудно избавиться от этой репутации."  #Машинный перевод 28.10.23!
- zaydeni_name: "Зайдениа"  #Машинный перевод 28.10.23!
- zaydeni_desc: "Зайдениа — одна из старейших юридических школ варденитской веры, которая на несколько столетий предшествует большинству современных школ и пережила больше соперничающих традиций, чем может сосчитать большинство ученых. Они придерживаются несколько агностического взгляда на самого Мамура, вместо этого сосредотачиваясь на поведении и образовании судей, а также на соблюдении Первых законов как основополагающих для всей другой юридической практики."  #Машинный перевод 28.10.23!
- atarni_name: "Атарния"  #Машинный перевод 28.10.23!
- atarni_desc: "Атарния — лишь последние в длинной череде буквалистских движений, которые приобрели известность, а затем потеряли свою актуальность. Единственное, что объединяло эти школы, — это упрямая позиция, согласно которой каждый отрывок, написанный Первым Стражем, должен интерпретироваться без привнесения личных предпосылок, контекста или метафор почти во всех случаях. Это привело к тому, что школы буквализма стали несколько причудливыми и негибкими в своей общей практике, но привлекательность такого простого и чистого подхода к зачастую непрозрачному набору прецедентного права означает, что всякий раз, когда одна школа падает, на ее место вскоре приходит другая."  #Машинный перевод 28.10.23!
- ruthamari_name: "Рутамария"  #Машинный перевод 28.10.23!
- ruthamari_desc: "Рутамариям приписывают основание и распространение затмалитского инакомыслия в 678 году, и они до сих пор являются сердцем идеалистического движения, а также связующим звеном, скрепляющим его часто расходящиеся традиции и поддерживающим его ортодоксальность против искушений радикализма. В основе их несогласия было и остается утверждение, что Мамуры, как и древние военные законы, были продуктом Великого восстания. Поскольку времена восстания против злых Ритуалистов остались далеко в прошлом, верующие Вардениты должны искать новые политические решения своих проблем, чтобы с таким трудом завоеванные достижения Первого Стража не были потеряны из-за некомпетентности."  #Машинный перевод 28.10.23!
- narabiqi_name: "Нарабикния"  #Машинный перевод 28.10.23!
- narabiqi_desc: "Спорная идеалистическая школа, Нарабикиа, или популисты, не столько отвергает Мамур, сколько вместо этого решила полностью переопределить это название. Любой варденит, которого сверстники хвалят за действия по защите Столпов добродетели в борьбе со злом, может быть так прославлен, и Мамуров может быть столько, сколько считает необходимым варденит. Другие нововведения Нарабикиа возникли в результате применения принципа признания к другим правовым загадкам и привели к ряду неортодоксальных решений."  #Машинный перевод 28.10.23!
- tarthari_name: "Тартария"  #Машинный перевод 28.10.23!
- tarthari_desc: "Правовые традиции Тартарии составляют ядро ​​Катистинского инакомыслия в 1152 году ИС. Многие из их правовых принципов стали основой этой веры, в первую очередь строго кодифицированный список прав и обязанностей, возложенных на судей, а также вывод о том, что попытки повлиять на юридические решения со стороны лиц, не имеющих полномочий, должны квалифицироваться как непростительные преступления."  #Машинный перевод 28.10.23!
- kedbarki_name: "Кедбаркиа"  #Машинный перевод 28.10.23!
- kedbarki_desc: "Школа Кедбаркиа, будучи очень воинственной школой, началась с серии юридических разногласий по поводу толерантности к ритуалистам, при этом законники-основатели школы заняли позицию, согласно которой все необращенные ритуалисты фактически являются вражескими комбатантами. В последующие годы Кедбаркиа развили этот тезис, приняв общую позицию, согласно которой вера Варденитов по-прежнему должна быть структурирована как военные лагеря в ранних кампаниях Первого Стража. Все легкомыслие должно быть принесено в жертву, чтобы Зло наконец было побеждено."  #Машинный перевод 28.10.23!
- hasani_name: "Хасания"  #Машинный перевод 28.10.23!
- hasani_desc: "Спорная и молодая ветвь идеалистического вардизма, Хасаниа возникла из последователей магистрата Хасана ибн Убайда в конце 12 века ИС. Хасаниты проповедуют, как и их основатель, — что все верующие Вардениты являются носителями законов Первого Стража. Нелегитимны не только Мамуры, но и все особые полномочия и разрешения, предоставленные судьям и магистратам. Судья, говорят они, может по-настоящему обладать только полномочиями, предоставленными ему сообществом верных варденитов в целом. Любые другие претензии не только незаконны, но и по своей сути являются незаконной формой тирании.\n\nНетрадиционная интерпретация Хасаном ибн Убайдом варденитского закона привела бы к тому, что Ришад аль Ма' вычистил его и его последователей из совета Республики Дисувай. aj в 1159 году, и он провел последние два года своей жизни в тюрьме, прежде чем умер от пневмонии в 1161 году. Его последователи смогли убедить Высокий суд идеалистов отменить постановление, осуждающее их как радикалов в 1181 году, осудив своих наиболее радикальных коллег, но их статус в идеалистическом движении все еще весьма незначителен."  #Машинный перевод 28.10.23!
- thabiti_name: "Табития"  #Машинный перевод 28.10.23!
- thabiti_desc: "Школа, наиболее тесно связанная с [GetTitleByKey('e_eastern_mamuramat').GetNameNoTier] в период ее расцвета, в разгар Эпохи Огня, Табития всегда сохраняла сильное присутствие в восточной половине Варденитского Саррадона, даже после того, как Мамур Таттали формально включил этот титул в его собственный брак с дочерью последнего Восточного Мамура, Санад, во время хаоса Падения в 810 IS."  #Машинный перевод 28.10.23!
- misria_name: "Мисрия"  #Машинный перевод 28.10.23!
- misria_desc: "Традиция, печально известная своими мистическими и странными практиками, мисриа взяла ряд отрывков, которые большинство школ интерпретируют как одобряющие использование личной проницательности среди судей, означающие, что судья, если он правильно обучен, может получать прозрения, общаясь с Тем, Кто Во многом это было так же, как удостоился чести Первого Стража."  #Машинный перевод 28.10.23!
- ajari_name: "Аджария"  #Машинный перевод 28.10.23!
- ajari_desc: "Возвращаясь к самой ранней эпохе правовой доктрины Варденитов, аджарцы считают, что действительные юридические аргументы должны быть получены исключительно из небольшого набора документов, в первую очередь из «Книги дней», «Столпов добродетели» и «Записей суда надзирателя». . Любое другое решение, в том числе чрезмерное доверие к независимому решению судьи, полностью сделает решение недействительным. Конечно, жесткая позиция, но она сохранялась на протяжении веков."  #Машинный перевод 28.10.23!
- alshammi_name: "А'Шаммиа"  #Машинный перевод 28.10.23!
- alshammi_desc: "А'Шаммиа были традиционной школой дальневосточного Маммурамата, и школа до сих пор считает себя поддерживающей миссию экспедиции «Восход», которая создала противоречивого и недолговечного четвертого Мамура, преследующего ритуалистов до далекой Каширии. . Титул был освобожден после исчезновения второго дальневосточного Мамура Убайдара вместе с его армиями во время предполагаемого [gedeora|E] в 409 году ИС, но с тех пор А'Шаммиа искали поддержки для его восстановления."  #Машинный перевод 28.10.23!
- kurushi_name: "Kurushi'a"  #Машинный перевод 28.10.23!
- kurushi_desc: "Следуя традиции, они заявляют, что это период золотого века Мамурамата (имеются в виду годы между смертью Первого Хранителя в 341 ИС и роспуском Западного Мамура в 627 ИС), конец которого они называют причиной всякого рода дисфункций. в вере Варденитов. Хотя теоретически они поддерживают оставшегося Мамура, их историческая настойчивость в том, что они юридически являются обладателями всех трех титулов Мамурамата, привела к тому, что судьи Курушиа поддержали нескольких неудавшихся повстанцев в попытке восстановить один или несколько аннулированных титулов."  #Машинный перевод 28.10.23!
- hathali_name: "Хаталия"  #Машинный перевод 28.10.23!
- hathali_desc: "Традиция, связанная с Иблиди Мамурами на Западе, Хаталиа достигла беспрецедентной известности во второй половине существования своего хозяина Мамурамата. К сожалению, их судьба рухнула после исчезновения основной династической линии Иблиди в 652 году, когда различные фракции внутри [GetTitleByKey('e_western_mamuramat').GetNameNoTier] погрузились в ожесточенную и, в конечном итоге, саморазрушительную гражданскую войну за контроль над троном. Сама традиция Хаталиа переросла в особенно жестокую фракционность, которая закончилась печально известным Судом Кинжалов в 675 году, когда предпринятая в последнюю минуту попытка посредничества между претендентами на трон переросла в хаотическую кровавую бойню, в которой судья убил судью. Ужас, который это событие породило во всем мире Варденитов, часто считается провокацией, которая побудила Мамуров Центра вмешаться, чтобы окончательно положить конец борьбе, и самого Западного Мамрамата.\n\nСостояние Хаталиа несколько восстановилось, но их известность так и не вернулась. Они примечательны своей жесткой и несколько навязчивой системой проверки потенциальных судей на компетентность и честность."  #Машинный перевод 28.10.23!
- mabruki_name: "Мабрукиа"  #Машинный перевод 28.10.23!
- mabruki_desc: "Мабрукиа — уникальная и древняя школа традиционной ветви юриспруденции варденитов. Связывая свое несогласие с серией юридических постановлений, обнародованных самим Первым Стражем для разрешения городских споров, когда вера начала утверждаться по всему Саррадону, Мабрукиа утверждают, что право инакомыслия распространяется на всех Стражей, достигших совершеннолетия, и четко определенный свод торгового права. Школа пользуется особой популярностью в городах."  #Машинный перевод 28.10.23!
- zubatai_name: "Зубатай"  #Машинный перевод 28.10.23!
- zubatai_desc: "Радикальное движение, основанное в 879 году, но имеющее корни в некоторых сельских саррадонских народных дворах, уходящих корнями в гораздо более давнюю историю, Зубатайа заслужило гнев остальной части зачастую воинственной веры Варденитов, отвергая в принципе самую суть ее истории - Борьбу. Против Зла. Основываясь на ряде текстов, которые большинство ученых-варденитов считают апокрифическими, судьи Зубатайа сочли большинство актов насилия непростительными преступлениями с лишь узким исключением для самообороны. Тот факт, что это неприятие распространяется на обязанность вмешаться, привел к тому, что эта школа в значительной степени подавляется большинством варденитских штатов."  #Машинный перевод 28.10.23!
- qatirri_name: "Катирриа"  #Машинный перевод 28.10.23!
- qatirri_desc: "Катирриа, которую иногда называют «бандитской школой», едва ли можно назвать последовательной школой мысли, и чаще всего ее называют таковой судьи, не принадлежащие к Катирриа, стремящиеся объединить ряд неортодоксальных убеждений в одну легко осуждаемую категорию. . В общих чертах, эта традиция является возвратом к «Законам войны», которые относятся к раннему периоду Великого восстания, но которые сам Первый Страж сначала ограничил, а затем явно отверг к концу своей жизни. Эти законы, которые допускали любые формы поведения во время конфликта, более или менее оправдывают ряд действий, весьма популярных среди бандитов и менее щепетильных военачальников, за что школа и получила свое прозвище."  #Машинный перевод 28.10.23!
- tawatasi_name: "Таватасиа"  #Машинный перевод 28.10.23!
- tawatasi_desc: "Школа Таватасиа делит свое название с популярным видом ямса, выращиваемым саррадонскими крестьянами. Его приверженцы встречаются почти исключительно среди выпускников народных судов в наиболее сельских районах континента. Хотя само название изначально было задумано как оскорбление, оно было воспринято как своего рода шутка разрозненным братством сельских судей, которые придерживаются его широких принципов. Хотя обычно они касаются аграрных прав и водной политики, некоторые из более частных убеждений школы относительно окончательного владения всей землей и ее продуктами теми, кто ее обрабатывает, возможно, привели к некоторым из самых разрушительных крестьянских и рабских восстаний Саррадона в истории."  #Машинный перевод 28.10.23!
- minbiri_name: "Минбириа"  #Машинный перевод 28.10.23!
- minbiri_desc: "Минбирия, или школа вседозволенности, является одной из старейших сохранившихся радикальных сект. Подчеркивая целостный подход к текстовым источникам - то есть признавая почти все из них как имеющие некоторую достоверность - Минбириа бросили несколько убедительный вызов Варденитскому Символу веры. В их юридической практике многие обязательные запреты низводятся до уровня просто рекомендуемого поведения. Школа выжила во многом благодаря периодическим периодам популярности, которой она пользовалась среди богатых и влиятельных людей варденитского общества."  #Машинный перевод 28.10.23!
- keffali_name: "Кеффалиа"  #Машинный перевод 28.10.23!
- keffali_desc: "Саррадонизация слова «[chevalie|E]», школа Кеффали возникла как серия специальных и временных постановлений, направленных на нормализацию растущего присутствия купцов и наемников [marcher|E] в саррадонском обществе, но с тех пор стала настолько специализированной, что стала превратилась в собственную юридическую школу. Хотя обычно она считается радикальной школой, она в значительной степени игнорировалась остальной частью варденитской веры, поскольку формальная практика этой традиции была локализована в нескольких прибрежных городах Западного Саррадона и, похоже, вряд ли будет распространяться."  #Машинный перевод 28.10.23!
- afazariani_name: "Афазариани"  #Машинный перевод 28.10.23!
- afazariani_desc: "Афазариани - саррадонизация слова «[aversarian|E]» - школа пользовалась кратким периодом массового признания в первые дни [saints_war|E], поскольку Мамурамат проводил политику сотрудничества и союза с захватчиками-агионистами, которых все еще видели в те первые дни. как ценных союзников в борьбе с возрождающейся угрозой ритуалистов и возможных кандидатов на возможную интеграцию в варденитскую веру. Увы, этого не произошло, и когда агионисты обратились против своих бывших союзников, падение школы Афазариани произошло почти в одночасье. Он выживает в основном на землях, контролируемых орденами, и даже там его мало любят."  #Машинный перевод 28.10.23!
- filosi_name: "Филосия"  #Машинный перевод 28.10.23!
- filosi_desc: "Юридическая школа, созданная для гармонизации религиозного права Варденитов с религиозными принципами Шялволки, школа Филусиа, ​​пожалуй, наиболее примечательна тем, что выпустила тысячи и тысячи страниц, разглагольствующих о правилах, касающихся охоты, охотников и охотничьих заповедников. Между прочим, он также имеет один из самых мощных корпусов медицинских традиций в мире варденитов, синтезирующий многие из наиболее эффективных лекарств, впервые изобретенных шаманами и знахарями Шялволки на протяжении веков."  #Машинный перевод 28.10.23!
- zorani_name: "Кенрания"  #Машинный перевод 28.10.23!
- zorani_desc: "Школа Кенраниа, которая во многом заимствует богатые правовые традиции амсари, несколько противоречива из-за привычного возвышения Мамура до статуса божественного правителя, в чем-то аналогичного статусу Канамсара. С другой стороны, школа заслужила похвалу за явный талант своих ученых разобраться в традиционно запутанном своде законов о собственности и наследовании, характерном для варденизма."  #Машинный перевод 28.10.23!
- kemsari_name: "Кемсария"  #Машинный перевод 28.10.23!
- kemsari_desc: "Кемсариа возникли в результате попытки управлять народами бывшего великого королевства Кемсар. Учёные школы Кемсариа, давно потерявшие свои прежние городские высоты, обычно осваивают свои зубы, споря о правах племен на воду и доступе к оазисам. Хотя бесконечные разговоры о мельчайших правилах глубины оросительных каналов трудно вынести, большинство согласится, что это гораздо предпочтительнее традиционных насильственных методов, с помощью которых обычно решаются эти споры."  #Машинный перевод 28.10.23!
- dhahabi_name: "Захабиа"  #Машинный перевод 28.10.23!
- dhahabi_desc: "Попытка гармонизировать странные правовые традиции Адабисса с варденизмом, Захабиа постоянно боролась за популярность, и даже поддержание достаточно большого членства, чтобы продолжать называться «школой», было борьбой. Сами адабисы их почти не терпят, признавая в своих учёных пережиток нежелательной религиозной традиции. Их единоверцы-вардениты видят в них предателей, виновных в том, что они пригласили следующую волну захватчиков для подавления веры. Имея мало дружественных дворов, которые можно назвать домом, захабиа находятся в незавидном положении."  #Машинный перевод 28.10.23!
- daifarosi_name: "Дайфаросия"  #Машинный перевод 28.10.23!
- daifarosi_desc: "Когда наши ученые попытались сделать континент своим домом, они обнаружили, что те, кто известен как «Ируши», оказались неожиданно податливым народом. С давней юридической традицией, основанной на боге Дайфаросе, почти наверняка искаженной памяти о каком-то особенно замечательном законодателе древних времен. Полученный в результате правовой синтез оказался на удивление ценным для повседневных бюрократических целей."  #Машинный перевод 28.10.23!
- hayashi_name: "Hayashi'a"  #Машинный перевод 28.10.23!
- hayashi_desc: "Школа Хаяшиа была основана в 1251 году боевиками, сражавшимися против вторгшихся агионистов, и считает, что основной целью правовой системы должно быть поражение неверных. Первым и главным из их убеждений является то, что законы о войне все еще действуют и могут быть отменены только после победы варденизма. Кроме того, солдаты должны быть поставлены выше закона, а еретики и язычники, против которых они сражаются, не должны быть защищены им, поскольку такая защита предоставляется только тем, кто, в свою очередь, желает защитить систему. За его относительно короткую историю уже было отменено несколько дел, касающихся неверующих, на том основании, что те, кто отвергает учение Первого Стража, по своей сути виновны в величайших преступлениях, и что даже судебный процесс над ними является предательством ценностей Варденитов."  #Машинный перевод 28.10.23!
+ maridai_name: "Maridai'a"
+ maridai_desc: "Реформаторское движение, возглавленное харизматичным верховным судьей Мудабариком в 1203 году, оно заигрывает с радикализмом разными способами, например, подчеркивает ответственность верующих варденитов выносить независимое суждение в ситуациях, когда мамуры могут быть не в состоянии вынести свое собственное решение. суждение. Поскольку это явно включает в себя ситуации, когда у верующих могут быть основания полагать, что Мамур не обладает необходимыми знаниями о местных делах, чтобы точно выносить суждения, школу иногда обвиняют в том, что она превращает «каждого вольноотпущенника в Мамура» - обвинение, которое Мудабарик выдвинул своему серьёзное отрицание."
+ tashbari_name: "Ташбария"
+ tashbari_desc: "Ташбариа, или метафоралисты, когда-то считались радикальной сектой, поскольку они украсили списки запрещенных школ Мамура Насира ибн Усмана в 895 году. Однако школа сумела выдержать как жестокие чистки, так и юридическое давление, и добилась повышения до основного направления. статус, когда преемник Насира Юсуф назначил четырех их ученых высшими судьями, закрепив с тех пор свою власть над правовой традицией варденитов. Они подчеркивают необходимость понимания использования метафоры Первым смотрителем в своих произведениях, чтобы сделать юридические выводы."
+ babatadi_name: "Бабатадиа"
+ babatadi_desc: "Бабатадиа имеют сомнительную честь быть традиционной школой, которой покровительствует Мамурамат, во многом благодаря их стойкой защите права Мамура на окончательное решение во всех юридических вопросах. Хотя судьи Бабатадиа, обвиняемые в подхалиме, сразу же отмечают, что школа устанавливает строгие ограничения на то, что именно находится в юрисдикции Мамура для вынесения решений, ученым было трудно избавиться от этой репутации."
+ zaydeni_name: "Зайдениа"
+ zaydeni_desc: "Зайдениа — одна из старейших юридических школ варденитской веры, которая на несколько столетий предшествует большинству современных школ и пережила больше соперничающих традиций, чем может сосчитать большинство ученых. Они придерживаются несколько агностического взгляда на самого Мамура, вместо этого сосредотачиваясь на поведении и образовании судей, а также на соблюдении Первых законов как основополагающих для всей другой юридической практики."
+ atarni_name: "Атарния"
+ atarni_desc: "Атарния — лишь последние в длинной череде буквалистских движений, которые приобрели известность, а затем потеряли свою актуальность. Единственное, что объединяло эти школы, — это упрямая позиция, согласно которой каждый отрывок, написанный Первым Стражем, должен интерпретироваться без привнесения личных предпосылок, контекста или метафор почти во всех случаях. Это привело к тому, что школы буквализма стали несколько причудливыми и негибкими в своей общей практике, но привлекательность такого простого и чистого подхода к зачастую непрозрачному набору прецедентного права означает, что всякий раз, когда одна школа падает, на ее место вскоре приходит другая."
+ ruthamari_name: "Рутамария"
+ ruthamari_desc: "Рутамариям приписывают основание и распространение затмалитского инакомыслия в 678 году, и они до сих пор являются сердцем идеалистического движения, а также связующим звеном, скрепляющим его часто расходящиеся традиции и поддерживающим его ортодоксальность против искушений радикализма. В основе их несогласия было и остается утверждение, что Мамуры, как и древние военные законы, были продуктом Великого восстания. Поскольку времена восстания против злых Ритуалистов остались далеко в прошлом, верующие Вардениты должны искать новые политические решения своих проблем, чтобы с таким трудом завоеванные достижения Первого Стража не были потеряны из-за некомпетентности."
+ narabiqi_name: "Нарабикния"
+ narabiqi_desc: "Спорная идеалистическая школа, Нарабикиа, или популисты, не столько отвергает Мамур, сколько вместо этого решила полностью переопределить это название. Любой варденит, которого сверстники хвалят за действия по защите Столпов добродетели в борьбе со злом, может быть так прославлен, и Мамуров может быть столько, сколько считает необходимым варденит. Другие нововведения Нарабикиа возникли в результате применения принципа признания к другим правовым загадкам и привели к ряду неортодоксальных решений."
+ tarthari_name: "Тартария"
+ tarthari_desc: "Правовые традиции Тартарии составляют ядро ​​Катистинского инакомыслия в 1152 году ИС. Многие из их правовых принципов стали основой этой веры, в первую очередь строго кодифицированный список прав и обязанностей, возложенных на судей, а также вывод о том, что попытки повлиять на юридические решения со стороны лиц, не имеющих полномочий, должны квалифицироваться как непростительные преступления."
+ kedbarki_name: "Кедбаркиа"
+ kedbarki_desc: "Школа Кедбаркиа, будучи очень воинственной школой, началась с серии юридических разногласий по поводу толерантности к ритуалистам, при этом законники-основатели школы заняли позицию, согласно которой все необращенные ритуалисты фактически являются вражескими комбатантами. В последующие годы Кедбаркиа развили этот тезис, приняв общую позицию, согласно которой вера Варденитов по-прежнему должна быть структурирована как военные лагеря в ранних кампаниях Первого Стража. Все легкомыслие должно быть принесено в жертву, чтобы Зло наконец было побеждено."
+ hasani_name: "Хасания"
+ hasani_desc: "Спорная и молодая ветвь идеалистического вардизма, Хасаниа возникла из последователей магистрата Хасана ибн Убайда в конце 12 века ИС. Хасаниты проповедуют, как и их основатель, — что все верующие Вардениты являются носителями законов Первого Стража. Нелегитимны не только Мамуры, но и все особые полномочия и разрешения, предоставленные судьям и магистратам. Судья, говорят они, может по-настоящему обладать только полномочиями, предоставленными ему сообществом верных варденитов в целом. Любые другие претензии не только незаконны, но и по своей сути являются незаконной формой тирании.\n\nНетрадиционная интерпретация Хасаном ибн Убайдом варденитского закона привела бы к тому, что Ришад аль Ма' вычистил его и его последователей из совета Республики Дисувай. aj в 1159 году, и он провел последние два года своей жизни в тюрьме, прежде чем умер от пневмонии в 1161 году. Его последователи смогли убедить Высокий суд идеалистов отменить постановление, осуждающее их как радикалов в 1181 году, осудив своих наиболее радикальных коллег, но их статус в идеалистическом движении все еще весьма незначителен."
+ thabiti_name: "Табития"
+ thabiti_desc: "Школа, наиболее тесно связанная с [GetTitleByKey('e_eastern_mamuramat').GetNameNoTier] в период ее расцвета, в разгар Эпохи Огня, Табития всегда сохраняла сильное присутствие в восточной половине Варденитского Саррадона, даже после того, как Мамур Таттали формально включил этот титул в его собственный брак с дочерью последнего Восточного Мамура, Санад, во время хаоса Падения в 810 IS."
+ misria_name: "Мисрия"
+ misria_desc: "Традиция, печально известная своими мистическими и странными практиками, мисриа взяла ряд отрывков, которые большинство школ интерпретируют как одобряющие использование личной проницательности среди судей, означающие, что судья, если он правильно обучен, может получать прозрения, общаясь с Тем, Кто Во многом это было так же, как удостоился чести Первого Стража."
+ ajari_name: "Аджария"
+ ajari_desc: "Возвращаясь к самой ранней эпохе правовой доктрины Варденитов, аджарцы считают, что действительные юридические аргументы должны быть получены исключительно из небольшого набора документов, в первую очередь из «Книги дней», «Столпов добродетели» и «Записей суда надзирателя». . Любое другое решение, в том числе чрезмерное доверие к независимому решению судьи, полностью сделает решение недействительным. Конечно, жесткая позиция, но она сохранялась на протяжении веков."
+ alshammi_name: "А'Шаммиа"
+ alshammi_desc: "А'Шаммиа были традиционной школой дальневосточного Маммурамата, и школа до сих пор считает себя поддерживающей миссию экспедиции «Восход», которая создала противоречивого и недолговечного четвертого Мамура, преследующего ритуалистов до далекой Каширии. . Титул был освобожден после исчезновения второго дальневосточного Мамура Убайдара вместе с его армиями во время предполагаемого [gedeora|E] в 409 году ИС, но с тех пор А'Шаммиа искали поддержки для его восстановления."
+ kurushi_name: "Kurushi'a"
+ kurushi_desc: "Следуя традиции, они заявляют, что это период золотого века Мамурамата (имеются в виду годы между смертью Первого Хранителя в 341 ИС и роспуском Западного Мамура в 627 ИС), конец которого они называют причиной всякого рода дисфункций. в вере Варденитов. Хотя теоретически они поддерживают оставшегося Мамура, их историческая настойчивость в том, что они юридически являются обладателями всех трех титулов Мамурамата, привела к тому, что судьи Курушиа поддержали нескольких неудавшихся повстанцев в попытке восстановить один или несколько аннулированных титулов."
+ hathali_name: "Хаталия"
+ hathali_desc: "Традиция, связанная с Иблиди Мамурами на Западе, Хаталиа достигла беспрецедентной известности во второй половине существования своего хозяина Мамурамата. К сожалению, их судьба рухнула после исчезновения основной династической линии Иблиди в 652 году, когда различные фракции внутри [GetTitleByKey('e_western_mamuramat').GetNameNoTier] погрузились в ожесточенную и, в конечном итоге, саморазрушительную гражданскую войну за контроль над троном. Сама традиция Хаталиа переросла в особенно жестокую фракционность, которая закончилась печально известным Судом Кинжалов в 675 году, когда предпринятая в последнюю минуту попытка посредничества между претендентами на трон переросла в хаотическую кровавую бойню, в которой судья убил судью. Ужас, который это событие породило во всем мире Варденитов, часто считается провокацией, которая побудила Мамуров Центра вмешаться, чтобы окончательно положить конец борьбе, и самого Западного Мамрамата.\n\nСостояние Хаталиа несколько восстановилось, но их известность так и не вернулась. Они примечательны своей жесткой и несколько навязчивой системой проверки потенциальных судей на компетентность и честность."
+ mabruki_name: "Мабрукиа"
+ mabruki_desc: "Мабрукиа — уникальная и древняя школа традиционной ветви юриспруденции варденитов. Связывая свое несогласие с серией юридических постановлений, обнародованных самим Первым Стражем для разрешения городских споров, когда вера начала утверждаться по всему Саррадону, Мабрукиа утверждают, что право инакомыслия распространяется на всех Стражей, достигших совершеннолетия, и четко определенный свод торгового права. Школа пользуется особой популярностью в городах."
+ zubatai_name: "Зубатай"
+ zubatai_desc: "Радикальное движение, основанное в 879 году, но имеющее корни в некоторых сельских саррадонских народных дворах, уходящих корнями в гораздо более давнюю историю, Зубатайа заслужило гнев остальной части зачастую воинственной веры Варденитов, отвергая в принципе самую суть ее истории - Борьбу. Против Зла. Основываясь на ряде текстов, которые большинство ученых-варденитов считают апокрифическими, судьи Зубатайа сочли большинство актов насилия непростительными преступлениями с лишь узким исключением для самообороны. Тот факт, что это неприятие распространяется на обязанность вмешаться, привел к тому, что эта школа в значительной степени подавляется большинством варденитских штатов."
+ qatirri_name: "Катирриа"
+ qatirri_desc: "Катирриа, которую иногда называют «бандитской школой», едва ли можно назвать последовательной школой мысли, и чаще всего ее называют таковой судьи, не принадлежащие к Катирриа, стремящиеся объединить ряд неортодоксальных убеждений в одну легко осуждаемую категорию. . В общих чертах, эта традиция является возвратом к «Законам войны», которые относятся к раннему периоду Великого восстания, но которые сам Первый Страж сначала ограничил, а затем явно отверг к концу своей жизни. Эти законы, которые допускали любые формы поведения во время конфликта, более или менее оправдывают ряд действий, весьма популярных среди бандитов и менее щепетильных военачальников, за что школа и получила свое прозвище."
+ tawatasi_name: "Таватасиа"
+ tawatasi_desc: "Школа Таватасиа делит свое название с популярным видом ямса, выращиваемым саррадонскими крестьянами. Его приверженцы встречаются почти исключительно среди выпускников народных судов в наиболее сельских районах континента. Хотя само название изначально было задумано как оскорбление, оно было воспринято как своего рода шутка разрозненным братством сельских судей, которые придерживаются его широких принципов. Хотя обычно они касаются аграрных прав и водной политики, некоторые из более частных убеждений школы относительно окончательного владения всей землей и ее продуктами теми, кто ее обрабатывает, возможно, привели к некоторым из самых разрушительных крестьянских и рабских восстаний Саррадона в истории."
+ minbiri_name: "Минбириа"
+ minbiri_desc: "Минбирия, или школа вседозволенности, является одной из старейших сохранившихся радикальных сект. Подчеркивая целостный подход к текстовым источникам - то есть признавая почти все из них как имеющие некоторую достоверность - Минбириа бросили несколько убедительный вызов Варденитскому Символу веры. В их юридической практике многие обязательные запреты низводятся до уровня просто рекомендуемого поведения. Школа выжила во многом благодаря периодическим периодам популярности, которой она пользовалась среди богатых и влиятельных людей варденитского общества."
+ keffali_name: "Кеффалиа"
+ keffali_desc: "Саррадонизация слова «[chevalie|E]», школа Кеффали возникла как серия специальных и временных постановлений, направленных на нормализацию растущего присутствия купцов и наемников [marcher|E] в саррадонском обществе, но с тех пор стала настолько специализированной, что стала превратилась в собственную юридическую школу. Хотя обычно она считается радикальной школой, она в значительной степени игнорировалась остальной частью варденитской веры, поскольку формальная практика этой традиции была локализована в нескольких прибрежных городах Западного Саррадона и, похоже, вряд ли будет распространяться."
+ afazariani_name: "Афазариани"
+ afazariani_desc: "Афазариани - саррадонизация слова «[aversarian|E]» - школа пользовалась кратким периодом массового признания в первые дни [saints_war|E], поскольку Мамурамат проводил политику сотрудничества и союза с захватчиками-агионистами, которых все еще видели в те первые дни. как ценных союзников в борьбе с возрождающейся угрозой ритуалистов и возможных кандидатов на возможную интеграцию в варденитскую веру. Увы, этого не произошло, и когда агионисты обратились против своих бывших союзников, падение школы Афазариани произошло почти в одночасье. Он выживает в основном на землях, контролируемых орденами, и даже там его мало любят."
+ filosi_name: "Филосия"
+ filosi_desc: "Юридическая школа, созданная для гармонизации религиозного права Варденитов с религиозными принципами Шялволки, школа Филусиа, ​​пожалуй, наиболее примечательна тем, что выпустила тысячи и тысячи страниц, разглагольствующих о правилах, касающихся охоты, охотников и охотничьих заповедников. Между прочим, он также имеет один из самых мощных корпусов медицинских традиций в мире варденитов, синтезирующий многие из наиболее эффективных лекарств, впервые изобретенных шаманами и знахарями Шялволки на протяжении веков."
+ zorani_name: "Кенрания"
+ zorani_desc: "Школа Кенраниа, которая во многом заимствует богатые правовые традиции амсари, несколько противоречива из-за привычного возвышения Мамура до статуса божественного правителя, в чем-то аналогичного статусу Канамсара. С другой стороны, школа заслужила похвалу за явный талант своих ученых разобраться в традиционно запутанном своде законов о собственности и наследовании, характерном для варденизма."
+ kemsari_name: "Кемсария"
+ kemsari_desc: "Кемсариа возникли в результате попытки управлять народами бывшего великого королевства Кемсар. Учёные школы Кемсариа, давно потерявшие свои прежние городские высоты, обычно осваивают свои зубы, споря о правах племен на воду и доступе к оазисам. Хотя бесконечные разговоры о мельчайших правилах глубины оросительных каналов трудно вынести, большинство согласится, что это гораздо предпочтительнее традиционных насильственных методов, с помощью которых обычно решаются эти споры."
+ dhahabi_name: "Захабиа"
+ dhahabi_desc: "Попытка гармонизировать странные правовые традиции Адабисса с варденизмом, Захабиа постоянно боролась за популярность, и даже поддержание достаточно большого членства, чтобы продолжать называться «школой», было борьбой. Сами адабисы их почти не терпят, признавая в своих учёных пережиток нежелательной религиозной традиции. Их единоверцы-вардениты видят в них предателей, виновных в том, что они пригласили следующую волну захватчиков для подавления веры. Имея мало дружественных дворов, которые можно назвать домом, захабиа находятся в незавидном положении."
+ daifarosi_name: "Дайфаросия"
+ daifarosi_desc: "Когда наши ученые попытались сделать континент своим домом, они обнаружили, что те, кто известен как «Ируши», оказались неожиданно податливым народом. С давней юридической традицией, основанной на боге Дайфаросе, почти наверняка искаженной памяти о каком-то особенно замечательном законодателе древних времен. Полученный в результате правовой синтез оказался на удивление ценным для повседневных бюрократических целей."
+ hayashi_name: "Hayashi'a"
+ hayashi_desc: "Школа Хаяшиа была основана в 1251 году боевиками, сражавшимися против вторгшихся агионистов, и считает, что основной целью правовой системы должно быть поражение неверных. Первым и главным из их убеждений является то, что законы о войне все еще действуют и могут быть отменены только после победы варденизма. Кроме того, солдаты должны быть поставлены выше закона, а еретики и язычники, против которых они сражаются, не должны быть защищены им, поскольку такая защита предоставляется только тем, кто, в свою очередь, желает защитить систему. За его относительно короткую историю уже было отменено несколько дел, касающихся неверующих, на том основании, что те, кто отвергает учение Первого Стража, по своей сути виновны в величайших преступлениях, и что даже судебный процесс над ними является предательством ценностей Варденитов."
   
   ############################## 
   # PROCEDURAL TRADITION NAMES # 
   ############################## 
   
- ismailia_name: "Исмаилиты"  #Машинный перевод 28.10.23!
- mubarakia_name: "Мубаракиа"  #Машинный перевод 28.10.23!
- naderia_name: "Надерья"  #Машинный перевод 28.10.23!
- alamia_name: "Аламиа"  #Машинный перевод 28.10.23!
- qaderia_name: "Кадерия"  #Машинный перевод 28.10.23!
- qadirria_name: "Кадиррия"  #Машинный перевод 28.10.23!
- abdalia_name: "Абдалиа"  #Машинный перевод 28.10.23!
- hayakamia_name: "Hayakami'a"  #Машинный перевод 28.10.23!
- aarifia_name: "Аарифиа"  #Машинный перевод 28.10.23!
- abdulia_name: "Абдулия"  #Машинный перевод 28.10.23!
- aghlabia_name: "Аглабиа"  #Машинный перевод 28.10.23!
- ahnafia_name: "Анафиа"  #Машинный перевод 28.10.23!
- alimia_name: "Алимиа"  #Машинный перевод 28.10.23!
- alqamia_name: "Алькамиа"  #Машинный перевод 28.10.23!
- antaria_name: "Антария"  #Машинный перевод 28.10.23!
- asimia_name: "Асимия"  #Машинный перевод 28.10.23!
- azamia_name: "Азамиа"  #Машинный перевод 28.10.23!
- bahiria_name: "Бахирия"  #Машинный перевод 28.10.23!
- burnaddia_name: "Бурнаддия"  #Машинный перевод 28.10.23!
- dhahnakia_name: "Дханакиа"  #Машинный перевод 28.10.23!
- fadilia_name: "Фадилия"  #Машинный перевод 28.10.23!
- fadlia_name: "Фадлия"  #Машинный перевод 28.10.23!
- faroukia_name: "Фарукиа"  #Машинный перевод 28.10.23!
- ghalibia_name: "Галибия"  #Машинный перевод 28.10.23!
- habibia_name: "Хабибиа"  #Машинный перевод 28.10.23!
- hafizia_name: "Хафизиа"  #Машинный перевод 28.10.23!
- halilia_name: "Халилия"  #Машинный перевод 28.10.23!
- hanzalia_name: "Ханзалия"  #Машинный перевод 28.10.23!
- harithia_name: "Харития"  #Машинный перевод 28.10.23!
- hasania_name: "Хасания"  #Машинный перевод 28.10.23!
- hashimia_name: "Hashimi'a"  #Машинный перевод 28.10.23!
- humaamia_name: "Хумаамиа"  #Машинный перевод 28.10.23!
- husamia_name: "Хусамиа"  #Машинный перевод 28.10.23!
- hussaynia_name: "Хусайния"  #Машинный перевод 28.10.23!
- idrisia_name: "Идрисиа"  #Машинный перевод 28.10.23!
- ikrimia_name: "Икримиа"  #Машинный перевод 28.10.23!
- isaia_name: "Исайя"  #Машинный перевод 28.10.23!
- maslamia_name: "Масламиа"  #Машинный перевод 28.10.23!
- samiria_name: "Самирия"  #Машинный перевод 28.10.23!
- yasiria_name: "Ясирия"  #Машинный перевод 28.10.23!
- suraqia_name: "Суракиа"  #Машинный перевод 28.10.23!
- yusufia_name: "Юсуфиа"  #Машинный перевод 28.10.23!
- zainuddia_name: "Зайнуддия"  #Машинный перевод 28.10.23!
- adilia_name: "Адилиа"  #Машинный перевод 28.10.23!
- faghiria_name: "Фагирия"  #Машинный перевод 28.10.23!
- hanifia_name: "Ханифия"  #Машинный перевод 28.10.23!
- isria_name: "Исриа"  #Машинный перевод 28.10.23!
- jaharia_name: "Джахария"  #Машинный перевод 28.10.23!
- kamalia_name: "Камалиа"  #Машинный перевод 28.10.23!
- khadijia_name: "Хадиджиа"  #Машинный перевод 28.10.23!
- lubabia_name: "Любабия"  #Машинный перевод 28.10.23!
- maryamia_name: "Марьямия"  #Машинный перевод 28.10.23!
- parweenia_name: "Парвиниа"  #Машинный перевод 28.10.23!
- sanadia_name: "Санадия"  #Машинный перевод 28.10.23!
- qamaria_name: "Камариа"  #Машинный перевод 28.10.23!
- rashidia_name: "Рашидиа"  #Машинный перевод 28.10.23!
- sholia_name: "Шолиа"  #Машинный перевод 28.10.23!
- tanazia_name: "Таназиа"  #Машинный перевод 28.10.23!
- talibia_name: "Талибия"  #Машинный перевод 28.10.23!
+ ismailia_name: "Исмаилиты"
+ mubarakia_name: "Мубаракиа"
+ naderia_name: "Надерья"
+ alamia_name: "Аламиа"
+ qaderia_name: "Кадерия"
+ qadirria_name: "Кадиррия"
+ abdalia_name: "Абдалиа"
+ hayakamia_name: "Hayakami'a"
+ aarifia_name: "Аарифиа"
+ abdulia_name: "Абдулия"
+ aghlabia_name: "Аглабиа"
+ ahnafia_name: "Анафиа"
+ alimia_name: "Алимиа"
+ alqamia_name: "Алькамиа"
+ antaria_name: "Антария"
+ asimia_name: "Асимия"
+ azamia_name: "Азамиа"
+ bahiria_name: "Бахирия"
+ burnaddia_name: "Бурнаддия"
+ dhahnakia_name: "Дханакиа"
+ fadilia_name: "Фадилия"
+ fadlia_name: "Фадлия"
+ faroukia_name: "Фарукиа"
+ ghalibia_name: "Галибия"
+ habibia_name: "Хабибиа"
+ hafizia_name: "Хафизиа"
+ halilia_name: "Халилия"
+ hanzalia_name: "Ханзалия"
+ harithia_name: "Харития"
+ hasania_name: "Хасания"
+ hashimia_name: "Hashimi'a"
+ humaamia_name: "Хумаамиа"
+ husamia_name: "Хусамиа"
+ hussaynia_name: "Хусайния"
+ idrisia_name: "Идрисиа"
+ ikrimia_name: "Икримиа"
+ isaia_name: "Исайя"
+ maslamia_name: "Масламиа"
+ samiria_name: "Самирия"
+ yasiria_name: "Ясирия"
+ suraqia_name: "Суракиа"
+ yusufia_name: "Юсуфиа"
+ zainuddia_name: "Зайнуддия"
+ adilia_name: "Адилиа"
+ faghiria_name: "Фагирия"
+ hanifia_name: "Ханифия"
+ isria_name: "Исриа"
+ jaharia_name: "Джахария"
+ kamalia_name: "Камалиа"
+ khadijia_name: "Хадиджиа"
+ lubabia_name: "Любабия"
+ maryamia_name: "Марьямия"
+ parweenia_name: "Парвиниа"
+ sanadia_name: "Санадия"
+ qamaria_name: "Камариа"
+ rashidia_name: "Рашидиа"
+ sholia_name: "Шолиа"
+ tanazia_name: "Таназиа"
+ talibia_name: "Талибия"
   
   ################# 
   # FOUNDING ERAS # 
   ################# 
   
- the_great_uprising_legal_tradition_founding_name: "[Concept('the_great_uprising_legal_tradition','The Great Uprising')|E]"  #Машинный перевод 28.10.23!
- the_establishment_legal_tradition_founding_name: "[Concept('the_establishment_legal_tradition','The Establishment')|E]"  #Машинный перевод 28.10.23!
- traditional_golden_age_legal_tradition_founding_name: "[Concept('the_traditional_golden_age_legal_tradition','Traditional Golden Age')|E]"  #Машинный перевод 28.10.23!
- age_of_ink_and_gold_legal_tradition_founding_name: "[Concept('the_age_of_ink_and_gold_legal_tradition','Age of Ink and Gold')|E]"  #Машинный перевод 28.10.23!
- age_of_tathtali_legal_tradition_founding_name: "[Concept('the_age_of_tathtali_legal_tradition','Age of Tathtali')|E]"  #Машинный перевод 28.10.23!
- abajjarmia_golden_age_legal_tradition_founding_name: "[Concept('the_abajjarmia_golden_age_legal_tradition','Abajjarmia Golden Age')|E]"  #Машинный перевод 28.10.23!
- era_of_dissent_legal_tradition_founding_name: "[Concept('the_era_of_dissent_legal_tradition','Era of Dissent')|E]"  #Машинный перевод 28.10.23!
- modern_era_legal_tradition_founding_name: "[Concept('the_modern_era_legal_tradition','Modern Era')|E]"  #Машинный перевод 28.10.23!
+ the_great_uprising_legal_tradition_founding_name: "[Concept('the_great_uprising_legal_tradition','The Great Uprising')|E]"
+ the_establishment_legal_tradition_founding_name: "[Concept('the_establishment_legal_tradition','The Establishment')|E]"
+ traditional_golden_age_legal_tradition_founding_name: "[Concept('the_traditional_golden_age_legal_tradition','Traditional Golden Age')|E]"
+ age_of_ink_and_gold_legal_tradition_founding_name: "[Concept('the_age_of_ink_and_gold_legal_tradition','Age of Ink and Gold')|E]"
+ age_of_tathtali_legal_tradition_founding_name: "[Concept('the_age_of_tathtali_legal_tradition','Age of Tathtali')|E]"
+ abajjarmia_golden_age_legal_tradition_founding_name: "[Concept('the_abajjarmia_golden_age_legal_tradition','Abajjarmia Golden Age')|E]"
+ era_of_dissent_legal_tradition_founding_name: "[Concept('the_era_of_dissent_legal_tradition','Era of Dissent')|E]"
+ modern_era_legal_tradition_founding_name: "[Concept('the_modern_era_legal_tradition','Modern Era')|E]"
   
   ########### 
   # ORIGINS # 
   ########### 
   
- reformed_radicals_legal_tradition_origin_name: "Реформатские радикалы"  #Машинный перевод 28.10.23!
+ reformed_radicals_legal_tradition_origin_name: "Реформатские радикалы"
  reformed_radicals_legal_tradition_origin_desc: ""
- mamurial_creation_legal_tradition_origin_name: "Мраморное создание"  #Машинный перевод 28.10.23!
+ mamurial_creation_legal_tradition_origin_name: "Мраморное создание"
  mamurial_creation_legal_tradition_origin_desc: ""
- pioneering_judge_legal_tradition_origin_name: "Судья-новатор"  #Машинный перевод 28.10.23!
+ pioneering_judge_legal_tradition_origin_name: "Судья-новатор"
  pioneering_judge_legal_tradition_origin_desc: ""
- reform_movement_legal_tradition_origin_name: "Реформаторское движение"  #Машинный перевод 28.10.23!
+ reform_movement_legal_tradition_origin_name: "Реформаторское движение"
  reform_movement_legal_tradition_origin_desc: ""
- rebellious_magistrates_legal_tradition_origin_name: "Мятежные судьи"  #Машинный перевод 28.10.23!
+ rebellious_magistrates_legal_tradition_origin_name: "Мятежные судьи"
  rebellious_magistrates_legal_tradition_origin_desc: ""
- scholastic_resistance_legal_tradition_origin_name: "Схоластическое сопротивление"  #Машинный перевод 28.10.23!
+ scholastic_resistance_legal_tradition_origin_name: "Схоластическое сопротивление"
  scholastic_resistance_legal_tradition_origin_desc: ""
- unknown_origin_legal_tradition_origin_name: "Неизвестный"  #Машинный перевод 28.10.23!
+ unknown_origin_legal_tradition_origin_name: "Неизвестный"
  unknown_origin_legal_tradition_origin_desc: ""
- warlord_innovation_legal_tradition_origin_name: "Военачальник инноваций"  #Машинный перевод 28.10.23!
+ warlord_innovation_legal_tradition_origin_name: "Военачальник инноваций"
  warlord_innovation_legal_tradition_origin_desc: ""
- folk_movement_legal_tradition_origin_name: "Народное движение"  #Машинный перевод 28.10.23!
+ folk_movement_legal_tradition_origin_name: "Народное движение"
  folk_movement_legal_tradition_origin_desc: ""
   
   ####################### 
   # MAMURIAL PRIVILEGES # 
   ####################### 
- can_appoint_high_judges_desc: "#positive_value Может назначать [high_judge]s#!"  #Машинный перевод 28.10.23!
- can_appoint_high_judges_negative_desc: "#negative_value Невозможно назначить [high_judge]s#!"  #Машинный перевод 28.10.23!
- can_use_legal_manipulation_on_high_judges_desc: "#positive_value Может использовать взаимодействие юридического манипулирования против [high_judge]s#!"  #Машинный перевод 28.10.23!
- can_use_legal_manipulation_on_high_judges_negative_desc: "#negative_value Невозможно использовать взаимодействие юридического манипулирования против [high_judge]s#!."  #Машинный перевод 28.10.23!
- can_dismiss_high_judges_unanimously_desc: "#positive_value Может единогласно отклонить [high_judge]#!"  #Машинный перевод 28.10.23!
- can_dismiss_high_judges_unanimously_negative_desc: "#negative_value Невозможно отклонить [high_judge] единогласно#!"  #Машинный перевод 28.10.23!
+ can_appoint_high_judges_desc: "#positive_value Может назначать [high_judge]s#!"
+ can_appoint_high_judges_negative_desc: "#negative_value Невозможно назначить [high_judge]s#!"
+ can_use_legal_manipulation_on_high_judges_desc: "#positive_value Может использовать взаимодействие юридического манипулирования против [high_judge]s#!"
+ can_use_legal_manipulation_on_high_judges_negative_desc: "#negative_value Невозможно использовать взаимодействие юридического манипулирования против [high_judge]s#!."
+ can_dismiss_high_judges_unanimously_desc: "#positive_value Может единогласно отклонить [high_judge]#!"
+ can_dismiss_high_judges_unanimously_negative_desc: "#negative_value Невозможно отклонить [high_judge] единогласно#!"
   
   ############### 
   # TRIGGER LOC # 
   ############### 
- HAS_LEGAL_TRADITION_COOLDOWN: "Невозможно повторить это действие до [GetCurrentDateWithDiff( GetVarTimeRemaining( GetPlayer.MakeScope, 'legal_tradition_change_cooldown') )]."  #Машинный перевод 28.10.23!
- NO_LEGAL_TRADITION_COOLDOWN: "На меня не действует #E Правовая традиция#!, время восстановления изменения"  #Машинный перевод 28.10.23!
- INSUFFICIENT_MAMURIAL_AUTHORITY_HIGH_JUDGE: "Они являются [high_judge], и соответствующий Высокий суд не обладает достаточными полномочиями по вопросам материнства."  #Машинный перевод 28.10.23!
+ HAS_LEGAL_TRADITION_COOLDOWN: "Невозможно повторить это действие до [GetCurrentDateWithDiff( GetVarTimeRemaining( GetPlayer.MakeScope, 'legal_tradition_change_cooldown') )]."
+ NO_LEGAL_TRADITION_COOLDOWN: "На меня не действует #E Правовая традиция#!, время восстановления изменения"
+ INSUFFICIENT_MAMURIAL_AUTHORITY_HIGH_JUDGE: "Они являются [high_judge], и соответствующий Высокий суд не обладает достаточными полномочиями по вопросам материнства."
   
   
   ############ 
   # LEGACIES # 
   ############ 
   
- PRESTIGE_AND_RENOWN_FROM_TRIALS: "Получите [prestige|E] [prestige_i] и [dynasty_prestige|E] [dynasty_prestige_i] от хороших решений."  #Машинный перевод 28.10.23!
- PRESTIGE_AND_RENOWN_FROM_PATRONAGE: "Получите [prestige|E] [prestige_i] и [dynasty_prestige|E] [dynasty_prestige_i] от покровительства #E Правовым традициям#!"  #Машинный перевод 28.10.23!
- ALL_EDUCATIONS_HAVE_CHANCE_OF_JURIST_TRAIT: "Каждый [education_focus|E] имеет шанс дать [GetTrait('jurist_1').GetName( GetNullCharacter )] [trait|E]"  #Машинный перевод 28.10.23!
- LEARNING_EDUCATION_ALWAYS_GIVES_JURIST_TRAIT: "[GetFocus('education_learning').GetName] [education_focus|E] гарантированно даст [GetTrait('jurist_1').GetName( GetNullCharacter )] [trait|E]"  #Машинный перевод 28.10.23!
- DYNASTY_MEMBERS_ON_COUNCIL_JOBS_EARN_JURIST_PROGRESS: "Участники [dynasty|E] с должностью [council|E] будут постепенно накапливать @judicial_power_icon!#E Прогресс черты юриста#!"  #Машинный перевод 28.10.23!
- DYNASTY_MEMBERS_WITH_JURIST_TRAIT_PERFORM_COUNCIL_JOBS_BETTER: "[councillors|E] с [GetTraitGroup('lifestyle_jurist').GetName] [trait|E] выполняют [councillor_tasks|E] лучше"  #Машинный перевод 28.10.23!
- JUDICIAL_POWER_BONUS: "#E Судебная власть#!: @judicial_power_icon!#positive_value +25%#!"  #Машинный перевод 28.10.23!
- CAN_PAY_RENOWN_TO_GIVE_CHILD_JUST_TRAIT: "Можно заплатить [dynasty_prestige|E] [dynasty_prestige_i], чтобы дать ребенку [GetTrait('just').GetName( GetNullCharacter )] [trait|E]"  #Машинный перевод 28.10.23!
+ PRESTIGE_AND_RENOWN_FROM_TRIALS: "Получите [prestige|E] [prestige_i] и [dynasty_prestige|E] [dynasty_prestige_i] от хороших решений."
+ PRESTIGE_AND_RENOWN_FROM_PATRONAGE: "Получите [prestige|E] [prestige_i] и [dynasty_prestige|E] [dynasty_prestige_i] от покровительства #E Правовым традициям#!"
+ ALL_EDUCATIONS_HAVE_CHANCE_OF_JURIST_TRAIT: "Каждый [education_focus|E] имеет шанс дать [GetTrait('jurist_1').GetName( GetNullCharacter )] [trait|E]"
+ LEARNING_EDUCATION_ALWAYS_GIVES_JURIST_TRAIT: "[GetFocus('education_learning').GetName] [education_focus|E] гарантированно даст [GetTrait('jurist_1').GetName( GetNullCharacter )] [trait|E]"
+ DYNASTY_MEMBERS_ON_COUNCIL_JOBS_EARN_JURIST_PROGRESS: "Участники [dynasty|E] с должностью [council|E] будут постепенно накапливать @judicial_power_icon!#E Прогресс черты юриста#!"
+ DYNASTY_MEMBERS_WITH_JURIST_TRAIT_PERFORM_COUNCIL_JOBS_BETTER: "[councillors|E] с [GetTraitGroup('lifestyle_jurist').GetName] [trait|E] выполняют [councillor_tasks|E] лучше"
+ JUDICIAL_POWER_BONUS: "#E Судебная власть#!: @judicial_power_icon!#positive_value +25%#!"
+ CAN_PAY_RENOWN_TO_GIVE_CHILD_JUST_TRAIT: "Можно заплатить [dynasty_prestige|E] [dynasty_prestige_i], чтобы дать ребенку [GetTrait('just').GetName( GetNullCharacter )] [trait|E]"
   
   ######## 
   # MISC # 
   ######## 
   
- GENERATED_TRADITION_NAME: "[Concatenate(GetGlobalVariable('tradition_namesake_scope').Char.GetFirstNameNoTooltip,'ia')]"  #Машинный перевод 28.10.23!
+ GENERATED_TRADITION_NAME: "[Concatenate(GetGlobalVariable('tradition_namesake_scope').Char.GetFirstNameNoTooltip,'ia')]"

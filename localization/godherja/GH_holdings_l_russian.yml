@@ -3,47 +3,63 @@
   # HOLDING TYPES # 
   ################# 
   
- military_district_holding:0 "Военный округ"
- palatial_district_holding:0 "Дворец"
- maritime_district_holding:0 "Приморский округ"
- academic_district_holding:0 "Учебный район"
- trade_district_holding:0 "Торговый район"
- temple_district_holding:0 "Храмовый район"
- urban_district_holding:0 "Городской округ"
- workshop_district_holding:0 "Рабочий район"
- ruined_district_holding:0 "Разрушенный район"
-
- ruined_military_district_holding:0 "Разрушенный военный округ"
- ruined_palatial_district_holding:0 "Разрушенный дворец"
- ruined_maritime_district_holding:0 "Разрушенный приморский округ"
- ruined_academic_district_holding:0 "Учебный район"
- ruined_trade_district_holding:0 "Разрушенный торговый район"
- ruined_temple_district_holding:0 "Разрушенный храмовый район"
- ruined_urban_district_holding:0 "Разрушенный городской округ"
- ruined_workshop_district_holding:0 "Разрушенный рабочий район"
-
- wasteland_empty_holding:0 "Пустошь" 
- wasteland_empty_holding_concept_key:0 "Пустошь" 
+ military_district_holding: "Военный округ"
+ palatial_district_holding: "Дворец"
+ maritime_district_holding: "Приморский округ"
+ academic_district_holding: "Учебный район"
+ scholarly_district_holding: "Scholarly District" #NT!
+ economic_district_holding: "Economic District" #NT!
+ trade_district_holding: "Торговый район"
+ temple_district_holding: "Храмовый район"
+ urban_district_holding: "Городской округ"
+ workshop_district_holding: "Рабочий район"
+ ruined_district_holding: "Разрушенный район"
   
- necropolis_holding: "Некрополь"  
+ metro_holding: "Metropolis" #NT!
+  
+ administration_district_holding: "Administration District" #NT!
+  
+ ruined_military_district_holding: "Разрушенный военный округ"
+ ruined_palatial_district_holding: "Разрушенный дворец"
+ ruined_maritime_district_holding: "Разрушенный приморский округ"
+ ruined_academic_district_holding: "Учебный район"
+ ruined_trade_district_holding: "Разрушенный торговый район"
+ ruined_temple_district_holding: "Разрушенный храмовый район"
+ ruined_urban_district_holding: "Разрушенный городской округ"
+ ruined_workshop_district_holding: "Разрушенный рабочий район"
+  
+ wasteland_empty_holding: "Пустошь"
+ wasteland_empty_holding_concept_key: "Пустошь"
+  
+ necropolis_holding: "Некрополь"
+ colony_holding: "Colony" #NT!
+ ruin_holding: "Ruin" #NT!
   
   ################ 
   # CONCEPT KEYS # 
   ################ 
-  military_district_holding_concept_key:0 "[Concept('military_district','военный округ')|E]"
- palatial_district_holding_concept_key:0 "[Concept('palatial_district','дворец')|E]"
- maritime_district_holding_concept_key:0 "[Concept('maritime_district','приморский округ')|E]"
- academic_district_holding_concept_key:0 "[Concept('academic_district','учебный район')|E]"
- trade_district_holding_concept_key:0 "[Concept('trade_district','торговый район')|E]"
- temple_district_holding_concept_key:0 "[Concept('temple_district','церковый округ')|E]"
- urban_district_holding_concept_key:0 "[Concept('urban_district','городской округ')|E]"
- workshop_district_holding_concept_key:0 "[Concept('workshop_district','рабочий район')|E]"
- ruined_district_holding_concept_key:0 "[Concept('ruined_district','разрушенный округ')|E]"
-
- ruined_military_district_holding_concept_key:0 "[Concept('ruined_military_district','разрушенный военный округ')|E]"
- ruined_palatial_district_holding_concept_key:0 "[Concept('ruined_palatial_district','разрушенный дворец')|E]"
- ruined_maritime_district_holding_concept_key:0 "[Concept('ruined_maritime_district','разрушенный приморский округ')|E]"
- ruined_trade_district_holding_concept_key:0 "[Concept('ruined_trade_district','разрушенный торговый район')|E]"
- ruined_temple_district_holding_concept_key:0 "[Concept('ruined_temple_district','разрушенный церковный округ')|E]"
- ruined_urban_district_holding_concept_key:0 "[Concept('ruined_urban_district','разрушенный городской округ')|E]"
- ruined_workshop_district_holding_concept_key:0 "[Concept('ruined_workshop_district','разрушенный рабочий район')|E]"
+ military_district_holding_concept_key: "[Concept('military_district','военный округ')|E]"
+ palatial_district_holding_concept_key: "[Concept('palatial_district','дворец')|E]"
+ maritime_district_holding_concept_key: "[Concept('maritime_district','приморский округ')|E]"
+ academic_district_holding_concept_key: "[Concept('academic_district','учебный район')|E]"
+ trade_district_holding_concept_key: "[Concept('trade_district','торговый район')|E]"
+ temple_district_holding_concept_key: "[Concept('temple_district','церковый округ')|E]"
+ urban_district_holding_concept_key: "[Concept('urban_district','городской округ')|E]"
+ workshop_district_holding_concept_key: "[Concept('workshop_district','рабочий район')|E]"
+ ruined_district_holding_concept_key: "[Concept('ruined_district','разрушенный округ')|E]"
+  
+ administration_district_holding_concept_key: "[administration_district|E]" #NT!
+ economic_district_holding_concept_key: "[economic_district|E]" #NT!
+ scholarly_district_holding_concept_key: "[scholarly_district|E]" #NT!
+ metro_holding_concept_key: "[metro_holding|E]" #NT!
+ necropolis_holding_concept_key: "[necropolis|E]" #NT!
+  
+ ruined_military_district_holding_concept_key: "[Concept('ruined_military_district','разрушенный военный округ')|E]"
+ ruined_palatial_district_holding_concept_key: "[Concept('ruined_palatial_district','разрушенный дворец')|E]"
+ ruined_maritime_district_holding_concept_key: "[Concept('ruined_maritime_district','разрушенный приморский округ')|E]"
+ ruined_trade_district_holding_concept_key: "[Concept('ruined_trade_district','разрушенный торговый район')|E]"
+ ruined_temple_district_holding_concept_key: "[Concept('ruined_temple_district','разрушенный церковный округ')|E]"
+ ruined_urban_district_holding_concept_key: "[Concept('ruined_urban_district','разрушенный городской округ')|E]"
+ ruined_workshop_district_holding_concept_key: "[Concept('ruined_workshop_district','разрушенный рабочий район')|E]"
+ colony_holding_concept_key: "[colony|E]" #NT!
+ ruin_holding_concept_key: "[ruin|E]" #NT!

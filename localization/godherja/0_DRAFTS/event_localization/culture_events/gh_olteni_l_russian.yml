@@ -1,0 +1,69 @@
+﻿l_russian:
+ gh_olteni_events.0001.t: "Spoils of War" #NT!
+ gh_olteni_events.0001.desc: "What a glorious day!\n\nThe ground is stained with the blood of my enemies, and my troops carve a violent path through the battlefield, $knight_culture_player_plural_no_tooltip_lowercase$ and soldiers alike falling before our onslaught.\n\nAt last, [dead_combatant.GetName] falls before me, the eyes behind [dead_combatant.GetHerHis] mask closing forever. My soldiers cheer as I remove the artifact and attach it to my belt, where it joins several others of my foe's slain men-at-arms." #NT!
+ gh_olteni_events.0001.a: "[dead_combatant.GetSheHe|U] won't be needing this anymore." #NT!
+  
+ gh_olteni_events.0101.t: "A Wandering Elder" #NT!
+ gh_olteni_events.0101.desc: "I have been informed that a wandering Ölteni elder—#EMP Tönnm Öngot#!—was spotted travelling through my realm, bestowing blessings in villages and tending to the sick.\n\nAn appearance of one is rare, and it is customary to extend them an offer of hospitality in exchange for their wisdom.\n\nThat is, only if they appear at one's very doorstep..." #NT!
+ gh_olteni_events.0101.a: "I shall welcome them in my [ROOT.Char.Custom('ResidenceBuilding')]." #NT!
+ gh_olteni_events.0101.a.tt: "You send out runners to tell the elder of your offer" #NT!
+ gh_olteni_events.0101.b: "Nothing good will come out seeking them out." #NT!
+  
+ gh_olteni_events.0102.t: "$gh_olteni_events.0101.t$: Mystic" #NT!
+ gh_olteni_events.0102.desc: ""I greet you, the [ROOT.Char.GetTitleAsNameNoTooltip] of the land, and I thank you for your hospitality." We link our arms in a formal greeting, [elder.GetHersHis] over mine.\n\n"A hospitality that, as is proper, I will repay in kind," [elder.GetSheHe] adds, bowing [elder.GetHerHis] head slightly.\n\nThe [elder.GetWomanMan]'s appearance is odd, even for someone of an esoteric inclination. Dozens of small bells are sewn into [elder.GetHerHis] robes, accentuating each movement with soft melodic chimes.\n\n"My name is [elder.GetName], Your Highness, and I have made it my life's work to preserve the wisdom of our Kolrgiian ancestors. It is this very wisdom that I offer to you, should you choose to accept it."" #NT!
+ gh_olteni_events.0102.a: "Wonderful, we #EMP should#! exchange notes!" #NT!
+ gh_olteni_events.0102.b: "I am ready to learn." #NT!
+ gh_olteni_events.0102.b.tt: "[elder.GetName] inducts you into sacrosanct Kolrgiian lore" #NT!
+ gh_olteni_events.0102.c: "You will have my hospitality, but nothing more." #NT!
+  
+ gh_olteni_events.0103.t: "$gh_olteni_events.0101.t$: Scholar" #NT!
+ gh_olteni_events.0103.desc: ""I greet you, the [ROOT.Char.GetTitleAsNameNoTooltip] of the land, and I thank you for your hospitality." We link our arms in a formal greeting, [elder.GetHersHis] over mine.\n\n"A hospitality that, as is proper, I will repay in kind," [elder.GetSheHe] adds, bowing [elder.GetHerHis] head slightly.\n\nThe [elder.GetWomanMan] did not come alone—a handful of servants, scribes, and apprentices accompany [elder.GetHerHim], carrying an impressive selection of books, scrolls, and strange apparatuses of presumably scientific origin.\n\n"My name is [elder.GetName], Your Highness, and I seek to unravel the mysteries of the natural world. Knowledge must be shared, not hoarded; I would be honored to share my discoveries with you."" #NT!
+ gh_olteni_events.0103.a: "Wonderful, we #EMP should#! exchange notes!" #NT!
+ gh_olteni_events.0103.b: "I am ready to learn." #NT!
+ gh_olteni_events.0103.b.tt: "[elder.GetName] imparts [elder.GetHerHis] knowledge onto you" #NT!
+ gh_olteni_events.0103.c: "You will have my hospitality, but nothing more." #NT!
+  
+ gh_olteni_events.0104.t: "$gh_olteni_events.0101.t$: Vagrant" #NT!
+ gh_olteni_events.0104.desc: ""[elder.GetSheHe|U]'s a con[elder.GetWomanMan], My [ROOT.Char.GetLadyLord|U]," [jailor.Custom2('MyCharacterIntroduction', ROOT.Char)] spits out with disdain.\n\n"We have tracked down the elder to extend the offer of your hospitality, but found this fraudster instead. [elder.GetSheHe|U] was peddling complete poppycock as medical remedies, and even had the audacity to try to sell us ground iron rust as if it was cinnabar powder."\n\nThe [elder.GetWomanMan] in chains flinches after every accusation in what appears to be a long list of [elder.GetHerHis] frauds, but remains silent." #NT!
+ gh_olteni_events.0104.a: "#EMP Flay them.#!" #NT!
+ gh_olteni_events.0104.b: "[elder.GetSheHe|U] will rot in the dungeon." #NT!
+ gh_olteni_events.0104.b.tt: "[elder.GetName] imparts [elder.GetHerHis] knowledge onto you" #NT!
+ gh_olteni_events.0104.c: "Just throw this filth out." #NT!
+ gh_olteni_events.0104.c.tt: "[elder.GetName] is banished under the threat of death" #NT!
+  
+ gh_olteni_events.0105.t: "$gh_olteni_events.0101.t$: Magi" #NT!
+ gh_olteni_events.0105.desc: ""I greet you, the [ROOT.Char.GetTitleAsNameNoTooltip] of the land, and I thank you for your hospitality." We link our arms in a formal greeting, [elder.GetHersHis] over mine.\n\n"A hospitality that, as is proper, I will repay in kind," [elder.GetSheHe] adds, bowing [elder.GetHerHis] head slightly.\n\n[elder.GetSheHe|U] is ancient, [elder.GetHerHis] touch more leather than skin, yet the grip on my hand is firm, and I can't miss the unnatural glow of [elder.GetHerHis] [elder.Custom('EyeEyes')] behind the mask.\n\n"My name is [elder.GetName], Your Highness, and I have taken to journeying on the eve of my days. Even just this world is vast, vaster than we can imagine, and abound with knowledge. It is this very knowledge that I offer to you, should you choose to accept it."" #NT!
+ gh_olteni_events.0105.a: "I graciously accept." #NT!
+ gh_olteni_events.0105.a.tt: "You start a #L Learn Magic Spell#! [scheme|E] against [elder.GetShortUIName] to learn the #L Defiled Nadir#! spell" #NT!
+ gh_olteni_events.0105.b: "You will have my hospitality, but nothing more." #NT!
+  
+ gh_olteni_events.0106.t: "$gh_olteni_events.0101.t$: Vanished" #NT!
+ gh_olteni_events.0106.desc: "It has been a couple of weeks since I dispatched my agents to find the elusive elder who was spotted in my realm. Now, as they return one by one with empty hands, I am forced to face the futility of my efforts.\n\nIt seems that the wanderer's whereabouts, if they even existed in the first place, will remain a mystery." #NT!
+ gh_olteni_events.0106.a: "Disappointing." #NT!
+ gh_olteni_events.0106.tt: "The elder has vanished without a trace" #NT!
+  
+ gh_olteni_events.0107.t: "$gh_olteni_events.0101.t$: Rejected" #NT!
+ gh_olteni_events.0107.desc: "My runners return, not with the elder, but rather with a letter from them.\n\nIn it, the elder scathingly berates the quality of my character, admonishing me for the many ways, both real and perceived, I have fallen short of being a faithful [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] and should not expect a meeting with the likes of them any time soon." #NT!
+ gh_olteni_events.0107.a: "Disappointing." #NT!
+ gh_olteni_events.0107.tt.piety: "The elder has rejected meeting you due to your low [piety_level|E]" #NT!
+ gh_olteni_events.0107.tt.sinful: "The elder has rejected meeting you due to your [sinful|E] [traits|E]" #NT!
+  
+ gh_olteni_events.0108.t: "Moving Forward" #NT!
+ gh_olteni_events.0108.desc: ""I am glad that you have taken my lessons to heart, [ROOT.Char.GetTitledFirstNameNoTooltip]," [elder.GetName] says with a deep sense of satisfaction in [elder.GetHerHis] voice.\n\n"Now that I have repaid your kind hospitality, I must resume my travels," [elder.GetSheHe] adds, bowing [elder.GetHerHis] head. The ritual [elder.GetSheHe] has taught me is a powerful boon, but I would not be loath to admit that I have grown fond of [elder.GetNamePossessiveNoTooltip] company and tutelage, even if tradition would dictate that we part ways forevermore." #NT!
+ gh_olteni_events.0108.a: "Thank you, and farewell." #NT!
+ gh_olteni_events.0108.a.tt: "[elder.GetName] leaves" #NT!
+ gh_olteni_events.0108.b: "Wait! Could you stay?" #NT!
+ gh_olteni_events.0108.b.success: "You convince [elder.GetName] to stay" #NT!
+ gh_olteni_events.0108.b.success.tt: "[elder.GetName] agrees to stay at your court" #NT!
+ gh_olteni_events.0108.b.failure: "$gh_olteni_events.0108.a.tt$" #NT!
+ gh_olteni_events.0108.b.failure.tt: "$gh_olteni_events.0108.a.tt$" #NT!
+  
+ gh_olteni_events.0109.t: "Mortality and Knowledge" #NT!
+ gh_olteni_events.0109.desc: "With [elder.GetNamePossessive] untimely death, my studies have come to an end. Crucially, this means that I am still missing several significant parts of the [ritual|E] [elder.GetSheHe] was teaching me, rendering the elements that I do know completely useless.\n\nWith no written notes or grimoires to guide me, any further progress seems unlikely." #NT!
+ gh_olteni_events.0109.a: "Will I ever find the answers I seek?" #NT!
+ gh_olteni_events.0109.a.tt: "[elder.GetName] has died" #NT!
+  
+ gh_olteni_events.0110.t: "Hollow Efforts" #NT!
+ gh_olteni_events.0110.desc: "Despite my best efforts, the details of the [ritual|E] [elder.GetName] has been teaching me continue to elude my understanding. Weeks turn into months, until it seems that the [elder.GetWomanMan]'s patience has run out at last.\n\nOne day, the elder simply leaves through the front gate, with neither the guards nor my knights keen to stop [elder.GetHerHim]. Without [elder.GetHerHis] guidance, I am left lost and confused, and any progress in learning the spell seems extremely unlikely." #NT!
+ gh_olteni_events.0110.a: "Was my best not enough?" #NT!
+ gh_olteni_events.0110.a.tt: "[elder.GetName] leaves" #NT!

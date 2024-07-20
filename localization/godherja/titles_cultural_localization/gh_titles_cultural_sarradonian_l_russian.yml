@@ -1,16 +1,46 @@
 ﻿l_russian:
- cn_khalkamah: "Халкамах"
+ cn_khalkamah: "Халкама"
  cn_tessanad: "Тессанад"
- cn_oberlay: "Оберлай"
- cn_waberley: "Уэберли"
- cn_karveille: "Карвейл"
+ cn_oberlay: "Оберлей"
+ cn_waberley: "Ваберли"
+ cn_karveille: "Карвей"
   
  cn_kahimmuhat: "Кахнамухат"
- cn_shask: "ас-Шаск"
- #cn_shask_article: "ас-"
- cn_gulbaat: "Гульбат"
+ cn_shask: "США-Шаск"
+ #cn_shask_article: "нас-"
+ cn_gulbaat: "Гулбат"
  cn_hammuhat: "Ханамухат"
- cn_sihnimiyyah: "Сихнимийя"
- cn_jabiil_ubk: "Джабиль юбк"
+ cn_jabiil_ubk: "Джабил Эубк"
  cn_kurq_niadd: "Курк ни'адд"
- cn_siwaasun: "Сивасиннах"
+ cn_siwaasun: "Сивасинна"
+  
+  ################ 
+  # e_sarradon   # 
+  ################ 
+      ## k_four_rivers ## 
+ cn_sihnimiyyah: "Сихнимия"
+          # Counties 
+ cn_muhidalcan: "Muhidalcan" #NT!
+ cn_irsh_alqadim: "Irsh-Alqadim" #NT!
+ cn_ashwrad_aleula: "Ashwrad Aleula" #NT!
+ cn_tal_elmalayk: "Tal Elmalayk" #NT!
+ cn_ashwrad_alsufla: "Ashwrad Alsufla" #NT!
+ cn_karkiriyyeh: "Karkiriyyeh" #NT!
+ cn_qemmasid: "Qemmasid" #NT!
+          # Duchies 
+ cn_ishrid: "Ishrid" #NT!
+      ## k_emporia ## 
+          # Counties 
+ cn_qarmina: "Qarmina" #NT!
+      ## k_tifrennesh ## 
+          # Counties 
+ cn_khad_yrim: "Khad Yrim" #NT!
+ cn_lymaia: "Lymaia" #NT!
+ cn_sufynan: "Sufynan" #NT!
+ cn_ahad_w_akliya_nabalqas: "Ahad w Akliya-Nab'alqas" #NT!
+ cn_bahara_ashmish: "Bahara Ashmish" #NT!
+ cn_niqqa: "Niqqa" #NT!
+ cn_kharijun: "Kharijun" #NT!
+      ## k_thaliteia ## 
+ cn_manqisha: "Manqisha" #NT!
+ cn_imawuda: "Imawuda" #NT!

@@ -1,5 +1,5 @@
 ﻿l_russian:
- suggestion_cast_spell: "Предложение: произнести заклинание"  
- suggestion_cast_spell_label: "Заколдовать"  
- suggestion_cast_spell_desc: "Вы [Concept('magi','маг')|E] и у вас достаточно магии, чтобы произнести заклинание. Вам следует открыть экран «Ритуалы»."  
- suggestion_cast_spell_click: "#I Нажмите, чтобы просмотреть экран ритуалов#!"  
+ suggestion_cast_spell:0 "Предложение: произнести заклинание"  
+ suggestion_cast_spell_label:0 "Заколдовать"  
+ suggestion_cast_spell_desc:0 "Вы [Concept('magi','маг')|E] и у вас достаточно магии, чтобы произнести заклинание. Вам следует открыть экран «Ритуалы»."  
+ suggestion_cast_spell_click:0 "#I Нажмите, чтобы просмотреть экран ритуалов#!"  

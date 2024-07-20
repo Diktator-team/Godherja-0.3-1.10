@@ -1,0 +1,12 @@
+﻿l_russian:
+  
+ gh_health.1000.t: "[SCOPE.Custom('EventTitleDisease')]: My Old Self" #NT!
+ gh_health.1000.desc: "For the past several days I have felt the strength returning to my weary limbs and have been able to keep my wits about me." #NT!
+ gh_health.1000.a: "I am glad to be well again." #NT!
+  
+ gh_health.1010.t: "[SCOPE.Custom('EventTitleDisease')]: Plague of the Kasir" #NT!
+ gh_health.1010.travel.t: "[SCOPE.Custom('EventTitleDisease')]: Fear Along the River" #NT!
+ gh_health.1010.desc: "At first the rashes were little more than annoying, but when my hair began to fall and my body grew weaker and weaker I hoped against hope that it would pass." #NT!
+ gh_health.1010.end.desc: "\n\n I struggle to remember how much time has passed since, my body decaying with each passing moment..." #NT!
+ gh_health.1010.court_physician.desc: "\n\n"It's regretable to say but these rashes are a sure sign of aironoian leprosy. Very dangerous if left untreated." #NT!
+ gh_health.1010.a: "[ROOT.Char.GetFaith.HealthGodName], I beg you, lend me strength to overcome this." #NT!

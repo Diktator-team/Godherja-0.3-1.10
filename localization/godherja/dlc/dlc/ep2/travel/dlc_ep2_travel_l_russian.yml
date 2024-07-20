@@ -1,0 +1,33 @@
+﻿l_russian:
+  
+ travel_danger_type_marcher_forest: "[antimagic_terrain_basic|E] Лес"
+ travel_danger_type_marcher_forest_desc: "$travel_danger_type_forest_desc$"
+ travel_danger_type_marcher_hills: "[antimagic_terrain_basic|E] Холмы"
+ travel_danger_type_marcher_hills_desc: "$travel_danger_type_hills_desc$"
+ travel_danger_type_marcher_mountains: "[antimagic_terrain_basic|E] Горы"
+ travel_danger_type_marcher_mountains_desc: "$travel_danger_type_mountains_desc$"
+ travel_danger_type_marcher_plains: "[antimagic_terrain_basic|E] Равнины"
+ travel_danger_type_marcher_plains_desc: "$travel_danger_type_plains_desc$"
+ travel_danger_type_marcher_floodplains: "[antimagic_terrain_basic|E] поймы"
+ travel_danger_type_marcher_floodplains_desc: "$travel_danger_type_floodplains_desc$"
+ travel_danger_type_marcher_wetlands: "[antimagic_terrain_basic|E] Водно-болотные угодья"
+ travel_danger_type_marcher_wetlands_desc: "$travel_danger_type_wetlands_desc$"
+  
+ travel_danger_type_deadlands: "Мертвые земли"
+ travel_danger_type_deadlands_desc: "Живым не рады в стране мертвых."
+  
+ travel_danger_type_mayik_caverns: "Подземная пещера"
+ travel_danger_type_mayik_caverns_desc: "Кажется, что-то движется в темноте."
+ travel_danger_type_mayik_chamber: "Подземная палата"
+ travel_danger_type_mayik_chamber_desc: "Кто знает, что может наблюдать за тобой из темноты?"
+ travel_danger_type_mayik_corridors: "Подземный коридор"
+ travel_danger_type_mayik_corridors_desc: "Даже приглушенный шепот бесконечно эхом отдается от этих стен."
+  
+ travel_danger_type_redlands_chasms: "Redlands Chasm" #NT!
+ travel_danger_type_redlands_chasms_desc: "$travel_danger_type_mayik_caverns_desc$" #NT!
+ travel_danger_type_redlands_drylands: "Redlands Drylands" #NT!
+ travel_danger_type_redlands_drylands_desc: "Dark magics reside in these red sands." #NT!
+ travel_danger_type_redlands_desert: "Redlands Desert" #NT!
+  travel_danger_type_redlands_desert_desc:0 "$travel_danger_type_redlands_drylands_desc$ 
+ travel_danger_type_redlands_mountains: "Redlands Mountains" #NT!
+  travel_danger_type_redlands_mountains_desc:0 "$travel_danger_type_redlands_drylands_desc$ 

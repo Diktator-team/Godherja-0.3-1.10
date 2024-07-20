@@ -1,10 +1,14 @@
 ﻿l_russian:
  gh_disband_the_imperrech_decision: "Расформировать Имперрех"
- gh_disband_the_imperrech_decision_desc: "Миграция окончена. Я разгромил остатки [Concept('aversaria','Аверсарии')|E] и поселил народы Империи на новых плодородных землях, свободных от угрозы [Concept('fog','тумана')|E]. В Высшем королевстве больше нет необходимости, и поэтому оно должно распасться, чтобы племена могли сами решать свою судьбу."
+ gh_disband_the_imperrech_decision_desc: "Миграция завершилась. Я разгромил остатки [aversaria|E] и заселил народы Имперреха на плодородных новых землях, свободных от угрозы [fog|E]. В Высоком Королевстве больше нет необходимости, и поэтому оно должно быть распущено, чтобы племена могли сами определять свою судьбу."
  gh_disband_the_imperrech_decision_tooltip: "Я соберу вождей, чтобы объявить о конце Имперреха."
  gh_disband_the_imperrech_decision_effect_tt: "Все не созданные де-юре королевства в вашем королевстве будут переданы самому могущественному правителю королевства."
  gh_disband_the_imperrech_decision_effect2_tt: "Все королевства Империи получат всех своих вассалов де-юре."
  gh_disband_the_imperrech_decision_effect3_tt: "Все ваши не-де-юре вассалы станут независимыми."
+ gh_disband_the_imperrech_decision_effect4_tt: "Within 5 years, the [faiths|E] of the Imperrech will lose their [GetFaithDoctrine('special_doctrine_imperrech_common_goal').GetBaseName] [doctrine|E]." #NT!
+ gh_disband_the_imperrech_decision_effect5_tt: "Within 15 years, the [faiths|E] of the Imperrech will lose their [GetFaithDoctrine('special_doctrine_imperrech_common_goal').GetBaseName] [doctrine|E]." #NT!
+ gh_disband_the_imperrech_decision_effect6_tt: "Within 10 years, the [faiths|E] of the Imperrech will lose their [GetFaithDoctrine('special_doctrine_imperrech_common_goal').GetBaseName] [doctrine|E]." #NT!
+  
  gh_disband_the_imperrech_decision_confirm: "Расформировать Имперрех"
   
  gh_disband_the_imperrech_must_be_liege_of_oraispol_desc: "Любой вассал владеет [GetTitleByKey('c_oraispol').GetNameNoTier]"

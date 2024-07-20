@@ -1,0 +1,6 @@
+﻿l_russian:
+  
+ activity_pilgrimage.not_a_holy_site_tt: "This province is #bold not#! one of your [faithpossessive|E] [holy_sites|E]#!" #NT!
+ activity_pilgrimage.fogswept.tt: "This province has been lost to the [fog|E]" #NT!
+ activity_pilgrimage.fogeater_control.tt: "This province is under the control of [fogeaters|E]" #NT!
+ activity_pilgrimage.wasteland.tt: "This province is an uninhabited [wasteland|E]" #NT!

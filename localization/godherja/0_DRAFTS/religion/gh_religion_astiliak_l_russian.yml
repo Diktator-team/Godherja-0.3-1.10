@@ -4,7 +4,7 @@
  astiliak_religion_adj: "Астиляк"
  astiliak_religion_adherent: "Астиляк"
  astiliak_religion_adherent_plural: "Астильякс"
- astiliak_religion_desc: "Древняя вера народа астилик, вера астилиаков - это разнообразная политеистическая система верований, в которой фактически нет последовательного ряда богов, вместо этого каждая община астилиаков придерживается культурно традиционных пантеонов, которые лишь иногда разделяют богов с другими. Единственная согласованность заключается в том, как их боги были [Concept('astilik_gods','представлены')|E] на [Concept('aeras','Аэрасе')|E]."
+ astiliak_religion_desc: "The ancient faith of the Astilik people, the Astiliak faith is a diverse polytheistic belief system that possesses no actual consistent series of gods, each Astiliak community instead carrying on culturally traditional pantheons that only sometimes share gods with others. The only consistency is in how their gods were [Concept('astilik_gods','represented')|E] on [aeras|E]."
   
  astiliak_high_god_name: "Ирраду"
  astiliak_high_god_name_possessive: "Ирраду"

@@ -1,148 +1,147 @@
 ﻿l_russian:
   ###Historic Dynasties### 
- dynn_Grudzog: "Грудзог"  #Машинный перевод 28.10.23!
- dynn_Grudzog_motto: "Единство под копьем"  #Машинный перевод 28.10.23!
+ dynn_Grudzog: "Грудзог"
+ dynn_Grudzog_motto: "Единство под копьем"
   
- dynn_Polureg: "Полурег"  #Машинный перевод 28.10.23!
- dynn_Polureg_motto: "Непревзойденный в небе"  #Машинный перевод 28.10.23!
+ dynn_Polureg: "Полурег"
+ dynn_Polureg_motto: "Непревзойденный в небе"
   
- dynn_Ornnbor: "Орнбор"  #Машинный перевод 28.10.23!
- dynn_Ornnbor_motto: "Искатели богатств"  #Машинный перевод 28.10.23!
+ dynn_Ornnbor: "Орнбор"
+ dynn_Ornnbor_motto: "Искатели богатств"
   
- dynn_Lufgrom: "Луфгром"  #Машинный перевод 28.10.23!
- dynn_Lufgrom_motto: "Волчий клык"  #Машинный перевод 28.10.23!
+ dynn_Lufgrom: "Луфгром"
+ dynn_Lufgrom_motto: "Волчий клык"
   
- dynn_Schonmodr: "Шонмодр"  #Машинный перевод 28.10.23!
- dynn_Schonmodr_motto: "Устойчивость в трудностях"  #Машинный перевод 28.10.23!
+ dynn_Schonmodr: "Шонмодр"
+ dynn_Schonmodr_motto: "Устойчивость в трудностях"
   
- dynn_Borpuvn: "Борпувн"  #Машинный перевод 28.10.23!
- dynn_Borpuvn_motto: "Из многих один"  #Машинный перевод 28.10.23!
+ dynn_Borpuvn: "Борпувн"
+ dynn_Borpuvn_motto: "Из многих один"
   
- dynn_Cosfuln: "Косфулн"  #Машинный перевод 28.10.23!
- dynn_Cosfuln_motto: "Слуги Красного Принца"  #Машинный перевод 28.10.23!
+ dynn_Cosfuln: "Косфулн"
+ dynn_Cosfuln_motto: "Слуги Красного Принца"
   
- dynn_Zogcot: "Зогкот"  #Машинный перевод 28.10.23!
- dynn_Zogcot_motto: "Пусть ничьё копье не будет тупым"  #Машинный перевод 28.10.23!
+ dynn_Zogcot: "Зогкот"
+ dynn_Zogcot_motto: "Пусть ничьё копье не будет тупым"
   
- dynn_Golnvogt: "Гольнфогт"  #Машинный перевод 28.10.23!
- dynn_Golnvogt_motto: "Искатели высокой красоты"  #Машинный перевод 28.10.23!
+ dynn_Golnvogt: "Гольнфогт"
+ dynn_Golnvogt_motto: "Искатели высокой красоты"
   
- dynn_Sogrolf: "Согрольф"  #Машинный перевод 28.10.23!
- dynn_Sogrolf_motto: "Поворот к рассвету"  #Машинный перевод 28.10.23!
+ dynn_Sogrolf: "Согрольф"
+ dynn_Sogrolf_motto: "Поворот к рассвету"
   
- dynn_Aexnoraug: "Экс'нороуг"  #Машинный перевод 28.10.23!
- dynn_Aexnoraug_motto: "Слуги в масках"  #Машинный перевод 28.10.23!
+ dynn_Aexnoraug: "Экс'нороуг"
+ dynn_Aexnoraug_motto: "Слуги в масках"
   
- dynn_Olbor: "Ольбор"  #Машинный перевод 28.10.23!
- dynn_Olbor_motto: "Гранд в очаге и битве"  #Машинный перевод 28.10.23!
+ dynn_Olbor: "Ольбор"
+ dynn_Olbor_motto: "Гранд в очаге и битве"
   
- dynn_Fuznor: "Фузнор"  #Машинный перевод 28.10.23!
- dynn_Fuznor_motto: "Стрела сквозь сердце"  #Машинный перевод 28.10.23!
+ dynn_Fuznor: "Фузнор"
+ dynn_Fuznor_motto: "Стрела сквозь сердце"
   
- dynn_Golnsog: "Гольнсог"  #Машинный перевод 28.10.23!
- dynn_Golnsog_motto: "Медитация ночью и днем"  #Машинный перевод 28.10.23!
+ dynn_Golnsog: "Гольнсог"
+ dynn_Golnsog_motto: "Медитация ночью и днем"
   
- dynn_Porgorst: "Поргорст"  #Машинный перевод 28.10.23!
- dynn_Porgorst_motto: "Мы изгоняем тьму"  #Машинный перевод 28.10.23!
+ dynn_Porgorst: "Поргорст"
+ dynn_Porgorst_motto: "Мы изгоняем тьму"
   
   ###Cultural Dynasties### 
- dynn_Alfuzn: "Альфузн"  #Машинный перевод 28.10.23!
- dynn_Altuln: "Алтулн"  #Машинный перевод 28.10.23!
- dynn_Alvoltvn: "Альвольтвн"  #Машинный перевод 28.10.23!
- dynn_Alvolung: "Алволунг"  #Машинный перевод 28.10.23!
- dynn_Aupolu: "Ауполу"  #Машинный перевод 28.10.23!
- dynn_Auptoun: "Ауптун"  #Машинный перевод 28.10.23!
- dynn_Aupugn: "Опюнь"  #Машинный перевод 28.10.23!
- dynn_Blaurolf: "Блаурольф"  #Машинный перевод 28.10.23!
- dynn_Blaurpo: "Блаурпо"  #Машинный перевод 28.10.23!
- dynn_Blaursopn: "Блаурсопн"  #Машинный перевод 28.10.23!
- dynn_Bornfugl: "Борнфугль"  #Машинный перевод 28.10.23!
- dynn_Bornmos: "Борнмос"  #Машинный перевод 28.10.23!
- dynn_Bornrun: "Борнрун"  #Машинный перевод 28.10.23!
- dynn_Bugnfuln: "Багнфулн"  #Машинный перевод 28.10.23!
- dynn_Bugnreg: "Бугнрег"  #Машинный перевод 28.10.23!
- dynn_Bugnzos: "Бугнзос"  #Машинный перевод 28.10.23!
- dynn_Cosborlun: "Косборлун"  #Машинный перевод 28.10.23!
- dynn_Cosoltvn: "Косолтвн"  #Машинный перевод 28.10.23!
- dynn_Cosolung: "Косолунг"  #Машинный перевод 28.10.23!
- dynn_Cosvorn: "Косворн"  #Машинный перевод 28.10.23!
- dynn_Dofuln: "Дофулн"  #Машинный перевод 28.10.23!
- dynn_Doregn: "Дорегн"  #Машинный перевод 28.10.23!
- dynn_Dorugn: "Доругн"  #Машинный перевод 28.10.23!
- dynn_Dulavn: "Дюлавн"  #Машинный перевод 28.10.23!
- dynn_Dunavn: "Дунавн"  #Машинный перевод 28.10.23!
- dynn_Fomrolf: "Фомрольф"  #Машинный перевод 28.10.23!
- dynn_Fomsogl: "Фомсогл"  #Машинный перевод 28.10.23!
- dynn_Fomsul: "Фомсул"  #Машинный перевод 28.10.23!
- dynn_Furnfugl: "Фурнфугль"  #Машинный перевод 28.10.23!
- dynn_Furnragn: "Фурнрагн"  #Машинный перевод 28.10.23!
- dynn_Furnsudn: "Фурнсудн"  #Машинный перевод 28.10.23!
- dynn_Golnnur: "Голнур"  #Машинный перевод 28.10.23!
- dynn_Golregn: "Голрегн"  #Машинный перевод 28.10.23!
- dynn_Golvogt: "Гольфогт"  #Машинный перевод 28.10.23!
- dynn_Gorston: "Горстон"  #Машинный перевод 28.10.23!
- dynn_Gorstour: "Горстур"  #Машинный перевод 28.10.23!
- dynn_Gorstzog: "Горцог"  #Машинный перевод 28.10.23!
- dynn_Grunavn: "Грунавн"  #Машинный перевод 28.10.23!
- dynn_Guntlun: "Гунтлун"  #Машинный перевод 28.10.23!
- dynn_Guntouv: "Гунтув"  #Машинный перевод 28.10.23!
- dynn_Guntzog: "Гунцог"  #Машинный перевод 28.10.23!
- dynn_Lucgous: "удачный"  #Машинный перевод 28.10.23!
- dynn_Lucolu: "Луколу"  #Машинный перевод 28.10.23!
- dynn_Lucotge: "Люкотж"  #Машинный перевод 28.10.23!
- dynn_Lucpola: "Лукпола"  #Машинный перевод 28.10.23!
- dynn_Lucsopn: "Луксопн"  #Машинный перевод 28.10.23!
- dynn_Luctoun: "Луктун"  #Машинный перевод 28.10.23!
- dynn_Lufalvn: "Луфалвн"  #Машинный перевод 28.10.23!
- dynn_Lufcos: "Луфкос"  #Машинный перевод 28.10.23!
- dynn_Lufnor: "Луфнор"  #Машинный перевод 28.10.23!
- dynn_Lunlung: "Лунлунг"  #Машинный перевод 28.10.23!
- dynn_Lunspon: "Лунспон"  #Машинный перевод 28.10.23!
- dynn_Luntovn: "Лунтовн"  #Машинный перевод 28.10.23!
- dynn_Navbutn: "Навбутн"  #Машинный перевод 28.10.23!
- dynn_Navragn: "Наврагн"  #Машинный перевод 28.10.23!
- dynn_Navurn: "Навурн"  #Машинный перевод 28.10.23!
- dynn_Noborlun: "Ноборлун"  #Машинный перевод 28.10.23!
- dynn_Norfuln: "Норфулн"  #Машинный перевод 28.10.23!
- dynn_Norogtun: "Норогтун"  #Машинный перевод 28.10.23!
- dynn_Noroltvn: "Норолтвн"  #Машинный перевод 28.10.23!
- dynn_Olfuzn: "Ольфузн"  #Машинный перевод 28.10.23!
- dynn_Olgutr: "Ольгутр"  #Машинный перевод 28.10.23!
- dynn_Olragn: "Ольрагн"  #Машинный перевод 28.10.23!
- dynn_Oulnavn: "Улнавн"  #Машинный перевод 28.10.23!
- dynn_Probugn: "Пробугн"  #Машинный перевод 28.10.23!
- dynn_Prolu: "Пролу"  #Машинный перевод 28.10.23!
- dynn_Proshagn: "Прошагн"  #Машинный перевод 28.10.23!
- dynn_Rognnur: "Рогнур"  #Машинный перевод 28.10.23!
- dynn_Rognolu: "Роньолу"  #Машинный перевод 28.10.23!
- dynn_Rognvend: "Рогнвенд"  #Машинный перевод 28.10.23!
- dynn_Rolfregn: "Рольфрегн"  #Машинный перевод 28.10.23!
- dynn_Rolfspon: "Рольфспон"  #Машинный перевод 28.10.23!
- dynn_Rolfvend: "Рольфвенд"  #Машинный перевод 28.10.23!
- dynn_Schnavn: "Шнавн"  #Машинный перевод 28.10.23!
- dynn_Schonfugl: "Шонфугль"  #Машинный перевод 28.10.23!
- dynn_Schonrolf: "Шонрольф"  #Машинный перевод 28.10.23!
- dynn_Schonrugn: "Шонругн"  #Машинный перевод 28.10.23!
- dynn_Shagnlun: "Shagnlun"  #Машинный перевод 28.10.23!
- dynn_Shagnolu: "Шаньолу"  #Машинный перевод 28.10.23!
- dynn_Shagntoln: "Шагнтольн"  #Машинный перевод 28.10.23!
- dynn_Sogfrun: "Согфрун"  #Машинный перевод 28.10.23!
- dynn_Sogol: "Соголь"  #Машинный перевод 28.10.23!
- dynn_Sogoln: "Согольн"  #Машинный перевод 28.10.23!
- dynn_Tolnbag: "Толнбаг"  #Машинный перевод 28.10.23!
- dynn_Tolnfrag: "Толнфраг"  #Машинный перевод 28.10.23!
- dynn_Tolnoum: "Толнум"  #Машинный перевод 28.10.23!
- dynn_Tovnfurn: "Товнфурн"  #Машинный перевод 28.10.23!
- dynn_Tovnreg: "Товнрег"  #Машинный перевод 28.10.23!
- dynn_Tovorn: "Товорн"  #Машинный перевод 28.10.23!
- dynn_Trunavn: "Трунавн"  #Машинный перевод 28.10.23!
- dynn_Tulnorvu: "Тулнорву"  #Машинный перевод 28.10.23!
- dynn_Tulnotge: "Тульнотге"  #Машинный перевод 28.10.23!
- dynn_Tulnreg: "Тульнрег"  #Машинный перевод 28.10.23!
- dynn_Unavn: "Унавн"  #Машинный перевод 28.10.23!
- dynn_Uvmos: "Увмос"  #Машинный перевод 28.10.23!
- dynn_Uvolu: "Уволу"  #Машинный перевод 28.10.23!
- dynn_Uvtovn: "Увтовн"  #Машинный перевод 28.10.23!
- dynn_Voragn: "Ворагн"  #Машинный перевод 28.10.23!
- dynn_Vornaup: "Ворнауп"  #Машинный перевод 28.10.23!
- dynn_Vorncotn: "Ворнкотн"  #Машинный перевод 28.10.23!
+ dynn_Altuln: "Алтулн"
+ dynn_Alvoltvn: "Альвольтвн"
+ dynn_Alvolung: "Алволунг"
+ dynn_Aupolu: "Ауполу"
+ dynn_Auptoun: "Ауптун"
+ dynn_Aupugn: "Опюнь"
+ dynn_Blaurolf: "Блаурольф"
+ dynn_Blaurpo: "Блаурпо"
+ dynn_Blaursopn: "Блаурсопн"
+ dynn_Bornfugl: "Борнфугль"
+ dynn_Bornmos: "Борнмос"
+ dynn_Bornrun: "Борнрун"
+ dynn_Bugnfuln: "Багнфулн"
+ dynn_Bugnreg: "Бугнрег"
+ dynn_Bugnzos: "Бугнзос"
+ dynn_Cosborlun: "Косборлун"
+ dynn_Cosoltvn: "Косолтвн"
+ dynn_Cosolung: "Косолунг"
+ dynn_Cosvorn: "Косворн"
+ dynn_Dofuln: "Дофулн"
+ dynn_Doregn: "Дорегн"
+ dynn_Dorugn: "Доругн"
+ dynn_Dulavn: "Дюлавн"
+ dynn_Dunavn: "Дунавн"
+ dynn_Fomrolf: "Фомрольф"
+ dynn_Fomsogl: "Фомсогл"
+ dynn_Fomsul: "Фомсул"
+ dynn_Furnfugl: "Фурнфугль"
+ dynn_Furnragn: "Фурнрагн"
+ dynn_Furnsudn: "Фурнсудн"
+ dynn_Golnnur: "Голнур"
+ dynn_Golregn: "Голрегн"
+ dynn_Golvogt: "Гольфогт"
+ dynn_Gorston: "Горстон"
+ dynn_Gorstour: "Горстур"
+ dynn_Gorstzog: "Горцог"
+ dynn_Grunavn: "Грунавн"
+ dynn_Guntlun: "Гунтлун"
+ dynn_Guntouv: "Гунтув"
+ dynn_Guntzog: "Гунцог"
+ dynn_Lucgous: "удачный"
+ dynn_Lucolu: "Луколу"
+ dynn_Lucotge: "Люкотж"
+ dynn_Lucpola: "Лукпола"
+ dynn_Lucsopn: "Луксопн"
+ dynn_Luctoun: "Луктун"
+ dynn_Lufalvn: "Луфалвн"
+ dynn_Lufcos: "Луфкос"
+ dynn_Lufnor: "Луфнор"
+ dynn_Lunlung: "Лунлунг"
+ dynn_Lunspon: "Лунспон"
+ dynn_Luntovn: "Лунтовн"
+ dynn_Navbutn: "Навбутн"
+ dynn_Navragn: "Наврагн"
+ dynn_Navurn: "Навурн"
+ dynn_Noborlun: "Ноборлун"
+ dynn_Norfuln: "Норфулн"
+ dynn_Norogtun: "Норогтун"
+ dynn_Noroltvn: "Норолтвн"
+ dynn_Olfuzn: "Ольфузн"
+ dynn_Olgutr: "Ольгутр"
+ dynn_Olragn: "Ольрагн"
+ dynn_Oulnavn: "Улнавн"
+ dynn_Probugn: "Пробугн"
+ dynn_Prolu: "Пролу"
+ dynn_Proshagn: "Прошагн"
+ dynn_Rognnur: "Рогнур"
+ dynn_Rognolu: "Роньолу"
+ dynn_Rognvend: "Рогнвенд"
+ dynn_Rolfregn: "Рольфрегн"
+ dynn_Rolfspon: "Рольфспон"
+ dynn_Rolfvend: "Рольфвенд"
+ dynn_Schnavn: "Шнавн"
+ dynn_Schonfugl: "Шонфугль"
+ dynn_Schonrolf: "Шонрольф"
+ dynn_Schonrugn: "Шонругн"
+ dynn_Shagnlun: "Shagnlun"
+ dynn_Shagnolu: "Шаньолу"
+ dynn_Shagntoln: "Шагнтольн"
+ dynn_Sogfrun: "Согфрун"
+ dynn_Sogol: "Соголь"
+ dynn_Sogoln: "Согольн"
+ dynn_Tolnbag: "Толнбаг"
+ dynn_Tolnfrag: "Толнфраг"
+ dynn_Tolnoum: "Толнум"
+ dynn_Tovnfurn: "Товнфурн"
+ dynn_Tovnreg: "Товнрег"
+ dynn_Tovorn: "Товорн"
+ dynn_Trunavn: "Трунавн"
+ dynn_Tulnorvu: "Тулнорву"
+ dynn_Tulnotge: "Тульнотге"
+ dynn_Tulnreg: "Тульнрег"
+ dynn_Unavn: "Унавн"
+ dynn_Uvmos: "Увмос"
+ dynn_Uvolu: "Уволу"
+ dynn_Uvtovn: "Увтовн"
+ dynn_Voragn: "Ворагн"
+ dynn_Vornaup: "Ворнауп"
+ dynn_Vorncotn: "Ворнкотн"

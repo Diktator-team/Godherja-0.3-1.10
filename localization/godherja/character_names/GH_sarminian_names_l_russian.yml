@@ -1,180 +1,250 @@
 ﻿l_russian:
   # Male 
- A_bas: "Абас"  
- A_bed: "Кровать"  
- A_czan: "Азан"  
- A_gram: "Аграм"  
- Akrony: "Акрони"  
- AkszlO_: "Аксло"  
- A_namO_: "Анамо"  
- AnbA_czE_n: "Анбачен"  
- A_ndresz: "Андреш"  
- AntE_i: "Антей"  
- ArczE_n: "Арцен"  
- Ardon: "Ардон"  
- Arevak: "Аревак"  
- ArgunO_: "Аргуно"  
- ArsA_lon: "Арсалон"  
- ArtE_n: "Артен"  
- A_soj: "Асой"  
- A_szpak: "Ашпак"  
- AszpO_: "Ашпо"  
- AtA_maj: "Атамай"  
- BA_bej: "Бабей"  
- BA_kkE_sz: "Баккес"  
- BA_szor: "Басор"  
- BornO_: "Борно"  
- ChA_ptr: "Глава"  
- ChU_don: "Чудон"  
- CzabO_s: "Чабош"  
- CzanI_sz: "Чаниш"  
- CzE_nver: "Ченвер"  
- Czeydan: "Чейдан"  
- DA_dag: "Дадаг"  
- E_rkoj: "Кркой"  
- E_vrA_n: "Эвран"  
- Goar: "Гоар"  
- Gosza: "Госза"  
- Horas: "Хорас"  
- InO_: "Ино"  
- JA_vak: "Явак"  
- KA_nnusz: "Каннуш"  
- KA_rtan: "Картан"  
- KhA_gaj: "Хагай"  
- KU_taj: "Кутай"  
- LU_I_mar: "Луимар"  
- MA_dosz: "Мадош"  
- NugO_r: "Нугор"  
- OksA_r: "Оксар"  
- O_ltak: "Олтак"  
- Parszan: "Парсан"  
- PA_tesz: "Патес"  
- Phatr: "Фатр"  
- RaczpA_gan: "Рацпаган"  
- RU_moj: "Румой"  
- Satton: "Саттон"  
- SE_rej: "Серей"  
- SzA_vak: "Савак"  
- TA_izo: "Тайсо"  
- Tausz: "Тауш"  
- TE_iran: "Тейран"  
- ThE_odur: "Теодюр"  
- TI_besz: "Тибес"  
- U_rbal: "Урбал"  
- U_rzum: "Урзум"  
- ZA_lban: "Залбан"  
- ZA_mosz: "Замош"  
- ZA_njer: "Занджер"  
+ AbaczE_n: "Abaczên" #NT!
+ AbA_s: "Abás" #NT!
+ A_bed: "Кровать"
+ A_czan: "Азан"
+ Agathyr: "Agathyr" #NT!
+ A_ger: "Áger" #NT!
+ AgrA_m: "Agrám" #NT!
+ AkrosO_: "Akrosó" #NT!
+ AnachE_r: "Anachêr" #NT!
+ AnamO_n: "Anamón" #NT!
+ A_ndresz: "Андреш"
+ AntE_i: "Антей"
+ A_rax: "Árax" #NT!
+ ArdU_no: "Ardúno" #NT!
+ Arevak: "Аревак"
+ Arkon: "Arkon" #NT!
+ Arsalon: "Arsalon" #NT!
+ ArszA_k: "Arszák" #NT!
+ ArtE_n: "Артен"
+ A_soj: "Асой"
+ AszlO_: "Aszló" #NT!
+ AtamA_j: "Atamáj" #NT!
+ BA_kkesz: "Bákkesz" #NT!
+ BA_szor: "Басор"
+ BornO_: "Борно"
+ Chatr: "Chatr" #NT!
+ ChU_don: "Чудон"
+ CzabO_: "Czabó" #NT!
+ CzanI_sz: "Чаниш"
+ CzE_nver: "Ченвер"
+ Czeydan: "Чейдан"
+ Dadag: "Dadag" #NT!
+ DitulO_: "Dituló" #NT!
+ DU_szer: "Dúszer" #NT!
+ E_ntir: "Êntir" #NT!
+ E_ptimak: "Êptimak" #NT!
+ E_rczE_n: "Êrczên" #NT!
+ E_rgot: "Êrgot" #NT!
+ E_riant: "Êriant" #NT!
+ E_rimasz: "Êrimasz" #NT!
+ E_rix: "Êrix" #NT!
+ E_rkoj: "Кркой"
+ E_rpet: "Êrpet" #NT!
+ E_rsakom: "Êrsakom" #NT!
+ E_rzam: "Êrzam" #NT!
+ E_teor: "Êteor" #NT!
+ E_vrA_n: "Эвран"
+ GnurO_: "Gnuró" #NT!
+ Goar: "Гоар"
+ Golandak: "Golandak" #NT!
+ GO_lon: "Gólon" #NT!
+ Gosza: "Госза"
+ GU_lok: "Gúlok" #NT!
+ HarthE_s: "Harthês" #NT!
+ HavI_t: "Havít" #NT!
+ Horas: "Хорас"
+ HU_rbon: "Húrbon" #NT!
+ IndafI_r: "Indafír" #NT!
+ InO_: "Я не"
+ Ishpak: "Ishpak" #NT!
+ KannU_sz: "Kannúsz" #NT!
+ KargalI_k: "Kargalík" #NT!
+ KarpA_k: "Karpák" #NT!
+ KartA_n: "Kartán" #NT!
+ KhagA_j: "Khagáj" #NT!
+ Koytos: "Koytos" #NT!
+ KutA_j: "Kutáj" #NT!
+ LikO_: "Likó" #NT!
+ LU_mar: "Lúmar" #NT!
+ MA_dosz: "Мадош"
+ Nugor: "Nugor" #NT!
+ Okszar: "Okszar" #NT!
+ O_ltak: "Олтак"
+ ParsO_g: "Parsóg" #NT!
+ Parszan: "Парсан"
+ PA_tesz: "Патес"
+ Phatr: "Фатр"
+ PlI_n: "Plín" #NT!
+ RaczpagA_n: "Raczpagán" #NT!
+ RU_moj: "Румой"
+ SattO_n: "Sattón" #NT!
+ SavilO_: "Saviló" #NT!
+ Serej: "Serej" #NT!
+ Sparigap: "Sparigap" #NT!
+ StagorO_: "Stagoró" #NT!
+ SzavA_rk: "Szavárk" #NT!
+ TaizO_: "Taizó" #NT!
+ Tausz: "Тауш"
+ TE_iran: "Тейран"
+ ThE_odur: "Теодюр"
+ TI_besz: "Тибес"
+ U_rbal: "Урбал"
+ U_rzum: "Урзум"
+ Zalban: "Zalban" #NT!
+ ZA_mosz: "Замош"
+ Zanjer: "Zanjer" #NT!
   
   # Female 
- AbA_zuna: "Абазуна"  
- A_bnE_s: "Абнес"  
- AchA_ke: "Ачаке"  
- AgardA_rika: "Агардарика"  
- A_kczE_: "Акче"  
- AmA_ia: "Амайя"  
- A_mgis: "Амгис"  
- AmI_dE_: "Амида"  
- AmO_leika: "Амолейка"  
- A_ndala: "Андала"  
- A_ntaly: "Анталия"  
- AO_sa: "Аоса"  
- A_rczana: "Арчана"  
- ArdO_na: "Ардона"  
- A_rgarta: "Аргарта"  
- ArgU_na: "Аргуна"  
- ArI_tE_: "Арите"  
- A_rpita: "Арпита"  
- A_rte: "Арте"  
- ArtE_ma: "Артёма"  
- A_rzalin: "Арзалин"  
- AszA_r: "Ассар"  
- AvirA_ta: "Авирата"  
- AygA_ry: "Айгари"  
- BA_ria: "Бария"  
- Beika: "Бейка"  
- BordU_kana: "Бордукана"  
- BurA_na: "Бурана"  
- ChA_rdane: "Шардане"  
- ChU_ris: "Чурис"  
- CzA_mura: "Чамура"  
- CzA_nda: "Чанда"  
- CzarI_na: "Царица"  
- Czenvera: "Ченвера"  
- DiodedE_a: "Диодедея"  
- Dulana: "Дулана"  
- DumO_tora: "Думотора"  
- DurO_taka: "Дуротака"  
- E_lima: "Клима"  
- E_ohar: "Кохар"  
- E_rna: "Кырна"  
- E_szter: "Эстер"  
- FA_nA_ry: "Фанари"  
- GertA_na: "Гертана"  
- GO_la: "Гола"  
- GyulE_: "Дьюле"  
- HU_lan: "Хулан"  
- HU_rszina: "Хуршина"  
- IlU_re: "Илур"  
- I_oa: "Иоа"  
- IsztvA_na: "Иштвана"  
- ItU_ria: "Итурия"  
- JA_nA_g: "Янаг"  
- JuzA_nn: "Хузанн"  
- KatrA_zia: "Катразия"  
- KA_tvia: "Катвиа"  
- KA_uria: "Каурия"  
- KhI_ta: "Хита"  
- KO_rsoba: "Корсоба"  
- LA_mari: "Ламари"  
- LA_sina: "Ласина"  
- LeiltE_: "Лейлте"  
- Leimelie: "Леймели"  
- LoksA_na: "Локсана"  
- LU_zistanza: "Лузистанса"  
- MA_rA_my: "Марами"  
- MargetE_: "Маргете"  
- MA_rtE_: "Марте"  
- MatE_a: "Матеа"  
- MA_tyA_na: "Матьяна"  
- MO_lina: "Молина"  
- O_chedy: "Очеди"  
- OctA_my: "Октами"  
- OklA_zia: "Оклазия"  
- OminI_de: "Оминиде"  
- O_nA_r: "Онар"  
- O_riga: "Орига"  
- OrU_kana: "Орукана"  
- O_sA_nia: "Осания"  
- O_ttia: "Эттия"  
- PhA_rna: "Фарна"  
- PU_rE_na: "Пурена"  
- RadE_fona: "Радефона"  
- Rezpendia: "Резпендиа"  
- SotE_ne: "Сотен"  
- SzA_rmata: "Шармата"  
- TA_nara: "Танара"  
- TA_rgitai: "Таргитай"  
- TE_ira: "Тейра"  
- TE_krin: "Текрин"  
- TE_mora: "Темора"  
- TeU_tara: "Теутара"  
- Tokszar: "Токсар"  
- TormirE_: "Тормире"  
- TzA_ntala: "Тзантала"  
- UlA_szia: "Уласия"  
- Vedna: "Ведна"  
- VI_lI_s: "Вилис"  
- VirA_j: "Вирай"  
- ZA_ntana: "Зантана"  
- ZA_ssia: "Засия"  
- ZilU_re: "Зилуре"  
- ZolszhE_: "Зольше"  
- ZurkA_na: "Зуркана"  
+ AbnE_s: "Abnês" #NT!
+ AchA_ke: "Ачаке"
+ AgardA_rika: "Агардарика"
+ AgartE_: "Agartê" #NT!
+ AkczE_: "Akczê" #NT!
+ AktomasA_d: "Aktomasád" #NT!
+ Alrix: "Alrix" #NT!
+ AltE_ma: "Altêma" #NT!
+ AmA_ia: "Амайя"
+ AmassA_r: "Amassár" #NT!
+ A_mgis: "Амгис"
+ AmidE_: "Amidê" #NT!
+ AmU_lei: "Amúlei" #NT!
+ AndA_la: "Andála" #NT!
+ Ankisrida: "Ankisrida" #NT!
+ AO_sa: "Аоса"
+ A_pis: "Ápis" #NT!
+ Arar: "Arar" #NT!
+ ArczA_na: "Arczána" #NT!
+ ArdU_n: "Ardún" #NT!
+ ArI_tE_: "Арите"
+ ArpI_ta: "Arpíta" #NT!
+ Arszalin: "Arszalin" #NT!
+ ArtA_ly: "Artály" #NT!
+ AszA_r: "Ассар"
+ AvirA_ta: "Авирата"
+ AygA_ry: "Айгари"
+ AzU_ma: "Azúma" #NT!
+ BA_rda: "Bárda" #NT!
+ BA_ria: "Бария"
+ Beika: "Бейка"
+ BU_kalabra: "Búkalabra" #NT!
+ BU_ran: "Búran" #NT!
+ ChardA_n: "Chardán" #NT!
+ ChU_ris: "Чурис"
+ CzamU_r: "Czamúr" #NT!
+ CzA_nda: "Чанда"
+ Czarina: "Czarina" #NT!
+ Czenvera: "Ченвера"
+ DiodedE_a: "Диодедея"
+ Dugdamme: "Dugdamme" #NT!
+ Dulana: "Дулана"
+ DumutO_r: "Dumutór" #NT!
+ Durotaka: "Durotaka" #NT!
+ E_ily: "Êily" #NT!
+ E_les: "Êles" #NT!
+ E_lima: "Клима"
+ E_lizo: "Êlizo" #NT!
+ E_nA_ra: "Ênára" #NT!
+ E_ohar: "Кохар"
+ E_rdE_my: "Êrdêmy" #NT!
+ E_rge: "Êrge" #NT!
+ E_rna: "Ырна"
+ E_szter: "Эстер"
+ FagimasA_d: "Fagimasád" #NT!
+ FanA_ry: "Fanáry" #NT!
+ Giley: "Giley" #NT!
+ Gola: "Gola" #NT!
+ GurirA_t: "Gurirát" #NT!
+ Guristanza: "Guristanza" #NT!
+ GyulE_: "Дьюле"
+ HarA_spa: "Haráspa" #NT!
+ Hipakris: "Hipakris" #NT!
+ HU_lan: "Хулан"
+ HU_rszin: "Húrszin" #NT!
+ IllU_r: "Illúr" #NT!
+ I_oa: "Иоа"
+ Ippa: "Ippa" #NT!
+ I_rito: "Írito" #NT!
+ I_turi: "Íturi" #NT!
+ JanA_g: "Janág" #NT!
+ KanI_ta: "Kaníta" #NT!
+ KatrA_zy: "Katrázy" #NT!
+ KA_tvia: "Катвиа"
+ KhI_ta: "Хита"
+ KorsO_ba: "Korsóba" #NT!
+ KU_ar: "Kúar" #NT!
+ KU_ri: "Kúri" #NT!
+ LamA_ri: "Lamári" #NT!
+ LasI_n: "Lasín" #NT!
+ LeiltE_: "Лейлте"
+ Leimelie: "Леймели"
+ LohA_nt: "Lohánt" #NT!
+ LoksA_na: "Локсана"
+ MA_dia: "Mádia" #NT!
+ MarA_my: "Marámy" #NT!
+ MarszE_t: "Marszêt" #NT!
+ MA_rtE_: "Марте"
+ MatE_a: "Матеа"
+ MatyA_ri: "Matyári" #NT!
+ MedE_: "Medê" #NT!
+ MU_lina: "Múlina" #NT!
+ NagA_rt: "Nagárt" #NT!
+ NapI_ta: "Napíta" #NT!
+ OctA_my: "Октами"
+ OlkA_va: "Olkáva" #NT!
+ O_nar: "Ónar" #NT!
+ O_pia: "Ópia" #NT!
+ O_riga: "Орига"
+ O_ttia: "Эттия"
+ O_zanis: "Ózanis" #NT!
+ Palamida: "Palamida" #NT!
+ Panzagora: "Panzagora" #NT!
+ PapilO_na: "Papilóna" #NT!
+ ParatU_r: "Paratúr" #NT!
+ PhA_rna: "Фарна"
+ PurE_na: "Purêna" #NT!
+ RedE_fona: "Redêfona" #NT!
+ Rezpendia: "Резпендиа"
+ RU_na: "Rúna" #NT!
+ SagI_fara: "Sagífara" #NT!
+ SI_lis: "Sílis" #NT!
+ SkI_la: "Skíla" #NT!
+ Skolopita: "Skolopita" #NT!
+ SotE_ne: "Сотен"
+ SzarmA_ta: "Szarmáta" #NT!
+ SzU_ra: "Szúra" #NT!
+ TabitE_: "Tabitê" #NT!
+ TanA_ra: "Tanára" #NT!
+ TantA_la: "Tantála" #NT!
+ TargA_pis: "Targápis" #NT!
+ TarszE_te: "Tarszête" #NT!
+ TaymI_ry: "Taymíry" #NT!
+ TE_ira: "Тейра"
+ TE_krin: "Текрин"
+ TE_mora: "Темора"
+ Teutara: "Teutara" #NT!
+ TI_arant: "Tíarant" #NT!
+ Tokszar: "Токсар"
+ U_kla: "Úkla" #NT!
+ Ulazia: "Ulazia" #NT!
+ UragA_nt: "Uragánt" #NT!
+ U_rika: "Úrika" #NT!
+ UtE_na: "Utêna" #NT!
+ Vedna: "Ведна"
+ Velis: "Velis" #NT!
+ VI_ra: "Víra" #NT!
+ YU_rika: "Yúrika" #NT!
+ ZagA_ris: "Zagáris" #NT!
+ ZantA_na: "Zantána" #NT!
+ ZA_ra: "Zára" #NT!
+ ZA_ssia: "Засия"
+ ZI_rgis: "Zírgis" #NT!
+ ZolszhE_: "Зольше"
   
   # Extra 
- KA_trada: "Катрада"  
- AltE_na: "Альтена"  
- IzI_kala: "Изикала"  
- SA_laza: "Саласа"  
-  
+ KA_trada: "Катрада"
+ AltE_na: "Альтена"
+ IzI_kala: "Изикала"
+ SA_laza: "Саласа"

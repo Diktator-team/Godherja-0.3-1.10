@@ -1,4 +1,5 @@
 ﻿l_russian:
- TITLE_VIEW_DEMOTE_TITLE: "Понизить в должности"  #Машинный перевод 28.10.23!
- DEMOTE_TITLE_TOOLTIP: "#T Понизьте [TitleViewWindow.GetTitle.GetName] до [kingdom|E] и интегрируйте его в иерархию [de_jure|E] вашего [primary_title|E]#!\n\nCost: @prestige_icon![GuiScope.SetRoot( GetPlayer.MakeScope ).ScriptValue('monumental_prestige_value')|V0]\n\n[GetScriptedGui('demote_title_scripted_gui').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('title_being_demoted', TitleViewWindow.GetTitle.MakeScope).End)]"  #Машинный перевод 28.10.23!
- GENERATED_DEMOTED_EMPIRE_NAME: "Кивернис ти [empire_being_demoted.GetNameNoTierNoTooltip]"  #Машинный перевод 28.10.23!
+ TITLE_VIEW_DEMOTE_TITLE: "Понизить в должности"
+ DEMOTE_TITLE_TOOLTIP: "#T Понизьте [TitleViewWindow.GetTitle.GetName] до [kingdom|E] и интегрируйте его в иерархию [de_jure|E] вашего [primary_title|E]#!\n\nCost: @prestige_icon![GuiScope.SetRoot( GetPlayer.MakeScope ).ScriptValue('monumental_prestige_value')|V0]\n\n[GetScriptedGui('demote_title_scripted_gui').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('title_being_demoted', TitleViewWindow.GetTitle.MakeScope).End)]"
+ GENERATED_DEMOTED_EMPIRE_NAME: "Кивернис ти [empire_being_demoted.GetNameNoTierNoTooltip]"
+ GH_KHARSTRANG_TRUCE: "Truce signed after [mercenary.GetUINameNotMe|U] defeated [hyratan.GetUINameNotMe|U] and its vassals in a coup." #NT!

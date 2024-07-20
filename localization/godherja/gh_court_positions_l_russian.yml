@@ -1,7 +1,36 @@
 ﻿l_russian:
-
- visvasavrak_court_position: "Вишвасаврак" 
- visvasavrak_employer_custom_effect_description: "Снижает ваш риск погибнуть или попасть в плен в битвах, в которых вы оба участвуете" 
- visvasavrak_court_position_desc: "Этот рыцарь поклялся исполнить волю своего повелителя или умереть, пытаясь это сделать. Подобно Вишвасавре, стойко сражающемуся с ужасными духами и нежитью, стражи  $visvasavrak_court_position$ защищают верховную власть монарха." 
+ visvasavrak_employer_custom_effect_description: "Снижает ваш риск погибнуть или попасть в плен в битвах, в которых вы оба участвуете"
+ visvasavrak_court_position_desc: "Этот рыцарь поклялся исполнить волю своего повелителя или умереть, пытаясь это сделать. Подобно Вишвасавре, стойко сражающемуся с ужасными духами и нежитью, стражи  $visvasavrak_court_position$ защищают верховную власть монарха."
   
- court_position_lifestyle_gh_steppe_queen_trait: "[GetTrait('lifestyle_gh_steppe_queen').GetName( ROOT.Char )]" 
+ legon_court_position: "Noble Legon" #NT!
+ legon_court_position_desc: "A Legon of your Noble Legions. While the generals of State Legions were theoretically only approved by the Aautokratir, every [aversarian|E] citizen of a noble caste was allowed to appoint Legons to lead their Noble Legions. A position of honor, it has also commonly been a political grant, and they can amass dangerous amounts of power against their lords." #NT!
+ legon_employer_custom_effect_description: "$BULLET$Character gains the Legon [trait|E] until removed from the position" #NT!
+  
+ state_legon_court_position: "State Legon" #NT!
+ state_legon_court_position_desc: "A Legon of one of the mighty State Legions. Fully loyal to the Aautokratir, the State Legions have historically been a force of terror for the lesser-bred peoples of the world and the leadership of one a high honor. It is long since the golden age, however, and the title 'Legon' is long-more associated with warlordism and banditry than glory. Time to change that." #NT!
+  
+ court_adventurer_court_position: "Court Adventurer" #NT!
+ court_adventurer_court_position_desc: "[monsters|E], [magi|E], peasants. The world is filled with all manners of horrible beasts that a thriving army of adventurers from across [aeras|E] answer the call to brutally destroy for a tidy profit. It is not uncommon for rulers to hire an adventurer on retainer to protect their holdings or launch expeditions, and famed adventurers are often a prized trophy in any high court." #NT!
+  
+ colonial_administrator_court_position: "Colonial Administrator" #NT!
+ colonial_administrator_court_position_desc: "[aeras|E] holds many wonders, from the sand-covered ruins under the scorching [sarradonian_desert_biozone|E] to the secrets hidden beneath the canopies of the antediluvian forests of [whisperveil_biozone|E]. To find them is fortune; to conquer them is might; to find someone sufficiently reliable to handle the tedious matters in between is nothing short of a miracle." #NT!
+ colonial_administrator_employer_custom_effect_description: "$BULLET$Increases [colonization_progress|E] gain" #NT!
+  
+ court_position_lifestyle_gh_steppe_queen_trait: "[GetTrait('lifestyle_gh_steppe_queen').GetName( ROOT.Char )]"
+ court_tradition_bastard: "$tradition_beloved_bastards_name$" #NT!
+  
+ court_adventurer_protect_province: "Protect Provinces" #NT!
+ court_adventurer_protect_province_desc: "This character is tasked with removing threats from every [barony|E] owned by their [liege|E]." #NT!
+ court_adventurer_adventure: "Explore" #NT!
+ court_adventurer_adventure_desc: "This character is tasked with discovering locations of interest." #NT!
+ court_adventurer_perform_heroics: "Perform Heroics" #NT!
+ court_adventurer_perform_heroics_desc: "This character is tasked with performing small quests for the commoners and increasing the [prestige|E] of their [liege|E]." #NT!
+  
+ colonial_administrator_attend_colonial_affairs: "Attend to Colonial Affairs" #NT!
+ colonial_administrator_attend_colonial_affairs_desc: "This character is instructed to increase the [colonization_progress|E] in the [colonies|E] of their [liege|E] at any cost." #NT!
+ colonial_administrator_attend_colonial_affairs_tt: "Doubles the [colonization_progress|E] gain from [court_position|E] [aptitude|E], but increases the likelyhood of negative events occuring in the [colony|E]." #NT!
+ colonial_administrator_sustainable_development: "Sustainable Development" #NT!
+ colonial_administrator_sustainable_development_desc: "This character is tasked with increasing the [development|E] of the [colony|E] at the cost of [colonization_progress|E]." #NT!
+ colonial_administrator_sustainable_development_tt: "Replaces the [colonization_progress|E] gain bonus from [court_position|E] [aptitude|E] with a [development|E] growth bonus." #NT!
+ colonial_administrator_riches_of_the_frontier: "Riches of the Frontier" #NT!
+ colonial_administrator_riches_of_the_frontier_desc: "This character is tasked with the extraction of wealth from the [colonies|E] to increase the [prestige|E] and [court_grandeur|E] of their [liege|E]." #NT!

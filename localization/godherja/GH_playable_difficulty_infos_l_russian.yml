@@ -1,11 +1,12 @@
 ﻿l_russian:
- pdi_imperrech_warpath:0 "Под угрозой завоевания в [Concept('sjalvolki_migrations','переселении Сьялволки')|E]" 
- pdi_last_stand:0 "В [Concept('war','войне')|E] против [Concept('sjalvolki_migrations','Сокрушитель Ведьм')|E]" 
- pdi_legacy_of_elysia:0 "[modifier|E]: [GetModifier('legacy_of_elysia').GetNameWithTooltip] до 1304 г." 
- pdi_legacy_of_icw:0 "[modifier|E]: [GetModifier('legacy_of_icw').GetNameWithTooltip] до 1286 г." 
- pdi_malcoisiac_anarchy:0 "[modifier|E]: [GetModifier('malcoisiac_anarchy').GetNameWithTooltip], пока не будет сформировано [kingdom|E] или [empire|E]" 
- pdi_reliant_on_vampirism:0 "[trait|E]: подвержен риску $action_dying$ без свойства [GetTrait('gh_vampiric').GetName( GetNullCharacter )]" 
- pdi_killed_the_world:0 "[modifier|E]: [GetModifier('aeschraes_pissed_on_my_wife').GetNameWithTooltip]" 
- pdi_puppet:0 "[trait|E]: [GetTrait('gh_puppet').GetName( GetNullCharacter )]" 
- pdi_magic_is_shunned:0 "Вера избегает [Concept('magic','магии')|E]" 
- pdi_magic_is_criminal:0 "Вера криминализирует [Concept('magic','магию')|E]" 
+ pdi_imperrech_warpath: "Под угрозой завоевания в [Concept('sjalvolki_migrations','переселении Сьялволки')|E]"
+ pdi_last_stand: "В [Concept('war','войне')|E] против [Concept('sjalvolki_migrations','Сокрушитель Ведьм')|E]"
+ pdi_legacy_of_elysia: "[modifier|E]: [GetModifier('legacy_of_elysia').GetNameWithTooltip] до 1304 г."
+ pdi_legacy_of_icw: "[modifier|E]: [GetModifier('legacy_of_icw').GetNameWithTooltip] до 1286 г."
+ pdi_malcoisiac_anarchy: "[modifier|E]: [GetModifier('malcoisiac_anarchy').GetNameWithTooltip], пока не будет сформировано [kingdom|E] или [empire|E]"
+ pdi_reliant_on_vampirism: "[trait|E]: подвержен риску $action_dying$ без свойства [GetTrait('gh_vampiric').GetName( GetNullCharacter )]"
+ pdi_killed_the_world: "[modifier|E]: [GetModifier('aeschraes_pissed_on_my_wife').GetNameWithTooltip]"
+ #pdi_puppet: "[trait|E]: [GetTrait('gh_puppet').GetName( GetNullCharacter )]" #NT!
+ pdi_magic_is_shunned: "Вера избегает [Concept('magic','магии')|E]"
+ pdi_magic_is_criminal: "Вера криминализирует [Concept('magic','магию')|E]"
+ pdi_aftermath_of_the_ash_war: "[modifier|E]: [GetModifier('aftermath_of_the_ash_war').GetNameWithTooltip] until 1264 IS" #NT!

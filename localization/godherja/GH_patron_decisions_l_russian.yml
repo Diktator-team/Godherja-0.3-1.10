@@ -1,0 +1,15 @@
+﻿l_russian:
+ submit_yourself_to_the_divine_decision: "Submit yourself before [ROOT.GetCharacter.GetFaith.HighGodName]" #NT!
+ submit_yourself_to_the_divine_decision_desc: "Pubicly submit yourself before [ROOT.GetCharacter.GetFaith.HighGodName], so that all may know your worldly authority is nothing compared to the wisdom of [GetPlayer.GetFaith.GetName]." #NT!
+ submit_yourself_to_the_divine_decision_tooltip: "Submit yourself before the divine" #NT!
+ submit_yourself_to_the_divine_decision_confirm: "I am nothing before [ROOT.GetCharacter.GetFaith.HighGodName]." #NT!
+  
+ donate_to_the_poor_decision: "Donate to the poor" #NT!
+ donate_to_the_poor_decision_desc: "Give some of the wealth to the needy, so that [ROOT.GetCharacter.GetFaith.HighGodName] will be pleased with your generosity." #NT!
+ donate_to_the_poor_decision_tooltip: "Donate to the poor" #NT!
+ donate_to_the_poor_decision_confirm: "It is for a good cause." #NT!
+  
+ heal_the_sick_decision: "Heal the Sick" #NT!
+ heal_the_sick_decision_desc: "Show your devotion to [ROOT.GetCharacter.GetFaith.HealthGodName] by improving the conditions of the sick and the wounded." #NT!
+ heal_the_sick_decision_tooltip: "Help the Sick" #NT!
+ heal_the_sick_decision_confirm: "[ROOT.GetCharacter.GetFaith.HealthGodName] commands it." #NT!

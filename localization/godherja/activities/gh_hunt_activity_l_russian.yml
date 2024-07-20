@@ -1,9 +1,28 @@
 ﻿l_russian:
   
- activity_hunt_province_desc_falcon_roost_minor: "#P + $building_type_falcon_roost_01$#! ([building|E])\n" 
+ activity_hunt_province_desc_falcon_roost_minor: "#P + $building_type_falcon_roost_01$#! ([building|E])\n"
  activity_hunt_province_desc_falcon_roost_medium: "#P ++ $building_type_falcon_roost_01$#! ([building|E])\n"
  activity_hunt_province_desc_falcon_roost_major: "#P +++ $building_type_falcon_roost_01$#! ([building|E])\n"
-
- activity_hunt_province_desc_monster_sighting: "#P +++ Monster Sighting#!\n"
   
- activity_hunt_outside_realm_valid_tt: "Для охоты за пределами [Concept('realm','владений')|E] необходим [GetFaithDoctrine('tenet_sjalvolki_hunt').GetBaseName] или [GetPerk('adept_tracker_perk').GetName(GetPlayer)]."
+ activity_hunt_province_desc_monster_sighting: "#P +++ Monster Sighting#!\n" #NT!
+  
+ activity_hunt_outside_realm_valid_tt: "Для охоты за пределами [realm|E] необходим [GetFaithDoctrine('tenet_sjalvolki_hunt').GetBaseName] или [GetPerk('adept_tracker_perk').GetName(GetPlayer)]."
+  
+ gh_hunt_animal_safety_safest: "@death_icon![hunt_danger_no_prefix|E]: #P Безвреден#! #weak (1/5)#!"
+ gh_hunt_animal_safety_safer: "@death_icon![hunt_danger_no_prefix|E]: #P Легкая#! #weak (2/5)#!"
+ gh_hunt_animal_safety_middling: "@death_icon![hunt_danger_no_prefix|E]: Посредственно #weak (3/5)#!"
+ gh_hunt_animal_safety_dangerous: "@death_icon![hunt_danger_no_prefix|E]: #N Опасно#! #weak (4/5)#!"
+ gh_hunt_animal_safety_treacherous: "@death_icon![hunt_danger_no_prefix|E]: #N Коварный#! #weak (5/5)#!"
+ gh_hunt_animal_prestige_lowest: "[prestige_i|E][prestige|E]: #N Тривиальный#! #weak (1/5)#!"
+ gh_hunt_animal_prestige_lower: "[prestige_i|E][prestige|E]: #N Посредственно#! #weak (2/5)#!"
+ gh_hunt_animal_prestige_middling: "[prestige_i|E][prestige|E]: Середнячок #weak (3/5)#!"
+ gh_hunt_animal_prestige_high: "[prestige_i|E][prestige|E]: #P Впечатляет#! #weak (4/5)#!"
+ gh_hunt_animal_prestige_highest: "[prestige_i|E][prestige|E]: #P Славный#! #weak (5/5)#!"
+  
+ monster_commission_intent: "Комиссионная охота"
+ monster_commission_intent_desc: "Вы хотите посмотреть, какие существуют контракты на создание нескольких монстров, убивающих монеты."
+  
+ hunt_sighting_monster_modifier: "Наблюдение за монстром"
+ hunt_sighting_monster_desc: "[ROOT.Title.Custom('GetAnimalPlural')|VU] охота в [ROOT.Title.GetNameNoTier]"
+ hunt_sighting_monster_modifier_desc: "Ходят слухи, что этот округ терроризирует опасный монстр.\n#weak В этом [county|E]#! увеличено значение [hunt_success_chance|E]."
+ hunt_sighting_monster_modifier_custom_desc: "Ходят слухи, что этот округ терроризирует опасный [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')].\n#weak В этом [county|E]#! увеличено значение [hunt_success_chance|E]."

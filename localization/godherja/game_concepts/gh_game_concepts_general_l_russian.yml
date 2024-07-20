@@ -1,6 +1,6 @@
 ﻿l_russian:
  ####GENERAL 
-  
+ 
  game_concept_aeras: "Аэрас" 
  game_concept_aeras_desc: "Аэрас - это название единственной обитаемой планеты, вокруг которой вращается солнце и космос. Хотя многие религии приписывают ее создание множеству богов или одному богу, на самом деле она была создана  [Concept('ancient_god','Древним богом')|E], который жаждал компании. Израненный древними войнами, катастрофами и расой [Concept('aelfir','Чужаков')|E], Аэрас имеет долгую и забытую историю и столкнулся с большим количеством судеб, чем кто-либо может себе представить."
   
@@ -14,11 +14,11 @@
 
  game_concept_old_iyrossi_culture: "Древние обычаи иироссийцев"
  game_concept_old_iyrossi_culture_desc: "Убийства из мести и браки между братьями и сестрами, происходящие главным образом в многочисленных сельских городках, населяемых этнически ийроссами, разбросанных по склонам внешнего Малькоиса, являются обычным явлением. Вера ийроссов допускает и то, и другое, и даже восхваляет такие действия как благочестивые в глазах Божественного суда. Такие обычаи трудно полностью искоренить у народа Ийросси, поскольку многовековые традиции и ритуалы укоренились в самих различных культурах Ийросси."
- 
+  
  ##UNIVERSAL 
   
  #EVENTS 
-  
+ 
  game_concept_prehistory: "Доистория"
  game_concept_prehistory_long_forgotten: "Давно забытое" 
  game_concept_prehistory_desc: "Доистория рассматривается в любое время, не указанное в современном [Concept('imperial','имперском')|E]календаре. Аверсарианцы верят, что мир был основан в 24 000 году до нашей эры "Чистейшим".\n\n На самом деле [Concept('aeras','Мир')|E] был сформирован где-то за 20 000-400 000 лет до этого. Поскольку прошли сотни различных способов отслеживания времени, а время, каким его знают современные люди, существовало не всегда (возможно, по-настоящему оно началось только после Годхерии), невозможно точно датировать большую часть истории человечества.\n\nГрубо говоря, [Concept("aersanon", "Аэрсанон"|E)] создал мир после нескольких эонов в пустота, а затем создал человечество, чтобы попытаться создать существа, с которыми можно было бы общаться. Человечеству было позволено создавать свои собственные королевства, все из которых поклонялись Аэрсанону, но Аэрсанон устал от несовершенства человечества и создал [Concept('aelfir','Aэлфиров')|E]. Аэльфиры завоевали и поработили человечество и образовали свои собственные империи, и через несколько сотен тысяч лет человечество восстало и уничтожило аэльфиров и Аэрсанона в Годхерии."
@@ -33,8 +33,8 @@
  game_concept_frodbrokna: "Фродброкна" 
   
  #CHARACTERS 
- 
- game_concept_aersanon: "Аэрсанон"  
+  
+  game_concept_aersanon: "Аэрсанон"  
  game_concept_ancient_gods: "Древние боги"  
  game_concept_god: "Бог"  
  game_concept_gods: "Боги"  
@@ -122,12 +122,12 @@
  #COSMOS 
   
  game_concept_aervalr: "Аэрвалр"  
- game_concept_aervalr_desc: "Аэрвалр - единственная луна [Concept("aeras", "Аэраса"|E)], созданная из фрагмента сознания [Concept('aersanon','Аэрсанона')|E], чтобы утешить его детей во мраке ночи. В течение бесчисленных веков, прошедших с тех пор, она продолжала свой путь почти без изменений, давая силу [Concept('dead_magi','Мертвым магам')|E], которые в некоторых регионах известны как Лунные [Concept('magi','маги')|E]. Смена ее фаз оказывает глубокое влияние на этих Магов, и их сила растет и убывает вместе с фазами луны.\n\nМногие полагали, что столь далекий Аэрвалр не будет затронут делами человечества, но [Concept('frodbrokna','Фродбокна')|E] доказал обратное. Когда реальность вновь содрогнулась, луна разлетелась на куски, и теперь ее осколки падают на Аэрас, вызывая разрушения везде, где бы они ни упали."  
+ game_concept_aervalr_desc: "Аэрвалр - единственная луна [Concept("aeras", "Аэраса"|E)], созданная из фрагмента сознания [Concept('aersanon','Аэрсанона')|E], чтобы утешить его детей во мраке ночи. В течение бесчисленных веков, прошедших с тех пор, она продолжала свой путь почти без изменений, давая силу [Concept('dead_magi','Мертвым магам')|E], которые в некоторых регионах известны как Лунные [Concept('magi','маги')|E]. Смена ее фаз оказывает глубокое влияние на этих Магов, и их сила растет и убывает вместе с фазами луны.\n\nМногие полагали, что столь далекий Аэрвалр не будет затронут делами человечества, но [Concept('frodbrokna','Фродбокна')|E] доказал обратное. Когда реальность вновь содрогнулась, луна разлетелась на куски, и теперь ее осколки падают на Аэрас, вызывая разрушения везде, где бы они ни упали."
   
  #FOG 
   
- game_concept_the_fog_encyclopedia: "Туман"  
- game_concept_the_fog_encyclopedia_desc: "$FOG_APPEARED_CONCEPT$"  
+ game_concept_the_fog_encyclopedia: "Туман"
+ game_concept_the_fog_encyclopedia_desc: "$FOG_APPEARED_CONCEPT$"
   
  game_concept_the_fog: "Туман"  
  game_concept_fog: "Туман"  
@@ -162,12 +162,15 @@
  game_concept_sand_i: "sand_icon!"
  game_concept_death_i: "death_icon!"
  game_concept_ethereal_i: "ethereal_icon!"
-
+ game_concept_hymns_i: "@hymns_icon!" 
+ game_concept_dawn_i: "@dawn_icon!" 
+ game_concept_time_i: "@time_icon!" 
+  
  game_concept_aspect_blood_i: "blood_icon!"
- 
- game_concept_aspect: "Аспект"  
- game_concept_aspects: "Аспекты"  
- game_concept_aspect_desc: "Элементарные составные элементы [Concept("aeras", "Аэраса"|E)], да и самого космоса. Вся магия возникает в результате манипулирования различными аспектами, притягивая к себе основы"  
+  
+ game_concept_aspect: "Аспект"
+ game_concept_aspects: "Аспекты"
+ game_concept_aspect_desc: "Элементарные составные элементы [Concept("aeras", "Аэраса"|E)], да и самого космоса. Вся магия возникает в результате манипулирования различными аспектами, притягивая к себе основы" 
   
  game_concept_aspect_fire: "$fire_coloring$ $fire_name$#!"  
  game_concept_aspect_fire_desc: "$fire_coloring$ $fire_name$#! - один из восьми основополагающих [Concept('aspects','аспектов')|E], представляющий жизнь, саморазрушение, беспорядок и пламя, он несет свет, который отбрасывает тень. В равной степени таящие в себе и опасность, и возможность, его заклинания являются обычной практикой как для военных [Concept('magi','магов')|E] , так и для тех, чья магическая практика направлена на более мирные цели. Его боевой потенциал привел к тому, что во многих культурах [Concept("aeras", "Аэраса"|E)] он стал прочно ассоциироваться с королевской властью. Его дочерним элементом, если смешать его с родным элементом [Concept('aspect_water','воды')|E], является [Concept('aspect_blood','аспект крови')|E]."  
@@ -180,6 +183,9 @@
   
  game_concept_aspect_air: "$air_coloring$ $air_name$#!"  
  game_concept_aspect_air_desc: "$air_coloring$ $air_name$#! - один из восьми основополагающих [Concept('aspects','аспектов')|E], это та среда пустоты, которая пронизывает творение, существует без формы и независимо от мысли и человеческого воображения. Он противостоит [Concept('aspect_dream','аспекту грез')|E], который представляет собой форму без существования, тогда как $air_coloring$ $air_name$#! - это существование без формы."  
+  
+ game_concept_aspect_stone: "$stone_coloring$ $stone_name$#!"  
+ game_concept_aspect_stone_desc: "$stone_coloring$ $stone_name$#! - один из восьми основополагающих [Concept('aspects','аспектов')|E], олицетворяющий постоянство и прочность, изменяющийся по установленным правилам. $stone_coloring$ $stone_name$#! не может действовать без того, чтобы на него сначала не подействовали, и потому противостоит необузданному хаосу и воле [Concept('aspect_fire','огня')|E]."  
   
  game_concept_aspect_stone: "$stone_coloring$ $stone_name$#!"  
  game_concept_aspect_stone_desc: "$stone_coloring$ $stone_name$#! - один из восьми основополагающих [Concept('aspects','аспектов')|E], олицетворяющий постоянство и прочность, изменяющийся по установленным правилам. $stone_coloring$ $stone_name$#! не может действовать без того, чтобы на него сначала не подействовали, и потому противостоит необузданному хаосу и воле [Concept('aspect_fire','огня')|E]."  
@@ -247,8 +253,8 @@
  GAME_CONCEPT_MIXED_MAGIC_NOT_APPEARED_TITLE: "Другие школы магии"  
  GAME_CONCEPT_MIXED_MAGIC_NOT_APPEARED: "Многие [Concept('magi','маги')|E] были очарованы идеей открытия третьей, неизвестной [Concept('magic_type','магической школы')|E]. Безусловно, такое открытие потрясло бы мир, но тысячелетние попытки привели лишь к неудаче. Всякий раз, когда считалось, что феномен не имеет корней ни в одной из двух школ, в конце концов выяснялось, что это либо результат мошенничества, либо неправильного толкования.\n\nМожно с уверенностью предположить, что [Concept('living_magic','магия живого')|E] и [Concept('dead_magic','магия мертвого')|E] - это только две истинные формы [Concept('magic','магии')|E]."  
   
- game_concept_mixed_magic_encyclopedia: "$GAME_CONCEPT_MIXED_MAGIC_APPEARED_TITLE$"  
- game_concept_mixed_magic_encyclopedia_desc: "$GAME_CONCEPT_MIXED_MAGIC_APPEARED$"  
+ game_concept_mixed_magic_encyclopedia: "$GAME_CONCEPT_MIXED_MAGIC_APPEARED_TITLE$"
+ game_concept_mixed_magic_encyclopedia_desc: "$GAME_CONCEPT_MIXED_MAGIC_APPEARED$"
   
  #MAGI 
   
@@ -270,7 +276,7 @@
  game_concept_grey_magi: "Серые Маги"  
  game_concept_dream_magi: "Маги снов"  
  game_concept_wielders_of_the_fog: "обладатели Тумана"  
- game_concept_mixed_magi_desc: "Смешанные [Concept('magi','маги )|E] (также известные как Туманные Маги, Серые Маги, Бесплотные Маги или Маги Сна) - это практикующие странное искусство [Concept('mixed_magic','cмешанной магии')|E],[Concept('magic_type','магическое отвлетление')|E], вошедшее в историю вместе с [Concept('frodbrokna','Фродбокной')|E] и появлением [Concept('fog','тумана')|E]. В отличие от [Concept('living_magi','Магов живого')|E], черпающих силу из живых существ, и [Concept('dead_magi','Магов мертвого')|E], черпающих ее из неживых, Смешанные Маги черпают свою силу по ту сторону завесы. Точнее, они черпают силу из [Concept('the_rift','Разлома')|E], из всех эмоций и страданий мира.\n\nСмешанные Маги обычно ассоциируются со слепотой, недугом, распространенным среди их рода, поскольку они видят меньше материального и больше эфемерного, а также с воронами. Несмотря на то, что в большинстве культур их считают злым "другим", Смешанные Маги не имеют сильной склонности к какой-либо морали, а их методы создания [Concept('magic','магии')|E] обычно гораздо менее вредны для окружающих, чем у Магов живого."  
+ game_concept_mixed_magi_desc: "Смешанные [Concept('magi','маги )|E] (также известные как Туманные Маги, Серые Маги, Бесплотные Маги или Маги Сна) - это практикующие странное искусство [Concept('mixed_magic','cмешанной магии')|E],[Concept('magic_type','магическое отвлетление')|E], вошедшее в историю вместе с [Concept('frodbrokna','Фродбокной')|E] и появлением [Concept('fog','тумана')|E]. В отличие от [Concept('living_magi','Магов живого')|E], черпающих силу из живых существ, и [Concept('dead_magi','Магов мертвого')|E], черпающих ее из неживых, Смешанные Маги черпают свою силу по ту сторону завесы. Точнее, они черпают силу из [Concept('the_rift','Разлома')|E], из всех эмоций и страданий мира.\n\nСмешанные Маги обычно ассоциируются со слепотой, недугом, распространенным среди их рода, поскольку они видят меньше материального и больше эфемерного, а также с воронами. Несмотря на то, что в большинстве культур их считают злым "другим", Смешанные Маги не имеют сильной склонности к какой-либо морали, а их методы создания [Concept('magic','магии')|E] обычно гораздо менее вредны для окружающих, чем у Магов живого."
   
  #EFFECTS AND SPELLS 
   
@@ -278,9 +284,10 @@
  game_concept_exposure_sickness_desc: "Болезнь воздействия - общий термин для обозначения различных заболеваний, возникающих при избыточном воздействии [Concept('magical','магической')|E] энергией. Как правило, это происходит из-за близости к магическим местам силы, таким как древние храмы, переходы через пути или поля магических сражений, но встречается и у [Concept('magi', 'магов')|E], собирающих избыточную силу. Не следует путать это заболевание с болезнью, возникающей при произнесении заклинаний, требующих избытка силы, которым обладает заклинатель, что обычно называется [Concept('overwhelmation','"Переполнением"')|E].\n\nЗаболевание от воздействия обычно начинается с головной боли, лихорадки, головокружения и рвоты. На более высоких уровнях воздействия она может проявляться в кровотечении из глаз и носа, рвоте кровью, выпадении волос и кожи, а также в отслоении кожи. При повышенных уровнях воздействия часто наблюдаются [Concept('mutations','мутации')|E], а при самых высоких уровнях - дезинтеграция, самовозгорание, плавление, взрыв в буквальном смысле слова, при условии, что больной просто не умрет."  
   
  game_concept_overwhelmation: "Переполнение"  
- game_concept_overwhelmation_desc: "Переполнение - это результат попытки [Concept('magi','мага')|E] применить заклинания, превышающие физические возможности его организма. Обычно это происходит у начинающих магов, не знающих своих возможностей, или у магов, находящихся в состоянии отчаяния, когда жизнь или смерть уже близко, Переполнение обычно приводит к мучительной смерти. Чаще всего это приводит к сгоранию, дезинтеграции или взрыву, в других случаях заклинание, которое они пытаются произнести, может обернуться против них самих или окружающих их людей. Огненная вспышка может просто воспламенить Мага, попытка сгустить кровь врага может привести к взрыву рук, а попытка залечить тяжелую рану - к расплавлению нервной системы Мага.\n\n [Concept('aversarian','Аверсарианские')|E] исследователи из [Concept('mayikprolollans','Маикпрололлансов')|E] предсказали, что примерно до трети или более Магов не из магически одаренной семьи или неизвестного происхождения умирают от Переполнения после случайного произнесения заклинания или в попытке раскрыть свои способности."  
+ game_concept_overwhelmation_desc: "Переполнение - это результат попытки [Concept('magi','мага')|E] применить заклинания, превышающие физические возможности его организма. Обычно это происходит у начинающих магов, не знающих своих возможностей, или у магов, находящихся в состоянии отчаяния, когда жизнь или смерть уже близко, Переполнение обычно приводит к мучительной смерти. Чаще всего это приводит к сгоранию, дезинтеграции или взрыву, в других случаях заклинание, которое они пытаются произнести, может обернуться против них самих или окружающих их людей. Огненная вспышка может просто воспламенить Мага, попытка сгустить кровь врага может привести к взрыву рук, а попытка залечить тяжелую рану - к расплавлению нервной системы Мага.\n\n[Concept('aversarian','Аверсарианские')|E] исследователи из [Concept('mayikprolollans','Маикпрололлансов')|E] предсказали, что примерно до трети или более Магов не из магически одаренной семьи или неизвестного происхождения умирают от Переполнения после случайного произнесения заклинания или в попытке раскрыть свои способности."  случайного произнесения заклинания или в попытке раскрыть свои способности."
   
- game_concept_magic_baseline: "Магическое начало"  
+ game_concept_magic_baseline: "Магическое начало"
+ game_concept_magic_baseline_i: "@magic_icon!"
  game_concept_magic_baseline_desc: "Магическое начало персонажа представляет собой естественную точку равновесия его внутренней арканной энергии. Накопленная [Concept('magic','магия')|E] будет пассивно восстанавливаться до этой точки, если он недостаточно силен, в то время как его превышение приведет к увеличению количества [Concept('exposure_sickness','воздействия')|E]."  
   
  game_concept_extended_magic_baseline: "Расширенное магическое начало"  
@@ -327,6 +334,9 @@
   
  game_concept_selfreplicating_blood_magic: "Самовоспроизводящаяся магия крови"  
  game_concept_selfreplicating_blood_magic_desc: "Самовоспроизводящаяся магия крови - это название серии ритуалов и заклинаний, которые, по общему мнению, являются самыми мощными и опасными из всех известных людям заклинаний. Исключительно сложное заклинание, Самовоспроизводящаяся Магия Крови под силу только самым могущественным из §0 и обычно требует помощи множества других людей.\n\n Заклинание взрывает цель в мощном столбе пламени и быстро делает то же самое со всеми, кто находится в радиусе взрыва и за его пределами, распространяясь еще дальше на магов или других людей с магическими свойствами. Хотя теоретически заклинание можно ограничить определенным радиусом или группой, его чрезвычайно трудно контролировать, и за всю историю не было ни одного случая, когда заклинатель не потерял бы контроль.\n\n Заклинание считалось утерянным после того, как его обнаружили и использовали конкурирующие клики [Concept('sarradonian','саррадонских')|E] магов  Корани и Альмади, которые уничтожили себя и почти всех магов континента в результате взрыва и принесли анархию на весь Саррадон почти на столетие. Позднее, во время [Concept('aversarian_civil_war_no_prefix','Гражданской войны в Аверсарии')|E], оно было обнаружено Легоном-Аавтократиром Эшреем и Автократией Аксиатеей. Хотя оба готовились применить заклинание, только Эшрей успел вовремя, в результате чего погибло 80% магов Аверсарии, почти половина населения, а миллионы других людей были уничтожены по всему миру. Чистая магическая сила заклинания и вызванные им страдания открыли [Concept('the_rift','Разлома')|E] и привели к появлению [Concept( 'frodbrokna', 'Фродбокны')|E]."  
+  
+ game_concept_shadesoul_curse: "Проклятие призрачной души" 
+ game_concept_shadesoul_curse_desc: "Проклятие призрачной души - это тайная болезнь, которая превращает свою жертву в бессмертное, злобное существо, ориентированное на Пустоту, широко известное как Порождение Тьмы. Хотя с течением времени это проявляется целым рядом симптомов, самым ранним и наиболее распространенным из них является недуг, связанный со снами, которые Порождение Тьмы испытывает почти непреодолимое желание разыгрывать наяву, — снами, которые почти всегда разрушительны по своей природе.\n\nПроклятие является результатом одержимости тенью, которая по неизвестным причинам не убивает жертву, но, по-видимому, сливается с ее душой или заменяет ее; дети, по-видимому, гораздо более восприимчивы к этому заболеванию. Оно встречается очень редко в большинстве стран Аэраса, и самая высокая концентрация его носителей приходится на секты Красных земель, где оно намеренно передается вновь принятым посвященным."
   
  #MISC 
   
@@ -389,6 +399,9 @@
  game_concept_shimmerstone: "Мерцающий камень"  
  game_concept_shimmerstone_desc: "Мерцающий камень - полупрозрачный кристалл, светящийся разноцветным светом, - редкий минерал, встречающийся только в северных Железных хребтах. Считается, что этот кристалл наделяет его различными свойствами, в частности, повышает жизненную силу, что делает его очень востребованным среди воинов племен. Магические свойства мерцающего камня сделали его желанным материалом для [Concept('magi','магов')|E] из [Concept('mayikrata','Маикрат')|E], которые начали [Concept('nexios_folly','несколько рейдов')|E] против северных племен, чтобы заполучить драгоценный кристалл."  
   
+ game_concept_runic_script: "Руническая письменность" 
+ game_concept_runic_script_desc: "Рунические письмена - это системы письма неизвестного доисторического происхождения, которые были известны своей полезностью в [Concept('magic','магии')|E]; большинство ритуалов могут быть "переведены" в руническую форму, которая не только намного компактнее и менее подвержена ошибкам, чем описание процесса с помощью обычных письменностей, но и обеспечивает физическое присутствие использование полученного текста во время исполнения рассматриваемого заклинания также увеличивает его интенсивность.\n\nСчитается, что существуют десятки систем рунической письменности, хотя лишь немногие из них были хотя бы частично расшифрованы." 
+  
  ###GAMEPLAY 
   
  game_concept_shadow_port: "Теневой порт"  
@@ -402,17 +415,12 @@
  game_concept_channels: "Каналы"  
  game_concept_straits_and_channels_desc: "Торговые притоки - это формы рельефа, через которые осуществляется заморская торговля. Это делает их отличными охотничьими угодьями для [Concept('pirates','пиратов')|E]. Контроль над торговыми слияниями даст пиратам толчок к их коммерческим набегам. Однако, если несколько пиратов контролируют один и тот же пролив, стоимость пролива будет разделена между ними."
   
- game_concept_raiding_balance: "Баланс коммерческого рейдерства"  
- game_concept_raiding_balance_income: "[GetPlayer.MakeScope.ScriptValue('quartermaster_commerce_raid_income')]"  
- game_concept_raiding_balance_cap: "[GetPlayer.MakeScope.ScriptValue('quartermaster_commerce_shadow_trade_cap')]"  
- game_concept_raiding_balance_desc: "Торговый рейд из соседних округов: @gold_icon!#P [GetPlayer.MakeScope.ScriptValue('quartermaster_commerce_raid_nearby_counties')]#!\n Торговый рейд из контролируемого [Concept('straits_and_channels','тороговые объединения')|E]:\n[GetScriptedGui('commerce_raiding_straits_income_scripted_gui').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]\nОбщий торговый рейд: @gold_icon!#P [GetPlayer.MakeScope.ScriptValue('quartermaster_commerce_raid_income')]#!\nБазовая теневая торговля: #V [GetPlayer.MakeScope.ScriptValue('quartermaster_base_shadow_trade')]#!\n Теневая торговля с контролируемой территории: #V [GetPlayer.MakeScope.ScriptValue('quartermaster_commerce_raid_nearby_counties')]2#!\n Теневая торговля из теневых портов: #V [GetPlayer.MakeScope.ScriptValue('quartermaster_commerce_raid_nearby_counties')]5#!\nИтого #V [GetPlayer.MakeScope.ScriptValue('quartermaster_commerce_raid_nearby_counties')]8: [GetPlayer.MakeScope.ScriptValue('quartermaster_commerce_raid_nearby_counties')]9#!\n0"  
-  
  game_concept_shadow_trade: "Теневая торговля"  
  game_concept_shadow_trade_capacity: "Теневой торговый потенциал"  
  game_concept_shadow_trade_desc: "Теневая торговля представляет собой пиратскую сеть дружественных портов, готовых принять груз и залатать дыры в корпусе без лишних вопросов. Емкость теневой торговли - это максимальное количество золота, которое [Concept('pirates','пираты')|E] могут заработать на коммерческих рейдах. Возможности теневой торговли пирата могут быть увеличены за счет увеличения размера его [Concept('realm','владений')|E] и создания новых [Concept('shadow_ports','теневых портов')|E]."
   
- 
- 
+  
+  
  ##GOVERNMENTS 
   
  #DESCRIPTIONS 
@@ -427,9 +435,29 @@
  game_concept_piracy: "Пиратство"  
  game_concept_pirate_desc: "Пиратские королевства зарабатывают свои [Concept('income','доходы')|E] и [Concept('prestige','престиж')|E] за счет набегов на окружающую территорию. Они могут быть самыми разными: от полностью анархических коммун, где правят самые сильные и безжалостные, до организованных, грозных картелей и обычных [Concept('feudal','феодалов')|E] или [Concept('tribal','племен')|E], в которых большую часть дохода составляют [Concept('raiding','налеты')|E].\n\nДля пирата репутация почти так же важна, как золото, и поэтому он использует [Concept('prestige','престиж')|E] для найма [Concept('men_at_arms','отрядов')|E]. Они также имеют доступ к многочисленным [Concept('casus_belli','казус белли')|E], недоступным обычным королевствам, и возможность перемещаться в другие области с более низким уровнем власти."  
   
+ game_concept_continental_clan: "Племенной клан" 
+ game_concept_continental_clan_desc: "Tribal Clans are a [government_form|E] with stunted [county|E] [development|E], and little ability to centralize their [crown_authority|E].\nHowever, they can make use of [prestige|E] rather than [gold|E] to hire [men_at_arms|E] and have access to more [casus_belli|E] compared to [feudal|E] and [clan|E] Realms. Tribal clans can also make use of [house_unity|E]." 
+  
+ game_concept_military_unit: "Воинское подразделение" 
+ game_concept_military_unit_desc: "$game_concept_military_unit$ is a [government_form|E] where [levies|E] and [taxes|E] given to the [liege|E] are determined by their [prestige|E]." 
+  
+ game_concept_landed_order: "Орден" 
+ game_concept_landed_order_desc: "$game_concept_landed_order$ is a [government_form|E] where the [levies|E] and [taxes|E] given to the [liege|E] are determined by the [aptitude|E] of said Liege's [tax_collector|E]." 
+  
+ #CLIQUES 
+ game_concept_clique: "Клика" 
+ game_concept_clique_desc: "A Clique is a group of like-minded individuals that are able to exert [clique_influence|E] in the [realm|E]'s dealings. Cliques will often have a guiding principle shown through a [skill|E] and the group's goals for the Realm. A Clique's [clique_powerbase|E] is determined by the combined Powerbase of its members." 
+  
+ game_concept_clique_powerbase: "Центр силы" 
+ game_concept_clique_powerbase_desc: "Your Powerbase represents accumulated political assets, such as [titles|E] and [gold|E], and how shrewd you are at effectively using them through both [diplomacy|E] and [intrigue|E]." 
+  
+ game_concept_clique_influence: "Влияние" 
+ game_concept_clique_influence_desc: "Your Influence represents how well your [skills|E] align with your [clique|E]'s values and the strength of your [clique_powerbase|E]. More Influence enables you to rank higher in the [line_of_succession|E]." 
+  
  #MISC 
   
- game_concept_magocracy_desc: "$game_concept_magocracy$ это [Concept('government_form','форма правления')|E] где привилегированное сословие [Concept('magi','магов')|E] правят — $game_concept_government_form$ королевств вращается вокруг [Concept('magic','магических')|E] искусств.\n\n$game_concept_magocracy_concept$ может принимать две формы: автократическую и республиканскую, решая, выбираются ли маги из родословной или избираются равными их."
+ game_concept_magocratic_republic_desc: "$game_concept_magocracy$ это [Concept('government_form','форма правления')|E] где привилегированное сословие [Concept('magi','магов')|E] правят — $game_concept_government_form$ королевств вращается вокруг [Concept('magic','магических')|E] искусств.\n\n$game_concept_magocracy_concept$ может принимать две формы: автократическую и республиканскую, решая, выбираются ли маги из родословной или избираются равными их."
+  
   
  ##HUNTING 
   
@@ -648,11 +676,8 @@
   
  #CHEVALIE 
   
- game_concept_merit: "Заслуги"  
+ game_concept_merit: "Заслуги"
  game_concept_merit_desc: "У [Concept( marchers','Марчеров')|E], несмотря на то, что в стране якобы правят феодальные аристократы, они редко идут на поводу у тех, кого считают непригодными к власти. Исторически сложилось так, что люди, исключительно искусные в военном и политическом искусстве, часто могли вытеснить старших наследников из линии престолонаследия и занять трон самостоятельно, особенно если наследник был слаб. Если у верховного короля нет достойных наследников или, напротив, есть обилие детей, находящихся в близком родстве, [Concept('chevalie','Шевалье')|E], скорее всего, распадется, как это уже не раз бывало в прошлом."  
-  
- game_concept_legitimacy: "Легитимность"  
- game_concept_legitimacy_desc: ""
   
  ##MISC FEATURES 
   
@@ -662,11 +687,39 @@
   
  #ACTIVITIES 
   
- game_concept_journey: "Путешествие"  
- game_concept_journeys: "Путешествия"  
+ game_concept_journey: "Путешествие"
+ game_concept_journeys: "Путешествия"
  game_concept_journey_desc: "Путешествие #BOL#! представляет собой большое личное начинание, чаще всего для получения [Concept('prestige','престижа')|E], [Concept('gold','золота')|E] или оттачивания мастерства [Concept('skills','способностей')|E]. К ним относятся [Concept('monster_hunts','Охоты на монстров')|E], #E Приключения#! и #E Кузнечное дело#!"  
   
  #METROPOLI 
+  
+ #NEW METRO DISTRICTS 
+ game_concept_metro_holding: "Владение Метрополис" 
+ game_concept_metro_holding_desc: "В конце концов, город может разрастись вглубь и далеко, став больше любого другого города вокруг, производя и потребляя больше, чем целый [county|E]." 
+ game_concept_metro: "Метрополис" 
+ game_concept_metro_holdings: "Владения Метрополисов" 
+  
+ game_concept_administration_district_holding: "Владение Административный округ" 
+ game_concept_administration_district: "Административный округ" 
+ game_concept_administration_districts: "Административные округа" 
+ game_concept_administration_district_holdings: "Владения Административных округов" 
+ game_concept_administration_district_holding_desc: "По мере роста города растет потребность в регулировании и бюрократии, а значит, и в административном округе. В них расположено много правительственных зданий, а также контролируются местные правоохранительные органы и вооруженные силы." 
+  
+ #Administration Districts oversee much of the ruling and bureaucracy required to sustain a city of this size. #what is this? 
+  
+ game_concept_economic_district_holding: "Экономический район" 
+ game_concept_economic_district: "Экономический район" 
+ game_concept_economic_districts: "Экономические районы" 
+ game_concept_economic_district_holdings: "Экономические районы" 
+ game_concept_economic_district_holding_desc: "Метрополис-это гораздо больше, чем просто место, где живут люди. Это место, где люди работают и торгуют, покупают и продают, а также наслаждаются жизнью и достопримечательностями города. Конечно, все это облагается налогом, и коммерческий район заботится о том, чтобы высшая элита получала свой, по общему признанию, очень большой кусок пирога." 
+  
+ game_concept_scholarly_district_holding: "Учебный район" 
+ game_concept_scholarly_district: "Учебный район" 
+ game_concept_scholarly_districts: "Учебные районы" 
+ game_concept_scholarly_district_holdings: "Учебные районы" 
+ game_concept_scholarly_district_holding_desc: "Typically arising from integrated temples and other religous insitutions, Scholarly districts are often thought of as the spiritual cores of a metropolis. However, they often grow to encompasse many other learned fields, becoming places of knowledge and ideas." 
+  
+ #OLD METRO DISTRICTS 
   
  game_concept_military_district_holding: "Владенение военного округа"  
  game_concept_military_district: "Военный округ"  
@@ -770,8 +823,8 @@
  game_concept_necropolis_holdings: "Некропольские владения"  
  game_concept_necropolis_holding_desc: "Некропольи - это [Concept('holding_type','строения')|E], связанный с [Concept('lichdoms','личдомами')|E]. Если [Concept('liches','личи')|E] способны править этими бесплодными землями и укрепленными крепостями нежити, то остальным править нечем."  
   
-  Encyclopedia Entries as GCs 
- game_concept_kalath_old_growth_biozone: "Сердечная древесина"  
+ # Encyclopedia Entries as GCs 
+game_concept_kalath_old_growth_biozone: "Сердечная древесина"  
  game_concept_kalath_old_growth_biozone_desc: "Густой древний лес, пронизанный значительными арканными влияниями. Многие его глубины остались практически нетронутыми руками человека."  
  game_concept_pathos_delta_biozone: "Пафосная дельта"  
  game_concept_pathos_delta_biozone_desc: "Регион с умеренными тропическими лесами и разбросанными болотами, огибающий реку Патос."  
@@ -897,6 +950,9 @@
  game_concept_whisperveil_biozone_desc: "Шепчущий лес - это нетронутые просторы густых сосновых и еловых лесов далеко к северу от [Concept('shattered_coast','Расколотого побережья')|E]."  
  game_concept_red_waste_biozone: "Красная пустошь"  
  game_concept_red_waste_biozone_desc: "Красные Пустоши - это взрывоопасная пустошь, пораженная мощной магической энергией, которая когда-то опустошила эту землю."  
+ game_concept_lonely_light_biozone: "Одинокий свет" 
+ game_concept_lonely_light: "Одинокий свет" 
+ game_concept_lonely_light_biozone_desc: "Одинокий Свет - это скалистый вулканический архипелаг далеко к северо-западу от [Concept('shattered_coast','Расколотого побережья')|E]. Хотя большая часть севера острова покрыта тундрой, они хорошо известны своими густыми зарослями трав и папоротников. Те немногие уцелевшие деревья, которые, как полагают, были привезены поселенцами из старой Эджейницы. Снега выпадает немного, но дождь и туман случаются круглый год." 
  game_concept_kalath_old_growth: "Сердечная древесина"  
  game_concept_pathos_delta: "Пафосная дельта"  
  game_concept_sulzegg_basin: "Кепиранская котловина"  
@@ -1004,3 +1060,10 @@
  game_concept_arcana_lifestyle: "Арканый жизненный стиль"  
  game_concept_arcana_lifestyle_desc: "$game_concept_arcana_lifestyle$ подходит для персонажей, которые хотят улучшить свои знания по [Concept('magic','магии')|E] и внутреннему устройству [Concept("aeras", "Аэраса"|E)] через [Concept('artifacts','артифакты')|E] и [Concept('travel','путешествия')|E]."  
  game_concept_arcane: "аркан"  
+  
+ ## MAGIC PROWESS 
+ game_concept_magic_prowess: "Магическая доблесть" 
+ game_concept_magic_prowess_i: "@magic_icon!" 
+ game_concept_magic_prowess_skill: "Навык магической доблести" 
+ game_concept_magic_prowess_skill_desc: "Магическая доблесть - это вторичный [Concept('skill','навык')|E] , добавляемый к [Concept('prowess','доблести')|E] Персонажа, если он обучен [Concept('magic_school','магической школе')|E], представляющий собой умение сражаться с помощью [Concept('magical_arcane','магии')|E].\n\nОна не разрушается с возрастом и является основным фактором в магических дуэлях." 
+ game_concept_magical_arcane: "аркан" 

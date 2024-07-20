@@ -1,8 +1,8 @@
 ﻿l_russian:
- rayakuux_title: "Райякуукс" 
- qabuux_title: "Кабуукс" 
- karavuux_title: "Каравуукс" 
- waranuux_title: "Варануукс" 
+ rayakuux_title: "Райякуукс"
+ qabuux_title: "Кабуукс"
+ karavuux_title: "Каравуукс"
+ waranuux_title: "Варануукс"
   
   # Trigger localization 
- caste_must_not_be_on_cooldown_trigger: "Влияние ложи может быть повышено или понижено только раз в 10 лет [county]" 
+ caste_must_not_be_on_cooldown_trigger: "Влияние ложи может быть повышено или понижено только раз в 10 лет [county]"

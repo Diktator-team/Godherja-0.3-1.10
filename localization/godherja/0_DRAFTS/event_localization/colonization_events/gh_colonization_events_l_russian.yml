@@ -1,104 +1,104 @@
 ﻿l_russian:
+ gh_colonization_events.0001.t: "Colonization: Peace and Prosperity" #NT!
+ gh_colonization_events.0001.desc: "Recent reports from [colony.GetNameNoTier] seem to suggest that the colony is enjoying an unprecedented degree of success, with scores of new enthusiastic settlers arriving in the province each day to seek wealth and fortune.\n\nShould the things continue to progress in this way, it would not be too long until the region will become a fully-fledged part of my realm." #NT!
+ gh_colonization_events.0001.a: "Let them enjoy the fruits of their labors." #NT!
+ gh_colonization_events.0001.b: "They can start paying their taxes early." #NT!
+ gh_colonization_events.0001.c: "Good infrastructure will serve [colony.GetNameNoTierNoTooltip] in the long term." #NT!
+ gh_colonization_events.0001.d: "Their taxes will #EMP double#!." #NT!
+ gh_colonization_events.0001.d.tt: "[colonization_progress|E] in [colony.GetName] will decrease by #X 20#!" #NT!
   
- colonization_event.0001.t: "Колония Процветает"  #Машинный перевод 28.10.23!
- colonization_event.0001.desc: "Колония в [county_being_colonized.GetName] сообщила о рекордном процветании. Изучая записи, которые передал мне мой управляющий, его успех побудил прибыть множество новых поселенцев, что значительно увеличило количество и размер поселений по всему региону. С процветанием приходит возможность платить более высокие налоги, и я мог бы обложить колонию новым налогом или сбором, если бы того пожелал."  #Машинный перевод 28.10.23!
- colonization_event.0001.a: "Пусть они наслаждаются своим процветанием."  #Машинный перевод 28.10.23!
- colonization_event.0001.b: "Обложите их небольшим «налогом на процветание»."  #Машинный перевод 28.10.23!
- colonization_event.0001.c: "Увеличить налоги на четверть; казне нужно больше золота."  #Машинный перевод 28.10.23!
- colonization_event.0001.d: "Повысьте налоги вдвое и конфискуйте треть зерна в этом месяце."  #Машинный перевод 28.10.23!
+ gh_colonization_events.0002.t: "Colonization: A Plague of Brigands" #NT!
+ gh_colonization_events.0002.desc: "Recently, the magistrates in charge of my colony in [colony.GetNameNoTier] have been sending increasingly distressing reports about a large band of brigands that has been gaining power in the province. Drawing recruits from disgruntled settlers and opportunistic vagabonds alike, they carry out attacks on merchant caravans and pillage frontier settlements, wreaking havoc on the land and its peoples.\n\nAt the rate their numbers are growing, it would not be long before this wave of banditry spills into the surrounding territories, undermining my authority and control." #NT!
+ gh_colonization_events.0002.a: "They will have to deal with it by themselves." #NT!
+ gh_colonization_events.0002.a.tt: "The [control|E] level in all [counties|E] in your [realm|E] that are adjacent to the [colony.GetName] will change by #X -20#!" #NT!
+ gh_colonization_events.0002.b: "Double the patrols, and guard the roads." #NT!
+ gh_colonization_events.0002.c: "Dispatch a punitive force to hunt down the bandits." #NT!
+ gh_colonization_events.0002.d: "[court_adventurer.GetFirstName] will deal with this." #NT!
+ gh_colonization_events.0002.d.tt: "Your [GetCourtPositionType('court_adventurer_court_position').GetName()] dispatches the rabble without issue" #NT!
   
- colonization_event.0011.t: "Чума разбойников"  #Машинный перевод 28.10.23!
- colonization_event.0011.desc: "Магистраты, отвечающие за колонию [county_being_colonized.GetName], сообщают, что ее преследует настоящая орда разбойников, сформированная из недовольных поселенцев. Они нападают на жизненно важные караваны, грабят незащищенные поселения и вообще сеют хаос на земле. Пока я читаю множество отчетов, мой маршал ждет моего приказа."  #Машинный перевод 28.10.23!
- colonization_event.0011.a: "Мы ничего не можем сделать для колонии."  #Машинный перевод 28.10.23!
- colonization_event.0011.b: "Отправьте им золото и оружие, чтобы они могли защитить себя."  #Машинный перевод 28.10.23!
- colonization_event.0011.c: "Отправьте солдат выследить и поймать разбойников."  #Машинный перевод 28.10.23!
+ gh_colonization_events.0003.t: "Colonization: Food Shortage" #NT!
+ gh_colonization_events.0003.desc: "A combination of poor harvests, depleted wildlife, and delayed shipments has led to a food shortage in the colony of [colony.GetNameNoTier], with the remaining stores being only barely enough to sustain the local communities for another week or two.\n\nIn the face of the coming crisis, the settlers' representatives have come to me with a desperate plea for assistance, warning that if nothing is done about this looming plight, the province may face widespread starvation and strife." #NT!
+ gh_colonization_events.0003.a: "They will have to fend for themselves." #NT!
+ gh_colonization_events.0003.a.tt: "[colonization_progress|E] decreases by #X 30#!" #NT!
+ gh_colonization_events.0003.b: "Send them enough food to survive the year." #NT!
   
- colonization_event.0021.t: "Плохой урожай"  #Машинный перевод 28.10.23!
- colonization_event.0021.desc: "Колония в [county_being_colonized.GetName] сообщила об ужасном урожае в этом году; Зерно и другие основные продукты питания не выросли в достаточном количестве, чтобы обеспечить колонистам жизнь, и вскоре они могут столкнуться с голодом, если с этим что-то не сделать."  #Машинный перевод 28.10.23!
- colonization_event.0021.a: "Им придется постоять за себя."  #Машинный перевод 28.10.23!
- colonization_event.0021.b: "Отправьте им достаточно еды, чтобы пережить год."  #Машинный перевод 28.10.23!
- colonization_event.0021.c: "Организуйте доставку продуктов питания и более выносливых семян для урожая следующего года."  #Машинный перевод 28.10.23!
+ gh_colonization_events.0004.t: "Colonization: An Incompetent Administrator" #NT!
+ gh_colonization_events.0004.desc: "A [idiot.GetWomanMan] in chains is brought before me by [jailor.Custom2('MyCharacterIntroduction', ROOT.Char)], falling onto the floor in a heap after a strong push from the latter. With no small amount of surprise, I learn that this person is supposed to be one of the chief administrators of my colony in [colony.GetNameNoTier], accused of deeds that can only be explained by either criminal negligence or complete lunacy.\n\nSupposedly, [idiot.GetSheHe] has almost single-handedly brought the entire community to ruin by wasting supplies, obstructing essential work for the sake holding no fewer than a dozen meetings per day, and levying harsh taxes to fund the construction of a 'Governor's Mansion'.\n\nIf even half of that is true, then it is a mystery how [idiot.GetSheHe] got [idiot.GetHerHis] position in the first place." #NT!
+ gh_colonization_events.0004.a: "Get this fool out of my sight." #NT!
+ gh_colonization_events.0004.a.tt: "[idiot.GetFirstName] is banished from the realm, never to be seen again" #NT!
+ gh_colonization_events.0004.b: "Have this lackwit thrown into the dungeon!" #NT!
+ gh_colonization_events.0004.c: "[jailor.GetFirstNameNoTooltip], execute this dullard." #NT!
   
- colonization_event.0031.t: "Некомпетентный администратор"  #Машинный перевод 28.10.23!
- colonization_event.0031.desc: "Мой управляющий обнаружил, что чиновник, отвечающий за колонию в [county_being_colonized.GetName], совершенно неправильно управлял колонией, основывая новые поселения в бедных регионах, размещая фермы в негостеприимных районах и неправильно храня скоропортящиеся продукты. Этот уровень глупости является преступным, и администратор был арестован и предстал передо мной для суда."  #Машинный перевод 28.10.23!
- colonization_event.0031.a: "Лишите этого дурака его должности."  #Машинный перевод 28.10.23!
- colonization_event.0031.b: "Бросьте этого дурака в темницу!"  #Машинный перевод 28.10.23!
- colonization_event.0031.c: "Охранники, казните этого дурака!"  #Машинный перевод 28.10.23!
- colonization_event.0031.d: "Убейте этого глупого идиота и истребите его семью!"  #Машинный перевод 28.10.23!
- colonization_event.0031.e: "Верните его на свой пост, он там, где я хочу, чтобы он был."  #Машинный перевод 28.10.23!
+ gh_colonization_events.0005.t: "Colonization: Monster Infestation" #NT!
+ gh_colonization_events.0005.desc: "A messenger from [colony.GetNameNoTier] has appeared before my court with the most dire news: a horde of monsters has overrun the colony! Driven into a frenzy by the settlers' arrival in the region, the beasts are rampaging through the countryside, devastating hamlets and laying waste to villages. Contact with many settlements has already been lost, and people are only able to get around in large armed groups—if at all.\n\nCasualties are climbing by the day, and, should nothing be done about this calamity, the colony may be destroyed outright." #NT!
+ gh_colonization_events.0005.a: "I can't do anything about this." #NT!
+ gh_colonization_events.0005.a.tt: "[colonization_progress|E] decreases by #X 15#!" #NT!
+ gh_colonization_events.0005.b: "A standing bounty on the monsters' heads should be enough." #NT!
+ gh_colonization_events.0005.c: "My retinue will handle it." #NT!
+ gh_colonization_events.0005.d: "[court_adventurer.GetFirstName] will deal with this." #NT!
+ gh_colonization_events.0005.d.tt: "Your [GetCourtPositionType('court_adventurer_court_position').GetName()] dispatches the monsters without issue" #NT!
   
- colonization_event.0041.t: "Нашествие монстров"  #Машинный перевод 28.10.23!
- colonization_event.0041.desc: "Жители колонии [county_being_colonized.GetName] обратились ко мне с просьбой о помощи. Колония, очевидно, страдает от больших популяций монстров, охотящихся на домашний скот, а в некоторых случаях и на людей. Люди боятся покидать свои усадьбы, а торговля между поселениями ведется лишь в больших количествах. Хотя некоторые охотятся на зверей, мало кто добровольно соглашается на опасную работу. С этим надо что-то делать."  #Машинный перевод 28.10.23!
- colonization_event.0041.a: "Я ничего не могу с этим поделать."  #Машинный перевод 28.10.23!
- colonization_event.0041.b: "Я объявлю большую награду за этих зверей."  #Машинный перевод 28.10.23!
- colonization_event.0041.c: "Я найму гильдию охотников на монстров."  #Машинный перевод 28.10.23!
+ gh_colonization_events.0006.t: "Colonization: Struck Gold!" #NT!
+ gh_colonization_events.0006.desc: "What an auspicious day!\n\nThe surveyors in [colony.GetNameNoTier] have struck a massive gold vein, commencing the mining operations to fund the growth of the colony and, more importantly, to pay their tribute to me in advance. News of the discovery have already spread like a wildfire, leading to the scores of new settlers arriving in the province each week in a bid to build better lives for themselves." #NT!
+ gh_colonization_events.0006.a: "Fantastic news!" #NT!
+ gh_colonization_events.0006.b: "I will reinvest some of that gold back into the colony." #NT!
   
- colonization_event.0051.t: "Ударное золото"  #Машинный перевод 28.10.23!
- colonization_event.0051.desc: "Колонисты в [county_being_colonized.GetName] нашли большое количество золота, отправив значительное его количество обратно на родину и, что более важно для меня, в мою сокровищницу. Уже сейчас десятки новых поселенцев направляются в этот регион в поисках шанса разбогатеть, и колония стабильно растет."  #Машинный перевод 28.10.23!
- colonization_event.0051.a: "Фантастическая новость!"  #Машинный перевод 28.10.23!
- colonization_event.0051.b: "Я вложу часть этого золота обратно в колонию."  #Машинный перевод 28.10.23!
+ gh_colonization_events.0007.t: "Colonization: Migrants from [migrant_origin.GetNameNoTierNoTooltip]" #NT!
+ gh_colonization_events.0007.desc: "I am receiving reports that my colony in [colony.GetNameNoTier] is experiencing an influx of new settlers of [migrant_origin.GetProvince.GetCounty.GetCulture.GetName] origin, who are headed there from the [migrant_origin.GetName] on the promise of a bright future away from their homeland.\n\nAlthough that future might admittedly be not as bright as they think, I have little doubt that they could be put to work to ensure the prosperity of the realm." #NT!
+ gh_colonization_events.0007.a: "This is fine, I suppose." #NT!
+ gh_colonization_events.0007.b: "More people means more taxes." #NT!
+ gh_colonization_events.0007.b.tt: "[colonization_progress|E] in [colony.GetName] increases by #P 10#!" #NT!
+ gh_colonization_events.0007.c: "They can settle [colony.GetNameNoTierNoTooltip] for me." #NT!
+ gh_colonization_events.0007.c.tt: "[colonization_progress|E] increases by #P 30#!" #NT!
   
- colonization_event.0061.t: "Приток поселенцев"  #Машинный перевод 28.10.23!
- colonization_event.0061.desc: "Мой управляющий сообщает, что в колонию [county_being_colonized.GetName] наблюдается приток новых поселенцев, направляющихся туда в поисках светлого будущего вдали от родины. Хотя это будущее может быть не таким светлым, как они думают, они, несомненно, внесут свой вклад в обеспечение процветания страны."  #Машинный перевод 28.10.23!
- colonization_event.0061.a: "Хорошие новости!"  #Машинный перевод 28.10.23!
- colonization_event.0061.b: "Больше людей – больше налогов!"  #Машинный перевод 28.10.23!
+ gh_colonization_events.0008.t: "Colonization: Exceptional Harvest" #NT!
+ gh_colonization_events.0008.desc: "An exceptionally good harvest has been reported in [colony.GetNameNoTier] this year, and the colony's granaries are filled to the brim with enough food for the settlers to feed themselves both this year and the next.\n\nAs their ruler and benefactor, I am naturally entitled to a portion of their produce, but extracting too much at once would run the risk of upsetting the region's economy and alienating its inhabitants." #NT!
+ gh_colonization_events.0008.a: "Let them keep everything; I don't need it." #NT!
+ gh_colonization_events.0008.b: "I'll claim a fifth of it for the good of the realm." #NT!
+ gh_colonization_events.0008.c: "By right, it is all #EMP mine#!!" #NT!
   
- colonization_event.0071.t: "Хороший урожай"  #Машинный перевод 28.10.23!
- colonization_event.0071.desc: "Мой управляющий докладывает, что в этом году колония [county_being_colonized.GetName] собрала необычайно хороший урожай. Урожай цветет, и у них будет более чем достаточно еды, чтобы прокормить себя в этом году и в следующем. Хотя я мог бы конфисковать значительную часть этого зерна для своих целей, я также должен учитывать долгосрочные последствия такого действия."  #Машинный перевод 28.10.23!
- colonization_event.0071.a: "Пусть они сохранят свое зерно; Мне это не нужно."  #Машинный перевод 28.10.23!
- colonization_event.0071.b: "Я возьму небольшое количество зерна для своих целей."  #Машинный перевод 28.10.23!
- colonization_event.0071.c: "Возьмите десятую долю зерна! Мне это нужно больше, чем им."  #Машинный перевод 28.10.23!
- colonization_event.0071.d: "Я возьму все их лишнее зерно! Это все мое!"  #Машинный перевод 28.10.23!
-  
- colonization_event.0200.t: "Построить колонию"  #Машинный перевод 28.10.23!
- colonization_event.0200.desc: "Колония [county_being_colonized.GetName] наконец достигла состояния финансовой независимости. Там, где когда-то не было ничего, провинция теперь наслаждается звуками смеха детей и гордым потом на их лбу [SelectLocalization(GetPlayer.HasTrait(GetTrait('greedy').Self),' and most important of all, the joy of paying their taxes!','.')] Однако эта скромная деревня, несомненно, скоро превратится в более крупное поселение, подобное городкам, подобно тому, как оно будет окружать, и это зависит от меня. решить, как именно это поселение однажды будет выглядеть."  #Машинный перевод 28.10.23!
- colonization_event.0200.a: "Для защиты этих земель будет построен форт."  #Машинный перевод 28.10.23!
- colonization_event.0200.b: "Позвольте людям инвестировать в торговлю и, таким образом, инвестировать в королевство."  #Машинный перевод 28.10.23!
- colonization_event.0200.c: "Пусть это владение будет одним из [ROOT.Char.GetFaith.HighGodName]."  #Машинный перевод 28.10.23!
+ gh_colonization_events.0010.t: "Colonization: Silent Shores" #NT!
+ gh_colonization_events.0010.desc: "The colony in [colony.GetNameNoTier] has gone silent.\n\nFirst, it was little things—a scouting party lost to the wilderness, some minor discrepancies in the local census, the odd family searching for their missing child. Then, a fishing vessel went missing. After that, a whole village. And now, not a single message has come from the settlement for over a month.\n\nSeveral vessels were dispatched to investigate the colony and have returned empty-handed, unable to spot even a glimpse of the outpost or its inhabitants. Indeed, even the coastline itself now seems alien and unfamiliar, as if the sheer cliffs of [eripomvuno_biozone|E] have rearranged themselves out of sight.\n\nWith no apparent leads, it seems that whatever became of the missing settlers shall remain a mystery." #NT!
+ gh_colonization_events.0010.tt: "@death_icon! [dead_person.GetTitledFirstName] disappeared without a trace" #NT!
+ gh_colonization_events.0010.a: "I can only pray for their souls." #NT!
   
   ############# 
   # MODIFIERS # 
   ############# 
   
- colony_prospers_modifier: "Процветающая колония"  #Машинный перевод 28.10.23!
- colony_prospers_modifier_desc: "#W Скорость колонизации:#! #positive_value +50%#!"  #Машинный перевод 28.10.23!
- colony_prospers_mitigated_modifier: "Процветающая колония"  #Машинный перевод 28.10.23!
- colony_prospers_mitigated_modifier_desc: "#W Скорость колонизации:#! #positive_value +25%#!"  #Машинный перевод 28.10.23!
- colony_prospers_minor_modifier: "Процветающая колония"  #Машинный перевод 28.10.23!
- colony_prospers_minor_modifier_desc: "#W Скорость колонизации:#! #positive_value +10%#!"  #Машинный перевод 28.10.23!
- colony_struck_gold_modifier: "Золотая лихорадка"  #Машинный перевод 28.10.23!
- colony_struck_gold_modifier_desc: "#W Скорость колонизации:#! #positive_value +25%#!"  #Машинный перевод 28.10.23!
- colony_struck_gold_improved_modifier: "Золотая лихорадка"  #Машинный перевод 28.10.23!
- colony_struck_gold_improved_modifier_desc: "#W Скорость колонизации:#! #positive_value +50%#!"  #Машинный перевод 28.10.23!
- colony_influx_of_settlers_modifier: "Приток мигрантов"  #Машинный перевод 28.10.23!
- colony_influx_of_settlers_modifier_desc: "#W Скорость колонизации:#! #positive_value +50%#!"  #Машинный перевод 28.10.23!
- colony_influx_of_settlers_mitigated_modifier: "Приток мигрантов"  #Машинный перевод 28.10.23!
- colony_influx_of_settlers_mitigated_modifier_desc: "#W Скорость колонизации:#! #positive_value +25%#!"  #Машинный перевод 28.10.23!
- colony_good_harvest_modifier: "Обильный урожай"  #Машинный перевод 28.10.23!
- colony_good_harvest_modifier_desc: "#W Скорость колонизации:#! #positive_value +50%#!"  #Машинный перевод 28.10.23!
- colony_good_harvest_mitigated_modifier: "Отличный урожай"  #Машинный перевод 28.10.23!
- colony_good_harvest_mitigated_modifier_desc: "#W Скорость колонизации:#! #positive_value +25%#!"  #Машинный перевод 28.10.23!
- colony_good_harvest_minor_modifier: "Хороший урожай"  #Машинный перевод 28.10.23!
- colony_good_harvest_minor_modifier_desc: "#W Скорость колонизации:#! #positive_value +10%#!"  #Машинный перевод 28.10.23!
- colony_plague_of_brigands_modifier: "Бандитская крепость"  #Машинный перевод 28.10.23!
- colony_plague_of_brigands_modifier_desc: "#W Скорость колонизации:#! #negative_value -50%#!"  #Машинный перевод 28.10.23!
- colony_plague_of_brigands_mitigated_modifier: "Бандитское гнездо"  #Машинный перевод 28.10.23!
- colony_plague_of_brigands_mitigated_modifier_desc: "#W Скорость колонизации:#! #negative_value -25%#!"  #Машинный перевод 28.10.23!
- colony_plague_of_brigands_minor_modifier: "Убежище бандитов"  #Машинный перевод 28.10.23!
- colony_plague_of_brigands_minor_modifier_desc: "#W Скорость колонизации:#! #negative_value -10%#!"  #Машинный перевод 28.10.23!
- colony_poor_harvest_modifier: "Катастрофический урожай"  #Машинный перевод 28.10.23!
- colony_poor_harvest_modifier_desc: "#W Скорость колонизации:#! #negative_value -50%#!"  #Машинный перевод 28.10.23!
- colony_poor_harvest_mitigated_modifier: "Ужасный урожай"  #Машинный перевод 28.10.23!
- colony_poor_harvest_mitigated_modifier_desc: "#W Скорость колонизации:#! #negative_value -25%#!"  #Машинный перевод 28.10.23!
- colony_poor_harvest_minor_modifier: "Плохой урожай"  #Машинный перевод 28.10.23!
- colony_poor_harvest_minor_modifier_desc: "#W Скорость колонизации:#! #negative_value -10%#!"  #Машинный перевод 28.10.23!
- colony_incompetent_administrator_modifier: "Некомпетентный администратор"  #Машинный перевод 28.10.23!
- colony_incompetent_administrator_modifier_desc: "#W Скорость колонизации:#! #negative_value -25%#!"  #Машинный перевод 28.10.23!
- colony_incompetent_administrator_major_modifier: "Уполномоченный некомпетентный администратор"  #Машинный перевод 28.10.23!
- colony_incompetent_administrator_major_modifier_desc: "#W Скорость колонизации:#! #negative_value -50%#!"  #Машинный перевод 28.10.23!
- colony_monster_infestation_modifier: "Нашествие монстров"  #Машинный перевод 28.10.23!
- colony_monster_infestation_modifier_desc: "#W Скорость колонизации:#! #negative_value -50%#!"  #Машинный перевод 28.10.23!
- colony_monster_infestation_mitigated_modifier: "Нашествие монстров"  #Машинный перевод 28.10.23!
- colony_monster_infestation_mitigated_modifier_desc: "#W Скорость колонизации:#! #negative_value -25%#!"  #Машинный перевод 28.10.23!
- colony_monster_infestation_minor_modifier: "Нашествие монстров"  #Машинный перевод 28.10.23!
- colony_monster_infestation_minor_modifier_desc: "#W Скорость колонизации:#! #negative_value -10%#!"  #Машинный перевод 28.10.23!
+ colonial_boom_modifier: "Colonial Boom" #NT!
+ colonial_boom_modifier_desc: "This colony is enjoying unprecedented levels of growth\n[colonization_progress|E]: [Concept('colonization_progress','@colonization_progress_icon!')]#positive_value +30%#!" #NT!
+ colonial_prosperity_modifier: "Colonial Prosperity" #NT!
+ colonial_prosperity_modifier_desc: "This colony is growing at a rapid pace\n[colonization_progress|E]: [Concept('colonization_progress','@colonization_progress_icon!')]#positive_value +15%#!" #NT!
+ infrastructure_expansion_modifier: "Infrastructure Expansion" #NT!
+ infrastructure_expansion_modifier_desc: "Networks of well-maintained roads and waystations crisscross this county, allowing for faster travel and commerce" #NT!
+ bandit_stronghold_modifier: "Bandit Stronghold" #NT!
+ bandit_stronghold_modifier_desc: "A large group of brigands has set up camp in the local wilderness, wreaking havoc and causing disorder among the local populace\n[colonization_progress|E]: [Concept('colonization_progress','@colonization_progress_icon!')]#negative_value -50%#!" #NT!
+ frontier_banditry_modifier: "Frontier Banditry" #NT!
+ frontier_banditry_modifier_desc: "The wilderness surrounding this colony is teeming with characters of ill repute and unsavory standing\n[colonization_progress|E]: [Concept('colonization_progress','@colonization_progress_icon!')]#negative_value -25%#!" #NT!
+ safe_roads_modifier: "Safe Roads" #NT!
+ safe_roads_modifier_desc: "The roads in this colony are exceptionally safe, facilitating commerce and growth\n[colonization_progress|E]: [Concept('colonization_progress','@colonization_progress_icon!')]#positive_value +20%#!" #NT!
+ adventurer_patrols_modifier: "Adventurer Patrols" #NT!
+ adventurer_patrols_modifier_desc: "Adventurers patrol the roads in this colony, and no beast nor vagrant dares to challenge them\n[colonization_progress|E]: [Concept('colonization_progress','@colonization_progress_icon!')]#positive_value +40%#!" #NT!
+ acute_food_shortages_modifier: "Acute Food Shortages" #NT!
+ acute_food_shortages_modifier_desc: "The inhabitants of this colony barely have enough food to feed themselves\n[colonization_progress|E]: [Concept('colonization_progress','@colonization_progress_icon!')]#negative_value -80%#!" #NT!
+ colonial_mismanagement_modifier: "Colonial Mismanagement" #NT!
+ colonial_mismanagement_modifier_desc: "This colony has suffered at the hands of an inept administrator, whose malignant influence lingers even after them being ousted from power\n[colonization_progress|E]: [Concept('colonization_progress','@colonization_progress_icon!')]#negative_value -20%#!" #NT!
+ monster_infestation_modifier: "Monster Infestation" #NT!
+ monster_infestation_modifier_desc: "This colony suffers from devastating—and constant—monster attacks\n[colonization_progress|E]: [Concept('colonization_progress','@colonization_progress_icon!')]#negative_value -40%#!" #NT!
+ adventurer_influx_modifier: "Adventurer Influx" #NT!
+ adventurer_influx_modifier_desc: "This colony has become a hub of adventurer activity, which has revitalized the local economy\n[colonization_progress|E]: [Concept('colonization_progress','@colonization_progress_icon!')]#positive_value +10%#!" #NT!
+ monster_exterminators_modifier: "Monster Exterminators" #NT!
+ monster_exterminators_modifier_desc: "The retinue of this character has taken on monster hunting duties, putting a strain on their upkeep" #NT!
+ gold_rush_modifier: "Gold Rush" #NT!
+ gold_rush_modifier_desc: "This colony is experiencing a massive influx of new settlers following the discovery of gold in the province\n[colonization_progress|E]: [Concept('colonization_progress','@colonization_progress_icon!')]#positive_value +50%#!" #NT!
+ thriving_economy_modifier: "Thriving Economy" #NT!
+ thriving_economy_modifier_desc: "The discovery of gold has jumpstarted the economy of this county" #NT!
+ migrant_influx_modifier: "Migrant Influx" #NT!
+ migrant_influx_modifier_desc: "Entire families of new settlers are arriving in this colony each day from the surrounding regions\n[colonization_progress|E]: [Concept('colonization_progress','@colonization_progress_icon!')]#positive_value +25%#!" #NT!
+ food_surplus_modifier: "Food Surplus" #NT!
+ food_surplus_modifier_desc: "This character possesses vast stores of foodstuffs and other produce" #NT!
+ food_abundance_modifier: "Food Abundance" #NT!
+ food_abundance_modifier_desc: "This character owns enough food to feed a small town for a decade" #NT!
+ unruly_population_modifier: "Unruly Population" #NT!
+ unruly_population_modifier_desc: "The population of this county has been wronged by the ruling elite, paving way to generational anger and mistrust" #NT!

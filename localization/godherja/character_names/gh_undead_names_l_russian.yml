@@ -2,13 +2,13 @@
   ############### 
   # Male Undead # 
   ############### 
- brittle: "Хрупкий" 
- numb: "Онемевший" 
- dense: "Плотный" 
- cracked: "Треснутый" 
- dry: "Сухой" 
- fleshless: "Бесплотный" 
- eyeless: "Безглазый" 
- skinless: "Без кожи" 
- shambling: "Шаркающий" 
- crumbling: "Осыпающийся" 
+ Brittle: "Brittle" #NT!
+ Numb: "Numb" #NT!
+ Dense: "Dense" #NT!
+ Cracked: "Cracked" #NT!
+ Dry: "Dry" #NT!
+ Fleshless: "Fleshless" #NT!
+ Eyeless: "Eyeless" #NT!
+ Skinless: "Skinless" #NT!
+ Shambling: "Shambling" #NT!
+ Crumbling: "Crumbling" #NT!

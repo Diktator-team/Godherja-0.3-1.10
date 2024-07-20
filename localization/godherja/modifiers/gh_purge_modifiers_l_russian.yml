@@ -1,5 +1,11 @@
 ﻿l_russian:
- recent_purge_modifier: "Недавняя чистка"  #Машинный перевод 28.10.23!
- recent_purge_modifier_desc: "Местные власти недавно начали поголовную чистку жителей округа: сельскую местность заполонили разрушенные деревни и братские могилы, многие бежали, а у тех, кто остался, осталась жгучая ненависть к своим угнетателям."  #Машинный перевод 28.10.23!
- natives_wiped_out_modifier: "Туземцы уничтожены"  #Машинный перевод 28.10.23!
- natives_wiped_out_modifier_desc: "Местные власти недавно начали неизбирательную чистку бывших жителей округа - разрушенные деревни и братские могилы засоряют сельскую местность, и мало что осталось, кроме нескольких предприимчивых поселенцев, отправленных строить на пепелище бывшего населения."  #Машинный перевод 28.10.23!
+ recent_purge_modifier: "Недавняя чистка"
+ recent_purge_modifier_desc: "Местные власти недавно начали поголовную чистку жителей округа: сельскую местность заполонили разрушенные деревни и братские могилы, многие бежали, а у тех, кто остался, осталась жгучая ненависть к своим угнетателям."
+ natives_wiped_out_modifier: "Туземцы уничтожены"
+ natives_wiped_out_modifier_desc: "Местные власти недавно начали неизбирательную чистку бывших жителей округа - разрушенные деревни и братские могилы засоряют сельскую местность, и мало что осталось, кроме нескольких предприимчивых поселенцев, отправленных строить на пепелище бывшего населения."
+ purged_by_fire_county_modifier: "Purged by Fire" #NT!
+ purged_by_fire_county_modifier_desc: "The local authorities have recently launched a campaign of fire on this county, as they seek to wipe out corruption and fanaticism that threatens the ruler's fragile stability." #NT!
+ redlands_decay_modifier: "Decay" #NT!
+ redlands_decay_modifier_desc: "Dark forces are work to drain this land into nothing." #NT!
+ redlander_mystery_cults_modifier: "Mystery Cults" #NT!
+ redlander_mystery_cults_modifier_desc: "Secretive, radical cults have begun appearing in these lands, some seeking a change in power." #NT!

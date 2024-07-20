@@ -1,0 +1,10 @@
+﻿l_russian:
+ gh_redrunner_events.0001.t: "Fleeing Courtier" #NT!
+ gh_redrunner_events.0001.desc.intro: "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('runaway'))], approaches me; the situation has grown beyond [runaway.GetHerHis] control. [runaway.GetFirstName] requests permission to leave my realm, to keep [runaway.GetHerHim] and [runaway.GetHerHis] family safe." #NT!
+ gh_redrunner_events.0001.desc.thought: "While I understand their desire to leave this chaos behind, can I really allow [runaway.GetFirstName] to abandon me and the realm, now of all times?" #NT!
+ gh_redrunner_events.0001.a: "Put [runaway.GetFirstName] back in line!" #NT!
+ gh_redrunner_events.0001.b: "Let [runaway.GetHerHim] go." #NT!
+ gh_redrunner_events.0001.c: "Remind [runaway.GetHerHim] who steers the ship!" #NT!
+  
+  
+  

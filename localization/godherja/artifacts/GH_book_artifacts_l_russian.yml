@@ -1,0 +1,847 @@
+﻿l_russian:
+  ######################## 
+  # BOOK COVER MATERIALS # 
+  ######################## 
+  
+ book_cover_material_skin: "human skin" #NT!
+  
+  ############ 
+  # BOOK INK # 
+  ############ 
+  
+ feature_book_ink_blood: "blood" #NT!
+ feature_book_ink_stardew_ink: "stardew ink" #NT!
+  
+  ################# 
+  # BOOK SUBJECTS # 
+  ################# 
+ feature_book_subject_arcana: "arcana" #NT!
+ feature_book_subject_blood: "[aspect_blood] [magic|E]" #NT!
+ feature_book_subject_celestial: "[aspect_celestial] [magic|E]" #NT!
+ feature_book_subject_light: "[aspect_light] [magic|E]" #NT!
+ feature_book_subject_fire: "[aspect_fire] [magic|E]" #NT!
+ feature_book_subject_nature: "[aspect_nature] [magic|E]" #NT!
+ feature_book_subject_water: "[aspect_water] [magic|E]" #NT!
+ feature_book_subject_air: "[aspect_air] [magic|E]" #NT!
+ feature_book_subject_stone: "[aspect_stone] [magic|E]" #NT!
+ feature_book_subject_dream: "[aspect_dream] [magic|E]" #NT!
+ feature_book_subject_death: "[aspect_death] [magic|E]" #NT!
+ feature_book_subject_ethereal: "[aspect_ethereal] [magic|E]" #NT!
+ feature_book_subject_ice: "[aspect_ice] [magic|E]" #NT!
+ feature_book_subject_dark: "[aspect_dark] [magic|E]" #NT!
+  
+  ############### 
+  # BOOK TOPICS # 
+  ############### 
+  
+  # Arcana 
+ feature_book_topic_arcana_general: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] grimoire containing [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] musings on a broad variety of topics related to [magic|E]." #NT!
+ feature_book_topic_arcana_magic_school: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] grimoire [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')] covering a variety of topics and rituals related to the arcane discipline of [Localize(Concatenate(Artifact.MakeScope.Var('magic_school').Var('unique_magic_school_identifier').GetFlagName, '_name'))|U]." #NT!
+ feature_book_topic_arcana_ethics: "the ethics of [magic|E]" #NT!
+ feature_book_topic_arcana_tools: "tools that are used for [magical|E] purposes" #NT!
+  
+  # Celestial 
+ feature_book_topic_celestial_star_lore: "various tales and folklore surrounding the night sky" #NT!
+  
+  # Light 
+ feature_book_topic_light_optics: "arcane optics" #NT!
+  
+  # Blood 
+ feature_book_topic_blood_medicine: "human anatomy, in particular in how it relates to [blood_magic|E]" #NT!
+ feature_book_topic_blood_play: "a play with connotations of [blood_magic|E]" #NT!
+ feature_book_topic_blood_poetry: "a collection of poetry, with common themes revolving around [blood_magic|E]" #NT!
+  
+  # Fire 
+ feature_book_topic_fire_sacrifice: "methods of ritual sacrifice, with a particular focus on the application of [aspect_fire]" #NT!
+  
+  # Nature 
+ feature_book_topic_nature_folklore: "folklore with themes surrounding [aspect_nature]" #NT!
+  
+  # Water 
+ feature_book_topic_water_folklore: "folklore with themes surrounding [aspect_water]" #NT!
+  
+  # Air 
+ feature_book_topic_air_ornithology: "ornithology" #NT!
+ feature_book_topic_air_poetry: "a collection of poetry, with common themes revolving around [aspect_air] [magic|E]" #NT!
+  
+  # Stone 
+ feature_book_topic_stone_play: "a play with connotations of [aspect_stone] [magic|E]" #NT!
+  
+  # Dream 
+ feature_book_topic_dream_magic_dream_journal: "a journal of various dreams" #NT!
+ feature_book_topic_dream_magic_dream_architecture: "попытки наметить всеобъемлющую структуру предлагаемого универсального ландшафта снов"
+ feature_book_topic_dream_magic_dream_wakeless: "studies on the Wakeless" #NT!
+  
+  # Death 
+ feature_book_topic_death_funerary_rites: "funerary rites" #NT!
+  
+  # Ethereal 
+ feature_book_topic_ethereal_soul_theory: "soul theory" #NT!
+ feature_book_topic_ethereal_fog: "theories and tales surrounding the [fog|E]" #NT!
+  
+  # Ice 
+ feature_book_topic_ice_wards: "[aspect_ice] wards" #NT!
+  
+  # Dark 
+ feature_book_topic_dark_shades: "the nature of shades" #NT!
+ feature_book_topic_dark_entities: "[aspect_dark]-aligned entities of unknown nature" #NT!
+  
+  # Grimoire materials 
+ feature_material_woods_yew: "Тис"
+ feature_material_woods_yew_desc: "Изготовлен из тиса"
+  
+  # GH TODO: Gradually implement and reformat entries below 
+ feature_book_topic_blood_bizarre_mutations: "the bizarre hereditary defects that afflicted the population of an isolated village in COUNTY, and discussions on how they might relate to [blood_magic|E]" #NT!
+ feature_book_topic_blood_black_practitioners: "the activity and rites of a Black Practitioner sect active in COUNTY between XXX and YYY" #NT!
+ feature_book_topic_blood_catastrophic_miscast: "a catastrophic miscast of an experimental [blood_magic|E] ritual in XXX, and lessons to be gleaned from it" #NT!
+ feature_book_topic_blood_dangerous_rituals: "a catalogue of [blood_magic|E] rituals that the author warns the reader against attempting, with each having several historical examples of catastrophic failure listed" #NT!
+ feature_book_topic_blood_debaucheries: "various debaucheries and hedonistic acts with [blood_magic|E] undertones" #NT!
+ feature_book_topic_blood_divination: "methods of divination using [blood_magic|E]" #NT!
+ feature_book_topic_blood_domination: "blood-based domination rituals" #NT!
+ feature_book_topic_blood_gruesome_ritual: "the events of a particularly gruesome [blood_magic|E] ritual in XXXX" #NT!
+ feature_book_topic_blood_life_extension: "the practice of life extension using [blood_magic|E], more commonly known as vampirism" #NT!
+ feature_book_topic_blood_metallurgy: "the application of [blood_magic|E] in metallurgy and smithing" #NT!
+ feature_book_topic_blood_necromancy: "necromancy based on [blood_magic|E]" #NT!
+ feature_book_topic_blood_sacrifice: "methods of ritual sacrifice, with a particular focus on proper blood-draining" #NT!
+ feature_book_topic_blood_sacrifice_sites: "a catalogue of sacrificial sites in REGION, both active and abandoned at the time of writing" #NT!
+ feature_book_topic_dream_magic_dangerous_dreams: "виды снов, которые автор считает указывающими на опасность"
+ feature_book_topic_dream_magic_lucid_dreaming: "руководство по правильной практике осознанных сновидений и его использование в [magic|E]"
+ feature_book_topic_dream_magic_meta_dream_entity: "странное существо, которое иногда можно увидеть во сне, которое, как утверждает автор, имеет [magical|E], а не мирское происхождение"
+ feature_book_topic_dream_magic_nightmare: "серия неестественно ужасающих кошмаров, преследовавших автора в XXXX, и их предполагаемое происхождение [magical|E]"
+ feature_book_topic_empyrean_archtecture: "принципы архитектуры – чрезвычайно причудливые, потусторонние принципы. Многие из предложенных конструкций не только физически невозможны, но даже не соответствуют общепринятой геометрии."
+ feature_book_topic_empyrean_curse_catalogue: "каталог различных исторических проклятий разной степени достоверности"
+ feature_book_topic_empyrean_gedeora_catalogue: "каталог номеров [gedeora|E] между XXXX и YYYY"
+ feature_book_topic_empyrean_magic_theory: "фундаментальная природа магии и теории о ее природе"
+ feature_book_topic_empyrean_mathematics: "причудливые математические теории автора, многие из которых противоречат даже элементарной логике, но, похоже, имеют метафизический подтекст"
+ feature_book_topic_empyrean_utopia: "авторское видение идеального общества. Несмотря на то, что изложенное видение якобы утопично, оно почти бессвязно и его трудно уловить, что заставляет некоторых комментаторов полагать, что книга задумана как метафизическая аллегория."
+ feature_book_topic_fire_magic_magical_fires: "различные виды магического огня, способы его создания и практическое использование."
+ feature_book_topic_fire_magic_mysterious_fire: "загадочный пожар, охвативший место в ОКРУГЕ в XXXX, а также предполагаемая предыстория и ритуал, которые к нему привели"
+ feature_book_topic_astronomy_comet_catalogue: "каталог различных исторических комет и их социальных и магических эффектов."
+ feature_book_topic_astronomy_comet_theory: "природа комет"
+ feature_book_topic_astronomy_magical_resonances: "магические резонансы, исходящие от созвездий ночного неба"
+ feature_book_topic_astronomy_specific_constellation: "специфическое созвездие ночного неба – его трактовка в различных культурах мира и его магическая природа"
+ feature_book_topic_astronomy_star_charts: "сборник различных звездных карт"
+ feature_book_topic_astronomy_sun: "природа солнца Эраса"
+  
+ feature_book_topic_secret_histories_art: "различные произведения странного искусства со всего мира — скульптуры, фрески, картины и даже архитектура — либо неясного происхождения, либо аномальных свойств, либо того и другого."
+ feature_book_topic_secret_histories_bizarre_locals: "причудливые обряды изолированного населения в сельском ОКРУГЕ"
+ feature_book_topic_secret_histories_chronicle: "хроника различных малоизвестных, на первый взгляд не связанных друг с другом исторических событий, с намеками на то, что за этим может стоять нечто большее."
+ feature_book_topic_secret_histories_corrupted_holy_text: "то, что изначально кажется обычным священным текстом ВЕРЫ, но более внимательное рассмотрение обнаруживает несколько несоответствий и серьезных отклонений от ортодоксальности. Текст не может быть связан с какой-либо известной ересью веры."
+ feature_book_topic_secret_histories_cultural_legends: "различные малоизвестные и странные [ROOT.Artifact.MakeScope.Var('book_topic_culture').Culture.GetNameNoTooltip] народные сказки и их предполагаемая основа в реальной истории"
+ feature_book_topic_secret_histories_disappearances: "список различных странных исчезновений, которые преследовали ОКРУГ между XXXX и YYYY"
+ feature_book_topic_secret_histories_mysterious_heresy: "странная, малоизвестная и исключительно неортодоксальная секта ВЕРЫ, действовавшая между X и Y веками."
+ feature_book_topic_secret_histories_mysterious_individual: "деятельность нескольких людей, живших между X и Y веками, которые, как утверждает автор, на самом деле являются одним лицом или сущностью"
+ feature_book_topic_secret_histories_primordial_architecture: "остатки древних построек, служащих фундаментом многих современных крепостей и городов, и их темное происхождение"
+ feature_book_topic_secret_histories_prophecy: "тщательно продуманное пророчество PROPHECY_TONE"
+ feature_book_topic_secret_histories_redlander_cults: "каталог различных культов, действующих в Красные землие, и их верований или, по крайней мере, тех, которые известны автору и действовали на момент написания"
+ feature_book_topic_secret_histories_secret_society: "история тайного общества, которое предположительно действовало на территории вокруг [Artifact.MakeScope.Var('book_origin_county').Title.GetNameNoTierNoTooltip] между [Artifact.GetOwner.MakeScope.Var('date_range_lower_year').GetValue|0] и [Artifact.GetOwner.MakeScope.Var('date_range_upper_year').GetValue|0]"
+ feature_book_topic_secret_histories_strange_artifacts: "ряд причудливых магических артефактов, ни один из которых не может быть легко объяснен традиционными знаниями [magic|E], известными автору"
+ feature_book_topic_secret_histories_undeciphered_book: "загадочный, нерасшифрованный CULTURE TEXT_TYPE и попытки взломать его код"
+ feature_book_topic_secret_histories_unknown_language: "странный TEXT_TYPE, полученный из COUNTY, написанный неизвестным шрифтом, не имеющим явных параллелей с письменностью какой-либо известной культуры."
+  
+ feature_book_topic_soul_magic_death: "теории о механике души, связанные со смертью"
+ feature_book_topic_soul_magic_haunting: "сборник различных призраков, поразивших ОКРУГ на момент написания статьи"
+ feature_book_topic_soul_magic_metallurgy: "методы связывания душ с металлами и способы создания чар"
+ feature_book_topic_soul_magic_oracle: "несколько предполагаемых сообщений о погибших в ОКРУГЕ в период с ХХХХ по ГГГГ, а также сообщение PROPHECY_TYPE, полученное из них"
+ feature_book_topic_soul_magic_possession: "природа одержимости духами и другими подобными существами, а также методы их предотвращения и побуждения"
+ feature_book_topic_soul_magic_shades: "теории о природе теней и теневых сущностей"
+ feature_book_topic_soul_magic_soul_fusion: "теории о механике слияния душ, малоизвестное и часто табуированное искусство."
+  
+  ################################## 
+  # HISTORICAL BOOKS - TRAVELOGUES # 
+  ################################## 
+  
+ seventy_seven_cities_title: "Seventy-Seven Cities of the Greater World" #NT!
+ seventy_seven_cities_desc: "Demetrios of Chumau was a renowned half [chevalien|E], half [aversarian|E] writer whose two hundred books, treatises, pamphlets, poems, plays, and more cemented him as possibly the most important writer of the 10th century. His 'Seventy-Seven Cities' story both described in intricate detail and provided a short tale of what Demetrios considered the 77 greatest cities of the world, and even contains intricate descriptions of cities as far as the center of Adabyss or the mysterious lands of Shaxi-Shahai in the far east, all of which Demetrios claims to have seen for himself." #NT!
+ pocket_guide_to_aversaria_title: "A Pocket Guide to Aversaria" #NT!
+ pocket_guide_to_aversaria_desc: "A series of pamphlets describing the various cultures and traditions of each of the main governances of Aversaria: Etepezea, Opakhasia, Malcois, Aironoi, Kalathipsomi (both Megos and Mikros), the Apokiakas, and Sarradon. While at least a century out of date (describing Aversaria as "A booming and prospering Empire with no end of its growth in sight"), it's still a somewhat enjoyable read." #NT!
+  
+  ################################ 
+  # HISTORICAL BOOKS - RELIGIOUS # 
+  ################################ 
+  
+ the_godherja_title: "The Godherja" #NT!
+ the_godherja_desc: "Constructed by the semi-mythical Kruvonik ‘Good-Word’ sometime in the distant past and then later penned down by his blind apprentice Sjinlas ‘the Stray’, the Godherja remains to this day the most important and influential of the Sjalvolki sagas. " #NT!
+  
+  ################################ 
+  # HISTORICAL BOOKS - GRIMOIRES # 
+  ################################ 
+  
+  # General Arcana 
+ transcripts_of_contention_of_rajmun_title: "Transcript of the Contention of Rajmun" #NT!
+ transcripts_of_contention_of_rajmun_desc: "The Contention of Rajmun was a major debate between the Head of Rajmun University, Scholar Prakesh Utamatar, and the Khathpatti-Consort of Adlurbad, Arjun Vhanati, to discuss the origins of the [sabar_lambay_raad|E]. Initially focused solely on the catastrophe, it became a moral and theological debate about the ethics of [magical|E] experimentation. The scribe, Scholar Lubhai Advani, supplements the transcript with his own musings and interpretations." #NT!
+ contents_of_silver_title: "The Contents of Silver" #NT!
+ contents_of_silver_desc: "A series of instructionals by an unknown Anti-Magi on the process of making and maintaining mirrors." #NT!
+ wisemans_friend_title: "The Wiseman's Friend" #NT!
+ wisemans_friend_desc: "A book of occult and spiritual guidance, written by Chevalien mystic Jasperre Verdane. It covers a broad amount of topics, including herbal remedies, religious advice, spirits and many other arcane topics, and has proven to be immensely popular among Marcher students of the esoteric — its historical suppression broadening its appeal even more." #NT!
+  
+  # Celestial 
+ the_epic_of_talab_title: "The Epic of Talab" #NT!
+ the_epic_of_talab_desc: "This ancient Sarradonian epic follows Talab, a personification of the constellation of the Wanderer, as he makes his way to the palace of the Emperor of Night. Along the way, he must overcome numerous obstacles and foes. " #NT!
+ high_chants_of_stargazers_title: "High Chants of the Watchful Stargazers" #NT!
+ high_chants_of_stargazers_desc: "A collection of lost rites that once guided a forgotten order of astrologers in their quest for celestial harmony." #NT!
+  
+  # Blood 
+ aeltheniax_anatomy_vol_1_title: "Aeltheniax's "Anatomy", Volume I" #NT!
+ aeltheniax_anatomy_vol_1_desc: "A book on human anatomy by one of the [mayikprolollan|E]'s most renowned scholars. This is the first, and far more common volume, with a focus on the more mundane functions of the body; the cardiovascular system in particular." #NT!
+ aeltheniax_anatomy_vol_2_title: "Aeltheniax's "Anatomy", Volume II" #NT!
+ aeltheniax_anatomy_vol_2_desc: "A book on human anatomy by one of the [mayikprolollan|E]'s most renowned scholars. This is the second, and far rarer volume, with a much greater focus on the arcane aspects of the body." #NT!
+ splenderous_mirror_turned_inwards_title: "The Splendorous Mirror Turned Inwards" #NT!
+ splenderous_mirror_turned_inwards_desc: "A manuscript detailing the mysterious art of 'Internal Alchemy'. The author claims that the works of alchemist [magi|E] in the physical world can be mirrored in the internal world, with an adept capable of fundamentally transforming their personality and vices via a number of careful processes." #NT!
+ the_dancers_title: "The Dancers" #NT!
+ the_dancers_desc: "A much maligned play of Aversarian origin, its script has nontheless survived in circulation in certain esoteric circles. It is by reputation inscrutably nonsensical, and scribed by either a particularly untalented amateur or a madman. Perhaps both." #NT!
+ the_hippoxiad_title: "The Hippoxiad" #NT!
+ the_hippoxiad_desc: "An Aversarian comedic play of obscure origins, known for being able to quite literally mesmerize its audience, among other effects." #NT!
+ sound_of_veins_title: "Sound of Veins" #NT!
+ sound_of_veins_desc: "An epic and homoerotic poem of the Opakhasian tradition describing the lusts and miseries of a Vampire." #NT!
+  
+  # Fire 
+ testament_to_yunusfur_title: "Testament to Yunusfur " #NT!
+ testament_to_yunusfur_desc: "A booklet recounting the travels and martyrdom of the Sophocos-blessed prophet Yunusfur. It is said that she journeyed from one end of Sarradon to the other, teaching virtue and correct religious rites. This account is the only known reference to her existence." #NT!
+  
+  # Nature 
+ songwood_title: "The Songwood" #NT!
+ songwood_desc: "An early Marcher text compiling various song stories sung by the Clanlander tribes of Kalathipsomi. It is said they once sang to the Wood on its journey." #NT!
+ arl_janvreeps_series_title: "Arl Janvreep's Series On the World-Tree" #NT!
+ arl_janvreeps_series_desc: "A compilation of etchings and charcoal rubbings originally made by Konijkmener Magi-Explorer Arl Janvreep during his expedition to the mysterious lands of the Partic following the disappearance of the [kartharaddi|E]." #NT!
+  
+ historical_wood_law_grimoire_1_title: "Shapechanger's Codex" #NT!
+ historical_wood_law_grimoire_1_desc: "" #NT!
+  
+  # Water 
+ songs_of_the_sea_title: "Songs of the Sea" #NT!
+ songs_of_the_sea_desc: "A collection of folktales recorded among the isolated communities of the Western Isles. It focuses on the figure of the Sea Queen, who rules a majestic kingdom below the waves, and her court of long-drowned sailors.\n\n Interlaced within tales of warriors, sailors and mystics are descriptions of ancient rites known as 'Salt Songs, which can both calm and enrage the wild oceans of the West." #NT!
+ alkan_tabbot_title: "The Life of Alkan Tabot" #NT!
+ alkan_tabbot_desc: "Though the writer of this book claims to be one 'Alkan Tabot', supposedly a mariner from the days of the Second Kemsarian Kingdom, numerous apocryphal details within its pages make this extraordinarily unlikely. Instead, the true author is widely accepted to be the Sarradonian Safa Meli, who was known to have penned multiple such pseudonymous works throughout the course of her career. It follows Alkan's construction of a dolphin-shaped submersible vessel, and the many marine adventures which he and his crew embarked on." #NT!
+  
+  # Air 
+ owl_dissections_title: "Owl Dissections" #NT!
+ owl_dissections_desc: "Written by an anonymous Marcher known only as the Polymath, said to have been a Waysaint. This manuscript contains detailed anatomical diagrams of owls, cut apart in every conceivable manner. Chickenscratch diagrams of great complexity and illegibility ensure that the manuscript can only be reproduced via the magical arts." #NT!
+ musings_on_flight_patterns_title: "Musings on the Flight Patterns of Birds" #NT!
+ musings_on_flight_patterns_desc: "An Anonymous journal written in both cypher and mirror-writing, containing notes on birds, the winds and other meteorological phenomena. The text appears to have taken a lifetime’s worth of notes to complete. Its diagrams, drawn in exquisite detail, show the mechanics of flight and the properties of mysterious 'way winds'. " #NT!
+ sanasamadta_title: "Sanasamadta" #NT!
+ sanasamadta_desc: "Of Kashiryan origin, this book details the legendary lives of half a dozen historic conquerors, from the historically certain Otached to the mythical Vitruna the Bull-Slayer. It is said to have once been popular courtly poetry, but has since fallen out of popularity. Its authorship is attributed to the poet Ashkora, though the name of this ancient sage js frequently appended to anonymous works to heighten their prestige." #NT!
+  
+  # Stone 
+ stony_affair_at_viridue_title: "The Stony Affair at Viridivie" #NT!
+ stony_affair_at_viridue_desc: "One of the numerous plays detailing the adventures of renowned [magi|E]-Tektiv Thena Pyralis, the story marks Pyralis’s first foray into the kingdoms of Chevalie. She must solve the mystery of the despised [court_magi|E] of Viridivie, who was seemingly turned into stone at the Duke’s wedding. Surprisingly, it became wildly popular in the Kingdom of De Porte de Bastione, after an adaptation retooled Pyralis into a more heroic and chivalrous character." #NT!
+  
+  # Dream 
+ the_voyagers_title: "The Voyagers" #NT!
+ the_voyagers_desc: "The recorded dream journeys of the cabal of the Isochedron. Led by the Fifth-Finger Sanad adept Ishak, the Isochedrons pushed far beyond the known boundaries of astral projection, plumbing the depths of psyche and the outermost reaches of the spheres of heaven." #NT!
+ clarifications_on_the_ivory_sea_title: "Clarifications on the Ivory Sea" #NT!
+ clarifications_on_the_ivory_sea_desc: "TAn un-signed manuscript analyzing the nature of objects pulled from the dreams of the wakeless. It seems that there are rituals capable of sending someone into a never-ending slumber filled with fitful dreams. If such a dreamer has the gift of magic, sometimes the things which they dream about can slip through the cracks in their brutalized psyche and enter the waking world. Usually just objects." #NT!
+ neverending_dream_title: "The Neverending Dream" #NT!
+ neverending_dream_desc: "An Apti legend recounted by Aversarian scholars, the Neverending Dream tells of a boy trapped in his dreams." #NT!
+  
+  # Death 
+ lessons_on_oejeynican_burials_title: "Burials: A Lesson on Funerary Rites and Practices in the Late Oejeynican Period" #NT!
+ lessons_on_oejeynican_burials_desc: "In this work, Chevalien Scholars compiled what records persist of the ancient and intricate burial customs of the Ojyczaynz." #NT!
+  
+  # Ethereal 
+ kassidius_diagrams_title: "The Kassidius Diagrams" #NT!
+ kassidius_diagrams_desc: "The collected notes taken by the Aversarian Magi Kassidius, who dedicated his long career at the Mayikrata to the magical dissection of human souls in order to properly identify the metaphysical differences between nonhumans and Aversarians. His laboratory was said to have been the single largest consumer of slaves in the entire academy during its heyday." #NT!
+ lonely_spirit_title: "Book of the Lonely Spirit" #NT!
+ lonely_spirit_desc: "The diary of a reclusive Opakhasian [magi|E] known as Ververedex, who attempted to separate his soul from the fleshy confines of the body." #NT!
+ book_of_kurush_title: "Book of Kurush" #NT!
+ book_of_kurush_desc: "An account by the Amsari prophet Kurush, wherein he describes his visions of Hell." #NT!
+  
+  # Ice 
+ journal_of_waymaster_germaine_dellecroix_title: "Journal of Waymaster Germaine Dellecroix" #NT!
+ journal_of_waymaster_germaine_dellecroix_desc: "A fragmentary text detailing the life and travels of one Germaine Dellecroix as he seeks the far north of the continent. Several pages are missing at the end." #NT!
+  
+  # Dark 
+ the_lost_cities_title: "The Lost Cities" #NT!
+ the_lost_cities_desc: "Interviews collected by scholars of the Mayikprolollan from the few survivors of Shade encounters across the Shattered Coast." #NT!
+ book_of_forbidden_names_title: "Book of Forbidden Names" #NT!
+ book_of_forbidden_names_desc: "An Amsari tome of demonological lore ostensibly written with the intention of helping counter the malevolent entities it describes, but in practice used for the opposite purpose just as often as not." #NT!
+  
+  # Sand 
+  
+  
+  
+  ###################################### 
+  # HISTORICAL BOOKS - MINOR GRIMOIRES # 
+  ###################################### 
+  
+  # These books are meant to imitate (and should be indistinguishable from) those that are fully procedurally generated. The names here exists solely to 'lock in' otherwise random custom loc 
+ historical_dead_magic_grimoire_1_title: "Dead Magic: Compiled Notes of Mytica" #NT!
+  
+ feature_grimoire_material_plants: "Растения"
+ feature_grimoire_material_plants_desc: "Сделано из растений"
+  
+  ############### 
+  # BOOK TITLES # 
+  ############### 
+  
+ feature_book_title_poetry: "[Artifact.Custom('PoetryTitleFormat')]" #NT!
+ poetry_title_format_1: "[ROOT.Artifact.Custom('CollectedSynonyms')|U] [ROOT.Artifact.Custom('PoemPluralSynonyms')|U] of [ROOT.Artifact.GetCreator.GetName]" #NT!
+ poetry_title_format_2: "[ROOT.Artifact.Custom('CollectedSynonyms')|U] [ROOT.Artifact.Custom('PoemPluralSynonyms')|U] of [ROOT.Artifact.Custom('RandomEmotion')|U]" #NT!
+ poetry_title_format_3: "[ROOT.Artifact.Custom('CollectedSynonyms')|U] [ROOT.Artifact.Custom('PoemPluralSynonyms')|U] of [ROOT.Artifact.Custom('FloweryAdjective')|U] [ROOT.Artifact.Custom('RandomEmotion')|U]" #NT!
+ poetry_title_format_4: "[ROOT.Artifact.Custom('PoemPluralSynonyms')|U] of [ROOT.Artifact.Custom('FloweryAdjective')|U] [ROOT.Artifact.Custom('RandomEmotion')|U]" #NT!
+ poetry_title_format_5: "The [ROOT.Artifact.Custom('FloweryAdjective')|U] [ROOT.Artifact.Custom('PoemPluralSynonyms')|U] of [ROOT.Artifact.Custom('RandomEmotion')|U]" #NT!
+ poetry_title_format_6: "The [ROOT.Artifact.Custom('FloweryAdjective')|U] [ROOT.Artifact.Custom('PoemPluralSynonyms')|U] of [ROOT.Artifact.GetCreator.GetName]" #NT!
+  
+ feature_book_title_arcana_general: "[Artifact.Custom('ArcanaGeneralBookTitleFormat')]" #NT!
+ arcana_general_book_title_format_1: "[ROOT.Artifact.Custom('CollectedSynonyms')|U] [ROOT.Artifact.Custom('NotePluralSynonyms')|U] on [ROOT.Artifact.Custom('MagicSynonyms')|U] by [ROOT.Artifact.MakeScope.Var('author').Char.GetNameNoTooltip]" #NT!
+ arcana_general_book_title_format_2: "[ROOT.Artifact.Custom('MagicSynonyms')|U]: [ROOT.Artifact.Custom('CollectedSynonyms')|U] [ROOT.Artifact.Custom('NotePluralSynonyms')|U] by [ROOT.Artifact.MakeScope.Var('author').Char.GetNameNoTooltip]" #NT!
+ arcana_general_book_title_format_3: "[ROOT.Artifact.Custom('GrimoireSynonyms')|U] of [ROOT.Artifact.MakeScope.Var('author').Char.GetNameNoTooltip]" #NT!
+ arcana_general_book_title_format_4: "[ROOT.Artifact.Custom('NotePluralSynonyms')|U] On [ROOT.Var('namesake_knowledge_entry').Story.Custom('KnowledgeEntryName')] And Other [ROOT.Artifact.Custom('SpellsSynonyms')|U]" #NT!
+  
+ feature_book_title_arcana_magic_school: "[Artifact.Custom('ArcanaMagicSchoolBookTitleFormat')]" #NT!
+ arcana_general_magic_school_book_title_format_1: "[Localize(Concatenate(ROOT.Artifact.MakeScope.Var('magic_school').Var('unique_magic_school_identifier').GetFlagName, '_name'))]: [ROOT.Artifact.Custom('CollectedSynonyms')|U] [ROOT.Artifact.Custom('NotePluralSynonyms')|U] of [ROOT.Artifact.MakeScope.Var('author').Char.GetNameNoTooltip]" #NT!
+ arcana_general_magic_school_book_title_format_2: "The [ROOT.Artifact.Custom('FloweryAdjective')|U] [ROOT.Artifact.Custom('BookSynonyms')|U] of [Localize(Concatenate(ROOT.Artifact.MakeScope.Var('magic_school').Var('unique_magic_school_identifier').GetFlagName, '_name'))|U]" #NT!
+  
+ feature_book_title_nature_folklore: "Natural Folklore" #NT!
+  
+ feature_book_title_medical: "[Artifact.Custom('MedicalBookTitleFormat')]" #NT!
+ medical_book_title_format_1: "[ROOT.Artifact.Custom('CollectedSynonyms')|U] [ROOT.Artifact.Custom('NotePluralSynonyms')|U] on the [ROOT.Artifact.Custom('FunctioningSynonyms')|U] of the Human Body" #NT!
+ medical_book_title_format_2: "[ROOT.Artifact.Custom('CollectedSynonyms')|U] [ROOT.Artifact.Custom('NotePluralSynonyms')|U] on [ROOT.Artifact.Custom('MedicineSynonyms')|U]" #NT!
+ medical_book_title_format_3: "[ROOT.Artifact.GetCreator.GetNamePossessive] [ROOT.Artifact.Custom('BookSynonyms')|U] on [ROOT.Artifact.Custom('MedicineSynonyms')|U]" #NT!
+ medical_book_title_format_4: "The [ROOT.Artifact.Custom('FloweryAdjective')|U] [ROOT.Artifact.Custom('PhysicianSynonyms')|U]'s [ROOT.Artifact.Custom('GuidebookSynonyms')|U]" #NT!
+ medical_book_title_format_5: "[Artifact.Custom('MysteryNounPluralSynonyms')] of the [Artifact.Custom('RandomOrgan')|U]" #NT!
+ medical_book_title_format_6: "[ROOT.Artifact.Custom('FloweryAdjective')|U] [Artifact.Custom('MysteryNounPluralSynonyms')] of the [Artifact.Custom('RandomOrgan')|U]" #NT!
+ medical_book_title_format_7: "[ROOT.Artifact.Custom('GuidebookSynonyms')|U] on the [Artifact.Custom('MysteryNounPluralSynonyms')] of the [Artifact.Custom('RandomOrgan')|U]" #NT!
+ medical_book_title_format_8: "[ROOT.Artifact.Custom('PrinciplePluralSynonyms')|U] of [ROOT.Artifact.Custom('MedicineSynonyms')|U]" #NT!
+  
+  # Work type terms 
+ book_annals: "анналы"
+ book_author_known: "[ROOT.Var('author').GetCharacter.GetNameNoTooltip]"
+ book_author_pseudo: "автор, утверждающий, что он «[ROOT.Var('author').GetCharacter.GetNameNoTooltip]» - известный писатель того периода, но ученые полагают, что текст, скорее всего, псевдоэпиграфический."
+ book_author_pseudonym: "некий «[ROOT.Var('author').GetCharacter.GetFirstNameNoTooltip]» — почти наверняка псевдоним"
+ book_author_pseudonym_2: "псевдоним '[ROOT.Var('author').GetCharacter.GetFirstNameNoTooltip]'"
+ book_author_pseudonym_3: "возможно псевдоним «[ROOT.Var('author').GetCharacter.GetFirstNameNoTooltip]»"
+ book_author_pseudonym_4: "'[ROOT.Var('author').GetCharacter.GetFirstNameNoTooltip]' — почти наверняка псевдоним"
+ book_author_unknown: "неизвестный автор"
+ book_histories: "истории"
+ book_historiography: "историография"
+ book_manuscript: "рукопись"
+ book_compendium: "compendium" #NT!
+ book_codex: "кодекс"
+ book_grimoire: "grimoire" #NT!
+ book_spellbook: "spellbook" #NT!
+ book_lorebook: "lorebook" #NT!
+ book_book: "книга"
+ book_chronicle: "хроника"
+ book_poems: "poems" #NT!
+ book_verses: "verses" #NT!
+ book_songs: "songs" #NT!
+ book_rhymes: "rhymes" #NT!
+ book_notes: "notes" #NT!
+ book_remarks: "remarks" #NT!
+ book_debates: "debates" #NT!
+ book_discussions: "discussions" #NT!
+ book_guidebook: "guidebook" #NT!
+ book_guide: "guide" #NT!
+ book_companion: "companion" #NT!
+ book_manual: "manual" #NT!
+ book_instructions: "instructions" #NT!
+  
+ book_darkness_allegory_abyss: "пропасть"
+ book_darkness_allegory_abyss_possessive: "пропасть'"
+ book_darkness_allegory_darkness: "темнота"
+ book_darkness_allegory_darkness_possessive: "тьма'"
+ book_darkness_allegory_night: "ночь"
+ book_darkness_allegory_night_possessive: "ночь"
+ book_darkness_allegory_void: "пустота"
+ book_darkness_allegory_void_possessive: "пустота"
+ book_flaw_biased_author: "Автор книги очень ясно писал с исключительной степенью предвзятости, ставя под сомнение правдивость большей части информации и выводов в книге."
+ book_flaw_burned: "Вся книга обуглена, а несколько групп страниц повреждены и не читабельны."
+ book_flaw_faded: "Чернила книги в целом выцвели и их трудно читать, но местами текст вообще исчез."
+ book_flaw_incomplete: "Работа, судя по всему, так и не была закончена. Несмотря на многообещающее начало, содержание книги просто внезапно обрывается по неизвестным причинам."
+ book_flaw_ink_damaged: "Пролитие чернил повредило значительную часть книги, в результате чего большие участки стали нечитаемыми."
+ book_flaw_missing_pages: "Некоторые страницы книги отсутствуют, возможно, удалены намеренно."
+ book_flaw_none: ""
+ book_flaw_redacted: "Многие из наиболее важных страниц книги были отредактированы Майикпрололланом с помощью шифра Косейрона, зашифровав текст и сделав его нечитаемым без надлежащего ритуала. К сожалению, поскольку ритуал утерян, соответствующие главы, скорее всего, безвозвратно утеряны."
+ book_flaw_superficial: "В этой работе практически нет оригинальных исследований, большая часть из них представляет собой просто отрыгнутую и поверхностную информацию из старых источников."
+ book_flaw_water_damaged: "Вода повредила значительные части книги, в результате чего большие фрагменты стали нечитаемыми."
+ book_mayikprolollan_commentary_corroborated: "По всему тому разбросаны стандартные заметки Майикпрололана, которые в наибольшей степени подтверждают утверждения, сделанные в работе. Академия, очевидно, верила в правдивость большей части тома."
+ book_mayikprolollan_commentary_debunked: "Заметки Майикпрололана стандартной формы разбросаны по всему тому, большинство из которых пытаются опровергнуть различные утверждения, высказанные в работе. Судя по всему, в академии не совсем согласились с первоначальным посылом автора."
+ book_mayikprolollan_commentary_enigmatic: "Заметки Майикпрололана в стандартной форме разбросаны по всему тому, но большинству из них не хватает критического контекста и они относятся к концепциям и событиям, которые невозможно почерпнуть из самой работы. В академии, похоже, знали, что книга является частью какой-то более масштабной истории, но, к сожалению, отсюда невозможно вывести ее подробности."
+ book_mayikprolollan_commentary_none: ""
+ book_mayikprolollan_commentary_partly_corroborated: "Заметки Майикпрололана стандартной формы разбросаны по всему тому и содержат как подтверждения, так и опровержения утверждений работы."
+ book_mayikprolollan_relevant_artifact_note_destroyed_accident: "Хотя рассматриваемый артефакт какое-то время находился во владении академии, он, очевидно, был уничтожен в результате «несчастного случая» в XXXX. Никаких дополнительных подробностей не сообщается."
+ book_mayikprolollan_relevant_artifact_note_missing: "Хотя рассматриваемый артефакт в какой-то момент находился во владении академии, сообщается, что в какой-то момент он был утерян по неизвестным причинам."
+ book_mayikprolollan_relevant_artifact_note_not_found: "Несмотря на попытки академии найти его, рассматриваемый артефакт так и не был найден."
+ book_mayikprolollan_relevant_artifact_note_present: "Рассматриваемый артефакт также находился в распоряжении академии, по крайней мере, на момент подачи записки, и каталожный номер любезно предоставлен."
+ book_mayikprolollan_relevant_artifact_note_stolen: "Хотя рассматриваемый артефакт какое-то время находился во владении академии, он, по-видимому, был украден в XXXX."
+ book_mayikprolollan_seal_type_easy: "Магическая печать слаба и проста — ее достаточно, чтобы отговорить не-[magi|E], но ее легко сломать тем, кто имеет элементарное понимание соответствующих магических искусств."
+ book_mayikprolollan_seal_type_hard: "Магическая печать, скрепляющая этот фолиант, мощна и, вероятно, требует сложного ритуала, чтобы ее разблокировать, а также еще более мощной магии, чтобы разрушить ее."
+ book_mayikprolollan_seal_type_medium: "Магическая печать достаточно сильна, и, вероятно, потребуется [magi|E], достаточно опытный в соответствующих искусствах, чтобы сломать ее."
+ book_mayikprolollan_seal_type_very_hard: "Магическая печать, скрепляющая этот фолиант, исключительно сильна, и для того, чтобы сделать его неприступным, как крепость, не нужно прилагать никаких усилий и затрат. Что бы ни было в этой книге, академия очень хотела, чтобы это не попало в чужие глаза."
+ book_peculiarities_desc: "Книга известна"
+ book_peculiarity_illustration_1: "это Х иллюстраций"
+ book_peculiarity_illustration_2: "X-природа его иллюстрации"
+ book_peculiarity_reading_effect_1: "ощущение X, которое оно вызывает при чтении"
+ book_play_type_comedy_adjective: "комедийный"
+ book_play_type_drama_adjective: "драматический"
+ book_play_type_history_adjective: "исторический"
+ book_play_type_romance_adjective: "романтический"
+ book_play_type_satire_adjective: "сатирический"
+ book_play_type_tragedy_adjective: "трагический"
+ book_postscript_compendum: "Большая часть материала этой работы была собрана в XXXX из нескольких более старых источников, оригиналы, вероятно, относятся к X веку."
+ book_postscript_compendum_translated: "Большая часть материала этой работы была переведена и собрана в XXXX из нескольких старых источников на OLD_LANGUAGE, причем оригиналы, вероятно, относятся к X веку."
+ book_postscript_translated: "Это XXXX-перевод более старой работы на OLD_LANGUAGE, оригинал был написан на XXXX."
+ book_prophecy_tone_apocalyptic: "апокалиптический"
+ book_prophecy_tone_bizarre: "странный"
+ book_prophecy_tone_cryptic: "загадочный"
+ book_prophecy_tone_hopeful: "обнадеживающий"
+ book_prophecy_tone_sinister: "зловещий"
+ book_prophecy_tone_straightforward: "прямолинейный"
+ book_seal_descriptor_faded: "выцветший"
+ book_seal_descriptor_large: "большой"
+ book_seal_descriptor_ornate: "богато украшенный"
+ book_seal_descriptor_pristine: "нетронутый"
+ book_seal_descriptor_weathered: "выветрившийся"
+ book_tome: "мне"
+ book_tone_crazed: "мало связный и безумный, автор видимо не совсем в здравом уме"
+ book_tone_detached: "отстраненно, никаких эмоций или предвзятости со стороны автора не заметно"
+ book_tone_enthusiastic: "восторженно, автор явно весьма вник в суть дела"
+ book_untranslated_writing_medium_type_cave_inscription: "надписи на стене пещеры"
+ book_untranslated_writing_medium_type_clay_tablet: "глиняная табличка"
+ book_untranslated_writing_medium_type_clay_tablet_plural: "серия глиняных табличек"
+ book_untranslated_writing_medium_type_clay_tablet_unknown_material: "планшет из неизвестного материала"
+ book_untranslated_writing_medium_type_clay_tablet_unknown_material_plural: "серия таблеток из неизвестного материала"
+ book_untranslated_writing_medium_type_ruin_inscription: "надписи в руинах"
+ book_untranslated_writing_medium_type_runestone: "рунный камень"
+ book_untranslated_writing_medium_type_scroll: "прокрутка"
+ book_untranslated_writing_medium_type_scroll_plural: "серия свитков"
+ book_untranslated_writing_medium_type_stela: "стела"
+ book_untranslated_writing_medium_type_stela_unknown_material: "стела из неизвестного материала"
+  
+  
+ artifact_book_historical_description: "[Localize(Concatenate(newly_created_artifact.MakeScope.Var( 'historical_book' ).GetFlagName, '_desc'))] [newly_created_artifact.GetFeatureText( 'book_decoration' )]." #NT!
+ artifact_book_historical_title: "[Localize(Concatenate(newly_created_artifact.MakeScope.Var( 'historical_book' ).GetFlagName, '_title'))]" #NT!
+ artifact_book_mayikprolollan_desc_1: "[ROOT.Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] [ROOT.Artifact.MakeScope.Var('book_original_culture').Culture.GetLanguage.GetNameNoTooltip] книга [ROOT.Artifact.GetFeatureText( 'book_subject' )], в которой подробно описан [ROOT.Artifact.GetFeatureText( 'book_topic' )]. [ROOT.Artifact.Custom('RandomBookFlaw')]\n\nТекст был написан в [ROOT.Artifact.MakeScope.Var('book_original_age').GetValue|0] [ROOT.Artifact.Custom('BookAuthorship')].\n\nНа фолианте стоит печать [ROOT.Artifact.Custom('BookSealDescriptor')] [mayikprolollan|E]. [ROOT.Artifact.Custom('BookMayikprolollanCommentary')]"
+ artifact_book_mayikprolollan_desc_2: "Книга ВЕКА [ROOT.Artifact.MakeScope.Var('book_original_culture').Culture.GetLanguage.GetNameNoTooltip] из [ROOT.Artifact.GetFeatureText( 'book_subject' )], написанная [ROOT.Artifact.Custom('BookAuthorship')] и подробно описывающая [ROOT.Artifact.GetFeatureText( 'book_topic' )]. [ROOT.Artifact.Custom('RandomBookFlaw')]\n\nНа томе стоит печать [ROOT.Artifact.Custom('BookSealDescriptor')] [mayikprolollan|E]. [ROOT.Artifact.Custom('BookMayikprolollanCommentary')]"
+ artifact_book_mayikprolollan_desc_3: "Текст о [ROOT.Artifact.GetFeatureText( 'book_topic' )]. [ROOT.Artifact.Custom('RandomBookFlaw')]\n\nНа томе стоит печать [ROOT.Artifact.Custom('BookSealDescriptor')] из [mayikprolollan|E]. [ROOT.Artifact.Custom('BookMayikprolollanCommentary')]"
+ artifact_book_mayikprolollan_desc_4: "АВТОР КУЛЬТУРЫ/ПРОФЕССИИ X века описывает"
+ artifact_book_mayikprolollan_desc_5: "АВТОР, ПРОФЕССИЯ X века, написал это произведение НА ТЕМУ в ГОДУ."
+ artifact_book_mayikprolollan_desc_6: "Транскрипция/копия/компиляция АВТОРА гораздо более древнего произведения X века."
+ artifact_book_mayikprolollan_desc_relevant_artifact_1: "Книга [ROOT.Artifact.GetOwner.Custom('ArtifactArticleWealth')|U], в которой показано понимание [ROOT.Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] [ROOT.Artifact.GetFeatureText( 'book_subject' )], подробно описывающее [ROOT.Artifact.GetFeatureText( 'book_topic' )].\n\nНа фолианте стоит печать [ROOT.Artifact.Custom('BookSealDescriptor')|U] из [mayikprolollan|E], а также вставленное примечание стандартной формы об артефакте, упомянутом в книге."
+  
+  
+ feature_book_peculiarity_blood_ink: ""
+ feature_book_peculiarity_causes_decay_nearby: "Кажется, что книга создает вокруг себя ауру разложения."
+ feature_book_peculiarity_causes_time_loss: ""
+ feature_book_peculiarity_dims_lights: "Свет тускнеет, а тени углубляются рядом с книгой."
+ feature_book_peculiarity_glow_in_the_dark_ink: ""
+ feature_book_peculiarity_illustrations_alluring: "заманчивый"
+ feature_book_peculiarity_illustrations_disturbing: "очень тревожный"
+ feature_book_peculiarity_illustrations_glowing: "светящийся"
+ feature_book_peculiarity_illustrations_hypnotic: "гипнотический"
+ feature_book_peculiarity_illustrations_paradoxical: "парадоксальный"
+ feature_book_peculiarity_illustrations_shifting: "смещение"
+ feature_book_peculiarity_illustrations_vertigo: "вызывающий головокружение"
+ feature_book_peculiarity_induces_nightmares: ""
+ feature_book_peculiarity_reading_effect_cold: "холодность"
+ feature_book_peculiarity_reading_effect_hot: "нагревать"
+ feature_book_peculiarity_reading_effect_migratine: "мигрень"
+ feature_book_peculiarity_reading_effect_watched: "за тобой наблюдают"
+  
+ artifact_afynehestoree_megistos_title: "\n\n#size:20 Megistos" #NT!
+ artifact_afynehestoree_page_1: "\n\n#size:15 [aversaria|E] <- Game concepts work\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat, lacus eu mattis sagittis, velit nunc placerat velit, a pulvinar ante orci ac leo. Fusce molestie ut augue id efficitur. Donec tincidunt quis nulla vel viverra. In in tincidunt enim, in dictum elit. Quisque vulputate varius viverra. Sed quis ullamcorper magna. Sed sed risus neque. Nunc massa velit, dictum et finibus id, lobortis ac nibh. Quisque rutrum velit eu tortor rutrum, ac euismod mauris facilisis. Phasellus purus urna, congue ac [aervalr|E] vel, faucibus a mauris. Nam sem ligula, finibus ut pharetra eu, suscipit ut libero.#!#!" #NT!
+ artifact_afynehestoree_page_2: "\n\n#size:15 @megistos_picture!" #NT!
+ artifact_afynehestoree_page_3: "\n\n#size:15 Bala bla bla, jibber jibber jabber\n\nThe End" #NT!
+ artifact_afynehestoree_the_end_title: "#size:20 The End" #NT!
+ feature_book_topic_flora_and_fauna_bestiary: "фауна ОКРУГА и его окрестностей"
+ feature_book_topic_geology_magical_minerals: "различные минералы и драгоценные камни с известными магическими свойствами"
+  
+  
+  # Stone Tablets 
+  
+ feature_tablet_characteristic_large: "довольно большой"
+ feature_tablet_characteristic_huge: "огромный и тяжелый"
+ feature_tablet_characteristic_small: "довольно маленький"
+ feature_tablet_characteristic_tiny: "исключительно маленький"
+ feature_tablet_characteristic_detailed: "запутанно подробный"
+ feature_tablet_characteristic_unremarkable: "довольно ничем не примечательный"
+  
+ feature_tablet_engraving_inelligible: "его гравюры неразборчивы"
+ feature_tablet_engraving_undecipherable: "его гравюры невозможно расшифровать"
+ feature_tablet_engraving_ritual: "Считается, что его гравюры связаны с традицией или ритуалом."
+ feature_tablet_engraving_bill: "Считается, что его гравюры связаны с купчей"
+ feature_tablet_engraving_law: "Считается, что его гравюры относятся к древнему своду законов."
+ feature_tablet_engraving_kemsar: "Считается, что его гравюры содержат детали древней Кемсарской империи."
+ feature_tablet_engraving_ruler: "на его гравюрах изображена сцена правителя перед своими подданными."
+ feature_tablet_engraving_magi: "на его гравюрах изображена сцена, где [magi|E] выполняет какой-то ритуал"
+ feature_tablet_engraving_conqueror: "на его гравюрах изображен всадник верхом на лошади."
+ feature_tablet_engraving_ancient: "на его гравюрах изображено то, что некоторые считают картой Саррадона, существовавшей до [halakdun|E]."
+ feature_tablet_engraving_river: "Считается, что на его гравюрах рассказывается об ирригации реки Кемсар."
+  
+ feature_tablet_condition_mint: "находится в почти идеальном состоянии"
+ feature_tablet_condition_degraded: "деградировал с возрастом"
+ feature_tablet_condition_cracked: "имеет массивную трещину, идущую поперек передней части"
+ feature_tablet_condition_crumbling: "рассыпается от малейшего прикосновения"
+ feature_tablet_condition_broken: "разбит на две половины"
+ feature_tablet_condition_missing: "отсутствуют части гравюры из-за повреждения"
+  
+ artifact_stone_tablet_name: "$artifact_name_prefix$ Древняя Саррадонская табличка"
+ artifact_stone_tablet_description: "Каменная табличка, найденная в [sarradon|E] [SCOPE.Custom('ArtifactQuality')] мастерства. Это [newly_created_artifact.GetFeatureText( 'tablet_condition' )] и [newly_created_artifact.GetFeatureText( 'tablet_engraving' )].\n\n$artifact_stone_tablet_explanation$ $artifact_stone_tablet_age$"
+ artifact_stone_tablet_explanation: "Каменные таблички широко использовались в Древнем Саррадоне для письма, и многие из них, найденные по всему континенту, пользуются большим спросом как среди ученых, так и среди коллекционеров."
+ artifact_stone_tablet_age: "Этот образец [newly_created_artifact.GetFeatureText( 'tablet_characteristic' )], вероятно, был сделан около [owner.MakeScope.Var('tablet_age').GetValue|0]00 BI."
+  
+  
+ gh_artifact_mayikprolollan_trove_book_description: "[newly_created_artifact.Custom('MayikprolollanBookDescriptionFormat')|U]\n\n$artifact_grimoire_explanation$"
+  
+  
+ artifact_grimoire_name: "[newly_created_artifact.GetFeatureText( 'grimoire_title' )]"
+ artifact_grimoire: "Гримуар"
+ artifact_grimoire_explanation: "#positive_value Этот [artifact|E] можно изучить с помощью решения «Изучение Гримуара».#!"
+ artifact_runic_scroll: "Runic Scroll" #NT!
+  
+ runic_scroll: "Runic Scroll" #NT!
+ artifact_runic_scroll_description: "[newly_created_artifact.GetOwner.Custom('ArtifactArticleWealth')|U] scroll with a runic codification of the #V0;underline [newly_created_artifact.MakeScope.Var('namesake_knowledge_entry').Story.Custom('KnowledgeEntryName')]#! ritual [newly_created_artifact.GetOwner.Custom('ArtifactAdverbQuality')] written on it in [newly_created_artifact.GetFeatureText( 'book_ink' )]." #NT!
+ artifact_runic_scroll_name: "[newly_created_artifact.MakeScope.Var('namesake_knowledge_entry').Story.Custom('KnowledgeEntryName')] Runic Scroll" #NT!
+  
+ artifact_magical_scroll: "Magical Scroll" #NT!
+ artifact_magical_scroll_description: "[newly_created_artifact.GetOwner.Custom('ArtifactArticleWealth')|U] scroll with a written inscription of the #V0;underline [newly_created_artifact.MakeScope.Var('namesake_knowledge_entry').Story.Custom('KnowledgeEntryName')]#! ritual [newly_created_artifact.GetOwner.Custom('ArtifactAdverbQuality')] written on it in [newly_created_artifact.GetFeatureText( 'book_ink' )]." #NT!
+ artifact_magical_scroll_name: "[newly_created_artifact.MakeScope.Var('namesake_knowledge_entry').Story.Custom('KnowledgeEntryName')] Magical Scroll" #NT!
+  
+ feature_book_title_secret_histories_chronicle_1: "[Artifact.MakeScope.Var('book_origin_county').Title.GetNameNoTierNoTooltip] [Artifact.Custom('ChronicleSynonyms')|U]"
+ feature_book_title_secret_histories_chronicle_2: "[Artifact.Custom('MysteriousSynonyms')] [Artifact.Custom('ChronicleSynonyms')|U] из [Artifact.MakeScope.Var('book_origin_county').Title.GetNameNoTierNoTooltip]"
+ feature_book_title_secret_histories_chronicle_3: "АВТОРА [Artifact.Custom('MysteriousSynonyms')] [Artifact.Custom('ChronicleSynonyms')|U]"
+ feature_book_title_secret_histories_chronicle_4: "АВТОРСКАЯ Хроника/Истории/Фолиант/Рукопись/Анналы DARKNESS_ALLEGORY"
+ feature_book_title_secret_histories_chronicle: "[Artifact.Custom('SecretHistoriesChronicleTitleFormat')]"
+ feature_book_title_secret_histories_cultural_legends_1: "[Artifact.Custom('BookSynonyms')|U] из [Artifact.Custom('MysteriousSynonyms')] [ROOT.Artifact.MakeScope.Var('book_topic_culture').Culture.GetNameNoTooltip] [Artifact.Custom('MythologySynonyms')]"
+ feature_book_title_secret_histories_cultural_legends_2: "[Artifact.Custom('MysteriousSynonyms')] [Artifact.Custom('MythologySynonyms')] из [ROOT.Artifact.MakeScope.Var('book_topic_culture').Culture.GetNameNoTooltip]"
+ feature_book_title_secret_histories_cultural_legends_3: "[Artifact.Custom('BookSynonyms')|U] из [Artifact.Custom('CollectedSynonyms')] [ROOT.Artifact.MakeScope.Var('book_topic_culture').Culture.GetNameNoTooltip] [Artifact.Custom('MythologySynonyms')]"
+ feature_book_title_secret_histories_secret_society_1: "[Artifact.MakeScope.Var('book_origin_county').Title.GetNameNoTierNoTooltip] [Artifact.Custom('OrganizationSynonyms')]"
+ feature_book_title_secret_histories_secret_society_2: "[Artifact.Custom('MysteriousSynonyms')] [Artifact.Custom('RitesSynonyms')|U] из [Artifact.MakeScope.Var('book_origin_county').Title.GetNameNoTierNoTooltip] [Artifact.Custom('OrganizationSynonyms')]"
+ feature_book_title_secret_histories_secret_society_3: "[Artifact.Custom('CollectedSynonyms')] [Artifact.Custom('RitesSynonyms')|U] из [Artifact.MakeScope.Var('book_origin_county').Title.GetNameNoTierNoTooltip] [Artifact.Custom('OrganizationSynonyms')]"
+ feature_book_title_secret_histories_secret_society_4: "[Artifact.Custom('CollectedSynonyms')] [Artifact.Custom('RitesSynonyms')|U] из [Artifact.Custom('MysteriousSynonyms')] [Artifact.MakeScope.Var('book_origin_county').Title.GetNameNoTierNoTooltip] [Artifact.Custom('OrganizationSynonyms')]"
+ feature_book_title_secret_histories_secret_society_5: "[Artifact.Custom('BookSynonyms')|U] из [Artifact.MakeScope.Var('book_origin_county').Title.GetNameNoTierNoTooltip] [Artifact.Custom('OrganizationSynonyms')]"
+ feature_book_title_secret_histories_secret_society: "[Artifact.Custom('SecretHistoriesSecretSocietyTitleFormat')]"
+  
+  
+ feature_book_title_blood_magic_anatomy_2: "[Artifact.Custom('StructureSynonyms')|U] из [Artifact.Custom('BodySynonyms')|U]"
+ feature_book_title_blood_magic_anatomy_3: "[Artifact.Custom('MysteriousSynonyms')] Рассечение [Artifact.Custom('BodySynonyms')|U]"
+ feature_book_title_blood_magic_anatomy_4: "[Artifact.Custom('CollectedSynonyms')] Рассечение [Artifact.Custom('BodySynonyms')|U]"
+ feature_book_title_blood_magic_anatomy_5: "АВТОРСКАЯ Анатомия [Artifact.Custom('BodySynonyms')|U]"
+  
+ ######## OLD ARTIFACT BOOKS ######### 
+ # GH URGENT: These books need to be converted to use the proper modern code for book creation 
+  
+ ## On Womanly Knights ## 
+ feature_book_title_womanknights: "О женственных рыцарях"
+ feature_book_topic_womanknights: "Эта книга была написана ученым-шеваленом Мишоном Андре где-то в XI веке для составления множества небольших работ различных авторов его времени, в которых приводились доводы за или против концепции присвоения женщине титула рыцаря, скорее всего, из-за дублирования женщина-антиМаг Роуз ден ва Крейсаунс в начале века военачальником королем Антоном Дескрадау.\n\nХотя в истории Марчера есть много примеров женщин-воинов, конкретный рыцарский титул - это тот, который почти никогда не присваивался девушка. В то время как произведения, как правило, поддерживают сражающихся женщин, и никто не смеет пытаться опорочить имя многих героев Марчера прекрасного пола, Андре заканчивает работу утверждением, что рыцари-женщины сами по себе являются атакой на «сильные и благородные традиции», которые титул сохраняется, несмотря на неохотное признание того, что убийство леди Роуз почти сотни нежити и [aversarian|E] магов перед ее 19-й зимой было несколько впечатляющим."
+  
+ ## Raleri: The Boqqar of Knives ## 
+ feature_book_title_boqqarofknives: "Raleri: The Boqqar of Knives" #NT!
+ feature_book_topic_boqqarofknives: "First published in 853 IS, The Boqqar of Knives is a biography of one of the [boqqarut_damotada|E]'s most famed, and feared, rulers. The book covers the entirety of his publicly-known life, from his childhood in the Tabik Bētemisīt, to his sudden and unexpected ascendance to the throne, to the following decades of intrigue and secrecy, concluding with his death in 817 IS. More famously, however, is the books focus on unconfirmable theories and speculation about the unknowns of his life, addressing and even inventing rumors of his countless secret plots and many murders, stringing together the untimely demises of his rivals, and painting an incredibly believable picture of a shadowy puppetmaster pulling Damota on his strings.\n\nWhen published, the book was endorsed by Boqqar Kayoba, who sought to use its unflattering portrayal of his much-hated grandfather to distance himself from his shadow. Often considered the last great work of the [boqqarut|E], the tale told of Raleri within its pages is the narrative which history has chosen to believe." #NT!
+  
+ ## Adabyssian Report on Northern Civilization ## 
+ feature_book_title_adabyssianreport: "Адабиссский отчет о северной цивилизации"
+ feature_book_topic_adabyssianreport: "Этот буклет содержит подробный отчет о том, что, судя по всему, было адабисскими шпионами, посланными на север для изучения севера и его населения в рамках подготовки к возможному вторжению. Со ссылками на сообщения, датированные примерно 300 годами ранее Фродброкны, в отчете обычно делается вывод о том, что обитатели Саррадона и Аверсарии, скорее всего, являются дальними родственниками человечества и имеют больше общего с человекоподобными животными, чем с цивилизованными видами."
+  
+ ## From Aeladaxos to Aeliadias ## 
+ feature_book_title_aeladaxostoaeliadias: "От Эладакса до Элиадиаса"
+ feature_book_topic_aeladaxostoaeliadias: "Эта книга представляет собой широко печатное издание, подробно описывающее жизнь Автократии Элиадиаса, правившего в конце VI века. Хотя книга охватывает большую часть ее долгого правления, ее победу над драконом Артенаксом, ее огромные магические способности и ее блестящую репутацию последней компетентной Аавтократии до [chaos_of_the_seventh_century|E], более половины книги посвящено ее знаменитому происхождению. Прежде всего, в нем обсуждается довольно противоречивый момент ее жизни, когда она родилась как Эладаксос, но, не любя свое мужское положение, использовала мощную магию, чтобы обрести женственность.\n\nАвтор, маг Калатрос, проводит большую часть своего времени, критикуя противники этой концепции. Калатрос указывает, что Элиадия была аверсарианским магом и совершила свою трансформацию полностью по своей собственной силе и воле, и утверждает, что это следует отмечать как настоящий подвиг магии и самовыражения."
+  
+ ## A Fyne Hestoree od de Lunde av Cheavalee ## 
+ feature_book_title_afynehestoree: "Файн Хестори од де Лунде из Чевали"
+ feature_book_topic_afynehestoree: "Старый том на более старой версии того, что может быть современным языком [chevalien|E], или, возможно, новый том, написанный средним фермером. Будь то результат возраста или неграмотности, книга дает довольно фантастическое описание истории [chevalien|E] от [Concept('chevalie_migratory_era','the era of the Gallicader tribes')|E] до [red_river_war|E], где она внезапно заканчивается, как будто никогда и не заканчивалась."
+  
+ ## Amazing Slaves and Where to Find Them ## 
+ feature_book_title_amazingslaves: "Удивительные рабыни и где их найти"
+ feature_book_topic_amazingslaves: "Наполовину вымысел, наполовину путеводитель, эта история [aversarian|E] - это то, что происходит, когда [magi|E] пытается превратить брошюру с советами по рабству в приятную фантастическую эпопею. Длинное многостраничное описание бедер женщин [sarradonian|E] или причудливая, наполненная ненавистью четырнадцатистраничная разглагольствования о сопернике автора Деметриосе в разделе об управлении Ииросси, как правило, являются неудачными в обоих отношениях, и, как правило, являются убедительными индикаторами того, чего ожидать от этой истории. На первой странице каким-то образом отмечается, что этот конкретный экземпляр имеет номер 877 из более чем 2000."
+  
+ ## The Annals and Lineages of --------- ## 
+ feature_book_title_annalsofblank: "Анналы и родословные ---------"
+ feature_book_topic_annalsofblank: "Широко распространенное мнение, что эта книга является официальной историей правителей Картарадди, в настоящее время практически бесполезна, поскольку магические воздействия сделали ее полностью лишенной полезной информации. Его содержание варьируется в зависимости от читателя: некоторые сообщают, что оно просто заполнено пустыми страницами, другие говорят, что оно написано на языке или алфавите, совершенно им неизвестном, в то время как другая группа утверждает, что, хотя слова написаны на их родном языке, текст кажется просто искаженной чепухой без какой-либо заметной рифмы или причины, и попытка разобраться в них приводит к сильной головной боли и ощущению тошноты."
+  
+ ## A History of the Arakkariac War ## 
+ feature_book_title_arakkariacwar: "История Араккариакской войны"
+ feature_book_topic_arakkariacwar: "В отличие от большинства других работ по этой теме, этот сухой и технический том представляет собой попытку объективно проанализировать Араккариакскую войну, охватившую большую часть прото-[aversarian|E] мира с 338 по 332 гг. захватили народное воображение — для начала, что аверсарианцы Тауэрского острова были порабощены и ритуально съедены после их завоевания араккариаками в 393 году до н.э. Во-вторых, вторжение Нарамашина было совершенно неоправданным, что опровергается бесчисленными записями о провокациях Орасбаэли, Валтронакса и Тайлона в годы, предшествовавшие конфликту. Наконец, утверждение о том, что царство Араккариак осталось разрушенным и отступившим после битвы при Пейлонском холме, вместо этого изображает это как важное, но в конечном итоге относительно небольшое столкновение, которое просто доказывает невыгодность продолжающегося конфликта.\n\nКроме того, в работе утверждается что завоевание, вероятно, в любом случае было бы успешным, если бы империя не распалась в кровавой гражданской войне после того, как ее монарх умер в том же году, что и битва."
+  
+ ## A Tale of Two Cities ## 
+ feature_book_title_ataleoftwocities: "Повесть о двух городах"
+ feature_book_topic_ataleoftwocities: "Отчасти эпическое, отчасти хроническое, это произведение рассказывает о тысячелетнем легендарном соперничестве между прото-[aversarian|E] городами-государствами Валтронаксом и Андроном. Начиная с их мифического основания примерно в 900 году до нашей эры двумя разлученными братьями и сестрами, он продолжает рассказывать о легендарной (и, вероятно, сильно преувеличенной) трехсотлетней войне между ними двумя после этого, их противоположных ролях в войнах Багрово-Бирюзовых Лиг, их постоянная смена сторон во время вторжения в Араккариак, их одновременное предательство Парфенаксы в Каллейне из-за ошибочного убеждения, что она вступила в заговор друг против друга, и, наконец, их падение перед армиями Даке'нокса в 7 BI, которые заранее обманули оба в борьбе друг с другом."
+  
+ ## Aversarian Cooking Informational ## 
+ feature_book_title_aversariancookinginformational: "Информационная аверсарианская кулинария"
+ feature_book_topic_aversariancookinginformational: "Это довольно... непрактичная кулинарная книга, в которой рассказывается, как приготовить самые изысканные блюда Аверсарии. Судя по всему, написанный для знати, стоимость каждого ингредиента настолько высока, что даже Аавтократир, скорее всего, был произведен ими. Мало того, для изготовления каждого блюда требуются такие непристойные магические силы, что каждое из них потребовало бы сотен жертвоприношений. Книга лучше всего служит предметом разговора, в первую очередь о том, как аверсарианцы не уничтожили мир раньше. И уксус в свинцовых банках! Уксус в свинцовых банках!?"
+  
+ ## Book of Banned Iyrossi Poetry ## 
+ feature_book_title_bannediyrossipoetry: "Книга запрещенной поэзии Ийросси"
+ feature_book_topic_bannediyrossipoetry: "Эта книга представляет собой сборник из сотни или около того стихов, написанных различными литераторами Ийросси на протяжении тысячелетий с момента их порабощения. Подавляющее большинство стихов либо невероятно рискованны, либо пространно рассказывают об отражении [aversarian|E] крови в лунном свете. Хотя аверсарианцы строго запрещали их, именно Ийросси исторически уничтожали такие книги, опасаясь возмездия аверсарианцев всей своей культуре."
+  
+ ## Blue Robe Treatise ## 
+ feature_book_title_bluerobetreatise: "Трактат о синей мантии"
+ feature_book_topic_bluerobetreatise: "Эта книга представляет собой копию оригинального 37-страничного трактата, написанного магистром Веларасом «Мрачным оратором» Крейшати в начале Восстания Синих Мантий. Здесь он объявил о прямом отказе Майикпрололана Айроноиакаана проводить дальнейшие исследования [selfreplicating_blood_magic|E], заявив, что ни одному [aversarian|E] [magi|E] не будет приказывать, как собаке, даже по указанию мелкой автократии.\n\nВ трактате далее говорилось, что впредь , академия заявляет о нейтралитете в [imperial_civil_war|E] и призывает всех граждан Аверсария противостоять любым попыткам вытеснить их из их крепости. Говорят, что трактат, а также действия так называемых Синих Одеяний привели Аксиаотею в такую ​​ярость, что она разрушила шестивековые кварталы Лаватикас в своем поместье в Азиуполи и приказала четырем легионам атаковать Айроноиакаан. , тем самым начав военные действия всерьез."
+  
+ ## Book of Maps ## 
+ feature_book_title_bookofmaps: "Книга карт"
+ feature_book_topic_bookofmaps: "На этом томе гордо отмечен знак Аверсаринас Эноси Картографтекон, или Аверсаринского Союза картографов. Аверсианские учёные — единственные в мире (помимо, возможно, адабиссийцев), кто, как известно, проявил интерес к созданию по-настоящему точных карт мира, используя сочетание науки и магии, чтобы найти точную форму и размер каждого массива суши. . Однако традиционно территория Автократа изображается гораздо большей, чем она есть на самом деле."
+  
+ ## Thysian Book of Remedies ## 
+ feature_book_title_bookofremedies: "Тизианская книга лекарств"
+ feature_book_topic_bookofremedies: "Эта книга представляет собой список лекарств и средств от различных болезней и недугов, как распространенных, так и малоизвестных, при этом для лечения используются как лучшие доступные ингредиенты, так и местные ингредиенты, чтобы гарантировать, что даже крестьянство получит пользу от ее знаний. Несмотря на то, что книга в целом пользуется уважением и до сих пор широко распространяется среди целителей, в книге уделяется противоречивое количество времени, требуя от читателя «мыть руки, которые исцеляют, чистейшей водой и спиртом», что является шагом к большинству методов лечения, которые большинство современных читателей рассматривают как не более чем время. церемония траты. В другой главе, которую часто удаляют из-за того, что она не стоит затрат на печать, говорится о болезнях, которые на самом деле распространяются маленькими злыми существами, невидимыми человеческими глазами, что регулярно рассматривается как приступ фантазии по сравнению с научно доказанным существованием юмора."
+  
+ ## Book of the Fallen ## 
+ feature_book_title_bookofthefallen: "Книга Падших"
+ feature_book_topic_bookofthefallen: "Книга представляет собой список всех имен, высеченных на стенах Горнила, главной крепости на границе [chevalie|E] и [lichdoms|E]. Товарищи павших [antimagi|E] и солдаты, отдавшие свои жизни в этом месте, обычно выгравируют свои имена на стене, иногда с несколькими короткими словами о них, и во многих произведениях поэзии или литературы Марчера стена подробно или подробно обсуждается. используйте его как метафорический прием. Однако в этом буклете, объемом около 200 страниц, это избегается, чтобы просто подробно описать каждое имя и любые другие предложения, связанные с ним. Хотя эта книга не имеет особой ценности для обычного читателя, простое замечание на ее страницах является весьма отрезвляющим опытом."
+  
+ ## Burnt Grimoire ## 
+ feature_book_title_burntgrimoire: "Сгоревший гримуар"
+ feature_book_topic_burntgrimoire: "Эта книга сильно потрепалась, ее края обожжены, а десятки страниц отсутствуют (либо вырваны, либо сожжены). Тем не менее, вся сила, которой он когда-то обладал, все еще заметна, и он излучает удивительное количество магической энергии для такого уродливого сосуда."
+  
+ ## Personal Journal of Calysto 'Wave-Rider' ## 
+ feature_book_title_calystojournal: "Личный дневник Калисто 'Наездника на волнах'"
+ feature_book_topic_calystojournal: "Этот обветренный буклет представляет собой немногим больше нескольких десятков грязных страниц, запечатанных в потрескавшийся кожаный переплет. Со словами «Калисто Кейн», написанными резкими буквами на первой странице, это, похоже, личный дневник Святого Агиониста и (забытого большинством) печально известного пирата Калисто.\n\nВ журнале мало времени на личные сочинения или философию, и Структура предложений и написание большей части из них позволяют предположить, что святой Калисто либо обладал какими-то препятствиями, либо стал грамотным только в конце своей жизни. Журнал действительно содержит множество диаграмм, графиков, размышлений и идей. Все они демонстрируют признаки мастера и изобретательного моряка, способного разрабатывать улучшения для своих собственных кораблей, но на них также есть несколько списков различных загонов для рабов и рынков по всей Аверсарии со списками лучших моментов для нападения и маршрутов доставки рабов в безопасные убежища. . В конце книги даже перечислены различные [aversarian|E] дворян и магистратов, названные известными сторонниками рабства, которое должно быть «уничтожено»."
+  
+ ## A Chevalien Knight in Oraispol, 1262 ## 
+ feature_book_title_chevalienknightinoraispol: "Рыцарь-кавалер в Орайполе, 1262 г."
+ feature_book_topic_chevalienknightinoraispol: "Рыцарь-шевальен в Орайполе, 1262 год, представляет собой фэнтезийный рассказ шевальского ученого Мите Хриде, в котором он представляет марширующего рыцаря по имени Мадуэкс ден ва Крисай в [GetTitleByKey('c_oraispol').GetNameNoTier], когда Шялволки завоевывают Аверсарию вокруг него. Мадуэкс исключительно искусен в обращении с клинком, острый на язык и остроумие, стойкий сердцем и преданный своему Пути, он сражается со злыми [aversarian|E] магами и военачальниками, прежде чем присоединиться к Сялволки, чтобы помочь им в их битвах. Вскоре Мадуэкс поднимается по служебной лестнице, становится величайшим товарищем самого Разрушителя ведьм, а затем обращает его на Путь Жизни и становится своим Путеводителем.\n\nСамая популярная из работ Мите, идея представить историю, которая не является Оно оказалось достаточно новым, чтобы можно было игнорировать очевидные... странности в повествовании, и с тех пор его воспроизведение стало популярным среди трубадоров. Его популярность оказалась настолько велика, что несколько Путешественников даже попытались путешествовать вместе с Сялволки и обратить их самих, но с неоднозначными результатами."
+  
+ ## The Chivalric Code ## 
+ feature_book_title_chivalriccode: "Рыцарский кодекс"
+ feature_book_topic_chivalriccode: "Рыцарский кодекс — это трактат о том, как должен вести себя настоящий рыцарь-кавалер в повседневной жизни. В книге целая четверть страниц посвящена тому, как сражаться и обращаться с другими с честью, роли крестьянства в обществе, мудрым знаниям о защите слабых и победе над нежитью, а остальные 300 страниц посвящены подробному описанию прибыльных зарубежных рынков, предложениям по ведению переговоров. выплаты наемникам, известные иностранные боевые стили и способы уничтожения их практикующих."
+  
+ ## A Clockwork City ## 
+ feature_book_title_clockworkcity: "Заводной город"
+ feature_book_topic_clockworkcity: "Описания почти утопичны, поскольку говорят о счастливом, преданном населении, работающем в унисон во славу своего государя. Конечно, эта картина резко контрастирует со всем, что даже непредвзятые ученые могли бы сказать об условиях жизни в Империуме, что заставляет многих отвергать книгу как не что иное, как пропагандистскую статью, написанную Климентом с целью снискать расположение своего покровителя.\n\nИз Однако гораздо больший интерес для обычного читателя представляют довольно увлекательные страницы, рассказывающие о самом городе - впечатляющем мегаполисе из мрамора и латуни, с часовыми автоматами, казалось бы, интегрированными во все аспекты жизни. Достоверность этих частей книги никогда не подвергалась сомнению, поскольку Картарадди были широко известны своим мастерством обращения с часовыми механизмами.\n\nЛюбопытно, что, хотя может показаться, что в книге первоначально несколько раз упоминалось название города, оно на самом деле невозможно прочитать эти конкретные слова. В зависимости от читателя это либо просто пустые пробелы в тексте, либо искажены до неузнаваемости."
+  
+ ## Compiled Works of Abaël Venodau ## 
+ feature_book_title_compiledworksofvenodau: "Сборник сочинений Абаэля Венодау"
+ feature_book_topic_compiledworksofvenodau: "Эта книга представляет собой сборник самых популярных пьес, сказок, стихов и трактатов, написанных эксцентричным писателем 9 века Абаэлем Венодау. Самыми известными из них являются одиннадцать сатирических и романтических стихотворений, которые создали концепцию единой идентичности Шевальена и Братства Шевалье."
+  
+ ## The Danger of a Thousand Stars ## 
+ feature_book_title_dangerofathousandstars: "Опасность тысячи звезд"
+ feature_book_topic_dangerofathousandstars: "Эта книга неизвестного автора на первый взгляд кажется не чем иным, как книгой безумных бредней и эзотерических теорий заговора о древних богах и жестоких инопланетных хозяевах. Несмотря на это, многие последователи Забытого Святого утверждают, что книга на самом деле была написана Их рукой, и многие последователи всегда носят с собой копию, полагая, что Забытый Святой был всевидящим существом."
+  
+ ## The World's Edge ## 
+ feature_book_title_edgeoftheworld: "Край света"
+ feature_book_topic_edgeoftheworld: "Тайлонакс, возможно, самый легендарный корсар за всю историю [aversarian|E], предположительно раскрасил побережья мира в красный цвет две тысячи лет назад, прежде чем отобрать архипелаг Рантус у его туземцев и основать там свой одноименный город. Хотя мифы, окружающие его бесчисленные приключения, почти наверняка представляют собой смесь различных историй, накопившихся за огромный промежуток времени между его предполагаемым правлением и их составлением, а само его существование опирается в лучшем случае на сомнительные доказательства, фантастические истории оставались популярными на протяжении всей истории."
+  
+ ## The Eosian Sword Charter ## 
+ feature_book_title_eosianswordcharter: "Хартия Эозийского Меча"
+ feature_book_topic_eosianswordcharter: "Эосианская хартия меча предположительно представляет собой книгу самого Святого Эоса о фехтовании и о том, как действовать во время боя. Книга охватывает множество техник, начиная от странных и иностранных, вдохновленных далекими уголками мира, куда сам Эос путешествовал в качестве наемника, до справедливого и уважительного обращения с врагами и союзниками. В отличие от многих современных руководств по ведению войны из Аверсарии, Хартия Эосийского Меча уделяет особое внимание уважению, милосердию и защите слабых как «праведным» способам прожить свою жизнь и достичь совершенства как воина и как олицетворение храбрости."
+  
+ ## Expedition to the Northern Source: A Report ## 
+ feature_book_title_expeditiontothenorth: "Экспедиция к Северному источнику: отчет"
+ feature_book_topic_expeditiontothenorth: "Подробный отчет об экспедиции 983 года Аверсаринас Эноси Картеграфтекон к истоку Северных Путей. Это одна из трех известных крупных попыток совершить этот подвиг, она примечательна тем, что является единственной, записи о которой все еще сохранились: запись 1101 года бесследно исчезла, а записи об экспедиции 531 года Картарадди превратились в пепел. с разрушением Империума.\n\nХотя все началось с большим оптимизмом, команда магов и исследователей быстро столкнулась с растущими трудностями, враждебным и мрачным ландшафтом, ростом уровня фоновой магии и болезнями, вызванными воздействием. В конечном итоге команда была вынуждена повернуть назад за несколько сотен лиг до своей цели, заметив, что с их места не видно ни одной башни, и пришла к выводу, что источник может быть зарытым или иметь принципиально иную природу, чем Морская башня, но определенно недоступен. .\n\nК сожалению, к тому времени, как группа повернулась назад, несколько членов экспедиции сошли с ума и вместо этого двинулись навстречу своей почти неизбежной гибели."
+  
+ ## Fifty Shades of Blood ## 
+ feature_book_title_fiftyshades: "Пятьдесят оттенков крови"
+ feature_book_topic_fiftyshades: "Этот аверсианский любовный роман одновременно популярен и широко запрещен в приличном обществе. Подробно описывая волнующий роман между доминирующим аверсарианским магом и его скромным рабом, книга содержит мучительные подробности о методах его романа и непристойных кожаных приспособлениях, которые он в нем использует. Многие считают его плохо написанным и отвратительным, но, тем не менее, похоже, что он продается в непристойных количествах."
+  
+ ## The Four [lodges|E] ## 
+ feature_book_title_fourlodges: "Четверо [lodges|E]"
+ feature_book_topic_fourlodges: "Написанная в конце 1100-х годов дамотским ученым, известным исключительно как Меха, книга «Четыре [lodges|E]» представляет собой историю основных социальных организаций, определяющих дамотскую жизнь. Основная часть книги посвящена подробному исследованию событий, которые постепенно превратили [rayakuux_orders|E] в специализированные социальные группы, которыми они являются сегодня. От их основания в 572 ИС под руководством Боккара Датеша из [olani_dynasty|E] до их последующей роли во Втором [tetenik|E], Меха исследует их первоначальные функции и процедуры, а также то, как именно они впервые оказались втянутыми в политику как на местном, так и на региональном уровне. Затем текст сосредотачивается на местном масштабе, с постепенным отходом отдельных глав от первоначальной миссии, а их официальное разделение в 682 IS описывается как простое подтверждение. Затем он прослеживает их роль в период упадка [boqqarut|E], когда их полномочия росли за счет государства, и объясняет, как ко времени Третьего [tetenik|E] несколько крупных [lodges|E] фактически перестали подчиняться всем, кроме самых прямых приказов. По мнению Меха, [zalreb_dynasty|E] практически не имел значения, а [etami_tetenik|E] во многом стал результатом эрозии централизованной власти, интерпретация, которая в лучшем случае рассматривается как спорная, хотя в целом работа пользуется большим уважением."
+  
+ ## A Response to 'The Fraternity of Magi' ## 
+ feature_book_title_fraternityofmagi: "Ответ на «Братство Магов»"
+ feature_book_topic_fraternityofmagi: "Эта книга представляет собой ответ за предложением на серию трактатов, написанных аверсарским магом Нотоксом Оэманидом под названием «Братство магов», серию все более безумных эссе, предполагающих формирование истинной магократии в Аверсарии, в которой все маги живут одинаково, независимо от религия и культура.\n\nКнига, написанная одним из многочисленных критиков Оманаида, содержит довольно резкий комментарий, как и большинство отзывов на публикацию. Прежде всего, в книге подробно описана нелепость идеи о том, что Аверсария еще не является Братством Магов. Автор указывает на то, что только аверсарианцы являются людьми, и только маги истинно люди, и что все люди Аавтократов имеют самый высокий уровень жизни и наибольшее количество прав в известном мире. Автор заканчивает книгу, предполагая, что Оэманаид симпатизирует своим рабам, и предлагает казнить их за свои убеждения."
+  
+ ## Personal Dictations of Chernivmala Cheskovara ## 
+ feature_book_title_godslaverdictations: "Персональные диктанты Черновмалы Ческовары"
+ feature_book_topic_godslaverdictations: "Этот том представляет собой шевальскую копию найденных «личных диктовок» Картарадди [lich|E] Черновмалы «Богопоработительницы» Ческовары. Достигнув Личства в 7 веке после путешествия на север и побега от своего народа, Ческовара впоследствии стала одним из многих «второстепенных Личей» Личдома, которые проводили большую часть своего времени, пытаясь создать некрополь и вести мелкие территориальные войны с соседними Личами без когда-либо накапливая достаточно силы, чтобы организовать полноценное вторжение на юг.\n\nЭти мемуары, вероятно, были написаны несколькими слугами-нежитью, которые, судя по нескольким страницам, заполненным проклятиями и гневными опровержениями их «безмозглого идиотизма», были воскрешены только для того, чтобы постоянно следовать за Черновмалой и запишите ее слова. На двенадцатой странице из более чем двух тысяч (хотя половина из них давно утеряна и забыта из-за того, что большинство ученых считают это письмо «некачественным») Лич заявляет, что это потому, что «Мои славные слова однажды станут прекрасными священными текстами». ! Люди будут поклоняться мне как божеству, как только я свергну их жалких богов! У них должно быть свое писание! Мои слова не будут потеряны для истории!"\n\nТекст был восстановлен антиМагом сэром Крено ден Ви, который рискнул на север с рыцарским отрядом [peti_gisreddean|E] «Спутников Подмигивающей Розы» и напал на Ческовару в ее крепости «Вечный Свет». Хотя они, конечно, позаботились о том, чтобы история звучала достаточно эпически, техническое прочтение их отчетов и перекрестные ссылки на различные отчеты дают понять, что Ческовара, по-видимому, уже была на грани смерти, когда они ее нашли, и ее армия в основном была разбита. уничтожен ранее, как упоминалось в нескольких отрывках."
+  
+ ## Griffon Bestiary ## 
+ feature_book_title_griffonbestiary: "Бестиарий Грифона"
+ feature_book_topic_griffonbestiary: "Этот бестиарий представляет собой описание различных пород шевальен-грифонов и рекомендации по их лучшему разведению и дрессировке. Когда-то считавшийся необходимостью для многих потенциальных наездников на грифонах, сегодня он считается более достойным историческим произведением, в котором несколько ныне вымерших пород подробно описаны с очень хорошо нарисованными изображениями и диаграммами."
+  
+ ## Grimoire of Methinoire Methiclyz ## 
+ feature_book_title_grimoireofmethinoire: "Гримуар Метинуара Метиклиза"
+ feature_book_topic_grimoireofmethinoire: "Гримуар Метинуара Метиклиза был захвачен рыцарем Марша Гаоффом ден ва Спенсером во время легендарного рейда на Крепость Кровавой Скорби. Стремясь освободить пленников из недавнего набега и отомстить за своего брата Терина, Гаофф и его банда Анти-Маги убили Метинуара и уничтожили его армию нежити во время битвы в тронном зале личей. Гримуар был доставлен обратно на юг и, согласно легендам, продан правящему Аутократиру за такую ​​сумму, что экономика Шевалье вскоре рухнула, подавленная избытком золота и серебра."
+  
+ ## How The End Began ## 
+ feature_book_title_howtheendbegan: "Как начался конец"
+ feature_book_topic_howtheendbegan: "То, что начинается как обыденный военный журнал XXVI Легиона, быстро превращается в хаотичную совокупность заметок, карт и отчетов, начиная с 1202 года. Хотя безумный почерк и аннотации едва различимы, это один из самых ясных взглядов на происхождение и самые ранние наблюдения. [fog|E].\n\nСначала речь идет о внезапном появлении большого количества до сих пор неизвестных племенных народов из внутренних районов континента, затем анализируются причудливые и запутанные сообщения пленников и, наконец, первые наблюдения самого явления в 1203 году. Автор, предположительно Легон, освещает свои попытки предупредить правительство в [GetTitleByKey('c_oraispol').GetNameNoTier] о надвигающейся угрозе, но в лучшем случае получает молчание, а в худшем - откровенные насмешки и обвинения в измене.\n\nОкончательный отчет датирован. до 1221 года, писатель, по-видимому, был смертельно ранен во время битвы с ранее не вступавшими в контакт племенами, идущими на север с какой-то неизвестной целью. В самом последнем отрывке записана клятва, данная всеми присутствующими, больше не служить прихотям какого-либо мелкого автократира, а интересам всего человечества, и что единственным врагом, которого они должны знать отныне, будет не человек, а развращающие объятия Тумана. сам."
+  
+ ## How to Maim a Dragon ## 
+ feature_book_title_howtomaimadragon: "Как покалечить дракона"
+ feature_book_topic_howtomaimadragon: "Аверсианское руководство о том, как лучше всего убить дракона. Это горячо обсуждаемая тема, была ли книга написана до или после вторжения дракона Артенакса. По их мнению, это различие будет определять, является ли руководство точным руководством, вдохновленным убийством, или фантастическим взглядом на мальчика, убивающего своего домашнего дракона."
+  
+ ## How to Read a Book ## 
+ feature_book_title_howtoreadabook: "Как читать книгу"
+ feature_book_topic_howtoreadabook: "Короткий рассказ, предназначенный для того, чтобы научить крестьян Марчера читать и писать. Этот экземпляр является одним из сотен, созданных по приказу лорда Кавина Шевона, который хотел провести великие реформы для улучшения жизни крестьянства, но также считается человеком, не понимающим правления. Похоже, что Шеваун осознал свою ошибку вскоре после создания последней книги, поскольку он внезапно завершил программу и потребовал сжечь все копии книги."
+  
+ ## The Hundred Trials of Saint Sansia ## 
+ feature_book_title_hundredtrials: "Сотня испытаний Святой Сансии"
+ feature_book_topic_hundredtrials: "«Сотня испытаний святой Сансии» — это полубиографический художественный роман, рассказывающий о жизни святой Сансии-агионистки, от ее рождения до принесения в жертву на Стенде мучеников. Каждая глава вращается вокруг определенного периода ее жизни и одного из многих легендарных испытаний, с которыми она сталкивалась на каждом этапе своего трудного пути от сироты к святой. Хотя многие из финальных сообщений кажутся совершенно противоречащими современным верованиям агионистов, в каждом финале также есть раздел, написанный автором, который согласовывает его с доктриной агионистов, объясняя, что текст является строго метафорическим."
+  
+ ## The Imperial Civil War: Beginning to End ## 
+ feature_book_title_imperialcivilwar: "Имперская гражданская война: от начала до конца"
+ feature_book_topic_imperialcivilwar: "В этой книге рассказывается об Аверсарианской гражданской войне, которая произошла между Аутократиром Эшрасом и Аутократией Аксиаотеей в течение последних двух десятилетий 1100-х годов. Книга, а не очередной фантастический пересказ, на самом деле представляет собой крайне сухой список биографий, карт и свидетельств очевидцев, призванный служить учебным пособием для будущих поколений."
+  
+ ## An Official Inquiry into the Matters of the Fog ## 
+ feature_book_title_inquiryintothefog: "Официальное расследование по поводу тумана"
+ feature_book_topic_inquiryintothefog: "После того, как в 1235 году работа Мастера Прокопиона была незаметно занесена в черный список, [mayikrata|E] начал еще одно исследование природы [fog|E], на этот раз гораздо более серьезное. В отличие от предыдущего издания, оно никогда не пытается отрицать или даже преуменьшать свое существование, и хотя тон изо всех сил старается оставаться холодным и академичным, между строк есть неоспоримые намеки на безотлагательность.\n\nВ буклете сообщается, что все попытки магов, посланных в Великую Аверсарию остановить Туман, потерпели полную неудачу, и исследования его природы и происхождения дали мало информации. Кроме того, он подтверждает ранее непроверенные сообщения о обитающих внутри племенах людей, но отмечает, что все попытки общения встречались враждебно и что единственный живой пленник, который практически постоянно пытался покончить жизнь самоубийством, пока ему это не удавалось, не говорил ни на одном языке, известном ученым. или варварские переводчики. \n\nНаконец, он затрагивает слухи о недавно появившейся третьей школе магии, связанной с Туманом и используемой племенными магами, но не делает здесь однозначного суждения, утверждая, что текущие доказательства в лучшем случае неубедительны."
+  
+ ## The Life of Jacot den va Waldisse ## 
+ feature_book_title_jacotwaldisse: "Жизнь Жако ден ва Вальдиссе"
+ feature_book_topic_jacotwaldisse: "«Жизнь Жако ден ва Вальдиссе» - относительно короткая книга, в которой обсуждается жизнь Марша [antimagi|E] Жако ден ва Вальдиссе, начиная со скромного начала, когда он был сыном мельника в нищей деревне, до их отказа принять попытки своего господина ограничить их выбор пути и поспешного побега. в Горнило, чтобы присоединиться к Орденам и на Пути Обнуления, до его сражения и смерти во время Войны на Красной Реке. Книга, рассказанная современником, товарищем и лучшим другом Жако сэром Майклом Вавасски, считается классикой поэзии и товарищества Марчера. Потеря и печаль Вавасского по поводу ужасной смерти Жако от рук Архилича Сайласа Ставро - Жако отдал свою жизнь, чтобы отвлечь Лича от нескольких раненых (включая Вавасского) - очевидны в каждом предложении и строфе стихов, добавленных к каждую главу разбить на части.\n\nСовременные ученые предполагают, что у Жако и Вавасского были гораздо более близкие отношения, чем дружба, хотя это остается весьма спорным."
+  
+ ## The Lost Polis ## 
+ feature_book_title_lostpolis: "Потерянный Полис"
+ feature_book_topic_lostpolis: "Анализ одной из величайших загадок ранней истории [aversarian|E] — полного исчезновения гегемонистского города-государства Кадмейбаэль где-то в середине II века BI. Последняя известная запись, в которой упоминается город, датируется 179 годом до н. э. и не отмечает никаких признаков упадка или бедствия, но после этого ранее крупный полис просто исчезает из всех записей, навсегда.\n\nНазвание поселения не упоминается снова, пока в далеком прошлом Третий век, когда Диоклея Качузе первым обратил внимание на причудливую историческую аномалию. С тех пор были выдвинуты многочисленные объяснения - магическая катастрофа, последствия особо могущественной Гедеоры, а также и более приземленные причины - например, намеренное стирание из памяти живущего после проигрыша войны против одного из его многочисленных соперников.\ n\nВ любом случае, его местонахождение остается неизвестным по сей день, что подпитывает мифы о том, что затерянный город является домом для богатств и власти, превосходящих человеческое воображение."
+  
+ ## Love and Death in Asiupoli ## 
+ feature_book_title_loveanddeathinasiupoli: "Любовь и смерть в Асиуполисе"
+ feature_book_topic_loveanddeathinasiupoli: "«Любовь и смерть в [GetTitleByKey('c_asiupoli').GetNameNoTier]» — это аверсианская серия рассказов о сомневающемся бывшем легионере из города [GetTitleByKey('c_asiupoli').GetNameNoTier], работающем наемником. Нанятый прекрасной Магой для поиска убийцы своего мужа, крутой легионер путешествует по опасной паутине городских преступных кланов, а также со своими внутренними демонами."
+  
+ ## Marchers: What do WE Know? ## 
+ feature_book_title_marcherswhatdoweknow: "Участники марша: что МЫ знаем?"
+ feature_book_topic_marcherswhatdoweknow: "Эта книга является творением аверсарианца Легона Партаноса, который более тридцати лет доказывал необходимость вторжения в Шевалье. Участники марша: «Что мы знаем» рассматривает предполагаемые причины его аргументов, от использования шевальеном антимагических боевых искусств в качестве доказательства того, что они существа из ада, и до того, почему мужественность их женщины сделала бы их рабами для плохих удовольствий."
+  
+ ## The Fields of Pearls and Pits Full of Gold ## 
+ feature_book_title_masenmalik: "Поля жемчуга и ямы, полные золота"
+ feature_book_topic_masenmalik: "Мас'ен Малик был плодовитым писателем, жившим в золотой век правления ритуалистов над [sarradon|E]. Эта эклектичная тридцатипятитомная работа — его самая известная и широко читаемая работа. Хотя сериал претендует на роль истории, неортодоксальный стиль Мас'ена Малика приводит к созданию произведения, полного причудливых историй, удивительно точных исторических описаний, сокровищницы классической южной поэзии и десятков – а возможно, сотен – ритуалов Мертвой магии, скрытых в закодированный язык на протяжении всей книги. Естественно, точно скопированные версии этой работы весьма ценны. Как ни странно, Мас'ен Малик сам не был магом. Ведущие теории заключаются в том, что анонимный «благодетель», которого он благодарит в нескольких местах своей статьи, возможно, стоял за сложным шифром, который все еще разблокируется почти тысячу лет спустя."
+  
+ ## The Eternal Lord ## 
+ feature_book_title_mawtalmunininguide: "Вечный Господь"
+ feature_book_topic_mawtalmunininguide: "Этот мрачный фолиант, часто считающийся основополагающим текстом секты ритуалистов Мавталмунинин, утверждает, что сама Смерть — единственная истинная сила на Эрасе. Ни один другой бог никогда не был так известен людям мира, как смерть, и хотя любой может сомневаться в существовании божества, только безумец может усомниться в существовании смерти. Хотя самоубийство не является явным требованием — мавталмунинцы еще не придумали, как распространить свое спасительное послание из загробного мира, — книга действительно призывает жить, не заботясь о своем дальнейшем благополучии."
+  
+ ## The Mighty Magi and the Buxom Maiden: XXI ## 
+ feature_book_title_mightmagibuxommaiden: "Могучие Маги и пышногрудая дева: XXI"
+ feature_book_topic_mightmagibuxommaiden: "Этот популярный аверсианский роман — один из многих в продолжительной серии аверсианских любовных романов. Эта история, которую в других уголках мира обычно считают нелепой, включает в себя дразнящие, а иногда и непристойные подробности о кипящей страсти между исключительно мускулистым и мужественным магом с обнаженной грудью и исключительно большой грудью наивной и девственной принцессой, которая падает в его объятия. Почти все, кто читает и осуждает его, считают его отвратительным и написанным на детском уровне, и большинство из них принадлежат ему."
+  
+ ## The Sound of the Air ## 
+ feature_book_title_nameofthewindknockoff: "Звук воздуха"
+ feature_book_topic_nameofthewindknockoff: "«Шум воздуха» — это аверсианский роман и приключенческий рассказ, который был довольно популярен до Фродброкны. Подробно описывая восхождение Аутократира Эшрейа и изображая его как самого талантливого юношу в истории Аверсарии, книга уделяет большое внимание его восхождению в [mayikrata|E], а также соперничеству и роману с его великой коллегой Аксиаотеей. Несмотря на большую популярность и быстрое продолжение, сериал так и не получил третьей книги после «Фродброкны и конца света»."
+  
+ ## Treatise on the Nature of Matter ## 
+ feature_book_title_natureofmatter: "Трактат о природе материи"
+ feature_book_topic_natureofmatter: "Редкая коллекция сохранившихся работ Хаси'аекса, загадочного философа, математика и мага Б.И. Аспомнокса четвертого века. Родом из Высбаэля, его неортодоксальная школа мысли проповедовала противоречивую догму, которая в конечном итоге привела к его бегству в соседний Аспомнокс, чьи либеральные правители были более довольны тем, что ему разрешили мирно преподавать свою доктрину. Сегодня его больше всего помнят за его роль в основании самой ранней известной академии Мертвой Магии [aversarian|E], и Аспомнокс продолжит оставаться единственным крупным протоаверсарианским городом-государством, который в основном использует именно ее, а не Живую Магию, до конца своего существования. свою независимую историю."
+  
+ ## Ninety-Six Tasks of Nauci'axa ## 
+ feature_book_title_ninetysixtasks: "Девяносто шесть задач Науси'аксы"
+ feature_book_topic_ninetysixtasks: "Красивое, цветистое стихотворение, пересказывающее легендарные девяносто шесть задач, предпринятых безымянным героем, который искал руки полубогини Навкиаксы в браке на далекой заре времен, прежде чем предположительно основать семью - и город Науципакс (современная Наупирна). ), с ней. В разных моментах это произведение, радостное, душераздирающее, мрачное, а местами совершенно причудливое и, казалось бы, несвязное, широко превозносится как одна из жемчужин [aversarian|E] литературы. Примечательно, что многие из описанных здесь задач на самом деле являются ритуалами силы, используемыми Магами по сей день."
+  
+ ## On the Origin of Mankind ## 
+ feature_book_title_ontheoriginofmankind: "О происхождении человечества"
+ feature_book_topic_ontheoriginofmankind: "В этой книге освещаются постоянно продолжающиеся горячие споры о том, произошли ли аверсарианцы с Палитаке или Тауэрского острова, или, по крайней мере, о статусе дебатов, когда работа была выпущена Архаилогикосом Сокониасом в 1125 году. Хотя в ней делается попытка занять умеренный подход. и предоставляет аргументы в пользу обеих позиций, проницательный ученый может ясно почувствовать пропалитакианскую предвзятость."
+  
+ ## Parthenaxiada ## 
+ feature_book_title_parthenaxiada: "Парфенаксиада"
+ feature_book_topic_parthenaxiada: "Биография военачальника и волшебницы начала первого века BI Парфенаксы и хроника четырех войн, которые впоследствии будут носить ее имя. После краткого описания ее относительно неясного происхождения, действие начинается всерьез с ее переворота в Фанаре в 91 г. до н. э., ее последующего завоевания большей части острова Тауэр в последовавших за этим первой и второй партенактических войнах, ее вторжения в Палитаке в 79 г. до н. э. в-третьих, ее поражение при Каллане четыре года спустя и изгнание, ее чудесное и блестящее возвращение к власти в 73 BI и, наконец, окончательное поражение и самоубийство на реке Эмис в 68 BI.\n\nХотя ее попытка объединить враждующие прото-§ _0 сойдет на нет, два десятилетия неустанных войн и хаоса станут эффективным гвоздем в гроб и без того приходящей в упадок системы городов-государств и заложат основу для собственного объединения Даке'нокса."
+  
+ ## The Pillars of Aversaria ## 
+ feature_book_title_pillarsofaversaria: "Столпы Аверсарии"
+ feature_book_topic_pillarsofaversaria: "Этот толстый том, широко известный как один из наиболее полных обзоров истории прото-[aversarian|E], представляет собой сборник хроник того, что на момент его написания в начале IV века считалось одиннадцатью величайшими городами-государствами Аверсариана. древность - Орасбаэль ([GetTitleByKey('c_oraispol').GetNameNoTier]), Тилион (Тилосс), Валтронакс (Ватасс), Андрон (Андрин), Фелакс (Фануриас), Кадмейбаэль (современное местоположение неизвестно), Гортильон (Гортиллай), Науципакс (Наупирна), Фанара (Фанара), Аспомнокс (Аспомнос) и Высбаэль (Бизарополь)."
+  
+ ## On Earning a Pure Body - Fifth Edition ## 
+ feature_book_title_purebodyfifth: "О обретении чистого тела – пятое издание"
+ feature_book_topic_purebodyfifth: "«О обретении чистого тела» — одна из десятков книг, написанных агионистом святым Катаритом. Сосредоточив внимание на том, как усовершенствовать свое тело и что на самом деле означает обладать чистой кровью и чистым телом, многие предложения в книге, похоже, прямо противоречат большинству канонов Агионистов.\n\nРедактирования, созданные в различных изданиях, были реконтекстуализированы и полностью переписал несколько стихов, пытаясь перевести их на современный разговорный язык, объяснив, что доктринальные конфликты были просто плохими переводами или неправильным пониманием текста, а также объяснив, что, будучи самым плодовитым из Святых-агионистов, Катарит неизбежно имел некоторые незначительные противоречия. ."
+  
+ ## On Earning a Pure Body - First Edition ## 
+ feature_book_title_purebodyfirst: "О обретении чистого тела – первое издание"
+ feature_book_topic_purebodyfirst: "«О обретении чистого тела» — одна из десятков книг, написанных агионистом святым Катаритом. Сосредоточив внимание на том, как усовершенствовать свое тело и что на самом деле означает обладать чистой кровью и чистым телом, многие предложения в книге, похоже, прямо противоречат большей части канонов Агионистов.\n\nЭто первое издание является чрезвычайно редким и часто уничтожаемым. копия, написанная собственноручно святого, ясно дает понять, насколько его собственные взгляды отличаются от современной интерпретации. В одном из наиболее примечательных стихов говорится: «Не нам судить тех, чьи тела рождены слабее, меньше, искривлены или совершенны. О чистоте тела судят не по его строению или форме, а по его строению или форме. судить по заботе и любви, с которой оно представлено и изготовлено. Самая красивая из куртизанок может содержать в себе самые жестокие и нечистые сердца, а уродливый раб все же может оставаться более чистым, чем даже самый могущественный из лордов-Магов»."
+  
+ ## On Living a Pure Life - Fifth Edition ## 
+ feature_book_title_purelifefifth: "О чистой жизни - пятое издание"
+ feature_book_topic_purelifefifth: "«О чистой жизни» — одна из десятков книг, написанных агионистом святым Катаритом. Сосредоточив внимание на том, как прожить свою жизнь в полной мере и как действовать и относиться к другим, чтобы получить от нее наибольшее удовольствие, многие предложения в книге, кажется, прямо противоречат большей части канона Агионистов.\n\nРедактирования, внесенные в различные издания. реконтекстуализировали и полностью переписали несколько стихов, пытаясь перевести их на современный язык, объясняя, что доктринальные конфликты были просто плохими переводами или неправильным пониманием текста, а также объясняя, что, будучи самым плодовитым из святых-агионистов, Катарит неизбежно должен был некоторые незначительные противоречия."
+  
+ ## On Living a Pure Life - First Edition ## 
+ feature_book_title_purelifefirst: "О чистой жизни - первое издание"
+ feature_book_topic_purelifefirst: "«О чистой жизни» — одна из десятков книг, написанных агионистом святым Катаритом. Сосредоточив внимание на том, как прожить свою жизнь в полной мере и как действовать и относиться к другим, чтобы получить от нее наибольшее удовольствие, многие предложения в книге, кажется, прямо противоречат большей части канонов агионистов.\n\nЭто первое издание является чрезвычайно редким. и часто уничтожаемая копия, написанная собственноручно святого, ясно давая понять, насколько его собственные взгляды отличаются от современной интерпретации. В одном из наиболее примечательных стихов говорится: «И да будет известно, что сердце Чистейшей жизни держится так: В Доброте, Сострадании и Любви. Любите своих друзей и семью, и своего соседа, и всех, кого вы встречаете, ибо только любовь спасет твою душу»."
+  
+ ## On Creating a Pure Mind - Fifth Edition ## 
+ feature_book_title_puremindfifth: "О создании чистого разума - пятое издание"
+ feature_book_topic_puremindfifth: "«О сотворении чистого разума» — одна из десятков книг, написанных агионистом святым Катаритом. Сосредоточив внимание на том, как тренировать свой разум, чтобы он был свободен от нечистоты, такой как ненависть и сомнения, и сохранял позитивный взгляд на жизнь, многие предложения в книге, похоже, прямо противоречат большей части канонов Агионистов.\n\nРедактирования, созданные за время различные издания реконтекстуализировали и полностью переписали несколько стихов, пытаясь перевести их на современный язык, объясняя, что доктринальные конфликты были просто плохими переводами или неправильным пониманием текста, а также объясняя, как, будучи самым плодовитым из Святых-агионистов, Катаритос неизбежно имеют некоторые незначительные противоречия."
+  
+ ## On Creating a Pure Mind - First Edition ## 
+ feature_book_title_puremindfirst: "О создании чистого разума - первое издание"
+ feature_book_topic_puremindfirst: "«О сотворении чистого разума» — одна из десятков книг, написанных агионистом святым Катаритом. Сосредоточив внимание на том, как тренировать свой разум, чтобы он был свободен от нечистоты, такой как ненависть и сомнения, и сохранял позитивный взгляд на жизнь, многие предложения в книге, похоже, прямо противоречат большей части канонов агионистов.\n\nЭто первое издание представляет собой чрезвычайно редкий и часто уничтожаемый экземпляр, написанный собственноручно святого, ясно дающий понять, насколько его собственные взгляды отличаются от современной интерпретации. В одном из наиболее примечательных стихов говорится: «Сосредоточить свой разум — это не значит попасть в лапы магии или избавиться от всех мыслей о сострадании и доброте. Это значит оставаться открытым для новых идей, с энтузиазмом знакомиться с зарубежными путями». и сохранять чистоту мысли, чтобы воспринимать странные и неприятные взгляды и обнаруживать человека, который их высказывает»."
+  
+ ## Adventure in the Redlands ## 
+ feature_book_title_redlandsadventure: "Приключение в Красные землие"
+ feature_book_topic_redlandsadventure: "Эта книга была опубликована в начале 1100-х годов IS возможно вымышленным авантюристом, известным как Лексенир, и утверждает, что подробно описывает его путешествие по Редлендам на юге Айрони. Он рисует яркую картину загадочных культов, бродящих по пустошам, похищающих невинных для использования в таинственных и зловещих ритуалах для достижения темных целей. В нем рассказывается о встречах Лексенира с не менее чем 11 различными культами, каждый из которых обладал своими странными и жестокими традициями. Эти традиции, которые варьируются от ритуального каннибализма до человеческих жертвоприношений и питья крови поселенцев Редраннера, описаны в мучительных подробностях, как и его героизм в спасении людей от такой ужасной участи. Жителей Красные землиа описывают так, что они кажутся нечеловеческими, утверждая, что днем ​​они прячутся из-за смертоносного солнечного света.\n\nКнига сопровождается серией рисунков, которые, по утверждению Лексанира, являются традиционными. Искусство Редлендеров, состоящее из сложных узоров фигур, расположенных в сложных узорах, которые своими изогнутыми, спиралевидными линиями напоминают великих монстров. Книга была встречена неоднозначно, и многие утверждали, что Лексенир и его история — выдумка. Тем не менее, он дает тем, кто живет по всей обширной Империи, почувствовать вкус таинственных Редлендов."
+  
+ ## A Refutation of the Phantasmal Mist ## 
+ feature_book_title_refutation: "Опровержение призрачного тумана"
+ feature_book_topic_refutation: "Официальное расследование [mayikrata|E] недавно появившегося [fog|E], написанное в 1211 году неким Мастером Прокопионом. Сказать, что к этому вопросу относятся легкомысленно, было бы преуменьшением: тон больше похож на шутку, чем на академический текст.\n\nОсновная часть работы состоит из поэтапного опровержения все более неистовых просьб о поддержке со стороны Легон Иолианос из XXVI Легиона «Эксодианец», посланный как самому [GetTitleByKey('e_mayikprolollan').GetNameNoTier], так и эсхреистской администрации [GetTitleByKey('c_oraispol').GetNameNoTier]. Основными аргументами Прокопиона против существования Тумана являются ненадежность свидетелей племени, внутренняя абсурдность магического явления, явно не связанного ни со школами Живых, ни со школами Мертвых, способность приписывать многие из наблюдаемых странных событий более мирским причинам и Предполагаемые симпатии Иолианоса к аксиаотеастам. Идея позволить варварским племенам мигрировать в Аверсарию воспринимается с особой насмешкой.\n\nИзлишне говорить, что работа не устарела, и [GetTitleByKey('e_mayikprolollan').GetNameNoTier] тихо отрекся от нее и Мастера Прокопиона через несколько десятилетий после ее публикации."
+  
+ ## Rending the Chains by Saint Calysto ## 
+ feature_book_title_rendingthechains: "Разрыв цепей, Святой Калисто"
+ feature_book_topic_rendingthechains: "«Разрыв цепей» — это серия эссе, предположительно написанных Святым Калисто, покровителем Агионистского Ордена Ключа Святого Калисто. В книге в первую очередь обсуждается, как лучше всего освободить нуждающихся, в первую очередь путем насильственного порабощения их, а затем заставляя их работать до смерти в служении истинно верующим, чтобы они могли перевоплотиться в следующей жизни как истинно верующие, которые затем смогут отправиться в позитивная загробная жизнь после смерти. Хотя Орден Калисто часто считает эту книгу евангелием, многие ученые полагают, что на самом деле эта книга была написана через несколько десятилетий после его смерти писателями-неагионистами."
+  
+ ## Rule of Many ## 
+ feature_book_title_ruleofmany: "Правило многих"
+ feature_book_topic_ruleofmany: "Анализ и восхваление любопытной политической системы прото-[aversarian|E] полиса Наупирна, написанный местным аристократом, известным как Клейстанакс, вероятно, в конце первого века BI. Многовековое правление династии Эстраексов подошло к концу в 421 BI, когда последний монарх города, злобный, безумный и, вероятно, людоед Диокса'некс Младший, был свергнут в результате кровавого переворота, в результате которого погибла вся его семья. Не имея возможности определиться с преемником, граждане вместо этого решили выбрать правителя из своих рядов, собрав всех магов и предложив каждому проголосовать за то, кто должен занять трон. Таким образом была избрана Элиакса'чеа, великий реформатор и первая, носившая титул Арконира.\n\nПосле успешного 17-летнего правления, вместо того, чтобы передать трон своему старшему ребенку, как это было бы нормой, она решила вместо этого отозвать трон маги города снова выбрали преемника - и так родилась 400-летняя традиция."
+  
+ ## Saint Dikaynos' Lawbook ## 
+ feature_book_title_saintslawbook: "Книга законов Святого Дикайноса"
+ feature_book_topic_saintslawbook: "Эта книга представляет собой сборник судебных заседаний, на которых присутствовал агионист святой Дикайнос, или законы, созданные им в то время, когда он был юристом. В отличие от большинства юристов [aversarian|E], Дикайнос всегда настаивал на том, что закон должен соблюдаться независимо от его положения, расы или убеждений, и обычно прилагал огромные усилия, чтобы гарантировать, что он не был посвящен в имена, пол или родословную того, кем бы он ни был. пытающийся. Хотя многие дела были исключены из протокола или подвергнуты цензуре, они, тем не менее, служат убедительным руководством для следования дикайнситскому методу справедливого закона и присяжных."
+  
+ ## 1001 Sarradonian Steps ## 
+ feature_book_title_sarradoniansteps: "1001 Саррадонская ступенька"
+ feature_book_topic_sarradoniansteps: "«1001 Саррадонский шаг» — это серия историй, каждая из которых происходит с точки зрения члена другой секты ритуалистов. Несмотря на то, что книга является глубоким культурным символом для ритуалистов и обычно считается одной из высоких оценок саррадонской литературы, она, тем не менее, была прискорбно устаревшей в течение десятилетий после ее публикации, многие из сект, упомянутых в книге, либо вымерли, либо канули в безвестность, либо раскололись на части. какой-то доктринальный спор, слитый с другой сектой или замененный совершенно новыми ветвями религии"
+  
+ ## Silas Stavro - Alive or Dead!? ## 
+ feature_book_title_silastavroaliveordead: "Силас Ставро - Жив или мертв!?"
+ feature_book_topic_silastavroaliveordead: "Силас Ставро - Жив или мертв!? представляет собой серию книг и политических брошюр о Шевальене, написанных Абаэлем Венодо, все более эксцентричным ученым-шевальеном, ближе к концу его жизни. Сериал и по сей день остается весьма спорным из-за очевидной поддержки ставристских верований; в нем утверждается, что Архилич Силас Ставро на самом деле не был убит во время вторжения в Марки и поражения от рук [champion_of_chevalie|E], но на самом деле жив и регулярно навещает автора, чтобы насладиться чаем и подискутировать о романтической литературе. Противники утверждают, что это хороший пример того, как Венодау сошел с ума, а сторонники утверждают, что это фантастическая метафорическая пьеса."
+  
+ ## Book of Sjalvolki Poetry ## 
+ feature_book_title_sjalvolkipoetry: "Книга поэзии Шялволки"
+ feature_book_topic_sjalvolkipoetry: "Книга стихов шялволки, написанная шевальским ученым Мите Хриде как часть его серии книг, подробно описывающих его путешествия с народами шялволки во время их вторжений в Аверсарию, каждая глава представляет собой сборник стихов разных племен. В отличие от поэзии большинства западных культур, поэзия Шялволки имеет тенденцию принимать форму поэзии поля боя (или, как Шялволки полюбили корабли, поэзии парусного спорта) и имеет тенденцию быть довольно анархической по структуре и прозе. Тем не менее, многие стихи остаются подстрекательскими или опровергают часто игнорируемую заботу многих военачальников Сялволки, особенно выделяются несколько стихотворений самого Ценвара-Разрушителя Ведьм, особенно удивительно меланхоличное стихотворение, написанное на поле Елисейского перевала."
+  
+ ## Skull of the Purest ## 
+ feature_book_title_skull_of_the_purest: "Череп чистейшего"
+ feature_book_topic_skull_of_the_purest: "Компендиум 9-го века и комментарий к серии ныне утерянных свитков, написанный тебастринским священнослужителем 4-го века Виасом Валоном. В рассматриваемых свитках зафиксированы видения, засвидетельствованные с помощью «Черепа Чистейшего», загадочного артефакта неизвестного происхождения, судьбы или даже подтвержденного существования.\n\nСами видения часто едва связны, а их предмет чаще всего (где есть вообще различимый субъект) акты крайней жестокости и безграничной развращенности, совершенные расой, которую Виас называет «Первыми людьми» из агиократианского мифа. По всей книге также разбросаны комментарии и анализ неизвестного автора сборника 9-го века, чаще всего с богословской точки зрения.\n\nНезависимо от правдивости видений, в тексте присутствует глубоко тревожащее качество, и некоторые из более зловещие главы считаются трудными для прочтения даже целиком. Компилятор 9-го века во многих местах намекает на существование дополнительных свитков Виаса Валона, но они не были включены в том по неизвестным причинам."
+  
+ ## The Tale of Sir Koeveux ## 
+ feature_book_title_taleofsirkoeveux: "Сказка о сэре Кёво"
+ feature_book_topic_taleofsirkoeveux: "«Сказка о сэре Кёво» — это новеллизация старой легенды Марчера о старом сэре Кёво, который в старости настолько заблудился, что каким-то образом оказался к северу от Личдомов. Сказки рассказывают о сэре Куво, сражающемся с бессмертной Ледяной Королевой, ее зловещими канцлерами и рыцарями-Магами, а также злой группой инопланетян с черной как смоль кожей. Это милая сказка, которую обычно рассказывают детям, потому что она такая смешная."
+  
+ ## The Dragon and the Scorpion ## 
+ feature_book_title_thedragonandthescorpion: "Дракон и Скорпион"
+ feature_book_topic_thedragonandthescorpion: "Эпический пересказ попытки завоевания прото-[aversarian|E] мира Саррадонской Араккарайской империей в конце 4-го века до нашей эры. История, хотя и впечатляет, не делает ни малейшей попытки объективности. Главный вражеский генерал, Нарамашин ад Хадур, разрушитель Науципакса, сжигатель Орасбаэля и мясник Артексиса, особенно размазан до абсурда. Между тем, деяния защитников Аверсарианства преувеличены и могут соперничать с действиями самих Первых Людей."
+  
+ ## The Kardwen: What We Know ## 
+ feature_book_title_thekardwenwhatweknow: "Кардвен: что мы знаем"
+ feature_book_topic_thekardwenwhatweknow: "Этот отчет был написан Леганом Кромусом Рексом о его встречах со странной Кардвен. Этот отчет, который раньше считался просто выдумкой суеверных Шялволков, стал первым официальным признанием народа любой формой имперской власти. Он начинается с описания прибытия в лагерь [aversarian|E] странного человека, одетого в плащ из сшитых вороньих крыльев и использующего лосиный рог в качестве трости. Затем он поднял из своей рукоятки отрубленную голову солдата, который исчез всего за неделю до этого. Увидев в этом некую угрозу, Кромус сразил человека на месте. На самом деле это был всего лишь жест примирения: Кардвен часто обменивала головы павших, чтобы их души могли войти в загробную жизнь. Этот поступок высвободит гнев ранее неизвестного Кардвена и приведет к катастрофическому поражению XXIII Легио.\n\nПосланный к Аавтократиру в разгар этого конфликта, Кромус изображает душераздирающие сцены на границе. Обглоданные до костей тела, свисающие с каждого дерева, и люди, просто исчезающие во сне, были обычными темами. Однако, пожалуй, больше всего тревожит сам язык самих Кардвен, который напоминает ветер, дующий сквозь деревья, и никогда не превышает громкости шепота, даже когда они просят о пощаде."
+  
+ ## A Tragedy in Oejeynica ## 
+ feature_book_title_tragedyinoejeynica: "Трагедия в Оейнице"
+ feature_book_topic_tragedyinoejeynica: "Эта серия эссе, написанная смешанной аверсарианской и шевальеанской группой ученых, представляет собой обширный анализ того, какие именно решения и события сошлись вместе, чтобы привести к Скорби Оджейники и возвышению Личдомов. Хотя книга, возможно, слишком подробная и сухая, она все же содержит некоторые идеи о магии и о том, как предотвратить некоторые из ее худших эксцессов."
+  
+ ## The Travels of Saint Katharitos ## 
+ feature_book_title_travelsofsaintkatharitos: "Путешествие святого Катарита"
+ feature_book_topic_travelsofsaintkatharitos: "Эта книга представляет собой предполагаемую автобиографию святого Катарита, основанную на различных рассказах о его путешествиях по Аверсарии, [chevalie|E] и [sarradon|E]. В различных частях книга болезненна, глубока и душераздирающая, и ее обычно считают плодотворной работой Катаритоса. Широко переиздаваемая, она считается одной из величайших сказок современного тиража, а пьесы, основанные на ней, широко популярны во всем известном мире."
+  
+ ## The Treatise of Good Practice ## 
+ feature_book_title_treatiseofgoodpractice: "Трактат о хорошей практике"
+ feature_book_topic_treatiseofgoodpractice: "Этот трактат является путеводителем, устанавливающим общепринятые стандарты образования Магов в Аверсарии в соответствии с системой обучения [mayikrata|E]. Первоначально написанный вместе с «Пактом согласия» после Хаоса седьмого века, с тех пор он претерпел около 400 официальных изменений со стороны [mayikrata|E] за прошедшие годы и служит невероятно подробным руководством по науке магии и лучшим практикам в учениях. это."
+  
+ ## When Aervalr Bled ## 
+ feature_book_title_whenaervalbleed: "Когда Аэрвалр истекал кровью"
+ feature_book_topic_whenaervalbleed: "Написанная в 773 году отставным Магом и ветераном Карфараддских войн Периаксисом Лейсистратом, книга представляет собой анализ печально известных событий ночи [night_of_the_bleeding_moon_date|E], свидетелем которых сам был автор. В составе легиона, отправленного глубоко на территорию Картарадди во время катастрофы, он описывает быструю смерть и предшествовавшую ей мучительную агонию почти всего Империума в душераздирающих подробностях, с которыми практически не сравнится никакая другая работа.\n\nОн также описывает чтобы поставить под сомнение утверждения о том, что автократия сама стала причиной нападения. За два десятилетия, прошедшие после той ночи, несмотря на поиск информации у бесчисленных магов и высших армейских руководителей, он так и не обнаружил никого, кто заранее знал бы о том, что произойдет в тот роковой день - фактически, все силы Аверсарии были казалось бы, застигнутый врасплох. Вместо этого Периаксис утверждает, что произошедшее на самом деле было попыткой массированной магической атаки на саму Империю и что катаклизм на самом деле был предназначен для Этепезеи, но провалился по неизвестным причинам."
+  
+ ## The Witch-Breaker, Hero of Heroes! ## 
+ feature_book_title_witchbreakerhero: "Сокрушитель Ведьм, Герой Героев!"
+ feature_book_topic_witchbreakerhero: "Эта книга, написанная ученым-шевальеном Мите Хриде во время его долгих путешествий с шялволками в попытке узнать больше об их культуре, служит биографией Ценвар Сокрушитель Ведьм для современных читателей Marcher. В предисловии утверждается, что вся информация была предоставлена ​​самим Разрушителем Ведьм вместе с его современниками и следует за ним из легендарного Довакинга, в котором он в одиночку победил всех противников (включая своего собственного брата), не убив ни одного человека, чтобы заявить права на свое племя. битва у Елисейского перевала, где Хридад закончил свое путешествие вместе с Шялвольками.\n\nВосхваляя почти каждый возможный момент и содержащий несколько историй, которые, казалось бы, являются полной фантазией, Мите заходит так далеко, что даже добавляет главу о том, как велика правителем, который, по его мнению, будет Ценвар, и фантазировать о том, каково было бы иметь его своим личным другом. Обычно высмеиваемый за подобные вещи, он, тем не менее, получил признание ученых как наиболее примечательная современная попытка задокументировать жизнь легендарной фигуры."
+  
+ ## A Lilac Grove by Karthyn Delenel ## 
+ feature_book_title_delenelbook: "Сиреневая роща, Картин Деленель"
+ feature_book_topic_delenelbook: "Эта работа представляет собой первый набросок серии романтических стихов, написанных легендарно жестоким [aversarian|E] военачальником Легоном [karthyn_delenel|E] из Легио XIV «Кузнецы Цепи». Эта работа, известная своей ужасной жестокостью, наставничеством аверсарского военачальника Горасса и преданностью Аутократиру Эшрейу (широко известному как «Повелитель пепла»), похоже, продолжалась где-то примерно в то время, когда он был смертельно ранен Леганом Исацеей из Легио. XXI «Аксиаофея» и его последняя казнь его учеником Горасосом.\n\nХотя «Сиреневая роща» часто написана грубо и наполнена многочисленными орфографическими и грамматическими ошибками, если бы кто-то прочитал ее, не зная ее автора, он, скорее всего, нашел бы ее. исключительно нежная и душевная серия сказок с виртуозным умением контролировать эмоции посредством прозы. Многим читателям, несомненно, будет трудно не заплакать, поскольку юная девушка, которая является главной героиней многих произведений, борется со своим чувством неуверенности в себе и открытий, особенно когда она влюбляется в свою лучшую подругу, Магу Анафеаму. Читателей также приведет в ярость последнее стихотворение, отмеченное как предпоследнее, где Ядиакса (главный герой) решает умолять Анафеаму бежать с ней, поскольку их деревню поглощает [fog|E]... только для того, чтобы произведения закончились. там [karthyn_delenel|E], вероятно, был убит, не успев закончить работу."
+  
+ ## Dethediaxian Codex ## 
+ feature_book_title_dethediaxiancodex: "Детедиаксианский кодекс"
+ feature_book_topic_dethediaxiancodex: "Этот кодекс содержит большую часть Детедиаксианского Закона, руководящего набора законов и мандатов, которые в значительной степени регулировали обращение с Ийросси после их завоевания в 200 году Ис. Аутократиром Фанагораксом и Леганом Детедиаксом. Хотя сейчас он явно устарел, тем не менее, он представляет собой шедевр в области права и управления и считается одним из величайших мировых достижений в области управления."
+  
+ ## Personal Notes of Legan Dethediax ## 
+ feature_book_title_dethediaxnotes: "Личные заметки Легана Детедиакса"
+ feature_book_topic_dethediaxnotes: "Этот набор свитков служил личными записями Леган Детедиакс во время ее завоевания и правления долиной Ийросси. Хотя большая часть этого текста связана с созданием и теоретизированием ее «Детедиаксианского закона», который впоследствии будет управлять долиной, многие другие разделы посвящены повседневной жизни, управлению ее легионами и борьбе с тогдашним Аавтократиром Фанагораксом.\n\nХотя в этих текстах ничего не указано. Детедиакс, как-то сомневающийся в деле [aversarian|E], тем не менее проявляет немалое сочувствие к ииророссам и особенно большую ненависть к самому Фанагораксу. Некоторые отрывки доходят до того, что Аавтократира называют «блестящим идиотом», который «находился в большей опасности положить конец нашему правлению в долине, чем Ийросси». Особенно интересный отрывок описывает несколько небольших восстаний, которые Детедиакс был вынужден вести переговоры или тайно подавить, чтобы избежать идиотского ответа из [GetTitleByKey('c_oraispol').GetNameNoTier], ставящего под сомнение общую концепцию 1000 лет рабства Ииросси. Еще более интересным является краткое упоминание о «детях Потаклея», которых Детедиакс, очевидно, тайно увез в горы, чтобы подавить вокруг них довольно крупномасштабное восстание."
+  
+ ## The Dragon Tale ## 
+ feature_book_title_dragon_tale: "Сказка о драконе"
+ feature_book_topic_dragon_tale: "«Сказка о драконах» — это знаменитая история [war_of_the_thousand_dragons|E], написанная ученым [aversarian|E] Дексоном Дивантаксом. Точно описывая гражданскую войну между злым Даксикеном и добрым Летигано, а также драконами-ворами, которые крадут силу [magic|E] у добра [aversarians|E] и присоединяются к Даксикену в попытке уничтожить память о Чистейшем. Хотя история войны в целом считается чрезвычайно точной и хорошо исследованной, хотя и слегка драматизированной, некоторые критики отмечают, что автор (несмотря на то, что он утверждал, что написал ее во время войны) на самом деле является псевдонимом Давона Даваонтера, который жил несколько лет назад. Спустя 500 лет после событий повести."
+  
+ ## The Journal of Seekers ## 
+ feature_book_title_journalofseekers: "Журнал Искателей"
+ feature_book_topic_journalofseekers: "«Журнал Искателей» — это не отдельный журнал, а скорее сборник различных примечательных отрывков, собранных Моговаи во время их путешествий в отдаленные уголки мира. Новое издание выпускается каждые 50 лет, причем основным источником журналов является библиотека Ироти Дамотада, где хранятся собрания сочинений всех, кто путешествовал на север. Эта конкретная версия была впервые составлена ​​в 1239 году и содержит рассказы о широкомасштабных опустошениях, последовавших за [frodbrokna|E]. Большая часть посвящена продолжающейся кровопролитной борьбе между агионистами и варденитами, с несколькими свидетельствами очевидцев крупных сражений и даже интервью с варденитом Мамуром о ситуации, в котором он излагает методический подход. Это интервью контрастирует с горем другого путешественника, рассказывающего о нескольких своих околосмертных переживаниях, когда он скрывался от Ордена Слепого Наблюдателя. Кроме того, в нем рассказывается о дворах различных военачальников [aversarian|E], например, в записях путешественника, который присутствовал в составе XXI Легио «Аксиаотея» во время их кампании против Эшраеса, человека, который разрушил их империю. «Шевальены» касаются почти всего оставшегося содержания тома и представляют собой историю приключения одинокого человека с компанией наемников в Бейд-Фалухе."
+  
+ ## The Kam-Gutaran ## 
+ feature_book_title_kam_gutaran: "Кам-Гутаран"
+ feature_book_topic_kam_gutaran: "Древняя книга, переписанная с еще более древнего свитка, предположительно написанного на основе рассказов племен айяр около 2000 лет назад, «Кам-Гуатаран» описывает в замысловатых деталях сотню различных профессий, стремясь побудить людей овладеть своей профессией. Хотя многие советы по индивидуальной карьере устарели, общие жизненные советы удивительно эффективны и чрезвычайно проницательны."
+  
+ ## The Last Hippogriff ## 
+ feature_book_title_lasthippogriff: "Последний гиппогриф"
+ feature_book_topic_lasthippogriff: "«Последний гиппогриф» — это трагическая серия сочинений ученого из Марчера Абаэля Венодау, в которых подробно описывается его изучение и дружба с гиппогрифом Кетти, который, как полагают, был последним представителем своего вида. В книге рассматривается родословная Кетти и кратко описывается история гиппогрифов от их первого открытия каваленом до их исчезновения из-за чрезмерного использования в Марчер-Аверсианских войнах."
+  
+ ## Ragambald Manswel's Bestiarium ## 
+ feature_book_title_manswelbestiarium: "Бестиарий Рагамбальда Мансвела"
+ feature_book_topic_manswelbestiarium: "Рагамбальд Мансвел был чрезвычайно много путешествовавшим искателем приключений из Марша, который якобы доплыл на восток до границ Катун Кая. По возвращении в [chevalie|E] Рагамбальд приступил к кропотливому процессу перевода своих многочисленных дневников и зарисовок в письменную форму. Содержащиеся в нем отчеты представляют собой беспрецедентный и удивительно точный путеводитель по разнообразной фауне, магической и иной, которая обитает в отдаленных регионах [aeras|E]. Биография Рагамбальда, предположительно записанная в отдельном томе, к сожалению, почти полностью потеряна для истории, но, судя по его сохранившимся работам, он должен был быть замечательным и хорошо образованным человеком. Некоторые даже предположили, что Мансвел мог быть псевдонимом, но это, как и все остальное в жизни Мансвела, вызывает серьезные споры среди литераторов Chevalien."

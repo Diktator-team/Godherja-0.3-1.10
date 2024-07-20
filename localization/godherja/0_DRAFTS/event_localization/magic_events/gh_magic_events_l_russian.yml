@@ -1,456 +1,509 @@
 ﻿l_russian:
- magic.0001.t: "Ритуал выполнен"  #Машинный перевод 28.10.23!
- magic.0001.t.backfire_generic: "Опасности магии"  #Машинный перевод 28.10.23!
- magic.0001.t.ritual_sacrifice: "Тайная жертва"  #Машинный перевод 28.10.23!
- magic.0001.t.divination: "Послание из будущего"  #Машинный перевод 28.10.23!
- magic.0001.desc: "Сходим [Localize(SCOPE.GetFlagName('spell_location'))] и начинаем приготовления. Ритуальные линии, нацарапанные мелом, разбросаны по полу, их разрозненные линии скручиваются, соединяясь в вершинах, их углы соответствуют усовершенствованной нумерологии, раскинувшейся передо мной. Скрюченные ученики сбиваются в кучу, усердно работая над завершением Замковых рун, их запыленные мантии потрепаны на коленях и локтях, где часы самоотверженного труда наконец-то начали сказываться на их облачениях.\n\nКак только последние приготовления будут закончены, начинается настоящая работа. Помощник осторожно вручает мне [selected_spell_scope.Custom('RandomSpellTool')] и [selected_spell_scope.Custom('RandomSpellIngredient')], необходимые для процесса, и я начинаю. Через некоторое время ритуал наконец завершается."  #Машинный перевод 28.10.23!
- magic.0001.a: "Отличный."  #Машинный перевод 28.10.23!
+  ############################ 
+  # !!! FORMATTING NOTES !!! # 
+  ############################ 
   
-  # Ritual Desc Snippets 
- magic.0001.desc.ritual_sacrifice: "[selected_spell_scope.Custom('SacrificeDescription')]"  #Машинный перевод 28.10.23!
- magic.0001.desc.generate_magic: "Когда ритуал достигает своей кульминации, [selected_spell_scope.Custom('GenerateMagicDescription')]"  #Машинный перевод 28.10.23!
- magic.0001.desc.divination: "[selected_spell_scope.Custom('DivinationIntro')] Я принялся за работу, читая знаки, ища предательское переплетение судьбы в почти непостижимом клубке хаоса. [selected_spell_scope.Custom('DivinationInterpretation')] эти знаки указывают на переменчивый замысел судьбы Эраса; и там, в центре всего этого, мое место в великой работе."  #Машинный перевод 28.10.23!
+  # When putting a \n\n into a loc snippet, it should always be at the START of a string, never at the end! 
+  # Always put a whitespace at the end of a loc snippet that's going to have more loc afterwards! 
   
-  # Ritual Backfire Desc Snippets 
- magic.0001.desc.backfire_generic: "Энергии, находящиеся вне моего контроля, бушуют по всему ритуальному залу. И ученики, и члены клики сбиваются с ног силовыми линиями, движущимися с почти зловещей силой. Я чувствую вкус крови во рту, когда мое зрение начинает кружиться, загадочная тарабарщина вырывается из моего рта, как будто мой язык получил собственный разум. Это слишком много. [ROOT.Char.GetFaith.HighGodName] имя, это слишком много для меня, чтобы контролировать!"  #Машинный перевод 28.10.23!
+  ############# 
+  # MODIFIERS # 
+  ############# 
+  
+ magic_sundeath_twilight_modifier: "Eternal Twilight" #NT!
+ magic_sundeath_night_modifier: "Eternal Night" #NT!
+  
+  ################## 
+  # RITUAL CASTING # 
+  ################## 
+  
+  ## Titles 
+ magic.0001.t: "Ритуал выполнен"
+ magic.0001.t.ritual_sacrifice: "Тайная жертва"
+ magic.0001.t.divination: "Послание из будущего"
+  ## Generic 
+ magic.0001.desc: "Сходим [Localize(SCOPE.GetFlagName('spell_location'))] и начинаем приготовления. Ритуальные линии, нацарапанные мелом, разбросаны по полу, их разрозненные линии скручиваются, соединяясь в вершинах, их углы соответствуют усовершенствованной нумерологии, раскинувшейся передо мной. Скрюченные ученики сбиваются в кучу, усердно работая над завершением Замковых рун, их запыленные мантии потрепаны на коленях и локтях, где часы самоотверженного труда наконец-то начали сказываться на их облачениях.\n\nКак только последние приготовления будут закончены, начинается настоящая работа. Помощник осторожно вручает мне [selected_spell_scope.Custom('RandomSpellTool')] и [selected_spell_scope.Custom('RandomSpellIngredient')], необходимые для процесса, и я начинаю. Через некоторое время ритуал наконец завершается."
+ magic.0001.desc.generic: "We converge [Localize(SCOPE.GetFlagName('spell_location'))], and begin our preparations. Ritual lines scrawled in chalk spill across the floor, their disparate lines twisting to join together at vertices, their angles conforming to perfected numerologies splayed out before me. Crouching apprentices huddle as they diligently work to finish the Capstone Runes, their dust stained robes frayed at the knees and elbows where their hours of dedicated labor has finally begun to take its toll on their vestments.\n\nOnce the final preparations are finished, the true work begins. An acolyte gingerly hands me the [ROOT.Var('spell_being_casted_var').Story.Custom('RandomSpellTool')] and [ROOT.Var('spell_being_casted_var').Story.Custom('RandomSpellIngredient')] required for the process, and I begin. After some time, the ritual finally concludes. " #NT!
+ magic.0001.desc.ritual_sacrifice: "[selected_spell_scope.Custom('SacrificeDescription')]"
+ magic.0001.desc.generate_magic: "Когда ритуал достигает своей кульминации, [selected_spell_scope.Custom('GenerateMagicDescription')]"
+ magic.0001.desc.divination: "[selected_spell_scope.Custom('DivinationIntro')] Я принялся за работу, читая знаки, ища предательское переплетение судьбы в почти непостижимом клубке хаоса. [selected_spell_scope.Custom('DivinationInterpretation')] эти знаки указывают на переменчивый замысел судьбы Эраса; и там, в центре всего этого, мое место в великой работе."
+ magic.0001.desc.sundeath: "The Ritual is complete.\n\nThe sky bleeds like a sacrificial lamb upon the altar, the screams of millions of lives both on this plane and from the beyond echo out in the heavens. In the sky, beyond the flickering light of a now-dying star, past the aborted echoes of creation, the glorious Void shudders in ecstasy and delight and slowly grows and grows.\n\nAs one by one the constellations that all of man have looked on for hope and guidance flicker out and die as they slide into the greedy maw of the Void Gods, the sun itself-the wretched symbol of creation and life that has befouled the emptiness-gives out one last shuddering scream of pain. Around the world thousands die from the power of its death moans. Existence is over, there shall be only darkness!" #NT!
+  ## Ritual-Specific 
+ magic.0001.desc.wisdom_of_the_leaf_whispers.intro: "The ancient forests of the world are said to sometimes whisper secrets and wisdom — and I intend to listen. For hours, I've been meditating at a particularly noisy section of woodland, keenly taking note of every rustling of the canopy and creak of old trees, trying to make sense of the unassuming ambience.\n\n" #NT!
+ magic.0001.desc.wisdom_of_the_leaf_whispers.success: "I'm in luck today, for the forest is talkative." #NT!
+ magic.0001.desc.cedar_witchs_hex.intro: "My acolytes assemble the effigy just before the first rays of dawn begin to break through the thick canopy above us, and soon set it aflame and begin the chants of the #underline Cedar-Witch's Hex#!. The words are ancient, their language not used as a vernacular for millennia, with only the slightest hint of a resemblence to modern Thalite. Though the effigy burns brilliantly, it does not seem to take any visible damage, and the surrounding air becomes nearly choked with smoke." #NT!
+ magic.0001.desc.cedar_witchs_hex.success: "\n\nJust as it becomes difficult to breathe, the wooden figure suddenly disintegrates into ash, and the air rapidly clears. We prepare to leave as soon as possible; though the forest feels tranquil as it is bathed in the light of the morning Sun, it is not safe to linger here for long." #NT!
+ magic.0001.desc.embercrown_coronation.intro: "All throughout the evening and into the night, my acolytes and loyal courtiers perform the three steps of the coronation ritual. First comes the offering of a long, formulaic oath; then, the casting of their offerings into the ritual bonfire; and finally, each joins a growing chorus of exaltation of my name.\n\nBy midnight, the chants of "[ROOT.Char.GetFirstName]! [ROOT.Char.GetFirstName]!" grow nearly deafening. A fell wind swirls around the ritual site as the fire at its heart contorts in strange and mesmerizing patterns. Now comes the final step, and it is imperative that I show no hesitation at all for the [magic|E] at hand to succeed. I walk into the bonfire, steeling myself against the pain — and emerge on the other side. " #NT!
+ magic.0001.desc.embercrown_coronation.success: "The flames suddenly disperse, and all that remains is a faint halo of embers around my head.\n\nBut there is something else there, as well. An air of resplendence, of wisdom and clarity that only a lifetime of rule could bring, and the vaguest inkling of strange memories that do not belong to me." #NT!
+  ## Options 
+ magic.0001.a: "Отличный."
+ magic.0001.a.sundeath: "Feast Gods! Feast upon the misery of insects like us!" #NT!
+  
+  # GH URGENT: Move this to its own, appropriate file 
+ apocalypse_sundeath.0003.t: "The End" #NT!
+ apocalypse_sundeath.0003.desc: "The Ritual is complete.\n\nCrying doomsayers and mad prophets, ailing [magi|E] and panicked spirits, all have tried to warn mankind of the coming doom. Of the evils that would consume us all. We did not take it seriously, or perhaps we simply failed. All of humanity has been punished, all of us found wanting. The world is over, like never before, and never it shall be after.\n\nAbove us our star flickers and dies. Thousands fall with it, struck down by the screams emanating from the heavens as the fading sun bleeds a hellish red across a now-hostile sky. Where once there were thousands of stars placed there by the loving hand of [ROOT.Char.GetFaith.HighGodName], there is now but a yawning void that grows to consume even when there seems nothing left to take but emptiness. In every shadow the ancient dead cry out in fear and pain, in the streets corpses in the thousands pile from those who have given themselves to despair. There is nothing left, if any divine once stood with us they too have now vanished into the dead heavens. \n\nThese are the end times." #NT!
+ apocalypse_sundeath.0003.a: "The longest night begins, twilight for both gods and man." #NT!
+ apocalypse_sundeath.0004.t: "The End" #NT!
+ apocalypse_sundeath.0004.desc: "The Ritual is complete.\n\nThe sky bleeds like a sacrificial lamb upon the altar, the screams of millions of lives both on this plane and from the beyond echo out in the heavens. In the sky, beyond the flickering light of a now-dying star, past the aborted echoes of creation, the glorious Void shudders in ecstasy and delight and slowly grows and grows.\n\nAs one by one the constellations that all of man have looked on for hope and guidance flicker out and die as they slide into the greedy maw of the Void Gods, the sun itself-the wretched symbol of creation and life that has befouled the emptiness-gives out one last shuddering scream of pain. Around the world thousands die from the power of its death moans. Existence is over, there shall be only darkness!" #NT!
+ apocalypse_sundeath.0004.a: "Feast Gods! Feast upon the misery of insects like us!" #NT!
+ apocalypse_sundeath.0022.t: "The Long Night" #NT!
+ apocalypse_sundeath.0022.desc: "Though some had hoped that the false twilight that emerged after the Sun's death would continue to bathe Aeras in a last, meagre ray of light and hope, even this proved too much to ask for. With little warning, the arcane phenomenon has rapidly diminished in COUNTY over the last few days, and now it has finally been enveloped by true, pitch-black night — forever.\n\nAs the area is entombed by ice and snow, there no longer being any source of warmth to keep the lethal cold at bay, what little human life was still clinging on to a miserable existence there is being snuffed out once and for all. Very soon, only shades, the undead and other twisted abominations that dwell in the dark will call this wretched place home." #NT!
+ apocalypse_sundeath.0022.a: "Curses!" #NT!
+ apocalypse_sundeath.0023.t: "The Long Night" #NT!
+ apocalypse_sundeath.0023.desc: "$apocalypse_sundeath.0022.desc$" #NT!
+ apocalypse_sundeath.0023.a: "Curses!" #NT!
   
   # Ritual Custom Loc 
   
   ## Tools 
- spell_tool_generic: "инструменты"  #Машинный перевод 28.10.23!
- spell_tool_runic_chisel: "руническое долото"  #Машинный перевод 28.10.23!
- spell_tool_sundial: "солнечные часы"  #Машинный перевод 28.10.23!
- spell_tool_red_sand_hourglass: "песочные часы с красным песком"  #Машинный перевод 28.10.23!
- spell_tool_flint_and_steel: "Кремень и сталь"  #Машинный перевод 28.10.23!
- spell_tool_candle: "свеча"  #Машинный перевод 28.10.23!
- spell_tool_brazier: "мангал"  #Машинный перевод 28.10.23!
- spell_tool_scalpel: "скальпель"  #Машинный перевод 28.10.23!
- spell_tool_astrolabe: "астролябия"  #Машинный перевод 28.10.23!
- spell_tool_star_chart: "звездная карта"  #Машинный перевод 28.10.23!
- spell_tool_armillary_sphere: "армиллярная сфера"  #Машинный перевод 28.10.23!
- spell_tool_ski_pole: "лыжная палка"  #Машинный перевод 28.10.23!
- spell_tool_dowsing_rod: "лозоходная удочка"  #Машинный перевод 28.10.23!
- spell_tool_icicle: "сосулька"  #Машинный перевод 28.10.23!
- spell_tool_divining_rod: "волшебная палочка"  #Машинный перевод 28.10.23!
- spell_tool_water_bucket: "Ведро с водой"  #Машинный перевод 28.10.23!
- spell_tool_firefly_jar: "банка со светлячками"  #Машинный перевод 28.10.23!
+ spell_tool_generic: "инструменты"
+ spell_tool_runic_chisel: "руническое долото"
+ spell_tool_sundial: "солнечные часы"
+ spell_tool_red_sand_hourglass: "песочные часы с красным песком"
+ spell_tool_flint_and_steel: "Кремень и сталь"
+ spell_tool_candle: "свеча"
+ spell_tool_brazier: "мангал"
+ spell_tool_scalpel: "скальпель"
+ spell_tool_astrolabe: "астролябия"
+ spell_tool_star_chart: "звездная карта"
+ spell_tool_armillary_sphere: "армиллярная сфера"
+ spell_tool_ski_pole: "лыжная палка"
+ spell_tool_dowsing_rod: "лозоходная удочка"
+ spell_tool_icicle: "сосулька"
+ spell_tool_divining_rod: "волшебная палочка"
+ spell_tool_water_bucket: "Ведро с водой"
+ spell_tool_firefly_jar: "банка со светлячками"
   
   ## Ingredients 
- spell_ingredient_generic: "ингредиенты"  #Машинный перевод 28.10.23!
- spell_ingredient_rockleaf: "Роклиф"  #Машинный перевод 28.10.23!
- spell_ingredient_cockatrice_eye: "Кокатрисовый глаз"  #Машинный перевод 28.10.23!
- spell_ingredient_hiemal_nectar: "Химальский нектар"  #Машинный перевод 28.10.23!
- spell_ingredient_aeroquinine: "Аэрохинин"  #Машинный перевод 28.10.23!
- spell_ingredient_gilded_glimmerpetal: "Позолоченный мерцающий лепесток"  #Машинный перевод 28.10.23!
- spell_ingredient_blackmaw: "Корень Черной Пасти"  #Машинный перевод 28.10.23!
- spell_ingredient_sparcrystal: "Спарккристалл"  #Машинный перевод 28.10.23!
- spell_ingredient_comettail_extract: "Экстракт хвоста кометы"  #Машинный перевод 28.10.23!
- spell_ingredient_spider_thread: "Паучья нить"  #Машинный перевод 28.10.23!
- spell_ingredient_bloodcrystal: "Кровавый Кристалл"  #Машинный перевод 28.10.23!
- spell_ingredient_rubies: "мешочек с рубинами"  #Машинный перевод 28.10.23!
- spell_ingredient_vampire_blood: "Вампирская кровь"  #Машинный перевод 28.10.23!
+ spell_ingredient_generic: "ингредиенты"
+ spell_ingredient_rockleaf: "Роклиф"
+ spell_ingredient_cockatrice_eye: "Кокатрисовый глаз"
+ spell_ingredient_hiemal_nectar: "Химальский нектар"
+ spell_ingredient_aeroquinine: "Аэрохинин"
+ spell_ingredient_gilded_glimmerpetal: "Позолоченный мерцающий лепесток"
+ spell_ingredient_blackmaw: "Корень Черной Пасти"
+ spell_ingredient_sparcrystal: "Спарккристалл"
+ spell_ingredient_comettail_extract: "Экстракт хвоста кометы"
+ spell_ingredient_spider_thread: "Паучья нить"
+ spell_ingredient_bloodcrystal: "Кровавый Кристалл"
+ spell_ingredient_rubies: "мешочек с рубинами"
+ spell_ingredient_vampire_blood: "Вампирская кровь"
   
   ## Locations 
- spell_location_cave: "в сырой пещере"  #Машинный перевод 28.10.23!
- spell_location_cemetery: "на кладбище"  #Машинный перевод 28.10.23!
- spell_location_cavern: "в пещере"  #Машинный перевод 28.10.23!
- spell_location_bedroom: "в главной спальне"  #Машинный перевод 28.10.23!
- spell_location_tower: "в башне Магов"  #Машинный перевод 28.10.23!
- spell_location_hall: "в большом зале"  #Машинный перевод 28.10.23!
- spell_location_quarry: "в заброшенном карьере"  #Машинный перевод 28.10.23!
- spell_location_mine: "в паутинной шахте"  #Машинный перевод 28.10.23!
- spell_location_poppy_field: "на поле огненных маков"  #Машинный перевод 28.10.23!
- spell_location_meadow: "на цветущем лугу"  #Машинный перевод 28.10.23!
- spell_location_grove: "в уединенной роще"  #Машинный перевод 28.10.23!
- spell_location_cliff: "на вершине скалы с видом на горизонт"  #Машинный перевод 28.10.23!
- spell_location_peak: "на вершине самой высокой вершины моего королевства, как можно ближе к небу,"  #Машинный перевод 28.10.23!
- spell_location_carriage: "внутри движущейся кареты, ветер дует в открытые окна"  #Машинный перевод 28.10.23!
- spell_location_bonfire: "возле огромного костра"  #Машинный перевод 28.10.23!
- spell_location_abandoned_cemetery: "на заброшенном кладбище"  #Машинный перевод 28.10.23!
- spell_location_haunted_ruins: "в зловещих руинах"  #Машинный перевод 28.10.23!
+ spell_location_cave: "в сырой пещере"
+ spell_location_cemetery: "на кладбище"
+ spell_location_cavern: "в пещере"
+ spell_location_bedroom: "в главной спальне"
+ spell_location_tower: "в башне Магов"
+ spell_location_hall: "в большом зале"
+ spell_location_quarry: "в заброшенном карьере"
+ spell_location_mine: "в паутинной шахте"
+ spell_location_poppy_field: "на поле огненных маков"
+ spell_location_meadow: "на цветущем лугу"
+ spell_location_grove: "в уединенной роще"
+ spell_location_cliff: "на вершине скалы с видом на горизонт"
+ spell_location_peak: "на вершине самой высокой вершины моего королевства, как можно ближе к небу,"
+ spell_location_carriage: "внутри движущейся кареты, ветер дует в открытые окна"
+ spell_location_bonfire: "возле огромного костра"
+ spell_location_abandoned_cemetery: "на заброшенном кладбище"
+ spell_location_haunted_ruins: "в зловещих руинах"
   
   ## Aspect Colors 
- aspect_color_generic: "белый"  #Машинный перевод 28.10.23!
- aspect_color_fire: "огненный янтарь"  #Машинный перевод 28.10.23!
- aspect_color_water: "темно-синий"  #Машинный перевод 28.10.23!
- aspect_color_ice: "ледяной синий"  #Машинный перевод 28.10.23!
- aspect_color_air: "блестящая лазурь"  #Машинный перевод 28.10.23!
- aspect_color_stone: "тускло-серый"  #Машинный перевод 28.10.23!
- aspect_color_dream: "ярко многоцветный"  #Машинный перевод 28.10.23!
- aspect_color_celestial: "блестяще переливающийся"  #Машинный перевод 28.10.23!
- aspect_color_dark: "неестественно черный"  #Машинный перевод 28.10.23!
- aspect_color_light: "блестящий белый"  #Машинный перевод 28.10.23!
- aspect_color_blood: "зловещий малиновый"  #Машинный перевод 28.10.23!
- aspect_color_nature: "изумрудно-зеленый"  #Машинный перевод 28.10.23!
- aspect_color_ethereal: "потусторонний серый"  #Машинный перевод 28.10.23!
- aspect_color_metal: "блестящее золото"  #Машинный перевод 28.10.23!
+ aspect_color_generic: "белый"
+ aspect_color_fire: "огненный янтарь"
+ aspect_color_water: "темно-синий"
+ aspect_color_ice: "ледяной синий"
+ aspect_color_air: "блестящая лазурь"
+ aspect_color_stone: "тускло-серый"
+ aspect_color_dream: "ярко многоцветный"
+ aspect_color_celestial: "блестяще переливающийся"
+ aspect_color_dark: "неестественно черный"
+ aspect_color_light: "блестящий белый"
+ aspect_color_blood: "зловещий малиновый"
+ aspect_color_nature: "изумрудно-зеленый"
+ aspect_color_ethereal: "потусторонний серый"
+ aspect_color_metal: "блестящее золото"
   
   ## Sacrifice 
- sacrifice_generic_1: "Дрожа и пенясь на земле, жертва богам внезапно начинает обмякать от конечностей внутрь, пока они не становятся неподвижными и тупо смотрят в небо."  #Машинный перевод 28.10.23!
- sacrifice_generic_2: "Жертва падает, не двигаясь, ее жизненная сила полностью истощена."  #Машинный перевод 28.10.23!
- sacrifice_fire_1: "Пленник вспыхивает, ужасающий крик пронзает воздух, его плоть трескается и покрывается волдырями."  #Машинный перевод 28.10.23!
- sacrifice_dream_1: "Жертва вдруг начинает нести чепуху, как из нее вытекают мысли, чувства, все сознание."  #Машинный перевод 28.10.23!
- sacrifice_blood_1: "Совершенно внезапно кровь вырывается из каждого отверстия жертвы, с безмолвным криком на их лицах, поскольку от них остается только оболочка."  #Машинный перевод 28.10.23!
- sacrifice_blood_2: "Кровь заключенного вытекает из каждого отверстия, хлещет и кружится вокруг меня."  #Машинный перевод 28.10.23!
+ sacrifice_generic_1: "Дрожа и пенясь на земле, жертва богам внезапно начинает обмякать от конечностей внутрь, пока они не становятся неподвижными и тупо смотрят в небо."
+ sacrifice_generic_2: "Жертва падает, не двигаясь, ее жизненная сила полностью истощена."
+ sacrifice_generic_3: "The sacrifice continues their lithany of curses, gradually falling silent as their eyes glaze over." #NT!
+ sacrifice_fire_1: "Пленник вспыхивает, ужасающий крик пронзает воздух, его плоть трескается и покрывается волдырями."
+ sacrifice_dream_1: "Жертва вдруг начинает нести чепуху, как из нее вытекают мысли, чувства, все сознание."
+ sacrifice_blood_1: "Совершенно внезапно кровь вырывается из каждого отверстия жертвы, с безмолвным криком на их лицах, поскольку от них остается только оболочка."
+ sacrifice_blood_2: "Кровь заключенного вытекает из каждого отверстия, хлещет и кружится вокруг меня."
   
   ## Generate Magic 
- generate_magic_generic_1: "Я поднимаюсь на ноги с ощущением силы, которое редко ощущал раньше."  #Машинный перевод 28.10.23!
- generate_magic_generic_2: "моя кожа начинает ярко светиться, магия освещает ее изнутри."  #Машинный перевод 28.10.23!
- generate_magic_generic_3: "поток мощной магии сбивает меня с ног. Когда я поднимаюсь, я становлюсь намного сильнее."  #Машинный перевод 28.10.23!
- generate_magic_blood_1: "мои чувства усиливаются, когда я поднимаюсь, и боль и удовольствие все глубже проникают внутрь меня. Мой мозг кипит идеями о том, что будет дальше, все они... желательны..."  #Машинный перевод 28.10.23!
- generate_magic_blood_2: "мое сердце бьется быстрее, и я чувствую, как мана сгущает мою кровь."  #Машинный перевод 28.10.23!
+ generate_magic_generic_1: "Я поднимаюсь на ноги с ощущением силы, которое редко ощущал раньше."
+ generate_magic_generic_2: "моя кожа начинает ярко светиться, магия освещает ее изнутри."
+ generate_magic_generic_3: "поток мощной магии сбивает меня с ног. Когда я поднимаюсь, я становлюсь намного сильнее."
+ generate_magic_blood_1: "мои чувства усиливаются, когда я поднимаюсь, и боль и удовольствие все глубже проникают внутрь меня. Мой мозг кипит идеями о том, что будет дальше, все они... желательны..."
+ generate_magic_blood_2: "мое сердце бьется быстрее, и я чувствую, как мана сгущает мою кровь."
   
   ## Divination 
- divination_intro_generic: "Передо мной разложены инструменты для гаданий,"  #Машинный перевод 28.10.23!
- divination_interpretation_generic: "Я изучаю результаты ритуала до мельчайших деталей —"  #Машинный перевод 28.10.23!
- divination_intro_fire: "Прикладывая железный стержень, нагретый огнем до тех пор, пока он не засияет оранжевым, я нагреваю пластронную кость, пока она не обугливается и не трескается. Схватив еще горячую кость"  #Машинный перевод 28.10.23!
- divination_interpretation_fire: "Паутина трещин расходится от центра пластрона, где я вырезал свой вопрос перед ритуалом, осколки сломанной кости торчат из панциря черепахи,"  #Машинный перевод 28.10.23!
- divination_intro_water: "Посыпаем дорогое порошкообразное серебряное блюдо и оставляем его во дворе в ожидании дождя. Нам не придется долго ждать, прежде чем сгущающиеся тучи наверху начнут забрасывать нас жирными каплями дождя, и мы уходим внутрь, чтобы дождаться окончания бури. Когда упадет последняя капля,"  #Машинный перевод 28.10.23!
- divination_interpretation_water: "Вытравленные дождем узоры рассказывают историю, превращающую темную специю в линейные диаграммы, полуоформленные символы и почти различимые фигуры."  #Машинный перевод 28.10.23!
- divination_intro_ice: "За большие деньги я раздобыл глыбу нетронутого льда почти такого же роста, как я сам, очевидно, вырезанную из чистого и незапятнанного горного озера. Подняв над головой тяжелую железную кувалду, я со всей силы ударил по блоку, отчего его стеклянное тело треснуло."  #Машинный перевод 28.10.23!
- divination_interpretation_ice: "Фрактальные спирали трещин — кошмар для расшифровки, они простираются во всех направлениях через блок. И все же в беспорядке обретает форму. Тонкая дуга трещин и переломов, мои все более онемевшие и холодные руки работали по скользкой талой воде поверхности, чтобы проследить их путь. Здесь что-то есть,"  #Машинный перевод 28.10.23!
- divination_intro_stone: "Взяв тринадцать чистых и необработанных драгоценных камней, я бросил их на диаграмму, вырезанную на песке."  #Машинный перевод 28.10.23!
- divination_interpretation_stone: "Вот вижу я, куда упал розовый рубин, там осматриваю, где лежит сирень необработанного аметиста. Через несколько долгих часов я тщательно отмечаю их места на карте,"  #Машинный перевод 28.10.23!
- divination_intro_air: "Выпустив мешанину отмеченных и оперенных дротиков,"  #Машинный перевод 28.10.23!
- divination_interpretation_air: "Положение зеленого дротика с надписью «Смерть», вонзился ли какой-либо из полдюжины оранжевых дротиков, отмеченных символами процветания, в твердую землю острием вперед, а также тонкий смысл хаотического беспорядка валов, лежащих друг на друге,"  #Машинный перевод 28.10.23!
- divination_intro_dream: "Употребляя горькую смесь трав, я впадаю в глубокий и неприятный сон. Проснувшись с первыми лучами рассвета, мои ассистенты, шатающиеся и несчастные, быстро вручают мне восковую табличку и перо, чтобы я мог записать странные кошмары, постигшие меня. Днем, когда наркотическое действие трав полностью пройдет,"  #Машинный перевод 28.10.23!
- divination_interpretation_dream: "Виды, которые я вспоминаю, странны и неприятны. Эти рассказы не имеют смысла, поскольку мой лихорадочный мир снов менялся от формы к форме. Тем не менее, когда я изучаю их, начинают проявляться определенные закономерности."  #Машинный перевод 28.10.23!
- divination_intro_celestial: "Мои звездные карты подготовлены. Я начинаю свое одинокое наблюдение, дрожа от холодного полуночного ветра."  #Машинный перевод 28.10.23!
- divination_interpretation_celestial: "Соединение созвездий наверху, хаотичный вихрь звезд и форм. Какие небесные тела решили удостоить меня своим присутствием сегодня вечером, и которые предпочли остаться скрытыми за покровом ночи,"  #Машинный перевод 28.10.23!
- divination_intro_light: "Я провожу целый день в пустыне, наблюдая за игрой света на скалистом выступе и записывая то, что вижу. Когда солнце наконец садится за горизонт,"  #Машинный перевод 28.10.23!
- divination_interpretation_light: "Отбрасывание тени холма может показаться обыденным непросвещенному, но для того, кто умеет видеть ее, определенные узоры и формы возникают при переходе света и тени по ее лицу."  #Машинный перевод 28.10.23!
- divination_intro_blood: "Передо мной лежала кровавая масса печени животного,"  #Машинный перевод 28.10.23!
- divination_interpretation_blood: "Здесь приподнятый полип, там сморщивание, пятнистый узор на органе, который выглядит вот так..."  #Машинный перевод 28.10.23!
- divination_intro_nature: "Выливая оловянную чашку с расплавленным воском в медный таз с холодной водой, которую затем сливаю, у меня остаются десятки хаотичных комков расплавленного воска."  #Машинный перевод 28.10.23!
- divination_interpretation_nature: "Уникальная форма каждой восковой капли: некоторые длинные нити, другие сферические шарики, некоторые почти приближаются к смутно узнаваемой человеческой форме."  #Машинный перевод 28.10.23!
- divination_intro_dark: "Мы отправляемся в сельскую местность и в конечном итоге оборудуем место нашего ритуала в изолированной роще деревьев. Когда солнце садится, мы зажигаем костер, а когда приближается полночь, выпускаем сову из клетки, внимательно изучая путь, по которому животное бежит в ночную тьму."  #Машинный перевод 28.10.23!
- divination_interpretation_dark: "Изучая эскиз и собственные воспоминания об угле полета птицы, я начинаю различать определенные закономерности. Сколько раз взмахивали крылья птицы, мягкое падение сбитого оперения и количество времени, которое она провела, с негодованием глядя на нас, сидящих на дереве на краю поляны,"  #Машинный перевод 28.10.23!
- divination_intro_sand: "Я осторожно выпустила песок из пальцев и рассыпала его на грубо обработанный медный лист."  #Машинный перевод 28.10.23!
- divination_interpretation_sand: "Глядя долгие часы на гребни и углубления в слое песка, мое зрение начинает плавать. Бессмысленные и беспорядочные узоры начинают складываться в полуоформленные буквы и искаженные лица. Эти закономерности и"  #Машинный перевод 28.10.23!
- divination_intro_metal: "Выливая чашку с расплавленным свинцом в медный таз с холодной водой, которую затем сливают, у меня остаются десятки хаотичных и люмпен-слитков."  #Машинный перевод 28.10.23!
- divination_interpretation_metal: "Уникальная форма каждой свинцовой капли — некоторые длинные нити, другие сферические шарики, некоторые почти приближаются к смутно узнаваемой человеческой форме —"  #Машинный перевод 28.10.23!
- divination_intro_dawn: "Оставив на подоконнике несколько ритуальных предметов, природа которых, как мне кажется, соответствует предмету моего предсказания, я жду восхода солнца и грубо рисую мелом узоры теней, оставленные розовым светом рассвета. Как только шар очистил горизонт,"  #Машинный перевод 28.10.23!
- divination_interpretation_dawn: "Меловые линии, обозначающие ползание теней по стенам, и неожиданно вытянутые формы, принимаемые предметами,"  #Машинный перевод 28.10.23!
+ divination_intro_generic: "Передо мной разложены инструменты для гаданий,"
+ divination_interpretation_generic: "Я изучаю результаты ритуала до мельчайших деталей —"
+ divination_intro_fire: "Прикладывая железный стержень, нагретый огнем до тех пор, пока он не засияет оранжевым, я нагреваю пластронную кость, пока она не обугливается и не трескается. Схватив еще горячую кость"
+ divination_interpretation_fire: "Паутина трещин расходится от центра пластрона, где я вырезал свой вопрос перед ритуалом, осколки сломанной кости торчат из панциря черепахи,"
+ divination_intro_water: "Посыпаем дорогое порошкообразное серебряное блюдо и оставляем его во дворе в ожидании дождя. Нам не придется долго ждать, прежде чем сгущающиеся тучи наверху начнут забрасывать нас жирными каплями дождя, и мы уходим внутрь, чтобы дождаться окончания бури. Когда упадет последняя капля,"
+ divination_interpretation_water: "Вытравленные дождем узоры рассказывают историю, превращающую темную специю в линейные диаграммы, полуоформленные символы и почти различимые фигуры."
+ divination_intro_ice: "За большие деньги я раздобыл глыбу нетронутого льда почти такого же роста, как я сам, очевидно, вырезанную из чистого и незапятнанного горного озера. Подняв над головой тяжелую железную кувалду, я со всей силы ударил по блоку, отчего его стеклянное тело треснуло."
+ divination_interpretation_ice: "Фрактальные спирали трещин — кошмар для расшифровки, они простираются во всех направлениях через блок. И все же в беспорядке обретает форму. Тонкая дуга трещин и переломов, мои все более онемевшие и холодные руки работали по скользкой талой воде поверхности, чтобы проследить их путь. Здесь что-то есть,"
+ divination_intro_stone: "Взяв тринадцать чистых и необработанных драгоценных камней, я бросил их на диаграмму, вырезанную на песке."
+ divination_interpretation_stone: "Вот вижу я, куда упал розовый рубин, там осматриваю, где лежит сирень необработанного аметиста. Через несколько долгих часов я тщательно отмечаю их места на карте,"
+ divination_intro_air: "Выпустив мешанину отмеченных и оперенных дротиков,"
+ divination_interpretation_air: "Положение зеленого дротика с надписью «Смерть», вонзился ли какой-либо из полдюжины оранжевых дротиков, отмеченных символами процветания, в твердую землю острием вперед, а также тонкий смысл хаотического беспорядка валов, лежащих друг на друге,"
+ divination_intro_dream: "Употребляя горькую смесь трав, я впадаю в глубокий и неприятный сон. Проснувшись с первыми лучами рассвета, мои ассистенты, шатающиеся и несчастные, быстро вручают мне восковую табличку и перо, чтобы я мог записать странные кошмары, постигшие меня. Днем, когда наркотическое действие трав полностью пройдет,"
+ divination_interpretation_dream: "Виды, которые я вспоминаю, странны и неприятны. Эти рассказы не имеют смысла, поскольку мой лихорадочный мир снов менялся от формы к форме. Тем не менее, когда я изучаю их, начинают проявляться определенные закономерности."
+ divination_intro_celestial: "Мои звездные карты подготовлены. Я начинаю свое одинокое наблюдение, дрожа от холодного полуночного ветра."
+ divination_interpretation_celestial: "Соединение созвездий наверху, хаотичный вихрь звезд и форм. Какие небесные тела решили удостоить меня своим присутствием сегодня вечером, и которые предпочли остаться скрытыми за покровом ночи,"
+ divination_intro_light: "Я провожу целый день в пустыне, наблюдая за игрой света на скалистом выступе и записывая то, что вижу. Когда солнце наконец садится за горизонт,"
+ divination_interpretation_light: "Отбрасывание тени холма может показаться обыденным непросвещенному, но для того, кто умеет видеть ее, определенные узоры и формы возникают при переходе света и тени по ее лицу."
+ divination_intro_blood: "Передо мной лежала кровавая масса печени животного,"
+ divination_interpretation_blood: "Здесь приподнятый полип, там сморщивание, пятнистый узор на органе, который выглядит вот так..."
+ divination_intro_nature: "Выливая оловянную чашку с расплавленным воском в медный таз с холодной водой, которую затем сливаю, у меня остаются десятки хаотичных комков расплавленного воска."
+ divination_interpretation_nature: "Уникальная форма каждой восковой капли: некоторые длинные нити, другие сферические шарики, некоторые почти приближаются к смутно узнаваемой человеческой форме."
+ divination_intro_dark: "Мы отправляемся в сельскую местность и в конечном итоге оборудуем место нашего ритуала в изолированной роще деревьев. Когда солнце садится, мы зажигаем костер, а когда приближается полночь, выпускаем сову из клетки, внимательно изучая путь, по которому животное бежит в ночную тьму."
+ divination_interpretation_dark: "Изучая эскиз и собственные воспоминания об угле полета птицы, я начинаю различать определенные закономерности. Сколько раз взмахивали крылья птицы, мягкое падение сбитого оперения и количество времени, которое она провела, с негодованием глядя на нас, сидящих на дереве на краю поляны,"
+ divination_intro_sand: "Я осторожно выпустила песок из пальцев и рассыпала его на грубо обработанный медный лист."
+ divination_interpretation_sand: "Глядя долгие часы на гребни и углубления в слое песка, мое зрение начинает плавать. Бессмысленные и беспорядочные узоры начинают складываться в полуоформленные буквы и искаженные лица. Эти закономерности и"
+ divination_intro_metal: "Выливая чашку с расплавленным свинцом в медный таз с холодной водой, которую затем сливают, у меня остаются десятки хаотичных и люмпен-слитков."
+ divination_interpretation_metal: "Уникальная форма каждой свинцовой капли — некоторые длинные нити, другие сферические шарики, некоторые почти приближаются к смутно узнаваемой человеческой форме —"
+ divination_intro_dawn: "Оставив на подоконнике несколько ритуальных предметов, природа которых, как мне кажется, соответствует предмету моего предсказания, я жду восхода солнца и грубо рисую мелом узоры теней, оставленные розовым светом рассвета. Как только шар очистил горизонт,"
+ divination_interpretation_dawn: "Меловые линии, обозначающие ползание теней по стенам, и неожиданно вытянутые формы, принимаемые предметами,"
   
-  # Targetted by Hostile Spell 
+  # Targetted by Spell 
   
- magic.0011.t: "Враждебное заклинание!"  #Машинный перевод 28.10.23!
- magic.0011.desc.magi_court_magi: "Когда я занимаюсь своими [ROOT.Char.GetTitleAsNameNoTooltip]-ми обязанностями в [ROOT.Char.GetCapitalLocation.GetName], меня охватывает чувство слежки, а мгновение спустя - глубокий и первобытный страх. Эмоции нахлынули на меня за считанные секунды, прежде чем мои [court_magi|E], [ROOT.Char.GetCouncillorPosition( 'councillor_court_magi' ).GetCouncillor.GetName] встретились со мной взглядами с другого конца комнаты, их выражения были полны ужаса и удивления, что, без сомнения, отражало мое собственное. Не нужно говорить никаких слов, поскольку каждый [magi|E] знает внутри себя чувство, когда [gift|E] обращен против него.\n\nУ меня есть только мгновение, чтобы ответить как [selected_spell_scope.Custom('SpellAttackDescription')]. Заклинание приближается к своему апогею, когда я кричу..."  #Машинный перевод 28.10.23!
- magic.0011.desc.magi_no_court_magi: "Когда я занимаюсь своими [ROOT.Char.GetTitleAsNameNoTooltip]-ми обязанностями в [ROOT.Char.GetCapitalLocation.GetName], меня поражает ощущение, что за мной наблюдают, а мгновение спустя - глубокий и первобытный страх, когда каждый волосок на моем теле застыл. Эмоции охватывают меня за считанные секунды, и за ними следует осознание, поскольку каждый [magi|E] знает внутри себя чувство, когда [gift|E] обращен против него.\n\nУ меня есть всего лишь мгновение, чтобы ответить как [selected_spell_scope.Custom('SpellAttackDescription')]. Заклинание приближается к своему апогею, когда я..."  #Машинный перевод 28.10.23!
- magic.0011.desc.non_magi_court_magi: "Когда я занимаюсь своими [ROOT.Char.GetTitleAsNameNoTooltip]-ми обязанностями в [ROOT.Char.GetCapitalLocation.GetName], меня охватывает множество чувств, о которых мой разум и тело кричат ​​мне, что они столь же неестественны, сколь и непостижимы. Эмоции нахлынули на меня за считанные секунды и сопровождались криками моих [court_magi|E], [ROOT.Char.GetCouncillorPosition( 'councillor_court_magi' ).GetCouncillor.GetName]:\n\n"Мой [ROOT.Char.GetTitleAsName], я чувствую [gift|E]! Заклинание!"\n\nУ меня есть всего лишь мгновение, чтобы ответить, как [selected_spell_scope.Custom('SpellAttackDescription')]. Заклинание приближается к своему апогею, когда я кричу..."  #Машинный перевод 28.10.23!
- magic.0011.desc.non_magi_no_court_magi: "Когда я занимаюсь своими [ROOT.Char.GetTitleAsNameNoTooltip]-ми обязанностями в [ROOT.Char.GetCapitalLocation.GetName], меня охватывает множество чувств, о которых мой разум и тело кричат ​​мне, что они столь же неестественны, сколь и непостижимы. Эмоции охватывают меня за считанные секунды, а за ними следует нарастающее чувство паники, о чем [selected_spell_scope.Custom('SpellAttackDescription')]\n\nДаже дурак знает. Заклинание приближается к своему апогею, когда я..."  #Машинный перевод 28.10.23!
+ magic.0011.t: "Враждебное заклинание!"
+ magic.0011.t.justice_of_the_primeval_garden: "Stolen Strength" #NT!
+ magic.0011.t.cedar_witchs_hex: "Wrath of the Wood" #NT!
+ affected_by_magic: "Affected by [magic|E]" #NT!
   
- magic.0011.a: ""[ROOT.Char.GetCouncillorPosition( 'councillor_court_magi' ).GetCouncillor.GetFirstName]! Защити меня, черт возьми!""  #Машинный перевод 28.10.23!
- magic.0011.b.magi_no_court_magi: "Готовьте палату!"  #Машинный перевод 28.10.23!
- magic.0011.b.magi_court_magi: ""[ROOT.Char.GetCouncillorPosition( 'councillor_court_magi' ).GetCouncillor.GetFirstName]! Помогите мне сформировать отряд!""  #Машинный перевод 28.10.23!
- magic.0011.b.non_magi_court_magi: "$magic.0011.a$"  #Машинный перевод 28.10.23!
- magic.0011.b.non_magi_no_court_magi: "Ныряйте за ближайшей мебелью!"  #Машинный перевод 28.10.23!
+  ## Ritual-Specific Descriptions 
+ magic.0011.desc.magi_court_magi: "Когда я занимаюсь своими [ROOT.Char.GetTitleAsNameNoTooltip]-ми обязанностями в [ROOT.Char.GetCapitalLocation.GetName], меня охватывает чувство слежки, а мгновение спустя - глубокий и первобытный страх. Эмоции нахлынули на меня за считанные секунды, прежде чем мои [court_magi|E], [ROOT.Char.GetCouncillorPosition( 'councillor_court_magi' ).GetCouncillor.GetName] встретились со мной взглядами с другого конца комнаты, их выражения были полны ужаса и удивления, что, без сомнения, отражало мое собственное. Не нужно говорить никаких слов, поскольку каждый [magi|E] знает внутри себя чувство, когда [gift|E] обращен против него.\n\nУ меня есть только мгновение, чтобы ответить как [selected_spell_scope.Custom('SpellAttackDescription')]. Заклинание приближается к своему апогею, когда я кричу..."
+ magic.0011.desc.magi_no_court_magi: "Когда я занимаюсь своими [ROOT.Char.GetTitleAsNameNoTooltip]-ми обязанностями в [ROOT.Char.GetCapitalLocation.GetName], меня поражает ощущение, что за мной наблюдают, а мгновение спустя - глубокий и первобытный страх, когда каждый волосок на моем теле застыл. Эмоции охватывают меня за считанные секунды, и за ними следует осознание, поскольку каждый [magi|E] знает внутри себя чувство, когда [gift|E] обращен против него.\n\nУ меня есть всего лишь мгновение, чтобы ответить как [selected_spell_scope.Custom('SpellAttackDescription')]. Заклинание приближается к своему апогею, когда я..."
+ magic.0011.desc.non_magi_court_magi: "Когда я занимаюсь своими [ROOT.Char.GetTitleAsNameNoTooltip]-ми обязанностями в [ROOT.Char.GetCapitalLocation.GetName], меня охватывает множество чувств, о которых мой разум и тело кричат ​​мне, что они столь же неестественны, сколь и непостижимы. Эмоции нахлынули на меня за считанные секунды и сопровождались криками моих [court_magi|E], [ROOT.Char.GetCouncillorPosition( 'councillor_court_magi' ).GetCouncillor.GetName]:\n\n"Мой [ROOT.Char.GetTitleAsName], я чувствую [gift|E]! Заклинание!"\n\nУ меня есть всего лишь мгновение, чтобы ответить, как [selected_spell_scope.Custom('SpellAttackDescription')]. Заклинание приближается к своему апогею, когда я кричу..."
+ magic.0011.desc.non_magi_no_court_magi: "Когда я занимаюсь своими [ROOT.Char.GetTitleAsNameNoTooltip]-ми обязанностями в [ROOT.Char.GetCapitalLocation.GetName], меня охватывает множество чувств, о которых мой разум и тело кричат ​​мне, что они столь же неестественны, сколь и непостижимы. Эмоции охватывают меня за считанные секунды, а за ними следует нарастающее чувство паники, о чем [selected_spell_scope.Custom('SpellAttackDescription')]\n\nДаже дурак знает. Заклинание приближается к своему апогею, когда я..."
+  
+ magic.0011.a: ""[ROOT.Char.GetCouncillorPosition( 'councillor_court_magi' ).GetCouncillor.GetFirstName]! Защити меня, черт возьми!""
+ magic.0011.b.magi_no_court_magi: "Готовьте палату!"
+ magic.0011.b.magi_court_magi: ""[ROOT.Char.GetCouncillorPosition( 'councillor_court_magi' ).GetCouncillor.GetFirstName]! Помогите мне сформировать отряд!""
+ magic.0011.b.non_magi_court_magi: "$magic.0011.a$"
+ magic.0011.b.non_magi_no_court_magi: "Ныряйте за ближайшей мебелью!"
+  
+ magic.0011.desc.justice_of_the_primeval_garden: "As my foe lies dead, I am only afforded a scant few moments of silence before the canopy above us begins to rustle as if disturbed by a storm, even though I can feel no actual wind. Amber tendrils creep their way out of my quarry's orifices and descend towards me.\n\nI can feel a power in them, a power mixed with an animalistic fear and hatred that they felt in their final moments — a power that now belongs to me. As I grow, the mortal remains in front of me turn to cinders and char, until naught but a small pile of ash remains." #NT!
+ magic.0011.desc.cedar_witchs_hex: "Our otherwise unassuming trek through the forest of [ROOT.Char.GetCurrentLocation.GetTitle.GetNameNoTier] is suddenly interrupted after we notice smoke billowing not too far away. We hasten to change our direction to avoid the wildfire, but are shocked as the previously distant flames rapidly advance in all directions at a completely unnatural speed, cutting off all our escape routes. As we desperately try to find a safe way to get away from the inferno, the walls of fire begin to collapse inwards towards us!" #NT!
   
   ## Spell Attack Description 
   
- spell_attack_generic: "щупальца тайной энергии начинают окутывать меня"  #Машинный перевод 28.10.23!
- spell_attack_light: "яркий и ослепительный свет - ярче и чище любого солнца или звезды - начинает окутывать меня"  #Машинный перевод 28.10.23!
- spell_attack_water: "запах воды наполняет мой нос и звуки разбивающихся волн донимают мои уши"  #Машинный перевод 28.10.23!
- spell_attack_fire: "комната начинает стремительно нагреваться и наполняться волшебным дымом"  #Машинный перевод 28.10.23!
- spell_attack_dream: "тысячи шепотов эхом разносятся по комнате, становясь все громче и громче, когда видения невозможного захватывают мой разум."  #Машинный перевод 28.10.23!
- spell_attack_darkness: "тени в комнате меняются и тянутся ко мне, словно тянутся к звездным рукам"  #Машинный перевод 28.10.23!
- spell_attack_ice: "снег необъяснимым образом стекает с потолка, а факелы гаснет на смертельном ветру"  #Машинный перевод 28.10.23!
- spell_attack_stone: "земля грохочет и трясется, когда куски каменной кладки начинают подниматься вверх и образовывать символы в воздухе"  #Машинный перевод 28.10.23!
- spell_attack_air: "воздух начинает вырываться из моей груди и яростно кружиться по комнате"  #Машинный перевод 28.10.23!
- spell_attack_blood: "мое сердце начинает бешено колотиться, и я слышу, как кровь проносится через голову"  #Машинный перевод 28.10.23!
+ spell_attack_generic: "щупальца тайной энергии начинают окутывать меня"
+ spell_attack_light: "яркий и ослепительный свет - ярче и чище любого солнца или звезды - начинает окутывать меня"
+ spell_attack_water: "запах воды наполняет мой нос и звуки разбивающихся волн донимают мои уши"
+ spell_attack_fire: "комната начинает стремительно нагреваться и наполняться волшебным дымом"
+ spell_attack_dream: "тысячи шепотов эхом разносятся по комнате, становясь все громче и громче, когда видения невозможного захватывают мой разум."
+ spell_attack_darkness: "тени в комнате меняются и тянутся ко мне, словно тянутся к звездным рукам"
+ spell_attack_ice: "снег необъяснимым образом стекает с потолка, а факелы гаснет на смертельном ветру"
+ spell_attack_stone: "земля грохочет и трясется, когда куски каменной кладки начинают подниматься вверх и образовывать символы в воздухе"
+ spell_attack_air: "воздух начинает вырываться из моей груди и яростно кружиться по комнате"
+ spell_attack_blood: "мое сердце начинает бешено колотиться, и я слышу, как кровь проносится через голову"
   
   # Searching for a Magi 
   
- magic.0101.t: "В поисках [magi|E]"  #Машинный перевод 28.10.23!
- magic.0101.desc: "Я разослал агентов повсюду, чтобы распространить информацию о том, что мне нужны услуги [magi|E]. Некоторым не требуется много времени, чтобы прислушаться к моему призыву, и мои слуги сузили список кандидатов до нескольких наиболее многообещающих.\n\nВсе, что мне нужно сделать сейчас, это выбрать одного..."  #Машинный перевод 28.10.23!
- magic.0101.a: "[low_skill_option.GetFirstNameNoTooltip] достаточно для моих нужд."  #Машинный перевод 28.10.23!
- magic.0101.b: "[high_skill_option.GetFirstNameNoTooltip] подает большие надежды."  #Машинный перевод 28.10.23!
- magic.0101.c: "[excellent_skill_option.GetFirstNameNoTooltip] широко известен в научных кругах."  #Машинный перевод 28.10.23!
- magic.0101.d: "Они оба не произвели на меня впечатления."  #Машинный перевод 28.10.23!
+ magic.0101.t: "В поисках [magi|E]"
+ magic.0101.desc: "Я разослал агентов повсюду, чтобы распространить информацию о том, что мне нужны услуги [magi|E]. Некоторым не требуется много времени, чтобы прислушаться к моему призыву, и мои слуги сузили список кандидатов до нескольких наиболее многообещающих.\n\nВсе, что мне нужно сделать сейчас, это выбрать одного..."
+ magic.0101.redlander.desc: "[chancellor.GetCouncilTitle|U] [chancellor.GetFirstNameNoTooltip] has summoned before me candidates from several nearby minor cults, each supplicating in rituals of devotion and offering me their blood or their service for the glory of the abyss. Only one may be worthy to serve as my [ROOT.Char.Custom('GetActualCourtMagiTitle')], the others shall leave in shame." #NT!
+ magic.0101.ending.desc: "\n\nAll I need to do now is decide..." #NT!
+ magic.0101.a: "[low_skill_option.GetFirstNameNoTooltip] достаточно для моих нужд."
+ magic.0101.b: "[high_skill_option.GetFirstNameNoTooltip] подает большие надежды."
+ magic.0101.c: "[excellent_skill_option.GetFirstNameNoTooltip] широко известен в научных кругах."
+ magic.0101.d: "Они оба не произвели на меня впечатления."
   
- magic.0201.t: "Тайная переписка"  #Машинный перевод 28.10.23!
- magic.0201.desc: "Моим трепетам пришел конец, поскольку [recipient.GetFirstName] наконец соизволил вернуть мою корреспонденцию. Для [favor|E], [recipient.GetSheHe] согласился поделиться со мной [recipient.GetHerHis] знаниями о магических искусствах. У меня почти кружится голова от волнения, когда я просматриваю стопку пергамента, сопровождавшую их ответ. Наконец, сила #underline [spell_to_learn_scope.Custom('SpellName')]#! будет моей!"  #Машинный перевод 28.10.23!
- magic.0201.a: "Давай приступим к работе!"  #Машинный перевод 28.10.23!
+ magic.0201.t: "Тайная переписка"
+ magic.0201.desc: "Моим трепетам пришел конец, поскольку [recipient.GetFirstName] наконец соизволил вернуть мою корреспонденцию. Для [favor|E], [recipient.GetSheHe] согласился поделиться со мной [recipient.GetHerHis] знаниями о магических искусствах. У меня почти кружится голова от волнения, когда я просматриваю стопку пергамента, сопровождавшую их ответ. Наконец, сила #underline [spell_to_learn_scope.Custom('SpellName')]#! будет моей!"
+ magic.0201.a: "Давай приступим к работе!"
   
- magic.0202.t: "Тайная переписка"  #Машинный перевод 28.10.23!
- magic.0202.desc: "С разочарованием и разочарованием находит меня письмо от [recipient.GetFirstName]. [recipient.GetSheHe|U], похоже, не решил помочь мне в моих поисках магических знаний, хотя [recipient.GetSheHe], очевидно, желает мне удачи в моих будущих начинаниях. Похоже, мне придется овладеть #underline [spell_to_learn_scope.Custom('SpellName')]#! где-нибудь еще."  #Машинный перевод 28.10.23!
- magic.0202.a: "Неудачно..."  #Машинный перевод 28.10.23!
- magic.0202.b: "Я не сдамся так легко!"  #Машинный перевод 28.10.23!
+ magic.0202.t: "Тайная переписка"
+ magic.0202.desc: "С разочарованием и разочарованием находит меня письмо от [recipient.GetFirstName]. [recipient.GetSheHe|U], похоже, не решил помочь мне в моих поисках магических знаний, хотя [recipient.GetSheHe], очевидно, желает мне удачи в моих будущих начинаниях. Похоже, мне придется овладеть #underline [spell_to_learn_scope.Custom('SpellName')]#! где-нибудь еще."
+ magic.0202.a: "Неудачно..."
+ magic.0202.b: "Я не сдамся так легко!"
   
- magic.1001.t: "Чародейский яд"  #Машинный перевод 28.10.23!
- magic.1001.desc: "Когда я занимаюсь своими повседневными обязанностями, меня охватывает внезапное ощущение жжения, чувство, которое лучше всего можно описать как превращение самой моей крови в кислоту. Я падаю на пол, корчась от боли, мои слуги спешат мне на помощь. После того, как мой врач затащил меня в спальню и дал обезболивающую смесь, было быстро установлено, что я, скорее всего, стал жертвой атаки [magical|E].\n\nХотя точно определить источник сложно, я не сомневаюсь, что это [caster.GetFirstName] за этим!"  #Машинный перевод 28.10.23!
- magic.1001.a: "Этот подлый интриган!"  #Машинный перевод 28.10.23!
- magic.1002.t: "Ядовитый ответный удар"  #Машинный перевод 28.10.23!
- magic.1002.desc: "Когда последний из реагентов помещается в ритуальный зал, я произношу заклинание, пока мои помощники поют вокруг меня. Жаровня в центре ритуального зала ярко светится, почти как само солнце, когда я выливаю в нее яд и помещаю ядовитую гадюку в ее пламя.\n\n[magic|E] вливается в зал в крещендо заклинания. , достаточно осязаемый, чтобы увидеть своими глазами, слова силы, направляющие его в жаровню. Дым костра становится красным и ядовитым, и слишком поздно я замечаю, что энергии [magical|E] не рассеиваются должным образом.\n\nВ один момент дым тянется и поглощает меня, и я чувствую, как яд разрушает мое тело. . Хотя один из помощников способен влить мне в рот несколько целебных реагентов, все, что я могу сделать, это кричать."  #Машинный перевод 28.10.23!
- magic.1002.a: "Черт возьми!"  #Машинный перевод 28.10.23!
+ magic.1001.t: "Чародейский яд"
+ magic.1001.desc: "Когда я занимаюсь своими повседневными обязанностями, меня охватывает внезапное ощущение жжения, чувство, которое лучше всего можно описать как превращение самой моей крови в кислоту. Я падаю на пол, корчась от боли, мои слуги спешат мне на помощь. После того, как мой врач затащил меня в спальню и дал обезболивающую смесь, было быстро установлено, что я, скорее всего, стал жертвой атаки [magical|E].\n\nХотя точно определить источник сложно, я не сомневаюсь, что это [caster.GetFirstName] за этим!"
+ magic.1001.a: "Этот подлый интриган!"
+ magic.1002.t: "Ядовитый ответный удар"
+ magic.1002.desc: "Когда последний из реагентов помещается в ритуальный зал, я произношу заклинание, пока мои помощники поют вокруг меня. Жаровня в центре ритуального зала ярко светится, почти как само солнце, когда я выливаю в нее яд и помещаю ядовитую гадюку в ее пламя.\n\n[magic|E] вливается в зал в крещендо заклинания. , достаточно осязаемый, чтобы увидеть своими глазами, слова силы, направляющие его в жаровню. Дым костра становится красным и ядовитым, и слишком поздно я замечаю, что энергии [magical|E] не рассеиваются должным образом.\n\nВ один момент дым тянется и поглощает меня, и я чувствую, как яд разрушает мое тело. . Хотя один из помощников способен влить мне в рот несколько целебных реагентов, все, что я могу сделать, это кричать."
+ magic.1002.a: "Черт возьми!"
   
- magic.1012.t: "Огненный ответный удар"  #Машинный перевод 28.10.23!
- magic.1012.desc: "Солдаты несут к месту ритуала ящик с ветками, ставя его рядом с жаровней. Жестом отпустив их, я кладу сверток в огонь и произношу слово силы. [magic|E] разрастается на месте ритуала, пламя становится все ярче и ярче, огонь подчиняется каждому моему слову и жесту. В кульминации ритуала я приказываю огню выйти наружу и уничтожить моих врагов, но оно не отвечает, а вместо этого становится все больше и больше. Всего за один миг жаровня взрывается огромным пожаром, швыряя меня на землю и принося опустошение и беспорядок в мою армию."  #Машинный перевод 28.10.23!
- magic.1012.a: "Потушите пожары!"  #Машинный перевод 28.10.23!
+ magic.1012.t: "Огненный ответный удар"
+ magic.1012.desc: "Солдаты несут к месту ритуала ящик с ветками, ставя его рядом с жаровней. Жестом отпустив их, я кладу сверток в огонь и произношу слово силы. [magic|E] разрастается на месте ритуала, пламя становится все ярче и ярче, огонь подчиняется каждому моему слову и жесту. В кульминации ритуала я приказываю огню выйти наружу и уничтожить моих врагов, но оно не отвечает, а вместо этого становится все больше и больше. Всего за один миг жаровня взрывается огромным пожаром, швыряя меня на землю и принося опустошение и беспорядок в мою армию."
+ magic.1012.a: "Потушите пожары!"
   
- magic.1016.t: "Потрясающий опыт"  #Машинный перевод 28.10.23!
- magic.1016.desc: "Занимаясь своими повседневными делами, я опрокидываю пузырек с чернилами, подписывая петицию, которую мне принесли мои советники. Что-то досадливо бормоча, я тянусь, чтобы поднять его, но, к моему удивлению, моя рука останавливается на полпути. Затем я замечаю ощущение... затвердевания? Я пытаюсь пошевелить рукой, но ощущение быстро распространяется по предплечью. Такое ощущение, будто кровь в моей руке налилась камнем! Я падаю на стол, моя рука остается на месте. Прежде чем потерять сознание, я вижу, как охранник бросается ко мне и зовет на помощь.\n\nНекоторое время спустя я просыпаюсь в своей комнате. Инстинктивно я пытаюсь потереть глаза, но чувствую только левую руку. Только тогда я замечаю своего врача, сидящего в кресле рядом со мной. Он обеспокоенно сообщает мне, что я стал жертвой атаки [magical|E] - вероятно, дело рук [caster.GetFirstName]."  #Машинный перевод 28.10.23!
- magic.1016.a: "Этот ублюдок!"  #Машинный перевод 28.10.23!
- magic.1017.t: "Окаменеть"  #Машинный перевод 28.10.23!
- magic.1017.desc: "случайно ударил себя заклинанием Окаменение!"  #Машинный перевод 28.10.23!
- magic.1017.a: "Черт возьми!"  #Машинный перевод 28.10.23!
+ magic.1016.t: "Потрясающий опыт"
+ magic.1016.desc: "Занимаясь своими повседневными делами, я опрокидываю пузырек с чернилами, подписывая петицию, которую мне принесли мои советники. Что-то досадливо бормоча, я тянусь, чтобы поднять его, но, к моему удивлению, моя рука останавливается на полпути. Затем я замечаю ощущение... затвердевания? Я пытаюсь пошевелить рукой, но ощущение быстро распространяется по предплечью. Такое ощущение, будто кровь в моей руке налилась камнем! Я падаю на стол, моя рука остается на месте. Прежде чем потерять сознание, я вижу, как охранник бросается ко мне и зовет на помощь.\n\nНекоторое время спустя я просыпаюсь в своей комнате. Инстинктивно я пытаюсь потереть глаза, но чувствую только левую руку. Только тогда я замечаю своего врача, сидящего в кресле рядом со мной. Он обеспокоенно сообщает мне, что я стал жертвой атаки [magical|E] - вероятно, дело рук [caster.GetFirstName]."
+ magic.1016.a: "Этот ублюдок!"
+ magic.1017.t: "Окаменеть"
+ magic.1017.desc: "случайно ударил себя заклинанием Окаменение!"
+ magic.1017.a: "Черт возьми!"
   
- magic.1021.t: "Внезапное сжатие"  #Машинный перевод 28.10.23!
- magic.1021.desc: "Пока я по той или иной причине надеваю доспехи, меня вдруг окутывает какая-то странная аура. Я едва успеваю обдумать смысл этого, как это спонтанно начинает меня давить. Я пытаюсь кричать, но могу только издать болезненный вздох, когда моя броня начинает прогибаться в груди. Когда шлем начинает давить на мой череп, я теряю сознание и просыпаюсь в своей постели. Хотя мне трудно понять слова, которые говорит мой [Concept('magic_tutor','[court_magi|E]')|E], я слышу что-то об атаке тайной природы, вероятно, от [magi|E] по имени [caster.GetFirstName]."  #Машинный перевод 28.10.23!
- magic.1021.a: "Это больно..."  #Машинный перевод 28.10.23!
- magic.1022.t: "Неожиданная мацерация"  #Машинный перевод 28.10.23!
- magic.1022.desc: "Ритуальный круг светится болезненно-зеленым цветом тайной энергии, когда я начинаю произносить необходимые слова, мои руки наполняют комнату силой [magical|E]. Я разбросал по кругу небольшое количество пыли [Concept('aervalr','Aervalrian')|E], смешанной с размолотыми костями огромного змееподобного существа. Наконец, я добавляю в смесь большое количество зыбучего песка, но когда я готовлюсь завершить ритуал последним приливом силы, мои ноги внезапно подкашиваются, и я падаю на землю. Я чувствую, как каждая кость в моих руках разрушается, когда они искажаются моей собственной магией, осколки яростно пронзают плоть. Последнее, что я вижу перед тем, как все станет черным, — это мои слуги, спешащие мне на помощь."  #Машинный перевод 28.10.23!
- magic.1022.a: "Агония!"  #Машинный перевод 28.10.23!
+ magic.1021.t: "Внезапное сжатие"
+ magic.1021.desc: "Пока я по той или иной причине надеваю доспехи, меня вдруг окутывает какая-то странная аура. Я едва успеваю обдумать смысл этого, как это спонтанно начинает меня давить. Я пытаюсь кричать, но могу только издать болезненный вздох, когда моя броня начинает прогибаться в груди. Когда шлем начинает давить на мой череп, я теряю сознание и просыпаюсь в своей постели. Хотя мне трудно понять слова, которые говорит мой [Concept('magic_tutor','[court_magi|E]')|E], я слышу что-то об атаке тайной природы, вероятно, от [magi|E] по имени [caster.GetFirstName]."
+ magic.1021.a: "Это больно..."
+ magic.1022.t: "Неожиданная мацерация"
+ magic.1022.desc: "Ритуальный круг светится болезненно-зеленым цветом тайной энергии, когда я начинаю произносить необходимые слова, мои руки наполняют комнату силой [magical|E]. Я разбросал по кругу небольшое количество пыли [Concept('aervalr','Aervalrian')|E], смешанной с размолотыми костями огромного змееподобного существа. Наконец, я добавляю в смесь большое количество зыбучего песка, но когда я готовлюсь завершить ритуал последним приливом силы, мои ноги внезапно подкашиваются, и я падаю на землю. Я чувствую, как каждая кость в моих руках разрушается, когда они искажаются моей собственной магией, осколки яростно пронзают плоть. Последнее, что я вижу перед тем, как все станет черным, — это мои слуги, спешащие мне на помощь."
+ magic.1022.a: "Агония!"
   
- magic.1026.t: "Выжженная звезда"  #Машинный перевод 28.10.23!
- magic.1026.desc: "Глядя на свое царство в полдень из окна своей спальни, я испытываю краткое удовольствие от этого зрелища, прежде чем в шоке отшатнуться при виде чего-то, чего не должно быть. Гигантский огненный шар, устрашающе несущийся к моим владениям, а я могу только в шоке смотреть на его неминуемое падение. Когда огромный огненный шар сталкивается с землей, мой рот широко раскрывается от масштабов разрушения, а на месте удара образуется огромное облако пыли. Один из моих советников в панике сообщает мне, что это работа [caster.GetFirstName]."  #Машинный перевод 28.10.23!
- magic.1026.a: "К [Root.Religion.HighGodName]."  #Машинный перевод 28.10.23!
- magic.1027.t: "Суд Магов"  #Машинный перевод 28.10.23!
- magic.1027.desc: "Ритуал приближается к своему завершению, когда я и несколько доверенных помощников произносим тайное заклинание из моего гримуара, и все наши глаза тлеют одним и тем же оттенком зеленого. Я кладу в ритуал осколок [aervalr|E] и смесь раздробленных костей кокатриса вместе с фрагментами железа, никеля и камня. После этого я и мои помощники начинаем излучать огромное количество энергии [magical|E], и вся область вокруг нас приобретает такое же зеленоватое свечение, как и наши глаза. Однако без предупреждения один из помощников резко падает на пол, обессиленный. Хотя слуга быстро выбегает, чтобы помочь послушнику добраться до его постели, остальные из нас напрягаются в попытках направить путь небесного тела, но вскоре силы у нас тоже исчерпаны, и ритуал выходит из-под контроля.\n\nA Слуга тут же начинает кричать от ужаса, увидев массивный объект, направляющийся прямо в нашу сторону, и я поднимаю глаза с покорностью, оттененной страхом. Я встаю на трясущихся ногах и тут же начинаю выполнять какое-то заклинание, чтобы создать магический щит, в надежде, что оно спасет меня от неминуемой смерти. У меня есть всего несколько секунд, чтобы обдумать свою жизнь, прежде чем она грянет."  #Машинный перевод 28.10.23!
- magic.1027.a: "Неужели все это было зря?"  #Машинный перевод 28.10.23!
+ magic.1026.t: "Выжженная звезда"
+ magic.1026.desc: "Глядя на свое царство в полдень из окна своей спальни, я испытываю краткое удовольствие от этого зрелища, прежде чем в шоке отшатнуться при виде чего-то, чего не должно быть. Гигантский огненный шар, устрашающе несущийся к моим владениям, а я могу только в шоке смотреть на его неминуемое падение. Когда огромный огненный шар сталкивается с землей, мой рот широко раскрывается от масштабов разрушения, а на месте удара образуется огромное облако пыли. Один из моих советников в панике сообщает мне, что это работа [caster.GetFirstName]."
+ magic.1026.a: "К [Root.Religion.HighGodName]."
+ magic.1027.t: "Суд Магов"
+ magic.1027.desc: "Ритуал приближается к своему завершению, когда я и несколько доверенных помощников произносим тайное заклинание из моего гримуара, и все наши глаза тлеют одним и тем же оттенком зеленого. Я кладу в ритуал осколок [aervalr|E] и смесь раздробленных костей кокатриса вместе с фрагментами железа, никеля и камня. После этого я и мои помощники начинаем излучать огромное количество энергии [magical|E], и вся область вокруг нас приобретает такое же зеленоватое свечение, как и наши глаза. Однако без предупреждения один из помощников резко падает на пол, обессиленный. Хотя слуга быстро выбегает, чтобы помочь послушнику добраться до его постели, остальные из нас напрягаются в попытках направить путь небесного тела, но вскоре силы у нас тоже исчерпаны, и ритуал выходит из-под контроля.\n\nA Слуга тут же начинает кричать от ужаса, увидев массивный объект, направляющийся прямо в нашу сторону, и я поднимаю глаза с покорностью, оттененной страхом. Я встаю на трясущихся ногах и тут же начинаю выполнять какое-то заклинание, чтобы создать магический щит, в надежде, что оно спасет меня от неминуемой смерти. У меня есть всего несколько секунд, чтобы обдумать свою жизнь, прежде чем она грянет."
+ magic.1027.a: "Неужели все это было зря?"
   
- magic.1028.t: "Небесное уничтожение"  #Машинный перевод 28.10.23!
- magic.1028.desc: "Светящиеся татуировки, кажется, скользят и змеятся по моему телу, пока ритуал ревет темной силой. Аколиты носятся взад и вперед, поспешно падая в сердце каменного голема, что вызывает взрыв энергий [magical|E], которые превращаются в завитки болезненного зеленого света. Они поднимаются в небо, проникая все выше в космос, как будто намереваясь свергнуть самих богов. Огромный огненный шар, напоминающий падающую звезду, спускается с небес, чтобы поразить объект моей ярости. По завершении ритуала щупальца исчезают, и я внимательно наблюдаю, как он яростно врезается в землю с оглушительным грохотом, который сотрясает землю подо мной от своей силы. Вскоре после этого из места удара поднялись дым и пепел, и похоже, что ничто не могло выжить в этом ужасном столкновении. Эта область не скоро восстановится."  #Машинный перевод 28.10.23!
- magic.1028.a: "Так всегда с теми, кто противостоит мне."  #Машинный перевод 28.10.23!
+ magic.1028.t: "Небесное уничтожение"
+ magic.1028.desc: "Светящиеся татуировки, кажется, скользят и змеятся по моему телу, пока ритуал ревет темной силой. Аколиты носятся взад и вперед, поспешно падая в сердце каменного голема, что вызывает взрыв энергий [magical|E], которые превращаются в завитки болезненного зеленого света. Они поднимаются в небо, проникая все выше в космос, как будто намереваясь свергнуть самих богов. Огромный огненный шар, напоминающий падающую звезду, спускается с небес, чтобы поразить объект моей ярости. По завершении ритуала щупальца исчезают, и я внимательно наблюдаю, как он яростно врезается в землю с оглушительным грохотом, который сотрясает землю подо мной от своей силы. Вскоре после этого из места удара поднялись дым и пепел, и похоже, что ничто не могло выжить в этом ужасном столкновении. Эта область не скоро восстановится."
+ magic.1028.a: "Так всегда с теми, кто противостоит мне."
   
- magic.1029.t: "Небесное уничтожение"  #Машинный перевод 28.10.23!
- magic.1029.desc: "Светящиеся татуировки, кажется, скользят и змеятся по моему телу, пока ритуал ревет темной силой. Аколиты носятся взад и вперед, поспешно падая в сердце каменного голема, что вызывает взрыв энергий [magical|E], которые превращаются в завитки болезненного зеленого света. Они поднимаются в небо, проникая все выше в космос, как будто намереваясь свергнуть самих богов. Огромный огненный шар, напоминающий падающую звезду, спускается с небес, чтобы поразить объект моей ярости. По завершении ритуала щупальца исчезают, и я внимательно наблюдаю, как он яростно врезается в землю с оглушительным грохотом, который сотрясает землю подо мной от своей силы. Вскоре после этого из места удара поднялись дым и пепел, и похоже, что ничто не могло выжить в этом ужасном столкновении. Эта область не скоро восстановится."  #Машинный перевод 28.10.23!
- magic.1029.a: "Так всегда с теми, кто противостоит мне."  #Машинный перевод 28.10.23!
+ magic.1029.t: "Небесное уничтожение"
+ magic.1029.desc: "Светящиеся татуировки, кажется, скользят и змеятся по моему телу, пока ритуал ревет темной силой. Аколиты носятся взад и вперед, поспешно падая в сердце каменного голема, что вызывает взрыв энергий [magical|E], которые превращаются в завитки болезненного зеленого света. Они поднимаются в небо, проникая все выше в космос, как будто намереваясь свергнуть самих богов. Огромный огненный шар, напоминающий падающую звезду, спускается с небес, чтобы поразить объект моей ярости. По завершении ритуала щупальца исчезают, и я внимательно наблюдаю, как он яростно врезается в землю с оглушительным грохотом, который сотрясает землю подо мной от своей силы. Вскоре после этого из места удара поднялись дым и пепел, и похоже, что ничто не могло выжить в этом ужасном столкновении. Эта область не скоро восстановится."
+ magic.1029.a: "Так всегда с теми, кто противостоит мне."
   
- magic.1041.t: "Земля раскололась надвое"  #Машинный перевод 28.10.23!
- magic.1041.desc: "Я мирно лежу в своей постели, когда внезапно сама земля подо мной начинает дрожать, затем дрожать, затем дрожать, когда я сразу же начинаю действовать и пытаюсь найти безопасное место, чтобы укрыться. Вскоре я, к своему ужасу и ужасу, обнаруживаю: что нет безопасного места, куда можно было бы отступить. Кажется, будто какой-то великий подземный демон в ярости разрывает саму землю, а я с великим отчаянием держусь за обломки. Вскоре земля перестает дрожать, и придворные маги отводят меня в сторону и сообщают, что это сделал [caster.GetFirstName]."  #Машинный перевод 28.10.23!
- magic.1041.a: "Пусть я никогда больше не стану свидетелем того, как подобное произойдет."  #Машинный перевод 28.10.23!
- magic.1042.t: "Цена высокомерия"  #Машинный перевод 28.10.23!
- magic.1042.desc: "Я и несколько помощников участвуем в ритуале заклинания, которое расколет землю под одним из моих врагов, когда она начинает идти наперекосяк. Несмотря на то, что мы использовали необходимое количество костей каменных гигантов вместе с осколками [Concept('aervalr','Aervalrian')|E], кажется, что ситуация выходит из-под нашего контроля. Сколько бы энергии мы ни вкладывали в ритуал, круг отказывается стабилизироваться, и более того, наши усилия, похоже, лишь способствуют дальнейшей дестабилизации ритуала. Поспешно подавая сигнал моим помощникам перекрыть поток энергии в ритуале, я неожиданно чувствую, как земля дрожит и трясется в конвульсиях, когда я одновременно кричу, чтобы мои помощники бежали в безопасное место, а я бегу туда, где есть более устойчивая опора. Дрожь продолжает усиливаться, и чувство, что этот день может быть моим последним, начинает проникать."  #Машинный перевод 28.10.23!
- magic.1042.a: "Пошло все к черту!"  #Машинный перевод 28.10.23!
+ magic.1041.t: "Земля раскололась надвое"
+ magic.1041.desc: "Я мирно лежу в своей постели, когда внезапно сама земля подо мной начинает дрожать, затем дрожать, затем дрожать, когда я сразу же начинаю действовать и пытаюсь найти безопасное место, чтобы укрыться. Вскоре я, к своему ужасу и ужасу, обнаруживаю: что нет безопасного места, куда можно было бы отступить. Кажется, будто какой-то великий подземный демон в ярости разрывает саму землю, а я с великим отчаянием держусь за обломки. Вскоре земля перестает дрожать, и придворные маги отводят меня в сторону и сообщают, что это сделал [caster.GetFirstName]."
+ magic.1041.a: "Пусть я никогда больше не стану свидетелем того, как подобное произойдет."
+ magic.1042.t: "Цена высокомерия"
+ magic.1042.desc: "Я и несколько помощников участвуем в ритуале заклинания, которое расколет землю под одним из моих врагов, когда она начинает идти наперекосяк. Несмотря на то, что мы использовали необходимое количество костей каменных гигантов вместе с осколками [Concept('aervalr','Aervalrian')|E], кажется, что ситуация выходит из-под нашего контроля. Сколько бы энергии мы ни вкладывали в ритуал, круг отказывается стабилизироваться, и более того, наши усилия, похоже, лишь способствуют дальнейшей дестабилизации ритуала. Поспешно подавая сигнал моим помощникам перекрыть поток энергии в ритуале, я неожиданно чувствую, как земля дрожит и трясется в конвульсиях, когда я одновременно кричу, чтобы мои помощники бежали в безопасное место, а я бегу туда, где есть более устойчивая опора. Дрожь продолжает усиливаться, и чувство, что этот день может быть моим последним, начинает проникать."
+ magic.1042.a: "Пошло все к черту!"
   
- magic.1043.t: "Плутоническая ярость"  #Машинный перевод 28.10.23!
- magic.1043.desc: "Мои глаза горят силой, пока я повторяю необходимые заклинания вместе со своими помощниками, заставляя маленькие фрагменты [aervalr|E] дрожать от гнева. Измельченные кости амфитеры, существа, которое является полной анафемой для земли, пробуждающее землю под нами сначала в бодрствование, а затем в едва сдерживаемую ярость, когда магические энергии постоянно хлынут в нее из открытых рук моих помощников. Я произношу последние слова призыва глубокими, гулкими звуками земли и, опираясь на свои собственные запасы силы, силой открываю путь к месту назначения, направляя приближающееся излияние глубинного гнева к выбранной мной цели. Сама земля раскалывается, когда ее ярость вырывается вперед с невероятной скоростью, и я вижу вдалеке здания, поглощаемые целиком, в то время как другие рушатся внутрь себя, и маленькие пятнышки разбегаются в ужасе, хотя для большинства это акт абсолютной тщетности. Уже отсюда ясно, что опустошение, произведенное в этот день моими действиями, самое ужасное, что меня весьма удовлетворяет."  #Машинный перевод 28.10.23!
- magic.1043.a: "Даже земля склоняется перед моей высшей силой."  #Машинный перевод 28.10.23!
+ magic.1043.t: "Плутоническая ярость"
+ magic.1043.desc: "Мои глаза горят силой, пока я повторяю необходимые заклинания вместе со своими помощниками, заставляя маленькие фрагменты [aervalr|E] дрожать от гнева. Измельченные кости амфитеры, существа, которое является полной анафемой для земли, пробуждающее землю под нами сначала в бодрствование, а затем в едва сдерживаемую ярость, когда магические энергии постоянно хлынут в нее из открытых рук моих помощников. Я произношу последние слова призыва глубокими, гулкими звуками земли и, опираясь на свои собственные запасы силы, силой открываю путь к месту назначения, направляя приближающееся излияние глубинного гнева к выбранной мной цели. Сама земля раскалывается, когда ее ярость вырывается вперед с невероятной скоростью, и я вижу вдалеке здания, поглощаемые целиком, в то время как другие рушатся внутрь себя, и маленькие пятнышки разбегаются в ужасе, хотя для большинства это акт абсолютной тщетности. Уже отсюда ясно, что опустошение, произведенное в этот день моими действиями, самое ужасное, что меня весьма удовлетворяет."
+ magic.1043.a: "Даже земля склоняется перед моей высшей силой."
   
- magic.1044.t: "Плутоническая ярость"  #Машинный перевод 28.10.23!
- magic.1044.desc: "Мои глаза горят силой, пока я повторяю необходимые заклинания вместе со своими помощниками, заставляя маленькие фрагменты [aervalr|E] дрожать от гнева. Измельченные кости амфитеры, существа, которое является полной анафемой для земли, пробуждающее землю под нами сначала в бодрствование, а затем в едва сдерживаемую ярость, когда магические энергии постоянно хлынут в нее из открытых рук моих помощников. Я произношу последние слова призыва глубокими, гулкими звуками земли и, опираясь на свои собственные запасы силы, силой открываю путь к месту назначения, направляя приближающееся излияние глубинного гнева к выбранной мной цели. Сама земля раскалывается, когда ее ярость вырывается вперед с невероятной скоростью, и я вижу вдалеке здания, поглощаемые целиком, в то время как другие рушатся внутрь себя, и маленькие пятнышки разбегаются в ужасе, хотя для большинства это акт абсолютной тщетности. Уже отсюда ясно, что опустошение, произведенное в этот день моими действиями, самое ужасное, что меня весьма удовлетворяет."  #Машинный перевод 28.10.23!
- magic.1044.a: "Даже земля склоняется перед моей высшей силой."  #Машинный перевод 28.10.23!
+ magic.1044.t: "Плутоническая ярость"
+ magic.1044.desc: "Мои глаза горят силой, пока я повторяю необходимые заклинания вместе со своими помощниками, заставляя маленькие фрагменты [aervalr|E] дрожать от гнева. Измельченные кости амфитеры, существа, которое является полной анафемой для земли, пробуждающее землю под нами сначала в бодрствование, а затем в едва сдерживаемую ярость, когда магические энергии постоянно хлынут в нее из открытых рук моих помощников. Я произношу последние слова призыва глубокими, гулкими звуками земли и, опираясь на свои собственные запасы силы, силой открываю путь к месту назначения, направляя приближающееся излияние глубинного гнева к выбранной мной цели. Сама земля раскалывается, когда ее ярость вырывается вперед с невероятной скоростью, и я вижу вдалеке здания, поглощаемые целиком, в то время как другие рушатся внутрь себя, и маленькие пятнышки разбегаются в ужасе, хотя для большинства это акт абсолютной тщетности. Уже отсюда ясно, что опустошение, произведенное в этот день моими действиями, самое ужасное, что меня весьма удовлетворяет."
+ magic.1044.a: "Даже земля склоняется перед моей высшей силой."
   
- magic.1046.t: "Безумие Магов"  #Машинный перевод 28.10.23!
- magic.1046.desc: "После того, как мои помощники нарисовали ритуальный круг для моего заклинания, мы начали произносить тайные слова, лежащие в основе ритуала, и медленно, но верно перекачивали силу в круг. Я поручаю некоторым из моих помощников подавать ритуальные материалы по мере необходимости с предельной осторожностью, пока мои глаза горят зеленым, но затем замечаю, что не все так, как должно быть. Тайная сила, содержащаяся в ритуале, начинает становиться дикой и беспокойной, а не подавленной и спокойной, как должно быть, и я не могу ее подчинить. Я и мои помощники яростно борюсь за то, чтобы восстановить контроль над ритуалом, но ситуация продолжает стремительно ухудшаться, поскольку мы начинаем паниковать. Затем в мгновение ока энергии ритуала достигают предела, и само заклинание обрушивается на нас с яростью."  #Машинный перевод 28.10.23!
- magic.1046.a: "К черту все!"  #Машинный перевод 28.10.23!
+ magic.1046.t: "Безумие Магов"
+ magic.1046.desc: "После того, как мои помощники нарисовали ритуальный круг для моего заклинания, мы начали произносить тайные слова, лежащие в основе ритуала, и медленно, но верно перекачивали силу в круг. Я поручаю некоторым из моих помощников подавать ритуальные материалы по мере необходимости с предельной осторожностью, пока мои глаза горят зеленым, но затем замечаю, что не все так, как должно быть. Тайная сила, содержащаяся в ритуале, начинает становиться дикой и беспокойной, а не подавленной и спокойной, как должно быть, и я не могу ее подчинить. Я и мои помощники яростно борюсь за то, чтобы восстановить контроль над ритуалом, но ситуация продолжает стремительно ухудшаться, поскольку мы начинаем паниковать. Затем в мгновение ока энергии ритуала достигают предела, и само заклинание обрушивается на нас с яростью."
+ magic.1046.a: "К черту все!"
   
- magic.1052.t: "Рост растений имеет неприятные последствия"  #Машинный перевод 28.10.23!
- magic.1052.desc: "Вместо улучшения роста растений ваше заклинание привело к увяданию урожая в [affected_county.GetName|E]."  #Машинный перевод 28.10.23!
- magic.1052.a: "Черт возьми!"  #Машинный перевод 28.10.23!
+ magic.1052.t: "Рост растений имеет неприятные последствия"
+ magic.1052.desc: "Вместо улучшения роста растений ваше заклинание привело к увяданию урожая в [affected_county.GetName|E]."
+ magic.1052.a: "Черт возьми!"
   
- magic.1101.t: "Утомление"  #Машинный перевод 28.10.23!
- magic.1101.desc: "Мне все кажется огромным трудом. Сколько бы я ни спал, сколько ни ел, у меня всегда такое ощущение, будто я на грани упадка, как будто только что закончил бег в гору. Вставать и ходить тяжело, а бежать совершенно не под силу.\n\nК концу дня мне приходится из последних сил залезть в кровать. В таком состоянии управлять будет сложно, но я справлюсь. Что еще [magic|E] может отнять у меня, кроме способностей?"  #Машинный перевод 28.10.23!
- magic.1101.a: "Я должен продолжать."  #Машинный перевод 28.10.23!
- magic.1101.a.diligent: "Нет! Я не могу превратиться в ленивого бездельника!"  #Машинный перевод 28.10.23!
- magic.1101.a.lazy: "В любом случае мне бы не помешало вздремнуть."  #Машинный перевод 28.10.23!
- magic.1102.t: "Чувствительность"  #Машинный перевод 28.10.23!
- magic.1102.desc: "Прикосновение воздуха к моей коже похоже на прикосновение руки. Когда я иду, я ощущаю каждую деталь пола, каждое деревянное волокно. Прикосновение к моей одежде отвлекает меня, поскольку я постоянно ее поправляю, пытаясь привыкнуть к дискомфорту. Я чувствую вкус каждой капли вина на языке, но любая незначительная травма причиняет мне боль. Жара обжигает, а холод морозит. Чрезмерное использование [magic|E] обрекло меня на то, что я буду чувствовать все, к лучшему или к худшему."  #Машинный перевод 28.10.23!
- magic.1102.a: "Мне придется к этому привыкнуть."  #Машинный перевод 28.10.23!
- magic.1102.a.diligent: "Всё равно нет времени отдыхать."  #Машинный перевод 28.10.23!
- magic.1102.a.lazy: "Как можно так спать!?"  #Машинный перевод 28.10.23!
- magic.1103.t: "В моей голове"  #Машинный перевод 28.10.23!
- magic.1103.desc: "Я слышу их. То, что сначала начиналось как почти тихий шепот, достаточно редкий, чтобы я мог отмахнуться от него как от блуждающих мыслей, превратилось в какофонию голосов, каждый из которых перекрикивал другого, взывая к мне, чтобы я заметил их, прислушался к ним. Будь то день или ночь, они говорят, рассказывая мне о том, какие награды меня ждут, говоря мне, что мне следует делать. Я боюсь кому-либо рассказать, потому что меня, скорее всего, сочтут сумасшедшим и оставят наедине с голосами. Один из них сообщает мне, что мой [magic|E] сделал это с ужасным визгом, и мне ничего не остается, как поверить этому."  #Машинный перевод 28.10.23!
- magic.1103.a: "Тишина теперь выше моего понимания."  #Машинный перевод 28.10.23!
- magic.1103.a.lunatic: "Они действительно говорят великую мудрость!"  #Машинный перевод 28.10.23!
- magic.1103.a.craven: "Я-я не могу больше этого терпеть!"  #Машинный перевод 28.10.23!
- magic.1103.a.brave: "Эх. Я привыкну к этому."  #Машинный перевод 28.10.23!
- magic.1104.t: "Отмечено"  #Машинный перевод 28.10.23!
- magic.1104.desc: "По мере того, как я проводил все больше и больше ритуалов, мое тело постепенно покрывалось татуировками, вырезанными на моей плоти в результате серии попыток укрепить мою силу. К настоящему времени оно стало заметно отчетливым: отметины идут от моей головы к ногам. Хотя на данный момент это того стоит, моя внешность всегда будет характеризоваться этими символами, и они, вероятно, будут присутствовать в каждом моем изображении."  #Машинный перевод 28.10.23!
- magic.1104.a: "Такова цена власти."  #Машинный перевод 28.10.23!
- magic.1105.t: "открытые глаза"  #Машинный перевод 28.10.23!
- magic.1105.desc: "Вначале они были смутными формами, видимыми только в темных уголках моего зрения, но теперь эти... видения, призраки разума - они стали дерзкими. С каждым ритуалом [magical|E], который я провожу, их становится все труднее отличить от реальности. Большинство из них просто необычны или настолько обыденны, что ускользают от внимания, но другие вызывают скорее беспокойство, и меня особенно беспокоит ночное время, когда они кажутся наиболее активными."  #Машинный перевод 28.10.23!
- magic.1105.a: "Я больше никогда не смогу ясно видеть."  #Машинный перевод 28.10.23!
- magic.1105.a.lunatic: "Мои глаза... они ОТКРЫТЫ!"  #Машинный перевод 28.10.23!
- magic.1105.a.craven: "Я-я не могу больше этого терпеть!"  #Машинный перевод 28.10.23!
- magic.1105.a.brave: "Эх. Я привыкну к этому."  #Машинный перевод 28.10.23!
- magic.1106.t: "Красное сияние"  #Машинный перевод 28.10.23!
- magic.1106.desc: "Когда я просыпаюсь ото сна, мне кажется, что что-то изменилось: ночная тьма становится немного ярче, когда я оглядываю свои покои. Встав, я вхожу в коридор, проходя мимо слуги, несущего ведро. Заметив меня, он подпрыгивает, выглядя потрясенным, и вода проливается на пол. Прежде чем я успеваю отчитать его, я вижу красный свет, слабо отражающийся в луже, и мое лицо окутано его тусклым сиянием. Кажется, мое чрезмерное использование [magic|E] стало видно по моим глазам, которые теперь светятся красным, как будто я вовлечен в ритуал."  #Машинный перевод 28.10.23!
- magic.1106.a: "Мой взгляд покажет мою силу."  #Машинный перевод 28.10.23!
- magic.1107.t: "Бледное отражение"  #Машинный перевод 28.10.23!
- magic.1107.desc: "Поначалу это кажется незначительным, просто игрой света: моя кожа кажется бледнее, чем обычно. По мере того, как это продолжается, я начинаю беспокоиться, что это признак какой-то болезни, однако мой врач не может определить болезнь. Несмотря на это, моя кожа теперь почти белая, какой бы цвет я когда-то ни лишил ее. Вероятно, это связано с магией, и, насколько я знаю, это невозможно повернуть вспять, поэтому цена моей силы всегда будет видна."  #Машинный перевод 28.10.23!
- magic.1107.a: "Я могу с этим жить."  #Машинный перевод 28.10.23!
- magic.1108.t: "Сияющая кровь"  #Машинный перевод 28.10.23!
- magic.1108.desc: "Последние несколько недель меня не давало спать ощущение, что что-то не так, но я не мог понять, что именно. Только когда меня разбудил ранним утром далекий шум, я осознал, что изменилось. Кажется, что мое тело слабо светится в темноте, как будто мои вены наполнены светом. Хотя пока мало кто прокомментировал это, некоторые, проходя мимо меня ночью, странно смотрели на меня. Вероятно, это было вызвано моим обильным использованием магии и навсегда оставит меня в стороне."  #Машинный перевод 28.10.23!
- magic.1108.a: "Это не кажется слишком очевидным."  #Машинный перевод 28.10.23!
- magic.1109.t: "Зеленое сияние"  #Машинный перевод 28.10.23!
- magic.1109.desc: "Когда я просыпаюсь ото сна, мне кажется, что что-то изменилось: ночная тьма становится немного ярче, когда я оглядываю свои покои. Встав, я вхожу в коридор, проходя мимо слуги, несущего ведро. Заметив меня, он подпрыгивает, выглядя потрясенным, и вода проливается на пол. Прежде чем я успеваю отчитать его, я вижу красный свет, слабо отражающийся в луже, и мое лицо окутано его тусклым сиянием. Кажется, мое чрезмерное использование [magic|E] стало видно в моих глазах, которые теперь светятся зеленым, как будто я вовлечен в ритуал."  #Машинный перевод 28.10.23!
- magic.1109.a: "Мой взгляд покажет мою силу."  #Машинный перевод 28.10.23!
- magic.1110.t: "Каменное затруднительное положение"  #Машинный перевод 28.10.23!
- magic.1110.desc: "Последние несколько недель я страдал от последствий загадочной болезни. Мои руки медленно, но верно онемели, а также приобрели темный и болезненный цвет, не говоря уже о их каменной текстуре. Мой рот и некоторые другие части моего тела приобрели схожие характеристики, и каждый день становится хуже предыдущего. Иногда, к моему большому огорчению, порой бывает слишком сложно выполнить даже базовые задачи без посторонней помощи. Беглое чтение быстро рассказывает мне о недуге, от которого я страдаю, «Пепел Эльтиадда», и рекомендует мне на время воздержаться от дальнейшего использования магии и поддерживать пораженные участки влажными."  #Машинный перевод 28.10.23!
- magic.1110.a: "«Лучше впредь не переусердствовать»."  #Машинный перевод 28.10.23!
- magic.1111.t: "Лунное увлечение"  #Машинный перевод 28.10.23!
- magic.1111.desc: "В последнее время я совершенно не могу сосредоточиться и чувствую тяжесть в самой душе, хотя и не знаю почему. Так или иначе, мне всегда удается ловить себя на том, что я смотрю на [aervalr|E]. Я не могу даже заниматься делами этого мира, потому что Аэрвалр всегда зовет меня, и я не могу устоять перед его очарованием. Когда я сплю, Аэрвлар — это все, что есть, все, что имеет значение, все, что когда-либо будет. Окружающие говорят, что меня поглотила одержимость Аэрвалром, что такому человеку, как я, не подобает поступать подобным образом. Они заблуждаются, они слепы, они не могут видеть того, что вижу я. Если бы я только мог протянуть руку и схватить это!"  #Машинный перевод 28.10.23!
- magic.1111.a: ""Видит око да зуб неймет.""  #Машинный перевод 28.10.23!
+ magic.1101.t: "Утомление"
+ magic.1101.desc: "Мне все кажется огромным трудом. Сколько бы я ни спал, сколько ни ел, у меня всегда такое ощущение, будто я на грани упадка, как будто только что закончил бег в гору. Вставать и ходить тяжело, а бежать совершенно не под силу.\n\nК концу дня мне приходится из последних сил залезть в кровать. В таком состоянии управлять будет сложно, но я справлюсь. Что еще [magic|E] может отнять у меня, кроме способностей?"
+ magic.1101.a: "Я должен продолжать."
+ magic.1101.a.diligent: "Нет! Я не могу превратиться в ленивого бездельника!"
+ magic.1101.a.lazy: "В любом случае мне бы не помешало вздремнуть."
+ magic.1102.t: "Чувствительность"
+ magic.1102.desc: "Прикосновение воздуха к моей коже похоже на прикосновение руки. Когда я иду, я ощущаю каждую деталь пола, каждое деревянное волокно. Прикосновение к моей одежде отвлекает меня, поскольку я постоянно ее поправляю, пытаясь привыкнуть к дискомфорту. Я чувствую вкус каждой капли вина на языке, но любая незначительная травма причиняет мне боль. Жара обжигает, а холод морозит. Чрезмерное использование [magic|E] обрекло меня на то, что я буду чувствовать все, к лучшему или к худшему."
+ magic.1102.a: "Мне придется к этому привыкнуть."
+ magic.1102.a.diligent: "Всё равно нет времени отдыхать."
+ magic.1102.a.lazy: "Как можно так спать!?"
+ magic.1103.t: "В моей голове"
+ magic.1103.desc: "Я слышу их. То, что сначала начиналось как почти тихий шепот, достаточно редкий, чтобы я мог отмахнуться от него как от блуждающих мыслей, превратилось в какофонию голосов, каждый из которых перекрикивал другого, взывая к мне, чтобы я заметил их, прислушался к ним. Будь то день или ночь, они говорят, рассказывая мне о том, какие награды меня ждут, говоря мне, что мне следует делать. Я боюсь кому-либо рассказать, потому что меня, скорее всего, сочтут сумасшедшим и оставят наедине с голосами. Один из них сообщает мне, что мой [magic|E] сделал это с ужасным визгом, и мне ничего не остается, как поверить этому."
+ magic.1103.a: "Тишина теперь выше моего понимания."
+ magic.1103.a.lunatic: "Они действительно говорят великую мудрость!"
+ magic.1103.a.craven: "Я-я не могу больше этого терпеть!"
+ magic.1103.a.brave: "Эх. Я привыкну к этому."
+ magic.1104.t: "Отмечено"
+ magic.1104.desc: "По мере того, как я проводил все больше и больше ритуалов, мое тело постепенно покрывалось татуировками, вырезанными на моей плоти в результате серии попыток укрепить мою силу. К настоящему времени оно стало заметно отчетливым: отметины идут от моей головы к ногам. Хотя на данный момент это того стоит, моя внешность всегда будет характеризоваться этими символами, и они, вероятно, будут присутствовать в каждом моем изображении."
+ magic.1104.a: "Такова цена власти."
+ magic.1105.t: "открытые глаза"
+ magic.1105.desc: "Вначале они были смутными формами, видимыми только в темных уголках моего зрения, но теперь эти... видения, призраки разума - они стали дерзкими. С каждым ритуалом [magical|E], который я провожу, их становится все труднее отличить от реальности. Большинство из них просто необычны или настолько обыденны, что ускользают от внимания, но другие вызывают скорее беспокойство, и меня особенно беспокоит ночное время, когда они кажутся наиболее активными."
+ magic.1105.a: "Я больше никогда не смогу ясно видеть."
+ magic.1105.a.lunatic: "Мои глаза... они ОТКРЫТЫ!"
+ magic.1105.a.craven: "Я-я не могу больше этого терпеть!"
+ magic.1105.a.brave: "Эх. Я привыкну к этому."
+ magic.1106.t: "Красное сияние"
+ magic.1106.desc: "Когда я просыпаюсь ото сна, мне кажется, что что-то изменилось: ночная тьма становится немного ярче, когда я оглядываю свои покои. Встав, я вхожу в коридор, проходя мимо слуги, несущего ведро. Заметив меня, он подпрыгивает, выглядя потрясенным, и вода проливается на пол. Прежде чем я успеваю отчитать его, я вижу красный свет, слабо отражающийся в луже, и мое лицо окутано его тусклым сиянием. Кажется, мое чрезмерное использование [magic|E] стало видно по моим глазам, которые теперь светятся красным, как будто я вовлечен в ритуал."
+ magic.1106.a: "Мой взгляд покажет мою силу."
+ magic.1107.t: "Бледное отражение"
+ magic.1107.desc: "Поначалу это кажется незначительным, просто игрой света: моя кожа кажется бледнее, чем обычно. По мере того, как это продолжается, я начинаю беспокоиться, что это признак какой-то болезни, однако мой врач не может определить болезнь. Несмотря на это, моя кожа теперь почти белая, какой бы цвет я когда-то ни лишил ее. Вероятно, это связано с магией, и, насколько я знаю, это невозможно повернуть вспять, поэтому цена моей силы всегда будет видна."
+ magic.1107.a: "Я могу с этим жить."
+ magic.1108.t: "Сияющая кровь"
+ magic.1108.desc: "Последние несколько недель меня не давало спать ощущение, что что-то не так, но я не мог понять, что именно. Только когда меня разбудил ранним утром далекий шум, я осознал, что изменилось. Кажется, что мое тело слабо светится в темноте, как будто мои вены наполнены светом. Хотя пока мало кто прокомментировал это, некоторые, проходя мимо меня ночью, странно смотрели на меня. Вероятно, это было вызвано моим обильным использованием магии и навсегда оставит меня в стороне."
+ magic.1108.a: "Это не кажется слишком очевидным."
+ magic.1109.t: "Зеленое сияние"
+ magic.1109.desc: "Когда я просыпаюсь ото сна, мне кажется, что что-то изменилось: ночная тьма становится немного ярче, когда я оглядываю свои покои. Встав, я вхожу в коридор, проходя мимо слуги, несущего ведро. Заметив меня, он подпрыгивает, выглядя потрясенным, и вода проливается на пол. Прежде чем я успеваю отчитать его, я вижу красный свет, слабо отражающийся в луже, и мое лицо окутано его тусклым сиянием. Кажется, мое чрезмерное использование [magic|E] стало видно в моих глазах, которые теперь светятся зеленым, как будто я вовлечен в ритуал."
+ magic.1109.a: "Мой взгляд покажет мою силу."
+ magic.1110.t: "Каменное затруднительное положение"
+ magic.1110.desc: "Последние несколько недель я страдал от последствий загадочной болезни. Мои руки медленно, но верно онемели, а также приобрели темный и болезненный цвет, не говоря уже о их каменной текстуре. Мой рот и некоторые другие части моего тела приобрели схожие характеристики, и каждый день становится хуже предыдущего. Иногда, к моему большому огорчению, порой бывает слишком сложно выполнить даже базовые задачи без посторонней помощи. Беглое чтение быстро рассказывает мне о недуге, от которого я страдаю, «Пепел Эльтиадда», и рекомендует мне на время воздержаться от дальнейшего использования магии и поддерживать пораженные участки влажными."
+ magic.1110.a: "«Лучше впредь не переусердствовать»."
+ magic.1111.t: "Лунное увлечение"
+ magic.1111.desc: "В последнее время я совершенно не могу сосредоточиться и чувствую тяжесть в самой душе, хотя и не знаю почему. Так или иначе, мне всегда удается ловить себя на том, что я смотрю на [aervalr|E]. Я не могу даже заниматься делами этого мира, потому что Аэрвалр всегда зовет меня, и я не могу устоять перед его очарованием. Когда я сплю, Аэрвлар — это все, что есть, все, что имеет значение, все, что когда-либо будет. Окружающие говорят, что меня поглотила одержимость Аэрвалром, что такому человеку, как я, не подобает поступать подобным образом. Они заблуждаются, они слепы, они не могут видеть того, что вижу я. Если бы я только мог протянуть руку и схватить это!"
+ magic.1111.a: ""Видит око да зуб неймет.""
   
- dream_theft.1000.t: "Кража мысли"  #Машинный перевод 28.10.23!
- dream_theft.1000.d: "Я вошел в него через Сон, дрейфуя между мыслями и воспоминаниями. С тоской скользя по Снам, я приземляюсь на один из них. Я нашел какой-то артефакт! Я начал медленно воплощать артефакт в реальность. Утром я встал и увидел этот артефакт в изножье своей кровати."  #Машинный перевод 28.10.23!
- dream_theft.1000.a: "Приятные мечты!"  #Машинный перевод 28.10.23!
+ dream_theft.1000.t: "Кража мысли"
+ dream_theft.1000.d: "Я вошел в него через Сон, дрейфуя между мыслями и воспоминаниями. С тоской скользя по Снам, я приземляюсь на один из них. Я нашел какой-то артефакт! Я начал медленно воплощать артефакт в реальность. Утром я встал и увидел этот артефакт в изножье своей кровати."
+ dream_theft.1000.a: "Приятные мечты!"
   
- magic_decisions.2000.t: "Комфортно в моей собственной коже"  #Машинный перевод 28.10.23!
- magic_decisions.2000.desc: "Я готовлю последние шаги ритуала, дважды проверяя, все ли на месте. Чтобы освоить это, потребовалось много крови, пота и слез (в некоторых случаях буквально), но результаты того стоят.\n\nРитуал начинается, и я чувствую боль в суставах. Нет, не болит... боль. Царапая, ломая, треснув, я ощущаю каждую мучительную деталь, когда мои кости смещаются под моей плотью. Но я не кричу; Я не стал таким хорошим [magi|E], позволив своему телу одержать верх над разумом.\n\nНаконец, заклинание достигает своего апогея. Мой скелет словно горит, но точно так же, как огонь сжигает гниль, я чувствую боль, сжигающую мои уродства, мою неполноценность.\n\nВ один последний момент сосредоточения я пытаюсь сконцентрироваться и представить, кого мне нужно изменить дальше. . Я буду не просто цел, я буду #EMP лучше!#. Я буду..."  #Машинный перевод 28.10.23!
- magic_decisions.2000.a: "...самый красивый в мире!"  #Машинный перевод 28.10.23!
- magic_decisions.2000.b: "...сильный, как бог!"  #Машинный перевод 28.10.23!
- magic_decisions.2000.c: "...выше величайшего из людей!"  #Машинный перевод 28.10.23!
- magic_decisions.2000.d: "...свободный от моего жалкого вида!"  #Машинный перевод 28.10.23!
- magic_decisions.2000.e: "...не будь больше слабаком!"  #Машинный перевод 28.10.23!
- magic_decisions.2000.f: "...буду стоять прямо и высоко!"  #Машинный перевод 28.10.23!
+ magic_decisions.2000.t: "Комфортно в моей собственной коже"
+ magic_decisions.2000.desc: "Я готовлю последние шаги ритуала, дважды проверяя, все ли на месте. Чтобы освоить это, потребовалось много крови, пота и слез (в некоторых случаях буквально), но результаты того стоят.\n\nРитуал начинается, и я чувствую боль в суставах. Нет, не болит... боль. Царапая, ломая, треснув, я ощущаю каждую мучительную деталь, когда мои кости смещаются под моей плотью. Но я не кричу; Я не стал таким хорошим [magi|E], позволив своему телу одержать верх над разумом.\n\nНаконец, заклинание достигает своего апогея. Мой скелет словно горит, но точно так же, как огонь сжигает гниль, я чувствую боль, сжигающую мои уродства, мою неполноценность.\n\nВ один последний момент сосредоточения я пытаюсь сконцентрироваться и представить, кого мне нужно изменить дальше. . Я буду не просто цел, я буду #EMP лучше!#. Я буду..."
+ magic_decisions.2000.a: "...самый красивый в мире!"
+ magic_decisions.2000.b: "...сильный, как бог!"
+ magic_decisions.2000.c: "...выше величайшего из людей!"
+ magic_decisions.2000.d: "...свободный от моего жалкого вида!"
+ magic_decisions.2000.e: "...не будь больше слабаком!"
+ magic_decisions.2000.f: "...буду стоять прямо и высоко!"
   
- magic.2200.t: "Создание голема"  #Машинный перевод 28.10.23!
- magic.2200.d: "После нескольких дней подготовки и большого ожидания ритуал наконец близок к завершению, когда я наношу последние штрихи на круг и начинаю произносить необходимое заклинание, а [magic|E] струится потоком из моих рук. Мои глаза светятся зеленым светом, пока я продолжаю вкладывать энергию в ритуал. Камни и несколько кусочков кости вместе с фрагментом кровавого кристалла, служащего сердцем голема, сами начинают приобретать слабое зеленоватое свечение, побуждая меня приступить к формированию конструкции по своему желанию. Но прежде чем я смогу это сделать, я должен сначала создать в уме образ того, что я хочу создать."  #Машинный перевод 28.10.23!
- magic.2200.a: "Быстрый и ловкий, искусный в бою и способный переломить ход сражений."  #Машинный перевод 28.10.23!
- magic.2200.b: "Сильный и могучий, способный с легкостью разрушить самые мощные укрепления."  #Машинный перевод 28.10.23!
- magic.2200.c: "Осторожен и осторожен, чтобы при желании возводить великие сооружения, хотя и медленные по своей природе."  #Машинный перевод 28.10.23!
+ magic.2200.t: "Создание голема"
+ magic.2200.d: "После нескольких дней подготовки и большого ожидания ритуал наконец близок к завершению, когда я наношу последние штрихи на круг и начинаю произносить необходимое заклинание, а [magic|E] струится потоком из моих рук. Мои глаза светятся зеленым светом, пока я продолжаю вкладывать энергию в ритуал. Камни и несколько кусочков кости вместе с фрагментом кровавого кристалла, служащего сердцем голема, сами начинают приобретать слабое зеленоватое свечение, побуждая меня приступить к формированию конструкции по своему желанию. Но прежде чем я смогу это сделать, я должен сначала создать в уме образ того, что я хочу создать."
+ magic.2200.a: "Быстрый и ловкий, искусный в бою и способный переломить ход сражений."
+ magic.2200.b: "Сильный и могучий, способный с легкостью разрушить самые мощные укрепления."
+ magic.2200.c: "Осторожен и осторожен, чтобы при желании возводить великие сооружения, хотя и медленные по своей природе."
   
- magic.2250.t: "Видения будущего времени"  #Машинный перевод 28.10.23!
- magic.2250.desc: "Я планирую заняться хваленой практикой [dead_magi|E] чтения [aervalr|E], чтобы предугадать будущее и лучше подготовиться к тому, что должно произойти в будущем. Хотя эту форму предсказания часто высмеивают из-за ее слабости по сравнению с другими методами, она все же может оказаться полезной для тех, кто умеет интерпретировать движения Аэрвалра. Хотя, прежде чем начать читать Аэрвалр, нужно сначала знать, что они ищут. Чего я желаю?"  #Машинный перевод 28.10.23!
- magic.2250.a: "Я хочу одержать великие победы над своими врагами на поле битвы!"  #Машинный перевод 28.10.23!
- magic.2250.b: "Желание моего сердца — стать таким же богатым, как самый роскошный из монархов!"  #Машинный перевод 28.10.23!
- magic.2250.c: "Мое желание — установить значимые связи с другими людьми и называть их своими друзьями."  #Машинный перевод 28.10.23!
- magic.2250.d: "Я желаю добиться большего успеха в делах любви."  #Машинный перевод 28.10.23!
- magic.2250.e: "Я хочу знать, какие бедствия меня ждут, чтобы избежать их."  #Машинный перевод 28.10.23!
- magic.2250.f: "Моё желание — убить тех, кто противостоит мне!"  #Машинный перевод 28.10.23!
- magic.2250.g: "Я хочу стать более опытным в чем-то."  #Машинный перевод 28.10.23!
- magic.2250.h: "Я не желаю ничего, кроме знания того, как хорошо управлять своими подданными."  #Машинный перевод 28.10.23!
- magic.2250.i: "Возможно, будущее лучше оставить неизвестным."  #Машинный перевод 28.10.23!
+ magic.2250.t: "Видения будущего времени"
+ magic.2250.desc: "Я планирую заняться хваленой практикой [dead_magi|E] чтения [aervalr|E], чтобы предугадать будущее и лучше подготовиться к тому, что должно произойти в будущем. Хотя эту форму предсказания часто высмеивают из-за ее слабости по сравнению с другими методами, она все же может оказаться полезной для тех, кто умеет интерпретировать движения Аэрвалра. Хотя, прежде чем начать читать Аэрвалр, нужно сначала знать, что они ищут. Чего я желаю?"
+ magic.2250.a: "Я хочу одержать великие победы над своими врагами на поле битвы!"
+ magic.2250.b: "Желание моего сердца — стать таким же богатым, как самый роскошный из монархов!"
+ magic.2250.c: "Мое желание — установить значимые связи с другими людьми и называть их своими друзьями."
+ magic.2250.d: "Я желаю добиться большего успеха в делах любви."
+ magic.2250.e: "Я хочу знать, какие бедствия меня ждут, чтобы избежать их."
+ magic.2250.f: "Моё желание — убить тех, кто противостоит мне!"
+ magic.2250.g: "Я хочу стать более опытным в чем-то."
+ magic.2250.h: "Я не желаю ничего, кроме знания того, как хорошо управлять своими подданными."
+ magic.2250.i: "Возможно, будущее лучше оставить неизвестным."
   
- magic.2251.t: "Дельфийское заблуждение"  #Машинный перевод 28.10.23!
- magic.2251.desc: "Мои попытки предугадать будущее, читая [aervalr|E], оказались тщетными. Ни одно из моих предсказаний не сбылось, и похоже, что я был гораздо менее опытен в интерпретации движений Аэрвалра, чем считал раньше. Мои планы были разрушены из-за простых предположений, и в результате теперь я должен их пересмотреть."  #Машинный перевод 28.10.23!
- magic.2251.a: "Проклятая луна!"  #Машинный перевод 28.10.23!
+ magic.2251.t: "Дельфийское заблуждение"
+ magic.2251.desc: "Мои попытки предугадать будущее, читая [aervalr|E], оказались тщетными. Ни одно из моих предсказаний не сбылось, и похоже, что я был гораздо менее опытен в интерпретации движений Аэрвалра, чем считал раньше. Мои планы были разрушены из-за простых предположений, и в результате теперь я должен их пересмотреть."
+ magic.2251.a: "Проклятая луна!"
   
- magic.2300.t: "Лунное Причастие"  #Машинный перевод 28.10.23!
- magic.2300.desc: "Я чувствую приближение ночи полнолуния, времени, когда [Concept('dead_magi','Magi of the Moon')|E] находятся на пике своего могущества во всех отношениях. В отличие от слабого и часто неточного чтения по луне, которое Мертвые Маги могут практиковать в ночи, когда луна не полная, прямое общение с [aervalr|E] является одной из наиболее надежных форм гадания, возможных с помощью магии. Хотя все Мертвые Маги постоянно слышат, как Аэрвалр шепчет им, а в редких случаях даже кричит по неизвестным причинам, в эти благоприятные ночи они способны сосредоточить шепот в сомнительно понятной речи, которая часто говорит о событиях, которые либо еще не произошли, либо произошли давно. Если повезет и овладеет тайной магией, можно использовать это, чтобы точно предсказать то, что еще не наступило. Те, кто менее способен, могут быть сломлены огромным бременем знаний, не предназначенных для смертных умов. Имея это в виду, к чему я хочу, чтобы Аэрвалр направил меня?"  #Машинный перевод 28.10.23!
- magic.2300.a: "К самой блестящей победе в битве над моими врагами."  #Машинный перевод 28.10.23!
- magic.2300.b: "К огромным богатствам и процветающему королевству."  #Машинный перевод 28.10.23!
- magic.2300.c: "К гибели моих врагов."  #Машинный перевод 28.10.23!
- magic.2300.d: "К планам тех, кто стремится подорвать меня или причинить мне вред."  #Машинный перевод 28.10.23!
- magic.2300.e: "К новым знаниям и совершенствованию своих навыков."  #Машинный перевод 28.10.23!
+ magic.2300.t: "Лунное Причастие"
+ magic.2300.desc: "Я чувствую приближение ночи полнолуния, времени, когда [Concept('dead_magi','Magi of the Moon')|E] находятся на пике своего могущества во всех отношениях. В отличие от слабого и часто неточного чтения по луне, которое Мертвые Маги могут практиковать в ночи, когда луна не полная, прямое общение с [aervalr|E] является одной из наиболее надежных форм гадания, возможных с помощью магии. Хотя все Мертвые Маги постоянно слышат, как Аэрвалр шепчет им, а в редких случаях даже кричит по неизвестным причинам, в эти благоприятные ночи они способны сосредоточить шепот в сомнительно понятной речи, которая часто говорит о событиях, которые либо еще не произошли, либо произошли давно. Если повезет и овладеет тайной магией, можно использовать это, чтобы точно предсказать то, что еще не наступило. Те, кто менее способен, могут быть сломлены огромным бременем знаний, не предназначенных для смертных умов. Имея это в виду, к чему я хочу, чтобы Аэрвалр направил меня?"
+ magic.2300.a: "К самой блестящей победе в битве над моими врагами."
+ magic.2300.b: "К огромным богатствам и процветающему королевству."
+ magic.2300.c: "К гибели моих врагов."
+ magic.2300.d: "К планам тех, кто стремится подорвать меня или причинить мне вред."
+ magic.2300.e: "К новым знаниям и совершенствованию своих навыков."
   
- magic.2301.t: "Знания за пределами смертного Кена"  #Машинный перевод 28.10.23!
- magic.2301.desc: "Моя попытка предсказать будущее, слушая [aervalr|E], потерпела неудачу. Столько видений, столько криков, столько шепота, я больше не могу этого терпеть! Пожалуйста, [Root.Religion.HighGodName], кто-нибудь, что-нибудь, помогите мне, освободите меня, освободите меня от его криков! Я здесь или там, я реален, я мертв? Все связано, все связано, почему, почему, почему мы их убили, прости, прости, боль невыносимая, она поглощает все. Я-я не могу сказать тебе почему, это был не я, клянусь, это был не я!"  #Машинный перевод 28.10.23!
- magic.2301.a: "Все, что я вижу, это цвета, цвета, которых быть не должно."  #Машинный перевод 28.10.23!
+ magic.2301.t: "Знания за пределами смертного Кена"
+ magic.2301.desc: "Моя попытка предсказать будущее, слушая [aervalr|E], потерпела неудачу. Столько видений, столько криков, столько шепота, я больше не могу этого терпеть! Пожалуйста, [Root.Religion.HighGodName], кто-нибудь, что-нибудь, помогите мне, освободите меня, освободите меня от его криков! Я здесь или там, я реален, я мертв? Все связано, все связано, почему, почему, почему мы их убили, прости, прости, боль невыносимая, она поглощает все. Я-я не могу сказать тебе почему, это был не я, клянусь, это был не я!"
+ magic.2301.a: "Все, что я вижу, это цвета, цвета, которых быть не должно."
   
- magic.2350.t: "Пепел на ветру"  #Машинный перевод 28.10.23!
- magic.2350.desc: "Стоя на вершине холма на значительном расстоянии от нашей цели, в окружении своей свиты, чтобы меня не беспокоили, я и мои помощники готовим ритуал. При произнесении такого заклинания следует соблюдать максимальную осторожность: находясь слишком далеко от намеченной цели, мы рискуем не соединиться с меткой и вместо этого поглотить нас, в то время как слишком близко существует очевидная опасность того, что мы попадем в крайне непредсказуемый взрыв. Zone.\n\nКогда ритуал подходит к завершению, небо начинает заметно краснеть, огненные сухожилия срастаются и медленно сходятся к одной точке на горизонте - и когда они наконец это делают, почти ослепляющая вспышка возвещает рождение массивного шлейфа. огня и обломков, за которым вскоре последовал сильный грохот и сильный порыв горячего ветра. Мы с трепетом наблюдаем, как шлейф сначала поглощает окружающую местность, а затем начинает катиться по ландшафту, ведомый ветром, при этом более мелкие вихри разрушения отделяются и сеют еще больший хаос.\n\n"  #Машинный перевод 28.10.23!
- magic.2350.a: "Выживших, вероятно, будет... немного."  #Машинный перевод 28.10.23!
+ magic.2350.t: "Пепел на ветру"
+ magic.2350.desc: "Стоя на вершине холма на значительном расстоянии от нашей цели, в окружении своей свиты, чтобы меня не беспокоили, я и мои помощники готовим ритуал. При произнесении такого заклинания следует соблюдать максимальную осторожность: находясь слишком далеко от намеченной цели, мы рискуем не соединиться с меткой и вместо этого поглотить нас, в то время как слишком близко существует очевидная опасность того, что мы попадем в крайне непредсказуемый взрыв. Zone.\n\nКогда ритуал подходит к завершению, небо начинает заметно краснеть, огненные сухожилия срастаются и медленно сходятся к одной точке на горизонте - и когда они наконец это делают, почти ослепляющая вспышка возвещает рождение массивного шлейфа. огня и обломков, за которым вскоре последовал сильный грохот и сильный порыв горячего ветра. Мы с трепетом наблюдаем, как шлейф сначала поглощает окружающую местность, а затем начинает катиться по ландшафту, ведомый ветром, при этом более мелкие вихри разрушения отделяются и сеют еще больший хаос.\n\n"
+ magic.2350.a: "Выживших, вероятно, будет... немного."
   
- magic.2351.t: "Пепел на ветру"  #Машинный перевод 28.10.23!
- magic.2351.desc: "Стоя на вершине холма на значительном расстоянии от нашей цели, в окружении своей свиты, чтобы меня не беспокоили, я и мои помощники готовим ритуал. При произнесении такого заклинания следует соблюдать максимальную осторожность: находясь слишком далеко от намеченной цели, мы рискуем не соединиться с меткой и вместо этого поглотить нас, в то время как слишком близко существует очевидная опасность того, что мы попадем в крайне непредсказуемый взрыв. Zone.\n\nКогда ритуал подходит к завершению, небо начинает заметно краснеть, огненные сухожилия срастаются и медленно сходятся к одной точке на горизонте - и когда они наконец это делают, почти ослепляющая вспышка возвещает рождение массивного шлейфа. огня и обломков, за которым вскоре последовал сильный грохот и сильный порыв горячего ветра. Мы с трепетом наблюдаем, как шлейф сначала поглощает окружающую местность, а затем начинает катиться по ландшафту, ведомый ветром, при этом более мелкие вихри разрушения отделяются и сеют еще больший хаос.\n\n"  #Машинный перевод 28.10.23!
- magic.2351.a: "Выживших, вероятно, будет... немного."  #Машинный перевод 28.10.23!
+ magic.2351.t: "Пепел на ветру"
+ magic.2351.desc: "Стоя на вершине холма на значительном расстоянии от нашей цели, в окружении своей свиты, чтобы меня не беспокоили, я и мои помощники готовим ритуал. При произнесении такого заклинания следует соблюдать максимальную осторожность: находясь слишком далеко от намеченной цели, мы рискуем не соединиться с меткой и вместо этого поглотить нас, в то время как слишком близко существует очевидная опасность того, что мы попадем в крайне непредсказуемый взрыв. Zone.\n\nКогда ритуал подходит к завершению, небо начинает заметно краснеть, огненные сухожилия срастаются и медленно сходятся к одной точке на горизонте - и когда они наконец это делают, почти ослепляющая вспышка возвещает рождение массивного шлейфа. огня и обломков, за которым вскоре последовал сильный грохот и сильный порыв горячего ветра. Мы с трепетом наблюдаем, как шлейф сначала поглощает окружающую местность, а затем начинает катиться по ландшафту, ведомый ветром, при этом более мелкие вихри разрушения отделяются и сеют еще больший хаос.\n\n"
+ magic.2351.a: "Выживших, вероятно, будет... немного."
   
- magic.2420.t: "Необычные идеи"  #Машинный перевод 28.10.23!
- magic.2420.desc: "Вы получили 1 урок"  #Машинный перевод 28.10.23!
- magic.2420.a: "Ву"  #Машинный перевод 28.10.23!
+ magic.2420.t: "Необычные идеи"
+ magic.2420.desc: "Вы получили 1 урок"
+ magic.2420.a: "Ву"
   
- magic.2501.t: "Перерисовка"  #Машинный перевод 28.10.23!
- magic.2501.desc: "Вы направили слишком много разлома!! Тебе было очень плохо!!!"  #Машинный перевод 28.10.23!
- magic.2501.a: "О, нет!"  #Машинный перевод 28.10.23!
+ magic.2501.t: "Перерисовка"
+ magic.2501.desc: "Вы направили слишком много разлома!! Тебе было очень плохо!!!"
+ magic.2501.a: "О, нет!"
   
- magic.2502.t: "Разум"  #Машинный перевод 28.10.23!
- magic.2502.desc: "Рифт был слишком жутким!! Твой мозг устал!!!"  #Машинный перевод 28.10.23!
- magic.2502.a: "О, нет!"  #Машинный перевод 28.10.23!
+ magic.2502.t: "Разум"
+ magic.2502.desc: "Рифт был слишком жутким!! Твой мозг устал!!!"
+ magic.2502.a: "О, нет!"
   
- magic.2503.t: "Туман разума"  #Машинный перевод 28.10.23!
- magic.2503.desc: "Разлом проникает в ваш мозг! У тебя мозг затуманивается!!"  #Машинный перевод 28.10.23!
- magic.2503.a: "О, нет!"  #Машинный перевод 28.10.23!
+ magic.2503.t: "Туман разума"
+ magic.2503.desc: "Разлом проникает в ваш мозг! У тебя мозг затуманивается!!"
+ magic.2503.a: "О, нет!"
   
- magic.2504.t: "Разлом-увлечение"  #Машинный перевод 28.10.23!
- magic.2504.desc: "Разлом проникает в ваш мозг! У тебя мозг сходит с ума!!"  #Машинный перевод 28.10.23!
- magic.2504.a: "О, нет!"  #Машинный перевод 28.10.23!
+ magic.2504.t: "Разлом-увлечение"
+ magic.2504.desc: "Разлом проникает в ваш мозг! У тебя мозг сходит с ума!!"
+ magic.2504.a: "О, нет!"
   
- magic.2505.t: "Рифт-касание"  #Машинный перевод 28.10.23!
- magic.2505.desc: "Разлом проникает в твою душу!!"  #Машинный перевод 28.10.23!
- magic.2505.a: "О, нет!"  #Машинный перевод 28.10.23!
+ magic.2505.t: "Рифт-касание"
+ magic.2505.desc: "Разлом проникает в твою душу!!"
+ magic.2505.a: "О, нет!"
   
- magic.2506.t: "Разгадать"  #Машинный перевод 28.10.23!
- magic.2506.desc: "Разлом охватывает все ваше!! Ты разваливаешься!!!"  #Машинный перевод 28.10.23!
- magic.2506.a: "О, нет!"  #Машинный перевод 28.10.23!
+ magic.2506.t: "Разгадать"
+ magic.2506.desc: "Разлом охватывает все ваше!! Ты разваливаешься!!!"
+ magic.2506.a: "О, нет!"
   
- magic.2550.t: "отмеченный разломом"  #Машинный перевод 28.10.23!
- magic.2550.desc: "Благодаря этому разлому вы сделали их уязвимыми для вашей смешанной магии."  #Машинный перевод 28.10.23!
- magic.2550.a: "Ох, что я для них приготовила..."  #Машинный перевод 28.10.23!
+ magic.2550.t: "отмеченный разломом"
+ magic.2550.desc: "Благодаря этому разлому вы сделали их уязвимыми для вашей смешанной магии."
+ magic.2550.a: "Ох, что я для них приготовила..."
   
- magic.2551.t: "отмеченный разломом"  #Машинный перевод 28.10.23!
- magic.2551.desc: "Вы попали в разлом, отмеченный смешанным магом, что еще больше подвергает вас враждебным заклинаниям!"  #Машинный перевод 28.10.23!
- magic.2551.a: "Будь они прокляты!"  #Машинный перевод 28.10.23!
+ magic.2551.t: "отмеченный разломом"
+ magic.2551.desc: "Вы попали в разлом, отмеченный смешанным магом, что еще больше подвергает вас враждебным заклинаниям!"
+ magic.2551.a: "Будь они прокляты!"
   
- magic.2601.t: "Сила крови"  #Машинный перевод 28.10.23!
- magic.2601.desc: "То, что нельзя найти в качестве, можно найти в количестве, как говорится, и поэтому, когда человеку мистической крови требуется подходящая энергия для совершения своих подвигов, огромная масса меньших существ может пожертвовать собой ради величия [magi|E].\ n\nИтак, я и мои люди стоим в деревне, готовые взимать плату, которую многие другие великие маги были вынуждены запросить, чтобы творить свои чудеса. Испуганные и жалкие фигуры жмутся друг к другу, плачут, молят о пощаде, спрашивают, где их родители или дети, и собираются еще теснее, когда мои солдаты проталкивают их копьями."  #Машинный перевод 28.10.23!
- magic.2601.a: "Не волнуйтесь, я возьму только добровольцев и стариков."  #Машинный перевод 28.10.23!
- magic.2601.b: "Приносите одного из каждых десяти. Пролы могут решить, кто."  #Машинный перевод 28.10.23!
- magic.2601.c: "Пришло время пожинать кровавую дань, заберите все дееспособное тело!"  #Машинный перевод 28.10.23!
- magic.2601.d: "[SelectLocalization(Or(GetPlayer.HasTrait(GetTrait('sadistic').Self),GetPlayer.HasTrait(GetTrait('callous').Self)),'Take everyone - man, woman, child!','Leave the children and elderly! Take the adults for our needs are great!')]"  #Машинный перевод 28.10.23!
- magic.2601.e: "Ч-что я вообще делаю? Отпустите их!"  #Машинный перевод 28.10.23!
+ magic.2601.t: "Сила крови"
+ magic.2601.desc: "То, что нельзя найти в качестве, можно найти в количестве, как говорится, и поэтому, когда человеку мистической крови требуется подходящая энергия для совершения своих подвигов, огромная масса меньших существ может пожертвовать собой ради величия [magi|E].\ n\nИтак, я и мои люди стоим в деревне, готовые взимать плату, которую многие другие великие маги были вынуждены запросить, чтобы творить свои чудеса. Испуганные и жалкие фигуры жмутся друг к другу, плачут, молят о пощаде, спрашивают, где их родители или дети, и собираются еще теснее, когда мои солдаты проталкивают их копьями."
+ magic.2601.a: "Не волнуйтесь, я возьму только добровольцев и стариков."
+ magic.2601.b: "Приносите одного из каждых десяти. Пролы могут решить, кто."
+ magic.2601.c: "Пришло время пожинать кровавую дань, заберите все дееспособное тело!"
+ magic.2601.d: "[SelectLocalization(Or(GetPlayer.HasTrait(GetTrait('sadistic').Self),GetPlayer.HasTrait(GetTrait('callous').Self)),'Take everyone - man, woman, child!','Leave the children and elderly! Take the adults for our needs are great!')]"
+ magic.2601.e: "Ч-что я вообще делаю? Отпустите их!"
   
- magic.2750.t: "Замороженное тело"  #Машинный перевод 28.10.23!
- magic.2750.desc.brave_victim: "Я поднимаю руки и готовлю заклинание, глядя в глаза своему пленнику [inter_in_ice_prisoner_scope.GetName]. [inter_in_ice_prisoner_scope.GetSheHe|U] смотрит в ответ, вопреки неизбежной судьбе [inter_in_ice_prisoner_scope.GetHerHis]. Хотя это впечатляющее проявление храбрости, оно в конечном итоге бесполезно, и я продолжаю. Думая о заклинании, я снова вернулся к той странной ледяной пустоте, вспоминая это событие в мельчайших подробностях. Мои руки начинают мерцать тем же синим свечением, и я медленно приближаюсь к своей жертве.\n\nПри прикосновении к [inter_in_ice_prisoner_scope.GetHerHim], [inter_in_ice_prisoner_scope.GetSheHe] на мгновение вздрагивает, когда через тело [inter_in_ice_prisoner_scope.GetHerHis] пробегает синий свет, а за ним следует светящийся лед. [inter_in_ice_prisoner_scope.GetNamePossessiveNoTooltip] взгляд остается прикованным ко мне, даже когда лед покрывает их голову. Теперь я смотрю в глаза ледяной скульптуре."  #Машинный перевод 28.10.23!
- magic.2750.desc.neutral_victim: "Я поднимаю руки и готовлю заклинание, мой пленник [inter_in_ice_prisoner_scope.GetName] явно нервничает. [inter_in_ice_prisoner_scope.GetSheHe|U] попытка торговаться, предлагая богатство в обмен на [inter_in_ice_prisoner_scope.GetHerHis] жизнь. Я игнорирую [inter_in_ice_prisoner_scope.GetHerHim] и продолжаю. Думая о заклинании, я снова вернулся к той странной ледяной пустоте, вспоминая это событие в мельчайших подробностях. Мои руки начинают мерцать тем же синим свечением, и я медленно приближаюсь к своей жертве.\n\nПрикоснувшись к [inter_in_ice_prisoner_scope.GetHerHim], [inter_in_ice_prisoner_scope.GetSheHe] вздрагивает, с ужасом наблюдая, как свет пробегает по телу [inter_in_ice_prisoner_scope.GetHerHis], а за ним следует светящийся лед. Я наблюдаю, как медленно [inter_in_ice_prisoner_scope.GetHerHis] мольбы становятся слабыми и слабыми. Горький холод моего видения удерживается в моем сознании, я вливаю в них ледяную энергию, и внезапно они замолкают. Теперь я смотрю в глаза ледяной скульптуре."  #Машинный перевод 28.10.23!
- magic.2750.desc.craven_victim: "Я поднимаю руки и готовлю заклинание, глядя на испуганное лицо моего пленника [inter_in_ice_prisoner_scope.GetName]. [inter_in_ice_prisoner_scope.GetSheHe|U] умоляет меня, прося избавить меня от моей магии. Я игнорирую [inter_in_ice_prisoner_scope.GetHerHim] и продолжаю. Думая о заклинании, я снова вернулся к той странной ледяной пустоте, вспоминая это событие в мельчайших подробностях. Мои руки начинают мерцать тем же самым синим свечением, и я медленно приближаюсь к своей жертве.\n\nПрикоснувшись к [inter_in_ice_prisoner_scope.GetHerHim], [inter_in_ice_prisoner_scope.GetSheHe] вскрикивает, с ужасом наблюдая, как свет пробегает по телу [inter_in_ice_prisoner_scope.GetHerHis], а за ним следует светящийся лед. Я наблюдаю, как медленно [inter_in_ice_prisoner_scope.GetHerHis] мольбы слабеют и переходят в рыдания. Горький холод моего видения удерживался в моем сознании, я вгонял ледяную энергию в [inter_in_ice_prisoner_scope.GetHerHim], и внезапно [inter_in_ice_prisoner_scope.GetSheHe] замолкал. Теперь я смотрю в глаза ледяной скульптуре."  #Машинный перевод 28.10.23!
- magic.2750.a: "[inter_in_ice_prisoner_scope.GetSheHe|U] станет прекрасным украшением."  #Машинный перевод 28.10.23!
- magic.2750.tt: "Вы замораживаете [inter_in_ice_prisoner_scope.GetNameNoTooltip] в артефакт ледяной скульптуры."  #Машинный перевод 28.10.23!
+ magic.2750.t: "Замороженное тело"
+ magic.2750.desc.brave_victim: "Я поднимаю руки и готовлю заклинание, глядя в глаза своему пленнику [inter_in_ice_prisoner_scope.GetName]. [inter_in_ice_prisoner_scope.GetSheHe|U] смотрит в ответ, вопреки неизбежной судьбе [inter_in_ice_prisoner_scope.GetHerHis]. Хотя это впечатляющее проявление храбрости, оно в конечном итоге бесполезно, и я продолжаю. Думая о заклинании, я снова вернулся к той странной ледяной пустоте, вспоминая это событие в мельчайших подробностях. Мои руки начинают мерцать тем же синим свечением, и я медленно приближаюсь к своей жертве.\n\nПри прикосновении к [inter_in_ice_prisoner_scope.GetHerHim], [inter_in_ice_prisoner_scope.GetSheHe] на мгновение вздрагивает, когда через тело [inter_in_ice_prisoner_scope.GetHerHis] пробегает синий свет, а за ним следует светящийся лед. [inter_in_ice_prisoner_scope.GetNamePossessiveNoTooltip] взгляд остается прикованным ко мне, даже когда лед покрывает их голову. Теперь я смотрю в глаза ледяной скульптуре."
+ magic.2750.desc.neutral_victim: "Я поднимаю руки и готовлю заклинание, мой пленник [inter_in_ice_prisoner_scope.GetName] явно нервничает. [inter_in_ice_prisoner_scope.GetSheHe|U] попытка торговаться, предлагая богатство в обмен на [inter_in_ice_prisoner_scope.GetHerHis] жизнь. Я игнорирую [inter_in_ice_prisoner_scope.GetHerHim] и продолжаю. Думая о заклинании, я снова вернулся к той странной ледяной пустоте, вспоминая это событие в мельчайших подробностях. Мои руки начинают мерцать тем же синим свечением, и я медленно приближаюсь к своей жертве.\n\nПрикоснувшись к [inter_in_ice_prisoner_scope.GetHerHim], [inter_in_ice_prisoner_scope.GetSheHe] вздрагивает, с ужасом наблюдая, как свет пробегает по телу [inter_in_ice_prisoner_scope.GetHerHis], а за ним следует светящийся лед. Я наблюдаю, как медленно [inter_in_ice_prisoner_scope.GetHerHis] мольбы становятся слабыми и слабыми. Горький холод моего видения удерживается в моем сознании, я вливаю в них ледяную энергию, и внезапно они замолкают. Теперь я смотрю в глаза ледяной скульптуре."
+ magic.2750.desc.craven_victim: "Я поднимаю руки и готовлю заклинание, глядя на испуганное лицо моего пленника [inter_in_ice_prisoner_scope.GetName]. [inter_in_ice_prisoner_scope.GetSheHe|U] умоляет меня, прося избавить меня от моей магии. Я игнорирую [inter_in_ice_prisoner_scope.GetHerHim] и продолжаю. Думая о заклинании, я снова вернулся к той странной ледяной пустоте, вспоминая это событие в мельчайших подробностях. Мои руки начинают мерцать тем же самым синим свечением, и я медленно приближаюсь к своей жертве.\n\nПрикоснувшись к [inter_in_ice_prisoner_scope.GetHerHim], [inter_in_ice_prisoner_scope.GetSheHe] вскрикивает, с ужасом наблюдая, как свет пробегает по телу [inter_in_ice_prisoner_scope.GetHerHis], а за ним следует светящийся лед. Я наблюдаю, как медленно [inter_in_ice_prisoner_scope.GetHerHis] мольбы слабеют и переходят в рыдания. Горький холод моего видения удерживался в моем сознании, я вгонял ледяную энергию в [inter_in_ice_prisoner_scope.GetHerHim], и внезапно [inter_in_ice_prisoner_scope.GetSheHe] замолкал. Теперь я смотрю в глаза ледяной скульптуре."
+ magic.2750.a: "[inter_in_ice_prisoner_scope.GetSheHe|U] станет прекрасным украшением."
+ magic.2750.tt: "Вы замораживаете [inter_in_ice_prisoner_scope.GetNameNoTooltip] в артефакт ледяной скульптуры."
   
- magic_decisions.1000.t: "Сон Багровой Ночи"  #Машинный перевод 28.10.23!
- magic_decisions.1000.desc: "Ритуальный круг для заклинания был установлен и произнесен, магия, позволяющая выкачивать силу из плоти и крови, придавать силу, усиливать мою кровь моей собственной силой! В предвкушении я отправил спать, но сон не приходил.\n\nВсе, что я мог чувствовать, это боль, я позвал врача, но безрезультатно. У меня перехватило дыхание, так как кровь текла изо рта, носа, глаз! Я не чувствовал своих ног, более того, я не мог пошевелить какой-либо частью себя. Эти страдания я чувствовал часами.\n\nЭту проклятую смертную оболочку поддерживает только вампиризм. И хотя в конце концов я поднялся с постели, мне приходится пить кровь. Поистине, этой шелухе нет дела до перерыва."  #Машинный перевод 28.10.23!
- magic_decisions.1000.a: "Вечная жизнь, бесконечные страдания."  #Машинный перевод 28.10.23!
+ magic_decisions.1000.t: "Сон Багровой Ночи"
+ magic_decisions.1000.desc: "Ритуальный круг для заклинания был установлен и произнесен, магия, позволяющая выкачивать силу из плоти и крови, придавать силу, усиливать мою кровь моей собственной силой! В предвкушении я отправил спать, но сон не приходил.\n\nВсе, что я мог чувствовать, это боль, я позвал врача, но безрезультатно. У меня перехватило дыхание, так как кровь текла изо рта, носа, глаз! Я не чувствовал своих ног, более того, я не мог пошевелить какой-либо частью себя. Эти страдания я чувствовал часами.\n\nЭту проклятую смертную оболочку поддерживает только вампиризм. И хотя в конце концов я поднялся с постели, мне приходится пить кровь. Поистине, этой шелухе нет дела до перерыва."
+ magic_decisions.1000.a: "Вечная жизнь, бесконечные страдания."
   
- magic_decisions.1005.t: "Разлагающаяся плоть"  #Машинный перевод 28.10.23!
- magic_decisions.1005.desc: "Эта последняя ночь оказалась очень трудной, и кажется, что мое тело становится все более слабым. Если бы не жизненная сила других, я бы почти наверняка погиб. Конечно, это не проблема, вообще не проблема. Пока я могу обеспечить постоянный приток жертв, я могу продолжать жить в этом мире еще немного. Этот сосуд дает трещину, но еще не разбился. Однако я все больше и больше нуждаюсь в тайной силе, чтобы облегчить увядание моей плоти. Я больше не истекаю кровью, как смертные люди, вместо этого я истекаю энергией [magical|E] из каждой раны на моем теле. Сердце мое замерло, а плоть на ощупь холодна, как у мертвеца. И все же я живу."  #Машинный перевод 28.10.23!
- magic_decisions.1005.a: "Во что я превратился?"  #Машинный перевод 28.10.23!
+ magic_decisions.1005.t: "Разлагающаяся плоть"
+ magic_decisions.1005.desc: "Эта последняя ночь оказалась очень трудной, и кажется, что мое тело становится все более слабым. Если бы не жизненная сила других, я бы почти наверняка погиб. Конечно, это не проблема, вообще не проблема. Пока я могу обеспечить постоянный приток жертв, я могу продолжать жить в этом мире еще немного. Этот сосуд дает трещину, но еще не разбился. Однако я все больше и больше нуждаюсь в тайной силе, чтобы облегчить увядание моей плоти. Я больше не истекаю кровью, как смертные люди, вместо этого я истекаю энергией [magical|E] из каждой раны на моем теле. Сердце мое замерло, а плоть на ощупь холодна, как у мертвеца. И все же я живу."
+ magic_decisions.1005.a: "Во что я превратился?"
   
- magic_decisions.1006.t: "Потраченная энергия"  #Машинный перевод 28.10.23!
- magic_decisions.1006.desc: "Суровая ночь, в которую я едва не покинул царство живых и из которой мне едва удалось оторваться от края со всей [magical|E] силой, которую я смог собрать. Это оставило меня... измененным. Теперь на моем месте стоит изможденная, болезненно выглядящая фигура, кожа свисает с моих костей. Что еще хуже, ситуация стала ужасной, и каждый день я сталкиваюсь с риском заснуть, от которого никогда не проснусь. Смерть держит меня в своих объятиях, и этот сосуд жаждет ее объятий. Теперь я лишен жизненных сил других, у меня нет сил вырваться из его холодных рук, и если я хочу жить намного дольше, мне придется принести больше жертв, чего бы это ни стоило."  #Машинный перевод 28.10.23!
- magic_decisions.1006.a: "Мой конец близок."  #Машинный перевод 28.10.23!
-  
-  
- magic.3001.t: "$feast_header$ Жизнь партии"  #Машинный перевод 28.10.23!
- magic.3001.desc: "Несколько гостей вскрикнули от шока и удивления, когда треск магической энергии, вырвавшийся из рук [bad_magi.GetTitledFirstNamePossessive], соединился с [guest_to_harm.GetTitledFirstName], отправив их на землю. В зале ненадолго вспыхивает хаос, когда [bad_magi.GetFirstNameNoTooltip] пытается заявить о своей невиновности [bad_magi.GetHerHis]."  #Машинный перевод 28.10.23!
- magic.3001.a: "Охранники! В темницу!"  #Машинный перевод 28.10.23!
- magic.3001.b: "Ты глупый дурак! Подумать только, у тебя вообще когда-нибудь был ум!"  #Машинный перевод 28.10.23!
- magic.3001.c: "Как ты смеешь нарушать мой пир!"  #Машинный перевод 28.10.23!
- magic.3001.d: "Ха! Какое забавное шоу вы устроили."  #Машинный перевод 28.10.23!
- magic.3001.e: "Ух, еще вина!"  #Машинный перевод 28.10.23!
-  
- interior_journey.0001.t: "Одиссея внутри"  #Машинный перевод 28.10.23!
- interior_journey.0001.desc: "Моя нисходящая спираль в моей собственной психике поставила меня на грань забвения. В обе стороны простирается серебристо-белый пляж, а передо мной манит стеклянно-темное море. Каждая волна разрушает еще один дюйм береговой линии, напоминая о забвении, которое ждет всех нас.\n\n Наделенный своей тайной мощью, я могу позвать из обсидианового моря аватар из глубин моей личности, чтобы он вел меня. Даже когда я проснусь, оно будет здесь, как часть меня, как и я сам. Но что мне выбрать?"  #Машинный перевод 28.10.23!
- interior_journey.0001.brave: "Сияющий, Яркий и Славный"  #Машинный перевод 28.10.23!
- interior_journey.0001.craven: "Крингер, который скрывается"  #Машинный перевод 28.10.23!
- interior_journey.0001.calm: "Бело-стеклянное море"  #Машинный перевод 28.10.23!
- interior_journey.0001.wrathful: "Животное внутри, дикое и слезящее"  #Машинный перевод 28.10.23!
- interior_journey.0001.chaste: "Благоразумие, к которому нельзя приближаться"  #Машинный перевод 28.10.23!
- interior_journey.0001.lustful: "Желающий, приближающийся"  #Машинный перевод 28.10.23!
- interior_journey.0001.content: "Ребенок в покое, который ничего не желает"  #Машинный перевод 28.10.23!
- interior_journey.0001.ambitious: "Жаждущий, который всегда хватает"  #Машинный перевод 28.10.23!
- interior_journey.0001.diligent: "Смит за работой"  #Машинный перевод 28.10.23!
- interior_journey.0001.lazy: "[ROOT.Char.GetSheHe] Кто отдыхает на солнце"  #Машинный перевод 28.10.23!
- interior_journey.0001.stubborn: "Жопа, которая не сдвинется с места"  #Машинный перевод 28.10.23!
- interior_journey.0001.forgiving: "Разносчик милостыни."  #Машинный перевод 28.10.23!
- interior_journey.0001.vengeful: "Клинок, который плачет кровью"  #Машинный перевод 28.10.23!
- interior_journey.0001.generous: "Рог изобилия, дающий [ROOT.Char.GetHerHis] собственную жизненную силу"  #Машинный перевод 28.10.23!
- interior_journey.0001.greedy: "Цепляющийся скряга"  #Машинный перевод 28.10.23!
- interior_journey.0001.shy: "Осторожный скрытник"  #Машинный перевод 28.10.23!
- interior_journey.0001.honest: "То, что может говорить не иначе"  #Машинный перевод 28.10.23!
- interior_journey.0001.deceitful: "Асп в игре"  #Машинный перевод 28.10.23!
- interior_journey.0001.humble: "Безликая страница"  #Машинный перевод 28.10.23!
- interior_journey.0001.arrogant: "Слава в полдень"  #Машинный перевод 28.10.23!
- interior_journey.0001.just: "Оно несет в себе закон"  #Машинный перевод 28.10.23!
- interior_journey.0001.arbitrary: "Это закон"  #Машинный перевод 28.10.23!
- interior_journey.0001.patient: "Паук в ожидании"  #Машинный перевод 28.10.23!
- interior_journey.0001.impatient: "Призрак настоящего и всегда"  #Машинный перевод 28.10.23!
- interior_journey.0001.trusting: "Эта послушная шерстяная штучка"  #Машинный перевод 28.10.23!
- interior_journey.0001.paranoid: "Глаз, всегда воспринимающий"  #Машинный перевод 28.10.23!
- interior_journey.0001.zealous: "Истина веков"  #Машинный перевод 28.10.23!
- interior_journey.0001.cynical: "[ROOT.Char.GetSheHe] Кто не может"  #Машинный перевод 28.10.23!
- interior_journey.0001.compassioante: "Плачущий и страсть"  #Машинный перевод 28.10.23!
- interior_journey.0001.callous: "Это то, что не кажется"  #Машинный перевод 28.10.23!
- interior_journey.0001.sadistic: "Гуляк с кровавыми пятнами"  #Машинный перевод 28.10.23!
- interior_journey.0001.eccentric: "Разрушенная форма, первая и единственная"  #Машинный перевод 28.10.23!
+ magic_decisions.1006.t: "Потраченная энергия"
+ magic_decisions.1006.desc: "Суровая ночь, в которую я едва не покинул царство живых и из которой мне едва удалось оторваться от края со всей [magical|E] силой, которую я смог собрать. Это оставило меня... измененным. Теперь на моем месте стоит изможденная, болезненно выглядящая фигура, кожа свисает с моих костей. Что еще хуже, ситуация стала ужасной, и каждый день я сталкиваюсь с риском заснуть, от которого никогда не проснусь. Смерть держит меня в своих объятиях, и этот сосуд жаждет ее объятий. Теперь я лишен жизненных сил других, у меня нет сил вырваться из его холодных рук, и если я хочу жить намного дольше, мне придется принести больше жертв, чего бы это ни стоило."
+ magic_decisions.1006.a: "Мой конец близок."
   
   
+ magic.3001.t: "$feast_header$ Жизнь партии"
+ magic.3001.desc: "Несколько гостей вскрикнули от шока и удивления, когда треск магической энергии, вырвавшийся из рук [bad_magi.GetTitledFirstNamePossessive], соединился с [guest_to_harm.GetTitledFirstName], отправив их на землю. В зале ненадолго вспыхивает хаос, когда [bad_magi.GetFirstNameNoTooltip] пытается заявить о своей невиновности [bad_magi.GetHerHis]."
+ magic.3001.a: "Охранники! В темницу!"
+ magic.3001.b: "Ты глупый дурак! Подумать только, у тебя вообще когда-нибудь был ум!"
+ magic.3001.c: "Как ты смеешь нарушать мой пир!"
+ magic.3001.d: "Ха! Какое забавное шоу вы устроили."
+ magic.3001.e: "Ух, еще вина!"
+  
+ interior_journey.0001.t: "Одиссея внутри"
+ interior_journey.0001.desc: "Моя нисходящая спираль в моей собственной психике поставила меня на грань забвения. В обе стороны простирается серебристо-белый пляж, а передо мной манит стеклянно-темное море. Каждая волна разрушает еще один дюйм береговой линии, напоминая о забвении, которое ждет всех нас.\n\n Наделенный своей тайной мощью, я могу позвать из обсидианового моря аватар из глубин моей личности, чтобы он вел меня. Даже когда я проснусь, оно будет здесь, как часть меня, как и я сам. Но что мне выбрать?"
+ interior_journey.0001.brave: "Сияющий, Яркий и Славный"
+ interior_journey.0001.craven: "Крингер, который скрывается"
+ interior_journey.0001.calm: "Бело-стеклянное море"
+ interior_journey.0001.wrathful: "Животное внутри, дикое и слезящее"
+ interior_journey.0001.chaste: "Благоразумие, к которому нельзя приближаться"
+ interior_journey.0001.lustful: "Желающий, приближающийся"
+ interior_journey.0001.content: "Ребенок в покое, который ничего не желает"
+ interior_journey.0001.ambitious: "Жаждущий, который всегда хватает"
+ interior_journey.0001.diligent: "Смит за работой"
+ interior_journey.0001.lazy: "[ROOT.Char.GetSheHe] Кто отдыхает на солнце"
+ interior_journey.0001.stubborn: "Жопа, которая не сдвинется с места"
+ interior_journey.0001.forgiving: "Разносчик милостыни."
+ interior_journey.0001.vengeful: "Клинок, который плачет кровью"
+ interior_journey.0001.generous: "Рог изобилия, дающий [ROOT.Char.GetHerHis] собственную жизненную силу"
+ interior_journey.0001.greedy: "Цепляющийся скряга"
+ interior_journey.0001.shy: "Осторожный скрытник"
+ interior_journey.0001.honest: "То, что может говорить не иначе"
+ interior_journey.0001.deceitful: "Асп в игре"
+ interior_journey.0001.humble: "Безликая страница"
+ interior_journey.0001.arrogant: "Слава в полдень"
+ interior_journey.0001.just: "Оно несет в себе закон"
+ interior_journey.0001.arbitrary: "Это закон"
+ interior_journey.0001.patient: "Паук в ожидании"
+ interior_journey.0001.impatient: "Призрак настоящего и всегда"
+ interior_journey.0001.trusting: "Эта послушная шерстяная штучка"
+ interior_journey.0001.paranoid: "Глаз, всегда воспринимающий"
+ interior_journey.0001.zealous: "Истина веков"
+ interior_journey.0001.cynical: "[ROOT.Char.GetSheHe] Кто не может"
+ interior_journey.0001.compassioante: "Плачущий и страсть"
+ interior_journey.0001.callous: "Это то, что не кажется"
+ interior_journey.0001.sadistic: "Гуляк с кровавыми пятнами"
+ interior_journey.0001.eccentric: "Разрушенная форма, первая и единственная"
+ interior_journey.0001.temperate: "The Empty Bowl" #NT!
+ interior_journey.0001.gregarious: "The Prince of the Seven Wine-Cups" #NT!
+ interior_journey.0001.fickle: "The Ever Changing Wind" #NT!
+ interior_journey.0001.gluttonous: "The Ravenous Maw" #NT!
+ interior_journey.0001.compassionate: "The Loving Embrace" #NT!
   
   
   
   
   # Arrest The magi 
- rival_ruined_with_magic: "Соперничество из дуэли"  #Машинный перевод 28.10.23!
- rival_ruined_with_magic_desc: "Вызвать усиление соперничества из-за магической дуэли"  #Машинный перевод 28.10.23!
+ rival_ruined_with_magic: "Соперничество из дуэли"
+ rival_ruined_with_magic_desc: "Вызвать усиление соперничества из-за магической дуэли"

@@ -1,3 +1,14 @@
 ﻿l_russian:
- kemsar_towers_modifier: "Реактивация Так'хана"  #Машинный перевод 28.10.23!
- kemsar_towers_modifier_desc: "Мы предпринимаем шаги и меры, необходимые для возрождения древнего Так'хана по всему миру."  #Машинный перевод 28.10.23!
+ kemsar_towers_modifier: "Реактивация Так'хана"
+ kemsar_towers_modifier_desc: "Мы предпринимаем шаги и меры, необходимые для возрождения древнего Так'хана по всему миру."
+  
+ gh_patron_submission_to_the_divine_mod: "Submission To The Divine" #NT!
+  
+ healed_the_sick_good_modifier: "Renowned Healer" #NT!
+ healed_the_sick_great_modifier: "Great Healer" #NT!
+  
+ spread_medical_knowledge_good_modifier: "Improved Medical Practices" #NT!
+ spread_medical_knowledge_great_modifier: "Greatly Improved Medical Practices" #NT!
+  
+ improved_hospitals_good_modifier: "Efficient Hospital Investments" #NT!
+ improved_hospitals_great_modifier: "Greatly Efficient Hospital Investments" #NT!

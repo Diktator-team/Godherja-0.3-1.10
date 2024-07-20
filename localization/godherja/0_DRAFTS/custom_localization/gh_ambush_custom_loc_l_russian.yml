@@ -1,15 +1,22 @@
 ﻿l_russian:
   #Ambush MAA 
- fogbeasts_ambush: "Огромная стая [Concept('fogbeasts','туманных тварей')|E]"  
- wodes_ambush: "Стрекочущая орда [Concept('fogeaters','туманников')|E]"  
- skeleton_ambush: "Бродячая стая скелетов, без сомнения, поднятая [Concept('lich','личом')|E],"  
- skeleton_archers_ambush: "Бродячая стая скелетов, вооруженных примитивными луками, без сомнения, поднятых [Concept('lich','личом')|E],"  
- undead_skirmishers_ambush: "Ковыляющая орда нежити, без сомнения, поднятая [Concept('lich','личом')|E],"  
+ fogbeasts_ambush:0 "Огромная стая [Concept('fogbeasts','туманных тварей')|E]"
+ wodes_ambush:0 "Стрекочущая орда [Concept('fogeaters','туманников')|E]"
+ skeleton_ambush:0 "Бродячая стая скелетов, без сомнения, поднятая [Concept('lich','личом')|E],"
+ skeleton_archers_ambush:0 "Бродячая стая скелетов, вооруженных примитивными луками, без сомнения, поднятых [Concept('lich','личом')|E],"
+ undead_skirmishers_ambush:0 "Ковыляющая орда нежити, без сомнения, поднятая [Concept('lich','личом')|E],"
+ chasm_terrors_ambush:0 "хищная орда кровавых мутировавших гончих, скорпионов и человеческих конечностей"
+ lesser_voidspawns_ambush:0 "бесформенные существа из пустоты и тени"
+ redland_cultists_ambush:0 "нечестивое сборище кровавых культистов"
+ voidhosts_ambush:0 "фигуры в капюшонах из адской тьмы"
+ archonarachs_ambush:0 "бегущее стадо архонарахов, слуг Паучьего двора,"
   
   #Ambush Locations 
- foglands_ambush: "[Concept('foglands','Туманные земли')|E]"  
- lichdoms_ambush: "[Concept('lichdoms','Личдома')|E]" 
+ foglands_ambush:0 "[Concept('foglands','Туманные земли')|E]"
+ lichdoms_ambush:0 "[Concept('lichdoms','Личдома')|E]"
+ redlands_ambush:0 "Красные земли"
   
   #Ambush Atmosphere 
- foglands_atm_ambush: "Появляющийся из тумана"  
- lichdoms_atm_ambush: "Восставая из пепла чернозема"  
+ foglands_atm_ambush:0 "появляющийся из тумана"
+ lichdoms_atm_ambush:0 "восставая из пепла чернозема"
+ redlands_atm_ambush:0 "материализующийся из ослепляющей песчаной бури"

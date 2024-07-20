@@ -1,73 +1,75 @@
 ﻿l_russian:
- dynn_lich_kresimir: "Кесимир"  #Машинный перевод 28.10.23!
- dynn_lich_vukimir: "Вукимир"  #Машинный перевод 28.10.23!
- dynn_lich_rezimin: "Резимин"  #Машинный перевод 28.10.23!
- dynn_lich_ramizin: "Рамизин"  #Машинный перевод 28.10.23!
- dynn_lich_kosterey: "Костерей"  #Машинный перевод 28.10.23!
- dynn_lich_oneygy: "Онейги"  #Машинный перевод 28.10.23!
- dynn_lich_daleyry: "Дейлери"  #Машинный перевод 28.10.23!
- dynn_lich_batory: "Баторий"  #Машинный перевод 28.10.23!
- dynn_lich_ozba: "Озба"  #Машинный перевод 28.10.23!
- dynn_lich_balaraz: "Балараз"  #Машинный перевод 28.10.23!
- dynn_lich_kostor: "Костор"  #Машинный перевод 28.10.23!
- dynn_lich_blogost: "Блогост"  #Машинный перевод 28.10.23!
- dynn_lich_osterkampy: "Остеркампи"  #Машинный перевод 28.10.23!
- dynn_lich_malkampy: "Малкампи"  #Машинный перевод 28.10.23!
- dynn_lich_ozmaran: "Озмаран"  #Машинный перевод 28.10.23!
- dynn_lich_razmalta: "Размальта"  #Машинный перевод 28.10.23!
- dynn_lich_aladoxna: "Аладоксна"  #Машинный перевод 28.10.23!
- dynn_lich_severena: "Северена"  #Машинный перевод 28.10.23!
- dynn_lich_melerena: "Мелерена"  #Машинный перевод 28.10.23!
- dynn_lich_ronczyka: "Рончика"  #Машинный перевод 28.10.23!
- dynn_lich_sezierya: "Сезерья"  #Машинный перевод 28.10.23!
- dynn_lich_skoya: "Скойя"  #Машинный перевод 28.10.23!
- dynn_lich_szaleya: "Салея"  #Машинный перевод 28.10.23!
- dynn_lich_maylara: "Майлара"  #Машинный перевод 28.10.23!
- dynn_lich_rosdayra: "Росдайра"  #Машинный перевод 28.10.23!
- dynn_lich_ceskayra: "Ческайра"  #Машинный перевод 28.10.23!
- dynn_lich_izmelna: "Измельна"  #Машинный перевод 28.10.23!
- dynn_lich_axamerna: "Аксамерна"  #Машинный перевод 28.10.23!
- dynn_lich_waremna: "Варемна"  #Машинный перевод 28.10.23!
- dynn_lich_skavorna: "Скаворна"  #Машинный перевод 28.10.23!
- dynn_lich_moltevoltka: "Молтевольтка"  #Машинный перевод 28.10.23!
- dynn_lich_szeptyrna: "Шептирна"  #Машинный перевод 28.10.23!
- dynn_lich_aredoxna: "Аредоксна"  #Машинный перевод 28.10.23!
- dynn_lich_severna: "Северна"  #Машинный перевод 28.10.23!
- #dynn_lich_venslau: "Венслау"  #Машинный перевод 28.10.23!
+ dynn_lich_kresimir: "Кесимир"
+ dynn_lich_vukimir: "Вукимир"
+ dynn_lich_rezimin: "Резимин"
+ dynn_lich_ramizin: "Рамизин"
+ dynn_lich_kosterey: "Костерей"
+ dynn_lich_oneygy: "Онейги"
+ dynn_lich_daleyry: "Дейлери"
+ dynn_lich_batory: "Баторий"
+ dynn_lich_ozba: "Озба"
+ dynn_lich_balaraz: "Балараз"
+ dynn_lich_kostor: "Костор"
+ dynn_lich_blogost: "Блогост"
+ dynn_lich_osterkampy: "Остеркампи"
+ dynn_lich_malkampy: "Малкампи"
+ dynn_lich_ozmaran: "Озмаран"
+ dynn_lich_razmalta: "Размальта"
+ dynn_lich_aladoxna: "Аладоксна"
+ dynn_lich_severena: "Северена"
+ dynn_lich_melerena: "Мелерена"
+ dynn_lich_ronczyka: "Рончика"
+ dynn_lich_sezierya: "Сезерья"
+ dynn_lich_skoya: "Скойя"
+ dynn_lich_szaleya: "Салея"
+ dynn_lich_maylara: "Майлара"
+ dynn_lich_rosdayra: "Росдайра"
+ dynn_lich_ceskayra: "Ческайра"
+ dynn_lich_izmelna: "Измельна"
+ dynn_lich_axamerna: "Аксамерна"
+ dynn_lich_waremna: "Варемна"
+ dynn_lich_skavorna: "Скаворна"
+ dynn_lich_moltevoltka: "Молтевольтка"
+ dynn_lich_szeptyrna: "Шептирна"
+ dynn_lich_aredoxna: "Аредоксна"
+ dynn_lich_severna: "Северна"
+ #dynn_lich_venslau: "Венслау"
  #dynn_lich_venslau_motto: " "
- #dynn_lich_stavro: "Ставро"  #Машинный перевод 28.10.23!
+ #dynn_lich_stavro: "Ставро"
  #dynn_lich_stavro_motto: " "
- dynn_lich_adwakampy: "Адвакампи"  #Машинный перевод 28.10.23!
- dynn_lich_adwakampy_motto: "Пусть звери поглотят мир"  #Машинный перевод 28.10.23!
- #dynn_lich_Magioxtes: "Магиокст"  #Машинный перевод 28.10.23!
+ dynn_lich_adwakampy: "Адвакампи"
+ dynn_lich_adwakampy_motto: "Пусть звери поглотят мир"
+ #dynn_lich_Magioxtes: "Магиокст"
  #dynn_lich_Magioxtes_motto: " "
- dynn_lich_yakovad: "Яковад"  #Машинный перевод 28.10.23!
- dynn_lich_yakovad_motto: "Слова могут убить и создать заново"  #Машинный перевод 28.10.23!
- dynn_lich_wellcolac: "Веллколак"  #Машинный перевод 28.10.23!
- dynn_lich_wellcolac_motto: "Двенадцать подношений"  #Машинный перевод 28.10.23!
- dynn_lich_wisleyx: "Уисликс"  #Машинный перевод 28.10.23!
- dynn_lich_wisleyx_motto: "Великолепие вне всякого сравнения"  #Машинный перевод 28.10.23!
- dynn_lich_crasvir: "Красвир"  #Машинный перевод 28.10.23!
- dynn_lich_crasvir_motto: "Наши кости крепкие"  #Машинный перевод 28.10.23!
- dynn_lich_dexasidyn: "Дексасидин"  #Машинный перевод 28.10.23!
- dynn_lich_dexasidyn_motto: "Смерть — последний противник"  #Машинный перевод 28.10.23!
- #dynn_lich_methiclyz: "Метиклиз"  #Машинный перевод 28.10.23!
- #dynn_lich_methiclyz_motto: "Пусть месть ослепит ваш путь"  #Машинный перевод 28.10.23!
- dynn_lich_zackowic: "Закович"  #Машинный перевод 28.10.23!
- dynn_lich_zackowic_motto: "В объятиях Божественности"  #Машинный перевод 28.10.23!
- #dynn_lich_petrynix: "Петриникс"  #Машинный перевод 28.10.23!
- #dynn_lich_petrynix_motto: "Чистые кости, чистая кровь"  #Машинный перевод 28.10.23!
- dynn_lich_wethydoltek: "Ветидолтек"  #Машинный перевод 28.10.23!
- dynn_lich_wethydoltek_motto: "Искатели внешних путей"  #Машинный перевод 28.10.23!
- #dynn_lich_holkkarak: "Холккарак"  #Машинный перевод 28.10.23!
+ dynn_lich_yakovad: "Яковад"
+ dynn_lich_yakovad_motto: "Слова могут убить и создать заново"
+ dynn_lich_wellcolac: "Веллколак"
+ dynn_lich_wellcolac_motto: "Двенадцать подношений"
+ dynn_lich_wisleyx: "Уисликс"
+ dynn_lich_wisleyx_motto: "Великолепие вне всякого сравнения"
+ dynn_lich_crasvir: "Красвир"
+ dynn_lich_crasvir_motto: "Наши кости крепкие"
+ dynn_lich_dexasidyn: "Дексасидин"
+ dynn_lich_dexasidyn_motto: "Смерть — последний противник"
+ #dynn_lich_methiclyz: "Метиклиз"
+ #dynn_lich_methiclyz_motto: "Пусть месть ослепит ваш путь"
+ dynn_lich_zackowic: "Закович"
+ dynn_lich_zackowic_motto: "В объятиях Божественности"
+ #dynn_lich_petrynix: "Петриникс"
+ #dynn_lich_petrynix_motto: "Чистые кости, чистая кровь"
+ dynn_lich_wethydoltek: "Ветидолтек"
+ dynn_lich_wethydoltek_motto: "Искатели внешних путей"
+ #dynn_lich_holkkarak: "Холккарак"
  #dynn_lich_holkkarak_motto: " "
- #dynn_lich_avedexarax: "Аведексаракс"  #Машинный перевод 28.10.23!
+ #dynn_lich_avedexarax: "Аведексаракс"
  #dynn_lich_avedexarax_motto: " "
- dynn_lich_iurdian: "иурдан"  #Машинный перевод 28.10.23!
- dynn_lich_iurdian_motto: "Повелители пропастей"  #Машинный перевод 28.10.23!
- dynn_lich_duricdeny: "Дюрикдени"  #Машинный перевод 28.10.23!
- dynn_lich_duricdeny_motto: "Попирать любовь"  #Машинный перевод 28.10.23!
- dynn_lich_jorviekex: "Йорвиекекс"  #Машинный перевод 28.10.23!
- dynn_lich_jorviekex_motto: "Тени покрывают наших мертвецов"  #Машинный перевод 28.10.23!
- dynn_lich_illadir: "Илладир"  #Машинный перевод 28.10.23!
- dynn_lich_illadir_motto: "Настойчивость в нашем владычестве"  #Машинный перевод 28.10.23!
+ dynn_lich_iurdian: "иурдан"
+ dynn_lich_iurdian_motto: "Повелители пропастей"
+ dynn_lich_duricdeny: "Дюрикдени"
+ dynn_lich_duricdeny_motto: "Попирать любовь"
+ dynn_lich_jorviekex: "Йорвиекекс"
+ dynn_lich_jorviekex_motto: "Тени покрывают наших мертвецов"
+ dynn_lich_illadir: "Илладир"
+ dynn_lich_illadir_motto: "Настойчивость в нашем владычестве"
+ dynn_lich_navos: "Navos" #NT!
+ dynn_lich_navos_motto: "The Reaper Bows Low" #NT!

@@ -1,2 +1,2 @@
 ﻿l_russian:
- CULTURE_WINDOW_COUNTIES: "[GuiScope.SetRoot( Culture.MakeScope ).ScriptValue('culture_size')|0] [counties|E] принадлежат к этой культуре"  #Машинный перевод 28.10.23!
+ CULTURE_WINDOW_COUNTIES: "[GuiScope.SetRoot( Culture.MakeScope ).ScriptValue('culture_size')|0] [counties|E] принадлежат к этой культуре"

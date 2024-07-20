@@ -14,4 +14,4 @@
  magic_focused_tax_contribution_mult: "$magic_focused_vassal$ [tax|E] [modifier_contribution|E]"
  magic_focused_levy_contribution_add: "$magic_focused_vassal$ [levy|E] [modifier_base_contribution|E]"
  magic_focused_levy_contribution_mult: "$magic_focused_vassal$ [levy|E] [modifier_contribution|E]"
-   
+  

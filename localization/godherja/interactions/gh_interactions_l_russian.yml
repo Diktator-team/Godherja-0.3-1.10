@@ -1,38 +1,62 @@
 ﻿l_russian:
- interaction_category_magic: "Магия"  #Машинный перевод 28.10.23!
+ interaction_category_magic: "Магия"
   
- gh_tribal_settlement_interaction: "Поощряйте племенные поселения"  #Машинный перевод 28.10.23!
- gh_tribal_settlement_interaction_desc: "Пригласите членов вашего племени поселиться, что значительно облегчит религиозное и культурное преобразование региона."  #Машинный перевод 28.10.23!
- cultural_acceptance_loss_tribal_settlement: "Первоначальные поселенцы этой земли были вытеснены вашим племенем."  #Машинный перевод 28.10.23!
+ gh_tribal_settlement_interaction: "Поощряйте племенные поселения"
+ gh_tribal_settlement_interaction_desc: "Пригласите членов вашего племени поселиться, что значительно облегчит религиозное и культурное преобразование региона."
+ cultural_acceptance_loss_tribal_settlement: "Первоначальные поселенцы этой земли были вытеснены вашим племенем."
   
- challenge_liege: "Бросьте вызов лидерству"  #Машинный перевод 28.10.23!
- challenge_liege_interaction_desc: "Бросьте вызов правилу [recipient.GetFirstNameNoTooltip] в [trial_by_combat|E] насмерть"  #Машинный перевод 28.10.23!
- CHALLENGE_LIEGE_TEXT: "[recipient.Custom('InsultNoun')|U]! Вы не достойны [recipient.GetPrimaryTitle.GetName]. Встретимся со мной в бою, и мы увидим, кто достоин править!"  #Машинный перевод 28.10.23!
+ challenge_liege: "Бросьте вызов лидерству"
+ challenge_liege_interaction_desc: "Бросьте вызов правилу [recipient.GetFirstNameNoTooltip] в [trial_by_combat|E] насмерть"
+ CHALLENGE_LIEGE_TEXT: "[recipient.Custom('InsultNoun')|U]! Вы не достойны [recipient.GetPrimaryTitle.GetName]. Встретимся со мной в бою, и мы увидим, кто достоин править!"
   
- gh_purge_county_interaction: "Округ Чистка"  #Машинный перевод 28.10.23!
- gh_purge_county_interaction_desc: "Начать неизбирательную резню местного населения."  #Машинный перевод 28.10.23!
- gh_purge_county_interaction_result: "Вы очищаете население округа"  #Машинный перевод 28.10.23!
- gh_purge_county_interaction_result_1: "Вы сжигаете и грабите землю"  #Машинный перевод 28.10.23!
- gh_purge_county_interaction_result_2: "Вы разоряете сельскую местность, уничтожая целые деревни"  #Машинный перевод 28.10.23!
- gh_purge_county_interaction_result_3: "Вы превращаете целые города в пепел и руины"  #Машинный перевод 28.10.23!
- gh_purge_county_interaction_result_4: "Вы очищаете население округа"  #Машинный перевод 28.10.23!
- gh_purge_county_interaction_result_5: "Вы полностью заменяете первоначальных жителей"  #Машинный перевод 28.10.23!
- gh_purge_county_interaction_result_6: "Вы не заменяете коренных жителей"  #Машинный перевод 28.10.23!
- cultural_acceptance_loss_purge: "[target.GetName] был очищен правителем культуры [actor.GetCulture.GetName]"  #Машинный перевод 28.10.23!
+ gh_purge_county_interaction: "Округ Чистка"
+ gh_purge_county_interaction_desc: "Начать неизбирательную резню местного населения."
+ gh_purge_county_interaction_result: "Вы очищаете население округа"
+ gh_purge_county_interaction_result_1: "Вы сжигаете и грабите землю"
+ gh_purge_county_interaction_result_2: "Вы разоряете сельскую местность, уничтожая целые деревни"
+ gh_purge_county_interaction_result_3: "Вы превращаете целые города в пепел и руины"
+ gh_purge_county_interaction_result_4: "Вы очищаете население округа"
+ gh_purge_county_interaction_result_5: "Вы полностью заменяете первоначальных жителей"
+ gh_purge_county_interaction_result_6: "Вы не заменяете коренных жителей"
   
- dehand_interaction: "Деханд"  #Машинный перевод 28.10.23!
- dehand_interaction_desc: "Сделать [recipient.GetShortUINameNoTooltip] [GetTrait('gh_dehanded').GetName( GetPlayer )]"  #Машинный перевод 28.10.23!
+ gh_redrunner_purge_corruption_interaction: "Purge Corruption" #NT!
+ gh_redrunner_purge_corruption_interaction_desc: "Launch a campaign of fire to burn out the radicals." #NT!
   
- add_to_magic_list_interaction: "Добавить к целям [magic|E]"  #Машинный перевод 28.10.23!
- add_to_magic_list_desc: "Добавьте [recipient.GetShortUINameNoTooltip] в свою книгу заклинаний в качестве потенциальной цели."  #Машинный перевод 28.10.23!
+ gh_redlands_decay_county_interaction: "Cull the Land" #NT!
+ gh_redlands_decay_county_interaction_desc: "These lands have been drained of all resources and people. It is now time to decide its future." #NT!
   
- remove_from_magic_list_interaction: "Удалить из целей [magic|E]"  #Машинный перевод 28.10.23!
- remove_from_magic_list_desc: "Удалить [recipient.GetShortUINameNoTooltip] из списка потенциальных целей в моей книге заклинаний."  #Машинный перевод 28.10.23!
-
+ cultural_acceptance_loss_purge: "[target.GetName] был очищен правителем культуры [actor.GetCulture.GetName]"
+  
+ dehand_interaction: "Деханд"
+ dehand_interaction_desc: "Сделать [recipient.GetShortUINameNoTooltip] [GetTrait('gh_dehanded').GetName( GetPlayer )]"
+  
+ add_to_magic_list_interaction: "Добавить к целям [magic|E]"
+ add_to_magic_list_desc: "Добавьте [recipient.GetShortUINameNoTooltip] в свою книгу заклинаний в качестве потенциальной цели."
+  
+ remove_from_magic_list_interaction: "Удалить из целей [magic|E]"
+ remove_from_magic_list_desc: "Удалить [recipient.GetShortUINameNoTooltip] из списка потенциальных целей в моей книге заклинаний."
+  
  clear_magic_list_interaction: "Clear [magic|E] Targets"
  clear_magic_list_desc: "Clears your list of potential targets in my spellbook"
-
- amsari_child_kill_interaction: "Тихо лишить ребенка наследства"  #Машинный перевод 28.10.23!
- amsari_child_kill_interaction_desc: "Вокруг бегает слишком много моих детей... Эти возможные претенденты могут бросить вызов стабильности Империи! С этим надо что-то делать..."  #Машинный перевод 28.10.23!
   
- happy_heir: "Родитель поддерживает наше требование"  #Машинный перевод 28.10.23!
+ amsari_child_kill_interaction: "Тихо лишить ребенка наследства"
+ amsari_child_kill_interaction_desc: "Вокруг бегает слишком много моих детей... Эти возможные претенденты могут бросить вызов стабильности Империи! С этим надо что-то делать..."
+  
+ happy_heir: "Родитель поддерживает наше требование"
+  
+  # Offer Treatment Interaction 
+  
+ offer_treatment_interaction: "Offer Treatment" #NT!
+ offer_treatment_interaction_desc: "Offer to treat [recipient.GetShortUINamePossessive] disease" #NT!
+ offer_treatment_will_attempt_to_cure_disease_tooltip_tt: "You will attempt to treat [recipient.GetShortUINamePossessive] disease" #NT!
+  
+ OFFER_TREATMENT_INTERACTION_NOTIFICATION: "I humbly offer my services as physician, if you you allow me to treat your disease." #NT!
+ free_treatment_offer_treatment: "Charge nothing" #NT!
+ paid_treatment_offer_treatment: "Demand Gold" #NT!
+ hook_for_treatment_offer_treatment: "Demand a [hook|E]" #NT!
+  
+ offer_treatment_learning_reason.tt: "Learning: $VALUE|=+0$" #NT!
+ offer_treatment_physician_reason.tt: "Your skill as a Physician: $VALUE|=+0$" #NT!
+ offer_treatment_mystic_reason.tt: "Your skill as a Mystic: $VALUE|=+0$" #NT!
+ offer_treatment_herbalist_reason.tt: "Your knowledge of herbalism: $VALUE|=+0$" #NT!
+ offer_treatment_court_owner_reason.tt: "[recipient.GetShortUINameNoTooltip] would rather not decline [recipient.GetHerHis] Court Owner: $VALUE|=+0$" #NT!
