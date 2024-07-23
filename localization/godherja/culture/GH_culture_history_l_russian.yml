@@ -1,15 +1,15 @@
 ﻿l_russian:
- bricotaves_history_loc: "Спустился с последнего $gh_kelthiunai_group$ Сердцевины, чтобы противостоять колонизации Калатипсоми."
- ardothanes_history_loc: "Происходил из северной части $gh_kelthiunai_group$, изгнанной в пустыню [Concept( 'aversarians', 'аверсареанцев' )|E]."
- ordikin_history_loc: "Происходил от древнего $gh_kelthiunai_group$, изгнанного в пустыню [Concept( marchers', 'марчеров' )|E]."
- corvosnari_history_loc: "Происходил из восточного $gh_kelthiunai_group$, изгнанного в пустыню [Concept( 'aversarians', 'аверсареанцев' )|E]."
- dodragn_history_loc: "Происходили от различных изгнанников $gh_aupagn_group$, изгнанных из своих племен."
- skorikiakas_history_loc: "Происходили от поселенцев Картарадда, оккупировавших Малкойс в седьмом веке."
- dielecender_history_loc: "Developed from a melting pot of [marcher|E], [aversarian|E], [Concept('shatteredisles','Islander')|E], and [Concept('kathanouxaic_empire','Clanlander')|E] cultures" #NT!
- skolix_history_loc: "Developed from a a variety of exiled [mutants|E] from across the [Concept('aversaria','Empire')|E]" #NT!
- kuridorig_history_loc: "Descended from the first Ölteni to cross the Kasiryat before the [bayyuralar|E]" #NT!
- murarut_history_loc: "Formed from Pre-Öltenic [Concept('great_steppe_biozone','Aironoian Steppe')|E] natives under [GetCulturePillar('heritage_vhanavid').GetName] influence" #NT!
- muhadamd_history_loc: "Descended from subjugated [GetCulturePillar('heritage_kherkeloi').GetName] peoples under [GetCulturePillar('heritage_vhanavid').GetName] rule" #NT!
- khorinot_history_loc: "Developed from various Öltenic tribes in the wake of the [aironoian_migration|E]" #NT!
- arderwan_history_loc: "Formed from [CULTURE.GetName] tribes who have settled [TARGET_CULTURE.GetName] ruins under [aversarian|E] influence" #NT!
- sarminians_history_loc: "Diverged from [GetCulturePillar('heritage_narodlek').GetName] tribes under Öltenic influence around the year 700" #NT!
+ bricotaves_history_loc:90 "Спустились с последнего [GetCulturePillar('heritage_kelthiunai').GetName] Хертвуда, чтобы противостоять колонизации Калатипсоми."
+ ardothanes_history_loc:90 "Произошли из северной части [GetCulturePillar('heritage_kelthiunai').GetName], изгнанной в пустыню [Concept( 'aversarians', 'аверсарианцев' )|E]."
+ ordikin_history_loc:90 "Произошли от древнего [GetCulturePillar('heritage_kelthiunai').GetName], изгнанного в пустыню [Concept( marchers', 'марчеров' )|E]."
+ corvosnari_history_loc:90 "Произошли из восточного [GetCulturePillar('heritage_kelthiunai').GetName], изгнанного в пустыню [Concept( 'aversarians', 'аверсарианцев' )|E]."
+ dodragn_history_loc:90 "Произошли от различных изгнанников [GetCulturePillar('heritage_aupagn').GetName], изгнанных из своих племен."
+ skorikiakas_history_loc:90 "Произошли от поселенцев Картарадда, оккупировавших Малкойс в [Concept('chaos_of_the_seventh_century','хаосе седьмого века')|E]."
+ ielecender_history_loc:90 "Развились в результате смешения культур [Concept('marcher','Марчеров')|E], [Concept('aversarian','Аверсарианцев')|E], [Concept('shatteredisles','Островитян')|E] и [Concept('kathanouxaic_empire','Клановцовских')|E] культур"
+ skolix_history_loc:90 "Появились из множества изгнанных [Concept('mutants','мутантов')|E] со всей [Concept('aversaria','Империи')|E]"
+ kuridorig_history_loc:90 "Спустились с первого Олтени, чтобы пересечь Касирьят перед [Concept('bayyuralar','Байюралары')|E]"
+ murarut_history_loc:90 "Образовались из пре-олтенической [Concept('great_steppe_biozone','степи')|E] коренные жители, находящиеся под влиянием [GetCulturePillar('heritage_vhanavid').GetName]"
+ muhadamd_history_loc:90 "Произошли от порабощенных [GetCulturePillar('heritage_kherkeloi').GetName] народов, находившихся под властью [GetCulturePillar('heritage_vhanavid').GetName]"
+ khorinot_history_loc:90 "Развилась из различных олтенийских племен в результате [Concept('aironoian_migration','миграции')|E]"
+ arderwan_history_loc:90 "Сформировались из [CULTURE.GetName] племен, которые заселили развалины [TARGET_CULTURE.GetName] под [Concept('aversarian','аверсарианским')|E] влиянием"
+ sarminians_history_loc:90 "Отделились от [GetCulturePillar('heritage_narodlek').GetName] племен, находившихся под влиянием олтеников около 700 леь"

@@ -10,7 +10,7 @@
  westernimperial_prefix: "Западно-Аверсариано"
  southislander_prefix: "Южно-Аверсариано-Острово"
  centralimperial_prefix: "Центрально-Аверсариано"
- ixsian_prefix: "Ixsian" #NT!
+ ixsian_prefix: "Иксианско" 
  islander_prefix: "Аверсариано-Острово"
  imperialislander_prefix: "Имперско-Острово"
  aersodiaxian_islander_prefix: "Фелаксо"
@@ -134,7 +134,7 @@
  musar_prefix: "Мусаро"
  muhadamd_prefix: "Мухадамдо"
  kuridorig_prefix: "Куридориго"
- arderwan_prefix: "Karatzir" #NT!
+ arderwan_prefix: "Каратциро" 
  auteonic_prefix: "Аутеонико"
  brigandines_prefix: "Бригандино"
  cautocoi_prefix: "Каутокойно"
@@ -327,7 +327,7 @@
  nattanan_prefix: "Наттанано"
  dathanites_prefix: "Датанито"
  gh_dragon_culture_prefix: "Драконо"
- banwagul_prefix: "Banwagul" #NT!
- dayarka_prefix: "Dayarka" #NT!
- kedari_prefix: "Kedari" #NT!
- lihakan_prefix: "Lihakan" #NT!
+ banwagul_prefix: "Банвагуло" 
+ dayarka_prefix: "Даярко" 
+ kedari_prefix: "Кедарио" 
+ lihakan_prefix: "Лихакано" 

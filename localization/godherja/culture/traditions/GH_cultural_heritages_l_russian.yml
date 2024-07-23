@@ -198,8 +198,8 @@
  heritage_ashkeschi_collective_noun: "Ашкешинск"
  heritage_dadkawji_name: "Дадкавджинцы"
  heritage_dadkawji_collective_noun: "Дадкавджинск"
- heritage_siltwalker_name: "Siltwalker" #NT!
- heritage_siltwalker_collective_noun: "Siltwalkers" #NT!
+ heritage_siltwalker_name: "Безмолвные странники" 
+ heritage_siltwalker_collective_noun: "Безмолвно-странникск" 
  heritage_narodlek_name: "Народлекинцы"
  heritage_narodlek_collective_noun: "Народлекинск"
  heritage_sagadavian_name: "Сагадавианцы"
@@ -212,5 +212,5 @@
  heritage_saileaien_collective_noun: "Сайелайенск"
  heritage_gh_dragon_name: "Драконы"
  heritage_gh_dragon_collective_noun: "Драконск"
- heritage_tanarka_name: "Tanarka" #NT!
- heritage_tanarka_collective_noun: "Tanarka" #NT!
+ heritage_tanarka_name: "Танарки" 
+ heritage_tanarka_collective_noun: "Танаркск" 
