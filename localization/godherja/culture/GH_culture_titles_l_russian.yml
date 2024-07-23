@@ -38,8 +38,8 @@
  emperor_republic_male_marcher_high_king: "Первый пэр"
  emperor_republic_female_marcher_high_king: "Первый пэр"
  emperor_theocracy_marcher: "Иерократ"
- emperor_theocracy_male_marcher_lifepath: "Arch-Wayfather"
- emperor_theocracy_female_marcher_lifepath: "Arch-Waymother"
+ emperor_theocracy_male_marcher_lifepath: "Архиотец пути"
+ emperor_theocracy_female_marcher_lifepath: "Архимать пути"
  emperor_theocracy_marcher_high_king: "Верховный иерократ"
  emperor_theocracy_male_marcher_high_king_lifepath: "Верховный служитель"
  emperor_theocracy_female_marcher_high_king_lifepath: "Верховная служительница"
@@ -51,9 +51,9 @@
  emperor_other_female_rejection_high_king: "Черная королева"
  emperor_other_male_aversarian_high_king: "Верховный архексир"
  emperor_other_female_aversarian_high_king: "Верховная архекса"
- emperor_other_male_konijkmener_high_king: "Opprewoder"
- emperor_other_female_konijkmener_high_king: "Opprewodrin"
- emperor_republic_konijkmener_high_king: "Alrekanzeler"
+ emperor_other_male_konijkmener_high_king: "Оппреводер"
+ emperor_other_female_konijkmener_high_king: "Оппреводерин"
+ emperor_republic_konijkmener_high_king: "Альреканцелер"
  emperor_marcher_male: "Верховный король"
  emperor_marcher_female: "Верховная королева"
  emperor_other_male_high_king: "Верховный король"
@@ -62,14 +62,14 @@
  king_marcher_arch_marquise_oudemarches: "Архимаркиза"
  duke_other_male_marcher: "Герцог"
  duke_other_female_marcher: "Герцогиня"
- duke_republic_male_marcher_independent: "Chancelier" #NT!
- duke_republic_female_marcher_independent: "Chanceliere" #NT!
- duke_republic_male_marcher: "Govreneur" #NT!
- duke_republic_female_marcher: "Govrenesse" #NT!
+ duke_republic_male_marcher_independent: "Канцлер"
+ duke_republic_female_marcher_independent: Канцлер"
+ duke_republic_male_marcher: "Гуверн"
+ duke_republic_female_marcher: "Гуверна"
  count_other_male_marcher: "Граф"
  count_other_female_marcher: "Графиня"
- count_republic_male_marcher: "Bailif" #NT!
- count_republic_female_marcher: "Bailie" #NT!
+ count_republic_male_marcher: "Бейлиф"
+ count_republic_female_marcher: "Бейлиф"
  baron_feudal_male_marcher: "Маркиз"
  baron_feudal_female_marcher: "Маркиза"
  baron_other_male_marcher: "Барон"
@@ -82,33 +82,33 @@
  anti_magic_order_commander: "Командир"
  anti_magic_order_sir: "Сеньор"
   
- title_empire_marcher: "Petty High Kingdom"
+ title_empire_marcher: "Малое верховное королевство"
  title_empire_marcher_holy_order: "Великий орден"
  title_empire_marcher_holy_order_high_kingdom: "Орден-регентство"
- title_empire_marcher_magocracy: "Magidom"
- title_empire_marcher_magocracy_high_kingdom: "High Magidom"
+ title_empire_marcher_magocracy: "Магидом"
+ title_empire_marcher_magocracy_high_kingdom: "Великий Магидом"
  title_empire_marcher_mercenary: "Королевская компания"
- title_empire_marcher_mercenary_high_kingdom: "High Regent-Commandery"
+ title_empire_marcher_mercenary_high_kingdom: "Верховное командование"
  title_empire_marcher_peasant_republic: "Великая коммуна"
  title_empire_marcher_peasant_republic_high_kingdom: "Верховная коммуна"
- title_empire_marcher_pirate_high_kingdom: "High Pirate March-Republican Kingdom"
+ title_empire_marcher_pirate_high_kingdom: "Верховное пиратское марческо-республиканское королевство"
  title_empire_marcher_republic: "Великая республика"
  title_empire_marcher_republic_high_kingdom: "Верховное пэрство"
  title_empire_marcher_theocracy: "Иерократия"
  title_empire_marcher_theocracy_high_kingdom: "Верховная иерократия"
- title_empire_marcher_theocracy_lifepath: "Waycrown"
- title_empire_marcher_theocracy_high_kingdom_lifepath: "High Waycrown"
- title_empire_aversarian_high_kingdom: "Arch-Archexate"
- title_empire_konijkmener_republic_high_kingdom: "Alrekanzelerij"
- title_empire_konijkmener_high_kingdom: "Opprewodriek"
+ title_empire_marcher_theocracy_lifepath: "Путевая корона"
+ title_empire_marcher_theocracy_high_kingdom_lifepath: "Верхованая путевая корона"
+ title_empire_aversarian_high_kingdom: "Архи-Архексат"
+ title_empire_konijkmener_republic_high_kingdom: "Альреканцелерий"
+ title_empire_konijkmener_high_kingdom: "Оппреводрик"
  title_empire_ojyczaynz_high_kingdom: "Герцогство-регентство"
  title_empire_oejeynican_high_kingdom: "Герцогство-регентство"
  title_empire_high_kingdom: "Верховное королевство"
  title_empire_high_kingdom_rejection: "Черное королевство"
- #title_kingdom_marcher_aautokrata: "Great March"
+ #title_kingdom_marcher_aautokrata: "Велий Марч"
  title_duchy_marcher: "Герцогство"
  title_county_marcher: "Графство"
- title_county_republic_marcher: "Baillage" #NT!
+ title_county_republic_marcher: "Бальяж"
  title_baron_feudal_marcher: "Маркизство"
  title_baron_marcher: "Баронство"
   
@@ -555,8 +555,8 @@
  prince_female_gallieni_empire: "Бренаилон"
   
   ## Karzarad ## 
- emperor_male_karzarads_cenwarized: "Knivoyar"
- emperor_female_karzarads_cenwarized: "Kniyarix"
+ emperor_male_karzarads_cenwarized: "Книвояр"
+ emperor_female_karzarads_cenwarized: "Книвоярикс"
  emperor_male_karzarads: "Правиатор"
  emperor_female_karzarads: "Правиатрица"
  king_male_karzarads: "Сиянол"
@@ -760,7 +760,7 @@
  duke_female_dawic: "Излания"
  count_male_dawic: "Лаубал"
  count_female_dawic: "Лаубала"
- baron_male_dawic: "Xulun"
+ baron_male_dawic: "Сюлун"
  baron_female_dawic: "Ксулуна"
  empire_dawic: "Джугардака"
  kingdom_dawic: "Айллинака"
@@ -920,8 +920,8 @@
  prince_female_saradari_empire: "Ратакани"
   
   ##Sarradonian## 
- emperor_male_sarradonian: "Малайку ль-Алайк"
- emperor_female_sarradonian: "Малайкту ль-Алайк"
+ emperor_male_sarradonian: "Малайку Аль-Алайк"
+ emperor_female_sarradonian: "Малайкту Аль-Алайк"
  king_male_sarradonian: "Малайкский"
  king_female_sarradonian: "Малайка"
  duke_male_sarradonian: "Баал"
@@ -1025,63 +1025,63 @@
  prince_mtuwe_empire: "Варуэ"
   
   ### Redlander ### 
- baron_male_redlander: "Tender" #NT!
- baron_female_redlander: "Tender" #NT!
- barony_redlander: "Cultmeet" #NT!
- count_male_redlander: "Master" #NT!
- count_female_redlander: "Mistress" #NT!
- county_redlander: "Cult" #NT!
- duke_male_redlander: "High Master" #NT!
- duke_female_redlander: "High Mistress" #NT!
- duchy_redlander: "High Cult" #NT!
- king_male_redlander: "Hierarch" #NT!
- king_female_redlander: "Hierarch" #NT!
- kingdom_redlander: "Hierarchate" #NT!
- emperor_male_redlander: "Deep Speaker" #NT!
- emperor_female_redlander: "Deep Speaker" #NT!
- empire_redlander: "Heresarchate" #NT!
+ baron_male_redlander: "Тендер"
+ baron_female_redlander: "Тендер"
+ barony_redlander: "Собрание культа"
+ count_male_redlander: "Мастер"
+ count_female_redlander: "Госпожа"
+ county_redlander: "Культ"
+ duke_male_redlander: "Верховный мастер"
+ duke_female_redlander: "Верховная госпожа"
+ duchy_redlander: "Высший культ"
+ king_male_redlander: "Иерарх"
+ king_female_redlander: "Иерарх"
+ kingdom_redlander: "Иерархия"
+ emperor_male_redlander: "Великий спикер"
+ emperor_female_redlander: "Великий спикер"
+ empire_redlander: "Ересиархия"
   
   ### Dahangon ### 
- empire_tanarka: "Da-Redaka" #NT!
- emperor_male_tanarka: "Ranaklan" #NT!
- emperor_female_tanarka: "Ranari" #NT!
+ empire_tanarka: "Да-Редака"
+ emperor_male_tanarka: "Ранаклан"
+ emperor_female_tanarka: "Ранари"
   
- kingdom_tanarka: "Redaka" #NT!
- kingdom_male_tanarka: "Naklan" #NT!
- kingdom_female_tanarka: "Nari" #NT!
+ kingdom_tanarka: "Редака"
+ kingdom_male_tanarka: "Наклан"
+ kingdom_female_tanarka: "Нари"
   
- prince_male_tanarka: "Sakan" #NT!
- prince_female_tanarka: "Sari" #NT!
- prince_male_tanarka_empire: "Sakan" #NT!
- prince_female_tanarka_empire: "Sari" #NT!
+ prince_male_tanarka: "Сакан"
+ prince_female_tanarka: "Сари"
+ prince_male_tanarka_empire: "Сакан"
+ prince_female_tanarka_empire: "Сари"
   
- duchy_tanarka: "Dusana" #NT!
- duke_male_tanarka: "Dukan" #NT!
- duke_female_tanarka: "Duri" #NT!
+ duchy_tanarka: "Душана"
+ duke_male_tanarka: "Дукан"
+ duke_female_tanarka: "Дури"
   
- county_tanarka: "Sangay" #NT!
- count_male_tanarka: "Tikan" #NT!
- count_female_tanarka: "Tikri" #NT!
+ county_tanarka: "Сангай"
+ count_male_tanarka: "Тикан"
+ count_female_tanarka: "Тикри"
   
- barony_tanarka: "Village" #NT!
- baron_male_tanarka: "Likan" #NT!
- baron_female_tanarka: "Likri" #NT!
+ barony_tanarka: "Деревня"
+ baron_male_tanarka: "Ликан"
+ baron_female_tanarka: "Ликри"
   
   ### Kathunian (Bronzeport) ### 
- emperor_male_bronzport: "Exalted Minister" #NT!
- emperor_female_bronzeport: "Exalted Minister" #NT!
+ emperor_male_bronzport: "Возвышенный министр"
+ emperor_female_bronzeport: "Возвышенный министр"
   
- kingdom_male_bronzeport: "High Minister" #NT!
- kingdom_female_bronzeport: "High Minister" #NT!
+ kingdom_male_bronzeport: "Высший министр"
+ kingdom_female_bronzeport: "Высший министр"
   
- duke_male_bronzeport: "Under-Minister" #NT!
- duke_female_bronzeport: "Under-Minister" #NT!
+ duke_male_bronzeport: "Над-министр"
+ duke_female_bronzeport: "Над-министр"
   
- count_male_bronzeport: "Sub-Minister" #NT!
- count_female_bronzeport: "Sub-Minister" #NT!
+ count_male_bronzeport: "Вице-министр"
+ count_female_bronzeport: "Вице-министр"
   
- baron_male_bronzeport: "Associate" #NT!
- baron_female_bronzeport: "Associate" #NT!
+ baron_male_bronzeport: "Помощник"
+ baron_female_bronzeport: "Помощница"
   
   ## Liches ## 
  emperor_lich: "Архилич"

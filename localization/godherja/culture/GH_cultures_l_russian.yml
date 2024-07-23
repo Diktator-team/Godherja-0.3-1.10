@@ -20,8 +20,8 @@
  centralimperial_collective_noun: "Аверсарианск"
  islander: "Аверсарианские Островитяне"
  islander_collective_noun: "Аверсиано-Островитянск"
- ixsian: "Ixsian" #NT!
- ixsian_collective_noun: "Ixiani" #NT!
+ ixsian: "Иксианский"
+ ixsian_collective_noun: "Иксианск"
  imperialislander: "Имперские Островитяне"
  imperialislander_collective_noun: "Аверсарианск"
  aersodiaxian_islander: "Фелаксийцы"
@@ -72,8 +72,8 @@
  karadamos_collective_noun: "Карадамоск"
  skorikiakas: "Скорикиакасы"
  skorikiakas_collective_noun: "Скорикиакаск"
- skolix: "Skolix" #NT!
- skolix_collective_noun: "Skolixi" #NT!
+ skolix: "Сколиксы"
+ skolix_collective_noun: "Сколикс"
   
   # Sjalvolki 
  adrakamp: "Адракампы"
@@ -340,8 +340,8 @@
  muhadamd_collective_noun: "Мухадамдск"
  kuridorig: "Куридориги"
  kuridorig_collective_noun: "Куридоригск"
- arderwan: "Karatzir" #NT!
- arderwan_collective_noun: "Karatziri" #NT!
+ arderwan: "Karatzir"
+ arderwan_collective_noun: "Karatziri"
   
   # Partic 
  auteonic: "Аутеонцы"
@@ -420,8 +420,8 @@
   # Kathuni 
  kathunian: "Катунианцы"
  kathunian_collective_noun: "Катунианск"
- dainan: "Dáinān" #NT!
- dainan_collective_noun: "Dáināni" #NT!
+ dainan: "Dáinān"
+ dainan_collective_noun: "Dáināni"
   
   # Redlander 
  redlander: "Редлендерцы"
@@ -557,7 +557,7 @@
  taminiai: "Таминиайцы"
  taminiai_collective_noun: "Таминиайск"
  marakje: "Маракджены"
- marakje_collective_noun: "Marakje" #NT!
+ marakje_collective_noun: "Marakje"
  avihana: "Авихананцы"
  avihana_collective_noun: "Авихананск"
  samorihya: "Саморихьяне"
@@ -732,8 +732,8 @@
   # Nattanan 
  nattanan: "Наттанахи"
  nattanan_collective_noun: "Наттанахск"
- kedari: "Kedari" #NT!
- kedari_collective_noun: "Kedari" #NT!
+ kedari: "Кедари"
+ kedari_collective_noun: "Кедариск"
   
   # Dahangon 
  dathanites: "Дафаниты"
@@ -742,12 +742,12 @@
  saielai_collective_noun: "Сайелайанск"
   
   # Tanarka 
- banwagul: "Banwagul" #NT!
- banwagul_collective_noun: "Banwagul" #NT!
- dayarka: "Dayarka" #NT!
- dayarka_collective_noun: "Dayarka" #NT!
- lihakan: "Lihakan" #NT!
- lihakan_collective_noun: "Lihakan" #NT!
+ banwagul: "Банвагулы"
+ banwagul_collective_noun: "Банвагулск"
+ dayarka: "Даярки"
+ dayarka_collective_noun: "Даяркиск"
+ lihakan: "Лихаканы"
+ lihakan_collective_noun: "Лихаканск"
   
   #Unsorted 
  dergi: "Дергинцы"
@@ -762,12 +762,12 @@
  iseni_collective_noun: "Исиньинск"
  sceyfig_lighter: "Скёфеглайтерцы"
  sceyfig_lighter_collective_noun: "Скёфеглайтерск"
- acraddozy: "Acraddozy" #NT!
- acraddozy_collective_noun: "Acraddozy" #NT!
- eastlighter: "Eastlighter" #NT!
- eastlighter_collective_noun: "Eastlighters" #NT!
- aeonyhara: "Aeonyhara" #NT!
- aeonyhara_collective_noun: "Aeonyhara" #NT!
+ acraddozy: "Акраддозы"
+ acraddozy_collective_noun: "Акраддозск"
+ eastlighter: "Истлайтеры"
+ eastlighter_collective_noun: "Истлайтерск"
+ aeonyhara: "Эонихары"
+ aeonyhara_collective_noun: "Эонихарск"
  bricotaves: "Брикотаванцы"
  bricotaves_collective_noun: "Брикотаванск"
  ardothanes: "Ардотанцы"
@@ -800,12 +800,12 @@
  bestial: "Звери"
  bestial_collective_noun: "Зверск"
  bestial_prefix: "Зверино"
- undead_culture: "Undead" #NT!
- undead_culture_collective_noun: "Undead" #NT!
+ undead_culture: "Нежить"
+ undead_culture_collective_noun: "Нежитск"
  undead_prefix: "Нежитьно"
- aelfir_culture: "Эльфиры"
- aelfir_culture_noun: "Эльфирск"
- aelfir_culture_collective_noun: "Эльфирск"
+ aelfir_culture: "Аэльфиры"
+ aelfir_culture_noun: "Аэльфирск"
+ aelfir_culture_collective_noun: "Аэльфирск"
  mahratian: "Махратяне"
  mahratian_collective_noun: "Махратянск"
  akhtarfi: "Ахтарфийцы"
@@ -841,6 +841,6 @@
  gh_dragon_culture: "Драконы"
  gh_dragon_culture_noun: "Драконск"
  gh_dragon_culture_collective_noun: "Драконск"
- mezzodriacc: "Mezzodriacc" #NT!
- mezzodriacc_noun: "Mezzodrian" #NT!
- mezzodriacc_collective_noun: "Mezzodriani" #NT!
+ mezzodriacc: "Меццодриакки"
+ mezzodriacc_noun: "Меццодриаккск"
+ mezzodriacc_collective_noun: "Меццодриаккск"
