@@ -107,7 +107,9 @@
  flatterer_perk_name: "Подлиза"
  groomed_to_rule_perk_name: "Воспитание правителей"
  familial_familiar_perk_name: "Сердце семьи"
- thicker_than_water_perk_name: "Связанные кровью"
+ #GH/
+ thicker_than_water_perk_name: "Гуще воды"
+ #GH\
  friendly_counsel_perk_name: "Дружеский совет"
  sound_foundations_perk_name: "Крепкие основания"
  family_man_perk_male_name: "Патриарх"
@@ -124,7 +126,9 @@
  august_perk_name: "Август"
  #Martial: Strategy Tree
  bellum_justum_perk_name: "Справедливая война"
- parthian_tactics_perk_name: "Парфянская тактика"
+ #GH/ 
+ parthian_tactics_perk_name: "Ольтенская тактика"
+ #GH\
  envelopment_perk_name: "Окружение"
  organized_retreat_perk_name: "Организованный марш"
  hit_and_run_perk_name: "Бей и беги"

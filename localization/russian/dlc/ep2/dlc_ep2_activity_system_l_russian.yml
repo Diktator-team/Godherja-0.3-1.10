@@ -40,4 +40,9 @@
  hunt_invite_flavor_legendary: "$invite_to_activity_flavor_hunt$ Вместе мы загоним легендарного зверя — [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetTitle.GetDeJureLiege.Custom('GetLegendaryColor')] [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetTitle.GetDeJureLiege.Custom('GetAnimalType')] не уйдет от нас!\n"
  hunt_invite_flavor_dangerous: "$invite_to_activity_flavor_hunt$ Вместе мы убьем коварную тварь!\n"
  hunt_invite_flavor_falconry: "$invite_to_activity_flavor_hunt$ Вместе наши ястребы легко расправятся с добычей!\n"
+ #GH/
+ # GH ADDITIONS: Monster hunt
+ hunt_invite_flavor_monster:0 "$invite_to_activity_flavor_hunt$ Вместе мы сразим этого ужасного монстра!\n" 
+ #GH\
  NOT_activity_invite_max_num_guests: "Невозможно пригласить к занятию [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )], мест нет!"
+ REASON_NOT_A_WITCH: "Вы не занимаетесь ведовством"

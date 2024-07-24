@@ -84,6 +84,10 @@
  councillor_spouse_intrigue_2_modifier: "Значительные познания в происках"
  councillor_spouse_learning_1_modifier: "Успехи в учености"
  councillor_spouse_learning_2_modifier: "Значительные успехи в учености"
+ #GH/
+ councillor_spouse_arcana_1_modifier:89 "Успехи в арканистике"
+ councillor_spouse_arcana_2_modifier:89 "Значительные успехи в арканистике" 
+ #GH\
  heir_easier_to_marry_off_modifier: "Замечательный кандидат для брака"
  heir_easier_to_marry_off_modifier_desc: "Повышен шанс того, что кто-то захочет вступить в брак с этим персонажем"
  child_easier_to_marry_off_modifier: "Более подходящий кандидат для брака"
@@ -111,21 +115,33 @@
  task_spouse_default_stewardship_modifier: "Поддержка [Concept( 'spouse', 'супруга' )|E]"
  task_spouse_default_intrigue_modifier: "Поддержка [Concept( 'spouse', 'супруга' )|E]"
  task_spouse_default_learning_modifier: "Поддержка [Concept( 'spouse', 'супруга' )|E]"
+ #GH/
+ task_spouse_default_arcana_modifier:0 "Поддержка [Concept( 'spouse', 'супруга' )|E]" 
+ #GH\
  task_court_politics_modifier: "Супруг — придворная политика"
  task_chivalry_modifier: "Супруг — рыцарство"
  task_court_intrigue_modifier: "Супруг — придворные интриги"
  task_manage_domain_modifier: "Супруг — управление доменом"
  task_patronage_modifier: "Супруг — покровительство"
- task_vizier_default_diplomacy_modifier: "Поддержка [Concept( 'vizier', 'визиря' )|E]"
- task_vizier_default_martial_modifier: "Поддержка [Concept( 'vizier', 'визиря' )|E]"
- task_vizier_default_stewardship_modifier: "Поддержка [Concept( 'vizier', 'визиря' )|E]"
- task_vizier_default_intrigue_modifier: "Поддержка [Concept( 'vizier', 'визиря' )|E]"
- task_vizier_default_learning_modifier: "Поддержка [Concept( 'vizier', 'визиря' )|E]"
- task_vizier_court_politics_modifier: "Визирь — придворная политика"
- task_vizier_chivalry_modifier: "Визирь — рыцарство"
- task_vizier_court_intrigue_modifier: "Визирь — придворные интриги"
- task_vizier_manage_domain_modifier: "Визирь — управление доменом"
- task_vizier_patronage_modifier: "Визирь — покровительство"
+ #GH/
+ task_arcanistics_modifier:0 "Супруг — Арканистика"
+ #GH\
+ task_vizier_default_diplomacy_modifier: "Поддержка [Concept( 'confidant', 'наперсника' )|E]"
+ task_vizier_default_martial_modifier: "Поддержка [Concept( 'confidant', 'наперсника' )|E]"
+ task_vizier_default_stewardship_modifier: "Поддержка [Concept( 'confidant', 'наперсника' )|E]"
+ task_vizier_default_intrigue_modifier: "Поддержка [Concept( 'confidant', 'наперсника' )|E]"
+ task_vizier_default_learning_modifier: "Поддержка [Concept( 'confidant', 'наперсника' )|E]"
+ #GH/
+ task_vizier_default_arcana_modifier:0 "Поддержка [Concept( 'confidant', 'наперсника' )|E]
+ #GH\
+ task_vizier_court_politics_modifier: "[Concept( 'confidant', 'Наперсник' )|E] — придворная политика"
+ task_vizier_chivalry_modifier: "[Concept( 'confidant', 'Наперсник' )|E] — рыцарство"
+ task_vizier_court_intrigue_modifier: "[Concept( 'confidant', 'Наперсник' )|E] — придворные интриги"
+ task_vizier_manage_domain_modifier: "[Concept( 'confidant', 'Наперсник' )|E] — управление доменом"
+ task_vizier_patronage_modifier: "[Concept( 'confidant', 'Наперсник' )|E] — покровительство"
+ #GH/
+ task_vizier_modifier:0 "[Concept( 'confidant', 'Наперсник' )|E] — арканистика"
+ #GH\
  councillor_spouse_health_modifier: "Бдительная забота"
  councillor_spouse_health_modifier_desc: "Ранами и хворями этого персонажа внимательно занимаются."
  councillor_spouse_mercenary_cost_modifier: "Договоренность с наемниками"
@@ -152,11 +168,18 @@
  governance_tutor_desc: "Помогая в изучении администрирования, этот персонаж и сам кое-что узнал."
  scholarship_tutor: "Наставник по учености"
  scholarship_tutor_desc: "Помогая в занятиях наукой, этот персонаж и сам кое-что узнал."
+ #GH/
+ esoterica_tutor:89 "Наставник по эзотерике"
+ esoterica_tutor_desc:89 "Помогая в изучении эзотерики, этот персонаж и сам кое-что узнал." 
+ #GH\
  studying_diplomacy: "Изучает дипломатию"
  studying_martial: "Изучает военное дело"
  studying_stewardship: "Изучает управление"
  studying_intrigue: "Изучает искусство плетения интриг"
  studying_learning: "Изучает ученость"
+ #GH/
+ studying_arcana:0 "Изучает арканы"
+ #GH\
  focused_student: "Усердный ученик"
  chancellor_task_county_resisting_integration_modifier: "Сопротивление интеграции"
  chancellor_task_county_endorsing_integration_modifier: "Поддержка интеграции"

@@ -122,6 +122,11 @@
  fund_inspiration.0061.throne: "Создайте величественный трон под стать моим залам!"
  fund_inspiration.0061.scientific_apparatus: "Пожалуй, лучше создать нечто для учебы и постижения наук."
  fund_inspiration.0061.urn: "В моих залах неплохо смотрелась бы декоративная урна."
+ #GH/
+ # GH CHANGE: Changed urns to earthware and glassware
+ fund_inspiration.0061.earthware:0 "Декоративная глиняная утварь дополнит мои залы."
+ fund_inspiration.0061.glassware:0 "Меня всегда впечатляла изысканная стеклянная посуда!"
+ #GH\ 
  fund_inspiration.0062.t: "Поддержка ремесленного вдохновения"
  #(Metal)Smith
  fund_inspiration.0071.desc: "«Спасибо, что поддержали мою идею, [ROOT.Char.GetLadyLord]! — \n\n[inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)] пытается сохранить хладнокровие, но я успеваю заметить восторг в [inspiration_owner.GetHerHis] глазах, прежде чем [inspiration_owner.GetSheHe] продолжает. — Я могу сотворить #EMP чудеса#! из металла. Какие у вас есть пожелания?»"
@@ -187,6 +192,13 @@
  fund_inspiration.1051.desc.armor: "лежат доспехи.\n\n[inspiration_owner.GetFirstNameNoTooltip] развлекает двор историей о том, как [inspiration_owner.GetSheHe] [Select_CString(inspiration_owner.IsFemale, 'заполучила', 'заполучил' )] этот необычный доспех, который и преподносит вам в дар."
  fund_inspiration.1051.desc.weapon: "лежит [newly_created_artifact.GetName].\n\n[inspiration_owner.GetFirstNameNoTooltip] рассказывает историю о том, как это оружие оказалось в [inspiration_owner.GetHerHis] руках. В этой истории полно неожиданных поворотов, и не во все из них можно поверить."
  fund_inspiration.1051.desc.necklace: "лежит ожерелье.\n\n[inspiration_owner.GetFirstNameNoTooltip] с нескрываемой радостью преподносит его вам в дар, но не желает сообщать историю происхождения ожерелья."
+ #GH/
+ # GH ADDITION: Several artifact types
+ fund_inspiration.1051.desc.earthware:0 "lies a brilliant piece of pottery.\n\n[inspiration_owner.GetFirstNameNoTooltip] smiles proudly and explains the great lengths that [inspiration_owner.GetSheHe] went to to secure the finest example of the local artistry that gold can buy."
+ fund_inspiration.1051.desc.glassware:0 "lies a brilliant piece of glassware.\n\n[inspiration_owner.GetFirstNameNoTooltip] smiles proudly and explains the great lengths that [inspiration_owner.GetSheHe] went to to secure the finest example of the local artistry that gold can buy."
+ fund_inspiration.1051.desc.thumb_ring:0 "is an oddly shaped ring. [inspiration_owner.GetFirstNameNoTooltip] shares a story of how [inspiration_owner.GetSheHe] helped a village to cast down a yoke of a cruel warlord, claiming this ring from their cold hands."
+ fund_inspiration.1051.desc.oltenic_mask:0 "is a strange mask in the Ölteni style. [inspiration_owner.GetFirstNameNoTooltip] claims that [inspiration_owner.GetSheHe] dueled an ancient warrior's spirit, and that it left [inspiration_owner.GetHerHim] this mask as reward."
+#GH\ 
  fund_inspiration.1051.a: "Это великолепно!"
  fund_inspiration.1051.b: "За этим должны присматривать лучшие из лучших"
  fund_inspiration.1061.desc_floor_bound_artifact: "«[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.GetLadyLord]! — [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)] с широкой улыбкой на лице указывает мне на сверток ткани. — Много дней и ночей я [Select_CString(inspiration_owner.IsFemale, 'работала', 'работал' )] не покладая рук, и наконец все готово.\n\n[inspiration_owner.GetSheHe|U] срывает обертку, и глаза мои округляются, когда я вижу, что находится под ней.\n\n"
@@ -1023,7 +1035,12 @@
  inspiration_artisan_base_type_cabinet: "шкафчик"
  inspiration_artisan_base_type_throne: "трон"
  inspiration_artisan_base_type_scientific_apparatus: "научный прибор"
- inspiration_artisan_base_type_urn: "урна"
+ #inspiration_artisan_base_type_urn: "урна"
+ #GH/
+ # GH ADDITION: GH-specific artifact types
+ inspiration_artisan_base_type_earthware:0 "глиняный сосуд"
+ inspiration_artisan_base_type_glassware:0 "стеклянный сосуд"
+ #GH\
  inspiration_smith_base_type_brooch: "брошь"
  inspiration_smith_base_type_regalia: "регалия"
  inspiration_smith_base_type_crown: "венец"
@@ -1031,6 +1048,10 @@
  inspiration_artisan_job_type_carpenter: "плотник"
  inspiration_artisan_job_type_potter: "гончар"
  inspiration_artisan_job_type_sculptor: "скульптор"
+ #GH/ 
+ # GH ADDITION: Artisan jobs related to GH-specific artifact types
+ inspiration_artisan_job_type_glassblower:90 "стеклодув" 
+ #GH\ 
  inspiration_type_material_writing: "полотна"
  inspiration_type_material_metal: "металл"
  inspiration_type_material_jewels: "самоцвет"
@@ -1039,6 +1060,10 @@
  inspiration_type_material_wood: "дерево"
  inspiration_type_material_stone: "камень"
  inspiration_type_material_clay: "глина"
+ #GH/
+ # GH ADDITION: Glassmaking is GH-specific
+ inspiration_type_material_glass:0 "стекло" 
+ #GH\ 
  inspiration_type_material_ingredients: "ингредиенты"
  inspiration_type_material_fallback: "материал"
  #Banner

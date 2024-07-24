@@ -75,6 +75,13 @@
  ep1_flavor.2000.desc_elephant_cavalry: "«Грозные слоны приведут нас к победе, они должны всегда быть наготове»."
  ep1_flavor.2000.desc_camel_cavalry: "«Верблюжья кавалерия — основа ваших войск, нужно уделить ей особое внимание»."
  ep1_flavor.2000.desc_levies: "«Беднякам нужны упражнения, чтобы в их призыве была какая-то польза»."
+ #GH/
+ ep1_flavor.2000.desc_magi:90 "«[ROOT.Char.Custom('GetRegionalMagiMAA')|l] должны учиться дисциплине, чтобы лучше оттачивать свои силы»."
+ ep1_flavor.2000.desc_monsters:90 "«Для блага всех нас укротители зверей должны быть начеку»."
+ ep1_flavor.2000.desc_adventurers:90 "«Мы полагаемся на отважных героев, позвольте им доказать, что они достойны своей славы»."
+ ep1_flavor.2000.desc_chariot_cavalry:90 "«Наши колесницы сильны лишь настолько, насколько сильны их возницы, не позволяйте им ослабеть»."
+ ep1_flavor.2000.desc_magical_beings:90 "«Беднякам нужны упражнения, чтобы в их призыве была какая-то польза»." 
+ #GH\
  ep1_flavor.2000.desc_bridge: "\n\n«Нет, наши усилия нужно направить в другое русло», — возражает [knight_scope.GetFirstNameNoTooltip]."
  ep1_flavor.2000.desc_outro: "\n\nПолагаю, повторение #EMP действительно#! мать учения..."
  ep1_flavor.2000.c: "«Спорт — это для благородных, и он называется охотой»."
@@ -92,6 +99,13 @@
  ep1_flavor.2000.skirmishers: "«Мои [ROOT.Char.Custom('GetRegionalInfantryMAA')|l] не знают промаха»."
  ep1_flavor.2000.elephant_cavalry: "«Махауты будут соперничать за славу!»"
  ep1_flavor.2000.camel_cavalry: "«Гонки помогут верблюжьей кавалерии отточить свои навыки»."
+ #GH/
+ ep1_flavor.2000.adventurers:90 "These adventurers shall air their grievances and compete to perform the greatest feats of strength." # epic seinfeld ref from lonely
+ ep1_flavor.2000.monsters:90 ""The beast handlers shall show us their best tricks!""
+ ep1_flavor.2000.chariot_cavalry:90 ""The charioteers shall drag their chariots in a race!""
+ ep1_flavor.2000.magi:90 ""The [ROOT.Char.Custom('GetRegionalMagiMAA')|l] shall have a test of mental and physical endurance.""
+ ep1_flavor.2000.levies_sun_runner:90 ""Let all [ROOT.Char.GetWomenMen] play Sun Runner!"" 
+ #GH\
  ep1_flavor.2000.levies_caid: "«Все будут играть в кадь!»"
  ep1_flavor.2000.levies: "«Убедите простолюдинов держать себя в форме»."
  ep1_2000_archer_modifier: "Умелые лучники"
@@ -108,6 +122,16 @@
  ep1_2000_ecavalry_modifier_desc: "$ep1_2000_generic_modifier_desc$"
  ep1_2000_ccavalry_modifier: "Гонки на верблюдах"
  ep1_2000_ccavalry_modifier_desc: "$ep1_2000_generic_modifier_desc$"
+ #GH/ 
+ ep1_2000_adventurers_modifier:90 "Feats of Strength"
+ ep1_2000_adventurers_modifier_desc:90 "$ep1_2000_generic_modifier_desc$"
+ ep1_2000_monsters_modifier:90 "Well-Trained Beasts"
+ ep1_2000_monsters_modifier_desc:90 "$ep1_2000_generic_modifier_desc$"
+ ep1_2000_chariot_cavalry_modifier:90 "Mighty Charioteers"
+ ep1_2000_chariot_cavalry_modifier_desc:90 "$ep1_2000_generic_modifier_desc$"
+ ep1_2000_magi_modifier:90 "Tests of Power"
+ ep1_2000_magi_modifier_desc:90 "$ep1_2000_generic_modifier_desc$" 
+ #GH\ 
  ep1_2000_levies_modifier: "Активные крестьяне"
  ep1_2000_levies_modifier_desc: "$ep1_2000_generic_modifier_desc$"
  ep1_2000_knights_modifier: "Поддержка охоты"
@@ -169,6 +193,12 @@
  ep1_flavor.2020.desc_knight_1_skirmishers: "«...что, опять учитесь, как ослабить врага перед встречей с #EMP настоящими#! бойцами?»"
  ep1_flavor.2020.desc_knight_1_elephant_cavalry: "«...всего-то слон? Оседлали бы кого-нибудь #EMP побольше#!»."
  ep1_flavor.2020.desc_knight_1_camel_cavalry: "«Лошади пустыни? Как по мне, они больше похожи на #EMP коров#!»."
+ #GH/
+ ep1_flavor.2020.desc_knight_1_adventurers:0 "...real [knight_1.GetWomenMen] handle #EMP their own problems#!!""
+ ep1_flavor.2020.desc_knight_1_monsters:0 ""...you want some #EMPT beast#! to do all the work for you, eh?""
+ ep1_flavor.2020.desc_knight_1_chariot_cavalry:0 ""...oh #EMP wow#!, chariots, talk about last era""
+ ep1_flavor.2020.desc_knight_1_magi:0 ""[magic|E] is #EMP overrated#!! Even the greatest sorcerers should use their fists!"" 
+ #GH\
  ep1_flavor.2020.desc_bridge: "[knight_2.GetFirstNameNoTooltip] усмехается, а [knight_1.GetFirstNameNoTooltip] яростно отвечает:"
  ep1_flavor.2020.desc_knight_2_archers: "«Ну нет, я не желаю выслушивать лекции от зазнавшегося охотника»."
  ep1_flavor.2020.desc_knight_2_light_cavalry: "«Да, из уст якобы #EMP разведчика#! это звучит особенно весомо»."
@@ -179,6 +209,12 @@
  ep1_flavor.2020.desc_knight_2_skirmishers: "«Поговорим, когда вы и взаправду обнажите меч, не говоря уж о том, чтобы его использовать»."
  ep1_flavor.2020.desc_knight_2_elephant_cavalry: "«Говорит [knight_2.GetWomanMan], [Select_CString(knight_2.IsFemale, 'которая', 'который' )] ездит на огромном чудовище с бивнями»."
  ep1_flavor.2020.desc_knight_2_camel_cavalry: "«Фу, не подходите, от вас несет верблюдом»."
+ #GH/ 
+ ep1_flavor.2020.desc_knight_2_adventurers:0 ""Hire someone to solve your problems for you, how brave of you [knight_2.GetFirstNameNoTooltip]""
+ ep1_flavor.2020.desc_knight_2_monsters:0 ""It's only a matter of time before those #EMP creatures#! eat you instead!""
+ ep1_flavor.2020.desc_knight_2_chariot_cavalry:0 ""No, please, get in a chariot, I can't wait to see the #EMP crash#!!""
+ ep1_flavor.2020.desc_knight_2_magi:0 ""You're more like to blow yourself up you #EMP power-mad#! fool."" 
+ #GH\ 
  ep1_flavor.2020.a: "«[SCOPE.Custom('GetMAAType1')] — основа нашего войска!»"
  ep1_flavor.2020.b: "«Кем бы мы были, если бы не наши [SCOPE.Custom('GetMAAType2')|l]!»"
  ep1_flavor.2020.c: "«Как одно может обходиться без другого?»"
@@ -268,11 +304,14 @@
  local_role_judge: "судья"
  local_role_captain: "капитан"
  local_role_merchant: "торговец"
+ #GH/
+ local_role_arcanist:0 "арканист"
+ #GH\
  #Exotic Arms
  ep1_flavor.2040.t: "Экзотическое оружие"
  ep1_flavor.2040.desc: "Торговцы приносят с собой не только свои странные товары, но и рассказы о далеких землях. Невероятные. Полные чудес.\n\nНесколько [foreign_merchant.GetCulture.GetCollectiveNounNoTooltip|l]их торговцев привезли с собой странные #EMP [exotic_blade_holder.GetCulture.GetCollectiveNounNoTooltip|l]ие#! предметы. Говорят, эти вещи прибыли из далекой страны, где правит #EMP [exotic_blade_holder.GetFullNameNoTooltipRegnal]#!.\n\n[foreign_merchant.GetTitledFirstName], предводитель торговцев, мрачно ухмыляется,"
- ep1_flavor.2040.desc.artifact: "«Я вижу, у вас есть [my_artifact.GetName], уступите этот артефакт мне, и взамен вас ждет [exotic_blade.GetType|l]...»"
- ep1_flavor.2040.desc.gold: "«О [ROOT.Char.GetTitleAsNameNoTooltip|l], вам может достаться [exotic_blade.GetType|l], за определенную цену...»\n\nДа, я вам охотно верю!"
+ ep1_flavor.2040.desc.artifact: "«Я вижу, у вас есть [my_artifact.GetName], уступите этот артефакт мне, и взамен вас ждет [exotic_blade.Custom('ArtifactBaseWeaponType')|l]...»"
+ ep1_flavor.2040.desc.gold: "«О [ROOT.Char.GetTitleAsNameNoTooltip|l], вам может достаться [exotic_blade.Custom('ArtifactBaseWeaponType')|l], по особой цене...»\n\nДа, я вам охотно верю!"
  ep1_flavor.2040.desc.outro: "Была бы у меня возможность проверить эти небылицы..."
  ep1_flavor.2040.desc.outro_antiquarian: "Я жду, что посоветует [antiquarian.GetTitledFirstName]:"
  ep1_flavor.2040.desc.outro_good_praise: "«Это точно не подделка, работа определенно [exotic_blade_holder.GetPrimaryTitle.GetAdjectiveNoTooltip]ая, причем хорошая»."
@@ -284,8 +323,8 @@
  ep1_flavor.2040.a: "«Полагаю, я могу расстаться с этой вещью...»"
  ep1_flavor.2040.tt_my: "Вы потеряете ваш артефакт: [my_artifact.GetName]"
  ep1_flavor.2040.tt_exotic: "Вы станете владельцем артефакта [exotic_blade.GetNameNoTooltip]"
- ep1_flavor.2040.toast: "Артефакт [exotic_blade.GetType|l] великолепен"
- ep1_flavor.2040.toast_poor: "Артефакт [exotic_blade.GetType|l] непримечателен"
+ ep1_flavor.2040.toast: "[exotic_blade.Custom('ArtifactBaseWeaponType')|U] — превосходное оружие"
+ ep1_flavor.2040.toast_poor: "[exotic_blade.Custom('ArtifactBaseWeaponType')|U] оставляет желать лучшего"
  ep1_flavor.2040.b: "«Принесите мой кошель!»"
  ep1_flavor.2040.c: "«Ха! #EMP [exotic_blade_holder.GetCapitalLocation.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTierNoTooltip]#!, конечно! Вон отсюда!»"
  #The Greater Good

@@ -3,7 +3,7 @@
  hunt.0050.desc: "Собаки, олени, норы! Охота дарит нам столько радости и впечатлений: это единение с природой, чувство товарищества, ритуалы и, конечно, радость погони!\n\nМногие до меня посвящали себя этому благородному, хоть и кровавому досугу. И я начинаю понимать почему..."
  hunt.0050.a: "Скорее бы снова на охоту!"
  hunt.0050.b: "Просто праздное развлечение..."
-  # Maintenance Events 
+ #Maintenance Events
  hunt.0080.t: "Досрочное завершение"
  hunt.0080.t.inheritor: "Жертва природы"
  hunt.0080.imprisoned_self: "Меня [Select_CString(ROOT.Char.GetImprisonedBy.IsFemale, 'посадила', 'посадил' )] под замок [ROOT.Char.GetImprisonedBy.GetTitledFirstName]. Похоже, охоту придется остановить."
@@ -33,14 +33,14 @@
  hunt.0082.t: "Прервать"
  hunt.0082.a: "Ужасно!"
  hunt_wounded_guest_leaves_toast: "Раненый гость"
-  # Invitation Events 
+ #Invitation Events
  hunt.0100.opening_desc: "Сим я приглашаю вас на охоту в домен [barony.GetNameNoTier]!"
  hunt.0101.desc: "Сим я приглашаю вас на охоту в домен [barony.GetNameNoTier]! Обещаю прием, достойный столь знатной персоны."
  hunt.0102.desc: "Сим я приглашаю вас на охоту в домен [barony.GetNameNoTier]! Обещаю грандиозный прием, отличную добычу и добрую компанию."
  hunt.0110.t: "А где все?"
  hunt.0110.desc: "Поверить не могу. Столько приглашений, столько подготовки — и у меня на охоте ни единой живой души!\n\nПлевать! Буду наслаждаться погоней наедине с собой, и пусть мне достанется больше славы!"
  hunt.0120.desc: "Не понимаю, зачем было принимать мое приглашение, а потом отправляться на охоту, что устраивает [other_host.GetTitledFirstName]... Знайте, я этого не забуду."
-  # Start Events 
+ #Start Events
  hunt.0500.t.sighting: "Выслеживаю добычу — это [activity.Custom('GetAnimalType')|U]"
  hunt.0500.t.boar: "Могучий кабан"
  hunt.0500.t.hart: "Благородное животное"
@@ -50,7 +50,7 @@
  hunt_opening_master_of_hunt: "[hunt_participant.GetTitledFirstName|U], главный охотник при дворе, которым [Select_CString(host.IsLocalPlayer, 'правите', 'правит' )] [host.GetShortUINameNoFormat], будит отряд с первыми лучами солнца."
  hunt_opening_hunt_leader: "[hunt_participant.GetTitledFirstName] собирает отряд на рассвете."
  hunt_opening: "Отряд поднимается с первыми лучами рассвета."
- hunt_opening_rural: "Наш лагерь стоит в глуши в имении [host.GetCurrentLocation.GetNameNoTooltip], рядом с местом под названием [host.GetCurrentLocation.Custom('GetTerrainTypePlural')]."
+ hunt_opening_rural: "Наш лагерь стоит в глуши в имении [host.GetCurrentLocation.GetNameNoTooltip], которое окружают [host.GetCurrentLocation.Custom('GetTerrainTypePlural')]."
  hunt_opening_hunting_grounds: "Мы находимся в охотничьих угодьях, которыми владеет [activity.GetCurrentPhase.GetLocation.GetTitle.GetBaseNameNoTierNoTooltip]. Вокруг нас [host.GetCurrentLocation.Custom('GetTerrainTypePlural')]."
  hunt_opening_royal_reserves: "Охота проходит в королевских угодьях, которыми владеет [activity.GetCurrentPhase.GetLocation.GetTitle.GetBaseNameNoTierNoTooltip]. Вокруг нас [host.GetCurrentLocation.Custom('GetTerrainTypePlural')]."
  hunt_opening_entourage_few: "Собрав по округе немногих местных егерей, охотники выслушивают сообщения о следах и свежем помете неподалеку."
@@ -73,12 +73,12 @@
  hunt.0500.c: "Мы лучше загоним хитрого зайца."
  hunt.0500.d: "Я хочу охотиться! Пусть мне встретится [host.Custom('GetRegionalDeerType')]!"
  hunt.0500.f: "Я хочу поохотиться на мощного зверя!"
- hunt.0500.g: "Я хочу охотиться на что-нибудь чудовищное!" #Машинный перевод 28.10.23
-  
+ #GH/
+ hunt.0500.g:0 "Я хочу поохотиться на какого-нибудь монстра!" 
+ #GH\
  hunt.0510.t: "[activity.Custom('GetAnimalType')|U], окрас [activity.Custom('GetLegendaryColor')|U]"
  hunt.0510.desc: "\n\nОни ничего не нашли, но я чувствую, что это неуловимое существо где-то поблизости... "
  hunt.0510.a: "Этот зверь будет моим!"
-  
  hunt.0520.t.sighting: "Непокорный зверь — [activity.Custom('GetAnimalType')|U]"
  hunt.0520.t.tiger: "Felis Horribilis"
  hunt.0520.t.lion: "Золотая шерсть"
@@ -89,34 +89,27 @@
  hunt.0520.t.wolf: "Стая паразитов"
  hunt.0520.b: "Где [ROOT.Char.Custom('GetAnimalTypeCaptive')]? Мы идем на охоту!"
  hunt.0520.c: "Наверняка тут водятся [ROOT.Char.Custom('GetRegionalWolfPlural')]."
-  
  hunt.0530.t.sighting: "Выслеживание зверя. Цель: [activity.Custom('GetAnimalPlural')|U]"
  hunt.0530.t.rare: "Экзотические птицы"
  hunt.0530.t.common: "Птицу видно по полету"
  hunt.0530.b: "По-моему, [activity.Custom('GetAnimalTypeWaterfowl')] — неплохая добыча."
  hunt.0530.c: "Тут водится [activity.Custom('GetAnimalTypeGamebird')], можно добыть их."
  hunt.0530.d: "Я хочу посмотреть, как [activity.Custom('GetRaptorType')] охотится на зайца."
-  
  hunt_opening_falconry_sighting: "\n\nБудем надеяться, что донесения соответствовали действительности."
  hunt_opening_falconry: "Если повезет, нам попадется [activity.Custom('GetAnimalGroup')], и тогда наши [activity.Custom('GetRaptorPlural')] смогут поохотиться."
  hunt_opening_entourage_few_falconry: "\n\nЗагонщики, которых мы взяли с собой, уже подготовили собак и нашли подходящий путь."
  hunt_opening_entourage_normal_falconry: "\n\nКоманды загонщиков уже подготовили гончих и выбрали отличное место."
  hunt_opening_entourage_many_falconry: "\n\nМои загонщики должны без труда выгнать птиц из укрытий. Они уже нашли несколько мест, где должна быть дичь."
-  
  hunt_opening_standard_sighting: "\n\nМои люди уже нашли в окрестностях места, где водится [activity.Custom('GetAnimalType')|l]."
  hunt_opening_dangerous_sighting: "\n\nМои люди уже нашли в окрестностях места, где водится [activity.Custom('GetAnimalType')|l], сородичи которого наводят ужас на людей."
  hunt_opening_dangerous: "\n\nПохоже, что в последнее время [activity.Custom('GetAnimalType')|l] наводит ужас на округу."
-  
  hunt.0520.cat: "Этот злодей уже убил нескольких местных жителей, и с каждым днем он становится все смелее."
  hunt.0520.bear: "Дом этого зверя — местные [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTreePlural')]. Он похищает скот у жителей и пугает собирателей."
  hunt.0520.wolf: "[activity.Custom('GetAnimalGroup')] нападает на фермы, а затем уходит в местные [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTreePlural')]."
-  
  hunt_opening_entourage_few_dangerous: "Нас мало, но если нам повезет, мы найдем и прикончим зверя."
  hunt_opening_entourage_normal_dangerous: "У нас #EMP должно#! хватить людей, чтобы без труда найти и загнать зверя."
  hunt_opening_entourage_many_dangerous: "У нас достаточно глаз, и копий хватает. Мы уничтожим этого жуткого зверя!"
-  
  hunt.0520.a: "Нам нельзя терять время."
-  
  hunt_header: "Охота:"
  hunt.1001.t: "Загоняю дичь — [activity.Custom('GetAnimalType')|U]"
  hunt.1001.desc_opening_courtier: "[Select_CString(hunt_participant.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', hunt_participant)] [hunt_participant.GetTitledFirstName] [Select_CString(hunt_participant.IsFemale, 'первая', 'первый' )] замечает [activity.Custom('GetAnimalFeature')] дичи."
@@ -125,7 +118,7 @@
  hunt.1001.desc_opening_plural: "Напряженно вглядываясь в ландшафт, я вдруг замечаю нашу цель! Вот [activity.Custom('GetAnimalGroup')], что мы выслеживаем!"
  hunt.1001.bison: "\n\nМы занимаем позиции и начинаем загонять добычу, стараясь сделать так, чтобы от него отбился здоровый [activity.Custom('GetAnimalMale')].\n\n"
  hunt.1001.desc: "\n\n[activity.Custom('GetAnimalAdjective')|U] [activity.Custom('GetAnimalMale')] ускользает от наших глаз, но сомнений нет, он следит за нами, и единственный барьер, что скрывает зверя от нас, — это [host.GetCurrentLocation.Custom('GetProvinceFoliageDesc')].\n\n"
- hunt.1001.closing_chase:0 "[host.GetTitledFirstName] takes off after the beast, crying: "[host.GetTitledFirstName] бросается вдогонку за зверем, крича: «Ну, он уходит!»" #Машинный перевод 28.10.23
+ hunt.1001.closing_chase: "[host.GetTitledFirstName] бросается за зверем с криком: «Скорее, уходит!»"
  hunt.1001.closing_ambush: "[host.GetTitledFirstName] думает мгновение и машет влево: «Айда наперерез!»"
  hunt.1001.closing_herd: "Mы оттесняем одинокого зверя от сородичей. Перед нами [activity.Custom('GetAnimalType')|l], позади — убегает [activity.Custom('GetAnimalGroup')]. Теперь пора настоящей погони!"
  hunt.1001.closing: "На мгновение наши глаза встречаются, и словно почувствовав мое намерение, зверь срывается с места, словно [activity.Custom('GetAnimalColor')] метеор!"
@@ -134,7 +127,7 @@
  hunt.1001.desc_opening_courtier_plural_dangerous: "Перед нами [host.GetCurrentLocation.Custom('GetTerrainType')]. [Select_CString(hunt_participant.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', hunt_participant)] [hunt_participant.GetTitledFirstName] указывает куда-то вдаль: там, в ложбине прячется все семейство животных."
  hunt.1001.desc_opening_plural_dangerous: "Вокруг меня [host.GetCurrentLocation.Custom('GetTerrainType')], когда я внезапно замечаю нашу добычу. Похоже, [activity.Custom('GetAnimalGroup')] находится здесь уже давно!"
  hunt.1001.wolf: "\n\nЗавидев нас, животные бросаются бежать, тревожно [activity.Custom('GetAnimalSoundParticiple')], [activity.Custom('GetAnimalDanger')] наготове, и их скрывает [host.GetCurrentLocation.Custom('GetProvinceFoliageDesc')].\n\n"
- hunt.1001.desc_dangerous: "\n\n[activity.Custom('GetAnimalAdjective')] зверь — удивительное зрелище. Лошади пугаются, его [activity.Custom('GetAnimalFeature')] и [host.GetCurrentLocation.Custom('GetProvinceFoliageDesc')] вокруг — впечатляющее зрелище.\n\n"
+ hunt.1001.desc_dangerous: "\n\n[activity.Custom('GetAnimalAdjective')|U] зверь — удивительное зрелище. Лошади пугаются, его [activity.Custom('GetAnimalFeature')] и [host.GetCurrentLocation.Custom('GetProvinceFoliageDesc')] вокруг — впечатляющее зрелище.\n\n"
  hunt.1001.closing_plural_dangerous: "Звери бросаются наутек, как огромный [activity.Custom('GetAnimalColor')] массив. Мы преследуем самого большого из них. Вот теперь начнется настоящая погоня!"
  hunt.1001.closing_dangerous: "Внезапно животное [activity.Custom('GetAnimalChargePresent')] и мгновенно исчезает за горой, как [activity.Custom('GetAnimalColor')] метеор!"
  hunt.1001.a: "Загоняй! В погоню!"
@@ -148,13 +141,11 @@
  hunt.1001.c: "Туда! Окружай!"
  hunt.1001.c.flavor: "#EMP Ловчие, на нас гони!#!"
  hunt.1001.d: "За дело!"
-  
  hunt.1002.desc: "Я вижу только, как [activity.Custom('GetAnimalType')|l] бежит по пересеченной местности, а мы несемся вслед за зверем с собаками... Весь мир сужается до этой восхитительной погони.\n\n"
  hunt.1002.courtier: "[hunt_participant.GetTitledFirstName|U] рядом со мной, стук подков, лай собак, крики людей...\n\nМы медленно настигаем добычу — меня охватывает невероятное возбуждение!"
  hunt.1002.alone: "Я несусь по тропе и слышу стук подков, лай собак, крики людей...\n\nМы медленно настигаем добычу — меня охватывает невероятное возбуждение!"
  hunt.1002.a: "Ну же, [hunt_participant.GetFirstNameNoTooltip], быстрее!"
  hunt.1002.a.alone: "Ты уже почти у меня в руках!"
-  
  hunt.1003.desc: "Спустя часы погони мы наконец загоняем коварного зверя в угол — наши старания оказались не напрасны!\n\n"
  hunt.1003.bay: "Вымотанное, запуганное животное, отчаянно [activity.Custom('GetAnimalSoundParticiple')], из последних сил отбивается от обидчиков."
  hunt.1003.dogs: "Вымотанный [activity.Custom('GetAnimalMale')] уже почти сдался: уже подранный во время погони, он в ужасе припадает к земле при виде собак, которых едва удерживают на сворах выжлятники."
@@ -192,14 +183,12 @@
  hunt.1003.i: "Живо, [murder_target.GetFirstNameNoTooltip], за мной, пока не ушел!"
  hunt.1003.i.flavor: "#EMP Как обидно будет, если я не туда ткну рогатиной...#!"
  hunt.1003.j: "Зверь нужен мне #EMP живым#!!"
-  
  hunt.1004.desc: "Мы несемся во весь опор, едва поспевая за проклятым зверем, впереди мелькают то [host.GetCurrentLocation.Custom('GetProvinceFoliageDesc')], то наша дичь, которая яростно [activity.Custom('GetAnimalSoundPresent')].\n\nВдруг [activity.Custom('GetAnimalType')|l] вскакивает на пригорок и исчезает в густом кустарнике. Нам остаются только задыхающиеся собаки и взмыленные кони.\n\n"
  hunt.1004.wounded: "Нечего было ждать, пока подтянется [hunt_participant.GetTitledFirstName]..."
  hunt.1004.wounded_host: "Вот ведь... ай! Вот ведь проклятье. Надо было мне отсидеться в лагере..."
  hunt.1004.a: "Вот ведь шельма, упустили!"
  hunt.1004.a.tt: "Ну погоди!"
  hunt.1004.b: "Это все [wounded_guest.GetFirstNameNoTooltip] нас [Select_CString(wounded_guest.IsFemale, 'задержала', 'задержал' )], тупица!"
-  
  hunt.1005.t: "[murder_target.GetFirstNameNoTooltip] и рогатина для [Select_CString(murder_target.IsFemale, 'нее', 'него' )]"
  hunt.1005.opening: "[activity.Custom('GetAnimalType')|U] яростно [activity.Custom('GetAnimalSoundPresent')], а мы окружаем зверя, вооружившись рогатинами. Но меня интересует только [Select_CString(murder_target.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', murder_target)], [murder_target.GetFirstName], и я жду удобного момента, чтобы нанести удар...\n\n"
  hunt.1005.opportunity: "Когда испуганный [activity.Custom('GetAnimalMale')] внезапно [activity.Custom('GetAnimalStrikePresent')],"
@@ -219,18 +208,15 @@
  hunt.1007.e: "Похоже, ты у меня больше не в долгу."
  hunt.1008.desc: "я пытаюсь встать так, чтобы «случайно» нанести быстрый удар рогатиной, но [murder_target.GetFirstNameNoTooltip] постоянно движется, не останавливаясь ни на мгновение...\n\nПока мы бегаем друг за другом, охотники делают свое дело: [activity.Custom('GetAnimalMale')] смертельно ранен, и подстроить несчастный случай теперь уже не получится..."
  hunt.1008.a: "Тьфу ты..."
-  
  hunt.1009.desc: "Когда [activity.Custom('GetAnimalType')|l] скрывается из вида — перед нашими глазами остается только [host.GetCurrentLocation.Custom('GetTerrainType')|l]. Я понимаю, что добыча ушла."
  hunt.1009.desc_injured: "\n\nПечально, что [hunt_participant.GetTitledFirstName] [Select_CString(hunt_participant.IsFemale, 'получила', 'получил' )] ранение, а зверь все равно сбежал, но [activity.Custom('GetAnimalType')|l] — ценная добыча, и потом, без риска не бывает охотничьего азарта."
  hunt.1009.desc_uninjured: "\n\nМы спешиваемся и даем лошадям отдохнуть. [hunt_participant.GetTitledFirstName|U] согласно кивает."
-  
  hunt.1011.t: "Вассал-грубиян"
  hunt.1011.desc_horse: "[Select_CString(nice_courtier.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('nice_courtier') )] [nice_courtier.GetTitledFirstName] [Select_CString(nice_courtier.IsFemale, 'начала', 'начал' )] спешиваться, но не [Select_CString(nice_courtier.IsFemale, 'успела', 'успел' )] [SCOPE.sCharacter('nice_courtier').GetSheHe] перекинуть ногу через седло, как [Select_CString(murder_target.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('DescriptorNegative', murder_target)][Select_CString(murder_target.IsFemale, 'ая', 'ый' )] [ROOT.Char.Custom2('RelationToMe', murder_target)] [murder_target.GetTitledFirstName] немедленно [Select_CString(murder_target.IsFemale, 'врезалась', 'врезался' )] в [SCOPE.sC('nice_courtier').GetHerHis] коня, от чего [Select_CString(nice_courtier.IsFemale, 'несчастная', 'несчастный' )] кубарем [Select_CString(nice_courtier.IsFemale, 'покатилась', 'покатился' )] на землю."
  hunt.1011.desc_talk: "Мы неторопливо едем верхом группой, и вдруг я слышу за спиной голос.\n\n«[nice_courtier.GetFirstNameNoTooltip], [nice_courtier.Custom('InsultAdjective')] [nice_courtier.Custom('InsultNoun')]!», — шипит из седла охотничьего скакуна [murder_target.GetTitledFirstName].\n\n[Select_CString(nice_courtier.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('nice_courtier') )] [nice_courtier.GetTitledFirstName] заметно страдает от этих насмешек."
  hunt.1011.a: "Вы ведете себя как непослушный ребенок. Придется вас наказать."
  hunt.1011.b: "[murder_target.GetTitleTierName] не может так себя вести!"
  hunt.1011.c: "Ха, [nice_courtier.GetFirstNameNoTooltip] краснеет, как свекла!"
-  
  hunt.1012.t: "[murder_target.GetFirstNameNoTooltip] и стрела для [Select_CString(murder_target.IsFemale, 'нее', 'него' )]"
  hunt.1012.opening: "Я тихо крадусь, сжимая в руках лук, перед глазами [host.GetCurrentLocation.Custom('GetProvinceFoliageDesc')] — выжидаю, когда появится [activity.Custom('GetAnimalType')|l]... Но кто это там впереди? Неужто [murder_target.GetTitledFirstName]?\n\n"
  hunt.1012.desc: "[Select_CString(murder_target.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('DescriptorNegative', murder_target)][Select_CString(murder_target.IsFemale, 'ая', 'ый' )] [ROOT.Char.Custom2('RelationToMe', murder_target)] ползет впереди меня, и все [Select_CString(murder_target.IsFemale, 'ее', 'его' )] внимание занимает приближающийся [activity.Custom('GetAnimalMale')].\n\n"
@@ -242,28 +228,23 @@
  hunt.1012.a.tt: "#EMP Щелк!#!"
  hunt.1012.b: "Нет, не в этот раз..."
  hunt.1012.b.flavor: "#EMP [murder_target.GetHerHim|U] время еще придет...#!"
-  
  hunt.1013.desc: "«Я #EMP только#! подбегаю помочь, а [activity.Custom('GetAnimalType')|l] [murder_target.GetHerHis] уже затаптывает насмерть! Ну зато [murder_target.GetSheHe] не [Select_CString(murder_target.IsFemale, 'умерла', 'умер' )] в одиночестве...»\n\nК счастью, остальные не стали расспрашивать, как [Select_CString(murder_target.IsFemale, 'погибла', 'погиб' )] [murder_target.GetTitledFirstName].\n\n«Эх, ну почему же у меня не получилось его спасти!»"
  hunt.1013.a: "Это немыслимо! Охота окончена!"
  hunt.1013.b: "Какая трагедия. А где же [activity.Custom('GetAnimalType')|l]?"
-  
  hunt.1014.desc: "Вдруг из зарослей к нам нетвердой походкой выходит [murder_target.GetTitledFirstName], сжимая руку, по которой течет кровь. Я отрываюсь от своего меха с водой и очень убедительно вскрикиваю от удивления.\n\n«#EMP Кого#! тут надо еще учить, что стрелять нужно #EMP в зверя#!?!» — в гневе кричит [murder_target.GetSheHe], подходя ближе."
  hunt.1014.a: "«Значит, стрела попала прямо в цель, не так ли?»"
  hunt.1014.all_honorable_hunt_participants: "Достопочтенные люди, присутствующие на занятии «[activity.GetShortName]»:"
  hunt.1014.all_who_dislike_or_are_evil: "Все участники занятия «[activity.GetShortName]», которым не нравится [murder_target.GetFirstNameNoTooltip] или нравится страдать:"
  hunt.1014.b: "Разве [participant_to_blame.GetFirstNameNoTooltip] не [Select_CString(participant_to_blame.IsFemale, 'шла', 'шел' )] сразу следом за тобой?"
  hunt.1014.c: "«Ты винишь нас в собственной неуклюжести?»"
-  
  hunt.1015.desc: "«[ROOT.Char.GetTitledFirstNameNoTooltip]?! Ай, это вы, [ROOT.Char.GetLadyLord]?»\n\n[murder_target.GetTitledFirstName] смотрит широко открытыми глазами то на мой лук, то на стрелу, вонзившуюся [SCOPE.sC('murder_target').GetHerHim] в руку.\n\n«Что вы делаете?!»"
  hunt.1015.a: "Какой ужас, нужно показать твою руку лекарю!"
  hunt.1015.b: "Лучше #EMP забудь#! об этом, если жизнь дорога."
  hunt.1015.c: "Дважды я не промахиваюсь."
  hunt.1015.d: "«Это просто... несчастный случай»."
  hunt.1015.e: "Я знаю, как заставить [murder_target.GetHerHis] забыть."
-  
  hunt.1016.desc: "«[ROOT.Char.GetTitledFirstNameNoTooltip], это #EMP вы#!?!» —\n\n[murder_target.GetTitledFirstName] смотрит то на мой лук, то на стрелу, торчащую из земли прямо у [murder_target.GetHerHis] ног.\n\n«Ха! Снова глаз подводит, [ROOT.Char.GetLadyLord]?»"
  hunt.1016.a: "Ну погоди, [murder_target.GetFirstNameNoTooltip]..."
-  
  hunt.1021.t: "Вдали от людей"
  hunt.1021.desc: "Я отрываюсь от остальных и вдруг натыкаюсь на небольшой домик, под крышей которого, как выясняется, обитает одна из достойнейших душ, которые когда-либо встречались мне в жизни.\n\n[beautiful_peasant.GetSheHe|U] приглашает меня отдохнуть, и я с удивлением обнаруживаю, что у [Select_CString(beautiful_peasant.IsFemale, 'простой крестьянки', 'простого крестьянина' )] со мной куда больше общего, чем мне казалось.\n\n«Неужели вам обязательно прямо сейчас возвращаться к охоте, [ROOT.Char.GetLadyLord]? Я никогда не [Select_CString(beautiful_peasant.IsFemale, 'встречала', 'встречал' )] [Select_CString(ROOT.Char.IsFemale, 'дамы, подобной', 'мужа, подобного' )] вам...»"
  hunt.1021.a: "Пожалуй, можно остаться #EMP ненадолго#!..."
@@ -277,20 +258,17 @@
  hunt.1021.c.failure_tt: "[beautiful_peasant.GetFirstNameNoTooltip] остается в лесу"
  hunt.1021.d: "Прошу, [beautiful_peasant.GetFirstNameNoTooltip], позволь устроить тебя при дворе."
  every_consort_tt: "Все [spouses|El] и [lovers|El]"
-  
  hunt.1022.t: "Рассвет для двоих"
  hunt.1022.desc: "Уже на пороге я вспоминаю [beautiful_peasant.GetHerHis] прекрасное, искаженное страстью лицо. [beautiful_peasant.GetSheHe|U] смотрит на меня и поглаживает меха, на которых мы возлежали.\n\n«Первая ночь не обязана быть последней», — мурлычет [beautiful_peasant.GetSheHe]."
  hunt.1022.a: "Боюсь, обязана."
  hunt.1022.a.tt: "#EMP Больше я никогда [beautiful_peasant.GetHerHis] не увижу...#!"
  hunt.1022.b: "Останься со мной при дворе."
-  
  hunt.1023.t: "Гончая"
  hunt.1023.desc: "[ROOT.Char.Custom('DogStoryName')] трусит рядом со мной, наслаждаясь свободой.\n\nВнезапно [ROOT.Char.Custom('DogStorySheHe')] замирает и начинает лаять. Пару секунд спустя я слышу, что кто-то продирается через подлесок. Кто-то большой.\n\n[ROOT.Char.Custom('DogStoryHerHis')|U] лай перерастает в рычание, и на нас выскакивает [host.Custom('GetAnimalType')|l]!"
  hunt.1023.a: "Вперед, [ROOT.Char.Custom('DogStoryName')], ату!"
  hunt.1023.a.good: "[ROOT.Char.Custom('DogStoryName')] делает свое дело — [host.Custom('GetAnimalType')|l] падает без движения"
  hunt.1023.a.bad: "[ROOT.Char.Custom('DogStoryName')] погибает в бою"
  hunt.1023.b: "Я убью зверя, [host.Custom('GetAnimalType')|l] не победит человека."
-  
  hunt.1030.t: "В засаде"
  hunt.1030.desc: "Ловчие нашли для нас неприметное место с подветренной стороны от убежища зверя — здесь будет удобно встать с луками и ждать, пока собаки поднимут шум и на нас выскочит [activity.Custom('GetAnimalType')|l].\n\nОтличный повод потренировать меткость на настоящей, движущейся мишени."
  hunt.1030.guest: "Ловчие, которых возглавляет [host.GetTitledFirstName], нашли для нас неприметное место с подветренной стороны от убежища зверя — здесь будет удобно встать с луками и ждать, пока собаки поднимут шум и на нас выскочит [activity.Custom('GetAnimalType')|l].\n\n"
@@ -298,7 +276,6 @@
  hunt.1030.a: "Отличное предложение."
  hunt.1030.b: "Нет, я хочу загнать зверя в угол!"
  hunt.1030.c: "За дело!"
-  
  hunt.1032.opening: "Затаившись с луками, мы ждем, когда же появится [activity.Custom('GetAnimalType')|l]. От далеких криков загонщиков и лая собак напряжение с каждым мгновением нарастает.\n\n"
  hunt.1032.desc: "Вдруг перед нами выскакивает [activity.Custom('GetAnimalColor')] [activity.Custom('GetAnimalMale')]. Мотая в ужасе головой, он срывается с меcта и [activity.Custom('GetAnimalChargePresent')] прямо на нас."
  hunt.1032.a: "Не стрелять! Он #EMP мой#!!"
@@ -306,11 +283,9 @@
  hunt.1032.e: "Все вместе! #EMP БЕЙ!!!#!"
  hunt.1032.e.tt: "[activity.Custom('GetAnimalType')|U] пугается, попав под обстрел"
  hunt.1032.f: "#EMP БЕЖИМ!!!#!"
-  
  hunt.1033.desc: "Наша задумка не оправдалась. Зверь почуял наш запах и не пошел в засаду, как его ни гнали на нас загонщики.\n\nВ конце концов он оторвался от погони и скрылся в глуши."
  hunt.1033.a: "Умная зараза..."
  hunt.1033.b: "Во всем виноват [Select_CString(hunt_participant.IsFemale, 'виновата', 'виноват' )] [hunt_participant.GetFirstNameNoTooltip]!"
-  
  hunt.1040.t: "Спокойно, спокойно..."
  hunt.1040.desc: "Ловчие говорят, что они знают, где [activity.Custom('GetAnimalType')|l] спит, где пасется и куда ходит на водопой.\n\nХоть это будет непросто, мы сможем тихонько подкрасться так, чтобы [activity.Custom('GetAnimalMale')|l] нас не заметил, и внезапно убить его стрелами."
  hunt.1040.guest: "Ловчие, которых держит [host.GetTitledFirstName], говорят, что они знают, где [activity.Custom('GetAnimalType')|l] спит, где пасется и куда ходит на водопой.\n\n"
@@ -321,11 +296,9 @@
  hunt.1040.b: "Ха, настоящие охотники загоняют добычу!"
  hunt.1040.b.flavor: "#EMP Кто последний, тот чистит псарню!#!"
  hunt.1040.c: "Да будет так."
-  
  hunt.1043.desc: "Как мы ни стараемся не шуметь, незаметно подкрасться нам не удается: каждый раз [activity.Custom('GetAnimalType')] чует наше приближение и сбегает.\n\nНа землю уже начинают опускаться сумерки, так что придется нам признать поражение. В этот раз [activity.Custom('GetAnimalPlural')] нам не дались."
  hunt.1043.a: "Не каждый же раз возвращаться с добычей..."
  hunt.1043.b: "Ну что за ерунда, [hunt_participant.GetFirstNameNoTooltip]!"
-  
  hunt.1060.t: "Взлет"
  hunt.1060.desc_opening_courtier: "[Select_CString(hunt_participant.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', hunt_participant)], [hunt_participant.GetTitledFirstName] призывает всех к молчанию: мы прибыли в то место, где егеря должны выпустить зверя."
  hunt.1060.desc_opening: "Егеря призывают всех к молчанию: мы прибыли в то место, где должны выпустить зверя."
@@ -340,7 +313,6 @@
  hunt.1060.b: "Я просто хочу посмотреть."
  hunt.1060.b.flavor: "#EMP Безопасность — это главное!#!"
  hunt.1060.d: "Пора!"
-  
  hunt.1062.t.hare: "Заяц в руках"
  hunt.1062.t: "Синица в руках"
  hunt.1062.desc: "Я восхищенно слежу за тем, как [activity.Custom('GetRaptorType')] находит жертву и взлетает высоко в небо."
@@ -353,7 +325,6 @@
  hunt.1062.a: "#EMP ДА!#!"
  hunt.1062.a.flavor: "Сегодня [activity.Custom('GetRaptorType')] будет пировать!"
  hunt.1062.b: "Превосходно!"
-  
  hunt.1063.t: "Журавль в небе"
  hunt.1063.desc: "Снова и снова [activity.Custom('GetRaptorType')] падает на жертву, но промахивается, отступает или лишь слегка задевает свою цель."
  hunt.1063.desc_guest: "Снова и снова [activity.Custom('GetRaptorType')], чей владелец [host.GetTitledFirstName], падает на жертву, но промахивается, отступает или лишь слегка задевает свою цель."
@@ -361,22 +332,17 @@
  hunt.1063.a: "Можно попытаться в следующий раз."
  hunt.1063.a.flavor: "Проклятая птица..."
  hunt.1063.d: "Прискорбно."
-  
  hunt.1080.t.bodyguard: "Мы не совсем одни"
  hunt.1080.t: "Совсем одни"
  hunt.1080.opening_lone: "[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', murderer)], [murderer.GetTitledFirstName] и я далеко оторвались от остальных."
  hunt.1080.opening_accomplice: "[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', murderer)], [murderer.GetTitledFirstName], [ROOT.Char.Custom2('RelationToMeShort', accomplice)], [accomplice.GetTitledFirstName], и я далеко оторвались от остальных."
-  
  hunt.1080.chase: "[murderer.GetFirstNameNoTooltip] призывает нас поторопиться и кричит, что [activity.Custom('GetAnimalType')|l] убегает.\n\nМне вдруг приходит в голову мысль о том, как тихо и безлюдно стало на дороге. Наш отряд скрылся из виду, и его уже почти не слышно.\n\n"
  hunt.1080.bow: "[murderer.GetFirstNameNoTooltip] призывает нас поторопиться и кричит, что [activity.Custom('GetAnimalType')|l] убегает.\n\nМне вдруг приходит в голову мысль о том, как тихо и безлюдно стало на дороге. Наш отряд скрылся из виду, и его уже почти не слышно.\n\n"
-  
  hunt.1080.falconry: "[murderer.GetFirstNameNoTooltip] громогласно призывает нас свернуть с тропы, утверждая, что [activity.Custom('GetAnimalPlural')] уже совсем рядом. Эти заявления звучат сомнительно, но [Select_CString(murderer.IsFemale, 'она', 'он' )] настаивает.\n\nМне вдруг приходит в голову мысль о том, как тихо и безлюдно стало на дороге. Наш отряд скрылся из виду, и его уже почти не слышно.\n\n"
-  
  hunt.1080.closing_lone: "Обернувшись, я вижу, что [murderer.GetFirstNameNoTooltip] быстро приближается ко мне с ножом в руках. В [Select_CString(murderer.IsFemale, 'ее', 'его' )] глазах горит жуткий огонь."
  hunt.1080.closing_accomplice: "Обернувшись, я вижу, что [murderer.GetFirstNameNoTooltip] и [accomplice.GetFirstNameNoTooltip] с ножами в руках быстро приближаются ко мне. Их глаза горят."
  hunt.1080.closing_bow: "Снова повернув в сторону тропы, я вижу, что [murderer.GetFirstNameNoTooltip] быстро приближается мне с ножом в руках. В [Select_CString(murderer.IsFemale, 'ее', 'его' )] глазах горит жуткий огонь."
  hunt.1080.closing_bow_accomplice: "Снова повернув в сторону тропы, я вижу, что [murderer.GetFirstNameNoTooltip] и [accomplice.GetFirstNameNoTooltip] с ножами в руках быстро приближаются мне. В их глазах горит жуткий огонь."
-  
  hunt.1080.desc: "По крайней мере, мне так казалось. Я поворачиваюсь и понимаю, что моего отряда нигде не видно."
  hunt.1080.bodyguard_betray: "\n\n[bodyguard_betray.GetFirstNameNoTooltip], что это ты делаешь? Остановись!"
  hunt.1080.bodyguard_appears: "\n\nЗа спиной у меня раздается крик: по тропе бежит мой телохранитель [bodyguard.GetFirstName]. «#EMP [ROOT.Char.GetTitleAsNameNoTooltip], берегитесь!#!»"
@@ -392,7 +358,6 @@
  hunt.1080.a.duel_failure: "[murderer.GetFirstNameNoTooltip] [Select_CString(murderer.IsFemale, 'сумела', 'сумел' )] одолеть вас"
  hunt.1080.a.success_tt: "[murderer.GetShortUIName|U] [Select_CString(murderer.IsFemale, 'убита или схвачена', 'убит или схвачен' )]"
  hunt.1080.a.success_accomplice_tt: "[accomplice.GetShortUIName|U] [Select_CString(accomplice.IsFemale, 'убита или схвачена', 'убит или схвачен' )]"
-  
  hunt.1081.desc: "Я достаю охотничий нож, продолжая звать на помощь. Тем временем [murderer.GetFirstName] ускоряет шаг, твердо вознамерившись совершить страшное дело. Все происходит очень быстро...\n\n"
  hunt.1081.desc_accomplice: "Я достаю охотничий нож, продолжая звать на помощь. Тем временем [murderer.GetFirstName] и [accomplice.GetFirstName] ускоряют шаг, твердо вознамерившись совершить страшное дело. Все происходит очень быстро...\n\n"
  hunt.1081.killed: "Внезапно я падаю на спину, прижимая руку к груди: на моей рубашке темное пятно, из которого торчит рукоять кинжала.\n\n"
@@ -427,13 +392,11 @@
  hunt.1081.c.family: "[ROOT.Char.Custom2('RelationToMeShort', murderer)]..."
  hunt.1081.c: "З-за что?.."
  hunt.1081.d: "Клянусь всем святым..."
-  
  hunt.1090.desc: "Проскакав несколько часов и обыскав все окрестности, я признаю свое поражение.\n\n[activity.Custom('GetAnimalType')|U], что имеет [activity.Custom('GetLegendaryColor')] окрас, бесследно исчезает в тот же миг, когда мы замечаем добычу...\n\nВ сумерках я возвращаюсь в лагерь. [activity.Custom('GetAnimalType')|U] подает голос где-то вдалеке, словно смеясь надо мной."
  hunt.1090.guest: "Проскакав несколько часов и обыскав все окрестности, [host.GetTitledFirstName] признает свое поражение.\n\n[activity.Custom('GetAnimalType')|U], что имеет [activity.Custom('GetLegendaryColor')] окрас, бесследно исчезает в тот же миг, когда мы замечаем добычу...\n\nВ сумерках мы возвращаемся в лагерь. [activity.Custom('GetAnimalType')|U] подает голос где-то вдалеке, возвещая всем, что [host.GetFirstNameNoTooltip] терпит поражение."
  hunt.1090.a: "Я #EMP найду#! тебя, тварь..."
  hunt.1090.a.tt: "Вот увидишь!"
  hunt.1090.b: "Это было нечто."
-  
  hunt.1200.t: "Добыча"
  hunt.1200.chase_self: "Ловчие удерживают загнанное животное на месте. Я прицеливаюсь, выдыхаю и пускаю стрелу!"
  hunt.1200.chase: "Ловчие удерживают загнанное животное на месте, [activity.Custom('GetAnimalType')] тяжело дышит. [animal_slayer.GetTitledFirstName] прицеливается, выдыхает и пускает стрелу!"
@@ -460,7 +423,6 @@
  hunt.1200.c: "Не повезло."
  hunt.1200.d: "У зверя не было шансов."
  hunt.1200.e: "Каков охотник!"
-  
  hunt.1201.self: "Я приподнимаю копье и осторожно иду к истощенному животному."
  hunt.1201: "[animal_slayer.GetTitledFirstName] приподнимает копье и осторожно идет к истощенному животному."
  hunt.1201.slayer_dogs: "[host.GetTitledFirstName] поворачивается к выжлятникам и кричит: «Спускайте собак!»"
@@ -488,7 +450,6 @@
  hunt.1201.f.dharmic: "Не повезло."
  hunt.1201.f.compassionate: "Это милосердно."
  hunt.1201.f: "Как бессмысленно..."
-  
  hunt.1202.self: "Я приподнимаю копье и осторожно иду к истощенному животному."
  hunt.1202: "[animal_slayer.GetTitledFirstName] приподнимает копье и осторожно идет к истощенному животному."
  hunt.1202.slayer: "[host.GetTitledFirstName] поворачивается к нам и кричит: «Передовой отряд, заканчивайте дело!»"
@@ -513,7 +474,6 @@
  hunt.1202.b.self: "#EMP Ай!#! Проклятый зверь..."
  hunt.1202.b: "Скорей, [injury_target.GetHerHis] нужна помощь!"
  hunt.1202.c: "Трагедия..."
-  
  hunt.2000.t: "Торговец собаками"
  hunt.2000.opening_master: "[m_hunt.GetTitledFirstName], мой главный охотник, [Select_CString(m_hunt.IsFemale, 'привела', 'привел' )] ко мне [Select_CString(dog_salesman.IsFemale, 'торговку', 'торговца' )]. [Select_CString(dog_salesman.IsFemale, 'Она', 'Он' )] утверждает, что продает прекрасных охотничьих собак.\n\n"
  hunt.2000.opening_hunter: "[Select_CString(m_hunt.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', m_hunt)], [m_hunt.GetTitledFirstName], [Select_CString(m_hunt.IsFemale, 'заядлая охотница, привела', 'заядлый охотник, привел' )] ко мне [Select_CString(dog_salesman.IsFemale, 'торговку', 'торговца' )]. [Select_CString(dog_salesman.IsFemale, 'Та', 'Тот' )] продает прекрасных охотничьих собак.\n\n"
@@ -521,10 +481,9 @@
  hunt.2000.desc: "«У меня только лучшие собаки; они уже обучены и готовы идти на охоту. Таких собак вам [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetDefinitiveNameNoTooltip] не предложит, [ROOT.Char.GetTitleAsNameNoTooltip]!»\n\nПередо мной ряд собак разных размеров и телосложения. Они спокойно сидят на поводках и ждут, когда я их осмотрю."
  hunt.2000.a: "Хорошая ищейка дороже золота."
  hunt.2000.b: "Одна такая собака справится даже с кабаном!"
- hunt.2000.b.tt: "Вы не станете получать сообщений об [Concept( 'hunt_sighting_no_prefix', 'обнаружении' )|E] дичи, пока в следующий раз не будет проводиться [GetActivityType('activity_hunt').GetName]."
+ hunt.2000.b.tt: "Вам не будут сообщать об [Concept( 'hunt_sighting_no_prefix', 'обнаружении' )|E] дичи, пока не будет устроена [GetActivityType('activity_hunt').GetName|l]."
  hunt.2000.c: "Поразительно. Не хочешь управлять моей псарней, [dog_salesman.GetFirstNameNoTooltip]?"
  hunt.2000.d: "У меня уже достаточно собак."
-  
  hunt.2001.t: "Торговля хищными птицами"
  hunt.2001.opening_master: "[m_hunt.GetTitledFirstName], мой главный охотник, [Select_CString(m_hunt.IsFemale, 'привела', 'привел' )] ко мне [Select_CString(falcon_salesman.IsFemale, 'торговку', 'торговца' )]. [Select_CString(falcon_salesman.IsFemale, 'Та', 'Тот' )] утверждает, что продает обученных хищных птиц.\n\n"
  hunt.2001.opening_hunter: "[Select_CString(m_hunt.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', m_hunt)], [m_hunt.GetTitledFirstName], [Select_CString(m_hunt.IsFemale, 'заядлая охотница, привела', 'заядлый охотник, привел' )] ко мне [Select_CString(falcon_salesman.IsFemale, 'торговку', 'торговца' )]. [Select_CString(falcon_salesman.IsFemale, 'Та', 'Тот' )] продает обученных хищных птиц.\n\n"
@@ -534,7 +493,6 @@
  hunt.2001.a.flavor: "Я возьму его!"
  hunt.2001.c: "Наконец-то, [falcon_salesman.GetFirstNameNoTooltip]! Вот кто будет управлять моей соколятней!"
  hunt.2001.d: "Все это прекрасно, но меня это не интересует..."
-  
  hunt.2500.t: "[sighting_province.GetTitle.GetDeJureLiege.Custom('GetAnimalPlural')|U] из провинции [sighting_province.GetNameNoTooltip]"
  hunt.2500.opening_master: "[Select_CString(sighting_character.IsFemale, 'Моя главная охотница', 'Мой главный охотник' )], [sighting_character.GetTitledFirstName], приносит сообщение о зверях, замеченных в моих землях.\n\n"
  hunt.2500.opening_hunter: "[Select_CString(sighting_character.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', sighting_character)] [sighting_character.GetTitledFirstName], [Select_CString(sighting_character.IsFemale, 'известная', 'известный' )] своей любовью к псовой охоте, рассказывает мне слухи о зверях, которых замечали в последнее время в моих землях.\n\n"
@@ -542,7 +500,6 @@
  hunt.2500.desc: "«Поговаривают, [sighting_county.GetName] — отличное место для охоты. Дескать, [sighting_province.Custom('GetTerrainTypePlural')] там прямо кишат дичью, [sighting_county.Custom('GetAnimalType')|l] водится в изобилии!»"
  hunt.2500.a: "Интересно..."
  hunt.2500.b: "Мне сейчас не до этого."
-  
  hunt.2510.t: "[sighting_county.Custom('GetAnimalType')|U], [sighting_county.Custom('GetLegendaryColor')|l] окрас"
  hunt.2510.opening_master: "[sighting_character.GetTitledFirstName], мой главный охотник, входит в мои покои, дрожа от возбуждения.\n\n"
  hunt.2510.opening_hunter: "[Select_CString(sighting_character.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', sighting_character)] [sighting_character.GetTitledFirstName], [Select_CString(sighting_character.IsFemale, 'известная', 'известный' )] своей любовью к псовой охоте, входит в мои покои, дрожа от возбуждения.\n\n"
@@ -555,15 +512,12 @@
  hunt.2510.a: "#EMP [sighting_county.Custom('GetLegendaryColor')|U]#!, говоришь?"
  hunt.2510.a.existing: "Когда-нибудь я #EMP найду#! этого зверя!"
  hunt.2510.b: "Не лезь ко мне с этими детскими сказками."
-  
- hunt.2520.t: "[sighting_province.GetTitle.GetDeJureLiege.Custom('GetAnimalType')|U], [sighting_province.GetTitle.GetDeJureLiege.Custom('GetAnimalAdjective')|l] зверь из графства [sighting_county.GetNameNoTierNoTooltip]"
- hunt.2520.desc: "«До меня доходит много слухов из владения [sighting_county.GetNameNoTier]: говорят, что [sighting_county.Custom('GetAnimalType')] наводит страх на местные деревни и крадет скот!»"
-  
+ hunt.2520.t: "[sighting_province.GetTitle.GetDeJureLiege.Custom('GetAnimalType')|U], [sighting_province.GetTitle.GetDeJureLiege.Custom('GetAnimalAdjective')|l] зверь в графстве [sighting_county.GetNameNoTierNoTooltip]"
+ hunt.2520.desc: "«[sighting_county.GetNameNoTier] полнится слухами: говорят, что [sighting_county.Custom('GetAnimalType')] наводит страх на местные деревни и крадет скот!»"
  hunt.2530.t: "[sighting_province.GetTitle.GetDeJureLiege.Custom('GetAnimalPlural')|U] из графства [sighting_county.GetNameNoTierNoTooltip]"
  hunt.2530.opening_master: "[sighting_character.GetTitledFirstName], мой главный сокольничий, входит в мои покои, дрожа от возбуждения.\n\n"
  hunt.2530.opening_falconer: "[Select_CString(sighting_character.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', sighting_character)|l] [sighting_character.GetTitledFirstName], [Select_CString(sighting_character.IsFemale, 'известная', 'известный' )] своей любовью к соколиной охоте, входит в мои покои, дрожа от возбуждения.\n\n"
  hunt.2530.desc: "«Поговаривают, [sighting_county.GetNameNoTier] — отличное место для охоты. Дескать, [sighting_province.Custom('GetTerrainTypePlural')|l] там прямо кишат дичью, [sighting_county.Custom('GetAnimalType')|l] водится в изобилии!»"
-  
  hunt.2540.t: "Отсюда — туда"
  hunt.2540.desc: "«[ROOT.Char.GetLadyLord], твои лесники сообщают, что [sighting_county.Custom('GetAnimalPlural')|l], которые в изобилии водятся в графстве [old_sighting_county.GetBaseNameNoTier], похоже, ушли в графство [sighting_county.GetName]!»"
  hunt.2540.legendary: "«[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.GetLadyLord|l], ваши лесники сообщают, что [sighting_county.Custom('GetAnimalType')|l] ([sighting_county.Custom('GetLegendaryColor')] окрас) из графства [old_sighting_county.GetBaseNameNoTier] перебирается в соседнее графство — [sighting_county.GetBaseNameNoTier]!"
@@ -573,7 +527,6 @@
  hunt.2540.a: "От меня они не спрячутся."
  hunt.2540.a.legendary: "Зверь пытался сбить меня с толку!"
  hunt.2540.b: "Мне надоели эти донесения, [sighting_character.GetFirstNameNoTooltip]..."
-  
  hunt.3020.t: "Опасная игра"
  hunt.3020.t.deer: "Ни малейшего понятия"
  hunt.3020.opening: "Как и положено дичи, [activity.Custom('GetAnimalType')|l] знает много хитростей и приемов, чтобы обмануть даже опытного охотника.\n\n"
@@ -615,15 +568,13 @@
  hunt.4001.c: "Бей, [hunt_participant.GetFirstNameNoTooltip], пока [activity.Custom('GetAnimalType')|l] не видит!"
  hunt.4001.c.tt: "Если я наступлю на ветку, [activity.Custom('GetAnimalType')|l] точно сбежит..."
  hunt.4001.d: "Гляди."
-  
  hunt.4002.t: "Слухи"
- hunt.4002.desc:3 "The noise of the others has faded as my [ROOT.Char.Custom2('RelationToMe', secret_sharer)], [secret_sharer.GetTitledFirstName], and I stalk up on the [activity.Custom('GetAnimalType')].\n\nWe are almost within striking distance when [secret_sharer.GetFirstNameNoTooltip] whispers: "Шум остальных затих, когда мои [ROOT.Char.Custom2('RelationToMe', secret_sharer)], [secret_sharer.GetTitledFirstName] и я подкрадываемся к [activity.Custom('GetAnimalType')].\n\nМы почти на расстоянии досягаемости, когда [secret_sharer.GetFirstNameNoTooltip] шепчет: «Теперь, когда мы наконец одни, есть что-то, что я могу должен вам сказать — о [secret_owner.GetTitledFirstName]...»" #Машинный перевод 28.10.23
+ hunt.4002.desc: "Я и [ROOT.Char.Custom2('RelationToMe', secret_sharer)|l] [secret_sharer.GetTitledFirstName] уходим все дальше от шумной компании, и вот уже [activity.Custom('GetAnimalType')|l] прямо перед нами.\n\nНо перед решающим ударом [secret_sharer.GetFirstNameNoTooltip] вдруг шепчет: «Пока никого рядом нет, хочу кое-что тебе рассказать. [secret_owner.GetTitledFirstName]...»"
  hunt.4002.a: "Потом поговорим, [ROOT.Char.Custom2('RelationToMe', secret_sharer)]!"
  hunt.4002.a.flavor: "[activity.Custom('GetAnimalType')|U] — моя добыча!"
  hunt.4002.b: "Что? Ну, рассказывай..."
  hunt.4002.b.tt: "[activity.Custom('GetAnimalType')|U] сбегает"
  hunt.4002.b.reveal: "Я узнаю секрет, который хранит [secret_owner.GetFirstNamePossessiveNoTooltip]"
-  
  hunt.4003.t: "Незаконная охота"
  hunt.4003.desc: "Браконьеры? В лесах, которыми владеет [land_owner.GetTitleTierName]? Я с охраной подъезжаю ближе, и мужичье пытается сгрудиться, закрывая собой тушу убитого животного. Это [host.Custom('GetRegionalDeerType')|l].\n\n«[ROOT.Char.GetTitleAsNameNoTooltip], это не мы! Пощадите!» Вот только их клинки и луки говорят об обратном."
  hunt.4003.a: "Они будут повешены, а их деревни заплатят за ущерб."
@@ -636,7 +587,6 @@
  hunt.4003.d.vassal: "Прочь отсюда! [land_owner.GetTitledFirstNameNoTooltip] этого не потерпит!"
  hunt.4003.d.rival: "Этими землями владеет [land_owner.GetTitledFirstNameNoTooltip], поэтому берите все, что хотите."
  hunt.4003.e: "Наконец-то, неплохой охотник!"
-  
  hunt.4004.t: "Убийство зверя"
  hunt.4004.desc: "Зверь — нет, божество в зверином обличье — словно вышел из легенд. [activity.Custom('GetAnimalType')|U] таких размеров встречается, наверное, лишь раз в жизни.\n\nДаже когда животное удалось ранить, за ним пришлось гнаться еще полдня.\n\nИ даже его безжизненная туша представляет величественное зрелище."
  hunt.4004.credit_receiver: "[credit_taker.GetTitledFirstName] тоже благоговейно выдыхает: «Впервые такое вижу, [ROOT.Char.GetLadyLord|l]»."
@@ -650,12 +600,10 @@
  hunt.4004.d: "Думаю, всю славу [Select_CString(credit_taker.IsFemale, 'должна', 'должен' )] получить [credit_taker.GetTitledFirstNameNoTooltip]."
  hunt.4004.e: "Съедим зверя здесь и сейчас!"
  hunt.4004.f: "Из такого черепа выйдет прекрасная корона."
-  
  hunt.4005.t: "Убийство зверя"
  hunt.4005.a: "Я выручу за него неплохую сумму."
  hunt.4005.b: "Обращусь к мастерам. [ROOT.Char.Custom2('RelationToMeShort', trophy_recipient)|U] получит прекрасный подарок."
  hunt.4005.c: "Велю набить чучело — [ROOT.Char.GetFaith.ReligiousHeadName] обрадуется такому подарку!"
-  
  hunt.4006.t: "Собиратели"
  hunt.4006.desc: "[host.GetCurrentLocation.Custom('GetTerrainTree')] воистину кормит бедноту, но когда [activity.Custom('GetAnimalType')|l] в панике удирает и оказывается, что спугнули зверя крестьяне, вышедшие на заготовку припасов, моему терпению приходит конец.\n\nЗачем вам [host.GetCurrentLocation.GetNameNoTooltip], грибов и кореньев в другом месте не нашли?"
  hunt.4006.a: "Стража, прогнать эту шваль из #EMP моих#! охотничьих угодий!"
@@ -664,13 +612,12 @@
  hunt.4006.c: "О, такая дичь вполне сгодится..."
  hunt.4006.d: "Дадим им денег, пусть пока не суются сюда."
  hunt.4006.e: "Все-таки это их исконное право..."
-  
  hunt.4007.t: "[host.Custom('GetAnimalType')|U] свирепствует"
  hunt.4007.desc_befriend: "Я и [Select_CString(similar_participant.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', similar_participant)] [similar_participant.GetTitledFirstName] дремлем на тихой полянке под нежными прикосновениями легкого ветерка. Но вдруг до нас доносится страшный шум."
  hunt.4007.desc_lazy: "Я и [Select_CString(similar_participant.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', similar_participant)] [similar_participant.GetTitledFirstName] дремлем на тихой полянке под нежными прикосновениями легкого ветерка. Но вдруг до нас доносится страшный шум."
  hunt.4007.desc_lustful: "[Select_CString(similar_participant.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', similar_participant)] [similar_participant.GetTitledFirstName] роскошно смотрится в охотничьей одежде. Будь проклят этот шум, что заставил меня отвести от н[similar_participant.GetHerHis] взгляд!"
  hunt.4007.desc_fallback: "Когда я и [Select_CString(similar_participant.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', similar_participant)] [similar_participant.GetTitledFirstName] поднимаемся на вершину холма, до нас доносится страшный шум."
- hunt.4007.desc_ending:2 "\n\nSnapping twigs, rustling branches, and birds screaming in fright herald the arrival of a furious [host.Custom('GetAnimalType')|l], and its heading straight for us!\n\n[similar_participant.GetSheHe|U] gasps: "\n\nХруст веток, шелест ветвей и испуганные крики птиц возвещают о прибытии разъяренного [host.Custom('GetAnimalType')|l], и он направляется прямо к нам!\n\n[similar_participant.GetSheHe|U] охает: "Посмотрите на размер этих #EMP [host.Custom('GetAnimalDanger')]§ _4"" #Машинный перевод 28.10.23
+ hunt.4007.desc_ending: "\n\nТреск веток, шуршание листвы, крики испуганных птиц — и в следующее мгновение из чащи выскакивает [host.Custom('GetAnimalType')|l]! Свирепое чудовище несется прямо на нас!\n\n«Посмотрите, #EMP [host.Custom('GetAnimalDanger')]#! — просто ужас!» — вскрикивает [Select_CString(similar_participant.IsFemale, 'моя спутница', 'мой спутник' )]."
  hunt.4007.a: "Здесь я оборву его путь."
  hunt.4007.a.non_martial: "Скорее! Прячься за меня, [similar_participant.GetFirstNameNoTooltip]!"
  hunt.4007.a.non_martial_self: "Дай сюда нож! Я разберусь!"
@@ -686,7 +633,6 @@
  hunt.4007.d: "[bodyguard.GetFirstNameNoTooltip]! Ко мне!"
  hunt.4007.e: "#EMP ПРОЧЬ, ГНУСНОЕ ЧУДОВИЩЕ!#!"
  hunt.4007.f: "#EMP Бежим!#!"
-  
  hunt.4900.t: "[activity.Custom('GetAnimalTypeKill')|U] свирепствует"
  hunt.4900.desc: "Огромное чудовище останавливается перед нами, [activity.Custom('GetAnimalSoundParticipleKill')] и остервенело [activity.Custom('GetAnimalStrikeParticipleKill')]."
  hunt.4900.hunter: "\n\nЯ выхватываю нож из-за пояса и становлюсь так, чтобы [similar_participant.GetFirstName] [Select_CString(THIS.Char.IsFemale, 'оказалась', 'оказался' )] у меня за спиной. В этот момент [activity.Custom('GetAnimalTypeKill')|l] [activity.Custom('GetAnimalChargePresentKill')|l] вперед.\n\nЯ вгоняю нож в сердце зверю,"
@@ -714,14 +660,13 @@
  hunt.4900.b: "Оставлю себе что-нибудь на память."
  hunt.4900.c: "#weak Хитрый... пес...#!"
  hunt.4900.d: "Ну всё, собираемся домой!"
-  
  hunt.4008.t: "Шалости наследников"
  hunt.4008.t_2: "Непреднамеренная ошибка"
  hunt.4008.desc: "[activity.Custom('GetAnimalType')|U] уходит. [Select_CString(hunt_participant.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', hunt_participant)] [hunt_participant.GetTitledFirstName] так рвется догнать зверя, что заметно опережает отряд. Я устремляюсь вперед и обнаруживаю [Select_CString(hunt_participant.IsFemale, 'ее', 'его' )] над телом простолюдина, из груди которого [hunt_participant.GetTitledFirstName] пытается вытащить стрелу.\n\nЕдва завидев меня, [hunt_participant.GetSheHe] прячет оружие за спиной. «[ROOT.Char.GetTitleAsNameNoTooltip]! Я..."
  hunt.4008.animal: "э-это всё [activity.Custom('GetAnimalMale')|l]! Клянусь!»\n\n"
  hunt.4008.fallback: "э... я не специально! Клянусь!»\n\n"
  hunt.4008.closing: "Скоро подойдут остальные. Наверняка они потребуют объяснений."
- hunt.4008.a: "[hunt_participant.GetSheHe|U] отважно [Select_CString(hunt_participant.IsFemale, 'бросилась', 'бросился' )] бедняге на помощь!"
+ hunt.4008.a: "[Select_CString(hunt_participant.IsFemale, 'Она отважно бросилась', 'Он отважно бросился' )] бедняге на помощь!"
  hunt.4008.a.success: "Все мне поверили"
  hunt.4008.a.failure: "Мне не удалось никого обмануть"
  hunt.4008.b: "Скорее помогите мне спрятать тело!"
@@ -732,7 +677,6 @@
  hunt.4008.c: "Вам #EMP придется#! за это ответить, [hunt_participant.GetFirstNameNoTooltip]!"
  hunt.4008.c.flavor: "Хоть это и был просто крестьянин..."
  hunt.4008.d: "Как жаль, что «зверь» прикончил и #EMP вас#!..."
-  
  hunt.4009.t: "Дичь"
  hunt.4009.desc: "#EMP Хр-рясь!#!\n[activity.Custom('GetAnimalType')|U], [activity.Custom('GetAnimalAdjective')|l] зверь, к которому я так давно подбираюсь, мгновенно исчезает. [host.GetCurrentLocation.Custom('GetTerrainType')|U] затихает, а я поворачиваюсь на звук.\n\n[schemer.GetTitledFirstName], [Select_CString(schemer.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', schemer)], стоит за моей спиной с ножом в руках и убийственной решимостью в глазах."
  hunt.4009.a: "Тебе со мной не справиться!"
@@ -745,7 +689,6 @@
  hunt.4009.b.critial_failure: "[saving_participant.GetTitledFirstNameNoTooltip] не может меня защитить"
  hunt.4009.c: "Мне бы только добраться до лагеря!"
  hunt.4009.c.failure: "[schemer.GetTitledFirstNameNoTooltip] ловит меня"
-  
  hunt.4010.desc: "#EMP Хр-рясь!#!\n[activity.Custom('GetAnimalType')|U], [activity.Custom('GetAnimalAdjective')] зверь, к которому я и [Select_CString(targeted_participant.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', targeted_participant)] так долго подбирались, мгновенно исчезает. [host.GetCurrentLocation.Custom('GetTerrainType')|U] затихает, а мы поворачиваемся на звук.\n\n[schemer.GetTitledFirstName], [Select_CString(schemer.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', schemer)], стоит позади нас с ножом в руках. [targeted_participant.GetFirstName] видит, что клинок указывает прямо [SCOPE.sC('targeted_participant').GetHerHim] на грудь!"
  hunt.4010.a: "Не бойся, [ROOT.Char.Custom2('RelationToMeShort', targeted_participant)] [Select_CString(targeted_participant.IsFemale, 'моя', 'мой' )]!"
  hunt.4010.a.critical_success: "Я наношу удар. [schemer.GetFirstNameNoTooltip] получает ранение и обращается в бегство"
@@ -760,13 +703,11 @@
  hunt.4010.d: "#EMP Не-е-ет!..#!"
  hunt.4010.d.tt: "Этот вариант доступен, потому что вы благородны"
  hunt.4010.d.flavor: "#EMP Убей лучше меня!#!"
-  
  hunt.4011.t: "Наедине"
  hunt.4011.desc: "«[ROOT.Char.GetLadyLord|U], там [activity.Custom('GetAnimalType')|l]!» [Select_CString(lover_participant.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', lover_participant)] [lover_participant.GetTitledFirstName] зовет меня за собой. Едва [host.GetCurrentLocation.Custom('GetTerrainType')|l] надежно укрывает нас от посторонних взглядов, [lover_participant.GetSheHe] поворачивается ко мне, и вскоре [ROOT.Char.Custom('GetUpperClothingArticle')|l] уже на земле.\n\n«Наконец-то мы наедине, [ROOT.Char.Custom('LoverPetName')]!»"
  hunt.4011.a: "Ох, [lover_participant.GetFirstNameNoTooltip]!"
  hunt.4011.a.tt: "Давай как в бестиарии!"
  hunt.4011.b: "А как же [activity.Custom('GetAnimalType')|l]?.."
-  
  hunt.4012.t: "[host.Custom('GetAnimalType')|U], окрас [host.Custom('GetLegendaryColor')|l]"
  hunt.4012.desc: "Я скачу впереди отряда, и вдруг [host.GetCurrentLocation.Custom('GetTerrainType')] словно замирает, окутавшись плотной, почти материальной тишиной.\n\nЯ едва слышу стук подков моей лошади.\n\nЯ собираюсь повернуть назад, к остальным, но вдруг вижу зверя. Очертания его неясны, будто во сне, но это"
  hunt.4012.black: "[host.Custom('GetAnimalType')|l] — со шкурой черной, как сажа."
@@ -775,7 +716,6 @@
  hunt.4012.a.tt: "#EMP Мне нужно поймать это чудо!#!"
  hunt.4012.a.sighting: "Слухи оказались #EMP правдой#!!"
  hunt.4012.b: "Подумаешь, это просто [host.Custom('GetAnimalType')|l]."
-  
  hunt.4013.desc: "Я словно в мороке бреду вслед за зверем сквозь [host.GetCurrentLocation.Custom('GetTerrainTypePlural')] в неестественной тишине, сковавшей весь мир вокруг.\n\n«[ROOT.Char.GetTitleAsNameNoTooltip]! Вот ты где!» Внезапный окрик заставляет меня подскочить.\n\n"
  hunt.4013.guest: "[host.GetTitledFirstName] словно в мороке бредет вслед за зверем сквозь [host.GetCurrentLocation.Custom('GetTerrainTypePlural')] в неестественной тишине, сковавшей весь мир вокруг.\n\n«[ROOT.Char.GetTitleAsNameNoTooltip]! Вот ты где!» Внезапный окрик заставляет [host.GetHerHis] подскочить.\n\n"
  hunt.4013.participant: "Это меня догоняют [hunt_participant.GetFirstName] и остальной отряд. "
@@ -786,17 +726,16 @@
  hunt.4013.b: "Мне захотелось... изучить местность."
  hunt.4013.c: "Дураки! Еще бы чуть-чуть..."
  hunt.4013.d: "Я не хочу тратить время на эти глупости."
-  
  hunt.4014.t: "Утомительная прогулка"
  hunt.4014.desc: "Мы скачем по зарослям, кругом [activity.GetCurrentPhase.GetLocation.Custom('GetProvinceFoliageDesc')|l], а впереди [activity.Custom('GetAnimalType')|l] — вымотанная дичь, за которой мы гонялись уже много часов!\n\n"
  hunt.4014.fall: "Сбоку от меня вдруг спотыкается конь, и его [Select_CString(sighting_character.IsFemale, 'наездница', 'наездник' )], [hunt_participant.GetTitledFirstName], с криком летит на землю.\n\n"
- hunt.4014.branch: "[hunt_participant.GetTitledFirstName] оборачивается, чтобы что-то мне крикнуть, и не замечает, что впереди растет [ROOT.Char.GetCurrentLocation.Custom('GetRandomRegionalWood')|l] и одна из веток склонилась очень низко!\n\n"
+ hunt.4014.branch: "[hunt_participant.GetTitledFirstName] оборачивается, чтобы что-то мне крикнуть, и не замечает, что впереди заросли [ROOT.Char.GetCurrentLocation.Custom('GetRandomRegionalWood')|l] и одна из веток склонилась очень низко!\n\n"
  hunt.4014.cry: "Я невольно вскрикиваю: «[hunt_participant.GetFirstNameNoTooltip]!»\n\n"
  hunt.4014.dead_care: "Я быстро спешиваюсь и бегу к [Select_CString(sighting_character.IsFemale, 'моей неудачливой подруге', 'моему неудачливому товарищу' )] по охоте, но быстро вижу, что мои худшие страхи подтвердились..."
  hunt.4014.dead: "[Select_CString(hunt_participant.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', hunt_participant)] лежит без движения в неестественной позе, но выражение на [hunt_participant.GetHerHis] его лице удивительно спокойно."
  hunt.4014.wounded: "[hunt_participant.GetSheHe|U] корчится от боли, но жить вроде бы будет."
  hunt.4014.fall_host: "Конь подо мной странно напрягается, и вот я уже кувырком лечу по воздуху навстречу земле."
- hunt.4014.branch_host: "Я поворачиваюсь, чтобы крикнуть что-то моему спутнику, и вижу, что [hunt_participant.GetFirstName], встревоженно смотрит вперед. Я слишком поздно замечаю, что впереди растет [ROOT.Char.GetCurrentLocation.Custom('GetRandomRegionalWood')|l] и одна из веток дерева находится прямо на уровне моих глаз."
+ hunt.4014.branch_host: "Я поворачиваюсь, чтобы крикнуть что-то моему спутнику, и вижу, что [hunt_participant.GetFirstName], встревоженно смотрит вперед. Я слишком поздно замечаю, что впереди заросли [ROOT.Char.GetCurrentLocation.Custom('GetRandomRegionalWood')|l] и одна из веток дерева находится прямо на уровне моих глаз."
  hunt.4014.dead_host: "Удара о землю я не чувствую. Время словно останавливается. Небо перед глазами темнеет, я вижу на его фоне лишь неясные силуэты. Их крики доносятся до меня как сквозь туман."
  hunt.4014.wounded_host: "\n\nЯ прихожу в себя. Вокруг [activity.GetCurrentPhase.GetLocation.Custom('GetProvinceGroundDesc')]. Я лежу [Select_CString(ROOT.Char.IsFemale, 'распластанная', 'распластанный' )] на земле, и всё тело мое пульсирует от боли."
  hunt.4014.dead_host_courtier: "Я вижу, как [hunt_participant.GetTitledFirstName] что-то беззвучно мне говорит, и вспоминаю про коней..."
@@ -820,7 +759,6 @@
  hunt.4014.g.flavor: "#EMP Мне надо прилечь...#!"
  hunt.4014.h.physician: "#weak [physician.GetFirstNameNoTooltip]... П-принеси!..#!"
  hunt.4014.h: "#weak [activity.Custom('GetAnimalType')|U]!#!"
-  
  hunt.4015.t: "Любовники"
  hunt.4015.desc: "Вокруг простирается [host.GetCurrentLocation.Custom('GetTerrainType')|l]. Я медленно, но верно догоняю добычу: [activity.Custom('GetAnimalType')|l] мчится изо всех сил, но [activity.Custom('GetAnimalAdjective')|l] круп животного уже совсем близко.\n\nИ вдруг зверь чего-то пугается и [activity.Custom('GetAnimalChargePresent')] прочь в другом направлении. Что же его так напугало? Я осторожно приближаюсь и с изумлением обнаруживаю, что это [lover_participant.GetTitledFirstName] и [second_lover_participant.GetTitledFirstName] сплелись на земле в страстных объятиях."
  hunt.4015.a: "Тихонько отойду... Ничего не было."
@@ -832,7 +770,6 @@
  hunt.4015.d: "«[second_lover_participant.GetTitledFirstNameNoTooltip], как же так?!»"
  hunt.4015.d_2: "«[lover_participant.GetTitledFirstNameNoTooltip], как же так?!»"
  hunt.4015.e: "«Вставай! Зверь где-то здесь!»"
-  
  hunt.4016.t: "Трофей"
  hunt.4016.desc: "[activity.Custom('GetAnimalType')|U] бегает от меня уже, наверное, целый день, но загнать добычу у меня все не получается...\n\nВсе ждут, что я вернусь с триумфом, с трофеем в руках, но если так пойдет и дальше, то я добуду только позор."
  hunt.4016.a: "Возможно, [activity.Custom('GetAnimalType')|l] найдется на ближайшем рынке..."
@@ -840,11 +777,9 @@
  hunt.4016.b.failure: "Обман раскрыт"
  hunt.4016.b.tt: "[activity.GetName|U] завершится успешно — в некотором смысле"
  hunt.4016.c: "Я не паду так низко, лучше вернуться с пустыми руками!"
-  
  hunt.4017.desc: "Я оставляю свиту позади и устремляюсь в [host.GetCurrentLocation.Custom('GetTerrainTypePlural')|l]. [activity.Custom('GetLegendaryColor')] зверь [activity.Custom('GetAnimalType')|l] давно не дает мне покоя.\n\nВнезапно я словно оказываюсь под водой — все звуки затихают, свет становится призрачным. Что же это?\n\nЗверь стоит предо мной! [host.GetCurrentLocation.Custom('GetTerrainType')] вокруг него безмолвствует, а взгляд животного словно устремлен мне прямо в #EMP душу#!."
  hunt.4017.a: "Вот он, желанный миг!"
  hunt.4017.a.tt: "#EMP Зверь даже не пытается бежать...#!"
-  
  hunt.4018.desc: "Внезапно [host.GetCurrentLocation.Custom('GetTerrainType')|l] словно застывает, все звуки растворяются. Я поворачиваюсь в седле и замираю. Вот [activity.Custom('GetLegendaryColor')|l] зверь, [activity.Custom('GetAnimalType')|l], уже передо мной.\n\nЯ хочу закричать, но не успеваю издать и звука, как добыча исчезает, словно призрак... Вокруг снова лишь [host.GetCurrentLocation.Custom('GetProvinceFoliageDesc')|l] и шум природы."
  hunt.4018.a: "Прочесать всё! #EMP [activity.Custom('GetAnimalType')|U] не уйдет!#!"
  hunt.4018.a.tt: "#EMP Зверь не мог далеко уйти! Он где-то здесь...#!"
@@ -852,14 +787,12 @@
  hunt.4018.a.success: "Вы нашли зверя: это [activity.Custom('GetAnimalType')|l], у животного [activity.Custom('GetLegendaryColor')|l] окрас"
  hunt.4018.a.animal: "Вы нашли другое животное"
  hunt.4018.a.failure: "[activity.Custom('GetLegendaryColor')|U] зверь сбежал"
-  
  hunt.4019.courtier: "«[ROOT.Char.GetLadyLord|U]!» — громко шепчет мне [Select_CString(hunt_participant.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', hunt_participant)] [hunt_participant.GetFirstName] и показывает рукой туда, где раскинулись [host.GetCurrentLocation.Custom('GetTerrainTypePlural')]."
  hunt.4019.fallback: "«[ROOT.Char.GetLadyLord|U]!» — громко шепчет мне егерь и показывает рукой туда, где лежит [host.GetCurrentLocation.Custom('GetTerrainType')]."
  hunt.4019.desc: "\n\n«Вон там! Видите, [activity.Custom('GetAnimalType')|l]?? Вы же этого зверя ищете?»\n\nВпереди, чуть поодаль, стоит [activity.Custom('GetAnimalType')|l] самого обычного вида. Мех животного совсем не [activity.Custom('GetLegendaryColor')]."
  hunt.4019.a: "...Да, метко подмечено."
  hunt.4019.a.tt: "Сойдет... #EMP пока что#!."
  hunt.4019.b: "Это, по-твоему, #EMP [activity.Custom('GetLegendaryColor')] окрас?!#!"
-  
  hunt.5001.t: "Дикие цветы"
  hunt.5001.desc: "Отличный день для охоты и отличный день для прогулки. Я глубоко вдыхаю свежий воздух диких мест "
  hunt.5001.desc.witch: "и вдруг замечаю дар матери-природы."
@@ -872,7 +805,6 @@
  hunt.5001.d: "Ладно цветы — гляди, какие тут травы!"
  hunt.5001.d.poisonous: "#EMP [ROOT.Char.GetFaith.DeathDeityName] шлет дар...#!"
  hunt.5001.d.medicinal: "#EMP [ROOT.Char.GetFaith.HealthGodName] шлет дар...#!"
-  
  hunt.5002.opening_position: "[Select_CString(hunt_participant.IsFemale, 'Моя', 'Мой' )] [hunt_participant.GetHeldCourtPositionsString] [hunt_participant.GetFirstName] [Select_CString(hunt_participant.IsFemale, 'слезла', 'слез' )] с лошади и [Select_CString(hunt_participant.IsFemale, 'присела', 'присел' )] на [hunt_participant.GetCurrentLocation.Custom('GetProvinceGroundDesc')], внимательно рассматривая [host.GetCurrentLocation.Custom('get_region_flower_type')]."
  hunt.5002.opening: "[Select_CString(hunt_participant.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', hunt_participant)] [hunt_participant.GetFirstName] сидит на корточках и, радостно что-то напевая, собирает [host.GetCurrentLocation.Custom('get_region_flower_type_plural')]."
  hunt.5002.second_position: "Рядом с [Select_CString(hunt_participant.IsFemale, 'ней', 'ним' )] сидит [Select_CString(hunt_participant_2.IsFemale, 'моя', 'мой' )] [hunt_participant_2.GetHeldCourtPositionsString] [hunt_participant_2.GetFirstName] и вдохновенно рассказывает что-то, показывая пальцем на лепестки."
@@ -904,8 +836,8 @@
  hunt.5002.cp_present_flavor: "#EMP [hunt_participant.GetFirstNameNoTooltip] [Select_CString(hunt_participant.IsFemale, 'нашла', 'нашел' )] для тебя работу, лекарь!#!"
  hunt.5002.cp_elsewhere_flavor: "#EMP Ты ведь не против остаться и пособирать трав, правда?#!"
  hunt.5003.opening: "Мне редко удается отдохнуть, и сейчас я наслаждаюсь тишиной, любуясь природой."
- hunt.5003.desc_woo:0 "I'm suddenly startled by my [ROOT.Char.Custom2('RelationToMeShort', hunt_participant)], [hunt_participant.GetFirstName], who laughs: "Меня внезапно пугает мой [ROOT.Char.Custom2('RelationToMeShort', hunt_participant)], [hunt_participant.GetFirstName], который смеется: «Подарок для моего [ROOT.Char.GetTitleAsNameNoTooltip]».\n\n" #Машинный перевод 28.10.23
- hunt.5003.desc:1 "As my stress melts away, I hear my [ROOT.Char.Custom2('RelationToMeShort', hunt_participant)], [hunt_participant.GetFirstName], softly laugh: "Когда мой стресс утихает, я слышу, как мои [ROOT.Char.Custom2('RelationToMeShort', hunt_participant)], [hunt_participant.GetFirstName] тихо смеются: «#EMP Моя любовь.#!"\n\n" #Машинный перевод 28.10.23
+ hunt.5003.desc_woo: "Вдруг мой покой нарушает чей-то смех: это [Select_CString(hunt_participant.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', hunt_participant)] [hunt_participant.GetFirstName]. «У меня для тебя подарок, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetTitleAsNameNoTooltip|l]».\n\n"
+ hunt.5003.desc: "В тот момент, когда мои тревоги окончательно развеиваются, я слышу знакомый мягкий смех. «#EMP Любовь моя#!», — мурлычет [Select_CString(hunt_participant.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', hunt_participant)] [hunt_participant.GetFirstName].\n\n"
  hunt.5003.desc.flower: "[hunt_participant.GetSheHe|U] кладет что-то мне за ухо. «С твоей красотой сравнится разве что [newly_created_artifact.Custom('ArtifactVariableFlowerSpecies')]»."
  hunt.5003.desc.animal: "[hunt_participant.GetSheHe|U] показывает мне окровавленную тушку зайца. «Я посвящаю эту добычу тебе. Прими ее в знак моей клятвы всегда сражаться на твоей стороне»."
  hunt.5003.ending: "\n\n[hunt_participant.GetFirstNameNoTooltip] улыбается, любуясь своей работой."
@@ -918,13 +850,11 @@
  hunt.5003.c: "Мне это не нужно."
  hunt.5003.d: "Иди сюда, любовь моя."
  hunt.5003.d.woo: "Иди сюда, мы совсем одни..."
-  
  hunt.5010.t: "[activity.Custom('GetAnimalFemale')|U] с детенышем"
  hunt.5010.desc: "Вокруг нас [ROOT.Char.GetCurrentLocation.Custom('GetProvinceFoliageDesc')], а мы идем по следу. Наша цель — [activity.Custom('GetAnimalType')|l]. Вдруг наш путь заканчивается тупиком: мы оказываемся на поляне перед небольшим утесом.\n\nОхотники из нашего отряда стонут от досады и разочарования: перед нами напуганная олениха с олененком. Должно быть, в пылу погони мы напали на их след...\n\nУбивать их нет смысла: нужно вернуться обратно, пока [activity.Custom('GetAnimalMale')|l] не ушел слишком далеко."
  hunt.5010.a: "Любая добыча хороша. Прикончим зверя."
  hunt.5010.b: "Возьмем детеныша и приручим его!"
  hunt.5010.c: "[activity.Custom('GetAnimalMale')] где-то здесь! Найдите его!"
-  
  hunt.5050.t: "Сорванные с неба"
  hunt.5050.desc: "[activity.Custom('GetRaptorType')|U] у меня немедленно взлетает и сразу направляется к цели — это [activity.Custom('GetAnimalType')] окраса «[activity.Custom('GetAnimalColor')]». Жертву окружает [host.GetCurrentLocation.Custom('GetProvinceFoliageDesc')].\n\nВдруг откуда-то с неба доносится крик; #EMP наши#! птицы так громко и резко не кричат.\n\nКак только [activity.Custom('GetRaptorType')], что принадлежит мне, ныряет вниз, на нее саму обрушивается огромный [host.Custom('GetRegionalEagleType')]. Он хватает мою птицу, и она превращается в комок перьев, которые разлетаются во все стороны!"
  hunt.5050.a: "Вот тварь! За ней!"
@@ -934,13 +864,11 @@
  hunt.5050.c: "О, это же одно из ее перьев."
  hunt.5050.c.tt: "Вы получите [Concept( 'artifact', 'артефакт' )|E] в виде пера"
  hunt.5050.d: "Природа жестока..."
-  
  hunt.5060.t: "Под моим крылышком"
- hunt.5060.desc: "Мой отряд пробирается через рощу; мы ищем следы, которые могли бы указывать на то, что рядом [activity.Custom('GetAnimalType')|l]. Откуда-то сверху доносится щебетание. Когда мы подходим ближе, оно усиливается.\n\nЭто птенец, который зовет свою мать!\n\n[ROOT.Char.GetCurrentLocation.Custom('GetRandomRegionalWood')|U] не является препятствием для ловкого охотника: он залезает на дерево и возвращается с добычей — птенцом хищной птицы. Какая удача! Только из птенцов, пойманных в дикой природе, можно сделать настоящих охотничьих птиц."
+ hunt.5060.desc: "Мой отряд пробирается через рощу; мы ищем следы, которые могли бы указывать на то, что рядом [activity.Custom('GetAnimalType')|l]. Откуда-то сверху доносится щебетание. Когда мы подходим ближе, оно усиливается.\n\nЭто птенец, который зовет свою мать!\n\nЗаросли [ROOT.Char.GetCurrentLocation.Custom('GetRandomRegionalWood')] не является препятствием для ловкого охотника: он залезает на дерево и возвращается с добычей — птенцом хищной птицы. Какая удача! Только из птенцов, пойманных в дикой природе, можно сделать настоящих охотничьих птиц."
  hunt.5060.a: "Пусть его отнесут в мою соколятню."
  hunt.5060.b: "Вот тебе подарок, [hunt_participant.GetFirstNameNoTooltip]!"
  hunt.5060.c: "Верните птенца обратно."
-  
  hunt.7001.t: "Встреча на болоте"
  hunt.7001.desc: "[host.GetCurrentLocation.GetNameNoTooltip] всё неприветливее, чем дальше мы забираемся: земля становится всё более влажной, а воздух — всё тяжелее.\n\nВнезапно из буйной растительности выступает настоящий великан, завернутый в какое-то грязное тряпье.\n\n«Ну-ка, объясните, — громогласно гудит он, — что это вы забыли #EMP в моих#! болотах?»"
  hunt.7001.a: "#EMP Твои#! болота? Ну проводи нас."
@@ -949,7 +877,6 @@
  hunt.7001.b_failure: "Логика не убеждает безумца."
  hunt.7001.c: "Наконец-то! Достойная дичь!"
  hunt.7001.d: "Прочь с дороги, грязная деревенщина!"
-  
  hunt.7011.t: "В ловушке"
  hunt.7011.desc: "[hunt_participant.GetTitledFirstName] и я пробираемся пешком по сложной местности, когда я едва не подскакиваю от внезапного вопля.\n\n"
  hunt.7011.snare: "Я оборачиваюсь и обнаруживаю, что [Select_CString(hunt_participant.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', hunt_participant)] лежит на земле, а [Select_CString(hunt_participant.IsFemale, 'ее', 'его' )] щиколотку крепко держит силок."
@@ -996,7 +923,6 @@
  hunt_boulder_impressed_title: "Отличный прыжок"
  hunt.7020.e: "Очень хорошо, давай продолжим."
  hunt.7020.e.flavor: "#EMP Глупо было бы поступить иначе...#!"
-  
  hunt.7100.t: "Короткий разговор"
  hunt.7100.opening: "Ожидая, пока собаки возьмут след, наш отряд устраивает привал в тени. [woo_target.GetFirstName] [Select_CString(woo_target.IsFemale, 'расположилась', 'расположился' )] рядом со мной. Похоже, это отличный повод завести беседу."
  hunt.7100.married: "Я решаю действовать, пока [woo_target.GetHerHis] [woo_target.GetPrimarySpouse.GetWifeHusband] [woo_target.GetPrimarySpouse.GetTitledFirstName] смотрит в другую сторону."
@@ -1026,7 +952,6 @@
  hunt.7101.steward: "$hunt.7101.reply_steward$И правда, в ухоженной природе много красоты."
  hunt.7101.fallback: "Мне трудно найти уместный ответ."
  hunt.7101.a: "Не могу не признать, [woo_actor.GetSheHe|l] обладает определенным шармом..."
-  
  hunt.7102.hunter: "$hunt.7101.reply_hunter$\n\nЯ не могу подавить чувство неловкости..."
  hunt.7102.falconer: "$hunt.7101.reply_falconer$\n\nКакая гордыня..."
  hunt.7102.pity: "$hunt.7101.reply_pity$\n\nНаучитесь принимать похвалу!"
@@ -1052,7 +977,6 @@
  hunt.7104.fallback: "$hunt.7104.reply$, поскольку [woo_target.GetHerHim|l] не терпится покинуть мое общество."
  hunt.7104.desc: "\n\nОставшись в одиночестве после [woo_target.GetHerHis|l] ухода, я невольно чувствую себя [Select_CString(ROOT.Char.IsFemale, 'дурой', 'глупцом' )], раз [Select_CString(ROOT.Char.IsFemale, 'допустила', 'допустил' )] подобную ошибку..."
  hunt.7104.a: "О чем я только [Select_CString(ROOT.Char.IsFemale, 'думала', 'думал' )]?.."
-  
  hunt.7200.t: "Настоящая жертва"
  hunt.7200.desc: "Мы покидаем лагерь и углубляемся в [host.GetCurrentLocation.Custom('GetTerrainTypePlural')]. [ROOT.Char.Custom2('DescriptorNegative', murder_target)][Select_CString(murder_victim.IsFemale, 'ая', 'ый' )] [murder_target.GetTitledFirstName] идет впереди, совершенно не замечая, как я пристально за [Select_CString(murder_target.IsFemale, 'ней', 'ним' )] наблюдаю.\n\n"
  hunt.7200.agent: "Увы, [murder_schemer.GetTitledFirstName] далеко отсюда, но, похоже, это та самая возможность, которую мы так долго ждали.\n\n"
@@ -1064,36 +988,32 @@
  hunt.7200.c: "Пусть это деликатное дело возьмет в свои руки [accomplice_2.GetFirstNameNoTooltip]."
  hunt.7200.d: "Надо проявить терпение."
  hunt_murder_accomplice_tt: "[THIS.Char.GetShortUIName|U] попытается убить персонажа [murder_target.GetShortUIName]"
-  
  hunt.7210.opening: "Мчась галопом за зовом охотничьих рогов и лаем собак, [murder_target.GetTitledFirstName] наконец-то отрывается от остального отряда.\n\n"
  hunt.7210.desc: "[murder_target.GetSheHe|U] останавливается на мгновение, размышляя, куда направиться дальше."
  hunt.7210.accomplice: "Я оглядываюсь — [accomplice.GetFirstName] рядом. [accomplice.GetSheHe|U] с мрачной решимостью кивает мне, подтверждая, что [Select_CString(accomplice.IsFemale, 'готова', 'готов' )] действовать сразу вслед за мной."
  hunt.7210.a: "Значит, будет трагический несчастный случай."
  hunt.7210.a.tt: "#EMP Получай!#!"
  hunt.7210.b: "Нет, надо выждать..."
-  
  hunt.7211.desc: "Я действую как можно быстрее, врезаясь в жертву сбоку — так, чтобы [murder_target.GetTitledFirstName] [Select_CString(murder_target.IsFemale, 'упала', 'упал' )] с лошади."
  hunt.7211.agent: "[abduct_schemer.GetFirstName] не будет [Select_CString(abduct_schemer.IsFemale, 'рада', 'рад' )] неудаче..."
  hunt.7211.accomplice: "[accomplice_2.GetFirstName] и [accomplice.GetFirstName] быстро приближаются."
  hunt.7211.accomplice_2: "[accomplice.GetFirstName] сразу присоединяется к вам с другой стороны."
  hunt.7211.success: "\n\n«[ROOT.Char.GetTitledFirstNameNoTooltip]?! Ай! Что ты...» — [murder_target.GetFirstNameNoTooltip] падает с коня оземь. Я быстро спешиваюсь.\n\nВсе происходит быстрее, чем [murder_target.GetSheHe] успевает прийти в себя. Тому, кто это обнаружит, трудно будет определить причину случившегося."
  hunt.7211.failure: "\n\n«[ROOT.Char.GetTitledFirstNameNoTooltip]?! Как это понимать?!» — [murder_target.GetFirstNameNoTooltip] грузно падает с коня, но вскоре встает на ноги. Затем, пока я пытаюсь обуздать своего скакуна, [murder_target.GetSheHe] стремглав несется к людям, крича что есть мочи и испуганно оглядываясь. Я [murder_target.GetHerHim] уже не..."
-  
  hunt.7212.desc: "Я останавливаюсь на минуту, чтобы поправить снаряжение. Внезапно тишину прерывает хруст ветки. Я понимаю голову и вижу, что ко мне быстро приближается [abduct_actor.GetTitledFirstName]."
  hunt.7212.accomplice_2: "Вслед идут [accomplice_2.GetFirstName] и [accomplice.GetFirstName]."
  hunt.7212.accomplice: "Вслед идет [accomplice.GetFirstName]."
- hunt.7212.success: "\n\nЯ слишком поздно вижу решимость в глазах [murder_actor.GetFirstNamePossessiveNoTooltip], не сумев увернуться от подката [murder_actor.GetHerHis], и меня с глухим стуком отправляют в [ROOT.Char.GetCurrentLocation.Custom('GetProvinceGroundDesc')].\n\nКогда я прихожу в себя и поворачиваюсь, надо мной стоит [murder_actor.GetSheHe] , держа большой камень над головой [murder_actor.GetHerHis]! «До свидания, [ROOT.Char.GetFirstNameNotooltip]»." #Машинный перевод 28.10.23
+ hunt.7212.success: "\n\n[murder_actor.GetFirstNameNoTooltip] смотрит на меня, и в [murder_actor.GetHerHis] глазах я замечаю решимость. Бежать уже поздно. Я с грохотом падаю оземь.\n\nОчнувшись, я вижу, что [murder_actor.GetSheHe] стоит надо мной, подняв большой камень! «Прощай, [ROOT.Char.GetFirstNameNoTooltip]»."
  hunt.7212.failure: "\n\nЗдесь явно что-то не так.[murder_actor.GetFirstNameNoTooltip] вдруг бросается на меня, и я неловко падаю на землю, но успеваю вскочить на ноги, [murder_actor.GetSheHe] же теряет равновесие.\n\nЯ вихрем мчусь к людям и что есть сил зову на помощь. Остальные должны быть рядом!"
  hunt.7212.a: "«Что?.. Н...»"
  hunt.7212.b: "Надо бежать!"
-  
  hunt.7300.t: "Короткий разговор"
  hunt.7300.desc: "Ожидая, пока гончие возьмут след, компания отдыхает в тенистой роще. [befriend_target.GetFirstName] стоит неподалеку — это мой шанс впечатлить [befriend_target.GetHerHim].\n\n«[befriend_target.GetTitledFirstNameNoTooltip]! Как твои дела? Нечасто нам выпадает шанс поговорить», — начинаю я по-свойски.\n\n[befriend_actor.GetSheHe|U] явно [Select_CString(befriend_actor.IsFemale, 'удивлена', 'удивлен' )], но все же не оскорбляется на мое предложение."
- hunt.7301.reply_hunter: "\"$hunt.7300.a$\"\n\n"
- hunt.7301.reply_falconer: "\"$hunt.7300.b$\"\n\n"
- hunt.7301.reply_pity: "\"$hunt.7300.c$\"\n\n"
- hunt.7301.reply_wastrel: "\"$hunt.7300.d$\"\n\n"
- hunt.7301.reply_steward: "\"$hunt.7300.e$\"\n\n"
+ hunt.7301.reply_hunter: "\"$hunt.7100.a$\"\n\n"
+ hunt.7301.reply_falconer: "\"$hunt.7100.b$\"\n\n"
+ hunt.7301.reply_pity: "\"$hunt.7100.c$\"\n\n"
+ hunt.7301.reply_wastrel: "\"$hunt.7100.d$\"\n\n"
+ hunt.7301.reply_steward: "\"$hunt.7100.e$\"\n\n"
  hunt.7301.opening: "[befriend_actor.GetTitledFirstName] подходит, пока компания дожидается вестей от выжлятников.\n\n[befriend_actor.GetSheHe|U] тепло улыбается и поднимает следующий вопрос:"
  hunt.7301.hunter: "$hunt.7301.reply_hunter$С таким заявлением я спорить не стану."
  hunt.7301.falconer: "$hunt.7301.reply_falconer$Прямо к сути. Я точно знаю, что [befriend_actor.GetSheHe] имеет в виду."
@@ -1102,33 +1022,31 @@
  hunt.7301.steward: "$hunt.7301.reply_steward$Природа неизменно меня радует."
  hunt.7301.fallback: "Не знаю точно, что и сказать."
  hunt.7301.a: "Возможно, у нас больше общего, чем мне казалось."
-  
  hunt.7302.hunter: "$hunt.7301.reply_hunter$\n\nНикак не могу согласиться..."
  hunt.7302.falconer: "$hunt.7301.reply_falconer$\n\nПростое отвлечение, ничего более..."
  hunt.7302.pity: "$hunt.7301.reply_pity$\n\nЭто слабость. Мир жесток."
  hunt.7302.wastrel: "$hunt.7301.reply_wastrel$\n\nВсем нам бывает нужно отвлечься."
  hunt.7302.steward: "$hunt.7301.reply_steward$\n\nКак это скучно..."
  hunt.7302.fallback: "[befriend_actor.GetSheHe|U] улыбается, очевидно, ожидая ответной любезности."
- hunt.7302.a: "Скажи, а что это там?"
- hunt.7303.reply: "[befriend_target.GetTitledFirstName] и я, кажется, обладаем многими общими чертами."
- hunt.7303.hunter: "$hunt.7303.reply$, увлеченно и в мельчайших подробностях описывая тетивы и ловушки."
- hunt.7303.falconer: "$hunt.7303.reply$, едва сдерживая свою страсть к соколиной охоте."
+ hunt.7302.a: "Что это там такое?"
+ hunt.7303.reply: "[befriend_target.GetTitledFirstName], кажется, во многом [Select_CString(befriend_target.IsFemale, 'похожа', 'похож' )] на меня."
+ hunt.7303.hunter: "$hunt.7303.reply$. [Select_CString(befriend_target.IsFemale, 'Она', 'Он' )] увлеченно и в мельчайших подробностях обсуждает тетивы и ловушки."
+ hunt.7303.falconer: "$hunt.7303.reply$. [Select_CString(befriend_target.IsFemale, 'Она', 'Он' )] едва сдерживает свою страсть к соколиной охоте."
  hunt.7303.pity: "$hunt.7303.reply$, ."
- hunt.7303.wastrel: "$hunt.7303.reply$, жалуясь на необходимость развлекать двор всякой чепухой."
- hunt.7303.steward: "$hunt.7303.reply$, показывая готовность подробно рассказать об управлениях охотничьими угодьями."
- hunt.7303.fallback: "$hunt.7303.reply$, расслабившись в моей компании."
- hunt.7303.desc: "\n\nКогда мы продолжаем путь, нас с трудом можно отделить друг от друга. Не зря мне казалось, что правильными словами можно завоевать [befriend_target.GetHerHim|l] расположение!"
- hunt.7303.a: "Кажется, мне удалось завоевать [befriend_target.GetHerHim|l] расположение!"
- hunt.7304.reply: "Похоже, что [befriend_target.GetTitledFirstName] совершенно не [Select_CString(befriend_target.IsFemale, 'впечатлена', 'впечатлен' )] моими рассуждениями."
+ hunt.7303.wastrel: "$hunt.7303.reply$. [Select_CString(befriend_target.IsFemale, 'Она', 'Он' )] жалуется на необходимость развлекать двор всякой чепухой."
+ hunt.7303.steward: "$hunt.7303.reply$. [Select_CString(befriend_target.IsFemale, 'Она', 'Он' )] жаждет поделиться своими взглядами на управление охотничьими угодьями."
+ hunt.7303.fallback: "$hunt.7303.reply$. [Select_CString(befriend_target.IsFemale, 'Она', 'Он' )] расслабляется в моей компании."
+ hunt.7303.desc: "\n\nМы становимся неразлучны. Не зря мне казалось, что правильными словами можно завоевать [Select_CString(befriend_target.IsFemale, 'ее', 'его' )] расположение!"
+ hunt.7303.a: "Кажется, мне удалось завоевать [Select_CString(befriend_target.IsFemale, 'ее', 'его' )] расположение!"
+ hunt.7304.reply: "Похоже, что [befriend_target.GetTitledFirstName] совершенно не [Select_CString(befriend_target.IsFemale, 'впечатлена', 'впечатлен' )] моими рассуждениями"
  hunt.7304.hunter: "$hunt.7304.reply$, поскольку [befriend_target.GetSheHe] просто вежливо улыбается, прокашливаясь и прислушиваясь к звукам природы."
  hunt.7304.falconer: "$hunt.7304.reply$, поскольку [befriend_target.GetSheHe] ограничивается кивком и отправляется дальше."
  hunt.7304.pity: "$hunt.7304.reply$, поскольку [befriend_target.GetSheHe] непонимающе глядит на меня и почесывает в затылке."
- hunt.7304.wastrel: "$hunt.7304.reply$, поскольку мои слова, очевидно, ужасают [befriend_target.GetHerHim]."
+ hunt.7304.wastrel: "$hunt.7304.reply$, поскольку мои слова, очевидно, ужасают [Select_CString(befriend_target.IsFemale, 'ее', 'его' )]."
  hunt.7304.steward: "$hunt.7304.reply$, поскольку [befriend_target.GetSheHe] быстро теряет интерес, явно не желая вести досужие разговоры."
  hunt.7304.fallback: "$hunt.7304.reply$, поскольку [befriend_target.GetSheHe] ничего не отвечает."
  hunt.7304.desc: "\n\n[befriend_target.GetSheHe|U] уходит беседовать с другими. Я же чувствую себя крайне глупо."
  hunt.7304.a: "Отличная работа, [ROOT.Char.GetFirstNameNoTooltip]."
-  
  hunt.7400.t: "[ROOT.Char.GetCurrentLocation.Custom('GetTerrainLandPlural')|U] возможностей"
  hunt.7400.desc: "Мы выходим из лагеря, построившись в колонну. Передо мной [ROOT.Char.Custom2('DescriptorNegative', abduct_target)] [abduct_target.GetTitledFirstName], и я внимательно за н[abduct_target.GetHersHis] наблюдаю. [abduct_target.GetSheHe] ничего не подозревает о моих планах и полностью [Select_CString(abduct_target.IsFemale, 'увлечена', 'увлечен' )] охотой.\n\n"
  hunt.7400.agent: "[abduct_schemer.GetTitledFirstName] сейчас не с нами. Вероятно, чтобы мы достигли цели, мне надо взять дело в свои руки.\n\n"
@@ -1140,7 +1058,6 @@
  hunt.7400.c: "Пусть все сделает [accomplice_2.GetFirstNameNoTooltip], [accomplice_2.GetHerHis] можно доверять."
  hunt.7400.d: "Сейчас неподходящий момент."
  hunt_abduct_accomplice_tt: "[THIS.Char.GetShortUIName|U] попытается похитить персонажа [abduct_target.GetShortUIName]"
-  
  hunt.7410.desc: "Наконец-то [abduct_target.GetTitledFirstName] и я остались одни! Остается лишь привести план в исполнение!\n\n"
  hunt.7410.accomplice_2: "[accomplice.GetTitledFirstName] и [accomplice_2.GetTitledFirstName] следят за мной, ждут, пока я сделаю первый шаг..."
  hunt.7410.accomplice: "[accomplice.GetTitledFirstName] стоит наготове и с беспокойством следит за мной..."
@@ -1149,7 +1066,6 @@
  hunt.7410.a.success: "[abduct_target.GetFirstNameNoTooltip] [Select_CString(abduct_target.IsFemale, 'похищена', 'похищен' )] вами"
  hunt.7410.a.failure: "[abduct_target.GetFirstNameNoTooltip] сбегает"
  hunt.7410.b: "#EMP Ох...#! Я не могу это сделать..."
-  
  hunt.7411.desc: "Передо мной [abduct_target.GetTitledFirstName]. Я медленно приближаюсь к н[abduct_target.GetHerHim], тщательно выбирая момент для нападения."
  hunt.7411.agent: "$hunt.7211.agent$"
  hunt.7411.accomplice_2: "Одновременно со мной с двух сторон приближаются [accomplice_2.GetFirstName] и [accomplice.GetFirstName]."
@@ -1158,11 +1074,9 @@
  hunt.7411.failure: "Мне почти удается застать [abduct_target.GetHerHis] врасплох, но [abduct_target.GetSheHe] крепче, чем кажется! Увидев в моей руке веревку, [abduct_target.GetSheHe] быстро понимает, что происходит, и быстро убегает, зовя на помощь."
  hunt.7411.a: "[Select_CString(abduct_target.IsFemale, 'Попалась, гадина', 'Попался, жалкий червь' )]!"
  hunt.7411.b: "Ах ты скользкая дрянь!"
-  
  hunt.7412.success: "\n\nПрежде чем я успеваю что-либо спросить, [abduct_actor.GetFirstNameNoTooltip] изо всей силы толкает меня, сбивая наземь.\n\nЛежа без сил, я чувствую: мои руки связывают веревкой! Меня похищают?!"
  hunt.7412.failure: "\n\nЯ чувствую, что что-то не так. [abduct_actor.GetFirstNameNoTooltip] смотрит на меня с нездоровым оживлением и вдруг пытается меня толкнуть, но теряет равновесие и [Select_CString(abduct_actor.IsFemale, 'сама', 'сам' )] падает, выронив моток веревки!\n\nЯ стремглав убегаю, зовя на помощь, пока [abduct_actor.GetSheHe] лежит и стонет, силясь подняться."
  hunt.7412.a: "«[abduct_actor.GetFirstNameNoTooltip]! Что...»"
-  
  hunt.7800.t: "Словно из ниоткуда"
  hunt.7800.desc: "Я останавливаюсь, чтобы от души приложиться к бурдюку с водой и насладиться передышкой от жаркой погони. Закрепляя бурдюк на поясе, я вдруг слышу негромкий свист.\n\n"
  hunt.7800.tree: "Рядом со мной в землю внезапно вонзается стрела, издав громкий #EMP ТУК#!!"
@@ -1174,18 +1088,15 @@
  hunt.7800.b.failure: "Догадаться невозможно"
  hunt.7800.b.tt: "Вы вызываете стрелка на разговор"
  hunt.7800.c: "#EMP Убийцы!#! Быстро! Выводите меня отсюда!"
-  
  hunt.7801.t: "Словно из ниоткуда"
  hunt.7801.desc: "Тщательно изучив стрелу, я вижу, что ее оперение отличается от прочих. Незаметно осмотрев колчаны других охотников, я вскоре нахожу виновника...\n\nНет! Прошу тебя! [ROOT.Char.GetLadyLord]! Да, я [Select_CString(culprit.IsFemale, 'увлеклась, выстрелила', 'увлекся, выстрелил' )], куда не надо — но без злого умысла! Умоляю!"
  hunt.7801.a: "На #EMP этот раз#! я тебя прощаю."
  hunt.7801.b: "Что за бред. В кандалы [culprit.GetHerHis]. Мы уходим."
-  
  hunt.8001.t: "Прелестный образчик"
  hunt.8001.desc: "Мы возвращаемся из владения [host.GetCurrentLocation.GetName], и за нами тянется [activity.Custom('GetAnimalType')|l], что мы добыли во время охоты. Я не могу не восхищаться этим животным даже после его смерти. Какой великолепный экземпляр! Я легко представляю череп или шкуру этого животного на стенах моего двора! Но что же мне выбрать?"
  hunt.8001.a: "Его красивая шкура будет привлекать внимание."
  hunt.8001.b: "Повесьте на стену его голову, пусть гости видят его великолепие!"
  hunt.8001.c: "Сосредоточимся лучше на богатом пире, а не на трофеях!"
-  
  hunt.9001.t: "Дары природы"
  hunt.9001.opening_falconry_self: "Я собираю пару птиц, которых поймали наши [activity.Custom('GetRaptorPlural')],"
  hunt.9001.opening_falconry_master_of_hunt: "[hunt_participant.GetTitledFirstName], главный охотник, собирает пару птиц, которых поймали наши [activity.Custom('GetRaptorPlural')],"
@@ -1203,7 +1114,6 @@
  hunt.9001.opening_novice: "мы неуклюже пытаемся снять шкуру с туши, но в конце концов оставляем дело на свежевальщиков."
  hunt.9001.opening: "Я распоряжаюсь разделкой туши, награждая псов долей от добычи."
  hunt.9001.opening_falconry: "добыча и хорошее обучение наших ловчих птиц."
-  
  hunt.9001.credit_self: "Зверь не бог весть какой огромный, на зато я [Select_CString(ROOT.Char.IsFemale, 'добыла', 'добыл' )] его [Select_CString(ROOT.Char.IsFemale, 'сама', 'сам' )].\n\n"
  hunt.9001.credit_self_big: "Вот стою и поверить не могу, что [Select_CString(ROOT.Char.IsFemale, 'сама убила', 'сам убил' )] чудовище.\n\n"
  hunt.9001.credit_other: "[credit_taker.GetFirstName] весьма доволен тем, что [Select_CString(credit_taker.IsFemale, 'сама сразила', 'сам сразил' )] зверя.\n\n"
@@ -1252,7 +1162,6 @@
  hunt.9001.f: "[Select_CString(trophy_recipient.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', trophy_recipient)], [trophy_recipient.GetTitledFirstNameNoTooltip], оценит этот трофей."
  hunt.9001.f.present: "[trophy_recipient.GetTitledFirstNameNoTooltip], [Select_CString(ROOT.Char.IsFemale, 'моя добрая', 'мой добрый' )] [ROOT.Char.Custom2('RelationToMeShort', trophy_recipient)], теперь этот трофей твой!"
  hunt.9001.g: "Зверя [Select_CString(animal_slayer.IsFemale, 'убила', 'убил' )] [animal_slayer.GetTitledFirstName], он должен достаться [Select_CString(animal_slayer.IsFemale, 'ей', 'ему' )]."
-  
  hunt.9002.t: "С пустыми руками"
  hunt.9002.opening_master_of_hunt: "Главный охотник [hunt_participant.GetTitledFirstName] возвещает отряду разочарованных охотников, что пришло время собирать вымотанных собак и возвращаться домой."
  hunt.9002.opening_courtier: "[hunt_participant.GetTitledFirstName] возвещает отряду разочарованных охотников, что пришло время собирать вымотанных собак и возвращаться домой."
@@ -1271,7 +1180,6 @@
  hunt.0540.d: "Мне никто не нужен."
  friend_made_me_moh: "[TARGET_CHARACTER.GetShortUIName] теперь $master_of_hunt_court_position$. [Select_CString(CHARACTER.IsLocalPlayer, 'получаете', 'получает' )] вечную благодарность."
  friend_made_me_moh_corresponding: "[CHARACTER.GetShortUIName] теперь $master_of_hunt_court_position$. [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'Персонаж ' )][TARGET_CHARACTER.GetNamePossessiveOrMy|U][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' персонаж', '' )] получает вечную благодарность."
-  
  hunt.0550.t: "Разбивая лагерь"
  hunt.0550.host: "Мы ждем прибытия остальных гостей, и мои слуги уже начали подготовку к охоте. Лесники ежедневно прочесывают [activity.GetCurrentPhase.GetLocation.Custom('GetTerrainLandPlural')] в поисках следов дичи и разбили лагерь неподалеку от охотничьих угодий."
  hunt.0550.guest: "Мы ждем прибытия остальных гостей, и [host.GetTitledFirstName] приступает к подготовке, не теряя времени даром. [host.GetHerHis|U] лесники ежедневно прочесывают [activity.GetCurrentPhase.GetLocation.Custom('GetTerrainLandPlural')] в поисках следов дичи и разбили лагерь неподалеку от охотничьих угодий."
@@ -1279,10 +1187,9 @@
  hunt.0550.falconry: "Моя птица беспокоится, предвкушая скорую охоту..."
  hunt.0550.legendary: "Где-то там, затаившись, следит за нами [activity.Custom('GetLegendaryColor')] [activity.Custom('GetAnimalType')]..."
  hunt.0550.standard: "Снаряжение? Проверено. Конь? Проверен. Это не займет много времени..."
- hunt.0550.intent_arrived: "\n\n[ROOT.Char.GetIntentTarget.GetTitledFirstName] совершенно не подозревает про мой план — [ROOT.Char.GetInvolvedActivityIntent.GetName|l] [ROOT.Char.GetIntentTarget.GetHerHim]."
- hunt.0550.intent: "\n\n[ROOT.Char.GetIntentTarget.GetTitledFirstName] скоро прибудет, и мой план [ROOT.Char.GetInvolvedActivityIntent.GetName|l] [ROOT.Char.GetIntentTarget.GetHerHim] наконец-то исполнится."
+ hunt.0550.intent_arrived: "\n\n[ROOT.Char.GetIntentTarget.GetTitledFirstName] совершенно не подозревает, что у меня в отношении [Select_CString(ROOT.Char.GetIntentTarge.IsFemale, 'ее', 'его' )] план на [ROOT.Char.GetInvolvedActivityIntent.GetName|l]."
+ hunt.0550.intent: "\n\n[ROOT.Char.GetIntentTarget.GetTitledFirstName] скоро прибудет, и мой план на [ROOT.Char.GetInvolvedActivityIntent.GetName|l] наконец-то придет в исполнение."
  hunt.0550.a: "Уже скоро."
-  
  hunt_fish_impress_key_title: "$hunt.8000.t$"
  hunt_fish_impress_key: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'попытались', Select_CString(CHARACTER.IsFemale, 'попыталась', 'попытался' ))] впечатлить [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )], заставив свою хищную птицу ловить рыбу."
  hunt_fish_hands_key_title: "$hunt.8000.t$"

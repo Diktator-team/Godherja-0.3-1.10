@@ -104,12 +104,16 @@
  zealot_approves_of_religious_display: "Каждый [GetVassalStance( 'zealot' ).GetTextIcon]фанатичный [vassal|El] ([root_scope.MakeScope.ScriptValue('number_of_zealot_vassals')|V0])"
  zealot_disapproves_of_cynicism: "Каждый [GetVassalStance( 'zealot' ).GetTextIcon]фанатичный [vassal|El] ([root_scope.MakeScope.ScriptValue('number_of_zealot_vassals')|V0])"
  minority_disapproves_conversion: "Каждый [GetVassalStance( 'minority' ).GetTextIcon]миноритарный [vassal|El] [Select_CString(councillor_liege.IsLocalPlayer, '', 'персонажа ' )][councillor_liege.GetNamePossessiveOrMy][Select_CString(councillor_liege.IsLocalPlayer, 'его персонажа', '' )] ([councillor_liege.MakeScope.ScriptValue('number_of_minority_vassals')|V0]) снижает [opinion|El] о [Select_CString(councillor_liege.IsFemale, 'ней', 'нем' )] на #N 20#! на #V 10 лет#! #weak (не одобряет обращение)#!"
- minority_disapproves_conversion_tooltip: "\n$TAB$Каждый [GetVassalStance( 'minority' ).GetTextIcon]миноритарный [vassal|El] [Select_CString(councillor_liege.IsLocalPlayer, '', 'персонажа ' )][councillor_liege.GetNamePossessiveOrMy][Select_CString(councillor_liege.IsLocalPlayer, 'его персонажа', '' )] ([councillor_liege.MakeScope.ScriptValue('number_of_minority_vassals')|V0]) снижает [opinion|E] о [Select_CString(councillor_liege.IsFemale, 'ней', 'нем' )] на #N 20#! на #V 10 лет#! #weak (не одобряет обращение)#!"
+ minority_disapproves_conversion_tooltip: "\n$TAB$Каждый [GetVassalStance( 'minority' ).GetTextIcon]миноритарный [vassal|El] [Select_CString(councillor_liege.IsLocalPlayer, '', 'персонажа ' )][councillor_liege.GetNamePossessiveOrMy][Select_CString(councillor_liege.IsLocalPlayer, 'его персонажа', '' )] ([councillor_liege.MakeScope.ScriptValue('number_of_minority_vassals')|V0]) снижает [opinion|El] о [Select_CString(councillor_liege.IsFemale, 'ней', 'нем' )] на #N 20#! на #V 10 лет#! #weak (не одобряет обращение)#!"
  barons_and_minor_landholders_disapproves_baron_revocations: "Каждый вассальный [GetVassalStance( 'barons_and_minor_landholders' ).GetTextIcon]мелкий землевладелец ([actor.MakeScope.ScriptValue('number_of_barons_and_minor_landholders_vassals')|V0]) [Select_CString(actor.IsLocalPlayer, '', 'персонажа ' )][actor.GetNamePossessiveOrMy][Select_CString(actor.IsLocalPlayer, 'его персонажа', '' )] снижает [opinion|El] о [Select_CString(actor.IsLocalPlayer, '', 'персонаже ' )][actor.GetNamePossessiveOrMy][Select_CString(actor.IsLocalPlayer, 'ем персонаже', '' )] на #N 20#! на #V 10 лет#!#weak (не одобряет отъем баронства)#!"
  more_glory_hounds: "[GetVassalStance( 'glory_hound' ).GetTextIcon]Охочие до славы [vassals|El] встречаются чаще"
  more_parochial: "[GetVassalStance( 'parochial' ).GetTextIcon]Местечковые [vassals|El] встречаются чаще"
  more_zealot: "[GetVassalStance( 'zealot' ).GetTextIcon]Фанатичные [vassals|El] встречаются чаще"
  more_courtly: "[GetVassalStance( 'courtly' ).GetTextIcon]Куртуазные [vassals|El] встречаются чаще"
+ #GH/
+ more_magic_focused:90 "[GetVassalStance( 'magic_focused' ).GetTextIcon]Ориентированные на магию [vassals|El] встречаются чаще"
+ less_magic_focused:90 "[GetVassalStance( 'magic_focused' ).GetTextIcon]Ориентированные на магию [vassals|El] встречаются реже" 
+ #GH\
  #Requires you to save root_scope in the immediate of your event
  every_glory_hound_vassal: "Каждый [GetVassalStance( 'glory_hound' ).GetTextIcon]охочий до славы [vassal|El] ([root_scope.MakeScope.ScriptValue('number_of_glory_hound_vassals')|V0])"
  every_courtly_vassal: "Каждый [GetVassalStance( 'courtly' ).GetTextIcon]куртуазный [vassal|El] ([root_scope.MakeScope.ScriptValue('number_of_courtly_vassals')|V0])"
@@ -117,13 +121,20 @@
  every_parochial_vassal_no_count: "Каждый местечковый вассал"
  every_zealot_vassal: "Каждый [GetVassalStance( 'zealot' ).GetTextIcon]фанатичный [vassal|El] ([root_scope.MakeScope.ScriptValue('number_of_zealot_vassals')|V0])"
  every_minority_vassal: "Каждый [GetVassalStance( 'minority' ).GetTextIcon]миноритарный [vassalEl] ([root_scope.MakeScope.ScriptValue('number_of_minority_vassals')|V0])"
+ #GH/
+ every_magic_focused_vassal:90 "Каждый [GetVassalStance( 'magic_focused' ).GetTextIcon]ориентированный на магию [vassalEl] ([root_scope.MakeScope.ScriptValue('number_of_magic_focused_vassals')|V0])"
+ #GH\
  every_participating_glory_hound_vassal: "Каждый охочий до славы участник ([THIS.Char.MakeScope.ScriptValue('number_of_participating_glory_hound_vassals')|V0])"
  every_participating_courtly_vassal: "Каждый куртуазный участник ([THIS.Char.MakeScope.ScriptValue('number_of_participating_courtly_vassals')|V0])"
  every_participating_parochial_vassal: "Каждый местечковый участник ([THIS.Char.MakeScope.ScriptValue('number_of_participating_parochial_vassals')|V0])"
  every_participating_zealot_vassal: "Каждый фанатичный участник ([THIS.Char.MakeScope.ScriptValue('number_of_participating_zealot_vassals')|V0])"
+ #GH/
+ every_participating_magic_focused_vassal:90 "Каждый ориентированный на магию участник ([THIS.Char.MakeScope.ScriptValue('number_of_participating_magic_focused_vassals')|V0])"
+ #GH\
  #For diplomatic interactions
  every_glory_hound_vassal_actor: "Каждый охочий до славы вассал ([actor.MakeScope.ScriptValue('number_of_glory_hound_vassals')|V0])"
  every_courtly_vassal_actor: "Каждый куртуазный вассал ([actor.MakeScope.ScriptValue('number_of_courtly_vassals')|V0])"
  every_parochial_vassal_actor: "Каждый местечковый вассал ([actor.MakeScope.ScriptValue('number_of_parochial_vassals')|V0])"
  every_zealot_vassal_actor: "Каждый фанатичный вассал ([actor.MakeScope.ScriptValue('number_of_zealot_vassals')|V0])"
  every_minority_vassal_actor: "Каждый миноритарный вассал ([actor.MakeScope.ScriptValue('number_of_minority_vassals')|V0])"
+ every_magic_focused_vassal_actor: "Каждый ориентированный на магию вассал ([actor.MakeScope.ScriptValue('number_of_magic_focused_vassals')|V0])"

@@ -48,7 +48,9 @@
  fp3_yearly.2021.desc_cynical: "«[sinful_tax_collector.GetTitledFirstNameNoTooltip] [Select_CString(sinful_tax_collector.IsFemale, 'известна', 'известен' )] тем, что [ROOT.Char.GetFaith.HighGodName] не внушает [Select_CString(sinful_tax_collector.IsFemale, 'ей', 'ему' )] трепета. [Select_CString(sinful_tax_collector.IsFemale, 'Она', 'Он' )] регулярно просыпает утренние молитвы и часто крадет куски со стола в рамадан. Все мы боимся, что однажды [ROOT.Char.GetFaith.HighGodName] покарает [Select_CString(sinful_tax_collector.IsFemale, 'ее', 'его' )]»."
  fp3_yearly.2021.desc_contrite: "«[sinful_tax_collector.GetTitledFirstNameNoTooltip] не [Select_CString(sinful_tax_collector.IsFemale, 'способна', 'способен' )] хранить секреты, [Select_CString(sinful_tax_collector.IsFemale, 'она', 'он' )] может разболтать о финансовых делах державы любому, кто готов слушать. Рано или поздно эта информация попадет в руки врага»."
  fp3_yearly.2021.desc_outro: "\n\n[denouncing_taxpayer.GetTitledFirstNameNoTooltip] [denouncing_taxpayer.Custom('quirk_pos_present')], явно ожидая, что [sinful_tax_collector.GetTitledFirstNameNoTooltip] будет [Select_CString(sinful_tax_collector.IsFemale, 'уволена', 'уволен' )] мной за эти прегрешения."
- fp3_yearly.2021.a: "[sinful_tax_collector.GetTitledFirstNameNoTooltip|U] будет [Select_CString(sinful_tax_collector.IsFemale, 'уволена', 'уволен' )], иншалла."
+ #GH/
+ fp3_yearly.2021.a: "[sinful_tax_collector.GetTitledFirstNameNoTooltip|U] будет [Select_CString(sinful_tax_collector.IsFemale, 'уволена', 'уволен' )], причём немедленно!"
+ #GH\
  fp3_yearly.2021.b: "Я приму твои слова к сведению."
  fp3_yearly.2030.t: "Красивое правление"
  fp3_yearly.2030.desc_intro: "Я смотрю на себя в зеркало и, видя там"
@@ -356,7 +358,7 @@
  fp3_unhidden_sky_burial.tt: "Ваш ритуал разоблачен постфактум"
  fp3_helpful_courtier.tt: "[helpful_courtier.GetName] поможет вам"
  fp3_yearly.8025.t: "Четвертое утро"
- fp3_yearly.8025.desc: "[Select_CString(dying_consort.IsFemale, 'Покойная', 'Покойный' )] [dying_consort.GetName] со всеми подобающими церемониями [Select_CString(dying_consort.IsFemale, 'погребена', 'погребен' )] в нише древней #italic дахмы#! и [Select_CString(dying_consort.IsFemale, 'отдана', 'отдан' )] на волю неба и степных стервятников, кружащих над дахмой.\n\nПрошло уже три дня с момента [Select_CString(dying_consort.IsFemale, её', 'его' )] смерти, и я до самого рассвета остаюсь у дахмы. Согласно древним мифам, на четвертое утро после смерти душа вернется к своему духу #italic фраваши#! в высшем мире. Там она отдаст фраваши все знания, обретенные в жизни, чтобы помочь в вечной борьбе со злом. Но я не вижу никакой души, поднимающейся от потрескавшихся стен дахмы, только темные силуэты стервятников в свете поднимающегося солнца."
+ fp3_yearly.8025.desc: "[Select_CString(dying_consort.IsFemale, 'Покойная', 'Покойный' )] [dying_consort.GetName] со всеми подобающими церемониями [Select_CString(dying_consort.IsFemale, 'погребена', 'погребен' )] в нише древней #italic дахмы#! и [Select_CString(dying_consort.IsFemale, 'отдана', 'отдан' )] на волю неба и степных стервятников, кружащих над дахмой.\n\nПрошло уже три дня с момента [Select_CString(dying_consort.IsFemale, 'её', 'его' )] смерти, и я до самого рассвета остаюсь у дахмы. Согласно древним мифам, на четвертое утро после смерти душа вернется к своему духу #italic фраваши#! в высшем мире. Там она отдаст фраваши все знания, обретенные в жизни, чтобы помочь в вечной борьбе со злом. Но я не вижу никакой души, поднимающейся от потрескавшихся стен дахмы, только темные силуэты стервятников в свете поднимающегося солнца."
  fp3_yearly.8025.a: "Пусть [dying_consort.GetSheHe] упокоится в ином мире."
  fp3_yearly.8025.b: "[dying_consort.GetHerHis|U] предсмертное желание исполнено."
  fp3_yearly.8026.t: "Тайная дахма"
@@ -495,7 +497,7 @@
  fp3_yearly.8050.b: "Конечно, я могу выделить на это средства из сокровищницы."
  fp3_yearly.8050.c: "Что мне за дело до этих язычников, пусть хоть в канаве хоронят."
  fp3_yearly.8050.d: "Звучит недешево. Что работало в прошлом, сработает и сейчас."
- fp3_zoroastrian_courtiers_and_vassals_happy: "Благочестивые #L [GetReligionByKey('zoroastrianism_religion').GetName|]ие#! [Concept( 'courtiers', 'придворные' )|E], [Concept( 'guests', 'гости' )|E] и [Concept('vassals', 'вассалы' )|E] улучшат [Concept( 'opinion', 'мнение' )|E] о вас."
+ fp3_zoroastrian_courtiers_and_vassals_happy: "Благочестивые #L [GetReligionByKey('zoroastrianism_religion').GetName]ие#! [Concept( 'courtiers', 'придворные' )|E], [Concept( 'guests', 'гости' )|E] и [Concept('vassals', 'вассалы' )|E] улучшат [Concept( 'opinion', 'мнение' )|E] о вас."
  building_a_dakhma.failure: "[architect.GetFirstName] [Select_CString(prison_harchitectolder.IsFemale, 'спроектировала', 'спроектировал' )] башню молчания с дефектами"
  building_a_dakhma.success: "[architect.GetFirstName] [Select_CString(prison_harchitectolder.IsFemale, 'спроектировала', 'спроектировал' )] рабочую башню молчания"
  fp3_cheap_architecture_flavor: "Чем дешевле, тем лучше!"
@@ -619,8 +621,15 @@
  fp3_h_yearly.0001.e: "Молчать! Вы забыли, с кем разговариваете."
  #Seljuk story cycle
  fp3_story_cycle_seljuks_invasion_events.0001.t: "Отчаявшиеся кочевники"
- fp3_story_cycle_seljuks_invasion_events.0001.desc: "Кочевники-[lead_seljuk.GetCulture.GetNameNoTooltip|l] с пограничных земель прибыли ко мне с мольбой. Они желают поселиться во владении [fp3_seljuk_settle_target.GetNameNoTier] в качестве моих подданных, обещая свою верность и боевой опыт в обмен на «покой в моей тени».\n\nИх отчаяние очевидно. Им больше некуда идти, и отказ неминуемо приведет к конфликту."
- fp3_story_cycle_seljuks_invasion_events.0001.a: "Если вы обещаете ответить на зов сюзерена, владение [fp3_seljuk_settle_target.GetNameNoTierNoTooltip] ваше."
+ #GH/
+ fp3_story_cycle_seljuks_invasion_events.0001.desc: "[lead_seljuk.GetCulture.GetNameNoTooltip] nomads from the frontier lands have come to plea before me. They seek to settle in [fp3_seljuk_settle_target.GetNameNoTier] as my subjects, offering their loyalty and expertise in battle in exchange for "resting in my great shadow."\n\nTheir desperation is obvious. With nowhere else for them to go, refusing to grant their request will inevitably lead to conflict."
+ #GH\
+ fp3_story_cycle_seljuks_invasion_events.0001.desc_vassal: " в качестве моих подданных, обещая свою верность и боевой опыт в обмен на «покой в моей тени».\n\nИх отчаяние очевидно. Им больше некуда идти, и отказ неминуемо приведет к конфликту."
+ fp3_story_cycle_seljuks_invasion_events.0001.desc_independent: " в качестве моих новых соседей, предлагая свой боевой опыт в обмен на часть моих территорий.\n\nИх отчаяние очевидно. Но идущее за ними свирепое воинство явно показывает, что это не столько просьба, сколько ультиматум."
+ fp3_story_cycle_seljuks_invasion_events.0001.a_liege: "Если вы обещаете ответить на зов сюзерена, владение [fp3_seljuk_settle_target.GetNameNoTierNoTooltip] ваше."
+ #GH/
+ fp3_story_cycle_seljuks_invasion_events.0001.a: "So long as you answer your liege's call, [fp3_seljuk_settle_target.GetNameNoTierNoTooltip] shall be yours."
+ #GH\
  fp3_story_cycle_seljuks_invasion_events.0001.b: "Ни за что! Я не позволю всякому сброду оккупировать мои земли!"
  #Zanj Rebellion
  fp3_story_cycle_zanj_rebellion_events.0002.t: "Смелый мятежник"

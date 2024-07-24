@@ -1,8 +1,8 @@
 ﻿l_russian:
  FOUNDER_BASED_NAME_POSTFIX: "ид"
-  ############################################################ 
-  # Prefixes 
-  ############################################################ 
+ ############################################################
+ #Prefixes
+ ############################################################
  dynnp__: "$POSSESSIVE_SPECIAL$"
  dynnp_a: "$POSSESSIVE_SPECIAL$"
  dynnp_a_: "а' "
@@ -60,10 +60,9 @@
  dynnp_do: "до "
  dynnp_dei: "деи "
  dynnp_dell_: "дель "
-  
-  ############################################################ 
-  # Names 
-  ############################################################ 
+ ############################################################
+ #Names
+ ############################################################
  dynn_a__Chruiteir: "а' Хрутир"
  dynn_A__Mhaoirne: "а' Вурне"
  dynn_a__Phearsain: "а' Ферсин"
@@ -507,7 +506,7 @@
  dynn_Aspa: "Аспа"
  dynn_asparukhid: "Аспарухид"
  dynn_AspenA_s: "Аспенес"
- dynn_Asperger: "Аспергер"
+ dynn_Asperger:0 "Аспергер" 
  dynn_Aspietes: "Аспиет"
  dynn_Assabi: "Ассэби"
  dynn_Assel: "Ассель"
@@ -1884,7 +1883,7 @@
  dynn_Eadricing: "Эдрикинг"
  dynn_Eadwulfing: "Эдвульфинг"
  dynn_East_Anglia: "Восточная Англия"
- dynn_Eastern_Ganga: "Рудхи Ганга"
+ dynn_Eastern_Ganga: "Восточная Ганга"
  dynn_Eberstein: "Эберштейн"
  dynn_Ebheri: "Эбхери"
  dynn_Ebrauc: "Эбрайк"
@@ -2009,6 +2008,7 @@
  dynn_FA_rniatA_: "Фарниата"
  dynn_FA_tima: "Фатима"
  dynn_Faberi: "Фабери"
+ dynn_Fabricius: "Фабриций"
  dynn_Fadhilwayhid: "Фадхилвайхид"
  dynn_Fadlid: "Фадлид"
  dynn_Fadlunid: "Фадлунид"
@@ -4765,7 +4765,7 @@
  dynn_Panaskerteli: "Панаскертели"
  dynn_Pandulfingi: "Пандульфинг"
  dynn_Pandya_Alupa: "Пандья Алупа"
- dynn_Ucchangi_Pandya: "Уччханги Пандья"
+ dynn_Ucchangi_Pandya: "Укчанги Пандья"
  dynn_Pandya: "Пандья"
  dynn_Nidugal_Chola: "Нидугал Чола"
  dynn_Panemorphiotis: "Панеморфиот"
@@ -5647,7 +5647,7 @@
  dynn_Sijistani: "Сиджистани"
  dynn_Sikelos: "Сикел"
  dynn_Sikoundenos: "Сикундин"
- dynn_Silahara: "Силахара"
+ dynn_Silahara: "Силара"
  dynn_Silesia-Glogau: "Силезия-Глогау"
  dynn_Silos: "Силос"
  dynn_Silva: "Силва"
@@ -6081,7 +6081,7 @@
  dynn_TezaloviC_: "Тезалович"
  dynn_Thabitid: "Табитид"
  dynn_Thakuri: "Тхакури"
- dynn_Thana_Silahara: "Тхана Силахара"
+ dynn_Thana_Silahara: "Тана Шилара"
  dynn_Thanjavur_Mutharaiyar: "Тханджавур Мутхарайяр"
  dynn_Tharros: "Фаррос"
  dynn_Theoderingi: "Теодеринг"
@@ -6330,7 +6330,7 @@
  dynn_Ubbaid: "Уббайд"
  dynn_Ubbing: "Уббинг"
  dynn_Ubmeje: "Убмейе"
- dynn_Uchangidurga_Kadamba: "Учангидурга Кадамба"
+ dynn_Uchangidurga_Kadamba: "Учанги Кадамба"
  dynn_Uchtraigh: "Ухтри"
  dynn_Ucok: "Учок"
  dynn_Udalrichinger: "Удальрихинг"
@@ -6975,9 +6975,7 @@
  dynn_Urulchiq: "Урульчик"
  dynn_Ural: "Урал"
  dynn_BO_gU_n: "Бегюн"
-  
-  # PATRONYMS — PREFIXES AND SUFFIXES 
-  
+ #PATRONYMS — PREFIXES AND SUFFIXES
  dynnpat_pre_ab: "аб "
  dynnpat_pre_ach: "ак "
  dynnpat_pre_ap: "ап "
@@ -7000,6 +6998,8 @@
  dynnpat_pre_map: "мап "
  dynnpat_pre_Mc: "Мак"
  dynnpat_pre_merch: "мерх "
+ dynnpat_pre_Mwa: "Мва"
+ dynnpat_pre_San: "Сан"
  dynnpat_pre_nic: "ник "
  dynnpat_pre_Nic: "ник "
  dynnpat_pre_puri: "пури "
@@ -7009,7 +7009,6 @@
  dynnpat_pre_vch: "век "
  dynnpat_pre_verch: "верх "
  dynnpat_pre_zk: "зк "
-  
  dynnpat_suf_az: "аз"
  dynnpat_suf_dokht: "дохт"
  dynnpat_suf_enc: "анс"
@@ -7030,7 +7029,7 @@
  dynnpat_suf_s: " с"
  dynnpat_suf_s_dze: "с дзе"
  dynnpat_suf_sdatter: "сдаттер"
- dynnpat_suf_sdaughter: "сдотер"
+ dynnpat_suf_sdaughter: "дотер"
  dynnpat_suf_sdochter: "дохтер"
  dynnpat_suf_sdohtar: "дохтар"
  dynnpat_suf_sdohtor: "дохтор"
@@ -7049,13 +7048,11 @@
  dynnpat_suf_zde: "зода"
  dynnpat_suf_dukht: "духт"
  dynnpat_suf_zk: "зк"
-  
  dynnpat_pre_vow_ab: "аб "
  dynnpat_pre_vow_mab: "маб "
  dynnpat_pre_vow_mag: "маг "
  dynnpat_pre_vow_nig: "ниг "
-  
-  #Uyghur 
+ #Uyghur
  dynn_Yaghlakar: "Яглакар"
  dynn_Ediz: "Эдиз"
  dynn_Uzur: "Узур"
@@ -7067,30 +7064,30 @@
  dynn_Hosa: "Хоса"
  dynn_Yughur: "Уйгур"
  dynn_Idiqut: "Идыкут"
-  #Kirghiz 
+ #Kirghiz
  dynn_GU_naydin: "Гунайдин"
  dynn_KiliC_li: "Кылычлы"
  dynn_Tiele: "Тиеле"
-  # Samoyed 
+ #Samoyed
  dynn_Sarakid: "Саракид"
  dynn_Hasabid: "Хасабид"
  dynn_Tatvid: "Татвид"
  dynn_Yurakid: "Юракид"
-  # Sami 
+ #Sami
  dynn_Ahkebeaivi: "Ахкебейви"
  dynn_Ahkemiella: "Ахкемиелла"
  dynn_GA_ivvaS_: "Гайвваш"
-  # Karelian 
+ #Karelian
  dynn_Kirjala: "Кирьяла"
  dynn_Lagoda: "Лагода"
  dynn_Vuoksi: "Вуокси"
-  # Vepsians 
+ #Vepsians
  dynn_Sheksna: "Шексна"
  dynn_Suda: "Суда"
  dynn_Syas: "Сюас"
  dynn_Vasin: "Васин"
  dynn_Onega: "Онега"
-  # Old Saxon 
+ #Old Saxon
  dynn_Pattensen: "Паттенсен"
  dynn_Schneider: "Шнейдер"
  dynn_Theodericing: "Теодерихинг"
@@ -7099,7 +7096,7 @@
  dynn_Smeldiging: "Смельдигинг"
  dynn_Unwanid: "Унванид"
  dynn_Hessing: "Хессинг"
-  # Baloch 
+ #Baloch
  dynn_Yeldarid: "Йелдарид"
  dynn_Feruxid: "Фарухид"
  dynn_Qalat: "Калат"
@@ -7107,23 +7104,23 @@
  dynn_Kalmati: "Кальмати"
  dynn_Mugheri: "Мугери"
  dynn_Nutkani: "Нуткани"
-  # Cornish 
+ #Cornish
  dynn_Arundell: "Арунделл"
  dynn_Killigrew: "Киллигрю"
  dynn_Boscawen: "Боскауэн"
  dynn_Rashleigh: "Рэшли"
  dynn_Vyvyan: "Вивиан"
  dynn_Trelawne: "Трелоуни"
-  # Cumbrian 
+ #Cumbrian
  dynn_Wledig: "Уледиг"
  dynn_Edern: "Эдерн"
  dynn_Ogledd: "Оглед"
  dynn_Llaennog: "Ллайнног"
  dynn_Gwallog: "Гуаллог"
  dynn_Rhegen: "Реген"
-  # Nubian 
+ #Nubian
  dynn_Dotawo: "Дотаво"
-  # Butr 
+ #Butr
  dynn_al_Ibadi: "аль-Ибади"
  dynn_Banu_Khattab: "Бану Хаттаб"
  dynn_Awellimid: "Авеллимид"
@@ -7146,14 +7143,14 @@
  dynn_Atissid: "Атиссид"
  dynn_Amayadid: "Амаядид"
  dynn_Banu_Rand: "Бану Ранд"
-  # Kanuri 
+ #Kanuri
  dynn_Kunkuna: "Кункуна"
  dynn_Teda: "Теда"
  dynn_Tabir: "Табир"
  dynn_Ajawa: "Аджава"
  dynn_Duguwa: "Дугува"
  dynn_Sayfawa: "Сайфава"
-  # Zaghawa 
+ #Zaghawa
  dynn_Zakhawa: "Захава"
  dynn_Tomaghra: "Томагра"
  dynn_Tubu: "Тубу"
@@ -7162,13 +7159,13 @@
  dynn_Bideyat: "Бидеят"
  dynn_Toubou: "Тубу"
  dynn_Sao: "Сао"
-  #Mongolic - mongol 
+ #Mongolic - mongol
  dynn_Keshmiti: "Кешмити"
  dynn_Uduyid: "Удуйид"
  dynn_Uvas: "Увас"
  dynn_Khaad: "Хаад"
  dynn_Khalka: "Халка"
-  #Mongolic - buryat 
+ #Mongolic - buryat
  dynn_Yrkhu: "Ирху"
  dynn_Irgit: "Иргит"
  dynn_Khori_Tumed: "Хори-Тумед"
@@ -7192,7 +7189,7 @@
  dynn_Khora: "Хора"
  dynn_Tayanid: "Таянид"
  dynn_Baataran: "Баатаран"
-  #Mongolic - oirat 
+ #Mongolic - oirat
  dynn_Koshut: "Кошут"
  dynn_O_lO_t: "Олет"
  dynn_Torghut: "Торгут"
@@ -7215,7 +7212,7 @@
  dynn_Kolyokod: "Колекод"
  dynn_O_mO_red: "Умеред"
  dynn_MU_renig: "Мурениг"
-  #Mongolic - naiman 
+ #Mongolic - naiman
  dynn_GU_chU_gU_d: "Гучугут"
  dynn_Betegin: "Бетегин"
  dynn_Buku: "Буку"
@@ -7240,7 +7237,7 @@
  dynn_EgU_ir: "Эгуйр"
  dynn_Ijigiak: "Ижигиак"
  dynn_Jamanig: "Жаманиг"
-  #Mongolic - kerait 
+ #Mongolic - kerait
  dynn_Jirkin: "Джиркин"
  dynn_Konkant: "Конкант"
  dynn_Sukait: "Сукайт"
@@ -7265,7 +7262,7 @@
  dynn_Gurdugusid: "Гурдугусид"
  dynn_Esorig: "Эсориг"
  dynn_NO_O_gemir: "Неегемир"
-  #Turkic - uriankhai 
+ #Turkic - uriankhai
  dynn_Tuva: "Тува"
  dynn_Karagas: "Карагас"
  dynn_Khakas: "Хакас"
@@ -7410,7 +7407,7 @@
  dynn_O__Braonain: "О'Бринан"
  dynn_Maqpon: "Макпон"
  dynn_Vuppadeva: "Вуппадева"
-  # Burman 
+ #Burman
  dynn_Pagan: "Паган"
  dynn_Sale: "Сале"
  dynn_Nyaung_U: "Ньяунг-У"
@@ -7483,7 +7480,7 @@
  dynn_Minhlagyi: "Минхлагьи"
  dynn_Thumondari: "Тумондари"
  dynn_Thupyinnya: "Тупьиннья"
-  # Iberian 
+ #Iberian
  dynn_A_lvarez: "Альварес"
  dynn_AbI_n: "Абин"
  dynn_Abrego: "Абрего"
@@ -7581,6 +7578,7 @@
  dynn_Lemos: "Лемос"
  dynn_LeonE_s: "Леонес"
  dynn_LE_rez: "Лерес"
+ dynn_Le_Jensen: "Ле Йенсен"
  dynn_LleO_n: "Льеон"
  dynn_Llerena: "Льерена"
  dynn_Lorenzo: "Лоренцо"
@@ -7678,7 +7676,7 @@
  dynn_XixO_n: "Ксихьон"
  dynn_YA_N_ez: "Яньес"
  dynn_Zalaca: "Салака"
-  # Sardinian 
+ #Sardinian
  dynn_Ajaccio: "Аяччо"
  dynn_A_ldara: "Альдара"
  dynn_Aleria: "Алерия"
@@ -7779,7 +7777,7 @@
  dynn_Useddus: "Уседдус"
  dynn_Cagliari: "Кальяри"
  dynn_Gallaura: "Галлаура"
-  # Chuvash 
+ #Chuvash
  dynn_Abash: "Абаш"
  dynn_Agish: "Агиш"
  dynn_Baran: "Баран"
@@ -7795,7 +7793,7 @@
  dynn_Tenish: "Тенищ"
  dynn_Vanyut: "Ваньют"
  dynn_Yaku: "Яку"
-  # Africa 
+ #Africa
  dynn_Eddi: "Эдди"
  dynn_Danakil: "Данакиль"
  dynn_Nri: "Нри"
@@ -8145,7 +8143,6 @@
  dynn_Chanaid: "Чанайд"
  dynn_Pan_Guazhou: "Пань"
  dynn_Yedid: "Едид"
-  
  dynn_Adro: "Адро"
  dynn_Arik: "Арик"
  dynn_Ba: "Ба"
@@ -8206,8 +8203,7 @@
  dynn_Nyel: "Ньел"
  dynn_Pelrin: "Пэлрин"
  dynn_Zhebu: "Шебу"
-  
-  #bodpa expanded 
+ #bodpa expanded
  dynn_ChakdU__Nyarong: "Чакду-Ньяронг"
  dynn_ChE_: "Че"
  dynn_DE_pa_TO_npo: "Депа-Тонпо"
@@ -8285,8 +8281,7 @@
  dynn_Yenki: "Йенки"
  dynn_Kuchar: "Кучар"
  dynn_sogdian_Mi: "Ми"
-  
-  #Turkish 
+ #Turkish
  dynn_Qiniq: "Кынык"
  dynn_Yazir: "Языр"
  dynn_Tutirqa: "Тутырка"
@@ -8307,8 +8302,7 @@
  dynn_Farighunid: "Фаригунид"
  dynn_Khujistanid: "Худжистанид"
  dynn_wasifid: "Васифид"
-  
-  #Persian cultures 
+ #Persian cultures
  dynn_as_Sabbah: "ас-Саббах"
  dynn_Tabarestani: "Табаристани"
  dynn_Mazandarani: "Мазендерани"
@@ -8326,7 +8320,6 @@
  dynn_Daqiqi: "Дакики"
  dynn_Bahramid: "Бахрамид"
  dynn_Chaghanid: "Чаганид"
-  
  dynn_Adid: "Адид"
  dynn_asSamh: "ас-Самх"
  dynn_Awfid: "Ауфид"
@@ -8346,7 +8339,6 @@
  dynn_Tehlawa: "Техлава"
  dynn_Warjilanid: "Варджиланид"
  dynn_Zegbid: "Зегбид"
-  
  dynn_al-Umari: "аль-Умари"
  dynn_Almada: "Альмада"
  dynn_Abdal_Qays: "Абд аль-Кайс"
@@ -8383,8 +8375,7 @@
  dynn_Bali: "Бали"
  dynn_Juhavna: "Джухавна"
  dynn_sajid: "Саджид"
-  
-  # Italian 
+ #Italian
  dynn_Adaloaldidi: "Адалоальдид"
  dynn_Adelchisidi: "Адельхисид"
  dynn_Adelferidi: "Адельферид"
@@ -8626,7 +8617,6 @@
  dynn_Addobati: "Аддобати"
  dynn_Querini: "Кверини"
  dynn_Wicheraming: "Вихераминг"
-  
  dynn_Vrsovid: "Вршович"
  dynn_z_Loun: "Лоун"
  dynn_Mutinid: "Мутинович"
@@ -8641,7 +8631,6 @@
  dynn_Smolenicky: "Смоленицкий"
  dynn_Kojatid: "Коятинович"
  dynn_Rajhradsky: "Райградский"
-  
  dynn_Ogiso: "Огизо"
  dynn_Itseriki: "Итсерики"
  dynn_Edo: "Эдоск"
@@ -8730,12 +8719,10 @@
  dynn_Ouse: "Усе"
  dynn_Aeti: "Аэти"
  dynn_Bayei: "Байей"
-  
  dynn_Milonid: "Милонид"
  dynn_Saulx: "Сольс"
  dynn_La_Chatre: "Ла-Шатр"
-  
-  #Additional African dynasties 
+ #Additional African dynasties
  dynn_Sosso: "Сосо"
  dynn_Diawara: "Диавара"
  dynn_Kalom: "Калом"
@@ -8912,8 +8899,7 @@
  dynn_Koita: "Коита"
  dynn_Diao: "Диао"
  dynn_DramE_: "Драме"
-  
-  #Czech and Slovien 
+ #Czech and Slovien
  dynn_KopC_iansky: "Копчанский"
  dynn_Jasenovsky: "Ясеновский"
  dynn_Detvansky: "Детванский"
@@ -9008,8 +8994,7 @@
  dynn_Collin: "Коллин"
  dynn_Daflos: "Дафл"
  dynn_Zenko: "Зенко"
-  
-  #Vlach 
+ #Vlach
  dynn_BA_dA_rA_u: "Бадарау"
  dynn_BA_lA_ceanu: "Балтени"
  dynn_Bosie: "Босие"
@@ -9071,8 +9056,7 @@
  dynn_UrlA_T_eni: "Урлатени"
  dynn_VidraS_cu: "Видрашку"
  dynn_Yarka: "Ярка"
-  
-  #Dutch 
+ #Dutch
  dynn_Abdena: "Абдена"
  dynn_Allena: "Аллена"
  dynn_Andringa: "Андринга"
@@ -9152,12 +9136,10 @@
  dynn_Hallum: "Халлум"
  dynn_Johanneson: "Юханнесон"
  dynn_Goodfellow: "Гудфеллоу"
-  
-  #Russian 
+ #Russian
  dynn_Medvjedich: "Медведич"
  dynn_Dniprich: "Дниприч"
-  
-  # Additional prussian 
+ #Additional prussian
  dynn_Barta: "Барта"
  dynn_Galinda: "Галинда"
  dynn_Sasna: "Сасна"
@@ -9181,8 +9163,7 @@
  dynn_WA_rmi: "Варми"
  dynn_Pomesania: "Помезания"
  dynn_Skallawa: "Скаллава"
-  
-  # Additional latgalian 
+ #Additional latgalian
  dynn_Vanema: "Ванема"
  dynn_Ventava: "Вентава"
  dynn_Bandava: "Бандава"
@@ -9202,8 +9183,7 @@
  dynn_Dzelves: "Дзелвас"
  dynn_Krona: "Крона"
  dynn_Adazi: "Адажи"
-  
-  # Additional sami 
+ #Additional sami
  dynn_Jio: "Йио"
  dynn_Simo: "Симо"
  dynn_Rahna: "Рахна"
@@ -9222,8 +9202,7 @@
  dynn_Pajersvi: "Паерсви"
  dynn_Kielit: "Киелит"
  dynn_Kemeloe: "Кемелоэ"
-  
-  # Additional estonian 
+ #Additional estonian
  dynn_Laanemaa: "Ляэнемаа"
  dynn_Soontagana: "Соонтагана"
  dynn_Harju: "Харью"
@@ -9234,8 +9213,7 @@
  dynn_Jogentagana: "Йогентагана"
  dynn_Leole: "Леоле"
  dynn_Alistegunde: "Алистегунде"
-  
-  # Additional karelian 
+ #Additional karelian
  dynn_Kovoda: "Ковода"
  dynn_Soute: "Соуте"
  dynn_Maselke: "Масельке"
@@ -9247,8 +9225,7 @@
  dynn_Vango: "Ванго"
  dynn_Kumo: "Кумо"
  dynn_Kuyto: "Куйто"
-  
-  # Additional vepsian 
+ #Additional vepsian
  dynn_Vaga: "Вага"
  dynn_Kodmin: "Кодмин"
  dynn_Yaga: "Юяга"
@@ -9271,8 +9248,7 @@
  dynn_Ulsui: "Ульсуй"
  dynn_Ussa: "Усса"
  dynn_Velva: "Вельва"
-  
-  # Additional pictish 
+ #Additional pictish
  dynn_Mac_Uerb: "мак Эрп"
  dynn_Hen: "Хен"
  dynn_Bili: "Били"
@@ -9286,8 +9262,7 @@
  dynn_Mac_Boanta: "мак Боанта"
  dynn_Mac_Oengusa: "мак Энгуса"
  dynn_Fortriu: "Фортриу"
-  
-  # Additional cornish 
+ #Additional cornish
  dynn_Cadell: "Каделл"
  dynn_Rhodri: "Родри"
  dynn_Llywarch: "Ллиуарх"
@@ -9303,8 +9278,7 @@
  dynn_Avon: "Авон"
  dynn_Den_Bal: "Ден Бал"
  dynn_Descajor: "Дескаджор"
-  
-  # Additional cumbrian 
+ #Additional cumbrian
  dynn_Mallerslange: "Маллерсланге"
  dynn_Winander: "Винандер"
  dynn_Ulles: "Иллес"
@@ -9314,8 +9288,7 @@
  dynn_Bwr: "Бур"
  dynn_Penuchel: "Пенихел"
  dynn_Eden: "Эден"
-  
-  # Additional visigothic 
+ #Additional visigothic
  dynn_Athanagildiana: "Атанагильдиана"
  dynn_Athaulf: "Атаульфинг"
  dynn_Sigireik: "Сигерихинг"
@@ -9335,8 +9308,7 @@
  dynn_Sisibaud: "Сисебутинг"
  dynn_Kindila: "Хинтилинг"
  dynn_Wanbs: "Вамбинг"
-  
-  # Additional lombard 
+ #Additional lombard
  dynn_Landulfid: "Ландульфид"
  dynn_Atenulfing: "Атенульфинг"
  dynn_Hunding: "Хундинг"
@@ -9352,8 +9324,7 @@
  dynn_Alahisid: "Алахисид"
  dynn_Raginperting: "Рагинпертинг"
  dynn_Liutperting: "Лиутпертинг"
-  
-  # Additional baloch 
+ #Additional baloch
  dynn_Bhurgari: "Бургари"
  dynn_Dehwar: "Девар"
  dynn_Gabol: "Габол"
@@ -9364,8 +9335,7 @@
  dynn_Sarmastani: "Сармастани"
  dynn_Talpur: "Талпур"
  dynn_Wahocha: "Вахоча"
-  
-  # Additional samoyed (=Bjarmian) 
+ #Additional samoyed (=Bjarmian)
  dynn_Kuluio: "Кулуйо"
  dynn_Dvinid: "Двинид"
  dynn_Onegin: "Онегин"
@@ -9380,8 +9350,7 @@
  dynn_Pusko: "Пуско"
  dynn_Kudmi: "Кудми"
  dynn_Ukhta: "Ухта"
-  
-  # Additional khanty (=Ostyak) 
+ #Additional khanty (=Ostyak)
  dynn_Oborin: "Оборин"
  dynn_Ketkso: "Кетксо"
  dynn_Vakhad: "Вахад"
@@ -9416,8 +9385,7 @@
  dynn_Lokhto: "Лохто"
  dynn_Lakhsentur: "Лахсентур"
  dynn_Tuman: "Туман"
-  
-  # Additional khazar 
+ #Additional khazar
  dynn_Karakhazar: "Кара-Хазар"
  dynn_Akkhazar: "Ак-Хазар"
  dynn_Alpid: "Алпид"
@@ -9442,8 +9410,7 @@
  dynn_Yanyol: "Яньол"
  dynn_Onkunes: "Онкунес"
  dynn_Karayagac: "Карай-Агач"
-  
-  # Additional bolghar 
+ #Additional bolghar
  dynn_Silkid: "Силкид"
  dynn_Esegel: "Эсегель"
  dynn_Izgil: "Изгиль"
@@ -9465,8 +9432,7 @@
  dynn_Izgar: "Изгар"
  dynn_Sulcha: "Сульча"
  dynn_Karmal: "Кармал"
-  
-  # Additional laktan 
+ #Additional laktan
  dynn_Chany: "Чаны"
  dynn_Kozhur: "Кожур"
  dynn_Sartlan: "Сартлан"
@@ -9480,8 +9446,7 @@
  dynn_Jyngyld: "Джингильд"
  dynn_Tuzdysor: "Туздысор"
  dynn_Oynak: "Ойнак"
-  
-  # Additional kirghiz 
+ #Additional kirghiz
  dynn_Jiegu: "Цзегу"
  dynn_Gekun: "Гекун"
  dynn_Kokun: "Кокун"
@@ -9503,8 +9468,7 @@
  dynn_Elegesh: "Элегеш"
  dynn_Tarlak: "Тарлак"
  dynn_Arjan: "Арджан"
-  
-  # Additional kipchak, kimek 
+ #Additional kipchak, kimek
  dynn_Olberlik: "Ольберлик"
  dynn_Ayyub: "Айюб"
  dynn_El_Borili: "Эль-Борили"
@@ -9561,8 +9525,7 @@
  dynn_Bayundur: "Баяндыр"
  dynn_Nilkar: "Нилкар"
  dynn_Ajlad: "Аджлад"
-  
-  # Additional cuman 
+ #Additional cuman
  dynn_Geluolu: "Гэлолу"
  dynn_Khololo: "Хололо"
  dynn_Harluut: "Харлуут"
@@ -9579,8 +9542,7 @@
  dynn_Sebeg: "Себег"
  dynn_Tashlyk: "Ташлык"
  dynn_Azes: "Азес"
-  
-  # Additional bashkir 
+ #Additional bashkir
  dynn_Inzeri: "Инзери"
  dynn_Bielak: "Белак"
  dynn_Yurzen: "Юрзень"
@@ -9594,14 +9556,12 @@
  dynn_Byank: "Бянк"
  dynn_Yinz: "Йинз"
  dynn_Yumel: "Юмель"
-  
-  # Additional mordvin 
+ #Additional mordvin
  dynn_Aidar: "Айдар"
  dynn_Borovon: "Боровон"
  dynn_Derkul: "Деркул"
  dynn_Valo: "Вало"
-  
-  # Additional merya 
+ #Additional merya
  dynn_Kotoro: "Которо"
  dynn_Solono: "Солоно"
  dynn_Tebsa: "Тебса"
@@ -9621,8 +9581,7 @@
  dynn_Khabal: "Хабал"
  dynn_Ingar: "Ингар"
  dynn_Yubil: "Юбил"
-  
-  # Additional meshchera & muroma 
+ #Additional meshchera & muroma
  dynn_Okain: "Окайн"
  dynn_Tesha: "Теша"
  dynn_Seres: "Серес"
@@ -9644,8 +9603,7 @@
  dynn_Susha: "Суша"
  dynn_Voronor: "Воронор"
  dynn_Uupa: "Уупа"
-  
-  # Additional mari 
+ #Additional mari
  dynn_Cheremis: "Черемис"
  dynn_Cirmes: "Чирмеш"
  dynn_Kokshag: "Кокшаг"
@@ -9668,8 +9626,7 @@
  dynn_Vongus: "Вонгус"
  dynn_Kundysh: "Кундыш"
  dynn_Veltuk: "Велтук"
-  
-  # Additional tamil 
+ #Additional tamil
  dynn_Paraiyar: "Парайяр"
  dynn_Vishwakarma: "Вишвакарма"
  dynn_Aachari: "Ачари"
@@ -9771,8 +9728,7 @@
  dynn_Takkaloma: "Таккалома"
  dynn_Mamallapuram: "Мамаллапурам"
  dynn_Kanchipuram: "Канчипурам"
-  
-  # Additional telugu 
+ #Additional telugu
  dynn_Nara: "Нара"
  dynn_Naidu: "Найду"
  dynn_Agarwal: "Агарвал"
@@ -9816,8 +9772,7 @@
  dynn_Vanga: "Ванга"
  dynn_Velama: "Велама"
  dynn_Yadav: "Ядав"
-  
-  # Additional kannada 
+ #Additional kannada
  dynn_Angadi: "Ангади"
  dynn_Bhat: "Бхат"
  dynn_Bhatt: "Бхатт"
@@ -9831,24 +9786,25 @@
  dynn_Shetty: "Шетти"
  dynn_Srivastava: "Шривастава"
  dynn_Talavar: "Талавар"
- dynn_Talakad: "Талакад"
- dynn_Srirangapatna: "Шрирангапатна"
- dynn_Mahishaka: "Махишака"
- dynn_Banavasi: "Банаваси"
- dynn_Uchangidurga: "Учангидурга"
- dynn_Adoni: "Адони"
- dynn_Gutti: "Гутти"
- dynn_Renandu: "Ренанду"
- dynn_Penugonda: "Пенугонда"
- dynn_Vaijayanti: "Вайджаянти"
- dynn_Koppam: "Коппам"
- dynn_Vatapi: "Ватапи"
- dynn_Idatarainadu: "Идатарайнаду"
- dynn_Sagar: "Сагар"
- dynn_Taradavadi: "Тарадавади"
- dynn_Kalyani: "Кальяни"
-  
-  # Additional bengali & assamese 
+ #GH/
+ dynn_Talakad:0 "Talakad"
+ dynn_Srirangapatna:0 "Srirangapatna"
+ dynn_Mahishaka:0 "Mahishaka"
+ dynn_Banavasi:0 "Banavasi"
+ dynn_Uchangidurga:0 "Uchangidurga"
+ dynn_Adoni:0 "Adoni"
+ dynn_Gutti:0 "Gutti"
+ dynn_Renandu:0 "Renandu"
+ dynn_Penugonda:0 "Penugonda"
+ dynn_Vaijayanti:0 "Vaijayanti"
+ dynn_Koppam:0 "Koppam"
+ dynn_Vatapi:0 "Vatapi"
+ dynn_Idatarainadu:0 "Idatarainadu"
+ dynn_Sagar:0 "Sagar"
+ dynn_Taradavadi:0 "Taradavadi"
+ dynn_Kalyani:0 "Kalyani" 
+ #GH\
+ #Additional bengali & assamese
  dynn_Banerjee: "Банерджи"
  dynn_Bagchi: "Багчи"
  dynn_Bhaduri: "Бхадури"
@@ -9921,8 +9877,7 @@
  dynn_Sahoo: "Саху"
  dynn_Tagore: "Тагоре"
  dynn_Thapa: "Тхапа"
-  
-  # Additional kannauji & rajput & sindhi 
+ #Additional kannauji & rajput & sindhi
  dynn_Ahuja: "Ахуджа"
  dynn_Arora: "Арора"
  dynn_Bansal: "Бансал"
@@ -9978,8 +9933,7 @@
  dynn_Varadarajan: "Варадараджан"
  dynn_Varma: "Варма"
  dynn_Vinda: "Винда"
-  
-  # Additional gujarati 
+ #Additional gujarati
  dynn_Chadhari: "Чадхари"
  dynn_Dani: "Дани"
  dynn_Dave: "Даве"
@@ -9997,8 +9951,7 @@
  dynn_Thakkar: "Тхаккар"
  dynn_Upadhyay: "Упадхьяй"
  dynn_Vidhani: "Видхани"
-  
-  # Additional punjabi 
+ #Additional punjabi
  dynn_Ahluwalia: "Ахлувалия"
  dynn_Anwer: "Анвер"
  dynn_Ashiq: "Ашик"
@@ -10036,8 +9989,7 @@
  dynn_Sidhu: "Сидху"
  dynn_Uppal: "Уппал"
  dynn_Walia: "Валия"
-  
-  # Additional marathi 
+ #Additional marathi
  dynn_Aavhad: "Авхад"
  dynn_Deshmukh: "Дешмукх"
  dynn_Deshpande: "Дешпанде"
@@ -10052,9 +10004,7 @@
  dynn_Sachdev: "Сачдев"
  dynn_Shinde: "Шинде"
  dynn_Verma: "Верма"
-  
-  
-  # Additional kashmiri 
+ #Additional kashmiri
  dynn_Shaikh: "Шейх"
  dynn_Kichlu: "Кичлу"
  dynn_Sopuri: "Сопури"
@@ -10079,8 +10029,7 @@
  dynn_Tarangarwani: "Тарангарвани"
  dynn_Kakarwani: "Какарвани"
  dynn_Parwani: "Парвани"
-  
-  # Additional sinhala 
+ #Additional sinhala
  dynn_Amarasekara: "Амарасекара"
  dynn_Amarashinghe: "Амарашингхе"
  dynn_Bandara: "Бандара"
@@ -10111,11 +10060,9 @@
  dynn_Thirimanne: "Тхириманне"
  dynn_Weerasekara: "Вирасекара"
  dynn_Weerasinghe: "Вирасингхе"
-  
  dynn_lohmander: "Лухмандер"
  dynn_Riedinger: "Ридингер"
  dynn_Bird: "Берд"
-  
  dynn_AragonE_s: "Арагонес"
  dynn_Bosa: "Боза"
  dynn_Farisid: "Фарисид"
@@ -10151,7 +10098,6 @@
  dynn_Xueyantuo: "Сюэяньто"
  dynn_Zhuye: "Чжуе"
  dynn_Zuera: "Цзура"
-  
  dynn_Viggoed: "Виггоед"
  dynn_Sombio: "Сомбио"
  dynn_SuA_digil: "Суадигиль"
@@ -10159,17 +10105,14 @@
  dynn_Redari: "Редари"
  dynn_Tolgag: "Тольгаг"
  dynn_Sokortal: "Сокортал"
-  
  dynn_Lutici: "Литики"
  dynn_Deols: "Деоль"
  dynn_Dragosovic: "Драгошевич"
-  
  dynn_skolti: "Скольти"
  dynn_suontile: "Суонтиле"
  dynn_vuovi: "Вуови"
  dynn_kittali: "Киттали"
-  
-  # Outremer additions 
+ #Outremer additions
  dynn_Agapite: "Агапит"
  dynn_Agot: "Агу"
  dynn_Aleman: "Алеман"
@@ -10293,8 +10236,7 @@
  dynn_Ysis: "Изи"
  dynn_Zerban: "Зербан"
  dynn_Zimblet: "Зэмбле"
-  
-  #Carantanian 
+ #Carantanian
  dynn_Furlan: "Фурлан"
  dynn_Golob: "Голоб"
  dynn_Korosec: "Корошец"
@@ -10348,9 +10290,7 @@
  dynn_Beliv: "Белив"
  dynn_Rumeniv: "Руменив"
  dynn_Zeleniv: "Зеленив"
-  
-  #Additional Tamil / Malayali 
-  
+ #Additional Tamil / Malayali
  dynn_Manaviyan: "Манавиян"
  dynn_Muvar: "Мувар"
  dynn_Venadi: "Венади"
@@ -10362,22 +10302,17 @@
  dynn_Kariyar: "Карияр"
  dynn_Mukkuvar: "Муккувар"
  dynn_Arumbakkam: "Арумбаккам"
-  
-  # Additional Misc 
-  
+ #Additional Misc
  dynn_Creil: "Крей"
  dynn_E_vreux: "Эвре"
  dynn_GuI_nes: "Гин"
  dynn_d__Lyon: "де Лион"
-  
-  #Punjabi 
+ #Punjabi
  dynn_Varha: "Варха"
  dynn_Tilaki: "Тилаки"
  dynn_Darada: "Дарада"
  dynn_Dor: "Дор"
-  
- #Telugu 
-  
+ #Telugu
  dynn_mudigonda_chalukyas: "Мудигонда Чалукья"
  dynn_natavadi: "Натавади"
  dynn_malyala: "Мальяла"
@@ -10388,9 +10323,7 @@
  dynn_induluri: "Индулури"
  dynn_kyastha: "Кьястха"
  dynn_gona: "Гона"
-  
  dynn_Jamshid: "Джамшид"
-  
  dynn_Deogadhi: "Деогадхи"
  dynn_Dher: "Дхер"
  dynn_Halba: "Халба"
@@ -10398,14 +10331,11 @@
  dynn_Murani: "Мурани"
  dynn_Wulinda: "Улиньда"
  dynn_Madia: "Мадия"
-  
- dynn_Konstanz: "Констанц"
+ dynn_Konstanz: "Констанц" #TO_DO_ECC: Does this belong or was it intentionally deleted?
  dynn_Tawfid: "Тавфид"
-  
  dynn_Shefket: "Шевкет"
  dynn_brantevik: "аф Брантевик"
-  
-  # FP2 
+ #FP2
  dynn_Awsaga: "Аусага"
  dynn_Danis: "Бану Данис"
  dynn_Khali: "Бану Хали"
@@ -10518,6 +10448,7 @@
  dynn_Runge_Moller: "Рунге Мёллер"
  dynn_Voleau: "Воло"
  dynn_Stokic: "Стокич"
+ dynn_markovic: "Маркович"
  dynn_Banu_Wafid: "Бану Вафид"
  dynn_Ufes: "Уфес"
  dynn_Hermansson: "Херманссон"
@@ -10531,10 +10462,70 @@
  dynn_drake: "Драке"
  dynn_husen: "Хюсен"
  dynn_dzediti: "Дзедити"
-  
-  #Oriya 
+ dynn_passoni: "Пассони"
+ dynn_lopez: "Лопес"
+ dynn_Strom: "Стрём"
+ dynn_verdugo: "Вердуго"
+ dynn_Velasquez: "Веласкес Араке"
+ dynn_mannetje: "т'Маннетье"
+ #Oriya
  dynn_Chikiti_Ganga: "Чикити Ганга"
-  
-  # Sicily 
+ #Sicily
  dynn_at-Timnahid: "ат-Тимнахид"
  dynn_al-Hawasid: "аль-Хавасид"
+ #FP3
+ dynn_Kumiji: "Кумиджи"
+ dynn_Bukhara_Khuda: "Бухархудат"
+ dynn_al_khazari: "аль-Хазари"
+ dynn_Gardizid: "Гардизид"
+ dynn_Karukhid: "Карухид"
+ dynn_al_Qumis: "аль-Кумис"
+ dynn_Azadmardid: "Азадмердид"
+ dynn_al_Aud: "аль-Ауд"
+ dynn_al_Zanji: "аль-Зинджи"
+ dynn_Sebukid: "Себукид"
+ dynn_Salema: "Бану Салима"
+ dynn_Asateginid: "Асатегинид"
+ dynn_Harmaytan: "аль-Хармайтан"
+ dynn_al_Balkhi: "аль-Балхи"
+ dynn_Pajid: "Паджид"
+ dynn_Shanasbid: "Шансабанид"
+ dynn_Salar: "Салар"
+ dynn_al_adawiyya: "аль-Адавийя"
+ dynn_attab: "Аттаб"
+ dynn_Pamirid: "Памирид"
+ dynn_ribeiro: "Рибейру"
+ dynn_granholm: "Гранхольм"
+ dynn_Urtujid: "Уртуджид"
+ dynn_Sarir: "Сарир"
+ dynn_Badakhshanid: "Бадахшанид"
+ dynn_Alid: "Алид"
+ dynn_al_Bawazij: "аль-Бавазидж"
+ dynn_Welfen: "Вельф"
+ dynn_Khumarteginid: "Хумартегинид"
+ #FP3 East Bantu
+ dynn_Abwao: "Абвао"
+ dynn_Asangwile: "Асангвиле"
+ dynn_Asilisye: "Асилисье"
+ dynn_Bopa: "Бопа"
+ dynn_Dhado: "Дхадо"
+ dynn_Fisa: "Фиса"
+ dynn_Fuli: "Фули"
+ dynn_Iwiba: "Ивиба"
+ dynn_Kahinu: "Кахину"
+ dynn_Keke: "Кеке"
+ dynn_Kimachu: "Кимачу"
+ dynn_Kinga: "Кинга"
+ dynn_Kikuti: "Кикути"
+ dynn_Kitumaini: "Китумайни"
+ dynn_Leka: "Лека"
+ dynn_Madhubuti: "Мадхубути"
+ dynn_Magombo: "Магомбо"
+ dynn_Mathenge: "Матенге"
+ dynn_Mposi: "Мпоси"
+ dynn_Mpiki: "Мпики"
+ dynn_Msuya: "Мсуя"
+ dynn_Ndekile: "Ндекиле"
+ dynn_Njole: "Нджоле"
+ dynn_Pilika: "Пилика"
+ dynn_Suupa: "Суупа"

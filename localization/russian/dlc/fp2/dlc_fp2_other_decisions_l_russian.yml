@@ -15,16 +15,22 @@
  secure_iberian_foothold_decision_confirm: "Сильнейшему."
  fp2_struggle_uninvolved_or_external_tt: "Ваша [capital|El] за пределами [Concept( 'region', 'региона' )|E] [GetGeographicalRegion('world_europe_west_iberia').GetName]"
  fp2_struggle_secure_iberian_foothold_empire_tt: "Вы [Concept( 'hold', 'владеете' )|E] [Concept( 'empire', 'императорским' )|E] [Concept( 'title', 'титулом' )|E], отличным от титула [GetTitleByKey('e_spain').GetNameNoTier]"
- fp2_struggle_phase_hostility_or_opportunity_tt: "[struggle_phase|E] в Иберии — [struggle_phase_iberia_hostility|E] или [struggle_phase_iberia_opportunity|E] (Сейчас: [GetStruggle('iberian_struggle').GetCurrentPhase.GetName])"
- fp2_struggle_secure_iberian_foothold_kingdom_iberian_tt: "Вы [Concept( 'hold', 'удерживаете' )|E] и [Concept( 'completely_control', 'полностью контролируете' )|E] [de_jure|El] [Concept( 'kingdom', 'королевство' )|E] в империи [GetTitleByKey('e_spain').GetNameNoTier]"
- fp2_struggle_secure_iberian_foothold_kingdom_faith_tt: "Не менее #Z [SCOPE.ScriptValue('fp2_struggle_secure_iberian_foothold_faith_target_percent_value')|0]%#! [de_jure|El] [Concept( 'counties', 'графств' )|E] этих [Concept( 'titlepossessive', 'титулов' )|E] #L [THIS.Char.GetFaith.GetName|l]ие#!"
+ #GH/
+ fp2_struggle_phase_hostility_or_opportunity_tt:1 "SHOULD NOT SEE" # GH CHANGE: Removed vanilla references
+ fp2_struggle_secure_iberian_foothold_kingdom_iberian_tt:0 "SHOULD NOT SEE"
+ fp2_struggle_secure_iberian_foothold_kingdom_faith_tt: "Не менее #Z [SCOPE.ScriptValue('fp2_struggle_secure_ritewars_foothold_faith_target_percent_value')|0]%#! [de_jure|El] [Concept( 'counties', 'графств' )|E] этих [Concept( 'titlepossessive', 'титулов' )|E] #L [THIS.Char.GetFaith.GetName|l]ие#!"
+ #GH\
  fp2_struggle_secure_iberian_foothold_kingdom_border_tt: "Этот [title|El] граничит с [de_jure|El] землями [Concept( 'hold', 'принадлежащей' )|E] вам [Concept( 'empire', 'империи' )|E], но это не [GetTitleByKey('e_spain').GetNameNoTier]"
- fp2_struggle_secure_iberian_foothold_kingdom_held_tt: "Вы владели этим [Concept( 'title', 'титулом' )|E] не менее [SCOPE.ScriptValue('fp2_struggle_secure_iberian_foothold_years_value')|0Z] л."
- fp2_struggle_secure_iberian_foothold_religion_tt: "Вы [Concept( 'hold', 'владеете' )|E] хотя бы #Z [SCOPE.ScriptValue('fp2_struggle_secure_iberian_foothold_religion_target_percent_value')|0]%#! #L [THIS.Char.GetFaith.GetReligion.GetName|l]их#! [Concept( 'counties', 'графств' )|E] в [Concept( 'region', 'регионе' )|E] [GetGeographicalRegion('world_europe_west_iberia').GetName] (Сейчас: [SCOPE.ScriptValue('fp2_struggle_secure_iberian_foothold_religion_percent_value')|1]%)\n"
- fp2_struggle_secure_iberian_foothold_outsider_tt: "Вы [Concept( 'hold', 'владеете' )|E] хотя бы #Z [SCOPE.ScriptValue('fp2_struggle_secure_iberian_foothold_outsider_target_percent_value')|0]%#! [Concept( 'counties', 'графств' )|E] в [Concept( 'region', 'регионе' )|E] [GetGeographicalRegion('world_europe_west_iberia').GetName] (Сейчас: [SCOPE.ScriptValue('fp2_struggle_secure_iberian_foothold_outsider_percent_value')|0]%)\n"
+ #GH/ 
+ fp2_struggle_secure_iberian_foothold_kingdom_held_tt: "Вы владели этим [Concept( 'title', 'титулом' )|E] не менее [SCOPE.ScriptValue('fp2_struggle_secure_ritewars_foothold_years_value')|0Z] л."
+ fp2_struggle_secure_iberian_foothold_religion_tt: "Вы [Concept( 'hold', 'владеете' )|E] хотя бы #Z [SCOPE.ScriptValue('fp2_struggle_secure_ritewars_foothold_religion_target_percent_value')|0]%#! #L [THIS.Char.GetFaith.GetReligion.GetName|l]их#! [Concept( 'counties', 'графств' )|E] в [Concept( 'region', 'регионе' )|E] [GetGeographicalRegion('world_europe_west_iberia').GetName] (Сейчас: [SCOPE.ScriptValue('fp2_struggle_secure_ritewars_foothold_religion_percent_value')|1]%)\n"
+ fp2_struggle_secure_iberian_foothold_outsider_tt: "Вы [Concept( 'hold', 'владеете' )|E] хотя бы #Z [SCOPE.ScriptValue('fp2_struggle_secure_ritewars_foothold_outsider_target_percent_value')|0]%#! [Concept( 'counties', 'графств' )|E] в [Concept( 'region', 'регионе' )|E] [GetGeographicalRegion('world_europe_west_iberia').GetName] (Сейчас: [SCOPE.ScriptValue('fp2_struggle_secure_ritewars_foothold_outsider_percent_value')|0]%)\n"
+ #GH\
  fp2_struggle_secure_iberian_foothold_empire_held_effect_tt: "Каждое [de_jure|El] [kingdom|El] в империи [GetTitleByKey('e_spain').GetNameNoTier], удовлетворяющее нижеперечисленным условиям, станет [de_jure|El] частью державы [THIS.Char.GetPrimaryTitle.GetNameNoTier]"
  fp2_struggle_secure_iberian_foothold_empire_dejure_effect_tt: "Каждое [de_jure|El] [kingdom|El] в империи [GetTitleByKey('e_spain').GetNameNoTier], удовлетворяющее нижеперечисленным условиям, станет [de_jure|El] частью [Concept( 'empire', 'империи' )|E] [THIS.Char.GetPrimaryTitle.GetDeJureLiege.GetNameNoTier]"
- fp2_struggle_secure_iberian_foothold_ends_the_struggle_tt: "[iberian_struggle|E] завершается"
+ #GH/ 
+ fp2_struggle_secure_iberian_foothold_ends_the_struggle_tt: "[ritewars_struggle|E] завершается"
+ #GH\ 
  iberian_footholder_transfer_tt: "[THIS] [THIS.Title.GetName] [THIS.GetName]"
  fp2_other_decisions.1000.t: "$secure_iberian_foothold_decision_title$: [iberian_footholder.GetPrimaryTitle.GetAdjectiveNoTooltip]ая консолидация"
  fp2_other_decisions.1000.involved_religion: "Война между разрозненными княжествами Иберии почти поставила #L [ROOT.Char.GetFaith.GetReligion.GetName|l]ие#! державы региона на колени.\n\nБез нашего вмешательства последователи [ROOT.Char.GetFaith.HighGodNamePossessive] будут изгнаны с полуострова деспотичными иноверцами.\n\n"

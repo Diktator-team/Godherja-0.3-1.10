@@ -60,20 +60,32 @@
  unbeliever_heathen: "язычник"
  unbeliever_infidel: "неверный"
  unbeliever_heretic: "еретик"
+ #GH/
+ unbeliever_inhuman:90 "нелюдь"
+ #GH\
  unbeliever_unbeliever: "[Select_CString( CHARACTER.IsFemale, 'неверующая', 'неверующий' )]"
  unbeliever_heathen_adj: "безбожн"
  unbeliever_infidel_adj: "неверн"
  unbeliever_heretic_adj: "еретическ"
+ #GH/
+ unbeliever_inhuman_adj:90 "нелюдск"
+ #GH\
  unbeliever_unbeliever_adj: "неверующ"
  unbeliever_believer: "истинно верующий"
  unbeliever_foreign_infidel: "чужеземец-язычник"
  unbeliever_foreign_heathen: "чужеземец-неверный"
  unbeliever_foreign_heretic: "чужеземец-еретик"
+ #GH/
+ unbeliever_foreign_inhuman:90 "чужеземец-нелюдь"
+ #GH\
  unbeliever_foreign_believer: "чужеземец"
  unbeliever_heathen_plural: "язычники"
  unbeliever_infidel_plural: "неверные"
  unbeliever_heretic_plural: "еретики"
  unbeliever_unbeliever_plural: "неверующие"
+ #GH/
+ unbeliever_inhuman_plural:90 "нелюди"
+ #GH\
  character_afterlife_positive: "[ROOT.Char.GetFaith.PositiveAfterLife] станет местом [ROOT.Char.GetHerHis] упокоения"
  character_afterlife_negative: "[ROOT.Char.GetFaith.NegativeAfterLife] безусловно покарает [ROOT.Char.GetHerHis] за грехи"
  character_afterlife_reincarnation: "скоро возродится в новом обличии"
@@ -86,33 +98,26 @@
  birth_omen_birthmark: "странное родимое пятно"
  chosen_one_taltos: "Талтош"
  chosen_one_fallback: "Мистика"
-  
  rite_mass: "месса"
  rite_prayer: "молитва"
  rite_worship: "богослужение"
-  
-  #Pilgrimage name 
+ #Pilgrimage name
  pilgrimage_default: "Паломничество"
  pilgrimage_hajj: "Хадж"
-  
-  #PilgrimageHeader 
+ #PilgrimageHeader
  pilgrimage_default_header: "Паломничество —"
  pilgrimage_hajj_header: "Хадж —"
-  
-  #PilgrimageLength 
+ #PilgrimageLength
  pilgrimage_short_distance: "недолгое, но насыщенное"
  pilgrimage_medium_distance: "солидное и размеренное"
  pilgrimage_long_distance: "долгое и выдающееся"
  pilgrimage_very_long_distance: "очень долгое и опасное"
-  
-  #GetPilgrimSingularPlural 
+ #GetPilgrimSingularPlural
  pilgrim_singular: "паломник"
  pilgrim_plural: "паломники"
-  
-  # GHWs given by which tenet? 
+ #GHWs given by which tenet?
  ghw_from_which_tenet_armed_pilgrimages: "$tenet_armed_pilgrimages_name$"
  ghw_from_which_tenet_struggle_submission: "$tenet_struggle_submission_name$"
  ghw_from_which_tenet_warmonger: "$tenet_warmonger_name$"
-  
  faithtaxexemption_the_church: "Церковь"
  faithtaxexemption_charities: "благотворительность"

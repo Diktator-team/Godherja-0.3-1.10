@@ -19,12 +19,12 @@
  COUNCILLOR_NO_CHARACTER_IN_POSITION: "$POSITION$ отсутствует"
  START_COUNCIL_TASK_SEND_COUNTY: "[COUNCIL_TASK.GetPositionName] получит задание: [COUNCIL_TASK_TYPE.GetName]. Цель — [COUNTY.GetTitle.GetName]"
  START_COUNCIL_TASK_SEND_COURT: "[COUNCIL_TASK.GetPositionName] получит задание: [COUNCIL_TASK_TYPE.GetName]. Цель — двор персонажа [TARGET.GetShortUIName]"
- START_COUNCIL_TASK_ABORTED: "\n@warning_icon!#X Выполнение задания, которым занимается [COUNCIL_TASK.GetPositionNamePossesive] («[COUNCIL_TASK.GetTaskType.GetName]») будет прервано.#!"
+ START_COUNCIL_TASK_ABORTED: "\n@warning_icon! #X Выполнение задания, которым занимается [COUNCIL_TASK.GetPositionNamePossesive] («[COUNCIL_TASK.GetTaskType.GetName]») будет прервано.#!"
  COUNCILLOR_TASK_ALREADY_IN_PROCESS: "Задание уже выполняется"
- COUNCILLOR_TIMEOUT_FIRE: "@warning_icon!#X [councillor|E] не может лишиться должности до [DATE.GetString]#!"
- COUNCILLOR_TIMEOUT_REASSIGN: "@warning_icon!#X Невозможно сменить должность [Concept( 'councillor', 'советника' )|E] до [DATE.GetString]#!"
- COUNCILLOR_ALREADY_CHANGED: "@warning_icon!#X [councillor|E] уже был однажды уволен или назначен#!"
- COUNCILLOR_CAN_CHANGE_ONCE: "@warning_icon!#X Если [CHARACTER.GetShortUIName] займет пост «[COUNCIL_POSITION_TYPE.GetName|V]», уволить [CHARACTER.GetHerHis] или назначить на другой пост будет невозможно#!"
+ COUNCILLOR_TIMEOUT_FIRE: "@warning_icon! #X [councillor|E] не может лишиться должности до [DATE.GetString]#!"
+ COUNCILLOR_TIMEOUT_REASSIGN: "@warning_icon! #X Невозможно сменить должность [Concept( 'councillor', 'советника' )|E] до [DATE.GetString]#!"
+ COUNCILLOR_ALREADY_CHANGED: "@warning_icon! #X [councillor|E] уже был однажды уволен или назначен#!"
+ COUNCILLOR_CAN_CHANGE_ONCE: "@warning_icon! #X Если [CHARACTER.GetShortUIName] займет пост «[COUNCIL_POSITION_TYPE.GetName|V]», уволить [CHARACTER.GetHerHis] или назначить на другой пост будет невозможно#!"
  COUNCILLOR_CLICK_TO_HIRE: "Нажмите, чтобы назначить на должность [ActiveCouncilTask.GetPositionName|El]"
  COUNCILLOR_BLANK_LIEGE: "В совете вашего [Concept('liege', 'сюзерена' )|E] отсутствует [ActiveCouncilTask.GetPositionName|E]"
  COUNCILLOR_MISSING_SPOUSE: "Нет [Concept('available_spouse', 'доступного супруга' )|E]"
@@ -40,19 +40,116 @@
  learn_on_the_job_modifier: "$learn_on_the_job_perk_name$"
  councillor_coregent: "Сорегент"
  councillor_coregent_possessive: "Сорегент"
- councillor_chancellor: "Канцлер"
- councillor_chancellor_possessive: "Канцлер"
- councillor_steward: "Управляющий"
- councillor_steward_possessive: "Управляющий"
- councillor_marshal: "Маршал"
- councillor_marshal_possessive: "Маршал"
- councillor_spymaster: "Тайный советник"
- councillor_spymaster_possessive: "Тайный советник"
+ #GH/
+ councillor_chancellor:0 "[ROOT.Char.Custom('GetActualChancellorTitle')]"
+ councillor_chancellor_possessive:0 "[ROOT.Char.Custom('GetActualChancellorTitlePossessive')]"
+ councillor_steward:0 "[ROOT.Char.Custom('GetActualStewardTitle')]"
+ councillor_steward_possessive:0 "[ROOT.Char.Custom('GetActualStewardTitlePossessive')]"
+ councillor_marshal:0 "[ROOT.Char.Custom('GetActualMarshalTitle')]"
+ councillor_marshal_possessive:0 "[ROOT.Char.Custom('GetActualMarshalTitlePossessive')]"
+ councillor_spymaster:0 "[ROOT.Char.Custom('GetActualSpymasterTitle')]"
+ councillor_spymaster_possessive:0 "[ROOT.Char.Custom('GetActualSpymasterTitlePossessive')]"
+ #GH\
  councillor_court_chaplain: "Придворный капеллан"
  councillor_court_chaplain_possessive: "Придворный капеллан"
  councillor_vizier: "Наперсник"
  councillor_vizier_desc: "Вы как правитель с [Concept( 'clan_government', 'клановым строем' )|E] можете назначить [Concept( 'vizier', 'визиря' )|E] или любую из своих [Concept( 'spouses', 'супруг' )|E] своим наперсником. Выбранный вами персонаж будет поддерживать вас в рутинных делах."
  councillor_vizier_possessive: "Наперсник"
+ #GH/
+ #Flavor localization for Court Magi.
+#Fallback
+ councillor_court_magi_fallback:90 "Придворный маг"
+ councillor_court_magi_fallback_possessive:90 "Придворный маг"
+
+#Tribal
+ councillor_court_magi_tribal_county_male:90 "Заклинатель"
+ councillor_court_magi_tribal_county_male_possessive:90 "Заклинатель"
+ councillor_court_magi_tribal_county_female:90 "Заклинательница"
+ councillor_court_magi_tribal_county_female_possessive:90 "Заклинательница"
+ councillor_court_magi_tribal_duchy:90 "Плетущий заклинания"
+ councillor_court_magi_tribal_duchy_possessive:90 "Плетущий заклинания"
+ councillor_court_magi_tribal_kingdom:90 "Клановый плетельщик заклинаний"
+ councillor_court_magi_tribal_kingdom_possessive:90 "Клановый плетельщик заклинаний"
+ councillor_court_magi_tribal_empire:90 "Верховный плетельщик заклинаний"
+ councillor_court_magi_tribal_empire_possessive:90 "Верховный плетельщик заклинаний"
+
+#Redlander
+ councillor_court_magi_redlander:90 "Магистр ритуалов"
+ councillor_court_magi_redlander_possessive:90 "Магистр ритуалов"
+
+#Fogeater
+ councillor_court_magi_fogeater:90 "Шептун снов"
+ councillor_court_magi_fogeater_possessive:90 "Шептун снов"
+
+#Flavor localization for Chancellors.
+#Fallback
+ councillor_chancellor_fallback:90 "Канцлер"
+ councillor_chancellor_fallback_possessive:90 "Канцлер"
+
+#Tribal
+ councillor_chancellor_tribal:90 "Оратор"
+ councillor_chancellor_tribal_possessive:90 "Оратор"
+
+#Redlander
+ councillor_chancellor_redlander:90 "Оратор культа"
+ councillor_chancellor_redlander_possessive:90 "Оратор культа"
+
+#Fogeater
+ councillor_chancellor_fogeater:90 "Саккхатврутн"
+ councillor_chancellor_fogeater_possessive:90 "Саккхатврутн"
+
+#Flavor localization for Spymasters.
+#Fallback
+ councillor_spymaster_fallback:90 "Мастер шпионажа"
+ councillor_spymaster_fallback_possessive:90 "Мастер шпионажа"
+
+#Tribal
+ councillor_spymaster_tribal:90 "Секретный агент"
+ councillor_spymaster_tribal_possessive:90 "Секретный агентs"
+
+#Redlander
+ councillor_spymaster_redlander:90 "Раб теней"
+ councillor_spymaster_redlander_possessive:90 "Раб теней"
+
+#Fogeater
+ councillor_spymaster_fogeater:90 "Сптхитхитхитхи хахаха"
+ councillor_spymaster_fogeater_possessive:90 "Сптхитхитхитхи хахаха"
+
+#Flavor localization for Stewards.
+#Fallback
+ councillor_steward_fallback:90 "Управляющий"
+ councillor_steward_fallback_possessive:90 "Управляющий"
+
+#Tribal
+ councillor_steward_tribal:90 "Оратор закона"
+ councillor_steward_tribal_possessive:90 "Оратор закона"
+
+#Redlander
+ councillor_steward_redlander:90 "Мастер рабов"
+ councillor_steward_redlander_possessive:90 "Мастер рабов"
+
+#Fogeater
+ councillor_steward_fogeater:90 "Йротосумагг"
+ councillor_steward_fogeater_possessive:90 "Йротосумагг"
+
+#Flavor localization for Marshal.
+#Fallback
+ councillor_marshal_fallback:90 "Маршал"
+ councillor_marshal_fallback_possessive:90 "Маршал"
+
+#Tribal
+ councillor_marshal_tribal:90 "Мастер войны"
+ councillor_marshal_tribal_possessive:90 "Мастер войны"
+
+#Redlander
+ councillor_marshal_redlander:90 "Хранитель"
+ councillor_marshal_redlander_possessive:90 "Хранитель"
+
+#Fogeater
+ councillor_marshal_fogeater:90 "Мурррррррррррр"
+ councillor_marshal_fogeater_possessive:90 "Мурррррррррррр" 
+ #GH\
+ 
  #Flavor localization for Court Chaplains, sorted by Religion.
  #Fallback
  councillor_court_chaplain_theocrat_county: "Викарный епископ"
