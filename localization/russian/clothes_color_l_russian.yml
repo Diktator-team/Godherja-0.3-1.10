@@ -1,6 +1,6 @@
 ﻿l_russian:
-clothes_color: "Clothes color"
-clothes_color_warning: "@alert_icon! This game feature is unfinished. There may be bugs"
+clothes_color: "Цвет одежды"
+clothes_color_warning: "@alert_icon! Эта функция игры не завершена. Могут быть ошибки"
 # do not translate
 PORTRAIT_MODIFIER_clothes_color: "debug_ignore"
 PORTRAIT_MODIFIER_clothes_color_debug_ignore: "debug_ignore"

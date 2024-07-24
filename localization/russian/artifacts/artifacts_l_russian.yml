@@ -35,25 +35,33 @@
  #Irons and steels for use in arms and armor. All steels are just regional names for wootz steel, which is only known to have been manufactured in Southern India (but ingots of it traveled the silk road).
  metal_iron: "железа"
  metal_wrought_iron: "кованого железа"
- metal_folded_iron: "сфальцованного железа"
+ metal_folded_iron: "сфальцованного железа" 
  metal_steel: "стали"
- metal_wootz_steel: "тигельной стали"
+ #GH/
+ metal_magi_steel: "магической стали"
+ #GH\
  metal_bulat_steel: "булатной стали"
  metal_damascus_steel: "дамасской стали"
  #Metal Feature Derivatives
  feature_blade_metal_wrought_iron: "$metal_wrought_iron$"
  feature_blade_metal_folded_iron: "$metal_folded_iron$"
- feature_blade_metal_wootz_steel: "$metal_wootz_steel$"
+ #GH/ 
+ feature_blade_metal_magi_steel: "$metal_magi_steel$"
+ #GH\ 
  feature_blade_metal_damascus_steel: "$metal_damascus_steel$"
  feature_blade_metal_bulat_steel: "$metal_bulat_steel$"
  feature_head_metal_wrought_iron: "$metal_wrought_iron$"
  feature_head_metal_folded_iron: "$metal_folded_iron$"
- feature_head_metal_wootz_steel: "$metal_wootz_steel$"
+ #GH/ 
+ feature_head_metal_magi_steel: "$metal_magi_steel$"
+ #GH\ 
  feature_head_metal_damascus_steel: "$metal_damascus_steel$"
  feature_head_metal_bulat_steel: "$metal_bulat_steel$"
  feature_handle_metal_wrought_iron: "$metal_wrought_iron$"
  feature_handle_metal_folded_iron: "$metal_folded_iron$"
- feature_handle_metal_wootz_steel: "$metal_wootz_steel$"
+ #GH/ 
+ feature_handle_metal_magi_steel: "$metal_magi_steel$"
+ #GH\ 
  feature_handle_metal_damascus_steel: "$metal_damascus_steel$"
  feature_handle_metal_bulat_steel: "$metal_bulat_steel$"
  #Precious/decorative metals and metal-based compounds
@@ -328,8 +336,10 @@
  feature_decoration_pattern_religious_symbol: "[Artifact.GetOwner.GetFaith.ReligiousSymbol]"
  feature_decoration_pattern_gibberish: "символы, значение которых ведает лишь их создатель,"
  feature_decoration_pattern_bodies: "корчащиеся от боли тела"
- feature_decoration_pattern_culture_symbol: "символы, связанные с [Artifact.GetOwner.GetCulture.GetCollectiveNounNoTooltip|l]ой культурой"
- feature_decoration_pattern_culture_style: "орнаменты и узоры, свойственные [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip|l]ому стилю"
+ #GH/
+ feature_decoration_pattern_culture_symbol: "символы, связанные с [SelectLocalization(Artifact.MakeScope.Var('override_culture').IsSet, Artifact.MakeScope.Var('override_culture').Culture.GetNameNoTooltip, SelectLocalization(Artifact.MakeScope.Var('writing_culture').IsSet, Artifact.MakeScope.Var('writing_culture').Culture.GetNameNoTooltip, Artifact.GetOwner.GetCulture.GetNameNoTooltip))]ой культурой"
+ feature_decoration_pattern_culture_style: "орнаменты и узоры, свойственные [SelectLocalization(Artifact.MakeScope.Var('override_culture').IsSet, Artifact.MakeScope.Var('override_culture').Culture.GetNameNoTooltip, SelectLocalization(Artifact.MakeScope.Var('writing_culture').IsSet, Artifact.MakeScope.Var('writing_culture').Culture.GetNameNoTooltip, Artifact.GetOwner.GetCulture.GetNameNoTooltip))]ому стилю"
+ #GH\
  feature_decoration_pattern_shield: "герб дома [Artifact.GetOwner.GetHouse.GetBaseName]"
  feature_decoration_pattern_dynasty_shield: "$feature_decoration_pattern_shield$"
  feature_decoration_pattern_dynasty_motifs: "элементы девиза и герба дома [Artifact.GetOwner.GetHouse.GetBaseName]"
@@ -341,6 +351,22 @@
  feature_decoration_pattern_animals: "зоологический мотив"
  feature_decoration_pattern_bird: "величественная птица"
  feature_decoration_material_inlay_HSB_placeholder: "ЗАГЛУШКА"
+ 
+ #GH/
+ # GH ADDITION: Extra decoration patterns
+ # GH URGENT: Convert these to regular decoration patterns
+ #feature_vase_decoration_magical_runes:0 "decorated with magical runes on all sides"
+ #feature_vase_decoration_magical_geometric_shapes:0 "decorated with magically-attuned geometric shapes"
+ #feature_vase_decoration_the_purest:0 "decorated with an elaborate rendition of the Purest and First Men"
+ #feature_vase_decoration_the_sea_tower:0 "decorated with an elaborate rendition of the Sea Tower"
+ #feature_vase_decoration_mountain_sun_iconography:0 "decorated with iconography of the old Mountain-Sun Temple"
+ #feature_vase_decoration_cups:0 "decorated with images of cups"
+ #feature_vase_decoration_moons:0 "decorated with images of [aervalr|E]"
+ #feature_vase_decoration_battle:0 "decorated with scenes of battle"
+
+ feature_decoration_pattern_dragon:0 "dragons"
+ feature_decoration_pattern_blood_drops:0 "blood drops"
+ #GH\ 
  ###########
  #Quality and wealth #
  ###########
@@ -691,7 +717,9 @@
  feature_blade_wrought_iron: "кованого железа"
  feature_blade_folded_iron: "сфальцованного железа"
  feature_blade_steel: "стали"
- feature_blade_wootz_steel: "тигельной стали"
+ #GH/
+ feature_blade_magi_steel:0 "магической стали"
+ #GH\
  feature_blade_bulat_steel: "булатной стали"
  feature_blade_damascus_steel: "дамасской стали"
  ## Character Modifiers made to artifacts ##
@@ -990,8 +1018,8 @@
  #Easter eggs
  easteregg_artifact_elisabeth_plush: "Лисье чучело Елизаветы"
  easteregg_artifact_elisabeth_plush_description: "Лисье чучело Елизаветы — любимая игрушка, сопровождавшая свою владелицу на протяжении почти всей жизни. Часто видели, как Елизавета общалась с лисой, составляя сложные шифры для своего нанимателя. Чучело успокаивает и вдохновляет владельца уподобиться в хитроумии лисе."
- easteregg_artifact_nicks_weapon: "Веселый тюремщик"
- easteregg_artifact_nicks_weapon_description: "Поистине великолепное оружие, при виде которого любой лишится чувств. Небольшая надпись на рукояти гласит: «Когда уловки бессильны»."
+ easteregg_artifact_nicks_redolence: "Врачебный аромат"
+ easteregg_artifact_nicks_redolence_description: "Небольшой флакон с ароматической жидкостью, от запаха которой любой лишится чувств. Небольшая надпись на пробке гласит: «Для борьбы с недугами»."
  easteregg_artifact_chad_book: "«Энеида» с пометками"
  easteregg_artifact_chad_book_description: "Ценимая и украшенная копия «Энеиды» Вергилия со множеством пометок, как глупых, так и стоящих внимания."
  easteregg_artifact_chad_dagger: "Кинжал"
@@ -1097,3 +1125,12 @@
  famed_replica_sassanian_sword_description: "Этот меч вдохновлен образами славы ушедшей эпохи и воспевает героическое прошлое предков своего создателя. Это великолепное оружие $sassanian_sword_description_base$. Любой взявший его уподобляется легендарным царям древности."
  masterwork_replica_sassanian_sword_description: "Этот меч явно должен был быть подобен искусному оружию древности и увековечивать героическое прошлое предков своего создателя. Это оружие $sassanian_sword_description_base$. Пусть это лишь отголосок прошлого, любой может представить себя могучим владыкой древности, взяв в руки этот меч."
  common_replica_sassanian_sword_description: "Эта жалкая пародия насмехается над предками своего создателя. Меч украшен дешевыми камнями и грубыми, рваными узорами. Владелец такого меча будет выглядеть заблудшим глупцом, мечтающим вернуть давно ушедшую эпоху."
+ #CE1 Artifacts
+ artifact_magnificent_crown_name: "Великолепная корона"
+ artifact_magnificent_crown_description: "Великолепная филигрань и узоры тонкой работы на этой короне призваны подчеркнуть ее истинное предназначение: на рельефе изображены все предки, каких только помнит [ROOT.Char.GetFirstName], олицетворяющие власть и наделяющие ей владельца короны."
+ artifact_splendid_necklace_name: "Превосходное ожерелье"
+ artifact_splendid_necklace_description: "Это добротное ожерелье переплетено с гербом дома [artifact.GetOwner.GetHouse.GetBaseName], не оставляя сомнений в легитимности владельца."
+ artifact_fine_brooch_name: "Неплохая брошь"
+ artifact_fine_brooch_description: "Имя дома [artifact.GetOwner.GetHouse.GetBaseName], аккуратно вырезанное на гранях этой броши, способствует распространению легитимности."
+ medicine_jar: "Лечебный кувшин"
+ medicine_jar_desc: "Это керамическое изделие, покрытое тонким слоем глазури, содержит смесь редких и сильнодействующих трав, лечебных солей и различные засушенные части животных — все это используется врачами, чтобы лечить болезни и восстанавливать равновесие гуморов."

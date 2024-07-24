@@ -51,6 +51,10 @@
  inspiration_artisan_type_throne: "трон"
  inspiration_artisan_type_scientific_apparatus: "научный прибор"
  inspiration_artisan_type_urn: "урна"
+ #GH/
+ inspiration_artisan_type_earthware:0 "глиняный сосуд"
+ inspiration_artisan_type_glassware:0 "стеклянный сосуд" 
+ #GH\
  smith_inspiration_description_set_type: "[ROOT.Char.Custom('InspirationForgePresentFuture')] [ROOT.Char.Custom('InspirationSmithType')]"
  smith_inspiration_description: "[ROOT.Char.Custom('InspirationForgePresentFuture')] что-то чудесное"
  inspiration_smith_type_brooch: "брошь"

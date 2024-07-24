@@ -25,6 +25,8 @@
  PT_AI_RECIPIENT_IS_ROUGHLY_EQUAL: "[recipient.GetSheHe|U] [Select_CString(recipient.IsFemale, 'схожа', 'схож' )] с вами по силе: $VALUE|=+0$"
  PT_AI_RECIPIENT_IS_SOMEWHAT_STRONGER: "[recipient.GetSheHe|U] несколько сильнее вас: $VALUE|=+0$"
  PT_AI_RECIPIENT_IS_MUCH_STRONGER: "[recipient.GetSheHe|U] намного сильнее вас: $VALUE|=+0$"
+ PT_AI_IS_PACIFIST_FAITH_2: "[secondary_recipient.GetFaith.GetAdjective] — пацифистская вера: $VALUE|=+0$"
+ PT_AI_IS_PACIFIST_CULTURE_2: "#L [secondary_recipient.GetCulture.GetCollectiveNoun]ая#! культура — пацифистская: $VALUE|=+0$"
  incite_revolts_interaction: "$game_concept_incite_revolts_interaction$"
  incite_revolts_interaction_desc: "Потратить [Concept( 'gold', 'золото' )|E] на дестабилизацию [recipient.GetHerHis] [Concept( 'realm', 'державы' )|E]"
  small_investment: "Небольшое вложение"
@@ -46,7 +48,9 @@
  TRUCE_ENFORCE_TRUCE: "Навязанное перемирие"
  enforce_truce_interaction_actor_toast: "Перемирие навязано"
  enforce_truce_interaction_toast: "Перемирие навязано персонажем [actor.GetTitledFirstName]"
- fp2_enforce_truce_war_with_not_involved_tt: "Другой [war_leader|El] не [Concept( 'struggle_involved', 'участвует' )|E] в [Concept( 'iberian_struggle', 'борьбе за Иберию' )|E]."
+ #GH/
+ fp2_enforce_truce_war_with_not_involved_tt: "Другой [war_leader|El] не [Concept( 'struggle_involved', 'участвует' )|E] в [Concept( 'ritewars_struggle', 'северных ритуальных войнах' )|E]."
+ #GH\
  fp2_enforce_truce_liege_or_independent_tt: "[recipient.GetTitledFirstName] или [recipient.GetHerHis] враг должен быть [Concept( 'independent_ruler', 'независимым правителем' )|E] или принадлежать к одной с вами [Concept( 'realm', 'державе' )|E] и быть не выше вас [Concept( 'rank', 'рангом' )|E]"
  fp2_enforce_truce_tier_difference_tt: "Оба [Concept( 'war_leaders', 'лидера' )|E] должны быть не выше вас [Concept( 'rank', 'рангом' )|E]"
  fp2_enforce_truce_other_tt: "[truce_1.GetTitledFirstName|Z] и [truce_2.GetTitledFirstName|Z] получают [Concept( 'truce', 'перемирие' )|E] на #Z [SCOPE.ScriptValue('fp2_enforce_truce_duration_value')|0] л.#!"

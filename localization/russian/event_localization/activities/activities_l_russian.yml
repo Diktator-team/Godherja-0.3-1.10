@@ -3,7 +3,7 @@
  ACTIVITY_WAITING_TOOLTIP: "[CHARACTER.GetName] приглашает.\nОжидание ответов на все приглашения.\n$DESC|F$\n\n#I Нажмите, чтобы показать подробности#! "
  ACTIVITY_TIME_LEFT: "#D Начало через $TIME|V$ дн#!"
  ACTIVITY_OWNED_BY: "#D Владелец: $NAME$#!"
- ACTIVITY_FULL_NAME: "[ActivityType.GetNameNoTooltip] персонажа [Select_CString(Character.IsLocalPlayer, '', 'персонажа ' )][Character.GetNamePossessiveOrMy][Select_CString(Character.IsLocalPlayer, 'его персонажа', '' )]"
+ ACTIVITY_FULL_NAME: "[ActivityType.GetNameNoTooltip] [Select_CString(Character.IsLocalPlayer, '', 'персонажа ' )][Character.GetNamePossessiveOrMy][Select_CString(Character.IsLocalPlayer, 'его персонажа', '' )]"
  ACTIVITY_SHORT_NAME: "[ActivityType.GetNameNoTooltip]"
  ACTIVITY_TYPE_DESC: "[AddLine(ActivityOption.GetIsValidDesc( GetPlayer, ActivityPlanner.GetSelectedSpecialOption ))]\n[ActivityOption.GetDescription]"
  ACTIVITY_OPTION_TOOLTIP: "#T [ActivityOption.GetName]#![AddLine(ActivityOption.GetIsValidDesc( GetPlayer, ActivityPlanner.GetSelectedSpecialOption ))]\n[ActivityOption.GetDescription]"
@@ -64,7 +64,7 @@
  activity_feast_destination_selection: "Выбранное графство на 5 лет получит модификатор «[GetModifier( 'feast_recent_fest_modifier' ).GetNameWithTooltip|L]»."
  activity_feast_selection_tooltip: "Устроить грандиозный банкет ради укрепления отношений\n\nОжидаемые награды:\n$BULLET_WITH_TAB$[opinion_i] [Concept( 'opinion', 'Мнение' )|E]\n$BULLET_WITH_TAB$Потеря [stress_loss_i] [Concept( 'stress', 'стресса' )|E]"
  activity_feast_amenity_effect: "$BULLET_WITH_TAB$Награды увеличены в соответствии с вашими [Concept( 'court_amenities', 'придворными увеселениями' )|E], связанными с едой"
- activity_feast_host_desc: "$BULLET_WITH_TAB$[Concept( 'opinion', 'Мнение' )|E] [GetVassalStance( 'courtly' ).GetTextIcon]куртуазных [Concept( 'vassal', 'вассалов' )|E] может улучшиться\n$BULLET_WITH_TAB$Можно получить [prestige_i][Concept( 'prestige', 'престиж' )|E]\n$BULLET_WITH_TAB$[Concept( 'opinion', 'Мнение' )|E] гостей об участниках может улучшиться\n$BULLET_WITH_TAB$[stress_loss_i][Concept( 'stress', 'Стресс' )|E] участников может снизиться\n$BULLET_WITH_TAB$Участники могут получить [Concept( 'trait', 'свойство' )|E] «[GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]»\n[SelectLocalization( HasDlcFeature( 'royal_court' ), 'activity_feast_amenity_effect', 'blank_line' )]"
+ activity_feast_host_desc: "$BULLET_WITH_TAB$[Concept( 'opinion', 'Мнение' )|E] [GetVassalStance( 'courtly' ).GetTextIcon]куртуазных [Concept( 'vassal', 'вассалов' )|E] может улучшиться\n$BULLET_WITH_TAB$Можно получить [prestige_i][Concept( 'prestige', 'престиж' )|E]\n$BULLET_WITH_TAB$Можно получить [legitimacy_i] [Concept( 'legitimacy', 'легитимность' )|E]\n$BULLET_WITH_TAB$[Concept( 'opinion', 'Мнение' )|E] гостей об участниках может улучшиться\n$BULLET_WITH_TAB$[stress_loss_i][Concept( 'stress', 'Стресс' )|E] участников может снизиться\n$BULLET_WITH_TAB$Участники могут получить [Concept( 'trait', 'свойство' )|E] «[GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]»\n[SelectLocalization( HasDlcFeature( 'royal_court' ), 'activity_feast_amenity_effect', 'blank_line' )]"
  activity_feast_conclusion_desc: "«[GetActivityType( 'activity_feast' ).GetName] завершился»"
  activity_feast_magnificence_greagarious_desc: "Вы [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )|l] легендарных масштабов"
  feast_recent_fest_modifier: "Великий банкет"
@@ -72,7 +72,7 @@
  feast_start_log_title: "Пир начинается"
  feast_start_log: "[CHARACTER.GetTitledFirstName] тепло [Select_CString(CHARACTER.IsFemale, 'поприветствовала', 'поприветствовал' )] собравшихся, после чего начался пир"
  feast_phase_meal_desc: "Еда, питье, хорошая компания — #EMP что может быть лучше?#!"
- feast_phase_toast_desc: "Особенный момент для почетного гостя"
+ feast_phase_toast_desc: "Особенный момент, чтобы завершить вечер"
  progress_towards_reveler_tt: "Вы стали ближе к [Concept( 'trait', 'свойству' )|E] «[GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]»"
  feast_type_murder_valid_tt: "За последние 15 лет вы проводили убийственный [GetActivityType('activity_feast').GetName]"
  wedding_type_murder_valid_tt: "За последние 15 лет под вашим руководством проводилась кровавая [GetActivityType('activity_wedding').GetName]"
@@ -100,6 +100,9 @@
  feast_cost_discount_citadel_of_aleppo: "В этом месте есть $building_citadel_of_aleppo_02$"
  feast_cost_discount_theodosian_walls: "В этом месте есть $building_theodosian_walls_01$"
  feast_cost_discount_hall_of_heroes: "В этом месте есть $building_type_hall_of_heroes_01$"
+ #GH/
+ feast_cost_discount_dahangon_terraces:0 "В этом месте есть $building_type_dahangon_terraces_01$" # GH ADDITIONS: Added for dahangon terraces 
+ #GH\
  activity_feast_province_desc_theodosian_walls: "#P +++ Феодосиевы стены#!"
  activity_feast_province_desc_hall_of_heroes: "#P +++ Чертог героев#!"
  activity_feast_province_desc_citadel_of_aleppo: "#P +++ Цитадель Алеппо#!"
@@ -112,6 +115,9 @@
  activity_feast_province_desc_orchards: "#P + Фруктовые сады#!"
  activity_feast_province_desc_cereal_fields: "#P + Фермы и поля#!"
  activity_feast_province_desc_plantations: "#P + Пустынное земледелие#!"
+ #GH/ 
+ activity_feast_province_desc_dahangon_terraces:1 "#P + $building_type_dahangon_terraces_01$#!" # GH ADDITIONS: Added for dahangon terraces 
+ #GH\ 
  activity_feast_province_desc_no_holding: "#N −−− Отсутствует [holding|Pl]#!"
  courses_reward_food_court_amenity_tt: "Увеселения при дворе увеличивают награды"
  courses_good_reward_tt_title: "$final_reward_tt$"
@@ -230,7 +236,9 @@
  activity_pilgrimage.is_location_valid.capital_is_mecca: "Вы не можете совершить хадж, так как Мекка — ваша столица"
  activity_pilgrimage.is_valid.islam.mandatory_or_impatient: "Что-то из перечисленного:\n$EFFECT_LIST_BULLET$ Ваша [faith|E] опирается на [Concept( 'doctrine', 'доктрину' )|E] паломничества «[GetFaithDoctrine('doctrine_pilgrimage_mandatory_hajj').GetBaseName]»\n$EFFECT_LIST_BULLET$ Вам свойственна [GetTrait('impatient').GetName(GetNullCharacter)|l]"
  activity_pilgrimage.is_valid.other.mandatory_or_impatient: "Что-то из перечисленного:\n$EFFECT_LIST_BULLET$ Ваша [faith|E] опирается на [Concept( 'doctrine', 'доктрину' )|E] паломничества «[GetFaithDoctrine('doctrine_pilgrimage_mandatory').GetBaseName]»\n$EFFECT_LIST_BULLET$ Вам свойственна [GetTrait('impatient').GetName(GetNullCharacter)|l]"
- activity_pilgrimage.is_valid.pilgrim_or_patient: "Что-то из перечисленного:\n$EFFECT_LIST_BULLET$ Вам свойственна [GetTrait('patient').GetName(GetNullCharacter)|l]\n$EFFECT_LIST_BULLET$ Вам [Concept( 'trait', 'свойственно' )|E] [GetTrait('pilgrim').GetName(GetNullCharacter)|l]\n$EFFECT_LIST_BULLET$ Вам [Concept( 'trait', 'свойственен' )|E] [GetTrait('hajjaj').GetName(GetNullCharacter)]"
+ #GH/
+ activity_pilgrimage.is_valid.pilgrim_or_patient: "Что-то из перечисленного:\n$EFFECT_LIST_BULLET$ Вам свойственна [GetTrait('patient').GetName(GetNullCharacter)|l]\n$EFFECT_LIST_BULLET$ Вам [Concept( 'trait', 'свойственно' )|E] [GetTrait('pilgrim').GetName(GetNullCharacter)|l]"
+ #GH\
  activity_pilgrimage.is_valid.hajjed_recently: "Совершать хадж можно только раз в несколько ([EmptyScope.ScriptValue('hajj_cooldown_value')|0]) лет"
  ACTIVITY_TYPE_ON_COOLDOWN: "@warning_icon! #X Организовать это занятие невозможно еще [DATE.GetTimeToDate()]#!"
  is_healthy_tt: "Пышет здоровьем"

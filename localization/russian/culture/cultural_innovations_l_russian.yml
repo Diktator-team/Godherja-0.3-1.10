@@ -1,5 +1,5 @@
 ﻿l_russian:
- cb_discount_prestige_10: "Затраты [Concept( 'prestige', 'престижа' )|E] на [casus_belli|E]: [prestige_i]#P −10%#!"
+ cb_discount_prestige_10: "Затраты [Concept( 'prestige', 'престижа' )|E] на [casus_belli|El]: [prestige_i]#P −10%#!"
  cb_discount_piety_10: "Затраты [Concept('piety', 'благочестия' )|E] на [casus_belli|El]: [piety_i]#P −10%#!"
  individual_county_de_jure_cb: "Отдельное [de_jure|El] [county|El]"
  individual_duchy_de_jure_cb: "Отдельное [de_jure|El] [duchy|El]"
@@ -26,6 +26,7 @@
  unlock_late_medieval_fortification_buildings: "Открывает все [fortification_buildings|El] эпохи позднего Средневековья"
  unlocks_naval_raiding: "Открывает возможность устраивать [Concept('raid', 'налеты' )|E] по морю, если вам уже доступны [Concept('raid', 'налеты' )|E]"
  unlocks_sailable_major_rivers: "Открывает возможность ходить по крупным рекам"
+ unlock_wind_furnaces: "Открывает линейку [Concept( 'buildings', 'зданий' )|E] «$building_type_wind_furnace_01$» в прибрежных [Concept( 'holdings', 'владениях' )|E] региона [GetGeographicalRegion('world_india').GetName]"
  unlock_march_contract: "Открывает [feudal_contract|El] «#high $special_contract_march_short$#!»"
  unlock_scutage_contract: "Открывает [feudal_contract|El] «#high $special_contract_scutage_short$#!»"
  unlock_palatinate_contract: "Открывает [feudal_contract|El] «#high $special_contract_palatinate_short$#!»"
@@ -75,12 +76,16 @@
  innovation_war_camels_desc: "Верблюды от природы приспособлены для жизни в засушливой местности, но к битвам их необходимо готовить специальным образом. Наши заводчики и дрессировщики помогут нам создать небывалую конницу, и мы станем повелителями песков."
  eligible_accolade_camelry_attribute_ACCOLADES_DLC: "[Concept('knights', 'Рыцари' )|E] этой [Concept('culture', 'культуры' )|E] могут получить [accolades|El] «[GetAccoladeType('camelry_attribute').GetName]»"
  eligible_accolade_camelry_attribute: "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_camelry_attribute_ACCOLADES_DLC')]"
- innovation_elephantry: "Элефантерия"
- innovation_elephantry_desc: "Слонов трудно растить в неволе, и каждый махаут должен поймать собственного дикого слона и научить его всему необходимому. Использование слонов в сражениях — подлинное искусство, и мы намерены в совершенстве овладеть им."
+ #GH/
+ # innovation_elephantry: "Элефантерия" # GH CHANGE: Commented these out since we have our own loc removing the IRL reference to 'mahout'
+ # innovation_elephantry_desc: "Слонов трудно растить в неволе, и каждый махаут должен поймать собственного дикого слона и научить его всему необходимому. Использование слонов в сражениях — подлинное искусство, и мы намерены в совершенстве овладеть им."
+ #GH\
  eligible_accolade_elephantry_attribute_ACCOLADES_DLC: "[Concept('knights', 'Рыцари' )|E] этой [Concept('culture', 'культуры' )|E] могут получить [accolades|El] «[GetAccoladeType('elephantry_attribute').GetName]»"
  eligible_accolade_elephantry_attribute: "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_elephantry_attribute_ACCOLADES_DLC')]"
- innovation_wootz_steel: "Тигельная сталь"
- innovation_wootz_steel_desc: "Также известный как хиндувани или серик, этот богатый углеродом металл отлично подходит для создания оружия. Тигельной сталью торгуют по всему миру: считается, что это один из лучших видов стали. С древних времен этот материал вызывал восхищение арабских, египетских, китайских и даже римских покупателей."
+ #GH/
+ innovation_magi_steel: "Магическая сталь"
+ innovation_magi_steel_desc: "Также известный как хиндувани или серик, этот богатый углеродом металл отлично подходит для создания оружия. Тигельной сталью торгуют по всему миру: считается, что это один из лучших видов стали. С древних времен этот материал вызывал восхищение арабских, египетских, китайских и даже римских покупателей."
+ #GH\
  innovation_african_canoes: "Западноафриканские каноэ"
  innovation_african_canoes_desc: "Большие каноэ Западной Африки отлично подходят для передвижения по рекам и позволяют нам при необходимости быстро перебрасывать войска."
  innovation_table_of_princes: "Стол королей"

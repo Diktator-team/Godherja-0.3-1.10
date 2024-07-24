@@ -6,7 +6,7 @@
  TITLE_CLAN_TIERED_WITH_UNDERLYING_NAME: "$TIER|U$ $NAME$ов #F ($TIER|U$ $BASE_NAME$) #!"
  TITLE_CLAN_TIERED_WITH_UNDERLYING_NAME_DEFINITE_FORM: "$TIER|U$ $NAME$ов #F ($BASE_NAME$) #!"
  TITLE_TIER_AS_NAME: "$TIER|U$"
-  # Custom (changed from default) title names: 
+ #Custom (changed from default) title names:
  LOTHARINGIA: "$k_lotharingia$"
  LOTHARINGIA_adj: "$k_lotharingia_adj$"
  WEST_FRANCIA: "Западная Франкия"
@@ -19,8 +19,7 @@
  GERMANY_adj: "Германск"
  NEUSTRIA: "Нейстрия"
  NEUSTRIA_adj: "Нейстрийск"
-  
-  # Default title names 
+ #Default title names
  b_Warka: "Варка"
  b_Xanten: "Ксантен"
  b_Xauen: "Шавен"
@@ -201,7 +200,7 @@
  b_aguilardecampo: "Агилар-де-Кампо"
  b_aguilas: "Агилас"
  b_agurto: "Агурто"
- b_ahanjaran: "Аханджаран"
+ b_ahanjaran: "Мандеш"
  b_ahar: "Ахар"
  b_aharji: "Ахарджи"
  b_aheim: "Охейм"
@@ -1162,7 +1161,7 @@
  b_banjaluka: "Баня-Лука"
  b_banjikat: "Банджикат"
  b_bank: "Банк"
- b_bannajbur: "Баннаджбур"
+ b_bannajbur: "Панджгур"
  b_bannu: "Банну"
  b_bansberia: "Бансберия"
  b_banyas: "Банияс"
@@ -4837,7 +4836,7 @@
  b_karachev: "Карачев"
  b_karagandy: "Караганда"
  b_karahataka: "Карахатака"
- b_karaj-abu-dulad: "Кередж-Абу-Дулад"
+ b_karaj-abu-dulad: "Карадж-Абу-Дулаф"
  b_karaj: "Кередж"
  b_karakal: "Каракал"
  b_karakul: "Каракуль"
@@ -5072,7 +5071,7 @@
  b_khenchela: "Хеншела"
  b_kheralu: "Кхералу"
  b_kherla: "Кхерла"
- b_kherson: "Белховичи"
+ b_kherson: "Усу-Лимани"
  b_khertvisi: "Хертвиси"
  b_khetaka: "Кхетака"
  b_khewra: "Хевра"
@@ -8526,7 +8525,7 @@
  b_sabta: "Сабта"
  b_sabugal: "Сабугал"
  b_sabur: "Себур"
- b_saburkhawasht: "Себурхавешт"
+ b_saburkhawasht: "Дехи-Сиах"
  b_sabzavar: "Себзевар"
  b_sabzevar: "Себзебар"
  b_sacca: "Сэкка"
@@ -8637,7 +8636,9 @@
  b_salzburg: "Зальцбург"
  b_salzungen: "Зальцунген"
  b_salzwedel: "Зальцведель"
- b_samail: "Самаиль"
+ #GH/
+ #b_samail: "Самаиль"
+ #GH\
  b_samaiqan: "Самалкан"
  b_samakanda: "Самаканда"
  b_samaleswari: "Самалесвари"
@@ -9053,7 +9054,7 @@
  b_shawashkan: "Шавашкан"
  b_shayzar: "Шайзар"
  b_shcheremenski: "Щеременский"
- b_sheffield: "Шеффилд"
+ b_sheffield: "Эскафельд"
  b_sheikhupur: "Шейкхупур"
  b_shekhan: "Шехан"
  b_shekhsar: "Шекхсар"
@@ -9186,7 +9187,7 @@
  b_sinj: "Синдж"
  b_sinjah: "Синджах"
  b_sinjar: "Синджар"
- b_sinjcroat: "Синджорват" #Машинный перевод 28.10.23
+ b_sinjcroat: "Синдж"
  b_sinkat: "Синкат"
  b_sinope: "Синоп"
  b_sioboradh: "Шуборадх"
@@ -10387,7 +10388,7 @@
  b_udupi: "Удупи"
  b_ueckermunde: "Иккермюнде"
  b_uelzen: "Ильцен"
- b_ufa: "Уфа"
+ b_ufa: "Башкорт"
  b_uffenheim: "Уффенхейм"
  b_ufimskiy: "Уфимский"
  b_ughtik: "Угтик"
@@ -13686,7 +13687,7 @@
  c_olavinlinna_adj: "Олавинлиннск"
  c_oldenburg: "Ольденбург"
  c_oldenburg_adj: "Ольденбургск"
- c_oleshye: "Олешье"
+ c_oleshye: "Кызыл-Джар"
  c_oleshye_adj: "Олешск"
  c_olmedo: "Ольмедо"
  c_olomouc: "Оломоуц"
@@ -16292,6 +16293,7 @@
  e_latin_empire_adj: "Латинск"
  e_latin_empire_pre: "Латинск"
  e_maghreb: "Магриб"
+ e_maghreb_adj: "Магриб"
  e_mali: "Мали"
  e_mongol_empire_article: "$POSSESSIVE_SPECIAL$"
  e_mongol_empire: "Монгольская империя"
@@ -16530,6 +16532,7 @@
  k_lotharingia: "Лотарингия"
  k_lotharingia_adj: "Лотарингск"
  k_maghreb: "Магриб"
+ k_maghreb_adj: "Магриб"
  k_magyar_article: "$POSSESSIVE_SPECIAL$"
  k_magyar: "Мадьярская конфедерация"
  k_magyar_adj: "Мадьярск"
@@ -16844,11 +16847,10 @@
  d_samaritan_adj: "Самаритянск"
  d_kabarism: "Кузаритское высшее духовенство"
  d_kabarism_adj: "Кузаритск"
-  
  d_mazdayasna: "Высшее духовенство Маздаясны"
  d_mazdayasna_adj: "Маздаяснийск"
- d_zurvanism: "Высшее духовенство зурванитов"
- d_zurvanism_adj: "Зурванитск"
+ d_zurvanism: "Высшее духовенство бехаферидитов"
+ d_zurvanism_adj: "Бехаферидистск"
  d_gayomarthianism: "Высшее духовенство гайомартов"
  d_gayomarthianism_adj: "Гайомартск"
  d_khurmazta: "Высшее духовенство хормуститов"
@@ -16859,9 +16861,7 @@
  d_khurramism_adj: "Хуррамитск"
  d_urartuism: "Высшее духовенство Ареворди"
  d_urartuism_adj: "Аревордийск"
-  
  d_manichean: "$manichean_adj$ $manichean_religious_head_title_name$"
-  
  c_dinawar: "Диневер"
  c_dinawar_adj: "Диневерск"
  b_andarab_d: "Андараб"
@@ -17047,7 +17047,6 @@
  c_al-haditha_adj: "Аль-Хадитск"
  b_al-haditha-furat: "Аль-Хадита-Фурат"
  b_ana: "Ана"
-  
  b_priluk: "Прилуки"
  c_hradyzk: "Градижск"
  c_hradyzk_adj: "Градижск"
@@ -17148,7 +17147,6 @@
  b_pikalyovo: "Пикалево"
  b_makariev: "Макарьев"
  d_ryazan_adj: "Муромо-Рязанск"
-  
  e_caspian-pontic_steppe: "Хазария"
  e_caspian-pontic_steppe_adj: "Хазарск"
  k_pontic_steppe: "Запорожье"
@@ -17180,8 +17178,8 @@
  c_cherkassy_adj: "Черкаск"
  c_odessa: "Кара-Керман"
  c_odessa_adj: "Кара-Керманск"
- c_kherson: "Белховичи"
- c_kherson_adj: "Белховичск"
+ c_kherson: "Ингул"
+ c_kherson_adj: "Ингульск"
  c_dnipro: "Бури-Чай"
  c_dnipro_adj: "Бури-Чайск"
  c_khortytsia: "Илкы-Су"
@@ -17212,8 +17210,9 @@
  c_maghas_adj: "Магасск"
  c_zichia: "Зихия"
  c_zichia_adj: "Зихск"
- c_samander: "Семендер"
- c_samander_adj: "Семендерск"
+ #change for FP3, Samander --> Sarir
+ c_samander: "Сарир"
+ c_samander_adj: "Сарирск"
  c_samiran: "Самиран"
  c_samiran_adj: "Самиранск"
  c_saqsin: "Саксин"
@@ -17228,25 +17227,25 @@
  c_uman_adj: "Уманск"
  b_ladyzyn: "Ладыжин"
  b_birzula: "Бирзула"
- b_liubashivka: "Любашевка"
+ b_liubashivka: "Чичеклея"
  b_buky: "Буки"
  b_sacacatce: "Ингул"
  b_pervomaisk: "Орлик"
  b_tiraspol: "Тирас"
  b_okachiv: "Кара-Керман"
- b_kazanka: "Еланец"
- b_voznessensk: "Чичаклей"
+ b_kazanka: "Ингул"
+ b_voznessensk: "Мервовид"
  b_berysk: "Береск"
  b_nikopol: "Никитин Рог"
  b_dnipro: "Бури-Чай"
  b_salmacatce: "Саксаган"
  b_oleshye: "Олешье"
- b_kakovka: "Ислам-Кермен"
+ b_kakovka: "Аслан-Город"
  b_kyzyl_jar: "Кызыл-Яр"
  b_khortytsia: "Илкы-Су"
- b_mariupol: "Калка"
+ b_mariupol: "Южная Калка"
  b_kutur-ogly: "Кутур-Оглы"
- b_donetsk: "Донец"
+ b_donetsk: "Северная Калка"
  b_lozova: "Залозный путь"
  b_tor: "Тор"
  b_volcha: "Волчья"
@@ -17316,11 +17315,10 @@
  b_yelan: "Елань"
  b_yary: "Яры"
  b_olbia_ETEL: "Ольвия"
- b_beryslav: "Доган-гечит"
+ b_beryslav: "Кызы-Кермен"
  b_kuzeytorg: "Кузейторг"
  b_guryev: "Атырау"
-  
-  #Misc Religious Titles 
+ #Misc Religious Titles
  d_patriarchate_in_the_east_article: "$POSSESSIVE_SPECIAL$"
  d_patriarchate_in_the_east: "Патриархат Востока"
  d_patriarchate_in_the_east_adj: "Вселенск"
@@ -17333,8 +17331,7 @@
  d_conversos_article: "$POSSESSIVE_SPECIAL$"
  d_conversos: "Папство Конверсо"
  d_conversos_adj: "Конверсо"
-  
-  #Syria and Jerusalem 
+ #Syria and Jerusalem
  b_abbadan: "Аббадан"
  b_adruh: "Адрух"
  b_aila: "Айла"
@@ -17505,8 +17502,7 @@
  d_palmyra_adj: "Пальмирск"
  d_urdunn: "Урдунн"
  d_urdunn_adj: "Урдуннск"
-  
-  #Volga Bulgaria 
+ #Volga Bulgaria
  e_volga-ural: "Волга-Урал"
  e_volga-ural_adj: "Волго-Уральск"
  k_mordvinia: "Мордвиния"
@@ -17611,7 +17607,7 @@
  c_kolyn_adj: "Колынск"
  c_martyuba: "Мартюба"
  c_martyuba_adj: "Мартюбск"
- c_ufa: "Башгирд"
+ c_ufa: "Башкорт"
  c_ufa_adj: "Башгирдск"
  c_uraltau: "Уралтау"
  c_uraltau_adj: "Уралтауск"
@@ -17798,8 +17794,7 @@
  b_chelabinsk: "Селябэ"
  b_troizk: "Карабалык"
  b_baklanska: "Юргамыш"
-  
-  # Egypt 
+ #Egypt
  b_abu_ghalib: "Абу-Галиб"
  b_ahnas: "Ахнас"
  b_ain_al-gharbi: "Айн-Аль-Гарби"
@@ -17913,8 +17908,7 @@
  d_delta_adj: "Дельтск"
  d_eastern_desert: "Восточная пустыня"
  d_eastern_desert_adj: "Восточнопустынск"
-  
-  #Anatolia & Cyprus 
+ #Anatolia & Cyprus
  k_nikaea: "Никея"
  k_nikaea_adj: "Никейск"
  k_pontus: "Понт"
@@ -18133,8 +18127,7 @@
  b_kyzistra: "Кизистра"
  b_arasaxa: "Арасакса"
  b_soli_CYP: "Солы"
-  
-  #Armenia & Georgia 
+ #Armenia & Georgia
  d_chaldia: "Халдия"
  d_chaldia_adj: "Халдийск"
  d_vaspurakan: "Васпуракан"
@@ -18284,8 +18277,7 @@
  b_nakorzan: "Накорзан"
  b_barzand: "Берзенд"
  b_gher: "Гер"
-  
-  #Bjarmaland 
+ #Bjarmaland
  k_bjarmaland: "Бьярмия"
  k_bjarmaland_adj: "Бьярмск"
  d_biarmia: "Биармия"
@@ -18372,10 +18364,8 @@
  b_verkola: "Веркола"
  b_osmova: "Осмова"
  b_ostrov_BJA: "Остров"
-  
  c_cykma: "Цикма"
  c_cykma_adj: "Цикминск"
-  
  b_ad-dathina: "Ад-Датина"
  b_ahwan: "Ахван"
  b_ainun: "Айнун"
@@ -18871,8 +18861,7 @@
  d_yamama_adj: "Ямамск"
  k_yemen: "Йемен"
  k_yemen_adj: "Йеменск"
-  
-  #Siberia 
+ #Siberia
  e_siberia: "Сибирь"
  e_siberia_adj: "Сибирск"
  k_siberia: "WIP Сибирь"
@@ -18881,7 +18870,6 @@
  k_yugra_adj: "Югорск"
  k_sibir: "Сибирь"
  k_sibir_adj: "Сибирск"
-  # 
  d_siberia: "Сибирь"
  d_siberia_adj: "Сибирск"
  d_ostyaki: "Остяки"
@@ -18904,7 +18892,6 @@
  d_EAST_adj: "WIP_EAST"
  d_lanikaz: "Ланиказ"
  d_lanikaz_adj: "Ланиказск"
-  # 
  c_siberia: "Сибирь"
  c_siberia_adj: "Сибирск"
  c_laia: "Лая"
@@ -18937,8 +18924,8 @@
  c_dolgujar_adj: "Долгужарск"
  c_tara: "Тара"
  c_tara_adj: "Тарск"
- c_kazanskoye: "Ченчерь"
- c_kazanskoye_adj: "Казанск"
+ c_kazanskoye: "Солёное"
+ c_kazanskoye_adj: "Солонянск"
  c_petropavolsk: "Иртыш"
  c_petropavolsk_adj: "Иртышск"
  c_kurgan: "Курган"
@@ -18965,9 +18952,8 @@
  c_omsk_adj: "Омск"
  c_kainsk: "Каен"
  c_kainsk_adj: "Каенск"
- c_pavlodar: "Кимакия"
- c_pavlodar_adj: "Кимакийск"
-  # 
+ c_pavlodar: "Имакия"
+ c_pavlodar_adj: "Имакийск"
  b_kharom-vosh: "Харом-вош"
  b_khanty-mansiisk: "Емвош"
  b_tselym-balyn: "Целым-Балын"
@@ -19025,7 +19011,7 @@
  b_mostovskoye: "Марай"
  b_uktuz: "Уктуз"
  b_vargashi: "Варгаши"
- b_mamlyutka: "Мамлютка"
+ b_mamlyutka: "Мавлут"
  b_skramlrak: "Скрамлрак"
  b_kak: "Как"
  b_auliekol: "Аулиеколь"
@@ -19034,7 +19020,7 @@
  b_omgul: "Омгул"
  b_zavialova: "Веткула"
  b_vikulova: "Сартам"
- b_kazanskoye: "Ченчерь"
+ b_kazanskoye: "Солёное"
  b_tenis: "Тенис"
  b_tukalinsk: "Тюкала"
  b_ibeitei: "Ибейтей"
@@ -19046,7 +19032,7 @@
  b_astrakhanka: "Джалтырь"
  b_sharykty: "Шарыкты"
  b_ekibastuz: "Экибастуз"
- b_koriakovsky: "Хакан-Кимак"
+ b_koriakovsky: "Джасыбай"
  b_omsk: "Омь"
  b_tiabis: "Тиабис"
  b_tatarka: "Татарка"
@@ -19056,7 +19042,7 @@
  b_chany: "Чаны"
  b_tatarki: "Татарки"
  b_karasuk: "Карасук"
- b_pavlodar: "Кимакия"
+ b_pavlodar: "Имакия"
  b_yamishevo: "Ямыш"
  b_tselym_dalyn: "Целым-Далын"
  b_kharam-vosh: "Харам-вош"
@@ -19066,20 +19052,17 @@
  b_koksengrisor: "Коксенгрисор"
  b_ertis: "Иртыш"
  b_karaoba: "Караоба"
-  
-  #Turkestan 
+ #Turkestan
  e_turkestan: "Туркестан"
  e_turkestan_adj: "Туркестанск"
  e_kara_khitai: "Каракитаи"
  e_kara_khitai_adj: "Каракитайск"
-  # 
  k_oghuz_il: "Огуз Иль"
  k_oghuz_il_adj: "Огузск"
  k_syr_darya: "Сырдарья"
  k_syr_darya_adj: "Сырдарьинск"
  k_zhetysu: "Жетысу"
  k_zhetysu_adj: "Жетысуск"
-  # 
  d_transcaspiana: "Прикаспий"
  d_transcaspiana_adj: "Прикаспийск"
  d_aral_il: "Арал Иль"
@@ -19098,7 +19081,6 @@
  d_alakol_adj: "Алакольск"
  d_ili-alatau: "Или-Алатау"
  d_ili-alatau_adj: "Или-Алатауск"
-  # 
  c_garabogazkol: "Кара-Богаз-Гол"
  c_garabogazkol_adj: "Кара-Богаз-Гольск"
  c_kaskelen: "Каскелен"
@@ -19183,7 +19165,6 @@
  c_cherik_adj: "Черикск"
  c_nasrabad: "Насрабад"
  c_nasrabad_adj: "Насрабадск"
-  # 
  b_akkityk: "Аккитык"
  b_aktau: "Актау"
  b_uzgend_KARA: "Узгенд"
@@ -19197,13 +19178,15 @@
  b_chumishtikul: "Чумиштикул"
  b_kumstan: "Кумстан"
  b_beyneu: "Бейнеу"
- b_sam: "Сам"
+ #GH/
+ #b_sam: "Сам"
+ #GH\
  b_churuk: "Чурук"
- b_fort_novoaleksandrovkiy: "Кизилташ"
+ b_fort_novoaleksandrovkiy: "Мангыстау"
  b_kajdak: "Каждак"
  b_koizak: "Койзак"
  b_karasye: "Карасье"
- b_fort_aleksandrovkiy: "Тюб-Караган"
+ b_fort_aleksandrovkiy: "Тупкараган"
  b_busaga: "Бусага"
  b_porsu-burun: "Порсу-Бурун"
  b_sai-kule: "Сай-Куле"
@@ -19325,17 +19308,15 @@
  b_nasrabad: "Насрабад"
  b_arslanbob: "Арсланбоб"
  b_sarybulak: "Сарыбулак"
-  #Kazakh 
+ #Kazakh
  e_mongolia: "Монголия"
  e_mongolia_adj: "Монгольск"
-  # 
  k_kirghiz-yugra: "WIP"
  k_kirghiz-yugra_adj: "WIP"
  k_kimek: "Кимаки"
  k_kimek_adj: "Кимакск"
  k_kipchak: "Кыпчаки"
  k_kipchak_adj: "Кыпчакск"
-  # 
  d_cuman_WIP: "WIP"
  d_cuman_WIP_adj: "WIP"
  d_pecheneg: "Печенежская степь"
@@ -19362,7 +19343,6 @@
  d_betpa_adj: "Бетпакск"
  d_semey: "Семей"
  d_semey_adj: "Семейск"
-  # 
  c_cuman_WIP: "WIP"
  c_cuman_WIP_adj: "WIP"
  c_mugodzhar_hills: "Мугоджары"
@@ -19433,7 +19413,6 @@
  c_arkat_adj: "Аркатск"
  c_kalbin: "Калба"
  c_kalbin_adj: "Калбск"
-  # 
  b_santas: "Сантас"
  b_barbastau: "Барбастау"
  b_chubar_KAZ: "Чубар"
@@ -19579,8 +19558,7 @@
  b_erementau: "Ерментау"
  b_karkaraly: "Каркаралы"
  b_tokumbay: "Токумбай"
-  
-  #Nubia 
+ #Nubia
  c_qasr_ibrim: "Каср-Ибрим"
  c_qasr_ibrim_adj: "Каср-Ибрим"
  b_qasr_ibrim: "Каср-Ибрим"
@@ -19740,8 +19718,7 @@
  c_wolqayt_adj: "Волькайтск"
  b_wolqayt: "Волькайт"
  b_wad_abu_nahl: "Вад-Абу-Наль"
-  
-  #Siberia — Ob region 
+ #Siberia — Ob region
  k_ob: "Обь"
  k_ob_adj: "Обск"
  d_salair: "Салаир"
@@ -19772,8 +19749,8 @@
  c_korgon_adj: "Коргонск"
  c_terektai: "Теректа"
  c_terektai_adj: "Теректск"
- c_tomsk: "Томь"
- c_tomsk_adj: "Томск"
+ c_tomsk: "Эушта"
+ c_tomsk_adj: "Эуштинск"
  c_kiia: "Кия"
  c_kiia_adj: "Кийск"
  c_taskyl: "Таскыл"
@@ -19841,7 +19818,7 @@
  b_terektai: "Теректа"
  b_ongutai: "Онгудай"
  b_katun: "Катунь"
- b_tomsk: "Томь"
+ b_tomsk: "Эушта"
  b_salim: "Салим"
  b_yaia: "Яя"
  b_kiia: "Кия"
@@ -19996,8 +19973,7 @@
  b_boro_burgasu: "Боро-Бургасу"
  b_suchatu: "Сучату"
  b_alak-nor: "Алак-Нор"
-  
-  #Saharan Kingdoms 
+ #Saharan Kingdoms
  k_anbiya: "Анбия"
  k_anbiya_adj: "Анбийск"
  k_sahara: "Сахара"
@@ -20139,15 +20115,13 @@
  b_hamadat_tinghert: "Хамадат-Тингерт"
  e_white_horde_article: "$POSSESSIVE_SPECIAL$"
  e_white_horde: "Белая орда"
-  
-  #Mongolia 
+ #Mongolia
  e_uyghur_khanate_article: "$POSSESSIVE_SPECIAL$"
  e_uyghur_khanate: "Уйгурское ханство"
  e_uyghur_khanate_adj: "Уйгурск"
  e_kirghiz_khanate_article: "$POSSESSIVE_SPECIAL$"
  e_kirghiz_khanate: "Кыргызский каганат"
  e_kirghiz_khanate_adj: "Кыргызск"
-  # 
  k_tuva: "Тува"
  k_tuva_adj: "Тувинск"
  k_khakassia: "Хакассия"
@@ -20156,7 +20130,6 @@
  k_buryatia_adj: "Бурятск"
  k_angara: "Ангара"
  k_angara_adj: "Ангарск"
-  # 
  d_ogrash: "Угрэш"
  d_ogrash_adj: "Угрэшск"
  d_selenga_valley: "Долина Селенги"
@@ -20197,7 +20170,7 @@
  d_tsagaanbaigal_adj: "Цагаан-Байгальск"
  d_khovd: "Ховд"
  d_khovd_adj: "Ховдск"
- d_lena: "Эулге"
+ d_lena: "Эулге" #Mongolian name of Lena river
  d_lena_adj: "Эулгеск"
  d_angara: "Ангара"
  d_angara_adj: "Ангарск"
@@ -20205,7 +20178,7 @@
  d_yenisei_kan_adj: "Енисей-Канск"
  d_chuna_valley: "Долина Уд"
  d_chuna_valley_adj: "Уданск"
-  ############ 
+ ############
  c_otuken_adj: "Утукенск"
  c_tavan_bogd: "Таван-Богдо-Ула"
  c_tavan_bogd_adj: "Таван-Богдск"
@@ -20215,7 +20188,7 @@
  c_karabalgasun_adj: "Карабалгасунск"
  c_mumo: "Мумо"
  c_mumo_adj: "Мумск"
- c_ulaanbaatar: "Ургее"
+ c_ulaanbaatar: "Ургее" #Ulaanbaatar = modern name
  c_ulaanbaatar_adj: "Ургееск"
  c_khentii: "Хэнтий"
  c_khentii_adj: "Хэнтийск"
@@ -20319,13 +20292,13 @@
  c_ulan_ude_adj: "Удск"
  c_chikoy: "Чикой"
  c_chikoy_adj: "Чикойск"
- c_krasnoyarsk: "Кызыл-Чар"
+ c_krasnoyarsk: "Кызыл-Чар" #Krasnoyarsk
  c_krasnoyarsk_adj: "Кызыл-Чарск"
  c_mana: "Мана"
  c_mana_adj: "Манск"
  c_shishina: "Шишина"
  c_shishina_adj: "Шишинск"
- c_kansk: "Канхот"
+ c_kansk: "Канхот" #Kansk
  c_kansk_adj: "Канхотск"
  c_tagul: "Тагул"
  c_tagul_adj: "Тагульск"
@@ -20341,7 +20314,7 @@
  c_ilga_adj: "Илгск"
  c_olkhon: "Ольхон"
  c_olkhon_adj: "Ольхонск"
- c_irkutsk: "Эрхуу"
+ c_irkutsk: "Эрхуу" #Irkutsk
  c_irkuts_adjk: "Эрхууск"
  c_chuya: "Чуя"
  c_chuya_adj: "Чуйск"
@@ -20381,7 +20354,7 @@
  c_kantegir_adj: "Кантегирск"
  c_uul_chors: "Уул-Чорс"
  c_uul_chors_adj: "Уул-Чорсск"
-  ############ 
+ ############
  b_khuiten: "Куйтэн"
  b_khoton: "Хотон"
  b_dayan: "Даян"
@@ -20402,7 +20375,7 @@
  b_khanjargalant: "Ханджаргалант"
  b_erdenet: "Эрдэнэт"
  b_ishgent: "Ишгэнт"
- b_ulaanbaatar: "Ургее"
+ b_ulaanbaatar: "Ургее" #Ulaanbaatar = modern name
  b_moltsog_els: "Молцог-Элс"
  b_hustai: "Хустай"
  b_orkhontuul: "Орхонтуул"
@@ -20536,7 +20509,7 @@
  b_bolsho_kyzylkul: "Большой Кызыкуль"
  b_amyl: "Амыл"
  b_borus: "Борус"
- b_kuznetsk: "Чумай"
+ b_kuznetsk: "Чумай" #Kuznetsk
  b_kuztom: "Берчикуль"
  b_kuzalatau: "Кузалатау"
  b_kondoma_MON: "Кондома"
@@ -20608,7 +20581,7 @@
  b_chikan: "Чикан"
  b_kutukan_ondort: "Кутукан-Ундерт"
  b_ichikta: "Иликта"
- b_krasnoyarsk: "Кызыл-Чар"
+ b_krasnoyarsk: "Кызыл-Чар" #Krasnoyarsk
  b_kem_MON: "Кемь"
  b_kemchug: "Кемчуг"
  b_stolby: "Столбы"
@@ -20617,7 +20590,7 @@
  b_shishina: "Шишина"
  b_taseya: "Тасея"
  b_nemkina: "Немкина"
- b_kansk: "Канхот"
+ b_kansk: "Канхот" #Kansk
  b_biriusa: "Она"
  b_khoidkhiliin: "Хойдхилийн"
  b_tagul: "Тагул"
@@ -20627,7 +20600,7 @@
  b_chuna: "Уд"
  b_tsartsanmod: "Царцанмод"
  b_biryusa: "Бирюса"
- b_bratsk: "Бура"
+ b_bratsk: "Бура" #Bratsk
  b_khereeoi: "Хэрээой"
  b_tsasengiin: "Цасэнгийн"
  b_bugyntalbar: "Бугынталбар"
@@ -20652,11 +20625,10 @@
  b_olkhon: "Ольхон"
  b_bugulde: "Бугульде"
  b_manzurka: "Манзурка"
- b_irkutsk: "Эрхуу"
+ b_irkutsk: "Эрхуу" #Irkutsk
  b_osa_MON: "Оса"
  b_KUDA_MON: "Куда"
-  
-  #Xia/Minya/Minyak 
+ #Xia/Minya/Minyak
  k_xia: "Ся"
  k_xia_adj: "Сяск"
  d_xia: "Ся"
@@ -20829,16 +20801,13 @@
  b_haltang: "Халтанг"
  b_takoerpasitao: "Такерпаситао"
  b_anxi_old: "Аньси"
-  
-  #Tibet 
+ #Tibet
  e_tibet: "Тибет"
  e_tibet_adj: "Тибетск"
-  
-  #Sakya Trizin 
+ #Sakya Trizin
  k_sakya_trizin: "Сакья Тридзин"
  k_sakya_trizin_adj: "Сакья-Тридзинск"
-  
-  #Ü 
+ #Ü
  k_u: "У"
  k_u_adj: "Уск"
  d_yarlung: "Ярлунг"
@@ -20932,8 +20901,7 @@
  c_garco_adj: "Гарцоск"
  b_garco: "Гарцо"
  b_cozhedangma: "Цошедангма"
-  
-  #Tsang 
+ #Tsang
  k_tsang: "Цанг"
  k_tsang_adj: "Цангск"
  d_xigaze: "Шигадзе"
@@ -21017,8 +20985,7 @@
  c_xainza_adj: "Шэндзаск"
  b_xainza: "Шэндза"
  b_shyungme: "Шюнгме"
-  
-  #Guge-Purang 
+ #Guge-Purang
  k_guge: "Гуге"
  k_guge_adj: "Гугеск"
  d_ngari: "Нгари"
@@ -21103,8 +21070,7 @@
  b_coqen: "Цочен"
  b_qulho: "Чулхо"
  b_gyesarco: "Гьесарцо"
-  
-  #Maryul 
+ #Maryul
  k_maryul: "Маръюл"
  k_maryul_adj: "Маръюльск"
  d_ladakh: "Ладакх"
@@ -21188,8 +21154,7 @@
  b_memar: "Мемар"
  b_bandag: "Бандаг"
  b_bairab: "Бэрап"
-  
-  #Kham 
+ #Kham
  k_kham: "Кхам"
  k_kham_adj: "Кхамск"
  d_qamdo: "Чамдо"
@@ -21343,8 +21308,7 @@
  c_gyaitang_adj: "Цзянтан"
  b_gyaitang: "Гьяйтанг"
  b_takchongrong: "Такчонгронг"
-  
-  #Lhomon (Bhutan/Arunachal) 
+ #Lhomon (Bhutan/Arunachal)
  k_lhomon: "Лхомон"
  k_lhomon_adj: "Лхомонск"
  d_bumthang: "Бумтханг"
@@ -21447,8 +21411,7 @@
  b_tezu: "Тезу"
  b_kibithu: "Кибитху"
  b_hawai: "Хавай"
-  
-  #Himalaya (Nepal) 
+ #Himalaya (Nepal)
  k_himalaya: "Гималаи"
  k_himalaya_adj: "Гималайск"
  d_kurmanchal: "Курманчал"
@@ -21532,8 +21495,7 @@
  c_khotang_adj: "Кхотангск"
  b_khotang: "Кхотанг"
  b_bhojpur_tibet: "Бходжпур"
-  
-  #Amdo 
+ #Amdo
  k_amdo: "Амдо"
  k_amdo_adj: "Амдоск"
  d_xining: "Синин"
@@ -21676,8 +21638,7 @@
  c_ngoring_adj: "Нгорингск"
  b_ngoring: "Нгоринг"
  b_mato: "Мате"
-  
-  #Gyalrong 
+ #Gyalrong
  k_gyalrong: "Гьялронг"
  k_gyalrong_adj: "Гьялронгск"
  d_gyalrong: "Гьялронг"
@@ -21787,8 +21748,7 @@
  c_sertar_adj: "Сертарск"
  b_sertar: "Сертар"
  b_larung: "Ларунг"
-  
-  # The following khanate names are entirely ficticious 
+ #The following khanate names are entirely ficticious
  e_black_horde_article: "$POSSESSIVE_SPECIAL$"
  e_black_horde: "Черная орда"
  e_aarlud_khanate_article: "$POSSESSIVE_SPECIAL$"
@@ -21797,8 +21757,7 @@
  e_togskol_khanate: "Тугскельское ханство"
  e_baruun_khanate_article: "$POSSESSIVE_SPECIAL$"
  e_baruun_khanate: "Баруунское ханство"
-  # End 
-  
+ #End
  b_boksanbanya: "Бокшанбанья"
  b_nagylak: "Надьлак"
  b_batorkeszi: "Баторкеси"
@@ -21809,7 +21768,6 @@
  b_laposbanya: "Лапошбанья"
  b_rodopi: "Родопы"
  b_valamara: "Валамара"
-  
  c_tingri: "Тингри"
  c_tingri_adj: "Тингрийск"
  b_tingri: "Тингри"
@@ -21818,8 +21776,7 @@
  b_kamru_2: "Камру"
  b_bangdag: "Бангдак"
  b_mila_tibet: "Мила"
-  
-  #South India 
+ #South India
  c_surparaka: "Сурпарака"
  c_surparaka_adj: "Сурпаракск"
  c_panaji: "Конкан"
@@ -21866,7 +21823,6 @@
  c_atavi_adj: "Атавийск"
  c_mahakantara: "Махакантара"
  c_mahakantara_adj: "Махакантарск"
-  # 
  b_ankai: "Анкай"
  b_elapura: "Элапура"
  b_suraparaka: "Дахану"
@@ -21948,8 +21904,7 @@
  b_lanjika: "Ланджика"
  b_mungeli: "Мунгели"
  b_pondugala: "Пондугала"
-  
-  #Tarim 
+ #Tarim
  k_kashmir: "Кашмир"
  k_kashmir_adj: "Кашмирск"
  d_pamir: "Памир"
@@ -22037,8 +21992,7 @@
  b_brahmapura: "Брахмапура"
  b_sadhaura: "Садхаура"
  b_kongque: "Кунцюэ"
-  
-  #Bengal 
+ #Bengal
  c_manikpur: "Маникпур"
  c_manikpur_adj: "Маникпурск"
  c_charaideo: "Чарайдео"
@@ -22085,8 +22039,7 @@
  b_kotivarsa: "Котиварса"
  b_campa2: "Кампа"
  b_banjar: "Банджар"
-  
-  #Pagan 
+ #Pagan
  k_pagan: "Паган"
  k_pagan_adj: "Паганск"
  d_pagan: "Паган"
@@ -22145,7 +22098,6 @@
  c_dagon_adj: "Дагонск"
  c_kusumi: "Кусуми"
  c_kusumi_adj: "Кусумийск"
-  
  b_pagan: "Паган"
  b_popa: "Гора Поупа"
  b_myitche: "Мьитчхе"
@@ -22221,8 +22173,7 @@
  b_myaungmya: "Мьяунгмья"
  b_negrais: "Неграйс"
  b_thaungdut: "Таунгдут"
-  
-  #Sahelian kingdoms 
+ #Sahelian kingdoms
  b_agaw_meder: "Агав-Мэдэр"
  b_ajere: "Аджере"
  b_akrijit: "Акриджит"
@@ -22683,7 +22634,6 @@
  k_mali_adj: "Малийск"
  k_takrur: "Такрур"
  k_takrur_adj: "Такрурск"
-  
  e_kanem_bornu: "Канем-Борну"
  e_kanem_bornu_adj: "Канем-Борнуск"
  e_guinea: "Гвинея"
@@ -23950,8 +23900,7 @@
  b_villars: "Виллар"
  b_karnaphuli: "Карнапхули"
  d_yungdrung_bon: "Вечный Бон"
-  
-  #Pomerania & Prussia corrections 
+ #Pomerania & Prussia corrections
  d_pommerania: "Померания"
  d_pommerania_adj: "Померанск"
  b_pila: "Пила"
@@ -23964,8 +23913,7 @@
  c_slupsk: "Слупск"
  c_slupsk_adj: "Слупск"
  b_slupsk: "Слупск"
-  
-  #Pomerania 
+ #Pomerania
  c_stettin: "Штеттин"
  c_stettin_adj: "Штеттинск"
  c_kolobrzeg: "Колобжег"
@@ -23982,7 +23930,6 @@
  c_danzig_adj: "Гданьск"
  c_berent: "Берент"
  c_berent_adj: "Свеценск"
-  # 
  b_swinoujscie: "Свиноуйсьце"
  b_kolobrzeg: "Колобжег"
  b_lobez: "Лобез"
@@ -24005,8 +23952,7 @@
  b_kostschin: "Костшин"
  b_landsberg: "Ландсберг"
  b_arnswalde: "Арнсвальде"
-  
-  #Prussia 
+ #Prussia
  d_masuria: "Мазурия"
  d_masuria_adj: "Мазурск"
  c_malbork: "Мальборк"
@@ -24027,7 +23973,6 @@
  c_konigsberg_adj: "Самбийск"
  c_allenstein: "Алленштейн"
  c_allenstein_adj: "Галиндск"
-  # 
  b_elblag: "Эльблонг"
  b_marienburg: "Мальборк"
  b_wislana: "Вислана"
@@ -24055,7 +24000,6 @@
  b_labiau: "Лабиау"
  b_paterswalde: "Патерсвальде"
  b_kulm: "Хелмно"
-  
  c_sevede: "Севеде"
  c_sevede_adj: "Севедск"
  c_dalabergslagen: "Далабергслаген"
@@ -24074,8 +24018,7 @@
  b_grebo2: "Гребо"
  b_lima: "Лима"
  b_orsa: "Орса"
-  
-  #Additional Tibet & Xia 
+ #Additional Tibet & Xia
  k_zhangzhung: "Шангшунгск"
  k_zhangzhung_adj: "Шангшунгск"
  k_sumpa: "Сумпск"
@@ -24140,8 +24083,7 @@
  b_gangyu: "Гангью"
  b_namarche: "Намарчэ"
  b_tarok: "Тарок"
-  
-  #1.3 Update 
+ #1.3 Update
  c_ennis: "Эннис"
  c_ennis_adj: "Эннисск"
  c_mayo: "Мейо"
@@ -24151,7 +24093,6 @@
  b_cruachu: "Круаху"
  b_kilmallock: "Килмаллок"
  b_kincora: "Кинкора"
-  
  b_belvedere: "Бельведер"
  b_catanzaro: "Катандзаро"
  b_policastro: "Поликастро"
@@ -24164,7 +24105,6 @@
  b_santhia: "Сантия"
  b_portogruaro: "Портогруаро"
  b_malamacco: "Маламокко"
-  
  d_lower_bosna: "Нижняя Босния"
  d_lower_bosna_adj: "Нижнебоснийск"
  c_zelengora: "Зеленгора"
@@ -24173,15 +24113,12 @@
  c_zlatibor_adj: "Златиборск"
  c_durmitor: "Дурмитор"
  c_durmitor_adj: "Дурмиторск"
-  
  d_vuovdisamieana: "Вуовдисамиеана"
  d_vuovdisamieana_adj: "Вуовдисамиеанск"
-  
  c_nordrland: "Нордланд"
  c_nordrland_adj: "Нордландск"
  c_sudurland: "Судланд"
  c_sudurland_adj: "Судландск"
-  
  c_pite: "Пите"
  c_pite_adj: "Питеск"
  c_kittila: "Киттила"
@@ -24200,7 +24137,6 @@
  c_kintus_adj: "Кинтушск"
  c_torne: "Турне"
  c_torne_adj: "Торнейск"
-  
  b_ski: "Ши"
  b_uddevalla: "Уддевалла"
  b_olafsvik: "Борг-ау-Мирюм"
@@ -24222,13 +24158,10 @@
  b_peliza: "Пелиса"
  b_varsiga: "Варсига"
  b_cascarena: "Каскарена"
-  
  c_kangra: "Кангра"
  c_kangra_adj: "Кангрск"
-  
  d_imami: "Имамат"
- d_imami_adj: "Имаматск"
-  
+ d_imami_adj: "Имамитск"
  c_huesca: "Уэска"
  c_huesca_adj: "Уэскск"
  c_sobrarbe: "Собрарбе"
@@ -24244,11 +24177,16 @@
  b_pallars_jussa: "Пальярс-Жусса"
  b_pallars_sobira: "Пальярс-Собира"
  b_seu_d_urgell: "Сеу-д'Уржель"
-  
- k_mediterranean_sea: "Балео-Тиррения"
-  
+ k_mediterranean_sea: "Балео-Тиррения" #Baleo-Tyrrhenian
  d_lesser_poland_late: "Малая Польша"
  d_lesser_poland_late_adj: "Малопольск"
-  
  k_toledo: "Толедо"
  k_toledo_adj: "Толедск"
+ d_nizari: "Низаритский имамат"
+ d_nizari_adj: "Низаритск"
+ d_zayidi: "Зейдитский имамат"
+ d_zayidi_adj: "Алидск"
+ d_ismaili: "Исмаилитский имамат"
+ d_ismaili_adj: "Исмаилитск"
+ d_ghulat: "Ихтилафийский имамат"
+ d_ghulat_adj: "Ихтилафийск"

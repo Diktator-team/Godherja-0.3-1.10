@@ -52,15 +52,16 @@
  fp3_shared_secret_faith_opinion: "[Select_CString( CHARACTER.IsFemale, 'Поделилась', 'Поделился' )] секретной верой"
  fp3_blessed_me_opinion: "[Select_CString( CHARACTER.IsFemale, 'Благословила', 'Благословил' )] меня"
  fp3_built_a_dakhma_opinion: "[Select_CString( CHARACTER.IsFemale, 'Поддержала', 'Поддержал' )] мою веру"
+ # GH CHANGE: Removed from GH/
  #Culture Opinions
- sogdian_opinion: "Мнение согдийцев"
- saka_opinion: "Мнение сака"
- han_opinion: "Мнение ханьцев"
- turkish_opinion: "Мнение огузов"
- baloch_opinion: "Мнение белуджи"
- tajik_opinion: "Мнение таджиков"
- khwarezmian_opinion: "Мнение хорезмийцев"
- afghan_opinion: "Мнение афганцев"
+ # sogdian_opinion: "Мнение согдийцев"
+ # saka_opinion: "Мнение сака"
+ # han_opinion: "Мнение ханьцев"
+ # turkish_opinion: "Мнение огузов"
+ # baloch_opinion: "Мнение белуджи"
+ # tajik_opinion: "Мнение таджиков"
+ # khwarezmian_opinion: "Мнение хорезмийцев"
+ # afghan_opinion: "Мнение афганцев"
  #Faith Opinions
  imami_opinion: "Мнение имамитов"
  #Clan Opinions

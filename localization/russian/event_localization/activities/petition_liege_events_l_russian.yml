@@ -1,8 +1,7 @@
 ﻿l_russian:
-  # General Loc Strings 
+ #General Loc Strings
  petition_liege_header: "Обращение:"
-  
-  # Activity Start: Liege decides whether or not to hear petition 
+ #Activity Start: Liege decides whether or not to hear petition
  petition_liege.0001.opening: "[petition_vassal.Custom2('AppropriateGreetingPositive', ROOT.Char )]"
  petition_liege.0001.desc: "Я и моя свита только возвращаемся после долгого изнурительного путешествия, и вот, наконец, [petition_liege.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. Мне нужно обсудить с вами кое-что важное — от этого разговора зависит, насколько благополучно будет жить [petition_vassal.GetPrimaryTitle.GetNameNoTier], — поэтому я прошу принять меня при дворе как можно скорее."
  petition_liege.0001.a: "Подать [petition_vassal.GetHersHis] сюда!"
@@ -11,14 +10,12 @@
  petition_liege.0001.b.arrogant: "Пф, [Select_CString(petition_vassal.IsFemale, 'какая-то', 'какой-то' )] #EMP [petition_vassal.GetTitleAsNameNoTooltip|l]#!. Мне некогда!"
  petition_liege.0001.b.humble: "[petition_vassal.GetTitledFirstNameNoTooltip] не попадет ко мне на прием, но передайте [petition_vassal.GetHerHim] мое глубочайшее сожаление."
  petition_liege.0001.b.tt: "[petition_vassal.GetTitledFirstName] уходит"
-  
- # Activity End: Vassal learns that liege refuses to hear petition 
+ #Activity End: Vassal learns that liege refuses to hear petition
  petition_liege.0009.opening: "[petition_liege.Custom2('AppropriateGreeting', ROOT.Char )]"
  petition_liege.0009.desc: "К сожалению, сейчас трудные времена, и я с прискорбием сообщаю, что не смогу принять вас и ваших сопровождающих в моем чертоге."
  petition_liege.0009.a: "Не хочет даже #EMP выслушать#! меня? Какая наглость!"
-  
- # Liege hears petition, makes a decision 
- # Title 
+ #Liege hears petition, makes a decision
+ #Title
  petition_liege.0101.t.council_seat: "$petition_liege_header$ Назначение в совет"
  petition_liege.0101.t.pay_debt: "$petition_liege_header$ Выплата долгов"
  petition_liege.0101.t.war_aid: "$petition_liege_header$ Военная помощь"
@@ -33,7 +30,7 @@
  petition_liege.0101.t.construct_city: "$petition_liege_header$ Развитие городов"
  petition_liege.0101.t.construct_temple: "$petition_liege_header$ [petition_vassal.GetFaith.HouseOfWorship|U]"
  petition_liege.0101.t.development: "$petition_liege_header$ Улучшить столицу"
-  # Desc 
+ #Desc
  petition_liege.0101.desc: "[petition_vassal.GetTitledFirstName] наконец-то появляется в моем зале и без промедления подходит к моему трону, отвешивая глубокий поклон. \n\n«Спасибо, что приняли меня, мой сюзерен. Я [Select_CString(petition_vassal.IsFemale, 'пришла', 'пришел' )] к вам с очень важной просьбой —"
  petition_liege.0101.desc.council_seat: "пожалуйста, [petition_liege.GetLadyLord], позвольте мне заседать в совете».\n\n«Мои способности остаются без внимания, тогда как [petition_vassal.GetWomenMen] куда более скромных талантов имеют возможность высказываться на высшем уровне. Я разделю бремя управления державой, а в вашем совете появится [petition_vassal.Custom('GetCouncilPositionRequest')] с выдающимися способностями»."
  petition_liege.0101.desc.pay_debt: "у меня возникли определенные... трудности с деньгами из-за не зависящих от меня событий».\n\n«Ради блага державы, не могли бы вы помочь мне расплатиться по счетам?»"
@@ -51,7 +48,7 @@
  petition_liege.0101.desc.development: "мои земли меркнут в сравнении с вашей величественной столицей».\n\n«Пожалуйста, поделитесь богатствами со скромными владением [petition_county_example.GetName], и от этого выиграет вся держава»."
  petition_liege.0101.desc.council_first_councillor: "\n\nЗначит, [petition_vassal.GetSheHe] думает, что справится лучше, чем [second_party.GetTitledFirstName]..."
  petition_liege.0101.desc.council_second_councillor: "Возможно, это [second_councillor.GetTitledFirstName] [Select_CString(second_councillor.IsFemale, 'должна', 'должен' )] уйти на покой."
-  # Accept 
+ #Accept
  petition_liege.0101.accept.council_seat: "Хорошо, вы получите свое место."
  petition_liege.0101.accept.council_seat_occupied: "Теперь [second_party.GetCouncilTitle] не [second_party.GetTitledFirstNameNoTooltip], а вы."
  petition_liege.0101.accept.pay_debt: "Хорошо, ваши долги уплачены."
@@ -67,7 +64,7 @@
  petition_liege.0101.accept.construct_city: "Почему бы и нет? [petition_construct_county.GetDeJureLiege.GetNameNoTierNoTooltip] только выиграет от нового города."
  petition_liege.0101.accept.construct_temple: "Да, [petition_liege.GetFaith.BishopNeuter] уже давно не посещает владение [petition_construct_county.GetNameNoTierNoTooltip]."
  petition_liege.0101.accept.development: "Да, во владении [petition_liege.GetCapitalLocation.GetNameNoTooltip] слишком многолюдно."
-  # Bribe gold 
+ #Bribe gold
  petition_liege.0101.bribe_gold.council_seat: "Мои приближенные должны доказать свою финансовую состоятельность..."
  petition_liege.0101.bribe_gold.war_aid: "Вы знаете, во сколько обходится обучение и снаряжение?"
  petition_liege.0101.bribe_gold: "Я могу добиться мира, но тебе придется выплатить определенные #EMP репарации#!..."
@@ -81,7 +78,7 @@
  petition_liege.0101.bribe_gold.construct_city: "Наверняка вы понимаете, что подобное строительство стоит дорого..."
  petition_liege.0101.bribe_gold.construct_temple: "Вы же оплатите строительство одного крыла?"
  petition_liege.0101.bribe_gold.development: "Разумеется, но потребуется небольшое возмещение убытков."
-  # Bribe favor 
+ #Bribe favor
  petition_liege.0101.bribe_favor.council_seat: "На подобные одолжения следует отвечать взаимностью."
  petition_liege.0101.bribe_favor.pay_debt: "Однажды я попрошу вас отплатить мне за это."
  petition_liege.0101.bribe_favor.war_aid: "Я ожидаю, что и вы поможете мне в час нужды."
@@ -96,9 +93,9 @@
  petition_liege.0101.bribe_favor.construct_city: "Хорошо, но вы будете в долгу передо мной."
  petition_liege.0101.bribe_favor.construct_temple: "[petition_liege.GetFaith.HighGodName] свидетель вашим обязательствам."
  petition_liege.0101.bribe_favor.development: "[petition_vassal.GetCapitalLocation.GetNameNoTooltip] будет расти, но #EMP вы#! в долгу передо мной."
-  # Repay favor 
+ #Repay favor
  petition_liege.0101.repay_favor: "На этом мой долг перед вами считается оплаченным."
-  # Bribe factions 
+ #Bribe factions
  petition_liege.0101.bribe_factions.council_seat: "Мои советники должны обладать безукоризненной репутацией."
  petition_liege.0101.bribe_factions.pay_debt: "Вы в долгах, вот и поступайте соответственно."
  petition_liege.0101.bribe_factions.war_aid: "Поклянитесь в верности, и мои воины в вашем распоряжении."
@@ -113,7 +110,7 @@
  petition_liege.0101.bribe_factions.construct_city: "Этот город станет символом вашей верности мне."
  petition_liege.0101.bribe_factions.construct_temple: "Покиньте фракцию, и будет вам [petition_liege.GetFaith.HouseOfWorship]."
  petition_liege.0101.bribe_factions.development: "Ваша верность — достойная цена за подобное проявление доброты."
-  # Bribe contract 
+ #Bribe contract
  petition_liege.0101.bribe_contract.council_seat: "Щедрое пожертвование обеспечит вам место в совете."
  petition_liege.0101.bribe_contract.pay_debt: "В качестве уплаты я увеличу ваши обязательства."
  petition_liege.0101.bribe_contract.war_aid: "Обе стороны должны преподнести что-то в дар."
@@ -128,7 +125,7 @@
  petition_liege.0101.bribe_contract.construct_city: "Рост обязательств компенсирует мои расходы."
  petition_liege.0101.bribe_contract.construct_temple: "Я разделю ваше бремя, если вы разделите мое."
  petition_liege.0101.bribe_contract.development: "Я ожидаю получить долю с ваших доходов."
-  # Refuse 
+ #Refuse
  petition_liege.0101.refusal.council_seat: "У меня есть свои мысли на этот счет."
  petition_liege.0101.refusal.pay_debt: "Финансовые дела моих вассалов меня не касаются."
  petition_liege.0101.refusal.war_aid: "Вы должны победить самостоятельно."
@@ -143,16 +140,16 @@
  petition_liege.0101.refusal.construct_city: "Вы сами отвечаете за свои земли."
  petition_liege.0101.refusal.construct_temple: "Обычно верующие сами платят за церкви."
  petition_liege.0101.refusal.development: "Увы, некоторым землям везет больше."
-  # Council 
+ #Council
  petition_liege.0101.council_second_occupied: "[second_councillor.GetTitledFirstNameNoTooltip] больше не [second_councillor.GetCouncilTitle]."
  petition_liege.0101.council_second: "У меня на вас свои планы."
-  # War Aid 
+ #War Aid
  petition_liege.0101.war_aid_join: "[second_party.GetFirstNameNoTooltip] падет под нашим натиском."
-  # Tooltips 
+ #Tooltips
  petition_liege.0101.additional_effects: "Оказывает следующие эффекты на принятие:"
  petition_liege.0101.bribe_given: "Если [petition_vassal.GetSheHe] примет ваше встречное предложение"
  petition_liege.0101.bribe_refused: "Если [petition_vassal.GetSheHe] отклонит ваше встречное предложение"
- # Liege grants petition 
+ #Liege grants petition
  petition_liege.0201.t: "$petition_liege_header$ Приемлемо"
  petition_liege.0201.desc.intro: "[petition_liege.GetTitledFirstNamePossessive] принимает меня в тронном зале. [petition_liege.GetSheHe|U] подзывает меня и разрешает говорить."
  petition_liege.0201.desc.council_seat: "\n\nЯ разъясняю, какими способностями, явными и скрытыми, должен обладать [petition_vassal.Custom('GetCouncilPositionRequest')], чтобы заседать в совете."
@@ -173,7 +170,7 @@
  petition_liege.0201.desc.council_second_party: "Я явно не хуже, чем [second_party.GetFullName]..."
  petition_liege.0201.a: "Спасибо, мой сюзерен!"
  petition_liege_accept_tt: "Ваше прошение принято"
- # Liege asks for something in return 
+ #Liege asks for something in return
  petition_liege.0205.t: "$petition_liege_header$ Встречное предложение"
  petition_liege.0205.desc.intro: "$petition_liege.0201.desc.intro$"
  petition_liege.0205.desc.bridge: "\n\nВыслушав мою заготовленную речь, [petition_liege.GetSheHe] некоторое время хранит молчание, обдумывая услышанное.\n\nВ конце концов [petition_liege.GetSheHe] начинает говорить: «Ты приводишь неплохие доводы, но если я соглашусь, мне потребуется кое-что взамен. У тебя есть идеи, как сделать соглашение выгодным для нас обоих?»"
@@ -181,8 +178,7 @@
  petition_liege.0205.a: "Это честное предложение, я принимаю его."
  petition_liege.0205.b: "Да вы шутите? Я и так едва справляюсь!"
  petition_liege_skillcheck_counter_tt: "Попытаться убедить сюзерена другими методами"
-  
- # Liege refuses petition (end) 
+ #Liege refuses petition (end)
  petition_liege.0209.t: "$petition_liege_header$ Отказ"
  petition_liege.0209.desc.intro: "$petition_liege.0201.desc.intro$"
  petition_liege.0209.desc.bridge: "\n\nВыслушав мою речь, [petition_liege.GetSheHe] хмурится и отвечает отказом."
@@ -192,14 +188,11 @@
  petition_liege.0209.counter: "Подождите, [petition_liege.GetLadyLord]! Выслушайте меня!"
  petition_liege.0209.a: "Увы."
  petition_liege.0209.favor: "Хорошо."
-  
-  # Vassal agrees to terms 
+ #Vassal agrees to terms
  petition_liege.0301.t: "Встречное предложение принято"
-  
-  # Vassal refuses counterproposal (end) 
+ #Vassal refuses counterproposal (end)
  petition_liege.0309.t: "Встречное предложение отклонено"
-  
-  # Skill check counter event 
+ #Skill check counter event
  petition_liege.0401.t: "$petition_liege_header$ Другое мнение"
  petition_liege.0401.desc.intro: "[petition_liege.GetTitledFirstName] недолго раздумывает, а затем объявляет: «[first_portrait.GetFirstName], мне нужен ваш совет!» [first_portrait.Custom('﻿GetNotableCharacteristic')|U] [first_portrait.Custom('GetPetitionLiegeTitle')] охотно выходит вперед, [first_portrait.Custom('councillor_flavor_prop')] жмется у н[first_portrait.GetHerHis] в руках. «Да, это деликатный вопрос, [Select_CString(petition_liege.IsFemale, 'моя', 'мой' )] [petition_liege.GetLadyLord]...»\n\n"
  petition_liege.0401.desc.second: "[second_portrait.GetTitledFirstName], [second_portrait.Custom('GetPetitionLiegeTitle')] сюзерена, молча наблюдает из толпы"
@@ -208,6 +201,9 @@
  petition_liege.0401.desc.second_stewardship: "$petition_liege.0401.desc.second$ — подходящие числа помогут [second_portrait.GetHerHim] увидеть мою проблему?\n\n"
  petition_liege.0401.desc.second_intrigue: "$petition_liege.0401.desc.second$ — что если открыто переиграть [second_portrait.GetHerHis]?\n\n"
  petition_liege.0401.desc.second_learning: "$petition_liege.0401.desc.second$ — никто не сможет оспорить аргумент, который не удастся опровергнуть #EMP [second_portrait.GetHerHim]#!.\n\n"
+ #GH/
+ petition_liege.0401.desc.second_arcana:89 "$petition_liege.0401.desc.second$ — правильные знаки и предзнаменования, несомненно, принесут [second_portrait.GetHerHim] победу.\n\n"
+ #GH\
  petition_liege.0401.desc.third_soulmate: "И потом, [Select_CString(third_portrait.IsFemale, 'моя обожаемая', 'мой обожаемый' )] [third_portrait.GetTitledFirstName] стоит неподалеку"
  petition_liege.0401.desc.third_lover: "[third_portrait.GetTitledFirstName] незаметно подмигивает мне"
  petition_liege.0401.desc.third_best_friend: "[Select_CString(third_portrait.IsFemale, 'Моя наперсница', 'Мой наперсник' )] [third_portrait.GetTitledFirstName] тоже здесь"
@@ -222,16 +218,19 @@
  petition_liege.0401.second_stewardship: "$petition_liege.0401.second$ Наверняка #EMP вам#! ясна логика происходящего?»"
  petition_liege.0401.second_intrigue: "$petition_liege.0401.second$ Наверняка #EMP вы#! видите в этом смысл?»"
  petition_liege.0401.second_learning: "$petition_liege.0401.second$ #EMP Вы#! наверняка понимаете мудрость сказанного?»"
+ #GH/
+ petition_liege.0401.second_arcana:89 "$petition_liege.0401.second$ Разве #EMP вы#! не понимаете знаки?»"
+ #GH\
  petition_liege.0401.wildcard: "[third_portrait.GetTitledFirstNameNoTooltip] скажет им!"
  petition_liege.0401.success: "[petition_liege.GetTitledFirstNameNoTooltip] соглашается"
  petition_liege.0401.failure: "[petition_liege.GetTitledFirstNameNoTooltip] не слушает доводов"
-  # Second party request event 
+ #Second party request event
  petition_liege.0501.opening: "[second_party.Custom2('AppropriateGreeting', ROOT.Char )]"
  petition_liege.0501.desc: "[Select_CString(second_party.IsFemale, 'Моя верная', 'Мой верный' )] [second_party.GetTitledFirstName], жаль, что мне приходится ставить вас в такое положение.\n\nЯ прошу вас уступить владение [petition_claim.GetName]. Пусть им правит [petition_vassal.GetTitledFirstName], у [Select_CString(petition_vassal.IsFemale, 'которой', 'которого' )] есть права на этот титул. Надеюсь, вы исполните мое пожелание."
  petition_liege.0501.a: "Как будто у меня есть выбор..."
  petition_liege.0501.b: "Я не могу это принять!"
  petition_liege.0501.refuse_tt: "[second_party.GetTitledFirstName] не желает уступать владение [petition_claim.GetName]"
-  # Invalidated event 
+ #Invalidated event
  petition_liege.0601.t: "$petition_liege_header$ — недействительно"
  petition_liege.0601.desc.court: "Теперь я [ROOT.Char.GetTitleAsNameNoTooltip|l], а это значит, что в моем прошении больше нет необходимости..."
  petition_liege.0601.desc.imprisoned_me: "$petition_liege.0601_shared_intro$ [ROOT.Char.GetImprisonedBy.GetTitledFirstName] бросает меня в темницу."
@@ -247,7 +246,7 @@
  petition_liege.0601.a_prison: "Тьфу ты."
  petition_liege.0601.a_liege: "Почему мне..."
  petition_liege.0601.a: "Пора все обдумать..."
-  # Activity End 
+ #Activity End
  petition_liege.9999.t: "$petition_liege_header$ — завершение"
  petition_liege.9999.desc: "Уходит последний проситель, следом вереницей, возвращаясь к оставленным делам, тянутся придворные. Некоторые остаются, чтобы обсудить прием.\n\nВскоре от формальностей не остается и следа, и тишину сменяет привычный гомон придворной жизни."
  petition_liege.9999.a: "Мои дела здесь закончены."
@@ -255,7 +254,6 @@
  petition_liege.9999.shy: "Скорее бы вернуться в покои..."
  petition_liege.9999.gregarious: "Вот неплохая возможность ближе пообщаться с придворными."
  petition_liege.9999.every_guest_and_courtier: "Каждый гость и придворный:"
-  
  petition_liege.9001.t: "$petition_liege_header$ смена тактики"
  petition_liege.9001.desc: "[petition_liege.GetTitledFirstName] уже не примет мою петицию ([ROOT.Char.Custom( 'GetPetitionType' )|l]). Так или иначе, передо мной сейчас [petition_liege.GetCapitalLocation.GetName] и позади долгий путь, проделанный лишь ради того, чтобы меня услышали. Я не стану упускать такую возможность. Я попрошу [petition_liege.GetHerHim]..."
  petition_liege.9001.council_seat: "Назначить меня в свой совет."
@@ -274,37 +272,32 @@
  petition_liege.9001.development: "Переселить часть своих подданных в мою державу."
  petition_liege.9001.fallback: "Просто наполнить мою казну."
  petition_liege.0101.accept.fallback: "Хорошо, твоя казна будет наполнена."
-  
  petition_liege_block_firing_councillor_effect_tt: "[petition_vassal.GetShortUIName|U] не может быть [Select_CString(petition_vassal.IsFemale, 'уволена', 'уволен' )] из [Concept( 'council', 'совета' )|E] в течение 5 лет"
-  
-  ### Modifiers ### 
-  # Control 
+ ### Modifiers ###
+ #Control
  petition_liege_0101_county_control_effect_tt: "Все принадлежащие графства, [Concept( 'control', 'контроль' )|E] в которых ниже 66"
  petition_liege_county_control_modifier: "Монаршие бейлифы"
  petition_liege_county_control_modifier_desc: "Владелец этого графства попросил бейлифов сюзерена оказать помощь в наведении порядка."
  petition_liege_county_control_modifier_tt: "Задание «[increase_control|E]» будет выполняться быстрее в графствах с этим модификатором"
-  # Convert 
+ #Convert
  petition_liege_0101_county_convert_effect_tt: "Все [Concept( 'holdings', 'владения' )|E] вассала [petition_vassal.GetShortUIName], где распространена другая [Concept( 'faith', 'конфессия' )|E]"
  petition_liege_county_convert_modifier: "Поддержка обращения"
  petition_liege_county_convert_modifier_desc: "Владелец этого графства попросил сюзерена поддержать обращение в истинную веру."
  petition_liege_county_convert_modifier_tt: "Задание «[convert_county|E]» будет выполняться быстрее в графствах с этим модификатором"
-  # Opinion 
+ #Opinion
  petition_liege_0101_county_opinion_effect_tt: "Все [Concept( 'holdings', 'владения' )|E] вассала [petition_vassal.GetShortUIName] с [Concept( 'county_opinion', 'мнением' )|E] не выше #negative_value [SCOPE.ScriptValue('petition_county_opinion_value')]#!"
  petition_liege_county_opinion_modifier: "Монарший визит"
  petition_liege_county_opinion_modifier_desc: "Владелец этого графства попросил сюзерена нанести визит и показать себя народу."
-  # Fortify 
+ #Fortify
  petition_liege_0101_fortify_border_effect_tt: "Все [Concept( 'holdings', 'владения' )|E] вассала [petition_vassal.GetShortUIName], граничащие с другими державами"
  petition_liege_fortify_border_modifier: "Укрепление марки"
  petition_liege_fortify_border_modifier_desc: "Владелец этого графства попросил сюзерена укрепить марки своей державы."
-  # Development 
+ #Development
  petition_liege_development_modifier: "Приток поселенцев"
  petition_liege_development_modifier_desc: "Владелец этого графства попросил сюзерена переселить сюда людей из своих владений."
-  
  petition_liege_title_councillor: "[ROOT.Char.GetCouncilTitle]"
  petition_liege_title_position: "[ROOT.Char.GetHeldCourtAndCouncilPositionsString]"
  petition_liege_title_landed: "[ROOT.Char.GetTitleAsNameNoTooltip]"
  petition_liege_title_courtier: "придворный"
-  
  petition_liege_second_if_tt: "#bold Если [TARGET_CHARACTER.GetTitledFirstName] согласится:#!"
-  
  petition_liege_costs_refunded: "$petition_liege_decision$ — затраты возмещены"
