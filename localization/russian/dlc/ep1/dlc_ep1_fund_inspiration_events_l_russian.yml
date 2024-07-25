@@ -194,10 +194,10 @@
  fund_inspiration.1051.desc.necklace: "лежит ожерелье.\n\n[inspiration_owner.GetFirstNameNoTooltip] с нескрываемой радостью преподносит его вам в дар, но не желает сообщать историю происхождения ожерелья."
  #GH/
  # GH ADDITION: Several artifact types
- fund_inspiration.1051.desc.earthware:0 "lies a brilliant piece of pottery.\n\n[inspiration_owner.GetFirstNameNoTooltip] smiles proudly and explains the great lengths that [inspiration_owner.GetSheHe] went to to secure the finest example of the local artistry that gold can buy."
- fund_inspiration.1051.desc.glassware:0 "lies a brilliant piece of glassware.\n\n[inspiration_owner.GetFirstNameNoTooltip] smiles proudly and explains the great lengths that [inspiration_owner.GetSheHe] went to to secure the finest example of the local artistry that gold can buy."
- fund_inspiration.1051.desc.thumb_ring:0 "is an oddly shaped ring. [inspiration_owner.GetFirstNameNoTooltip] shares a story of how [inspiration_owner.GetSheHe] helped a village to cast down a yoke of a cruel warlord, claiming this ring from their cold hands."
- fund_inspiration.1051.desc.oltenic_mask:0 "is a strange mask in the Ölteni style. [inspiration_owner.GetFirstNameNoTooltip] claims that [inspiration_owner.GetSheHe] dueled an ancient warrior's spirit, and that it left [inspiration_owner.GetHerHim] this mask as reward."
+ fund_inspiration.1051.desc.earthware:0 "лежит блестящее произведение гончарного искусства.\n\n[inspiration_owner.GetFirstNameNoTooltip] с гордостью улыбается и рассказывает, сколько усилий [inspiration_owner.GetSheHe] [Select_CString(inspiration_owner.IsFemale, 'приложила', 'приложил' )], чтобы заполучить лучший образец местного мастерства, который можно купить за золото."
+ fund_inspiration.1051.desc.glassware:0 "лежит блестящее изделие из стекла.\n\n[inspiration_owner.GetFirstNameNoTooltip] с гордостью улыбается и рассказывает, сколько усилий [inspiration_owner.GetSheHe] [Select_CString(inspiration_owner.IsFemale, 'приложила', 'приложил' )], чтобы заполучить лучший образец местного мастерства, который можно купить за золото."
+ fund_inspiration.1051.desc.thumb_ring:0 "кольцо странной формы. [inspiration_owner.GetFirstNameNoTooltip] делится историей о том, как [inspiration_owner.GetSheHe] помог одной деревне сбросить иго жестокого военачальника, забрав это кольцо из их холодных рук."
+ fund_inspiration.1051.desc.oltenic_mask:0 "странная маска в ольтенском стиле. [inspiration_owner.GetFirstNameNoTooltip] утверждает, что [Select_CString(inspiration_owner.IsFemale, 'сражалась', 'сражался' )] с духом древнего воина, и в награду тот оставил [inspiration_owner.GetHerHim] её в качестве награды."
 #GH\ 
  fund_inspiration.1051.a: "Это великолепно!"
  fund_inspiration.1051.b: "За этим должны присматривать лучшие из лучших"
