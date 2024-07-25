@@ -364,8 +364,8 @@
  #feature_vase_decoration_moons:0 "decorated with images of [aervalr|E]"
  #feature_vase_decoration_battle:0 "decorated with scenes of battle"
 
- feature_decoration_pattern_dragon:0 "dragons"
- feature_decoration_pattern_blood_drops:0 "blood drops"
+ feature_decoration_pattern_dragon:0 "драконы"
+ feature_decoration_pattern_blood_drops:0 "капли крови"
  #GH\ 
  ###########
  #Quality and wealth #

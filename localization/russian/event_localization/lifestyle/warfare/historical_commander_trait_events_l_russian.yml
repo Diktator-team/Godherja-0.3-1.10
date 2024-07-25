@@ -1,49 +1,49 @@
 ﻿l_russian:
  #Generic Lines
  historical_commander_trait.reject.tt: "#F Вы будете искать вдохновение в другом месте #!"
- #Hannibal - Pothacleas
+ #Hannibal — Pothacleas
  #GH/
- historical_commander_trait.0001.t:0 "The Last Iyrossi"
- historical_commander_trait.0001.desc:1 "While studying the tactics of ancient generals I was [ROOT.Char.Custom('surprised_reaction')] to learn about the exploits of Pothacleas during the Iyrossi Wars:\n\n#F Known as 'The Last Iyrossi', Pothacleas was the last independent Iyrossi ruler in ancient history, and legendarily caused massive casualties during the Mytidon Campaign, where Iyrossi militas fought a running battle and focused on guerilla tactics, causing over 10,000 [aversarian|E] soldiers to freeze during the winter. Pothacleas earned enough respect for the Aversarians to accept his surrender and his request for the Iyrossi to be spared - though they were spared to a life of slavery, and Pothacleas was devoured by an Aversarian [dragon|E].#!"
- historical_commander_trait.0001.a:0 "Like Pothacleas I will fight to the bitter end!"
- historical_commander_trait.0001.b:0 "Pothacleas' guerilla tactics were truly inspired."
+ historical_commander_trait.0001.t:0 "Последний Ийроссец"
+ historical_commander_trait.0001.desc:1 "Изучая тактику древних полководцев, я [ROOT.Char.Custom('surprised_reaction')] узнал о подвигах Потаклеаса во время Ийросских войн:\n\n#F Известный как «Последний ийроссец», Потаклеас был последним независимым правителем ийроссов в древней истории и, по легенде, нанес им огромные потери во время Митидонской кампании, когда ийросские ополченцы дали сражение и сосредоточились на партизанской тактике, из-за чего более 10 000 [Concept('aversarian','аверсарианских')|E] солдат замерзли во время зимы. Потаклеас заслужил достаточное уважение аверсарианцев, чтобы те приняли его капитуляцию и попросили пощадить ийроссов — однако они были обращены в рабство, а Потаклеас был съеден аверсарианским [Concept('dragon','драконом')|E].#!"
+ historical_commander_trait.0001.a:0 "Как и Потаклеас, я буду сражаться до конца!"
+ historical_commander_trait.0001.b:0 "Партизанская тактика Потаклеаса была поистине вдохновляющей."
  #GH\
- historical_commander_trait.0001.c:0 "Quick thinking was what carried Pothacleas."
+ historical_commander_trait.0001.c:0 "Быстрота мышления — вот что помогло Потаклеасу."
  historical_commander_trait.0001.d: "Пха! Он был глупцом, сражавшимся в безнадежной войне."
  historical_commander_trait.0001.d.good: "Жестокость не то качество, которому стоит завидовать, — даже на войне."
- #Caesar - Aexionarax
+ #Caesar — Aexionarax
  #GH/
- historical_commander_trait.0002.t:0 "The Cruel Aexionarax"
- historical_commander_trait.0002.desc:0 "While studying the tactics of ancient generals I was amused to learn about Aexionarax's exploits during his the War of the Thousand Dragons.\n\n#F After Dhacï'xen came to meet him to discuss a possible treaty, Aexionarax imprisoned him, his [dragon|E], and retainers and swiftly brought them to Dhacï'xen's capital in [GetTitleByKey('c_oraispol').GetNameNoTier]. Aexionarax had them all tortured in front of the walls of Oraispol for almost two weeks before the gates were opened, at which point Aexionarax had his enemies throat slit and the city torched.#!"
- historical_commander_trait.0002.a:0 "There's more than one way to end a siege..."
+ historical_commander_trait.0002.t:0 "Жестокий Летигианекс"
+ historical_commander_trait.0002.desc:0 Изучая тактику древних генералов, я был удивлен, узнав о подвигах Летигианекса во время его Войны Тысячи Драконов.\n\n#F После того как Дхаци'ксен пришел на встречу с ним, чтобы обсудить возможный договор, Аексионаракс заключил его самого, а также его [Concept('dragon','дракона')|E] и свиту в тюрьму и быстро доставил их в столицу Дхаци'ксена в [GetTitleByKey('c_oraispol').GetNameNoTier]. Аексионаракс промучил их перед стенами Орайсполя почти две недели, прежде чем ворота были открыты, и тогда Аексионаракс перерезал своим врагам горло, а город предал огню.#!"
+ historical_commander_trait.0002.a:0 "Осада может закончиться не одним способом..."
  #GH\
  historical_commander_trait.0002.b: "Пусть враги сами приходят к тебе! Мне нравится!"
  historical_commander_trait.0002.c: "План был опасным, но он оправдался."
  historical_commander_trait.0002.d: "В наши дни войны ведутся иначе..."
- #Alexander - Sansia
+ #Alexander — Sansia
  #GH/
- historical_commander_trait.0003.t:0 "The Shrewd Sansia"
- historical_commander_trait.0003.desc:0 "While studying the tactics of ancient generals I was [ROOT.Char.Custom('surprised_reaction')] to learn about the exploits of Saint Sansia during her battles in the Agionist Rebellions.\n\n#F During the Second Siege of Adrigora, Sansia ordered sappers to expand the moat of the local fortress to the confusion of the Opakhasian defenders. She then led a raid on the docked local fleet and captured a vessel, ordering it sailed into the moat and wrecked near the castle's wall. Sansia used the vessel as a causeway to allow a siege tower to reach the wall, the defenders surrendering soon after the first breach.#!"
+ historical_commander_trait.0003.t:0 "Проницательная Сансия"
+ historical_commander_trait.0003.desc:0 "Изучая тактику древних полководцев, я [ROOT.Char.Custom('surprised_reaction')] узнал о подвигах Святой Сансии во время её боевых действий во времена Агионистских мятежей.\n\n#F Во время второй осады Адригора Сансия приказала саперам расширить ров местной крепости, чем привела в замешательство опахасских защитников. Затем она совершила набег на стоявший в доках местный флот и захватила судно, приказав ему спуститься в ров и упасть у крепостной стены. Сансия использовала судно в качестве дамбы, чтобы позволить осадной башне добраться до стены, и защитники сдались вскоре после первого прорыва.#!"
  #GH\
  historical_commander_trait.0003.a: "Никакой воде не остановить мои войска!"
  historical_commander_trait.0003.b: "Этот мост — свидетельство великой изобретательности."
  historical_commander_trait.0003.c: "Использовать ресурсы врага против него самого? Блестяще!"
  historical_commander_trait.0003.d: "Зачем тратить время на изучение тактики, которая не сработала?"
- #Constantine - Maklea
+ #Constantine — Maklea
  #GH/
- historical_commander_trait.0004.t:0 "The Might of the Purest"
- historical_commander_trait.0004.desc:0 "While studying the tactics of ancient generals I was inspired when I learned about Maklea's victory at the Sorrowing of the Tawny Loe.\n\n#F Before the battle, Maklea declared that her blood was that of the Purest, and cutting open her palm, pressed her hand to each soldier's shield. She declared as long as her blood protected them, they would not falter, and that any who did not slay at least ten men in her name would be flayed alive for such disrespect. They did just as demanded, and her soldiers charged across the local river and wiped out the last great horde of the Mygotti tribals despite being out-numbered two to one.#!"
- historical_commander_trait.0004.a:0 "The wicked are no match for the Purest's armies!"
- historical_commander_trait.0004.b:0 "Like Maklea, no river can delay my victory!"
+ historical_commander_trait.0004.t:0 "Могущество Чистейшей"
+ historical_commander_trait.0004.desc:0 "Изучая тактику древних полководцев, я вдохновился, когда узнал о победе Маклеа при Скорбящей Лозе.\n\n#F Перед битвой Маклеа объявила, что её кровь — кровь Чистейшего, и, разрезав ладонь, прижала руку к щиту каждого воина. Она заявила, что пока их защищает её кровь, они не дрогнут, а тот, кто не убьёт хотя бы десять человек во имя неё, будет заживо сожжён за такое неуважение. Воины переправились через реку и уничтожили последнюю большую орду племени миготти, несмотря на то что их превосходили в численности два к одному.#!"
+ historical_commander_trait.0004.a:0 "Нечестивцам не сравниться с армиями Чистейшей!"
+ historical_commander_trait.0004.b:0 "Как и Маклеа, никакая река не сможет помешать моей победе!"
  #GH\
- historical_commander_trait.0004.c: "Если рассуждать логически, битву удалось выиграть за счет гибкой тактики."
+ historical_commander_trait.0004.c: "Если рассуждать логически, битву удалось выиграть за счёт гибкой тактики."
  historical_commander_trait.0004.d: "Трюков, повышающих боевой дух, недостаточно, чтобы выиграть войну!"
  #Khalid ibn al-Walid
  #GH/
- historical_commander_trait.0005.t:0 "The Tower's Blade"
- historical_commander_trait.0005.desc:0 "While studying the tactics of historical generals I became contemplative upon learning about Aband ibn Khaldiyya's campaign against the Wardenites.\n\n#F With [GetBuilding('01_sophocos').GetName] defenseless due to the betrayal of Ali Mahand and his cabal of fallen Magi and his army too battered to defeat both Mahand and his new Wardenite allies, Aband rallied his forces for a defiant last stand at Dowrabeh where it is said his army defeated six times their number that day. With the Wardenites forced to retreat, Aband withdrew to the east and rebuilt his forces, then would return to end the siege of [GetBuilding('01_sophocos').GetName] by finally destroying the Wardenite army and bringing Mahand to justice!#!"
- historical_commander_trait.0005.a:0 "Those who fight in the name of [GetBuilding('01_sophocos').GetName] will be victorious!"
+ historical_commander_trait.0005.t:0 "Клинок Башни"
+ historical_commander_trait.0005.desc:0 "Изучая тактику исторических полководцев, я погрузился в размышления, когда узнал о походе Абанда ибн Халдии против варденитов.\n\n#F В условиях, когда [GetBuilding('01_sophocos').GetName] был беззащитен из-за предательства Али Маханда и его шайки падших магов, а его армия была слишком потрепана, чтобы победить и Маханда, и его новых союзников варденитов, Абанд собрал свои силы для последнего решительного сражения при Даурабе, где, как утверждается, его армия в тот день разбила вшестеро превосходящую по численности армию. Когда вардениты были вынуждены отступить, Абанд отошёл на восток и восстановил свои силы, а затем вернулся, чтобы положить конец осаде Софокоса, окончательно уничтожив армию варденитов и предав Маханда суду!#!"
+ historical_commander_trait.0005.a:0 "Те, кто сражается во имя Софокоса будут побеждать!"
  #GH\
- historical_commander_trait.0005.b: "Самоотверженность дает нам силы перед лицом многочисленного врага."
+ historical_commander_trait.0005.b: "Самоотверженность даёт нам силы перед лицом многочисленного врага."
  historical_commander_trait.0005.c: "Знать, #EMP когда#! сражаться, не менее важно, чем знать, #EMP как#! сражаться."
  historical_commander_trait.0005.d: "Зачем праздновать постыдное поражение?"
