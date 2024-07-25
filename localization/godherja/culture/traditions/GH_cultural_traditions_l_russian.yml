@@ -2,8 +2,8 @@
   ########### 
   # ETHOSES # 
   ########### 
- ethos_magical_name: "Магическая направленность"
- ethos_magical_desc: "Эта культура решила полностью довериться силе [Concept('magic','магии')|E] и ее практикам и организована таким образом, чтобы обеспечить максимальный рост тайных знаний и родословных."
+ ethos_magical_name:89 "Магическая направленность"
+ ethos_magical_desc:89 "Эта культура решила полностью довериться силе [Concept('magic','магии')|E] и ее практикам и организована таким образом, чтобы обеспечить максимальный рост тайных знаний и родословных."
   
   ############## 
   # TRADITIONS # 
@@ -131,25 +131,25 @@
  tradition_lich_culture_desc: "Все, что осталось от этой культуры, — это могущественные [Concept('liches','личи')|E], властвующие над огромными пространствами безлюдных пустошей."
  tradition_iron_spines_settlers_name: "Поселенцы Железных Шипов"
  tradition_iron_spines_settlers_desc: "Представители этой культуры обосновались на вершинах негостеприимных гор Железных Хребтов, где воздух свеж, но холоден, а зимы долгие и суровые. Они гордятся тем, что немногие из нижележащих культур смогли бы жить так же хорошо, как этот народ, среди вершин и плоскогорий, где иначе могут процветать только звери."
- tradition_mercenary_contractors_name: "Mercenary Contractors"
- tradition_mercenary_contractors_desc: "To fight for the sake of money over honor or glory is no sin to this culture, and even its highest lords may contract out their aid in exchange for gold."
- tradition_tenacious_herdmasters_name: "Tenacious Herdmasters"
- tradition_tenacious_herdmasters_desc: "Herding cattle is the lifeblood of this culture. Having grown accustomed to roaming vast pastures with their livestock, they have developed a strong resilience to foreign threats."
- culture_parameter_cancer_trait_more_common: "The [GetTrait('cancer').GetName( GetNullCharacter )] [trait|E] is more common" #NT!
- culture_parameter_innovation_from_arcana_traits: "[arcana|E] [education_traits|E] give [cultural_fascination|E] Progress" #NT!
- culture_parameter_stewardship_from_arcana_education: "The [arcana|E] [education|E] [traits|E] also grant [stewardship|E]" #NT!
+ tradition_mercenary_contractors_name: "Наемничие армии"
+ tradition_mercenary_contractors_desc: "Сражаться ради денег, а не ради чести или славы, не является грехом для этой культуры, и даже ее высшие лорды могут предложить свою помощь в обмен на золото."
+ tradition_tenacious_herdmasters_name: "Стойкие пастухи"
+ tradition_tenacious_herdmasters_desc: "Основой их культуры является разведение крупного рогатого скота. Привыкнув бродить со своим скотом по обширным пастбищам, они выработали сильную устойчивость к внешним угрозам."
+ culture_parameter_cancer_trait_more_common: "[GetTrait('cancer').GetName( GetNullCharacter )] является более распротраненной [Concept('trait','чертой')|E]" 
+ culture_parameter_innovation_from_arcana_traits: "[Concept('arcana','Аркана')|E] [education_traits|E] give [cultural_fascination|E] Progress" #NT!
+ culture_parameter_stewardship_from_arcana_education: "Th [arcana|E] [education|E] [traits|E] also grant [stewardship|E]" #NT!
  culture_parameter_arcana_education_better_outcomes: "[children|E] tend to do better in the [arcana|E] [education|E]" #NT!
  culture_parameter_arcana_education_more_valued: "The [arcana|E] [education|E] [traits|E] are more valued" #NT!
- tradition_a_polis_in_time_name: "A Polis in Time" #NT!
- tradition_a_polis_in_time_desc: "The old polis of [GetTitleByKey('b_mloi').GetNameNoTier], long thought lost, is returned. Its peoples still revere the old magics of the world and the memory of the Empire's collaborative origins, but the lingering magics that once washed the city into the future can still be seen in the tumors and teratomas that seem so common among Ixsians." #NT!
- tradition_hives_of_scum_and_villainy_name: "Hives of Scum and Villainy" #NT!
- tradition_hives_of_scum_and_villainy_desc: "The ports of the [redlands_biozone|E] are truly the most miserable, hellish place on [aeras|E]. They do however sit on the wealthiest trade route in the world, and the Redrunner nobility grow rich in fortress towers above the teaming hive's of their port cities where only the most desperate, foolish or mad dare to make their fortune..." #NT!
- tradition_hydraulic_polities_name: "Hydraulic Polities" #NT!
- tradition_hydraulic_polities_desc: "The peoples of Dahangon have long mastered methods of flood control and irrigation, allowing them to establish large-scale societies centering upon the control of resources, particularly water. Complex systems of waterworks and canals have tamed the wetlands and floodplains of this region, while its verdant hills are home to intricate terraces of varying produce." #NT!
- tradition_wasteland_reclaimers_name: "Wasteland Reclaimers" #NT!
- tradition_wasteland_reclaimers_desc: "This culture is adept at settling the harshest environments, finding shelter in ruins and opportunity in desolation. Thankfully for them, [aeras|E] is abundant in both." #NT!
- tradition_mutant_outcasts_name: "Mutant Outcasts" #NT!
- tradition_mutant_outcasts_desc: "This culture was borne out of wretched exiles and mangled mutants who had no place in society and were left to die in arcane wastelands. Contrary to all expectations, they have adapted and will now fiercely defend the only place they can call home." #NT!
+ tradition_a_polis_in_time_name: "Полис во времени"
+ tradition_a_polis_in_time_desc: "Старый полис в [GetTitleByKey('b_mloi').GetNameNoTier] то, что долгое время считалось утраченным, возвращается. Его жители по-прежнему чтут древнюю мировую магию и память о совместном происхождении Империи, но остаточная магия, которая когда-то привела город в будущее, все еще проявляется в опухолях и тератомах, которые кажутся столь распространенными среди иксиан."
+ tradition_hives_of_scum_and_villainy_name: "Скопища отбросов и подлости"
+ tradition_hives_of_scum_and_villainy_desc: "Порты [Concept('redlands_biozone','красных земель')|E]. Однако они расположены на самом богатом торговом пути в мире, и знать Красных бегунов богатеет, возводя крепостные башни над своими портовыми городами-ульями, где только самые отчаянные, глупые или безумные осмеливаются сколотить состояние..."
+ tradition_hydraulic_polities_name: "Гидравлические системы"
+ tradition_hydraulic_polities_desc: "Народы Дахангона давно освоили методы борьбы с наводнениями и ирригации, что позволило им создать крупномасштабные общества, сосредоточенные на контроле над ресурсами, особенно над водой. Сложные системы гидротехнических сооружений и каналов укротили водно-болотные угодья и поймы этого региона, в то время как на его зеленых холмах расположены замысловатые террасы с разнообразными растениями."
+ tradition_wasteland_reclaimers_name: "Осваивающие пустоши"
+ tradition_wasteland_reclaimers_desc: "Эта культура умеет приспосабливаться к самым суровым условиям, находить убежище в руинах и новые возможности в запустении. К счастью для них, в [Concept('aeras','мире')|E] изобилует и тем, и другим."
+ tradition_mutant_outcasts_name: "Мутанты-изгои"
+ tradition_mutant_outcasts_desc: "Эту культуру создали несчастные изгнанники и искалеченные мутанты, которым не нашлось места в обществе и которые были брошены умирать в таинственных пустошах. Вопреки всем ожиданиям, они адаптировались и теперь будут яростно защищать единственное место, которое они могут назвать своим домом."
   
   ############### 
   # MAA UNLOCKS # 
@@ -173,9 +173,9 @@
   ############# 
   
  culture_parameter_gives_lich_necropolis: "Персонажи получают доступ к владению Некрополь."
- culture_parameter_no_standard_maa: "Characters can not recruit standard [men_at_arms|E]" #NT!
- culture_parameter_no_standard_buildings: "Characters can not build standard [buildings|E]" #NT!
- culture_parameter_no_standard_innovations: "Characters can not unlock standard [innovations|E]" #NT!
+ culture_parameter_no_standard_maa: "Персонажи не могут набрать стандартных [Concept('men_at_arms','профессионалов')|E]"
+ culture_parameter_no_standard_buildings: "Персонажи не могут построить стандартные [Concept('buildings','здания')|E]"
+ culture_parameter_no_standard_innovations: "Персонажи не могут открыть стандартные [Concept('innovations','инновации')|E]"
  culture_parameter_gives_lich_traits: "Персонажи получают уникальные бонусы к своим [Concept('traits','свойствам')|E] личности"
  culture_parameter_access_to_glass_smith_traits: "Персонажи теперь могут получить линию свойств [GetTraitGroup('gh_glass_smith').GetName]."
  culture_parameter_ardara_positive_trait_modifiers: "[Concept('traits','Свойства')|E] [GetTrait('brave').GetName( GetNullCharacter )] и [GetTrait('generous').GetName( GetNullCharacter )] рассматриваются как [prestige_i][Concept('prestigious','престижные')|E] и дают [Concept('county_opinion','мнение графства')|E]."
@@ -209,7 +209,7 @@
  culture_parameter_blood_senate_succession_enabled: "Может принять [Concept('succession_law','закон о наследовании')|E] #high $aversarian_succession_law$#!"
  culture_parameter_magocracy_government_enabled: "Можно принять [Concept('government','правительство')|E] #high $magocratic_government$#! при определенных условиях."
  TRADITION_PENALTY_BLOODPURIST: "Пуристическая [Concept('culture','культура')|E]: $VALUE|+=0$"
- culture_parameter_legon_titles_enabled: "Can appoint Adults the Legon [court_position|E], increasing their [martial|E] and giving them the [GetTrait('gh_legon').GetName( GetNullCharacter )] [trait|E]" #NT!
+ culture_parameter_legon_titles_enabled: "Взрослым можно назначать Легон [court_position|E], увеличивая свои [Concept('martial','военные')|E] и давая им [Concept('trait','cвойство')|E] [GetTrait('gh_legon').GetName( GetNullCharacter )]"
   
  culture_parameter_northern_pragmatism_positive_trait_modifiers: "[Concept('trait','Свойство')|E] [GetTrait('cynical').GetName( GetNullCharacter )] рассматривается как [prestige_i][Concept('prestigious','престижное')|E] и дает дополнительные бонусы к [intrigue_i][Concept('intrigue','интригам')|E], [diplomacy_i][Concept('diplomacy','дипломатии')|E] и [gold_i][Concept('tax','налогам')|E]."
  culture_parameter_intrigue_education_prestige_and_tax_modifiers: "[Concept('traits','Свойства')|E] [Concept('education','образования')|E] [Concept('intrigue','интриг')|E] рассматривается как [prestige_i][Concept('prestigious','престижное')|E] и дает бонусы к [gold_i][Concept('tax','налогам')|E]."
@@ -289,14 +289,14 @@
  culture_parameter_unlock_urbanism_legacy: "[Concept('dynast','Династия')|E] этой [Concept('culture','культуры')|E] может использовать [dynasty_perk|E] #V $fp2_urbanism_legacy_track_name$#!."
  culture_parameter_unlock_coterie_legacy: "[Concept('dynast','Династия')|E] этой [Concept('culture','культуры')|E] может использовать [dynasty_perk|E] #V $fp2_coterie_legacy_track_name$#!."
   
- culture_parameter_steppe_queens_revered: "Женщины-[Concept('characters','Персонажы')|E] могут получить [Concept('trait','свойство')|E] [GetTrait('lifestyle_gh_steppe_queen').GetName( GetNullCharacter )] и выполнять роль [Concept('knights','рыцарей')|E] независимо от их [Concept('martial_custom','боевых обычаев')|E] в [Concept('culture_possessive','культуре')|E]."
+ culture_parameter_steppe_queens_revered: "Женщины-[Concept('characters','персонажы')|E] могут получить [Concept('trait','свойство')|E] [GetTrait('lifestyle_gh_steppe_queen').GetName( GetNullCharacter )] и выполнять роль [Concept('knights','рыцарей')|E] независимо от их [Concept('martial_custom','боевых обычаев')|E] в [Concept('culture_possessive','культуре')|E]."
  culture_parameter_can_sear_prisoners: "[rulers|E] can Sear [prisoners|E] to exile them as an [Concept('anohelis_outcasts','Anohêla')|E]" #NT!
  culture_parameter_better_male_educators: "Мужчины-[guardians|E] из этой [Concept('culture','культуры')|E] более эффективны"
  culture_parameter_enable_falcon_roost_building: "Можно построить [GetBuilding('falcon_roost_01').GetName] во [Concept('holdings','владениях')|E] этой [Concept('culture','культуры')|E], расположенных в холмистой или горной [Concept('terrain','местности')|E]."
  culture_parameter_open_terrain_trait_bonuses: "[Concept('trait','Свойство')|E] «Сокольничий» дает бонусы к [GetTrait('open_terrain_expert').GetName( GetNullCharacter )]"
- culture_parameter_mercenary_contractors: "Can offer to join nearby rulers who are at war in return for gold."
- culture_parameter_herdmasters_buildings_bonuses: "The #V $building_type_pastures_01$#! and #V $building_type_hillside_grazing_01$#! lines of [buildings|E] have additional bonuses in [counties|E] of this [culture|E]"
- culture_parameter_enable_herdstone_building: "Rulers can construct the [GetBuilding('herdstone_01').GetName] [duchy_building|E]"
+ culture_parameter_mercenary_contractors: "Может предложить присоединиться к ближайшим правителям, которые ведут войну, в обмен на золото."
+ culture_parameter_herdmasters_buildings_bonuses: "#V $building_type_pastures_01$#! и #V $building_type_hillside_grazing_01$#! линии [Concept('buildings','зданий')|E] получать дополнительные бонусы в [counties|E] из этой [Concept('culture','культуры')|E]"
+ culture_parameter_enable_herdstone_building: "Правители могут создавать [GetBuilding('herdstone_01').GetName] [duchy_building|E]"
   
  culture_parameter_archipelagic_trait_bonuses: "Some [commander_traits|E] and [personality_traits|E] have extra Archipelagic bonuses" #NT!
   
