@@ -1,0 +1,16 @@
+﻿l_russian:
+ grid_symbol: "Сетка"
+ guide_v: "Вертикальная направляющая"
+ guide_h: "Горизонтальная направляющая"
+ edit_emblem: "#T Редактировать свойства"
+ close: "Закрыть"
+ COA_DESIGNER_EMBLEM_INSTANCE_SELECTION_TT_new: "$COA_DESIGNER_EMBLEM_INSTANCE_SELECTION_TT$\n#I Щёлкните ПКМ, чтобы удалить#!"
+ reset_guides: "Сброс положения направляющих"
+ guide_color: "Переключить синие направляющие"
+ sliders: "Большие ползунки"
+ precise_editing: "Используйте колёсико мыши для более точной настройки"
+ markers: "Маркеры"
+ compact_emblem_list: "Компактный список"
+ # change this if there's not enough space, vanilla translations are very long
+ shorter_combined_checbox: "$COA_DESIGNER_SCALE_COMBINED_CHECKBOX_LABEL$"
+ reset_emblems: "Сброс герба"
