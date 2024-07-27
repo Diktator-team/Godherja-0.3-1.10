@@ -1,0 +1,7 @@
+﻿l_russian:
+ BUILDING_REQUIREMENT_TRIBAL_HOLDING_IN_COUNTY: "В провинции [PROVINCE.GetCounty.GetTitle.GetName] есть [Concept( 'tribal', 'племенные' )|E] владения"
+ #GH/
+ BUILDING_REQUIREMENT_CASTLE_CITY_CHURCH_FAILED: "В провинции [PROVINCE.GetName] должен быть [castle|El], [city|El], метрополис или [temple|El]"
+ NOT_BUILDING_REQUIREMENT_CASTLE_CITY_CHURCH_FAILED: "В провинции [PROVINCE.GetName] отсутствуют [castle|El], [city|El], метрополис или [temple|El]"
+ NOT_BUILDING_REQUIREMENT_HALL_OF_HEROES_FAILED: "Чертог героев могут использовать только аптийские, галлиенийские, гестанводерские, гетийские, какаратакийские, кардавайские, салакадские, жематийские и сьяволкские язычники"
+ #GH\
