@@ -1,85 +1,85 @@
 ﻿l_russian:
   
   #sepattan Loc 
- sepattan_religion: "Sepattan" #NT!
- sepattan_religion_adj: "Sepattan" #NT!
- sepattan_religion_adherent: "Sepattani" #NT!
- sepattan_religion_adherent_plural: "Sepattani" #NT!
- sepattan_religion_desc: "The Sepattan (or ‘True Ways’) are a series of similar faiths that all view the outside world as backward. They believe that the twin gods Tarfal and Jerniem created mankind, and gave them dominion over all animals and fruiting plants to nurture and watch over, but never to enslave. \n\n At first, Man followed these commands and prospered, thriving within the great jungle. But a great demon Korlacu tempted the greatest of the clans with power, whispering that by enslaving nature to their will, they could create new lands and beings — becoming like the gods themselves. \n\n This has led to humanity’s banishment from the great jungle, forever barred from salvation, but promised with reconciliation by staying true to the path first taught by the twin gods." #NT!
- sepattan_high_god_name: "Tarfal" #NT!
- sepattan_high_god_name_possessive: "Tarfal's" #NT!
- sepattan_high_god_name_alternate: "The Source" #NT!
- sepattan_high_god_name_alternate_possessive: "The Source's" #NT!
- sepattan_devil_name: "Korlacu" #NT!
- sepattan_devil_name_possessive: "Korlacu's" #NT!
- sepattan_death_deity_name: "$sepattan_devil_name$" #NT!
- sepattan_death_deity_name_possessive: "$sepattan_devil_name_possessive$" #NT!
+ sepattan_religion:0 "Сепаттанск"
+ sepattan_religion_adj:0 "Сепаттан"
+ sepattan_religion_adherent:0 "Сепаттани"
+ sepattan_religion_adherent_plural:0 "Сепаттани"
+ sepattan_religion_desc:0 "Сепаттан (или "Истинные пути") - это ряд схожих религий, которые все рассматривают внешний мир как отсталый. Они верят, что боги-близнецы Тарфал и Джерним создали человечество и дали им власть над всеми животными и плодоносящими растениями, чтобы они заботились о них, но никогда не порабощали. \n\nПоначалу люди следовали этим заповедям и процветали в великих джунглях. Но великий демон Корлаку соблазнил величайший из кланов силой, нашептав, что, подчинив природу своей воле, они смогут создавать новые земли и живых существ, уподобляясь самим богам. \n\nЭто привело к изгнанию человечества из великих джунглей, навсегда лишив его возможности спастись, но обещав примирение, если оно останется верным пути, которому впервые научили боги-близнецы."
+ sepattan_high_god_name:0 "Тарфал"
+ sepattan_high_god_name_possessive:0 "Тарфала"
+ sepattan_high_god_name_alternate:0 "Источник"
+ sepattan_high_god_name_alternate_possessive:0 "Источника"
+ sepattan_devil_name:0 "Корлаку"
+ sepattan_devil_name_possessive:0 "Корлаку"
+ sepattan_death_deity_name:0 "$sepattan_devil_name$"
+ sepattan_death_deity_name_possessive:0 "$sepattan_devil_name_possessive$"
   
- sepattan_house_of_worship: "Wakra" #NT!
- sepattan_house_of_worship_plural: "Wakras" #NT!
+ sepattan_house_of_worship:0 "Вакра"
+ sepattan_house_of_worship_plural:0 "Вакры"
   
- sepattan_religious_symbol: "The Holy Forest" #NT!
- sepattan_religious_text: "True Ways" #NT!
+ sepattan_religious_symbol:0 "Священный лес"
+ sepattan_religious_text:0 "Истинные пути"
   
- sepattan_religious_head_title: "Sepattan" #NT!
- sepattan_religious_head_title_name: "the Sepattan" #NT!
- sepattan_devotee: "Devotee" #NT!
- sepattan_devotee_plural: "Devotees" #NT!
- sepattan_devotee_neuter: "Devotee" #NT!
- sepattan_devotee_neuter_plural: "Devotees" #NT!
- sepattan_priest: "Phra" #NT!
- sepattan_priest_plural: "Phras" #NT!
- sepattan_priest_female: "Phora" #NT!
- sepattan_priest_female_plural: "Phoras" #NT!
- sepattan_priest_neuter: "Phora" #NT!
- sepattan_priest_neuter_plural: "Phoras" #NT!
- sepattan_priest_alternate_plural: "Phoras" #NT!
- sepattan_bishop: "Koen" #NT!
- sepattan_bishop_plural: "Koens" #NT!
- sepattan_bishop_neuter: "Koen" #NT!
- sepattan_bishop_neuter_plural: "Koens" #NT!
- sepattan_positive_afterlife: "$sepattan_high_god_name$" #NT!
- sepattan_negative_afterlife: "$sepattan_devil_name$" #NT!
+ sepattan_religious_head_title:0 "Сепаттан"
+ sepattan_religious_head_title_name:0 "Сепаттан"
+ sepattan_devotee:0 "Приверженец"
+ sepattan_devotee_plural:0 "Приверженецы"
+ sepattan_devotee_neuter:0 "Приверженец"
+ sepattan_devotee_neuter_plural:0 "Приверженецы"
+ sepattan_priest:0 "Пхра"
+ sepattan_priest_plural:0 "Пхры"
+ sepattan_priest_female:0 "Фора"
+ sepattan_priest_female_plural:0 "Форы"
+ sepattan_priest_neuter:0 "Фора"
+ sepattan_priest_neuter_plural:0 "Форы"
+ sepattan_priest_alternate_plural:0 "Форы"
+ sepattan_bishop:0 "Коэн"
+ sepattan_bishop_plural:0 "Коэны"
+ sepattan_bishop_neuter:0 "Коэн"
+ sepattan_bishop_neuter_plural:0 "Коэны"
+ sepattan_positive_afterlife:0 "$sepattan_high_god_name$"
+ sepattan_negative_afterlife:0 "$sepattan_devil_name$"
   
- sepattan_creator_god_name: "$sepattan_high_god_name$" #NT!
- sepattan_creator_god_name_possessive: "$sepattan_high_god_name_possessive$" #NT!
- sepattan_health_god_name: "$sepattan_high_god_name$" #NT!
- sepattan_health_god_name_possessive: "$sepattan_high_god_name_possessive$" #NT!
- sepattan_fertility_god_name: "$sepattan_high_god_name$" #NT!
- sepattan_fertility_god_name_possessive: "$sepattan_high_god_name_possessive$" #NT!
- sepattan_wealth_god_name: "Jerniem" #NT!
- sepattan_wealth_god_name_possessive: "Jerniem's" #NT!
- sepattan_household_god_name: "$sepattan_health_god_name$" #NT!
- sepattan_household_god_name_possessive: "$sepattan_health_god_name_possessive$" #NT!
- sepattan_fate_god_name: "Jerniem" #NT!
- sepattan_fate_god_name_possessive: "Jerniem's" #NT!
- sepattan_knowledge_god_name: "Jerniem" #NT!
- sepattan_knowledge_god_name_possessive: "Jerniem's" #NT!
- sepattan_war_god_name: "$sepattan_high_god_name$" #NT!
- sepattan_war_god_name_possessive: "$sepattan_high_god_name_possessive$" #NT!
- sepattan_trickster_god_name: "$sepattan_devil_name$" #NT!
- sepattan_trickster_god_name_possessive: "$sepattan_devil_name_possessive$" #NT!
- sepattan_night_god_name: "Jerniem" #NT!
- sepattan_night_god_name_possessive: "Jerniem's" #NT!
- sepattan_water_god_name: "$sepattan_health_god_name$" #NT!
- sepattan_water_god_name_possessive: "$sepattan_health_god_name_possessive$" #NT!
- sepattan_witch_god_name: "$sepattan_devil_name$" #NT!
- sepattan_witch_god_name_possessive: "$sepattan_devil_name_possessive$" #NT!
+ sepattan_creator_god_name:0 "$sepattan_high_god_name$"
+ sepattan_creator_god_name_possessive:0 "$sepattan_high_god_name_possessive$"
+ sepattan_health_god_name:0 "$sepattan_high_god_name$"
+ sepattan_health_god_name_possessive:0 "$sepattan_high_god_name_possessive$"
+ sepattan_fertility_god_name:0 "$sepattan_high_god_name$"
+ sepattan_fertility_god_name_possessive:0 "$sepattan_high_god_name_possessive$"
+ sepattan_wealth_god_name:0 "Джернием"
+ sepattan_wealth_god_name_possessive:0 "Джерниема"
+ sepattan_household_god_name:0 "$sepattan_health_god_name$"
+ sepattan_household_god_name_possessive:0 "$sepattan_health_god_name_possessive$"
+ sepattan_fate_god_name:0 "Джернием"
+ sepattan_fate_god_name_possessive:0 "Джерниема"
+ sepattan_knowledge_god_name:0 "Джернием"
+ sepattan_knowledge_god_name_possessive:0 "Джерниема"
+ sepattan_war_god_name:0 "$sepattan_high_god_name$"
+ sepattan_war_god_name_possessive:0 "$sepattan_high_god_name_possessive$"
+ sepattan_trickster_god_name:0 "$sepattan_devil_name$"
+ sepattan_trickster_god_name_possessive:0 "$sepattan_devil_name_possessive$"
+ sepattan_night_god_name:0 "Джернием"
+ sepattan_night_god_name_possessive:0 "Джерниема"
+ sepattan_water_god_name:0 "$sepattan_health_god_name$"
+ sepattan_water_god_name_possessive:0 "$sepattan_health_god_name_possessive$"
+ sepattan_witch_god_name:0 "$sepattan_devil_name$"
+ sepattan_witch_god_name_possessive:0 "$sepattan_devil_name_possessive$"
   
- nathalamic: "Nathalamic" #NT!
- nathalamic_adj: "Nathalamic" #NT!
- nathalamic_adherent: "Nathalami" #NT!
- nathalamic_adherent_plural: "Nathalamics" #NT!
- nathalamic_desc: "Nathalamic or the middle path is a sect of the  Sepattan. They argue for harmony with nature and holy hunts to honor the twin gods. They view outsiders as sad ignorant people, who they try to convince to join in their ways." #NT!
+ nathalamic:0 "Наталамиск"
+ nathalamic_adj:0 "Наталамизм"
+ nathalamic_adherent:0 "Наталамик"
+ nathalamic_adherent_plural:0 "Наталамики"
+ nathalamic_desc:0 "Наталамизм, или срединный путь, - это секта сепаттанов. Они ратуют за гармонию с природой и священную охоту в честь богов-близнецов. Они считают чужаков жалкими невежественными людьми, которых они пытаются убедить присоединиться к ним."
   
- katharnalmic: "Katharnalmic" #NT!
- katharnalmic_adj: "Katharnalmic" #NT!
- katharnalmic_adherent: "Katharnalmi" #NT!
- katharnalmic_adherent_plural: "Katharnalmics" #NT!
- katharnalmic_desc: "The Katharnalmic or rocky path is a sect of the True Way, that is native to the high mountain jungles of the region. They view outsiders in a more hostile manner since they both encounter the savage enslavers of animals and men from the north, and the ignorant Kashiryans to the west. They often build mountain redoubts for times of trouble, but in times of peace continue their migratory ways around the jungle." #NT!
+ katharnalmic:0 "Катарналмиск"
+ katharnalmic_adj:0 "Катарналмизм"
+ katharnalmic_adherent:0 "Катарналми"
+ katharnalmic_adherent_plural:0 "Катарналмии"
+ katharnalmic_desc:0 "Катарналмик, или скалистый путь, - это секта Истинного Пути, распространенная в высокогорных джунглях этого региона. Они относятся к чужакам более враждебно, поскольку им приходится сталкиваться как с дикарями, порабощающими животных и людей, с севера, так и с невежественными каширцами на западе. Они часто строят горные укрепления на случай неприятностей, но в мирное время продолжают свои миграции по джунглям."
   
- gotharnalmic: "Gotharnalmic" #NT!
- gotharnalmic_adj: "Gotharnalmic" #NT!
- gotharnalmic_adherent: "Gotharnalmi" #NT!
- gotharnalmic_adherent_plural: "Gotharnalmics" #NT!
- gotharnalmic_desc: "The Gotharnalmic or high path is a sect of the True Way, that believes that the commands of the Creator gods to not enslave also include other humans, meaning they view all forms of enslavement as abhorrent and view war except for self-defense as going at least partially against the gods teachings. This faith is most common in the isolated parts of the region away from hostile faiths." #NT!
+ gotharnalmic:0 "Готарналмиск"
+ gotharnalmic_adj:0 "Готарналмизм"
+ gotharnalmic_adherent:0 "Готарналми"
+ gotharnalmic_adherent_plural:0 "Готарналмии"
+ gotharnalmic_desc:0 "Готарналмизм, или высший путь, - это секта Истинного Пути, которая верит, что заповеди богов-создателей не порабощать распространяются и на других людей, а это означает, что они считают все формы порабощения отвратительными и рассматривают войну, за исключением самообороны, как хотя бы частично противоречащую учению богов. Эта вера наиболее распространена в изолированных частях региона, вдали от враждебных конфессий."

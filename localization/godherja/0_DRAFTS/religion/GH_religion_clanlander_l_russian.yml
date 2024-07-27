@@ -1,14 +1,14 @@
 ﻿l_russian:
- clanlander_religion: "Clanlander" #NT!
- clanlander_religion_adj: "Clanlander" #NT!
- clanlander_religion_desc: "The Clanlanders of Kalathipsomi follow a variety of folk beliefs centered on the [cycle_of_the_wood|E]." #NT!
- wyrdpath: "Wyrd Path" #NT!
- wyrdpath_adj: "Wyrd Path" #NT!
- wyrdpath_adherent: "Wyrdtreader" #NT!
- wyrdpath_adherent_plural: "Wyrdtreaders" #NT!
- wyrdpath_desc: "The Wyrd Path was born from a mix of early proselytizing efforts by [marchers|E] in northern Kalathipsomi. It would prove only marginally successful, teaching the necessity of following your path through life, but failing to replace their ancient rites and customs." #NT!
- mothers_and_fathers: "Mothers and Fathers" #NT!
- mothers_and_fathers_adj: "Mothers and Fathers" #NT!
- mothers_and_fathers_desc: "The 'Mothers and Fathers' refers to the collective rituals and practices of the Clanlander tribes that have survived through the ages as memory and history of their past. These stories are collected, generally in song form, and are meant to be carried by each generation onto the next to protect both their legacy and the [cycle_of_the_wood|E]." #NT!
- mothers_and_fathers_adherent_plural: "Children" #NT!
- mothers_and_fathers_adherent: "Child" #NT!
+ clanlander_religion:0 "Кланск"
+ clanlander_religion_adj:0 "Клановцы"
+ clanlander_religion_desc:0 "Племена Калатипсоми придерживаются различных народных верований, в основе которых лежит [Concept('cycle_of_the_wood','цикл')|E]."
+ wyrdpath:0 "Путск"
+ wyrdpath_adj:0 "Путь судьбы"
+ wyrdpath_adherent:0 "Последователь"
+ wyrdpath_adherent_plural:0 "Последователи"
+ wyrdpath_desc:0 ""Путь судьбы" зародился в результате ранних попыток [Concept('marchers','марчеров')|E] в северной части Калатипсоми обратить людей в свою веру. Он оказался лишь отчасти успешным, поскольку учил о необходимости следовать своему жизненному пути, но не смог заменить их древние обряды и обычаи."
+ mothers_and_fathers:0 "Матерск"
+ mothers_and_fathers_adj:0 "Матери и отцы"
+ mothers_and_fathers_desc:0 ""Матери и отцы" относятся к коллективным ритуалам и практикам местных племен, которые сохранились на протяжении веков как память об их прошлом. Эти истории собраны, как правило, в форме песен, и предназначены для того, чтобы каждое поколение передавало их следующему, чтобы защитить как свое наследие, так и [Concept('cycle_of_the_wood','цикл')|E]."
+ mothers_and_fathers_adherent_plural:0 "Дети"
+ mothers_and_fathers_adherent:0 "Дитя"
