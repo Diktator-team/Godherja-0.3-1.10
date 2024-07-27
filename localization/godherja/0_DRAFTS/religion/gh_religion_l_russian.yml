@@ -1,133 +1,133 @@
-﻿l_russian:
+l_russian:
   #Lonely Note: Sort these down to faith specific subheaders for those with deviations 
   
   #Holy Sites: Adabyssian 
  holy_site_dimnablah_name: "Пробуждение"
- #holy_site_dimnablah_name: "Происхождение Северного спасения"
+ #holy_site_dimnablah_name: "Исток северного спасения"
   
   #Hole Sites: Anarzni 
- holy_site_kings_mountain_name: "King's Mountain" #NT!
- holy_site_arnazs_wrath_name: "Arnaz's Wrath" #NT!
- holy_site_azots_defeat_name: "Azots Defeat" #NT!
+ holy_site_kings_mountain_name: "Королевская гора" 
+ holy_site_arnazs_wrath_name: "Гнев Арназа" 
+ holy_site_azots_defeat_name: "Поражение азотов" 
   
   #Holy Sites: Aversarianas Aagiokrata 
- holy_site_asiupoli_name: "Асиуполис"
- holy_site_drakavil_name: "Дракавил"
- holy_site_kasmeze_name: "Цитадель Касмезе"
- holy_site_mayikprolollan_name: "[mayikrata|E]"
- holy_site_oraispol_name: "Орайсполь"
- holy_site_pelinekin_name: "Дом Смотрителя"
- holy_site_thebastro_name: "Башенный дозор"
- holy_site_vounill_name: "Вунилл"
+ holy_site_asiupoli_name: "Асиуполис" 
+ holy_site_drakavil_name: "Дракавил" 
+ holy_site_kasmeze_name: "Цитадель Касмезе" 
+ holy_site_mayikprolollan_name: "[Concept('mayikrata','Маикрата')|E]" 
+ holy_site_oraispol_name: "Орайсполь" 
+ holy_site_pelinekin_name: "Дом Смотрителя" 
+ holy_site_thebastro_name: "Башенный дозор" 
+ holy_site_vounill_name: "Вунилл" 
   
   #Holy Sites: Ethowos 
  holy_site_tribal_shrine_name: "Племенной храм"
   
   #Holy Sites: Kemsari 
- holy_site_ambracia_name: "Восточная [tower|E]"
- holy_site_ashsimmur_name: "Ашиммур"
- holy_site_conersc_name: "Болото [tower|E]"
- holy_site_emtwys_name: "Эмтвис"
- holy_site_esmwy_name: "Дедерак"
- holy_site_haremakhet_name: "Харемахет"
- holy_site_kabekaman_name: "Вестерн [tower|E]"
- holy_site_kanitarn_name: "Вегидка'ха"
- holy_site_pardula_name: "Пардула"
- holy_site_tabarrayala_name: "Табаррайала"
- holy_site_tarkunj_name: "Таркунь"
- holy_site_the_isle_tower_name: "Глаз"
+  holy_site_ambracia_name: "Восточная [Concept('tower','башня')|E]" 
+ holy_site_ashsimmur_name: "Ашиммур" 
+ holy_site_conersc_name: "Болотная [Concept('tower','башня')|E]" 
+ holy_site_emtwys_name: "Эмтвис" 
+ holy_site_esmwy_name: "Дедерак" 
+ holy_site_haremakhet_name: "Харемахет" 
+ holy_site_kabekaman_name: "Западная [Concept('tower','башня')|E]" 
+ holy_site_kanitarn_name: "Вегидка'ха" 
+ holy_site_pardula_name: "Пардула" 
+ holy_site_tabarrayala_name: "Табаррайала" 
+ holy_site_tarkunj_name: "Таркунь" 
+ holy_site_the_isle_tower_name: "Глаз" 
   
   #Holy Sites: Lifepath 
- holy_site_arubosc_name: "Конклав Раокура"
- holy_site_dyffrinloyw_name: "Черный перевал"
- holy_site_geedern_name: "Могила Вланишлича"
- holy_site_peti_gisredde_name: "Стенд Чемпиона"
- holy_site_peti_gisredde_salacad_name: "Концы света"
- holy_site_the_crucible_name: "Горнило"
+holy_site_arubosc_name: "Конклав Раокура" 
+ holy_site_dyffrinloyw_name: "Черный перевал" 
+ holy_site_geedern_name: "Могила Вланишлича" 
+ holy_site_peti_gisredde_name: "Стенд Чемпиона" 
+ holy_site_peti_gisredde_salacad_name: "Концы света" 
+ holy_site_the_crucible_name: "Горнило" 
   
   #Holy Sites: Ritualism 
- holy_site_al_hailab_name: "Софокос"
- holy_site_meiranzegloufeh_name: "Великая библиотека"
- holy_site_shaas_mukhtan_name: "Слава Адубина"
+ holy_site_al_hailab_name: "Софокос" 
+ holy_site_meiranzegloufeh_name: "Великая библиотека" 
+ holy_site_shaas_mukhtan_name: "Слава Адубина" 
   
- holy_site_silver_palace_name: "Остатки Серебряного дворца"
- holy_site_magaala_qaaday_name: "Город Цветов"
- holy_site_crab_fields_name: "Каасуоло"
+ holy_site_silver_palace_name: "Остатки Серебряного дворца" 
+ holy_site_magaala_qaaday_name: "Город Цветов" 
+ holy_site_crab_fields_name: "Каасуоло" 
   
   #Holy Sites: Sjalvolki 
- holy_site_elysia_name: "Елисейский перевал"
- holy_site_haimingerberg_name: "Маунтинвотч"
- holy_site_oraispol_sjalvolki_name: "Город врага"
- holy_site_stymphanais_name: "Стимфанаис"
- holy_site_velostadd_name: "Велостад"
- holy_site_saintrest_name: "Кевеликмир"
- holy_site_mountainport_name: "Добирврих"
- holy_site_tinitida_name: "City of Gold" #NT!
+ holy_site_elysia_name: "Елисейский перевал" 
+ holy_site_haimingerberg_name: "Маунтинвотч" 
+ holy_site_oraispol_sjalvolki_name: "Город врага" 
+ holy_site_stymphanais_name: "Стимфанаис" 
+ holy_site_velostadd_name: "Велостад" 
+ holy_site_saintrest_name: "Кевеликмир" 
+ holy_site_mountainport_name: "Добирврих" 
+ holy_site_tinitida_name: "Город золота"
   
   # Holy Sites: Kardawai 
   
   ## Native Holy Sites 
- holy_site_was_banthon_kardawai_kardawai_name: "Вас-Бантон"
- holy_site_whistling_stones_kardawai_kardawai_name: "Свистящие камни"
- holy_site_lothbroki_graveyard_kardawai_kardawai_name: "Кладбище Лотброки"
+ holy_site_was_banthon_kardawai_kardawai_name: "Вас-Бантон" 
+ holy_site_whistling_stones_kardawai_kardawai_name: "Свистящие камни" 
+ holy_site_lothbroki_graveyard_kardawai_kardawai_name: "Усыпальницы Лотброки" 
   
   ## Migration Holy Sites 
- holy_site_many_trees_kardawai_kardawai_name: "Много деревьев"
+ holy_site_many_trees_kardawai_kardawai_name: "Много-деревьев" 
   
   ## Pathos Delta 
- holy_site_marrowfields_kardawai_kardawai_name: "Марроуфилдс"
- holy_site_sunken_dolmen_kardawai_kardawai_name: "Затонувший дольмен"
- holy_site_kardwenport_kardawai_kardawai_name: "Кардвенпорт"
- holy_site_ssyalrock_kardawai_kardawai_name: "Ссяялрок"
- holy_site_stagemorn_martyries_kardawai_kardawai_name: "Стагенморнские мученики"
+ holy_site_marrowfields_kardawai_kardawai_name: "Марроуфилдс" 
+ holy_site_sunken_dolmen_kardawai_kardawai_name: "Затонувший дольмен" 
+ holy_site_kardwenport_kardawai_kardawai_name: "Кардвенпорт" 
+ holy_site_ssyalrock_kardawai_kardawai_name: "Ссяялрок" 
+ holy_site_stagemorn_martyries_kardawai_kardawai_name: "Стагенморнские мученики" 
   
   ## Etepezea 
- holy_site_city_of_the_golden_feast_kardawai_kardawai_name: "Город Золотого праздника"
- holy_site_tombs_of_lothbroki_kardawai_kardawai_name: "Гробницы Лотброки"
- holy_site_grove_of_eight_famines_kardawai_kardawai_name: "Роща восьми голода"
- holy_site_ullashan_kardawai_kardawai_name: "Уллашан"
- holy_site_city_of_carmine_ash_kardawai_kardawai_name: "Город Кармин Эш"
- holy_site_wosh_banthon_kardawai_kardawai_name: "Вош-Бантон"
+ holy_site_city_of_the_golden_feast_kardawai_kardawai_name: "Город золотого праздника" 
+ holy_site_tombs_of_lothbroki_kardawai_kardawai_name: "Усыпальницы Лотброки" 
+ holy_site_grove_of_eight_famines_kardawai_kardawai_name: "Роща восьми голодающих" 
+ holy_site_ullashan_kardawai_kardawai_name: "Уллашан" 
+ holy_site_city_of_carmine_ash_kardawai_kardawai_name: "Город Кармин Эш" 
+ holy_site_wosh_banthon_kardawai_kardawai_name: "Вош-Бантон" 
   
   ## Imperial Isle 
- holy_site_city_of_the_purple_blood_kardawai_kardawai_name: "Город Пурпурной Крови"
- holy_site_sanctuary_of_tongues_kardawai_kardawai_name: "Святилище языков"
- holy_site_the_eye_kardawai_kardawai_name: "Глаз"
- holy_site_windsweep_kardawai_kardawai_name: "Свип"
- holy_site_unmoven_shore_kardawai_kardawai_name: "Неподвижный берег"
+ holy_site_city_of_the_purple_blood_kardawai_kardawai_name: "Город пурпурной крови" 
+ holy_site_sanctuary_of_tongues_kardawai_kardawai_name: "Святилище языков" 
+ holy_site_the_eye_kardawai_kardawai_name: "Глаз" 
+ holy_site_windsweep_kardawai_kardawai_name: "Пронизывающий ветер" 
+ holy_site_unmoven_shore_kardawai_kardawai_name: "Неподвижный берег" 
   
   ## Malcois 
- holy_site_ashthrone_kardawai_kardawai_name: "Эштрон"
- holy_site_wallow_vale_kardawai_kardawai_name: "Валлоу-Вейл"
- holy_site_mawlocs_maw_kardawai_kardawai_name: "Утроба Маулока"
- holy_site_wombcleft_kardawai_kardawai_name: "расщелина матки"
- holy_site_cord_oracle_kardawai_kardawai_name: "Кордовый оракул"
- holy_site_mandible_rock_kardawai_kardawai_name: "Нижнечелюстная скала"
+ holy_site_ashthrone_kardawai_kardawai_name: "Эштрон" 
+ holy_site_wallow_vale_kardawai_kardawai_name: "Валлоу-Вейл" 
+ holy_site_mawlocs_maw_kardawai_kardawai_name: "Утроба Маулока" 
+ holy_site_wombcleft_kardawai_kardawai_name: "Расщелина матки" 
+ holy_site_cord_oracle_kardawai_kardawai_name: "Кордовый оракул" 
+ holy_site_mandible_rock_kardawai_kardawai_name: "Нижнечелюстная скала" 
   
   ## Opakhasia 
- holy_site_lost_brother_kardawai_kardawai_name: "Потерянный брат"
- holy_site_kardwens_grove_kardawai_kardawai_name: "Роща Кардвена"
- holy_site_city_of_splendour_kardawai_kardawai_name: "Город великолепия"
- holy_site_skullvaults_kardawai_kardawai_name: "Своды черепов"
- holy_site_fleshhunters_moore_kardawai_kardawai_name: "Мур Охотников за плотью"
- holy_site_spirit_rapids_kardawai_kardawai_name: "Спирит-Рапидс"
+ holy_site_lost_brother_kardawai_kardawai_name: "Потерянный брат" 
+ holy_site_kardwens_grove_kardawai_kardawai_name: "Роща Кардвена" 
+ holy_site_city_of_splendour_kardawai_kardawai_name: "Город великолепия" 
+ holy_site_skullvaults_kardawai_kardawai_name: "Своды черепов" 
+ holy_site_fleshhunters_moore_kardawai_kardawai_name: "Мур Охотников за плотью" 
+ holy_site_spirit_rapids_kardawai_kardawai_name: "Спирит-Рапидс" 
   
   ## Aironoi 
- holy_site_ashen_copse_kardawai_kardawai_name: "Ясеневая роща"
- holy_site_echo_lake_kardawai_kardawai_name: "Эхо-Лейк"
- holy_site_eastern_tower_kardawai_kardawai_name: "Восточная [tower|E]"
- holy_site_knife_monasteries_of_koperos_kardawai_kardawai_name: "Ножи-монастыри Копероса"
- holy_site_ashanashah_kardawai_kardawai_name: "Ашанаша"
- holy_site_singing_isle_kardawai_kardawai_name: "Поющий остров"
- holy_site_oltenic_tower_kardawai_kardawai_name: "Олтеник [tower|E]"
+ holy_site_ashen_copse_kardawai_kardawai_name: "Ясеневая роща" 
+ holy_site_echo_lake_kardawai_kardawai_name: "Эхо-Лейк" 
+ holy_site_eastern_tower_kardawai_kardawai_name: "Восточная [Concept('tower','башня')|E]" 
+ holy_site_knife_monasteries_of_koperos_kardawai_kardawai_name: "Ножи-монастыри Копероса" 
+ holy_site_ashanashah_kardawai_kardawai_name: "Ашанаша" 
+ holy_site_singing_isle_kardawai_kardawai_name: "Поющий остров" 
+ holy_site_oltenic_tower_kardawai_kardawai_name: "Олтеникская [Concept('tower','башня')|E]" 
   
   ## Red Wastes 
- holy_site_seasons_unending_kardawai_kardawai_name: "Времена года бесконечны"
- holy_site_ash_filled_caverns_kardawai_kardawai_name: "Заполненные пеплом пещеры"
- holy_site_burning_coast_kardawai_kardawai_name: "Пылающий берег"
- holy_site_lone_vigil_kardawai_kardawai_name: "Одинокое бдение"
- holy_site_rejects_abode_kardawai_kardawai_name: "Обитель Отвержения"
- holy_site_blind_watch_kardawai_kardawai_name: "Слепой дозор"
+ holy_site_seasons_unending_kardawai_kardawai_name: "Времена года бесконечны" 
+ holy_site_ash_filled_caverns_kardawai_kardawai_name: "Заполненные пеплом пещеры" 
+ holy_site_burning_coast_kardawai_kardawai_name: "Пылающий берег" 
+ holy_site_lone_vigil_kardawai_kardawai_name: "Одинокое бдение" 
+ holy_site_rejects_abode_kardawai_kardawai_name: "Обитель Отвержения" 
+ holy_site_blind_watch_kardawai_kardawai_name: "Слепой дозор" 
   
   # Holy Sites: Benkassai 
   
@@ -203,57 +203,57 @@
   # none 
   
   ## Western Kalathipsomi 
- holy_site_ringed_gardens_kakarataki_kakarataki_name: "Кольцевые сады"
- holy_site_nightwarden_lodges_kakarataki_kakarataki_name: "Ночные Стражи Лоджи"
- holy_site_radvanice_kakarataki_kakarataki_name: "Радванице"
- holy_site_sunmoor_kakarataki_kakarataki_name: "Санмур"
- holy_site_chroniclers_sanctum_kakarataki_kakarataki_name: "Святилище летописцев"
+ holy_site_ringed_gardens_kakarataki_kakarataki_name: "Кольцевые сады" 
+ holy_site_nightwarden_lodges_kakarataki_kakarataki_name: "Ночные Стражи Лоджи" 
+ holy_site_radvanice_kakarataki_kakarataki_name: "Радванице" 
+ holy_site_sunmoor_kakarataki_kakarataki_name: "Санмур" 
+ holy_site_chroniclers_sanctum_kakarataki_kakarataki_name: "Святилище летописцев" 
   
   ## Western Kalathipsomi 
- holy_site_bortnice_kakarataki_kakarataki_name: "Бортнице"
- holy_site_sunmount_kakarataki_kakarataki_name: "Солнечная гора"
- holy_site_blagovest_monastery_kakarataki_kakarataki_name: "Благовестский монастырь"
- holy_site_jagdhase_kakarataki_kakarataki_name: "Джагдхасе"
- holy_site_sun_crested_city_kakarataki_kakarataki_name: "Город Солнечного Гребня"
+ holy_site_bortnice_kakarataki_kakarataki_name: "Бортнице" 
+ holy_site_sunmount_kakarataki_kakarataki_name: "Солнечная гора" 
+ holy_site_blagovest_monastery_kakarataki_kakarataki_name: "Благовестский монастырь" 
+ holy_site_jagdhase_kakarataki_kakarataki_name: "Джагдхасе" 
+ holy_site_sun_crested_city_kakarataki_kakarataki_name: "Город Солнечного Гребня" 
   
   ## Etepezea 
- holy_site_city_foretold_kakarataki_kakarataki_name: "Предсказанный город"
- holy_site_kladenice_kakarataki_kakarataki_name: "Кладенице"
- holy_site_sunswept_coast_kakarataki_kakarataki_name: "Солнечное побережье"
- holy_site_dawn_abbey_kakarataki_kakarataki_name: "Аббатство рассвета"
- holy_site_vale_of_the_devout_protector_kakarataki_kakarataki_name: "Долина благочестивого защитника"
- holy_site_korus_sojourn_kakarataki_kakarataki_name: "Пребывание Кору"
+ holy_site_city_foretold_kakarataki_kakarataki_name: "Предсказанный город" 
+ holy_site_kladenice_kakarataki_kakarataki_name: "Кладенице" 
+ holy_site_sunswept_coast_kakarataki_kakarataki_name: "Солнечное побережье" 
+ holy_site_dawn_abbey_kakarataki_kakarataki_name: "Аббатство рассвета" 
+ holy_site_vale_of_the_devout_protector_kakarataki_kakarataki_name: "Долина благочестивого защитника" 
+ holy_site_korus_sojourn_kakarataki_kakarataki_name: "Пребывание Кору" 
   
   ## Imperial Isle 
- holy_site_korus_glade_kakarataki_kakarataki_name: "Поляна Кору"
- holy_site_sunpoint_kakarataki_kakarataki_name: "Санпойнт"
- holy_site_izvetitse_kakarataki_kakarataki_name: "Изветице"
- holy_site_monastery_of_lights_heart_kakarataki_kakarataki_name: "Монастырь Сердца Света"
- holy_site_forlorn_sanctuary_kakarataki_kakarataki_name: "Заброшенное убежище"
+ holy_site_korus_glade_kakarataki_kakarataki_name: "Поляна Кору" 
+ holy_site_sunpoint_kakarataki_kakarataki_name: "Санпойнт" 
+ holy_site_izvetitse_kakarataki_kakarataki_name: "Изветице" 
+ holy_site_monastery_of_lights_heart_kakarataki_kakarataki_name: "Монастырь Сердца Света" 
+ holy_site_forlorn_sanctuary_kakarataki_kakarataki_name: "Заброшенное убежище" 
   
   ## Malcois 
- holy_site_forsaken_fortress_kakarataki_kakarataki_name: "Заброшенная крепость"
- holy_site_suncrowned_templess_kakarataki_kakarataki_name: "Храмы, увенчанные солнцем"
- holy_site_lustrous_rapids_kakarataki_kakarataki_name: "Блестящие пороги"
- holy_site_mirrorlake_kakarataki_kakarataki_name: "Зеркальное озеро"
- holy_site_trials_of_the_envoiced_kakarataki_kakarataki_name: "Испытания вызываемых"
+ holy_site_forsaken_fortress_kakarataki_kakarataki_name: "Заброшенная крепость" 
+ holy_site_suncrowned_templess_kakarataki_kakarataki_name: "Храмы, увенчанные солнцем" 
+ holy_site_lustrous_rapids_kakarataki_kakarataki_name: "Блестящие пороги" 
+ holy_site_mirrorlake_kakarataki_kakarataki_name: "Зеркальное озеро" 
+ holy_site_trials_of_the_envoiced_kakarataki_kakarataki_name: "Испытания вызываемых" 
   
   ## Opakhasia 
- holy_site_mor_kakarataki_kakarataki_name: "Мор"
- holy_site_peak_of_the_resplendent_sun_kakarataki_kakarataki_name: "Пик сияющего Солнца"
- holy_site_chapel_of_the_golden_veil_kakarataki_kakarataki_name: "Часовня Золотой Вуали"
- holy_site_pravnice_kakarataki_kakarataki_name: "Правнице"
- holy_site_wraith_pass_kakarataki_kakarataki_name: "Призрачный перевал"
- holy_site_hermit_gallery_kakarataki_kakarataki_name: "Галерея Эрмит"
- holy_site_blessed_straits_kakarataki_kakarataki_name: "Благословенный пролив"
+ holy_site_mor_kakarataki_kakarataki_name: "Мор" 
+ holy_site_peak_of_the_resplendent_sun_kakarataki_kakarataki_name: "Пик сияющего солнца" 
+ holy_site_chapel_of_the_golden_veil_kakarataki_kakarataki_name: "Часовня золотой вуали" 
+ holy_site_pravnice_kakarataki_kakarataki_name: "Правнице" 
+ holy_site_wraith_pass_kakarataki_kakarataki_name: "Призрачный перевал" 
+ holy_site_hermit_gallery_kakarataki_kakarataki_name: "Галерея Эрмит" 
+ holy_site_blessed_straits_kakarataki_kakarataki_name: "Благословенный пролив" 
   
   ## Aironoi 
- holy_site_city_of_the_reborn_sun_kakarataki_kakarataki_name: "Город возрожденного Солнца"
- holy_site_tomb_of_the_scorched_martyr_kakarataki_kakarataki_name: "Могила сожженного мученика"
- holy_site_voleynice_kakarataki_kakarataki_name: "Волейнице"
- holy_site_partharian_gardens_kakarataki_kakarataki_name: "Парфарские сады"
- holy_site_eastern_tower_kakarataki_kakarataki_name: "Восточная [tower|E]"
- holy_site_brass_prison_kakarataki_kakarataki_name: "Латунная тюрьма"
+ holy_site_city_of_the_reborn_sun_kakarataki_kakarataki_name: "Город возрожденного солнца" 
+ holy_site_tomb_of_the_scorched_martyr_kakarataki_kakarataki_name: "Могила сожженного мученика" 
+ holy_site_voleynice_kakarataki_kakarataki_name: "Волейнице" 
+ holy_site_partharian_gardens_kakarataki_kakarataki_name: "Парфарские сады" 
+ holy_site_eastern_tower_kakarataki_kakarataki_name: "Восточная [Concept('tower','башня')|E]" 
+ holy_site_brass_prison_kakarataki_kakarataki_name: "Латунная тюрьма" 
   
   # Holy Sites: Akrolenaki 
   
@@ -325,50 +325,50 @@
   # none 
   
   ## Eramasic Delta 
- holy_site_river_watch_gethian_gethian_name: "Цитадель Речного Дозора"
- holy_site_12_gethian_gethian_name: "Фирусарна"
- holy_site_13_gethian_gethian_name: "Галерея землетрясений"
- holy_site_14_gethian_gethian_name: "Храмы Дафера"
- holy_site_15_gethian_gethian_name: "Плато Каунара"
+ holy_site_river_watch_gethian_gethian_name: "Цитадель речного дозора" 
+ holy_site_12_gethian_gethian_name: "Фирусарна" 
+ holy_site_13_gethian_gethian_name: "Галерея землетрясений" 
+ holy_site_14_gethian_gethian_name: "Храмы Дафера" 
+ holy_site_15_gethian_gethian_name: "Плато Каунара" 
   
   ## Etepezea 
- holy_site_21_gethian_gethian_name: "Арапита Ридана"
- holy_site_22_gethian_gethian_name: "Сурдабана"
- holy_site_23_gethian_gethian_name: "Ложа Высших Юстициариев"
- holy_site_24_gethian_gethian_name: "Поляна Свауйтура"
- holy_site_25_gethian_gethian_name: "Гумена Хите"
- holy_site_26_gethian_gethian_name: "Изумрудный источник"
+ holy_site_21_gethian_gethian_name: "Арапита Ридана" 
+ holy_site_22_gethian_gethian_name: "Сурдабана" 
+ holy_site_23_gethian_gethian_name: "Ложа Высших Юстициариев" 
+ holy_site_24_gethian_gethian_name: "Поляна Свауйтура" 
+ holy_site_25_gethian_gethian_name: "Гумена Хите" 
+ holy_site_26_gethian_gethian_name: "Изумрудный источник" 
   
   ## Imperial Isle 
- holy_site_31_gethian_gethian_name: "Абхайрана"
- holy_site_32_gethian_gethian_name: "Базальтовый маяк"
- holy_site_33_gethian_gethian_name: "Ниума-Пойнт"
- holy_site_34_gethian_gethian_name: "Димейстерские колледжи"
- holy_site_35_gethian_gethian_name: "Эрмитаж хватки небес"
+ holy_site_31_gethian_gethian_name: "Абхайрана" 
+ holy_site_32_gethian_gethian_name: "Базальтовый маяк" 
+ holy_site_33_gethian_gethian_name: "Ниума-Пойнт" 
+ holy_site_34_gethian_gethian_name: "Димейстерские колледжи" 
+ holy_site_35_gethian_gethian_name: "Эрмитаж хватки небес" 
   
   ## Malcois 
- holy_site_41_gethian_gethian_name: "Прайхара"
- holy_site_42_gethian_gethian_name: "Священная долина"
- holy_site_43_gethian_gethian_name: "Хайса ра Тала"
- holy_site_44_gethian_gethian_name: "Трижды благословенный пик"
- holy_site_45_gethian_gethian_name: "Холуя Каскад"
- holy_site_46_gethian_gethian_name: "Авталана Ступени"
+ holy_site_41_gethian_gethian_name: "Прайхара" 
+ holy_site_42_gethian_gethian_name: "Священная долина" 
+ holy_site_43_gethian_gethian_name: "Хайса ра Тала" 
+ holy_site_44_gethian_gethian_name: "Трижды благословенный пик" 
+ holy_site_45_gethian_gethian_name: "Холуя Каскад" 
+ holy_site_46_gethian_gethian_name: "Авталана Ступени" 
   
   ## Opakhasia 
- holy_site_51_gethian_gethian_name: "Тивируна"
- holy_site_52_gethian_gethian_name: "Храм первородного греха"
- holy_site_53_gethian_gethian_name: "Перевал Гоаторн"
- holy_site_54_gethian_gethian_name: "Хали Агуриес"
- holy_site_55_gethian_gethian_name: "Сады Ангнухосис"
+ holy_site_51_gethian_gethian_name: "Тивируна" 
+ holy_site_52_gethian_gethian_name: "Храм первородного греха" 
+ holy_site_53_gethian_gethian_name: "Перевал Гоаторн" 
+ holy_site_54_gethian_gethian_name: "Хали Агуриес" 
+ holy_site_55_gethian_gethian_name: "Сады Ангнухосис" 
   
   ## Aironoi 
- holy_site_61_gethian_gethian_name: "См. мелиорации"
- holy_site_62_gethian_gethian_name: "Ятара Рахата"
- holy_site_63_gethian_gethian_name: "Копекский хребет"
- holy_site_64_gethian_gethian_name: "Сюарка"
- holy_site_65_gethian_gethian_name: "Пик Девяти Доблестей"
- holy_site_66_gethian_gethian_name: "Возмещение Ампеха"
- holy_site_67_gethian_gethian_name: "Коцентрический массив"
+ holy_site_61_gethian_gethian_name: "Цель мелиорации" 
+ holy_site_62_gethian_gethian_name: "Ятара Рахата" 
+ holy_site_63_gethian_gethian_name: "Копекский хребет" 
+ holy_site_64_gethian_gethian_name: "Сюарка" 
+ holy_site_65_gethian_gethian_name: "Пик Девяти Доблестей" 
+ holy_site_66_gethian_gethian_name: "Возмещение Ампеха" 
+ holy_site_67_gethian_gethian_name: "Коцентрический массив" 
   
   # Holy Sites: Salacad 
   
@@ -381,7 +381,7 @@
   ## Sulzegg Basin 
  holy_site_the_azure_covenant_salacad_salacad_name: "Лазурный завет"
  holy_site_valourpeak_salacad_salacad_name: "Пик доблести"
- holy_site_valourpeak_clanlanders_name: "Bennsego" #NT!
+ holy_site_valourpeak_clanlanders_name: "Беннсего" 
  holy_site_talon_sisters_of_czalosz_salacad_salacad_name: "Коготь-сестры Чалоша"
  holy_site_tczemesze_salacad_salacad_name: "Чемеше"
  holy_site_sea_crowned_skyabid_salacad_salacad_name: "Скайабид с морской короной"
@@ -712,25 +712,25 @@
  holy_site_tomb_of_the_forgotten_dreamer_apti_caradounars_name: "$holy_site_tomb_of_the_forgotten_dreamer_apti_apti_name$"
   
   # Holy Sites: Oltenic 
- holy_site_city_of_khatans_oltenic_cumani_name: "City of Khatans" #NT!
- holy_site_baytors_grave_oltenic_cumani_name: "Baytor's Grave" #NT!
- holy_site_eshtuulum_oltenic_cumani_name: "Eshtuulum" #NT!
- holy_site_the_ford_oltenic_cumani_name: "Iek Dserai" #NT!
- holy_site_otacheds_summit_oltenic_cumani_name: "Otached's Summit" #NT!
+ holy_site_city_of_khatans_oltenic_cumani_name: "Город Хатанов" 
+ holy_site_baytors_grave_oltenic_cumani_name: "Могила Бейтора" 
+ holy_site_eshtuulum_oltenic_cumani_name: "Эштуулум" 
+ holy_site_the_ford_oltenic_cumani_name: "Иек Джерай" 
+ holy_site_otacheds_summit_oltenic_cumani_name: "Собрание Оташедших" 
   
   # Holy Sites: Iek Otached 
- holy_site_city_of_khatans_oltenic_iek_otached_name: "$holy_site_city_of_khatans_oltenic_cumani_name$" #NT!
- holy_site_baytors_grave_oltenic_iek_otached_name: "$holy_site_baytors_grave_oltenic_cumani_name$" #NT!
- holy_site_eshtuulum_oltenic_iek_otached_name: "$holy_site_eshtuulum_oltenic_cumani_name$" #NT!
- holy_site_the_ford_oltenic_iek_otached_name: "$holy_site_the_ford_oltenic_cumani_name$" #NT!
- holy_site_otacheds_summit_oltenic_iek_otached_name: "$holy_site_otacheds_summit_oltenic_cumani_name$" #NT!
+ holy_site_city_of_khatans_oltenic_iek_otached_name: "$holy_site_city_of_khatans_oltenic_cumani_name$" 
+ holy_site_baytors_grave_oltenic_iek_otached_name: "$holy_site_baytors_grave_oltenic_cumani_name$" 
+ holy_site_eshtuulum_oltenic_iek_otached_name: "$holy_site_eshtuulum_oltenic_cumani_name$" 
+ holy_site_the_ford_oltenic_iek_otached_name: "$holy_site_the_ford_oltenic_cumani_name$" 
+ holy_site_otacheds_summit_oltenic_iek_otached_name: "$holy_site_otacheds_summit_oltenic_cumani_name$" 
   
   # Holy Sites: Arayymorog 
- holy_site_city_of_khatans_oltenic_arayymorog_name: "$holy_site_city_of_khatans_oltenic_cumani_name$" #NT!
- holy_site_baytors_grave_oltenic_arayymorog_name: "$holy_site_baytors_grave_oltenic_cumani_name$" #NT!
- holy_site_eshtuulum_oltenic_arayymorog_name: "$holy_site_eshtuulum_oltenic_cumani_name$" #NT!
- holy_site_the_ford_oltenic_arayymorog_name: "$holy_site_the_ford_oltenic_cumani_name$" #NT!
- holy_site_otacheds_summit_oltenic_arayymorog_name: "$holy_site_otacheds_summit_oltenic_cumani_name$" #NT!
+ holy_site_city_of_khatans_oltenic_arayymorog_name: "$holy_site_city_of_khatans_oltenic_cumani_name$" 
+ holy_site_baytors_grave_oltenic_arayymorog_name: "$holy_site_baytors_grave_oltenic_cumani_name$" 
+ holy_site_eshtuulum_oltenic_arayymorog_name: "$holy_site_eshtuulum_oltenic_cumani_name$" 
+ holy_site_the_ford_oltenic_arayymorog_name: "$holy_site_the_ford_oltenic_cumani_name$" 
+ holy_site_otacheds_summit_oltenic_arayymorog_name: "$holy_site_otacheds_summit_oltenic_cumani_name$" 
   
   # Holy Sites: Wardenism 
  holy_site_disuwai_name: "Западный Мамур"
@@ -743,16 +743,16 @@
  holy_site_zabiwkhah_name: "Языческие слезы"
   
   # Holy Sites: Sheharddi 
- holy_site_bet_addis_sheharddi_sheharddi_name: "ELOI-Laschem" #NT!
- holy_site_shen_idad_sheharddi_sheharddi_name: "ELOI-Avar" #NT!
- holy_site_erea_kaplah_sheharddi_sheharddi_name: "Erea Kaplah" #NT!
- holy_site_sheybeh_sheharddi_sheharddi_name: "Sheybeh" #NT!
+ holy_site_bet_addis_sheharddi_sheharddi_name: "ЭЛОИ-Лашем" 
+ holy_site_shen_idad_sheharddi_sheharddi_name: "ЭЛОИ-Авар" 
+ holy_site_erea_kaplah_sheharddi_sheharddi_name: "Эрия Капла" 
+ holy_site_sheybeh_sheharddi_sheharddi_name: "Шейбе" 
   
   # Holy Sites: ebohephai olten 
- holy_site_kharadan_gate_ebohephai_ebohephai_olten_name: "Kharadan Passage" #NT!
- holy_site_tranquil_isle_ebohephai_ebohephai_olten_name: "Tranquil Isle" #NT!
- holy_site_kashiryan_tower_ebohephai_ebohephai_olten_name: "Kashiryan Tower" #NT!
- holy_site_gate_to_kashirya_ebohephai_ebohephai_olten_name: "Gate to Kashirya" #NT!
+ holy_site_kharadan_gate_ebohephai_ebohephai_olten_name: "Хараданский проход" 
+ holy_site_tranquil_isle_ebohephai_ebohephai_olten_name: "Спокойный остров" 
+ holy_site_kashiryan_tower_ebohephai_ebohephai_olten_name: "Каширская башня" 
+ holy_site_gate_to_kashirya_ebohephai_ebohephai_olten_name: "Врата Каширы" 
   
  holy_site_abddexorn_karoxos_name: "Храм Теазерна"
  holy_site_abddexorn_lostisle_name: "Гробница Серетоса"
@@ -813,7 +813,7 @@
  holy_site_death_polas_name: "Могила Поласа"
  holy_site_derentiede_name: "Дерентьеде"
  holy_site_dethiclos_name: "Кровавые мины"
- holy_site_sidalos_name: "Sidalos" #NT!
+ holy_site_sidalos_name: "Сидалос" 
  holy_site_emthemae_name: "Эмтемаэ"
  holy_site_erderdi_name: "Провидцы Трона"
  holy_site_everard_tomb_name: "Могила Эверарда"
@@ -842,7 +842,7 @@
  holy_site_guillate_barencuir_name: "Единство Гийлата"
  holy_site_guillate_gradiene_name: "Слава Гийята"
  holy_site_guillate_maniotte_name: "Хитрость Гийлата"
- holy_site_guillate_pytheceas_name: "Навыки Гийлата"
+ holy_site_guillate_pytheceas_name: "Ловкость Гийлата"
  holy_site_guillates_tomb_name: "Отдых Гийлата"
  holy_site_guizforte_name: "Гизфорте"
  holy_site_gwynavon_uchav_name: "Гвинавон Учав"
@@ -1012,8 +1012,8 @@
  holy_site_toweux_name: "Товё"
  holy_site_trinion_name: "Храм Писца"
  holy_site_tseuka_tower_name: "Башня Чуэка"
- holy_site_baytors_grave_name: "Baytor's Grave" #NT!
- holy_site_otacheds_summit_name: "Otached's Summit" #NT!
+ holy_site_baytors_grave_name: "Могила Бейтора" 
+ holy_site_otacheds_summit_name: "Собрание Оташедших" 
  holy_site_ujaudat: "Уджаудат"
  holy_site_ujaudat_name: "Уджаудат"
  holy_site_unglinghausen_name: "Унглингхаузен"
@@ -1106,7 +1106,7 @@
   
   #Holy Sites: Oulaupi 
  holy_site_snow_king_mtn_name: "Наврег"
-  holy_site_red_prince_mtn_name:0 "The Red Prince 
+ holy_site_red_prince_mtn_name: "Красный принц" 
  holy_site_black_home_mtn_name: "Нортолн"
  holy_site_fire_hair_mtn_name: "Фурнговль"
  holy_site_rainbow_rock_mtn_name: "Ортгауп"
@@ -1127,12 +1127,19 @@
   # Holy Sites: Uakaklo 
  holy_site_temple_of_the_wrath_wielder_uakaklo_uakakloh_name: "Храм Владыки Гнева"
  holy_site_temple_of_the_wrath_wielder_uakaklo_mitikaka_name: "$holy_site_temple_of_the_wrath_wielder_uakaklo_uakakloh_name$"
-  
-  
+
+   
   # Holy Sites: Sepattan 
- holy_site_tarfal_garden_name: "Tarfal's Garden" #NT!
- holy_site_jerniem_hunting_ground_name: "Jerniem's Hunting Ground" #NT!
- holy_site_korlacu_deception_name: "Korlacu's Deception" #NT!
+ holy_site_tarfal_garden_name: "Сад Тарфала" 
+ holy_site_jerniem_hunting_ground_name: "Охотничьи угодья Джерниема" 
+ holy_site_korlacu_deception_name: "Обман Корлаку" 
+
+  # Holy Sites: Aegispact
+ holy_site_thrymsae_chapel_name:0 "Храм в Тримсе"
+ holy_site_eastpoint_name:0 "Восточная скала"
+ holy_site_southport_name:0 "Южный порт"
+ holy_site_orlindel_mountain_name:0 "Гора Орлиндела"
+
   
   #Religion Families 
  gh_rf_aversarian: "Аверсарианец"
@@ -1144,57 +1151,57 @@
   ############# 
   
   #Doctrines: Slavery 
- doctrine_slavery_name: "Рабство"
- doctrine_slavery_demanded_name: "Обязательный"
- doctrine_slavery_demanded_desc: "В Священных Писаниях рабство рассматривается как добродетель, а выступать против собственности человека греховно."
- doctrine_slavery_encouraged_name: "Поощряется"
- doctrine_slavery_encouraged_desc: "Хотя это и не является обязательным требованием, благочестивым правителям рекомендуется иметь рабов."
- doctrine_slavery_neutral_name: "Нейтральный"
- doctrine_slavery_neutral_desc: "Вера не имеет какого-либо особого взгляда на владение рабами."
- doctrine_slavery_discouraged_name: "Обескураженный"
- doctrine_slavery_discouraged_desc: "Хотя рабство и не запрещено, оно считается греховным."
- doctrine_slavery_banned_name: "Нет рабства"
- doctrine_slavery_banned_desc: "Властвовать другим человеком – истинное зло, и верующие строго запрещают его."
+ doctrine_slavery_name: "Рабство" 
+ doctrine_slavery_demanded_name: "Обязательно" 
+ doctrine_slavery_demanded_desc: "В Священных Писаниях рабство рассматривается как добродетель, а выступать против собственности человека греховно." 
+ doctrine_slavery_encouraged_name: "Поощряется" 
+ doctrine_slavery_encouraged_desc: "Хотя это и не является обязательным требованием, благочестивым правителям рекомендуется иметь рабов." 
+ doctrine_slavery_neutral_name: "Нейтрально" 
+ doctrine_slavery_neutral_desc: "Вера не имеет какого-либо особого взгляда на владение рабами." 
+ doctrine_slavery_discouraged_name: "Не одобряется" 
+ doctrine_slavery_discouraged_desc: "Хотя рабство и не запрещено, оно считается греховным." 
+ doctrine_slavery_banned_name: "Нет рабства" 
+ doctrine_slavery_banned_desc: "Властвовать другим человеком – истинное зло, и верующие строго запрещают его." 
   
   #Doctrines: Magic 
- doctrine_magic_name: "Магия"
- doctrine_magic_crime_name: "Магия криминализирована"
- doctrine_magic_crime_desc: "Те, у кого есть «[the_gift|E]», слишком опасны, чтобы их можно было оставить в живых."
- doctrine_magic_shunned_name: "Магия избегается"
- doctrine_magic_shunned_desc: "Те, у кого есть [the_gift|E], полезны, но их следует держать на расстоянии."
- doctrine_magic_accepted_name: "Магия принята"
- doctrine_magic_accepted_desc: "[the_gift|E], как говорится, нечего стыдиться."
- doctrine_magic_honored_name: "Магия Уважение"
- doctrine_magic_honored_desc: "[the_gift|E] и его пользователи заслуживают уважения в нашем обществе."
- doctrine_magic_supremacy_name: "Магическое превосходство"
- doctrine_magic_supremacy_desc: "Те, у кого есть [the_gift|E], естественно, превосходят тех, у кого нет."
+ doctrine_magic_name: "Магия" 
+ doctrine_magic_crime_name: "Магия криминализирована" 
+ doctrine_magic_crime_desc: "Те, у кого есть «[Concept('the_gift','Дар')|E]», слишком опасны, чтобы их можно было оставить в живых." 
+ doctrine_magic_shunned_name: "Магия избегается" 
+ doctrine_magic_shunned_desc: "Те, у кого есть [Concept('the_gift','Дар')|E], полезны, но их следует держать на расстоянии." 
+ doctrine_magic_accepted_name: "Магия принята" 
+ doctrine_magic_accepted_desc: "[Concept('the_gift','Дар')|E], как говорится, нечего стыдиться." 
+ doctrine_magic_honored_name: "Магия Уважение" 
+ doctrine_magic_honored_desc: "[Concept('the_gift','Дар')|E] и его пользователи заслуживают уважения в нашем обществе." 
+ doctrine_magic_supremacy_name: "Магическое превосходство" 
+ doctrine_magic_supremacy_desc: "Те, у кого есть [Concept('the_gift','Дар')|E], естественно, превосходят тех, у кого нет." 
   
   ##################### 
   # Special Doctrines # 
   ##################### 
   
   #Special Doctrines: Agionism 
- special_doctrine_agionist_order_cooperation_corrupt_name: "Крестовый поход Святых"
- special_doctrine_agionist_order_cooperation_corrupt_desc: "Наша вера объединяется с нашими товарищами по Орденам Агионистов, когда мы несем свет Святых саррадонским язычникам."
- agionist_order_cooperation_corrupt_name: "Крестовый поход Святых"
- agionist_faith_name: "Имеет агионистскую веру"
- forgotten_faith_doctrine_name: "Доктрина забытой веры"
- forgotten_faith_doctrine_desc: "Практикует забытую веру"
- eight_faith_doctrine_name: "Доктрина октарианского агионизма"
- eight_faith_doctrine_desc: "Практикует октарианский агионизм"
- saint_faith_doctrine_name: "Доктрина Святой Веры"
- saint_faith_doctrine_desc: "Практикует диксансинизм"
- seven_faith_doctrine_name: "Доктрина семи вер"
- seven_faith_doctrine_desc: "Практикует септианский агионизм"
- special_doctrine_is_agionism_faith_desc: "Какими бы ни были наши разногласия, наша вера принадлежит семье Агионистов, и они наши родственники."
- special_doctrine_is_agionism_faith_name: "Последователи Святых"
- is_agionism_faith_name: "Имеет агионистскую веру"
+ special_doctrine_agionist_order_cooperation_corrupt_name: "Крестовый поход Святых" 
+ special_doctrine_agionist_order_cooperation_corrupt_desc: "Наша вера едина с нашими собратьями по агионистским орденам, поскольку мы несем свет Святых язычникам Саррадона." 
+ agionist_order_cooperation_corrupt_name: "Крестовый поход Святых" 
+ agionist_faith_name: "Имеет агионистскую веру" 
+ forgotten_faith_doctrine_name: "Доктрина забытой веры" 
+ forgotten_faith_doctrine_desc: "Практикует забытую веру" 
+ eight_faith_doctrine_name: "Доктрина октарианского агионизма" 
+ eight_faith_doctrine_desc: "Практикует октарианский агионизм" 
+ saint_faith_doctrine_name: "Доктрина святой веры" 
+ saint_faith_doctrine_desc: "Практикует диксансинизм" 
+ seven_faith_doctrine_name: "Доктрина семи вер" 
+ seven_faith_doctrine_desc: "Практикует септианский агионизм" 
+ special_doctrine_is_agionism_faith_desc: "Какими бы ни были наши разногласия, наша вера принадлежит семье Агионистов, и они наши родственники." 
+ special_doctrine_is_agionism_faith_name: "Последователи Святых" 
+ is_agionism_faith_name: "Имеет агионистскую веру" 
   
   #Special Doctrines: Alau Koev 
  alau_koev_hostility_name: "Алау Коев"
- special_doctrine_alau_koev_hostility_desc: "Нас всех вместе привели в [fire_gate|E], во что бы мы сейчас ни верили. Мы должны объединиться против тех, кто отрицает наше священное пламя, а не придираться, пока холод распространяется по всему миру."
+ special_doctrine_alau_koev_hostility_desc: "Мы все вместе пришли к [Concept('fire_gate','вратам')|E], независимо от того, во что мы сейчас верим. Мы должны объединиться против тех, кто отрицает наше священное пламя, а не спорить, когда холод охватывает весь мир."
  special_doctrine_alau_koev_hostility_name: "Связанные пламенем"
- special_doctrine_is_alau_koev_faith_desc: "Какими бы ни были наши разногласия, наша вера принадлежит семье Алау Коевач, и они наши родственники."
+ special_doctrine_is_alau_koev_faith_desc: "Какими бы ни были наши различия, наша вера принадлежит семье Алау Коевач, и они - наши родственники."
  special_doctrine_is_alau_koev_faith_name: "Хранители Огненных ворот"
  is_alau_koev_faith_name: "Имеет веру Алау Коев"
   
@@ -1223,7 +1230,7 @@
   
   #Special Doctrines: Bekashai 
  bekashai_hostility_name: "Бекашай"
- special_doctrine_bekashai_hostility_desc: "Давным-давно иноземцы разрушили наши небеса, и был убит Тот, Кто Был Всевышний, наш божественный хранитель и защитник. Наша миссия, наша цель уникальны и первостепенны. Мы существуем для того, чтобы заставить сжигателей храмов заплатить за свои преступления и наконец отомстить за древнюю трагедию."
+ special_doctrine_bekashai_hostility_desc: "Давным-давно чужеземцы разрушили наши небеса, и Тот, Кто был Всевышним, наш божественный хранитель и защитник, был убит. Наша миссия, наше предназначение уникальны и первостепенны. Мы существуем для того, чтобы заставить Поджигателей храмов заплатить за их преступления, чтобы, наконец, отомстить за древнюю трагедию."
  special_doctrine_bekashai_hostility_name: "Солдаты Мертвого Бога"
   
   #Special Doctrines: Graveright 
@@ -1259,16 +1266,16 @@
   
   #Special Doctrines: Marefai 
  marefai_hostility_name: "Марефай"
- special_doctrine_marefai_hostility_desc: "Гимны Небес, древние песни, которые поют с начала времен, местами расплывчаты. И хотя другие могут цепляться за свою версию истории, мы позволяем каждому выбирать. Всевышний дал нам возможность истолковывать Его священные указы, и ни один смертный не может сказать другому, что их толкование ложно."
+ special_doctrine_marefai_hostility_desc: "Гимны Небес, древние песни, которые пели с незапамятных времен, местами расплывчаты. И хотя другие могут придерживаться своей версии истории, мы позволяем выбирать всем. Всевышний дал нам возможность толковать Его священные повеления, и ни один смертный не в состоянии сказать другому, что их толкование ложно."
  special_doctrine_marefai_hostility_name: "Исполнители Его древних гимнов"
   
   #Special Doctrines: Marcher 
  special_doctrine_is_marcher_faith_desc: "Какими бы ни были наши разногласия, наша вера принадлежит семье Марчер, и они наши родственники."
- special_doctrine_is_marcher_faith_name: "Внутри маршевой веры"
+ special_doctrine_is_marcher_faith_name: "Внутри марческой веры"
  is_marcher_faith_name: "Имеет веру жизненного пути"
  marcher_faith_name: "Имеет веру жизненного пути"
- marcher_faith_doctrine_name: "Доктрина веры Марчера"
- marcher_faith_doctrine_desc: "Практикует марширующую веру"
+ marcher_faith_doctrine_name: "Доктрина веры Марчеров"
+ marcher_faith_doctrine_desc: "Практикует марчерскую веру"
   
   #Special Doctrines: Mogowai 
  mogowai_hostility_name: "Моговай"
@@ -1557,19 +1564,19 @@
  is_zaldrigas_faith_name: "Имеет веру Залдригаса"
   
   #Special Doctrines: Dahala 
- special_doctrine_is_dahala_faith_desc: "Whatever our differences, our faith belongs to the Dahala family and they are our kin." #NT!
- special_doctrine_is_dahala_faith_name: "Seekers of Power" #NT!
- is_dahala_faith_name: "Has the Dahala faith" #NT!
+ special_doctrine_is_dahala_faith_desc: "Какими бы ни были наши различия, наша вера принадлежит семье Дахала, и они - наши родственники." 
+ special_doctrine_is_dahala_faith_name: "Искатели власти" 
+ is_dahala_faith_name: "Придерживается веры Дахалы" 
   
   #Special Doctrines: Sepattan 
- special_doctrine_is_sepattan_faith_desc: "Whatever our differences, our faith belongs to the Sepattan family and they are our kin." #NT!
- special_doctrine_is_sepattan_faith_name: "Seekers of Power" #NT!
- is_sepattan_faith_name: "Has the Sepattan faith" #NT!
+ special_doctrine_is_sepattan_faith_desc: "Какими бы ни были наши различия, наша вера принадлежит семье Сепаттан, и они - наши родственники." 
+ special_doctrine_is_sepattan_faith_name: "Искатели власти" 
+ is_sepattan_faith_name: ""Придерживается веры Сераттан" 
   
   #Special Doctrines: Common Cause 
- coalition_common_goal_name: "Common Cause" #NT!
- special_doctrine_imperrech_common_goal_name: "Imperrech Unity" #NT!
- special_doctrine_imperrech_common_goal_desc: "Despite our contrasting ways, the peoples of the [sjalvolki_migrations|E] have banded together under a common cause." #NT!
+ coalition_common_goal_name: "Общее дело" 
+ special_doctrine_imperrech_common_goal_name: "Вечное единство" 
+ special_doctrine_imperrech_common_goal_desc: "Несмотря на различия в наших путях, народы [sjalvolki_migrations|E] have banded together under a common cause." 
   
   
   #Other Hostility Doctrines 
@@ -1584,18 +1591,18 @@
  religious_isolate_hostility_doctrine_name: "Религиозный изолятор"
  religious_isolate_hostility_doctrine_desc: "Какими бы ни были наши различия, наша вера принадлежит семье Религиозных Изолятов, и они наши родственники."
  standard_hostility_doctrine_name: "Стандартный"
- standard_hostility_doctrine_desc: "Какими бы ни были наши различия, наша вера принадлежит семье Standard, и они наши родственники."
+ standard_hostility_doctrine_desc: "Какими бы ни были наши различия, наша вера принадлежит семье Стандарт, и они наши родственники."
  harthahi_hostility_doctrine_name: "Хартахи"
  harthahi_hostility_doctrine_desc: "Какими бы ни были наши разногласия, наша вера принадлежит семье Хартахи, и они наши родственники."
  iyrossi_hostility_doctrine_name: "Ийросси"
  iyrossi_hostility_doctrine_desc: "Какими бы ни были наши разногласия, наша вера принадлежит семье Иироросси, и они наши родственники."
  marcher_hostility_doctrine_name: "Марчер"
- marcher_hostility_doctrine_desc: "Какими бы ни были наши разногласия, наша вера принадлежит семье Марчер, и они наши родственники."
- aversarian_hostility_doctrine_name: "Аверсарианец"
- aversarian_hostility_doctrine_desc: "Какими бы ни были наши различия, наша вера принадлежит семье Аверсариев, и они наши родственники."
- ritualism_hostility_doctrine_name: "Ритуалист"
+ marcher_hostility_doctrine_desc: "Какими бы ни были наши разногласия, наша вера принадлежит семье Марчеров, и они наши родственники."
+ aversarian_hostility_doctrine_name: "Аверсарианцы"
+ aversarian_hostility_doctrine_desc: "Какими бы ни были наши различия, наша вера принадлежит семье Аверсарианцев, и они наши родственники."
+ ritualism_hostility_doctrine_name: "Ритуализи"
  ritualism_hostility_doctrine_desc: "Какими бы ни были наши различия, наша вера принадлежит семье Ритуалистов, и они наши родственники."
- wardenism_hostility_doctrine_name: "Смотритель"
+ wardenism_hostility_doctrine_name: "Варденизм"
  wardenism_hostility_doctrine_desc: "Какими бы ни были наши разногласия, наша вера принадлежит семье Варденистов, и они наши родственники."
   
   ####################### 
@@ -1627,12 +1634,12 @@
  doctrine_parameter_magi_hunters_active: "Последователи получают известность, престиж и черты характера за убийство [magi|E] [characters|E], будь то интрига, битва или казнь."
  doctrine_parameter_mamuramat_dependent_on_faith_head_doctrine: "Не признает никаких традиционных [mamur|E], но может установить свой собственный, если это разрешено доктриной [head_of_faith|E]."
  doctrine_parameter_masked_adherents_active: "Приверженцы маскируются"
- doctrine_parameter_masked_adherents_oltenic: "" #NT!
- masked_adherents_oltenic_opinion_name: "Fellow Masked" #NT!
- doctrine_parameter_opinion_of_masked_adherents_oltenic: "[opinion|E] of other Masked: $VALUE|+=0$" #NT!
- doctrine_parameter_masked_adherents_syncretic: "" #NT!
- masked_adherents_syncretic_opinion_name: "$masked_adherents_oltenic_opinion_name$" #NT!
- doctrine_parameter_opinion_of_masked_adherents_syncretic: "$doctrine_parameter_opinion_of_masked_adherents_oltenic$" #NT!
+ doctrine_parameter_masked_adherents_oltenic: "" 
+ masked_adherents_oltenic_opinion_name: "Fellow Masked" 
+ doctrine_parameter_opinion_of_masked_adherents_oltenic: "[opinion|E] of other Masked: $VALUE|+=0$" 
+ doctrine_parameter_masked_adherents_syncretic: "" 
+ masked_adherents_syncretic_opinion_name: "$masked_adherents_oltenic_opinion_name$" 
+ doctrine_parameter_opinion_of_masked_adherents_syncretic: "$doctrine_parameter_opinion_of_masked_adherents_oltenic$" 
  doctrine_parameter_masked_priests_active: "Священники в масках"
  doctrine_parameter_no_mamurs_recognized: "Не распознает [mamur|E]"
  doctrine_parameter_number_of_consorts_0: "Правителям, независимо от [gender_law|E], не разрешается брать [concubines|E]."
@@ -1640,7 +1647,7 @@
  doctrine_parameter_parameter_overseas_raiding_allowed: "Этот [faith|E] позволяет вам совершать [raid|E], включая зарубежные рейды"
  doctrine_parameter_penalty_for_not_hunting_enabled: "Суммирование штрафа [prestige|E] и [vassal|E] [opinion|E] через пять лет без [hunt|E]"
  doctrine_parameter_piety_for_rival_kill: "Убийство [rivals|E] дает [piety|E]"
- doctrine_parameter_religious_extort_subjects: "Followers has access to the [extort_subjects|E] [decision|E], with the #E This is MY Domain#! Perk now lowering its cooldown" #NT!
+ doctrine_parameter_religious_extort_subjects: "Followers has access to the [extort_subjects|E] [decision|E], with the #E This is MY Domain#! Perk now lowering its cooldown" 
  doctrine_parameter_piety_from_hunts_active: "Успешный [hunt|E] приносит [piety|E], зависящий от уровня игры."
  doctrine_parameter_sjalvolki_hunt_enabled: "Можно продолжать [monster_hunts|E]"
  doctrine_parameter_spread_the_light_promote_faith_bonus_active: "Скорость преобразования графства: #P +20#!"
@@ -1648,52 +1655,52 @@
  doctrine_parameter_thysian_physician_education: "Дети с [learning|E] [education_focus|E] могут приобрести черту [GetTrait('physician_1').GetName( GetNullCharacter )], если они хорошо учатся."
  doctrine_parameter_thysian_physician_pilgrimage: "Паломничества имеют шанс получить или улучшить черту [GetTrait('physician_2').GetName( GetNullCharacter )]."
  doctrine_parameter_uses_legal_traditions: "Включает #E правовые традиции#!"
- doctrine_parameter_can_perform_medical_experiments: "Can use the $medical_experiment_scheme$ on [prisoners|E]" #NT!
- doctrine_parameter_can_use_heal_the_sick_decision: "Can use the $heal_the_sick_decision$ decision to improve the conditions for the sick and wounded in their [realm|E]" #NT!
+ doctrine_parameter_can_perform_medical_experiments: "Can use the $medical_experiment_scheme$ on [prisoners|E]" 
+ doctrine_parameter_can_use_heal_the_sick_decision: "Can use the $heal_the_sick_decision$ decision to improve the conditions for the sick and wounded in their [realm|E]" 
   
   #Doctrine Parameters: Patron Saints 
- doctrine_parameter_patron_saints_enabled: "" #NT!
+ doctrine_parameter_patron_saints_enabled: "" 
   
- doctrine_parameter_max_patron_saint_level_doctrine_5: "Maximum #E Patron Saint#! level: 5" #NT!
- doctrine_parameter_max_patron_saint_level_doctrine_4: "Maximum #E Patron Saint#! level: 4" #NT!
- doctrine_parameter_max_patron_saint_level_doctrine_3: "Maximum #E Patron Saint#! level: 3" #NT!
- doctrine_parameter_max_patron_saint_level_doctrine_2: "Maximum #E Patron Saint#! level: 2" #NT!
- doctrine_parameter_max_patron_saint_level_doctrine_1: "Maximum #E Patron Saint#! level: 1" #NT!
+ doctrine_parameter_max_patron_saint_level_doctrine_5: "Maximum #E Patron Saint#! level: 5" 
+ doctrine_parameter_max_patron_saint_level_doctrine_4: "Maximum #E Patron Saint#! level: 4" 
+ doctrine_parameter_max_patron_saint_level_doctrine_3: "Maximum #E Patron Saint#! level: 3" 
+ doctrine_parameter_max_patron_saint_level_doctrine_2: "Maximum #E Patron Saint#! level: 2" 
+ doctrine_parameter_max_patron_saint_level_doctrine_1: "Maximum #E Patron Saint#! level: 1" 
   
- doctrine_parameter_total_patron_saint_level_doctrine_5: "Maximum number of #E Patron Saint#! levels: 5" #NT!
- doctrine_parameter_total_patron_saint_level_doctrine_4: "Maximum number of #E Patron Saint#! levels: 4" #NT!
- doctrine_parameter_total_patron_saint_level_doctrine_3: "Maximum number of #E Patron Saint#! levels: 3" #NT!
- doctrine_parameter_total_patron_saint_level_doctrine_2: "Maximum number of #E Patron Saint#! levels: 2" #NT!
- doctrine_parameter_total_patron_saint_level_doctrine_1: "Maximum number of #E Patron Saint#! levels: 1" #NT!
+ doctrine_parameter_total_patron_saint_level_doctrine_5: "Maximum number of #E Patron Saint#! levels: 5" 
+ doctrine_parameter_total_patron_saint_level_doctrine_4: "Maximum number of #E Patron Saint#! levels: 4" 
+ doctrine_parameter_total_patron_saint_level_doctrine_3: "Maximum number of #E Patron Saint#! levels: 3" 
+ doctrine_parameter_total_patron_saint_level_doctrine_2: "Maximum number of #E Patron Saint#! levels: 2" 
+ doctrine_parameter_total_patron_saint_level_doctrine_1: "Maximum number of #E Patron Saint#! levels: 1" 
   
- doctrine_parameter_total_patron_saint_number_doctrine_5: "Maximum #E Patron Saints#!: 5" #NT!
- doctrine_parameter_total_patron_saint_number_doctrine_4: "Maximum #E Patron Saints#!: 4" #NT!
- doctrine_parameter_total_patron_saint_number_doctrine_3: "Maximum #E Patron Saints#!: 3" #NT!
- doctrine_parameter_total_patron_saint_number_doctrine_2: "Maximum #E Patron Saints#!: 2" #NT!
- doctrine_parameter_total_patron_saint_number_doctrine_1: "Maximum #E Patron Saints#!: 1" #NT!
- doctrine_parameter_can_build_dark_obelisks: "Can build monuments to the dark gods" #NT!
+ doctrine_parameter_total_patron_saint_number_doctrine_5: "Maximum #E Patron Saints#!: 5" 
+ doctrine_parameter_total_patron_saint_number_doctrine_4: "Maximum #E Patron Saints#!: 4" 
+ doctrine_parameter_total_patron_saint_number_doctrine_3: "Maximum #E Patron Saints#!: 3" 
+ doctrine_parameter_total_patron_saint_number_doctrine_2: "Maximum #E Patron Saints#!: 2" 
+ doctrine_parameter_total_patron_saint_number_doctrine_1: "Maximum #E Patron Saints#!: 1" 
+ doctrine_parameter_can_build_dark_obelisks: "Can build monuments to the dark gods" 
   
   #Doctrine Parameters: Agionist Worship 
- doctrine_parameter_exclusive_worship_eos_pure: "Worships #E Eos#! as a #E Patron Saint#!" #NT!
- doctrine_parameter_exclusive_worship_sansia_pure: "Worships #E Sansia#! as a #E Patron Saint#!" #NT!
- doctrine_parameter_exclusive_worship_dikaynos_pure: "Worships #E Dikaynos#! as a #E Patron Saint#!" #NT!
- doctrine_parameter_exclusive_worship_katharitos_pure: "Worships #E Katharitos#! as a #E Patron Saint#!" #NT!
- doctrine_parameter_exclusive_worship_thysia_pure: "Worships #E Thysia#! as a #E Patron Saint#!" #NT!
- doctrine_parameter_exclusive_worship_philanthros_pure: "Worships #E Philantrios#! as a #E Patron Saint#!" #NT!
- doctrine_parameter_exclusive_worship_forgotten_pure: "Worships #E The Forgotten Saint#! as a #E Patron Saint#!" #NT!
- doctrine_parameter_exclusive_worship_calysto_pure: "Worships #E Calysto#! as a #E Patron Saint#!" #NT!
+ doctrine_parameter_exclusive_worship_eos_pure: "Worships #E Eos#! as a #E Patron Saint#!" 
+ doctrine_parameter_exclusive_worship_sansia_pure: "Worships #E Sansia#! as a #E Patron Saint#!" 
+ doctrine_parameter_exclusive_worship_dikaynos_pure: "Worships #E Dikaynos#! as a #E Patron Saint#!" 
+ doctrine_parameter_exclusive_worship_katharitos_pure: "Worships #E Katharitos#! as a #E Patron Saint#!" 
+ doctrine_parameter_exclusive_worship_thysia_pure: "Worships #E Thysia#! as a #E Patron Saint#!" 
+ doctrine_parameter_exclusive_worship_philanthros_pure: "Worships #E Philantrios#! as a #E Patron Saint#!" 
+ doctrine_parameter_exclusive_worship_forgotten_pure: "Worships #E The Forgotten Saint#! as a #E Patron Saint#!" 
+ doctrine_parameter_exclusive_worship_calysto_pure: "Worships #E Calysto#! as a #E Patron Saint#!" 
   
- doctrine_parameter_exclusive_worship_eos_corrupt: "Worships #E Eos#! as a #E Patron Saint#!" #NT!
- doctrine_parameter_exclusive_worship_sansia_corrupt: "Worships #E Sansia#! as a #E Patron Saint#!" #NT!
- doctrine_parameter_exclusive_worship_dikaynos_corrupt: "Worships #E Dikaynos#! as a #E Patron Saint#!" #NT!
- doctrine_parameter_exclusive_worship_katharitos_corrupt: "Worships #Katharitos#! as a #Patron Saint#!" #NT!
- doctrine_parameter_exclusive_worship_thysia_corrupt: "Worships #E Thysia#! as a #E Patron Saint#!" #NT!
- doctrine_parameter_exclusive_worship_philanthros_corrupt: "Worships #E Philantrios#! as a #E Patron Saint#!" #NT!
- doctrine_parameter_exclusive_worship_forgotten_corrupt: "Worships #E The Forgotten Saint#! as a #E Patron Saint#!" #NT!
- doctrine_parameter_exclusive_worship_calysto_corrupt: "Worships #E Calysto#! as a #E Patron Saint#!" #NT!
+ doctrine_parameter_exclusive_worship_eos_corrupt: "Worships #E Eos#! as a #E Patron Saint#!" 
+ doctrine_parameter_exclusive_worship_sansia_corrupt: "Worships #E Sansia#! as a #E Patron Saint#!" 
+ doctrine_parameter_exclusive_worship_dikaynos_corrupt: "Worships #E Dikaynos#! as a #E Patron Saint#!" 
+ doctrine_parameter_exclusive_worship_katharitos_corrupt: "Worships #Katharitos#! as a #Patron Saint#!" 
+ doctrine_parameter_exclusive_worship_thysia_corrupt: "Worships #E Thysia#! as a #E Patron Saint#!" 
+ doctrine_parameter_exclusive_worship_philanthros_corrupt: "Worships #E Philantrios#! as a #E Patron Saint#!" 
+ doctrine_parameter_exclusive_worship_forgotten_corrupt: "Worships #E The Forgotten Saint#! as a #E Patron Saint#!" 
+ doctrine_parameter_exclusive_worship_calysto_corrupt: "Worships #E Calysto#! as a #E Patron Saint#!" 
   
- doctrine_parameter_worship_corrupt_agionist: "Can worship any of the #E Agionist Saints#! as a #E Patron Saint#!" #NT!
- doctrine_parameter_worship_pure_agionist: "Can worship any of the #E Agionist Saints#! as a #E Patron Saint#!" #NT!
+ doctrine_parameter_worship_corrupt_agionist: "Can worship any of the #E Agionist Saints#! as a #E Patron Saint#!" 
+ doctrine_parameter_worship_pure_agionist: "Can worship any of the #E Agionist Saints#! as a #E Patron Saint#!" 
   
   #Doctrine Parameters: Hostility Overrides 
  doctrine_parameter_saintly_order_faith_hostility_override_loc: "Считает и считается всеми конфессиями Ордена Святых [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]."
@@ -1730,8 +1737,8 @@
  doctrine_parameter_hostility_override_special_doctrine_is_redland_cults_faith: "Считает Redlander [faiths|E], а Redlander $game_concept_faiths$ считает [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
  doctrine_parameter_hostility_override_special_doctrine_is_sunarwei_faith: "Считает Сунарвейаиста [faiths|E], а Сунарвейаиста $game_concept_faiths$ считает [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
  doctrine_parameter_hostility_override_special_doctrine_is_oulaupi_faith: "Считает Улапи [faiths|E], а Улаупи $game_concept_faiths$ считает [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
- doctrine_parameter_hostility_override_special_doctrine_is_dahala_faith: "Considers Dahala [faiths|E], and is considered by Dahala $game_concept_faiths$ to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$" #NT!
- doctrine_parameter_hostility_override_special_doctrine_is_sepattan_faith: "Considers Sepattan [faiths|E], and is considered by Sepattan $game_concept_faiths$ to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_is_dahala_faith: "Considers Dahala [faiths|E], and is considered by Dahala $game_concept_faiths$ to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$" 
+ doctrine_parameter_hostility_override_special_doctrine_is_sepattan_faith: "Considers Sepattan [faiths|E], and is considered by Sepattan $game_concept_faiths$ to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$" 
  doctrine_parameter_hostility_override_special_doctrine_is_xaxbaxakanax_faith: "Считает Xax'baxa'kanaxi [faiths|E] и рассматривается Xax'baxa'kanaxi $game_concept_faiths$ как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$"
  doctrine_parameter_hostility_override_special_doctrine_is_dravidian_faith: "Считает Авастью Махани [faiths|E], а Авастья Махани $game_concept_faiths$ считает [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
  doctrine_parameter_hostility_override_special_doctrine_is_viyagaric_faith: "Считает Виягарика [faiths|E], а Виягарик $game_concept_faiths$ считает [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
@@ -1772,7 +1779,7 @@
  doctrine_parameter_hostility_override_special_doctrine_is_zaldrigas_faith: "Считает Залдригас [faiths|E], а Шуб-Юагуаг $game_concept_faiths$ считает [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
   
  doctrine_parameter_hostility_override_special_doctrine_singular_mamur_hostility: "[faiths|E], которые распознают другой [mamur|E], считаются [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
- doctrine_parameter_hostility_override_tenet_aeschraes_legacy: "Considers any faith with the tenet The Burning World to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
+ doctrine_parameter_hostility_override_tenet_aeschraes_legacy: "Considers any faith with the tenet The Burning World to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" 
  doctrine_parameter_hostility_override_tenet_agionism_religion_syncretism: "Взаимно считает $game_concept_faiths$ синкретичным с агионизмом, как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
  doctrine_parameter_hostility_override_tenet_alau_koev_religion_syncretism: "Взаимно считает $game_concept_faiths$ синкретичным с Алау Коевым, [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
  doctrine_parameter_hostility_override_tenet_amsari_religion_syncretism: "Взаимно считает $game_concept_faiths$ синкретическим с Амсари, как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
@@ -1780,8 +1787,8 @@
  doctrine_parameter_hostility_override_tenet_aruvasue_religion_syncretism: "Взаимно считает $game_concept_faiths$ синкретическим с Арувасуэ, как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
  doctrine_parameter_hostility_override_tenet_aversarinas_aagiokrata_religion_syncretism: "Взаимно считает $game_concept_faiths$ и [GetFaithDoctrine('tenet_aversarinas_aagiokrata_religion_syncretism').GetBaseName] [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
  doctrine_parameter_hostility_override_tenet_axiaothea_legacy: "Считает любую веру с принципом «Долгая война» [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]."
- doctrine_parameter_hostility_override_tenet_the_long_war: "Considers any faith with the tenet The Long War to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" #NT!
- doctrine_parameter_hostility_override_divine_destiny_doctrine: "" #NT!
+ doctrine_parameter_hostility_override_tenet_the_long_war: "Considers any faith with the tenet The Long War to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" 
+ doctrine_parameter_hostility_override_divine_destiny_doctrine: "" 
  doctrine_parameter_hostility_override_tenet_graveright_religion_syncretism: "Взаимно считает $game_concept_faiths$ синкретичным с Мрогилпрано, как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
  doctrine_parameter_hostility_override_tenet_iyrossi_religion_syncretism: "Взаимно считает $game_concept_faiths$ синкретичным с Ийросси, как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
  doctrine_parameter_hostility_override_tenet_izaerto_bosar_religion_syncretism: "Взаимно считает $game_concept_faiths$ синкретичным с Изаэрто Бошаром, как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
@@ -1806,8 +1813,8 @@
  doctrine_parameter_hostility_override_tenet_redland_cults_religion_syncretism: "Взаимно считает $game_concept_faiths$ синкретичным с культами Редленда, как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
  doctrine_parameter_hostility_override_tenet_sunarwei_religion_syncretism: "Взаимно считает $game_concept_faiths$ синкретичным с Сунарвеем, как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
  doctrine_parameter_hostility_override_tenet_oulaupi_religion_syncretism: "Взаимно считает $game_concept_faiths$ синкретичным с Улаупи, как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
- doctrine_parameter_hostility_override_tenet_dahala_religion_syncretism: "Mutually considers $game_concept_faiths$ syncretic with Dahala to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$" #NT!
- doctrine_parameter_hostility_override_tenet_sepattan_religion_syncretism: "Mutually considers $game_concept_faiths$ syncretic with Sepattan to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$" #NT!
+ doctrine_parameter_hostility_override_tenet_dahala_religion_syncretism: "Mutually considers $game_concept_faiths$ syncretic with Dahala to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$" 
+ doctrine_parameter_hostility_override_tenet_sepattan_religion_syncretism: "Mutually considers $game_concept_faiths$ syncretic with Sepattan to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$" 
  doctrine_parameter_hostility_override_tenet_xaxbaxakanax_religion_syncretism: "Взаимно считает $game_concept_faiths$ синкретичным с Xax'baxa'kanax, как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
  doctrine_parameter_hostility_override_tenet_dravidian_religion_syncretism: "Взаимно считает $game_concept_faiths$ синкретичным с Авастьей Маханом, как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
  doctrine_parameter_hostility_override_tenet_viyagaric_religion_syncretism: "Взаимно считает $game_concept_faiths$ синкретичным с Виягариком, как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
@@ -1852,7 +1859,7 @@
  doctrine_parameter_hostility_override_wardenite_mainstream_doctrine: "[faiths|E] с $wardenite_mainstream_doctrine_name$ [doctrine|E] считаются [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
  doctrine_parameter_hostility_override_wardenite_radical_doctrine: "[faiths|E] с $wardenite_radical_doctrine_name$ [doctrine|E] считаются [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
  doctrine_parameter_hostility_override_wardenite_traditionalist_doctrine: "[faiths|E] с $wardenite_traditionalist_doctrine_name$ [doctrine|E] считаются [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
- doctrine_parameter_hostility_override_tenet_oltenic_religion_syncretism: "Mutually considers $game_concept_faiths$ syncretic with Öltenic to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$" #NT!
+ doctrine_parameter_hostility_override_tenet_oltenic_religion_syncretism: "Mutually considers $game_concept_faiths$ syncretic with Öltenic to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$" 
   #Doctrine Parameters: Magic 
  doctrine_parameter_better_traits_from_gedeora: "Дети, рожденные от беременностей, затронутых [gedeora|E], не получат отрицательный [congenital_traits|E], но имеют более высокий шанс получить хорошие."
  doctrine_parameter_can_predict_gedeora: "Приверженцы будут предупреждены о предстоящем [gedeora|E] за несколько месяцев."
@@ -1890,8 +1897,8 @@
  doctrine_parameter_is_redland_cults_religion_bilateral_loc_override: "Считает Redlander [faiths|E], а Redlander $game_concept_faiths$ считает [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
  doctrine_parameter_is_sunarwei_religion_bilateral_loc_override: "Считает Сунарвейаиста [faiths|E], а Сунарвейаиста $game_concept_faiths$ считает [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
  doctrine_parameter_is_oulaupi_religion_bilateral_loc_override: "Считает Улаупи [faiths|E], а Улаупи $game_concept_faiths$ считает [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
- doctrine_parameter_is_dahala_religion_bilateral_loc_override: "Considers Dahala [faiths|E], and is considered by Dahala $game_concept_faiths$ to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$" #NT!
- doctrine_parameter_is_sepattan_religion_bilateral_loc_override: "Considers Sepattan [faiths|E], and is considered by Dahala $game_concept_faiths$ to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$" #NT!
+ doctrine_parameter_is_dahala_religion_bilateral_loc_override: "Considers Dahala [faiths|E], and is considered by Dahala $game_concept_faiths$ to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$" 
+ doctrine_parameter_is_sepattan_religion_bilateral_loc_override: "Considers Sepattan [faiths|E], and is considered by Dahala $game_concept_faiths$ to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$" 
  doctrine_parameter_is_xaxbaxakanax_religion_bilateral_loc_override: "Считает Xax'baxa'kanaxi [faiths|E] и рассматривается Xax'baxa'kanaxi $game_concept_faiths$ как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$"
  doctrine_parameter_is_dravidian_religion_bilateral_loc_override: "Считает Авастью Махани [faiths|E], а Авастья Махани $game_concept_faiths$ считает [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."
  doctrine_parameter_is_viyagaric_religion_bilateral_loc_override: "Считает Виягарика [faiths|E], а Виягарик $game_concept_faiths$ считает [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$."

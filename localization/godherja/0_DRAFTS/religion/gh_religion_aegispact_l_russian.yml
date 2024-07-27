@@ -1,11 +1,11 @@
 ﻿l_russian:
- aegispact_religion: "Aegispact" #NT!
- aegispact_religion_adj: "Aegispact" #NT!
- aegispact_religion_adjerent: "Aegispacter" #NT!
- aegispact_religion_adherent_plural: "Aegispacters" #NT!
- aegispact_religion_desc: "GH_TODO: NEEDS LOCALIZATION" #NT!
- aegispact: "Aegispact" #NT!
- aegispact_adj: "Aegispact" #NT!
- aegispact_adjerent: "Aegispacter" #NT!
- aegispact_adherent_plural: "Aegispacters" #NT!
- aegispact_desc: "The Aegispact was the legendary vow made by the twelve refugee kings and queens of the mainland and the thirty-and-one tribal chieftains of Lonely Light that ended the 'Bloody Feuds' - the period of mass bloodshed as refugees poured into the west to flee the [sorrowing_of_oejeynica|E] and attempted to establish dominion over the local tribes and the other fleeing mainlanders.\n\nFormed with the defeat of the hated Priccany and Brynd the Sly's retrieval of the Aegis from the far north, the Pact swore all to agree to a single ruler, chosen by each tribe and each king, dedicated not to personal gain but the protection of the Aegis and the defense of Lonely Light. While the Kingdom has risen and fallen many times since, the many disparate religions have long faded into one another, united not by their faith in gods but in their faith in the power of the might Aegis." #NT!
+ aegispact_religion:0 "Пактский"
+ aegispact_religion_adj:0 "Пакт Эгиды"
+ aegispact_religion_adjerent:0 "Пактовец"
+ aegispact_religion_adherent_plural:0 "Пактовцы"
+ aegispact_religion_desc:0 "GH_TODO: NEEDS LOCALIZATION"
+ aegispact:0 "Пактский"
+ aegispact_adj:0 "Пакт Эгиды"
+ aegispact_adjerent:0 "Пактовец"
+ aegispact_adherent_plural:0 "Пактовцы"
+ aegispact_desc:0 "Пакт Эгиды был легендарной клятвой, данной двенадцатью королями и королевами-беженцами с материка и тридцатью одним вождем племен Одинокого Света, которая положила конец "Кровавой вражде" - период массового кровопролития, когда беженцы хлынули на запад, спасаясь от [Concept('sorrowing_of_oejeynica','ужасов на востоке')|E], и попытались установить власть над местными племенами и другими бежавшими жителями материка.\n\nПосле поражения ненавистного Приккани и возвращения Бриндом Хитрым Эгиды с далекого севера, участники Пакта поклялись, что все согласятся с единым правителем, выбранным каждым племенем и каждым королем, который будет стремиться не к личной выгоде, а к защите Эгиды и Одинокого Света. Хотя с тех пор Королевство много раз поднималось и падало, множество разрозненных религий давно растворились друг в друге, объединенные не верой в богов, а верой в силу могущественной Эгиды."
