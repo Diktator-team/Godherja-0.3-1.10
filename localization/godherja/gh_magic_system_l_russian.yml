@@ -3,19 +3,19 @@
   #Character Page 
  GetMagicBreakDown: "Магия: [Character.MakeScope.GetVariable('magic_counter').GetValue|0]"
   
- vampiric_drain_name: "Вампирический истощение"
- vampiric_drain_spell_effect_desc: "ДЕЛАТЬ"
- casted_vampiric_drain: "Примените «Высасывание вампира»."
+ vampiric_drain_name: "Вампирское иссушение"
+ vampiric_drain_spell_effect_desc: "В ПРОЦЕССЕ"
+ casted_vampiric_drain: "Сотворить Вампирское иссушение."
   
   #Decisions 
  get_magic_education: "Магическое образование"
- get_magic_education_desc: "[GetPlayer.GetFirstName] найдет магическое образование для [GetPlayer.GetHerselfHimself]."
- get_magic_education_tooltip: "Получите магическую черту [Concept ('education','образованием')|E]."
+ get_magic_education_desc: "[GetPlayer.GetFirstName] будет искать магическое образование для себя."
+ get_magic_education_tooltip: "Получит черту магического [Concept ('education','образования')|E]."
  get_magic_education_confirm: "Я стану величайшим [Concept('magi','магом')|E]!"
   
   #Triggered Loc 
  vampiric_drain_trigger: "[CHARACTER.GetFirstName] может попытаться заплатить цену."
- vampiric_effect_text: "[CHARACTER.GetFirstName] может попытаться продлить жизнь [GetHerHim]."
+ vampiric_effect_text: "[CHARACTER.GetFirstName] может попытаться продлить [GetHerHim] жизнь."
   
   #SpellMenu localization 
  SPELL_GET_NAME: "[Localize(Concatenate(Scope.GetFlagName,'_name'))]"
@@ -24,86 +24,86 @@
  SPELL_GET_ADD: "Добавляет: [GuiScope.SetRoot( GetPlayer.MakeScope ).ScriptValue(Concatenate(Scope.GetFlagName,'_cost'))|0]"
  SPELL_GET_ICON: "[Localize(Concatenate(Concatenate('@spell_icon_',Scope.GetFlagName), '!'))]"
  ALL_MAGIC: "Все заклинания"
- LIVING_MAGIC: "Заклинания [Concept('living_magic','Магии жизни')|E]"
- DEAD_MAGIC: "Заклинания [Concept('dead_magic',Магии Смерти')|E]"
+ LIVING_MAGIC: "Заклинания [Concept('living_magic','магии жизни')|E]"
+ DEAD_MAGIC: "Заклинания [Concept('dead_magic',магии смерти')|E]"
  MIXED_MAGIC: "Заклинания [Concept('mixed_magic','смешанной магии')|E]"
  OTHER_MAGIC: "Другие заклинания"
  GENERATE_METHOD: "Метод"
  MAGIC_BUTTON: "Магия"
- GENERATE_POWER: "Создать магическую силу"
- GENERATE_POWER_B: "Генерация энергии"
+ GENERATE_POWER: "Генерировать магическую силу"
+ GENERATE_POWER_B: "Генерировать силу"
  SELECT_CHAR: "Выберите персонажа в качестве цели"
  SELECT_LAND: "Выберите землю в качестве цели"
  SELECT_CHAR_INV: "Выберите персонажа в качестве цели, вы не сможете убить себя."
  SELECT_SINGLE_CHAR_MAGIC: "Выберите в качестве цели одного заключенного персонажа. Вы не можете нацеливаться на нескольких людей или убить себя."
  DESELECT_CHAR: "Отмените выбор персонажа в качестве цели"
- DESELECT_LAND: "Отменить выбор Земли в качестве цели"
- MUST_NOT_BE_CRESCENT_OR_NEW_MOON: "Заклинания Мертвой магии 2-го уровня нельзя использовать в период полумесяца/новолуния."
- MUST_BE_GIBBOUS_OR_FULL_MOON: "Заклинания Мертвой Магии 3-го уровня можно произносить только в условиях Лунной/Полной Луны."
+ DESELECT_LAND: "Отменить выбор земель в качестве цели"
+ MUST_NOT_BE_CRESCENT_OR_NEW_MOON: "Заклинания магии смерти 2-го уровня нельзя использовать в период полумесяца/новолуния."
+ MUST_BE_GIBBOUS_OR_FULL_MOON: "Заклинания магии смерти 3-го уровня можно использовать только в условиях убывающей/полной Луны."
  FULL_MOON_ONLY_SPELL: "Это заклинание можно использовать только в полнолуние."
   
- flagellate_name: "Жгутиконосец"
+ flagellate_name: "Бичевание"
  ritual_sacrifice_name: "Ритуальное жертвоприношение"
  ritual_bloodletting_name: "Ритуальное кровопускание"
- ritual_consumption_name: "Ритуальное потребление"
- sacrifice_population_name: "Жертвовать населением"
- sacrifice_plants_name: "Жертвенные растения"
- communed_with_the_way_name: "Общайтесь с путем"
+ ritual_consumption_name: "Ритуальное употребление"
+ sacrifice_population_name: "Пожертвовать населением"
+ sacrifice_plants_name: "Пожертвовать растениями"
+ communed_with_the_way_name: "Познать путь"
  seeped_into_madness_name: "Проникнуть в безумие"
  communed_with_eldritch_name: "Жуткое причастие"
  dreamwalk_name: "Сновидение"
- dream_invasion_name: "Вторжение мечты"
- ethereal_ritual_name: "Эфирный Ритуал"
+ dream_invasion_name: "Вторжение в грёзы"
+ ethereal_ritual_name: "Эфирный ритуал"
  moon_pull_name: "Лунное притяжение"
  skeletal_craft_name: "Создание скелетов"
- study_arcane_name: "Изучите тайную тайну"
+ study_arcane_name: "Изучить арканы"
  expedition_name: "Экспедиция"
- sacrifice_rare_herbs_name: "Пожертвуйте редкими травами"
- sacrifice_rare_minerals_name: "Рисуем из драгоценных камней"
+ sacrifice_rare_herbs_name: "Пожертвовать редкими травами"
+ sacrifice_rare_minerals_name: "Извлечь драгоценные камни"
  kemsar_restoration_name: "Восстановление рек"
   
  test_magic_name: "Испытание магии"
  strengthening_name: "Укрепление"
  strengthening_spell_effect: "что-то здесь"
- fire_magick_name: "Магия Огня"
+ fire_magick_name: "Магия огня"
  rejuvenating_blood_name: "Омолаживающая кровь"
- earth_magick_name: "Каменная магия"
- stone_fortress_name: "Поднимите каменную крепость"
+ earth_magick_name: "Магия камня"
+ stone_fortress_name: "Поднять каменную крепость"
  stone_building_construction_name: "Камнеобрабатывающее строительство"
  stoneskin_name: "Каменная плоть"
  #stoneskin_name: "Каменная кожа"
  ironskin_name: "Железная плоть"
- boneshaping_name: "Boneshaping" #NT!
- necrotic_boon_name: "Некромантическая живучесть"
- moon_blessed_weapons_name: "Благословленное луной оружие"
+ boneshaping_name: "Укрепление костей" #NT!
+ necrotic_boon_name: "Некромантская живучесть"
+ moon_blessed_weapons_name: "Благословлённое луной оружие"
  crush_armor_name: "Сокрушить броню"
  petrify_name: "Окаменеть"
  stone_serpent_name: "Оживить каменного змея"
  #stone_serpent_name: "Создать каменного змея"
- spawn_ethereal_fogbeast_army_name: "Вызывайте малых туманных зверей"
- pull_meteor_name: "Вытащить Метеор"
+ spawn_ethereal_fogbeast_army_name: "Призвать малых туманных тварей"
+ pull_meteor_name: "Притянуть метеор"
  earthquake_name: "Землетрясение"
  strengthen_soil_name: "Укрепление почвы"
- purification_name: "Очистка"
- mending_name: "Починка"
- unveiling_name: "Открытие"
+ purification_name: "Очищение"
+ mending_name: "Восстановление"
+ unveiling_name: "Раскрытие"
  creation_name: "Создание"
- plant_growth_name: "Зеленый рост"
- divination_name: "Гадание"
+ plant_growth_name: "Рост зелени"
+ divination_name: "Прорицание"
  raise_undead2_name: "Поднять нежить"
- raise_undead_name: "Поднимите Кровавых Рабов"
+ raise_undead_name: "Поднять кровавых трэллов"
  lead_to_gold_name: "Трансмутировать свинец в золото"
  quicken_name: "Ускорить"
  magic_cannibalism_name: "Потребление энергии"
  battle_rage_name: "Боевая ярость"
  channel_the_rift_name: "Направьте Разлом"
- summon_lesser_name: "Призвать туманного зверя"
- fog_cast_name: "Вызов тумана"
- rift_gaze_name: "Разломный взгляд"
- raise_lesser_fogbeasts_name: "Поднимите туманных зверей"
+ summon_lesser_name: "Призвать туманную тварь"
+ fog_cast_name: "Призыв тумана"
+ rift_gaze_name: "Задействовать Разлом"
+ raise_lesser_fogbeasts_name: "Поднять туманных тварей"
  obliterate_memory_name: "Стереть воспоминания"
  genocide_region_name: "Очистить регион"
- rift_walk_name: "Рифт-Прогулка"
+ rift_walk_name: "Прогулка по разлому"
  remove_burdens_name: "Удалить бремя"
  haunting_power_name: "Призрачная сила"
  create_golems_name: "Создание големов"
@@ -113,24 +113,24 @@
  earth_fort_name: "Укрепить подземелье"
  find_minerals_name: "Раскопать минералы"
  annihilation_name: "Уничтожение"
- moon_read_name: "Читать Луну"
- moon_guidance_name: "Руководство Аэрвалара"
- lunar_astrology_name: "Читать Луну"
- moon_magic_generation_spell_name: "Ничья из Аэрвалра"
+ moon_read_name: "Прочесть Луну"
+ moon_guidance_name: "Наставление Аэрвалара"
+ lunar_astrology_name: "Прочесть Луну"
+ moon_magic_generation_spell_name: "Черпать из Аэрвалра"
  poison_name: "Яд"
  fire_poison_name: "Огненный яд"
  thralldom_name: "Очарование"
  domination_name: "Доминировать"
  thinning_name: "Истончение"
- sundeath_name: "Sundeath" #NT!
- spawn_entropic_host_name: "Entropic Host" #NT!
- weavers_descent_name: "Weaver's Descent" #NT!
- awaken_fleshmaw_name: "Awaken Fleshmaw" #NT!
+ sundeath_name: "Смерть Солнца" #NT!
+ spawn_entropic_host_name: "Энтропийный хозяин" #NT!
+ weavers_descent_name: "Сошествие ткача" #NT!
+ awaken_fleshmaw_name: "Пробуждение плотской пасти" #NT!
   
- enchant_arms_name: "Чары для оружия"
+ enchant_arms_name: "Зачарование оружия"
  healing_water_name: "Целебная вода"
- kemsar_water_spell_name: "Генерировать воду"
- glimpse_reality_name: "Взгляд на реальность"
+ kemsar_water_spell_name: "Создать воду"
+ glimpse_reality_name: "Взглянуть на реальность"
  obliterate_mind_name: "Уничтожить разум"
  sorrow_name: "Печаль"
   
@@ -147,17 +147,17 @@
  #natural_power_gain_stats_tt: "Может получить немного [GetPerk('livingmagic_perk3_tree2').GetName(GetPlayer)]"
  #natural_power_maximum_insight_tt: "Уже выучил все возможное [GetPerk('livingmagic_perk3_tree2').GetName(GetPlayer)]"
   
- summon_fogbeast.tt: "[GetPlayer.GetFirstName] призывает Туманного зверя"
- summon_fogbeast2.tt: "Цель получает Туманного зверя"
+ summon_fogbeast.tt: "[GetPlayer.GetFirstName] призывает Туманную тварь"
+ summon_fogbeast2.tt: "Цель получает Туманную тварь"
  # craft_greater_golem.tt: "[GetPlayer.GetFirstName] создает Большого голема"
  # craft_greater_golem2.tt: "Цель создает Большого Голема"
- moon_pull_1.tt: "Включает/выключает получение энергии от Луны во время Луны/Полнолуния."
- moon_pull_2.tt: "Уменьшает затраты магии на 10/20% во время Лунной/Полнолуния, но увеличивает воздействие и усиление мутаций на 20/40%"
- moon_read.tt: "Угадайте будущее цели, наблюдая за [Concept('aervalr','Аэрвалром')|E]."
- moon_read_not_possible.tt: "#N Цель уже получила информацию о своем будущем, и предсказывать ее будущее снова было бы бессмысленно. #!"
+ moon_pull_1.tt: "Включает/выключает получение энергии от Луны во время убывающей Луны/полнолуния."
+ moon_pull_2.tt: "Уменьшает затраты магии на 10/20% во время убывающей Луны/полнолуния, но увеличивает воздействие и усиление мутаций на 20/40%"
+ moon_read.tt: "Предсказать будущее цели, наблюдая за [Concept('aervalr','Аэрвалром')|E]."
+ moon_read_not_possible.tt: "#N Цель уже получила информацию о своем будущем, и предсказывать её будущее снова было бы бессмысленно. #!"
  moon_read_random_backfire.tt: "#N Получите случайный модификатор ложной лунной релевации #!"
  moon_guidance.tt: "Получите указания от Полнолуния для выполнения определенного типа задачи."
- moon_guidance_not_possible.tt: "#N Вы уже руководствуетесь [Concept('aervalr','Аэрвалром')|E] и не можете получить пользу от дальнейшего руководства в это Полнолуние. #!"
+ moon_guidance_not_possible.tt: "#N Вас уже направляет [Concept('aervalr','Аэрвалр')|E] и в это полнолуние вы не сможете воспользоваться дополнительным наставлением. #!"
  moon_guidance_random_backfire.tt: "#N Получите случайный ложный модификатор наведенный [Concept('aervalr','Аэрвалром')|E] #!"
  spell_too_weak_to_heal_this_wound.tt: "#N Раны этого персонажа серьёзны, и их можно вылечить этим заклинанием только на более высоком уровне #!"
  boneshaping_1.tt: "Will be given the opportunity to magically alter [affected_character.GetName|E]'s body and bone structure.\n Each time a character has been affected by Boneshaping, the spell must be cast at a higher level in order to affect them again." #NT!
@@ -169,8 +169,8 @@
  #enchant_arms1.tt: "All Knights of the target receive [GetModifier('enhanced_arms_mod_mid').GetNameWithTooltip|L] for 1 year" #NT!
  #enchant_arms2.tt: "All Knights of the target receive [GetModifier('enhanced_arms_mod_major').GetNameWithTooltip|L] for 1 year" #NT!
  #enchant_arms3.tt: "All Knights of the target receive [GetModifier('enhanced_arms_mod_huge').GetNameWithTooltip|L] for 1 year" #NT!
- earthquake.tt: "Все округа, соседние с целью, получат основные эффекты заклинания «Землетрясение» на один уровень ниже."
- sorrow.tt: "Выкачайте всю жизненную силу из земли и ее людей."
+ earthquake.tt: "Все соседние с целью графства получат первичные эффекты заклинания землетрясения на один уровень ниже."
+ sorrow.tt: "Выкачайте всю жизненную силу из земли и её населения."
   
  initiate_spell_event_interior_journey_name: "Синергия черт"
  initiate_spell_event_interior_journey_desc: "Общайтесь с аспектами внутренней психики, углубляя силу и недостатки основных черт личности."
@@ -248,29 +248,29 @@
  lm2_perk2.tt: "Получите заклинание Истончение."
  lm2_perk4.tt: "Получите заклинание «Ускорение».\n «Ускорение» — полезное заклинание, влияющее на персонажа, которое значительно увеличивает скорость передвижения цели на 2 года."
  lm2_perk5.tt: "Получите заклинание «Усиление».\n «Усиление» — это полезное заклинание, влияющее на персонажа, которое значительно увеличивает доблесть цели на 2 года, а на более высоких уровнях имеет шанс предоставить или улучшить физические характеристики."
- lm2_perk6.tt: "Потерять [Copcept(s'tress','стресс')|E] при генерации [Copcept('magic_power','магической силы')|E]"
+ lm2_perk6.tt: "Потерять [Copcept('stress','стресс')|E] при генерации [Copcept('magic_power','магической силы')|E]"
  lm2_perk8.tt: "Получите заклинание Боевая ярость."
  lm2_perk9.tt: "Получите заклинание «Аннигиляция».\n «Аннигиляция» — это враждебное заклинание, влияющее на графство, которое ослабляет целевой округ и снижает развитие.\nПри использовании на уровне 2/3 «Аннигиляция» имеет шанс ранить или убить каждого персонажа в затронутом графстве.\nЕсли Заклинание Аннигиляция 3-го уровня снижает развитие целевого округа до 0, округ превратится в пустошь."
   
- lm3_perk1.tt: "Заклинание «Получить созидание»\nСозидание — это полезное заклинание, нацеленное на персонажа, которое увеличивает плодовитость цели, а на более высоких уровнях вызывает гарантированную беременность для цели или ее супруга."
+ lm3_perk1.tt: "Заклинание «Получить созидание»\nСозидание — это полезное заклинание, нацеленное на персонажа, которое увеличивает плодовитость цели, а на более высоких уровнях вызывает гарантированную беременность для цели или её супруга."
  lm3_perk2.tt: "Создайте [Copcept('magic_power','магическую силу')|E], истощая жизненую силу растений."
  lm3_perk3.tt: "Получить заклинание «Прорицание»\nПрорицание — это полезное заклинание, нацеленное на персонажа, которое дает случайный положительный модификатор, связанный с одним из четырех навыков."
  lm3_perk4.tt: "Получите заклинание Очищение."
  lm3_perk5_tt: "Заклинание «Получить целебные воды»\nЦелебные воды — это полезное заклинание, нацеленное на персонажа, которое лечит раны цели и дает бонус к здоровью на 5 лет.\nБолее серьезные раны требуют более высоких уровней целебной воды для лечения."
  lm3_perk7_tt: "[extended_magic_baseline|E]@magic_icon!за уровень [title|E]: #positive_value +25#!"
  lm3_perk8_tt: "[extended_magic_baseline|E]@magic_icon! #positive_value +100#!, если [realm_capital|E] лежит на [wayline|E] или #E пересечении линий #!"
- plant_growth_perk_tt: "Предоставляет заклинание «Зеленый рост».\nЗеленый рост — это полезное заклинание, влияющее на графство, которое дает большой бонус к росту развития и налогам на 1 год."
+ plant_growth_perk_tt: "Предоставляет заклинание «Рост зелени».\nРост зелени — это полезное заклинание, влияющее на графство, которое дает большой бонус к росту развития и налогам на 1 год."
   
  dm_perk3.tt: "Создайте [Concept'magic_power','магическую силу'|E] с помощью обработки костей"
  dm_perk3decision.tt: "Получите решение «Поиск костей»."
  dm_perk4.tt: "Может создавать артефакты из магически мощных костей с помощью решения «Создание костяного артефакта»."
- dm_perk5.tt: "Получите заклинание Формирование костей \n Формирование костей— это полезное заклинание, нацеленное на персонажа, которое позволяет вам (или цели) устранить физические уродства или слабости, а также изменить свою форму, чтобы стать сильнее, выше или красивее за счет здоровья."
- dm_perk6.tt: "Получите заклинание «Создание големов».\n Создание големов позволяет вам создавать воинов-големов, которые прослужат до вашей смерти."
- dm_perk7.tt: "Заклинание «Получить некромантическую жизненную силу» \n Некромантическая жизненная сила — это заклинание, нацеленное на самого себя, которое значительно увеличивает ваше здоровье на 10 лет, оживляя его с помощью магии, за счет постоянного снижения вашего здоровья после того, как заклинание перестанет действовать."
+ dm_perk5.tt: "Получите заклинание Формирование костей \nФормирование костей — это полезное заклинание, нацеленное на персонажа, которое позволяет вам (или цели) устранить физические уродства или слабости, а также изменить свою форму, чтобы стать сильнее, выше или красивее за счет здоровья."
+ dm_perk6.tt: "Получите заклинание «Создание големов».\nСоздание големов позволяет вам создавать воинов-големов, которые прослужат до вашей смерти."
+ dm_perk7.tt: "Заклинание «Получить некромантическую жизненную силу»\nНекромантическая жизненная сила — это заклинание, нацеленное на самого себя, которое значительно увеличивает ваше здоровье на 10 лет, оживляя его с помощью магии, за счет постоянного снижения вашего здоровья после того, как заклинание перестанет действовать."
  #dm_perk9.tt: "Получите дополнительно 25% [Copcept('magic_power','магическую силу')|E] от создания скелетов."
   
- dm2_perk1.tt: "Получить заклинание «Чтение луны»\nЛунное чтение — это полезное заклинание, влияющее на персонажа, которое позволяет вам предсказывать будущее, чтобы выбрать один из 3 случайно выбранных бонусов на 5 лет."
- dm2_perk2.tt: "Заклинание «Получить сокрушение брони»\nСокрушение доспехов — это враждебное заклинание, воздействующее на персонажа, которое может ранить или убить цель в зависимости от ее здоровья или доблести."
+ dm2_perk1.tt: "Получить заклинание «Чтение луны»\nЧтение луны — это полезное заклинание, влияющее на персонажа, которое позволяет вам предсказывать будущее, чтобы выбрать один из 3 случайно выбранных бонусов на 5 лет."
+ dm2_perk2.tt: "Получить заклинание «сокрушение доспехов»\nСокрушение доспехов — это враждебное заклинание, воздействующее на персонажа, которое может ранить или убить цель в зависимости от её здоровья или доблести."
  dm2_perk3.tt: "Создайте [Copcept('magic_power','магическую силу')|E], извлекая магическую энергию Луны."
  dm2_perk4.tt: "Заклинание «Получить зачарование оружия»\nЗачарование оружия — это полезное заклинание, влияющее на персонажа, которое увеличивает эффективность рыцаря цели на 1 год и увеличивает доблесть всех рыцарей цели."
  dm2_perk5.tt: "Получите заклинание «Наведение [Concept('aervalr','Аэрвалра')|E]», которое можно использовать один раз за полнолуние.\n«Наведение [Concept('aervalr','Аэрвалр')|E]» — это полезное заклинание с самонацеливанием, которое позволяет вам получать информацию от [Concept('aervalr','Аэрвалра')|E], чтобы получать огромные бонусы на время полнолуния. (6 месяцев)"
@@ -282,13 +282,13 @@
  dm3_perk2.tt: "Получите заклинание «Поднять землю».\nПоднимите землю — это полезное заклинание, нацеленное на персонажей, которое дает преимущество и бонусы при командовании в бою, особенно в каменистой, холмистой или гористой местности. Длится 2 года"
  dm3_perk3.tt: "Получить заклинание «Каменная кожа»\nКаменная кожа — это полезное заклинание, нацеленное на персонажа, которое повышает доблесть и сводит на нет штрафы к здоровью на 4 года."
  dm3_perk4.tt: "Получите заклинание «Укрепление почвы».\nУкрепление почвы — это полезное заклинание, ориентированное на округ, которое обеспечивает небольшой (но энергоэффективный) рост развития и повышение налогов на 10 лет."
- dm3_perk5.tt: "Получите заклинание окаменения\nОкаменение — это враждебное заклинание, нацеленное на персонажа, которое имеет шанс убить (окаменеть) или применить отрицательный модификатор к цели в зависимости от ее здоровья."
+ dm3_perk5.tt: "Получите заклинание окаменения\nОкаменение — это враждебное заклинание, нацеленное на персонажа, которое имеет шанс убить (окаменеть) или применить отрицательный модификатор к цели в зависимости от её здоровья."
  dm3_perk6.tt: "Получите заклинание «Укрепление подземелья».\nУкрепление подземелья — это полезное заклинание, влияющее на графство, которое увеличивает гарнизон, уровень форта и преимущество защитников округа на 2 года за счет создания подземных туннелей и укреплений."
  dm3_perk8.tt: "Заклинание «Получить вытягивание драгоценных камней»\nДрам из драгоценных камней — это полезное заклинание, ориентированное на округ, которое увеличивает налоги округа, а также снижает скорость и стоимость строительства на 6 лет."
  dm3_perk9.tt: "Получить заклинание «Землетрясение».\nЗемлетрясение — это враждебное заклинание, нацеленное на графство, которое накладывает на графство значительный дебафф, а на более высоких уровнях снижает развитие затронутых графств.\nПри использовании на уровне 1 или выше все соседние графства становятся пострадало от землетрясения на один уровень ниже. \n При использовании на уровне 2 или 3 заклинание имеет небольшой шанс убить или ранить каждого персонажа в затронутом округе, а если развитие снижено до 0, разрушить все здания в округе."
   
   
- mm_perk1.tt: "Сифонировать [Copcept('magic_power','магическую силу')|E] из [Concept'rift','разлома'|E]"
+ mm_perk1.tt: "Сифонировать [Copcept('magic_power','магическую силу')|E] из [Concept('rift','разлома')|E]"
  mm_perk2.tt: "Получите заклинание Метка разлома."
  mm_perk3.tt: "Получите -10% [Copcept('stress','стресса')|E]"
  mm_perk4.tt: "Получите заклинание Хождение по разлому."
@@ -302,11 +302,11 @@
  mm2_perk3.tt: "Получите дополнительный выбор в заклинании «Проблеск реальности»."
  mm2_perk6.tt: "Получите дополнительный выбор в заклинании «Проблеск реальности»."
  mm2_perk8.tt: "Получите дополнительный выбор в заклинании «Проблеск реальности»."
- mm3_perk1.tt: "Создайте [Copcept('magic_power','магическую силу')|E], войдя в мечты"
+ mm3_perk1.tt: "Создайте [Copcept('magic_power','магическую силу')|E], войдя в грёзы"
  mm3_perk2.tt: "Получите заклинание Riftwalk."
  mm3_perk3.tt: "#E Сопротивление магии#!: #positive_value +10#!"
  mm3_perk4.tt: "Получите заклинание Истинное зрение."
- mm3_perk5.tt: "Создайте [Copcept('magic_power','магическую силу')|E], вторгаясь в сны."
+ mm3_perk5.tt: "Создайте [Copcept('magic_power','магическую силу')|E], вторгаясь в грёзы."
  mm3_perk6.tt: "Получите заклинание Защиты"
  mm3_perk7.tt: "Получите заклинание «Снять бремя»."
  mm3_perk9.tt: "Получите заклинание «Стереть память»."
@@ -321,92 +321,92 @@
  test1.tt: "тестовый эффект 2"
  test2.tt: "тестовый эффект 3"
  will_mass_sacrifice_tt: "Вы получите событие, сообщающее вам, сколько @magic_icon! [Concept('magic','магии')|E] вы получите, а также любые другие побочные эффекты."
- will_ritually_consume_tt: "Вы получите событие, сообщающее вам, сколько @magic_icon! [Concept('magic','магии')|E] вы получите, а также любые другие побочные эффекты.\n Ритуальное потребление дает 30% магической силы, чем ритуальное жертвоприношение, а также временное повышение здоровья, но может вызвать мутации и имеет небольшой шанс подорвать ваше здравомыслие."
+ will_ritually_consume_tt: "Вы получите событие, сообщающее вам, сколько @magic_icon! [Concept('magic','магии')|E] вы получите, а также любые другие побочные эффекты.\n Ритуальное потребление даёт 30% магической силы, чем ритуальное жертвоприношение, а также временное повышение здоровья, но может вызвать мутации и имеет небольшой шанс подорвать ваше здравомыслие."
  #cannibalistic_vigour_tt: "Will gain #V [GetPlayer.MakeScope.ScriptValue('cannibalism_stack_value')|0]#! stacks of [GetModifier('ritual_cannibalism_mod').GetNameWithTooltip|L] for 5 years" #NT!
- fogbeast_summoned_troops: "Туманные звери"
+ fogbeast_summoned_troops: "Туманные твари"
  natural_power_gain_message: "Обрел природную силу"
  temporary_magic_prowess_to_combined_cast_modifier: "Магическое мастерство"
  temporary_combined_prowess_to_pure_magic_cast_modifier: "Противодействующее магическое мастерство"
  thralled_minor: "Зачарованные"
  thralled_mid: "Глубоко очарованный"
- thralled_major: "влюбленный"
- leshen_summoned_troops: "Leshens" #NT!
- night_gaunt_summoned_troops: "Nightgaunts" #NT!
- woodland_hydra_summoned_troops: "Woodland Hydra" #NT!
- seraph_melacham_summoned_troops: "Melacham" #NT!
- water_elementals_summoned_troops: "Water Elementals" #NT!
- stone_elementals_summoned_troops: "Stone Elementals" #NT!
- air_elementals_summoned_troops: "Air Elementals" #NT!
- fire_elementals_summoned_troops: "Fire Elementals" #NT!
- ice_elementals_summoned_troops: "Ice Elementals" #NT!
- nature_elementals_summoned_troops: "Nature Elementals" #NT!
- metal_elementals_summoned_troops: "Metal Elementals" #NT!
- sand_elementals_summoned_troops: "Sand Elementals" #NT!
- light_elementals_summoned_troops: "Light Elementals" #NT!
- death_elementals_summoned_troops: "Death Elementals" #NT!
- dream_elementals_summoned_troops: "Dream Elementals" #NT!
- dark_elementals_summoned_troops: "Dark Elementals" #NT!
- ethereal_elementals_summoned_troops: "Ethereal Elementals" #NT!
- lightning_elementals_summoned_troops: "Lightning Elementals" #NT!
- celestial_elementals_summoned_troops: "Celestial Elementals" #NT!
- quicksilver_elementals_summoned_troops: "Quicksilver Elementals" #NT!
- blood_elementals_summoned_troops: "Blood Elementals" #NT!
- desert_mirage_elementals_summoned_troops: "Desert Mirage Elementals" #NT!
- dune_reaper_elementals_summoned_troops: "Dune Reaper Elementals" #NT!
+ thralled_major: "Влюблённый"
+ leshen_summoned_troops: "Лешены" #NT!
+ night_gaunt_summoned_troops: "Ночные гаунты" #NT!
+ woodland_hydra_summoned_troops: "Лесная гидра" #NT!
+ seraph_melacham_summoned_troops: "Мелахамы" #NT!
+ water_elementals_summoned_troops: "Водные элементали" #NT!
+ stone_elementals_summoned_troops: "Каменные элементали" #NT!
+ air_elementals_summoned_troops: "Воздушные элементали" #NT!
+ fire_elementals_summoned_troops: "Огненные элементали" #NT!
+ ice_elementals_summoned_troops: "Ледяные элементали" #NT!
+ nature_elementals_summoned_troops: "Элементали природы" #NT!
+ metal_elementals_summoned_troops: "Металлические элементали" #NT!
+ sand_elementals_summoned_troops: "Песчаные элементали" #NT!
+ light_elementals_summoned_troops: "Элементали света" #NT!
+ death_elementals_summoned_troops: "Элементали смерти" #NT!
+ dream_elementals_summoned_troops: "Элементали грёз" #NT!
+ dark_elementals_summoned_troops: "Элементали тьмы" #NT!
+ ethereal_elementals_summoned_troops: "Эфирные элементали" #NT!
+ lightning_elementals_summoned_troops: "Молниевые элементали" #NT!
+ celestial_elementals_summoned_troops: "Небесные элементали" #NT!
+ quicksilver_elementals_summoned_troops: "Зыбучие элементали" #NT!
+ blood_elementals_summoned_troops: "Элементали крови" #NT!
+ desert_mirage_elementals_summoned_troops: "Элементали пустынных миражей" #NT!
+ dune_reaper_elementals_summoned_troops: "Элементали дюнных жнецов" #NT!
   
   
   
   #toasts 
- thralldom_toast: "В ролях Рабство"
- vampiric_toast: "Применение Вампирического истощения"
- magic_cannibalism_toast: "Потребление энергии"
- thinning_toast: "Литое истончение"
- poison_toast: "Применить яд"
- domination_toast: "Доминирование актеров"
- strengthening_toast: "Усиление актерского состава"
- fire_toast: "Применить Магию Огня"
- mending_toast: "Починка актеров"
- purification_toast: "Очищение актеров"
- unveiling_toast: "Раскрытие актерского состава"
- creation_toast: "Создание актеров"
- plant_growth_toast: "В ролях Зеленый рост"
- divination_toast: "Кастовое гадание"
- undead_living_toast: "В ролях: Поднять кровавых рабов"
- purge_region_toast: "Область Очистки Cast"
- annihilation_toast: "В ролях Аннигиляция"
- quicken_toast: "В ролях Квикен"
- battle_rage_toast: "Применить боевую ярость"
- undead_dead_toast: "Применить Поднятие скелетов"
- lead_to_gold_toast: "Отлить свинец к золоту"
- craft_golems_toast: "Литые ремесленные големы"
- stone_serpent_toast: "Литой каменный змей"
- necrotic_boon_toast: "Применить Некротический дар"
- pull_meteor_toast: "Литой Метеор Притяжения"
- earthquake_toast: "В ролях Землетрясение"
- improve_soil_toast: "Литое укрепление почвы"
- earth_fort_toast: "Кастовать укреплние подземелья"
- raise_earth_toast: "В ролях Поднять Землю"
- petrify_toast: "В ролях Окаменение"
- stoneskin_toast: "Литая каменная кожа"
- find_minerals_toast: "Литые минералы"
- enchant_arms_toast: "Наложить чары на оружие"
- moon_read_toast: "В ролях Рид Мун"
- moon_guidance_toast: "Используйте «Наставление Аэрвалра»"
- riftmark_toast: "Применить Рифтмарк"
- greater_fogbeast_toast: "Призвать Большого Туманного Зверя"
- craft_greater_golem_toast: "Литое ремесло Большого голема"
- boneshaping_toast: "Cast Boneshaping" #NT!
- necrotic_vitality_toast: "Применить Некромантическую Энергию"
- summon_fog_toast: "Применить вызов тумана"
- summon_fogbeasts_toast: "Призыв малых туманных зверей"
- obliterate_memories_toast: "Наложите «Стирающие воспоминания»"
- rift_walk_toast: "В ролях"
- haunting_power_toast: "Используйте Призрачную силу"
- crush_armor_toast: "Кастинг сокрушающей брони"
- healing_water_toast: "Применить целебную воду"
- crush_armor_toast_rejection: "Не могу кастовать на себя"
- kemsar_water_spell_toast: "Применить Генерировать воду"
- unraveling_toast: "Распутывание актеров"
+ thralldom_toast: "Колдовать Очарование"
+ vampiric_toast: "Колдовать Вампирское иссушение"
+ magic_cannibalism_toast: "Колдовать Потребление энергии"
+ thinning_toast: "Колдовать Истончение"
+ poison_toast: "Колдовать Яд"
+ domination_toast: "Колдовать Доминацию"
+ strengthening_toast: "Колдовать Укрепление"
+ fire_toast: "Колдовать магию огня"
+ mending_toast: "Колдовать Восстановление"
+ purification_toast: "Колдовать Очищение"
+ unveiling_toast: "Колдовать Раскрытие"
+ creation_toast: "Колдовать Создание"
+ plant_growth_toast: "Колдовать Рост зелени"
+ divination_toast: "Колдовать Прорицание"
+ undead_living_toast: "Колдовать Поднять кровавых трэллов"
+ purge_region_toast: "Колдовать Очистить регион"
+ annihilation_toast: "Колдовать Уничтожение"
+ quicken_toast: "Колдовать Ускорение"
+ battle_rage_toast: "Колдовать Боевую ярость"
+ undead_dead_toast: "Колдовать Поднять нежить"
+ lead_to_gold_toast: "Колдовать Трансмутацию свинца в золото"
+ craft_golems_toast: "Колдовать Создание големов"
+ stone_serpent_toast: "Колдовать Оживление каменного змея"
+ necrotic_boon_toast: "Колдовать Некромантскую живучесть"
+ pull_meteor_toast: "Колдовать Притянуть метеор"
+ earthquake_toast: "Колдовать Землетрясение"
+ improve_soil_toast: "Колдовать Укрепление почвы"
+ earth_fort_toast: "Колдовать Укрепить подземелье"
+ raise_earth_toast: "Колдовать Поднять Землю"
+ petrify_toast: "Колдовать Окаменение"
+ stoneskin_toast: "Колдовать Каменную плоть"
+ find_minerals_toast: "Колдовать Раскопку минералов"
+ enchant_arms_toast: "Колдовать Зачарование оружия"
+ moon_read_toast: "Колдовать Чтение Луны"
+ moon_guidance_toast: "Колдовать Наставление Аэрвалара"
+ riftmark_toast: "Колдовать Разлом"
+ greater_fogbeast_toast: "Колдовать Призыв туманных тварей"
+ craft_greater_golem_toast: "Колдовать создание большого голема"
+ boneshaping_toast: "Колдовать Укрепление костей" #NT!
+ necrotic_vitality_toast: "Колдовать Некромантическую энергию"
+ summon_fog_toast: "Колдовать Призыв тумана"
+ summon_fogbeasts_toast: "Колдовать Призыв малых туманных тварей"
+ obliterate_memories_toast: "Колдовать "
+ rift_walk_toast: "Колдовать Прогулку по Разлому"
+ haunting_power_toast: "Колдовать Призрачную силу"
+ crush_armor_toast: "Колдовать Сокрушение брони"
+ healing_water_toast: "Колдовать Целебную воду"
+ crush_armor_toast_rejection: "Не может накладывать на себя заклинание"
+ kemsar_water_spell_toast: "Колдовать Создание воды"
+ unraveling_toast: "Колдовать Распутывание"
   
  magic_prowess_duel_tt: "@magic_icon!#E Магическое мастерство#! Испытание против [opponent.GetTitledFirstName]"
   
@@ -428,10 +428,10 @@
  spell_fails_tt: "#N Заклинание не работает!#!"
  spell_backfires_tt: "#N Заклинание имеет неприятные последствия!#!"
  spell_redirected_tt: "#N Заклинание перенаправляется обратно на вас!#!"
- will_increase_overwhelmation_extreme_tt: "#N Это увеличит ваше подавление до смертельного уровня! #!"
- will_increase_overwhelmation_advanced_tt: "#N Это увеличит ваше подавление до чрезвычайно опасного уровня! #!"
- will_increase_overwhelmation_standard_tt: "#N Это увеличит вашу подавленность до опасного уровня! #!"
- may_increase_overwhelmation_tt: "#N Поскольку вы будете физически вовлечены в ритуал, это может усилить ваше перенапряжение, если использовать его слишком часто! #!"
+ will_increase_overwhelmation_extreme_tt: "#N Это увеличит ваше переполнение до смертельного уровня! #!"
+ will_increase_overwhelmation_advanced_tt: "#N Это увеличит ваше переполнение до чрезвычайно опасного уровня! #!"
+ will_increase_overwhelmation_standard_tt: "#N Это увеличит ваше переполнение до опасного уровня! #!"
+ may_increase_overwhelmation_tt: "#N Поскольку вы будете физически вовлечены в ритуал, это может усилить ваше переполнение, если использовать его слишком часто! #!"
  will_kill_tt: "[victim.GetName|E] умирает!"
  will_utterly_dominate_tt: "В течение 15 дней вы возьмете на себя полный контроль над своей жертвой и сможете причинять ей любые разрушения, какие пожелаете."
  dominate_dont_die_tt: "#N Если вы или они умрете в течение этого времени, вы не сможете вернуться в свое тело!#!"
@@ -461,10 +461,10 @@
  defiled_nadir_setup_effect_broken_bond: "Your bond with the [old_defiled_nadir_bound_mask.GetName] will be broken, and you will suffer a [GetModifier('magic_defiled_nadir_broken_bond_modifier').GetNameWithTooltip] [modifier|E] for 5 years" #NT!
  defiled_nadir_setup_effect_tt: "If you do not have an Ölteni Mask [artifact|E] equipped, you will gain one of average quality" #NT!
  defiled_nadir_setup_effect_new_mask_tooltip: "Because you not have an Ölteni Mask [artifact|E] equipped, a new artifact of average quality will become your Bound Mask" #NT!
- defiled_nadir_setup_effect_equip_tooltip: "You will automatically equip your new [artifact|E]" #NT!
+ defiled_nadir_setup_effect_equip_tooltip: "Вы автоматически экипируете свой новый [artifact|E]" #NT!
  defiled_nadir_setup_effect_extant_mask_tooltip: "[extant_mask_artifact.GetName] will become your Bound Mask" #NT!
- defiled_nadir_warning_tt: "Separating oneself from the Bound Mask will have #N severe#! consequences" #NT!
- aspect_increased_tt: "Aspect Increased" #NT!
+ defiled_nadir_warning_tt: "Разлука со Связанной маской приведет к #N серьёзным#! последствиям" #NT!
+ aspect_increased_tt: "Аспект расширен" #NT!
   
   ######### 
   # HOOKS # 
@@ -484,13 +484,13 @@
  SKELETON_HOST: "Скелет-хозяин"
  UNDEAD_HORDE: "Орда нежити"
  GOLEM_HOST: "Армия големов"
- BLACKHORN_HOST: "Хозяин Черного Рога"
+ BLACKHORN_HOST: "Хозяин Чёрного Рога"
   
   ######################### 
   # SCRIPT VALUE TRIGGERS # 
   ######################### 
   
- education_any_magic_gte_1_tt: "У вас любое [Concept('magic','магиическое')|E] образование."
+ education_any_magic_gte_1_tt: "У вас любое [Concept('magic','магическое')|E] образование."
   
  magi_potency_gte_1_tt: "У вас [GetTrait('magic_good_1').GetName(GetNullCharacter)] или выше."
  magi_potency_gte_2_tt: "У вас [GetTrait('magic_good_2').GetName(GetNullCharacter)] или выше."
@@ -520,7 +520,7 @@
   
   # interface messages 
  thought_theft_title: "Кража мыслей"
- thought_theft_desc: "Во сне я не нашел артефактов"
+ thought_theft_desc: "Мне не удалось найти артефакты в грёзах"
   
   ######### 
   # CABAL # 
@@ -562,15 +562,15 @@
  #cabal_member: "[cabal_member|E]" #NT!
  #cabal_master: "[cabal_master|E]" #NT!
   
- familiar: "Привычный"
+ familiar: "Фамильяр"
  familiar_master: "Владелец"
   
  I_GET_A_FAMILIAR: "Вы получили [TARGET_CHARACTER.GetShortUIName] в качестве фамильяра"
  I_GOT_A_FAMILIAR: "Вы получили [TARGET_CHARACTER.GetShortUIName] в качестве фамильяра"
- THEY_GET_A_FAMILIAR: "They get [TARGET_CHARACTER.GetShortUIName] as a Familiar" #NT!
- THEY_GOT_A_FAMILIAR: "They got [TARGET_CHARACTER.GetShortUIName] as a Familiar" #NT!
- GLOBAL_GET_A_FAMILIAR: "Get [TARGET_CHARACTER.GetShortUIName] as a Familiar" #NT!
- GLOBAL_GOT_A_FAMILIAR: "Got [TARGET_CHARACTER.GetShortUIName] as a Familiar" #NT!
+ THEY_GET_A_FAMILIAR: "They get [TARGET_CHARACTER.GetShortUIName] в качестве фамильяра" #NT!
+ THEY_GOT_A_FAMILIAR: "They got [TARGET_CHARACTER.GetShortUIName] в качестве фамильяра" #NT!
+ GLOBAL_GET_A_FAMILIAR: "Get [TARGET_CHARACTER.GetShortUIName] в качестве фамильяра" #NT!
+ GLOBAL_GOT_A_FAMILIAR: "Got [TARGET_CHARACTER.GetShortUIName] в качестве фамильяра" #NT!
   
   ## ARCANA 
   
