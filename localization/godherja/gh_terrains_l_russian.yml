@@ -128,61 +128,60 @@
  mayik_tunnels_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в подземных туннелях"
  mayik_tunnels_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято в подземных туннелях"
   
- redlands_chasms: "Redlands Chasms" #NT!
- redlands_chasms_advantage: "[command_modifier_i|E][advantage|E] in Redlands Chasms" #NT!
- redlands_chasms_levy_size: "$MOD_LEVY_SIZE$ in Redlands Chasms" #NT!
- redlands_chasms_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Redlands Chasms" #NT!
- redlands_chasms_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Redlands Chasms" #NT!
+ redlands_chasms: "Пропасть Красных земель" #NT!
+ redlands_chasms_advantage: "[command_modifier_i|E][advantage|E] в Красных земель Часмс" #NT!
+ redlands_chasms_levy_size: "$MOD_LEVY_SIZE$ в Красных земель Часмс" #NT!
+ redlands_chasms_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в Красных земель Часмс" #NT!
+ redlands_chasms_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято в Красных земель Часмс" #NT!
   
- redlands_drylands: "Redlands Drylands" #NT!
- redlands_drylands_advantage: "[command_modifier_i|E][advantage|E] in Redlands Drylands" #NT!
- redlands_drylands_levy_size: "$MOD_LEVY_SIZE$ in Redlands Drylands" #NT!
- redlands_drylands_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Redlands Drylands" #NT!
- redlands_drylands_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Redlands Drylands" #NT!
+ redlands_drylands: "Засушливые земли Красных земель" #NT!
+ redlands_drylands_advantage: "[command_modifier_i|E][advantage|E] в засушливых землях Красных земель" #NT!
+ redlands_drylands_levy_size: "$MOD_LEVY_SIZE$ в засушливых землях Красных земель" #NT!
+ redlands_drylands_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в засушливых землях Красных земель" #NT!
+ redlands_drylands_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято в засушливых землях Красных земель" #NT!
   
- redlands_desert: "Redlands Desert" #NT!
- redlands_desert_advantage: "[command_modifier_i|E][advantage|E] in Redlands Desert" #NT!
- redlands_desert_levy_size: "$MOD_LEVY_SIZE$ in Redlands Desert" #NT!
- redlands_desert_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Redlands Desert" #NT!
- redlands_desert_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Redlands Desert" #NT!
+ redlands_desert: "Пустыня Красных земель" #NT!
+ redlands_desert_advantage: "[command_modifier_i|E][advantage|E] в пустыне Красных земель" #NT!
+ redlands_desert_levy_size: "$MOD_LEVY_SIZE$ в пустыне Красных земель" #NT!
+ redlands_desert_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в пустыне Красных земель" #NT!
+ redlands_desert_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято в пустыне Красных земель" #NT!
   
- redlands_mountains: "Redlands Mountains" #NT!
- redlands_mountains_advantage: "[command_modifier_i|E][advantage|E] in Redlands Mountains" #NT!
- redlands_mountains_levy_size: "$MOD_LEVY_SIZE$ in Redlands Mountains" #NT!
- redlands_mountains_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Redlands Mountains" #NT!
- redlands_mountains_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Redlands Mountains" #NT!
+ redlands_mountains: "Горы Красных земель" #NT!
+ redlands_mountains_advantage: "[command_modifier_i|E][advantage|E] в горах Красных земель" #NT!
+ redlands_mountains_levy_size: "$MOD_LEVY_SIZE$ в горах Красных земель" #NT!
+ redlands_mountains_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ в горах Красных земель" #NT!
+ redlands_mountains_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято в горах Красных земель" #NT!
   
- archipelagic: "Archipelagic" #NT!
- archipelagic_advantage: "[command_modifier_i|E][advantage|E] in Archipelagos" #NT!
- archipelagic_attrition_mult: "[command_modifier_i|E][attrition|E] Taken in Archipelagos" #NT!
- archipelagic_cancel_negative_supply: "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Archipelagos" #NT!
- archipelagic_max_combat_roll: "[command_modifier_i|E]Maximum [combat_roll|E] in Archipelagos" #NT!
- archipelagic_min_combat_roll: "[command_modifier_i|E]Minimum [combat_roll|E] in Archipelagos" #NT!
- archipelagic_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ in Archipelagos" #NT!
+ archipelagic: "Архипелаг" #NT!
+ archipelagic_advantage: "[command_modifier_i|E][advantage|E] на Архипелаге" #NT!
+ archipelagic_attrition_mult: "[command_modifier_i|E][Concept('attrition','истощение')|E] Снято на Архипелаге" #NT!
+ archipelagic_cancel_negative_supply: "[command_modifier_i|E]Отрицать [supply_limit|E] Штраф на Архипелаге" #NT!
+ archipelagic_max_combat_roll: "[command_modifier_i|E]Максимум [combat_roll|E] на Архипелаге" #NT!
+ archipelagic_min_combat_roll: "[command_modifier_i|E]Минимум [combat_roll|E] на Архипелаге" #NT!
+ archipelagic_construction_gold_cost: "$MOD_CONSTRUCTION_GOLD_COST$ на Архипелаге" #NT!
  archipelagic_construction_prestige_cost: "$archipelagic_construction_gold_cost$" #NT!
- archipelagic_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Archipelagos ([terrain|E])" #NT!
- archipelagic_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Archipelagos" #NT!
+ archipelagic_development_growth_factor: "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ на Архипелаге ([Concept('terrain','местность')|E])" #NT!
+ archipelagic_holding_construction_gold_cost: "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ на Архипелаге" #NT!
  archipelagic_holding_construction_prestige_cost: "$archipelagic_holding_construction_gold_cost$" #NT!
- archipelagic_tax_mult: "$MOD_TAX_MULT$ in Archipelagos" #NT!
- archipelagic_levy_size: "$MOD_LEVY_SIZE$ in Archipelagos" #NT!
- archipelagic_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ in Archipelagos" #NT!
+ archipelagic_tax_mult: "$MOD_TAX_MULT$ на Архипелаги" #NT!
+ archipelagic_levy_size: "$MOD_LEVY_SIZE$ на Архипелаги" #NT!
+ archipelagic_supply_limit_mult: "$MOD_SUPPLY_LIMIT_MULT$ на Архипелаги" #NT!
  archipelagic_travel_danger: "[GetTerrain( 'archipelagic' ).GetName] [travel_danger|E]" #NT!
   
   # Combat Localization # 
- combat_marcher_farmlands: "Defending in Anti-Magic Farmlands" #NT!
+ combat_marcher_farmlands: "Оборона на антимагических фермах" #NT!
  combat_marcher_forest: "Защита в лесу [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]"
- combat_marcher_hills: "Оборона на холмах [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]"
- combat_marcher_mountains: "Defending in Anti-Magic Mountains" #NT!
- combat_antimagic_terrain: "Defending in Anti-Magic Terrain" #NT!
- combat_marcher_plains: "Defending in Anti-Magic Plains" #NT!
- combat_marcher_floodplains: "Defending in Anti-Magic Floodplains" #NT!
- combat_marcher_wetlands: "Оборона в [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E] Болотных угодьях"
- combat_mayik_caverns: "Defending in Subterranean Caverns" #NT!
- combat_mayik_chamber: "Defending in Subterranean Chambers" #NT!
- combat_mayik_corridors: "Defending in Subterranean Corridors" #NT!
- combat_mayik_tunnels: "Defending in Subterranean Tunnels" #NT!
- combat_redlands_chasms: "Defending in Redland Chasms" #NT!
- combat_redlands_drylands: "Defending in Redland Drylands" #NT!
- combat_redlands_desert: "Defending in Redland Desert" #NT!
- combat_redlands_mountains: "Defeending in Redland Mountains" #NT!
- combat_archipelagic: "Defending in Archipelagos" #NT!
+ combat_marcher_hills: "Оборона на холмах [Concept('antimagic_terrain_basic','базовый уровень антимагической местности')|E]" combat_marcher_mountains: "Оборона в антимагических горах" #NT!
+ combat_antimagic_terrain: "Защита на антимагической местности" #NT!
+ combat_marcher_plains: "Оборона на антимагических равнинах" #NT!
+ combat_marcher_floodplains: "Защита в антимагических поймах" #NT!
+ combat_marcher_wetlands: "Защита в антимагических болотах" #NT!
+ combat_mayik_caverns: "Оборона в подземных пещерах" #NT!
+ combat_mayik_chamber: "Оборона в подземных камерах" #NT!
+ combat_mayik_corridors: "Оборона в подземных коридорах" #NT!
+ combat_mayik_tunnels: "Оборона в подземных туннелях" #NT!
+ combat_redlands_chasms: "Защита в редлендских ущельях" #NT!
+ combat_redlands_drylands: "Оборона в засушливых землях редленда" #NT!
+ combat_redlands_desert: "Оборона в пустыне редленд" #NT!
+ combat_redlands_mountains: "Оборона в горах редленд" #NT!
+ combat_archipelagic: "Оборона на архипелаге" #NT!

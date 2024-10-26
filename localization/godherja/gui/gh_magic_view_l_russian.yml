@@ -235,16 +235,6 @@
  add_character_modifier_magical_time_enhancement_name: "Расширение магии времени" #NT!
  add_character_modifier_magical_time_enhancement_desc: "Увеличивает общие способности всех [magical_time|E] в бою" #NT!
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
  shade_slayed_name: "Укрытый тенью" #NT!
  shade_slayed_desc: "" #NT!
  resist_disease_name: "Сопротивление болезням"
@@ -276,6 +266,12 @@
   
  riverine_rush_name: "Бросок по реке"
  riverine_rush_desc: "Отправляйтесь в путь со скоростью касирьятского потока."
+  
+ surging_tides_name: "Приливы и отливы" #NT!
+ surging_tides_desc: "Призовите благоприятные волны для быстрых путешествий." #NT!
+  
+ create_morass_name: "Создать болото" #NT!
+ create_morass_desc: "Создает большое и опасное болото, преграждающее путь вражеским армиям." #NT!
   
  fluvial_restoration_name: "Речное исцеление"
  fluvial_restoration_desc: "Используйте священные воды Касирьята, чтобы исцелить как телесные, так и душевные раны."
@@ -319,9 +315,9 @@
  poison_blood_name: "Ядовитая кровь"
  poison_blood_desc: ""
   
-  ################# 
+ ################# 
   # NATURE SPELLS # 
-  ################# 
+ ################# 
   
   # General 
   
@@ -402,6 +398,30 @@
  calming_of_the_sea_queen_desc: "Считается, что это заклинание успокаивает королеву глубокого океана, и оно действительно успокаивает моря и повышает скорость и безопасность путешествий." #NT!
  anger_of_the_sea_queen_name: "Гнев морской королевы" #NT!
  anger_of_the_sea_queen_desc: "Считается, что это заклинание навлекает на получателя гнев Морской королевы, увеличивает опасность путешествия и его скорость." #NT!
+  
+ ############### 
+  # DARK SPELLS # 
+ ############### 
+  
+  #99 Marks Spells 
+ mark_of_strength_name: "Знак силы" #NT!
+ mark_of_strength_desc: ""
+ mark_of_acuity_name: "Знак остроты" #NT!
+ mark_of_acuity_desc: ""
+ mark_of_alacrity_name: "Знак рвения" #NT!
+ mark_of_alacrity_desc: ""
+ mark_of_insight_name: "Знак проницательности" #NT!
+ mark_of_insight_desc: ""
+ mark_of_rage_name: "Знак Ярости" #NT!
+ mark_of_rage_desc: ""
+ mark_of_pain_name: "Знак боли" #NT!
+ mark_of_pain_desc: ""
+ mark_of_wasting_name: "Знак истощения" #NT!
+ mark_of_wasting_desc: ""
+ mark_of_blinding_name: "Знак ослепления" #NT!
+ mark_of_blinding_desc: ""
+ mark_of_control_name: "Знак контроля" #NT!
+ mark_of_control_desc: ""
   
  ############## 
  # SPELL TAGS # 
@@ -666,7 +686,7 @@
  spawn_archonarach_cluster_name: "Врата в Сеть" #NT!
  spawn_archonarach_cluster_desc: "Разрывает складки реальности, чтобы сквозь них мог пройти самый маленький из Истинных Пауков." #NT!
  spawn_fleshmaw_name: "Проклятие плоти" #NT!
- spawn_fleshmaw_desc: "Summons abominations of marrow and sinew in the target [county|E], devastating it upon [occupation|E]." #NT!
+ spawn_fleshmaw_desc: "Призывает мерзости из костного мозга и сухожилий в цель [county|E], опустошая ее до [occupation|E]." #NT!
  add_character_modifier_random_divination_modifier_name: "Гадание"
  add_character_modifier_random_divination_modifier_desc: "Даёт случайный, обычно полезный модификатор в зависимости от полученного видения."
  divination_effect_tooltip: "Получит случайный положительный или, реже, отрицательный модификатор в зависимости от полученного видения."
@@ -686,6 +706,25 @@
  spawn_metal_golem_army_desc: "Призвать металлических големов"
  spawn_metal_golem_armies_name: "Создать металлических големов" #NT!
  spawn_metal_golem_armies_desc: "Созданные из металла с помощью арканного ремесла, эти сильные и прочные големы выносливее своих каменных собратьев и способны выполнять самые разные задачи, не получая при этом никакого ущерба." #NT!
+  
+ bronzeskin_name: "Бронзовая кожа" #NT!
+  
+ bestow_bronze_armaments_name: "Даровать Бронзовое Оружие" #NT!
+ bestow_bronze_armaments_desc: "Создает бронзовые доспехи и оружие для армий заклинателя." #NT!
+  
+ dragons_roar_name: "Рев Дракона" #NT!
+ dragons_roar_desc: "Известный катунцам с самого рассвета их империи, Рев Дракона вызывает конус огня изо рта заклинателя, чтобы поджечь врагов. Часто одно из самых первых промежуточных заклинаний, которым обучают [magi|E] аколитов на востоке, это обычное зрелище как в академиях региона, так и на полях сражений." #NT!
+  
+ bronze_fists_name: "Бронзовые кулаки" #NT!
+ bronze_fists_desc: "Впервые использованный знаменитым искателем приключений Ши Фа Чжи, этот простой массив создает крепкую пару бронзовых перчаток, чтобы сокрушать врагов. Хотя когда-то это было фирменное заклинание его потомков, с тех пор оно было принято в качестве наступательного заклинания по выбору магов-стражей [bronzeport|E]." #NT!
+  
+ arcane_foundries_name: "Тайные литейные заводы" #NT!
+ arcane_foundries_desc: "Многослойное заклинание, которое не только вызывает инструменты и оборудование, используемые для ковки и строительства, но и, как ни странно, пробуждает усердие у населения, на которое направлено заклинание." #NT!
+  
+ spawn_bronze_golem_army_name: "Бронзовые големы" #NT!
+ spawn_bronze_golem_army_desc: "Изготовление бронзовых големов" #NT!
+ spawn_bronze_golem_armies_name: "Бронзовые големы быстрой ковки" #NT!
+ spawn_bronze_golem_armies_desc: "Бронзовые големы слабее своих железных и стальных собратьев, их гораздо легче вызывать и выковывать, при этом они сохраняют приличную стойкость к сильным ударам." #NT!
   
  spawn_ice_golem_army_name: "Ледяные големы"
  spawn_ice_golem_army_desc: "Призвать ледяных големов"
@@ -808,11 +847,16 @@
  spawn_dune_reaper_elementals_desc: "Призвать элементалей дюнных жнецов" #NT!
  spawn_dune_reaper_elementals_army_name: "Элементали дюнных жнецов" #NT!
  spawn_dune_reaper_elementals_army_desc: "Эти жуткие существа часто появляются в виде клубящихся вихрей [aspect_sand]. Их появление всегда сопровождается гнилостным запахом [aspect_death] и разложения бедных душ, которые были уложены в безымянные могилы на просторах пустынных песков [Concept('aeras','Аэраса')|E]." #NT!
- 
+  
  spawn_mountain_spirit_elementals_name:0 "Горные духи-элементали"
  spawn_mountain_spirit_elementals_desc:0 "Призвать горных духов-элементалей"
  spawn_mountain_spirit_elementals_army_name:0 "Горные духи-элементали"
  spawn_mountain_spirit_elementals_army_desc:0 "Горные духи-элементали обычно обитают среди зазубренных пиков многочисленных горных хребтов Аэраса, но иногда спускаются в густые леса или холмистую местность. Суеверные путешественники и авантюристы часто оставляют небольшие подношения, проходя через горные перевалы, чтобы умиротворить этих элементалей, опасаясь стать жертвой лавин из валунов." 
+  
+ spawn_vine_elementals_name: "Элементалы виноградной лозы" #NT!
+ spawn_vine_elementals_desc: "Вызов элементалей виноградной лозы" #NT!
+ spawn_vine_elementals_army_name: "Элементалы виноградной лозы" #NT!
+ spawn_vine_elementals_army_desc: "Созданные из [aspect_nature] и [aspect_water], виноградные элементали обладают формой, которая столь же гибка, как и жидкость, но при этом крепки и сильны из-за твердости массы растений. 
   
  imbued_armor_name: "Усиленная броня"
  imbued_armor_desc: "Броня тяжелой пехоты усилена и обладает повышенной прочностью и плотностью. Недостатком является замедление передвижения на большие расстояния, но в бою маги подпитывают эти усиления магией, заставляя их сражаться ещё лучше."
@@ -962,6 +1006,9 @@
  add_county_modifier_light_pollution_name: "Световое загрязнение" #NT!
  add_county_modifier_light_pollution_desc: "Снижает [county_opinion|E] и [supply|E]" #NT!
   
+ add_county_modifier_levy_reinforcement_rate_gain_name: "Укрепленное укрепление Леви" #NT!
+ add_county_modifier_levy_reinforcement_rate_gain_desc: "Улучшает скорость набора подкреплений [county|E]." #NT!
+  
  # Effect Tags (County Effects) 
  gain_arcane_fallout_name: "Арканные последствия"
  gain_arcane_fallout_desc: "Усиливает окружающую [Concept('magic','магию')|E], заставляя [county|E] становиться все более чуждым для мирской жизни."
@@ -973,11 +1020,15 @@
  gain_frozen_wasteland_desc: "Замораживает землю и все, что по ней ходит, превращая [county|E] в замёрзшую пустошь."
  reduce_development_name: "Сокращение развития"
  reduce_development_desc: "Вызывает опустошение и уменьшает [development|E] в [Concept('county','графстве')|E]."
+ county_increase_magic_wounds_name: "Тайное Опустошение" #NT!
+ county_increase_magic_wounds_desc: "Может ранить или убить персонажей в цели [county|E]." #NT!
  summon_fog_name: "Призыв [Concept('fog','тумана')|E]"
  summon_fog_desc: "Направляет ужасающий [fog|E] в [county|E], постепенно поглощая его."
  add_county_modifier_drought_name: "Засуха"
  add_county_modifier_drought_desc: "Разрушает сельскохозяйственное производство в целевом [Concept('county','графстве')|E]."
  reduce_agriculture_magic_modifier: "Магия, вызывающая засуху"
+ improve_development_name: "Улучшение развития" #NT!
+ improve_development_desc: "Улучшает [development|E] в цели [county]." #NT!
  # Effect Tags (Province Modifiers) 
  add_province_modifier_magic_shattered_defenses_name: "Разрушает оборону"
  add_province_modifier_magic_shattered_defenses_desc: "Вызывает ухудшение уровня крепости во [Concept('holding','владении')|E]."
@@ -1306,6 +1357,7 @@
  health_magic_resistance_modifier_earth_positive: "Каменная плоть"
   
  magic_general_boost: "Направляющая магия"
+ magic_general_boost_desc: "[arcana_i]#P +1#! [arcana|E]" #NT!
   
  backfire_county_debuff_modifier: "Магический казус"
  backfire_county_debuff_modifier_desc: "Эта земля подверглась неблагоприятному воздействию миазмов магической природы."
@@ -1361,6 +1413,42 @@
   
  magic_stress_gain_mult_modifier: "Ослабленная психика"
  magic_stress_gain_mult_modifier_desc: "Этот персонаж становится более восприимчивым к стрессу с помощью арканных средств."
+  
+ magic_cultural_head_fascination_add_modifier: "Повышенные инновации" #NT!
+ magic_cultural_head_fascination_add_modifier_desc: "Добавляет дополнительный бонус к прогрессу персонажа [cultural_fascination|E]." #NT!
+  
+ magic_cultural_head_fascination_mult_modifier: "Тайная изобретательность" #NT!
+ magic_cultural_head_fascination_mult_modifier_desc: "Добавляет мультипликативный бонус к прогрессу персонажа [cultural_fascination|E]." #NT!
+  
+ magic_scheme_discovery_chance_mult_negative_modifier: "Ослабленное понимание" #NT!
+ magic_scheme_discovery_chance_mult_negative_modifier_desc: "Снижает вероятность обнаружения враждебных замыслов целевого персонажа." #NT!
+  
+ magic_hostile_scheme_resistance_negative_modifier: "Вялые рефлексы" #NT!
+ magic_hostile_scheme_resistance_negative_modifier_desc: "Ослабляет сопротивление враждебным замыслам целевого персонажа." #NT!
+  
+ magic_character_capital_county_monthly_development_growth_add_modifier: "Тайное процветание" #NT!
+ magic_character_capital_county_monthly_development_growth_add_modifier_desc: "Улучшает ежемесячный рост [development|E] для целевого персонажа [realm_capital|E]." #NT!
+  
+ add_magic_cultural_head_fascination_add_name: "Повышенные инновации" #NT!
+ add_magic_cultural_head_fascination_add_desc: "Добавляет дополнительный бонус к прогрессу персонажа [cultural_fascination|E]." #NT!
+  
+ add_magic_cultural_head_fascination_mult_name: "Тайная изобретательность" #NT!
+ add_magic_cultural_head_fascination_mult_desc: "Добавляет мультипликативный бонус к прогрессу персонажа [cultural_fascination|E]." #NT!
+  
+ add_magic_scheme_discovery_chance_mult_negative_name: "Ослабленное понимание" #NT!
+ add_magic_scheme_discovery_chance_mult_negative_desc: "Снижает вероятность обнаружения враждебных замыслов целевого персонажа." #NT!
+  
+ add_magic_hostile_scheme_resistance_negative_name: "Вялые рефлексы" #NT!
+ add_magic_hostile_scheme_resistance_negative_desc: "Ослабляет сопротивление враждебным замыслам целевого персонажа." #NT!
+  
+ add_magic_character_capital_county_monthly_development_growth_add_name: "Тайное процветание" #NT!
+ add_magic_character_capital_county_monthly_development_growth_add_desc: "Улучшает ежемесячный рост [development|E] для целевого персонажа [realm_capital|E]." #NT!
+  
+ add_character_modifier_prowess_resistance_positive_name: "Волшебная стойкость" #NT!
+ add_character_modifier_prowess_resistance_positive_desc: "Улучшает сопротивление мастерству целевого персонажа." #NT!
+  
+ add_character_modifier_diplomacy_negative_name: "Ослабленная дипломатия" #NT!
+ add_character_modifier_diplomacy_negative_desc: "Уменьшает [diplomacy|E] у целевого персонажа" #NT!
   
  magic_stress_loss_mult_modifier: "Успокоенная психика" #NT!
  magic_stress_loss_mult_modifier_desc: "Способность этого персонажа терять стресс была усилена с помощью арканных средств." #NT!
@@ -1449,6 +1537,8 @@
  requires_target_pregnant_tooltip: "#X Цель должна быть беременна#!"
   
  inter_in_ice_tooltip: "[inter_in_ice_prisoner_scope.GetFirstName] превратится в [Concept('court_artifact','ice sculpture')|E]."
+  
+ county_increase_magic_wounds_tooltip: "Может ранить или убить персонажей в цели [county|E]." #NT!
   
  generated_magic_from_current_moon_phase.tooltip: "#X Вы уже извлекли магическую силу из этой #! #E фазы Луны#!"
  will_give_stats_on_birth_tooltip: "Все родившиеся дети поднимут свои [Concept('skills','навыки')|E]"
@@ -1567,7 +1657,7 @@
   
  AMBIENT_MAGIC: "[ambient_magic|E]:"
  AMBIENT_MAGIC_TOOLTIP: "#T Окружающая магия#![HoldingView.GetCountyTitle.MakeScope.GetScriptValueDesc('total_ambient_magic_value')|0]\n\nDecays по [HoldingView.GetCountyTitle.MakeScope.ScriptValue('arcane_fallout_decay_value')|1] каждые 10 лет из-за следующих факторов:\n[HoldingView.GetCountyTitle.MakeScope.GetScriptValueDesc('arcane_fallout_decay_value')]"
- AMBIENT_MAGIC_TOOLTIP_NO_MAGIC: "This [county|E] does not have notable levels of ambient magic" #NT!
+ AMBIENT_MAGIC_TOOLTIP_NO_MAGIC: "Этот [county|E] не имеет заметных уровней окружающего волшебства." #NT!
  AMBIENT_MAGIC_TOOLTIP_MAGIC: "Базовое: #V 0#!#indent_newline:3 \n[HoldingView.GetCountyTitle.MakeScope.GetScriptValueDesc('total_ambient_magic_value')|0]#!$AMBIENT_MAGIC_DECAY_TOOLTIP$" #NT!
  AMBIENT_MAGIC_DECAY_TOOLTIP: "[AddLocalizationIf(HoldingView.GetProvince.GetCounty.GetTitle.MakeScope.Var('arcane_fallout').IsSet, 'ARCANE_FALLOUT_DECAY_TOOLTIP')][AddLocalizationIf(HoldingView.GetProvince.GetCounty.GetTitle.MakeScope.Var('lichdom_sorrow').IsSet, 'LICHDOM_SORROW_DECAY_TOOLTIP')][AddLocalizationIf(HoldingView.GetProvince.GetCounty.GetTitle.MakeScope.Var('desertification').IsSet, 'DESERTIFICATION_DECAY_TOOLTIP')][AddLocalizationIf(HoldingView.GetProvince.GetCounty.GetTitle.MakeScope.Var('arcane_frost').IsSet, 'ARCANE_FROST_DECAY_TOOLTIP')]" #NT!
  ARCANE_FALLOUT_DECAY_TOOLTIP: "\n\n$arcane_fallout_value_desc$ уменьшается на [HoldingView.GetCountyTitle.MakeScope.ScriptValue('arcane_fallout_decay_value')|P1] каждые #V 10#! лет благодаря следующим природным факторам:#indent_newline:3 \n[HoldingView.GetCountyTitle.MakeScope.GetScriptValueDesc('arcane_fallout_decay_value')]#!" #NT!
