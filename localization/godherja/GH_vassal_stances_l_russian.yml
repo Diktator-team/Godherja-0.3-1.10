@@ -1,0 +1,20 @@
+﻿l_russian:
+ magic_focused: "Сосредоточен на магии" #NT!
+ magic_focused_desc: "[vassals|E] сосредоточенные на магии заботятся об исследовании [Concept('arcane','арканных')|E] и [Concept('magical','магических')|E] качеств мира и показывают свои знания о нем. Рациональные и любопытные Вассалы часто перенимают эти [vassal_stance|E]. Они с большей вероятностью попытаются изучить и захватить магию.\n\n#low $magic_focused$ Вассалам нравится, когда их сюзерен:#!\n$EFFECT_LIST_BULLET$Имеет низкий [crown_authority|E]\n$EFFECT_LIST_BULLET$Дает [titles|E] персонажам [Concept('magi','магам')|E] \n$EFFECT_LIST_BULLET$Преуспевает в [scheme|E] [crown_authority|E]\n$EFFECT_LIST_BULLET$Является [Concept('magi','магом')|E]\n\n#low $magic_focused$ Вассалам не нравится, когда их сюзерен:#!\n$EFFECT_LIST_BULLET$Имеет высокий [crown_authority|E]\n\nОни предпочитают мощных [Concept('heirs','наследников')|E] [Concept('magi','магов')|E] с высоким навыком [arcana_i][arcana|E]." #NT!
+ magic_focused_filter_option: "$magic_focused$" #NT!
+ magic_focused_option_desc: "Показывать только персонажей с [GetVassalStance( 'magic_focused').GetName] [vassal|e]" #NT!
+ magic_focused_vassals: "[GetVassalStance( 'magic_focused' ).GetTextIcon][GetVassalStance( 'magic_focused' ).GetName] [vassals|E]" #NT!
+ magic_focused_vassal: "[GetVassalStance( 'magic_focused' ).GetTextIcon][GetVassalStance( 'magic_focused' ).GetName] [vassal|E]" #NT!
+ magic_focused_opinion: "$magic_focused_vassal$ Мнение" #NT!
+ magic_focused_same_faith_opinion: "$magic_focused_opinion$ #weak (Той же [faith|E])#!" #NT!
+ magic_focused_different_faith_opinion: "$magic_focused_opinion$ #weak (Другой [faith|E])#!" #NT!
+ magic_focused_same_culture_opinion: "$magic_focused_opinion$ #weak (Той же [culture|E])#!" #NT!
+ magic_focused_different_culture_opinion: "$magic_focused_opinion$ #weak (Другой [culture|E])#!" #NT!
+ magic_focused_tax_contribution_add: "$magic_focused_vassal$ [tax|E] [modifier_base_contribution|E]" #NT!
+ magic_focused_tax_contribution_mult: "$magic_focused_vassal$ [tax|E] [modifier_contribution|E]" #NT!
+ magic_focused_levy_contribution_add: "$magic_focused_vassal$ [levy|E] [modifier_base_contribution|E]" #NT!
+ magic_focused_levy_contribution_mult: "$magic_focused_vassal$ [levy|E] [modifier_contribution|E]" #NT!
+  
+ no_stance: "Нет позиции" #NT!
+ no_stance_desc: ""
+  

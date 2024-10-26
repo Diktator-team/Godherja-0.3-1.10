@@ -1,7 +1,7 @@
 ﻿l_russian:
  investigate_valerix_decision: "Расследовать убийство Легона Валерикса"
  investigate_valerix_decision_desc: "Когда Валерикс впервые собрал свои силы для долгого похода на запад, он сказал своему разнообразному легиону: «Мы идем не ради славы и выгоды, а ради матерей и сыновей, отцов и дочерей. Мы возвращаемся домой не ради славы и не для парада, а для что правильно и справедливо. Только мы можем спасти наш дом, сейчас и навсегда."\n\nДаже сейчас, когда он мертв, его слова тяжелым грузом лежат в наших душах. Наш долг — исправить ошибки и спасти нашу родину, но прежде чем мы сделаем это, мы должны отомстить за отца всем нам. Как мы можем спасти [aversaria|E], если не можем исправить даже эту малейшую обиду?\n\nДля этого мне нужны средства, с помощью которых я соберу оперативную группу для выслеживания убийцы. Пусть никто не будет в безопасности от ярости легиона, и пусть то, что произойдет дальше, станет посланием для всей Аверсарии."
- investigate_valerix_decision_confirm: "За Валерикса! Для [aversaria|E]!"
+ investigate_valerix_decision_confirm: "За Валерикса! За [aversaria|E]!"
  investigate_valerix_decision_tooltip: "Расследовать Валерикса"
   
  free_the_slaves_decision: "Свободные рабы в Каллиадосе"
@@ -10,7 +10,7 @@
  free_the_slaves_decision_4: "Свободные рабы в Сватевего"
  free_the_slaves_decision_5: "Свободные рабы в Хе Врерай"
  free_the_slaves_decision_6: "Свободные рабы в Гирее"
- free_the_slaves_decision_desc: "Губернатор мертв, а Аироной, каким мы его знали, распался. С отмщением Валерикса наступает новая эпоха, эпоха, в которой мы исправим [aversaria|E] и исправим ошибки, творившиеся тысячу лет.\n\nМы начнем с освобождения всех тех, кто находится в рабстве на наших землях, и мы сделаем то же самое в земли, которые мы покоряем. Разорвав их цепи, мы дадим им предложение: они могут уйти или присоединиться к нам и еще больше укрепить нашу армию. Несмотря на то, что сторонники жесткой линии, несомненно, найдут проблемы, поскольку губернатор мертв, им некому организоваться, и с учетом количества наших новых братьев, которые могут привести, мы будем более подготовлены, чем когда-либо, чтобы вернуть [GetTitleByKey('c_asiupoli').GetNameNoTier], а затем встретиться с Ведьмом-Разрушителем ."
+ free_the_slaves_decision_desc: "Губернатор мертв, а Аироной, каким мы его знали, распался. С отмщением Валерикса наступает новая эпоха, эпоха, в которой мы исправим [aversaria|E] и исправим ошибки, творившиеся тысячу лет.\n\nМы начнем с освобождения всех тех, кто находится в рабстве на наших землях, и мы сделаем то же самое в земли, которые мы покоряем. Разорвав их цепи, мы дадим им предложение: они могут уйти или присоединиться к нам и еще больше укрепить нашу армию. Несмотря на то, что сторонники жесткой линии, несомненно, найдут проблемы, поскольку губернатор мертв, им некому организоваться, и с учетом количества наших новых братьев, которые могут привести, мы будем более подготовлены, чем когда-либо, чтобы вернуть [GetTitleByKey('c_asiupoli').GetNameNoTier], а затем встретиться с Сокрушителем Ведьм ."
  free_the_slaves_decision_confirm: "Сегодня мы все [aversarians|E]."
  free_the_slaves_decision_2_confirm: "Сегодня мы все [aversarians|E]."
  free_the_slaves_decision_3_confirm: "Сегодня мы все [aversarians|E]."
@@ -24,11 +24,11 @@
  free_the_slaves_decision_5_tooltip: "Освободите рабов"
  free_the_slaves_decision_6_tooltip: "Освободите рабов"
  free_the_slaves_generic_valid_desc: "Вы должны полностью контролировать [duchy|E] в Аироное, чтобы освободить его рабов."
- free_the_slaves_decision_2_desc: "You must completely control the [duchy|E] of Tower Isles in Aironoi to free its slaves." #NT!
- free_the_slaves_decision_3_desc: "You must completely control the [duchy|E] of Lasanoi in Aironoi to free its slaves." #NT!
- free_the_slaves_decision_4_desc: "You must completely control the [kingdom|E] of Svatavego in Aironoi to free its slaves." #NT!
- free_the_slaves_decision_5_desc: "You must completely control the [duchy|E] of He Vrerai in Aironoi to free its slaves." #NT!
- free_the_slaves_decision_6_desc: "You must completely control the [kingdom|E] of Hyrea in Aironoi to free its slaves." #NT!
+ free_the_slaves_decision_2_desc: "Вы должны полностью контролировать [duchy|E] островов Тауэр в Айроное, чтобы освободить их рабов." #NT!
+ free_the_slaves_decision_3_desc: "Вы должны полностью контролировать [duchy|E] Ласаноя в Айроное, чтобы освободить его рабов." #NT!
+ free_the_slaves_decision_4_desc: "Вы должны полностью контролировать [kingdom|E] Сватавего в Айроное, чтобы освободить его рабов." #NT!
+ free_the_slaves_decision_5_desc: "Вы должны полностью контролировать [duchy|E] Хе Врерай в Айроное, чтобы освободить его рабов." #NT!
+ free_the_slaves_decision_6_desc: "Вы должны полностью контролировать [kingdom|E] Гиреи в Айроное, чтобы освободить ее рабов." #NT!
   
  aironoi_free_slaves_effect_tt: "Освобождение рабов вызовет неприязнь наших соотечественников, но и лояльность многих других. Сразу же будет собрана армия из присягнувших на верность. Мы также сможем освобождать рабов для получения различных благ в будущих областях завоевания."
   
@@ -85,47 +85,47 @@
  eastern_reforms.0011.desc: "Сомнение по-прежнему омрачает мой разум относительно Валерикса и правды о его смерти, но это сомнение я должен изгнать из своего разума, выполняя предстоящую задачу. Реформировать или нет, [GetTitleByKey('c_asiupoli').GetNameNoTier] не сможет удержаться Фенвирами, пока [aversarians|E] жив и сможет вернуть его. Имея перед собой чистокровных сыновей Аверсарии, мой легион и личные силы губернатора, пришло время вернуть наш город."
  eastern_reforms.0011.a: "Атака!"
   
- redlands_decision.0001.title: "Selling the Prism" #NT!
- redlands_decision.0001.desc: "The buyer sent an envoy, congratulating me on my crew's escape from the Redlands and offering to take the artifact out of my hands. Surely, this will be the last I'll have to deal with any crazed cultists or eight-legged beasties dogging my every move." #NT!
- redlands_decision.0001.a: "Now get this thing out of my sight." #NT!
- redlands_decision.0001.kashirya.tt: "The Abyssal Prism ends up somewhere in Kashirya." #NT!
- redlands_decision.0001.chevalie.tt: "The Abyssal Prism ends up somewhere in Chevalie." #NT!
- redlands_decision.0001.sarradon.tt: "The Abyssal Prism ends up somewhere in Sarradon." #NT!
+ redlands_decision.0001.title: "Продажа Призмы" #NT!
+ redlands_decision.0001.desc: "Покупатель прислал посланника, поздравляя меня с побегом моей команды из Редлендса и предлагая забрать артефакт из моих рук. Конечно, это будет последнее, с чем мне придется иметь дело с сумасшедшими культистами или восьминогими тварями, которые будут преследовать меня на каждом шагу." #NT!
+ redlands_decision.0001.a: "А теперь убери эту штуку с глаз долой." #NT!
+ redlands_decision.0001.kashirya.tt: "Глубинная призма заканчивается где-то в Кашире." #NT!
+ redlands_decision.0001.chevalie.tt: "Глубинная призма заканчивается где-то в Шевалье." #NT!
+ redlands_decision.0001.sarradon.tt: "Глубинная призма оказывается где-то в Саррадоне." #NT!
   
- redlands_decision.1000.t: "Decaying Lands" #NT!
- redlands_decision.1000.desc: "Our campaign to strip [redlands_decay_target.GetNameNoTier] of all things valuable or useful has thus far been successful in turning the land into a barren waste. With nothing left to give, it is now time we decide what is to happen to the leftovers." #NT!
- redlands_decision.1000.a: "Let the wild reclaim it, we are done with it." #NT!
- redlands_decision.1000.b: "A new cult would do wonders in this county." #NT!
- redlands_mystery_cult_spreads: "Mysterious Cults Appear in County" #NT!
- redlands_mystery_cult_spreads_desc: "Chaos begins to bubble as reports of mysterious cults wrecking havoc in [mystery_cult_spawn_location.GetNameNoTier]" #NT!
- redlander_decision.1000.magic_cost_tt: "You will lose #negative_value; [EmptyScope.ScriptValue('redlander_decay_county_interaction_mana_cost')|0]#!@magic_icon![magic|E]" #NT!
- redlander_decision.1000.magic_gain_tt: "You will gain #positive_value; [EmptyScope.ScriptValue('redlander_decay_county_interaction_mana_gain')|0]#!@magic_icon![magic|E]" #NT!
+ redlands_decision.1000.t: "Разлагающиеся земли" #NT!
+ redlands_decision.1000.desc: "Наша кампания по лишению [redlands_decay_target.GetNameNoTier] всего ценного и полезного до сих пор была успешной, превратив землю в бесплодную пустыню. Поскольку отдать больше нечего, пришло время решить, что делать с остатками." #NT!
+ redlands_decision.1000.a: "Пусть дикая природа вернет себе это, мы с этим покончили." #NT!
+ redlands_decision.1000.b: "Новый культ сотворил бы чудеса в этом округе." #NT!
+ redlands_mystery_cult_spreads: "В округе появляются таинственные культы" #NT!
+ redlands_mystery_cult_spreads_desc: "Хаос начинает нарастать, так как поступают сообщения о таинственных культах, сеющих хаос в [mystery_cult_spawn_location.GetNameNoTier]" #NT!
+ redlander_decision.1000.magic_cost_tt: "Вы потеряете #negative_value; [EmptyScope.ScriptValue('redlander_decay_county_interaction_mana_cost')|0]#!@magic_icon![magic|E]" #NT!
+ redlander_decision.1000.magic_gain_tt: "Вы получите #positive_value; [EmptyScope.ScriptValue('redlander_decay_county_interaction_mana_gain')|0]#!@magic_icon![magic|E]" #NT!
   
- redlands_decision.2001.t: "Crimson Canyons Forever" #NT!
- redlands_decision.2001.desc: "Years of conflict with outsiders, colonizers, and thieves of all shapes and sizes once overwhelmed the [redlands|E]. No more. With the last of the outsiders fleeing for the sea, the Redlands are once again fully that of its strange inhabitants, and only time will tell what will come of their new independence." #NT!
- redlands_decision.2001.a: "What does the future hold?" #NT!
+ redlands_decision.2001.t: "Багровые Каньоны Навсегда" #NT!
+ redlands_decision.2001.desc: "Годы конфликта с чужаками, колонизаторами и ворами всех форм и размеров когда-то сокрушили [redlands|E]. Больше нет. С последними чужаками, бежавшими к морю, Редлендс снова полностью принадлежит своим странным обитателям, и только время покажет, что выйдет из их новой независимости." #NT!
+ redlands_decision.2001.a: "Что нас ждет в будущем?" #NT!
   
- redlands_decision.2002.t: "Fading Sands" #NT!
- redlands_decision.2002.desc: "What were once considered the strangest occultists in [aversaria|E] are no more. The "Redlanders" once dominated the [redlands|E] yet with the last of their cults disappearing from the canyons, they exist now as little more than a folktale. Only time will tell what will come of the silent canyons." #NT!
- redlands_decision.2002.a: "What does the future hold?" #NT!
+ redlands_decision.2002.t: "Исчезающие пески" #NT!
+ redlands_decision.2002.desc: "Те, кого когда-то считали самыми странными оккультистами в [aversaria|E], больше не существуют. «Редлендеры» когда-то доминировали в [redlands|E], но с исчезновением последнего из их культов из каньонов они теперь существуют как нечто большее, чем просто сказка. Только время покажет, что станет с молчаливыми каньонами." #NT!
+ redlands_decision.2002.a: "Что нас ждет в будущем?" #NT!
   
- redlands_decision.2003.t: "Shattered Dreams" #NT!
- redlands_decision.2003.desc: "It seems that whatever grand designs were planned for the chaos wreaking havoc across the [redlands|E] have come to naught, as the Redlanders return to the deep canyons." #NT!
- redlands_decision.2003.a: "What does the future hold?" #NT!
+ redlands_decision.2003.t: "Разбитые Мечты" #NT!
+ redlands_decision.2003.desc: "Похоже, что все грандиозные планы по созданию хаоса и разрушений на [redlands|E] сошли на нет, поскольку жители Редленда возвращаются в глубокие каньоны." #NT!
+ redlands_decision.2003.a: "Что нас ждет в будущем?" #NT!
   
- redlands_decision.2004.t: "A New World" #NT!
- redlands_decision.2004.desc: "Despite decades, centuries, of scheming, it seems the plans of the Redlander cults have been all for naught. None remember what is needed to achieve their goals as the chaos has turned to a fragile stability." #NT!
- redlands_decision.2004.a: "What does the future hold?" #NT!
+ redlands_decision.2004.t: "Новый Мир" #NT!
+ redlands_decision.2004.desc: "Несмотря на десятилетия, столетия интриг, похоже, планы культов Редлендера были напрасны. Никто не помнит, что нужно для достижения их целей, поскольку хаос превратился в хрупкую стабильность." #NT!
+ redlands_decision.2004.a: "Что нас ждет в будущем?" #NT!
   
- redlands_decision.2005.t: "Ancient Designs Made Real" #NT!
- redlands_decision.2005.desc: "The grand designs of the mysterious [redlands|E] cults have finally born fruit. The chaos wreaking havoc in their lands has now spread across the whole planet as the Sun once above dies, and the world turns to shadow." #NT!
- redlands_decision.2005.a: "What does the future hold?" #NT!
+ redlands_decision.2005.t: "Древние проекты, ставшие реальностью" #NT!
+ redlands_decision.2005.desc: "Грандиозные замыслы таинственных культов [redlands|E] наконец-то принесли плоды. Хаос, сеющий хаос на их землях, теперь распространился по всей планете, поскольку Солнце, когда-то бывшее наверху, умирает, и мир превращается в тень." #NT!
+ redlands_decision.2005.a: "Что нас ждет в будущем?" #NT!
   
- redlands_crisis_ended_tooltip: "The Redlands Crisis Ends" #NT!
- story_redlands_crisis_story_name: "The Redlands Crisis" #NT!
- story_redlands_crisis_story_desc: "Chaos has taken hold in the strange and mysterious [redlands|E] as powerful magics and foreboding cults seep out from the deep sands." #NT!
+ redlands_crisis_ended_tooltip: "Кризис в Редлендсе заканчивается" #NT!
+ story_redlands_crisis_story_name: "Кризис Редлендса" #NT!
+ story_redlands_crisis_story_desc: "Хаос овладел странным и таинственным [redlands|E], когда могущественная магия и зловещие культы просачиваются из глубоких песков." #NT!
   
   
- must_not_be_redlander_or_must_end_crisis: "Must not follow [GetReligionByKey('redland_cults_religion').GetName] [faith|E] or must have ended the Redlands Crisis." #NT!
+ must_not_be_redlander_or_must_end_crisis: "Не должно следовать за [GetReligionByKey('redland_cults_religion').GetName] [faith|E] или должно положить конец кризису Редлендса." #NT!
   
- must_not_be_redlander_or_must_end_sun: "Must not follow [GetReligionByKey('redland_cults_religion').GetName] [faith|E] or must have ended the Redlands Crisis by killing the Sun." #NT!
+ must_not_be_redlander_or_must_end_sun: "Не должно следовать за [GetReligionByKey('redland_cults_religion').GetName] [faith|E] или должно положить конец кризису Редлендса, убив Солнце." #NT!
