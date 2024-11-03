@@ -110,7 +110,7 @@
  solar_bombardment_name: "Солнечная бомбардировка" #NT!
  solar_bombardment_desc: "" #NT!
  arcane_virility_name: "Арканная фертильность"
- arcane_virility_desc: "Даёт временное увеличение [fertility|E]"
+ arcane_virility_desc: "Даёт временное увеличение [Concept( 'fertility', 'плодовитости' )|E]"
  inter_in_ice_name: "Искусственный лёд"
  freeze_the_earth_name: "Очищающий мороз"
  freeze_target_character_name: "Заморозить цель"
@@ -119,11 +119,11 @@
  petrify_target_character_desc: "Окаменение цели, превращающее её в [aspect_stone] и создав [artifact|E]."
  summonfog_name: "Призвать туман"
  desertify_name: "Смертельные пески"
- sinking_sands_name: "Топкие пески" #NT!
- sand_shield_name: "Песчаный щит" #NT!
+ sinking_sands_name: "Зыбучие пески" 
+ sand_shield_name: "Песчаный щит" 
  sandforged_weapons_name: "Песчаное оружие" #NT!
  dune_speed_name: "Скорость дюн" #NT!
- oasis_bloom_name: "Цветущий оазис" #NT!
+ oasis_bloom_name: "Цветущий оазис" 
  armor_shred_name: "Кромсание брони" #NT!
  abyssal_sandstorm_name: "Бездна песчаной бури" #NT!
  immunity_destruction_magic_name: "Разрушение иммунитета"
@@ -292,13 +292,13 @@
  vitalize_livestock_desc: "[aspect_fire] Магия увеличивает плодовитость скота в этом графстве, увеличивая доходность."
   
  drought_water_name: "Чистое небо"
- drought_water_desc: "Это заклинание перенаправляет все осадки и влажность с неба целевого округа, вызывая в этом районе период засухи."
+ drought_water_desc: "Это заклинание перенаправляет все осадки и влажность с неба целевой провинции, вызывая в этом районе период засухи."
   
- drought_fire_name: "Палящее Солнце"
- drought_fire_desc: "Используя магию [aspect_fire], температура резко возрастает, и колодцы высыхают."
+ drought_fire_name: "Палящее солнце"
+ drought_fire_desc: "При использовании магии [aspect_fire], температура резко возрастает, и колодцы высыхают."
   
- drought_light_name: "Обжигающее Солнце"
- drought_light_desc: "Используя магию [aspect_light], Солнце светит ярче, выжигая землю и тех, кто снаружи, губя урожай."
+ drought_light_name: "Обжигающее солнце"
+ drought_light_desc: "При использовании магии [aspect_light], солнце светит ярче, выжигая землю и тех, кто снаружи, губя урожай."
   
  iceskin_name: "Ледяная кожа"
  iceskin_desc: "Кожа заклинателя покрывается защитным слоем [aspect_ice]."
@@ -643,12 +643,12 @@
  slow_army_movement_modifier: "Медленная армия"
  slow-army_movement_modifier_desc: "Магия заставляет эти войска замедляться."
   
- fast_army_movement_modifier_name: "Быстрая армия" #NT!
- fast_army_movement_modifier_desc: "Магия заставляет эти войска двигаться с большей скоростью." #NT!
+ fast_army_movement_modifier_name: "Ускоренная армия" 
+ fast_army_movement_modifier_desc: "Магия заставляет эти войска двигаться с большей скоростью." 
   
   
- add_character_modifier_fast_army_movement_name: "Быстрая армия" #NT!
- add_character_modifier_fast_army_movement_desc: "Магия заставляет эти войска двигаться с большей скоростью." #NT!
+ add_character_modifier_fast_army_movement_name: "Ускоренная армия"
+ add_character_modifier_fast_army_movement_desc: "Магия заставляет эти войска двигаться с большей скоростью." 
   
   
   
@@ -718,8 +718,8 @@
  bronze_fists_name: "Бронзовые кулаки" #NT!
  bronze_fists_desc: "Впервые использованный знаменитым искателем приключений Ши Фа Чжи, этот простой массив создает крепкую пару бронзовых перчаток, чтобы сокрушать врагов. Хотя когда-то это было фирменное заклинание его потомков, с тех пор оно было принято в качестве наступательного заклинания по выбору магов-стражей [bronzeport|E]." #NT!
   
- arcane_foundries_name: "Тайные литейные заводы" #NT!
- arcane_foundries_desc: "Многослойное заклинание, которое не только вызывает инструменты и оборудование, используемые для ковки и строительства, но и, как ни странно, пробуждает усердие у населения, на которое направлено заклинание." #NT!
+ arcane_foundries_name: "Тайные литейные заводы" 
+ arcane_foundries_desc: "Многослойное заклинание, которое не только создаёт инструменты и оборудование, используемые для ковки и строительства, но и, как ни странно, пробуждает усердие у населения, на которое направлено заклинание." 
   
  spawn_bronze_golem_army_name: "Бронзовые големы" #NT!
  spawn_bronze_golem_army_desc: "Изготовление бронзовых големов" #NT!
@@ -828,10 +828,10 @@
  spawn_dream_elementals_army_name: "Элементали грёз" #NT!
  spawn_dream_elementals_army_desc: "Элементали грез [aspect_dream] — это бесплотные воплощения подсознания, облеченные в форму. Знают они об этом или нет, но все существа на [Concept('aeras','Аэрасе')|E] взаимодействуют с элементалями снов каждый раз, когда засыпают. Элементали снов известны тем, что они особенно непостоянны и темпераментны. Маги и ученые приводят множество случаев, свидетельствующих о том, что элементали грез склонны по своей прихоти решать, стоит ли мучить человека ужасными кошмарами, которые сводят его с ума и в конечном итоге приводят к смерти, или же вместо этого он должен увидеть серию приятных снов, в которых могут содержаться подсказки о будущем." #NT!
   
- spawn_lightning_elementals_name: "Молниевые элементали" #NT!
- spawn_lightning_elementals_desc: "Призвать молниевых элементалей" #NT!
- spawn_lightning_elementals_army_name: "Молниевые элементали" #NT!
- spawn_lightning_elementals_army_desc: "Эти смертоносные существа — живое воплощение [aspect_fire] и [aspect_air] слитых воедино. Когда их провоцируют, эти элементали способны обрушить разрушительную ярость бури на всех, кто встанет на их пути." #NT!
+ spawn_lightning_elementals_name: "Элементали молний" 
+ spawn_lightning_elementals_desc: "Призвать элементалей молний" 
+ spawn_lightning_elementals_army_name: "Элементали молний" 
+ spawn_lightning_elementals_army_desc: "Эти смертоносные существа — живое воплощение [aspect_fire] и [aspect_air] слитых воедино. Когда их провоцируют, эти элементали способны обрушить разрушительную ярость бури на всех, кто встанет на их пути." 
   
  spawn_quicksilver_elementals_name: "Зыбучие элементали" #NT!
  spawn_quicksilver_elementals_desc: "Призвать зыбучих элементалей" #NT!
@@ -1035,10 +1035,10 @@
   
  restore_kemsar_name: "Восстановить Мёртвую реку"
  restore_kemsar_desc: "Возвращает воду на земли Кемсара, меняя [terrain|E] и поднимая [development|E]."
- kemsar_restores_terrain: "Заменяет [terrain|E] с засушливого, повышая уровень воды и делая экологию более умеренной."
+ kemsar_restores_terrain: "Заменяет [terrain|E] с засушливого, повышая уровень воды и делая климат более умеренным."
  kemsar_restores_counties: "Повышает [development|E] каждого [Concept('county','графства')|E] в Кемсаре."
- destroy_sun_name: "Погасить Солнце" #NT!
- destroy_sun_desc: "Вызывает остывание и гибель Солнца в течение нескольких лет, что приводит к всемирному апокалипсису невиданных масштабов" #NT!
+ destroy_sun_name: "Погасить солнце" 
+ destroy_sun_desc: "Вызывает остывание и гибель Солнца в течение нескольких лет, что приводит к всемирному апокалипсису невиданных масштабов" 
  # Non-Effect Tags 
  requires_target_deceased_parent_name: "Падший прародитель"
  requires_target_deceased_parent_desc: "Может быть применено только к целям, у которых есть хотя бы один умерший родитель."
@@ -1050,9 +1050,9 @@
   
  # Stress Tags 
  hex_name: "Сглаз" #NT!
- hex_desc: "Данный [ritual|E] является сглазом; как правило, он не вызывает никаких видимых эффектов и не может быть обнаружен или опротестован после наложения. Однако его полное действие активируется только при выполнении определённого условия, и лишь тогда жертва может противодействовать или обнаружить источник [Concept('ritual','ритуала')|E]." #NT!
- increase_stress_name: "Повысить стресс" #NT!
- increase_stress_desc: "Повышение [Concept('stress','стресса')|E]." #NT!
+ hex_desc: "Данный [ritual|E] является сглазом; как правило, он не вызывает никаких видимых эффектов и не может быть обнаружен или отменен после наложения. Однако его полное действие активируется только при выполнении определённого условия, и лишь тогда жертва может противодействовать или обнаружить источник [Concept('ritual','ритуала')|E]." 
+ increase_stress_name: "Повысить стресс" 
+ increase_stress_desc: "Повышение [Concept('stress','стресса')|E]." 
  sadistic_effects_name: "Жестокие эффекты"
  sadistic_effects_desc: "Имеет особенно жестокие и бесчеловечные эффекты — на некоторые [Concept('traits','свойства')|E] будут воздействовать эффекты [Concept('stress','стресса')|E] при применении."
  increase_stress_pain_name: "Болезненный опыт"
@@ -1259,7 +1259,7 @@
   
   
  shape_change_magic_modifier_1: "Странная форма"
- shape_change_magic_modifier_1_desc: "Этот персонаж выглядит так же, но что-то не так с его поведением, он что вырос?"
+ shape_change_magic_modifier_1_desc: "Этот персонаж выглядит так же, но что-то не так с его поведением, он что, вырос?"
   
  shape_change_magic_modifier_2: "Немного чудовищная форма"
  shape_change_magic_modifier_2_desc: "В глазах этого персонажа появился определённый голод, в них есть необычная сила."
@@ -1291,7 +1291,7 @@
  magic_life_extension_modifier: "Продление жизни"
  magic_life_extension_modifier_desc: "Этот персонаж продлил свою жизнь с помощью паразитической магии, потребляя жизненную энергию других для поддержания своего неестественного существования."
  magic_life_corruption_modifier: "Оккультное ослабление"
- magic_life_corruption_modifier_desc: "Продолжительность жизни этого персонажа была истощена из-за постоянного воздействия исцеляющей магии."
+ magic_life_corruption_modifier_desc: "Постоянное воздействие исцеляющей магии истощило жизненные силы этого персонажа, значительно сократив его продолжительность жизни."
   
  magic_prowess_gain_modifier: "Усиленная доблесть"
  magic_prowess_gain_modifier_desc: "Навыки владения оружием этого персонажа были улучшены с помощью арканных средств."
@@ -1730,8 +1730,8 @@
   # Bound Entity Creatures 
  snake_bound_entity_name: "Змея" #NT!
  snake_bound_entity_desc: "Коварная, ползучая тварь, которая в большинстве культур пользуется большой популярностью." #NT!
-  # Bound Entity Attributes 
- spy_bound_entity_attribute_name: "Шпион" #NT!
- spy_bound_entity_attribute_desc: "Имеет шанс обнаружить [secrets|E] в месте своего пребывания" #NT!
+  # Bound Entity Attributes
+ spy_bound_entity_attribute_name: "Шпион" 
+ spy_bound_entity_attribute_desc: "Имеет шанс обнаружить [secrets|E] в месте своего пребывания" 
  Assassin_bound_entity_attribute_name: "Убийца" #NT!
  Assassin_bound_entity_attribute_desc: "Можно использовать для убийства персонажей, не прибегая к [Concept('scheme','проискам')|E]" #NT!
