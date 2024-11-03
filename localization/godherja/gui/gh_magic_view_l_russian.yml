@@ -1450,11 +1450,11 @@
  add_character_modifier_diplomacy_negative_name: "Ослабленная дипломатия" #NT!
  add_character_modifier_diplomacy_negative_desc: "Уменьшает [diplomacy|E] у целевого персонажа" #NT!
   
- magic_stress_loss_mult_modifier: "Успокоенная психика" #NT!
- magic_stress_loss_mult_modifier_desc: "Способность этого персонажа терять стресс была усилена с помощью арканных средств." #NT!
+ magic_stress_loss_mult_modifier: "Успокоенная психика" 
+ magic_stress_loss_mult_modifier_desc: "Способность этого персонажа терять стресс была усилена с помощью арканных средств." 
   
- magic_stress_positive: "Усиленная психика" #NT!
- magic_stress_positive_desc: "С помощью магических средств этот персонаж становится менее восприимчивым к стрессу." #NT!
+ magic_stress_positive: "Усиленная психика" 
+ magic_stress_positive_desc: "С помощью магических средств этот персонаж становится менее восприимчивым к стрессу." 
   
  diplomacy_magic_modifier_seduction_negative: "Соблазнительная неумелость"
  diplomacy_magic_modifier_seduction_negative_desc: "Даёт временное снижение [Concept('scheme_success_chance','шанса на успех происков')|E] соблазнения и [Concept('opinion','мнения')|E] о [Concept('attraction','привлекательности')|E]."
@@ -1477,10 +1477,10 @@
  magic_defiled_nadir_broken_bond_modifier: "Разрушенные узы" #NT!
  magic_defiled_nadir_broken_bond_modifier_desc: "Этот персонаж искалечен последствиями разрушенной магической связи." #NT!
   
- county_illuminated_night_modifier: "Освещённая ночь" #NT!
- county_illuminated_night_modifier_desc: "В этом графстве волшебное освещение сдерживает темноту." #NT!
- county_light_pollution_modifier: "Ночное загрязнение" #NT!
- county_light_pollution_modifier_desc: "Чрезмерное освещение в ночное время нарушает сон людей и местную экологию." #NT!
+ county_illuminated_night_modifier: "Освещённая ночь" 
+ county_illuminated_night_modifier_desc: "В этом графстве волшебное освещение сдерживает темноту." 
+ county_light_pollution_modifier: "Световое загрязнение" 
+ county_light_pollution_modifier_desc: "Чрезмерное освещение в ночное время нарушает сон людей и вредит местной природе." 
   
  religous_fanaticism: "Религиозный фанатизм" #NT!
  religous_fanaticism_desc: "Этот персонаж не терпит тех, кто отклоняется от его веры." #NT!
